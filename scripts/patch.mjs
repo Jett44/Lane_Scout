@@ -142,7 +142,18 @@ export async function run({ apply = false, quiet = false } = {}) {
   return { live, previous: state.patch, changed, stale, firstRun: false };
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
+
+/* True when this file was run directly. process.argv[1] is undefined when the
+   module is imported programmatically (node -e, a test harness), and calling
+   .replace on it there throws before anything else can run. */
+function isMain(url) {
+  const entry = process.argv[1];
+  if (!entry) return false;
+  return url === new URL("file://" + entry.replace(/\\/g, "/")).href
+      || url.endsWith(entry.replace(/\\/g, "/"));
+}
+
+if (isMain(import.meta.url)) {
   run({ apply: process.argv.includes("--apply") }).catch((e) => {
     console.error(`patch check failed: ${e.message}`);
     process.exit(1);

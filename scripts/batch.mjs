@@ -15,6 +15,7 @@ import { generateOne } from "./generate.mjs";
 import { build } from "./build.mjs";
 import { publish } from "./publish.mjs";
 import { run as patchCheck } from "./patch.mjs";
+import { refreshAssets, readAssets } from "./assets.mjs";
 
 const arg = (name, dflt) => {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
@@ -45,6 +46,12 @@ async function main() {
     const p = await patchCheck({ apply: !DRY, quiet: true });
     livePatch = p.live;
     if (p.stale?.length) log(`patch ${p.previous} -> ${p.live}: requeued ${p.stale.length} stale brief(s)`);
+
+    /* New patch means new and renamed items — refresh the icon map too, or
+       anything Riot added this patch renders without art. */
+    if (!DRY && (p.firstRun || p.previous !== p.live || !readAssets())) {
+      try { await refreshAssets(); } catch (e) { log(`asset refresh skipped — ${e.message}`); }
+    }
   } catch (e) {
     log(`patch check skipped — ${e.message}`);
   }
