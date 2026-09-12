@@ -1,47 +1,29 @@
 /* ---------------- offline lookup + self-update ---------------- */
 
-/* The shared build has no Claude behind it, so it can never write a brief.
-   What it can do is pick up fresher data that was pushed since the file was
-   sent, and tell the truth about which patch its briefs were written on.
-
-   Order of preference, newest wins:
-     1. data fetched from the repo just now
-     2. data cached in this browser from an earlier launch
-     3. the data baked into this file  (always works, even offline) */
+/* Order of preference for the data, newest wins:
+     1. fetched from the repo just now
+     2. cached in this browser from an earlier launch
+     3. baked into this file  (always works, even offline) */
 
 sampleFn = true;
 
-var CACHE_KEY  = "lanescout.data.v1";
-var PINS_KEY   = "lanescout.pins.v1";
-var RECENT_KEY = "lanescout.recent.v1";
+var CACHE_KEY   = "lanescout.data.v1";
+var PINS_KEY    = "lanescout.pins.v1";
+var RECENT_KEY  = "lanescout.recent.v1";
+var SIDEBAR_KEY = "lanescout.sidebar.v1";
 
 var DATA = { briefs: BRIEFS, patch: META.patch, builtAt: META.builtAt };
 var INDEX = {}, COVERED = [];
 var LIVE_PATCH = null;
-var browsing = false;
-
-/* True only when this page is being served by scripts/serve.mjs on the
-   owner's machine. A copy opened as a file, or sent to someone else, never
-   finds the API and stays read-only. */
 var CAN_GENERATE = false;
-
-/* The situational rewrite currently on screen, if any. Never stored in DATA. */
 var VARIANT = null;
 
-/* ARCHIVED — the "Anything else" contextual rewrite.
- *
- * Parked, not deleted. The whole path still exists and works end to end
- * (offline.js -> /api/generate -> generate.mjs -> data/variants/), but the
- * model returned an incomplete brief for a context-laden prompt and the
- * validator correctly rejected it, so the feature is off rather than shipping
- * something that fails in front of a reader.
- *
- * Flip this to true to bring it back; nothing else needs changing. The prompt
- * in lib.mjs buildPrompt() is where the fix would go. */
+/* ARCHIVED — the "Anything else" contextual rewrite. Parked, not deleted; the
+   whole path still exists behind this flag. See README. */
 var CONTEXT_FEATURE = false;
 
-/* Every read and write is guarded: a private window, or a browser set to
-   block site data, throws on access rather than returning empty. */
+var COVERAGE = { done: META.count, total: META.target || 0 };
+
 function readList(key){
   try {
     var v = JSON.parse(localStorage.getItem(key) || "[]");
@@ -58,86 +40,136 @@ var recents = readList(RECENT_KEY);
 try {
   var cached = JSON.parse(localStorage.getItem(CACHE_KEY) || "null");
   if (cached && cached.briefs && cached.builtAt > DATA.builtAt) DATA = cached;
-} catch (e) { /* baked data is a fine fallback */ }
+} catch (e) {}
 
-/* ---------------- small style additions for the rail ---------------- */
+/* ---------------- Riot icons ---------------- */
+
+/* Names in a brief are prose ("Doran's Shield + Health Potion"), while Riot
+   indexes by id — so match on the exact name first, then the best containment
+   either way. Anything unmatched simply renders without an icon: the text has
+   always been the thing carrying the meaning. */
+var DD = "https://ddragon.leagueoflegends.com";
+var iconCache = {};
+
+function lookupIcon(kind, name){
+  var map = ASSETS && ASSETS[kind];
+  if (!map || !name) return null;
+  var ck = kind + "|" + name;
+  if (ck in iconCache) return iconCache[ck];
+
+  var k = String(name).toLowerCase().trim();
+  var file = map[k];
+
+  if (!file){
+    var best = null;
+    for (var cand in map){
+      if (k.indexOf(cand) !== -1 || cand.indexOf(k) !== -1){
+        if (!best || cand.length > best.length) best = cand;
+      }
+    }
+    if (best) file = map[best];
+  }
+
+  var url = null;
+  if (file){
+    if (kind === "rune")      url = DD + "/cdn/img/" + file;
+    else if (kind === "item") url = DD + "/cdn/" + ASSETS.version + "/img/item/" + file;
+    else if (kind === "spell")url = DD + "/cdn/" + ASSETS.version + "/img/spell/" + file;
+    else if (kind === "champ")url = DD + "/cdn/" + ASSETS.version + "/img/champion/" + file;
+  }
+  iconCache[ck] = url;
+  return url;
+}
+
+function iconImg(kind, name, cls){
+  var url = lookupIcon(kind, name);
+  if (!url) return "";
+  return '<img class="ic ' + (cls || "") + '" src="' + esc(url) + '" alt="" loading="lazy" '
+    + 'onerror="this.style.display=\'none\'">';
+}
+
+/* ---------------- styles ---------------- */
 (function(){
   var s = document.createElement("style");
   s.textContent =
-    ".chip.pin{border-color:var(--accent);color:var(--accent)}" +
-    ".chip .st{color:var(--accent);margin-right:4px}" +
-    ".railsep{width:1px;align-self:stretch;background:var(--line);margin:0 4px}" +
-    ".chip.ghost{border-style:dashed;color:var(--ink-3)}" +
-    ".pinbtn{border:1px solid var(--line-strong);background:transparent;border-radius:3px;" +
-      "font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;" +
-      "padding:4px 9px;cursor:pointer;color:var(--ink-2)}" +
-    ".pinbtn[aria-pressed=\"true\"]{background:var(--accent);border-color:var(--accent);color:#fff}" +
-    ".browse{display:flex;flex-wrap:wrap;gap:7px;padding:9px 0 0;width:100%}" +
-    /* Without a reserved gutter the scrollbar appears and disappears as briefs
-       change length, the viewport width jumps, and the bar re-wraps — which
-       looked like the layout randomly breaking. */
+    /* scrollbar gutter keeps the header from re-wrapping as briefs change length */
     "html{scrollbar-gutter:stable}" +
-    ".ctx{flex:1 1 200px;min-width:160px}" +
+    ".field[hidden]{display:none!important}" +
     ".go{flex:none}" +
-    ".prog{width:100%;padding:9px 0 2px;display:flex;flex-direction:column;gap:6px}" +
+
+    /* --- icons --- */
+    ".ic{width:22px;height:22px;border-radius:3px;vertical-align:middle;flex:none;" +
+      "background:var(--surface-2)}" +
+    ".ic.sm{width:17px;height:17px;border-radius:2px}" +
+    ".ic.lg{width:28px;height:28px}" +
+    ".ic.rune{border-radius:50%;background:transparent}" +
+
+    /* --- sidebar --- */
+    "#sb{position:fixed;top:0;left:0;bottom:0;width:246px;background:var(--surface);" +
+      "border-right:1px solid var(--line);z-index:40;display:flex;flex-direction:column;" +
+      "transform:translateX(0);transition:transform .22s ease;overflow:hidden}" +
+    "body.sb-closed #sb{transform:translateX(-246px)}" +
+    "body.sb-open{padding-left:246px}" +
+    "@media (max-width:900px){body.sb-open{padding-left:0}#sb{box-shadow:var(--shadow)}}" +
+    "#sb .sbhead{display:flex;align-items:center;justify-content:space-between;gap:8px;" +
+      "padding:14px 14px 12px;border-bottom:1px solid var(--line)}" +
+    "#sb .sbhead b{font-family:var(--display);font-weight:700;font-size:17px;" +
+      "letter-spacing:.10em;text-transform:uppercase;line-height:1}" +
+    "#sb .sbbody{overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:20px;flex:1}" +
+    "#sb h4{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;" +
+      "color:var(--ink-3);margin:0 0 8px;font-weight:400}" +
+    ".sbitem{display:flex;align-items:center;gap:8px;width:100%;text-align:left;border:0;" +
+      "background:transparent;border-radius:3px;padding:5px 6px;cursor:pointer;color:var(--ink-2);" +
+      "font-family:var(--display);font-weight:600;font-size:14.5px;letter-spacing:.01em}" +
+    ".sbitem:hover{background:var(--surface-2);color:var(--ink)}" +
+    ".sbitem.on{color:var(--accent)}" +
+    ".sbitem .vs{font-size:10px;letter-spacing:.1em;color:var(--ink-3);padding:0}" +
+    ".sbempty{font-family:var(--mono);font-size:10px;line-height:1.6;color:var(--ink-3)}" +
+    ".sbtoggle{border:1px solid var(--line-strong);background:transparent;border-radius:3px;" +
+      "cursor:pointer;color:var(--ink-2);font-family:var(--mono);font-size:13px;line-height:1;" +
+      "padding:9px 10px}" +
+    ".sbtoggle:hover{border-color:var(--accent);color:var(--accent)}" +
+    "#sbopen{position:fixed;top:12px;left:12px;z-index:39;display:none}" +
+    "body.sb-closed #sbopen{display:block}" +
+    /* the sidebar carries the wordmark while it is open — don't print it twice */
+    "body.sb-open .mark{display:none}" +
+    "body.sb-closed .bar-inner{padding-left:44px}" +
+
+    /* --- progress --- */
+    ".prog{display:flex;flex-direction:column;gap:7px}" +
     ".prog-track{height:4px;border-radius:99px;background:var(--surface-2);overflow:hidden}" +
-    ".prog-fill{height:100%;background:var(--accent);border-radius:99px;" +
-      "transition:width .5s ease;min-width:2px}" +
-    ".prog-line{display:flex;flex-wrap:wrap;gap:5px 14px;align-items:baseline;" +
-      "font-family:var(--mono);font-size:10px;letter-spacing:.07em;color:var(--ink-3)}" +
+    ".prog-fill{height:100%;background:var(--accent);border-radius:99px;transition:width .5s ease;min-width:2px}" +
+    ".prog-line{display:flex;flex-direction:column;gap:3px;font-family:var(--mono);font-size:10px;" +
+      "letter-spacing:.06em;color:var(--ink-3);line-height:1.5}" +
     ".prog-line b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}" +
     ".prog-line .eta{color:var(--accent)}" +
-    /* .field is display:flex, which wins over the hidden attribute's UA rule */
-    ".field[hidden]{display:none!important}";
+
+    /* --- champion picker --- */
+    ".pickwrap{position:relative}" +
+    "#pick{position:absolute;z-index:60;background:var(--surface);border:1px solid var(--line-strong);" +
+      "border-radius:4px;box-shadow:var(--shadow);width:322px;max-height:326px;overflow-y:auto;padding:7px}" +
+    "#pick .pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px}" +
+    ".pick-it{display:flex;align-items:center;gap:8px;border:0;background:transparent;cursor:pointer;" +
+      "border-radius:3px;padding:5px 6px;text-align:left;color:var(--ink);font-family:var(--display);" +
+      "font-weight:600;font-size:14px;letter-spacing:.01em;min-width:0}" +
+    ".pick-it span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}" +
+    ".pick-it:hover,.pick-it.sel{background:var(--accent);color:#fff}" +
+    ".pick-it.has{color:var(--accent)}" +
+    ".pick-it.has:hover,.pick-it.has.sel{color:#fff}" +
+    ".pick-none{padding:12px;font-family:var(--mono);font-size:10.5px;color:var(--ink-3);line-height:1.6}" +
+    ".pickhint{padding:5px 7px 8px;font-family:var(--mono);font-size:9px;letter-spacing:.1em;" +
+      "text-transform:uppercase;color:var(--ink-3);border-bottom:1px solid var(--line);margin-bottom:6px}" +
+
+    /* --- icon rows --- */
+    ".item .nm{display:flex;align-items:center;gap:8px}" +
+    ".keystone .nm{display:flex;align-items:center;gap:9px}" +
+    ".runerow .rv{display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px}" +
+    ".runerow .rv .rn{display:inline-flex;align-items:center;gap:5px}" +
+    ".sum{display:inline-flex;align-items:center;gap:7px}";
   document.head.appendChild(s);
 })();
 
-/* ---------------- coverage bar ---------------- */
-
-/* Starts from what shipped with the file, then the local API replaces it with
-   live numbers and a completion estimate. A friend's copy keeps the shipped
-   figures, which still explain why a given matchup isn't there. */
-var COVERAGE = { done: META.count, total: META.target || 0 };
-
-var progEl = document.createElement("div");
-progEl.className = "prog";
-document.querySelector(".bar .wrap").insertBefore(progEl, document.getElementById("recents"));
-
-function etaPhrase(days){
-  if (days <= 0)  return "complete";
-  if (days < 1)   return "complete today";
-  if (days < 2)   return "complete in about a day";
-  if (days < 14)  return "complete in " + Math.round(days) + " days";
-  if (days < 60)  return "complete in " + Math.round(days / 7) + " weeks";
-  return "complete in " + Math.round(days / 30.4) + " months";
-}
-
-function renderProgress(){
-  var done = COVERAGE.done || 0;
-  var total = COVERAGE.total || 0;
-  if (!total){ progEl.innerHTML = ""; return; }
-
-  var pct = Math.min(100, (done / total) * 100);
-  var bits = [
-    "<b>" + done.toLocaleString() + "</b> of <b>" + total.toLocaleString() + "</b> matchups",
-    "<span>" + (pct < 0.1 && pct > 0 ? "<0.1" : pct.toFixed(1)) + "%</span>"
-  ];
-
-  if (done >= total){
-    bits.push('<span class="eta">every matchup written</span>');
-  } else if (COVERAGE.ratePerDay > 0 && COVERAGE.etaDays != null){
-    bits.push("<span>" + COVERAGE.ratePerDay.toFixed(1) + "/day</span>");
-    bits.push('<span class="eta">' + etaPhrase(COVERAGE.etaDays)
-      + " · " + new Date(COVERAGE.etaAt).toLocaleDateString(undefined, { month: "short", year: "numeric" })
-      + "</span>");
-  } else if (COVERAGE.why){
-    bits.push("<span>estimate: " + esc(COVERAGE.why) + "</span>");
-  }
-
-  progEl.innerHTML =
-    '<div class="prog-track"><div class="prog-fill" style="width:' + pct.toFixed(2) + '%"></div></div>'
-    + '<div class="prog-line">' + bits.join("") + '</div>';
-}
+/* ---------------- index ---------------- */
 
 function reindex(){
   INDEX = {};
@@ -151,10 +183,7 @@ function reindex(){
 reindex();
 
 function briefCount(){ return Object.keys(DATA.briefs).length; }
-function label(key){
-  var r = DATA.briefs[key];
-  return r ? r.you + " › " + r.them : null;
-}
+function label(key){ var r = DATA.briefs[key]; return r ? r.you + " › " + r.them : null; }
 function currentKey(){ return keyFor(state.you, state.them, state.lane); }
 
 function setNote(text, warn){
@@ -165,9 +194,84 @@ function baseNote(){
   return briefCount() + " matchups · patch " + (DATA.patch || "unknown") + " · works offline";
 }
 
-/* ---------------- pins and history ---------------- */
+/* ---------------- sidebar ---------------- */
+
+var sb = document.createElement("aside");
+sb.id = "sb";
+sb.innerHTML =
+  '<div class="sbhead"><b>Lane Scout</b>'
+  + '<button class="sbtoggle" id="sbclose" aria-label="Hide sidebar" title="Hide sidebar">&#10005;</button></div>'
+  + '<div class="sbbody">'
+  +   '<section><h4>Coverage</h4><div class="prog" id="progbox"></div></section>'
+  +   '<section><h4>Saved</h4><div id="sbpins"></div></section>'
+  +   '<section><h4>Recent</h4><div id="sbrecent"></div></section>'
+  + '</div>';
+document.body.insertBefore(sb, document.body.firstChild);
+
+var sbOpenBtn = document.createElement("button");
+sbOpenBtn.id = "sbopen";
+sbOpenBtn.className = "sbtoggle";
+sbOpenBtn.setAttribute("aria-label", "Show sidebar");
+sbOpenBtn.title = "Show sidebar";
+sbOpenBtn.innerHTML = "&#9776;";
+document.body.appendChild(sbOpenBtn);
+
+function setSidebar(open){
+  document.body.classList.toggle("sb-open", open);
+  document.body.classList.toggle("sb-closed", !open);
+  try { localStorage.setItem(SIDEBAR_KEY, open ? "1" : "0"); } catch (e) {}
+}
+$("sbclose").addEventListener("click", function(){ setSidebar(false); });
+sbOpenBtn.addEventListener("click", function(){ setSidebar(true); });
+
+/* narrow screens start collapsed; otherwise honour the last choice */
+(function(){
+  var stored = null;
+  try { stored = localStorage.getItem(SIDEBAR_KEY); } catch (e) {}
+  setSidebar(stored === null ? window.innerWidth > 900 : stored === "1");
+})();
+
+/* ---------------- progress ---------------- */
+
+function etaPhrase(days){
+  if (days <= 0)  return "complete";
+  if (days < 1)   return "complete today";
+  if (days < 2)   return "complete in about a day";
+  if (days < 14)  return "complete in " + Math.round(days) + " days";
+  if (days < 60)  return "complete in " + Math.round(days / 7) + " weeks";
+  return "complete in " + Math.round(days / 30.4) + " months";
+}
+
+function renderProgress(){
+  var box = $("progbox"); if (!box) return;
+  var done = COVERAGE.done || 0, total = COVERAGE.total || 0;
+  if (!total){ box.innerHTML = ""; return; }
+
+  var pct = Math.min(100, (done / total) * 100);
+  /* each line must be one element — .prog-line is a column flex container, so
+     loose text nodes and inline tags would each become their own row */
+  var lines = ["<b>" + done.toLocaleString() + "</b> of <b>" + total.toLocaleString() + "</b>"
+    + " &middot; " + (pct < 0.1 && pct > 0 ? "&lt;0.1" : pct.toFixed(1)) + "%"];
+
+  if (done >= total){
+    lines.push('<span class="eta">every matchup written</span>');
+  } else if (COVERAGE.ratePerDay > 0 && COVERAGE.etaDays != null){
+    lines.push(COVERAGE.ratePerDay.toFixed(1) + "/day");
+    lines.push('<span class="eta">' + etaPhrase(COVERAGE.etaDays) + "</span>");
+  } else if (COVERAGE.why){
+    lines.push(esc(COVERAGE.why));
+  }
+
+  box.innerHTML = '<div class="prog-track"><div class="prog-fill" style="width:' + pct.toFixed(2) + '%"></div></div>'
+    + '<div class="prog-line">'
+    + lines.map(function(l){ return "<div>" + l + "</div>"; }).join("")
+    + '</div>';
+}
+
+/* ---------------- pins & history ---------------- */
 
 function isPinned(key){ return pins.indexOf(key) !== -1; }
+function live(list){ return list.filter(function(k){ return !!DATA.briefs[k]; }); }
 
 function togglePin(key){
   var i = pins.indexOf(key);
@@ -190,174 +294,229 @@ function remember(key){
   renderRail();
 }
 
-/* Only show entries this build still has data for — a pin made before an
-   update could point at a matchup that no longer exists. */
-function live(list){
-  return list.filter(function(k){ return !!DATA.briefs[k]; });
-}
-
-function chip(key, pinned){
-  return '<button class="chip' + (pinned ? " pin" : "") + '" data-key="' + esc(key) + '">'
-    + (pinned ? '<span class="st">★</span>' : "") + esc(label(key)) + '</button>';
+function sbRow(key, starred){
+  var r = DATA.briefs[key]; if (!r) return "";
+  var on = key === currentKey() ? " on" : "";
+  return '<button class="sbitem' + on + '" data-key="' + esc(key) + '">'
+    + iconImg("champ", r.you, "sm")
+    + '<span class="vs">›</span>'
+    + iconImg("champ", r.them, "sm")
+    + '<span>' + esc(r.you) + " › " + esc(r.them) + '</span></button>';
 }
 
 function renderRail(){
-  var el = $("recents");
-  if (!COVERED.length){ el.hidden = true; return; }
-  el.hidden = false;
-
   var p = live(pins);
   var r = live(recents).filter(function(k){ return p.indexOf(k) === -1; });
-  var html = "";
 
-  if (p.length){
-    html += '<span class="rl">Saved</span>' + p.map(function(k){ return chip(k, true); }).join("");
-  }
-  if (r.length){
-    if (p.length) html += '<div class="railsep"></div>';
-    html += '<span class="rl">Recent</span>' + r.map(function(k){ return chip(k, false); }).join("");
-  }
-  if (!p.length && !r.length){
-    html += '<span class="rl">Start</span><span class="stamp">Save a matchup and it lands here</span>';
-  }
+  $("sbpins").innerHTML = p.length
+    ? p.map(function(k){ return sbRow(k, true); }).join("")
+    : '<div class="sbempty">Star a matchup and it lands here.</div>';
 
-  html += '<div class="railsep"></div>'
-    + '<button class="chip ghost" id="browsebtn">' + (browsing ? "Hide champions" : "Browse " + COVERED.length + " champions") + '</button>';
+  $("sbrecent").innerHTML = r.length
+    ? r.map(function(k){ return sbRow(k, false); }).join("")
+    : '<div class="sbempty">Matchups you open show up here.</div>';
 
-  if (browsing){
-    html += '<div class="browse">' + COVERED.map(function(c){
-      return '<button class="chip" data-you="' + esc(c) + '">' + esc(c) + '</button>';
-    }).join("") + '</div>';
-  }
-
-  el.innerHTML = html;
+  /* the old in-header rail is replaced by the sidebar */
+  $("recents").hidden = true;
 }
 
-/* one delegated handler for the whole rail */
-document.getElementById("recents").addEventListener("click", function(e){
-  var b = e.target.closest("button");
-  if (!b) return;
-
-  if (b.id === "browsebtn"){ browsing = !browsing; renderRail(); return; }
-
-  if (b.dataset.key){
-    var rec = DATA.briefs[b.dataset.key];
-    if (!rec) return;
-    $("you").value = rec.you; $("them").value = rec.them;
-    syncTiles(); scout();
-    return;
-  }
-
-  if (b.dataset.you){
-    $("you").value = b.dataset.you;
-    var first = (INDEX[b.dataset.you] || [])[0];
-    if (first) $("them").value = first;
-    browsing = false;
-    syncTiles(); scout();
-  }
+sb.addEventListener("click", function(e){
+  var b = e.target.closest("button[data-key]"); if (!b) return;
+  var rec = DATA.briefs[b.dataset.key]; if (!rec) return;
+  $("you").value = rec.you; $("them").value = rec.them;
+  syncTiles(); scout();
+  if (window.innerWidth <= 900) setSidebar(false);
 });
 
-/* When a datalist suggestion popup is open the browser eats the first Enter to
-   commit the highlighted option, so a keydown handler alone never fires and
-   typing a champion then pressing Enter appears to do nothing. keyup lands
-   after the popup has closed. scout() only re-renders, so the occasional
-   double call is harmless. */
-["you", "them", "ctx"].forEach(function(id){
-  $(id).addEventListener("keyup", function(e){
-    if (e.key === "Enter") scout();
+/* ---------------- champion picker ---------------- */
+
+/* Replaces the native datalist. Clicking a field selects the text so typing
+   overwrites it, and opens the full roster with portraits — the list is the
+   point, not just autocomplete once you already know the name. */
+["you", "them"].forEach(function(id){ $(id).removeAttribute("list"); });
+
+var pick = document.createElement("div");
+pick.id = "pick";
+pick.hidden = true;
+document.body.appendChild(pick);
+
+var pickFor = null, pickSel = 0, pickList = [];
+
+/* The field arrives already filled and selected, ready to be typed over. If we
+   filtered by that existing value the panel would show one champion — the one
+   you are about to replace. So the list stays unfiltered until you actually
+   type a character. */
+var pickTyped = false;
+
+function pickCandidates(which, q){
+  var all;
+  if (which === "them"){
+    var you = $("you").value.trim();
+    var covered = INDEX[you] || [];
+    all = CAN_GENERATE
+      ? covered.concat(CHAMPS.filter(function(c){ return covered.indexOf(c) === -1; }))
+      : (covered.length ? covered : CHAMPS.slice());
+  } else {
+    all = CAN_GENERATE
+      ? COVERED.concat(CHAMPS.filter(function(c){ return COVERED.indexOf(c) === -1; }))
+      : (COVERED.length ? COVERED.slice() : CHAMPS.slice());
+  }
+  if (!q) return all;
+  var lq = q.toLowerCase();
+  var starts = [], contains = [];
+  all.forEach(function(c){
+    var lc = c.toLowerCase();
+    if (lc.indexOf(lq) === 0) starts.push(c);
+    else if (lc.replace(/[^a-z]/g, "").indexOf(lq.replace(/[^a-z]/g, "")) !== -1) contains.push(c);
+  });
+  return starts.concat(contains);
+}
+
+function hasBrief(which, champ){
+  if (which === "you") return !!INDEX[champ];
+  var you = $("you").value.trim();
+  return (INDEX[you] || []).indexOf(champ) !== -1;
+}
+
+function placePick(input){
+  var r = input.getBoundingClientRect();
+  pick.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 334)) + "px";
+  pick.style.top = (r.bottom + 6) + "px";
+  pick.style.position = "fixed";
+}
+
+function renderPick(){
+  if (!pickFor) return;
+  var input = $(pickFor);
+  pickList = pickCandidates(pickFor, pickTyped ? input.value.trim() : "");
+  if (pickSel >= pickList.length) pickSel = 0;
+
+  var hint = pickFor === "them"
+    ? (CAN_GENERATE ? "opponents — written ones first" : "opponents in this build")
+    : (CAN_GENERATE ? "champions — written ones first" : "champions in this build");
+
+  pick.innerHTML = pickList.length
+    ? '<div class="pickhint">' + hint + '</div><div class="pgrid">'
+      + pickList.slice(0, 120).map(function(c, i){
+          return '<button class="pick-it' + (hasBrief(pickFor, c) ? " has" : "")
+            + (i === pickSel ? " sel" : "") + '" data-champ="' + esc(c) + '">'
+            + iconImg("champ", c, "sm") + '<span>' + esc(c) + '</span></button>';
+        }).join("") + '</div>'
+    : '<div class="pick-none">No champion matches that.</div>';
+
+  placePick(input);
+  pick.hidden = false;
+}
+
+function closePick(){ pick.hidden = true; pickFor = null; }
+
+function choose(champ){
+  if (!pickFor) return;
+  var which = pickFor;
+  $(which).value = champ;
+  syncTiles();
+  closePick();
+  if (which === "you"){
+    // opponent may no longer be covered for this champion — let them pick again
+    $("them").focus();
+  } else {
+    scout();
+  }
+}
+
+["you", "them"].forEach(function(id){
+  var el = $(id);
+  el.addEventListener("focus", function(){
+    el.select();                 // typing overwrites instead of appending
+    pickFor = id; pickSel = 0; pickTyped = false; renderPick();
+  });
+  el.addEventListener("click", function(){
+    if (pick.hidden){ pickFor = id; pickSel = 0; pickTyped = false; renderPick(); }
+  });
+  el.addEventListener("input", function(){
+    pickFor = id; pickSel = 0; pickTyped = true; renderPick();
+  });
+  el.addEventListener("keydown", function(e){
+    if (pick.hidden) return;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp"){
+      e.preventDefault();
+      pickSel += (e.key === "ArrowDown" ? 1 : -1);
+      if (pickSel < 0) pickSel = pickList.length - 1;
+      if (pickSel >= pickList.length) pickSel = 0;
+      renderPick();
+      var selEl = pick.querySelector(".pick-it.sel");
+      if (selEl) selEl.scrollIntoView({ block: "nearest" });
+    } else if (e.key === "Enter"){
+      e.preventDefault();
+      if (pickList[pickSel]) choose(pickList[pickSel]);
+    } else if (e.key === "Escape"){
+      closePick();
+    }
+  });
+  el.addEventListener("blur", function(){
+    // let a click on the panel land before it closes
+    setTimeout(function(){ if (pickFor === id) closePick(); }, 140);
   });
 });
 
-/* Enter alone is not dependable here: while a suggestion popup is open the
-   browser can consume the whole keypress to commit the highlighted option, so
-   neither keydown nor keyup reaches the field. Rather than fight that, the
-   brief loads as soon as both names name a matchup we actually have — no
-   Enter, no button press. The Scout button stays for the case where nothing
-   matches and the reader wants to be told so. */
-var lastRendered = null;
-var autoTimer = null;
-
-function maybeAuto(){
-  clearTimeout(autoTimer);
-  autoTimer = setTimeout(function(){
-    var k = keyFor($("you").value.trim(), $("them").value.trim(), state.lane);
-    if (DATA.briefs[k] && k !== lastRendered) scout();
-  }, 120);
-}
-
-/* Typing context does not change which brief is shown, so nothing would
-   re-render — but the offer to rewrite lives in that header, so restamp it. */
-$("ctx").addEventListener("input", function(){
-  syncTiles();
-  if (VARIANT) return;
-  var key = currentKey();
-  var rec = DATA.briefs[key];
-  if (rec) stampMeta(rec, key, null);
+pick.addEventListener("mousedown", function(e){ e.preventDefault(); });
+pick.addEventListener("click", function(e){
+  var b = e.target.closest("button[data-champ]"); if (!b) return;
+  choose(b.dataset.champ);
 });
-
-["you", "them"].forEach(function(id){
-  $(id).addEventListener("input", maybeAuto);
-  // committing a suggestion with the mouse fires change, not input
-  $(id).addEventListener("change", function(){ refreshOpponentList(); maybeAuto(); });
-});
-
-/* The opponent picker offers only matchups that actually exist for the
-   champion you typed, so the dropdown never promises a brief this build
-   cannot show. Falls back to the full roster for an uncovered champion. */
-var oppList = document.createElement("datalist");
-oppList.id = "champs-them";
-document.body.appendChild(oppList);
-$("them").setAttribute("list", "champs-them");
-
-function refreshOpponentList(){
-  var you = $("you").value.trim();
-  /* With generation available every champion is reachable, so offer the whole
-     roster; without it, only what this build can actually show. */
-  var covered = INDEX[you] || [];
-  var opts = CAN_GENERATE
-    ? covered.concat(CHAMPS.filter(function(c){ return covered.indexOf(c) === -1; }))
-    : (covered.length ? covered : CHAMPS);
-  oppList.innerHTML = opts.map(function(c){
-    return '<option value="' + esc(c) + '">';
-  }).join("");
-}
-
-/* Covered champions sort to the top of the "you play" list. */
-function refreshYouList(){
-  var rest = CHAMPS.filter(function(c){ return COVERED.indexOf(c) === -1; });
-  $("champs").innerHTML = COVERED.concat(rest).map(function(c){
-    return '<option value="' + esc(c) + '">';
-  }).join("");
-}
-
-$("you").addEventListener("input", refreshOpponentList);
-
-/* ← and → step through history, as long as you are not typing in a field */
-document.addEventListener("keydown", function(e){
-  if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
-  var t = e.target;
-  if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA")) return;
-
-  var list = live(recents);
-  if (list.length < 2) return;
-  var i = list.indexOf(currentKey());
-  if (i === -1) i = 0;
-  var next = list[(i + (e.key === "ArrowRight" ? 1 : -1) + list.length) % list.length];
-  var rec = DATA.briefs[next];
-  if (!rec) return;
-  e.preventDefault();
-  $("you").value = rec.you; $("them").value = rec.them;
-  syncTiles(); scout();
-});
+window.addEventListener("resize", function(){ if (!pick.hidden && pickFor) placePick($(pickFor)); });
+window.addEventListener("scroll", function(){ if (!pick.hidden && pickFor) placePick($(pickFor)); }, true);
 
 /* ---------------- rendering ---------------- */
+
+/* Overrides the plain-text version from the template so build rows carry
+   Riot's item art. Declared later in the same scope, so every caller — the
+   renderer included — picks this up. */
+function itemRow(it, slotLabel, numbered, sit){
+  if (!it) return "";
+  var why = sit ? '<span class="ifk">IF </span>' + esc(it.when) : esc(it.why);
+  return '<div class="item' + (sit ? " sit" : "") + '">'
+    + '<div class="slot' + (numbered ? " n" : "") + '">' + esc(slotLabel) + '</div>'
+    + '<div><div class="nm">' + iconImg("item", it.item) + '<span>' + esc(it.item) + '</span></div>'
+    + '<p class="wy">' + why + '</p></div></div>';
+}
+
+/* Runes and summoners are built inside the template's renderer, so decorate
+   them afterwards from the same data rather than duplicating the renderer. */
+function decorate(brief){
+  var runes = brief.runes || {};
+
+  var ks = document.querySelector(".keystone .nm");
+  if (ks && runes.keystone){
+    ks.innerHTML = iconImg("rune", runes.keystone, "lg rune") + "<span>" + esc(runes.keystone) + "</span>";
+  }
+
+  var rows = document.querySelectorAll(".runerow");
+  var sets = [runes.primary, runes.secondary, runes.shards];
+  for (var i = 0; i < rows.length && i < sets.length; i++){
+    var list = arr(sets[i]);
+    if (!list.length) continue;
+    var rv = rows[i].querySelector(".rv");
+    if (!rv) continue;
+    // shards have no Riot art; they render as plain text
+    rv.innerHTML = list.map(function(n){
+      var ic = i === 2 ? "" : iconImg("rune", n, "sm rune");
+      return '<span class="rn">' + ic + esc(n) + "</span>";
+    }).join('<em>/</em>');
+  }
+
+  var picks = arr(brief.summoners && brief.summoners.picks);
+  var sums = document.querySelectorAll(".sum");
+  for (var j = 0; j < sums.length && j < picks.length; j++){
+    sums[j].innerHTML = iconImg("spell", picks[j], "sm") + "<span>" + esc(picks[j]) + "</span>";
+  }
+}
 
 function stampMeta(rec, key, shownContext){
   var m = document.querySelector(".metaline");
   if (!m) return;
   var bits = [];
 
-  // a situational rewrite is not in the database, so there is nothing to pin
   if (!shownContext){
     bits.push('<button class="pinbtn" id="pinbtn" aria-pressed="' + isPinned(key) + '">'
       + (isPinned(key) ? "★ Saved" : "☆ Save") + '</button>');
@@ -371,37 +530,24 @@ function stampMeta(rec, key, shownContext){
   if (LIVE_PATCH && rec.patch && LIVE_PATCH !== rec.patch){
     bits.push('<span class="badge hot">live is ' + esc(LIVE_PATCH) + '</span>');
   }
-
-  /* Context typed, but you are looking at the standard brief: offer the
-     rewrite rather than silently ignoring what was typed. */
   if (CONTEXT_FEATURE && !shownContext && CAN_GENERATE && state.ctx){
     bits.push('<button class="pinbtn" id="ctxbtn">↻ rewrite for “' + esc(state.ctx) + '”</button>');
   }
 
   m.innerHTML = bits.join("");
 
-  var pb = $("pinbtn");
-  if (pb) pb.addEventListener("click", function(){ togglePin(key); });
-
-  var cb = $("ctxbtn");
-  if (cb) cb.addEventListener("click", function(){ generateNow(state.you, state.them, state.ctx); });
-
-  var bb = $("backbtn");
-  if (bb) bb.addEventListener("click", function(){ VARIANT = null; scout(); });
+  var pb = $("pinbtn");  if (pb) pb.addEventListener("click", function(){ togglePin(key); });
+  var cb = $("ctxbtn");  if (cb) cb.addEventListener("click", function(){ generateNow(state.you, state.them, state.ctx); });
+  var bb = $("backbtn"); if (bb) bb.addEventListener("click", function(){ VARIANT = null; scout(); });
 }
 
-/* ---------------- writing a matchup on demand ---------------- */
+/* ---------------- writing on demand ---------------- */
 
 function showWriting(you, them, ctx){
   $("app").innerHTML = '<div class="state"><div class="pulse"><i></i><i></i><i></i><i></i><i></i></div>'
     + '<p class="s1">' + (ctx ? "Rewriting " : "Writing ") + esc(you) + ' into ' + esc(them) + '</p>'
-    + (ctx
-        ? '<p class="s2" aria-live="polite">For <em>' + esc(ctx) + '</em>. Takes about a minute. '
-          + 'Situational rewrites stay on this machine — they describe your game, not the matchup, '
-          + 'so they are not added to the shared file.</p>'
-        : '<p class="s2" aria-live="polite">Takes about a minute. It gets saved, so this only ever happens once '
-          + 'for a given matchup — and anyone you sent the file to picks it up on their next launch.</p>')
-    + '</div>';
+    + '<p class="s2" aria-live="polite">Takes about a minute. It gets saved, so this only ever happens once '
+      + 'for a given matchup — and anyone you sent the file to picks it up on their next launch.</p></div>';
 }
 
 function generateNow(you, them, context){
@@ -414,9 +560,8 @@ function generateNow(you, them, context){
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ you: you, them: them, lane: lane, context: ctx })
   })
-    .then(function(r){ return r.json().then(function(j){ return { status: r.status, j: j }; }); })
-    .then(function(out){
-      var j = out.j;
+    .then(function(r){ return r.json(); })
+    .then(function(j){
       if (!j.ok){
         $("app").innerHTML = '<div class="state">'
           + '<p class="s1">Couldn’t write that one</p>'
@@ -426,21 +571,18 @@ function generateNow(you, them, context){
               : '<button class="go" id="retryGen">Try again</button>')
           + '</div>';
         var rb = $("retryGen");
-        if (rb) rb.addEventListener("click", function(){ generateNow(you, them); });
+        if (rb) rb.addEventListener("click", function(){ generateNow(you, them, ctx); });
         return;
       }
 
       var rec = j.record;
-
-      /* A situational rewrite is shown but never folded into the database —
-         it describes one game, not the matchup. */
       if (j.variant){
         VARIANT = rec;
         render({ you: rec.you, them: rec.them, lane: rec.lane, context: rec.context, brief: rec.brief },
                { kind: "offline" });
+        decorate(rec.brief);
         stampMeta(rec, keyFor(rec.you, rec.them, rec.lane), rec.context);
         window.scrollTo({ top: 0, behavior: "smooth" });
-        setNote(baseNote() + " · situational rewrite, kept local", false);
         return;
       }
 
@@ -448,26 +590,23 @@ function generateNow(you, them, context){
       DATA.builtAt = Math.max(DATA.builtAt || 0, rec.generatedAt || 0);
       try { localStorage.setItem(CACHE_KEY, JSON.stringify(DATA)); } catch (e) {}
       reindex();
-      renderRail();
-      refreshYouList();
-      refreshOpponentList();
       $("you").value = rec.you; $("them").value = rec.them;
       syncTiles();
       scout();
       setNote(baseNote() + " · just written", false);
-      // pull fresh coverage and a re-estimated completion date
       fetch("/api/status", { cache: "no-store" })
         .then(function(r){ return r.ok ? r.json() : null; })
         .then(function(st){ if (st && st.coverage){ COVERAGE = st.coverage; renderProgress(); } })
         .catch(function(){});
     })
     .catch(function(e){
-      $("app").innerHTML = '<div class="state">'
-        + '<p class="s1">Lost the connection</p>'
+      $("app").innerHTML = '<div class="state"><p class="s1">Lost the connection</p>'
         + '<p class="s2">The local server stopped responding — ' + esc(e.message) + '. '
         + 'Restart it with <code>node scripts/serve.mjs</code>.</p></div>';
     });
 }
+
+/* ---------------- lookup ---------------- */
 
 function showMissing(you, them){
   var mine = INDEX[you] || [];
@@ -478,17 +617,15 @@ function showMissing(you, them){
           ? 'You can write it now — it takes about a minute, gets saved permanently, and goes out to everyone else on their next launch.'
           : 'This file ships a fixed set of matchups and checks for newer ones on launch, '
             + 'so it can only show what has been written so far.') + '</p>'
-    + (CAN_GENERATE
-        ? '<button class="go" id="genbtn" style="margin-bottom:22px">Write this matchup</button>'
-        : "")
+    + (CAN_GENERATE ? '<button class="go" id="genbtn" style="margin-bottom:22px">Write this matchup</button>' : "")
     + (mine.length
         ? '<p class="s2" style="margin-bottom:8px"><strong>' + esc(you) + '</strong> is covered against:</p>'
-          + '<div class="browse">'
-          + mine.map(function(t){ return '<button class="chip" data-them="' + esc(t) + '">' + esc(t) + '</button>'; }).join("")
+          + '<div class="browse" style="display:flex;flex-wrap:wrap;gap:7px">'
+          + mine.map(function(t){
+              return '<button class="chip" data-them="' + esc(t) + '">'
+                + iconImg("champ", t, "sm") + " " + esc(t) + '</button>'; }).join("")
           + '</div>'
-        : '<p class="s2">Nothing for <strong>' + esc(you) + '</strong> yet. Covered so far: '
-          + COVERED.slice(0, 14).map(esc).join(", ")
-          + (COVERED.length > 14 ? ", and " + (COVERED.length - 14) + " more." : ".") + '</p>')
+        : '<p class="s2">Nothing for <strong>' + esc(you) + '</strong> yet.</p>')
     + '</div>';
 
   $("app").onclick = function(e){
@@ -510,16 +647,25 @@ function scout(){
 
   render({ you: rec.you, them: rec.them, lane: rec.lane, context: "", brief: rec.brief },
          { kind: "offline" });
+  decorate(rec.brief);
   stampMeta(rec, key);
-  lastRendered = key;
   remember(key);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+var lastRendered = null, autoTimer = null;
+function maybeAuto(){
+  clearTimeout(autoTimer);
+  autoTimer = setTimeout(function(){
+    var k = keyFor($("you").value.trim(), $("them").value.trim(), state.lane);
+    if (DATA.briefs[k] && k !== lastRendered){ lastRendered = k; scout(); }
+  }, 120);
+}
+["you", "them"].forEach(function(id){ $(id).addEventListener("input", maybeAuto); });
+$("go").addEventListener("click", function(){ closePick(); scout(); });
+
 function renderCurrent(){
   if (DATA.briefs[currentKey()]){ scout(); return; }
-
-  /* prefer where the reader left off, then a pin, then anything */
   var resume = live(recents)[0] || live(pins)[0] || Object.keys(DATA.briefs)[0];
   if (resume){
     var r = DATA.briefs[resume];
@@ -530,13 +676,10 @@ function renderCurrent(){
   }
 }
 
-/* ---------------- background freshness checks ---------------- */
+/* ---------------- background checks ---------------- */
 
-/* Riot's Data Dragon is public and CORS-open, so even a file:// page can ask
-   which patch is live. This only ever adds an honest caveat — it never
-   changes a brief. */
 function checkPatch(){
-  fetch("https://ddragon.leagueoflegends.com/api/versions.json", { cache: "no-store" })
+  fetch(DD + "/api/versions.json", { cache: "no-store" })
     .then(function(r){ return r.ok ? r.json() : null; })
     .then(function(v){
       if (!v || !v.length) return;
@@ -546,10 +689,9 @@ function checkPatch(){
       }
       renderCurrent();
     })
-    .catch(function(){ /* offline: the file still works, just without the caveat */ });
+    .catch(function(){});
 }
 
-/* Pull fresher briefs if any have been published since this file was sent. */
 function checkForNewData(){
   if (!REMOTE_URL) return;
   fetch(REMOTE_URL, { cache: "no-store" })
@@ -563,17 +705,13 @@ function checkForNewData(){
       renderRail();
       COVERAGE = { done: j.count || briefCount(), total: j.target || COVERAGE.total };
       renderProgress();
-      refreshYouList();
-      refreshOpponentList();
       renderCurrent();
       var added = briefCount() - before;
       setNote(baseNote() + (added > 0 ? " · updated, +" + added + " new" : " · updated"), false);
     })
-    .catch(function(){ /* offline or repo unreachable — baked data stands */ });
+    .catch(function(){});
 }
 
-/* Is this the owner's own copy, served with generation switched on? A file://
-   page cannot usefully ask, and a friend's copy will simply get nothing. */
 function checkLocalApi(){
   if (location.protocol !== "http:" && location.protocol !== "https:") return;
   fetch("/api/status", { cache: "no-store" })
@@ -582,31 +720,24 @@ function checkLocalApi(){
       if (!j || !j.canGenerate) return;
       CAN_GENERATE = true;
       if (CONTEXT_FEATURE) document.querySelector(".ctx").hidden = false;
-      refreshOpponentList();
       if (j.coverage){ COVERAGE = j.coverage; renderProgress(); }
       setNote(baseNote() + " · writing enabled", false);
-      // if the reader is already staring at a miss, offer the button now
       if (!DATA.briefs[currentKey()] && state.you && state.them) showMissing(state.you, state.them);
     })
-    .catch(function(){ /* no local server — read-only, which is the normal case */ });
+    .catch(function(){});
 }
 
 /* ---------------- boot ---------------- */
 (function(){
-  /* Hidden until we know a local API can act on it. Without one there is no
-     model behind this file, so the field could only ever discard what was
-     typed — and a control that silently does nothing is worse than absent. */
   document.querySelector(".ctx").hidden = true;
 
   renderRail();
   renderProgress();
-  refreshYouList();
-  refreshOpponentList();
   setNote(briefCount() ? baseNote() : "This build has no matchups baked in yet.", false);
-  renderCurrent();   // paint immediately from what we already have
+  renderCurrent();
   syncTiles();
 
-  checkLocalApi();   // can this copy write new matchups?
-  checkPatch();      // then quietly find out if anything is stale
+  checkLocalApi();
+  checkPatch();
   checkForNewData();
 })();

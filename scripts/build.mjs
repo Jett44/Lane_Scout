@@ -14,6 +14,7 @@ import {
   BRIEFS_DIR, TEMPLATE, OFFLINE_JS, DIST, DATA_JSON, REMOTE_DATA, keyFor, stats
 } from "./lib.mjs";
 import { readState } from "./patch.mjs";
+import { readAssets } from "./assets.mjs";
 
 const CUT = "/* ---------------- scout ---------------- */";
 
@@ -68,11 +69,14 @@ export function build() {
   // `</` inside any string would otherwise close the surrounding <script>
   const esc = (o) => JSON.stringify(o).replace(/<\//g, "<\\/");
 
+  const assets = readAssets() || { version: null, item: {}, spell: {}, rune: {}, champ: {} };
+
   const out =
     template.slice(0, at) +
     "/* ---------------- baked matchup data ---------------- */\n" +
     `var BRIEFS = ${esc(map)};\n` +
     `var META = ${esc(meta)};\n` +
+    `var ASSETS = ${esc(assets)};\n` +
     `var REMOTE_URL = ${JSON.stringify(REMOTE_DATA)};\n\n` +
     offline +
     "\n</script>\n";
