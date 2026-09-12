@@ -1,0 +1,147 @@
+{
+ "you": "Garen",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into a full Grit bar or a landed Facebreaker grab before level 6; you win every extended duel once Courage and Conqueror stack up and Demacian Justice threatens the execute."
+  },
+  "thesis": "Sett's entire early threat is binary: his passive Grit bar (the segmented bar under his HP) has to be full for his empowered auto to matter, and his E (Facebreaker) has to land a grab for his all-in to have CC. Garen's Q (Decisive Strike) silence removes both of those cooldowns from a fight if you fire it the moment he commits, which flips this from a scary all-in lane into a war of attrition Garen wins on tank items and the R (Demacian Justice) execute.",
+  "tell": {
+   "watch": "Sett's Grit bar fill under his HP",
+   "theirWindow": {
+    "when": "Grit bar full and E (Facebreaker) up",
+    "what": "He can walk up, land a grab, and get a free empowered auto mid-combo — this is a 2-for-1 burst window. Do not extend the trade here; back off or pre-emptively Q him to silence the E before he claps."
+   },
+   "yourWindow": {
+    "when": "his E is on cooldown after a whiffed clap",
+    "what": "Facebreaker has no lockout mechanic when it misses, so once he claps without grabbing anyone, walk in and E (Judgment) spin — he has no tool to stop the channel or punish you for standing in it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Sett's base stats and passive Grit trade favor him pre-Q silence"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q silence now cancels his E/W all-in on reaction"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ults online, R execute race is close"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity/tank item spike outpaces his falloff"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "true damage execute plus tankiness wins duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "the HP5 and post-6-damage-taken block absorb his auto-heavy poke and Grit-building autos without you needing to trade back"
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "his entire kit — passive empowered auto, Q double-hit, W, R slam — is physical, so flat armor plus the auto-attack damage reduction proc is the highest-value boot"
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "the on-hit proc and movement speed let you stick a spin (E) and get a Q silence off before he closes the gap"
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "the on-hit heal and crit-on-first-attack keep you healthier through extended trades than he can out-damage"
+    },
+    {
+     "item": "Thornmail",
+     "why": "Grievous Wounds guts the healing he gets off his passive's empowered auto and W lifesteal-style heal, which is his entire sustain plan"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "he builds crit or attack-speed items to snowball his Grit bar faster"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "the lane is close and you're trading 1-for-1 in extended skirmishes"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "you need the Grievous Wounds online earlier than Thornmail's timing allows"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "this is a stacking, extended-duel matchup rather than a burst matchup — Conqueror's healing and adaptive damage reward you for staying in prolonged trades where his cooldowns (E, passive proc) are on a timer and yours (E spin) are not",
+   "primary": [
+    "Triumph",
+    "Legend: Tenacity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Unflinching"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash is mandatory since you have no dash to dodge his E grab; Teleport lets you play the lane patiently for the level-9+ power spike instead of forcing all-ins you don't need"
+  },
+  "playing": [
+   {
+    "title": "Silence the commit, not the poke",
+    "detail": "Hold Q (Decisive Strike) until he actually steps in to all-in, then fire it — it removes his W/E from that specific engage rather than wasting it on a poke auto."
+   },
+   {
+    "title": "Never trade into a full Grit bar",
+    "detail": "If the bar under his HP is topped off, disengage or force him to waste the empowered auto on a minion by breaking line of sight/range."
+   },
+   {
+    "title": "Punish a whiffed Facebreaker",
+    "detail": "A clap that grabs no one is a long cooldown with zero CC left — close the gap and spin E (Judgment) immediately."
+   },
+   {
+    "title": "Bank W for his kill combo, not for poke",
+    "detail": "Courage's shield is meant to eat the empowered auto plus grab damage in one all-in, not to trade chip damage — using it early wastes its window."
+   },
+   {
+    "title": "Avoid free-farming his passive in big waves",
+    "detail": "His Grit bar fills off autoing minions too, so don't stand in a large wave trading passively while he stacks it for free."
+   },
+   {
+    "title": "Threaten the execute past level 6",
+    "detail": "Once he's under roughly 30% HP in a trade, Demacian Justice (R) closes it out in true damage — play trades knowing you have that finisher and he has to respect it."
+   },
+   {
+    "title": "Rush the Grievous Wounds item on schedule",
+    "detail": "His healing is baked into his passive and W, so delaying Thornmail/Executioner's lets him out-sustain every trade you win on damage."
+   }
+  ],
+  "patchCaveat": "Ability names, numbers, and the Sett/Garen item meta are as of my last training update (January 2026); this project's data is tracking patch 16.18.1, well past that cutoff, so confirm current Grit bar thresholds, W/E cooldowns, and whether Trinity Force/Sundered Sky/Thornmail are still the standard Garen build before relying on the exact numbers here."
+ },
+ "generatedAt": 1789256711660,
+ "patch": "16.18.1",
+ "generator": "on-demand"
+}

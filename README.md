@@ -7,9 +7,17 @@ it, or send it to anyone. No install, no account, no API key, no network.
 
 ## Your copy: look something up, and it gets written
 
+**Double-click `Lane Scout.cmd`.** It starts the server and opens the browser.
+Close the window to stop it.
+
+Or from a terminal:
+
 ```
 node scripts/serve.mjs        http://localhost:8099
 ```
+
+If it says the port is in use, Lane Scout is already running — open
+http://localhost:8099. To run a second copy: `set PORT=8100 && node scripts/serve.mjs`.
 
 Opened this way the page finds a local API and switches on writing. Search any
 matchup; if it has not been written yet you get a **Write this matchup** button.

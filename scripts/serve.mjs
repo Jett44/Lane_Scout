@@ -130,6 +130,20 @@ const server = http.createServer(async (req, res) => {
   fs.createReadStream(file).pipe(res);
 });
 
+/* A port clash is the one failure people will actually hit — usually a second
+   copy of this launcher, or an editor's preview server. Say so plainly instead
+   of printing a stack trace. */
+server.on("error", (e) => {
+  if (e.code === "EADDRINUSE") {
+    console.error(`\n  Port ${PORT} is already in use.`);
+    console.error(`  Lane Scout is probably already running — try http://localhost:${PORT} first.`);
+    console.error(`  To run a second copy on another port:  set PORT=8100 && node scripts/serve.mjs\n`);
+  } else {
+    console.error(`\n  Could not start: ${e.message}\n`);
+  }
+  process.exitCode = 1;
+});
+
 /* bind to loopback explicitly — this drives your Claude account, so it should
    never be reachable from the network */
 server.listen(PORT, "127.0.0.1", () => {
@@ -137,4 +151,5 @@ server.listen(PORT, "127.0.0.1", () => {
   console.log(`Lane Scout — http://localhost:${PORT}`);
   console.log(`generation is ON; ${s.done}/${s.total} briefs written so far`);
   console.log(`look up any matchup and it will be written on the spot.`);
+  console.log(`press Ctrl+C to stop.`);
 });
