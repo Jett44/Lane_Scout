@@ -20,6 +20,11 @@ var INDEX = {}, COVERED = [];
 var LIVE_PATCH = null;
 var browsing = false;
 
+/* True only when this page is being served by scripts/serve.mjs on the
+   owner's machine. A copy opened as a file, or sent to someone else, never
+   finds the API and stays read-only. */
+var CAN_GENERATE = false;
+
 /* Every read and write is guarded: a private window, or a browser set to
    block site data, throws on access rather than returning empty. */
 function readList(key){
@@ -224,7 +229,12 @@ $("them").setAttribute("list", "champs-them");
 
 function refreshOpponentList(){
   var you = $("you").value.trim();
-  var opts = (INDEX[you] && INDEX[you].length) ? INDEX[you] : CHAMPS;
+  /* With generation available every champion is reachable, so offer the whole
+     roster; without it, only what this build can actually show. */
+  var covered = INDEX[you] || [];
+  var opts = CAN_GENERATE
+    ? covered.concat(CHAMPS.filter(function(c){ return covered.indexOf(c) === -1; }))
+    : (covered.length ? covered : CHAMPS);
   oppList.innerHTML = opts.map(function(c){
     return '<option value="' + esc(c) + '">';
   }).join("");
@@ -276,13 +286,73 @@ function stampMeta(rec, key){
   $("pinbtn").addEventListener("click", function(){ togglePin(key); });
 }
 
+/* ---------------- writing a matchup on demand ---------------- */
+
+function showWriting(you, them){
+  $("app").innerHTML = '<div class="state"><div class="pulse"><i></i><i></i><i></i><i></i><i></i></div>'
+    + '<p class="s1">Writing ' + esc(you) + ' into ' + esc(them) + '</p>'
+    + '<p class="s2" aria-live="polite">Takes about a minute. It gets saved, so this only ever happens once '
+      + 'for a given matchup — and anyone you sent the file to picks it up on their next launch.</p></div>';
+}
+
+function generateNow(you, them){
+  var lane = state.lane;
+  showWriting(you, them);
+
+  fetch("/api/generate", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ you: you, them: them, lane: lane })
+  })
+    .then(function(r){ return r.json().then(function(j){ return { status: r.status, j: j }; }); })
+    .then(function(out){
+      var j = out.j;
+      if (!j.ok){
+        $("app").innerHTML = '<div class="state">'
+          + '<p class="s1">Couldn’t write that one</p>'
+          + '<p class="s2">' + esc(j.error || "unknown error") + '</p>'
+          + (j.fatal
+              ? '<p class="s2">That usually means the account is out of room for now, or the CLI needs signing in again.</p>'
+              : '<button class="go" id="retryGen">Try again</button>')
+          + '</div>';
+        var rb = $("retryGen");
+        if (rb) rb.addEventListener("click", function(){ generateNow(you, them); });
+        return;
+      }
+
+      var rec = j.record;
+      DATA.briefs[keyFor(rec.you, rec.them, rec.lane)] = rec;
+      DATA.builtAt = Math.max(DATA.builtAt || 0, rec.generatedAt || 0);
+      try { localStorage.setItem(CACHE_KEY, JSON.stringify(DATA)); } catch (e) {}
+      reindex();
+      renderRail();
+      refreshYouList();
+      refreshOpponentList();
+      $("you").value = rec.you; $("them").value = rec.them;
+      syncTiles();
+      scout();
+      setNote(baseNote() + " · just written", false);
+    })
+    .catch(function(e){
+      $("app").innerHTML = '<div class="state">'
+        + '<p class="s1">Lost the connection</p>'
+        + '<p class="s2">The local server stopped responding — ' + esc(e.message) + '. '
+        + 'Restart it with <code>node scripts/serve.mjs</code>.</p></div>';
+    });
+}
+
 function showMissing(you, them){
   var mine = INDEX[you] || [];
   $("app").innerHTML = '<div class="state">'
-    + '<p class="s1">Not in this build</p>'
+    + '<p class="s1">' + (CAN_GENERATE ? "Not written yet" : "Not in this build") + '</p>'
     + '<p class="s2">' + esc(you) + ' into ' + esc(them) + ' hasn’t been written yet. '
-      + 'This file ships a fixed set of matchups and checks for newer ones on launch, '
-      + 'so it can only show what has been written so far.</p>'
+      + (CAN_GENERATE
+          ? 'You can write it now — it takes about a minute, gets saved permanently, and goes out to everyone else on their next launch.'
+          : 'This file ships a fixed set of matchups and checks for newer ones on launch, '
+            + 'so it can only show what has been written so far.') + '</p>'
+    + (CAN_GENERATE
+        ? '<button class="go" id="genbtn" style="margin-bottom:22px">Write this matchup</button>'
+        : "")
     + (mine.length
         ? '<p class="s2" style="margin-bottom:8px"><strong>' + esc(you) + '</strong> is covered against:</p>'
           + '<div class="browse">'
@@ -294,6 +364,8 @@ function showMissing(you, them){
     + '</div>';
 
   $("app").onclick = function(e){
+    var g = e.target.closest("#genbtn");
+    if (g){ generateNow(you, them); return; }
     var b = e.target.closest("button[data-them]"); if (!b) return;
     $("them").value = b.dataset.them; syncTiles(); scout();
   };
@@ -370,6 +442,24 @@ function checkForNewData(){
     .catch(function(){ /* offline or repo unreachable — baked data stands */ });
 }
 
+/* Is this the owner's own copy, served with generation switched on? A file://
+   page cannot usefully ask, and a friend's copy will simply get nothing. */
+function checkLocalApi(){
+  if (location.protocol !== "http:" && location.protocol !== "https:") return;
+  fetch("/api/status", { cache: "no-store" })
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(j){
+      if (!j || !j.canGenerate) return;
+      CAN_GENERATE = true;
+      refreshOpponentList();
+      setNote(baseNote() + " · writing enabled, "
+        + j.coverage.done + "/" + j.coverage.total + " written", false);
+      // if the reader is already staring at a miss, offer the button now
+      if (!DATA.briefs[currentKey()] && state.you && state.them) showMissing(state.you, state.them);
+    })
+    .catch(function(){ /* no local server — read-only, which is the normal case */ });
+}
+
 /* ---------------- boot ---------------- */
 (function(){
   renderRail();
@@ -379,6 +469,7 @@ function checkForNewData(){
   renderCurrent();   // paint immediately from what we already have
   syncTiles();
 
+  checkLocalApi();   // can this copy write new matchups?
   checkPatch();      // then quietly find out if anything is stale
   checkForNewData();
 })();

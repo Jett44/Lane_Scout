@@ -1,5 +1,5 @@
 /*
- * Generate the next N missing matchup briefs, then rebuild the shareable file.
+ * Generate the next N missing matchup briefs, then rebuild and publish.
  *
  *   node scripts/batch.mjs --n=25            # normal run
  *   node scripts/batch.mjs --n=3 --dry       # show what it would do, spend nothing
@@ -10,11 +10,8 @@
  * picks up from exactly there. Nothing is ever generated twice.
  */
 import fs from "node:fs";
-import { spawnSync } from "node:child_process";
-import {
-  CLAUDE_EXE, BRIEFS_DIR, briefPath, pending, stats,
-  buildPrompt, validate, log
-} from "./lib.mjs";
+import { BRIEFS_DIR, pending, stats, log } from "./lib.mjs";
+import { generateOne } from "./generate.mjs";
 import { build } from "./build.mjs";
 import { publish } from "./publish.mjs";
 import { run as patchCheck } from "./patch.mjs";
@@ -29,64 +26,6 @@ const N = parseInt(arg("n", "25"), 10);
 const LANE = arg("lane", "Top");
 const DRY = !!arg("dry", false);
 const TIMEOUT_MS = parseInt(arg("timeout", "240000"), 10);
-
-/* Anything here means the account is out of room or not usable right now.
-   Stop the whole run — hammering it cannot succeed and only burns time. */
-const FATAL = /not logged in|please run \/login|usage limit|rate limit|quota|exceeded|insufficient|unauthor|forbidden|credit balance/i;
-
-function extractJson(text) {
-  if (!text) return null;
-  const fence = text.match(/```(?:json)?\s*([\s\S]*?)```/);
-  const body = fence ? fence[1] : text;
-  const start = body.search(/[{[]/);
-  if (start === -1) return null;
-  // walk to the matching close so trailing prose cannot break the parse
-  let depth = 0, inStr = false, esc = false;
-  for (let i = start; i < body.length; i++) {
-    const c = body[i];
-    if (esc) { esc = false; continue; }
-    if (c === "\\") { esc = true; continue; }
-    if (c === '"') { inStr = !inStr; continue; }
-    if (inStr) continue;
-    if (c === "{" || c === "[") depth++;
-    else if (c === "}" || c === "]") {
-      depth--;
-      if (depth === 0) {
-        try { return JSON.parse(body.slice(start, i + 1)); } catch { return null; }
-      }
-    }
-  }
-  return null;
-}
-
-function askClaude(prompt) {
-  const r = spawnSync(CLAUDE_EXE, ["-p", prompt, "--output-format", "json"], {
-    encoding: "utf8", timeout: TIMEOUT_MS, maxBuffer: 32 * 1024 * 1024, windowsHide: true
-  });
-  if (r.error) return { fatal: false, err: `spawn failed: ${r.error.message}` };
-
-  const raw = (r.stdout || "") + (r.stderr || "");
-  let env = null;
-  try { env = JSON.parse(r.stdout); } catch { /* not the envelope we expected */ }
-
-  const resultText = env?.result ?? raw;
-  if (FATAL.test(String(resultText))) {
-    return { fatal: true, err: String(resultText).slice(0, 200).replace(/\s+/g, " ") };
-  }
-  if (env?.is_error) {
-    return { fatal: false, err: String(resultText).slice(0, 200).replace(/\s+/g, " ") };
-  }
-
-  const brief = extractJson(resultText);
-  if (!brief) return { fatal: false, err: "no JSON in reply" };
-
-  return {
-    brief,
-    tokens: (env?.usage?.input_tokens ?? 0) + (env?.usage?.output_tokens ?? 0)
-  };
-}
-
-/* ------------------------------------------------------------------ */
 
 async function main() {
   const s = stats(LANE);
@@ -128,31 +67,16 @@ async function main() {
   let wrote = 0, failed = 0, tokens = 0, stopped = null;
 
   for (const t of queue) {
-    const res = askClaude(buildPrompt(t.you, t.them, t.lane));
+    const res = generateOne(t.you, t.them, t.lane, livePatch, { timeoutMs: TIMEOUT_MS });
 
-    if (res.fatal) { stopped = res.err; break; }
+    if (res.fatal) { stopped = res.error; break; }
 
-    if (res.err) {
+    if (!res.ok) {
       failed++;
-      log(`  FAIL  ${t.you} into ${t.them} — ${res.err}`);
+      log(`  FAIL  ${t.you} into ${t.them} — ${res.error}`);
       if (failed >= 5 && wrote === 0) { stopped = "5 failures with nothing written"; break; }
       continue;
     }
-
-    const bad = validate(res.brief);
-    if (bad.length) {
-      failed++;
-      log(`  REJECT ${t.you} into ${t.them} — ${bad.join("; ")}`);
-      continue;
-    }
-
-    fs.writeFileSync(briefPath(t.key), JSON.stringify({
-      you: t.you, them: t.them, lane: t.lane,
-      brief: res.brief,
-      generatedAt: Date.now(),
-      patch: livePatch,
-      generator: "batch"
-    }, null, 1));
 
     wrote++;
     tokens += res.tokens || 0;
