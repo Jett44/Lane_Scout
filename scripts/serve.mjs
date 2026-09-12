@@ -70,6 +70,7 @@ const server = http.createServer(async (req, res) => {
     const you = String(body.you || "").trim();
     const them = String(body.them || "").trim();
     const lane = String(body.lane || "Top").trim();
+    const context = String(body.context || "").trim().slice(0, 300);
 
     if (!you || !them) return send(res, 400, { ok: false, error: "need both champions" });
     if (you.toLowerCase() === them.toLowerCase()) {
@@ -79,23 +80,26 @@ const server = http.createServer(async (req, res) => {
       return send(res, 400, { ok: false, error: "champion name looks wrong" });
     }
 
-    console.log(`generate: ${you} into ${them} (${lane})`);
+    console.log(`generate: ${you} into ${them} (${lane})${context ? ` — "${context}"` : ""}`);
     const t0 = Date.now();
-    const r = generateOne(you, them, lane, readState().patch);
+    const r = generateOne(you, them, lane, readState().patch, { context });
 
     if (!r.ok) {
       console.log(`  failed: ${r.error}`);
       return send(res, r.fatal ? 503 : 502, { ok: false, fatal: !!r.fatal, error: r.error });
     }
 
-    console.log(`  ${r.cached ? "already had it" : `done in ${((Date.now() - t0) / 1000).toFixed(0)}s`}`);
-    send(res, 200, { ok: true, cached: !!r.cached, record: r.record });
+    console.log(`  ${r.cached ? "already had it" : `done in ${((Date.now() - t0) / 1000).toFixed(0)}s`}${r.variant ? " (situational, kept local)" : ""}`);
+    send(res, 200, { ok: true, cached: !!r.cached, variant: !!r.variant, record: r.record });
 
     /* Rebuild and push after answering, so the reader is not kept waiting on
        git. This is what puts a matchup you just looked up into your friends'
        copies — they pick it up on their next launch. A push failure is logged
-       and ignored: the brief is already safely on disk either way. */
-    if (!r.cached) {
+       and ignored: the brief is already safely on disk either way.
+
+       Situational rewrites are skipped: they are about one person's game, so
+       they stay on this machine and out of the shared database. */
+    if (!r.cached && !r.variant) {
       setImmediate(() => {
         try {
           const out = publish({ quiet: true });

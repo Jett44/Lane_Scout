@@ -57,6 +57,15 @@ export function targets(lane = "Top") {
   return out;
 }
 
+/* Situational rewrites ("they took Ignite", "I'm 0-2 down") live apart from the
+   canonical briefs on purpose: they are one person's game, not a matchup fact.
+   Keeping them here means they never enter the shared database, never ship to
+   anyone else, and never count toward coverage or the batch queue. */
+export const VARIANTS_DIR = path.join(ROOT, "data", "variants");
+export const variantKey = (you, them, lane, context) =>
+  `${keyFor(you, them, lane)}__ctx-${slug(context).slice(0, 32)}`;
+export const variantPath = (vkey) => path.join(VARIANTS_DIR, `${vkey}.json`);
+
 export const briefPath = (key) => path.join(BRIEFS_DIR, `${key}.json`);
 export const haveBrief = (key) => fs.existsSync(briefPath(key));
 
@@ -154,11 +163,14 @@ export const SHAPE = {
   patchCaveat: "string"
 };
 
-export function buildPrompt(you, them, lane) {
+export function buildPrompt(you, them, lane, context) {
   return [
     "You are a high-elo League of Legends coach writing a champ-select scouting brief.",
     "",
     `MATCHUP: the player is ${you}. The enemy laner is ${them}. Lane: ${lane}.`,
+    context
+      ? `THE PLAYER'S SITUATION: ${context}\nWrite the brief for THIS game specifically. Where the situation changes the answer — the build, the trade pattern, the power curve, what to do at each level — say so plainly and differ from the generic advice. Do not simply restate the standard matchup with a sentence bolted on.`
+      : "",
     "",
     `Write the brief for the player PLAYING ${you} INTO ${them}. Never write it from the enemy's point of view.`,
     "",

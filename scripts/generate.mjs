@@ -5,7 +5,8 @@
 import fs from "node:fs";
 import { spawnSync } from "node:child_process";
 import {
-  CLAUDE_EXE, BRIEFS_DIR, briefPath, keyFor, buildPrompt, validate
+  CLAUDE_EXE, BRIEFS_DIR, briefPath, keyFor, buildPrompt, validate,
+  VARIANTS_DIR, variantKey, variantPath
 } from "./lib.mjs";
 
 /* Anything here means the account is out of room or not usable right now.
@@ -56,31 +57,41 @@ export function askClaude(prompt, timeoutMs = 240000) {
   }
 
   const brief = extractJson(resultText);
-  if (!brief) return { fatal: false, err: "no JSON in reply" };
+  if (!brief) return { fatal: false, err: "no JSON in reply", raw: String(resultText) };
 
   return {
     brief,
+    raw: String(resultText),
+    stopReason: env?.stop_reason ?? null,
     tokens: (env?.usage?.input_tokens ?? 0) + (env?.usage?.output_tokens ?? 0)
   };
 }
+
 
 /* One generation at a time per matchup, so a double-click or two open tabs
    cannot spend twice on the same thing. */
 const inFlight = new Map();
 
-export function generateOne(you, them, lane, patch, { timeoutMs } = {}) {
-  const key = keyFor(you, them, lane);
+export function generateOne(you, them, lane, patch, { timeoutMs, context } = {}) {
+  const ctx = (context || "").trim();
+  const isVariant = !!ctx;
+
+  /* A situational rewrite is stored apart from the canonical brief, so one
+     person's game never becomes the matchup everyone else downloads. */
+  const key = isVariant ? variantKey(you, them, lane, ctx) : keyFor(you, them, lane);
+  const file = isVariant ? variantPath(key) : briefPath(key);
+  const dir = isVariant ? VARIANTS_DIR : BRIEFS_DIR;
 
   if (inFlight.has(key)) return inFlight.get(key);
 
   const work = (() => {
-    if (fs.existsSync(briefPath(key))) {
+    if (fs.existsSync(file)) {
       try {
-        return { ok: true, cached: true, record: JSON.parse(fs.readFileSync(briefPath(key), "utf8")) };
+        return { ok: true, cached: true, variant: isVariant, record: JSON.parse(fs.readFileSync(file, "utf8")) };
       } catch { /* unreadable — fall through and regenerate */ }
     }
 
-    const res = askClaude(buildPrompt(you, them, lane), timeoutMs);
+    const res = askClaude(buildPrompt(you, them, lane, ctx), timeoutMs);
     if (res.fatal) return { ok: false, fatal: true, error: res.err };
     if (res.err)  return { ok: false, error: res.err };
 
@@ -92,13 +103,14 @@ export function generateOne(you, them, lane, patch, { timeoutMs } = {}) {
       brief: res.brief,
       generatedAt: Date.now(),
       patch: patch ?? null,
-      generator: "on-demand"
+      generator: isVariant ? "variant" : "on-demand",
+      ...(isVariant ? { context: ctx } : {})
     };
 
-    fs.mkdirSync(BRIEFS_DIR, { recursive: true });
-    fs.writeFileSync(briefPath(key), JSON.stringify(record, null, 1));
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(file, JSON.stringify(record, null, 1));
 
-    return { ok: true, record, tokens: res.tokens };
+    return { ok: true, record, variant: isVariant, tokens: res.tokens };
   })();
 
   // spawnSync is blocking, so `work` is already resolved; the map only guards

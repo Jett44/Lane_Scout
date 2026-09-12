@@ -548,6 +548,21 @@ var browsing = false;
    finds the API and stays read-only. */
 var CAN_GENERATE = false;
 
+/* The situational rewrite currently on screen, if any. Never stored in DATA. */
+var VARIANT = null;
+
+/* ARCHIVED — the "Anything else" contextual rewrite.
+ *
+ * Parked, not deleted. The whole path still exists and works end to end
+ * (offline.js -> /api/generate -> generate.mjs -> data/variants/), but the
+ * model returned an incomplete brief for a context-laden prompt and the
+ * validator correctly rejected it, so the feature is off rather than shipping
+ * something that fails in front of a reader.
+ *
+ * Flip this to true to bring it back; nothing else needs changing. The prompt
+ * in lib.mjs buildPrompt() is where the fix would go. */
+var CONTEXT_FEATURE = false;
+
 /* Every read and write is guarded: a private window, or a browser set to
    block site data, throws on access rather than returning empty. */
 function readList(key){
@@ -594,7 +609,9 @@ try {
     ".prog-line{display:flex;flex-wrap:wrap;gap:5px 14px;align-items:baseline;" +
       "font-family:var(--mono);font-size:10px;letter-spacing:.07em;color:var(--ink-3)}" +
     ".prog-line b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}" +
-    ".prog-line .eta{color:var(--accent)}";
+    ".prog-line .eta{color:var(--accent)}" +
+    /* .field is display:flex, which wins over the hidden attribute's UA rule */
+    ".field[hidden]{display:none!important}";
   document.head.appendChild(s);
 })();
 
@@ -791,6 +808,16 @@ function maybeAuto(){
   }, 120);
 }
 
+/* Typing context does not change which brief is shown, so nothing would
+   re-render — but the offer to rewrite lives in that header, so restamp it. */
+$("ctx").addEventListener("input", function(){
+  syncTiles();
+  if (VARIANT) return;
+  var key = currentKey();
+  var rec = DATA.briefs[key];
+  if (rec) stampMeta(rec, key, null);
+});
+
 ["you", "them"].forEach(function(id){
   $(id).addEventListener("input", maybeAuto);
   // committing a suggestion with the mouse fires change, not input
@@ -848,39 +875,67 @@ document.addEventListener("keydown", function(e){
 
 /* ---------------- rendering ---------------- */
 
-function stampMeta(rec, key){
+function stampMeta(rec, key, shownContext){
   var m = document.querySelector(".metaline");
   if (!m) return;
-  var bits = [
-    '<button class="pinbtn" id="pinbtn" aria-pressed="' + isPinned(key) + '">'
-      + (isPinned(key) ? "★ Saved" : "☆ Save") + '</button>',
-    '<span class="stamp">written ' + esc(new Date(rec.generatedAt).toISOString().slice(0, 10)) + '</span>'
-  ];
+  var bits = [];
+
+  // a situational rewrite is not in the database, so there is nothing to pin
+  if (!shownContext){
+    bits.push('<button class="pinbtn" id="pinbtn" aria-pressed="' + isPinned(key) + '">'
+      + (isPinned(key) ? "★ Saved" : "☆ Save") + '</button>');
+  } else {
+    bits.push('<span class="badge hot">rewritten for: ' + esc(shownContext) + '</span>');
+    bits.push('<button class="pinbtn" id="backbtn">↩ standard brief</button>');
+  }
+
+  bits.push('<span class="stamp">written ' + esc(new Date(rec.generatedAt).toISOString().slice(0, 10)) + '</span>');
   if (rec.patch) bits.push('<span class="badge">patch ' + esc(rec.patch) + '</span>');
   if (LIVE_PATCH && rec.patch && LIVE_PATCH !== rec.patch){
     bits.push('<span class="badge hot">live is ' + esc(LIVE_PATCH) + '</span>');
   }
+
+  /* Context typed, but you are looking at the standard brief: offer the
+     rewrite rather than silently ignoring what was typed. */
+  if (CONTEXT_FEATURE && !shownContext && CAN_GENERATE && state.ctx){
+    bits.push('<button class="pinbtn" id="ctxbtn">↻ rewrite for “' + esc(state.ctx) + '”</button>');
+  }
+
   m.innerHTML = bits.join("");
-  $("pinbtn").addEventListener("click", function(){ togglePin(key); });
+
+  var pb = $("pinbtn");
+  if (pb) pb.addEventListener("click", function(){ togglePin(key); });
+
+  var cb = $("ctxbtn");
+  if (cb) cb.addEventListener("click", function(){ generateNow(state.you, state.them, state.ctx); });
+
+  var bb = $("backbtn");
+  if (bb) bb.addEventListener("click", function(){ VARIANT = null; scout(); });
 }
 
 /* ---------------- writing a matchup on demand ---------------- */
 
-function showWriting(you, them){
+function showWriting(you, them, ctx){
   $("app").innerHTML = '<div class="state"><div class="pulse"><i></i><i></i><i></i><i></i><i></i></div>'
-    + '<p class="s1">Writing ' + esc(you) + ' into ' + esc(them) + '</p>'
-    + '<p class="s2" aria-live="polite">Takes about a minute. It gets saved, so this only ever happens once '
-      + 'for a given matchup — and anyone you sent the file to picks it up on their next launch.</p></div>';
+    + '<p class="s1">' + (ctx ? "Rewriting " : "Writing ") + esc(you) + ' into ' + esc(them) + '</p>'
+    + (ctx
+        ? '<p class="s2" aria-live="polite">For <em>' + esc(ctx) + '</em>. Takes about a minute. '
+          + 'Situational rewrites stay on this machine — they describe your game, not the matchup, '
+          + 'so they are not added to the shared file.</p>'
+        : '<p class="s2" aria-live="polite">Takes about a minute. It gets saved, so this only ever happens once '
+          + 'for a given matchup — and anyone you sent the file to picks it up on their next launch.</p>')
+    + '</div>';
 }
 
-function generateNow(you, them){
+function generateNow(you, them, context){
   var lane = state.lane;
-  showWriting(you, them);
+  var ctx = (context || "").trim();
+  showWriting(you, them, ctx);
 
   fetch("/api/generate", {
     method: "POST",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ you: you, them: them, lane: lane })
+    body: JSON.stringify({ you: you, them: them, lane: lane, context: ctx })
   })
     .then(function(r){ return r.json().then(function(j){ return { status: r.status, j: j }; }); })
     .then(function(out){
@@ -899,6 +954,19 @@ function generateNow(you, them){
       }
 
       var rec = j.record;
+
+      /* A situational rewrite is shown but never folded into the database —
+         it describes one game, not the matchup. */
+      if (j.variant){
+        VARIANT = rec;
+        render({ you: rec.you, them: rec.them, lane: rec.lane, context: rec.context, brief: rec.brief },
+               { kind: "offline" });
+        stampMeta(rec, keyFor(rec.you, rec.them, rec.lane), rec.context);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        setNote(baseNote() + " · situational rewrite, kept local", false);
+        return;
+      }
+
       DATA.briefs[keyFor(rec.you, rec.them, rec.lane)] = rec;
       DATA.builtAt = Math.max(DATA.builtAt || 0, rec.generatedAt || 0);
       try { localStorage.setItem(CACHE_KEY, JSON.stringify(DATA)); } catch (e) {}
@@ -948,7 +1016,7 @@ function showMissing(you, them){
 
   $("app").onclick = function(e){
     var g = e.target.closest("#genbtn");
-    if (g){ generateNow(you, them); return; }
+    if (g){ generateNow(you, them, CONTEXT_FEATURE ? state.ctx : ""); return; }
     var b = e.target.closest("button[data-them]"); if (!b) return;
     $("them").value = b.dataset.them; syncTiles(); scout();
   };
@@ -1036,6 +1104,7 @@ function checkLocalApi(){
     .then(function(j){
       if (!j || !j.canGenerate) return;
       CAN_GENERATE = true;
+      if (CONTEXT_FEATURE) document.querySelector(".ctx").hidden = false;
       refreshOpponentList();
       if (j.coverage){ COVERAGE = j.coverage; renderProgress(); }
       setNote(baseNote() + " · writing enabled", false);
@@ -1047,6 +1116,11 @@ function checkLocalApi(){
 
 /* ---------------- boot ---------------- */
 (function(){
+  /* Hidden until we know a local API can act on it. Without one there is no
+     model behind this file, so the field could only ever discard what was
+     typed — and a control that silently does nothing is worse than absent. */
+  document.querySelector(".ctx").hidden = true;
+
   renderRail();
   renderProgress();
   refreshYouList();

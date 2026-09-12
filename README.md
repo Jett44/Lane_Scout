@@ -34,6 +34,36 @@ The same file opened by double-clicking, or sent to a friend, finds no API and
 stays read-only. The server binds to loopback only; it drives your Claude
 account and is never reachable from the network.
 
+## Archived: the "Anything else" contextual rewrite
+
+Parked, not deleted. The idea was to take a note like "they took Ignite and I'm
+0-2 down" and rewrite the brief for that specific game, keeping the result local
+rather than pushing one person's situation into the shared database.
+
+The whole path is still here and wired end to end:
+
+- `CONTEXT_FEATURE` in `template/offline.js` — the on/off switch, currently `false`
+- `buildPrompt(you, them, lane, context)` in `scripts/lib.mjs` — the prompt
+- `VARIANTS_DIR` / `variantKey` / `variantPath` in `scripts/lib.mjs` — storage
+- `generateOne(..., { context })` in `scripts/generate.mjs` — routes to `data/variants/`
+- `/api/generate` in `scripts/serve.mjs` — accepts and forwards `context`
+
+**Why it is off:** with a context-laden prompt the model returned a brief that
+was missing most of its fields (`tell`, `powerCurve`, `build`, `runes`,
+`summoners`, `playing` all absent). The validator rejected it, correctly — but
+that meant the button failed in front of the reader, so the field is hidden
+rather than shipping something broken.
+
+**To revive it:** set `CONTEXT_FEATURE = true` and fix the prompt. The extra
+situational paragraph in `buildPrompt` is the likely culprit — it competes with
+the "return ONLY this JSON shape" instruction. Splitting it into two calls
+(standard brief, then a rewrite pass) would probably be more reliable than one
+prompt trying to do both.
+
+Nothing was written to `data/variants/` — the failed attempt was rejected before
+it could be saved — and that directory is gitignored, so variants would never
+have reached anyone else.
+
 ## How updates reach people
 
 The shared file is not frozen. On every launch it does two free, token-less
