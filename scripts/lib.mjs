@@ -77,6 +77,59 @@ export function stats(lane = "Top") {
   return { total: all.length, done, left: all.length - done };
 }
 
+/* Observed throughput, for an honest completion estimate.
+ *
+ * Measured from the timestamps of briefs actually written, never projected
+ * from the batch size — the schedule asks for 25 per window but what it gets
+ * depends on how much quota was left, so a schedule-derived ETA would be
+ * fiction. Seeds are excluded; they carry a placeholder date.
+ *
+ * Rate uses the trailing 7 days once there is that much history, so a slow
+ * first week stops dragging the estimate down forever. Below a handful of
+ * briefs, or under an hour of history, it reports that it cannot tell yet
+ * rather than extrapolating from noise.
+ */
+export function progress(lane = "Top") {
+  const s = stats(lane);
+  const now = Date.now();
+  const DAY = 86400000;
+
+  let times = [];
+  if (fs.existsSync(BRIEFS_DIR)) {
+    for (const f of fs.readdirSync(BRIEFS_DIR).filter((x) => x.endsWith(".json"))) {
+      try {
+        const r = JSON.parse(fs.readFileSync(path.join(BRIEFS_DIR, f), "utf8"));
+        if (r.generator === "seed") continue;
+        if (typeof r.generatedAt === "number") times.push(r.generatedAt);
+      } catch { /* skip unreadable */ }
+    }
+  }
+  times.sort((a, b) => a - b);
+
+  const base = { ...s, ratePerDay: null, etaDays: null, etaAt: null, sample: times.length };
+  if (times.length < 4) return { ...base, why: "not enough history yet" };
+
+  const first = times[0];
+  const spanAll = (now - first) / DAY;
+  if (spanAll < 1 / 24) return { ...base, why: "too little time has passed" };
+
+  const window = Math.min(spanAll, 7);
+  const since = now - window * DAY;
+  const inWindow = times.filter((t) => t >= since).length;
+  const ratePerDay = inWindow / window;
+
+  if (!(ratePerDay > 0)) return { ...base, why: "nothing written recently" };
+
+  const etaDays = s.left / ratePerDay;
+  return {
+    ...base,
+    ratePerDay,
+    etaDays,
+    etaAt: now + etaDays * DAY,
+    windowDays: window
+  };
+}
+
 export const SHAPE = {
   verdict: { difficulty: "string", line: "string" },
   thesis: "string",

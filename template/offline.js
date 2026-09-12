@@ -63,9 +63,64 @@ try {
        looked like the layout randomly breaking. */
     "html{scrollbar-gutter:stable}" +
     ".ctx{flex:1 1 200px;min-width:160px}" +
-    ".go{flex:none}";
+    ".go{flex:none}" +
+    ".prog{width:100%;padding:9px 0 2px;display:flex;flex-direction:column;gap:6px}" +
+    ".prog-track{height:4px;border-radius:99px;background:var(--surface-2);overflow:hidden}" +
+    ".prog-fill{height:100%;background:var(--accent);border-radius:99px;" +
+      "transition:width .5s ease;min-width:2px}" +
+    ".prog-line{display:flex;flex-wrap:wrap;gap:5px 14px;align-items:baseline;" +
+      "font-family:var(--mono);font-size:10px;letter-spacing:.07em;color:var(--ink-3)}" +
+    ".prog-line b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}" +
+    ".prog-line .eta{color:var(--accent)}";
   document.head.appendChild(s);
 })();
+
+/* ---------------- coverage bar ---------------- */
+
+/* Starts from what shipped with the file, then the local API replaces it with
+   live numbers and a completion estimate. A friend's copy keeps the shipped
+   figures, which still explain why a given matchup isn't there. */
+var COVERAGE = { done: META.count, total: META.target || 0 };
+
+var progEl = document.createElement("div");
+progEl.className = "prog";
+document.querySelector(".bar .wrap").insertBefore(progEl, document.getElementById("recents"));
+
+function etaPhrase(days){
+  if (days <= 0)  return "complete";
+  if (days < 1)   return "complete today";
+  if (days < 2)   return "complete in about a day";
+  if (days < 14)  return "complete in " + Math.round(days) + " days";
+  if (days < 60)  return "complete in " + Math.round(days / 7) + " weeks";
+  return "complete in " + Math.round(days / 30.4) + " months";
+}
+
+function renderProgress(){
+  var done = COVERAGE.done || 0;
+  var total = COVERAGE.total || 0;
+  if (!total){ progEl.innerHTML = ""; return; }
+
+  var pct = Math.min(100, (done / total) * 100);
+  var bits = [
+    "<b>" + done.toLocaleString() + "</b> of <b>" + total.toLocaleString() + "</b> matchups",
+    "<span>" + (pct < 0.1 && pct > 0 ? "<0.1" : pct.toFixed(1)) + "%</span>"
+  ];
+
+  if (done >= total){
+    bits.push('<span class="eta">every matchup written</span>');
+  } else if (COVERAGE.ratePerDay > 0 && COVERAGE.etaDays != null){
+    bits.push("<span>" + COVERAGE.ratePerDay.toFixed(1) + "/day</span>");
+    bits.push('<span class="eta">' + etaPhrase(COVERAGE.etaDays)
+      + " · " + new Date(COVERAGE.etaAt).toLocaleDateString(undefined, { month: "short", year: "numeric" })
+      + "</span>");
+  } else if (COVERAGE.why){
+    bits.push("<span>estimate: " + esc(COVERAGE.why) + "</span>");
+  }
+
+  progEl.innerHTML =
+    '<div class="prog-track"><div class="prog-fill" style="width:' + pct.toFixed(2) + '%"></div></div>'
+    + '<div class="prog-line">' + bits.join("") + '</div>';
+}
 
 function reindex(){
   INDEX = {};
@@ -332,6 +387,11 @@ function generateNow(you, them){
       syncTiles();
       scout();
       setNote(baseNote() + " · just written", false);
+      // pull fresh coverage and a re-estimated completion date
+      fetch("/api/status", { cache: "no-store" })
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(st){ if (st && st.coverage){ COVERAGE = st.coverage; renderProgress(); } })
+        .catch(function(){});
     })
     .catch(function(e){
       $("app").innerHTML = '<div class="state">'
@@ -433,6 +493,8 @@ function checkForNewData(){
       try { localStorage.setItem(CACHE_KEY, JSON.stringify(DATA)); } catch (e) {}
       reindex();
       renderRail();
+      COVERAGE = { done: j.count || briefCount(), total: j.target || COVERAGE.total };
+      renderProgress();
       refreshYouList();
       refreshOpponentList();
       renderCurrent();
@@ -452,8 +514,8 @@ function checkLocalApi(){
       if (!j || !j.canGenerate) return;
       CAN_GENERATE = true;
       refreshOpponentList();
-      setNote(baseNote() + " · writing enabled, "
-        + j.coverage.done + "/" + j.coverage.total + " written", false);
+      if (j.coverage){ COVERAGE = j.coverage; renderProgress(); }
+      setNote(baseNote() + " · writing enabled", false);
       // if the reader is already staring at a miss, offer the button now
       if (!DATA.briefs[currentKey()] && state.you && state.them) showMissing(state.you, state.them);
     })
@@ -463,6 +525,7 @@ function checkLocalApi(){
 /* ---------------- boot ---------------- */
 (function(){
   renderRail();
+  renderProgress();
   refreshYouList();
   refreshOpponentList();
   setNote(briefCount() ? baseNote() : "This build has no matchups baked in yet.", false);

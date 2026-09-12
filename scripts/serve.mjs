@@ -14,7 +14,7 @@
 import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
-import { ROOT, POOL, stats } from "./lib.mjs";
+import { ROOT, POOL, stats, progress } from "./lib.mjs";
 import { generateOne } from "./generate.mjs";
 import { readState } from "./patch.mjs";
 import { publish } from "./publish.mjs";
@@ -51,12 +51,11 @@ const server = http.createServer(async (req, res) => {
   /* ---- local API ---- */
 
   if (url === "/api/status") {
-    const s = stats("Top");
     return send(res, 200, {
       ok: true,
       canGenerate: true,
       patch: readState().patch,
-      coverage: { done: s.done, total: s.total },
+      coverage: progress("Top"),
       lanes: Object.keys(POOL)
     });
   }

@@ -11,7 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
-  BRIEFS_DIR, TEMPLATE, OFFLINE_JS, DIST, DATA_JSON, REMOTE_DATA, keyFor
+  BRIEFS_DIR, TEMPLATE, OFFLINE_JS, DIST, DATA_JSON, REMOTE_DATA, keyFor, stats
 } from "./lib.mjs";
 import { readState } from "./patch.mjs";
 
@@ -54,7 +54,13 @@ export function build() {
      rather than from wall-clock time — a rebuild with no new briefs should
      not make old copies think they are behind. */
   const builtAt = newest || 0;
-  const meta = { patch, builtAt, count: Object.keys(map).length };
+  /* `target` travels with the data so a copy that has no local API can still
+     show how far along the whole project is, not just its own count. */
+  const meta = {
+    patch, builtAt,
+    count: Object.keys(map).length,
+    target: stats("Top").total
+  };
 
   // the update payload older copies fetch
   fs.writeFileSync(DATA_JSON, JSON.stringify({ version: 1, ...meta, briefs: map }));
