@@ -575,7 +575,13 @@ try {
       "font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;" +
       "padding:4px 9px;cursor:pointer;color:var(--ink-2)}" +
     ".pinbtn[aria-pressed=\"true\"]{background:var(--accent);border-color:var(--accent);color:#fff}" +
-    ".browse{display:flex;flex-wrap:wrap;gap:7px;padding:9px 0 0;width:100%}";
+    ".browse{display:flex;flex-wrap:wrap;gap:7px;padding:9px 0 0;width:100%}" +
+    /* Without a reserved gutter the scrollbar appears and disappears as briefs
+       change length, the viewport width jumps, and the bar re-wraps — which
+       looked like the layout randomly breaking. */
+    "html{scrollbar-gutter:stable}" +
+    ".ctx{flex:1 1 200px;min-width:160px}" +
+    ".go{flex:none}";
   document.head.appendChild(s);
 })();
 
@@ -697,6 +703,66 @@ document.getElementById("recents").addEventListener("click", function(e){
   }
 });
 
+/* When a datalist suggestion popup is open the browser eats the first Enter to
+   commit the highlighted option, so a keydown handler alone never fires and
+   typing a champion then pressing Enter appears to do nothing. keyup lands
+   after the popup has closed. scout() only re-renders, so the occasional
+   double call is harmless. */
+["you", "them", "ctx"].forEach(function(id){
+  $(id).addEventListener("keyup", function(e){
+    if (e.key === "Enter") scout();
+  });
+});
+
+/* Enter alone is not dependable here: while a suggestion popup is open the
+   browser can consume the whole keypress to commit the highlighted option, so
+   neither keydown nor keyup reaches the field. Rather than fight that, the
+   brief loads as soon as both names name a matchup we actually have — no
+   Enter, no button press. The Scout button stays for the case where nothing
+   matches and the reader wants to be told so. */
+var lastRendered = null;
+var autoTimer = null;
+
+function maybeAuto(){
+  clearTimeout(autoTimer);
+  autoTimer = setTimeout(function(){
+    var k = keyFor($("you").value.trim(), $("them").value.trim(), state.lane);
+    if (DATA.briefs[k] && k !== lastRendered) scout();
+  }, 120);
+}
+
+["you", "them"].forEach(function(id){
+  $(id).addEventListener("input", maybeAuto);
+  // committing a suggestion with the mouse fires change, not input
+  $(id).addEventListener("change", function(){ refreshOpponentList(); maybeAuto(); });
+});
+
+/* The opponent picker offers only matchups that actually exist for the
+   champion you typed, so the dropdown never promises a brief this build
+   cannot show. Falls back to the full roster for an uncovered champion. */
+var oppList = document.createElement("datalist");
+oppList.id = "champs-them";
+document.body.appendChild(oppList);
+$("them").setAttribute("list", "champs-them");
+
+function refreshOpponentList(){
+  var you = $("you").value.trim();
+  var opts = (INDEX[you] && INDEX[you].length) ? INDEX[you] : CHAMPS;
+  oppList.innerHTML = opts.map(function(c){
+    return '<option value="' + esc(c) + '">';
+  }).join("");
+}
+
+/* Covered champions sort to the top of the "you play" list. */
+function refreshYouList(){
+  var rest = CHAMPS.filter(function(c){ return COVERED.indexOf(c) === -1; });
+  $("champs").innerHTML = COVERED.concat(rest).map(function(c){
+    return '<option value="' + esc(c) + '">';
+  }).join("");
+}
+
+$("you").addEventListener("input", refreshOpponentList);
+
 /* ← and → step through history, as long as you are not typing in a field */
 document.addEventListener("keydown", function(e){
   if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
@@ -768,6 +834,7 @@ function scout(){
   render({ you: rec.you, them: rec.them, lane: rec.lane, context: "", brief: rec.brief },
          { kind: "offline" });
   stampMeta(rec, key);
+  lastRendered = key;
   remember(key);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -817,6 +884,8 @@ function checkForNewData(){
       try { localStorage.setItem(CACHE_KEY, JSON.stringify(DATA)); } catch (e) {}
       reindex();
       renderRail();
+      refreshYouList();
+      refreshOpponentList();
       renderCurrent();
       var added = briefCount() - before;
       setNote(baseNote() + (added > 0 ? " · updated, +" + added + " new" : " · updated"), false);
@@ -827,6 +896,8 @@ function checkForNewData(){
 /* ---------------- boot ---------------- */
 (function(){
   renderRail();
+  refreshYouList();
+  refreshOpponentList();
   setNote(briefCount() ? baseNote() : "This build has no matchups baked in yet.", false);
   renderCurrent();   // paint immediately from what we already have
   syncTiles();
