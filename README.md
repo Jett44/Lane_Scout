@@ -1,0 +1,105 @@
+# Lane Scout
+
+A shareable, offline League of Legends matchup brief generator.
+
+`dist/lane-scout.html` is the deliverable: one self-contained file. Double-click
+it, or send it to anyone. No install, no account, no API key, no network.
+
+## One-time setup
+
+The batch job drives the Claude CLI headlessly, and the CLI keeps its own login
+separate from the Claude desktop app. Until you do this, every scheduled run
+will no-op:
+
+```
+C:\Users\djnof\.local\bin\claude.exe
+```
+
+Run `/login` inside it, then exit. Confirm it took:
+
+```
+node scripts/batch.mjs --n=1
+```
+
+If that writes a brief, the automation is live.
+
+## How it fills up
+
+Two scheduled tasks generate briefs using quota that would otherwise expire.
+
+| Task | When | Batch |
+|---|---|---|
+| `LaneScout-5h` | every 5 hours, 10 min before each window closes | 25 briefs |
+| `LaneScout-Weekly` | Thursdays 6pm, ahead of the 8pm weekly reset | 200 briefs |
+
+Both are resumable by construction. Each brief is written to its own file the
+moment it validates, so a run that is killed, times out, or hits the quota
+ceiling keeps everything it finished — the next run continues from exactly
+there. Nothing is ever generated twice.
+
+Work is ordered by how likely you are to play the matchup, so the popular
+champions are covered long before the long tail.
+
+## Patch updates
+
+Every batch run first checks Riot's Data Dragon for the live patch. This costs
+no tokens — it is public data. If the patch moved, it diffs champion and item
+data against the previous patch and invalidates only the briefs that are
+actually affected:
+
+- the brief is about a champion Riot changed, or
+- the brief's build recommends an item Riot changed
+
+Those files are deleted, which puts them back in the queue ahead of the
+never-written ones, so the next few runs refresh them automatically. A typical
+patch touches ~13 of 173 champions and a handful of items, which works out to
+roughly 200 of 3,080 briefs — about one Thursday batch.
+
+```
+node scripts/patch.mjs           report what changed and what is stale
+node scripts/patch.mjs --apply   invalidate them now instead of waiting
+```
+
+`data/patch-state.json` records the last patch seen. Every brief stores the
+patch it was written on.
+
+## Commands
+
+```
+node scripts/batch.mjs --status      coverage so far
+node scripts/batch.mjs --n=3 --dry   what it would do next, spends nothing
+node scripts/batch.mjs --n=25        generate 25 briefs, then rebuild
+node scripts/build.mjs               rebuild dist/ from what exists
+node scripts/verify.mjs              check the build before sharing it
+```
+
+## Layout
+
+```
+data/briefs/<you>__<them>__<lane>.json   one brief per file, the source of truth
+template/app.html                        UI shell (CSS + renderer)
+template/offline.js                      offline lookup spliced in at build time
+scripts/lib.mjs                          champion pool, prompt, validation
+dist/lane-scout.html                     the file you send people
+logs/                                    per-run logs
+```
+
+The build splices `offline.js` into `app.html` at the marker
+`/* ---------------- scout ---------------- */`, replacing the live-Claude call
+with a lookup into the baked data. If you edit `app.html`, keep that marker.
+
+## Changing scope
+
+`POOL.Top` in `scripts/lib.mjs` is the champion list, ordered by how often you
+meet them. Add a champion and the new pairs are picked up automatically on the
+next run. Adding a lane means adding a key to `POOL`, then running batches with
+`--lane=Mid`.
+
+## Known limits
+
+- Briefs are frozen at generation time. When a patch moves items, regenerate the
+  affected ones by deleting their JSON files and re-running.
+- The scheduled tasks only run while you are logged in to Windows. Missed runs
+  fire at next login (`-StartWhenAvailable`).
+- Fonts load from Google Fonts. Offline they fall back to the stacks declared in
+  the CSS, which is by design — embedding them would multiply the file size.

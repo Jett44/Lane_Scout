@@ -1,0 +1,633 @@
+<title>Lane Scout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#F1F3EF; --surface:#FBFCF9; --surface-2:#E7EBE3;
+  --line:#D6DBD2; --line-strong:#BCC4B8;
+  --ink:#151A18; --ink-2:#4C5652; --ink-3:#7B857F;
+  --accent:#17786B; --accent-ink:#0C4D45; --accent-soft:#DCEDE8;
+  --threat:#AC5326; --threat-ink:#7E3A18; --threat-soft:#F7E5D9;
+  --even:#96A098; --even-soft:#E4E8E0;
+  --shadow:0 1px 2px rgba(20,30,28,.05), 0 10px 26px -16px rgba(20,30,28,.30);
+  --display:"Saira Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+  --mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1312; --surface:#151B19; --surface-2:#1C2422;
+    --line:#27312E; --line-strong:#3A4643;
+    --ink:#E7ECE8; --ink-2:#A5AFAA; --ink-3:#78837D;
+    --accent:#47C4AD; --accent-ink:#8BE0CF; --accent-soft:#0F2E29;
+    --threat:#E4884F; --threat-ink:#F2B487; --threat-soft:#2F1D10;
+    --even:#6C756F; --even-soft:#232B29;
+    --shadow:0 1px 2px rgba(0,0,0,.40), 0 12px 30px -18px rgba(0,0,0,.85);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1312; --surface:#151B19; --surface-2:#1C2422;
+  --line:#27312E; --line-strong:#3A4643;
+  --ink:#E7ECE8; --ink-2:#A5AFAA; --ink-3:#78837D;
+  --accent:#47C4AD; --accent-ink:#8BE0CF; --accent-soft:#0F2E29;
+  --threat:#E4884F; --threat-ink:#F2B487; --threat-soft:#2F1D10;
+  --even:#6C756F; --even-soft:#232B29;
+  --shadow:0 1px 2px rgba(0,0,0,.40), 0 12px 30px -18px rgba(0,0,0,.85);
+}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms !important;transition-duration:.01ms !important}}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* ---------- scout bar ---------- */
+.bar{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar-inner{display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px;padding:14px 0 13px}
+.mark{display:flex;flex-direction:column;gap:1px;margin-right:4px;padding-right:16px;border-right:1px solid var(--line)}
+.mark b{font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:.10em;text-transform:uppercase;line-height:1}
+.mark span{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.field{display:flex;flex-direction:column;gap:5px;min-width:0}
+.field > label{font-family:var(--mono);font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3)}
+.champ{display:flex;align-items:center;gap:8px;background:var(--bg);border:1px solid var(--line-strong);border-radius:3px;padding:5px 8px 5px 5px}
+.champ:focus-within{border-color:var(--accent)}
+.mono-tile{width:32px;height:32px;flex:none;display:grid;place-items:center;border-radius:2px;font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.02em;color:#fff}
+.mono-tile.you{background:var(--accent)}
+.mono-tile.them{background:var(--threat)}
+.champ input{border:0;background:transparent;color:var(--ink);font-family:var(--display);font-weight:600;font-size:19px;letter-spacing:.01em;width:152px;padding:2px 0}
+.champ input:focus{outline:none}
+.champ input::placeholder{color:var(--ink-3);font-weight:500}
+.vs{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.18em;color:var(--ink-3);padding-bottom:12px}
+.lanes{display:flex;gap:0;border:1px solid var(--line-strong);border-radius:3px;overflow:hidden}
+.lanes button{border:0;border-right:1px solid var(--line);background:var(--bg);color:var(--ink-2);font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:12px 9px;cursor:pointer}
+.lanes button:last-child{border-right:0}
+.lanes button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.ctx{flex:1 1 190px;min-width:150px}
+.ctx input{width:100%;border:1px solid var(--line-strong);border-radius:3px;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;padding:11px 10px}
+.ctx input::placeholder{color:var(--ink-3)}
+.go{border:0;border-radius:3px;background:var(--ink);color:var(--bg);font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:.12em;text-transform:uppercase;padding:13px 24px;cursor:pointer;white-space:nowrap}
+.go:hover:not(:disabled){background:var(--accent)}
+.go:disabled{opacity:.42;cursor:not-allowed}
+.barnote{width:100%;font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--ink-3);padding-bottom:2px}
+.barnote.warn{color:var(--threat)}
+
+/* ---------- recents ---------- */
+.recents{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:11px 0 0;border-top:1px solid var(--line);margin-top:2px}
+.recents .rl{font-family:var(--mono);font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);margin-right:3px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--ink-2);border-radius:99px;font-family:var(--display);font-weight:600;font-size:13.5px;letter-spacing:.03em;padding:3px 11px;cursor:pointer}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ---------- brief head ---------- */
+.head{padding:40px 0 26px}
+.metaline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:14px}
+.badge{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;border-radius:2px;background:var(--surface-2);color:var(--ink-2)}
+.badge.hot{background:var(--threat-soft);color:var(--threat-ink)}
+.stamp{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--ink-3)}
+.linkbtn{border:0;background:transparent;padding:0;color:var(--accent);font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+h1.title{font-family:var(--display);font-weight:700;font-size:clamp(40px,7vw,72px);line-height:.95;letter-spacing:-.005em;margin:0;text-wrap:balance}
+h1.title .me{color:var(--accent)}
+h1.title .sep{color:var(--ink-3);font-weight:500;font-size:.5em;vertical-align:.22em;letter-spacing:.1em;padding:0 .22em}
+h1.title .op{color:var(--threat)}
+.verdict{font-family:var(--body);font-size:19px;font-style:italic;color:var(--ink-2);margin:12px 0 0;max-width:60ch}
+.verdict strong{font-style:normal;font-family:var(--display);font-weight:700;letter-spacing:.02em;color:var(--ink)}
+
+/* ---------- layout ---------- */
+.grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:44px;padding-bottom:72px;align-items:start}
+@media (max-width:900px){.grid{grid-template-columns:1fr;gap:34px}}
+.sec{margin-bottom:38px}
+.sec:last-child{margin-bottom:0}
+h2{font-family:var(--display);font-weight:700;font-size:12.5px;letter-spacing:.20em;text-transform:uppercase;color:var(--ink-3);margin:0 0 14px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+.prose{font-size:18px;line-height:1.62;margin:0;max-width:64ch;color:var(--ink)}
+
+/* ---------- the tell ---------- */
+.tell{background:var(--surface);border:1px solid var(--line);border-radius:4px;overflow:hidden;box-shadow:var(--shadow)}
+.tell-top{display:flex;align-items:baseline;gap:11px;padding:15px 18px;border-bottom:1px solid var(--line);background:var(--surface-2);flex-wrap:wrap}
+.tell-top .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.tell-top .v{font-family:var(--display);font-weight:700;font-size:25px;letter-spacing:.01em;line-height:1.1;color:var(--ink)}
+.windows{display:grid;grid-template-columns:1fr 1fr}
+@media (max-width:620px){.windows{grid-template-columns:1fr}}
+.win{padding:17px 18px 19px}
+.win + .win{border-left:1px solid var(--line)}
+@media (max-width:620px){.win + .win{border-left:0;border-top:1px solid var(--line)}}
+.win .who{font-family:var(--mono);font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;margin-bottom:9px}
+.win .when{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.15;margin-bottom:7px}
+.win .what{font-size:15.5px;line-height:1.55;margin:0}
+.win--them{background:var(--threat-soft)}
+.win--them .who,.win--them .when,.win--them .what{color:var(--threat-ink)}
+.win--them .what{opacity:.9}
+.win--you{background:var(--accent-soft)}
+.win--you .who,.win--you .when,.win--you .what{color:var(--accent-ink)}
+.win--you .what{opacity:.9}
+
+/* ---------- power curve ---------- */
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:11px}
+.legend span{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.legend i{width:11px;height:11px;border-radius:2px;display:inline-block}
+.curve-bar{display:flex;gap:3px;height:44px}
+.seg{border-radius:2px;display:grid;place-items:center;min-width:0;padding:0 4px}
+.seg span{font-family:var(--mono);font-weight:500;font-size:11.5px;letter-spacing:.03em;color:#fff;white-space:nowrap;font-variant-numeric:tabular-nums}
+.seg--you{background:var(--accent)}
+.seg--them{background:var(--threat)}
+.seg--even{background:var(--even)}
+.curve-notes{display:flex;gap:3px;margin-top:8px}
+.cnote{min-width:0;padding:0 2px;font-family:var(--mono);font-size:10.5px;line-height:1.45;letter-spacing:.01em;color:var(--ink-3)}
+
+/* ---------- playing notes ---------- */
+.notes{margin:0;padding:0;list-style:none}
+.notes li{padding:16px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:26px 1fr;gap:14px}
+.notes li:first-child{padding-top:2px}
+.notes li:last-child{border-bottom:0}
+.notes .dot{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);padding-top:6px;font-variant-numeric:tabular-nums}
+.notes h3{font-family:var(--display);font-weight:700;font-size:21px;letter-spacing:.01em;line-height:1.2;margin:0 0 4px;color:var(--ink)}
+.notes p{margin:0;font-size:16.5px;line-height:1.58;color:var(--ink-2);max-width:58ch}
+
+/* ---------- build rail ---------- */
+.rail{position:sticky;top:96px}
+@media (max-width:900px){.rail{position:static}}
+.item{display:grid;grid-template-columns:34px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:0}
+.item .slot{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);padding-top:6px;font-variant-numeric:tabular-nums}
+.item .slot.n{color:var(--accent);font-weight:700;font-size:12px}
+.item .nm{font-family:var(--display);font-weight:600;font-size:19px;line-height:1.2;letter-spacing:.01em;color:var(--ink)}
+.item .wy{font-size:14.5px;line-height:1.5;color:var(--ink-2);margin:3px 0 0}
+.item.sit .nm{font-size:17px}
+.item.sit .wy{font-style:italic}
+.item.sit .wy .ifk{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--threat);font-style:normal}
+
+.keystone{background:var(--accent-soft);border:1px solid var(--accent);border-radius:3px;padding:12px 14px;margin-bottom:12px}
+.keystone .nm{font-family:var(--display);font-weight:700;font-size:21px;line-height:1.15;color:var(--accent-ink)}
+.keystone .wy{font-size:14.5px;line-height:1.5;color:var(--accent-ink);opacity:.88;margin:4px 0 0}
+.runerow{display:grid;grid-template-columns:66px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.runerow:last-of-type{border-bottom:0}
+.runerow .rk{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+.runerow .rv{font-family:var(--display);font-weight:600;font-size:16.5px;line-height:1.35;color:var(--ink)}
+.runerow .rv em{font-style:normal;color:var(--ink-3)}
+.sums{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.sum{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:.02em;padding:5px 13px;border:1px solid var(--line-strong);border-radius:3px;background:var(--surface);color:var(--ink)}
+.railnote{font-size:14.5px;line-height:1.5;color:var(--ink-2);margin:0}
+.caveat{margin-top:26px;padding:13px 15px;border-left:2px solid var(--line-strong);background:var(--surface);font-size:14px;line-height:1.55;color:var(--ink-3)}
+
+/* ---------- states ---------- */
+.state{padding:74px 0 96px;max-width:52ch}
+.state .s1{font-family:var(--display);font-weight:700;font-size:31px;letter-spacing:.01em;margin:0 0 8px;color:var(--ink)}
+.state .s2{font-size:17px;color:var(--ink-2);margin:0 0 18px}
+.pulse{display:flex;gap:5px;margin-bottom:22px}
+.pulse i{width:26px;height:5px;border-radius:99px;background:var(--line-strong);animation:pz 1.3s ease-in-out infinite}
+.pulse i:nth-child(2){animation-delay:.13s}.pulse i:nth-child(3){animation-delay:.26s}
+.pulse i:nth-child(4){animation-delay:.39s}.pulse i:nth-child(5){animation-delay:.52s}
+@keyframes pz{0%,100%{background:var(--line-strong)}45%{background:var(--accent)}}
+</style>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="bar-inner">
+      <div class="mark"><b>Lane Scout</b><span>Champ-select briefs</span></div>
+
+      <div class="field">
+        <label for="you">You play</label>
+        <div class="champ"><span class="mono-tile you" id="youTile">SE</span>
+          <input id="you" list="champs" autocomplete="off" spellcheck="false" placeholder="Champion" value="Sett"></div>
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div class="field">
+        <label for="them">Against</label>
+        <div class="champ"><span class="mono-tile them" id="themTile">RE</span>
+          <input id="them" list="champs" autocomplete="off" spellcheck="false" placeholder="Champion" value="Renekton"></div>
+      </div>
+
+      <div class="field">
+        <label for="lanes">Lane</label>
+        <div class="lanes" id="lanes" role="group" aria-label="Lane"></div>
+      </div>
+
+      <div class="field ctx">
+        <label for="ctx">Anything else</label>
+        <input id="ctx" placeholder="they took Ignite / I'm 0-2 down / enemy jungler is Ivern">
+      </div>
+
+      <button class="go" id="go">Scout</button>
+      <div class="barnote" id="barnote" aria-live="polite"></div>
+    </div>
+    <div class="recents" id="recents" hidden></div>
+  </div>
+</div>
+
+<datalist id="champs"></datalist>
+<div class="wrap"><div id="app"></div></div>
+
+<script>
+/* ---------------- champion roster (free text is accepted too) ---------------- */
+var CHAMPS = ["Aatrox","Ahri","Akali","Akshan","Alistar","Ambessa","Amumu","Anivia","Annie","Aphelios","Ashe","Aurelion Sol","Aurora","Azir","Bard","Bel'Veth","Blitzcrank","Brand","Braum","Briar","Caitlyn","Camille","Cassiopeia","Cho'Gath","Corki","Darius","Diana","Dr. Mundo","Draven","Ekko","Elise","Evelynn","Ezreal","Fiddlesticks","Fiora","Fizz","Galio","Gangplank","Garen","Gnar","Gragas","Graves","Gwen","Hecarim","Heimerdinger","Hwei","Illaoi","Irelia","Ivern","Janna","Jarvan IV","Jax","Jayce","Jhin","Jinx","K'Sante","Kai'Sa","Kalista","Karma","Karthus","Kassadin","Katarina","Kayle","Kayn","Kennen","Kha'Zix","Kindred","Kled","Kog'Maw","LeBlanc","Lee Sin","Leona","Lillia","Lissandra","Lucian","Lulu","Lux","Malphite","Malzahar","Maokai","Master Yi","Mel","Milio","Miss Fortune","Mordekaiser","Morgana","Naafiri","Nami","Nasus","Nautilus","Neeko","Nidalee","Nilah","Nocturne","Nunu & Willump","Olaf","Orianna","Ornn","Pantheon","Poppy","Pyke","Qiyana","Quinn","Rakan","Rammus","Rek'Sai","Rell","Renata Glasc","Renekton","Rengar","Riven","Rumble","Ryze","Samira","Sejuani","Senna","Seraphine","Sett","Shaco","Shen","Shyvana","Singed","Sion","Sivir","Skarner","Smolder","Sona","Soraka","Swain","Sylas","Syndra","Tahm Kench","Taliyah","Talon","Taric","Teemo","Thresh","Tristana","Trundle","Tryndamere","Twisted Fate","Twitch","Udyr","Urgot","Varus","Vayne","Veigar","Vel'Koz","Vex","Vi","Viego","Viktor","Vladimir","Volibear","Warwick","Wukong","Xayah","Xerath","Xin Zhao","Yasuo","Yone","Yorick","Yunara","Yuumi","Zac","Zed","Zeri","Ziggs","Zilean","Zoe","Zyra"];
+var LANES = ["Top","Jungle","Mid","Bot","Support"];
+
+/* ---------------- the brief the page opens on ---------------- */
+var EXAMPLE = {
+  you:"Sett", them:"Renekton", lane:"Top", context:"",
+  brief:{
+    verdict:{difficulty:"Hard early", line:"You lose levels 1–5 outright, and you win everything after 15 minutes."},
+    thesis:"Renekton is one of the hardest early lane bullies in the game and Sett is one of the better late-game bruisers, so this lane is entirely about surviving levels 1–5. The saving grace is that Sett's W converts damage taken into grit while Renekton's all-in is front-loaded burst — his combo literally loads your gun. Most Setts lose this matchup by trying to trade first instead of letting him commit and W'ing back.",
+    tell:{
+      watch:"His Fury bar",
+      theirWindow:{when:"50+ Fury", what:"Empowered W stuns and deals bonus max-health damage. Do not be in range. Back off, farm under tower, and let him shove the wave."},
+      yourWindow:{when:"0 Fury", what:"He is one of the weakest champions in the game for those few seconds. Every trade and every all-in you take happens inside this window."}
+    },
+    powerCurve:[
+      {levels:"1-2", edge:"even", note:"Before his Fury comes online"},
+      {levels:"3-5", edge:"them", note:"His hardest spike — concede the wave"},
+      {levels:"6-10", edge:"even", note:"R flips fights if his Fury is spent"},
+      {levels:"11-18", edge:"you", note:"He falls off, you keep scaling"}
+    ],
+    build:{
+      start:{item:"Doran's Shield + Health Potion", why:"Non-negotiable here — it blunts the level 2–3 all-in"},
+      boots:{item:"Plated Steelcaps", why:"Buy early, sometimes before a first item component. All his damage is physical"},
+      core:[
+        {item:"Trinity Force", why:"Proc damage and tempo. Stridebreaker instead if you want the slow to guarantee your R"},
+        {item:"Sterak's Gage", why:"Bonus health, and the shield covers the exact window his burst would kill you in"},
+        {item:"Death's Dance", why:"Armor plus damage postponement — turns his all-in into something you heal through after killing him"}
+      ],
+      situational:[
+        {item:"Chempunk Chainsword", when:"his Q sustain keeps him topped off through every trade"},
+        {item:"Randuin's Omen", when:"he got ahead anyway and is bursting you down"},
+        {item:"Spirit Visage", when:"their team has real magic damage"}
+      ]
+    },
+    runes:{
+      keystone:"Grasp of the Undying",
+      keystoneWhy:"Lane survivability beats the Conqueror scaling you won't live long enough to use before 6",
+      primary:["Shield Bash","Bone Plating","Overgrowth"],
+      secondary:["Triumph","Legend: Alacrity"],
+      shards:["Ability Haste","Adaptive Force","Armor"]
+    },
+    summoners:{picks:["Flash","Teleport"], why:"Ghost only if you're confident you'll be ahead. At level 3, you usually won't be."},
+    playing:[
+      {title:"Let him commit first", detail:"Eat the E-W, bank the grit, then W the true damage back into him. Land the centre of the cone, not the edge."},
+      {title:"Hold E until his dashes are gone", detail:"Facebreaker is your only hard CC and he will simply E away from it. Use it once both charges are spent, to guarantee the W."},
+      {title:"Ult him through his own R", detail:"Show Stopper scales off the target's bonus health and Dominus hands him a large chunk of it. His ultimate being up is a reason to commit, not to back off — as long as his Fury is spent."},
+      {title:"Suppression beats his escape", detail:"Once Show Stopper lands, his E cannot get him out of it. That is your kill window at 6."},
+      {title:"Lose the wave on purpose", detail:"He shoves with Q, so let him. Farm under tower and don't contest a wave you don't need. Every minute you deny him a kill moves the game toward the half you win."}
+    ],
+    patchCaveat:"The matchup logic here is stable across patches. Item names and rune numbers drift — sanity-check the exact list against the live patch."
+  }
+};
+
+/* ---------------- schema handed to Claude ---------------- */
+var SHAPE = {
+  verdict:{difficulty:"string", line:"string"},
+  thesis:"string",
+  tell:{watch:"string", theirWindow:{when:"string", what:"string"}, yourWindow:{when:"string", what:"string"}},
+  powerCurve:[{levels:"string", edge:"you | them | even", note:"string"}],
+  build:{
+    start:{item:"string", why:"string"},
+    boots:{item:"string", why:"string"},
+    core:[{item:"string", why:"string"}],
+    situational:[{item:"string", when:"string"}]
+  },
+  runes:{keystone:"string", keystoneWhy:"string", primary:["string"], secondary:["string"], shards:["string"]},
+  summoners:{picks:["string"], why:"string"},
+  playing:[{title:"string", detail:"string"}],
+  patchCaveat:"string"
+};
+
+function buildPrompt(you, them, lane, ctx){
+  return [
+"You are a high-elo League of Legends coach writing a champ-select scouting brief.",
+"",
+"MATCHUP: the player is " + you + ". The enemy laner is " + them + ". Lane: " + lane + ".",
+"PLAYER'S EXTRA CONTEXT: " + (ctx ? ctx : "none."),
+"",
+"Write the brief for the player PLAYING " + you + " INTO " + them + ". Never write it from the enemy's point of view.",
+"",
+"Requirements:",
+"- Be mechanically precise. Name abilities by key and name, e.g. \"W (Path Maker)\". Reference the real tells: resource bars, charge counts, passive stacks, empowered autos, dash cooldowns.",
+"- Use concrete level ranges and timings. Never say only \"early game\" or \"late game\".",
+"- Every line must change what the player actually does. No filler, and nothing generic enough to fit a different matchup.",
+"- Item and rune names may have drifted since your training data. Give the standard build you know, and keep patchCaveat honest about that.",
+"- If the matchup is genuinely even or favoured for the player, say so. Do not manufacture difficulty.",
+"",
+"Return ONLY a JSON object — no prose, no code fence — in exactly this shape:",
+JSON.stringify(SHAPE, null, 1),
+"",
+"Field rules:",
+"- verdict.difficulty: 2-3 words from the " + you + " player's side (e.g. \"Hard early\", \"Skill matchup\", \"Favoured\", \"Free lane\").",
+"- verdict.line: one sentence naming when you lose and when you win.",
+"- thesis: 2-4 sentences giving the single structural fact that defines this matchup.",
+"- tell.watch: the ONE thing to track on screen all lane (a resource bar, a cooldown, a stack count, a wave state). Under 6 words.",
+"- tell.theirWindow and tell.yourWindow: \"when\" is a short condition under 8 words; \"what\" is one or two sentences of what to do about it.",
+"- powerCurve: 3 to 5 segments covering levels 1 through 18 in order with no gaps. \"levels\" formatted like \"3-5\". \"edge\" is exactly \"you\", \"them\" or \"even\". \"note\" is at most 8 words.",
+"- build.core: 3 to 4 items in build order. build.situational: 2 to 4 items, where \"when\" is the condition written as a lowercase clause that reads correctly after the word IF.",
+"- runes.primary: the 3 non-keystone runes of the primary tree. runes.secondary: exactly 2. runes.shards: exactly 3.",
+"- playing: 5 to 7 notes. \"title\" is an imperative under 6 words. \"detail\" is 1-2 sentences."
+  ].join("\n");
+}
+
+/* ---------------- helpers ---------------- */
+function $(id){ return document.getElementById(id); }
+function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]; }); }
+function mono(n){ var t = String(n||"").replace(/[^A-Za-z]/g,""); return (t.slice(0,2) || "??").toUpperCase(); }
+function slug(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,60) || "x"; }
+function keyFor(y,t,l){ return slug(y) + "__" + slug(t) + "__" + slug(l); }
+function span(lv){
+  var m = String(lv).match(/(\d+)\D+(\d+)/);
+  if (m) return Math.max(1, (+m[2]) - (+m[1]) + 1);
+  return 2;
+}
+function ago(ms){
+  var d = Date.now() - ms;
+  if (d < 6e4) return "just now";
+  if (d < 36e5) return Math.round(d/6e4) + " min ago";
+  if (d < 864e5) return Math.round(d/36e5) + "h ago";
+  return Math.round(d/864e5) + "d ago";
+}
+function arr(v){ return Array.isArray(v) ? v : (v == null ? [] : [v]); }
+function pad(n){ return n < 10 ? "0" + n : String(n); }
+
+/* ---------------- state ---------------- */
+var state = { you:"Sett", them:"Renekton", lane:"Top", ctx:"" };
+var sampleFn = null, store = null, ctl = null;
+
+/* ---------------- bar wiring ---------------- */
+$("champs").innerHTML = CHAMPS.map(function(c){ return '<option value="' + esc(c) + '">'; }).join("");
+$("lanes").innerHTML = LANES.map(function(l){
+  return '<button type="button" data-lane="' + esc(l) + '" aria-pressed="' + (l === state.lane) + '">' + esc(l) + '</button>';
+}).join("");
+$("lanes").addEventListener("click", function(e){
+  var b = e.target.closest("button[data-lane]"); if (!b) return;
+  state.lane = b.dataset.lane;
+  Array.prototype.forEach.call($("lanes").children, function(x){
+    x.setAttribute("aria-pressed", String(x === b)); });
+});
+function syncTiles(){
+  state.you = $("you").value.trim(); state.them = $("them").value.trim(); state.ctx = $("ctx").value.trim();
+  $("youTile").textContent = mono(state.you); $("themTile").textContent = mono(state.them);
+  $("go").disabled = !(state.you && state.them && sampleFn);
+}
+["you","them","ctx"].forEach(function(id){
+  $(id).addEventListener("input", syncTiles);
+  $(id).addEventListener("keydown", function(e){
+    if (e.key === "Enter" && !$("go").disabled) scout(false);
+  });
+});
+$("go").addEventListener("click", function(){ scout(false); });
+
+/* ---------------- rendering ---------------- */
+function itemRow(it, slotLabel, numbered, sit){
+  if (!it) return "";
+  var why = sit
+    ? '<span class="ifk">IF </span>' + esc(it.when)
+    : esc(it.why);
+  return '<div class="item' + (sit ? " sit" : "") + '">'
+    + '<div class="slot' + (numbered ? " n" : "") + '">' + esc(slotLabel) + '</div>'
+    + '<div><div class="nm">' + esc(it.item) + '</div>'
+    + '<p class="wy">' + why + '</p></div></div>';
+}
+
+function render(rec, meta){
+  var b = rec.brief || {};
+  var you = rec.you, them = rec.them;
+  var curve = arr(b.powerCurve);
+  var build = b.build || {};
+  var runes = b.runes || {};
+  var tell = b.tell || {};
+  var tw = tell.theirWindow || {}, yw = tell.yourWindow || {};
+
+  var segs = curve.map(function(s){
+    var cls = s.edge === "you" ? "seg--you" : s.edge === "them" ? "seg--them" : "seg--even";
+    return '<div class="seg ' + cls + '" style="flex:' + span(s.levels) + '"><span>' + esc(s.levels) + '</span></div>';
+  }).join("");
+  var cnotes = curve.map(function(s){
+    return '<div class="cnote" style="flex:' + span(s.levels) + '">' + esc(s.note) + '</div>';
+  }).join("");
+
+  var coreRows = arr(build.core).map(function(it, i){
+    return itemRow(it, pad(i + 1), true, false); }).join("");
+  var sitRows = arr(build.situational).map(function(it){
+    return itemRow(it, "", false, true); }).join("");
+
+  function runeRow(k, v){
+    var list = arr(v);
+    if (!list.length) return "";
+    return '<div class="runerow"><div class="rk">' + esc(k) + '</div><div class="rv">'
+      + list.map(esc).join(' <em>/</em> ') + '</div></div>';
+  }
+
+  var metaBits = [];
+  if (meta.kind === "example") metaBits.push('<span class="badge">Example brief</span>');
+  if (meta.kind === "cached") metaBits.push('<span class="badge">Saved</span><span class="stamp">scouted ' + esc(ago(meta.at)) + '</span><button class="linkbtn" id="refresh">Scout again, fresh</button>');
+  if (meta.kind === "fresh") metaBits.push('<span class="badge hot">Fresh</span><span class="stamp">just scouted</span>');
+  if (rec.context) metaBits.push('<span class="stamp">context: ' + esc(rec.context) + '</span>');
+
+  $("app").innerHTML =
+  '<div class="head">'
+    + '<div class="metaline">' + metaBits.join("") + '</div>'
+    + '<h1 class="title"><span class="me">' + esc(you) + '</span><span class="sep">INTO</span><span class="op">' + esc(them) + '</span></h1>'
+    + '<p class="verdict"><strong>' + esc((b.verdict && b.verdict.difficulty) || "") + '.</strong> '
+      + esc((b.verdict && b.verdict.line) || "") + '</p>'
+  + '</div>'
+
+  + '<div class="grid">'
+    + '<div>'
+      + '<section class="sec"><h2>The core problem</h2><p class="prose">' + esc(b.thesis) + '</p></section>'
+
+      + '<section class="sec"><h2>What decides every trade</h2>'
+        + '<div class="tell">'
+          + '<div class="tell-top"><span class="k">Watch</span><span class="v">' + esc(tell.watch) + '</span></div>'
+          + '<div class="windows">'
+            + '<div class="win win--them"><div class="who">' + esc(them) + '’s window</div>'
+              + '<div class="when">' + esc(tw.when) + '</div>'
+              + '<p class="what">' + esc(tw.what) + '</p></div>'
+            + '<div class="win win--you"><div class="who">Your window</div>'
+              + '<div class="when">' + esc(yw.when) + '</div>'
+              + '<p class="what">' + esc(yw.what) + '</p></div>'
+          + '</div>'
+        + '</div>'
+      + '</section>'
+
+      + (curve.length ? '<section class="sec"><h2>Power by level</h2>'
+        + '<div class="legend">'
+          + '<span><i style="background:var(--accent)"></i>' + esc(you) + ' favoured</span>'
+          + '<span><i style="background:var(--even)"></i>Even</span>'
+          + '<span><i style="background:var(--threat)"></i>' + esc(them) + ' favoured</span>'
+        + '</div>'
+        + '<div class="curve-bar">' + segs + '</div><div class="curve-notes">' + cnotes + '</div>'
+      + '</section>' : '')
+
+      + '<section class="sec"><h2>Playing it</h2><ul class="notes">'
+        + arr(b.playing).map(function(n, i){
+            return '<li><div class="dot">' + pad(i + 1) + '</div>'
+              + '<div><h3>' + esc(n.title) + '</h3><p>' + esc(n.detail) + '</p></div></li>'; }).join("")
+      + '</ul></section>'
+    + '</div>'
+
+    + '<aside><div class="rail">'
+      + '<section class="sec"><h2>Build order</h2>'
+        + itemRow(build.start, "Start", false, false)
+        + itemRow(build.boots, "Boots", false, false)
+        + coreRows
+      + '</section>'
+      + (sitRows ? '<section class="sec"><h2>Situational</h2>' + sitRows + '</section>' : '')
+      + '<section class="sec"><h2>Runes</h2>'
+        + '<div class="keystone"><div class="nm">' + esc(runes.keystone) + '</div>'
+        + (runes.keystoneWhy ? '<p class="wy">' + esc(runes.keystoneWhy) + '</p>' : '') + '</div>'
+        + runeRow("Primary", runes.primary) + runeRow("Second", runes.secondary) + runeRow("Shards", runes.shards)
+      + '</section>'
+      + '<section class="sec"><h2>Summoners</h2>'
+        + '<div class="sums">' + arr(b.summoners && b.summoners.picks).map(function(s){
+            return '<span class="sum">' + esc(s) + '</span>'; }).join("") + '</div>'
+        + '<p class="railnote">' + esc(b.summoners && b.summoners.why) + '</p>'
+      + '</section>'
+      + (b.patchCaveat ? '<div class="caveat">' + esc(b.patchCaveat) + '</div>' : '')
+    + '</div></aside>'
+  + '</div>';
+
+  var rf = $("refresh");
+  if (rf) rf.addEventListener("click", function(){
+    $("you").value = rec.you; $("them").value = rec.them; $("ctx").value = rec.context || "";
+    syncTiles(); scout(true);
+  });
+}
+
+var PHASES = [["verdict","Reading the matchup"],["thesis","Writing the thesis"],["tell","Finding the tell"],
+  ["powerCurve","Mapping the power curve"],["build","Working out the build"],["runes","Picking runes"],
+  ["playing","Writing the lane notes"]];
+
+function showLoading(you, them){
+  $("app").innerHTML = '<div class="state"><div class="pulse"><i></i><i></i><i></i><i></i><i></i></div>'
+    + '<p class="s1">Scouting ' + esc(you) + ' into ' + esc(them) + '</p>'
+    + '<p class="s2" id="phase" aria-live="polite">Reading the matchup…</p></div>';
+}
+function showError(msg, retryable){
+  $("app").innerHTML = '<div class="state"><p class="s1">That scout didn’t come back</p>'
+    + '<p class="s2">' + esc(msg) + '</p>'
+    + (retryable ? '<button class="go" id="retry">Try again</button>' : '') + '</div>';
+  var r = $("retry"); if (r) r.addEventListener("click", function(){ scout(true); });
+}
+
+var ERRCOPY = {
+  not_granted:"This view isn't allowed to ask Claude, so live scouting is off. Saved briefs still open.",
+  rate_limited:"Too many scouts in a row. Give it a minute, then try again.",
+  invalid_json:"Claude's answer came back malformed. Asking once more usually fixes it.",
+  prompt_too_large:"That context note is too long — trim it and scout again.",
+  invalid_request:"Something about the request was malformed. Check the champion names.",
+  upstream_error:"Claude couldn't be reached. Try again in a moment."
+};
+
+/* ---------------- scout ---------------- */
+async function scout(forceFresh){
+  syncTiles();
+  var you = state.you, them = state.them, lane = state.lane, ctx = state.ctx;
+  if (!you || !them || !sampleFn) return;
+
+  var k = keyFor(you, them, lane) + (ctx ? "__" + slug(ctx).slice(0, 24) : "");
+
+  if (!forceFresh && store){
+    try{
+      var snap = await store.doc("briefs/" + k).get();
+      if (snap.exists){
+        var d = snap.data();
+        render({you:d.you, them:d.them, lane:d.lane, context:d.context, brief:d.brief},
+               {kind:"cached", at:d.savedAt || Date.now()});
+        window.scrollTo({top:0, behavior:"smooth"});
+        return;
+      }
+    }catch(e){ /* no cache hit available; fall through to a live scout */ }
+  }
+
+  if (ctl) ctl.abort();
+  ctl = new AbortController();
+  $("go").disabled = true;
+  showLoading(you, them);
+
+  try{
+    var brief = await sampleFn.json(buildPrompt(you, them, lane, ctx), {
+      modelTier:"complex",
+      cache: forceFresh ? false : true,
+      signal: ctl.signal,
+      onText: function(u){
+        var p = $("phase"); if (!p) return;
+        var best = PHASES[0][1];
+        for (var i = 0; i < PHASES.length; i++){
+          if (u.text.indexOf('"' + PHASES[i][0] + '"') !== -1) best = PHASES[i][1];
+        }
+        p.textContent = best + "…";
+      }
+    });
+
+    render({you:you, them:them, lane:lane, context:ctx, brief:brief}, {kind:"fresh"});
+
+    if (store){
+      try{
+        await store.doc("briefs/" + k).set({
+          you:you, them:them, lane:lane, context:ctx, brief:brief, savedAt: Date.now()
+        });
+        loadRecents();
+      }catch(e){ /* a brief that can't be saved is still a brief on screen */ }
+    }
+  }catch(e){
+    if (e && e.code === "cancelled") return;
+    var code = (e && e.code) || "upstream_error";
+    showError(ERRCOPY[code] || ERRCOPY.upstream_error, code !== "not_granted");
+  }finally{
+    $("go").disabled = !(state.you && state.them && sampleFn);
+  }
+}
+
+/* ---------------- recents ---------------- */
+async function loadRecents(){
+  if (!store) return;
+  try{
+    var qs = await store.collection("briefs").orderBy("savedAt", "desc").limit(8).get();
+    if (qs.empty){ $("recents").hidden = true; return; }
+    $("recents").hidden = false;
+    $("recents").innerHTML = '<span class="rl">Scouted</span>' + qs.docs.map(function(d){
+      var v = d.data();
+      return '<button class="chip" data-id="' + esc(d.id) + '">' + esc(v.you) + ' › ' + esc(v.them) + '</button>';
+    }).join("");
+    $("recents").onclick = async function(e){
+      var b = e.target.closest("button[data-id]"); if (!b) return;
+      var s = await store.doc("briefs/" + b.dataset.id).get();
+      if (!s.exists) return;
+      var v = s.data();
+      $("you").value = v.you; $("them").value = v.them; $("ctx").value = v.context || "";
+      var lb = $("lanes").querySelector('[data-lane="' + v.lane + '"]');
+      if (lb){
+        state.lane = v.lane;
+        Array.prototype.forEach.call($("lanes").children, function(x){
+          x.setAttribute("aria-pressed", String(x === lb)); });
+      }
+      syncTiles();
+      render({you:v.you, them:v.them, lane:v.lane, context:v.context, brief:v.brief},
+             {kind:"cached", at:v.savedAt || Date.now()});
+      window.scrollTo({top:0, behavior:"smooth"});
+    };
+  }catch(e){ /* recents are a convenience, never a blocker */ }
+}
+
+/* ---------------- boot ---------------- */
+render(EXAMPLE, {kind:"example"});
+syncTiles();
+
+(async function(){
+  if (!window.claude || !window.claude.use){
+    $("barnote").className = "barnote warn";
+    $("barnote").textContent = "Live scouting runs on the published page.";
+    return;
+  }
+  var s = await window.claude.use("sample");
+  if (s){
+    sampleFn = s;
+    $("barnote").textContent = "Type both champions, then Scout. Enter works too.";
+  }else{
+    $("barnote").className = "barnote warn";
+    $("barnote").textContent = "Live scouting isn't available in this view.";
+  }
+  syncTiles();
+
+  store = await window.claude.use("db");
+  if (store) loadRecents();
+})();
+</script>
