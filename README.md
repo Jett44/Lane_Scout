@@ -5,6 +5,35 @@ A shareable, offline League of Legends matchup brief generator.
 `dist/lane-scout.html` is the deliverable: one self-contained file. Double-click
 it, or send it to anyone. No install, no account, no API key, no network.
 
+## Your copy: look something up, and it gets written
+
+```
+node scripts/serve.mjs        http://localhost:8099
+```
+
+Opened this way the page finds a local API and switches on writing. Search any
+matchup; if it has not been written yet you get a **Write this matchup** button.
+It takes about a minute, and then:
+
+- the brief is saved to `data/briefs/` permanently
+- `dist/lane-scout.html` and `briefs.json` are rebuilt
+- the result is committed and pushed, so **everyone you sent the file to picks
+  it up on their next launch**
+- the matchup drops out of the scheduled batch queue automatically — the
+  queue is derived from which files exist, so nothing is ever written twice
+
+So the database fills from two directions at once: the batches work down the
+popularity list on their own, and anything you actually look up jumps the
+queue because you needed it.
+
+The push happens after the page has already answered, so you are never left
+waiting on git. If it fails the brief is still saved — the next batch run
+pushes it.
+
+The same file opened by double-clicking, or sent to a friend, finds no API and
+stays read-only. The server binds to loopback only; it drives your Claude
+account and is never reachable from the network.
+
 ## How updates reach people
 
 The shared file is not frozen. On every launch it does two free, token-less
