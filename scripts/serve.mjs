@@ -148,7 +148,10 @@ server.on("error", (e) => {
    never be reachable from the network */
 server.listen(PORT, "127.0.0.1", () => {
   const s = stats("Top");
-  console.log(`Lane Scout — http://localhost:${PORT}`);
+  /* Print the IPv4 address, not "localhost". On Windows localhost resolves to
+     ::1 first, and since this socket is IPv4-only every request pays an IPv6
+     timeout before falling back — which reads as the server being down. */
+  console.log(`Lane Scout — http://127.0.0.1:${PORT}`);
   console.log(`generation is ON; ${s.done}/${s.total} briefs written so far`);
   console.log(`look up any matchup and it will be written on the spot.`);
   console.log(`press Ctrl+C to stop.`);

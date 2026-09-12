@@ -12,12 +12,12 @@ if not exist "%NODE%" set "NODE=node"
 echo.
 echo   Lane Scout
 echo   ----------
-echo   Starting on http://localhost:8099
+echo   Starting on http://127.0.0.1:8099
 echo   Close this window to stop it.
 echo.
 
 REM give the server a moment to bind, then open the browser
-start "" /b cmd /c "timeout /t 2 /nobreak >nul & start http://localhost:8099"
+start "" /b cmd /c "timeout /t 2 /nobreak >nul & start http://127.0.0.1:8099"
 
 "%NODE%" scripts\serve.mjs
 

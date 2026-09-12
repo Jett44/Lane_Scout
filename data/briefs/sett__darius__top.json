@@ -1,0 +1,146 @@
+{
+ "you": "Sett",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Darius lands E (Apprehend) into a full trade before your Grit bar fills W, and you win if you fight only when his E is down and let W's missing-health heal outlast his bleed."
+  },
+  "thesis": "Sett's Q (Knuckle Down) hits for a percentage of max health and W (Haymaker) heals off missing health, which is the direct counter to Darius's Hemorrhage bleed over an extended trade. But Darius's E (Apprehend) hook removes your positioning choice and his level-6 R (Noxian Guillotine) is a hard execute, so the lane is won or lost on whoever lands their all-in cooldown first, not on passive CS trading.",
+  "tell": {
+   "watch": "Darius's E (Apprehend) cooldown",
+   "theirWindow": {
+    "when": "He lands E (Apprehend) on you",
+    "what": "You're getting pulled into a forced extended trade where he'll refresh Hemorrhage to 5 stacks and follow with W (Crippling Strike) to slow you in place. Don't try to walk away mid-pull — commit to your own Q/E and use your W heal rather than eating free autos while fleeing."
+   },
+   "yourWindow": {
+    "when": "Darius's E (Apprehend) is down",
+    "what": "Step up and initiate freely. Auto to bait his W (Crippling Strike), then Q (Knuckle Down) and let your Grit bar cap so the empowered punch lands mid-trade — without E he has no way to lock you into range or escape your damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Autos stack Hemorrhage before your W is online"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Whoever lands E or R first wins"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "W sustain plus tank items outlast bleed"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Full build Sett out-duels scaled Darius"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + 2 Health Potions",
+    "why": "The HP5 and post-6-damage block from bleeding autos blunts Darius's main early poke source, Hemorrhage stacking from autos."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Flat physical damage reduction directly cuts down Darius's auto-attack and Hemorrhage tick damage, his whole early kit."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The attack speed, damage, and slow proc let your empowered W punches land more often and lets you stick to or peel off Darius."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Crit-proc healing against a high-HP bruiser target like Darius keeps you topped up through prolonged skirmishes."
+    },
+    {
+     "item": "Randuin's Omen",
+     "why": "Attack speed and armor shut down Darius's ability to stack Hemorrhage quickly and blunt his post-6 all-in damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he rushes lifesteal or you need grievous wounds to shut down his Q (Decimate) self-heal"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "he's snowballed and threatens to one-shot you with R (Noxian Guillotine) after a bad trade"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team shifts to heavy magic damage alongside Darius"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks hard CC beyond Darius's E slow and hook"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force and the healing on full stacks is exactly what wins the extended trade war against a bleed-based duelist like Darius.",
+   "primary": [
+    "Triumph",
+    "Legend: Tenacity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite cuts Darius's Q (Decimate) self-heal and secures kills before he can stack enough Hemorrhage for a return execute; this is a lane decided by who kills first, not by sustained poke."
+  },
+  "playing": [
+   {
+    "title": "Freeze pre-6",
+    "detail": "Hold the wave near your tower before level 6 so Darius's E (Apprehend) pull can't drag you out of turret range for a free all-in."
+   },
+   {
+    "title": "Trade only when E is down",
+    "detail": "Watch his ability bar; only extend a fight when Apprehend is on cooldown, since without it he can't lock your position or stack bleed for free."
+   },
+   {
+    "title": "Time W heal to bleed peak",
+    "detail": "Let your Grit bar cap and fire the empowered W (Haymaker) punch when your health is lowest from Hemorrhage ticks, since the heal scales off missing health."
+   },
+   {
+    "title": "Respect the execute at 6+",
+    "detail": "Once he has R (Noxian Guillotine), don't linger below roughly 30% health in his range; disengage or stun with E (Facebreaker) to create distance."
+   },
+   {
+    "title": "Stand at max range on his Q",
+    "detail": "Darius's Q (Decimate) only deals full damage and heals him on the blade edge; staying at the inner hitbox denies both his damage and his sustain."
+   },
+   {
+    "title": "Use R to isolate, not just to burst",
+    "detail": "Sett's R (The Show Stopper) deals more damage the farther you drag him, so grab him away from his tower or team for a duel your kit wins."
+   },
+   {
+    "title": "Count his stacks",
+    "detail": "Five stacks of Hemorrhage plus his W slow can flip a trade you were winning; disengage or commit to the kill rather than trading blow for blow at max stacks."
+   }
+  ],
+  "patchCaveat": "Item names, numbers, and rune shards drift patch to patch; verify current values in-client against 16.18.1 before finalizing the build, since this brief reflects the standard Sett bruiser build as of the assistant's last training update."
+ },
+ "generatedAt": 1789256810561,
+ "patch": "16.18.1",
+ "generator": "on-demand"
+}
