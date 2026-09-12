@@ -5,6 +5,30 @@ A shareable, offline League of Legends matchup brief generator.
 `dist/lane-scout.html` is the deliverable: one self-contained file. Double-click
 it, or send it to anyone. No install, no account, no API key, no network.
 
+## How updates reach people
+
+The shared file is not frozen. On every launch it does two free, token-less
+checks in the background, then falls back silently if either fails:
+
+1. **Fresher briefs** — fetches `briefs.json` from the repo. If it is newer than
+   what the file was built with, it swaps in the new data, caches it in the
+   browser, and re-renders. So a copy someone downloaded months ago catches up
+   on its own the next time they open it online.
+2. **Patch drift** — asks Riot's Data Dragon which patch is live and, if the
+   briefs were written on an older one, says so in the header rather than
+   pretending to be current.
+
+If both fail (no network), the baked-in data still works. That is the whole
+point of shipping a single file.
+
+**You publish by running a batch** — it rebuilds and pushes automatically.
+Nobody ever needs a new file sent to them again.
+
+This depends on `https://github.com/Jett44/Lane_Scout` staying **public**.
+`raw.githubusercontent.com` only sends CORS headers for public repos; make it
+private and every distributed copy silently stops updating (it keeps working
+on its baked data).
+
 ## One-time setup
 
 The batch job drives the Claude CLI headlessly, and the CLI keeps its own login

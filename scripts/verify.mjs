@@ -8,6 +8,7 @@
  * claude.ai runtime that only exists inside an Artifact.
  */
 import fs from "node:fs";
+import vm from "node:vm";
 import { DIST } from "./lib.mjs";
 
 const fail = [];
@@ -49,6 +50,22 @@ if (m) {
     check(broken === 0, "every baked brief is well-formed", `${broken} baked brief(s) are malformed`);
   } catch (e) {
     fail.push(`BRIEFS does not parse as JSON: ${e.message}`);
+  }
+}
+
+/* The build splices two files together. If that produces invalid JavaScript
+   the page is completely dead — blank, no error the viewer can see. Compile
+   the script (parse only, never run it) so a bad splice fails here instead of
+   in someone's browser. */
+const script = html.match(/<script>([\s\S]*)<\/script>/);
+if (!script) {
+  fail.push("no <script> block to check");
+} else {
+  try {
+    new vm.Script(script[1], { filename: "lane-scout.js" });
+    ok.push("spliced JavaScript parses");
+  } catch (e) {
+    fail.push(`spliced JavaScript has a syntax error: ${e.message}`);
   }
 }
 
