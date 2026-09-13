@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into Darius's Apprehend before level 6 or let Hemorrhage stack past 3; you win by baiting E (Apprehend) into your E (Counter Strike) and running it back post-6."
+  },
+  "thesis": "This is a near-even matchup (50.2% Jax win rate over 800 games) where the real edge sits in mechanics, not stats: Jax holds both the lane and solo-kill advantage because Counter Strike hard-answers Darius's core all-in tool, Apprehend. Whoever lands their disable first typically wins the exchange, and Darius's true-damage-heavy kit only closes that gap if he gets a free pull before you have E charged.",
+  "tell": {
+   "watch": "Darius's Hemorrhage stack count",
+   "theirWindow": {
+    "when": "Levels 3-5 when E is up",
+    "what": "Darius wants to land Apprehend (E) into Crippling Strike (W) and Decimate (Q) edge before you hit 6. Don't stand in axe-pull range on cooldown-up trades; if he whiffs E, that's his all-in gone for ~14s and you can punish immediately."
+   },
+   "yourWindow": {
+    "when": "Whenever he throws Apprehend (E)",
+    "what": "Time Counter Strike (E) to start its channel right as the axe pull animates — dodge it, stun him, then Leap Strike (Q) in for a free empowered auto and follow-up trade before he can reset Hemorrhage stacks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q (Decimate) edge poke and passive sustain"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Apprehend all-in threat, 5-stack Hemorrhage burst"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Grandmaster's Might online, E answers his E"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force spike, sustained trades dominant"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Death's Dance/Blade scaling keeps him relevant"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run this on 68.6% of games (52.5% win rate, 686 games) — the extra AD and sustain directly offset Darius's true-damage-adjacent Crippling Strike and Hemorrhage bleed in early trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked in 68.1% of games at 52.4% win rate — flat physical reduction blunts every auto and Q edge hit, which is where most of Darius's early damage comes from."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The 19.4%-picked path (49.5% WR) into this item is the standard build — the AD/AS/on-hit proc gives Jax the burst to win the level 9+ all-in window outright."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item in both major paths — the proc and tankiness let you commit to extended trades without folding to a late Hemorrhage stack."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Completes the 19.4%-pick core path — banks your Counter Strike timing against his Noxian Guillotine execute threat once he's ahead in a fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "he's stacking Hemorrhage on you every trade and you need the bleed-damage delay plus lifesteal (53.5% WR path, 43 games)"
+    },
+    {
+     "item": "Blade of the Ruined King",
+     "when": "he's building tanky and you need the max-HP proc to keep threatening him in prolonged fights"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "you're ahead and want the hybrid AP path into Hextech Gunblade for burst instead of a straight on-hit build"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "This is the more common page (39% pick, 45.3% WR) and it rewards exactly what you want in this lane — stand-and-trade attack speed once you've dodged his Apprehend and committed to the fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 83.4% of games (49.7% WR) — Ignite converts your solo-kill advantage into actual kills by cutting through his passive healing off Hemorrhage/W before he can reset with a takedown."
+  },
+  "playing": [
+   {
+    "title": "Bait Apprehend before committing",
+    "detail": "Never enter auto-attack range on his E cooldown-up windows pre-6. Force him to throw the pull at a ward, a minion, or nothing — every whiffed Apprehend is a full trade cycle you get for free."
+   },
+   {
+    "title": "Save E for his E, not for poke",
+    "detail": "Counter Strike's 2-second channel dodges Apprehend cleanly. Don't burn it on Decimate poke or to escape — the stun on a landed dodge is worth more than the block itself."
+   },
+   {
+    "title": "Max W first, not Q",
+    "detail": "The data skill order (EQWWWR...) prioritizes W after an early Q point — take Q at 2 for the gap-close/reset, but pour points into W for trade damage rather than rushing Q max."
+   },
+   {
+    "title": "Don't trade into 5 stacks",
+    "detail": "Track his Hemorrhage count visually on your own health bar tick. At 5 stacks his next W does bonus true-damage-adjacent execute-style damage — disengage or force his E first instead."
+   },
+   {
+    "title": "All-in at level 6 on cooldown reads",
+    "detail": "Once Grandmaster's Might is up, look for any moment his E (Apprehend) is down. Leap Strike in, pop R, empowered auto — this is your highest-equity fight before item spikes even matter."
+   },
+   {
+    "title": "Play around Trinity Force at 9+",
+    "detail": "This is your real power spike (49.5-53.5% WR core paths complete here). Start initiating trades you'd have avoided at level 4-5, since the empowered auto now closes the damage gap decisively."
+   },
+   {
+    "title": "Hold Zhonya's for his ult, not yours",
+    "detail": "Once you have it, save the active for when he's stacked Noxian Guillotine resets and is threatening the execute — not as a generic panic button."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are pulled directly from measured OP.GG games on the current patch; the trade-pattern and timing analysis (Counter Strike vs Apprehend, stack thresholds, skill-order reasoning) is my own tactical read layered on top of that data."
+ },
+ "generatedAt": 1789275968900,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789275898433,
+  "overall": {
+   "winRate": 49.9,
+   "play": 26938,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 800,
+   "wins": 402,
+   "winRate": 50.2
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Use Counter Strike [E] when Darius uses Apprehend (E) to stun him and hit him before retreating with Leap Strike [Q]",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.7,
+    "play": 807,
+    "pickRate": 83.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 100,
+    "pickRate": 10.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 4.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.3,
+    "play": 380,
+    "pickRate": 39
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 65,
+    "pickRate": 6.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.5,
+    "play": 686,
+    "pickRate": 68.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 40.6,
+    "play": 133,
+    "pickRate": 13.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 634,
+    "pickRate": 68.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.9,
+    "play": 147,
+    "pickRate": 15.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 49.5,
+    "play": 107,
+    "pickRate": 19.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 53.5,
+    "play": 43,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Hextech Gunblade",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 70.8,
+    "play": 24,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.1,
+    "play": 777,
+    "pickRate": 79.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 51.5,
+    "play": 367,
+    "pickRate": 37.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 59.1,
+    "play": 264,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 49.7,
+    "play": 189,
+    "pickRate": 19.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 51.8,
+    "play": 166,
+    "pickRate": 17.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 49.4,
+    "play": 162,
+    "pickRate": 16.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 53.2,
+    "play": 404
+   }
+  ]
+ }
+}
