@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup, slightly behind",
+   "line": "You lose if you trade into a live Counter Strike (E) or stand through his third empowered auto; you win the instant his E is spent and you commit with your full combo."
+  },
+  "thesis": "Jax's E (Counter Strike) is a single-charge dodge-into-stun that hard-counters short Camille all-ins, which is why he holds both the lane and solo-kill edge across 761 games even though the overall win rate sits at a near-even 48.4%. Camille isn't equipped to win a straight brawl into a live E — she's built to poke with W's cone damage and reset with Hookshot until that charge is burned, at which point her double-cast Q and lockdown kit win the fight outright.",
+  "tell": {
+   "watch": "Jax's E (Counter Strike) charge",
+   "theirWindow": {
+    "when": "his E is up, levels 2-5",
+    "what": "He will bait a step-in with a half-approach, dodge your first hit, and stun-punish into a full trade. Do not extend Q into melee range here — hold max-range W poke and back off if he walks up."
+   },
+   "yourWindow": {
+    "when": "his E is on cooldown or just used",
+    "what": "Commit immediately: double-cast Q (Precision Protocol) for the true damage proc, then E (Hookshot) to lock the range down. This is the only window where your all-in beats his without item lead."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "E-dodge trades punish any early Q extension"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "full E-Q-AA combo online, kill threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your R and his ult both spike"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force/Hydra spike, split-push pressure"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his W-maxed scaling matches your item lead"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "At 49.8% WR over 307 games it outperforms Doran's Blade here (46.1%) — the extra sustain against Jax's poke and early all-in threat matters more than the marginal damage in a lane where he holds solo-kill advantage."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.7% WR over 575 games and 71.5% pick — flattens the bonus magic damage from his Grandmaster's Might empowered auto and the on-hit true damage from Grand Challenge (R) in extended trades."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Highest-WR path start (58.9% over 168 games) — the burst-plus-mobility proc is what lets you actually win the fight the moment his E is spent."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Wave clear to convert your post-6 lane lead into side-lane pressure and reset faster after all-ins."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "The 42.9%-pick, 58.9%-WR third item — sustains you through his Grand Challenge true damage window instead of losing extended trades post-6."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "the enemy team has burst damage that threatens to blow you up mid-trade"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you are ahead and want faster ability haste to reset your Q double-cast and E hookshot sooner"
+    },
+    {
+     "item": "Tiamat",
+     "when": "you need earlier wave clear and side-lane pressure over the extra Death's Dance sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's proc-and-heal on your first auto per fight matches Jax's early durability and offsets his poke damage across the many short trades this matchup forces before level 6.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Teleport",
+    "Ignite"
+   ],
+   "why": "Teleport+Ignite is the highest measured win rate at 50.5%, even though it's only run in 12.1% of games. Ignite converts the burst window right after you bait out his E into an actual kill instead of a shove, and Teleport lets you skip the weak levels 1-5 waves and reset straight into your 9-13 split-push spike once Trinity Force completes."
+  },
+  "playing": [
+   {
+    "title": "Bait E before you commit",
+    "detail": "Threaten a Q from just outside his dash range to force Counter Strike (E) early. If he doesn't take it, disengage back to W poke instead of trading into a live dodge-stun."
+   },
+   {
+    "title": "Poke with max-range W",
+    "detail": "Tactical Sweep (W) deals bonus damage at the outer edge of the cone — stand at max range so both hits connect without stepping into his auto-attack threat range."
+   },
+   {
+    "title": "Track his passive stacks",
+    "detail": "Grandmaster's Might empowers his third auto with bonus magic damage and attack speed. Disengage before that third hit lands in any extended trade, especially after level 6."
+   },
+   {
+    "title": "All-in only once E is spent",
+    "detail": "The moment Counter Strike is on cooldown, commit fully with a double-cast Q for the true damage proc followed immediately by Hookshot (E) to lock him in range."
+   },
+   {
+    "title": "Don't open with R",
+    "detail": "The Hextech Ultimatum traps him in the zone but doesn't stop him casting a still-available E. Save it for right after he's already burned Counter Strike, not as your engage tool."
+   },
+   {
+    "title": "Respect Grand Challenge post-6",
+    "detail": "His ultimate grants on-hit true damage and attack speed for extended fights. Don't stand and trade past 3-4 seconds once it's active — disengage and re-engage instead of holding the trade."
+   },
+   {
+    "title": "Convert with Teleport post-Trinity",
+    "detail": "Once Trinity Force completes, use Hookshot to a wall for long-range engages or split-push and Teleport back to punish overextensions elsewhere on the map."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates/sample sizes above are measured from live OP.GG games on the current patch; the mechanical reasoning and trade timing are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1789310511157,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789310411187,
+  "overall": {
+   "winRate": 50.6,
+   "play": 22557,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 761,
+   "wins": 368,
+   "winRate": 48.4
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Do not engage Jax before his (E) is on cooldown! Poke with [W] while focusing on farming lane!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.4,
+    "play": 485,
+    "pickRate": 54.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.2,
+    "play": 267,
+    "pickRate": 30.1
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 107,
+    "pickRate": 12.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 294,
+    "pickRate": 32.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.7,
+    "play": 89,
+    "pickRate": 10
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.1,
+    "play": 490,
+    "pickRate": 53.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.8,
+    "play": 307,
+    "pickRate": 33.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.7,
+    "play": 575,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.5,
+    "play": 190,
+    "pickRate": 23.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 58.9,
+    "play": 168,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 58,
+    "play": 81,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 52,
+    "play": 75,
+    "pickRate": 19.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.9,
+    "play": 864,
+    "pickRate": 99
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 53.5,
+    "play": 637,
+    "pickRate": 73
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.3,
+    "play": 206,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.3,
+    "play": 114,
+    "pickRate": 13.1
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 36.8,
+    "play": 114,
+    "pickRate": 13.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.2,
+    "play": 107,
+    "pickRate": 12.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.7,
+    "play": 242
+   }
+  ]
+ }
+}

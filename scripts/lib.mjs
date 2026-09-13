@@ -163,7 +163,7 @@ export const SHAPE = {
   patchCaveat: "string"
 };
 
-export function buildPrompt(you, them, lane, context, statsBlock) {
+export function buildPrompt(you, them, lane, context, statsBlock, abilityBlock) {
   return [
     "You are a high-elo League of Legends coach writing a champ-select scouting brief.",
     "",
@@ -172,12 +172,16 @@ export function buildPrompt(you, them, lane, context, statsBlock) {
       ? `THE PLAYER'S SITUATION: ${context}\nWrite the brief for THIS game specifically. Where the situation changes the answer — the build, the trade pattern, the power curve, what to do at each level — say so plainly and differ from the generic advice. Do not simply restate the standard matchup with a sentence bolted on.`
       : "",
     "",
+    abilityBlock || "",
+    abilityBlock ? "" : "",
     statsBlock || "",
     statsBlock ? "" : "",
     `Write the brief for the player PLAYING ${you} INTO ${them}. Never write it from the enemy's point of view.`,
     "",
     "Requirements:",
-    "- Be mechanically precise. Name abilities by key and name, e.g. \"W (Path Maker)\". Reference the real tells: resource bars, charge counts, passive stacks, empowered autos, dash cooldowns.",
+    abilityBlock
+      ? "- Name abilities by key and name, e.g. \"W (Path Maker)\", and describe them exactly as the ability text above describes them. Reference the real tells: resource bars, charge counts, passive stacks, empowered autos, dash cooldowns."
+      : "- Be mechanically precise. Name abilities by key and name, e.g. \"W (Path Maker)\". Reference the real tells: resource bars, charge counts, passive stacks, empowered autos, dash cooldowns.",
     "- Use concrete level ranges and timings. Never say only \"early game\" or \"late game\".",
     "- Every line must change what the player actually does. No filler, and nothing generic enough to fit a different matchup.",
     statsBlock

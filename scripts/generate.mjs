@@ -10,6 +10,7 @@ import {
 } from "./lib.mjs";
 import { matchupStats, statsForPrompt } from "./stats.mjs";
 import { validateNames, normalizeBrief } from "./assets.mjs";
+import { abilitiesForPrompt } from "./abilities.mjs";
 
 /* Anything here means the account is out of room or not usable right now.
    Callers should stop rather than retry — hammering it cannot succeed. */
@@ -119,7 +120,11 @@ export async function generateOne(you, them, lane, patch, { timeoutMs, context }
     const stats = await matchupStats(you, them, lane);
     const block = stats ? statsForPrompt(stats, you, them) : "";
 
-    const res = askClaude(buildPrompt(you, them, lane, ctx, block), timeoutMs);
+    /* Live ability text and cooldowns for both champions. Free, cached
+       locally, and it is what stops the tactical prose inventing mechanics. */
+    const abilities = abilitiesForPrompt(you, them);
+
+    const res = askClaude(buildPrompt(you, them, lane, ctx, block, abilities), timeoutMs);
     if (res.fatal) return { ok: false, fatal: true, error: res.err };
     if (res.err)  return { ok: false, error: res.err };
 
