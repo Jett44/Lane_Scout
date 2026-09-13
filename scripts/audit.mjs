@@ -24,7 +24,7 @@ const getJson = async (u) => {
 const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
 
 /* "Doran's Shield + Health Potion" is two items in one field */
-const splitItems = (s) => String(s).split(/\s*\+\s*/).map((x) => x.trim()).filter(Boolean);
+const splitItems = (s) => String(s).split(/\s*[+,]\s*/).map((x) => x.trim()).filter(Boolean);
 
 const v = await currentPatch();
 const base = `${DD}/cdn/${v}/data/en_US/`;
@@ -56,9 +56,14 @@ const note = (kind, name, where) => {
   bad[kind].get(name).push(where);
 };
 
+const malformed = [];
+
 for (const f of files) {
   let rec;
-  try { rec = JSON.parse(fs.readFileSync(path.join(BRIEFS_DIR, f), "utf8")); } catch { continue; }
+  try { rec = JSON.parse(fs.readFileSync(path.join(BRIEFS_DIR, f), "utf8")); } catch { malformed.push(f); continue; }
+  /* A record must be the wrapper, not a bare brief — anything else means
+     something wrote this file that was not the generator. */
+  if (!rec || !rec.you || !rec.them || !rec.brief) { malformed.push(f); continue; }
   const b = rec.brief, where = `${rec.you} into ${rec.them}`;
   const bd = b.build || {};
 
@@ -96,7 +101,12 @@ const totalBad = bad.item.size + bad.rune.size + bad.spell.size;
 const badRefs = [...bad.item.values(), ...bad.rune.values(), ...bad.spell.values()]
   .reduce((a, v2) => a + v2.length, 0);
 
-console.log(`\nAudited ${files.length} briefs against live patch ${v}`);
+if (malformed.length) {
+  console.log(`\n${malformed.length} file(s) are not valid brief records and were skipped:`);
+  for (const f of malformed) console.log(`  ${f}`);
+}
+
+console.log(`\nAudited ${files.length - malformed.length} briefs against live patch ${v}`);
 console.log(`${checked} named things checked — ${checked - badRefs} exist, ${badRefs} do not (${(100 * badRefs / Math.max(1, checked)).toFixed(1)}%)\n`);
 
 for (const kind of ["item", "rune", "spell"]) {

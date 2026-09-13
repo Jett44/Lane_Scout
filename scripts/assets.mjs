@@ -72,7 +72,11 @@ export function readAssets() {
 }
 
 const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
-const splitItems = (s) => String(s).split(/\s*\+\s*/).map((x) => x.trim()).filter(Boolean);
+/* A start field legitimately holds more than one item, and the model writes
+   that either way: "Doran's Blade + Health Potion" or
+   "Doran's Ring, Health Potion, Health Potion". Both are correct answers, so
+   split on both rather than rejecting the comma form. */
+const splitItems = (s) => String(s).split(/\s*[+,]\s*/).map((x) => x.trim()).filter(Boolean);
 
 /* Stat shards are rune-page choices, not perks — Data Dragon does not list them. */
 const SHARDS = new Set(["adaptiveforce", "attackspeed", "abilityhaste", "armor",

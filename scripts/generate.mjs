@@ -41,7 +41,12 @@ export function extractJson(text) {
 }
 
 export function askClaude(prompt, timeoutMs = 240000) {
-  const r = spawnSync(CLAUDE_EXE, ["-p", prompt, "--output-format", "json"], {
+  /* `claude -p` is a full agent, not a completion endpoint: with tools enabled
+     it can act instead of answering. One run "helpfully" wrote a brief
+     straight into data/briefs/ as a bare object — no wrapper, no validation —
+     and then returned no JSON, so the run logged a failure while a malformed
+     file appeared on disk. `--tools ""` makes this a pure text call. */
+  const r = spawnSync(CLAUDE_EXE, ["-p", prompt, "--output-format", "json", "--tools", ""], {
     encoding: "utf8", timeout: timeoutMs, maxBuffer: 32 * 1024 * 1024, windowsHide: true
   });
   if (r.error) return { fatal: false, err: `spawn failed: ${r.error.message}` };
@@ -106,13 +111,12 @@ export async function generateOne(you, them, lane, patch, { timeoutMs, context }
     const bad = validate(res.brief);
     if (bad.length) return { ok: false, error: `rejected: ${bad.join("; ")}` };
 
-    /* Grounding tells the model what exists; this refuses to store it if it
-       wandered off anyway. Only enforced when it actually had the data. */
-    if (stats) {
-      const nameErrors = validateNames(res.brief);
-      if (nameErrors.length) {
-        return { ok: false, error: `rejected: ${nameErrors.slice(0, 4).join("; ")}` };
-      }
+    /* Always check the names against live Data Dragon — especially when the
+       stats lookup failed. No stats means the model fell back on memory, which
+       is precisely when it invents things that were removed patches ago. */
+    const nameErrors = validateNames(res.brief);
+    if (nameErrors.length) {
+      return { ok: false, error: `rejected: ${nameErrors.slice(0, 4).join("; ")}` };
     }
 
     const record = {
