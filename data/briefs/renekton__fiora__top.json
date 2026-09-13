@@ -1,0 +1,379 @@
+{
+ "you": "Renekton",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable early, tough overall",
+   "line": "You lose if you trade with autos into a live Riposte and let Fiora out-sustain you past level 6; you win if you land Fury-empowered W stuns and close the fight before she resets with Lunge and Burst of Speed."
+  },
+  "thesis": "Renekton holds the lane and solo-kill edge because his Fury-empowered W (Ruthless Predator) out-trades her early, but Riposte (W) only parries basic attacks, so every auto you throw into her active parry window is a wasted trade that boosts her Attack Damage. Over 483 recorded games this pans out to a losing 44.9% win rate for Renekton, meaning her Duelist sustain and double-Lunge kiting reliably claw back the early lane deficit.",
+  "tell": {
+   "watch": "Fiora's Riposte availability",
+   "theirWindow": {
+    "when": "Riposte is off cooldown (10-6s)",
+    "what": "She can hold it up in any extended trade. Don't throw basic attacks to bait it out; stick to Q/W/E spell damage since Riposte only parries autos, and if you see her W flash active, cancel your attack-move command immediately."
+   },
+   "yourWindow": {
+    "when": "Fury is above 50 and her Q/E are down",
+    "what": "This is your all-in: empowered W hits three times for a 1.5s stun and shreds shields, empowered E shreds Armor on the way in, and Q heals for more. Commit here rather than poking with autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "W stun wins short trades before her kit ramps"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Riposte live, autos punished, spells favored"
+   },
+   {
+    "levels": "7-11",
+    "edge": "them",
+    "note": "Duelist sustain and Lunge resets outscale"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "Blade Waltz burst beats your dive range"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "46.8% win rate over 438 games and the dominant 75.9% pick — the extra sustain and damage matter more here than Doran's Shield since your job is to win short all-in windows, not stall."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "86% pick rate and the standard choice into a champion whose entire kit (autos, Lunge follow-ups) is physical damage and attack-speed driven."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Shield-and-burst passive syncs with your Fury all-in window and punishes her for standing in Riposte range."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking Armor shred compounds with your empowered E's own Armor reduction, letting your team's damage through."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Best-performing third item in recorded games (56.8% over 37 games); the shield and tenacity keep you alive through her Burst of Speed kite phase."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "her Duelist stacks are healing her back to full in every extended fight"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "you need to survive her burst to actually close out the trade"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and snowballing and want faster W/E cooldowns to chain all-ins"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Highest recorded win rate and pick rate (52%, 31.3% pick); the ramping adaptive stats and healing help you survive the extended trades this matchup forces rather than rewarding a single burst window Riposte can punish.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "48.5% win rate and the overwhelming 91% pick — Ignite converts your solo-kill advantage into an actual kill before her Riposte/Lunge sustain lets her reset the trade."
+  },
+  "playing": [
+   {
+    "title": "Track Riposte, not just her HP",
+    "detail": "Riposte only parries basic attacks, so autoing into it while it's up just feeds her free Attack Damage. Land your damage through Q, W, and E instead when you see it's available."
+   },
+   {
+    "title": "Wait out her double Lunge",
+    "detail": "Fiora's Q can be thrown twice within a couple seconds at no extra cost. Don't commit your stun combo while she still has a second dash in reserve to disengage or reposition."
+   },
+   {
+    "title": "Fury-check before every trade",
+    "detail": "Below 50 Fury your W is a single 0.75s stun with weaker damage. Auto-attack to build Fury between trades so your engages land as the empowered three-hit version."
+   },
+   {
+    "title": "Lead all-ins with empowered E",
+    "detail": "Slice and Dice's empowered dash reduces the target's Armor before your follow-up W and Q land, maximizing the burst of your short combat window."
+   },
+   {
+    "title": "Disengage from her Burst of Speed",
+    "detail": "Once she pops E, she out-trades and out-runs you. Reset instead of chasing or continuing to fight through it."
+   },
+   {
+    "title": "Buy grievous wounds against sustain snowball",
+    "detail": "If her Duelist stacks are healing her through every trade by mid-game, Executioner's Calling shuts that down directly."
+   },
+   {
+    "title": "Call for jungle help levels 3-5",
+    "detail": "Your solo-kill edge is real but this matchup trends losing overall, so use early jungler pressure to convert the lane lead into a kill before it evaporates."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/pick-rate figures are pulled from measured OP.GG games on the current patch (16.18.1); the mechanical reasoning and trade-pattern advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1789329820752,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789329746269,
+  "overall": {
+   "winRate": 49.9,
+   "play": 31865,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 483,
+   "wins": 217,
+   "winRate": 44.9
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being hit with Fiora’s Riposte (W) while in combat. Be careful of Vitals while building Fury to engage whenever your abilities come off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.5,
+    "play": 505,
+    "pickRate": 91
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 28.2,
+    "play": 39,
+    "pickRate": 7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 1.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52,
+    "play": 175,
+    "pickRate": 31.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 70,
+    "pickRate": 12.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.8,
+    "play": 438,
+    "pickRate": 75.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.8,
+    "play": 115,
+    "pickRate": 19.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.9,
+    "play": 465,
+    "pickRate": 86
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.5,
+    "play": 66,
+    "pickRate": 12.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 43.5,
+    "play": 62,
+    "pickRate": 18.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 56.8,
+    "play": 37,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 47.9,
+    "play": 470,
+    "pickRate": 84.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47,
+    "play": 317,
+    "pickRate": 57.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 47.1,
+    "play": 204,
+    "pickRate": 36.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 47.9,
+    "play": 140,
+    "pickRate": 25.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.1,
+    "play": 117,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 50,
+    "play": 102,
+    "pickRate": 18.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.5,
+    "play": 163
+   }
+  ]
+ }
+}

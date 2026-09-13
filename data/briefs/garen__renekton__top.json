@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand in Renekton's Fury-empowered W-E combo levels 3-5; you win if you survive to your own item and rank spikes past level 9."
+  },
+  "thesis": "This is a 51.4% head-to-head over 795 games, essentially even, but Renekton holds the solo-kill edge because his all-in comes from a hard stun (W, Ruthless Predator) chained into a gap-close dash (E, Slice and Dice) rather than sustained pressure. Garen has no way to avoid the initial stun, so the matchup is decided by whether you can survive that burst window and drag the fight into your longer-cooldown, higher-sustain kit later.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Fury above 50 and W or E ready",
+    "what": "At 50+ Fury his W (Ruthless Predator, 16/14/12/10/8s cd) becomes a three-hit stun that strips shields, and his Q (Cull the Meek, 7s cd) heals and hits harder. Do not stand and trade autos into a full Fury bar; back off to empty range until his E (Slice and Dice, 16/14.5/13/11.5/10s cd) is down."
+   },
+   "yourWindow": {
+    "when": "his E is on cooldown after a dash",
+    "what": "Once Renekton has used E to engage or reposition, he has no way to close distance again for up to 16 seconds at rank 1. Walk up and unload W (Courage, 24/23/22/21/20s cd) and E (Judgment, 13/12/11/10/9s cd) since he cannot escape or re-engage cleanly."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W-E stun combo, solo-kill threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R (140s cd) threatens executes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Your W/E cooldowns shrink, outlast him"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Stridebreaker item spike wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "This lane is measured as defensive with Renekton favored to solo-kill; the extra HP and regen from Doran's Shield (49% WR, 54.8% pick over 551 games) buys you room to survive the level 3-5 stun window."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "Highest sample and win rate in this matchup (52% over 663 games, 68.8% pick) — attack speed keeps your W (Courage) and auto trades relevant once you start winning exchanges."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Core first item in the highest-sample build path (54.6% WR over 183 games); the movement speed lets you actually catch Renekton once his E is down."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Second item in the top build path — attack speed scales your W (Courage) damage-over-duration and E (Judgment) spin trades."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Completes the 54.6% WR core path and cuts the healing Renekton gets from his Q (Cull the Meek) sustain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need more durability to survive his all-in window instead of a third damage item"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead and want more active mobility to run down a fleeing Renekton"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "Renekton is stacking lifesteal and his Q sustain is out-healing your trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking sustain directly counters Renekton's Q (Cull the Meek) self-heal by letting you out-sustain his short trades once you're in extended combat past level 9.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick in this matchup (94.3% pick, 51.5% WR). Ignite pairs with your R (Demacian Justice) for a level 6+ execute kill threat, matching the standard read on this matchup."
+  },
+  "playing": [
+   {
+    "title": "Never trade at 50+ Fury",
+    "detail": "Watch Renekton's Fury bar all lane. Above 50, his W (Ruthless Predator) becomes a three-hit stun that strips shields and his Q heals more — disengage until it drains back down."
+   },
+   {
+    "title": "Punish his E cooldown",
+    "detail": "After Renekton dashes with E (Slice and Dice, 16 to 10s cd by rank), he cannot close distance again for that duration. Walk up and land free W (Courage) and E (Judgment) hits."
+   },
+   {
+    "title": "Save Q for after his stun",
+    "detail": "Q (Decisive Strike) breaks slows and silences on your next hit, but it does nothing to prevent his W stun. Use it right after he stuns and dashes away to guarantee your silenced hit connects."
+   },
+   {
+    "title": "Play passive through levels 3-5",
+    "detail": "This is where Renekton's solo-kill lead lives. Hold minion-clear range with Q's 300 range rather than melee trading until you have E and can answer his damage."
+   },
+   {
+    "title": "All-in at level 6 with Ignite",
+    "detail": "Once R (Demacian Justice, 140s cd at rank 1) is up, look for an all-in the moment he's below roughly 40% HP — Ignite plus your execute closes out kills he can't heal through."
+   },
+   {
+    "title": "Back off to heal between trades",
+    "detail": "Your passive (Perseverance) regenerates a percentage of max HP per second once you've avoided damage recently. After any exchange, disengage rather than immediately re-trading."
+   },
+   {
+    "title": "Respect his ult transformation",
+    "detail": "Renekton's R (Dominus, 120s cd at rank 1) grants bonus health and periodic Fury generation while active. Don't commit a full trade the instant he pops it — wait for it to run out if you can."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.18.1); the mechanical reasoning and trade timing are this brief's own analysis, not sourced data."
+ },
+ "generatedAt": 1789329298923,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789329229477,
+  "overall": {
+   "winRate": 50.7,
+   "play": 38477,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 795,
+   "wins": 409,
+   "winRate": 51.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "Bring Legend: Tenacity and wait for Renekton to close in to use your abilities off cooldown to deal damage. After reaching level 6, try to kill him by using Ignite – Demacian Justice [R].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 925,
+    "pickRate": 94.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.4,
+    "play": 28,
+    "pickRate": 2.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 1.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.6,
+    "play": 411,
+    "pickRate": 41.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.9,
+    "play": 122,
+    "pickRate": 12.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 551,
+    "pickRate": 54.8
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.4,
+    "play": 322,
+    "pickRate": 32
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 52,
+    "play": 663,
+    "pickRate": 68.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.4,
+    "play": 179,
+    "pickRate": 18.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 54.6,
+    "play": 183,
+    "pickRate": 27.6
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.8,
+    "play": 62,
+    "pickRate": 9.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 60.4,
+    "play": 48,
+    "pickRate": 7.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 52.1,
+    "play": 951,
+    "pickRate": 96.4
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 55.1,
+    "play": 592,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 55.4,
+    "play": 435,
+    "pickRate": 44.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.6,
+    "play": 257,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 56.7,
+    "play": 164,
+    "pickRate": 16.6
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 39.8,
+    "play": 118,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 456
+   }
+  ]
+ }
+}

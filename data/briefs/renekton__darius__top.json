@@ -1,0 +1,388 @@
+{
+ "you": "Renekton",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Darius lands E (Apprehend) and stacks Hemorrhage to 5 before your Fury builds; you win by trading Q-sustain while his E is down."
+  },
+  "thesis": "This is a genuinely even lane (47.7% win rate over 961 games, even lane and solo-kill advantage) decided by whose cooldown is up first: Darius needs E (Apprehend) live to force a fight and stack Hemorrhage to max, while Renekton needs 50+ Fury for empowered Q and W before committing. The 2026 skill order (QEWQQR...) delays your W to rank 1 until roughly level 14, so early trades are won with Q sustain and E poke, not stun-locks.",
+  "tell": {
+   "watch": "Your own Fury bar (50 threshold)",
+   "theirWindow": {
+    "when": "Darius lands E (Apprehend) hook",
+    "what": "Once he pulls you in, his passive Hemorrhage stacks climb fast and his Q (Decimate) heals him off the blade edge — back off or Flash immediately rather than trading through it, especially once he's 5-stacked and enraged."
+   },
+   "yourWindow": {
+    "when": "His E (Apprehend) is on cooldown (26-16s)",
+    "what": "With his hook down he can't force range, so walk up and trade freely — hold your all-in until you're above 50 Fury so W (Ruthless Predator) hits the 3-slash, shield-destroying, 1.5s stun version instead of the weak 0.75s single-stun version."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has E yet, trades are auto-only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Darius gets E hook, Q sustain online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R adds Fury generation and bulk"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "Q maxed, Eclipse/Cleaver spike lands"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Both scale into full item power"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "80.4% pick rate and the higher win rate of the two starts (48.5% over 965 games) — the extra AD helps you win the auto-attack exchanges Darius wants to force with his passive bleed."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.5% pick rate at 49.4% win rate — Darius lives on autos and Q, so flat physical damage reduction blunts every trade he starts."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Shared first item on the two highest-win-rate paths (60.7% and 58.2%) — the shield lets you tank his all-in commitment while your empowered abilities land."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second item on both top paths — the armor shred stacks with your empowered E's own Armor reduction, compounding your damage in extended fights."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Highest win rate completed path (60.7% over 140 games) — the damage-over-time conversion directly counters Darius's Hemorrhage bleed stacking on you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "the enemy team has burst that threatens to delete you right after your all-in commits"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want your ability haste and Fury generation to snowball faster"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need the extra mobility and wave clear to reset side lane after trades"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks hard CC or magic damage worth swapping your boots for"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Higher win rate and pick rate than Press the Attack here (46.5% vs 44.3%) — Conqueror's stacking heal matches Renekton's Q sustain in the extended fights this lane produces, rather than rewarding a single burst window like Darius wants.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 92.8% of games at 48.2% win rate — Ignite cuts off the healing from Darius's Q (Decimate) blade hits during your Fury-empowered all-in, denying his best sustain tool exactly when you commit."
+  },
+  "playing": [
+   {
+    "title": "Engage only above 50 Fury",
+    "detail": "Below 50 Fury your W (Ruthless Predator) is a single 0.75s stun; above it, it becomes a 3-hit, shield-destroying, 1.5s stun. Wait for the threshold before starting your all-in combo."
+   },
+   {
+    "title": "Trade when his E is down",
+    "detail": "Darius's E (Apprehend) is his only way to force range, on a 26/23.5/21/18.5/16s cooldown. Walk up and poke with Q (Cull the Meek, 7s cooldown) whenever you've seen him use it."
+   },
+   {
+    "title": "Watch his Hemorrhage stack count",
+    "detail": "His passive bleeds you for 5 seconds per stack and enrages him at max stacks (5) with a large AD boost. Disengage before he reaches that threshold rather than fighting through it."
+   },
+   {
+    "title": "Dodge the blade edge of his Q",
+    "detail": "Decimate deals more damage and heals him only on the outer blade hit. Standing at melee range against him minimizes both his damage and his sustain from it."
+   },
+   {
+    "title": "Don't overcommit E",
+    "detail": "Slice and Dice is your only gap closer and escape, on a 16-10s cooldown depending on rank. Use it to engage or disengage, never both in the same trade."
+   },
+   {
+    "title": "Lean on Q, not W, before level 14",
+    "detail": "The 2026 skill order maxes Q and E first and leaves W at rank 1 until roughly level 14, so your stun is weak for most of laning — win trades with Q sustain and auto-attacks instead of chaining stuns."
+   },
+   {
+    "title": "Ignite the all-in, not the poke",
+    "detail": "Save Ignite for when you're already committed to a kill attempt with Fury up, since it removes his Q heal and any regen he'd use to survive your burst."
+   }
+  ],
+  "patchCaveat": "The build, runes, boots, summoners, and win-rate figures above are measured from live OP.GG games on the current patch (16.18.1); the tactical reading of Fury thresholds, cooldown windows, and trade patterns is my own analysis layered on top of that data."
+ },
+ "generatedAt": 1789329464867,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789329377718,
+  "overall": {
+   "winRate": 49.9,
+   "play": 31865,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 961,
+   "wins": 458,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Bring Ignite and wait for Renekton’s Fury to build up before engaging. Avoid being hit at the tip of Darius’s (Q).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.2,
+    "play": 1074,
+    "pickRate": 92.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40,
+    "play": 70,
+    "pickRate": 6.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 0.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.5,
+    "play": 419,
+    "pickRate": 35.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.3,
+    "play": 192,
+    "pickRate": 16.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 965,
+    "pickRate": 80.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.3,
+    "play": 197,
+    "pickRate": 16.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.4,
+    "play": 975,
+    "pickRate": 85.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.1,
+    "play": 135,
+    "pickRate": 11.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 60.7,
+    "play": 140,
+    "pickRate": 19.9
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 58.2,
+    "play": 134,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 62.2,
+    "play": 37,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 50,
+    "play": 884,
+    "pickRate": 76.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.3,
+    "play": 823,
+    "pickRate": 71.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 55.5,
+    "play": 427,
+    "pickRate": 37
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53,
+    "play": 362,
+    "pickRate": 31.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 51.8,
+    "play": 226,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 42.3,
+    "play": 78,
+    "pickRate": 6.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.2,
+    "play": 307
+   }
+  ]
+ }
+}

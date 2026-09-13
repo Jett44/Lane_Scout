@@ -1,0 +1,380 @@
+{
+ "you": "Darius",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close skill matchup",
+   "line": "You lose if Irelia's W (Defiant Dance) is up when you commit to the all-in; you win if you catch her with it on cooldown and lock her down with E (Apprehend)."
+  },
+  "thesis": "Irelia has the lane tools (a dash gap-closer, a damage-reduction block, and a stun) to control engage timing, which is why she holds lane advantage, but she has zero disengage from your E (Apprehend, range 535) once it lands and no way to remove Hemorrhage stacks once they're on her. The whole matchup is a fight over whether her W (Defiant Dance, cooldown 20/18/16/14/12s) is up when you commit, because that's the only tool she has to blunt your burst.",
+  "tell": {
+   "watch": "Irelia's W (Defiant Dance) cooldown",
+   "theirWindow": {
+    "when": "her E (Flawless Duet) is up",
+    "what": "She can land the converging blades for a stun and Mark, then follow with Q (Bladesurge) for a free reset since the target is Marked. Back off cooldown at her E's 16-10s cadence rather than trading blind into it."
+   },
+   "yourWindow": {
+    "when": "her W (Defiant Dance) is down",
+    "what": "With no physical damage reduction available, use E (Apprehend) to pull her in and unload Q (Decimate) plus autos to ramp Hemorrhage stacks — she has nothing left to soften the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither combo online, trade with autos only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "her full stun-dash-block kit unlocks first"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R execute plus stacked Hemorrhage snowballs hard"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "both fully scaled, item spikes decide fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The measured pick (87.4% pick rate, 47.7% win over 663 games) gives sustain and AD to win the early auto-trade window before her kit comes online at level 3."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Overwhelmingly the picked boots here (89.5% pick, 48.1% win over 659 games) — the auto-attack damage reduction directly blunts her passive attack-speed stacking and her repeated Q/auto poke."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Highest-winrate core path (58.9% over 56 games) — the active dash-speed and cooldown reduction close the gap on her when she tries to kite with Q (Bladesurge)."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Built momentum lets you actually catch her rather than chase, since she has no CC to stop you closing once E (Apprehend) is on cooldown."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage mitigation and healing over time keep you alive through her stun-into-Q burst combo during extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "if you need to survive her burst before your own all-in lands"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "if her Q (Bladesurge) sustain is healing her through your poke"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "if you need a hard slow to stop her Q-resetting away from fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Ramping true damage over the course of a prolonged trade rewards your stack-and-slug pattern against her dash-in-dash-out kit. Master-tier Darius players instead run Stormraider's Surge (Sorcery) across 4,621 games — that fits a more mobile, pick-off playstyle that leans on landing E (Apprehend) then disengaging rather than committing to a full extended fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the second most-picked combo here (26.3% pick, 48.5% win) and Ignite's healing reduction directly undercuts her Q (Bladesurge) lifesteal during your all-in. Exhaust+Flash shows a higher measured win rate (56.1% over 603 games) but at only 11.1% pick — worth trying if you prefer a safer, disengage-proof lane."
+  },
+  "playing": [
+   {
+    "title": "Engage only on her W cooldown",
+    "detail": "Her W (Defiant Dance, cooldown 20/18/16/14/12s) is the only physical-damage mitigation she has. Track it and commit your all-in the moment it's down."
+   },
+   {
+    "title": "Punish whiffed Q resets",
+    "detail": "Her Q (Bladesurge) only refreshes its 10/9/8/7/6s cooldown if it hits a Marked target or lands a kill. If she uses it on a minion just to reposition, her dash is now on full cooldown — that's your window to walk up and stack Hemorrhage."
+   },
+   {
+    "title": "Pull from behind minions",
+    "detail": "Your E (Apprehend) only reaches 535 range against her 850-range E (Flawless Duet), so close distance behind a minion wave before firing it rather than throwing it from max range."
+   },
+   {
+    "title": "Don't fish Q into her E",
+    "detail": "Your Q (Decimate) is a close-range swing around yourself, not a poke tool. Walking up alone to throw it while her E (Flawless Duet) is up invites the stun-into-Q punish."
+   },
+   {
+    "title": "Save R for max Hemorrhage stacks",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks on the target, and a killing blow refreshes its cooldown — land it once she's stacked, not on cooldown as a poke."
+   },
+   {
+    "title": "End fights fast",
+    "detail": "Her passive (Ionian Fervor) stacks bonus attack speed on spell hits and adds on-hit damage at max stacks. The longer a fight drags, the more that compounds in her favor — front-load your damage."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and all win-rate/pick-rate numbers are measured from live games on the current patch via OP.GG. The mechanical reasoning, timing windows, and trade patterns are my own tactical read layered on top of that data."
+ },
+ "generatedAt": 1789330277050,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789330197739,
+  "overall": {
+   "winRate": 50,
+   "play": 40539,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 603,
+   "wins": 295,
+   "winRate": 48.9
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use [E] to pull Irelia while keeping in mind that she can use (Q) on minions to move around. Try to use your abilities when her (W) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47,
+    "play": 451,
+    "pickRate": 61
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.5,
+    "play": 194,
+    "pickRate": 26.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 56.1,
+    "play": 82,
+    "pickRate": 11.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.4,
+    "play": 184,
+    "pickRate": 24.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 140,
+    "pickRate": 18.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.7,
+    "play": 663,
+    "pickRate": 87.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 54,
+    "pickRate": 7.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.1,
+    "play": 659,
+    "pickRate": 89.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.1,
+    "play": 49,
+    "pickRate": 6.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 58.9,
+    "play": 56,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 43.3,
+    "play": 30,
+    "pickRate": 7
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 18,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54,
+    "play": 354,
+    "pickRate": 48
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 49.7,
+    "play": 346,
+    "pickRate": 47
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.4,
+    "play": 255,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 62,
+    "play": 229,
+    "pickRate": 31.1
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 45.1,
+    "play": 206,
+    "pickRate": 28
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49.3,
+    "play": 150,
+    "pickRate": 20.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.5,
+    "play": 294
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 4621
+  }
+ }
+}
