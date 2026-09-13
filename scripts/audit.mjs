@@ -25,6 +25,12 @@ const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
 
 /* "Doran's Shield + Health Potion" is two items in one field */
 const splitItems = (s) => String(s).split(/\s*[+,]\s*/).map((x) => x.trim()).filter(Boolean);
+/* The generator strips these before saving; the audit has to strip them too,
+   or it reports "1 Health Potion" as a missing item when the brief is fine. */
+const stripQty = (s) => String(s)
+  .replace(/^\s*\d+\s*[x×]?\s+/i, "")
+  .replace(/\s*[x×]\s*\d+\s*$/i, "")
+  .trim();
 
 const v = await currentPatch();
 const base = `${DD}/cdn/${v}/data/en_US/`;
@@ -74,7 +80,7 @@ for (const f of files) {
     .concat((bd.situational || []).map((x) => x.item));
 
   for (const raw of itemFields) {
-    for (const one of splitItems(raw)) {
+    for (const one of splitItems(raw).map(stripQty)) {
       checked++;
       if (!realItems.has(norm(one))) note("item", one, where);
     }
