@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, sharp",
+   "line": "You lose if you let her free-hit with Q (Precision Protocol) autos off E (Hookshot) resets without ever being punished; you win if you force all-ins before level 6 while you hold 4-5 passive stacks and she doesn't."
+  },
+  "thesis": "Darius wins this lane in the trade window, not the poke window: he has the lane and solo-kill edge (49.2% over 642 games) because his stacked passive and W execute threat beat Camille in prolonged melee, but her E (Hookshot) lets her hop to a wall, poke with an empowered Q auto, and disengage before he can punish. The whole matchup is about closing that gap between her hop and her landing.",
+  "tell": {
+   "watch": "Camille's E (Hookshot) cooldown",
+   "theirWindow": {
+    "when": "she hops E onto a nearby wall",
+    "what": "She's committed to a fixed landing spot and about to chain a second dash with an empowered Q auto attached. This is her only safe poke — she cannot flash out of the animation."
+   },
+   "yourWindow": {
+    "when": "her E lands but before her second dash fires",
+    "what": "Throw E (Apprehend) the instant she touches down to pull her into melee range before the chain completes — this negates her disengage and traps her in your zone for a full W into Q trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Doran's Blade trades outclass her early autos"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Passive stacks punish careless Hookshot pokes"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Her ultimate isolates you for a safe duel"
+   },
+   {
+    "levels": "9-11",
+    "edge": "even",
+    "note": "Ghostblade haste returns kill pressure to you"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "Her scaling split-push outlasts your execute threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "82.1% pick rate for a reason — the lifesteal and AD keep you ahead in the extended trades that actually win this lane (49.8% WR, 625 games)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "76% pick, 51.3% WR — Camille's damage is entirely auto-attack and Q-empowered autos, so flat physical reduction blunts her only poke tool."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The haste closes the mobility gap her E gives her — this is what lets you actually catch a Camille who wants to hop and reset neutral."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Free stacking movement speed on a wave push means you're never a full E-hop away when she tries to disengage."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "65.2% WR over 66 games on this exact path — the damage-over-time conversion neutralizes her burst windows and keeps you alive through her all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "the enemy team stacks magic damage around her"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need burst mitigation more than the healing from Death's Dance"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you're duel-focused and need to run down a kiting Camille instead of executing squishies"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Camille wants short poke trades and disengage — Conqueror rewards you for forcing the fight to run long, which is exactly where Darius wins.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "71.1% pick rate — Ghost specifically lets you stay attached through her E hops, since her entire kit is built to create distance you otherwise can't close."
+  },
+  "playing": [
+   {
+    "title": "Track her E cooldown constantly",
+    "detail": "When Hookshot is down, she has zero disengage — walk up and force trades freely, since this is the only window where she can't punish and run."
+   },
+   {
+    "title": "Fight only at max passive stacks",
+    "detail": "Hold your Q (Decimate) hits until Hemorrhage is at 4-5 stacks before committing to a full trade — the true damage bonus is what actually wins the extended fight."
+   },
+   {
+    "title": "Interrupt her E with your E",
+    "detail": "The moment she lands her first Hookshot hop, throw Apprehend to pull her into melee before the second dash fires — this is the single highest-value play in the matchup."
+   },
+   {
+    "title": "Hit Q at the blade's edge",
+    "detail": "Decimate deals bonus damage at max range, not center — position so the rim of the circle lands on her, not just the tick near your feet."
+   },
+   {
+    "title": "Never extend below 50% HP after level 6",
+    "detail": "Her ultimate isolates you in a zone she controls — once she has R, don't trade past half health or you're forcing a duel on her terms."
+   },
+   {
+    "title": "Punish her poke with W",
+    "detail": "Every time she lands a Q-empowered auto and disengages, chase with Crippling Strike to slow and reset your passive stacks before she resets neutral."
+   },
+   {
+    "title": "All-in the moment Ghostblade completes",
+    "detail": "The active haste is your one item spike that closes her mobility gap outright — look for a skirmish immediately after finishing it."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, summoner spells, and every win rate here are measured OP.GG data from live games on the current patch; the timing windows, trade sequencing, and E-interrupt read are my own mechanical analysis."
+ },
+ "generatedAt": 1789274199687,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789274114023,
+  "overall": {
+   "winRate": 50.1,
+   "play": 32082,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 642,
+   "wins": 316,
+   "winRate": 49.2
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": "Try to hit Camille at the edge of [Q] when dealing damage. Maintain your passive stacks and fight her whenever she steps in range and interrupt her (E) with your [E].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 52.8,
+    "play": 523,
+    "pickRate": 71.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48,
+    "play": 175,
+    "pickRate": 23.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 30,
+    "pickRate": 4.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.4,
+    "play": 206,
+    "pickRate": 27.7
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.9,
+    "play": 140,
+    "pickRate": 18.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.8,
+    "play": 625,
+    "pickRate": 82.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 115,
+    "pickRate": 15.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.3,
+    "play": 557,
+    "pickRate": 76
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.9,
+    "play": 109,
+    "pickRate": 14.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 65.2,
+    "play": 66,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 65.5,
+    "play": 29,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 57.6,
+    "play": 384,
+    "pickRate": 51.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 53.8,
+    "play": 329,
+    "pickRate": 44.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.8,
+    "play": 294,
+    "pickRate": 39.4
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 45.6,
+    "play": 285,
+    "pickRate": 38.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.1,
+    "play": 247,
+    "pickRate": 33.1
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 52.5,
+    "play": 160,
+    "pickRate": 21.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.6,
+    "play": 174
+   }
+  ]
+ }
+}

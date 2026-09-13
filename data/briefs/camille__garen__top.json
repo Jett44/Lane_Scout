@@ -1,0 +1,380 @@
+{
+ "you": "Camille",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You lose if you facetank Judgment spins and let Perseverance tick back up; you win every all-in from level 2 onward if you punish before he heals."
+  },
+  "thesis": "Camille sits at 53.6% over 869 games here with both lane and solo-kill advantage because her E (Hookshot) gap-close and Q (Precision Protocol) dash reset let her dictate every engage against a champion with zero gap-closer of his own. The entire matchup is a race against Garen's passive: land damage often enough and he never gets to use Perseverance to undo your trades.",
+  "tell": {
+   "watch": "Garen's Perseverance regen timer",
+   "theirWindow": {
+    "when": "Garen lands Q silence on engage",
+    "what": "Decisive Strike silences you and grants him movement speed into an immediate E (Judgment) spin — back off the instant it lands instead of trading through it, since your Q and E are locked out for its duration."
+   },
+   "yourWindow": {
+    "when": "his E (Judgment) is on cooldown",
+    "what": "Walk up and trade freely with autos and Q; without Judgment he has no answer to your dash-reset poke, and his passive shield (Courage) is only doing half its job with the spin gone."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Garen's base stats and Q punish early poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Full E-Q-W combo turns on kill threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R traps him for guaranteed all-in kills"
+   },
+   {
+    "levels": "9-11",
+    "edge": "even",
+    "note": "his HP scaling meets your Trinity spike"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Hydra/Sterak's outpaces his tank scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "84.4% pick rate at 53.1% over 868 games — the AD and sustain let you match his early auto trades and out-heal chip poke without conceding lane."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "74.3% pick, 52.7% win over 675 games — Garen's damage is entirely physical (autos, Q, E), so flat armor reduction hurts him far more than Mercury's Treads' MR."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "the dash-reset synergy with your Q and E is what lets you actually stick through his lack of mobility."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "sustains you through extended fights and adds wave clear so you can keep resetting for solo kills."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "highest-winrate finishing item on this path at 63.7% over 135 games — the tenacity and shield keep you locked onto him through his Q slow-immune burst."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "the enemy team stacks sustained physical damage you need to out-heal"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you're already ahead, stacking ability haste to snowball further"
+    },
+    {
+     "item": "Tiamat",
+     "when": "you need faster wave clear or split-push pressure before committing to Hydra"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "permanent HP growth and free sustain in extended trades reward the stick-and-poke pattern you want against a champion with no way to disengage.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "73.2% pick and the highest winrate of the three loadouts at 55.7% — Ignite denies Perseverance outright during your all-in window, converting your existing solo-kill advantage into an actual kill."
+  },
+  "playing": [
+   {
+    "title": "Deny Perseverance procs",
+    "detail": "Garen heals hard if he takes zero damage for several seconds; land at least one auto or ability tick inside that window on every extended trade so the regen never fires."
+   },
+   {
+    "title": "Engage E onto a wall",
+    "detail": "Hookshot onto terrain behind him doubles your dash distance and comes off cooldown faster than a champion-target hook, letting you close and follow with Q before he can walk away."
+   },
+   {
+    "title": "Bait his Q before committing",
+    "detail": "Decisive Strike silences and speeds him up; force it out on a minion or juke it before you commit your full combo so it can't cancel your Q or E mid-fight."
+   },
+   {
+    "title": "Lead all-ins with an ability, not an auto",
+    "detail": "Adaptive Defenses shields you on your first ability hit, so open with Q or E to get the shield active before his Judgment spin starts ticking."
+   },
+   {
+    "title": "Box him with W before ulting",
+    "detail": "Tactical Sweep's hex slows and reveals inside it; drop it right before R at level 6+ so he can't step out of ultimate range during the execute window."
+   },
+   {
+    "title": "Look for kills right at level 2-3",
+    "detail": "Your solo-kill edge peaks the moment E unlocks — commit on cannon waves or whenever he pushes to poke, before his level 6 execute changes the math."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured OP.GG data from live games on the current patch (16.18.1); the tactical reasoning — trade timing, cooldown tracking, and power-spike calls — is my own read of the matchup."
+ },
+ "generatedAt": 1789274825524,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789274749284,
+  "overall": {
+   "winRate": 50.6,
+   "play": 20213,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 869,
+   "wins": 466,
+   "winRate": 53.6
+  },
+  "laneAdvantage": "Camille",
+  "soloKillAdvantage": "Camille",
+  "playStyle": "even",
+  "opponentTip": "Try to engage when Camille has her passive shield [P] active. Garen will recover if he does not receive damage for a certain period of time. Deal damage constantly to prevent him from recovering health!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.7,
+    "play": 729,
+    "pickRate": 73.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44,
+    "play": 134,
+    "pickRate": 13.5
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 48.3,
+    "play": 120,
+    "pickRate": 12.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 294,
+    "pickRate": 29.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.2,
+    "play": 105,
+    "pickRate": 10.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.1,
+    "play": 868,
+    "pickRate": 84.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55.6,
+    "play": 117,
+    "pickRate": 11.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.7,
+    "play": 675,
+    "pickRate": 74.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60,
+    "play": 160,
+    "pickRate": 17.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 51.6,
+    "play": 215,
+    "pickRate": 38.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 63.7,
+    "play": 135,
+    "pickRate": 24.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 70.2,
+    "play": 104,
+    "pickRate": 18.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 53.5,
+    "play": 998,
+    "pickRate": 99.1
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 55.6,
+    "play": 833,
+    "pickRate": 82.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.7,
+    "play": 311,
+    "pickRate": 30.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 62.7,
+    "play": 228,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 70,
+    "play": 160,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 45.8,
+    "play": 83,
+    "pickRate": 8.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.2,
+    "play": 318
+   }
+  ]
+ }
+}

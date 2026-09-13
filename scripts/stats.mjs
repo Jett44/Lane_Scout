@@ -15,7 +15,13 @@
 const ENDPOINT = "https://mcp-api.op.gg/mcp";
 const TIMEOUT_MS = 25000;
 
-const upper = (s) => String(s).trim().toUpperCase().replace(/[^A-Z0-9]/g, "_");
+/* OP.GG wants UPPER_SNAKE_CASE with single underscores. Replacing each
+   punctuation character individually gives "Dr. Mundo" -> DR__MUNDO, which
+   returns nothing at all — so runs of non-alphanumerics collapse to one, and
+   any leading or trailing underscore is trimmed. Affects Dr. Mundo and
+   Nunu & Willump, which is ~220 matchups silently losing their stats. */
+const upper = (s) =>
+  String(s).trim().toUpperCase().replace(/[^A-Z0-9]+/g, "_").replace(/^_+|_+$/g, "");
 
 async function rpc(method, params) {
   const ctl = new AbortController();
