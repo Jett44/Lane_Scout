@@ -15,6 +15,7 @@ import {
 } from "./lib.mjs";
 import { readState } from "./patch.mjs";
 import { readAssets } from "./assets.mjs";
+import { readAbilities } from "./abilities.mjs";
 
 const CUT = "/* ---------------- scout ---------------- */";
 
@@ -71,12 +72,40 @@ export function build() {
 
   const assets = readAssets() || { version: null, item: {}, spell: {}, rune: {}, champ: {} };
 
+  /* Ship ability kits only for champions that actually appear in a brief, and
+     item text only for items a build names. The full sets are 215 KB and
+     155 KB; trimmed to what is on screen they are a fraction of that. */
+  const usedChamps = new Set();
+  const usedItems = new Set();
+  for (const rec of Object.values(map)) {
+    usedChamps.add(String(rec.you).toLowerCase());
+    usedChamps.add(String(rec.them).toLowerCase());
+    const bd = rec.brief?.build || {};
+    for (const slot of [bd.start, bd.boots, ...(bd.core || []), ...(bd.situational || [])]) {
+      for (const part of String(slot?.item || "").split(/\s*[+,]\s*/)) {
+        const n = part.replace(/^\s*\d+\s*[x×]?\s+/i, "").replace(/\s*[x×]\s*\d+\s*$/i, "").trim().toLowerCase();
+        if (n) usedItems.add(n);
+      }
+    }
+  }
+
+  const allKits = readAbilities();
+  const kits = {};
+  if (allKits) {
+    for (const name of usedChamps) if (allKits.champions[name]) kits[name] = allKits.champions[name];
+  }
+
+  const itemText = {};
+  for (const n of usedItems) if (assets.itemText?.[n]) itemText[n] = assets.itemText[n];
+
   const out =
     template.slice(0, at) +
     "/* ---------------- baked matchup data ---------------- */\n" +
     `var BRIEFS = ${esc(map)};\n` +
     `var META = ${esc(meta)};\n` +
     `var ASSETS = ${esc(assets)};\n` +
+    `var KITS = ${esc(kits)};\n` +
+    `var ITEMTEXT = ${esc(itemText)};\n` +
     `var REMOTE_URL = ${JSON.stringify(REMOTE_DATA)};\n\n` +
     offline +
     "\n</script>\n";

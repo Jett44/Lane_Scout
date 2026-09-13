@@ -170,6 +170,35 @@ function iconImg(kind, name, cls){
       "font-family:var(--display);font-weight:700;font-size:12px;background:var(--surface-2);color:var(--ink)}" +
     ".sk.r .ab{background:var(--accent);color:#fff}" +
     ".skillnote{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--ink-3);margin:9px 0 0}" +
+
+    /* --- ability kits --- */
+    ".kits{display:grid;grid-template-columns:1fr 1fr;gap:26px}" +
+    "@media (max-width:760px){.kits{grid-template-columns:1fr}}" +
+    ".kit h3{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:.01em;margin:0 0 3px;" +
+      "display:flex;align-items:center;gap:8px}" +
+    ".kit.you h3{color:var(--accent)}" +
+    ".kit.them h3{color:var(--threat)}" +
+    ".kit .sub{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;" +
+      "color:var(--ink-3);margin:0 0 12px}" +
+    ".ab-row{display:grid;grid-template-columns:34px 1fr;gap:11px;padding:9px 0;border-bottom:1px solid var(--line)}" +
+    ".ab-row:last-child{border-bottom:0}" +
+    ".ab-row .icw{position:relative}" +
+    ".ab-row img{width:34px;height:34px;border-radius:3px;background:var(--surface-2);display:block}" +
+    ".ab-row .kbd{position:absolute;right:-3px;bottom:-3px;background:var(--ink);color:var(--bg);" +
+      "font-family:var(--mono);font-size:8.5px;line-height:1;padding:2px 3px;border-radius:2px}" +
+    ".ab-row .an{font-family:var(--display);font-weight:600;font-size:16px;line-height:1.2;color:var(--ink)}" +
+    ".ab-row .ameta{font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;color:var(--ink-3);margin:2px 0 0}" +
+    ".ab-row .ad{font-size:14.5px;line-height:1.5;color:var(--ink-2);margin:4px 0 0}" +
+
+    /* --- hover cards --- */
+    ".tipref{border-bottom:1px dotted var(--ink-3);cursor:help}" +
+    "#tip{position:fixed;z-index:80;max-width:330px;background:var(--surface);border:1px solid var(--line-strong);" +
+      "border-radius:4px;box-shadow:var(--shadow);padding:11px 13px;pointer-events:none}" +
+    "#tip .tt{font-family:var(--display);font-weight:700;font-size:16px;line-height:1.2;margin-bottom:2px;" +
+      "display:flex;align-items:center;gap:7px}" +
+    "#tip .tm{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;color:var(--ink-3);margin-bottom:6px}" +
+    "#tip .tb{font-size:14px;line-height:1.55;color:var(--ink-2)}" +
+    "#tip img{width:24px;height:24px;border-radius:3px;background:var(--surface-2)}" +
     ".pick-none{padding:12px;font-family:var(--mono);font-size:10.5px;color:var(--ink-3);line-height:1.6}" +
     ".pickhint{padding:5px 7px 8px;font-family:var(--mono);font-size:9px;letter-spacing:.1em;" +
       "text-transform:uppercase;color:var(--ink-3);border-bottom:1px solid var(--line);margin-bottom:6px}" +
@@ -494,6 +523,150 @@ function itemRow(it, slotLabel, numbered, sit){
 
 /* Runes and summoners are built inside the template's renderer, so decorate
    them afterwards from the same data rather than duplicating the renderer. */
+/* ---------------- ability kits and hover cards ---------------- */
+
+var CDRAGON = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default";
+function kitOf(name){ return KITS[String(name || "").toLowerCase()] || null; }
+function abIcon(p){ return p ? CDRAGON + p : null; }
+
+function abilityRow(a, keyLabel){
+  var url = abIcon(a.icon);
+  var meta = [];
+  if (a.cooldown && a.cooldown.length) meta.push("cooldown " + a.cooldown.join("/") + "s");
+  if (a.range) meta.push("range " + a.range);
+  return '<div class="ab-row">'
+    + '<div class="icw">'
+    + (url ? '<img src="' + esc(url) + '" alt="" loading="lazy" onerror="this.style.visibility=\'hidden\'">' : '<img alt="">')
+    + '<span class="kbd">' + esc(keyLabel) + '</span></div>'
+    + '<div><div class="an">' + esc(a.name || "") + '</div>'
+    + (meta.length ? '<p class="ameta">' + esc(meta.join(" · ")) + '</p>' : "")
+    + '<p class="ad">' + esc(a.description || "") + '</p></div></div>';
+}
+
+function kitHtml(name, side){
+  var k = kitOf(name);
+  if (!k) return "";
+  var rows = [abilityRow(k.passive, "P")]
+    .concat((k.spells || []).map(function(s){ return abilityRow(s, s.key); }))
+    .join("");
+  return '<div class="kit ' + side + '">'
+    + '<h3>' + iconImg("champ", k.name, "sm") + esc(k.name) + '</h3>'
+    + '<p class="sub">' + esc([k.title, k.attackType, k.damageType ? k.damageType + " damage" : null]
+        .filter(Boolean).join(" · ")) + '</p>'
+    + rows + '</div>';
+}
+
+function kitsSection(rec){
+  if (!kitOf(rec.you) && !kitOf(rec.them)) return "";
+  return '<section class="sec"><h2>Abilities</h2><div class="kits">'
+    + kitHtml(rec.you, "you") + kitHtml(rec.them, "them")
+    + '</div></section>';
+}
+
+/* --- hover cards ---------------------------------------------------- */
+
+var tip = document.createElement("div");
+tip.id = "tip"; tip.hidden = true;
+document.body.appendChild(tip);
+
+function showTip(el){
+  var kind = el.dataset.tipKind, name = el.dataset.tipName, champ = el.dataset.tipChamp;
+  var title = "", meta = "", body = "", icon = "";
+
+  if (kind === "ability"){
+    var k = kitOf(champ); if (!k) return;
+    var all = [k.passive].concat(k.spells || []);
+    var a = all.find(function(x){ return String(x.name || "").toLowerCase() === String(name).toLowerCase(); });
+    if (!a) return;
+    title = a.name;
+    var m = [];
+    if (a.cooldown && a.cooldown.length) m.push("cooldown " + a.cooldown.join("/") + "s");
+    if (a.range) m.push("range " + a.range);
+    m.push(k.name);
+    meta = m.join(" · ");
+    body = a.description || "";
+    var u = abIcon(a.icon);
+    if (u) icon = '<img src="' + esc(u) + '" alt="">';
+  } else {
+    var t = ITEMTEXT[String(name).toLowerCase()];
+    if (!t) return;
+    /* ITEMTEXT is keyed lowercase; show the item the way the page spells it. */
+    title = el.textContent || name;
+    body = t;
+    icon = iconImg("item", name, "");
+  }
+
+  tip.innerHTML = '<div class="tt">' + icon + esc(title) + '</div>'
+    + (meta ? '<div class="tm">' + esc(meta) + '</div>' : "")
+    + '<div class="tb">' + esc(body) + '</div>';
+  tip.hidden = false;
+
+  var r = el.getBoundingClientRect(), t2 = tip.getBoundingClientRect();
+  var left = Math.min(Math.max(8, r.left), window.innerWidth - t2.width - 8);
+  var top = r.bottom + 8;
+  if (top + t2.height > window.innerHeight - 8) top = Math.max(8, r.top - t2.height - 8);
+  tip.style.left = left + "px";
+  tip.style.top = top + "px";
+}
+function hideTip(){ tip.hidden = true; }
+
+document.addEventListener("mouseover", function(e){
+  var el = e.target.closest(".tipref");
+  if (el) showTip(el); else if (!e.target.closest("#tip")) hideTip();
+});
+document.addEventListener("focusin", function(e){
+  var el = e.target.closest(".tipref"); if (el) showTip(el);
+});
+document.addEventListener("scroll", hideTip, true);
+
+/* Wrap ability mentions like "W (Haymaker)" or bare "Facebreaker", and item
+   names, so they carry a hover card. Only exact known names are touched — the
+   prose is never rewritten, only marked up. */
+function annotate(root, you, them){
+  var targets = [];
+  [[you, "you"], [them, "them"]].forEach(function(pair){
+    var k = kitOf(pair[0]); if (!k) return;
+    [k.passive].concat(k.spells || []).forEach(function(a){
+      if (a && a.name) targets.push({ name: a.name, kind: "ability", champ: pair[0] });
+    });
+  });
+  for (var n in ITEMTEXT) targets.push({ name: n, kind: "item", champ: null });
+
+  // longest first so "Black Cleaver" wins over "Cleaver"
+  targets.sort(function(a, b){ return b.name.length - a.name.length; });
+
+  var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: function(node){
+      if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+      if (node.parentElement.closest(".tipref, .ab-row, script, style, h1, #tip")) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+
+  var nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+
+  nodes.forEach(function(node){
+    var text = node.nodeValue, hit = null, at = -1;
+    for (var i = 0; i < targets.length; i++){
+      var idx = text.toLowerCase().indexOf(targets[i].name.toLowerCase());
+      if (idx !== -1){ hit = targets[i]; at = idx; break; }
+    }
+    if (!hit) return;
+    var span = document.createElement("span");
+    span.className = "tipref";
+    span.tabIndex = 0;
+    span.dataset.tipKind = hit.kind;
+    span.dataset.tipName = hit.name;
+    if (hit.champ) span.dataset.tipChamp = hit.champ;
+    span.textContent = text.slice(at, at + hit.name.length);
+
+    var after = node.splitText(at);
+    after.nodeValue = after.nodeValue.slice(hit.name.length);
+    node.parentNode.insertBefore(span, after);
+  });
+}
+
 /* Skill order comes straight from the measured data, not from the model —
    there is no reason to round-trip a fact through a language model. One cell
    per level, with the ultimate picked out. */
@@ -556,6 +729,22 @@ function decorate(brief, rec){
       rail.insertBefore(holder.firstChild, secs[1] || null);
     }
   }
+
+  /* Full kits go in the main column, below the narrative. */
+  var kits = kitsSection(rec);
+  if (kits){
+    var main = document.querySelector(".grid > div");
+    if (main){
+      var kh = document.createElement("div");
+      kh.innerHTML = kits;
+      main.appendChild(kh.firstChild);
+    }
+  }
+
+  /* Then mark up every ability and item mention so it carries a hover card. */
+  hideTip();
+  var grid = document.querySelector(".grid");
+  if (grid) annotate(grid, rec.you, rec.them);
 }
 
 function stampMeta(rec, key, shownContext){

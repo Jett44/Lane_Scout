@@ -37,10 +37,24 @@ export async function refreshAssets() {
   ]);
 
   const item = {};
+  const itemText = {};
   for (const it of Object.values(items.data)) {
     // several ids share a display name (upgrades, ornn variants) — first wins
     const k = it.name.toLowerCase();
-    if (!item[k]) item[k] = it.image.full;
+    if (!item[k]) {
+      item[k] = it.image.full;
+      /* What the item actually does, for the hover card. Riot's description is
+         HTML with stat blocks and passive names run together, so insert breaks
+         where tags close rather than gluing words to each other. */
+      itemText[k] = String(it.description || "")
+        .replace(/<\/(br|li|p|h\d|stats|passive|active|mainText)>/gi, " · ")
+        .replace(/<br\s*\/?>/gi, " · ")
+        .replace(/<[^>]+>/g, "")
+        .replace(/\s*·\s*(·\s*)+/g, " · ")
+        .replace(/\s+/g, " ")
+        .replace(/^[\s·]+|[\s·]+$/g, "")
+        .slice(0, 320);
+    }
   }
 
   const spell = {};
@@ -57,7 +71,7 @@ export async function refreshAssets() {
   const champ = {};
   for (const c of Object.values(champs.data)) champ[c.name.toLowerCase()] = c.image.full;
 
-  const out = { version: v, fetchedAt: Date.now(), item, spell, rune, champ };
+  const out = { version: v, fetchedAt: Date.now(), item, itemText, spell, rune, champ };
   fs.mkdirSync(path.dirname(ASSETS_JSON), { recursive: true });
   fs.writeFileSync(ASSETS_JSON, JSON.stringify(out));
 

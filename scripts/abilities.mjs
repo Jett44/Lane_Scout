@@ -39,19 +39,32 @@ const ranks = (arr, max) => {
   return out.length ? [...new Set(out)].length === 1 ? [out[0]] : out : null;
 };
 
+/* Icon paths arrive as game-asset paths; CDragon serves them lowercased with
+   the /lol-game-data/assets prefix dropped. Store the suffix only — the page
+   rebuilds the URL, which keeps the baked payload small. */
+const iconPath = (p) => {
+  if (!p) return null;
+  return String(p).toLowerCase().replace("/lol-game-data/assets", "");
+};
+
 function trim(c) {
   return {
     name: c.name,
     title: c.title,
     attackType: c.tacticalInfo?.attackType ?? null,
     damageType: (c.tacticalInfo?.damageType || "").replace(/^k/, "").toLowerCase() || null,
-    passive: { name: c.passive?.name, description: clean(c.passive?.description) },
+    passive: {
+      name: c.passive?.name,
+      description: clean(c.passive?.description),
+      icon: iconPath(c.passive?.abilityIconPath)
+    },
     spells: (c.spells || []).map((s) => ({
       key: String(s.spellKey || "").toUpperCase(),
       name: s.name,
       cooldown: ranks(s.cooldownCoefficients, s.maxLevel),
       range: Array.isArray(s.range) ? s.range[0] : null,
-      description: clean(s.description)
+      description: clean(s.description),
+      icon: iconPath(s.abilityIconPath)
     }))
   };
 }
