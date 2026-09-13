@@ -4,144 +4,380 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Skill matchup",
-   "line": "You lose if you trade into a full Grit bar or a landed Facebreaker grab before level 6; you win every extended duel once Courage and Conqueror stack up and Demacian Justice threatens the execute."
+   "difficulty": "Slightly unfavored",
+   "line": "You lose if you get caught eating a centered W (Haymaker) during his level 2-5 all-in window; you win if you farm patient, dodge the fist, and let Stridebreaker/Phantom Dancer even the duels from mid-game on."
   },
-  "thesis": "Sett's entire early threat is binary: his passive Grit bar (the segmented bar under his HP) has to be full for his empowered auto to matter, and his E (Facebreaker) has to land a grab for his all-in to have CC. Garen's Q (Decisive Strike) silence removes both of those cooldowns from a fight if you fire it the moment he commits, which flips this from a scary all-in lane into a war of attrition Garen wins on tank items and the R (Demacian Justice) execute.",
+  "thesis": "Sett's entire early threat is the W (Haymaker) charge: the longer he holds it and the more centered it lands, the bigger the knockup and burst, and Garen has no ranged interrupt or hard CC to stop that channel. That's why Sett holds the lane and solo-kill edge here (49% Garen WR over 823 games) even though Garen sits at a healthy 50.9% baseline across 30,313 games — this matchup is decided by whether you dodge the center hit and refuse to trade into a charged W, not by raw stats.",
   "tell": {
-   "watch": "Sett's Grit bar fill under his HP",
+   "watch": "Sett's W charge animation",
    "theirWindow": {
-    "when": "Grit bar full and E (Facebreaker) up",
-    "what": "He can walk up, land a grab, and get a free empowered auto mid-combo — this is a 2-for-1 burst window. Do not extend the trade here; back off or pre-emptively Q him to silence the E before he claps."
+    "when": "he starts charging W near you",
+    "what": "Back off to the edge of his hitbox or walk perpendicular immediately — a glancing W gives partial damage and no knockup, a centered one gives both, and that's the difference between a safe trade and a dead lane."
    },
    "yourWindow": {
-    "when": "his E is on cooldown after a whiffed clap",
-    "what": "Facebreaker has no lockout mechanic when it misses, so once he claps without grabbing anyone, walk in and E (Judgment) spin — he has no tool to stop the channel or punish you for standing in it."
+    "when": "his W is on cooldown or just whiffed",
+    "what": "This is your only real trade window pre-6. Walk up, land Q (Decisive Strike) for the silence and bonus damage, then string autos to spend your E (Judgment) crit-chance stacks before he can charge another W."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "them",
-    "note": "Sett's base stats and passive Grit trade favor him pre-Q silence"
+    "edge": "even",
+    "note": "no W yet, just autos and CS"
    },
    {
     "levels": "3-5",
+    "edge": "them",
+    "note": "W all-in plus grit shield spikes hard"
+   },
+   {
+    "levels": "6-9",
     "edge": "even",
-    "note": "Q silence now cancels his E/W all-in on reaction"
+    "note": "R execute threat offsets his grit tankiness"
    },
    {
-    "levels": "6-8",
+    "levels": "10-18",
     "edge": "even",
-    "note": "both ults online, R execute race is close"
-   },
-   {
-    "levels": "9-13",
-    "edge": "you",
-    "note": "Trinity/tank item spike outpaces his falloff"
-   },
-   {
-    "levels": "14-18",
-    "edge": "you",
-    "note": "true damage execute plus tankiness wins duels"
+    "note": "Stridebreaker/PD keeps duels genuinely close"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield",
-    "why": "the HP5 and post-6-damage-taken block absorb his auto-heavy poke and Grit-building autos without you needing to trade back"
+    "item": "Doran's Shield + Health Potion",
+    "why": "This matchup is measured defensive with Sett holding solo-kill edge (49.1% WR over 562 games, 54.2% pick) — the flat damage reduction on autos and passive regen let you eat W charge-up pokes and stray autos without losing the trade math."
    },
    "boots": {
-    "item": "Plated Steelcaps",
-    "why": "his entire kit — passive empowered auto, Q double-hit, W, R slam — is physical, so flat armor plus the auto-attack damage reduction proc is the highest-value boot"
+    "item": "Berserker's Greaves",
+    "why": "50.1% WR over 599 games, 59.7% pick — attack speed keeps your E (Judgment) crit-chance stacks building fast enough to actually spend them in the short windows Sett gives you between W charges."
    },
    "core": [
     {
-     "item": "Trinity Force",
-     "why": "the on-hit proc and movement speed let you stick a spin (E) and get a Q silence off before he closes the gap"
+     "item": "Stridebreaker",
+     "why": "The active slow is how you stay on Sett once his W is down — he has no gap closer once Grit and W are spent, so Stridebreaker's proc turns a whiff-punish into a kill."
     },
     {
-     "item": "Sundered Sky",
-     "why": "the on-hit heal and crit-on-first-attack keep you healthier through extended trades than he can out-damage"
+     "item": "Phantom Dancer",
+     "why": "Attack speed to feed E stacks and Q resets faster during extended mid-game duels, part of the 50.9% WR / 167-game core path."
     },
     {
-     "item": "Thornmail",
-     "why": "Grievous Wounds guts the healing he gets off his passive's empowered auto and W lifesteal-style heal, which is his entire sustain plan"
+     "item": "Mortal Reminder",
+     "why": "Sett's Pit Grit passive and W absorb give him effective extra HP and healing in prolonged fights — grievous wounds directly cuts that sustain before your R execute lands."
     }
    ],
    "situational": [
     {
-     "item": "Randuin's Omen",
-     "when": "he builds crit or attack-speed items to snowball his Grit bar faster"
+     "item": "Dead Man's Plate",
+     "when": "the game goes long and Sett is building into a tankier grit-heavy playstyle"
     },
     {
-     "item": "Guardian Angel",
-     "when": "the lane is close and you're trading 1-for-1 in extended skirmishes"
+     "item": "Infinity Edge",
+     "when": "you're already ahead and want the crit burst to close out R executes faster"
     },
     {
-     "item": "Executioner's Calling",
-     "when": "you need the Grievous Wounds online earlier than Thornmail's timing allows"
+     "item": "Youmuu's Ghostblade",
+     "when": "you need extra gap-close to punish a Sett who's kiting or disengaging post-all-in"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "Sett or the enemy team is threatening burst that could delete you mid-all-in"
     }
    ]
   },
   "runes": {
-   "keystone": "Conqueror",
-   "keystoneWhy": "this is a stacking, extended-duel matchup rather than a burst matchup — Conqueror's healing and adaptive damage reward you for staying in prolonged trades where his cooldowns (E, passive proc) are on a timer and yours (E spin) are not",
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "This page measures 52.6% WR (18.8% pick) versus 46.1% for Conqueror here — the movement burst lets you close on a Sett who whiffed his W or is retreating low, while Second Wind's regen offsets his early poke, which fits a matchup OP.GG itself flags as defensive.",
    "primary": [
-    "Triumph",
-    "Legend: Tenacity",
-    "Last Stand"
+    "Axiom Arcanist",
+    "Celerity",
+    "Gathering Storm"
    ],
    "secondary": [
     "Second Wind",
-    "Unflinching"
+    "Overgrowth"
    ],
    "shards": [
-    "Attack Speed",
     "Adaptive Force",
-    "Health"
+    "Adaptive Force",
+    "Health Scaling"
    ]
   },
   "summoners": {
    "picks": [
     "Flash",
-    "Teleport"
+    "Ignite"
    ],
-   "why": "Flash is mandatory since you have no dash to dodge his E grab; Teleport lets you play the lane patiently for the level-9+ power spike instead of forcing all-ins you don't need"
+   "why": "91.5% pick rate at 50.6% WR — Ignite denies the healing/shield value Sett gets from Pit Grit during an all-in and secures kills your R execute almost gets, while Flash repositions you out of a fully-charged, centered W."
   },
   "playing": [
    {
-    "title": "Silence the commit, not the poke",
-    "detail": "Hold Q (Decisive Strike) until he actually steps in to all-in, then fire it — it removes his W/E from that specific engage rather than wasting it on a poke auto."
+    "title": "Farm through level 5, don't duel",
+    "detail": "OP.GG's own read on this matchup is to prioritize CS and only take fights when you get a clean read on his W — Sett's kill pressure peaks well before you have R (Demacian Justice) online at 6."
    },
    {
-    "title": "Never trade into a full Grit bar",
-    "detail": "If the bar under his HP is topped off, disengage or force him to waste the empowered auto on a minion by breaking line of sight/range."
+    "title": "Never stand in the center of his W",
+    "detail": "A centered Haymaker knocks you up and hits for full charge damage; sidestepping or backing off during the charge animation turns it into a glancing, low-value poke."
    },
    {
-    "title": "Punish a whiffed Facebreaker",
-    "detail": "A clap that grabs no one is a long cooldown with zero CC left — close the gap and spin E (Judgment) immediately."
+    "title": "Punish his W cooldown, not his idle stance",
+    "detail": "Once he's thrown or whiffed a charged W, walk up and use Q (Decisive Strike) for the silence — this is the one window pre-6 where he can't answer your E autos."
    },
    {
-    "title": "Bank W for his kill combo, not for poke",
-    "detail": "Courage's shield is meant to eat the empowered auto plus grab damage in one all-in, not to trade chip damage — using it early wastes its window."
+    "title": "Bank E stacks for the trade, not idle autos",
+    "detail": "E (Judgment)'s passive crit chance builds on autos — hold the spin activation until you're already trading so the stacked crits land during the exchange, not before it."
    },
    {
-    "title": "Avoid free-farming his passive in big waves",
-    "detail": "His Grit bar fills off autoing minions too, so don't stand in a large wave trading passively while he stacks it for free."
+    "title": "Respect the level 2-5 all-in threat",
+    "detail": "His Pit Grit shield plus a charged W makes an all-in genuinely winnable for him in this window (lane and solo-kill edge both go his way per the data) — play two steps back from max auto range until you have R."
    },
    {
-    "title": "Threaten the execute past level 6",
-    "detail": "Once he's under roughly 30% HP in a trade, Demacian Justice (R) closes it out in true damage — play trades knowing you have that finisher and he has to respect it."
+    "title": "Use R as a finisher, not an opener",
+    "detail": "Demacian Justice's true damage ignores his grit shield's damage reduction on the hit itself, but you still want him already low from Q/E poke so the percent-missing-health execute actually closes the kill."
    },
    {
-    "title": "Rush the Grievous Wounds item on schedule",
-    "detail": "His healing is baked into his passive and W, so delaying Thornmail/Executioner's lets him out-sustain every trade you win on damage."
+    "title": "Prioritize Mortal Reminder once fights drag",
+    "detail": "If lane goes even into mid-game, his sustain from Grit and lifesteal items scales — grievous wounds is what keeps your Stridebreaker/PD duels close instead of losing the war of attrition."
    }
   ],
-  "patchCaveat": "Ability names, numbers, and the Sett/Garen item meta are as of my last training update (January 2026); this project's data is tracking patch 16.18.1, well past that cutoff, so confirm current Grit bar thresholds, W/E cooldowns, and whether Trinity Force/Sundered Sky/Thornmail are still the standard Garen build before relying on the exact numbers here."
+  "patchCaveat": "The build, runes, boots, summoner spells, and all win rates/sample sizes above are measured OP.GG data from real games on the current patch — nothing there is invented. The tactical reasoning (W-charge avoidance, trade timing, itemization sequencing) is the author's own analysis layered on top of that data, not sourced from OP.GG."
  },
- "generatedAt": 1789256711660,
+ "generatedAt": 1789270645307,
  "patch": "16.18.1",
- "generator": "on-demand"
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789270544106,
+  "overall": {
+   "winRate": 50.9,
+   "play": 30313,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 823,
+   "wins": 403,
+   "winRate": 49
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit at the center of Sett’s (W) when fighting him. Focus on farming before reaching level 6 while contesting lane through occasional bursts of damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.6,
+    "play": 930,
+    "pickRate": 91.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 39.1,
+    "play": 46,
+    "pickRate": 4.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 2.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.1,
+    "play": 362,
+    "pickRate": 35.5
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 192,
+    "pickRate": 18.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 562,
+    "pickRate": 54.2
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 321,
+    "pickRate": 31
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 50.1,
+    "play": 599,
+    "pickRate": 59.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52,
+    "play": 227,
+    "pickRate": 22.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 50.9,
+    "play": 167,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 50,
+    "play": 66,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Infinity Edge"
+    ],
+    "winRate": 43.9,
+    "play": 41,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.5,
+    "play": 972,
+    "pickRate": 96.5
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 51,
+    "play": 614,
+    "pickRate": 61
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 49.8,
+    "play": 317,
+    "pickRate": 31.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 49.6,
+    "play": 242,
+    "pickRate": 24
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 59.2,
+    "play": 191,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 106,
+    "pickRate": 10.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.7,
+    "play": 442
+   }
+  ]
+ }
 }

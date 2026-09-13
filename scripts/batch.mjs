@@ -74,7 +74,7 @@ async function main() {
   let wrote = 0, failed = 0, tokens = 0, stopped = null;
 
   for (const t of queue) {
-    const res = generateOne(t.you, t.them, t.lane, livePatch, { timeoutMs: TIMEOUT_MS });
+    const res = await generateOne(t.you, t.them, t.lane, livePatch, { timeoutMs: TIMEOUT_MS });
 
     if (res.fatal) { stopped = res.error; break; }
 
@@ -88,6 +88,12 @@ async function main() {
     wrote++;
     tokens += res.tokens || 0;
     log(`  ok    ${t.you} into ${t.them}`);
+
+    /* Rebuild as we go. A long run used to leave the app serving the previous
+       build for its whole duration, which looks exactly like nothing is
+       happening. Writing the file is local and cheap; the git push still waits
+       for the end so a run makes one commit, not thirty. */
+    try { build(); } catch (e) { log(`  rebuild skipped — ${e.message}`); }
   }
 
   const after = stats(LANE);

@@ -2,132 +2,383 @@
  "you": "Sett",
  "them": "Renekton",
  "lane": "Top",
- "generatedAt": 1789000000000,
- "generator": "seed",
  "brief": {
   "verdict": {
-   "difficulty": "Hard early",
-   "line": "You lose levels 1–5 outright, and you win everything after 15 minutes."
+   "difficulty": "Careful even lane",
+   "line": "You lose if you trade into his Fury-capped all-in at level 3-5; you win if you survive that window and drag it to items, since the head-to-head sits at 50.4% over 685 games despite Renekton owning lane and solo-kill priority."
   },
-  "thesis": "Renekton is one of the hardest early lane bullies in the game and Sett is one of the better late-game bruisers, so this lane is entirely about surviving levels 1–5. The saving grace is that Sett's W converts damage taken into grit while Renekton's all-in is front-loaded burst — his combo literally loads your gun. Most Setts lose this matchup by trying to trade first instead of letting him commit and W'ing back.",
+  "thesis": "Renekton's Fury bar is the whole matchup: at 100 Fury his Q, W, and E all empower, turning a normal trade into a stun-into-double-dash-into-execute-range burst that explains his lane and solo-kill edge. Sett has no way to out-trade that burst directly, but Haymaker's missing-health scaling and Facebreaker's stun let you survive the spike and win every fight that happens after his Fury dumps.",
   "tell": {
-   "watch": "His Fury bar",
+   "watch": "Renekton's Fury bar fullness",
    "theirWindow": {
-    "when": "50+ Fury",
-    "what": "Empowered W stuns and deals bonus max-health damage. Do not be in range. Back off, farm under tower, and let him shove the wave."
+    "when": "Fury near 100 at level 3-5",
+    "what": "Do not walk up for a trade here. His empowered W (Ruthless Predator) stuns longer and hits in a cone, and it chains into empowered E (Slice and Dice) for a second dash-reset — that combo is the actual source of his solo-kill lead, so hold Haymaker's shield up or just give ground until it's spent."
    },
    "yourWindow": {
-    "when": "0 Fury",
-    "what": "He is one of the weakest champions in the game for those few seconds. Every trade and every all-in you take happens inside this window."
+    "when": "After his empowered combo whiffs or lands",
+    "what": "His Fury resets to near zero and Slice and Dice goes on a real cooldown (9-14s early). Walk him down immediately, land E (Facebreaker) to pull and stun, then follow with W and autos — this is the only window where you out-damage him in a straight fight."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Before his Fury comes online"
+    "note": "Neither Fury nor Grit online yet"
    },
    {
     "levels": "3-5",
     "edge": "them",
-    "note": "His hardest spike — concede the wave"
+    "note": "Empowered all-in, solo-kill window"
    },
    {
     "levels": "6-10",
-    "edge": "even",
-    "note": "R flips fights if his Fury is spent"
+    "edge": "them",
+    "note": "Ult adds dive, Fury resets fast"
    },
    {
-    "levels": "11-18",
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Stridebreaker online, trades stabilize"
+   },
+   {
+    "levels": "16-18",
     "edge": "you",
-    "note": "He falls off, you keep scaling"
+    "note": "Full build outscales his flat Fury burst"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield + Health Potion",
-    "why": "Non-negotiable here — it blunts the level 2–3 all-in"
+    "item": "Doran's Blade + Health Potion",
+    "why": "It's the dominant start at 52.3% over 665 games and 79.6% pick — the extra sustain and damage let you hold trades until his empowered burst is spent instead of losing the poke war outright."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "Buy early, sometimes before a first item component. All his damage is physical"
+    "why": "50.6% over 601 games and the clear majority pick (76.6%) — Renekton's damage is almost entirely auto-attacks plus his empowered Cull the Meek autos, and flat armor per hit cuts both."
    },
    "core": [
     {
-     "item": "Trinity Force",
-     "why": "Proc damage and tempo. Stridebreaker instead if you want the slow to guarantee your R"
+     "item": "Stridebreaker",
+     "why": "Highest-sample core path opener; the active gives you the gap-close to punish him the moment his Fury combo is on cooldown."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Shows up in every top core path here — the shield and bonus health directly counter his burst windows."
     },
     {
      "item": "Sterak's Gage",
-     "why": "Bonus health, and the shield covers the exact window his burst would kill you in"
-    },
-    {
-     "item": "Death's Dance",
-     "why": "Armor plus damage postponement — turns his all-in into something you heal through after killing him"
+     "why": "This exact path (Stridebreaker > Overlord's Bloodmail > Sterak's Gage) posts 61.2% over 49 games, the best measured winrate of any core sequence, and the tenacity/shield helps you survive his stun-chain all-ins specifically."
     }
    ],
    "situational": [
     {
-     "item": "Chempunk Chainsword",
-     "when": "his Q sustain keeps him topped off through every trade"
+     "item": "Black Cleaver",
+     "when": "he's building armor or you need the shred to actually kill him before his Fury regenerates"
     },
     {
-     "item": "Randuin's Omen",
-     "when": "he got ahead anyway and is bursting you down"
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need ability haste to reset Facebreaker faster than he resets Fury"
     },
     {
-     "item": "Spirit Visage",
-     "when": "their team has real magic damage"
+     "item": "Blade of The Ruined King",
+     "when": "he's stacking health items and you need the percent-health damage to keep dueling him late"
     }
    ]
   },
   "runes": {
-   "keystone": "Grasp of the Undying",
-   "keystoneWhy": "Lane survivability beats the Conqueror scaling you won't live long enough to use before 6",
+   "keystone": "Conqueror",
+   "keystoneWhy": "You need the stacking sustain to win extended fights after his burst window closes, since you can't out-trade the initial empowered combo — Conqueror's healing is what lets the post-Fury duel actually favor you.",
    "primary": [
-    "Shield Bash",
-    "Bone Plating",
-    "Overgrowth"
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
    ],
    "secondary": [
-    "Triumph",
-    "Legend: Alacrity"
+    "Shield Bash",
+    "Second Wind"
    ],
    "shards": [
-    "Ability Haste",
+    "Attack Speed",
     "Adaptive Force",
-    "Armor"
+    "Health Scaling"
    ]
   },
   "summoners": {
    "picks": [
     "Flash",
-    "Teleport"
+    "Ignite"
    ],
-   "why": "Ghost only if you're confident you'll be ahead. At level 3, you usually won't be."
+   "why": "Flash+Ignite is run in 92.1% of games at 50.7% winrate — Ignite both threatens the execute after you survive his all-in and cuts the healing off his empowered Cull the Meek so his sustain in the trade window doesn't compound."
   },
   "playing": [
    {
-    "title": "Let him commit first",
-    "detail": "Eat the E-W, bank the grit, then W the true damage back into him. Land the centre of the cone, not the edge."
+    "title": "Bank W for his Fury spike",
+    "detail": "Once his Fury bar approaches full around level 3, don't be mid-animation on a trade — have Haymaker's shield ready to absorb the empowered Ruthless Predator stun-and-damage instead of eating it raw."
    },
    {
-    "title": "Hold E until his dashes are gone",
-    "detail": "Facebreaker is your only hard CC and he will simply E away from it. Use it once both charges are spent, to guarantee the W."
+    "title": "Never trade into a loaded dash",
+    "detail": "Empowered Slice and Dice hits twice and repositions him — walking up when he has both Fury and E up is how you feed the solo-kill stat directly."
    },
    {
-    "title": "Ult him through his own R",
-    "detail": "Show Stopper scales off the target's bonus health and Dominus hands him a large chunk of it. His ultimate being up is a reason to commit, not to back off — as long as his Fury is spent."
+    "title": "Punish the post-combo cooldown",
+    "detail": "After his all-in lands or misses, Slice and Dice is down for 9-14 seconds early. Close the gap with Facebreaker's pull-stun immediately and commit the fight."
    },
    {
-    "title": "Suppression beats his escape",
-    "detail": "Once Show Stopper lands, his E cannot get him out of it. That is your kill window at 6."
+    "title": "Play around waves before level 6",
+    "detail": "Don't shove into range where he can engage for free during the 3-5 window; let the wave push to you so you can disengage into minions if his Fury is up."
    },
    {
-    "title": "Lose the wave on purpose",
-    "detail": "He shoves with Q, so let him. Farm under tower and don't contest a wave you don't need. Every minute you deny him a kill moves the game toward the half you win."
+    "title": "Use Haymaker as a comeback tool",
+    "detail": "Its shield and damage scale up the lower your own health is, so a fight that starts bad for you can flip once you dip below half — don't panic-back, threaten the return trade instead."
+   },
+   {
+    "title": "Itemize Cleaver if he snowballs",
+    "detail": "If he gets ahead off an early solo kill, swap the Sterak's slot for Black Cleaver — the armor shred and grievous wounds interaction claw back the duel faster than raw HP does."
+   },
+   {
+    "title": "Force fights after Stridebreaker",
+    "detail": "From level 11 on, your build's sustained fighting stats catch up to his flat Fury burst — start initiating with E into R rather than waiting for him to engage."
    }
   ],
-  "patchCaveat": "The matchup logic here is stable across patches. Item names and rune numbers drift — sanity-check the exact list against the live patch."
+  "patchCaveat": "Winrates, pick rates, sample sizes, item paths, runes, boots, and summoner spells above are measured from live OP.GG games on the current patch; the mechanical reasoning — Fury timing, dash windows, trade patterns — is my own analysis layered on top of that data."
+ },
+ "generatedAt": 1789270184886,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789270110753,
+  "overall": {
+   "winRate": 49.8,
+   "play": 24489,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 685,
+   "wins": 345,
+   "winRate": 50.4
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Keep an eye out on Renekton’s Fury before fighting him. Use [W] when he tries using his reinforced skill to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.7,
+    "play": 760,
+    "pickRate": 92.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 44,
+    "pickRate": 5.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 248,
+    "pickRate": 29.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54,
+    "play": 50,
+    "pickRate": 6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 665,
+    "pickRate": 79.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.3,
+    "play": 131,
+    "pickRate": 15.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.6,
+    "play": 601,
+    "pickRate": 76.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 57.9,
+    "play": 107,
+    "pickRate": 13.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 55.1,
+    "play": 107,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 61.2,
+    "play": 49,
+    "pickRate": 12.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Spear of Shojin"
+    ],
+    "winRate": 50,
+    "play": 24,
+    "pickRate": 6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.3,
+    "play": 749,
+    "pickRate": 90.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 53,
+    "play": 428,
+    "pickRate": 51.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.3,
+    "play": 344,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 59,
+    "play": 178,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 58.6,
+    "play": 99,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 56.3,
+    "play": 87,
+    "pickRate": 10.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.7,
+    "play": 164
+   }
+  ]
  }
 }

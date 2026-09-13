@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if he hits 5 Hemorrhage stacks and dives the all-in; you win if you drag it to items and never trade into his E."
+  },
+  "thesis": "Darius wins this matchup (48% Garen win rate over 1203 games, lane and solo-kill edge his) because his passive Hemorrhage stacks on every auto and ability hit, and at 5 stacks his next hit carries a true-damage spike that turns an even trade into a kill. Garen has no way to remove those stacks and no gap-closer to punish Darius's Apprehend (E) pull from range, so the fight is always on his terms unless his E is down.",
+  "tell": {
+   "watch": "Your Hemorrhage stack count",
+   "theirWindow": {
+    "when": "you're sitting at 4-5 bleed stacks",
+    "what": "Disengage immediately — do not trade through a 5th stack, since his next auto or Q on top of it is the true-damage spike that wins the exchange outright."
+   },
+   "yourWindow": {
+    "when": "his E (Apprehend) is on cooldown",
+    "what": "This is your only safe all-in window. Walk up, force him to auto or Q first so he can't pull you mid-spin, then land E (Judgment) and hold W (Courage) for his response."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q into auto out-trades your kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E pull punishes any melee engage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults live, all-ins get risky"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Stridebreaker slow lets you stick"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "Full build trades fine if not behind"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Runs 55.2% pick over Doran's Blade's 34.4% in this matchup for a reason — the flat 8 damage block per auto blunts his early poke and the passive HP5 offsets Hemorrhage's tick damage so he can't zone you off farm."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "65% pick, 49.1% win rate — the attack speed lets your E (Judgment) tick faster for wave clear and lets you actually punish auto-reset windows instead of needing the pure escape speed of Swiftness."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The slow proc on your empowered auto is your only tool to prevent him from just walking away after landing his E pull — without it he disengages a lost trade for free."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed scales your passive Perseverance uptime by ending trades faster, and the slow-resist keeps you in range to punish his cooldowns."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Grievous Wounds shuts down his Q outer-edge heal, which is the main way he sustains through a losing extended trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "he's building health and out-tanking your all-ins"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead and want to force resets before he can stack Hemorrhage back up"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "you need Grievous Wounds online before three items finish"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "This page runs a 50.9% win rate here versus 47.3% on Conqueror — the burst of speed after your E (Judgment) spin is what actually lets you follow up his retreat or peel off his all-in, which matters more than sustained-fight damage you rarely get to use against his true-damage spike.",
+   "primary": [
+    "Axiom Arcanist",
+    "Celerity",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "92% pick rate at 48.4% win rate — Ignite's true damage and Grievous Wounds directly answer his Q sustain and give you the extra kill pressure your kit lacks against his true-damage spike."
+  },
+  "playing": [
+   {
+    "title": "Never fight at 5 stacks",
+    "detail": "Track your own Hemorrhage stack count on your buff bar all lane — at 4 stacks, back off rather than trade, since the 5th stack's true-damage hit is what flips close trades into deaths."
+   },
+   {
+    "title": "Bait his E before engaging",
+    "detail": "Apprehend has a real cooldown early (roughly 9 seconds at rank 1). Walk into auto range and watch for the pull animation — if he throws it and misses or you dodge it, that's your window to commit E (Judgment) and W (Courage)."
+   },
+   {
+    "title": "Max E, delay Q",
+    "detail": "Follow the measured order (E first, W second priority, Q last) — the extra spin uptime and cooldown reduction on Judgment matters more here than the Q silence, since you're avoiding extended trades, not initiating them."
+   },
+   {
+    "title": "Hold W for his empowered auto",
+    "detail": "Courage's damage reduction is strongest timed right as he lands Decimate (Q) or an auto with max Hemorrhage stacks — don't pop it early just to soak chip damage."
+   },
+   {
+    "title": "Freeze, don't shove",
+    "detail": "Your passive Perseverance only regens when untouched for several seconds — shoving the wave into him invites all-ins where you can't heal between trades, so hold the wave near your tower instead."
+   },
+   {
+    "title": "All-in only above half HP",
+    "detail": "Demacian Justice (R) does more as a percentage of his missing health, but you need to survive his true-damage window to land it — don't initiate the all-in under 50% HP yourself."
+   },
+   {
+    "title": "Itemize Grievous Wounds on curve",
+    "detail": "Get Mortal Reminder or Executioner's Calling as soon as he starts winning trades off Q sustain — cutting his outer-edge heal is what turns this from a losing lane into an even one by mid game."
+   }
+  ],
+  "patchCaveat": "Win rates, pick rates, item paths, runes, and summoner spells above are measured from live OP.GG games on the current patch (30,313 Garen games, 1,203 in this matchup); the mechanical reasoning, timings, and trade calls are my own coaching read on top of that data, not measured facts."
+ },
+ "generatedAt": 1789270394073,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789270314097,
+  "overall": {
+   "winRate": 50.9,
+   "play": 30313,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1203,
+   "wins": 577,
+   "winRate": 48
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "defensive",
+  "opponentTip": "Bring Ignite when facing Darius to make up for your damage. Avoid being pulled in by his (E) and fight him when his abilities are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.4,
+    "play": 1351,
+    "pickRate": 92
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 32.6,
+    "play": 43,
+    "pickRate": 2.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 28.6,
+    "play": 42,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.3,
+    "play": 510,
+    "pickRate": 34.3
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.9,
+    "play": 324,
+    "pickRate": 21.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47,
+    "play": 838,
+    "pickRate": 55.2
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 522,
+    "pickRate": 34.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 49.1,
+    "play": 958,
+    "pickRate": 65
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 49.4,
+    "play": 253,
+    "pickRate": 17.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 54.9,
+    "play": 277,
+    "pickRate": 29.5
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 56.9,
+    "play": 109,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 47.6,
+    "play": 63,
+    "pickRate": 6.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 48.7,
+    "play": 1410,
+    "pickRate": 95.2
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 52.6,
+    "play": 877,
+    "pickRate": 59.2
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 50.7,
+    "play": 592,
+    "pickRate": 40
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 50.5,
+    "play": 378,
+    "pickRate": 25.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 50.8,
+    "play": 248,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 42.5,
+    "play": 193,
+    "pickRate": 13
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50.8,
+    "play": 583
+   }
+  ]
+ }
+}

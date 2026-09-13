@@ -163,7 +163,7 @@ export const SHAPE = {
   patchCaveat: "string"
 };
 
-export function buildPrompt(you, them, lane, context) {
+export function buildPrompt(you, them, lane, context, statsBlock) {
   return [
     "You are a high-elo League of Legends coach writing a champ-select scouting brief.",
     "",
@@ -172,13 +172,17 @@ export function buildPrompt(you, them, lane, context) {
       ? `THE PLAYER'S SITUATION: ${context}\nWrite the brief for THIS game specifically. Where the situation changes the answer — the build, the trade pattern, the power curve, what to do at each level — say so plainly and differ from the generic advice. Do not simply restate the standard matchup with a sentence bolted on.`
       : "",
     "",
+    statsBlock || "",
+    statsBlock ? "" : "",
     `Write the brief for the player PLAYING ${you} INTO ${them}. Never write it from the enemy's point of view.`,
     "",
     "Requirements:",
     "- Be mechanically precise. Name abilities by key and name, e.g. \"W (Path Maker)\". Reference the real tells: resource bars, charge counts, passive stacks, empowered autos, dash cooldowns.",
     "- Use concrete level ranges and timings. Never say only \"early game\" or \"late game\".",
     "- Every line must change what the player actually does. No filler, and nothing generic enough to fit a different matchup.",
-    "- Item and rune names may have drifted since your training data. Give the standard build you know, and keep patchCaveat honest about that.",
+    statsBlock
+      ? "- Every item, rune and summoner spell you name must appear in the live data above. patchCaveat should say the build and numbers come from measured games on the current patch, and that the tactical reading is your own."
+      : "- Item and rune names may have drifted since your training data. Give the standard build you know, and keep patchCaveat honest about that.",
     "- If the matchup is genuinely even or favoured for the player, say so. Do not manufacture difficulty.",
     "",
     "Return ONLY a JSON object — no prose, no code fence, no commentary before or after — in exactly this shape:",

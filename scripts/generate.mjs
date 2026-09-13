@@ -8,6 +8,8 @@ import {
   CLAUDE_EXE, BRIEFS_DIR, briefPath, keyFor, buildPrompt, validate,
   VARIANTS_DIR, variantKey, variantPath
 } from "./lib.mjs";
+import { matchupStats, statsForPrompt } from "./stats.mjs";
+import { validateNames } from "./assets.mjs";
 
 /* Anything here means the account is out of room or not usable right now.
    Callers should stop rather than retry — hammering it cannot succeed. */
@@ -72,7 +74,7 @@ export function askClaude(prompt, timeoutMs = 240000) {
    cannot spend twice on the same thing. */
 const inFlight = new Map();
 
-export function generateOne(you, them, lane, patch, { timeoutMs, context } = {}) {
+export async function generateOne(you, them, lane, patch, { timeoutMs, context } = {}) {
   const ctx = (context || "").trim();
   const isVariant = !!ctx;
 
@@ -84,19 +86,34 @@ export function generateOne(you, them, lane, patch, { timeoutMs, context } = {})
 
   if (inFlight.has(key)) return inFlight.get(key);
 
-  const work = (() => {
+  const work = (async () => {
     if (fs.existsSync(file)) {
       try {
         return { ok: true, cached: true, variant: isVariant, record: JSON.parse(fs.readFileSync(file, "utf8")) };
       } catch { /* unreadable — fall through and regenerate */ }
     }
 
-    const res = askClaude(buildPrompt(you, them, lane, ctx), timeoutMs);
+    /* Real measured data for this exact matchup. A stats outage is survivable:
+       the brief is still written, it just falls back to unbacked knowledge and
+       says so. */
+    const stats = await matchupStats(you, them, lane);
+    const block = stats ? statsForPrompt(stats, you, them) : "";
+
+    const res = askClaude(buildPrompt(you, them, lane, ctx, block), timeoutMs);
     if (res.fatal) return { ok: false, fatal: true, error: res.err };
     if (res.err)  return { ok: false, error: res.err };
 
     const bad = validate(res.brief);
     if (bad.length) return { ok: false, error: `rejected: ${bad.join("; ")}` };
+
+    /* Grounding tells the model what exists; this refuses to store it if it
+       wandered off anyway. Only enforced when it actually had the data. */
+    if (stats) {
+      const nameErrors = validateNames(res.brief);
+      if (nameErrors.length) {
+        return { ok: false, error: `rejected: ${nameErrors.slice(0, 4).join("; ")}` };
+      }
+    }
 
     const record = {
       you, them, lane,
@@ -104,6 +121,8 @@ export function generateOne(you, them, lane, patch, { timeoutMs, context } = {})
       generatedAt: Date.now(),
       patch: patch ?? null,
       generator: isVariant ? "variant" : "on-demand",
+      grounded: !!stats,
+      ...(stats ? { stats } : {}),
       ...(isVariant ? { context: ctx } : {})
     };
 
@@ -113,9 +132,7 @@ export function generateOne(you, them, lane, patch, { timeoutMs, context } = {})
     return { ok: true, record, variant: isVariant, tokens: res.tokens };
   })();
 
-  // spawnSync is blocking, so `work` is already resolved; the map only guards
-  // re-entry from a second request that arrives while this one is running
   inFlight.set(key, work);
-  setTimeout(() => inFlight.delete(key), 0);
+  work.finally(() => inFlight.delete(key));
   return work;
 }

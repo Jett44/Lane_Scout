@@ -4,144 +4,385 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Favoured lane",
-   "line": "You lose only if you stand and out-spin Garen's full Judgment (E) duration or dive him below ~40% HP while his Demacian Justice (R) is up; you win nearly every short trade from level 3 onward."
+   "difficulty": "Slight edge",
+   "line": "You lose lane if you sit in Garen's E (Judgment) spin until he hits level 6 and dumps Q (Decisive Strike) into R (Demacian Justice) plus Ignite on you below ~40% HP; you win it by banking Grit through his spin and closing with E (Facebreaker) into an empowered Haymaker once his Q is down."
   },
-  "thesis": "Sett's Knuckle Down (Q) into Facebreaker (E) burst combo deletes a chunk of HP faster than Garen's Perseverance passive can regenerate it back, so short violent trades favor Sett once E is online at level 3. The one reversal is Demacian Justice (R) — a true-damage execute off missing HP — which means the lane is really about winning trades fast and resetting before you're low enough to die to it.",
+  "thesis": "This is a resource race, not a stat check: Garen's E costs no mana and his passive punishes long lulls with free HP regen, so he wants a lot of short pokes, while Sett's Pit Grit meter rewards exactly that kind of prolonged exchange with a max-health-scaling Haymaker. Sett's 51% win rate over 839 games and the solo-kill edge come from winning fights that go past 3-4 seconds, provided he isn't caught by a full-HP Garen swinging R (Demacian Justice) at level 6 with Ignite up. Because Sett's E slam and R grab both scale off his own max health, and his build is entirely HP-stacked items, every level he survives to makes the eventual all-in bigger.",
   "tell": {
-   "watch": "Garen's Judgment (E) cooldown",
+   "watch": "Garen's Q (Decisive Strike) cooldown",
    "theirWindow": {
-    "when": "Garen hits level 2 before you",
-    "what": "He can all-in with Decisive Strike (Q) silence into a full Judgment (E) spin. If he's clearly leveled a second point and you're still level 1, don't contest the wave in melee range — let it push and reset."
+    "when": "Level 6+, Q and R both up",
+    "what": "If he lands Q (Decisive Strike) the silence stops your E (Facebreaker) and R (The Show Stopper) cold, and a landed Q into R (Demacian Justice) plus Ignite can delete 50%+ of your health bar in under 2 seconds. Do not stand in melee range trading autos once he's level 6 unless your Grit bar is already near full or you have a kill read on him first."
    },
    "yourWindow": {
-    "when": "His E (Judgment) is on cooldown",
-    "what": "Step in and full-combo Q (Knuckle Down) into E (Facebreaker) into W (Haymaker). Without Judgment he has no spin damage or peel, and Perseverance can't out-heal a full burst landed in under two seconds."
+    "when": "Garen whiffs or burns Q pre-6",
+    "what": "The moment Q (Decisive Strike) is on cooldown he has zero disengage and zero disable — walk him down, land E (Facebreaker) to pull him into a wall or against you, then dump your empowered Haymaker. This is your highest-value all-in window before he has R as a bailout/finisher."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "even",
-    "note": "Judgment ticks trade evenly with Q autos"
+    "edge": "them",
+    "note": "Free-mana E poke, no way to punish it yet"
    },
    {
     "levels": "3-5",
     "edge": "you",
-    "note": "Facebreaker (E) online, burst outpaces his sustain"
+    "note": "Q maxed, Grit stacking wins extended trades"
    },
    {
-    "levels": "6-8",
+    "levels": "6-7",
+    "edge": "them",
+    "note": "Q-R-Ignite execute threat is live"
+   },
+   {
+    "levels": "8-13",
     "edge": "you",
-    "note": "R ends fights before he can spin-heal"
-   },
-   {
-    "levels": "9-13",
-    "edge": "even",
-    "note": "his bruiser items add sustain to trades"
+    "note": "Stridebreaker online, W trades win outright"
    },
    {
     "levels": "14-18",
     "edge": "even",
-    "note": "teamfight positioning matters more than dueling"
+    "note": "Both full-build bruisers, close skirmishes"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade",
-    "why": "The heal-on-hit passive sustains you through early auto trades against a champion whose own passive already heals him back between engagements."
+    "why": "The 50.4% win rate over 912 games (85.2% pick) reflects why it's correct here: the lifesteal keeps you healthy through the exact kind of prolonged auto exchanges that fill your Grit bar, which is what actually wins this matchup."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "Blunts the repeated physical ticks from Judgment (E) spins and his empowered Decisive Strike (Q) auto, which are the bulk of his trade damage."
+    "why": "50.5% over 660 games and the standard pick (65.4%) because Garen's damage is almost entirely physical autos and his E — flat percent reduction blunts both his poke and his level 6 all-in."
    },
    "core": [
     {
-     "item": "Trinity Force",
-     "why": "The slow on-hit and burst proc let you stick through his Decisive Strike (Q) speed boost and land full combos instead of poke."
+     "item": "Stridebreaker",
+     "why": "The slow on proc lets you actually stick a grab or Haymaker on Garen instead of letting him walk away after his E ends; it's the first item in every winning path in the data."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Highest-performing full path (59% over 166 games) runs this second — the armor shred stacks with your empowered autos to turn your Grit pops into real damage against his rising resists."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Rounds out the top path; the max-health and damage return directly buffs your E (Facebreaker) and R (The Show Stopper), which both scale off your own HP."
     },
     {
      "item": "Sterak's Gage",
-     "why": "The bonus-health shield absorbs a big instant hit, which directly counters getting finished by a stocked Demacian Justice (R)."
-    },
-    {
-     "item": "Death's Dance",
-     "why": "Converts his physical burst into a DoT you heal back from, so extended spin-trades stop bleeding you out."
+     "why": "Appears in two of the three strongest paths (54.6% and 61.8% win rates) — the shield keeps you alive through the exact all-in you're trying to win, and more max HP means a bigger ult slam."
     }
    ],
    "situational": [
     {
-     "item": "Guardian Angel",
-     "when": "the enemy team is snowballing and you need to survive dives after committing to fights"
+     "item": "Boots of Swiftness",
+     "when": "the enemy team has no auto-attack-heavy poke and you need to close gaps rather than mitigate damage"
     },
     {
-     "item": "Randuin's Omen",
-     "when": "he builds attack speed/crit and his empowered autos start ticking too hard"
+     "item": "Blade of The Ruined King",
+     "when": "garen or his team stacks a lot of raw health and your flat damage is falling off"
     },
     {
-     "item": "Maw of Malmortius",
-     "when": "their jungler or mid is a heavy magic-damage threat alongside Garen"
+     "item": "Spear of Shojin",
+     "when": "you're ahead and the game is going long, since the ability haste lets you cycle E and R faster in extended skirmishes"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "The adaptive force and healing on stacks reward the sustained melee trading this matchup is built around, and the heal helps you outlast Perseverance in extended fights.",
+   "keystoneWhy": "Stacks over the same prolonged trades that fill Grit, and the adaptive healing directly answers Garen's free-mana E poke — the whole rune page is built around not losing the war of attrition before you get to use your kit.",
    "primary": [
     "Triumph",
-    "Legend: Tenacity",
+    "Legend: Alacrity",
     "Last Stand"
    ],
    "secondary": [
-    "Second Wind",
-    "Unflinching"
+    "Unflinching",
+    "Second Wind"
    ],
    "shards": [
     "Attack Speed",
     "Adaptive Force",
-    "Armor"
+    "Health Scaling"
    ]
   },
   "summoners": {
    "picks": [
     "Flash",
-    "Ghost"
+    "Ignite"
    ],
-   "why": "Ghost matches Garen's Decisive Strike (Q) speed boost so you stay inside punching range through his kite attempts; Flash is your tool for landing Facebreaker (E) into a wall or escaping a stocked Demacian Justice (R)."
+   "why": "Run at 51.1% win rate and picked in 91.9% of these games — Ignite matches Garen's own level 6 Ignite for the solo-kill race the data says you're favored in, and Flash covers the gap-close you need to punish a whiffed Q (Decisive Strike)."
   },
   "playing": [
    {
-    "title": "Don't out-spin Judgment",
-    "detail": "His E has no mana cost and its cooldown refunds on champion hit, so standing in it the whole duration just keeps it perpetually up. Take one or two ticks then reposition rather than trading through the full spin."
+    "title": "Bank Grit before you commit",
+    "detail": "Trade autos and let Garen hit you with E ticks when you're not going for the kill — every point of damage dealt or taken fills Pit Grit, so a fight you enter with a full bar hits far harder than one you start cold."
    },
    {
-    "title": "Combo, don't poke",
-    "detail": "Land Q (Knuckle Down) into E (Facebreaker) into W (Haymaker) back to back. A few seconds of disengagement lets Perseverance heal him back to near full, erasing your poke."
+    "title": "Punish a used Q, not a fresh one",
+    "detail": "Only go for the full E (Facebreaker) into Haymaker all-in once you've seen Garen's Q (Decisive Strike) go on cooldown — walking into a silence mid-combo strands you without your grab or ult."
    },
    {
-    "title": "Time your Grit bar",
-    "detail": "Extend trades when your passive Pit Grit bar is close to full so the empowered auto lands mid-combo for extra damage instead of wasting it on a minion."
+    "title": "Respect the level 6 burn window",
+    "detail": "From level 6 to roughly level 8, don't take extended trades below 60% HP — a Q into R (Demacian Justice) plus Ignite is a true-damage execute that ignores the tankiness you're building."
    },
    {
-    "title": "Respect his level 2 spike",
-    "detail": "A level 2 Garen with Decisive Strike (Q) and Judgment (E) can punish a greedy level 1 trade. Ward and hold range if he's clearly ahead on levels."
+    "title": "Land the center of your Haymaker",
+    "detail": "A dead-center hit on Garen carries the full effect of your W; a grazing edge hit wastes the cast and the tempo you spent winding it up. Face him directly before releasing it."
    },
    {
-    "title": "Disengage under 40% HP post-6",
-    "detail": "Demacian Justice (R) is a true-damage execute that scales with your missing health. Don't continue a trade at low HP once he has ult up — reset with Ghost or Sterak's shield instead."
+    "title": "Don't marinate in his E",
+    "detail": "Garen's spin extends and shreds your armor the longer you stand in it — take one or two ticks to build Grit, then step out rather than trading the whole duration, unless you're already committing to the all-in."
    },
    {
-    "title": "Wall your Facebreaker",
-    "detail": "Slamming him into terrain with E adds a stun on top of the knock-together damage, giving you a free empowered auto or a clean R follow-up."
+    "title": "All-in once Stridebreaker completes",
+    "detail": "From level 8-9 onward with the slow proc up, you can walk down a Garen who no longer has an escape — E to pin him, empowered auto, then finish with R (The Show Stopper) if he's near your HP threshold."
    },
    {
-    "title": "Freeze when ahead",
-    "detail": "Garen has no ranged wave-clear or poke beyond melee range, so freezing the wave near your tower after a won trade starves his farm and delays his items."
+    "title": "Save R as the max-health finisher",
+    "detail": "Because your ult's damage scales off your own health, delay it in longer fights until your Overlord's Bloodmail and Sterak's Gage are online — the same slam does meaningfully more with those items up."
    }
   ],
-  "patchCaveat": "Item and rune names reflect the post-mythic item system (Trinity Force / Sterak's Gage / Death's Dance core, Conqueror keystone) as of my training data — verify current names, costs, and numbers in client since both champions have received tuning passes since."
+  "patchCaveat": "Every item, rune, summoner spell, and win-rate figure above comes from measured Sett vs Garen games on the current patch via OP.GG; the mechanical reasoning — why each pick works, the timings, and the trade patterns — is my own tactical read, not something the data itself states."
  },
- "generatedAt": 1789256928385,
+ "generatedAt": 1789270897780,
  "patch": "16.18.1",
- "generator": "on-demand"
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789270757313,
+  "overall": {
+   "winRate": 49.8,
+   "play": 24489,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 839,
+   "wins": 428,
+   "winRate": 51
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being killed when Garen reaches level 6 and uses his (R) - Ignite combo. Focus on farming lane and on hitting him at the center of [W] to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.1,
+    "play": 957,
+    "pickRate": 91.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 38.9,
+    "play": 54,
+    "pickRate": 5.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 71.4,
+    "play": 14,
+    "pickRate": 1.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 338,
+    "pickRate": 32.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.3,
+    "play": 152,
+    "pickRate": 14.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 912,
+    "pickRate": 85.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.6,
+    "play": 111,
+    "pickRate": 10.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.5,
+    "play": 660,
+    "pickRate": 65.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51,
+    "play": 196,
+    "pickRate": 19.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 59,
+    "play": 166,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 54.6,
+    "play": 119,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 61.8,
+    "play": 34,
+    "pickRate": 5.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 52,
+    "play": 961,
+    "pickRate": 92.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 56.8,
+    "play": 629,
+    "pickRate": 60.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54,
+    "play": 420,
+    "pickRate": 40.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58.2,
+    "play": 347,
+    "pickRate": 33.5
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 59.1,
+    "play": 132,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 41.2,
+    "play": 131,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54,
+    "play": 265
+   }
+  ]
+ }
 }

@@ -71,6 +71,62 @@ export function readAssets() {
   catch { return null; }
 }
 
+const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
+const splitItems = (s) => String(s).split(/\s*\+\s*/).map((x) => x.trim()).filter(Boolean);
+
+/* Stat shards are rune-page choices, not perks — Data Dragon does not list them. */
+const SHARDS = new Set(["adaptiveforce", "attackspeed", "abilityhaste", "armor",
+  "magicresist", "health", "healthscaling", "movespeed", "tenacity", "slowresist"]);
+
+/*
+ * Does this brief name anything that does not exist on the live patch?
+ *
+ * This is the backstop behind grounding the prompt in real data: the prompt
+ * tells the model to use only what it was given, and this refuses to save it
+ * if it wandered off anyway. It also catches a field holding prose instead of
+ * an item, which the structural check cannot see.
+ */
+export function validateNames(brief) {
+  const a = readAssets();
+  if (!a) return [];              // no map to check against; don't block on it
+  const bad = [];
+
+  const items = new Set(Object.keys(a.item).map(norm));
+  const runes = new Set(Object.keys(a.rune).map(norm));
+  const spells = new Set(Object.keys(a.spell).map(norm));
+
+  const b = brief.build || {};
+  const itemFields = []
+    .concat(b.start ? [b.start.item] : [])
+    .concat(b.boots ? [b.boots.item] : [])
+    .concat((b.core || []).map((x) => x.item))
+    .concat((b.situational || []).map((x) => x.item));
+
+  for (const raw of itemFields) {
+    if (!raw) continue;
+    const parts = splitItems(raw);
+    // a field that is a sentence, not an item, is a corrupted field
+    if (String(raw).split(/\s+/).length > 6) { bad.push(`item field is prose: "${String(raw).slice(0, 50)}…"`); continue; }
+    for (const one of parts) {
+      if (!items.has(norm(one))) bad.push(`no such item: "${one}"`);
+    }
+  }
+
+  const r = brief.runes || {};
+  for (const n of [r.keystone].concat(r.primary || [], r.secondary || [])) {
+    if (n && !runes.has(norm(n))) bad.push(`no such rune: "${n}"`);
+  }
+  for (const n of r.shards || []) {
+    if (n && !runes.has(norm(n)) && !SHARDS.has(norm(n))) bad.push(`no such shard: "${n}"`);
+  }
+
+  for (const n of (brief.summoners && brief.summoners.picks) || []) {
+    if (n && !spells.has(norm(n))) bad.push(`no such summoner spell: "${n}"`);
+  }
+
+  return bad;
+}
+
 
 /* True when this file was run directly. process.argv[1] is undefined when the
    module is imported programmatically (node -e, a test harness), and calling

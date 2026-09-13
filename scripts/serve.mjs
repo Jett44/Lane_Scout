@@ -82,7 +82,7 @@ const server = http.createServer(async (req, res) => {
 
     console.log(`generate: ${you} into ${them} (${lane})${context ? ` — "${context}"` : ""}`);
     const t0 = Date.now();
-    const r = generateOne(you, them, lane, readState().patch, { context });
+    const r = await generateOne(you, them, lane, readState().patch, { context });
 
     if (!r.ok) {
       console.log(`  failed: ${r.error}`);

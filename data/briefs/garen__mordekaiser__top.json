@@ -4,148 +4,377 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Slightly favoured",
-   "line": "You lose if you facetank an active W (Indestructible) or get isolated in his R (Realm of Death) while behind; you win by silencing his shield with Q and closing with true-damage R."
+   "difficulty": "Slightly unfavored",
+   "line": "You lose lane if you eat Mordekaiser's W (Siphon of Destruction) at full range and keep his passive shield topped off; you win if you freeze under tower until his shield decays, then commit full trades and finish with R once he's already chunked."
   },
-  "thesis": "Neither champion has a dash, so the entire lane is decided by two cooldowns: your Q (Decisive Strike) silence and his W (Indestructible) shield-into-heal. If you silence him before he can trigger W, your all-in damage goes through clean; if he gets W off first, he out-sustains your spin and passive regen. His only way to stick to you or stop you leaving is E (Death's Grip), so tracking that cooldown tells you when trades are free.",
+  "thesis": "Mordekaiser out-ranges you with W (Siphon of Destruction) and sustains every trade through his passive (Indestructible) shield, which is why OP.GG grades this lane 49.3% over 665 games with lane and solo-kill advantage to him. You have no gap closer besides Flash, so the entire lane is about denying him free pokes and picking the exact windows — W on cooldown, shield decayed — where your E (Judgment)-based trade actually lands instead of getting absorbed.",
   "tell": {
-   "watch": "Morde's W (Indestructible) uptime",
+   "watch": "Mordekaiser's Indestructible shield strength",
    "theirWindow": {
-    "when": "his W and E are both up",
-    "what": "Don't extend past mid-wave. He can shield through your damage with W, pull you off a wall or minion with E, and punish with Q plus autos while your silence is on cooldown."
+    "when": "his shield is freshly refreshed by W or an auto",
+    "what": "Disengage and reset to minions. Trading into a full Indestructible shield means your Q auto and E spin tick into mitigation instead of health — you're just feeding it. Let it decay (a few seconds without him dealing damage) before you commit again."
    },
    "yourWindow": {
-    "when": "his W (Indestructible) just went on cooldown",
-    "what": "All-in immediately: Q (Decisive Strike) to silence and deny a reactivation window, then E (Judgment) and autos. Without the shield he cannot out-heal your damage, and if he's under roughly 30% you can close with R (Demacian Justice)."
+    "when": "his W (Siphon) is on cooldown",
+    "what": "This is your all-in window. Walk up, Q (Decisive Strike) to silence and speed up, land the empowered auto, then E (Judgment) spin through the full duration — without W he has no ranged deterrent to punish your approach and his shield has nothing to feed on."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "you",
-    "note": "Q silence denies his W before it shields"
+    "edge": "them",
+    "note": "W pokes your approach, you have no answer"
    },
    {
     "levels": "3-5",
-    "edge": "even",
-    "note": "he clears wave safely, farms behind Q poke"
+    "edge": "them",
+    "note": "his E-Q-W all-in outsustains your trades"
    },
    {
     "levels": "6-8",
-    "edge": "you",
-    "note": "R true damage outpaces his forced 1v1"
+    "edge": "even",
+    "note": "ults trade — his R isolates, your R executes"
    },
    {
     "levels": "9-13",
     "edge": "even",
-    "note": "Serylda's grievous wounds cuts his sustain"
+    "note": "Stridebreaker lets you close his poke gap"
    },
    {
     "levels": "14-18",
-    "edge": "them",
-    "note": "Morde one-shots squishies, splits waves faster"
+    "edge": "you",
+    "note": "Mortal Reminder shreds his shield in duels"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield + Health Potion",
-    "why": "The passive damage block blunts his Q/passive poke and stacks with Perseverance regen so you win extended shoving trades before level 6."
+    "item": "Doran's Shield",
+    "why": "The higher-winrate start (50.3% over 451 games) — the flat damage block and HP5 blunt his early auto-poke and give you the sustain to hold the wave near your tower instead of getting bullied off it."
    },
    "boots": {
-    "item": "Mercury's Treads",
-    "why": "Tenacity shortens the lockdown from Death's Grip and the magic resist directly counters his fully magic-damage kit."
+    "item": "Berserker's Greaves",
+    "why": "Highest pick rate (66.8%) and the attack speed shortens the window your E and empowered Q auto need to actually punish him when his W is down."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "Early spellblade burst plus the slow lets you stick a full trade and land every auto before he can walk back into minions to reset the fight."
+     "why": "The Rush active is your only real way to close distance on a champion whose entire lane plan is poking you from W range — this is the single biggest reason the matchup improves once you hit level 9-10."
     },
     {
-     "item": "Serylda's Grudge",
-     "why": "Armor pen plus built-in Grievous Wounds directly neutralizes the heal he gets from converting damage through W (Indestructible)."
+     "item": "Phantom Dancer",
+     "why": "Attack speed and move speed keep you stuck to him through his kite pattern instead of letting him walk you down with autos between W cooldowns."
     },
     {
-     "item": "Sterak's Gage",
-     "why": "Bonus health, AD, and tenacity keep you alive through his level 6+ all-ins and shorten how long Death's Grip's pull disables you."
+     "item": "Mortal Reminder",
+     "why": "Grievous Wounds cuts directly into his Indestructible shield strength — this is the item that actually flips extended duels in your favor, matching the 53.3% winrate on this exact path over 169 games."
     }
    ],
    "situational": [
     {
+     "item": "Serpent's Fang",
+     "when": "he's stacking Indestructible hard and you need burst shield-shred on top of Mortal Reminder for a clean all-in"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're already ahead and want a second gap-close/burst window to punish him before his shield resets"
+    },
+    {
      "item": "Force of Nature",
-     "when": "he's building pure burst AP and out-trading your all-ins"
-    },
-    {
-     "item": "Guardian Angel",
-     "when": "the lane has snowballed and he's diving with jungler/mid support post-6"
-    },
-    {
-     "item": "Executioner's Calling",
-     "when": "you need Grievous Wounds online before Serylda's Grudge finishes"
-    },
-    {
-     "item": "Randuin's Omen",
-     "when": "he rushes a burst item and threatens to kill you before you can react"
+     "when": "his poke and ability damage are outpacing your sustain item and you need to survive the W chip damage to reach your spike"
     }
    ]
   },
   "runes": {
-   "keystone": "Conqueror",
-   "keystoneWhy": "Rewards the sustained spin-and-auto trading style this matchup demands, converting stacks into healing that races his own W-fueled sustain over a long trade.",
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "This page runs 55.2% over the alternative's 47.6% in this matchup, and the logic tracks: Stormraider's rewards the constant repositioning you need to dodge his W cone, and it procs off just walking into range rather than needing a landed ability like Conqueror does against a poke-heavy opponent you can't always reach.",
    "primary": [
-    "Triumph",
-    "Legend: Tenacity",
-    "Last Stand"
+    "Axiom Arcanist",
+    "Celerity",
+    "Gathering Storm"
    ],
    "secondary": [
     "Second Wind",
-    "Revitalize"
+    "Overgrowth"
    ],
    "shards": [
-    "Attack Speed",
     "Adaptive Force",
-    "Magic Resist"
+    "Adaptive Force",
+    "Health Scaling"
    ]
   },
   "summoners": {
    "picks": [
     "Flash",
-    "Teleport"
+    "Ignite"
    ],
-   "why": "Flash is your only way to dodge or reposition around Death's Grip since neither champion has a dash. Teleport resets you after a lost trade or shoved wave and keeps you on track for your mid-game item spikes."
+   "why": "Flash+Ignite is run in 91.4% of games at 49.7% WR — Ignite's Grievous Wounds stacks with your Mortal Reminder timing to strip his shield sustain during your all-in window, and it turns your R execute threshold much lower than his passive can offset."
   },
   "playing": [
    {
-    "title": "Silence before he shields",
-    "detail": "Fire Q (Decisive Strike) the instant he starts channeling W (Indestructible) so it's on cooldown before triggering, denying the shield and heal for that exchange."
+    "title": "Trade only when his shield is down",
+    "detail": "If he hasn't auto-attacked or landed W in the last several seconds, his Indestructible shield is decayed — that's the only time your Q-auto-E trade deals real damage instead of feeding mitigation."
    },
    {
-    "title": "Track his E cooldown",
-    "detail": "Death's Grip is his only gap tool in either direction. When it's down you can freely extend trades and walk away afterward since he has nothing to stick to you or escape with."
+    "title": "Juke his W, don't facetank it",
+    "detail": "Siphon of Destruction is a wide frontal cone but it's still dodgeable — step behind minions or sidestep in melee range rather than eating it point-blank, since every landed W both pokes you and refills his shield."
    },
    {
-    "title": "Bait W before committing",
-    "detail": "Throw a low-value poke first to force his W (Indestructible) activation, then unload your real all-in once the shield is already spent."
+    "title": "Never all-in with E down",
+    "detail": "Your skill order maxes E (Judgment) first, so it's your primary trade damage — don't walk up or Flash in for a fight unless E is up, or you're trading auto-for-auto into a champion with a passive shield."
    },
    {
-    "title": "Respect level 6 duel forcing",
-    "detail": "Don't overextend below roughly 60% HP once he hits 6. R (Realm of Death) isolates you for a forced 1v1 that nobody can interfere in, though your own R still lands full true damage inside it."
+    "title": "Hold Flash for his E, not offense",
+    "detail": "Death's Grasp roots you in place to set up his all-in, and his R (Realm of Death) locks you into an isolated 1v1 — save Flash to get out of E range rather than using it to initiate."
    },
    {
-    "title": "Hold R for the finish",
-    "detail": "Save Demacian Justice until he's committed or below roughly 30% HP; it scales off missing health so it closes duels rather than opening them."
+    "title": "Time R for a decayed shield",
+    "detail": "Demacian Justice's true damage still gets absorbed by an active Indestructible shield, so only cash in your execute once his shield has decayed or after Ignite/Mortal Reminder have already cut it down."
    },
    {
-    "title": "Freeze if you're ahead",
-    "detail": "Perseverance regen lets you hold a freeze near your tower better than he can punish, denying his farm and setting up jungle ganks."
-   },
-   {
-    "title": "Rush anti-heal if he's out-sustaining you",
-    "detail": "If his W conversion is out-healing your damage, prioritize Serylda's Grudge earlier than planned or grab Executioner's Calling as a bridge item."
+    "title": "Freeze before level 6",
+    "detail": "Since short trades lose to his sustain and his W punishes you for approaching, freezing the wave near your tower through levels 3-5 denies his poke angle entirely and forces him to overextend for CS."
    }
   ],
-  "patchCaveat": "Item and rune names drift patch to patch; this reflects the standard Garen bruiser build and Precision/Resolve page as of early 2026 training data, so confirm current names and stats in-client before locking runes."
+  "patchCaveat": "Build paths, rune pages, summoners, and win rates here are pulled directly from measured OP.GG games on the current patch (665 games, 49.3% WR for this matchup); the trade timing, shield-decay logic, and cooldown-window calls are my own read on top of that data."
  },
- "generatedAt": 1789257221346,
+ "generatedAt": 1789271132631,
  "patch": "16.18.1",
- "generator": "on-demand"
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789271028372,
+  "overall": {
+   "winRate": 50.9,
+   "play": 30313,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 665,
+   "wins": 328,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Do not let Mordekaiser maintain his (P) by hitting and running often. Try to kill him when (W) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.7,
+    "play": 785,
+    "pickRate": 91.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.5,
+    "play": 40,
+    "pickRate": 4.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 35.3,
+    "play": 17,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 340,
+    "pickRate": 39.3
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.2,
+    "play": 134,
+    "pickRate": 15.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.3,
+    "play": 451,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 296,
+    "pickRate": 32.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 49.1,
+    "play": 581,
+    "pickRate": 66.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.9,
+    "play": 162,
+    "pickRate": 18.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 53.3,
+    "play": 169,
+    "pickRate": 29.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 66.7,
+    "play": 30,
+    "pickRate": 5.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 68,
+    "play": 25,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.2,
+    "play": 821,
+    "pickRate": 94.9
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 53.5,
+    "play": 480,
+    "pickRate": 55.5
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 52.6,
+    "play": 340,
+    "pickRate": 39.3
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 54.2,
+    "play": 177,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 56.8,
+    "play": 125,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 46.4,
+    "play": 125,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.6,
+    "play": 394
+   }
+  ]
+ }
 }

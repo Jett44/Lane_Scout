@@ -4,102 +4,102 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Skill matchup",
-   "line": "You lose if he hits level 6 at even health and forces Realm of Death on his terms; you win if you all-in with E-Q-W between levels 3-5 or hold a clear HP lead before he can duel you."
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you keep eating shielded W poke through an open wave and let him control range to 6; you win if you deny his cooldown windows and force free melee trades where your bleed and grievous wounds close him out."
   },
-  "thesis": "Mordekaiser's R (Realm of Death) turns any fight after level 6 into an isolated 1v1 decided almost entirely by HP% and items at the moment it's cast, with no flash, no ally peel, and no minion aggro to lean on. That means Darius's whole lane plan is to win the tempo race before 6, since his E (Apprehend) into Q (Decimate) into W (Crippling Strike) combo is the strongest all-in either laner has pre-6. Once both have their ultimates, Darius only wants to re-engage when he's already ahead on health, because he brings his own duel-closer in R (Noxian Guillotine).",
+  "thesis": "This is a genuinely even lane (50% Darius overall, 51.3% over 731 games vs Mordekaiser) because both champions win the fight a different way: Morde wants to chip you down from range with W (Siphon of Destruction) and bank a shield off Darkness Rise before he ever enters your E (Apprehend) range, while Darius wants to force the melee exchange where his passive bleed and W (Crippling Strike) healing cut outpace Morde's frontloaded magic burst. Whoever dictates when the fight actually starts wins it.",
   "tell": {
-   "watch": "Morde's Darkness Rise passive stacks",
+   "watch": "Mordekaiser's passive shield (Darkness Rise)",
    "theirWindow": {
-    "when": "Level 6+ with health bars roughly even",
-    "what": "Stay outside his E (Death's Grasp) and R cast range when he's walking up looking for a fight — if he lands R (Realm of Death) at even HP it's a coinflip you don't need to give him. Let a wave crash or take a tower shot first so you enter any duel ahead."
+    "when": "his shield is freshly up from a landed spell",
+    "what": "He's confident to all-in with the extra effective HP from Darkness Rise. Back off and let it decay (a few seconds without him landing another ability) instead of trading into a shielded Morde."
    },
    "yourWindow": {
-    "when": "Levels 3-5, before he hits level 6",
-    "what": "Full commit E into Q into W: Apprehend pulls him in and shreds his armor, Decimate's outer rim heals you back, and Crippling Strike's slow plus your stacked Hemorrhage true damage closes the trade fast. This is the one window where he has no duel button to bail him out."
+    "when": "his E (Death's Grasp) and Q (Obliterate) are both on cooldown",
+    "what": "He has no gap-close and no delayed burst queued. Hook him with E (Apprehend), lay W (Crippling Strike) for the healing cut, and dump Q (Decimate) — he can't escape or out-trade you in straight melee."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "them",
-    "note": "Morde pokes safely; Darius lacks engage"
+    "edge": "you",
+    "note": "E pull punishes early overextends"
    },
    {
     "levels": "3-5",
-    "edge": "you",
-    "note": "Darius all-in combo online before his ult"
-   },
-   {
-    "levels": "6-8",
-    "edge": "even",
-    "note": "His R turns fights into coinflip duels"
-   },
-   {
-    "levels": "9-13",
-    "edge": "even",
-    "note": "Core items online, trades roughly even"
-   },
-   {
-    "levels": "14-18",
     "edge": "them",
-    "note": "Morde scales into near-unkillable teamfight duelist"
+    "note": "W poke chips through open wave"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "ults raise stakes on both sides"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Youmuu burst beats his shield window"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "Force of Nature blunts your all-in"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Blade",
-    "why": "The AD, health, and lifesteal help you win extended trades and offset the chip damage from his W (Siphon of Destruction) poke."
+    "item": "Doran's Blade + Health Potion",
+    "why": "Best-performing start at 52.3% over 751 games and by far the most picked (79.6%) — the extra sustain and auto damage matter more here than Doran's Shield's flat mitigation since most of Morde's early damage lands as burst spell hits, not chip autos."
    },
    "boots": {
     "item": "Mercury's Treads",
-    "why": "Magic resist and tenacity blunt his AP damage and the slow from E (Death's Grasp), keeping you able to close the gap."
+    "why": "Highest-picked boots (67.3%) at 50.2% wr, and correct into Mordekaiser specifically — Q, W, E, and R all deal magic damage, so the flat MR directly reduces every source of his damage, unlike Plated Steelcaps which answers physical poke he doesn't have."
    },
    "core": [
     {
-     "item": "Trinity Force",
-     "why": "Attack speed, damage, and the sheen proc make your W-empowered auto and passive stacking hit far harder in the all-in."
+     "item": "Youmuu's Ghostblade",
+     "why": "Best-performing core path starts here (68.4% wr over 38 games) — the active gives you the burst of movement speed to close from outside his W range and the haste to chain E into full combo before his shield resets."
     },
     {
-     "item": "Black Cleaver",
-     "why": "Armor shred stacks with your E's own armor reduction, letting your auto-attacks and R execute through his magic-resist-heavy build."
+     "item": "Force of Nature",
+     "why": "Second item on the top-performing path; the magic resist directly counters a 100%-magic-damage kit and the movespeed proc helps you stay on top of a champion with no dash of his own."
     },
     {
-     "item": "Sterak's Gage",
-     "why": "The health and tenacity-adjacent survivability keep you alive through his W burst so you can land the killing blow first."
+     "item": "Dead Man's Plate",
+     "why": "Rounds out the highest-winrate path — bonus health and the charge-up movespeed let you actually catch him if he tries to kite behind minions before your Ghostblade cooldown is back."
     }
    ],
    "situational": [
     {
-     "item": "Guardian Angel",
-     "when": "he's snowballing and forcing realm of death duels while ahead"
-    },
-    {
      "item": "Death's Dance",
-     "when": "his w poke and auto trades chip you down before you can reach 6"
+     "when": "he's ahead and you need to survive his burst window to get your own combo off"
     },
     {
-     "item": "Spirit Visage",
-     "when": "you want extra magic resist and amplified healing off your passive and ult"
+     "item": "Stridebreaker",
+     "when": "you're already winning and want to end fights before his shield or Realm of Death changes the outcome"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he's built into a tanky AP/HP hybrid and you need the shield plus tenacity to finish him"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Fights with Morde run long rather than ending in one burst window, and Conqueror's stacking damage and healing reward you for staying in extended trades where your passive and W keep landing.",
+   "keystoneWhy": "This is the higher-performing page (54% wr, 27.7% pick) and the stacking adaptive damage plus healing rewards exactly the extended melee trades you're trying to force — it converts a won trade into sustain that outlasts his burst.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
     "Last Stand"
    ],
    "secondary": [
-    "Second Wind",
-    "Overgrowth"
+    "Axiom Arcanist",
+    "Celerity"
    ],
    "shards": [
     "Attack Speed",
     "Adaptive Force",
-    "Health"
+    "Health Scaling"
    ]
   },
   "summoners": {
@@ -107,41 +107,278 @@
     "Flash",
     "Ghost"
    ],
-   "why": "Ghost gives you the stick to actually land Apprehend and finish with Guillotine on a champion whose only real disengage is walking away, and helps you close distance before he can settle into R range."
+   "why": "Highest pick rate by far (64.9%) at 52.4% wr — Ghost is what actually lets you close on a champion with zero dashes once his E speed boost or a minion wave puts distance between you, which matters more here than Ignite's kill pressure since neither side has a reliable early kill window."
   },
   "playing": [
    {
-    "title": "Win the pre-6 all-in",
-    "detail": "Land your E-Q-W combo between levels 3-5 while he has no duel button. Don't let him hit level 6 at even health."
+    "title": "Hook overextensions level 1-2",
+    "detail": "Morde has no escape and E (Apprehend) outranges his stubby auto attack. If he pushes past the wave to land W, punish it immediately before his kit comes online."
    },
    {
-    "title": "Track his Darkness Rise stacks",
-    "detail": "At 2 stacks his next spell or auto is empowered with bonus magic damage. Dodge or juke the proc instead of eating it in a trade."
+    "title": "Trade behind minions, not in the open",
+    "detail": "Position so enemy minions sit between you and his cone so W (Siphon of Destruction) either whiffs or eats reduced damage from hitting minions first. Only step up to trade once the wave has crashed close to you."
    },
    {
-    "title": "Respect R once he's 6",
-    "detail": "Don't walk into E (Death's Grasp) or R range unless you're clearly ahead on HP%. A forced duel at even health is a fight you don't need to take."
+    "title": "Let his shield decay before you commit",
+    "detail": "Darkness Rise only shields him for a few seconds after landing a spell. If you see it pop, disengage and wait it out rather than trading into free effective HP."
    },
    {
-    "title": "Fight near minions, not alone",
-    "detail": "His Q (Obliterate) deals bonus damage to isolated targets, so pick fights near a wave or camp early to blunt that burst."
+    "title": "Lead trades with W for the healing cut",
+    "detail": "Crippling Strike's grievous wounds blunts the sustain he gets back off Darkness Rise's on-hit heal, so land it before you commit your full combo, not after."
    },
    {
-    "title": "Hold E for the pull, not chip poke",
-    "detail": "Apprehend's armor shred and pull is your engage tool. Save it until you can immediately follow with W's slow so he can't walk out."
+    "title": "Track Death's Grasp before all-inning",
+    "detail": "E is his only way to speed toward you after a hit. If it's down, he can't chase a disengage or close a gap — this is your green light to E-hook and dump everything."
    },
    {
-    "title": "Buy Guardian Angel if he's snowballing",
-    "detail": "If he's ahead and forcing early duels, GA can revive mid-fight and flip a losing Realm of Death into a win."
+    "title": "Respect Realm of Death at 6",
+    "detail": "If he ults you, you're isolated together until it ends — commit your full burst including R (Noxian Guillotine) immediately rather than trying to disengage, since no help is reaching either of you."
    },
    {
-    "title": "Short-trade and freeze under 6",
-    "detail": "If a clean all-in isn't there, play a tight freeze near your tower. His W poke burns mana and he has no reliable disengage besides walking away."
+    "title": "Rush Force of Nature before he three-items",
+    "detail": "His entire kit is magic damage, so the MR on your core path pays off every single trade — don't delay it for damage items if he's ahead on gold."
    }
   ],
-  "patchCaveat": "Build and runes reflect standard Darius bruiser itemization from recent patches (Trinity Force into Black Cleaver into Sterak's Gage, Conqueror keystone); verify exact item and rune names against your current patch 16.18.1 since numbering and mythic-style items have shifted before."
+  "patchCaveat": "Win rates, pick rates, sample sizes, build paths, runes, boots, starting items, and summoner spells above are measured OP.GG data from live games on the current patch. The mechanical reasoning — why each window opens, how the shield and poke interact, when to commit — is my own tactical read, not part of the measured data."
  },
- "generatedAt": 1789257087259,
+ "generatedAt": 1789271019353,
  "patch": "16.18.1",
- "generator": "on-demand"
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789270906356,
+  "overall": {
+   "winRate": 50,
+   "play": 31185,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 731,
+   "wins": 375,
+   "winRate": 51.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being nuked by Mordekaiser’s abilities. Try to fight him when the opponent steps in your range to nuke him in one burst.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 52.4,
+    "play": 586,
+    "pickRate": 64.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.2,
+    "play": 257,
+    "pickRate": 28.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55.6,
+    "play": 45,
+    "pickRate": 5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54,
+    "play": 252,
+    "pickRate": 27.7
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.5,
+    "play": 159,
+    "pickRate": 17.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 751,
+    "pickRate": 79.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.6,
+    "play": 145,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.2,
+    "play": 606,
+    "pickRate": 67.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.8,
+    "play": 145,
+    "pickRate": 16.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Dead Man's Plate"
+    ],
+    "winRate": 68.4,
+    "play": 38,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Death's Dance"
+    ],
+    "winRate": 43.3,
+    "play": 30,
+    "pickRate": 5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 51.9,
+    "play": 27,
+    "pickRate": 4.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 52.7,
+    "play": 402,
+    "pickRate": 43.9
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 55,
+    "play": 387,
+    "pickRate": 42.3
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.6,
+    "play": 317,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 52.3,
+    "play": 310,
+    "pickRate": 33.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.4,
+    "play": 263,
+    "pickRate": 28.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.2,
+    "play": 223,
+    "pickRate": 24.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.7,
+    "play": 220
+   }
+  ]
+ }
 }
