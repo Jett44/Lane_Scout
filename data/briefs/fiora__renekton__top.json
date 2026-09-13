@@ -1,0 +1,388 @@
+{
+ "you": "Fiora",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early lane",
+   "line": "You lose if Renekton lands his fury-empowered E-W stun before level 6; you win by surviving to itemize Hydra into Trinity Force, where the 53.1% head-to-head win rate over 452 games takes over."
+  },
+  "thesis": "Renekton's Reign of Anger fury bar caps at 50 and empowers his next Q or W — an empowered W is a stun, so every fury-full window is a potential kill threat, which is why OP.GG marks both lane and solo-kill advantage to him. Fiora's answer is structural, not a trade you win directly: W (Riposte) parries that exact empowered W, and once both sides hit their item spikes the matchup normalizes hard enough to flip to 53.1% in Fiora's favor over a 452-game sample, despite the defensive laning shape early.",
+  "tell": {
+   "watch": "Renekton's fury bar at 50",
+   "theirWindow": {
+    "when": "Fury bar full, levels 2-5",
+    "what": "He will dash in with E (Slice and Dice), auto, and go for the empowered W stun to lock you for a full Q-auto-auto trade or an Ignite kill. Do not contest CS in melee range when his bar is glowing — back off a step and let him hit minions instead."
+   },
+   "yourWindow": {
+    "when": "He E-dashes past minions to hit you",
+    "what": "That overextension is exactly the OP.GG tip: land Q (Lunge) or an empowered E (Bladework) auto onto a Vitals mark the moment he's in range without his fury loaded. If he goes for the empowered W into you, hold W (Riposte) a beat rather than throwing it preemptively — timed correctly it eats the stun and heals/damages him back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "fury sustain wins early Q trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E-W stun all-in kill threat"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Riposte and R offset his burst"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Hydra/Trinity duel spike arrives"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Death's Dance wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 87.7% pick rate and 53.7% win rate over 464 games reflect the matchup's shape — you need the extra sustain and AD to survive fury-loaded trades, not the shield from Doran's Shield."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "82.4% pick, 55.1% win rate over 385 games. Renekton's damage is entirely physical (autos, Q, W, E), so the flat auto-attack reduction directly blunts his all-in windows."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "Highest-win-rate opener (59.8% over 112 games on this exact path) — the healing and cleave let you win extended trades instead of short burst exchanges Renekton favors."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "The damage and movement spike is where the lane flips; this is your level 11-13 power curve turn."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time mitigation directly counters Renekton's burst all-in pattern and closes out the late-game sustain war."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead by level 6 and want to snowball burst instead of grinding sustain"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "the enemy team has anti-heal or your lane sustain war is going long"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "fights are extending past your first ability rotation and you need ability haste"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks CC beyond Renekton's stun and Plated Steelcaps' armor isn't the priority"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "61.2% win rate at 9.6% pick — the burst-on-third-hit pattern matches Fiora's empowered E (Bladework) autos landing on Vitals, converting your poke windows into real damage instead of trading fury-for-fury with Conqueror.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "87.1% pick rate and 53.8% win rate. Ignite matters specifically here because Renekton's own kill windows rely on his Cull the Meek sustain — Ignite's healing reduction closes that door if the all-in goes even, and threatens a return kill once his fury dumps."
+  },
+  "playing": [
+   {
+    "title": "Track the fury bar, not the clock",
+    "detail": "Don't think in terms of 'early game caution' — think in terms of his fury bar. Every time it nears 50 pre-level 6, assume an E-W stun is coming and disengage from minion range."
+   },
+   {
+    "title": "Hold Riposte for the empowered W",
+    "detail": "Don't burn W (Riposte) on his normal poke Q. Save it specifically for the empowered W stun — that's the ability it's built to answer, per the OP.GG read on this matchup."
+   },
+   {
+    "title": "Punish overextended E dashes with Vitals hits",
+    "detail": "When he E-dashes past his own minion wave to reach you, that's your Q (Lunge) or empowered auto window onto a Vitals mark — take it, don't wait for a cleaner setup."
+   },
+   {
+    "title": "Play passive resource control before level 6",
+    "detail": "You're behind in this window (Renekton has lane and solo-kill advantage). Use Doran's Blade sustain and potions to hold CS parity rather than trying to win trades outright."
+   },
+   {
+    "title": "Flip aggression once Hydra completes",
+    "detail": "The matchup's win rate lives in the mid-game. Once Ravenous Hydra is up, start initiating trades yourself — the sustain now favors you."
+   },
+   {
+    "title": "Time your ultimate for the kill, not the poke",
+    "detail": "R (Grand Challenge) executes low-Vitals targets and heals your team on takedown — hold it until he's already below 50% or committed, not as a first-strike tool."
+   },
+   {
+    "title": "Respect Exhaust as an emergency swap",
+    "detail": "If you're repeatedly losing all-ins despite good play, Exhaust+Flash carries a 55.6% win rate in this matchup (small sample, 3.6% pick) as a direct counter to his burst — situational, not default."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates above are measured from live games on the current patch via OP.GG; the mechanical reasoning — fury bar timing, Vitals punishes, and the power curve breakdown — is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1789312046018,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789311980398,
+  "overall": {
+   "winRate": 49.7,
+   "play": 19195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 452,
+   "wins": 240,
+   "winRate": 53.1
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "Try to block Renekton’s (W) with your [W] by timing it correctly. Hit [P] with your abilities whenever he overextends.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.8,
+    "play": 439,
+    "pickRate": 87.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.6,
+    "play": 35,
+    "pickRate": 6.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 3.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 61.2,
+    "play": 49,
+    "pickRate": 9.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.2,
+    "play": 43,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.7,
+    "play": 464,
+    "pickRate": 87.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45,
+    "play": 40,
+    "pickRate": 7.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.1,
+    "play": 385,
+    "pickRate": 82.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51,
+    "play": 49,
+    "pickRate": 10.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 59.8,
+    "play": 112,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 44.1,
+    "play": 34,
+    "pickRate": 12.5
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 85.7,
+    "play": 28,
+    "pickRate": 10.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 54.9,
+    "play": 481,
+    "pickRate": 95.4
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 58.6,
+    "play": 278,
+    "pickRate": 55.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 64.6,
+    "play": 206,
+    "pickRate": 40.9
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 60.2,
+    "play": 108,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 72,
+    "play": 93,
+    "pickRate": 18.5
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 67.9,
+    "play": 53,
+    "pickRate": 10.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 64.2,
+    "play": 215
+   }
+  ]
+ }
+}

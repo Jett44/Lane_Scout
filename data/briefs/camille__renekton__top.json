@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Renekton gets a clean Q-E-W all-in before level 6; you win if you survive to your E-R spike and out-scale with Trinity-Hydra."
+  },
+  "thesis": "Camille has no dash until E (Hookshot) unlocks at level 6, so for the first five levels she is trading into a champion whose entire kit is built around forcing that exact window — Renekton's Slice and Dice (E) closes distance for free and his Fury system rewards every auto and ability he lands on you. The 47.9% win rate over 733 games reflects a lane you survive, not one you win outright, before you flip it with items and E-R access.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Fury at 50+, before you hit 6",
+    "what": "At 50 Fury his Q (Cull the Meek) heals him hard on hit and his W (Ruthless Predator) stuns — if he's sitting on 50+ Fury and walks up with E (Slice and Dice), assume the stun-auto-Q combo is coming and play for the shield proc off P (Adaptive Defenses) instead of trading back."
+   },
+   "yourWindow": {
+    "when": "His E whiffs, or R (Dominus) is down",
+    "what": "A whiffed first-cast E leaves him with no second dash and no gap-closer for roughly 6 seconds — punish immediately with Q (Precision Protocol) into auto-weaves. Post-6, his ultimate is both his burst and his sustain; once it's on cooldown he has no healing tool, so that's when you commit to extended trades."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Fury builds off every hit, E gives free engage"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full combo online, you still have no dash"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "Your E-R vs his R, trades even out"
+   },
+   {
+    "levels": "10-15",
+    "edge": "you",
+    "note": "Trinity Force online, you out-duel him"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Hydra sustain and full combo overwhelm"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "This is a defensive-shape matchup — the flat damage reduction on minion/champion poke and the passive heal let you hold CS through Renekton's auto-heavy trades. It's the measured pick at 47.9% over 261 games and matches the reality that you're absorbing pressure, not initiating it, before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Renekton's whole early kit is autos plus on-hit-adjacent abilities layered on top of an engage; the flat reduction directly blunts his all-in burst. 80.7% pick rate and the standard choice into an AD auto-attacker."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The spellblade proc plus movement speed is what finally lets you close and kite Renekton once your E is live — this is the item that flips the matchup from level 10 onward."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Sustain and AoE clear to offset the early lane deficit and start winning extended trades once he's out of Fury-fueled heal windows."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Highest-performing third item at 55.5% over 173 games — the damage-over-time conversion is specifically strong against a burst-into-all-in champion like Renekton."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're behind or he's snowballed and you need to survive his all-in rather than win the trade outright"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want faster E-Q cooldowns to chain resets in extended skirmishes"
+    },
+    {
+     "item": "Tiamat",
+     "when": "the lane is stuck on a slow, contested wave and you need the AoE clear component before finishing Hydra"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "You can't out-trade Renekton levels 1-5, so Grasp's max-health proc and the free sustain from every auto you land keeps your HP bar level with his instead of bleeding out to his Fury-fueled combo.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This combo posts the best measured result in the data (52.2% over 19.7% pick share). Given the defensive shape of the lane, Teleport lets you reset after losing an early trade or crash a wave and TP back in, rather than committing Ignite to fights you're not favoured to win before 6."
+  },
+  "playing": [
+   {
+    "title": "Play the wave, not the champion",
+    "detail": "Levels 1-5, don't extend trades — use W (Tactical Sweep) at max range to poke and farm without walking into his E engage range. Freeze near your tower when possible to remove his free all-in angle."
+   },
+   {
+    "title": "Bait the first E before you commit",
+    "detail": "Force him to use Slice and Dice to engage rather than walking up yourself. If it hits nothing, he has no second dash and no gap-closer for several seconds — that's your punish window."
+   },
+   {
+    "title": "Track Fury, not just health",
+    "detail": "A Renekton at 30 Fury is far less dangerous than one at 50+. Watch the bar under his portrait; below the empower threshold his Q and W lose their extra effects entirely."
+   },
+   {
+    "title": "Don't fight through his R",
+    "detail": "Dominus heals him off missing health and grants tenacity — if he pops it mid-trade, disengage rather than trading through it. Re-engage once it's on cooldown."
+   },
+   {
+    "title": "Level 6 is your first real all-in",
+    "detail": "Use E (Hookshot) onto terrain to reposition onto him or onto him directly if in range, then R (The Hextech Ultimatum) to lock the fight in place before he can E away."
+   },
+   {
+    "title": "Itemize around his damage type",
+    "detail": "He's 100% physical — Plated Steelcaps and eventually Death's Dance are doing real work here, not just generic stat sticks."
+   },
+   {
+    "title": "Shift the win condition post-10",
+    "detail": "Once Trinity Force is up, stop playing for survival and start looking for picks with E-R; your kit out-scales his flat Fury payoff."
+   }
+  ],
+  "patchCaveat": "Win rates, item paths, runes, and summoner spells above are pulled from measured OP.GG games on the current patch (16.18.1); the timing breakdown, power spikes, and trade-pattern reasoning are my own tactical read of the two kits."
+ },
+ "generatedAt": 1789312207759,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789312134360,
+  "overall": {
+   "winRate": 50.6,
+   "play": 23325,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 733,
+   "wins": 351,
+   "winRate": 47.9
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of Renekton using his (E) to close in to deal damage one-sidedly! Although it is difficult to contest lane early game, try using Camille’s shield [P] and regen[W] to ease the early lane process!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.1,
+    "play": 480,
+    "pickRate": 58.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.2,
+    "play": 161,
+    "pickRate": 19.7
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 48.1,
+    "play": 156,
+    "pickRate": 19.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 245,
+    "pickRate": 29.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.6,
+    "play": 78,
+    "pickRate": 9.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.5,
+    "play": 514,
+    "pickRate": 61.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.9,
+    "play": 261,
+    "pickRate": 31.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.9,
+    "play": 593,
+    "pickRate": 80.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.6,
+    "play": 110,
+    "pickRate": 15
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 55.5,
+    "play": 173,
+    "pickRate": 47
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.2,
+    "play": 71,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 50.8,
+    "play": 65,
+    "pickRate": 17.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.3,
+    "play": 799,
+    "pickRate": 98.2
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 51.1,
+    "play": 626,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56,
+    "play": 241,
+    "pickRate": 29.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 63.5,
+    "play": 104,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 51.1,
+    "play": 94,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 34.9,
+    "play": 83,
+    "pickRate": 10.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.4,
+    "play": 276
+   }
+  ]
+ }
+}

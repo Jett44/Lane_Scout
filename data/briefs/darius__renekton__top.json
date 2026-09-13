@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, slight edge",
+   "line": "You lose if Renekton dumps a 50-Fury empowered W stun into Ignite before you hit level 3, but you win any trade that runs past 2-3 seconds once Hemorrhage is on him and R is up."
+  },
+  "thesis": "This is a 52.4% winrate over 905 games because both champions win different windows of the same lane: Renekton's threat is a burst all-in gated by his Fury bar reaching 50, while Darius's threat is a sustained trade gated by bleed stacks reaching 5. Neither champion wants to fight on the other's terms, so the entire lane is about forcing fights on your clock instead of his. Darius's structural edge only shows up once stacks are on the target and R (Noxian Guillotine) is live.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "his Fury bar nears 50 pre-level 6",
+    "what": "Empowered W (Ruthless Predator) stuns and empowered Q (Cull the Meek) heals him hard, and he'll often chain it with Ignite for a level 2-3 kill attempt. Don't stand still to trade autos when his bar is above 35-40; back off a step or force him to spend E (Slice and Dice) to reach you instead of walking in."
+   },
+   "yourWindow": {
+    "when": "you land 5 stacks of Hemorrhage",
+    "what": "Land W (Crippling Strike) for the heal-and-slow, then Q (Decimate) or E (Apprehend) to finish stacks, and cash in with R (Noxian Guillotine) the instant it's live — a kill resets the R cooldown, so chain into the wave or a second target if he flashes away."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Renekton's early stun all-in threat is live"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "trades interchangeable, W heal offsets his burst"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute threat changes every extended trade"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "his Slice and Dice all-in matches your stack snowball"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "bleed resets and core items outscale his damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "53.1% winrate over 912 games and the overwhelming pick (83.9%) because it feeds your early auto-trades and W (Crippling Strike) heal, which is what you need to survive his Fury-gated all-in windows without a Doran's Shield's passive block mattering much against burst."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.6% over 876 games and 83.5% pick rate — Renekton's damage is almost entirely physical autos and empowered abilities, so the flat reduction directly blunts his all-in and his Q (Cull the Meek) poke."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "highest-winrate path (64.8% over 88 games starting here) — the active haste lets you close the gap when he tries to kite with E (Slice and Dice) and speeds up your stack application."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "the momentum stacks and HP give you the durability to actually stay in an extended trade long enough for 5 bleed stacks to land."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "converts his burst-heavy damage into a delayed bleed you can outheal/outlast, which matters directly against a champion whose whole kit is a burst window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's landing his stun consistently and you need to survive the follow-up burst"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team has scaling magic damage behind Renekton"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want the slow-on-hit to lock him down instead of the lethality path (62.5% over 32 games)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "the adaptive-force stacking rewards exactly the extended-trade pattern Darius wants against Renekton's short burst window, and it's the keystone behind the higher-winrate page (55.5% over the sample).",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost is both the highest-winrate (53.4%) and most-picked (65.6%) combo — the extra mobility lets you stick through his E (Slice and Dice) disengage instead of losing the target once stacks are on him. Flash+Ignite (51.5%, 24.5% pick) is the stronger alternative if you want to contest his own Ignite-assisted all-in directly, per OP.GG's own note to respect his Fury-and-Ignite kill threat."
+  },
+  "playing": [
+   {
+    "title": "Track his Fury before level 6",
+    "detail": "Any time his bar crosses ~35-40 pre-6, assume the next W (Ruthless Predator) is empowered and stuns. Don't hard-commit to an auto-trade in that window — bait the E (Slice and Dice) engage first."
+   },
+   {
+    "title": "Hit Decimate's edge",
+    "detail": "Q (Decimate)'s outer blade applies a bonus Hemorrhage stack over the inner hit. Position so he's on the rim of the spin, not the center, every time you use it to farm or trade."
+   },
+   {
+    "title": "Take W at level 1",
+    "detail": "The current skill order (WQEQQR...) opens with W (Crippling Strike) instead of Q, giving you a sustain trade before he can threaten a level-2 all-in."
+   },
+   {
+    "title": "All-in only with stacks and R up",
+    "detail": "Never initiate a full commit before 5 Hemorrhage stacks are ready to land with R (Noxian Guillotine) live — that's the only window where the fight is structurally yours."
+   },
+   {
+    "title": "Punish his double-dash cooldown",
+    "detail": "Slice and Dice has a ~4-second recast window; if he burns both charges to engage or reset, that's your green light to E (Apprehend) and stand-and-trade without fear of his follow-up dash."
+   },
+   {
+    "title": "Bank R resets through the wave",
+    "detail": "A kill refreshes Noxian Guillotine's cooldown — use it to clear low-HP minions or immediately threaten a second target/tower dive rather than letting the reset go to waste."
+   },
+   {
+    "title": "Respect Ignite on both sides",
+    "detail": "24.5% of Renekton players run Flash+Ignite too; if he still has it up past level 6, don't dive an execute-range trade assuming you have the only Ignite in the fight."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled directly from measured OP.GG games on the current patch (16.18.1); the tactical reasoning — fury timing, edge-hit mechanics, and trade windows — is my own read of the kits, not sourced from the stats."
+ },
+ "generatedAt": 1789311814903,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789311712605,
+  "overall": {
+   "winRate": 50,
+   "play": 36651,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 905,
+   "wins": 474,
+   "winRate": 52.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Fight Renekton while being wary of his Fury and Ignite. Try to hit him at the edge of [Q] while considering his Slice/Dice (E) when fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 53.4,
+    "play": 696,
+    "pickRate": 65.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 260,
+    "pickRate": 24.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.1,
+    "play": 90,
+    "pickRate": 8.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.5,
+    "play": 238,
+    "pickRate": 22.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 209,
+    "pickRate": 19.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.1,
+    "play": 912,
+    "pickRate": 83.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.9,
+    "play": 133,
+    "pickRate": 12.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.6,
+    "play": 876,
+    "pickRate": 83.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.7,
+    "play": 128,
+    "pickRate": 12.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 64.8,
+    "play": 88,
+    "pickRate": 14.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 52.5,
+    "play": 40,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 56.2,
+    "play": 532,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 51.4,
+    "play": 444,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 55.1,
+    "play": 399,
+    "pickRate": 37.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.3,
+    "play": 360,
+    "pickRate": 33.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 60.3,
+    "play": 355,
+    "pickRate": 33.4
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 57.2,
+    "play": 215,
+    "pickRate": 20.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56,
+    "play": 291
+   }
+  ]
+ }
+}
