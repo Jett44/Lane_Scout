@@ -105,6 +105,37 @@ function compact(d, them) {
   };
 }
 
+/*
+ * What master-tier players do differently.
+ *
+ * Tested across Sett, Darius, Fiora and Jax: core item builds are identical at
+ * every rank, and challenger samples are 36-172 games — too thin to mean
+ * anything. Master is the lowest tier with a usable sample (3-10k games), and
+ * occasionally it genuinely disagrees: Darius at master runs Stormraider's
+ * Surge where the all-tier aggregate runs Conqueror.
+ *
+ * So this captures only the keystone, only at master, and the caller only uses
+ * it when it differs from the aggregate. No signal, no tokens spent.
+ */
+export async function highEloKeystone(champ, lane = "Top") {
+  try {
+    const res = await rpc("tools/call", {
+      name: "lol_get_champion_analysis",
+      arguments: {
+        champion: upper(champ), position: String(lane).toLowerCase(),
+        game_mode: "ranked", tier: "master"
+      }
+    });
+    const repr = res?.result?.content?.map((c) => c.text).join("\n") || "";
+    // this tool answers with a class-repr rather than JSON
+    const m = repr.match(/Runes\(\d+,\d+,"([^"]+)",\[[\d,\s]*\],\[([^\]]*)\]/);
+    const sample = repr.match(new RegExp(`Position\\("${String(lane).toUpperCase()}",Stats\\((\\d+)`));
+    if (!m) return null;
+    const names = m[2].split(",").map((s) => s.replace(/^"|"$/g, "").trim());
+    return { keystone: names[0] || null, tree: m[1], play: sample ? +sample[1] : null };
+  } catch { return null; }
+}
+
 export async function matchupStats(you, them, lane = "Top") {
   try {
     const res = await rpc("tools/call", {
@@ -119,7 +150,16 @@ export async function matchupStats(you, them, lane = "Top") {
     if (!txt) return null;
     let parsed;
     try { parsed = JSON.parse(txt); } catch { return null; }
-    return compact(parsed.data, them);
+    const out = compact(parsed.data, them);
+
+    /* Attach the master-tier keystone only when it differs from what the
+       aggregate already recommends — otherwise it is noise in the prompt. */
+    if (out) {
+      const he = await highEloKeystone(you, lane);
+      const aggregate = out.runes?.[0]?.primary?.[0] || null;
+      if (he && he.keystone && aggregate && he.keystone !== aggregate) out.highElo = he;
+    }
+    return out;
   } catch {
     return null; // never let a stats outage block generation
   }
@@ -147,6 +187,11 @@ export function statsForPrompt(s, you, them) {
     }
   }
   if (s.skillOrder.length) L.push(`- Skill order: ${s.skillOrder[0].order?.join("")} (${s.skillOrder[0].winRate}%)`);
+
+  /* Only present when master players genuinely disagree with the aggregate. */
+  if (s.highElo && s.highElo.keystone) {
+    L.push(`- High-elo divergence: master-tier ${you} players run ${s.highElo.keystone} (${s.highElo.tree}) rather than the keystone above, across ${s.highElo.play?.toLocaleString()} games. Mention this as an alternative and say briefly who it suits.`);
+  }
 
   L.push("");
   L.push("RULES FOR USING THIS DATA:");
