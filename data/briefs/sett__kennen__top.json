@@ -1,0 +1,151 @@
+{
+ "you": "Sett",
+ "them": "Kennen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable, timing-gated",
+   "line": "You lose if you sit still and eat poke from level 3-5 while Kennen's energy is full; you win by forcing fights at levels 1-2 and again the moment his E charges run dry."
+  },
+  "thesis": "Kennen has no mana bar — his kit runs on Energy, and his only kite tool, E (Lightning Rush), is energy-gated and doesn't exist until level 3. Sett's Pit Grit passive fills from any damage taken, including Kennen's poke, so every Q (Thundering Shuriken) that hits you is also charging your own Q (Knuckle Down) and W (Haymaker) faster. The lane hinges on whether Kennen can keep his energy bar topped up to keep dashing away from your grabs.",
+  "tell": {
+   "watch": "Kennen's energy bar",
+   "theirWindow": {
+    "when": "Level 3+, energy bar full",
+    "what": "He bounces E through you or a minion to poke-and-reset while chaining autos into 3 stacks of Mark of the Storm for a stun-into-burst combo. Back off the wave and let minions eat stray Q casts instead of walking into them."
+   },
+   "yourWindow": {
+    "when": "His energy bar is visibly drained",
+    "what": "After he's spent E charges kiting or clearing wave, he has no dash left to disengage — walk up immediately and go for the double-target E (Facebreaker) into R (Show Stopper) before his energy regenerates."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "No E yet, Kennen can't kite your trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E unlocked, energy-fueled poke and kiting"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R punishes overextension, his R punishes yours"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force spike outscales his poke damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His R zones teamfights, your R still picks"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Sustains you through his auto/Q poke while every point of damage taken fills Grit for faster empowered Q procs."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tenacity cuts the stun duration off his passive Mark of the Storm proc and shortens how long his R locks you down in skirmishes; the flat MR blunts his AP poke."
+   },
+   "core": [
+    {
+     "item": "Sundered Sky",
+     "why": "Sheen proc converts to healing on your first auto per fight, which is exactly the sustain you need in a melee-vs-poke matchup during extended trades."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "The move speed and spellblade burst let you actually close the gap on his E dashes instead of eating auto-reset poke all game."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The shield and tenacity keep you alive through his all-in E-Q-auto burst combo once he has items."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he's building full AP and out-poking your sustain"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their comp stacks additional AP poke or DoT damage beyond just Kennen"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "their team has a crit or attack-speed carry punishing your engage"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "you're the primary dive target their team focuses in fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the exact playstyle this lane wants — sustained melee trades where your Grit shield and Conqueror's adaptive stacking outlast his hit-and-run poke.",
+   "primary": [
+    "Triumph",
+    "Legend: Tenacity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Unflinching"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash lets you dodge a set-piece Q stun or guarantee a landed R; Teleport resets you onto the wave after his poke shoves you off CS and punishes his frequent roams with his global-ish ultimate."
+  },
+  "playing": [
+   {
+    "title": "Walk him down levels 1-2",
+    "detail": "Before E unlocks at level 3, Kennen has zero kite tools. Press auto plus Q (Knuckle Down) trades and shove with minion aggro to deny his CS."
+   },
+   {
+    "title": "Bait Q before engaging",
+    "detail": "Thundering Shuriken is a slow skillshot with a real cooldown. If he whiffs it or burns it clearing wave, close the gap immediately and start a Grit trade."
+   },
+   {
+    "title": "Track Mark of the Storm stacks",
+    "detail": "Three stacks stun you outright. At two stacks, disengage instead of eating the auto or Q that completes the combo into his burst."
+   },
+   {
+    "title": "Punish a drained energy bar",
+    "detail": "After he double- or triple-dashes with E, his energy is tapped and he can't kite your follow-up — engage immediately with E (Facebreaker)."
+   },
+   {
+    "title": "Line up the double-target E",
+    "detail": "Facebreaker's bonus damage and stun need Kennen plus a second body behind him. Position skirmishes so a cannon minion or his jungler is in that line."
+   },
+   {
+    "title": "Time R around his dash charges",
+    "detail": "Show Stopper telegraphs before it lands. Throw it once his E charges and Flash are both down so he physically can't sidestep the knockback."
+   },
+   {
+    "title": "Build tenacity for his ult window",
+    "detail": "Slicing Maelstrom stuns every marked target in an AoE during teamfights. Your Mercury's Treads and Sterak's tenacity are what let you keep walking through it to reach his backline."
+   }
+  ],
+  "patchCaveat": "Item and rune names drift fast — verify Sundered Sky, Trinity Force, and Sterak's Gage are still live under those names, and recheck Kennen's energy costs on E (Lightning Rush) and the exact Mark of the Storm stack threshold in the current client before locking in this plan."
+ },
+ "generatedAt": 1789301896391,
+ "patch": "16.18.1",
+ "generator": "on-demand"
+}
