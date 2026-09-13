@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose when you feed a full Q chain into an up Riposte; you win when you bait W (Riposte) empty and then commit your all-in."
+  },
+  "thesis": "Both champions are combo-dependent and both have exactly one tool that punishes a wasted combo: Fiora's W (Riposte) parries whichever hit you commit to, and Aatrox's Q (The Darkin Blade) only does full damage across all three sequential slashes. At 48% over 533 games with lane and solo-kill graded even, this isn't a matchup you're behind in — it's decided by who blinks first and dumps their cooldown into nothing.",
+  "tell": {
+   "watch": "Fiora's W (Riposte) cooldown",
+   "theirWindow": {
+    "when": "Riposte (W) is up, you overextend Q3",
+    "what": "If you throw your third Q slash or R (World Ender) engage into an available Riposte, she parries it, stuns you, and swings the trade hard her way. Poke with W (Infernal Chains) or a single auto first to force it out before committing your real damage."
+   },
+   "yourWindow": {
+    "when": "Riposte (W) just went on cooldown",
+    "what": "The moment she uses W to parry a poke or it's down from a prior trade, you have a clean window to land the full Q1-Q2-Q3 chain plus E (Umbral Dash) reposition without a parry threat — this is when you all-in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "her Q poke and Riposte punish early aggression"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "trade with full Q chain, bait W first"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (World Ender) enables safer all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "core items online, skirmishes swing either way"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "she scales harder in extended teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Rated 49.6% over 337 games and the more popular choice (52.6% pick) over Doran's Shield's 49.3% — the extra lifesteal and AD matter more here since you want to win short trades outright rather than stall."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "The clear standard at 50.1% WR and 89% pick — Fiora's damage is entirely physical (autos, Q, empowered E autos), so flat reduction on her poke and her Riposte counter-hit outvalues Mercury's Treads' 54% over a much smaller 50-game sample."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The proc's shield and burst window is what lets you force a trade before her vitals fully reveal, and it's the first item in the best-performing path (54.5% over 33 games)."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Completes the highest-rated recorded core path with Eclipse and Death's Dance — the on-hit proc rewards landing your empowered Q slashes in the extended trades this matchup produces."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Caps the 54.5%-WR path; the damage-over-time conversion lets you survive her return hits after a Riposte parry instead of dying to the delayed damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spear of Shojin",
+     "when": "you want faster cooldown uptime on Q resets instead of Sundered Sky — the Eclipse-into-Shojin path hit 66.7% WR, though on a small 12-game sample"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her passive vitals healing and lifesteal are keeping her alive through your all-ins"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're getting outsustained by her vitals procs and want the grievous wounds earlier than Executioner's Calling"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive force and healing on hit rewards exactly the multi-slash Q trades this lane is built around, and it's the keystone behind both recorded rune pages for this matchup.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant pick (76.1% pick rate, 50.5% WR) and the Ignite denies her passive vitals sustain during all-in windows; Flash+Teleport (45.4% WR, 20.9% pick) is the fallback if you expect a longer, more static lane where scaling and map presence matter more than kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Bait Riposte before your real combo",
+    "detail": "Throw W (Infernal Chains) or a single auto in first. If she parries that, her W is down and your next Q chain or R engage is completely safe."
+   },
+   {
+    "title": "Track her vitals, not just her HP",
+    "detail": "Her passive reveals a glowing vital on you; once she strikes one she heals and gets bonus movement speed plus reduced cooldowns. Disengage the instant you see the vital proc rather than continuing the trade."
+   },
+   {
+    "title": "Use E to dodge her Q reset window",
+    "detail": "Umbral Dash lets you sidestep her Lunge (Q) follow-up; a dodged Q resets her nothing and wastes the cooldown she needs to keep pace with your Q chain."
+   },
+   {
+    "title": "All-in only when Riposte is down",
+    "detail": "Confirm her W is on cooldown before committing R (World Ender) — with Riposte gone, your sustain and empowered autos win the extended fight outright."
+   },
+   {
+    "title": "Respect her empowered E autos",
+    "detail": "Bladework gives her two extended-range, faster autos — don't walk up for a free trade right after she activates it; wait it out or use E to close distance only after it's spent."
+   },
+   {
+    "title": "Deny free scaling by shoving pre-6",
+    "detail": "Since she out-scales you level 14+, push waves hard before both level 6 ults to bank plates and tempo rather than passing up minion damage to look for even trades."
+   },
+   {
+    "title": "Punish her R commitment",
+    "detail": "Grand Challenge requires her to hit all four vitals to execute — if she whiffs the ult engage, her damage output craters; this is your best all-in window of the whole game."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoners here are pulled directly from measured OP.GG games on the current patch (16.18.1); the mechanical reasoning — bait timing, vitals tracking, cooldown windows — is my own read of the kits, not a stat."
+ },
+ "generatedAt": 1789273421780,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789273348620,
+  "overall": {
+   "winRate": 49.5,
+   "play": 27815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 533,
+   "wins": 256,
+   "winRate": 48
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Fiora’s Riposte (W) while you are executing [Q] by moving away with [E]. Use your abilities whenever they come off cooldown while considering her Riposte (W).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 473,
+    "pickRate": 76.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.4,
+    "play": 130,
+    "pickRate": 20.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 27.8,
+    "play": 18,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49,
+    "play": 263,
+    "pickRate": 41.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 5.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 337,
+    "pickRate": 52.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 278,
+    "pickRate": 43.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.1,
+    "play": 525,
+    "pickRate": 89
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54,
+    "play": 50,
+    "pickRate": 8.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 54.5,
+    "play": 33,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 4.4
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 50.6,
+    "play": 320,
+    "pickRate": 50.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 53.6,
+    "play": 263,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 47.7,
+    "play": 260,
+    "pickRate": 41.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56,
+    "play": 191,
+    "pickRate": 30.4
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 43.2,
+    "play": 148,
+    "pickRate": 23.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46.6,
+    "play": 116,
+    "pickRate": 18.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.9,
+    "play": 343
+   }
+  ]
+ }
+}

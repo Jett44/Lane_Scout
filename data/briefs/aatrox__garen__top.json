@@ -1,0 +1,380 @@
+{
+ "you": "Aatrox",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, favoured",
+   "line": "You lose the fight if you tunnel a W engage before he's used Decisive Strike (Q) or if you sit below ~40% HP once he hits level 6 with Ignite up, but you win from level 9 onward once Eclipse comes online and turns the measured 51.6% head-to-head (620 games) into a clean duel."
+  },
+  "thesis": "Garen wins the ability-lockout window: his Q (Decisive Strike) silence turns off your W (Infernal Chains) and R (World Ender) engage tools right as his E (Judgment) attack-speed steroid and passive Perseverance regen let him win short trades and heal it back. Once you have a full Q (The Darkin Blade) rank and Eclipse, your dash-reset damage and Deathbringer Stance procs out-scale his kit inside a single extended fight — which is exactly why Aatrox sits at 51.6% into Garen over 620 games despite only a 49.6% baseline top-lane winrate.",
+  "tell": {
+   "watch": "Garen's Decisive Strike (Q) cooldown",
+   "theirWindow": {
+    "when": "his Q is up and he's untouched 9s+",
+    "what": "If his Q (Decisive Strike) is available he can silence your W/R the instant you commit, then free-cast E (Judgment) into empowered autos while Perseverance ticks him back to full — don't engage into an available Q, and if he's gone 9+ seconds without taking damage, poke him with an auto or ranged Q edge before he tops off."
+   },
+   "yourWindow": {
+    "when": "his Q is on cooldown or whiffed",
+    "what": "Once Decisive Strike is down he has no silence and no gap-closer, so land W (Infernal Chains) first to root him, then dump your Q chain and a Deathbringer Stance-empowered auto — this is the only window where your full combo goes off uninterrupted."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "silence beats your engage, spin wins short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W rooted trades match his E/passive sustain"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Demacian Justice plus Ignite threatens a kill"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Eclipse and full Q rank flip the duel"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Death's Dance and Sterak's outlast his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The extra AD and sustain (51.6% WR, 79.1% pick over 659 games) let you match his passive Perseverance regen in early poke exchanges instead of losing the war of attrition."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "77.1% pick at 52.4% WR — flat physical damage reduction blunts his auto-attack-heavy E (Judgment) steroid and Decisive Strike bonus-damage autos."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The proc shield and burst damage line up with your W-root-into-Q-chain combo and let you punch through Courage's (W) damage reduction shield during your level 9-12 spike."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Its on-hit shield and healing extend exactly the kind of prolonged trade where you out-value his short burst windows."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts a chunk of his sustained physical DPS into a delayed DoT you can heal through with Umbral Dash (E), turning close fights in your favor by mid-game."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "you're already ahead and want to shred his armor for a faster snowball (58.3% WR path, 36 games)"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he's building toward a level-6+ Ignite/Demacian Justice all-in and you need the anti-burst shield"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're stomping lane and want to compound cooldowns and damage further (75.9% WR, small 29-game sample)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force and healing over an extended fight is how you out-sustain Perseverance and out-damage him once the fight runs past his burst window.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "77.2% pick at 51.5% WR — Ignite matches his own Ignite/Demacian Justice execute threat and denies his healing in all-ins, while Flash covers a missed Infernal Chains or a needed disengage before his level-6 burst."
+  },
+  "playing": [
+   {
+    "title": "Bait Decisive Strike First",
+    "detail": "Don't throw W (Infernal Chains) into an available Q — walk up so he wastes Decisive Strike on you or a minion, then engage in the ~8-9s window it's down, when he has no silence and no gap-closer."
+   },
+   {
+    "title": "Poke His Regen Windows",
+    "detail": "Per the matchup data, hit him with a ranged Q edge or auto whenever your abilities are up and he's gone several seconds untouched — this keeps Perseverance from ever fully triggering."
+   },
+   {
+    "title": "Respect Level 6 Executes",
+    "detail": "Once he hits 6, don't sit below ~40% HP in range — Demacian Justice (R) combined with Ignite is a real kill threat even through Sterak's Gage before you have it built."
+   },
+   {
+    "title": "Root Before You Commit",
+    "detail": "Land W (Infernal Chains) before dumping Q charges; without the root his E (Judgment) attack speed and Q bonus-damage auto win the trade back."
+   },
+   {
+    "title": "Time Your Eclipse Spike",
+    "detail": "Look for your first all-in right after completing Eclipse around level 6-7 — the proc cuts through Courage's (W) shield and marks the start of your favored window."
+   },
+   {
+    "title": "Duel Him Late Without Fear",
+    "detail": "By level 13+, Death's Dance's damage deferral and Sterak's Gage's anti-burst shield mean you can take a straight 1v1 even if he's ahead on tempo."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample figures are pulled directly from measured OP.GG games on the current patch; the trade patterns, cooldown timings, and level-by-level read are my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1789273153793,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789273048886,
+  "overall": {
+   "winRate": 49.6,
+   "play": 27055,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 620,
+   "wins": 320,
+   "winRate": 51.6
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "aggressive",
+  "opponentTip": "Engage Garen whenever your abilities come off cooldown to prevent his (P) from activating. After reaching level 6, be careful of being killed by his Ignite – Demacian Justice (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 629,
+    "pickRate": 77.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.3,
+    "play": 155,
+    "pickRate": 19
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 393,
+    "pickRate": 48.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.8,
+    "play": 56,
+    "pickRate": 7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 659,
+    "pickRate": 79.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 153,
+    "pickRate": 18.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 614,
+    "pickRate": 77.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.6,
+    "play": 144,
+    "pickRate": 18.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 44.4,
+    "play": 54,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 58.3,
+    "play": 36,
+    "pickRate": 8
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 75.9,
+    "play": 29,
+    "pickRate": 6.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.3,
+    "play": 433,
+    "pickRate": 53.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 53.5,
+    "play": 404,
+    "pickRate": 49.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.6,
+    "play": 324,
+    "pickRate": 40.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.2,
+    "play": 294,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.3,
+    "play": 193,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58.7,
+    "play": 109,
+    "pickRate": 13.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.5,
+    "play": 501
+   }
+  ]
+ }
+}

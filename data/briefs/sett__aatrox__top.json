@@ -1,0 +1,384 @@
+{
+ "you": "Sett",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable, hard early",
+   "line": "You lose if you let Aatrox land his W root into full Q chain before level 6, but you win the coinflip (48.9% over 601 games) once Stridebreaker and your own combo come online past level 9."
+  },
+  "thesis": "Aatrox's power is front-loaded: his W (Infernal Chains) root plus a fully-refreshed 2-charge Q chain and Deathbringer Stance passive let him bully every trade from level 1 through 5, which is exactly why OP.GG marks this as his lane. Sett has no answer to that chain until E and R come online, so the matchup is a race — survive his early spike, then use your W's charge-up to punish his most committed animation (his third Q swing) and flip the fight once your first item lands.",
+  "tell": {
+   "watch": "Aatrox's Q charge count",
+   "theirWindow": {
+    "when": "Aatrox has both Q charges up",
+    "what": "He can freely poke with Q1 and chain W-Q-Q-Q without any resource cost. Hold just outside his Q1 range and don't let him land the W root that starts the chain — once chained you're taking the full combo."
+   },
+   "yourWindow": {
+    "when": "Aatrox has burned both Q charges",
+    "what": "He has nothing left but autos and his E dash for several seconds. Walk him down, full-charge W (Haymaker), and follow with E (Facebreaker) — he cannot trade back until Q refreshes."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke and range outclass your early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full W root into Q chain online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults live, all-in dependent"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stridebreaker burst outpaces his scaling"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His R sustain matches your full-build DPS"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest-performing start into this matchup (48.4% over 608 games, 83.2% pick) — the extra AD and sustain from the potion let you match Aatrox's early auto trades instead of losing them outright."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Standard pick here (47.5% over 493 games, 73.3% pick) — flat damage reduction blunts his auto-attacks and Deathbringer Stance procs, which is where most of his early damage comes from."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "First completed item (~level 9-10) whose active slow lets you stick through his E dash and Q1 poke range instead of getting kited."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred keeps your empowered W autos and E damage relevant as he stacks Conqueror-adjacent resistances; part of the top-performing build path (54.2% over 72 games)."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "HP and AD scaling plus burn damage give you the health pool and sustained damage to outlast his R-fueled extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "his Deathbringer Stance and R healing are outpacing the damage you're landing"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need the extra shield and tenacity to survive his all-in rather than more raw damage"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "you're getting caught by Infernal Chains repeatedly and need to dodge the root more than mitigate autos"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want faster W/E/R cooldowns to chain skirmishes back to back"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Both measured rune pages run Conqueror — stacking it off your empowered W autos and Q pokes gives you the adaptive force and healing needed to offset Aatrox's own passive and R sustain in extended trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Shield Bash",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Overwhelmingly the standard pick (48.2% WR, 95.1% pick) — Ignite lets you secure a kill on Aatrox before his R heal-back negates the damage you've dealt, which matters more here than the marginal Teleport pick (47.4%, 2.6%) since this lane is decided by early skirmishes, not scaling."
+  },
+  "playing": [
+   {
+    "title": "Punish empty Q charges",
+    "detail": "Aatrox only carries 2 Q charges. Once he's thrown both without hitting you, he has several seconds with no poke tool — that's your window to walk up for a free trade."
+   },
+   {
+    "title": "Bait his Q3 commitment",
+    "detail": "If you do get caught by his W-Q1-Q2 chain, his third Q swing has the longest wind-up of the combo. Release a full-charged W exactly as he commits to it to out-trade him instead of eating the full chain passively."
+   },
+   {
+    "title": "Track the Deathbringer Stance glow",
+    "detail": "When his passive is lit, his next auto deals bonus AoE damage and heals him. Don't extend a trade into a lit passive — back off one auto's worth of range and let it go on cooldown first."
+   },
+   {
+    "title": "Farm Grit shield in early trades",
+    "detail": "Your Grit bar fills from taking damage and pops into a shield at max — you can afford to eat a Q poke or two early rather than giving up wave control, since it's not a free loss of health."
+   },
+   {
+    "title": "Don't E before he commits W",
+    "detail": "Save Facebreaker until after he's thrown Infernal Chains — using it early removes your own engage without punishing his, since he can just walk away."
+   },
+   {
+    "title": "All-in the moment Stridebreaker completes",
+    "detail": "Once Stridebreaker is up (~level 9-10), the active slow lets you stick through his E dash. Look for your first real all-in window right here rather than forcing it earlier."
+   }
+  ],
+  "patchCaveat": "All win rates, sample sizes, builds, boots, runes and summoner spells above are measured from real games on the current patch (16.18.1) via OP.GG. The timings, cooldown reads and combo sequencing are my own coaching interpretation of those numbers, not part of the sampled data."
+ },
+ "generatedAt": 1789272751271,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789272615577,
+  "overall": {
+   "winRate": 49.8,
+   "play": 24489,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 601,
+   "wins": 294,
+   "winRate": 48.9
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit by Aatrox’s (Q)-(E) combo by managing your distance. If hit by his combo, use the timing of his third (Q) to hit him with [W] instead to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.2,
+    "play": 691,
+    "pickRate": 95.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 2.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.3,
+    "play": 247,
+    "pickRate": 33.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 123,
+    "pickRate": 16.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.4,
+    "play": 608,
+    "pickRate": 83.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 108,
+    "pickRate": 14.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.5,
+    "play": 493,
+    "pickRate": 73.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.1,
+    "play": 109,
+    "pickRate": 16.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 54.2,
+    "play": 72,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 54.2,
+    "play": 59,
+    "pickRate": 17.7
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.6,
+    "play": 656,
+    "pickRate": 90.5
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 54.2,
+    "play": 380,
+    "pickRate": 52.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.8,
+    "play": 231,
+    "pickRate": 31.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.9,
+    "play": 160,
+    "pickRate": 22.1
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 40.8,
+    "play": 125,
+    "pickRate": 17.2
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 51.7,
+    "play": 87,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 59,
+    "play": 200
+   }
+  ]
+ }
+}

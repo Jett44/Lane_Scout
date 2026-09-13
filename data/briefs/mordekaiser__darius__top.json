@@ -1,0 +1,389 @@
+{
+ "you": "Mordekaiser",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you tank his level 3-5 Q-E-auto combo standing still, and you win if you bank W through his all-in and punish the cooldown that follows."
+  },
+  "thesis": "This is a genuinely even lane at 48.2% over 730 games because Darius's burst window (Q pull-in, E hook, empowered auto) peaks before Mordekaiser has the health and item scaling to make W (Indestructible) trade favorably. Once Mordekaiser hits his Rylai's/Riftmaker power spike, his Q (Obliterate) poke and banked shield damage close the gap back to even. The matchup is decided by who mistimes their cooldowns first, not by a structural favorite.",
+  "tell": {
+   "watch": "Darius's Hemorrhage stack count",
+   "theirWindow": {
+    "when": "Level 3-5, his Q off cooldown and full HP",
+    "what": "He can chain Q (Decimate) into an auto, E (Apprehend) pull, then another auto for a huge burst. Do not stand at max E range fighting for last hits here — give up a few CS rather than eat the full combo with your W down."
+   },
+   "yourWindow": {
+    "when": "His Q whiffs or E is spent missing you",
+    "what": "Decimate resets its cooldown only on a hit, so a whiffed Q or a wasted E pull leaves him with no engage tool for several seconds. Walk up, dump Q and E, and force a trade he can't answer."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo is online, minimal trading"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Darius's Q-E-auto burst comes first"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "W shield banks and returns his burst"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Rylai's slow plus Riftmaker sustain outtrades"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Liandry's DoT wins extended skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Doran's Shield runs a 56% win rate over 150 games and its regen-plus-block proc directly answers Darius's poke autos and Hemorrhage bleed ticks better than the more commonly picked Doran's Ring (49.3% over 740 games)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "83.3% pick rate at a 50% win rate, and OP.GG's own tip for this matchup is to prioritize armor purchases — Steelcaps directly cuts his auto-attack and Q damage."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow lets you actually stick Q and E on Darius instead of letting him walk his combo in for free; this is the most-picked full path at 60% over 60 games."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Omnivamp keeps you healthy through extended trades where he's chipping you with bleed stacks."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Bonus damage against a target you're already slowing punishes him for standing in range to land his own combo."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is building lifesteal or you need armor plus grievous wounds to shut down his passive sustain"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you are losing the early trades hard and need cheap armor with an anti-heal proc immediately"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their team stacks CC or magic damage beyond just Darius"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need a fourth item with dual scaling instead of more flat armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror ramps through the exact kind of extended, multi-auto trade this lane produces, and its adaptive force plus healing offsets the damage he's dealing back with Hemorrhage stacks.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 84.7% of games at a 51.2% win rate — this is a trading lane, and Ignite lets you close out a kill right as your banked W damage releases."
+  },
+  "playing": [
+   {
+    "title": "Don't poke Q into his approach",
+    "detail": "Obliterate has a visible wind-up; throwing it while he's closing distance just gives him a free path to trade back. Use it to zone the wave or punish him standing still, not on cooldown."
+   },
+   {
+    "title": "Bank W before his combo lands",
+    "detail": "Pop Indestructible the instant he commits Q or E so his burst gets absorbed and returned as magic damage. Popping it late or on cooldown is how you lose these trades outright."
+   },
+   {
+    "title": "Back off at 3-4 Hemorrhage stacks",
+    "detail": "Five stacks triggers his bonus bleed damage and slow — disengage before he caps it out rather than trading through it."
+   },
+   {
+    "title": "Punish a whiffed Q immediately",
+    "detail": "Decimate only resets on a hit, so a missed Q or a wasted E pull leaves him without an engage tool for several seconds — walk up and dump your combo."
+   },
+   {
+    "title": "Play around his level 6 execute",
+    "detail": "Noxian Guillotine scales off missing health and resets on takedown. Don't fight him under 40% HP near his tower once he hits 6."
+   },
+   {
+    "title": "Use E to reset spacing",
+    "detail": "Death's Grasp both slows and repositions him — use it to pull him off a minion he's using for cover or to buy space when your W is down."
+   },
+   {
+    "title": "Save R for a forced isolate, not lane poke",
+    "detail": "Realm of Death is a dueling tool, not a trading tool — hold it until you're ahead in items and want to guarantee a 1v1 he can't escape."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured from live OP.GG games on the current patch; the mechanical reasoning and trade timing are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1789271371144,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789271288949,
+  "overall": {
+   "winRate": 49.1,
+   "play": 21823,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 730,
+   "wins": 352,
+   "winRate": 48.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Purchases foremost Plated Steelcamps, Bramble Vest, and other items with armor. Maintain your distance from Darius’s (E) especially if he has Ghost.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.2,
+    "play": 787,
+    "pickRate": 84.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.3,
+    "play": 69,
+    "pickRate": 7.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 41.9,
+    "play": 43,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.8,
+    "play": 459,
+    "pickRate": 48.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.7,
+    "play": 89,
+    "pickRate": 9.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 740,
+    "pickRate": 76.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 56,
+    "play": 150,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 768,
+    "pickRate": 83.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 59.1,
+    "play": 93,
+    "pickRate": 10.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 60,
+    "play": 60,
+    "pickRate": 10.3
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 54.1,
+    "play": 37,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Thornmail"
+    ],
+    "winRate": 57.1,
+    "play": 28,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 51.7,
+    "play": 725,
+    "pickRate": 76.1
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53.2,
+    "play": 641,
+    "pickRate": 67.3
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 53.3,
+    "play": 317,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.6,
+    "play": 270,
+    "pickRate": 28.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.6,
+    "play": 225,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 56.7,
+    "play": 120,
+    "pickRate": 12.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.9,
+    "play": 423
+   }
+  ]
+ }
+}

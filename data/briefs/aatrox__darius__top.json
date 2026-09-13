@@ -1,0 +1,388 @@
+{
+ "you": "Aatrox",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you tank Darius's early Q/AA trades and get chained into an E pull before level 3; you win if you dash-dodge his engage and force isolated all-ins from level 6 on, where the numbers say you have the sniping edge."
+  },
+  "thesis": "This is a 49.2% win rate over 885 games because both champions are built to win extended 1v1s, but the way they get there differs: Darius wins by stacking Hemorrhage and forcing you into his E (Apprehend) pull radius, while you win by using E (Umbral Dash)'s two charges to dodge that pull and then out-sustain him with passive healing once the fight is already happening. Whoever dictates the terms of the all-in wins it, and OP.GG's own solo-kill data says that's you.",
+  "tell": {
+   "watch": "Darius's E (Apprehend) cooldown",
+   "theirWindow": {
+    "when": "E is up and you're near a minion wave edge",
+    "what": "Darius only threatens a real engage when E (Apprehend) is off cooldown — the outer half of the axe hitbox is what pulls, so staying centered on the wave or behind minions denies the grab entirely. If you see him walk up with E ready, back off half a step rather than trading face-first."
+   },
+   "yourWindow": {
+    "when": "his E is down or both your E charges are up",
+    "what": "This is when the 'solo-kill advantage' actually shows up on the screen. Dash in with E (Umbral Dash) for the heal-on-hit, land Q (Dark Blade) for the knock-up on the outer edge, and chain your empowered auto from passive Deathbringer's Stance — with his pull denied he has no way to reset the trade in his favor."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no reliable E dash yet, Darius Q/AA bully hard"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W online lets you root and dodge pulls"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R sustain wins isolated all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "item spikes and bleed execute trade back"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "coinflip teamfight R vs R"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 48.8% win rate sample (860 games, 76.5% pick) confirms this is the standard start — the extra sustain and damage matter because you want to be the one initiating short trades, not surviving his."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "OP.GG's own tip flags this directly: Steelcaps blunt both his auto-attack poke and his Q (Decisive Strike) hits, which is what lets you actually close distance without shredding your HP bar first. 84% pick rate at 48.9% win confirms it's the default, not a situational pick."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The burst-and-shield proc rewards exactly the kind of isolated all-in you're looking for post-6, and it's the anchor of the highest-winrate path measured (56.7% over 67 games)."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Crit-triggered healing on your first hit stacks with your passive's own lifesteal, which is the mechanical reason your extended fights outlast his bleed damage."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion directly counters his bleed stacks and Q execute-style burst — this is the item that turns 'even' trades into wins late."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "he's building tanky (Black Cleaver > Sundered Sky path hit 60.6% over 33 games) or their team is stacking armor"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game is going long and you're weaving abilities every fight rather than single-target dueling"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need the dash-reset burst to punish him before he can land a second E"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their comp shifts toward AP damage or heavy CC beyond just Darius"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking Conqueror in extended trades is what actually realizes your solo-kill edge — it converts prolonged fights (which favor you) into more damage and healing the longer the duel runs, which is the opposite of what Darius's burst-bleed kit wants.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 88.9% of games at 49% win because Ignite both denies his Q (Decisive Strike) heal on a reset and secures the solo kills this matchup is already tilted toward — Flash is your dodge for a mistimed E pull or his R (Noxian Guillotine) execute range."
+  },
+  "playing": [
+   {
+    "title": "Hug the wave pre-6",
+    "detail": "Before you have R, never stand at the outer edge of minions where Darius's E (Apprehend) hook can catch you — the axe only pulls from its far arc, so staying centered denies his entire engage tool."
+   },
+   {
+    "title": "Trade off cooldowns, not face-to-face",
+    "detail": "Only extend a trade when your Q or E is up to land the knock-up or heal — trading autos into his passive Hemorrhage just feeds his stack count for free."
+   },
+   {
+    "title": "Count his bleed stacks",
+    "detail": "Five stacks of Hemorrhage means his next ability hits harder and his R execute threshold gets easier to reach — disengage below 40% HP once he's stacked rather than trading through it."
+   },
+   {
+    "title": "Save one E charge to punish",
+    "detail": "Don't dump both charges of E (Umbral Dash) just to poke — keep one in reserve so you can immediately follow up the instant his E (Apprehend) misses or goes on cooldown."
+   },
+   {
+    "title": "All-in the instant his E is down",
+    "detail": "This is the literal mechanical reason the solo-kill stat favors you — with his pull denied, dash in, land Q's edge knock-up, and let passive Deathbringer's Stance's empowered auto close the fight."
+   },
+   {
+    "title": "Don't get baited by his R range",
+    "detail": "Noxian Guillotine has real range and resets on kill — never dip below the true-damage execute threshold near his ultimate cooldown, even if you're 'winning' the trade on paper."
+   },
+   {
+    "title": "Play for post-6 sustain fights",
+    "detail": "Your R (World Ender) rewards fights that drag on; his rewards fights that end fast. Kite half a second, force him to commit Q and E, then re-engage once his cooldowns are down."
+   }
+  ],
+  "patchCaveat": "All win rates, pick rates, item paths, runes, and summoner splits above are measured OP.GG data from real games on the current patch — the tactical reasoning (why the trades and timings play out that way) is my own read on top of those numbers."
+ },
+ "generatedAt": 1789273041086,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789272951447,
+  "overall": {
+   "winRate": 49.6,
+   "play": 27055,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 885,
+   "wins": 435,
+   "winRate": 49.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not get pulled by Darius’s (E). Purchase Plated Steelcaps first to manage your distance properly. Try to engage him whenever your abilities come off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49,
+    "play": 957,
+    "pickRate": 88.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44,
+    "play": 91,
+    "pickRate": 8.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 31.8,
+    "play": 22,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 497,
+    "pickRate": 46.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 37.7,
+    "play": 77,
+    "pickRate": 7.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.8,
+    "play": 860,
+    "pickRate": 76.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 231,
+    "pickRate": 20.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.9,
+    "play": 890,
+    "pickRate": 84
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.8,
+    "play": 127,
+    "pickRate": 12
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 56.7,
+    "play": 67,
+    "pickRate": 11.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 60.6,
+    "play": 33,
+    "pickRate": 5.8
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 53.3,
+    "play": 30,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 47.8,
+    "play": 582,
+    "pickRate": 54.1
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 50.5,
+    "play": 469,
+    "pickRate": 43.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 47.9,
+    "play": 405,
+    "pickRate": 37.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.9,
+    "play": 365,
+    "pickRate": 34
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.2,
+    "play": 231,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 56.1,
+    "play": 155,
+    "pickRate": 14.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54,
+    "play": 656
+   }
+  ]
+ }
+}

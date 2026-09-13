@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, slight edge",
+   "line": "You lose if you dump full Q chains into his E poke and let his passive stack into free shield; you win if you trade in short bursts and force the all-in after level 6."
+  },
+  "thesis": "Mordekaiser's Darkness Rise passive turns any drawn-out exchange into free magic shield the moment he lands two ability hits, while Aatrox's Deathbringer Stance rewards a short burst-then-reset pattern instead of a marathon trade. Whoever controls the length of the trade wins the lane, not whoever starts it. The 51.1% win rate over 646 games and the measured solo-kill edge both say Aatrox wins that fight when he plays for the short burst instead of the extended brawl.",
+  "tell": {
+   "watch": "Morde's Darkness Rise stack count",
+   "theirWindow": {
+    "when": "After he lands E poke pre-6",
+    "what": "He'll try to close with Q (Obliterate) to melee-finish what his E started. Don't hard-engage into a fresh E hit — step back out of Q range and make him walk the gap before you commit, since his E has real recovery and punishes you for closing distance for free."
+   },
+   "yourWindow": {
+    "when": "After your W (The Darkin Blade's Chains) lands",
+    "what": "Immediately follow with your empowered Deathbringer Stance auto into Q3 for max burst before he can trigger W (Indestructible) and convert the damage into shield. This is your actual kill window, not a poke window — commit the full combo instead of a single auto."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "His E poke and early shield outtrade your unranked Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Full Q-W-E combo online, trades become mutual"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R (Massacre) sustain wins the all-in"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "His full build and R duel neutralize your edge"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "51.7% win rate over 592 games at 71.8% pick — the AD and sustain proc keep you even in the poke exchanges before you have your full combo."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "51.5% win rate over 489 games at 65.2% pick. His stacked-passive empowered auto and E poke are magic damage, so the flat MR blunts both his harass and his all-in burst."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The proc damage and shield reward you for landing the burst combo in one window instead of trading autos with him."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Ability haste and the on-hit shield let you reset faster into the next short trade instead of committing to a long one."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Most-picked finisher on this path (45.7% win rate over 35 games, 8.3% pick) — the damage-over-time conversion keeps you alive through his passive-empowered auto after you all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Maw of Malmortius",
+     "when": "he's landing consistent E poke and burst magic damage on you (Eclipse into Sundered Sky into Maw hit 66.7% over 21 games)"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want faster ability resets to keep the short-burst pattern going"
+    },
+    {
+     "item": "Serpent's Fang",
+     "when": "he's stacking W (Indestructible) shield every fight and it's absorbing your all-in"
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "if he starts building tanky and your Q burst stops trading through his armor",
+     "when": "he starts building tanky and your Q burst stops trading through his armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The ramping adaptive force and heal-on-stacks give you the sustain to win the level 6+ all-in outright, matching the matchup's real win condition of forcing a decisive fight instead of poke.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 79.2% of games at 50.6% win rate — Ignite cuts through his W shield conversion and regen right when you commit the level-6 all-in, which is your actual win condition in this lane. Flash+Teleport (50%, 17% pick) is the alternative if you're expecting a passive, wave-management lane instead."
+  },
+  "playing": [
+   {
+    "title": "Trade in bursts, not brawls",
+    "detail": "Land your combo, get your empowered auto off, and disengage before he can land two more ability hits. Every extra ability hit he lands on you is a free stack toward his passive-empowered auto and shield."
+   },
+   {
+    "title": "Respect his E range pre-6",
+    "detail": "Don't walk into his E poke to start your own Q. Bait it on minions or wait for it to be down before you engage."
+   },
+   {
+    "title": "Combo off your W root",
+    "detail": "Your win condition all lane is landing Chains and immediately dumping Deathbringer Stance plus Q3 before he can activate W (Indestructible)."
+   },
+   {
+    "title": "Track his ult for isolated duels",
+    "detail": "His R (Realm of Death) removes outside interference, which cuts both ways — use it to close out a duel when your jungler is nearby to prevent his help, and avoid triggering it yourself when you're not ahead in the fight."
+   },
+   {
+    "title": "Punish empty passive stacks",
+    "detail": "If he's thrown out E and Q without landing them, his passive is empty — that's your safest window to force an all-in since his empowered auto isn't up."
+   },
+   {
+    "title": "Itemize MR early if poked out",
+    "detail": "If his E is consistently chunking you pre-6, prioritize Mercury's Treads over Steelcaps and consider Maw of Malmortius over Death's Dance in the build."
+   },
+   {
+    "title": "Use Ignite to seal level 6",
+    "detail": "His W self-sustain and shield conversion are strong enough to survive a clean all-in without Ignite — burn it the moment you commit at level 6."
+   }
+  ],
+  "patchCaveat": "The win rates, build paths, runes, and summoner spells above are measured from live OP.GG games on the current patch (646 Aatrox-vs-Mordekaiser games, 51.1% Aatrox win rate). The trade-timing, passive-stack, and combo-window reasoning is our own tactical read on top of that data, not part of the measured numbers."
+ },
+ "generatedAt": 1789273344638,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789273254394,
+  "overall": {
+   "winRate": 49.5,
+   "play": 27815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 646,
+   "wins": 330,
+   "winRate": 51.1
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being hit with (E) while using [Q]. Do not let his (P) continue to activate by dealing small bursts of damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.6,
+    "play": 624,
+    "pickRate": 79.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 134,
+    "pickRate": 17
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 61.5,
+    "play": 26,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.5,
+    "play": 390,
+    "pickRate": 49.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.8,
+    "play": 73,
+    "pickRate": 9.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.7,
+    "play": 592,
+    "pickRate": 71.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 191,
+    "pickRate": 23.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.5,
+    "play": 489,
+    "pickRate": 65.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.1,
+    "play": 209,
+    "pickRate": 27.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 45.7,
+    "play": 35,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Maw of Malmortius"
+    ],
+    "winRate": 66.7,
+    "play": 21,
+    "pickRate": 5
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 69.2,
+    "play": 13,
+    "pickRate": 3.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54.3,
+    "play": 409,
+    "pickRate": 50.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 52.9,
+    "play": 331,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 53.8,
+    "play": 275,
+    "pickRate": 34
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 55.6,
+    "play": 250,
+    "pickRate": 30.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.2,
+    "play": 218,
+    "pickRate": 27
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 48.5,
+    "play": 165,
+    "pickRate": 20.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.6,
+    "play": 475
+   }
+  ]
+ }
+}
