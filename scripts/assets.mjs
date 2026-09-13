@@ -82,6 +82,39 @@ const splitItems = (s) => String(s).split(/\s*[+,]\s*/).map((x) => x.trim()).fil
 const SHARDS = new Set(["adaptiveforce", "attackspeed", "abilityhaste", "armor",
   "magicresist", "health", "healthscaling", "movespeed", "tenacity", "slowresist"]);
 
+const stripQty = (s) => String(s).replace(/^\s*\d+\s*[x×]\s*/i, "").trim();
+
+/*
+ * Repair the harmless formatting differences before judging the content.
+ *
+ * The model is answering correctly but writing it differently from the schema:
+ * both summoner spells in one string, "2x Health Potion", a starting set
+ * written with pluses. Rejecting those wastes a whole generation — roughly six
+ * thousand tokens — over punctuation. Fix what is unambiguous, then validate
+ * what is left.
+ */
+export function normalizeBrief(brief) {
+  if (!brief || typeof brief !== "object") return brief;
+
+  const s = brief.summoners;
+  if (s && Array.isArray(s.picks)) {
+    s.picks = s.picks
+      .flatMap((p) => String(p).split(/\s*[+/&]\s*|\s+and\s+/i))
+      .map((p) => p.trim())
+      .filter(Boolean);
+  }
+
+  const b = brief.build;
+  if (b) {
+    const fix = (slot) => { if (slot && slot.item) slot.item = stripQty(slot.item); };
+    fix(b.start); fix(b.boots);
+    for (const x of b.core || []) fix(x);
+    for (const x of b.situational || []) fix(x);
+  }
+
+  return brief;
+}
+
 /*
  * Does this brief name anything that does not exist on the live patch?
  *
@@ -108,11 +141,14 @@ export function validateNames(brief) {
 
   for (const raw of itemFields) {
     if (!raw) continue;
-    const parts = splitItems(raw);
-    // a field that is a sentence, not an item, is a corrupted field
-    if (String(raw).split(/\s+/).length > 6) { bad.push(`item field is prose: "${String(raw).slice(0, 50)}…"`); continue; }
-    for (const one of parts) {
-      if (!items.has(norm(one))) bad.push(`no such item: "${one}"`);
+    /* Judge each named item, not the length of the whole field — a legitimate
+       starting set like "Doran's Ring + Health Potion + Health Potion" is long
+       but every part of it is real. Prose is a part that is both unrecognised
+       and sentence-shaped. */
+    for (const one of splitItems(raw).map(stripQty)) {
+      if (items.has(norm(one))) continue;
+      if (one.split(/\s+/).length > 4) bad.push(`item field is prose: "${one.slice(0, 50)}…"`);
+      else bad.push(`no such item: "${one}"`);
     }
   }
 

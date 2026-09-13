@@ -9,7 +9,7 @@ import {
   VARIANTS_DIR, variantKey, variantPath
 } from "./lib.mjs";
 import { matchupStats, statsForPrompt } from "./stats.mjs";
-import { validateNames } from "./assets.mjs";
+import { validateNames, normalizeBrief } from "./assets.mjs";
 
 /* Anything here means the account is out of room or not usable right now.
    Callers should stop rather than retry — hammering it cannot succeed. */
@@ -107,6 +107,10 @@ export async function generateOne(you, them, lane, patch, { timeoutMs, context }
     const res = askClaude(buildPrompt(you, them, lane, ctx, block), timeoutMs);
     if (res.fatal) return { ok: false, fatal: true, error: res.err };
     if (res.err)  return { ok: false, error: res.err };
+
+    /* Repair formatting differences before judging content, so a generation is
+       not thrown away over punctuation. */
+    normalizeBrief(res.brief);
 
     const bad = validate(res.brief);
     if (bad.length) return { ok: false, error: `rejected: ${bad.join("; ")}` };
