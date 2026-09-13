@@ -11,7 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
-  BRIEFS_DIR, TEMPLATE, OFFLINE_JS, DIST, DATA_JSON, REMOTE_DATA, keyFor, stats
+  BRIEFS_DIR, TEMPLATE, OFFLINE_JS, DIST, DATA_JSON, REMOTE_DATA, ROOT, keyFor, stats
 } from "./lib.mjs";
 import { readState } from "./patch.mjs";
 import { readAssets } from "./assets.mjs";
@@ -83,6 +83,10 @@ export function build() {
 
   fs.mkdirSync(path.dirname(DIST), { recursive: true });
   fs.writeFileSync(DIST, out, "utf8");
+
+  /* The same page at the repo root, so GitHub Pages serves it from the bare
+     URL instead of /dist/lane-scout.html. Harmless if Pages is switched off. */
+  fs.writeFileSync(path.join(ROOT, "index.html"), out, "utf8");
 
   const mb = (Buffer.byteLength(out, "utf8") / 1048576).toFixed(2);
   console.log(`built ${DIST} — ${meta.count} matchups, ${mb} MB, patch ${patch ?? "unknown"}`);
