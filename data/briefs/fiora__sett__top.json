@@ -1,0 +1,138 @@
+{
+ "you": "Fiora",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you tap Riposte early or stand in extended melee before level 6; you win if you save Riposte for his grab and punish the whiff."
+  },
+  "thesis": "Sett's entire threat is compressed into two commitment abilities, E (Facebreaker) and R (The Show Stopper), both of which are single-target grabs that W (Riposte) fully negates. Everything else he does — Q (Knuckle Down) empowered punches, passive Grit healing — is manageable auto-attack pressure that Fiora out-scales once vitals start proc'ing. The matchup is decided by whether you burn Riposte on his pokes or hold it for the grab.",
+  "tell": {
+   "watch": "Sett's Grit meter (passive)",
+   "theirWindow": {
+    "when": "Grit bar full and E (Facebreaker) off cooldown",
+    "what": "This is his all-in: full Grit means his next auto is empowered and heals him, and E lets him yank you in for a stun into that empowered hit plus Q punches. Don't stand in melee range while his bar climbs — back up a step and force him to walk up before he's ready."
+   },
+   "yourWindow": {
+    "when": "immediately after you parry his E or R with Riposte",
+    "what": "His grab, his stun, and often his Grit payoff are all wasted in one W. Chain Bladework (E) empowered autos into his revealed vitals right away — he has no escape and no CC left to punish the follow-up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Riposte online at 2 swings tempo to you"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Facebreaker) grab all-in spikes hard"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Riposte eats R, ult sustain takes over"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Fiora out-duels, Sett's kit falls off"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Blunts his early auto-attack poke and passive-fueled trades so you aren't forced to burn Riposte before level 3 just to survive."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Every point of his damage — autos, empowered Q punches, E/R grab damage — is physical; flat armor plus the auto-attack reduction directly blunts his all-in burst."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Sheen burst and movement speed help you stick through his engage range and disengage after landing a Riposte punish."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Cleave for wave management plus lifesteal that competes directly with his Grit-fueled self-healing in extended trades."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts his grab-combo burst into a damage-over-time tick, so your own sustain outpaces it during and after his all-in window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "his Grit and empowered-auto healing is outpacing the damage you're landing"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "you're already ahead in lane and want insurance against a coordinated dive"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he's building bruiser HP and his all-in burst threatens to one-round you through Riposte's cooldown"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the exact fight pattern this matchup wants — win extended skirmishes by outlasting his Grit sustain, and the healing on stacks compounds with your vitals procs.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Armor"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash lets you reposition out of his E/R grab range or close distance right after a Riposte parry; Teleport keeps you relevant to sidewaves since this lane is won on skill windows, not early kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Hold Riposte for the grab",
+    "detail": "Never spend W (Riposte) on his basic auto poke pre-6. Save it exclusively for E (Facebreaker) or R (The Show Stopper) — blocking either voids his entire all-in."
+   },
+   {
+    "title": "Poke with Lunge, don't melee trade",
+    "detail": "Use Q (Lunge) to proc vitals and reset distance instead of standing in auto range, since prolonged melee contact is exactly what fills his Grit meter."
+   },
+   {
+    "title": "Back off when Grit is near full",
+    "detail": "A near-capped Grit bar means his next auto is empowered and heals him; step out of range and make him walk up before it triggers."
+   },
+   {
+    "title": "Chain Bladework after a parry",
+    "detail": "The instant Riposte lands, use E (Bladework) empowered autos into his revealed vitals — his CC and burst are gone and he can't answer."
+   },
+   {
+    "title": "Avoid the 3-5 all-in window",
+    "detail": "Play for freezes and short trades rather than extended fights right after he unlocks E; this is his single strongest kill window before your Riposte timing is proven."
+   },
+   {
+    "title": "Prioritize Grievous Wounds if losing sustain",
+    "detail": "If his Grit and empowered-auto healing keeps winning trades on HP totals, rush Mortal Reminder rather than more raw damage."
+   }
+  ],
+  "patchCaveat": "Item names (Trinity Force, Ravenous Hydra, Death's Dance, Mortal Reminder) and exact rune shard options can shift between seasons — verify current builds in-client. The core interaction that defines this matchup, W (Riposte) fully negating Sett's E (Facebreaker) and R (The Show Stopper) grabs, has held stable across many patches, but double-check current numbers on 16.18.1 before committing to this plan."
+ },
+ "generatedAt": 1789258215648,
+ "patch": "16.18.1",
+ "generator": "on-demand"
+}
