@@ -82,7 +82,11 @@ const splitItems = (s) => String(s).split(/\s*[+,]\s*/).map((x) => x.trim()).fil
 const SHARDS = new Set(["adaptiveforce", "attackspeed", "abilityhaste", "armor",
   "magicresist", "health", "healthscaling", "movespeed", "tenacity", "slowresist"]);
 
-const stripQty = (s) => String(s).replace(/^\s*\d+\s*[x×]\s*/i, "").trim();
+/* Quantities turn up on either side: "2x Health Potion" and "Health Potion x2". */
+const stripQty = (s) => String(s)
+  .replace(/^\s*\d+\s*[x×]?\s+/i, "")
+  .replace(/\s*[x×]\s*\d+\s*$/i, "")
+  .trim();
 
 /*
  * Repair the harmless formatting differences before judging the content.

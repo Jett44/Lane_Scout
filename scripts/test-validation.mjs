@@ -46,6 +46,12 @@ const cases = [
       boots: { item: "Plated Steelcaps" }, core: [], situational: [] } })
   },
   {
+    name: "quantity suffix on an item",
+    expect: "accept",
+    brief: brief({ build: { start: { item: "Health Potion x2" },
+      boots: { item: "Plated Steelcaps" }, core: [], situational: [] } })
+  },
+  {
     name: "prose in the item slot",
     expect: "reject",
     brief: brief({ build: { start: { item: "she is snowballing and out-dueling you even with sustained damage" },

@@ -13,7 +13,22 @@ import { validateNames, normalizeBrief } from "./assets.mjs";
 
 /* Anything here means the account is out of room or not usable right now.
    Callers should stop rather than retry — hammering it cannot succeed. */
-export const FATAL = /not logged in|please run \/login|usage limit|rate limit|quota|exceeded|insufficient|unauthor|forbidden|credit balance/i;
+/*
+ * Conditions where the next attempt cannot succeed either, so the run must
+ * stop rather than keep spawning.
+ *
+ * This was matching "usage limit" but the CLI actually says "You've hit your
+ * session limit · resets 2:10am" — so a run that was out of room carried on
+ * and failed twenty more times. Match the shape (any "<something> limit", or
+ * anything that tells you when it resets), not one exact phrase.
+ */
+export const FATAL = new RegExp([
+  "not logged in", "please run /login",
+  "\\b(usage|session|rate|message|token|request)\\s+limit\\b",
+  "limit\\s*[·.-]?\\s*resets", "resets\\s+at\\b",
+  "quota", "exceeded", "insufficient", "unauthor", "forbidden",
+  "credit balance", "too many requests", "overloaded"
+].join("|"), "i");
 
 export function extractJson(text) {
   if (!text) return null;
