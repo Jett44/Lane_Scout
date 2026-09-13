@@ -680,6 +680,20 @@ function iconImg(kind, name, cls){
     ".pick-it:hover,.pick-it.sel{background:var(--accent);color:#fff}" +
     ".pick-it.has{color:var(--accent)}" +
     ".pick-it.has:hover,.pick-it.has.sel{color:#fff}" +
+    /* not written yet: visible, but clearly not the same thing */
+    ".pick-it.none{color:var(--ink-3)}" +
+    ".pick-it.none .ic{opacity:.45;filter:grayscale(1)}" +
+    ".pick-it.none:hover,.pick-it.none.sel{color:#fff}" +
+    ".pick-it.none:hover .ic,.pick-it.none.sel .ic{opacity:1;filter:none}" +
+
+    /* --- skill order --- */
+    ".skills{display:flex;gap:3px;flex-wrap:wrap}" +
+    ".sk{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:19px}" +
+    ".sk .lv{font-family:var(--mono);font-size:8.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}" +
+    ".sk .ab{width:19px;height:19px;display:grid;place-items:center;border-radius:2px;" +
+      "font-family:var(--display);font-weight:700;font-size:12px;background:var(--surface-2);color:var(--ink)}" +
+    ".sk.r .ab{background:var(--accent);color:#fff}" +
+    ".skillnote{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--ink-3);margin:9px 0 0}" +
     ".pick-none{padding:12px;font-family:var(--mono);font-size:10.5px;color:var(--ink-3);line-height:1.6}" +
     ".pickhint{padding:5px 7px 8px;font-family:var(--mono);font-size:9px;letter-spacing:.1em;" +
       "text-transform:uppercase;color:var(--ink-3);border-bottom:1px solid var(--line);margin-bottom:6px}" +
@@ -873,18 +887,15 @@ var pickFor = null, pickSel = 0, pickList = [];
 var pickTyped = false;
 
 function pickCandidates(which, q){
-  var all;
-  if (which === "them"){
-    var you = $("you").value.trim();
-    var covered = INDEX[you] || [];
-    all = CAN_GENERATE
-      ? covered.concat(CHAMPS.filter(function(c){ return covered.indexOf(c) === -1; }))
-      : (covered.length ? covered : CHAMPS.slice());
-  } else {
-    all = CAN_GENERATE
-      ? COVERED.concat(CHAMPS.filter(function(c){ return COVERED.indexOf(c) === -1; }))
-      : (COVERED.length ? COVERED.slice() : CHAMPS.slice());
-  }
+  /* Always offer the whole roster. Showing only champions that happen to have
+     a brief makes the app look broken: you go looking for Gnar, he is not
+     there, and nothing explains why. Written ones sort first and are marked,
+     the rest stay visible but dimmed, and picking one says plainly that it has
+     not been written yet. */
+  var covered = which === "them"
+    ? (INDEX[$("you").value.trim()] || [])
+    : COVERED;
+  var all = covered.concat(CHAMPS.filter(function(c){ return covered.indexOf(c) === -1; }));
   if (!q) return all;
   var lq = q.toLowerCase();
   var starts = [], contains = [];
@@ -915,14 +926,14 @@ function renderPick(){
   pickList = pickCandidates(pickFor, pickTyped ? input.value.trim() : "");
   if (pickSel >= pickList.length) pickSel = 0;
 
-  var hint = pickFor === "them"
-    ? (CAN_GENERATE ? "opponents — written ones first" : "opponents in this build")
-    : (CAN_GENERATE ? "champions — written ones first" : "champions in this build");
+  var written = pickList.filter(function(c){ return hasBrief(pickFor, c); }).length;
+  var hint = (pickFor === "them" ? "opponents" : "champions")
+    + " — " + written + " written, dimmed ones not yet";
 
   pick.innerHTML = pickList.length
     ? '<div class="pickhint">' + hint + '</div><div class="pgrid">'
       + pickList.slice(0, 120).map(function(c, i){
-          return '<button class="pick-it' + (hasBrief(pickFor, c) ? " has" : "")
+          return '<button class="pick-it ' + (hasBrief(pickFor, c) ? "has" : "none")
             + (i === pickSel ? " sel" : "") + '" data-champ="' + esc(c) + '">'
             + iconImg("champ", c, "sm") + '<span>' + esc(c) + '</span></button>';
         }).join("") + '</div>'
@@ -1007,7 +1018,30 @@ function itemRow(it, slotLabel, numbered, sit){
 
 /* Runes and summoners are built inside the template's renderer, so decorate
    them afterwards from the same data rather than duplicating the renderer. */
-function decorate(brief){
+/* Skill order comes straight from the measured data, not from the model —
+   there is no reason to round-trip a fact through a language model. One cell
+   per level, with the ultimate picked out. */
+function skillOrderHtml(rec){
+  var so = rec && rec.stats && rec.stats.skillOrder && rec.stats.skillOrder[0];
+  var order = so && so.order;
+  if (!order || !order.length) return "";
+
+  var cells = order.map(function(ab, i){
+    var a = String(ab).toUpperCase();
+    return '<div class="sk ' + a.toLowerCase() + '">'
+      + '<div class="lv">' + (i + 1) + '</div>'
+      + '<div class="ab">' + esc(a) + '</div></div>';
+  }).join("");
+
+  return '<section class="sec"><h2>Skill order</h2>'
+    + '<div class="skills">' + cells + '</div>'
+    + (so.winRate != null
+        ? '<p class="skillnote">' + so.winRate + '% over ' + so.play + ' games</p>'
+        : "")
+    + '</section>';
+}
+
+function decorate(brief, rec){
   var runes = brief.runes || {};
 
   var ks = document.querySelector(".keystone .nm");
@@ -1033,6 +1067,18 @@ function decorate(brief){
   var sums = document.querySelectorAll(".sum");
   for (var j = 0; j < sums.length && j < picks.length; j++){
     sums[j].innerHTML = iconImg("spell", picks[j], "sm") + "<span>" + esc(picks[j]) + "</span>";
+  }
+
+  /* Slot the skill order into the rail, straight after the build order. */
+  var html = skillOrderHtml(rec);
+  if (html){
+    var rail = document.querySelector(".rail");
+    var secs = rail && rail.querySelectorAll(".sec");
+    if (rail && secs && secs.length){
+      var holder = document.createElement("div");
+      holder.innerHTML = html;
+      rail.insertBefore(holder.firstChild, secs[1] || null);
+    }
   }
 }
 
@@ -1104,7 +1150,7 @@ function generateNow(you, them, context){
         VARIANT = rec;
         render({ you: rec.you, them: rec.them, lane: rec.lane, context: rec.context, brief: rec.brief },
                { kind: "offline" });
-        decorate(rec.brief);
+        decorate(rec.brief, rec);
         stampMeta(rec, keyFor(rec.you, rec.them, rec.lane), rec.context);
         window.scrollTo({ top: 0, behavior: "smooth" });
         return;
@@ -1171,7 +1217,7 @@ function scout(){
 
   render({ you: rec.you, them: rec.them, lane: rec.lane, context: "", brief: rec.brief },
          { kind: "offline" });
-  decorate(rec.brief);
+  decorate(rec.brief, rec);
   stampMeta(rec, key);
   remember(key);
   window.scrollTo({ top: 0, behavior: "smooth" });
