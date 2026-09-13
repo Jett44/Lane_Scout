@@ -1,0 +1,380 @@
+{
+ "you": "Jax",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you trade into his empowered post-ability auto before level 6 or contest his Q3 knockup at melee range; you win if you survive to your first two item spikes and turn it into a war of attrition."
+  },
+  "thesis": "This is a 46.8% win rate over 631 games with lane and solo-kill advantage both going to Aatrox, and the reason is structural: his passive (Deathbringer Stance) and Q (The Darkin Blade) reward every trade he initiates, while Jax's counter-tool, E (Counter Strike), only nullifies one attack at a time and can't be held indefinitely. Jax doesn't out-damage Aatrox in an even fight before items — he out-scales him after them. The lane is defensive by design: absorb, don't answer.",
+  "tell": {
+   "watch": "Aatrox's E (Umbral Dash) charges",
+   "theirWindow": {
+    "when": "right after he casts any ability",
+    "what": "His passive Deathbringer Stance is now armed — his next auto deals bonus true-adjacent damage and heals him off your missing HP. If you're mid-trade when this procs, back out or eat it with E (Counter Strike) up; don't just tank it on cooldown."
+   },
+   "yourWindow": {
+    "when": "both his E dash charges spent",
+    "what": "Aatrox has 2 charges on Umbral Dash for reset/disengage. With both down he can't escape or extend, so this is when you commit Q (Leap Strike) into an extended trade — he has no way to reposition around your Counter Strike stun."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q1 range and passive punish any auto trade"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "solo-kill threat peaks, W maxed slow"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R lands, but his R still wins all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force spike outscales his flat kit"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build, Relentless Assault wins fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "45.1% win rate over 523 games and the majority pick (69%) — the extra AD and sustain matter more here than shield block, since most of his early damage lands as a single burst-into-heal rather than sustained poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "45.3% win rate over 483 games and 68.4% pick — his damage is almost entirely auto-attack and on-hit (Q, empowered post-ability auto), so flat physical reduction directly undercuts both his trade damage and his passive heal-back."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The single highest-sample core path (41.7% over 60 games with Sundered Sky/Zhonya's). Sheen proc off Empower or Leap Strike is your first real damage spike and the point where the lane stops being one-sided."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Crit-proc heal and armor scale directly against his auto-heavy, physical-leaning kit, letting you actually win extended trades instead of just surviving them."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Answers his all-in windows and his R (World Ender) burst phase — stasis through his empowered auto or through his R engage buys the fight back."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "his all-ins chain Q3 knockup into an empowered auto and you need the damage bled back over time instead of eaten instantly"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "you're ahead in gold and want to shred a champion who otherwise heals off missing-health procs"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need the extra mobility/burst to punish him once his cooldowns are down"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "45.6% win rate on this page versus 42.9% on the Lethal Tempo page — the bonus max HP and free sustain on your first auto every ~4s directly answers a lane where you're absorbing damage more than dealing it, and it keeps you alive through poke you can't otherwise trade back into.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "48.7% win rate over the Flash+Teleport combo versus 46.4% for Flash+Ignite — given the lane is defensive and you're behind on solo-kill potential, Teleport lets you reset off bad trades, hold wave state under pressure, and still show up for plates or a tempo swing instead of forcing kill pressure you don't have early."
+  },
+  "playing": [
+   {
+    "title": "Keep trades to one exchange",
+    "detail": "Land Q (Leap Strike) into an auto and disengage rather than staying in extended range — every extra auto he lands off Deathbringer Stance both damages and heals him."
+   },
+   {
+    "title": "Save E for his empowered auto",
+    "detail": "Don't pop Counter Strike proactively. Wait for the auto right after he uses an ability — dodging that single hit removes most of a trade's damage and denies the heal entirely."
+   },
+   {
+    "title": "Never stand in his Q3 arc",
+    "detail": "The third cast of The Darkin Blade knocks up in melee range — step to the side rather than backing straight up, since backing up in a line keeps you inside it."
+   },
+   {
+    "title": "Count his dash charges before committing",
+    "detail": "Umbral Dash has 2 charges. If both are down he can't reset or escape — that's your window to force a full trade with E covering his response."
+   },
+   {
+    "title": "Use R to tank the engage, not extend a kill",
+    "detail": "Grandmaster's Might's bonus armor/MR is best popped right before he commits, softening the opening burst so you survive to your own damage window."
+   },
+   {
+    "title": "Play for the Trinity Force spike, not lane kills",
+    "detail": "You are not favored to win all-ins before your first big item. Farm safely under tower pressure and let the matchup flip once Sheen procs are online."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates above are pulled from measured games on the current patch (16.18.1) via OP.GG — the mechanical reasoning and trade-timing advice are my own read of the kits, not measured data."
+ },
+ "generatedAt": 1789293213947,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789293101509,
+  "overall": {
+   "winRate": 50,
+   "play": 28907,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 631,
+   "wins": 295,
+   "winRate": 46.8
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of Aatrox’s The Darkin Blade (Q)! Use Counter Strike [E] to block his Deathbringer Stance (P). Purchase items that reduce healing.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.4,
+    "play": 584,
+    "pickRate": 80.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.7,
+    "play": 117,
+    "pickRate": 16.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.2,
+    "play": 23,
+    "pickRate": 3.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 261,
+    "pickRate": 35.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.6,
+    "play": 57,
+    "pickRate": 7.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.1,
+    "play": 523,
+    "pickRate": 69
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44,
+    "play": 125,
+    "pickRate": 16.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.3,
+    "play": 483,
+    "pickRate": 68.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.1,
+    "play": 106,
+    "pickRate": 15
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 41.7,
+    "play": 60,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 4.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.2,
+    "play": 569,
+    "pickRate": 79.4
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 44.8,
+    "play": 248,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 50,
+    "play": 158,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 46,
+    "play": 150,
+    "pickRate": 20.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 46.3,
+    "play": 123,
+    "pickRate": 17.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 47.9,
+    "play": 117,
+    "pickRate": 16.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 51.2,
+    "play": 297
+   }
+  ]
+ }
+}

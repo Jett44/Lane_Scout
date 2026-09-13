@@ -1,0 +1,388 @@
+{
+ "you": "Jax",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you trade into a fully-stacked Darkness Rise or eat a clean Death's Grasp; you win if you force fights right after his E whiffs or the instant your level 6/11 R comes online."
+  },
+  "thesis": "Both champions are playing a stack-and-punish game: Mordekaiser needs Darkness Rise fully charged off Q/W/E hits before an auto becomes a free heal-and-burn, while Jax needs Grandmaster's Might (R) or a dodged Counter Strike (E) window to force a fight on his terms. Neither side has a hard structural edge — 50.8% over 520 games confirms it — so the lane is decided by who reads the other's cooldown/stack timer better, not by kit superiority.",
+  "tell": {
+   "watch": "Morde's passive stack fill",
+   "theirWindow": {
+    "when": "His passive icon reads fully stacked",
+    "what": "Disengage immediately instead of trading through it — his next auto heals him off the damage he just landed and adds bonus magic damage, which is exactly the 'retreat' trigger OP.GG is flagging."
+   },
+   "yourWindow": {
+    "when": "Right after he whiffs Death's Grasp (E)",
+    "what": "Walk in and start chaining Empower (W) autos immediately. His pull is now on a long cooldown, so he has no way to disengage or reset the trade until it comes back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "poke and sustain roughly cancel out"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "passive stacks punish extended trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R stun wins forced all-ins"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "his R matches your duel power"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "full build out-scales his stat check"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest-performing start (51.5% over 412 games, 62.2% pick) — the extra sustain and damage let you match his poke through level 2-3 instead of losing the HP race before your first back."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Most-picked and best-performing boots (49.3% over 414 games, 69.4% pick) — tenacity blunts the Death's Grasp slow chain and the MR helps against a full-AP laner."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Part of the highest-winrate core path (58.7% over 46 games) — the Empower (W) proc scaling off Trinity is what turns your maxed-W trades into real damage from level 6 on."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item in the same 58.7% path — the on-hit proc and healing let you win the extended trades this matchup produces without falling behind on sustain."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Completes the top-performing measured path — lets you commit to all-ins inside his Realm of Death (R) without dying to the isolation burst."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "the game runs long and you need bleed-and-heal sustain against his repeated magic poke instead of a defensive Zhonya's (58.8% over 17 games with this swap)"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "you're already ahead and want faster dueling/wave-clear pressure over a third defensive item"
+    },
+    {
+     "item": "Wit's End",
+     "when": "he starts stacking magic resist and you need the percent-health on-hit damage and tenacity to keep skirmishing"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes very late and you need the split damage profile against his all-AP damage instead of more raw attack speed"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "This is the majority page (40.8% pick, 49.8% wr) and fits the maxed-W, auto-heavy trade pattern this matchup produces — ramping attack speed rewards standing in and chaining Empower autos. If you'd rather lean into surviving his early poke instead of scaling, the Grasp of the Undying/Second Wind page (54.8% wr on a smaller 6.4%-pick sample) trades ceiling for lane sustain.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the most-picked (77%) and best-performing (51.5%) combo — Ignite cuts through the heal he gets from a fully-stacked Darkness Rise or his ultimate, turning close skirmishes into kills. Flash+Teleport (50.5%, 14.9% pick) is the alternative if you're prioritizing wave management and scaling into your item spikes over early kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Dodge Death's Grasp with movement",
+    "detail": "His E has a visible windup and a long cooldown once used — sidestep it rather than trading through it, since getting pulled locks you into full poke-and-auto range for the rest of the exchange."
+   },
+   {
+    "title": "Track his passive stack fill",
+    "detail": "Darkness Rise stacks off his Q/W/E hits; once the icon reads full, his next auto heals him and adds bonus magic damage. This is the exact retreat trigger OP.GG calls out — break off before he lands that auto, not after."
+   },
+   {
+    "title": "Use Counter Strike on his autos, not his spells",
+    "detail": "Counter Strike (E) only dodges incoming basic attacks — it does not stop Obliterate (Q) or Death's Grasp (E). Save it to punish him for last-hitting or trading autos, not as a defensive answer to his poke."
+   },
+   {
+    "title": "All-in right at your level 6 spike",
+    "detail": "Grandmaster's Might (R) gives a guaranteed stun on your next attack plus bonus resistances and refreshes Counter Strike — from level 6-10 this wins straight fights even through one passive proc, so force it the moment he's used Q or E on a minion."
+   },
+   {
+    "title": "Max W second for the trade pattern",
+    "detail": "The measured skill order maxes W right after E and Q (EQWWW...), so your empowered auto ramps fastest in damage and cooldown — lean on auto-W-auto trades from level 3-5 instead of forcing Q all-ins you can't yet win."
+   },
+   {
+    "title": "Respect his ultimate, don't fear it",
+    "detail": "Realm of Death isolates you 1v1 with no outside interference, but the matchup data says this is even — don't commit to a long fight inside it unless your own E stun or R is already up."
+   },
+   {
+    "title": "Freeze pre-6, shove post-6",
+    "detail": "Since the lane is a dead-even 50.8% over 520 games, wave state decides more fights than raw stats do — hold the freeze near your tower before level 6, then shove in to punish his passive falling off between engages once you have R."
+   }
+  ],
+  "patchCaveat": "The winrates, sample sizes, build order, rune pages, and summoner spell rates above are measured OP.GG data from real games on the current patch (16.18.1). The trade-pattern reasoning, cooldown windows, and skill-order justification explaining why those numbers look the way they do are my own tactical read."
+ },
+ "generatedAt": 1789292953475,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789292851557,
+  "overall": {
+   "winRate": 50,
+   "play": 28907,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 520,
+   "wins": 264,
+   "winRate": 50.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by Death’s Grasp(E). Retreat if Mordekaiser’s passive ability activates.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 501,
+    "pickRate": 77
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.5,
+    "play": 97,
+    "pickRate": 14.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.7,
+    "play": 46,
+    "pickRate": 7.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.8,
+    "play": 269,
+    "pickRate": 40.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.8,
+    "play": 42,
+    "pickRate": 6.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 412,
+    "pickRate": 62.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.5,
+    "play": 103,
+    "pickRate": 15.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.3,
+    "play": 414,
+    "pickRate": 69.4
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.9,
+    "play": 98,
+    "pickRate": 16.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 58.7,
+    "play": 46,
+    "pickRate": 12.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 4.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Wit's End"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52,
+    "play": 483,
+    "pickRate": 76.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 58.7,
+    "play": 201,
+    "pickRate": 31.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 48.2,
+    "play": 170,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 52.1,
+    "play": 140,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 54,
+    "play": 137,
+    "pickRate": 21.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 48.3,
+    "play": 118,
+    "pickRate": 18.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 56.4,
+    "play": 282
+   }
+  ]
+ }
+}
