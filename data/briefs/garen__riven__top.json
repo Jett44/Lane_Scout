@@ -1,0 +1,377 @@
+{
+ "you": "Garen",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose when Riven chains Valor into Ki Burst and empowered Runic Blade autos before you can answer; you win when you catch both on cooldown and burst her down with Demacian Justice and Ignite past level 6."
+  },
+  "thesis": "Garen has no dash and Q (Decisive Strike) only breaks slows, not stuns, so this lane is decided entirely by whether Riven can land Valor (E) into Ki Burst (W) before her own cooldowns are down. At 586 games this sits at 52.2% for Garen — a genuine coinflip where OP.GG's own read (burst her the instant your abilities come off cooldown, finish with Ignite past level 6) is the literal win condition, not a stylistic suggestion.",
+  "tell": {
+   "watch": "Riven's Runic Blade charge stacks",
+   "theirWindow": {
+    "when": "her E and W are both up",
+    "what": "She dashes in with Valor (E) blocking your damage during the step, stuns with Ki Burst (W), and unloads empowered Runic Blade autos plus Q (Broken Wings) hits. You cannot cleanse the stun — Q only breaks slows — so disengage or hold W (Courage) sustain instead of standing in it."
+   },
+   "yourWindow": {
+    "when": "her Q charges or E are spent",
+    "what": "The moment she's burned all three Broken Wings charges (single 13s cd) or Valor (10-6s cd), she has no gap-close and no escape. Walk in, hold W (Courage) for the sustained spin, weave E (Judgment), and close with Q (Decisive Strike)'s silence into autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ki Burst online at 2, you only have Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "your E and W now match her combo"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R plus Ignite threatens the execute"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "full builds, decided by cooldown reads"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Highest-pick start (50.4% pick) and it blunts the poke from her Q pokes and empowered autos while your Perseverance regen ticks between trades."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "Best-performing boots here (52.8% over 462 games) — the attack speed keeps your auto uptime relevant against her Runic Blade trading pattern."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The active slow is your only way to stick to Riven's dashes since Garen has no gap-closer of his own."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed and crit sustain your auto trades once she's out of Valor charges."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Standard third item in the highest-sample core path (129 games) — grievous wounds caps her healing during extended all-ins."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "if she's diving onto you repeatedly and you need more durability to trade through Ki Burst"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "if you're ahead and want more movement speed to punish her when her Q charges are down"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "if she's building sustain and grievous wounds is needed sooner than Mortal Reminder completes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror stacks over the extended spin-and-auto trades this matchup produces and heals you back for the sustained damage her Runic Blade autos and Ki Burst combo deal — track your own stacks the same way OP.GG's tip says to track hers.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Flash + Ignite is run in 93.9% of games at 52.2% win rate and sets up the level 6+ execute burst OP.GG flags as the actual win condition. Flash + Exhaust shows a higher 65% win rate in a much smaller 2.9%-pick sample — a fine alternative if you'd rather neutralize her all-in directly instead of racing to burst her."
+  },
+  "playing": [
+   {
+    "title": "Never trade into open E and W",
+    "detail": "If Valor (E) and Ki Burst (W) are both up, she can dash in, stun, and unload empowered autos with no way for you to cleanse it. Wait for one to be down before extending."
+   },
+   {
+    "title": "Punish her spent cooldowns",
+    "detail": "The instant her three Q (Broken Wings) charges or her E are burned, she has no gap-close or escape — walk in and commit the full combo."
+   },
+   {
+    "title": "Bank Demacian Justice for kill windows",
+    "detail": "R drops from 140s at rank 1 to 20s at rank 5, so by mid game you can threaten an execute almost every big trade. Pair it with Ignite the moment she's isolated past level 6."
+   },
+   {
+    "title": "Let Perseverance actually tick",
+    "detail": "Your passive regenerates a percentage of health per second whenever you haven't recently taken damage — disengage cleanly after short trades instead of chasing so it has time to work."
+   },
+   {
+    "title": "Lead extended fights with your spin",
+    "detail": "Valor (E) only blocks incoming damage during her dash, not afterward, so Judgment (E) hitting everyone nearby out-trades relying on autos she can win with Runic Blade charges."
+   },
+   {
+    "title": "Don't chase her last Q charge",
+    "detail": "Broken Wings can be recast up to three times with the third hit knocking back nearby enemies — if she's saving a charge near her jungle exits, that's an escape, not a commitment."
+   }
+  ],
+  "patchCaveat": "Build, rune, and win-rate figures are measured from live games on the current patch via OP.GG; the cooldown reads, trade windows, and tell timing are my own tactical analysis on top of that data."
+ },
+ "generatedAt": 1789401952026,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789401844492,
+  "overall": {
+   "winRate": 50.8,
+   "play": 48703,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 586,
+   "wins": 306,
+   "winRate": 52.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Keep an eye out on Riven’s Conqueror stacks before fighting her. Try to deal burst damage whenever your abilities come off cooldown. After reaching level 6, try to kill her in one burst using Ignite.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.2,
+    "play": 647,
+    "pickRate": 93.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 65,
+    "play": 20,
+    "pickRate": 2.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 309,
+    "pickRate": 44
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.1,
+    "play": 86,
+    "pickRate": 12.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 368,
+    "pickRate": 50.4
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 55.4,
+    "play": 269,
+    "pickRate": 36.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 52.8,
+    "play": 462,
+    "pickRate": 64.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.3,
+    "play": 151,
+    "pickRate": 21.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 48.8,
+    "play": 129,
+    "pickRate": 25.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.6,
+    "play": 63,
+    "pickRate": 12.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Youmuu's Ghostblade",
+     "Phantom Dancer"
+    ],
+    "winRate": 60,
+    "play": 30,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 53.3,
+    "play": 689,
+    "pickRate": 96.8
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 54,
+    "play": 439,
+    "pickRate": 61.7
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 52.9,
+    "play": 255,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.3,
+    "play": 199,
+    "pickRate": 28
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 70.3,
+    "play": 145,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 45.1,
+    "play": 82,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 57.7,
+    "play": 319
+   }
+  ]
+ }
+}

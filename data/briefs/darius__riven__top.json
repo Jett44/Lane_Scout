@@ -1,0 +1,375 @@
+{
+ "you": "Darius",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Riven lands her full Q-W-Q stun combo clean and disengages with E (Valor); you win if you hook her out of Broken Wings with E (Apprehend) before her third cast connects."
+  },
+  "thesis": "Darius wins this lane by outlasting Riven's burst rather than out-bursting her: her all-in combo front-loads all its damage in one Broken Wings-into-Ki Burst sequence, while Darius' Hemorrhage stacks and Noxian Guillotine's scaling true damage reward surviving the opener and finishing the trade afterward. The 44.9% win rate over 557 games says her clean combo slightly favors her, so the whole matchup hinges on whether Darius' E (Apprehend) catches her mid-Broken-Wings before the third cast lands.",
+  "tell": {
+   "watch": "Riven's Broken Wings cast count",
+   "theirWindow": {
+    "when": "Riven opens with Q1 into range",
+    "what": "She's committing to her three-part Broken Wings combo, which chains into a Ki Burst stun (cooldown 11/10/9/8/7s). Brace for the stun and don't burn your own E (Apprehend) until you know which cast she's on."
+   },
+   "yourWindow": {
+    "when": "She's mid-Broken-Wings with your E up",
+    "what": "Apprehend pulls her to you and cancels her dash sequence before the knockback on cast three lands. Follow immediately with Crippling Strike (W) to slow her before she can reset distance with Valor (E)."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both melee, single dash and no combo yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full Q combo plus Ki Burst stun online"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Guillotine execute punishes her extended trades"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "Decided by landed vs missed E hooks"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest-performing start on this matchup (48.1% over 538 games); the AD and lifesteal offset Riven's poke and let you win the early trades that determine who's ahead by level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Overwhelmingly the pick here (85.6%) — flat reduction against Riven's empowered Runic Blade autos and repeated Broken Wings auto-resets."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste closes the gap fast enough to land E (Apprehend) before Riven's third Broken Wings cast separates her, and cuts your E cooldown down for the next window."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Stacking move speed keeps you in range of a champion with three dashes and a step-block, while the armor blunts her Runic Blade auto damage."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts incoming burst into damage-over-time so Riven's front-loaded combo doesn't outright kill you before your Hemorrhage stacks and Guillotine can close the fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "riven's stun-into-combo threatens to burst you down before you can land your ultimate"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "the enemy team stacks magic damage alongside Riven and you need the tenacity and regen"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you're ahead early and want a tempo item to punish her before level 6 instead of the standard Youmuu path"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is a sustained-fight matchup, not a burst trade — Conqueror's stacking heal keeps you alive through Riven's opener and rewards landing autos and bleed procs during the extended trade that decides the lane.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Highest-performing combo on this matchup (47.3% over the largest sample, 55.6% pick) — Ghost is what lets a champion with no gap-closer stick to Riven's three dashes and E-block long enough to actually land E (Apprehend) and finish with Guillotine."
+  },
+  "playing": [
+   {
+    "title": "Count her Q casts",
+    "detail": "Broken Wings can be recast up to three times in a short window, with the third strike knocking back. Track how many casts she's used so you know when her combo is spent and she's vulnerable."
+   },
+   {
+    "title": "Hook her mid-combo",
+    "detail": "Interrupt her third Q cast with your E — landing Apprehend while she's mid-Broken-Wings cancels the combo outright and pulls her straight into your Decimate circle for the healing blade hit."
+   },
+   {
+    "title": "Save W for the slow",
+    "detail": "Crippling Strike is a 5s-cooldown empowered auto that slows on hit. Time it for right after her E (Valor) dash ends so the residual move speed can't carry her out of range."
+   },
+   {
+    "title": "Respect her E block window",
+    "detail": "Valor blocks incoming damage for the duration of the dash. Don't dump Decimate or Guillotine the instant she activates it — wait for the block to expire before committing damage."
+   },
+   {
+    "title": "Stack Hemorrhage before your ult",
+    "detail": "Noxian Guillotine's true damage scales with each Hemorrhage stack on the target, up to 5. Land Q's blade edge and a couple autos first rather than opening the fight with R."
+   },
+   {
+    "title": "Play around her E cooldown",
+    "detail": "Valor's cooldown is 10/9/8/7/6s. If she's just used it to poke or reposition, she has no damage-block or escape tool up — that's your window to engage."
+   }
+  ],
+  "patchCaveat": "Build order, boots, and rune pages are pulled from measured Darius vs Riven games on the current patch (557-game sample, 44.9% Darius win rate). The tactical reading — hooking her out of Broken Wings, timing around Valor's block, stacking Hemorrhage before the ult — is our own analysis on top of that data, not OP.GG's."
+ },
+ "generatedAt": 1789401836962,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789401731895,
+  "overall": {
+   "winRate": 49.9,
+   "play": 49691,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 557,
+   "wins": 250,
+   "winRate": 44.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "If Riven brought Ignite, pay attention to your distance and her Conqueror stacks before engaging combat. Try to interrupt her third (Q) with your [E].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47.3,
+    "play": 376,
+    "pickRate": 55.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.6,
+    "play": 157,
+    "pickRate": 23.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.8,
+    "play": 131,
+    "pickRate": 19.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.9,
+    "play": 138,
+    "pickRate": 20.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.2,
+    "play": 126,
+    "pickRate": 18.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 538,
+    "pickRate": 78.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 104,
+    "pickRate": 15.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.3,
+    "play": 576,
+    "pickRate": 85.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.1,
+    "play": 54,
+    "pickRate": 8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 56.9,
+    "play": 65,
+    "pickRate": 16.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 68,
+    "play": 25,
+    "pickRate": 6.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 51.1,
+    "play": 352,
+    "pickRate": 52.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 47.9,
+    "play": 326,
+    "pickRate": 48.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 50.6,
+    "play": 253,
+    "pickRate": 37.8
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 48.7,
+    "play": 238,
+    "pickRate": 35.5
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 51.2,
+    "play": 209,
+    "pickRate": 31.2
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 57.4,
+    "play": 129,
+    "pickRate": 19.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 174
+   }
+  ]
+ }
+}

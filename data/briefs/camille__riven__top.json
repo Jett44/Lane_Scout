@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Riven stack three Broken Wings casts and Ki Burst you for free; you win if you punish her cooldowns and Hookshot her off a wall reset."
+  },
+  "thesis": "Camille vs Riven is a measured 46.2% win rate over 381 games in an otherwise even lane (46.2% vs Camille's 50.6% baseline), and the gap is almost entirely about tempo: Riven's Q (Broken Wings) resets on kill/assist and her E (Valor) blocks a trade instance, so if you swing when all three of her Q charges and E are up you're trading into a near-invulnerable burst combo instead of a fair fight.",
+  "tell": {
+   "watch": "Riven's Q charge count and E cooldown",
+   "theirWindow": {
+    "when": "all 3 Q charges and E ready",
+    "what": "She can chain Broken Wings into a Valor block and knock you back on the third hit while Ki Burst (W, 11/10/9/8/7s cooldown) stuns if you're clumped near her passive Runic Blade auto. Do not stand still and trade autos here — she wins the extended fight."
+   },
+   "yourWindow": {
+    "when": "her E (Valor) is on cooldown",
+    "what": "Without Valor she has no damage block, so this is when your Q (Precision Protocol, 9/8/7/6/5s cooldown) empowered auto and W (Tactical Sweep) actually land full value. Walk up and force the trade the instant you see her use Valor for spacing rather than blocking."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has full combo online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Ki Burst stun plus 3 Q charges spike hard"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Blade of the Exile ult adds range and AD"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "your item spikes start catching her up"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Trinity Force/Hydra outscale her flat AD kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run at 46.9% win rate over 350 games and 75.9% pick rate; the extra sustain and AD let you match her early poke without folding to a level 3 all-in."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "82.1% pick rate at 46.9% win rate; the flat physical damage reduction directly blunts her Runic Blade-empowered autos and Q (Broken Wings) poke."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Core first item in the 52.6% win rate path over 97 games; the damage and move speed proc let you punish when her E (Valor) is down."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Second item in the same build path; sustain and AoE let you win extended trades once you outscale her burst window."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Third item at 52.6% win rate over 97 games; bleeds through Riven's burst instead of eating it all at once, which matters against her all-in-heavy kit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "she is landing full Ki Burst into Q combos and you need to survive the burst instead of just outdamage it"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the lane is even by mid-game and you want to shorten your Q/W cooldowns to out-trade her cooldown-locked kit"
+    },
+    {
+     "item": "Tiamat",
+     "when": "you need the wave clear component early to answer her Broken Wings poke without losing CS"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Run at 45.2% win rate (27.6% pick); Grasp's proc and max-health scaling matter directly here because Camille's passive (Adaptive Defenses) already gives you a post-attack shield, and Grasp adds sustained health to survive her stun-into-burst instead of racing an all-in you don't have to win instantly.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest performing pair at 49.3% win rate and 65.9% pick rate; Ignite punishes her all-in the moment she commits her Q charges and E with no sustain to answer it."
+  },
+  "playing": [
+   {
+    "title": "Track her Q charge count",
+    "detail": "Broken Wings has a 13s cooldown per full use but can chain 3 times in a short window; don't trade into her until you've seen at least one charge burn without landing."
+   },
+   {
+    "title": "Bait Valor before committing",
+    "detail": "Her E (Valor) blocks incoming damage on a 10/9/8/7/6s cooldown; poke first with your Q auto to force it out, then commit your real trade."
+   },
+   {
+    "title": "Respect Ki Burst radius after level 3",
+    "detail": "W (Ki Burst) stuns nearby enemies once she hits level 3; don't stand adjacent to her when her passive Runic Blade shows a full charge, since that's her signal she's about to engage."
+   },
+   {
+    "title": "Use Hookshot to punish dashes",
+    "detail": "Your E (Hookshot, 16/15/14/13/12s cooldown) needs a wall — pre-position near lane walls so you can knock her up the instant she over-extends a Q chain."
+   },
+   {
+    "title": "Save ult for her post-6 all-in",
+    "detail": "Once she hits level 6, Blade of the Exile gives her bonus AD and range plus one Wind Slash; your R (Hextech Ultimatum, 140/115/90s early) should be held to punish that all-in, not used to start your own."
+   },
+   {
+    "title": "Play around Ignite, not extended trades",
+    "detail": "With a 46.2% measured win rate, don't try to out-sustain her in long fights — use Ignite plus a short trade window to end skirmishes early instead of letting her full combo play out."
+   },
+   {
+    "title": "Prioritize CS over forced trades pre-6",
+    "detail": "Since the lane is statistically even, farming safely to hit your Trinity Force/Hydra spike matters more than forcing kills you don't have a clean read on."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner spells above are pulled from measured OP.GG data on the current patch (16.18.1) across the sample sizes listed; the tell, power curve, and trade-pattern reasoning are my own tactical read based on the ability mechanics, not measured data."
+ },
+ "generatedAt": 1789402397947,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789402356376,
+  "overall": {
+   "winRate": 50.6,
+   "play": 31381,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 381,
+   "wins": 176,
+   "winRate": 46.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Riven is strong when she reaches level 3 and level 6! Use your passive [P] to absorb as much damage when engaging! Rather than initiating combat yourself, try to respond to when Riven closes in!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 292,
+    "pickRate": 65.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 39.4,
+    "play": 66,
+    "pickRate": 14.9
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 47.5,
+    "play": 59,
+    "pickRate": 13.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.2,
+    "play": 124,
+    "pickRate": 27.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 42,
+    "pickRate": 9.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.9,
+    "play": 350,
+    "pickRate": 75.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 81,
+    "pickRate": 17.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.9,
+    "play": 339,
+    "pickRate": 82.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.7,
+    "play": 58,
+    "pickRate": 14
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 52.6,
+    "play": 97,
+    "pickRate": 44.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 18.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 40.5,
+    "play": 37,
+    "pickRate": 16.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.2,
+    "play": 424,
+    "pickRate": 98.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 47.4,
+    "play": 344,
+    "pickRate": 79.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 50.4,
+    "play": 125,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 47.2,
+    "play": 53,
+    "pickRate": 12.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 45,
+    "play": 40,
+    "pickRate": 9.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54,
+    "play": 113
+   }
+  ]
+ }
+}
