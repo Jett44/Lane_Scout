@@ -1,0 +1,383 @@
+{
+ "you": "Camille",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane",
+   "line": "You lose if you trade into her Bladesurge (Q) reset chains and let Ionian Fervor stack to 5; you win if you survive to your Trinity Force spike and only commit R (Hextech Ultimatum) when she's already spent E (Flawless Duet) or R (Vanguard's Edge)."
+  },
+  "thesis": "Irelia's kit is built to punish standing still: Bladesurge (Q) refreshes its full cooldown for free whenever the target is Marked or dies to it, so a low-HP minion near you is a free dash, and Ionian Fervor stacks bonus attack speed off every spell hit until she's adding flat on-hit damage at 5 stacks. Camille has no ranged answer to this — Hookshot (E) only functions near a wall, and Hextech Ultimatum (R) doesn't exist until level 6 and sits on a 140/115/90s cooldown even then. That structural gap is why the measured data has Irelia holding both the lane and solo-kill advantage at a 46.2% Camille win rate over 455 games — play this lane to survive to your spike, not to force it.",
+  "tell": {
+   "watch": "Irelia's passive stack count",
+   "theirWindow": {
+    "when": "minions near death, or 5 passive stacks",
+    "what": "A dying minion next to you is a free Bladesurge (Q) reset that closes the gap without costing her the real cooldown — don't let one sit between you. If she's also at 5 Ionian Fervor stacks, her next few autos carry bonus on-hit damage, so disengage rather than trade through it."
+   },
+   "yourWindow": {
+    "when": "when her E (Flawless Duet) is down",
+    "what": "Without Flawless Duet up she has no stun to punish a commitment, so this is when to step forward with Q (Precision Protocol) and W (Tactical Sweep) for poke. If she opens with E or R (Vanguard's Edge) anyway, answer immediately with R (Hextech Ultimatum) so the anchor and bonus magic damage land before she can follow up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Bladesurge (Q) heal gives early sustain edge"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Flawless Duet online, stun all-in risk"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates live, R trades neutralize"
+   },
+   {
+    "levels": "9-18",
+    "edge": "even",
+    "note": "Trinity Force/Hydra spike closes the gap"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest win rate and pick rate start (48.5% over 443 games, 81% pick) — the extra AD gives you real damage to punish Bladesurge (Q) whiffs and short cooldown windows instead of just surviving poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "47.4% win rate and 86% pick — Irelia's damage comes almost entirely from basic attacks (Ionian Fervor on-hit, Bladesurge dash-attack), so flat physical damage reduction directly counters her stacked passive."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the highest-performing path (60.6% win rate, 45.4% pick) — the stats and proc close the early damage gap against her."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Second in the same 60.6% path — sustain and AoE damage to offset her Bladesurge (Q) self-heal in extended trades."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the top win-rate path — damage mitigation lets you survive the burst window when she's at 5 passive stacks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you are ahead and need to survive her all-in (74% win rate over 50 games on this path)"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you want more ability-cooldown-driven damage in prolonged fights (66.7% win rate, 17.1% pick)"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her Bladesurge (Q) lifesteal-style healing is keeping her alive through your trades"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "she's ahead and chaining Flawless Duet (E) stuns onto you repeatedly"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Matches the defensive shape of this matchup (46.5% win rate, 29% pick, the more common page here) — permanent max-HP growth and sustain from proc'ing autos helps you survive to your item spike rather than win a damage race you don't have early.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest win rate (46.6%) and dominant pick (70.8%) — Ignite punishes her Bladesurge (Q) sustain directly and Flash covers the fact you have no ranged engage or escape until Hookshot (E) is available near a wall."
+  },
+  "playing": [
+   {
+    "title": "Don't feed her Q resets",
+    "detail": "Bladesurge (Q) refreshes its entire 10/9/8/7/6s cooldown if the target is Marked or dies to it — protect low-HP minions near you rather than letting her cash one in to dash onto you for free."
+   },
+   {
+    "title": "Track her passive to 5 stacks",
+    "detail": "Ionian Fervor grants stacking attack speed on every spell hit and flat bonus on-hit damage at max stacks — disengage before a trade lets her reach 5, per the danger threshold in this matchup."
+   },
+   {
+    "title": "Never trade into a charging W",
+    "detail": "Defiant Dance (W) reduces the physical damage she takes while charging — landing your Q (Precision Protocol) auto mid-charge wastes it, so wait for the release or bait it early."
+   },
+   {
+    "title": "Save R for her E or R",
+    "detail": "Hextech Ultimatum (R) dashes to and anchors her at 475 range — commit it the moment she opens with Flawless Duet (E) or Vanguard's Edge (R) so her stun or Mark doesn't go unanswered."
+   },
+   {
+    "title": "Only use Hookshot near a wall",
+    "detail": "Hookshot (E) needs a wall to pull to before it knocks up on landing — plan your engages and resets around lane terrain, since without one it's just a short leap with no knockup."
+   },
+   {
+    "title": "Delay your Q recast for full value",
+    "detail": "Precision Protocol (Q) can be recast for significantly more bonus damage if you wait between the two attacks — hold the second hit instead of firing it immediately when you need max trade damage."
+   },
+   {
+    "title": "Auto before you expect physical damage",
+    "detail": "Adaptive Defenses grants a shield versus the damage type of whoever you just basic-attacked — land an auto on her right before an expected physical trade so the shield against her damage is already active."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates above are measured from live games on the current patch (16.18.1) via OP.GG; the mechanical reasoning for why those numbers hold — the Q reset pattern, passive stack thresholds, and cooldown-timed windows — is this brief's own tactical read, not sourced data."
+ },
+ "generatedAt": 1789347913906,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789347800195,
+  "overall": {
+   "winRate": 50.6,
+   "play": 26846,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 455,
+   "wins": 210,
+   "winRate": 46.2
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of Irelia closing in by using minions low on health! Fighting Irelia is dangerous when she has 5 (P) stacks up. Try absorbing Irelia’s ultimate or (E) with Camille’s [R].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.6,
+    "play": 371,
+    "pickRate": 70.8
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 45.5,
+    "play": 88,
+    "pickRate": 16.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.5,
+    "play": 55,
+    "pickRate": 10.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.5,
+    "play": 155,
+    "pickRate": 29
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 41,
+    "pickRate": 7.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 443,
+    "pickRate": 81
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 36.4,
+    "play": 77,
+    "pickRate": 14.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.4,
+    "play": 422,
+    "pickRate": 86
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 65.5,
+    "play": 58,
+    "pickRate": 11.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 60.6,
+    "play": 127,
+    "pickRate": 45.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 74,
+    "play": 50,
+    "pickRate": 17.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 66.7,
+    "play": 48,
+    "pickRate": 17.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.5,
+    "play": 524,
+    "pickRate": 99.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 54.1,
+    "play": 405,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.3,
+    "play": 175,
+    "pickRate": 33.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 67.1,
+    "play": 79,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 61.1,
+    "play": 72,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 43.9,
+    "play": 57,
+    "pickRate": 10.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 59.6,
+    "play": 89
+   }
+  ]
+ }
+}

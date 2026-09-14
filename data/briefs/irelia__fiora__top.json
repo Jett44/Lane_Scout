@@ -1,0 +1,381 @@
+{
+ "you": "Irelia",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you feed Fiora Riposte punishes and let fights drag into her Duelist sustain; you win if you land E-mark into Q resets and end trades before her passive stacks up."
+  },
+  "thesis": "This is a spell-timing duel between two melee ADs with a defensive W each: Fiora's Riposte (10/9/8/7/6s CD) parries basic attacks, but Irelia's Q (Bladesurge) is a spell-strike, not an auto, so it goes through Riposte clean. The matchup swings on whether Irelia opens with E (Flawless Duet) to stun and Mark before Q, or throws autos into an active Riposte and eats a reflected hit while Fiora's Duelist passive quietly stacks health back.",
+  "tell": {
+   "watch": "Fiora's Riposte activation glow",
+   "theirWindow": {
+    "when": "Riposte is up and you're about to auto",
+    "what": "Do not walk a raw basic attack into her while Riposte is active — it gets parried and reflected as magic damage, and you lose the trade tempo. Wait out the 10/9/8/7/6s window or force it with something that isn't a basic attack."
+   },
+   "yourWindow": {
+    "when": "Her Lunge is on cooldown after both charges",
+    "what": "Fiora's Q dashes twice within a couple seconds for free, then is fully locked out for 16/14/12/10/8s. The moment you see both dashes used, engage with E (Flawless Duet) for the stun and Mark, then Q — since the target is Marked, Bladesurge's cooldown refreshes on hit, letting you chain another Q for extra damage and healing."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo (E-mark, Riposte) is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Riposte cooldown drops to 12/10s, punishes impatience"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates live, all-ins decided by E timing"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Blade of the Ruined King online, Q-E loop snowballs"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Her R diminishes on repeat hits, teamfights matter more"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run in 47.9% of 424 tracked games (86% pick rate). The extra AD and HP buys you room to eat a Lunge poke or a parried auto without losing the lane outright."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked in 88.6% of games at 47.8% win rate. Fiora's damage is entirely physical autos and Lunge — Steelcaps directly cuts the poke that chips you down between all-ins."
+   },
+   "core": [
+    {
+     "item": "Blade of the Ruined King",
+     "why": "First item in every measured core path; the on-hit percent-health damage punishes Fiora's healthy Duelist regen instead of racing raw burst."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Second item across all three tracked builds; scales your split-push and 1v1 diving power once you're ahead on the Q-E loop."
+    },
+    {
+     "item": "Wit's End",
+     "why": "This exact path (BoRK > Hullbreaker > Wit's End) measured the highest win rate of the three core builds at 56.7% over 60 games — the attack speed feeds Ionian Fervor stacks faster."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "she's landing clean Lunge-auto trades and you need to survive the return damage from prolonged fights"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you want the highest-measured alternate path (BoRK > Kraken Slayer > Death's Dance, 55.8% over 43 games) for a more front-loaded burst spike"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her Duelist healing is keeping her alive through your all-ins and you need the grievous wounds"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The Resolve-secondary page (Conqueror, Triumph, Legend: Alacrity, Last Stand / Unflinching, Bone Plating) measured 57% win rate over the tracked sample, notably higher than the Inspiration variant — Bone Plating specifically blunts the Lunge-auto burst Fiora leans on to punish your engages.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The top measured combo at 47.8% win rate and 91.2% pick rate. Ignite matters specifically here — Fiora's Duelist passive heals her back through extended trades, and the burn shuts that regen off exactly when you're trying to close out a fight."
+  },
+  "playing": [
+   {
+    "title": "Engage with E, not autos",
+    "detail": "Riposte only parries basic attacks. Open trades with E (Flawless Duet) for the stun and Mark, then follow with Q — the dash-strike is a spell hit and goes through Riposte untouched."
+   },
+   {
+    "title": "Chain Q off the E Mark",
+    "detail": "Bladesurge's cooldown refreshes if the target is Marked or dies. Landing E right before Q means you can immediately Q again for extra damage, healing, and mobility."
+   },
+   {
+    "title": "Hold autos until Riposte is confirmed down",
+    "detail": "Track her Riposte cooldown (10/9/8/7/6s by rank). A raw auto into an active Riposte wastes the hit and reflects magic damage back at you for free."
+   },
+   {
+    "title": "Charge W into her all-in",
+    "detail": "Defiant Dance deals more damage the longer it charges and reduces the physical damage you take while charging — hold it as your answer to a Lunge-into-auto sequence."
+   },
+   {
+    "title": "End fights fast, don't marathon",
+    "detail": "Her Duelist passive stacks healing every time she lands damage on you. Short, decisive trades favor you; long extended skirmishes let her regen back what you took."
+   },
+   {
+    "title": "Respect first-hit burst from her R",
+    "detail": "Blade Waltz deals less damage on successive strikes against the same target, so a single-target duel isn't as scary as it looks — but the first hit at level 6+ still lands hard, so don't fight her ult cooldown blind."
+   }
+  ],
+  "patchCaveat": "Item paths, rune pages, summoner spells, and all win-rate/pick-rate numbers above are measured from live games on the current patch via OP.GG; the mechanical reasoning and trade-timing advice are my own read of the ability interactions."
+ },
+ "generatedAt": 1789348680809,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789348575615,
+  "overall": {
+   "winRate": 50.2,
+   "play": 27180,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 411,
+   "wins": 196,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be caution of being hit with Fiora’s Reposte (W). Use [E] to engage when Irelia has 4 stacks [P] prepared while keeing her Reposte and Vitals in mind.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.8,
+    "play": 427,
+    "pickRate": 91.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.8,
+    "play": 24,
+    "pickRate": 5.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 3.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.4,
+    "play": 156,
+    "pickRate": 33
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57,
+    "play": 86,
+    "pickRate": 18.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.9,
+    "play": 424,
+    "pickRate": 86
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 36.2,
+    "play": 47,
+    "pickRate": 9.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.8,
+    "play": 412,
+    "pickRate": 88.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 41.9,
+    "play": 43,
+    "pickRate": 9.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 46.1,
+    "play": 76,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 56.7,
+    "play": 60,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 55.8,
+    "play": 43,
+    "pickRate": 13.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 49.2,
+    "play": 445,
+    "pickRate": 97.4
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 49.8,
+    "play": 257,
+    "pickRate": 56.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.4,
+    "play": 204,
+    "pickRate": 44.6
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 54.9,
+    "play": 153,
+    "pickRate": 33.5
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 49.2,
+    "play": 120,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 35.6,
+    "play": 45,
+    "pickRate": 9.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.7,
+    "play": 87
+   }
+  ]
+ }
+}

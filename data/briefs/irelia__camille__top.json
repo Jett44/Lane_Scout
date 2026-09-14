@@ -1,0 +1,384 @@
+{
+ "you": "Irelia",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured duel",
+   "line": "You lose if you get caught by Hookshot near a wall before your W is up; you win if you all-in at 4 Ionian Fervor stacks while her Precision Protocol is down."
+  },
+  "thesis": "Camille's entire combo depends on Hookshot finding a wall and Precision Protocol landing clean, but Defiant Dance's damage reduction lets Irelia eat that burst mid-charge and Bladesurge resets off anything Flawless Duet marks, so Irelia converts single exchanges into full trades. That structural mismatch is why Irelia sits at 53.4% over 461 games despite Camille's higher raw mobility.",
+  "tell": {
+   "watch": "Camille's E (Hookshot) cooldown",
+   "theirWindow": {
+    "when": "Camille is near a wall with E up",
+    "what": "She can Hookshot off terrain into a knockup and chain Q's empowered auto plus W's cone slow; don't stand near walls once she hits level 3 unless your W is also ready."
+   },
+   "yourWindow": {
+    "when": "You have 4 Ionian Fervor stacks, her Q is down",
+    "what": "Engage with Q (Bladesurge) into E (Flawless Duet) for the stun and Mark, then Q again to consume the reset; the bonus on-hit damage from max Passive stacks wins the extended trade before she can recast Precision Protocol."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo is online, trade pokes only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Camille's E unlocks her dive all-in"
+   },
+   {
+    "levels": "6-9",
+    "edge": "you",
+    "note": "R gives a wall and CC reset"
+   },
+   {
+    "levels": "10-18",
+    "edge": "you",
+    "note": "BotRK on-hit scaling outpaces her flat kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The sustain and early AD trade damage let you match Camille's Precision Protocol pokes without losing the lane of attrition (52.5% WR, 89.4% pick)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Camille's damage is almost entirely physical autos and Q/E follow-ups, so flat physical reduction blunts her all-in harder than any other boot option (53.7% WR, 82.3% pick)."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Current-health damage and the on-hit slow let you stick to Camille through her E dash-away and punish her lack of hard disengage."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Single-target damage scaling turns every Q-reset auto into a bigger duel swing, the strongest of the listed paths at 55.9% WR."
+    },
+    {
+     "item": "Wit's End",
+     "why": "Magic resist plus attack speed shreds through her passive Adaptive Defenses shield faster and keeps your on-hit stacking relevant."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "she or her team is stacking burst you need to spread out over time"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you're already ahead and want to close out fights faster (67.4% WR path)"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "the enemy team has a burst combo that can delete you before you land your own"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy composition is heavy on magic damage or hard CC beyond Camille"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Ramping adaptive damage that converts to healing at max stacks directly offsets Camille's passive shield and Tactical Sweep heal in a prolonged trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite denies the passive shield and W sustain that let Camille stabilize a bad trade, and it's the dominant pick in the data at 52.4% WR and 89.3% pick rate."
+  },
+  "playing": [
+   {
+    "title": "Track her Q charge state",
+    "detail": "Precision Protocol (cooldown 9-5s) empowers her next auto and can be recast after a delay for much higher damage. If she's holding the recast window, back off rather than trading into it."
+   },
+   {
+    "title": "Respect walls once she's level 3",
+    "detail": "Hookshot (cooldown 16-12s, range 800) needs terrain to fire and knocks up on landing. Don't stand near a wall with her E up unless your W is also ready to eat the follow-up."
+   },
+   {
+    "title": "W through her burst window",
+    "detail": "Defiant Dance takes reduced physical damage while charging. Hold the charge to absorb her Q-empowered auto or the knockup combo, then release the full-charge strike into her."
+   },
+   {
+    "title": "All-in only at max Passive stacks",
+    "detail": "Ionian Fervor grants bonus on-hit damage at maximum Attack Speed stacks. Bait a stack-building auto or spell hit before committing to the all-in rather than engaging cold."
+   },
+   {
+    "title": "Chain E into Q for the reset",
+    "detail": "Bladesurge (cooldown 10-6s) fully refreshes if the target is Marked or dies to it, and Flawless Duet applies that Mark on its stun. Land E first so your follow-up Q resets instantly."
+   },
+   {
+    "title": "Punish her cooldown gaps",
+    "detail": "After she spends E to engage or Q to poke, her damage drops off hard for several seconds. Use that window to shove the wave or force a second trade she can't answer."
+   },
+   {
+    "title": "Save Ignite for the first real skirmish",
+    "detail": "Her passive shield and W heal keep close fights alive; burning Ignite early denies that sustain and converts a marginal trade into a kill."
+   }
+  ],
+  "patchCaveat": "The build order, rune page, boots, and matchup percentages are measured from real games on the current patch (16.18.1) via OP.GG; the cooldown timings and trade-window reasoning are my own read of the kits, not aggregate stats."
+ },
+ "generatedAt": 1789348893903,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789348802461,
+  "overall": {
+   "winRate": 50.2,
+   "play": 27180,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 461,
+   "wins": 246,
+   "winRate": 53.4
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being hit with Camille’s (E). Absorb Camille’s (Q) with a well-timed [W], while engaging when Irelia has 4 stacks [P] ready.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.4,
+    "play": 466,
+    "pickRate": 89.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 56.7,
+    "play": 30,
+    "pickRate": 5.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 62.5,
+    "play": 24,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 56.6,
+    "play": 189,
+    "pickRate": 35.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 107,
+    "pickRate": 20.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.5,
+    "play": 482,
+    "pickRate": 89.4
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 7.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.7,
+    "play": 410,
+    "pickRate": 82.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.9,
+    "play": 73,
+    "pickRate": 14.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 55.9,
+    "play": 111,
+    "pickRate": 30
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 53.8,
+    "play": 78,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 67.4,
+    "play": 46,
+    "pickRate": 12.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 52.9,
+    "play": 526,
+    "pickRate": 98.9
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 53.6,
+    "play": 332,
+    "pickRate": 62.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.3,
+    "play": 232,
+    "pickRate": 43.6
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 55.1,
+    "play": 185,
+    "pickRate": 34.8
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 57.6,
+    "play": 151,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Guardian Angel"
+    ],
+    "winRate": 60,
+    "play": 55,
+    "pickRate": 10.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.9,
+    "play": 143
+   }
+  ]
+ }
+}
