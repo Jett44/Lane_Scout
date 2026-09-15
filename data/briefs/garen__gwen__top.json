@@ -1,0 +1,383 @@
+{
+ "you": "Garen",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly favored",
+   "line": "You lose if you eat Snip Snip! poke while her Hallowed Mist is up and available to dodge your all-in; you win by forcing fights the moment her W is on cooldown."
+  },
+  "thesis": "Gwen's W (Hallowed Mist) makes her untargetable to anything outside the mist, so this lane is decided by mist cooldown timing rather than raw stats. Everything else about the matchup is close to even (52.2% Garen win rate over 753 games), so your entire job is recognizing when that cooldown is down and punishing it before she can reset with it again.",
+  "tell": {
+   "watch": "Gwen's W (Hallowed Mist) cooldown",
+   "theirWindow": {
+    "when": "her E (Skip 'n Slash) and passive stacks are up",
+    "what": "She dashes in with Skip 'n Slash for bonus attack speed, range, and magic on-hit, and if she connects the ability partially refunds — she can chain a second dash right after. Hold a cooldown in reserve for that second engage instead of trading everything into the first."
+   },
+   "yourWindow": {
+    "when": "Hallowed Mist is on cooldown and she's caught in the open",
+    "what": "With no way to go untargetable, commit fully: Q (Decisive Strike) to close and silence, then E (Judgment) and R (Demacian Justice) once she's below execute threshold. This is the only window where your ultimate is guaranteed to land."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Her Q poke stacks passive faster"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Your ult threat vs her W escape"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "Stridebreaker closes gaps before mist pops"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Mortal Reminder cuts her passive sustain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The regen and damage reduction proc offset the constant magic chip from her Snip Snip! poke and the true-damage center hits, letting you sit in trade range longer (51% win rate over 445 games)."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "Attack speed sharpens your auto-weave during E (Judgment) spin windows and the extra move speed helps you close before she can duck into Hallowed Mist (53.3% win rate over 646 games, 71.6% pick rate)."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The gap-close from its active is your best answer to a Gwen who's trying to kite or hide behind her mist before you're in range."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Extra attack speed and move speed extend your trading window once you're already stuck to her."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "A Thousand Cuts heals her off every proc — grievous wounds directly guts that sustain in extended fights (this path runs 53.9% over 206 games)."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you need more dash uptime to catch her resets from Skip 'n Slash"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "her Needlework slows and kiting are outpacing Berserker's Greaves"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their comp is magic-damage heavy like her"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need sustained speed to stick through repeated E dashes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Ramping adaptive damage and healing lets you out-sustain her passive lifesteal and Q poke across a long, melee-range lane where neither side kills fast.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite punishes her when she commits to a Skip 'n Slash all-in and cuts the healing from A Thousand Cuts; Flash lets you close the gap on a mist cooldown or escape a Needlework read (51.3% win rate, 95.1% pick rate)."
+  },
+  "playing": [
+   {
+    "title": "Track her mist cooldown",
+    "detail": "Hallowed Mist runs 22/21/20/19/18s. When it's down and she's caught outside it, that's your signal to commit — otherwise she can go untargetable mid-fight."
+   },
+   {
+    "title": "Silence before she snips",
+    "detail": "Land Q (Decisive Strike) right as a trade starts so the silence cuts off Snip Snip! and denies her passive stacking during the exchange."
+   },
+   {
+    "title": "Only ult inside the mist",
+    "detail": "Demacian Justice can't land on her while she's hiding in Hallowed Mist unless you're standing inside it too — don't burn the cooldown from outside."
+   },
+   {
+    "title": "Hit and reset, don't facetank",
+    "detail": "Her Q's center snips deal true damage — turn on W (Courage) and E (Judgment) in short bursts rather than standing still through her full cone."
+   },
+   {
+    "title": "Respect the E reset all-in",
+    "detail": "A landed Skip 'n Slash partially refunds its cooldown, so she can dash again almost immediately. Keep a cooldown in reserve for the second engage."
+   },
+   {
+    "title": "Rush Mortal Reminder if she sustains",
+    "detail": "If she's winning extended trades off A Thousand Cuts healing, prioritize Mortal Reminder over Phantom Dancer in your build order."
+   },
+   {
+    "title": "Don't shove into an open mist",
+    "detail": "If her W is available, avoid pushing into range where she can vanish into it and reset the fight on her terms — wait out the cooldown first."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch; the mist-timing and trade-pattern reasoning is my own tactical read, not sourced from the stats."
+ },
+ "generatedAt": 1789509306997,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789509222089,
+  "overall": {
+   "winRate": 50.7,
+   "play": 63945,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 753,
+   "wins": 393,
+   "winRate": 52.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.3,
+    "play": 875,
+    "pickRate": 95.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 72,
+    "play": 25,
+    "pickRate": 2.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 405,
+    "pickRate": 43
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.6,
+    "play": 173,
+    "pickRate": 18.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 445,
+    "pickRate": 47.9
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 55.4,
+    "play": 363,
+    "pickRate": 39
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 53.3,
+    "play": 646,
+    "pickRate": 71.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 59.9,
+    "play": 167,
+    "pickRate": 18.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 53.9,
+    "play": 206,
+    "pickRate": 31
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 75.5,
+    "play": 49,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 61.1,
+    "play": 36,
+    "pickRate": 5.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 53.3,
+    "play": 889,
+    "pickRate": 95.3
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 55.7,
+    "play": 592,
+    "pickRate": 63.5
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 56,
+    "play": 434,
+    "pickRate": 46.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 56.7,
+    "play": 210,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.8,
+    "play": 168,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 48.1,
+    "play": 135,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.1,
+    "play": 436
+   }
+  ]
+ }
+}

@@ -1,0 +1,375 @@
+{
+ "you": "Fiora",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured",
+   "line": "You lose if you let Gwen poke freely with Snip Snip! before level 6; you win once you catch her with Mist down and force the extended trade."
+  },
+  "thesis": "Fiora holds real lane and solo-kill advantage here (53.2% over 406 games) because Gwen's damage comes from on-hit sources — her passive procs on attacks and Skip 'n Slash (E) grants on-hit magic damage — and Riposte (W) directly answers that by parrying her empowered auto. Gwen has no hard CC to stop your Lunge (Q) resets, so the matchup is decided by whether you can engage while her Hallowed Mist (W) is down rather than up.",
+  "tell": {
+   "watch": "Gwen's Hallowed Mist (W) cooldown",
+   "theirWindow": {
+    "when": "Snip Snip! (Q) off cooldown, you're at range",
+    "what": "Its center hit is true damage and re-procs her passive healing every 6.5s at rank 1 — don't stand in the center of the cone and trade back with autos rather than eating repeated Q casts for free."
+   },
+   "yourWindow": {
+    "when": "Her Hallowed Mist (W) already used",
+    "what": "Without it she's targetable the same as anyone else and has no way to hide from your engage — double-Lunge with Q, hold Riposte for the empowered auto after her E, and commit. It's on an 18-22s cooldown depending on rank, so this window recurs all lane."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Snip Snip's 6.5s cooldown outpaces your Lunge"
+   },
+   {
+    "levels": "4-6",
+    "edge": "you",
+    "note": "Burst of Speed unlocks real all-in windows"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "Blade Waltz punishes any down Mist"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Full build turns extended duels one-sided"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Run in 94.8% of games at 52.3% WR over 457 games — the extra sustain from lifesteal stacks with Duelist to win the auto-trade war against her passive's healing."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.8% WR over 130 games. Gwen's kit is almost entirely on-hit and auto-based (passive on attacks, E grants attack speed/on-hit), so flat reduction on autos outvalues the tenacity from Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "First item in the 67% WR / 91-game path — the healing on cleave keeps you topped through her poke while you shove and reset."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Second in the same 67% WR line, adds the burst and move speed to actually close the distance before she can Skip 'n Slash away."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Third in the 67% WR path — delays her %-health magic ticks into healable damage so her passive's sustain doesn't outpace yours."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to bin all-in windows with the shield and damage burst"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "her poke and passive true-up magic damage is outpacing your own healing"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "you want a cheaper sustain option to shove waves and stay healthy off cooldown-only trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards consecutive hits, and Gwen has no hard CC to stop you from stacking it — pairs directly with weaving autos between Lunge casts.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 92.7% of games at 53.1% WR. Given your solo-kill advantage, Ignite closes out all-ins before Gwen's passive healing can offset the damage."
+  },
+  "playing": [
+   {
+    "title": "Hold Riposte for her E auto",
+    "detail": "Don't activate W on a normal poke attack — wait for the empowered auto after Skip 'n Slash (E), since that's the hit carrying the extra on-hit magic damage you want to deny and reflect."
+   },
+   {
+    "title": "Dodge the center of her Q",
+    "detail": "Only the center of Snip Snip!'s cone deals true damage and true-ups her passive on hit — angle so you're clipped by the edge, not standing dead center."
+   },
+   {
+    "title": "Track her Mist cooldown",
+    "detail": "Hallowed Mist is 22-18s depending on rank; once she burns it you have a clean window to force a fight she can't hide from."
+   },
+   {
+    "title": "Double-Lunge to stick on dashes",
+    "detail": "Q can be recast within a couple seconds for free — use the second dash to stay on her after she Skip 'n Slashes away, since she has no other gap-closer or escape."
+   },
+   {
+    "title": "Bank R for a down Mist",
+    "detail": "Blade Waltz is 130s at rank 1 — don't burn it into an active Hallowed Mist. Wait until her W is spent so the dash isn't wasted and you get a clean, unimpeded engage."
+   },
+   {
+    "title": "Weave autos for Duelist stacks",
+    "detail": "Extend trades with basic attacks, not just cooldowns — every hit stacks your passive's healing, which is what lets you out-sustain her %-health magic poke."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live games on the current patch (16.18.1); the tactical reasoning — timings, cooldown windows, and trade patterns — is my own read of the ability kits, not sourced data."
+ },
+ "generatedAt": 1789509603256,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789509509880,
+  "overall": {
+   "winRate": 49.5,
+   "play": 34293,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 406,
+   "wins": 216,
+   "winRate": 53.2
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.1,
+    "play": 441,
+    "pickRate": 92.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41.7,
+    "play": 24,
+    "pickRate": 5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 1.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.3,
+    "play": 74,
+    "pickRate": 15.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 65,
+    "play": 40,
+    "pickRate": 8.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 457,
+    "pickRate": 94.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 1.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.5,
+    "play": 208,
+    "pickRate": 51.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.8,
+    "play": 130,
+    "pickRate": 32.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 67,
+    "play": 91,
+    "pickRate": 31.7
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 44.4,
+    "play": 27,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 9.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 52.1,
+    "play": 459,
+    "pickRate": 96
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 57.2,
+    "play": 290,
+    "pickRate": 60.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.4,
+    "play": 175,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 45.9,
+    "play": 122,
+    "pickRate": 25.5
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 50,
+    "play": 102,
+    "pickRate": 21.3
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 50,
+    "play": 80,
+    "pickRate": 16.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 185
+   }
+  ]
+ }
+}
