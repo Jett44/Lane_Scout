@@ -1,0 +1,384 @@
+{
+ "you": "Riven",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, punishable",
+   "line": "You lose if you facetank a full Apprehend pull into a 5-stack Hemorrhage combo, and you win if you burst in with Conqueror stacked and Valor back out before Darius resets pressure with Crippling Strike."
+  },
+  "thesis": "Darius has one real engage tool — Apprehend (E), range 535, on a long 26/23.5/21/18.5/16s cooldown — and everything he does is built around landing it and stacking Hemorrhage to 5 for the enrage and the true-damage Guillotine. Riven has no way to out-range that pull, but she has three tools that break his rhythm once he's committed: Ki Burst's stun, Valor's damage block, and Broken Wings' burst-then-reset mobility. The matchup is close (54.3% over 624 games) because both champions are trying to win the same 2-3 second window — whoever lands their engage first usually wins the trade.",
+  "tell": {
+   "watch": "your own Hemorrhage stack count",
+   "theirWindow": {
+    "when": "Apprehend (E) is up and you're in range",
+    "what": "He pulls you in, Decimates for the blade-side damage and sustain, then Crippling Strike-slows you so you can't leave before Hemorrhage stacks up. Don't stand in his 535-range pull threat without a way to answer it."
+   },
+   "yourWindow": {
+    "when": "Apprehend (E) is on cooldown or just whiffed",
+    "what": "He has no way to close distance except walking, so this is when you initiate — Ki Burst to stun, Broken Wings in, autos to burn Runic Blade charges, then Valor out before he can Crippling Strike you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Decimate's blade-hit healing wins early poke exchanges"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Apprehend (E) unlocks, outranges all your tools"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Guillotine threatens, but your burst combo also lands"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Shorter Q/E cooldowns let you re-engage faster than him"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Full build sustain vs his true-damage execute threshold"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Taken in 92.2% of games and wins at 55.2% — the extra sustain matters because Darius's Decimate and Hemorrhage bleed both chip you every exchange even when you dodge the pull."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Most-picked boots at 54.9% WR; the cooldown reduction shortens Valor and Ki Burst, which are your only answers to a landed Apprehend."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Highest-winning core path (67% over 100 games) — its cooldown refund rewards the burst-in, Valor-out trade pattern this lane runs on."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Follow-up in the same top-WR path; scales your all-in damage as trades get longer through mid-game."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts Darius's physical burst and bleed damage into delayed damage you can heal back, which matters directly against a kit built around finishing you with true damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you want the guaranteed burst proc for punishing his e cooldown window earlier (also a measured 64.8-66% wr path)"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's building armor or out-trading you on sustained damage and you need the shred to end fights faster"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you're winning lane and want the on-hit lifesteal proc to stay healthy through repeated short trades"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "he's ahead and stacking autos on you faster than you can disengage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks over the course of a trade and converts to healing — matches the actual winning pattern here: burst in, hold the trade just long enough to stack Conqueror, then leave before his Hemorrhage stacks catch up.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 98.2% of games at 54.4% WR. Ignite denies the healing off Decimate's blade hit and lets you close out short trades before Darius can stabilize back to full Hemorrhage stacks for a Guillotine reset."
+  },
+  "playing": [
+   {
+    "title": "Track your own bleed stacks",
+    "detail": "Hemorrhage caps at 5 stacks and enrages Darius with a big Attack Damage boost when it does. Disengage before the 5th stack lands, not after."
+   },
+   {
+    "title": "Engage only when Apprehend is down",
+    "detail": "Apprehend's cooldown is 26/23.5/21/18.5/16s. Once he's used or missed it, he has no way to close distance except walking — that's your cue to start the fight, not wait for one."
+   },
+   {
+    "title": "Valor through his Decimate swing",
+    "detail": "Valor steps you forward and blocks incoming damage during the dash. Time it to eat the Decimate swing rather than trading auto-for-auto into it."
+   },
+   {
+    "title": "Burst and leave, don't facetank the slow",
+    "detail": "Land Ki Burst into Broken Wings and your Runic Blade-charged autos, then Valor away before Crippling Strike's next-hit slow lands — staying in range after he slows you is how the fight turns into a stack race he wins."
+   },
+   {
+    "title": "Keep a Broken Wings charge in reserve",
+    "detail": "Broken Wings can be reactivated three times but the whole sequence shares one 13s cooldown. Don't dump all three charges just to engage — save at least one dash to get back out of his 535-range pull threat."
+   },
+   {
+    "title": "Respect the Guillotine execute threshold",
+    "detail": "Noxian Guillotine deals true damage scaled by Hemorrhage stacks and its cooldown refreshes on a kill. At rank 5 that cooldown is just 6s, so never sit at low HP near him once he's fought you even once already this fight."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, summoner spells, and every win rate figure above are measured from live games on the current patch (OP.GG); the ability breakdowns, timing windows, and trade reasoning are my own read of the kits."
+ },
+ "generatedAt": 1789455651288,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789455570763,
+  "overall": {
+   "winRate": 49.6,
+   "play": 18895,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 624,
+   "wins": 339,
+   "winRate": 54.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Bring Ignite when going against Darius. We recommend going in for a quick burst damage combo and falling back when your Conqueror’s stacks are up. Try to look for an opening while slowly using your [Q] ability.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.4,
+    "play": 748,
+    "pickRate": 98.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 25,
+    "play": 8,
+    "pickRate": 1.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 0.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56,
+    "play": 316,
+    "pickRate": 40.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 81,
+    "pickRate": 10.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 55.2,
+    "play": 716,
+    "pickRate": 92.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 1.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 54.9,
+    "play": 446,
+    "pickRate": 60.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.1,
+    "play": 162,
+    "pickRate": 22
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 67,
+    "play": 100,
+    "pickRate": 20.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 64.8,
+    "play": 54,
+    "pickRate": 10.9
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 66,
+    "play": 47,
+    "pickRate": 9.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 61,
+    "play": 510,
+    "pickRate": 66.4
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 62.2,
+    "play": 437,
+    "pickRate": 56.9
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.8,
+    "play": 407,
+    "pickRate": 53
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 61.9,
+    "play": 278,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.9,
+    "play": 206,
+    "pickRate": 26.8
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 55.5,
+    "play": 110,
+    "pickRate": 14.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 59.2,
+    "play": 289
+   }
+  ]
+ }
+}

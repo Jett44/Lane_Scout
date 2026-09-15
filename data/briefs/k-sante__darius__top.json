@@ -1,0 +1,148 @@
+{
+ "you": "K'Sante",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, mechanical",
+   "line": "You lose lane only if you facetank Decimate and let Hemorrhage hit 5 stacks before level 6; you win from level 3 onward once Path Maker starts punishing his Q wind-up."
+  },
+  "thesis": "Every Darius tool that matters — Decimate's swing, Crippling Strike's slow, Apprehend's pull, Guillotine's execute — requires him to be in melee range next to you and stacking Hemorrhage. K'Sante's whole kit (E's dash-and-shield, Q's slow, W's charge-then-stun) is built to control that range instead of trade inside it. Deny him the extended stand-and-swing fight and his damage output collapses; get pulled in and forced to auto-trade and you feed the exact stack game he wants.",
+  "tell": {
+   "watch": "Decimate wind-up animation",
+   "theirWindow": {
+    "when": "Darius at 5 Hemorrhage stacks, enraged",
+    "what": "He gains massive bonus AD and his next Guillotine hits hardest. Do not extend the trade here — disengage with E (Footwork) or eat the stun cooldown to leave."
+   },
+   "yourWindow": {
+    "when": "Darius mid-wind-up on Decimate in melee",
+    "what": "He's committed and can't cancel. Step out to Q (Ntofo Strikes) max range (450) so the swing whiffs, then walk back in and land your own Q or charge W (Path Maker) into him before his axe resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Decimate blade heal outtrades your early Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W online, punishes his Q commitment"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His Guillotine threat matches your All Out"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "CDR and tank items take over"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Your peel and CC decide fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The regen and reduced-damage-from-melee-harass directly blunts free autos and Decimate blade hits while you're still stackless."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Darius's damage is entirely physical autos plus Decimate — the flat auto-damage reduction outvalues Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Gives you the stats and tempo to actually threaten a trade instead of just surviving one."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Stacking HP directly counters his stack-based execute — every point of max HP shrinks his Guillotine ceiling."
+    },
+    {
+     "item": "Force of Nature",
+     "why": "Move speed to keep range from his melee kit plus HP that scales the same way against his execute."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's out-sustaining you off Decimate blade healing"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he's building attack speed/crit and out-DPSing your trades"
+    },
+    {
+     "item": "Frozen Heart",
+     "when": "you need the attack speed slow to shut down his autos entirely"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards you for staying in extended poke range with autos rather than committing to the all-in he wants, and out-sustains his early Decimate healing.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Revitalize"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Armor"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash protects against getting caught by Apprehend's pull; Teleport lets you play the sustain-and-wave-priority game instead of forcing all-ins you don't need."
+  },
+  "playing": [
+   {
+    "title": "Bait the Decimate windup",
+    "detail": "Step to 450 range right as he winds up so the swing whiffs, then re-engage while it's on cooldown (9/8/7/6/5s)."
+   },
+   {
+    "title": "Never sit in extended autos",
+    "detail": "Hemorrhage stacks up to 5 and enrages him with bonus AD — trade in short bursts and leave before stacks climb, not after."
+   },
+   {
+    "title": "Punish missed Apprehend",
+    "detail": "His pull is on a long cooldown (26/23.5/21/18.5/16s) — once it whiffs or goes on cooldown, that's your window to walk him down without fear of the hook."
+   },
+   {
+    "title": "Save Footwork for the pull",
+    "detail": "E's dash-and-shield is your answer to being yanked in by Apprehend or slowed by Crippling Strike — hold it rather than burning it to poke."
+   },
+   {
+    "title": "Charge W into his wind-up",
+    "detail": "Path Maker's charge-up itself reduces damage taken, so starting the charge as he commits to Decimate lets you eat the swing and still land the stun."
+   },
+   {
+    "title": "Use All Out to end fights, not start them",
+    "detail": "R's knockback-through-walls is best saved to separate him from turret range or teammates once he's already low, since his own R threat scales with your Hemorrhage stacks."
+   },
+   {
+    "title": "Track his Guillotine cooldown post-6",
+    "detail": "At rank 1-2 it's 120/100s — a missed or spent Guillotine is a long window where he has no true-damage answer to your all-in."
+   }
+  ],
+  "patchCaveat": "Item and rune names shift patch to patch — verify Trinity Force, Heartsteel, and the exact Resolve keystone tree are still live before locking the build."
+ },
+ "generatedAt": 1789454483068,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": false
+}

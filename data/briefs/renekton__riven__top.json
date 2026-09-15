@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, punish early",
+   "line": "You lose if you let Riven farm to 6 untouched and eat a free Wind Slash trade; you win if you force all-ins between levels 3 and 5 while your Fury is full."
+  },
+  "thesis": "Renekton's Fury bar creates hard, repeatable all-in windows — above 50 Fury his W (Ruthless Predator) becomes a 3-hit, 1.5s stun that shreds shields and his Q (Cull the Meek) heals harder — and those windows exist well before Riven's level 6 Wind Slash burst comes online. The 703-game sample backs this: Renekton wins this lane 54.2% of the time specifically because he can dictate when fights happen, not because he out-damages her in a fair fight.",
+  "tell": {
+   "watch": "Your Fury bar and her E cooldown",
+   "theirWindow": {
+    "when": "Her E (Valor) is off cooldown",
+    "what": "Riven will use Valor to step in and block your incoming damage before chaining Q (Broken Wings) into W (Ki Burst) for the stun. Don't throw your full combo into a fresh Valor — bait it with autos or a single Q first, then commit once it's down (10/9/8/7/6s cooldown by rank)."
+   },
+   "yourWindow": {
+    "when": "Fury bar above 50",
+    "what": "Auto-attack the wave or trade briefly until Fury crosses 50, then all-in: empowered W lands a 1.5s stun and destroys any shield she's holding, and empowered Q hits harder and heals you more. This is the trade the matchup data is built on — take it every time it's up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "W stun online first, punish CS"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Full combo plus Fury window, all-in"
+   },
+   {
+    "levels": "6",
+    "edge": "them",
+    "note": "Her ult adds ranged Wind Slash burst"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "Eclipse spike outtrades her sustain"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Full builds trade evenly, close duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Runs 53.6% over 716 games at 82.9% pick — the sustain and early AD let you win the level 1-2 trades her Ki Burst can't yet punish."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.5% over 707 games at 84.6% pick; the flat physical damage reduction blunts her auto-reset combo and the free hits she gets during Broken Wings dashes."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "First item in the 60.4%-winrate path (139 games); the proc rewards exactly the burst all-ins your Fury windows are built around."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second in both top paths (60.4% and 67.8% samples); armor shred keeps your empowered W and Q hitting hard as she buys tank items."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "60.4% over 139 games as the third item; lets you commit to extended all-ins without her poke chip-killing you afterward."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and want to survive her Blade of the Exile all-ins instead of racing burst"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you want the cooldown refund to chain W stuns more often (40.7% over 54 games as a third-item alternative)"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "her team stacks extra CC beyond her own kit (60.9% over 115 games when taken)"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need to stick to her through Valor dashes in extended fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Highest recorded win rate for this build (60.1%, 17.3% pick); the burst-plus-vulnerability proc pairs with your empowered W stun to end short trades before she can land her own combo.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Dominant pick at 89.4% with a 55.3% win rate — Ignite closes out your Fury all-in windows for kills instead of just chip damage, especially in the 3-5 level range where you have the trade advantage."
+  },
+  "playing": [
+   {
+    "title": "Farm to full Fury before engaging",
+    "detail": "Your passive builds Fury off attacks — hit the wave or auto her when safe until the bar crosses 50, then commit your combo. A half-Fury W is a much worse trade."
+   },
+   {
+    "title": "Bait Valor before all-in",
+    "detail": "Poke with a single Q or an auto first to draw out her E (Valor, 10/9/8/7/6s cooldown). Once it's down she has no block left for your empowered combo."
+   },
+   {
+    "title": "End the lane before 6",
+    "detail": "Riven has no Wind Slash until Blade of the Exile comes online. Stack your all-in windows between levels 3 and 5 while she can't punish you from range."
+   },
+   {
+    "title": "Track her Broken Wings charges",
+    "detail": "Q can be reactivated up to three times in a short window, with the third hit knocking back — if she's burned all three charges chasing or repositioning, she's temporarily out of escape."
+   },
+   {
+    "title": "Chain W as it ranks up",
+    "detail": "Ruthless Predator drops from 16s to 8s cooldown by rank 5 — once it's near max rank you can threaten a stun almost every other trade."
+   },
+   {
+    "title": "Play level 6 safer",
+    "detail": "Blade of the Exile grants bonus AD, range, and a one-time Wind Slash. Don't extend trades she can finish from range that level — reset and wait for your next Fury window instead."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample numbers above are measured from live OP.GG games on the current patch (703-game sample for this matchup); the Fury-window timing and trade sequencing is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1789455474667,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789455392335,
+  "overall": {
+   "winRate": 49.8,
+   "play": 46331,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 703,
+   "wins": 381,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep an eye out for Riven’s Conqueror stacks before engaging her. Use your abilities off cooldown whenever Fury is full to easily gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.3,
+    "play": 749,
+    "pickRate": 89.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.4,
+    "play": 56,
+    "pickRate": 6.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 3.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.2,
+    "play": 325,
+    "pickRate": 37.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60.1,
+    "play": 148,
+    "pickRate": 17.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.6,
+    "play": 716,
+    "pickRate": 82.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55.4,
+    "play": 92,
+    "pickRate": 10.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.5,
+    "play": 707,
+    "pickRate": 84.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60.9,
+    "play": 115,
+    "pickRate": 13.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 60.4,
+    "play": 139,
+    "pickRate": 25.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 67.8,
+    "play": 59,
+    "pickRate": 10.9
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 40.7,
+    "play": 54,
+    "pickRate": 9.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54.6,
+    "play": 711,
+    "pickRate": 84.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 56.9,
+    "play": 510,
+    "pickRate": 60.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.4,
+    "play": 404,
+    "pickRate": 47.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 61,
+    "play": 223,
+    "pickRate": 26.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 55.6,
+    "play": 198,
+    "pickRate": 23.4
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 60.8,
+    "play": 74,
+    "pickRate": 8.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.1,
+    "play": 190
+   }
+  ]
+ }
+}

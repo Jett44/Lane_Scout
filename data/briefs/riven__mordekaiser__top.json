@@ -1,0 +1,376 @@
+{
+ "you": "Riven",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you feed Mordekaiser three landed hits and let Darkness Rise snowball the trade; you win if you all-in while Obliterate is down and deny his stacks with Valor."
+  },
+  "thesis": "This lane is decided by Mordekaiser's passive: Darkness Rise only turns on after he lands 3 hits on you, so every trade is a race to either deny that third hit or to burst him before it matters. The 50.1% win rate over 335 games confirms this is genuinely even, not a lane you should play scared in.",
+  "tell": {
+   "watch": "Mordekaiser's passive stack count",
+   "theirWindow": {
+    "when": "he's landed 2 hits already",
+    "what": "Do not walk into the third poke. Use E (Valor) to dash through and block the hit that would proc Darkness Rise, or disengage entirely — once his aura and Move Speed kick in he out-trades you clean."
+   },
+   "yourWindow": {
+    "when": "Obliterate (Q) just went on cooldown",
+    "what": "At early ranks that's an 8s window with no poke coming back. Close the gap with Q (Broken Wings), land W (Ki Burst) to stun, and dump auto-attacks empowered by Runic Blade before he can reset."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither combo online, feel out his Q timing"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q-W-E combo online, punish his slow Q cooldown"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Realm of Death adds solo-kill threat, play safer"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Conqueror and item spikes outpace his shield-heal"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Death's Dance sustain vs his full-build tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Runs in 89.8% of games at a 51.5% win rate. The AD and sustain let you trade into his auto-attacks without needing to land a perfect combo every time."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Highest picked and best performing boots (51.8% over 228 games). Lower cooldowns on Q/W/E mean more windows to catch his Obliterate on cooldown."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Best-performing opener in this matchup, 82.1% win rate over the full path. Cooldown refund on R lets you threaten Wind Slash more than once per fight."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Sustained damage and healing to keep pace with his Indestructible shield-heal loop over a long lane."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion softens his burst from Obliterate and keeps you alive through his passive aura ticks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Maw of Malmortius",
+     "when": "he's ahead and his magic burst from Obliterate is threatening to one-shot you off cooldown"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he builds into a tankier late-game teamfight profile and you need to shred through it"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through your extended Q-W-E trades and the healing it grants directly offsets what he banks into Indestructible, so you're not just losing a sustain war by default.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 98% of games at 50.9% win rate. Ignite cuts through his Indestructible heal-back, which is the only way to close out a kill once he starts banking shield value."
+  },
+  "playing": [
+   {
+    "title": "Block the third hit, not the first",
+    "detail": "Darkness Rise only activates after 3 landed hits. Track the count and use Valor's damage block specifically to deny the proc, not just to soak random poke."
+   },
+   {
+    "title": "All-in when Obliterate is down",
+    "detail": "His Q is 8/7/6/5/4s on cooldown and is his main threat at range 675. The moment it's used, close the gap — he has nothing else to punish your engage until it's back up."
+   },
+   {
+    "title": "Fight in minions, not in the open",
+    "detail": "Obliterate deals increased damage when it hits a single target. Trading with minions nearby means you're not eating the bonus damage every cast."
+   },
+   {
+    "title": "Respect level 6 all-ins",
+    "detail": "Realm of Death isolates you in a straight duel and steals your stats if he kills you. Don't extend a trade below half HP once he has it up."
+   },
+   {
+    "title": "Track his ultimate cooldown",
+    "detail": "Realm of Death is 140/90/... down to 90s by rank 3. Once he's used it and whiffed or you've survived it, that's your green light to play aggressive again."
+   },
+   {
+    "title": "Save Wind Slash for the punish",
+    "detail": "Blade of the Exile grants one ranged Wind Slash. Hold it to finish a trade or catch him mid-Death's Grasp animation rather than throwing it early."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and the 50.1% head-to-head win rate over 335 games are pulled from measured OP.GG data on the current patch. The trade timings and passive-denial reading are my own analysis, built from the raw ability cooldowns and effects."
+ },
+ "generatedAt": 1789455853747,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789455785430,
+  "overall": {
+   "winRate": 49.6,
+   "play": 18895,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 335,
+   "wins": 168,
+   "winRate": 50.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being hit by Mordekaiser’s abilities. Deal burst damage and fall back periodically to prevent Mordekaiser’s (P) from activating.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.9,
+    "play": 397,
+    "pickRate": 98
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.4,
+    "play": 155,
+    "pickRate": 37.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 65.9,
+    "play": 44,
+    "pickRate": 10.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 379,
+    "pickRate": 89.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 2.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 51.8,
+    "play": 228,
+    "pickRate": 57.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 58.8,
+    "play": 102,
+    "pickRate": 25.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 82.1,
+    "play": 28,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 69.6,
+    "play": 23,
+    "pickRate": 8.5
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53,
+    "play": 219,
+    "pickRate": 53.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46.2,
+    "play": 212,
+    "pickRate": 51.6
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 59.5,
+    "play": 195,
+    "pickRate": 47.5
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 51.7,
+    "play": 147,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 53.7,
+    "play": 108,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.5,
+    "play": 99,
+    "pickRate": 24.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.4,
+    "play": 170
+   }
+  ]
+ }
+}
