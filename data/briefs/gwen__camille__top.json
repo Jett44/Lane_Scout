@@ -1,0 +1,381 @@
+{
+ "you": "Gwen",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly favoured",
+   "line": "You lose if you extend past your minions once Camille hits level 6 with R up; you win by forcing every trade to happen inside your own Hallowed Mist."
+  },
+  "thesis": "Camille's entire kill pattern — auto-attack shield stacking, the empowered Q auto, and the targeted dash on R (Hextech Ultimatum) — requires her to directly hit or target you, and W (Hallowed Mist) states you 'can only be targeted by enemies who enter the mist.' That single interaction is why the measured numbers sit near even (50.5% over 537 games) with lane and solo-kill advantage still on Gwen's side, despite Camille's reputation as a lane bully.",
+  "tell": {
+   "watch": "Camille's distance to nearby walls",
+   "theirWindow": {
+    "when": "Level 6-8, you're pushed past minion wave",
+    "what": "Once Camille hits 6, R (Hextech Ultimatum) directly targets and anchors you regardless of mist, and if she's near a wall she can chain E (Hookshot)'s knockup into the combo. Hold near minion cover through this window instead of shoving deep."
+   },
+   "yourWindow": {
+    "when": "Camille's E (Hookshot) is on cooldown",
+    "what": "Without E up she has no gap-close or wall-jump escape for 16 to 12 seconds depending on rank. Drop W, walk up, and trade freely with Q — she cannot punish the extension."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Camille's Q-empowered auto outranges your short kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E unlocks dash-trade-retreat, W denies her engage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R-E all-in threat if you're caught extended"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Core items land, passive damage scaling closes gap"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "R's 8.5s cooldown lets you poke nonstop"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring, Health Potion, Health Potion",
+    "why": "Run in 50.6% of 559 tracked games (91% pick rate); the extra potion covers you through Camille's early Q-auto trades while you wait for E at 3."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked in 40.8% of games at 52.6% win rate; every point of Camille's kit — autos, Q, W's cone, R's bonus auto damage — is physical, so flat DR blunts her whole trade pattern."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the highest-performing path (56.8% win rate, 81 games) and gives the burst needed to punish her when E lands."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item in that same build path; adds execute-style burst that pairs with your passive's health-percent scaling."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Closes out the 56.8%-winrate path; by this point R's cooldown is near 8.5s, so raw AP compounds every cast."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "she lands the E-into-R all-in combo and you need to survive the burst window"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustain to out-trade her in extended skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run in the top page (50.9% win rate, 33.4% pick); stacks through your E-empowered autos and R hits during the extended trades Hallowed Mist lets you initiate safely.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest win rate and pick rate combo (53.1% over 63.3% of games); with solo-kill advantage already on your side, Ignite turns your mist-forced trades into kills instead of pushes."
+  },
+  "playing": [
+   {
+    "title": "Hug the mist",
+    "detail": "Drop W (Hallowed Mist) before trading so Camille's autos, empowered Q, and R's targeted dash can't touch you unless she physically walks in. This forces every fight onto your terms."
+   },
+   {
+    "title": "Bait E onto open ground",
+    "detail": "E (Hookshot) needs a wall to land its knockup; if you keep the wave away from walls she has no engage or escape for 16-12 seconds depending on rank."
+   },
+   {
+    "title": "Snip through her, not just minions",
+    "detail": "Q (Snip Snip!) deals true damage to whatever's centered in the cone and applies passive on every snip, so angle it to clip Camille directly during trades."
+   },
+   {
+    "title": "Dash out after E's steroid",
+    "detail": "E (Skip 'n Slash) grants attack speed, range, and magic on-hit for a few seconds; land an auto in that window to refund the cooldown, then retreat back into mist."
+   },
+   {
+    "title": "Respect walls once she's 6-8",
+    "detail": "Her R (Hextech Ultimatum) can target and anchor you directly, and near a wall she can chain E's knockup into it. Stay on minion cover through this stretch."
+   },
+   {
+    "title": "Hold R early, don't force it",
+    "detail": "Needlework sits at 120-80 seconds cooldown for its first two ranks, so use it to poke and proc passive rather than committing before your E is up to follow in."
+   },
+   {
+    "title": "Spam R once it hits rank 3",
+    "detail": "At 8.5-8 seconds cooldown, Needlework becomes a near-constant poke and heal tool in extended fights, a reset pattern Camille has no equivalent for."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner picks are pulled directly from OP.GG matches on the current patch (16.18.1) at the sample sizes listed; the mist-positioning and wall-dependent engage reasoning behind them is my own tactical read, not measured data."
+ },
+ "generatedAt": 1789563578844,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789563492871,
+  "overall": {
+   "winRate": 50.6,
+   "play": 27562,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 537,
+   "wins": 271,
+   "winRate": 50.5
+  },
+  "laneAdvantage": "Gwen",
+  "soloKillAdvantage": "Gwen",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.1,
+    "play": 390,
+    "pickRate": 63.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.5,
+    "play": 87,
+    "pickRate": 14.1
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 43.1,
+    "play": 51,
+    "pickRate": 8.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.9,
+    "play": 212,
+    "pickRate": 33.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.3,
+    "play": 46,
+    "pickRate": 7.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 559,
+    "pickRate": 91
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 4.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.6,
+    "play": 230,
+    "pickRate": 40.8
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 47.2,
+    "play": 197,
+    "pickRate": 34.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 56.8,
+    "play": 81,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Riftmaker",
+     "Nashor's Tooth",
+     "Shadowflame"
+    ],
+    "winRate": 39.1,
+    "play": 23,
+    "pickRate": 6.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Nashor's Tooth",
+     "Riftmaker"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 4.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.2,
+    "play": 444,
+    "pickRate": 70.6
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 50.1,
+    "play": 349,
+    "pickRate": 55.5
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 50,
+    "play": 290,
+    "pickRate": 46.1
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 48.2,
+    "play": 226,
+    "pickRate": 35.9
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 61.7,
+    "play": 206,
+    "pickRate": 32.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 57.6,
+    "play": 99,
+    "pickRate": 15.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.6,
+    "play": 266
+   }
+  ]
+ }
+}
