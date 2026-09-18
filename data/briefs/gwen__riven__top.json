@@ -1,0 +1,378 @@
+{
+ "you": "Gwen",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Riven catches you at levels 1-5 before Hallowed Mist is up; you win if the lane survives to your first two-item spike."
+  },
+  "thesis": "The 47.4% win rate over 344 games reflects a lane where Riven's Q (Broken Wings, 13s cooldown, up to 3 reactivations) and W (Ki Burst, 11-7s cooldown, stuns nearby enemies) let her force an all-in before Gwen has E or a usable W. Once Gwen has Hallowed Mist up, Riven physically cannot land that combo unless she walks into the mist herself, which flips the lane's math. Gwen's passive (A Thousand Cuts, bonus magic damage scaled to target health) also punishes Riven's tendency to stack HP, so the matchup gets structurally better for Gwen every level past 6.",
+  "tell": {
+   "watch": "Riven's Q (Broken Wings) cooldown",
+   "theirWindow": {
+    "when": "Riven has full Q and W, you're outside mist",
+    "what": "This is her stun-into-triple-strike all-in window. Do not extend past minion range at levels 1-2; if she flashes it, hold Snip Snip! for the true-damage center hit and disengage rather than trade autos."
+   },
+   "yourWindow": {
+    "when": "Riven just spent Q's third hit or E (Valor)",
+    "what": "Both are on real cooldowns (Q flat 13s, E 10-6s by rank) with no block or dash left. Dash in with E (Skip 'n Slash, 13-11s cooldown), weave Snip Snip! and empowered on-hit autos for the duration, then reset out before her cooldowns come back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ki Burst stun into Q chain before you have E or W"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Riven Q max hits harder than your cone poke"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Hallowed Mist and E resets stabilize your trades"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Shadowflame/Rabadon's burst outscales her flat kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "80.8% pick rate at 46.7% win rate; the extra sustain from two potions matters because Riven's all-in windows land before you have Hallowed Mist to disengage with."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "60.6% pick, 47.6% win rate. Riven's damage comes through Runic Blade-charged autos and on-hit trades, so flat auto-attack reduction directly blunts her combo."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First leg of the 57.1% win rate path; gives the burst and durability to survive to your spike."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item on the strongest measured build (57.1% wr, 63 games); amplifies your passive's execute-style damage against a bruiser who stacks HP."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Closes out the highest win-rate path; by this point Riven's flat kit has stopped scaling while your Q/passive damage keeps climbing."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "riven's team can dive you or she's fed enough that her all-in kills through your combo"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustain through extended skirmishes instead of pure burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Sustained trading with Q snips and on-hit E procs stacks Conqueror fast, and the healing offsets Riven's early poke advantage.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Flash+Ignite is the top measured pick (39.6% pick rate, 49.1% win rate) and punishes any all-in you survive. Flash+Exhaust (28% pick, 46.5% win rate) is the better call if you expect to get all-inned repeatedly before level 6, since it directly weakens Riven's burst window."
+  },
+  "playing": [
+   {
+    "title": "Hold Mist for her all-in, not for poke",
+    "detail": "Hallowed Mist (rank 1, 22s cooldown) only protects you from enemies who don't enter it — save it for when Riven commits Q or W, not to trade auto for auto."
+   },
+   {
+    "title": "Don't extend before level 3",
+    "detail": "You have no E or W until level 2-3, so Riven's Ki Burst stun into Q chain wins that trade outright. Stay at Snip Snip! range (450) and let minions soak her engage."
+   },
+   {
+    "title": "Punish her Q and E cooldowns",
+    "detail": "Riven's Q is a flat 13s cooldown and E is 10-6s by rank — the moment she spends either without a kill, dash in with Skip 'n Slash and weave autos before she resets."
+   },
+   {
+    "title": "Respect Valor as a damage block",
+    "detail": "Riven's E blocks incoming damage while she steps forward, so don't dump your E on-hit window into her the instant she uses it — wait a beat for the block to expire."
+   },
+   {
+    "title": "Track her ultimate's Wind Slash",
+    "detail": "Blade of the Exile gives Riven bonus AD/range and one ranged Wind Slash cast. Its cooldown drops sharply by rank 5 (60s to 10s), so once she's maxed it, assume it's up in most fights."
+   },
+   {
+    "title": "Passive punishes her HP stacking",
+    "detail": "A Thousand Cuts scales off target health, so as Riven builds tankier into you the trade math keeps improving in your favor — don't shy from re-engaging late."
+   },
+   {
+    "title": "Play for your spike, not level 6",
+    "detail": "Your ultimate starts on a 120s cooldown at rank 1, so it isn't your power spike. The lane genuinely turns once Dusk and Dawn and Shadowflame are online — play patient until then."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.18.1); the trade patterns, cooldown reads, and level-by-level verdict are my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1789743114325,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789743027617,
+  "overall": {
+   "winRate": 50.7,
+   "play": 36693,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 344,
+   "wins": 163,
+   "winRate": 47.4
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 161,
+    "pickRate": 39.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.5,
+    "play": 114,
+    "pickRate": 28
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 36.8,
+    "play": 38,
+    "pickRate": 9.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46,
+    "play": 137,
+    "pickRate": 33
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 51.7,
+    "play": 29,
+    "pickRate": 7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 332,
+    "pickRate": 80.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 44.1,
+    "play": 34,
+    "pickRate": 8.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.6,
+    "play": 231,
+    "pickRate": 60.6
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 39.8,
+    "play": 93,
+    "pickRate": 24.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 57.1,
+    "play": 63,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 7.3
+   },
+   {
+    "items": [
+     "Riftmaker",
+     "Dusk and Dawn",
+     "Shadowflame"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 3.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 48.7,
+    "play": 314,
+    "pickRate": 75.9
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 52.4,
+    "play": 231,
+    "pickRate": 55.8
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 46.7,
+    "play": 150,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 55.4,
+    "play": 130,
+    "pickRate": 31.4
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 43.7,
+    "play": 119,
+    "pickRate": 28.7
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 45.5,
+    "play": 66,
+    "pickRate": 15.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51,
+    "play": 194
+   }
+  ]
+ }
+}

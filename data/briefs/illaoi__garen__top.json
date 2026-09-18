@@ -1,0 +1,384 @@
+{
+ "you": "Illaoi",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, respect his all-in",
+   "line": "You lose if you trade into a full W-Q-E combo without an escape and eat a low-cooldown Demacian Justice at low HP; you win if you force him to fight through your tentacles instead of letting him reset off Perseverance."
+  },
+  "thesis": "Garen's Perseverance passive regenerates a percentage of his health each second whenever he avoids damage, so every trade you start dies unless you can keep him tagged through his disengage. Test of Spirit (E) is built for exactly this: it rips his spirit out and echoes a percentage of damage back to him even as he walks away, which is the one tool in your kit that beats his sustain outright. The 46.5% win rate over 956 games reflects that this only works if you actually land E on cooldown instead of just auto-attacking him down.",
+  "tell": {
+   "watch": "Garen's E (Judgment) cooldown",
+   "theirWindow": {
+    "when": "level 6+, you're already low",
+    "what": "Demacian Justice (R) executes based on your current health and drops from a 140s cooldown to as low as 20s with rank-ups, so once he's leveled it he can threaten a kill far more often than the base cooldown suggests. Don't extend trades below roughly 40% HP once he has R up."
+   },
+   "yourWindow": {
+    "when": "he trades then tries to walk off",
+    "what": "Fire Test of Spirit (E) the moment he commits to a trade — the spirit stays on him and echoes damage even as he retreats, denying the Perseverance tick that would otherwise refund the fight. Follow with Q (Tentacle Smash) to spike the echoed damage further."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q silence and burst outpace your pre-tentacle damage"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online lets you punish his sustain plan"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his R threatens kills, your R answers in kind"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Cleaver shred plus tentacles wins extended fights"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sterak's and lifesteal outlast his execute threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The most run start into this matchup (46.2% WR, 59.6% pick) — the extra AD and sustain let you match his early spin poke without falling behind before your tentacles come online."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Highest pick rate boot here (72.7%) and it directly cuts the physical damage from his auto-attacks and Judgment spins, which is where most of his pre-6 damage comes from."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Most common first core item (60.4% path win rate) — the armor shred makes your tentacle procs and Q hit harder through his growing HP pool."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The slow on proc helps you stick to him after your W leap so he can't just Q away and heal off Perseverance."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The shield and tenacity keep you alive through a level 6+ Demacian Justice attempt and any follow-up all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you're ahead and trading into his all-ins repeatedly"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "he's building lifesteal or you need more sustain to win the extended fight"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want a stronger single-target duel item over more shred"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest win rate page for this matchup (45.7% WR, 39.7% pick) — the free health and bonus damage on proc reward you for standing in extended trades, which is exactly what beats his Perseverance sustain.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Exhaust",
+    "Flash"
+   ],
+   "why": "Highest measured win rate combo here (50.2% over 24.8% pick) — Exhaust directly cuts the burst from his Q silence-auto and Demacian Justice, which are the two moments that actually kill you in this matchup."
+  },
+  "playing": [
+   {
+    "title": "Land E before he disengages",
+    "detail": "Test of Spirit only wins the sustain war if it's on him before he starts walking away. Throw it the instant he commits to a trade, not after."
+   },
+   {
+    "title": "Respect Q's silence on engage",
+    "detail": "Decisive Strike breaks slows and silences on the next hit, so don't expect to interrupt him with W once he's activated it — wait it out or bait it before committing your own combo."
+   },
+   {
+    "title": "Track his R cooldown after level 6",
+    "detail": "Demacian Justice drops as low as 20s with rank-ups. Once he's maxed it, don't sit at low HP near him even outside an obvious all-in window."
+   },
+   {
+    "title": "Fight near terrain",
+    "detail": "Your passive spawns Tentacles on nearby impassible terrain, so position trades close to walls to get extra swings for free damage and healing."
+   },
+   {
+    "title": "Use W to close, not just to poke",
+    "detail": "Harsh Lesson leaps you to him and pulls nearby Tentacles into the swing, so use it to start fights rather than as a standalone poke tool."
+   },
+   {
+    "title": "Iceborn slow locks the trade",
+    "detail": "Once Iceborn Gauntlet is up, its proc slow denies his Q's speed burst from cleanly disengaging, letting your E stay attached longer."
+   },
+   {
+    "title": "Save R for extended skirmishes",
+    "detail": "Leap of Faith spawns a Tentacle per champion hit, so it's strongest in prolonged fights or skirmishes near terrain, not as an opener in a 1v1."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates above are measured from live games on the current patch (16.18.1); the mechanical reasoning and trade timing are my own read on how those numbers play out in lane."
+ },
+ "generatedAt": 1789743776845,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789743721326,
+  "overall": {
+   "winRate": 50,
+   "play": 35933,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 956,
+   "wins": 445,
+   "winRate": 46.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Garen will try to fall back after engaging to restore health back up with his (P), so use [Q] or [E] to either deactivate (P) or nuke him for a kill. Garen will try to get a kill with (R) after reaching level 6, so be careful when your health is low.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.8,
+    "play": 602,
+    "pickRate": 50.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50.2,
+    "play": 293,
+    "pickRate": 24.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40.2,
+    "play": 204,
+    "pickRate": 17.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.7,
+    "play": 481,
+    "pickRate": 39.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.2,
+    "play": 237,
+    "pickRate": 19.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 706,
+    "pickRate": 59.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.5,
+    "play": 308,
+    "pickRate": 26
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.4,
+    "play": 797,
+    "pickRate": 72.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.2,
+    "play": 231,
+    "pickRate": 21.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 60.4,
+    "play": 101,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 53.2,
+    "play": 62,
+    "pickRate": 7.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 54.9,
+    "play": 51,
+    "pickRate": 6.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.7,
+    "play": 922,
+    "pickRate": 77.2
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 47.1,
+    "play": 726,
+    "pickRate": 60.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53.7,
+    "play": 635,
+    "pickRate": 53.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53,
+    "play": 264,
+    "pickRate": 22.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 49.2,
+    "play": 258,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 49.3,
+    "play": 221,
+    "pickRate": 18.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 51.7,
+    "play": 174
+   }
+  ]
+ }
+}
