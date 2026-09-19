@@ -1,0 +1,388 @@
+{
+ "you": "Garen",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose the fight if you eat repeated Seismic Shard pokes at 625 range without ever closing; you win any trade where Q's silence and E connect once you're inside 325 range."
+  },
+  "thesis": "Malphite's Seismic Shard (Q, 625 range) outranges every tool in Garen's kit — Q at 300, E at 325, W at melee — so the entire lane is a fight over the gap between those two numbers. Garen has no way to punish poke until he closes it, and Malphite's Granite Shield passive means the first hit he takes on approach often does nothing. The 50% win rate over 1879 games reflects that stalemate: whoever controls when the gap closes controls the trade.",
+  "tell": {
+   "watch": "Malphite's Granite Shield status",
+   "theirWindow": {
+    "when": "after he lands Seismic Shard (Q)",
+    "what": "He's stolen your move speed and gained his own, so he can either kite you at range or close to follow up with Brutal Strikes (W) and Ground Slam (E) on his terms. Don't chase into this — you can't catch him and you're walking into his second and third hit."
+   },
+   "yourWindow": {
+    "when": "Malphite is forced to fight in melee",
+    "what": "Use Q (Decisive Strike) to shed any slow on you and silence him on the hit, which shuts off his W/E follow-up for that trade. Follow immediately with E (Judgment) and stay in his face — his Granite Shield only blocks the first hit before it needs to recharge."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke at 625 range, no closer for you"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E point lets you answer once he's close"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Demacian Justice threatens overextended pokes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "E maxed to 9s cooldown, repeated spins"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Unstoppable Force becomes a teamfight engage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Highest-picked start into this matchup (62.5% pick, 48.9% WR over 1486 games) — the flat damage block and regen offset Seismic Shard chipping you every 8 seconds while you're stuck walking up."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "Most-picked boots (63.3% pick, 50.1% WR) — the attack speed keeps your Judgment (E) trades and auto resets going once you're finally in range."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The dash-on-activate is your actual answer to Malphite's 625-range Q — it's the one item in the build that closes distance on demand."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Move speed and attack speed keep you attached once you've closed, so a single successful gap-close doesn't end the moment he tries to walk away."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Armor penetration cuts through the Armor buff Brutal Strikes (W) grants him and through his natural tank scaling as the game goes long."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "you're consistently landing the first hit but losing him after — the swap trades some kill pressure for stickiness (55% WR, 149 games on this path)"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "Malphite is building pure armor and Mortal Reminder's pen alone isn't enough"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you want an earlier burst of movement speed to punish his poke attempts before level 6"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "his Seismic Shard slow is denying your ability to ever close the gap at all"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 49.7% WR / 41.2% pick page — Conqueror stacks off repeated E spins and autos once you're in melee range, and its healing offsets the chip damage you take just walking up to him.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant page at 90% pick (49.9% WR). Ignite turns your level-6 all-in into a real kill threat by pushing him under Demacian Justice's execute earlier, and Flash is your backup gap-closer for the trades Stridebreaker's dash alone doesn't win."
+  },
+  "playing": [
+   {
+    "title": "Walk up behind minions",
+    "detail": "Malphite's Q outranges your entire kit by at least 300 units — use the wave to soak poke on your way in rather than eating Seismic Shard in the open."
+   },
+   {
+    "title": "Save Q for his combo",
+    "detail": "Time Decisive Strike's silence to land right as you engage, so it shuts down his Brutal Strikes (W) or Ground Slam (E) follow-up instead of going to waste on a poke exchange."
+   },
+   {
+    "title": "Track his shield, not just his HP",
+    "detail": "Granite Shield blocks a real chunk of your first hit if he hasn't taken damage recently — bait a small poke onto him before you commit your full combo."
+   },
+   {
+    "title": "Look for all-ins from level 6",
+    "detail": "Demacian Justice's execute makes any overextended Seismic Shard attempt from him a real kill window — punish it whenever he pokes from just inside your dash range."
+   },
+   {
+    "title": "Spin on cooldown once maxed",
+    "detail": "Judgment drops to a 9s cooldown at rank 5 (hit by level 9 on this order) — you can re-enter trades far more often than his 14s Brutal Strikes and 7s Ground Slam let him reset his shield."
+   },
+   {
+    "title": "Hold W against incoming Q",
+    "detail": "Per OP.GG's own read on this matchup, activating Courage as he throws Seismic Shard blunts the poke — use it specifically when you can't sidestep the cast."
+   },
+   {
+    "title": "Regen in brush off cooldown",
+    "detail": "Step into a brush whenever it's safe to trigger Perseverance's out-of-combat healing — it directly denies his plan of slowly attritioning you down with ranged Q poke."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, summoners, and win rates above are pulled from measured OP.GG games on the current patch (16.18.1) — the range comparisons, cooldown timings, and trade-window calls are my own reading of the matchup, not measured data."
+ },
+ "generatedAt": 1789815840670,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789815745209,
+  "overall": {
+   "winRate": 50.7,
+   "play": 101142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1879,
+   "wins": 940,
+   "winRate": 50
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Mitigate the damage on Malphite’s (Q) by using [W]. Close in to deal damange whenever he steps in your range. Activate [P] inside a brush.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.9,
+    "play": 2140,
+    "pickRate": 90
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.6,
+    "play": 148,
+    "pickRate": 6.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 37,
+    "play": 54,
+    "pickRate": 2.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 998,
+    "pickRate": 41.2
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.8,
+    "play": 367,
+    "pickRate": 15.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 1486,
+    "pickRate": 62.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 569,
+    "pickRate": 24
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 50.1,
+    "play": 1464,
+    "pickRate": 63.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51,
+    "play": 514,
+    "pickRate": 22.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 50.9,
+    "play": 316,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 55,
+    "play": 149,
+    "pickRate": 9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 54.6,
+    "play": 108,
+    "pickRate": 6.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.9,
+    "play": 2285,
+    "pickRate": 94.9
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 51.4,
+    "play": 1406,
+    "pickRate": 58.4
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 48.6,
+    "play": 657,
+    "pickRate": 27.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.5,
+    "play": 635,
+    "pickRate": 26.4
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 51.9,
+    "play": 543,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 56.1,
+    "play": 344,
+    "pickRate": 14.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 51.5,
+    "play": 1094
+   }
+  ]
+ }
+}

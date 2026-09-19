@@ -1,0 +1,380 @@
+{
+ "you": "Sett",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, slightly unfavored",
+   "line": "You lose if you eat Q pokes for free until 6 and let Malphite dictate every trade with Ground Slam; you win if you bait E and W onto cooldown before you commit Facebreaker."
+  },
+  "thesis": "Malphite's E (Ground Slam) shreds your attack speed in every close-quarters fight, which is exactly where Sett's kit wants to live, so the 46.9% win rate over 2081 games comes from Sett being forced to fight through a debuff built to counter him. The matchup is winnable specifically when you time E (Facebreaker) for the stun and pop W (Haymaker) shield around Malphite's E/Q cooldowns instead of just walking into his cleave.",
+  "tell": {
+   "watch": "Malphite's Granite Shield charge state",
+   "theirWindow": {
+    "when": "Granite Shield is charged and Q/E are up",
+    "what": "Malphite can poke you with Q (8s cooldown, steals your move speed) and then walk you down with W (Brutal Strikes) cleave plus E attack-speed shred. Do not initiate here — you'll be slowed into a fight where your autos are worthless."
+   },
+   "yourWindow": {
+    "when": "his Q and E are both on cooldown",
+    "what": "With no slow and no attack-speed shred incoming, walk up, let two Q (Knuckle Down) autos land, and threaten E (Facebreaker) the moment he's out of position — you get a clean stun instead of eating Ground Slam mid-combo."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both weak, Malphite's Q free-pokes, you have no dash yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W cleave plus E attack-speed shred punishes any extended trade"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R threatens picks, W shield tanks his all-in"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "Q at 6s cooldown lets you stack two empowered autos constantly"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "His R creates all-in threat, your full combo still wins skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "You need the sustained damage and lifesteal to punish the windows when his Q and E are down, since Doran's Shield alone doesn't help you win the all-in once you commit E."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Malphite's entire kit is magic damage (Q, E, R), and Tenacity blunts the R knock-up chain into his follow-up damage — picked in 53.8% of games for a reason."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The slow on the proc lets you actually stick after Facebreaker instead of Malphite walking away once his E attack-speed shred wears off."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds the Armor that both his passive Granite Shield and his E (Ground Slam) damage scale off of, cutting into his defining stat."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Health plus damage amp turns your W shield windows into real damage output instead of just a defensive cooldown."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's building Armor to hard-counter your Cleaver/Bloodmail poke"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "you're ahead and want to close out fights faster with the active slow"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you need a stronger stat-check for late-game 1v1s"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "You need the sustained-fight healing to outlast his E attack-speed shred instead of trying to burst him down, which this matchup doesn't reward.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Shield Bash",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This is a 46.9% even-ish lane with no early kill pressure either direction (47.4% win rate, the strongest of the three options), so Teleport's scaling and wave-management value beats forcing all-ins with Ignite."
+  },
+  "playing": [
+   {
+    "title": "Track Granite Shield before engaging",
+    "detail": "If Malphite hasn't taken damage recently, his passive shield is up and absorbs a chunk of your first hits. Get a couple of Q autos on him first to strip it before you commit Facebreaker."
+   },
+   {
+    "title": "Never trade into a fresh Ground Slam",
+    "detail": "E (Ground Slam) reduces your attack speed the instant it lands, which guts your Q auto-reset plan. If you see it land, back off and reset rather than fighting through the debuff."
+   },
+   {
+    "title": "Save Facebreaker for isolation",
+    "detail": "E (Facebreaker) only stuns if he's on the opposite side from you with allies caught between — otherwise it just slows. Position to actually get the stun before committing your combo."
+   },
+   {
+    "title": "Bank Grit before big trades",
+    "detail": "W (Haymaker) only pays off if you've been hit enough to store Grit. Absorb a Q or an auto first, then punch back with a full shield instead of casting it early for a small return."
+   },
+   {
+    "title": "Punish empowered W windows",
+    "detail": "When Malphite activates W (Brutal Strikes) his Armor and AD spike but it's a short duration. Don't stand in his cleave range during that window — wait it out before re-engaging."
+   },
+   {
+    "title": "Ult through his Q slow, not into it",
+    "detail": "His Q (Seismic Shard) steals your move speed on hit, which can cancel your R (The Show Stopper) approach. Use R immediately after he's cast Q rather than walking into range for it."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are measured from live OP.GG data on the current patch (16.18.1); the mechanical reasoning and trade timing are my own read on why those numbers land where they do."
+ },
+ "generatedAt": 1789815917400,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789815845146,
+  "overall": {
+   "winRate": 50.4,
+   "play": 83921,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2081,
+   "wins": 976,
+   "winRate": 46.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Malphite’s (E) reduces your attack speed, so try to focus on dealing damage through your skills when in close quarters. Do not get hit by (Q) too often.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.5,
+    "play": 1877,
+    "pickRate": 72.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.4,
+    "play": 572,
+    "pickRate": 22
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 42.3,
+    "play": 123,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.9,
+    "play": 882,
+    "pickRate": 33.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 363,
+    "pickRate": 13.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 1300,
+    "pickRate": 49.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.1,
+    "play": 1255,
+    "pickRate": 47.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.2,
+    "play": 1281,
+    "pickRate": 53.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.9,
+    "play": 593,
+    "pickRate": 24.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 52.8,
+    "play": 377,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Stridebreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 60.3,
+    "play": 141,
+    "pickRate": 10.7
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 58.5,
+    "play": 118,
+    "pickRate": 9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 47.8,
+    "play": 2186,
+    "pickRate": 83.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49.7,
+    "play": 1494,
+    "pickRate": 57
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 51.5,
+    "play": 1291,
+    "pickRate": 49.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.6,
+    "play": 500,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 42.2,
+    "play": 339,
+    "pickRate": 12.9
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 49,
+    "play": 210,
+    "pickRate": 8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.8,
+    "play": 771
+   }
+  ]
+ }
+}

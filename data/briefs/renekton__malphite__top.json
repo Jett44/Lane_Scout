@@ -1,0 +1,379 @@
+{
+ "you": "Renekton",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane favoured",
+   "line": "You lose if you tap Malphite's Granite Shield with random autos and burn cooldowns before it's actually down; you win if you time your all-in for when Fury is above 50 and the shield hasn't recharged."
+  },
+  "thesis": "Renekton's empowered W (Ruthless Predator, 50+ Fury) explicitly destroys damage shields on the target — which shreds Malphite's Granite Shield outright instead of just chipping it. That single interaction is why Renekton holds a 51.7-point lane and solo-kill edge here: whoever manages the shield-recharge timer wins the trade, and Renekton has the tool built to delete it. The 47.6% overall win rate over 1802 games says Malphite claws it back late via armor-scaling Ground Slam and a 1000-range Unstoppable Force engage that out-scales this lane lead.",
+  "tell": {
+   "watch": "Your Fury bar vs their shield",
+   "theirWindow": {
+    "when": "Granite Shield charged, your Fury under 50",
+    "what": "Don't dash in with E (Slice and Dice) yet — a non-empowered hit just splashes off the shield. Poke with autos and Q (Cull the Meek, 7s cooldown) first to force the shield down and feed your own Fury before committing."
+   },
+   "yourWindow": {
+    "when": "Fury 50+, shield uncharged (recently hit)",
+    "what": "Full commit: W (Ruthless Predator) now fires three slashes, strips the shield, and stuns 1.5s instead of 0.75s. Follow with E for the armor shred and Q for the boosted heal — this is the trade Malphite can't out-value."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Malphite Q pokes safely at 625 range, no stun yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W stun online, E dash punishes overextension"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R plus 50+ Fury combos shred Granite Shield hard"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "Armor-scaling E and 1000-range R take over fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "48.1% win rate over 1286 games — the extra damage and sustain matter here since your job is landing enough autos to hit 50 Fury before every trade."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "64% pick rate and 48.7% win rate; Malphite's Q, E, and R all deal magic damage, and the tenacity keeps you from getting chain-CC'd out of your own all-in."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Highest-value first item in the top build path (54.3% over 151 games) — the proc shield absorbs Malphite's Q or E poke during your engage window."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks with your empowered E's own armor reduction, letting your Q and W hit through Malphite's stacked resistances."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Bleeds through Malphite's burst and Granite Shield-backed poke, letting you stay in extended trades once you're already ahead in lane."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "malphite is stacking armor and out-tanking your burst in extended fights"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're snowballing lane and want faster W/E loops to keep re-testing the shield timer"
+    },
+    {
+     "item": "Zeke's Convergence",
+     "when": "you're grouping with an AD carry to convert your all-ins into teamfight pressure"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The most-picked page (36%) at 47.7% win rate — the stacking adaptive force and healing reward exactly the repeated-trade, Fury-farming pattern this matchup demands.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "71.9% pick rate at 48.5% win rate, and it matches the data's own solo-kill advantage for Renekton — Ignite closes out the all-in once the shield is stripped and Malphite can't heal through it."
+  },
+  "playing": [
+   {
+    "title": "Bait the shield before you dash",
+    "detail": "Never open with E into a fresh Granite Shield. Land an auto or a Q first so the shield absorbs that instead of your real damage."
+   },
+   {
+    "title": "Track your own Fury, not the clock",
+    "detail": "Your all-in timing is gated by hitting 50+ Fury, not by cooldowns being up. Weave autos between spells specifically to cross that threshold before you commit W."
+   },
+   {
+    "title": "Respect Ground Slam in extended trades",
+    "detail": "E (Ground Slam) cuts your attack speed and deals armor-scaling magic damage on a 7s cooldown. Don't stand in prolonged auto-trades once Malphite starts landing it — burst and disengage instead."
+   },
+   {
+    "title": "Dodge the level 1-2 Q pokes",
+    "detail": "At 625 range with only an 8s cooldown, Malphite's Q wins every free trade before your W is online at level 3. Play side-to-side in minion waves rather than face-tanking it."
+   },
+   {
+    "title": "Use E to punish, not just to engage",
+    "detail": "Slice and Dice's dash lets you close distance the instant Malphite oversteps for CS or vision — you don't need Fury for this, just distance."
+   },
+   {
+    "title": "Front-load your aggression",
+    "detail": "Your lane edge exists levels 3-11; push it hard for kills, plates, and jungle pressure before Malphite's armor stacking and Unstoppable Force flip the matchup late."
+   },
+   {
+    "title": "Play around their R range post-6",
+    "detail": "Unstoppable Force reaches 1000 range and only gets stronger with rank. Don't overextend past minion waves once Malphite hits level 6, even if you're winning the 1v1."
+   }
+  ],
+  "patchCaveat": "Build path, rune page, summoner spells, and every win rate/sample size above are measured from live games on the current patch via OP.GG. The mechanical reasoning — the Granite Shield/empowered-W interaction, the power curve, and the trade patterns — is my own read of the ability kits, not sourced data."
+ },
+ "generatedAt": 1789816489718,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1789816385745,
+  "overall": {
+   "winRate": 49.9,
+   "play": 82468,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1802,
+   "wins": 857,
+   "winRate": 47.6
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being hit with Malphite’s (Q). Build up Fury while using your abilities off cooldown to apply pressure in order to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.5,
+    "play": 1527,
+    "pickRate": 71.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.6,
+    "play": 559,
+    "pickRate": 26.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 29.4,
+    "play": 17,
+    "pickRate": 0.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 794,
+    "pickRate": 36
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46,
+    "play": 163,
+    "pickRate": 7.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 1286,
+    "pickRate": 59.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 768,
+    "pickRate": 35.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.7,
+    "play": 1294,
+    "pickRate": 64
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.5,
+    "play": 650,
+    "pickRate": 32.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 54.3,
+    "play": 151,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 60,
+    "play": 110,
+    "pickRate": 8.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 46.8,
+    "play": 94,
+    "pickRate": 7.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49,
+    "play": 1960,
+    "pickRate": 90.4
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.4,
+    "play": 1185,
+    "pickRate": 54.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 55.6,
+    "play": 653,
+    "pickRate": 30.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 51.9,
+    "play": 601,
+    "pickRate": 27.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.7,
+    "play": 494,
+    "pickRate": 22.8
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 58.8,
+    "play": 177,
+    "pickRate": 8.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.1,
+    "play": 710
+   }
+  ]
+ }
+}

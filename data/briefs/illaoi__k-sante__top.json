@@ -1,0 +1,148 @@
+{
+ "you": "Illaoi",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, punish cooldowns",
+   "line": "You lose exchanges only if he lands Q (Ntofo Strikes) to 2 stacks and yanks you in before you get E (Test of Spirit) off; you win any fight where your E lands first."
+  },
+  "thesis": "Test of Spirit forces a lose-lose on K'Sante: the spirit echoes a percentage of the damage it takes back onto him, and if he can't kill it or stays too far from it he becomes a Vessel that spawns Tentacles on him. He has no way to remove the tether itself, so his only outs are to burn Footwork (E) or Path Maker (W) to reposition near the spirit and eat the echo, or run and eat the Vessel. Either choice costs him a cooldown you didn't have to spend.",
+  "tell": {
+   "watch": "K'Sante's Q stack count",
+   "theirWindow": {
+    "when": "he hits 2 Ntofo Strikes stacks near you",
+    "what": "At 2 stacks his Q fires a shockwave that pulls you in for free follow-up damage. Back off or trade cautiously once you see the second stack land rather than standing in his Q range."
+   },
+   "yourWindow": {
+    "when": "the instant your E (Test of Spirit) lands",
+    "what": "Chase immediately with W (Harsh Lesson, 4s cooldown) and Q smashes onto the spirit. Every point of damage echoes to him, and if he can't kill the spirit or breaks range from it he becomes a Vessel, spawning Tentacles that hit him and heal you off your passive."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a real combat tool online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W's 4s cooldown lets you stick and sustain through trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "All Out (R) unlocks his wall-throw all-in threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Core items land, E-Vessel snowballs every extended fight"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Both ultimates are long-cooldown; timing decides fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "The extra sustain from lifesteal keeps you healthy through early Q (Ntofo Strikes) pokes while you wait for E to be up."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "K'Sante's damage is entirely physical autos and Q strikes; the flat reduction blunts his poke and All Out auto-resets."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Movement speed and burst on-hit help you stay attached with W (4s cooldown) through his Footwork dashes."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred makes your echoed E damage and Tentacle hits chew through his tank stats faster."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The HP and tenacity-adjacent survivability keeps you alive through an All Out (R) all-in near level 6-11."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Guardian Angel",
+     "when": "you keep dying to his All Out (R) wall combo in skirmishes"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he snowballs ahead and his autos/Q strikes start outdamaging your sustain"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "their other threats are magic damage and you need the shield"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended trades around E (Test of Spirit) and Vessel uptime mean you're in prolonged combat, exactly what Conqueror's stacking heal rewards.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport lets you reset after E-Vessel trades and hold wave for tentacle uptime on your own turret; Flash covers your short-range W engage if he pre-emptively backs away."
+  },
+  "playing": [
+   {
+    "title": "Land E before he acts",
+    "detail": "Open trades with E (Test of Spirit, 900 range) before he can spend Q stacks or Footwork. Once the spirit is out, he's forced into a decision that costs him a cooldown no matter what he picks."
+   },
+   {
+    "title": "Don't stand in his 2-stack Q",
+    "detail": "Track his Ntofo Strikes stacks. At 2 stacks he fires a shockwave that pulls you in — reposition or bait it out with a minion between attacks."
+   },
+   {
+    "title": "Poke the spirit from range with Q",
+    "detail": "Once E is on him, use Q (Tentacle Smash, 850 range) to hit the spirit without walking into his Q/W range, banking echoed damage for free."
+   },
+   {
+    "title": "Respect Path Maker's charge window",
+    "detail": "W (Path Maker) has a charge-up where he takes reduced damage before the stun dash. Hold your own cooldowns through the charge rather than dumping them into a damage-reduced target."
+   },
+   {
+    "title": "Play around walls before level 6",
+    "detail": "All Out (R) knocks you through terrain in his path. Avoid fighting with your back to a wall once he hits level 6, since that's the setup for his all-in."
+   },
+   {
+    "title": "Stick with W after your E lands",
+    "detail": "W (Harsh Lesson)'s 4s cooldown lets you re-engage repeatedly while the spirit is active, both damaging him directly and pulling nearby Tentacles onto him."
+   },
+   {
+    "title": "Use Tentacle terrain to split",
+    "detail": "Your passive spawns Tentacles near impassible terrain. Push side lanes with wall-adjacent geometry so any 1v1 he takes is fought on your terms."
+   }
+  ],
+  "patchCaveat": "Ability numbers above are pulled directly from current game files (patch 16.18.1 per this repo's recent briefs) and are accurate as given. Item and rune names reflect the standard Illaoi bruiser build as I know it, but naming/balance may have shifted — verify build paths and rune tree layout in-client before locking runes."
+ },
+ "generatedAt": 1789815298834,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": false
+}
