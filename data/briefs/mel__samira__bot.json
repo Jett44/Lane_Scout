@@ -1,0 +1,148 @@
+{
+ "you": "Mel",
+ "them": "Samira",
+ "lane": "Bot",
+ "brief": {
+  "verdict": {
+   "difficulty": "Ranged edge",
+   "line": "You lose if you get walked down into melee range and eaten by Wild Rush plus Inferno Trigger; you win if you keep poking from range and land Solar Snare before she closes."
+  },
+  "thesis": "Samira's Blade Whirl (W, 325 range, cooldown 30/28/26/24/22s) destroys enemy missiles, meaning she can flat-out cancel your Q (Radiant Volley) or E (Solar Snare) on reaction — your entire poke plan has to bait that cooldown away first. Once it's gone, you outrange her and can root-and-burst safely; if it's up, she trades that safety for a window where she can walk you down toward melee, where her passive rewards her for connecting.",
+  "tell": {
+   "watch": "Samira's Blade Whirl (W) cooldown",
+   "theirWindow": {
+    "when": "Blade Whirl and Wild Rush both up",
+    "what": "She can eat your first poke ability for free with W, then immediately dash in with E (Wild Rush, 600 range) for bonus attack speed and melee-range bonus magic damage from her passive. Back off and don't feed her a missile to block."
+   },
+   "yourWindow": {
+    "when": "Blade Whirl was just used or she cleared wave with E",
+    "what": "With W on its 22-30s cooldown she can't block your projectiles, so land Solar Snare (E, 1000 range) then follow with Radiant Volley (Q, 950 range) — the root guarantees the full Q duration connects."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both trade single-target ranged pokes at max range"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Solar Snare root lands safe, guaranteed Q combos"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Inferno Trigger plus Wild Rush enables real all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Golden Eclipse executes overextensions from anywhere"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight positioning decides, not lane fundamentals"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "Sustain and mana to spam Q/E in poke exchanges without running dry."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "Magic penetration punishes Samira's low base magic resist through poke and burst."
+   },
+   "core": [
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage stacks Overwhelm quickly and amplifies against a rooted/slowed target from Solar Snare."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Scales the burst so Golden Eclipse and Q hit execute thresholds faster."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Survives the Wild Rush plus Inferno Trigger all-in window at level 6-8."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Banshee's Veil",
+     "when": "she's ahead and looking to initiate with Wild Rush into Inferno Trigger"
+    },
+    {
+     "item": "Rylai's Crystal Scepter",
+     "when": "you need more uptime on the Solar Snare slow to keep kiting her"
+    },
+    {
+     "item": "Void Staff",
+     "when": "she builds magic resist or the game goes long"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Arcane Comet",
+   "keystoneWhy": "Rewards landing Solar Snare from max range with a free burst hit before she can close distance.",
+   "primary": [
+    "Manaflow Band",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Bone Plating",
+    "Revitalize"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Armor"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite pairs with Overwhelm's infinite stacking to guarantee kills that would otherwise need one more instance of damage, and shuts down any lifesteal she builds."
+  },
+  "playing": [
+   {
+    "title": "Bait Blade Whirl first",
+    "detail": "Throw a low-value Q or auto to force her to use Blade Whirl before you commit your real Solar Snare into Radiant Volley combo, since W destroys both missiles on reaction."
+   },
+   {
+    "title": "Root before she dashes",
+    "detail": "Land Solar Snare (E, 1000 range) preemptively when she telegraphs Wild Rush toward you or a minion — a landed root strips her gap-closer's follow-up damage."
+   },
+   {
+    "title": "Track Wild Rush cooldown",
+    "detail": "Wild Rush is 20/18/16/14/12s and refreshes on a champion kill; if she just used it to reposition or clear wave, walk up for free poke."
+   },
+   {
+    "title": "Never stand in melee range",
+    "detail": "Her passive Daredevil Impulse gives bonus magic damage on melee autos and lets her dash to you off any immobilizing effect, so kite continuously."
+   },
+   {
+    "title": "Save Rebuttal for her all-in",
+    "detail": "W (Rebuttal, 250 range) reflects her incoming projectile and blocks damage while granting movement speed — hold it for when she commits Wild Rush plus Inferno Trigger rather than trading it early."
+   },
+   {
+    "title": "Track Overwhelm for the execute",
+    "detail": "Every ability or attack hit stacks Overwhelm infinitely; once stacks are high enough, Golden Eclipse (R, 25000 range) can finish her from anywhere on the map."
+   },
+   {
+    "title": "Auto-weave after every ability",
+    "detail": "Searing Brilliance grants three bonus projectiles (up to nine) on your next attack after any ability cast, so always follow Q or E with an auto to maximize damage and stack Overwhelm faster."
+   }
+  ],
+  "patchCaveat": "Ability numbers above are pulled directly from the current game files; item and rune names can drift patch to patch, so confirm exact names and stats in the champ-select shop before locking the build (project data shows patch 16.18.1 as the recent reference point)."
+ },
+ "generatedAt": 1789849146862,
+ "patch": "16.18.1",
+ "generator": "on-demand",
+ "grounded": false
+}

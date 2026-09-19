@@ -117,33 +117,57 @@ function compact(d, them) {
  * So this captures only the keystone, only at master, and the caller only uses
  * it when it differs from the aggregate. No signal, no tokens spent.
  */
+/* The app says Top/Jungle/Mid/Bot/Support; OP.GG's enum says adc for Bot.
+   Sending "bot" silently returned nothing. */
+export const opggPosition = (lane) => {
+  const l = String(lane || "").toLowerCase();
+  return ({ top: "top", jungle: "jungle", mid: "mid", middle: "mid", bot: "adc", adc: "adc",
+            bottom: "adc", support: "support", sup: "support" })[l] || l;
+};
+
+/* OP.GG answers even for a pairing nobody plays in that lane — just with no
+   builds in it. Treat that as no data: a brief written from an empty block is
+   the model guessing, which is how "Shard of Truth" got invented. */
+export const isHollow = (s) => !s || (!s.core?.length && !s.runes?.length);
+
 export async function highEloKeystone(champ, lane = "Top") {
   try {
     const res = await rpc("tools/call", {
       name: "lol_get_champion_analysis",
       arguments: {
-        champion: upper(champ), position: String(lane).toLowerCase(),
+        champion: upper(champ), position: opggPosition(lane),
         game_mode: "ranked", tier: "master"
       }
     });
     const repr = res?.result?.content?.map((c) => c.text).join("\n") || "";
     // this tool answers with a class-repr rather than JSON
     const m = repr.match(/Runes\(\d+,\d+,"([^"]+)",\[[\d,\s]*\],\[([^\]]*)\]/);
-    const sample = repr.match(new RegExp(`Position\\("${String(lane).toUpperCase()}",Stats\\((\\d+)`));
+    const sample = repr.match(new RegExp(`Position\\("${opggPosition(lane).toUpperCase()}",Stats\\((\\d+)`));
     if (!m) return null;
     const names = m[2].split(",").map((s) => s.replace(/^"|"$/g, "").trim());
     return { keystone: names[0] || null, tree: m[1], play: sample ? +sample[1] : null };
   } catch { return null; }
 }
 
-export async function matchupStats(you, them, lane = "Top") {
+/* Which lanes actually have builds for this pairing — only asked on the
+   failure path, so a normal generation never pays for it. */
+export async function lanesWithData(you, them) {
+  const out = [];
+  for (const lane of ["Top", "Jungle", "Mid", "Bot", "Support"]) {
+    const s = await matchupStats(you, them, lane, { skipHighElo: true });
+    if (!isHollow(s)) out.push(lane);
+  }
+  return out;
+}
+
+export async function matchupStats(you, them, lane = "Top", { skipHighElo = false } = {}) {
   try {
     const res = await rpc("tools/call", {
       name: "lol_get_lane_matchup_guide",
       arguments: {
         my_champion: upper(you),
         opponent_champion: upper(them),
-        position: String(lane).toLowerCase()
+        position: opggPosition(lane)
       }
     });
     const txt = res?.result?.content?.map((c) => c.text).join("\n");
@@ -154,7 +178,7 @@ export async function matchupStats(you, them, lane = "Top") {
 
     /* Attach the master-tier keystone only when it differs from what the
        aggregate already recommends — otherwise it is noise in the prompt. */
-    if (out) {
+    if (out && !skipHighElo && !isHollow(out)) {
       const he = await highEloKeystone(you, lane);
       const aggregate = out.runes?.[0]?.primary?.[0] || null;
       if (he && he.keystone && aggregate && he.keystone !== aggregate) out.highElo = he;

@@ -8,7 +8,7 @@ import {
   CLAUDE_EXE, BRIEFS_DIR, briefPath, keyFor, buildPrompt, validate,
   VARIANTS_DIR, variantKey, variantPath
 } from "./lib.mjs";
-import { matchupStats, statsForPrompt } from "./stats.mjs";
+import { matchupStats, statsForPrompt, isHollow, lanesWithData } from "./stats.mjs";
 import { validateNames, normalizeBrief } from "./assets.mjs";
 import { abilitiesForPrompt } from "./abilities.mjs";
 
@@ -118,7 +118,22 @@ export async function generateOne(you, them, lane, patch, { timeoutMs, context }
        the brief is still written, it just falls back to unbacked knowledge and
        says so. */
     const stats = await matchupStats(you, them, lane);
-    const block = stats ? statsForPrompt(stats, you, them) : "";
+
+    /* No real games for this pairing in this lane means the model would be
+       writing from memory — that is where invented items come from. Stop here,
+       before spending a single token, and say where the data actually is. */
+    if (isHollow(stats)) {
+      const lanes = await lanesWithData(you, them);
+      return {
+        ok: false,
+        error: lanes.length
+          ? `No match data for ${you} vs ${them} in ${lane}. Try: ${lanes.join(", ")}.`
+          : `No match data for ${you} vs ${them} in any lane right now.`,
+        suggestLanes: lanes
+      };
+    }
+
+    const block = statsForPrompt(stats, you, them);
 
     /* Live ability text and cooldowns for both champions. Free, cached
        locally, and it is what stops the tactical prose inventing mechanics. */

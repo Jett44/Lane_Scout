@@ -86,7 +86,9 @@ const server = http.createServer(async (req, res) => {
 
     if (!r.ok) {
       console.log(`  failed: ${r.error}`);
-      return send(res, r.fatal ? 503 : 502, { ok: false, fatal: !!r.fatal, error: r.error });
+      return send(res, r.fatal ? 503 : 502, {
+        ok: false, fatal: !!r.fatal, error: r.error, suggestLanes: r.suggestLanes || []
+      });
     }
 
     console.log(`  ${r.cached ? "already had it" : `done in ${((Date.now() - t0) / 1000).toFixed(0)}s`}${r.variant ? " (situational, kept local)" : ""}`);

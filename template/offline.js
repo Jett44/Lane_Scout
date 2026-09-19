@@ -801,12 +801,23 @@ function generateNow(you, them, context){
         $("app").innerHTML = '<div class="state">'
           + '<p class="s1">Couldn’t write that one</p>'
           + '<p class="s2">' + esc(j.error || "unknown error") + '</p>'
-          + (j.fatal
-              ? '<p class="s2">That usually means the account is out of room for now, or the CLI needs signing in again.</p>'
-              : '<button class="go" id="retryGen">Try again</button>')
+          + (j.suggestLanes && j.suggestLanes.length
+              ? '<div style="display:flex;gap:8px;flex-wrap:wrap">' + j.suggestLanes.map(function(l){
+                  return '<button class="go" data-lane-retry="' + esc(l) + '">Write it for ' + esc(l) + '</button>';
+                }).join("") + '</div>'
+              : j.fatal
+                ? '<p class="s2">That usually means the account is out of room for now, or the CLI needs signing in again.</p>'
+                : '<button class="go" id="retryGen">Try again</button>')
           + '</div>';
         var rb = $("retryGen");
         if (rb) rb.addEventListener("click", function(){ generateNow(you, them, ctx); });
+        Array.prototype.forEach.call(document.querySelectorAll("[data-lane-retry]"), function(b){
+          b.addEventListener("click", function(){
+            var lb = $("lanes").querySelector('[data-lane="' + b.dataset.laneRetry + '"]');
+            if (lb) lb.click();          // switch the lane selector, then write it there
+            generateNow(you, them, ctx);
+          });
+        });
         return;
       }
 
