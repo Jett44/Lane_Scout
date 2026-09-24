@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you stand and trade the moment Renekton crosses 50 Fury with W up; you win if you wait him out, then chain Q into E when his dash and stun are both down."
+  },
+  "thesis": "Both champions fight in short, resource-gated bursts: Renekton's Q, W, and E only get their bonus damage, extra stun, and armor shred once he holds more than 50 Fury, while Aatrox's Deathbringer Stance empowered auto and Umbral Dash passive heal reward drawn-out trades. The matchup is decided by whether Renekton lands his empowered W stun-chain before Aatrox's sustain outpaces it — the 329-game sample sits at 51.1% for Aatrox, so neither side should force it.",
+  "tell": {
+   "watch": "Renekton's Fury bar at 50",
+   "theirWindow": {
+    "when": "Renekton above 50 Fury with W up",
+    "what": "His W (Ruthless Predator) becomes a three-hit stun that strips shields and hits much harder, and his Q (Cull the Meek) heals more too. Do not stand and trade here — hold Umbral Dash to reposition rather than engage."
+   },
+   "yourWindow": {
+    "when": "his E is on cooldown or Fury under 50",
+    "what": "Slice and Dice sits on a 16 to 10s cooldown depending on rank, and his Q/W lose their bonus effects below 50 Fury. Walk into a Q (The Darkin Blade) into E (Umbral Dash) trade here to bank the passive heal before he can dash away or reset his stun."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both poking with basic Q/W, no stun yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W online, Fury-fueled all-ins hurt"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "World Ender online, sustain trades even out"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse/Sundered Sky spike wins extended fights"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Death's Dance sustain outlasts his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest win rate start (49.6% over 242 games, 59.3% pick) — the extra sustain matters against a champion whose Q also heals him, keeping trades even instead of losing the attrition race."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "87.5% pick rate and the standard choice here — Renekton's damage is all basic-attack and physical-ability based, and the flat reduction blunts his empowered W and auto-heavy trades."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The proc shield and burst window matches Aatrox's short trade patterns and punishes Renekton for committing into a fight."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "On-hit healing and the crit proc stack with Deathbringer Stance to keep Aatrox's sustain ahead through the level 9-13 spike."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts the burst taken from an empowered W stun-chain into delayed damage, so a single Fury-fueled all-in doesn't just kill you outright."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want faster Q/W/E cooldowns to keep snowballing the lead"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "renekton itemizes tanky and threatens to burst through your healing in the stun chain"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game runs long and you need armor shred to keep trading through his kit"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the sustained trading this matchup is built around — stacking adaptive force through extended fights matches Aatrox's E and passive healing loop better than a burst keystone.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "74% pick rate and the highest win rate combo (50%) — Ignite converts Aatrox's solo-kill advantage into actual kills during the level 6-8 sustain window. Flash+Teleport (46.7% wr, 22.8% pick) is the fallback if you need to prioritize wave/tempo instead."
+  },
+  "playing": [
+   {
+    "title": "Trade only when his E is down",
+    "detail": "Slice and Dice is his only reset/reposition tool on a 16 to 10s cooldown. Once he's used it to engage or retreat, that's your window to step in and trade freely."
+   },
+   {
+    "title": "Punish sub-50 Fury Renekton",
+    "detail": "His Q and W lose their bonus damage, heal, and stun duration below 50 Fury. All-in during these windows instead of after he's topped off Fury on the wave."
+   },
+   {
+    "title": "Combo Q into E, not just Q",
+    "detail": "Chain The Darkin Blade into Umbral Dash so the dash's on-hit heal triggers off the same trade, then use the dash again to disengage before his Fury rebuilds."
+   },
+   {
+    "title": "Bank E for his stun",
+    "detail": "Keep Umbral Dash off cooldown heading into his W range. It's your only way to blink out of a 0.75s (or 1.5s empowered) stun before he follows up."
+   },
+   {
+    "title": "Weave Deathbringer Stance every trade",
+    "detail": "The empowered auto's magic damage and heal scale off Renekton's max HP — never skip it in a trade, since it's the passive most directly offsetting his own Q sustain."
+   },
+   {
+    "title": "Save R for forced skirmishes, not single stuns",
+    "detail": "World Ender's 120/100/80s cooldown and extended duration on takedown pay off in longer level 6+ fights where your healing wins out, not in trading into one isolated W stun."
+   },
+   {
+    "title": "Don't overextend past minions",
+    "detail": "His E is a 450-range dash — staying inside wave range denies him the runway to close and chain straight into his stun."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and all win rates/sample sizes are pulled from measured games on the current patch via OP.GG; the timing reads, trade windows, and power curve are my own analysis of the ability kits."
+ },
+ "generatedAt": 1790247204697,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790247123270,
+  "overall": {
+   "winRate": 49.9,
+   "play": 11984,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 329,
+   "wins": 168,
+   "winRate": 51.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "even",
+  "opponentTip": "Use your [Q]-[E] combo considering Renekton’s Slice/Dice (E). Use your line sustain to your advantage and fight him when he is low on Fury.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 298,
+    "pickRate": 74
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.7,
+    "play": 92,
+    "pickRate": 22.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 2.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47,
+    "play": 217,
+    "pickRate": 54
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 4.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 242,
+    "pickRate": 59.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.6,
+    "play": 149,
+    "pickRate": 36.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.8,
+    "play": 344,
+    "pickRate": 87.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 57.9,
+    "play": 38,
+    "pickRate": 9.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 40.9,
+    "play": 22,
+    "pickRate": 12.6
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 84.6,
+    "play": 13,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Sterak's Gage"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 50.6,
+    "play": 170,
+    "pickRate": 45.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 53.8,
+    "play": 169,
+    "pickRate": 45.3
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 51.5,
+    "play": 165,
+    "pickRate": 44.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.8,
+    "play": 111,
+    "pickRate": 29.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.2,
+    "play": 90,
+    "pickRate": 24.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 72,
+    "play": 50,
+    "pickRate": 13.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.8,
+    "play": 215
+   }
+  ]
+ }
+}

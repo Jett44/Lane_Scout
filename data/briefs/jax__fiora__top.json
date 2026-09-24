@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose the poke war before level 6 when her Lunge (Q) can re-cast for free, but you win any fight where your E (Counter Strike) lands its stun while her Riposte (W) is down."
+  },
+  "thesis": "Jax has no reliable poke at rank 1 — Q (Leap Strike) sits at 17s cooldown and E (Counter Strike) is only 300 range — so Fiora's Lunge (Q), which can be re-cast a second time within a couple seconds at no mana cost, wins early pokes uncontested. Once Jax's E cooldown drops (18/16/14/12/10s by rank) and W (Empower) gets ranked up early per the standard skill order, the matchup flips into a duel where whoever lands their stun or parry first wins the fight — which is exactly why the measured win rate sits at a near-coinflip 48.4% over 221 games.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "your E and Q are both down",
+    "what": "She'll Lunge in freely since you have no dash or stun to punish the follow-up dash — hold position and let the wave push to you instead of extending."
+   },
+   "yourWindow": {
+    "when": "your E is up, her W is down",
+    "what": "Commit the all-in: E dodges her incoming autos for its duration then stuns and damages her, letting you chain empowered W autos and stack attack speed off R (Relentless Assault) while she can't parry back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "her free double-Lunge outpokes your rank-1 Q/E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W ranks up, empowered autos start trading back"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R unlocks, extended fights favor your attack speed"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "W maxed at 3s cooldown, constant empower pressure"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "full builds online, duel stays close"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Measured 48.1% win rate over 81 games versus Doran's Blade's 45.6% — the sustain and poke reduction matter more here since Fiora's Lunge harasses you before your E cooldown comes down."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Measured 48.1% win rate and the majority pick (72.8%) — Fiora's damage is entirely physical through her autos and Q, so flat armor from Steelcaps directly reduces every hit she lands."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Highest-sample core path (48.3% over 29 games) — the damage and tempo it adds to your empowered W autos is what turns level 9-12 fights in your favor."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item on the same 23%-pick path — its on-hit healing keeps you even in the extended auto-trades her Duelist passive is built to win."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Completes the top-sample build path — lets you survive her Blade Waltz (R) all-in once she hits level 6+ and reset the fight on your terms."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you're ahead and want to close out extended duels (75% WR over a small 8-game sample on this exact path — read as directional, not proven)"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "she's building health and you need the sustained DPS and slow to keep sticking to her"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need the extra late-game scaling on top of your core"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "This is the highest-sample rune page for the matchup (48.1% win rate, 28.6% pick) — the attack speed ramp stacks directly with R (Relentless Assault)'s own attack-speed gain, so your extended fights snowball faster than hers.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Best measured combo for this matchup (51.8% win rate, 72.8% pick) — Ignite denies the healing from her Duelist passive during your E-stun all-ins, which is when this lane is actually decided."
+  },
+  "playing": [
+   {
+    "title": "Bait her Riposte before committing",
+    "detail": "Throw a single auto or a Q leap first to see if she parries. A landed Riposte gives her bonus AD and reflects magic damage back at you and costs you the tempo of that attack, so back off and reset for when it's down."
+   },
+   {
+    "title": "All-in only when E is up and W is down",
+    "detail": "Your E (Counter Strike) dodges all her incoming basic attacks for its duration, then stuns and damages everyone around you — that window only exists when Riposte is on cooldown, so track it before you commit."
+   },
+   {
+    "title": "Respect the second Lunge",
+    "detail": "Fiora can re-cast Q (Lunge) a second time within a couple seconds at no mana cost, so don't treat her first dash as the end of the trade — a follow-up strike is coming."
+   },
+   {
+    "title": "Cut trades short, don't auto-race",
+    "detail": "Her Duelist passive stacks healing the longer she's hitting you, so prolonged auto-for-auto trading favors her sustain — use your E stun to end fights quickly instead of standing and trading."
+   },
+   {
+    "title": "Watch for her Burst of Speed window",
+    "detail": "Once she pops E (Burst of Speed), every landed attack or Lunge speeds her up further and she'll chase to stick on you — this is when your own E is most valuable to dodge her attacks and cut the chase short."
+   },
+   {
+    "title": "Keep swinging once R is active",
+    "detail": "R (Relentless Assault) has no cooldown and grants stacking attack speed with bonus damage every third consecutive strike, so once you're committed in melee range from level 6 on, keep attacking through instead of disengaging."
+   },
+   {
+    "title": "Play for the wave pre-6",
+    "detail": "Before your E cooldown comes down and W is ranked up, you have no answer to her free double-Lunge poke — let the wave push to you near tower rather than extending for trades you can't win."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.19.1); the trade timing, cooldown reads, and power-spike windows are my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1790246746175,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790246632521,
+  "overall": {
+   "winRate": 50.4,
+   "play": 9916,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 221,
+   "wins": 107,
+   "winRate": 48.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Whoever stuns their opponent with either Counter Strike [E] or Riposte (W) will win the fight.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 195,
+    "pickRate": 72.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 38.2,
+    "play": 55,
+    "pickRate": 20.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 4.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 77,
+    "pickRate": 28.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 36,
+    "play": 25,
+    "pickRate": 9.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.6,
+    "play": 149,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 81,
+    "pickRate": 29.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.1,
+    "play": 187,
+    "pickRate": 72.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.2,
+    "play": 37,
+    "pickRate": 14.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 23
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.9,
+    "play": 226,
+    "pickRate": 86.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 51.2,
+    "play": 84,
+    "pickRate": 32.2
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 52.4,
+    "play": 63,
+    "pickRate": 24.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 53.3,
+    "play": 60,
+    "pickRate": 23
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 70.6,
+    "play": 34,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 45.2,
+    "play": 31,
+    "pickRate": 11.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 58.7,
+    "play": 92
+   }
+  ]
+ }
+}

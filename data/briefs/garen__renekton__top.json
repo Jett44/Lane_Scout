@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Renekton stuns you above 50 Fury before level 6; you win if you survive to R and land Ignite-Demacian Justice."
+  },
+  "thesis": "Renekton's Fury bar is the whole matchup: below 50 Fury his W (Ruthless Predator) is a two-hit, 0.75s stun, but above 50 it becomes a three-hit, 1.5s stun that destroys your shields and hits far harder. Garen has no innate way to prevent that threshold from being crossed, so the lane is decided by whether you trade into a low-Fury Renekton or a loaded one, and by whether you're still alive to press your R (Demacian Justice) execute at level 6.",
+  "tell": {
+   "watch": "Renekton's Fury bar (50+)",
+   "theirWindow": {
+    "when": "Fury above 50 and E off cooldown",
+    "what": "He can dash in with Slice and Dice, then land the empowered three-hit Ruthless Predator for a 1.5s stun that strips your shields and does high damage. Do not trade here — back off or wait for his dash to be spent."
+   },
+   "yourWindow": {
+    "when": "His E (Slice and Dice) is on cooldown",
+    "what": "Without Slice and Dice he has no gap closer, so hold your ground and spin E (Judgment) on him repeatedly; save Q (Decisive Strike)'s silence to cut off his follow-up Cull the Meek sustain if he still tries to engage on foot."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his W stun lands before you have answers"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Fury crosses 50, empowered W all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your R execute threat forces caution"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "E maxed, spin trades outclass his cooldowns"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "itemization levels the fight again"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Runs the higher-win-rate start in measured games (58.2% over 91 games) and its lifesteal lets you match his Cull the Meek sustain in short trades."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "The dominant pick at 56.8% over 155 games — attack speed lets you land more E (Judgment) ticks in the trade windows his stun opens up."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The top-performing build path (55.6% over 36 games) — the slow lets you stick to him once his Slice and Dice is down."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Continues the highest win-rate order, adding attack speed to punish extended trades once your E is maxed."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Closes out the top path and applies grievous wounds directly against his Fury-boosted Cull the Meek healing."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "his fury-fueled Cull the Meek healing is winning extended trades"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need more durability to survive his empowered stun all-in"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead and want to close distance faster for splitpush duels"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Once your E (Judgment) is maxed around level 9, you want to win prolonged spin trades rather than short burst exchanges — Conqueror's stacking heal rewards staying in range and sustains you through his poke.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run by 95% of Garens in this matchup at 49.1% win rate — matches the level-6 kill plan of combining Ignite with Demacian Justice to execute Renekton before his Cull the Meek can heal him out of range."
+  },
+  "playing": [
+   {
+    "title": "Track his Fury threshold",
+    "detail": "Watch the Fury bar under his portrait every trade. Below 50, his W (Ruthless Predator) is a two-hit, 0.75s stun you can trade through; above 50 it becomes a three-hit, 1.5s stun that destroys shields — disengage rather than trade once it crosses that line."
+   },
+   {
+    "title": "Punish a spent dash",
+    "detail": "Slice and Dice (E) is his only gap closer, on a 16/14.5/13/11.5/10s cooldown. Once he's used it to engage, he can't disengage from your E (Judgment) — press the trade immediately."
+   },
+   {
+    "title": "Time the silence to his commit",
+    "detail": "Hold Q (Decisive Strike) until he commits Ruthless Predator or Slice and Dice, then land it during his stun window to silence him and deny his follow-up Cull the Meek sustain."
+   },
+   {
+    "title": "Follow the E-first skill order",
+    "detail": "Skill EQWEEREQEQRQQWW so E (Judgment) is maxed fastest — by level 9 it's on a 9s cooldown and hits hardest, which is what flips the lane in your favor."
+   },
+   {
+    "title": "Call R plus Ignite at 6",
+    "detail": "The moment you hit level 6, look for Demacian Justice combined with Ignite to execute him before Cull the Meek's Fury-boosted heal can save him."
+   },
+   {
+    "title": "Avoid long auto-trades",
+    "detail": "Cull the Meek's heal scales up once his Fury passes 50, so standing and auto-trading lets him out-sustain you — prefer short exchanges ended by your E rather than extended fights."
+   },
+   {
+    "title": "Buy grievous wounds if he snowballs",
+    "detail": "If his Fury-fueled healing is winning trades, prioritize Executioner's Calling to cut Cull the Meek's sustain directly."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from real games on the current patch via OP.GG; the mechanical reasoning and timing calls are this coach's own read of the matchup."
+ },
+ "generatedAt": 1790246929695,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790246862958,
+  "overall": {
+   "winRate": 50.5,
+   "play": 10119,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 194,
+   "wins": 99,
+   "winRate": 51
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Bring Legend: Tenacity and wait for Renekton to close in to use your abilities off cooldown to deal damage. After reaching level 6, try to kill him by using Ignite – Demacian Justice [R].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 230,
+    "pickRate": 95
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 2.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 88,
+    "pickRate": 36.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 35,
+    "pickRate": 14.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 129,
+    "pickRate": 52.2
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 58.2,
+    "play": 91,
+    "pickRate": 36.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 56.8,
+    "play": 155,
+    "pickRate": 64.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 40,
+    "play": 45,
+    "pickRate": 18.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 55.6,
+    "play": 36,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 35,
+    "play": 20,
+    "pickRate": 11.7
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Youmuu's Ghostblade",
+     "Mortal Reminder"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.2,
+    "play": 223,
+    "pickRate": 94.5
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 47.5,
+    "play": 120,
+    "pickRate": 50.8
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 48.7,
+    "play": 113,
+    "pickRate": 47.9
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 47.5,
+    "play": 61,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 55.6,
+    "play": 54,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 11.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 51.4,
+    "play": 107
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into a Q3-E poke cycle without answering it; you win if you land the empowered W all-in before he can kite you with Umbral Dash."
+  },
+  "thesis": "Renekton's Fury system turns W (Ruthless Predator) into a 1.5s, shield-destroying triple stun once he's above 50 Fury, giving him the hardest short-trade lock in the lane — but Aatrox's Q (three-swing AoE slam) and E (dash that heals him on contact) let him poke and sustain from range Renekton can't always close. That's exactly why OP.GG flags Executioner's Calling and aggressive Fury-building as the answer, and why the head-to-head sits at a near-coinflip 50.7% over 335 games despite Aatrox holding the solo-kill edge.",
+  "tell": {
+   "watch": "Aatrox's E (dash) cooldown",
+   "theirWindow": {
+    "when": "Aatrox has E up during a Q exchange",
+    "what": "Back off after his second Q swing instead of trading through it — he can dash the third swing into you and heal off the Umbral Dash passive, turning a trade you started into one he wins."
+   },
+   "yourWindow": {
+    "when": "Fury is above 50 and W is off cooldown",
+    "what": "Engage immediately. The empowered W hits three times, strips any shield he's popped, and stuns for 1.5 seconds — long enough to land Q and full autos before he can Flash or dash away."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both have a stun/poke tool online by 2"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Fury-empowered W all-ins outclass his short trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "World Ender plus Q-E sustain wins extended fights"
+   },
+   {
+    "levels": "9-18",
+    "edge": "even",
+    "note": "Item power decides; matches measured 50.7% WR"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "52.6% win rate over 321 games — the added sustain matches Aatrox's own passive and E healing in early trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.7% win rate over 311 games — flat physical damage reduction blunts his Q swings and empowered autos."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The proc shield covers you through the trade window where his Q3-E combo would otherwise punish an all-in."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks with your own E's armor reduction, keeping extended fights in your favor as the game goes long."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Core path at 56.3% over 32 games — bleeds back the burst from Aatrox's Q swings instead of eating it all at once."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "he's sustaining hard through passive heals and E procs"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need burst mitigation over sustain, per the 66.7% Eclipse-Cleaver-Sterak's path"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "his team stacks hard CC to lock you out of all-in windows"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you're spamming W/E off cooldown to reset ability haste value"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Renekton-Aatrox trades run long once W lands — Conqueror stacks through the stun and rewards staying in extended fights rather than one-shot burst.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "90.7% pick rate at 50.7% win rate — Ignite directly answers Aatrox's passive and E sustain during your all-in window, per OP.GG's own read on this matchup."
+  },
+  "playing": [
+   {
+    "title": "Track your own Fury bar",
+    "detail": "Don't commit W until you're past 50 Fury — the unempowered double-stun version doesn't destroy his shield and gives him a much easier out."
+   },
+   {
+    "title": "Don't facetank Q's third swing",
+    "detail": "The Darkin Blade can hit three times, each covering a different area — walk out after the first swing instead of eating the full combo."
+   },
+   {
+    "title": "All-in when E is down",
+    "detail": "Umbral Dash drops to a 5s cooldown at max rank but starts at 9s — punish him hard in the levels before he's maxed it, when he has no dash to escape or heal off."
+   },
+   {
+    "title": "Open trades with E, not W",
+    "detail": "Slice and Dice into an auto builds Fury before you commit the stun, so W is more likely to land empowered."
+   },
+   {
+    "title": "Respect his level 6 spike",
+    "detail": "World Ender extends on a takedown — if he's ahead on kills going into 6, play the wave instead of contesting a fight you don't need."
+   },
+   {
+    "title": "Buy Executioner's Calling if he's snowballing",
+    "detail": "His passive and E both heal off champion damage — grievous wounds shuts down the exact sustain loop OP.GG warns about."
+   },
+   {
+    "title": "Bank W for shield-breaking picks",
+    "detail": "The empowered W strips damage shields outright, so save it for moments he's popped one rather than burning it on a raw stun."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner picks are pulled from measured games on the current patch; the mechanical reasoning — Fury timing, Q3-E punish windows, and cooldown-based engage calls — is our own tactical read on top of that data."
+ },
+ "generatedAt": 1790247620371,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790247554965,
+  "overall": {
+   "winRate": 49.2,
+   "play": 9357,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 335,
+   "wins": 170,
+   "winRate": 50.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being hit with Aatrox’s (Q)-(E). Purchase Executioner’s Calling, and try engaging aggressively while building up Fury.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.7,
+    "play": 351,
+    "pickRate": 90.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 8.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 0.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.8,
+    "play": 177,
+    "pickRate": 45.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 62.1,
+    "play": 29,
+    "pickRate": 7.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 321,
+    "pickRate": 81.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.8,
+    "play": 67,
+    "pickRate": 17
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.7,
+    "play": 311,
+    "pickRate": 84.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 13.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 16.9
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 30,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Executioner's Calling",
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 53.6,
+    "play": 276,
+    "pickRate": 74.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.6,
+    "play": 227,
+    "pickRate": 61.4
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 49.2,
+    "play": 118,
+    "pickRate": 31.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.9,
+    "play": 107,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.3,
+    "play": 89,
+    "pickRate": 24.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 48.5,
+    "play": 68,
+    "pickRate": 18.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53,
+    "play": 164
+   }
+  ]
+ }
+}

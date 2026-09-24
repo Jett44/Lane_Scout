@@ -1,0 +1,382 @@
+{
+ "you": "Renekton",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose it if you poke passively and let Garen's Perseverance erase your chip damage; you win it the moment you bank 50+ Fury and he has no Q up to answer the stun."
+  },
+  "thesis": "This is a fight between two resource-gated power spikes: Garen's Perseverance heals him back to full whenever he goes a few seconds untouched, while Renekton's Fury bar (built by auto-attacking) unlocks a far bigger W stun and Q once it crosses 50. Whoever forces the other to fight on their own terms — constant pressure denying Perseverance, or a banked-Fury all-in — wins the exchange. At 50.3% over 193 games this is genuinely even, so the deciding factor is trade discipline, not raw stats.",
+  "tell": {
+   "watch": "Your Fury count (50+)",
+   "theirWindow": {
+    "when": "Garen goes a few seconds unhit",
+    "what": "Perseverance kicks in and regenerates a chunk of his health per second, quietly erasing whatever poke damage you landed. Never walk away after a single auto or Q trade — follow up immediately or the damage is wasted."
+   },
+   "yourWindow": {
+    "when": "Fury above 50 and his Q (Decisive Strike) is down",
+    "what": "Land empowered W (Ruthless Predator) for the 3-hit, shield-destroying, 1.5s stun, then Q (Cull the Meek) and E (Slice and Dice) to dump your full combo. Without Q up, Garen has no silence to interrupt your follow-through, so this is your cleanest all-in window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither kit is empowered yet; trades are auto-for-auto"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W drops to 12s CD, Fury threshold becomes reachable mid-fight"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Garen R execute threat offsets your Dominus tankiness"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse/Black Cleaver online, empowered W lands reliably"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Garen R cooldown falls to 50-20s, constant execute pressure"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The most-picked start (79%) at a 52% win rate over 196 games — the extra sustain and AD let you commit to the auto-attack trades that both build your Fury and deny Garen's Perseverance tick."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.2% pick rate at 49.5% win rate. Garen's entire kit — autos, E (Judgment), Q's bonus-damage hit — is physical, so flat armor blunts every trade pattern he has."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Triggers off the burst you land with an empowered W stun, giving you a shield exactly when Garen tries to punish your all-in."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "E already shreds armor on hit; Cleaver's stacking shred compounds it, letting you chew through Perseverance's healing faster than he can regenerate it."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Most common third item (71% win rate over 31 games in this path). Converts damage taken during Garen's E spin into delayed damage, keeping you above his R execute threshold."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's landing his R (Demacian Justice) reliably or you need more raw HP to survive dives"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the lane goes long and you want W and E back up faster for repeated all-ins"
+    },
+    {
+     "item": "Zeke's Convergence",
+     "when": "you're grouping with another auto-attack-reliant ally for skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "45.3% pick rate at 53.6% win rate. Conqueror rewards the exact pattern this matchup demands — sustained auto-attacking to build stacks — and the healing it grants directly counters trading into a champion with his own passive sustain.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is the standard pick (85.2% pick rate, 51.7% win rate) and lets you close out an all-in the moment your empowered W lands. Flash + Teleport runs a higher win rate (56.3% over 29 games) if you'd rather play the wave/tempo game and avoid committing to early all-ins."
+  },
+  "playing": [
+   {
+    "title": "Auto-attack between every cooldown",
+    "detail": "Every free auto both builds Fury toward your 50-threshold and keeps Garen's Perseverance from ever ticking. Passive trading loses you this lane; constant contact wins it."
+   },
+   {
+    "title": "Bank Fury before committing W",
+    "detail": "A sub-50 Fury W is a single 0.75s stun for moderate damage. Waiting a few autos for the empowered 3-hit, shield-destroying, 1.5s stun version turns the same cooldown into a near-guaranteed follow-up kill window."
+   },
+   {
+    "title": "Track his Q before you dash in",
+    "detail": "Decisive Strike breaks slows and silences on hit. If you E in while his Q is up, he can silence you out of your W/Q follow-up. Wait for him to spend it, or bait it with a non-committal poke first."
+   },
+   {
+    "title": "Don't E to disengage",
+    "detail": "Slice and Dice sits at 16-10s cooldown depending on rank — burning it to escape a bad trade leaves you without your main all-in tool for a long stretch. Save it for combos."
+   },
+   {
+    "title": "Respect the execute once his R is up",
+    "detail": "Demacian Justice starts at a steep 140s cooldown but drops to 50s then 20s at higher ranks. From level 9 onward, don't fight him below the HP threshold where his ult one-shots you."
+   },
+   {
+    "title": "Use Dominus to reset the all-in, not start it",
+    "detail": "R gives bonus health and periodic Fury generation while active — pop it mid-fight once you're already trading, so the extra Fury refuels your empowered W/Q for a second stun cycle."
+   }
+  ],
+  "patchCaveat": "Win rates, item paths, rune pages, and summoner spell splits above are measured from live games on the current patch (193 head-to-head games); the mechanical reasoning — Fury thresholds, Perseverance timing, Q silence windows, R execute breakpoints — is my own read of the ability text, not OP.GG's."
+ },
+ "generatedAt": 1790247287566,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790247209291,
+  "overall": {
+   "winRate": 49,
+   "play": 9028,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 193,
+   "wins": 97,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Attack Garen constantly to prevent his (P) from activating. Build up Fury and engage whenever Renekton has reinforced skills.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.7,
+    "play": 207,
+    "pickRate": 85.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 13.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 0,
+    "play": 4,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.6,
+    "play": 110,
+    "pickRate": 45.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 64,
+    "play": 25,
+    "pickRate": 10.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52,
+    "play": 196,
+    "pickRate": 79
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 45,
+    "pickRate": 18.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.5,
+    "play": 202,
+    "pickRate": 85.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 69,
+    "play": 29,
+    "pickRate": 12.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 71,
+    "play": 31,
+    "pickRate": 21.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 75,
+    "play": 16,
+    "pickRate": 11.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 85.7,
+    "play": 14,
+    "pickRate": 9.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 58.6,
+    "play": 181,
+    "pickRate": 76.1
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.8,
+    "play": 168,
+    "pickRate": 70.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 61.3,
+    "play": 93,
+    "pickRate": 39.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 84,
+    "pickRate": 35.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.8,
+    "play": 36,
+    "pickRate": 15.1
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 63.8,
+    "play": 69
+   }
+  ]
+ }
+}

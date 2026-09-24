@@ -1,0 +1,393 @@
+{
+ "you": "Fiora",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, slightly unfavored",
+   "line": "You lose if you trade into his 50+ Fury W or contest the level 6 Dominus all-in; you win if you poke with Lunge, punish his post-stun auto with Riposte, and outscale from three items on."
+  },
+  "thesis": "Renekton's Fury bar is the whole matchup: below 50 Fury his Cull the Meek sustain and Ruthless Predator stun are manageable, but every point above it turns his Q into a bigger heal and his W into a three-hit, shield-shredding 1.5s stun instead of 0.75s. Fiora has no tool that interrupts that threshold, so the 49.3% win rate over 201 games comes down to whether she fights on her terms — poke and disengage — or his, which is extended trades that feed his Fury and his Dominus spike at 6.",
+  "tell": {
+   "watch": "Renekton's Fury bar (50 threshold)",
+   "theirWindow": {
+    "when": "Renekton above 50 Fury, W ready",
+    "what": "Disengage fully. His W becomes a three-slash combo that destroys shields and stuns for 1.5s instead of 0.75s, and Cull the Meek's damage and heal both scale up with him — this is not a trade to take."
+   },
+   "yourWindow": {
+    "when": "his Q and E are both on cooldown",
+    "what": "Activate Riposte for the AD buff and step in with Lunge. He has no sustain tool to answer and no dash to reset the fight, so a clean Q-into-auto trade wins outright."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q spam sustain and W stun dominate"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Fury stacking makes all-ins scarier each trade"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Dominus grants bonus health for all-in"
+   },
+   {
+    "levels": "9-11",
+    "edge": "even",
+    "note": "Full combo and Riposte timing close gap"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Three-item Fiora out-scales with sustain and split push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The dominant start at 90.8% pick and 47.2% win rate over 218 games — the extra sustain matters against a laner whose Cull the Meek heals him on every short trade."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "77.7% pick, 48.2% win rate over 164 games. Every point of Renekton's threat — Q, W, and his autos — is physical, so flat reduction on incoming attacks directly blunts his all-in."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "First item in the highest win-rate path (50.9% over 53 games); the AD and sustain give you something to answer his Q healing with before you have Conqueror stacked up."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Second item in the 41.4%-pick core path; the added burst and move speed help you land clean Q-into-auto trades and walk away before he can punish."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the core path; the damage-over-time conversion is what lets you survive trading into a fed Renekton's burst rather than losing the exchange outright."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead in lane and want more upfront burst on the all-in instead of Hydra's sustain and wave clear"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "his Q poke is outpacing your sustain and you need more healing rather than more damage"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need ability haste to keep resetting Lunge and Riposte in extended fights"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their team stacks CC or magic damage beyond just Renekton's stun"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The higher win-rate page (54.5% over the sample) — Conqueror's stacking sustain rewards riding out his short-trade spam and pays off once fights go long. Master-tier Fiora players instead run Press the Attack across 1,508 games for a burstier read; take that if you plan to end trades fast rather than grind through his Fury.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The clear standard at 87.3% pick and 50% win rate. Ignite matters because this is a solo-kill-advantage matchup for Renekton — it denies the Cull the Meek heal in an all-in and lets you turn his own aggression into a kill instead."
+  },
+  "playing": [
+   {
+    "title": "Don't fight inside his W range",
+    "detail": "Never sit in his 300-range stun window for an extended trade unless Riposte is up. His stun-into-double-auto is where most of your HP disappears."
+   },
+   {
+    "title": "Track his Fury, not just his HP",
+    "detail": "Below 50 Fury his kit is manageable. The moment he crosses it, his Q and W both jump in damage and his stun nearly doubles in duration — disengage before that threshold, not after."
+   },
+   {
+    "title": "Poke with the double Lunge",
+    "detail": "Q can be re-cast for free within a couple seconds. Use the first dash to poke and hold the second to reposition out of his E range rather than always chaining both dashes onto him."
+   },
+   {
+    "title": "Save Riposte for his auto, not his stun",
+    "detail": "Riposte only parries basic attacks, so time it for the auto he throws out right after landing W — that's the moment he thinks the trade is already won."
+   },
+   {
+    "title": "Respect level 6, don't contest it",
+    "detail": "Dominus gives him bonus health and passive Fury generation on top of his existing kit. Don't take a fresh all-in from him at 6 until your own Q and E are both up to answer."
+   },
+   {
+    "title": "Use E to leave, not just to chase",
+    "detail": "Burst of Speed's move speed builds per landed attack or Lunge. If a trade turns bad, land one Lunge and burn the speed to get out of his stun range instead of trading auto for auto."
+   },
+   {
+    "title": "Play the lane honest, not desperate",
+    "detail": "At 49.3% over 201 games this isn't a lane to force. Take the Doran's Blade and Steelcaps sustain to your first back clean, then let Hydra into Trinity/Eclipse into Death's Dance start winning fights from level 9 on."
+   }
+  ],
+  "patchCaveat": "The build path, rune pages, boots, and summoner spells above are pulled directly from measured games on the current patch, and every win rate and sample size quoted is real. The Fury-threshold read, the trade timings, and the level-by-level power curve are my own tactical analysis built from the ability kit, not part of the measured data."
+ },
+ "generatedAt": 1790247120015,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790247021538,
+  "overall": {
+   "winRate": 50.7,
+   "play": 8254,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 201,
+   "wins": 99,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "Try to block Renekton’s (W) with your [W] by timing it correctly. Hit [P] with your abilities whenever he overextends.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 200,
+    "pickRate": 87.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 26.3,
+    "play": 19,
+    "pickRate": 8.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 3.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 9.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 7.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.2,
+    "play": 218,
+    "pickRate": 90.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 6.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.2,
+    "play": 164,
+    "pickRate": 77.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.6,
+    "play": 35,
+    "pickRate": 16.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 50.9,
+    "play": 53,
+    "pickRate": 41.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 36.4,
+    "play": 22,
+    "pickRate": 17.2
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 7.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 47.5,
+    "play": 219,
+    "pickRate": 98.2
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.9,
+    "play": 116,
+    "pickRate": 52
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 49.5,
+    "play": 101,
+    "pickRate": 45.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 40.7,
+    "play": 54,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 44.4,
+    "play": 27,
+    "pickRate": 12.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 7.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 44.6,
+    "play": 101
+   }
+  ],
+  "highElo": {
+   "keystone": "Press the Attack",
+   "tree": "Precision",
+   "play": 1508
+  }
+ }
+}
