@@ -1,0 +1,380 @@
+{
+ "you": "Aatrox",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you sit in Camille's auto range past level 3 and eat a Q-E all-in; you win if you force cooldown trades and drag the fight to level 13+."
+  },
+  "thesis": "This is an even matchup on the numbers (48.6% Aatrox win rate over 183 games, right in line with Aatrox's 50.2% overall top win rate), and the mechanics explain why: Camille's Q (Precision Protocol, 9/8/7/6/5s) and E (Hookshot, 16/15/14/13/12s) let her pick exact engage windows and disengage before you can punish, while your Q (The Darkin Blade, 14/12/10/8/6s) rewards you for holding position and landing the full three-swing sequence. Whoever controls when the fight happens wins the trade.",
+  "tell": {
+   "watch": "Camille's E (Hookshot) cooldown",
+   "theirWindow": {
+    "when": "Her R (Ultimatum) is up at level 6+",
+    "what": "She dashes onto you, anchors you in the fight area, and gains bonus magic damage on autos for its duration. Umbral Dash cannot remove the tether, so don't waste it trying to flee — trade back immediately with Q swings and let Deathbringer Stance heal you through it."
+   },
+   "yourWindow": {
+    "when": "Her E and Q are both on cooldown",
+    "what": "She has no engage, no disengage, and no bonus-damage auto up. Step in and land W (Infernal Chains) to pull her toward you, then walk into her for a full Q1-Q2-Q3 sequence since she can't punish or escape the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo piece (Q-E or W pull) is online yet."
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Camille's Q+E all-in combo comes online first."
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Her R anchors you; Umbral Dash can't cancel it."
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Sundered Sky/Spear of Shojin sustain closes the gap."
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "World Ender wins extended skirmishes and side fights."
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "It's the higher-winrate start (51.8% over 137 games, 60.6% pick) and the sustain matters against Camille's Q-empowered autos and Tactical Sweep poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "By far the preferred pick (86.2% pick rate, 49.7% WR) — Camille's damage leans on repeated basic attacks (Q empowered auto, passive procs), and flat auto-attack reduction blunts that directly."
+   },
+   "core": [
+    {
+     "item": "Spear of Shojin",
+     "why": "First item in the highest-winrate path (76.5% over 17 games) — the CDR/AD lets you spam Q for more Deathbringer Stance procs during extended trades."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second in that same path — the on-hit healing on Q1 stacks with Umbral Dash's heal to win the sustain race once she can't reset with her E."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out that build (76.5% WR) — damage-over-time mitigation covers you through Camille's burst window when she lands E into R."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead early and want to punish her before she gets her full combo online"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "she's building lifesteal/burst and you need to survive her all-in past level 6"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need more mobility to stick through her E disengage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The most-played page on this matchup (45.6% pick, 53.1% WR) — Conqueror's stacking adaptive force rewards exactly the prolonged-trade pattern that beats Camille once her cooldowns are down.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant combo here (73.8% pick, 51.9% WR) — Ignite punishes her Q/W healing when you win a cooldown-window trade. Flash+Teleport (23.4% pick, 46% WR) is the alternative if you're prioritizing scaling over lane kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Dash away from her E landing spot",
+    "detail": "Camille's Hookshot pulls her to a wall then lands with a knockup on champions hit. Use Umbral Dash to clear the landing zone before she connects rather than after."
+   },
+   {
+    "title": "Trade with skills, not autos, before 6",
+    "detail": "Her passive Adaptive Defenses shields her per auto-attack landed on her. Land Q and W damage instead of walking up for autos so she can't farm free shields off you."
+   },
+   {
+    "title": "Track her Q and E cooldowns before engaging",
+    "detail": "If both are down, she can't empower an auto or escape — that's your window to walk in and land W into a full Q sequence."
+   },
+   {
+    "title": "Never try to out-dash her R",
+    "detail": "Once Hextech Ultimatum anchors you, Umbral Dash cannot break it. Turn and fight through it instead of wasting the dash on an escape attempt."
+   },
+   {
+    "title": "Save Ignite for the post-R trade",
+    "detail": "Her R grants bonus magic damage on autos but doesn't heal her — Ignite denies any HP she clawed back from W's outer-cone heal earlier in the fight."
+   },
+   {
+    "title": "Look for side-lane fights after 13",
+    "detail": "Once Spear of Shojin and Sundered Sky are up, your sustained Q damage and World Ender output outlast her single-target duel kit in skirmishes."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, and all win-rate/sample numbers are measured from live OP.GG games on the current patch (183 Aatrox vs Camille matches). The cooldown windows and trade-pattern reasoning are this brief's own tactical analysis, not sourced data."
+ },
+ "generatedAt": 1790229178679,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790229123104,
+  "overall": {
+   "winRate": 50.2,
+   "play": 10280,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 183,
+   "wins": 89,
+   "winRate": 48.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid Camille’s (E) with your [E]. Do not let Camille get (P) by managing your distance well while focusing on dealing damage with your skills only.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.9,
+    "play": 158,
+    "pickRate": 73.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46,
+    "play": 50,
+    "pickRate": 23.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.1,
+    "play": 98,
+    "pickRate": 45.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 4.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 137,
+    "pickRate": 60.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.7,
+    "play": 86,
+    "pickRate": 38.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.7,
+    "play": 181,
+    "pickRate": 86.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 62.5,
+    "play": 24,
+    "pickRate": 11.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 76.5,
+    "play": 17,
+    "pickRate": 14.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 8.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 54.5,
+    "play": 112,
+    "pickRate": 52.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.1,
+    "play": 109,
+    "pickRate": 51.4
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.6,
+    "play": 105,
+    "pickRate": 49.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.2,
+    "play": 67,
+    "pickRate": 31.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 34,
+    "pickRate": 16
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 12.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.6,
+    "play": 122
+   }
+  ]
+ }
+}

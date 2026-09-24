@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured matchup",
+   "line": "You lose if you let Camille's empowered Q autos poke you down while she resets with Hookshot; you win if you force stand-and-trade fights that stack Hemorrhage to 5 before she can disengage."
+  },
+  "thesis": "Darius wins this lane on the numbers (51.7% over 172 games, solo-kill edge) because Hemorrhage stacking gives him a true-damage execute that Camille's Adaptive Defenses shield can't block, and her only real escape tool is a wall-dependent leap. The lane is decided by whether Darius forces committed trades before Camille can reset space with Q's bonus Move Speed or reach a wall for Hookshot.",
+  "tell": {
+   "watch": "Camille's E (Hookshot) cooldown",
+   "theirWindow": {
+    "when": "before you've built 3+ Hemorrhage stacks",
+    "what": "Camille can freely land Q (Precision Protocol) empowered autos and W (Tactical Sweep) poke without fearing your execute threat, so don't extend trades yet — just farm and land Q's blade edge to build stacks."
+   },
+   "yourWindow": {
+    "when": "Camille sits at 3-5 Hemorrhage stacks in range",
+    "what": "Pull her in with E (Apprehend, 535 range) and finish with R (Noxian Guillotine) — the true damage scales per stack and the kill refreshes its cooldown, so you can chain it if allies are also low."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "no reliable Hookshot yet, stack freely"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Hookshot online, empowered Q punishes overextension"
+   },
+   {
+    "levels": "7-13",
+    "edge": "you",
+    "note": "E maxed, 16s cooldown denies her engages"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "both scale as duelists, item power decides"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest-performing start at 51.2% over 162 games — the AD and sustain let you win early trades and shrug off Camille's Q-empowered auto pokes while you stack Hemorrhage."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "80.5% pick rate and best winrate (50.3%) — the flat damage reduction blunts every auto in Camille's kit, since her whole trade pattern (Q, W outer edge, R bonus autos) is physical or auto-attack based."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste closes the gap Camille tries to open with Hookshot's Move Speed and lets you stick through her Q recast window."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Built-up Move Speed on the charge means you're never out of Apprehend range when she tries to walk up for a Q auto."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Highest-winrate finished path at 63.6% over 22 games — the damage-over-time conversion keeps you alive through her burst while your own Hemorrhage bleeds tick away."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "she's building lifesteal or burst and your all-ins are getting traded back"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "her Ultimatum's bonus magic damage on autos is adding up faster than your physical trades"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks hard CC beyond just Camille's kit"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror ramps through prolonged combat, which is exactly the stand-and-trade pattern you need to stack Hemorrhage to 5 before committing Guillotine — master-tier players instead run Stormraider's Surge (Sorcery), which suits a more hit-and-run poke style that punishes Camille's Q recast window and resets rather than fully committing to extended fights.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost is both the most-picked (59.7%) and highest-winrate (51.7%) combo — Ghost closes distance on a champion whose whole kit is built around disengaging via Hookshot. Flash+Ignite (46.9%, 31.8% pick) is the alternative if you want to guarantee the Hemorrhage-execute kill before she can juke it."
+  },
+  "playing": [
+   {
+    "title": "Stack passive before all-in",
+    "detail": "Hemorrhage stacks up to 5 and enrages Darius at max stacks; land autos and Q hits on Camille first so Guillotine's true damage is fully scaled when you commit."
+   },
+   {
+    "title": "Hit Q's blade, not the handle",
+    "detail": "Decimate's outer swing (the blade) deals more damage than the inner handle — land the edge of the circle on Camille specifically, not just the aoe center."
+   },
+   {
+    "title": "Punish the empowered Q auto",
+    "detail": "Precision Protocol is a next-attack windup with an optional recast; the moment you see that empowered auto land, close with W (Crippling Strike) to slow her before the bonus Move Speed lets her reset space."
+   },
+   {
+    "title": "Deny Hookshot with your own E",
+    "detail": "Apprehend's pull (535 range) can catch Camille before she reaches a wall for Hookshot (800 range) — hooking her early sends her engage/disengage tool to a 16-12s cooldown before it ever lands."
+   },
+   {
+    "title": "Respect the delayed W cone",
+    "detail": "Tactical Sweep fires after a delay and its outer half slows and heals her — walk through or past the telegraph rather than backing straight through the outer edge."
+   },
+   {
+    "title": "Max Q, then E, not W",
+    "detail": "The data's skill order maxes Q first for trade damage, E second — prioritizing E gets Apprehend's cooldown down to 16s sooner for repeat interrupts on her engages."
+   },
+   {
+    "title": "Her ultimate doesn't stun you",
+    "detail": "The Hextech Ultimatum anchors you to the area near her rather than rooting or stunning — you can still trade, use E, or land Guillotine if you're already stacked when it lands."
+   }
+  ],
+  "patchCaveat": "All build, rune, summoner, and winrate figures come from measured Darius-vs-Camille games on the current patch (172-game sample for the head-to-head); the ability interactions and timing reads connecting them to Camille's kit are my own tactical analysis."
+ },
+ "generatedAt": 1790228774666,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790228647639,
+  "overall": {
+   "winRate": 49,
+   "play": 8900,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 172,
+   "wins": 89,
+   "winRate": 51.7
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": "Try to hit Camille at the edge of [Q] when dealing damage. Maintain your passive stacks and fight her whenever she steps in range and interrupt her (E) with your [E].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 51.7,
+    "play": 120,
+    "pickRate": 59.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.9,
+    "play": 64,
+    "pickRate": 31.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 7.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 44,
+    "pickRate": 21.9
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 20.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 162,
+    "pickRate": 77.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45,
+    "play": 40,
+    "pickRate": 19.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.3,
+    "play": 161,
+    "pickRate": 80.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 10
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 63.6,
+    "play": 22,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 7.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.5,
+    "play": 99,
+    "pickRate": 50.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 50.5,
+    "play": 97,
+    "pickRate": 49.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.9,
+    "play": 72,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 53.6,
+    "play": 69,
+    "pickRate": 35
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.2,
+    "play": 67,
+    "pickRate": 34
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 42.9,
+    "play": 42,
+    "pickRate": 21.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.1,
+    "play": 49
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 1177
+  }
+ }
+}

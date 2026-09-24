@@ -1,0 +1,387 @@
+{
+ "you": "Fiora",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales out",
+   "line": "You lose most 1v1s and solo kills through level 5-6, but Fiora's itemization flips this to a 55.4% win rate over 148 games once either side hits a first back."
+  },
+  "thesis": "Sett's Knuckle Down (Q, cooldown 9/8/7/6/5s) empowers his next two basic attacks off max health, and Facebreaker (E, cooldown 16/14.5/13/11.5/10s, range 490) can stun if he pulls enemies from opposite sides - Fiora has no hard CC to punish either, only Riposte's (W) single-attack parry. This forces a passive laning pattern where Fiora banks Duelist healing stacks and Lunge (Q) pokes instead of trading autos, waiting for Ravenous Hydra and Trinity Force to out-scale Sett's flat damage.",
+  "tell": {
+   "watch": "Sett's stored Grit (W) meter",
+   "theirWindow": {
+    "when": "Knuckle Down active + minion opposite you",
+    "what": "His next two basic attacks deal bonus max-health damage, and if a minion sits opposite you from Sett his Facebreaker pull becomes a stun instead of a slow - back off wave control the moment you see the Q proc."
+   },
+   "yourWindow": {
+    "when": "Riposte (W) up when he commits Q",
+    "what": "Hold W for the second empowered auto from Knuckle Down - parrying it denies the bonus damage, reflects magic damage back, and the AD boost from an active Riposte turns the punish into a real trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Higher base damage, Q autos win early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Facebreaker online, all-in threat peaks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Parry timing catches up to his ult threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hydra/Trinity spike outscales his flat damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build and stacked Duelist win duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run in 83.1% of games (51.2% win rate over 162) - the extra sustain from Duelist procs matters more here than shield scaling since you're absorbing Q-empowered autos, not poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "86.8% pick rate (57% win rate over 151 games) - Sett's damage is almost entirely basic attacks (his alternating punches plus Q-empowered autos), so flat auto reduction is worth more than magic resist here."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "First item in the 39.8%-pick, 51.2%-win path - the sustain and wave clear let you survive to your power spike without contesting early trades."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Adds the burst and move speed that pairs with Burst of Speed (E) to actually win a duel once you're no longer just surviving."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the top build path (51.2% win rate) - critical against Sett's true-damage Haymaker punch, since it lets your Duelist healing outpace his burst windows."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you get an early lead and want to convert it into an all-in power spike instead of scaling passively"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "the lane turns into a long poke-and-farm stalemate and you need extra sustain damage"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "fights are running long and you want the cooldown reduction to loop Q resets and W parries faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The higher-pick page (44%, 13.2% pick) - stacking Conqueror during the safe poke phase pays off once you reach your item spike and start winning extended trades. Note: master-tier Fiora players (1,347 games) run Press the Attack instead - better suited if you're confident landing clean burst trades rather than grinding out longer fights.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Ignite is the default (77.7% pick, 53.4% win rate) for punishing him if he overextends post-parry. Flash+Teleport actually posts the highest measured win rate here (58.8% over a smaller sample) and fits the scale-and-splitpush plan this matchup rewards - take it if you expect a slow lane."
+  },
+  "playing": [
+   {
+    "title": "Hold W for his Q auto",
+    "detail": "Riposte only parries the next basic attack, so time it for the second empowered swing from Knuckle Down rather than throwing it away on a normal poke."
+   },
+   {
+    "title": "Track minion position on Facebreaker",
+    "detail": "His E only stuns if he pulls enemies from opposite sides; if you're alone on one side it just slows. Position so you're never the lone target opposite a minion."
+   },
+   {
+    "title": "Poke with Q, not autos",
+    "detail": "Lunge lets you hit and reset within its double-dash window at no mana cost - use it to chip damage without standing in easy Q-empowered auto range."
+   },
+   {
+    "title": "Don't all-in before your first back",
+    "detail": "The data shows Sett owns solo kills early; wait for Ravenous Hydra before initiating any extended trade."
+   },
+   {
+    "title": "Respect level 6 The Show Stopper",
+    "detail": "Cooldown is 120/100/80/80/80s and range is only 400, so simply staying outside dash range denies it entirely - don't overextend on wave once he hits 6."
+   },
+   {
+    "title": "Use E to disengage after a parry",
+    "detail": "Burst of Speed grants move speed on every attack or Lunge landed while active, so trigger it right after a successful Riposte punish to peel out before his Grit resets."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG data on the current patch (148 head-to-head games); the mechanical reasoning and lane-plan tying those numbers together is my own read of the ability kits."
+ },
+ "generatedAt": 1790228553941,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790228450147,
+  "overall": {
+   "winRate": 50.8,
+   "play": 7214,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 148,
+   "wins": 82,
+   "winRate": 55.4
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Do not let Sett activate his (P) by constantly dealing damage with [Q]. Use [W] to block any of his skills to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.4,
+    "play": 146,
+    "pickRate": 77.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 9
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44,
+    "play": 25,
+    "pickRate": 13.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Scorch"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 6.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 162,
+    "pickRate": 83.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 8.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 57,
+    "play": 151,
+    "pickRate": 86.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 8.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 39.8
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 13.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 55,
+    "play": 171,
+    "pickRate": 96.1
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 57.4,
+    "play": 101,
+    "pickRate": 56.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.5,
+    "play": 73,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 47.4,
+    "play": 38,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 37,
+    "play": 27,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 9.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 64.3,
+    "play": 84
+   }
+  ],
+  "highElo": {
+   "keystone": "Press the Attack",
+   "tree": "Precision",
+   "play": 1347
+  }
+ }
+}

@@ -1,0 +1,386 @@
+{
+ "you": "Fiora",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose the fight when Jax lands Counter Strike's stun and chains it into an Empower auto during a long skirmish; you win it when you parry his key auto with Riposte or force a short, isolated trade off a double Lunge."
+  },
+  "thesis": "This matchup is decided by trade length, not raw damage: Jax wants extended skirmishes where his Relentless Assault attack-speed ramp and Empower autos pile up, while Fiora wants short, auto-heavy exchanges where Riposte can parry his one key basic attack. Neither side has a structural cooldown or damage edge — Fiora's 50.8% overall top lane win rate and the 47.6% mark across 189 head-to-head games both sit close to even. The difference comes down to who baits the other's cooldown first.",
+  "tell": {
+   "watch": "Jax's Counter Strike cooldown",
+   "theirWindow": {
+    "when": "Right after he lands Counter Strike's stun",
+    "what": "He follows the stun with an Empower-boosted auto and can chain into Relentless Assault's attack-speed ramp for a full trade. Back off or hold Riposte rather than staying in melee range."
+   },
+   "yourWindow": {
+    "when": "When his E (Counter Strike) is on cooldown",
+    "what": "Engage with Q (Lunge) knowing he has no stun to punish your dash-in, and hold W (Riposte) ready to parry the auto he needs to land Empower's bonus damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo tool is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Counter Strike punishes your dash-in engages"
+   },
+   {
+    "levels": "6-7",
+    "edge": "them",
+    "note": "Relentless Assault rewards extended skirmishes"
+   },
+   {
+    "levels": "8-11",
+    "edge": "even",
+    "note": "Lunge and Riposte cooldowns shrink to match his tempo"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Full combo plus core items win extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Run in 50.5% of wins over 210 games (88.2% pick) — the lifesteal keeps you healthy while Duelist stacks, which matters since you want to win short auto trades rather than avoid them entirely."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Taken in 70.7% of games at 48.4% win rate — flat physical damage reduction blunts both Empower autos and Relentless Assault's third-hit bonus damage, the two things doing most of Jax's trade damage."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "First item on the 66.7%-win, 43.2%-pick path — the heal-on-hit stacks with Duelist to keep you topped up through repeated Lunges."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Second item on the same path — the move speed proc extends what Burst of Speed already gives you, letting you stick to Jax after he Leap Strikes away."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the 66.7%-win path — the damage-over-time conversion lets you survive the burst window right after he lands a Counter Strike stun instead of dying to it outright."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to punish his cooldowns with more burst instead of grinding a sustain trade"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "he's stacking bonus health through Equipment Mastery and you need to keep pace in raw stats"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "you're behind and need the anti-burst shield to survive his all-in before your core items finish"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks over the course of an extended trade and heals you back, which directly counters the fact that Jax wants those same extended trades for his own attack-speed ramp — you outlast what he's trying to out-skirmish you with.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is the standard pick (84.7% pick rate) and secures the early skirmish kills that swing an even lane; Flash + Teleport runs a slightly higher win rate (52.4%) and lets you exploit Fiora's split-push and pick threat once your core items are online."
+  },
+  "playing": [
+   {
+    "title": "Bait Leap Strike before trading",
+    "detail": "Q (Leap Strike, 17/14/11/8/5s cd) is Jax's only gap closer. Once he burns it to engage or reposition, punish immediately with your own Q (Lunge) since he has no way to close the gap back on you."
+   },
+   {
+    "title": "Hold Riposte for a real auto",
+    "detail": "Jax leans on basic attacks through Empower and Relentless Assault, so save W (Riposte, 10/9/8/7/6s cd) to parry an actual auto-attack trade rather than popping it early just for the AD buff."
+   },
+   {
+    "title": "Never Lunge into an active Counter Strike",
+    "detail": "His E (Counter Strike, 18/16/14/12/10s cd) dodges your basic attacks for its duration, then stuns and damages anyone nearby when it ends. Wait out the stance before committing your combo."
+   },
+   {
+    "title": "Double-Lunge to reset distance",
+    "detail": "Q can be recast a second time within a couple seconds at no mana cost. Use the second cast to disengage if he punishes your first dash-in instead of forcing a bad follow-up trade."
+   },
+   {
+    "title": "Stack Duelist before you commit",
+    "detail": "Land a few autos or Lunges first to build Fiora's passive healing stacks so you're already topped up before trading into an Empower-boosted auto."
+   },
+   {
+    "title": "Use Burst of Speed to deny his reset",
+    "detail": "E's attack speed window plus the move speed gained per landed hit lets you stick to him after a Leap Strike disengage, denying him the reset he needs to re-enter safely."
+   },
+   {
+    "title": "Save Blade Waltz for skirmishes, not lane",
+    "detail": "R (130-110s cd) hits multiple enemy champions with damage falloff on repeat hits to the same target — it's a teamfight or pick tool, not a cooldown to spend on a single 1v1 duel."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and every win-rate or pick-rate figure above are measured from real OP.GG games on the current patch, including the 189-game Fiora-vs-Jax sample. The cooldown windows, ability tells, and trade-timing reasoning built around that data are our own tactical read, not sourced numbers."
+ },
+ "generatedAt": 1790230038937,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790229946341,
+  "overall": {
+   "winRate": 50.8,
+   "play": 7214,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 189,
+   "wins": 90,
+   "winRate": 47.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use [W] to hit him as Jax will rely on basic attacks to deal most of his damage. Hit [P] through your [Q] to contest lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.4,
+    "play": 194,
+    "pickRate": 84.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 9.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 5.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 43.5,
+    "play": 23,
+    "pickRate": 10
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 8.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 210,
+    "pickRate": 88.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 30.8,
+    "play": 13,
+    "pickRate": 5.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.4,
+    "play": 157,
+    "pickRate": 70.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.8,
+    "play": 46,
+    "pickRate": 20.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 54,
+    "pickRate": 43.2
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 46.6,
+    "play": 221,
+    "pickRate": 95.7
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.7,
+    "play": 149,
+    "pickRate": 64.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 64.6,
+    "play": 79,
+    "pickRate": 34.2
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 9.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.9,
+    "play": 119
+   }
+  ]
+ }
+}

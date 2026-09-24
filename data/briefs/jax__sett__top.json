@@ -1,0 +1,385 @@
+{
+ "you": "Jax",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you eat a full-Grit Haymaker (W) into all-in Show Stopper (R) below half HP; you win if you save Counter Strike (E) for his Knuckle Down (Q) attacks and out-trade him on your Empowered auto resets."
+  },
+  "thesis": "This is a genuinely even lane (48.3% over 172 games) built entirely around two dodges: Jax's E (Counter Strike, cooldown 18/16/14/12/10s) dodges all incoming basic attacks, which directly nullifies both of Sett's Knuckle Down-empowered swings, while Sett's W (Haymaker) only detonates once he's banked enough Grit from damage taken. Whoever tracks the other's cooldown and resource first controls every exchange.",
+  "tell": {
+   "watch": "Sett's banked Grit (W charge)",
+   "theirWindow": {
+    "when": "Grit looks full and R is up",
+    "what": "He can shield-punch with Haymaker (W) for true damage center / physical damage on the sides, then follow with Show Stopper (R, cooldown 120/100/80/80/80s, range 400) to drag you into it. Disengage or bait the W punch from outside its blast before he can chain into R."
+   },
+   "yourWindow": {
+    "when": "he throws Knuckle Down (Q) at you",
+    "what": "Q (cooldown 9/8/7/6/5s) makes his next two attacks deal bonus max-health damage. Pop Counter Strike (E) the moment he commits — it dodges both empowered autos entirely and then stuns him for the counter-damage, turning his all-in cooldown into your stun window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no E yet; his passive Grit regen wins short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, punishes every Knuckle Down all-in"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "his R burst vs your Leap-Empower trade pattern"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Trinity Force + R attack-speed stacking outscales"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "60.8% pick rate at 50% win over 130 games — the extra AD and sustain matter more here than shield stacking since your trades are short E-punishes, not extended tank-offs."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "69% pick rate, 48.6% win over 138 games — Sett's entire kit is basic-attack damage and true-damage punches, so flat armor undercuts both his alternating punches and Haymaker's physical-damage sides."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Feeds directly into R's attack-speed stacking and gives the burst you need on the Leap Strike-Empower-Counter Strike combo."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "65.2% win over 23 games on this path — the proc heal and crit chance win the extended trades once his Grit sustain kicks in."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Best-performing third item (65.2%/23 games) — lets you survive a Show Stopper (R) + Haymaker (W) all-in once he hits level 6."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "he's building for extended damage-over-time trades and you need the bleed-to-heal conversion instead of a pure burst answer"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "his R (Show Stopper) burst is threatening to one-shot you out of a fight before Zhonya's is up"
+    },
+    {
+     "item": "Blade of the Ruined King",
+     "when": "he's stacking health and out-sustaining your Sundered Sky procs"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "his Facebreaker (E) stun off a wall and Show Stopper (R) slow are locking you down repeatedly"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Stacks directly with R's attack-speed gain on every third consecutive hit, so your Empowered auto resets ramp faster than his flat Grit sustain can outheal.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Ignite is the standard pick (61.4% pick rate, 48.1% win) for closing out trades you win off an E stun; Flash+Teleport (49.1% win, 27.1% pick) is the safer choice if you'd rather play the scaling side of the lane and reset off waves."
+  },
+  "playing": [
+   {
+    "title": "Bait Knuckle Down, answer with Counter Strike",
+    "detail": "The instant he activates Q, hold E — it dodges both bonus-damage attacks completely and stuns him afterward, flipping his cooldown into your damage window."
+   },
+   {
+    "title": "Step out of Haymaker instead of tanking it",
+    "detail": "E only fully dodges basic attacks; Haymaker's punch is an AoE that E merely reduces, so move out of the blast rather than relying on your stance to negate it."
+   },
+   {
+    "title": "Watch for wall Facebreakers",
+    "detail": "Facebreaker only stuns if you're pulled from opposite sides — if he can angle it with terrain behind you it stuns instead of slows, so don't stand between him and a wall."
+   },
+   {
+    "title": "Trade in Empowered auto bursts",
+    "detail": "Use W (Empower) into a Leap Strike or auto for the bonus damage, then disengage before his second attack lands — don't stand and trade autos, his alternating punch passive rewards prolonged fights."
+   },
+   {
+    "title": "Respect every R after level 6",
+    "detail": "Show Stopper is up on a 120/100/80/80/80s cycle — track it and avoid being isolated below half HP when it's available, since it drags you in regardless of Flash timing."
+   },
+   {
+    "title": "Punish low Grit, back off high Grit",
+    "detail": "Right after he uses Haymaker his Grit is empty — that's your safest window to force a trade before it refills off your own damage."
+   },
+   {
+    "title": "Play for the level 12+ turn",
+    "detail": "Once Trinity Force is up your R attack-speed stacking and Empowered autos outscale his flat sustain — start forcing extended fights instead of short pokes."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, and all win rates above come from measured Jax vs Sett top-lane games on the current patch via OP.GG; the tactical reasoning — the E-dodges-Q interaction, the Haymaker Grit tracking, and the wall-Facebreaker tell — is my own read of the ability mechanics, not measured data."
+ },
+ "generatedAt": 1790230341562,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790230259379,
+  "overall": {
+   "winRate": 50.8,
+   "play": 8461,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 172,
+   "wins": 83,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Block Sett’s Knuckle Down (Q) with Counter Strike [E]. Simply move out of the way when he uses Haymaker (W) while fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.1,
+    "play": 129,
+    "pickRate": 61.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.1,
+    "play": 57,
+    "pickRate": 27.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 72.7,
+    "play": 22,
+    "pickRate": 10.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 67,
+    "pickRate": 31.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 28.6,
+    "play": 14,
+    "pickRate": 6.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 130,
+    "pickRate": 60.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60.6,
+    "play": 33,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.6,
+    "play": 138,
+    "pickRate": 69
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.8,
+    "play": 37,
+    "pickRate": 18.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 65.2,
+    "play": 23,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 11.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Sterak's Gage"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 5.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52.1,
+    "play": 167,
+    "pickRate": 83.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 55.6,
+    "play": 72,
+    "pickRate": 36
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 52.9,
+    "play": 51,
+    "pickRate": 25.5
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 64.5,
+    "play": 31,
+    "pickRate": 15.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 52.1,
+    "play": 71
+   }
+  ]
+ }
+}

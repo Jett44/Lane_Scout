@@ -1,0 +1,380 @@
+{
+ "you": "Fiora",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Tight skill matchup",
+   "line": "You lose when you walk into her empowered Q1/Q2 poke chain before level 3; you win when your parry lands and you convert with Lunge resets before her Hookshot resets."
+  },
+  "thesis": "Camille's 325-range Precision Protocol (Q) lets her poke and disengage for free before Fiora hits her level 3-5 spike, which is why the head-to-head sits at 46.3% over 164 games despite Fiora holding the raw lane and solo-kill advantage. This is an execution matchup: Riposte (W) timing against her empowered auto and dodging the delayed Q2 burst decide almost every all-in, not raw stats.",
+  "tell": {
+   "watch": "Camille's Q1 recast window",
+   "theirWindow": {
+    "when": "when she delays her Q recast",
+    "what": "If she lands Q1 and holds the recast, the follow-up auto does significantly increased bonus damage. Back off and let the recast expire before you commit to a trade."
+   },
+   "yourWindow": {
+    "when": "when her Hookshot (E) is on cooldown",
+    "what": "Hookshot is her only escape and engage tool at 16/15/14/13/12s cooldown. If it's down, dive with Lunge (Q) and its free second dash — she has no way to reset the fight or reposition off a wall."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q1 empowered autos poke before your W/E exist"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Riposte and Burst of Speed online, duels swing"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates live, trades are execution-dependent"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hydra/Trinity spike outpaces her shield uptime"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "R cooldown drops to 90s, repeat anchor threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run 93.2% of the time (49.2% win rate, 179 games) because the sustain and AD offset her Q1/Q2 poke chain before you have W to punish her attacks."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "73.6% pick rate at 47.5% win rate over 120 games — she wants to whittle you down with basic-attack-based Q and the outer half of W, and Steelcaps flatten both."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "First item in the 34.4%-picked, 60.6%-winning path — the sustain and cleave keep you healthy through her poke phase while scaling your Lunge damage."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Second in the same path — the damage spike here is where Fiora starts winning extended trades outright by levels 9-13."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the highest-winning build (60.6% over 33 games) and lets you survive her R (Hextech Ultimatum) burst window while your passive heals catch up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to shield through her Q1/Q2 burst on your all-in"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the lane stalls and you want to threaten split-push since her Hookshot needs walls to reposition"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "you need extra sustain against her W healing on top of Death's Dance"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "The most-run page (10.9% pick, 55% win rate) — PTA's stacking punishes Camille's habit of resetting Q autos on you, since three hits mark and burst her before her passive shield window resets.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run 89.7% of the time (46.7% win rate) — Ignite cuts the healing from her Tactical Sweep (W) outer-half hit and closes out the trade windows this matchup is decided by."
+  },
+  "playing": [
+   {
+    "title": "Hold Riposte for her Q1",
+    "detail": "Don't burn W on a random poke auto. Save it for the moment she commits to an all-in — parrying reflects magic damage back and denies the trade she planned around."
+   },
+   {
+    "title": "Don't walk into 325 range for free",
+    "detail": "Precision Protocol only has 325 range. Stay outside it between waves and only step in when you're ready to trade, since every free auto she lands stacks toward a delayed Q2 burst."
+   },
+   {
+    "title": "Skill max QWEQQRQ per the standard order",
+    "detail": "Follow the 56.1%-picked QWEQQRQEQEREEWW order — E stays at rank 1 until level 5-6 so W stays available for parry timing every fight."
+   },
+   {
+    "title": "Fight when her shield window is down",
+    "detail": "Her passive only shields after a basic attack lands, on a brief duration. The measured data flags this as the single highest-value engage window even when your parry doesn't fully negate the trade."
+   },
+   {
+    "title": "Track Hookshot before all-in",
+    "detail": "If she's out of wall range or Hookshot is down (16-12s cooldown by rank), she has no disengage. That's your green light to commit with Lunge's free second dash."
+   },
+   {
+    "title": "Respect the R timer only past level 11",
+    "detail": "Hextech Ultimatum drops to a 90s cooldown at rank 3 and stays near-zero recast after — from level 11 on, assume it's up far more often than yours and play around her initiating, not you."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates above are measured OP.GG data from current-patch games; the mechanical reasoning — parry timing, poke ranges, and power-spike windows — is my own tactical read of the kits."
+ },
+ "generatedAt": 1790229120216,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790229043130,
+  "overall": {
+   "winRate": 50.8,
+   "play": 7214,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 164,
+   "wins": 76,
+   "winRate": 46.3
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "aggressive",
+  "opponentTip": "You will have the upper hand if your [W] manages to stun Camille even if it does not block her (W). Fight her while aiming for [P].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.7,
+    "play": 165,
+    "pickRate": 89.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 2.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 10.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Scorch"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 6.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 179,
+    "pickRate": 93.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 12.5,
+    "play": 8,
+    "pickRate": 4.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.5,
+    "play": 120,
+    "pickRate": 73.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 10.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 60.6,
+    "play": 33,
+    "pickRate": 34.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 56.3,
+    "play": 16,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Hullbreaker"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 12.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 51.4,
+    "play": 173,
+    "pickRate": 95.1
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 55.5,
+    "play": 110,
+    "pickRate": 60.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 51.7,
+    "play": 60,
+    "pickRate": 33
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 14.3
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 8.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.1,
+    "play": 82
+   }
+  ]
+ }
+}
