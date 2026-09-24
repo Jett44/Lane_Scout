@@ -4,89 +4,93 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Skill matchup",
-   "line": "You lose if you let Garen's free E spam wear you down before level 3 and get caught by a Q-silence all-in; you win if you trade Q into his E for passive value and time W around his cooldowns."
+   "difficulty": "Close skill matchup",
+   "line": "You lose if Garen lands Decisive Strike's silence into a level 6+ all-in; you win if you pull him with E before he closes and bank the trade into W."
   },
-  "thesis": "Garen has no mana bar, so his E (Judgment) poke is unlimited and his all-in timing is dictated purely by Q (Decisive Strike) cooldown, not resources. Mordekaiser's counter is that every Q and E stacks Darkness Rising, and W (Indestructible) converts exactly the kind of sustained physical damage Garen deals into a heal, which is why the measured numbers give this to Mordekaiser at 50.9% over 690 games despite Garen owning the early poke pattern.",
+  "thesis": "Mordekaiser's E (Death's Grasp, range 700) and Q (Obliterate, range 675) both outrange every tool Garen has (Q range 300, E range 325), so Mordekaiser dictates when fights start. The counter is Garen's Q (Decisive Strike): its silence shuts off your ability to consume Indestructible's shield or activate R mid-trade, and once he hits level 6 his 20s-cooldown-at-rank-3 Demacian Justice threatens an execute on anyone he's already damaged. That tension is why the measured 47% win rate over 151 games sits just below even despite Mordekaiser holding the lane and solo-kill edge on paper.",
   "tell": {
-   "watch": "Garen's Q (Decisive Strike) cooldown",
+   "watch": "Garen's Decisive Strike cooldown",
    "theirWindow": {
-    "when": "Garen level 3-5 with Q up",
-    "what": "He wants Q-silence into E spin and an auto-attack chain, often with Ignite. If you see him walk up with Q available, don't commit to a trade — back off a step or pre-activate W before he closes so the silence doesn't shut down your shield."
+    "when": "his Q is up and he's level 6+",
+    "what": "He can silence your next ability on contact and follow with a Judgment (E) spin plus auto-attacks, then threaten Demacian Justice if you're already low. Back off and let a wave push instead of contesting."
    },
    "yourWindow": {
-    "when": "Garen's Q is on cooldown",
-    "what": "Walk up and trade freely: Q him for a Darkness Rising stack, then let E tick on him and the wave. He has no silence to punish your W, so this is when you commit to full trades or a level-advantage all-in."
+    "when": "his Q (8s cooldown) is down",
+    "what": "Open with E to pull him into your max range, land Q for its single-target bonus damage, and auto to build Darkness Rise stacks. Only consume your W shield for healing after he's dumped his Judgment spin into you."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Garen's free E poke matches your Q trade damage"
+    "note": "Both weak, farm through Q clears"
    },
    {
     "levels": "3-5",
     "edge": "you",
-    "note": "Passive stacks and W sustain win extended trades"
+    "note": "E-into-Q combo wins forced trades"
    },
    {
     "levels": "6-8",
-    "edge": "even",
-    "note": "Garen's execute R matches your own R spike"
+    "edge": "them",
+    "note": "Demacian Justice execute threat spikes"
    },
    {
     "levels": "9-13",
     "edge": "you",
-    "note": "Rylai's/Riftmaker online, you out-scale in fights"
+    "note": "Rylai's slow locks him in range"
    },
    {
     "levels": "14-18",
     "edge": "you",
-    "note": "Full build makes you nearly unkillable in duels"
+    "note": "Liandry's/Thornmail outscale his sustain"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield + Health Potion",
-    "why": "Only an 11.9% pick but the higher measured win rate (53.3% over 107 games) — the extra regen and auto-attack block directly answers Garen's unlimited E poke and early trading pattern better than the more popular Doran's Ring line."
+    "item": "Doran's Ring + Health Potion",
+    "why": "Run in 79.5% of these games (49.7% win rate) — the mana and sustain let you keep throwing Q into the wave without losing trading power."
    },
    "boots": {
-    "item": "Mercury's Treads",
-    "why": "Lower pick rate but the strongest measured win rate (58% over 131 games) here for a mechanical reason: tenacity shortens Garen's Q silence duration, which is the exact window that stops you from activating W in time."
+    "item": "Plated Steelcaps",
+    "why": "Taken in 71% of games; Garen's damage is entirely physical autos and spin damage, so the flat reduction blunts every trade he initiates."
    },
    "core": [
     {
      "item": "Rylai's Crystal Scepter",
-     "why": "Slow from Q/E lets you disengage or stick to Garen through his own movement speed steroid from Q."
+     "why": "The best-performing path (69.2% win rate) starts here — the slow from Q/E keeps Garen from walking out of your kill range after his Q speed burst."
     },
     {
      "item": "Riftmaker",
-     "why": "Omnivamp turns your E waveclear into sustain that outlasts Garen's no-mana poke; this path hits 57.8% over 102 games."
+     "why": "Second item on the top path; the omnivamp answers Garen's Perseverance regen war of attrition."
     },
     {
      "item": "Liandry's Torment",
-     "why": "Burn damage punishes Garen's high base HP and completes the highest-sampled build path in the data."
+     "why": "Closes out the 69.2% win-rate path; burn damage punishes a healing tank who has to stand in your E/W range to fight."
     }
    ],
    "situational": [
     {
      "item": "Thornmail",
-     "when": "he is snowballing and building pure physical damage"
+     "when": "he's stacking health regen or armor and Perseverance is undoing your trades"
     },
     {
      "item": "Spirit Visage",
-     "when": "you need more sustain against a heavy-damage side lane or jungler"
+     "when": "his physical burst from Q silence plus E spin is outpacing your Riftmaker sustain"
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "he's landing Demacian Justice onto you or diving with jungle help"
     },
     {
      "item": "Experimental Hexplate",
-     "when": "you want more agency to force fights instead of scaling passively"
+     "when": "you need more mobility to catch him after his Q move speed burst"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Conqueror ramps off every Q and E hit during extended trades and converts to healing, which stacks with W and Riftmaker to out-sustain a champion who has no mana limit on his own poke.",
+   "keystoneWhy": "The 55.3% win-rate page's keystone — stacks through the extended trades E's pull forces, and the healing on full stacks offsets Garen's regen passive.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -107,56 +111,52 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Flash+Ignite is both the most-picked (84.4%) and near-average-WR (50.7%) setup here, and it matches the data's stated solo-kill advantage for Mordekaiser — Ignite closes out all-ins once Garen's W (Courage) damage reduction is down. Flash+Teleport (52.4% over a smaller 9.5% pick share) is the alternative if you want to leverage your E waveclear for proactive TP plays instead of dueling."
+   "why": "Run in 79.8% of games at a 50.7% win rate — Ignite converts your E-into-Q all-in into a kill before Garen's Perseverance regen ticks him back up."
   },
   "playing": [
    {
-    "title": "Trade Q into minions and Garen together",
-    "detail": "Every Q hit on Garen builds a Darkness Rising stack; get to 3 stacks before committing to your empowered auto for the real damage spike."
+    "title": "Pull with E before he closes",
+    "detail": "Death's Grasp's 700 range beats his 300-range Q, so landing it first guarantees your Q connects before he's in his own attack range."
    },
    {
-    "title": "Pre-activate W before his all-in lands",
-    "detail": "Once Garen closes with Q up, he can silence you out of casting W — activate it a half-second earlier than feels natural so the shield is already up when Q-E-auto arrives."
+    "title": "Track his Q before all-inning",
+    "detail": "If Decisive Strike is up, expect a silence on his next attack that shuts off your W heal or R cast mid-fight — wait it out or bait it on a minion first."
    },
    {
-    "title": "Don't fight into an available Garen Q",
-    "detail": "If his Q is off cooldown, disengage or hold at max E range instead of trading; his silence removes your only defensive tool mid-fight."
+    "title": "Save R for a confirmed kill",
+    "detail": "Realm of Death's cooldown runs 140s down to 80s at max rank, so don't burn it to poke — use it only when you're certain you can finish him, since you keep his stolen stats if he dies inside it."
    },
    {
-    "title": "Farm through E even when you can't all-in",
-    "detail": "Garen has no mana constraint but you have no CD constraint on E for waveclear — use it to deny him easy lane pressure even in trades you're avoiding."
+    "title": "Time your W consumption late",
+    "detail": "Let Indestructible bank the damage from his Judgment spin and autos, then consume the shield right after he commits so you heal off his full trade."
    },
    {
-    "title": "Respect his R once you're under 20-30% HP after level 6",
-    "detail": "Garen's true-damage execute scales off your missing health; don't sit at low HP near him past level 6 even if you think you can out-trade him."
+    "title": "Don't crash waves past level 6",
+    "detail": "Demacian Justice executes based on missing health, so avoid parking under his tower low on HP once he has it — Mordekaiser's own R needs him to be closer than Garen's ult range anyway."
    },
    {
-    "title": "Look for your all-in when his Q is down and you have full stacks",
-    "detail": "This is the window the head-to-head win rate is built on — Q, auto, E, auto is your kill pattern when he can't silence back."
-   },
-   {
-    "title": "Use your own R to close out extended duels post-6",
-    "detail": "Once Rylai's is online, isolating him with R removes his ability to disengage while your kit still has the sustain edge."
+    "title": "Wait for armor before hard trades",
+    "detail": "Matches the matchup read directly: get Plated Steelcaps and your first armor component before initiating extended fights, since early trades favor his flat physical damage."
    }
   ],
-  "patchCaveat": "Build, runes, summoners, and all win rates above are pulled directly from measured OP.GG games on the current patch (16.18.1); the trade patterns, timing windows, and mechanical reasoning are my own read of the matchup, not measured data."
+  "patchCaveat": "The build, runes, summoners, and win rates above are pulled from measured Mordekaiser-vs-Garen games on the current patch; the trade timing, ability interactions, and power-curve calls are my own read on top of that data."
  },
- "generatedAt": 1789274492914,
- "patch": "16.18.1",
+ "generatedAt": 1790210903609,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789274414444,
+  "fetchedAt": 1790210833520,
   "overall": {
-   "winRate": 49,
-   "play": 22543,
-   "tier": 3
+   "winRate": 49.7,
+   "play": 4959,
+   "tier": 2
   },
   "headToHead": {
-   "play": 690,
-   "wins": 351,
-   "winRate": 50.9
+   "play": 151,
+   "wins": 71,
+   "winRate": 47
   },
   "laneAdvantage": "Mordekaiser",
   "soloKillAdvantage": "Mordekaiser",
@@ -169,26 +169,26 @@
      "Ignite"
     ],
     "winRate": 50.7,
-    "play": 726,
-    "pickRate": 84.4
-   },
-   {
-    "names": [
-     "Flash",
-     "Teleport"
-    ],
-    "winRate": 52.4,
-    "play": 82,
-    "pickRate": 9.5
+    "play": 150,
+    "pickRate": 79.8
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 50,
-    "play": 34,
-    "pickRate": 4
+    "winRate": 35.3,
+    "play": 17,
+    "pickRate": 9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 70.6,
+    "play": 17,
+    "pickRate": 9
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 51.4,
-    "play": 457,
-    "pickRate": 52.9
+    "winRate": 55.3,
+    "play": 94,
+    "pickRate": 50
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 45.6,
-    "play": 90,
-    "pickRate": 10.4
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 8.5
    }
   ],
   "starter": [
@@ -244,18 +244,18 @@
      "Health Potion",
      "Health Potion"
     ],
-    "winRate": 50.4,
-    "play": 714,
-    "pickRate": 79.6
+    "winRate": 49.7,
+    "play": 151,
+    "pickRate": 79.5
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 53.3,
-    "play": 107,
-    "pickRate": 11.9
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 10.5
    }
   ],
   "boots": [
@@ -263,17 +263,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 49.3,
-    "play": 645,
-    "pickRate": 74.6
+    "winRate": 50,
+    "play": 130,
+    "pickRate": 71
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 58,
-    "play": 131,
-    "pickRate": 15.1
+    "winRate": 50,
+    "play": 34,
+    "pickRate": 18.6
    }
   ],
   "core": [
@@ -283,18 +283,18 @@
      "Riftmaker",
      "Liandry's Torment"
     ],
-    "winRate": 57.8,
-    "play": 102,
-    "pickRate": 16.7
+    "winRate": 69.2,
+    "play": 13,
+    "pickRate": 9.9
    },
    {
     "items": [
      "Rylai's Crystal Scepter",
      "Riftmaker",
-     "Experimental Hexplate"
+     "Spirit Visage"
     ],
-    "winRate": 64.9,
-    "play": 37,
+    "winRate": 37.5,
+    "play": 8,
     "pickRate": 6.1
    },
    {
@@ -303,9 +303,9 @@
      "Riftmaker",
      "Thornmail"
     ],
-    "winRate": 54.3,
-    "play": 35,
-    "pickRate": 5.7
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 6.1
    }
   ],
   "lateOptions": [
@@ -313,49 +313,49 @@
     "items": [
      "Rylai's Crystal Scepter"
     ],
-    "winRate": 52.5,
-    "play": 726,
-    "pickRate": 83.7
+    "winRate": 48.3,
+    "play": 151,
+    "pickRate": 83
    },
    {
     "items": [
      "Riftmaker"
     ],
-    "winRate": 51,
-    "play": 623,
-    "pickRate": 71.9
+    "winRate": 45.5,
+    "play": 132,
+    "pickRate": 72.5
    },
    {
     "items": [
      "Liandry's Torment"
     ],
-    "winRate": 55.1,
-    "play": 301,
-    "pickRate": 34.7
+    "winRate": 55.8,
+    "play": 52,
+    "pickRate": 28.6
    },
    {
     "items": [
      "Thornmail"
     ],
-    "winRate": 58.8,
-    "play": 160,
-    "pickRate": 18.5
-   },
-   {
-    "items": [
-     "Spirit Visage"
-    ],
-    "winRate": 56.5,
-    "play": 138,
-    "pickRate": 15.9
+    "winRate": 58.3,
+    "play": 36,
+    "pickRate": 19.8
    },
    {
     "items": [
      "Experimental Hexplate"
     ],
-    "winRate": 56.1,
-    "play": 132,
-    "pickRate": 15.2
+    "winRate": 56.7,
+    "play": 30,
+    "pickRate": 16.5
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 15.9
    }
   ],
   "skillOrder": [
@@ -377,8 +377,8 @@
      "W",
      "W"
     ],
-    "winRate": 54.9,
-    "play": 399
+    "winRate": 48.2,
+    "play": 83
    }
   ]
  }

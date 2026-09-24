@@ -4,106 +4,106 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Skill matchup",
-   "line": "You lose if you let Garen stack Q autos into free (P) procs and trade at his empowered W timing; you win if you bait Q whiffs and force him to fight without silence up."
+   "difficulty": "Favoured lane",
+   "line": "You lose if you open Riposte before baiting his Decisive Strike; you win if you poke behind Lunge's 600 range and punish every Q cooldown."
   },
-  "thesis": "This is a 52.1% Fiora lane over 407 games because Garen's entire trade pattern depends on landing Q (Decisive Strike) to silence your W (Riposte) parry window before he commits E (Judgment) spin. If you play around his Q cooldown instead of his cooldowns in general, you flip a coin-flip lane into a read-and-punish one — the data's own tip confirms the silence-into-W-denial is the core interaction to manage.",
+  "thesis": "Garen's entire kill threat runs through Q (Decisive Strike, 8s cooldown, range 300) — it's his only gap closer and it silences you, which is the one tool that can stop your Riposte parry. Everything else he has is short-range (Judgment at 325, Courage's self-area damage), while your Lunge hits from 600, so as long as you track that one cooldown you dictate every trade. That structural gap is why Fiora sits at 56.5% over 138 games here versus a 51.5% baseline.",
   "tell": {
-   "watch": "Garen's Q (Decisive Strike) cooldown",
+   "watch": "Garen's Q cooldown",
    "theirWindow": {
-    "when": "Q is up and he's in melee range",
-    "what": "He can silence your W and immediately spin E without fear of a parry punish, so don't stand still to auto-trade here — back off a step or force him to walk up and burn Q just to close distance."
+    "when": "Garen's Q (Decisive Strike) is up",
+    "what": "Assume he can dash in and silence you on contact. Don't open with W (Riposte) here — if he saves Q for the parry window it cancels your activation and you eat the bonus damage anyway."
    },
    "yourWindow": {
-    "when": "his Q is on cooldown (post-trade or post-engage)",
-    "what": "This is when Riposte is live and safe to use. Bait an E spin or an auto with W up so you can parry, negate the damage, and get the slow plus the guaranteed riposte damage back onto him."
+    "when": "Garen's Q is on cooldown or just whiffed",
+    "what": "This is your all-in window. Double-Lunge (Q, then the free second dash within its couple-second window) into an auto, then hold W for his empowered attack — he has no silence to stop it."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "poke with Q, no all-in yet"
+    "note": "Both poke at range; watch his E spin distance"
    },
    {
     "levels": "3-5",
-    "edge": "them",
-    "note": "Q silence lands, E spin hurts"
+    "edge": "you",
+    "note": "Full combo online, double-Lunge punishes trades"
    },
    {
     "levels": "6-8",
-    "edge": "even",
-    "note": "your R threatens true-damage execute"
+    "edge": "you",
+    "note": "Blade Waltz adds a pick threat post-trade"
    },
    {
     "levels": "9-13",
-    "edge": "you",
-    "note": "Hydra/Trinity spike outduels his sustain"
+    "edge": "even",
+    "note": "His W/E scaling and item spikes catch up"
    },
    {
     "levels": "14-18",
     "edge": "you",
-    "note": "kited backline shreds his stationary DPS"
+    "note": "Hydra/Eclipse burst outpaces his flat scaling"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "91.4% pick rate at 51.3% win over 466 games — the sustained auto damage and lifesteal let you match Garen's early poke without falling behind on trades."
+    "why": "The 93.4%-pick, 51.9%-WR start over 156 games — the extra sustain compounds with Duelist's passive healing every time you land a Q poke."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "75.7% pick rate at 51.6% win — Garen's damage is almost entirely physical (Q, E, and auto-based (P)), so the flat reduction directly blunts his all-in burst."
+    "why": "53.5% WR over 114 games; flattens the physical damage from his auto-resets and Judgment spin when he does close the gap."
    },
    "core": [
     {
      "item": "Ravenous Hydra",
-     "why": "41.4%-pick core path (61.2% win over 129 games) — the active heal and cleave give you the sustain to out-trade Garen's regen and win extended fights."
+     "why": "Amplifies Duelist healing on-hit and lets you clear wave fast enough to keep threatening Lunge poke uninterrupted."
     },
     {
-     "item": "Trinity Force",
-     "why": "Follows Hydra in the highest win-rate path (61.2% over 129 games) — the damage and tenacity/movement spike let you close on and stick to Garen once he's forced to fight without Q up."
+     "item": "Eclipse",
+     "why": "The proc burst punishes exactly the all-in window when his Q is down, and the post-damage shield eats a chunk of his Judgment tick."
     },
     {
-     "item": "Death's Dance",
-     "why": "Caps the top build path — the damage-over-time conversion smooths out Garen's burst windows (Q-E-auto strings) so his spikes don't delete you before your sustain kicks in."
+     "item": "Endless Hunger",
+     "why": "Part of the 63.6%-WR path over 22 games; keeps the damage-and-sustain curve climbing into mid game."
     }
    ],
    "situational": [
     {
-     "item": "Eclipse",
-     "when": "he's building tanky and you need the burst-shield proc to survive his E spin-ins"
+     "item": "Trinity Force",
+     "when": "you want more raw damage and mobility instead of the Eclipse burst path, part of the 50%-WR route over 28 games"
     },
     {
-     "item": "Endless Hunger",
-     "when": "the game is dragging and you need the extra sustain/health scaling to keep winning extended trades"
-    },
-    {
-     "item": "Spear of Shojin",
-     "when": "you're ahead and want to shorten your Q/W/E cooldown loop to out-tempo his (P) healing"
+     "item": "Death's Dance",
+     "when": "fights are dragging into extended trades and you need the bleed-damage cushion, the 70%-WR small-sample path"
     },
     {
      "item": "Mercury's Treads",
-     "when": "his team stacks CC beyond his own kit and you need tenacity over flat armor"
+     "when": "he's running heavy Ignite or the enemy team stacks magic damage and Steelcaps stops mattering"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the lane is already won and you want to convert into split-push pressure"
     }
    ]
   },
   "runes": {
-   "keystone": "Conqueror",
-   "keystoneWhy": "62.7% of games run Conqueror (10.2% pick share) because it rewards exactly the sustained-auto, extended-trade pattern you need to out-heal Garen's own (P) regen over a long fight.",
+   "keystone": "Press the Attack",
+   "keystoneWhy": "A double-Lunge into an auto lands three hits almost instantly, which is exactly what procs Press the Attack — it turns your poke pattern into a burst window before he can react.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
     "Last Stand"
    ],
    "secondary": [
-    "Unflinching",
-    "Bone Plating"
+    "Jack Of All Trades",
+    "Biscuit Delivery"
    ],
    "shards": [
-    "Attack Speed",
     "Adaptive Force",
-    "Health Scaling"
+    "Adaptive Force",
+    "Health"
    ]
   },
   "summoners": {
@@ -111,58 +111,58 @@
     "Flash",
     "Ignite"
    ],
-   "why": "89.8% pick rate at 53.3% win — Ignite denies Garen's (P) passive regen after a trade or all-in, which is the single biggest lever you have against his sustain."
+   "why": "The 95.2%-pick, 53.1%-WR combo. Ignite is the direct answer to Perseverance — it shuts off his passive regen mid-trade and turns your all-in windows into kills instead of resets."
   },
   "playing": [
    {
-    "title": "Trade only after his Q is spent",
-    "detail": "Never initiate an auto-trade or W-parry attempt while Decisive Strike is up — he silences W and removes your only hard counter to his E spin."
+    "title": "Bait his Q before all-in",
+    "detail": "Dash into his auto range once and watch for Decisive Strike. If he throws it, his kit is empty for a beatdown — chain both Lunge dashes immediately."
    },
    {
-    "title": "Bait E before you commit",
-    "detail": "Hold W (Riposte) for his Judgment spin specifically; parrying it gives you the biggest single damage swing and slow in the exchange."
+    "title": "Never open W into his Q",
+    "detail": "If his Q is up, don't activate Riposte first — the silence from Decisive Strike cancels the parry and you take the bonus damage anyway."
    },
    {
-    "title": "Track his (P) stack timer",
-    "detail": "If he hasn't taken damage recently, his passive is close to healing him back to full — apply a Q poke to reset it before he can capitalize on the free sustain."
+    "title": "Poke to deny his passive",
+    "detail": "Perseverance only heals him when he hasn't been hit recently. Land a Q every time it's off cooldown just to keep that regen from ticking."
    },
    {
-    "title": "Use Ignite on his all-in, not on kill setups",
-    "detail": "Popping Ignite the moment he commits E denies the (P) healing that would otherwise let him win the extended trade."
+    "title": "Kite with Burst of Speed",
+    "detail": "E's attack speed window plus the move speed from landed hits and Lunges lets you stay out of his Judgment spin range while still trading."
    },
    {
-    "title": "Play around minion waves for W parries",
-    "detail": "Position so canon minion autos don't accidentally eat your Riposte window — you want it saved exclusively for his Q or E."
+    "title": "Full-combo from level 3",
+    "detail": "Once Q, W, and E are all up, your double-Lunge poke plus Duelist healing outpaces the short-range damage from his Judgment."
    },
    {
-    "title": "Look for R execute post-6",
-    "detail": "Once you hit level 6, any all-in where he drops below roughly a third HP should be closed out with Grand Challenge's true damage rather than extending the trade."
+    "title": "Save R for isolated picks",
+    "detail": "Blade Waltz deals less on repeated hits to the same target, so use its 110-130s cooldown to burst him down in one clean pass, not to extend an already-losing fight."
    },
    {
-    "title": "Kite in extended fights post-9",
-    "detail": "Once Hydra/Trinity come online, use E (Bladework) dashes to reposition around his E spin radius instead of standing still to auto-trade."
+    "title": "Respect his execute past level 6",
+    "detail": "Demacian Justice drops to a 20s cooldown at rank 3 and executes off missing health — don't sit at low HP once he has ultimate up."
    }
   ],
-  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch; the trade-pattern and cooldown-tracking reasoning is my own tactical read on top of that data."
+  "patchCaveat": "The item paths, rune pages, boots, summoners, and every win-rate or sample number above are pulled directly from measured Fiora-vs-Garen games on the current patch (16.18.1); the trade timing and mechanical reasoning are my own read of the ability kits, not measured data."
  },
- "generatedAt": 1789272224755,
- "patch": "16.18.1",
+ "generatedAt": 1790211449477,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789272188430,
+  "fetchedAt": 1790211374851,
   "overall": {
-   "winRate": 49.4,
-   "play": 16247,
-   "tier": 4
+   "winRate": 51.5,
+   "play": 5743,
+   "tier": 1
   },
   "headToHead": {
-   "play": 407,
-   "wins": 212,
-   "winRate": 52.1
+   "play": 138,
+   "wins": 78,
+   "winRate": 56.5
   },
-  "laneAdvantage": "EVEN",
+  "laneAdvantage": "Fiora",
   "soloKillAdvantage": "Fiora",
   "playStyle": "aggressive",
   "opponentTip": "Do not let Garen activate his (P) by constantly dealing damage with [Q]. Be careful as Garen’s (Q) has silence, preventing you from using [W].",
@@ -172,18 +172,18 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 53.3,
-    "play": 448,
-    "pickRate": 89.8
+    "winRate": 53.1,
+    "play": 160,
+    "pickRate": 95.2
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 50,
-    "play": 34,
-    "pickRate": 6.8
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 3
    },
    {
     "names": [
@@ -191,33 +191,11 @@
      "Flash"
     ],
     "winRate": 50,
-    "play": 8,
-    "pickRate": 1.6
+    "play": 2,
+    "pickRate": 1.2
    }
   ],
   "runes": [
-   {
-    "primaryTree": "Precision",
-    "primary": [
-     "Conqueror",
-     "Triumph",
-     "Legend: Alacrity",
-     "Last Stand"
-    ],
-    "secondaryTree": "Resolve",
-    "secondary": [
-     "Unflinching",
-     "Bone Plating"
-    ],
-    "shards": [
-     "Attack Speed",
-     "Adaptive Force",
-     "Health Scaling"
-    ],
-    "winRate": 62.7,
-    "play": 51,
-    "pickRate": 10.2
-   },
    {
     "primaryTree": "Precision",
     "primary": [
@@ -237,8 +215,30 @@
      "Health"
     ],
     "winRate": 50,
-    "play": 50,
-    "pickRate": 10
+    "play": 18,
+    "pickRate": 10.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 6
    }
   ],
   "starter": [
@@ -247,18 +247,19 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 51.3,
-    "play": 466,
-    "pickRate": 91.4
+    "winRate": 51.9,
+    "play": 156,
+    "pickRate": 93.4
    },
    {
     "items": [
-     "Doran's Shield",
+     "Long Sword",
+     "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 68.2,
-    "play": 22,
-    "pickRate": 4.3
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 3
    }
   ],
   "boots": [
@@ -266,16 +267,16 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 51.6,
-    "play": 351,
-    "pickRate": 75.7
+    "winRate": 53.5,
+    "play": 114,
+    "pickRate": 75
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 57.7,
-    "play": 52,
+    "winRate": 52.9,
+    "play": 17,
     "pickRate": 11.2
    }
   ],
@@ -286,19 +287,9 @@
      "Trinity Force",
      "Death's Dance"
     ],
-    "winRate": 61.2,
-    "play": 129,
-    "pickRate": 41.4
-   },
-   {
-    "items": [
-     "Ravenous Hydra",
-     "Eclipse",
-     "Death's Dance"
-    ],
-    "winRate": 48.8,
-    "play": 43,
-    "pickRate": 13.8
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 29.5
    },
    {
     "items": [
@@ -306,9 +297,19 @@
      "Eclipse",
      "Endless Hunger"
     ],
-    "winRate": 50,
-    "play": 28,
-    "pickRate": 9
+    "winRate": 63.6,
+    "play": 22,
+    "pickRate": 23.2
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 70,
+    "play": 10,
+    "pickRate": 10.5
    }
   ],
   "lateOptions": [
@@ -316,49 +317,49 @@
     "items": [
      "Ravenous Hydra"
     ],
-    "winRate": 52.7,
-    "play": 486,
-    "pickRate": 96.6
+    "winRate": 55.2,
+    "play": 163,
+    "pickRate": 97.6
    },
    {
     "items": [
      "Trinity Force"
     ],
-    "winRate": 55.8,
-    "play": 294,
-    "pickRate": 58.5
+    "winRate": 50,
+    "play": 80,
+    "pickRate": 47.9
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 57.4,
-    "play": 244,
-    "pickRate": 48.5
+    "winRate": 58.8,
+    "play": 68,
+    "pickRate": 40.7
    },
    {
     "items": [
      "Eclipse"
     ],
-    "winRate": 48.8,
-    "play": 121,
-    "pickRate": 24.1
+    "winRate": 64.3,
+    "play": 56,
+    "pickRate": 33.5
    },
    {
     "items": [
      "Endless Hunger"
     ],
-    "winRate": 54.5,
-    "play": 101,
-    "pickRate": 20.1
+    "winRate": 64.9,
+    "play": 37,
+    "pickRate": 22.2
    },
    {
     "items": [
-     "Spear of Shojin"
+     "Hullbreaker"
     ],
-    "winRate": 55.9,
-    "play": 68,
-    "pickRate": 13.5
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 8.4
    }
   ],
   "skillOrder": [
@@ -380,8 +381,8 @@
      "W",
      "W"
     ],
-    "winRate": 54,
-    "play": 224
+    "winRate": 56.7,
+    "play": 67
    }
   ]
  }

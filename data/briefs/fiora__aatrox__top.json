@@ -4,102 +4,102 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Even lane",
-   "line": "You lose if Aatrox chains all 3 Q stacks into a knockup before level 6; you win every trade you take on a marked vital with Riposte held in reserve."
+   "difficulty": "Favoured skirmish",
+   "line": "You lose if you walk into Infernal Chains range and eat the drag-back for double damage; you win if you bait Umbral Dash (E) before committing Blade Waltz or an all-in."
   },
-  "thesis": "This matchup is a resource-timing duel, not a stat check: Aatrox's all-in depends on landing a clean 3-stack Darkin Blade chain for the edge knockup, and Fiora's answer is holding Riposte to eat that exact hit while her passive vitals dictate where she should even be trading. The 51.8% Fiora win rate over 519 games and EVEN lane/solo-kill grading both say neither side is structurally ahead — the game is won by whoever plays their cooldown windows better.",
+  "thesis": "Riposte (W) is a hard answer to Aatrox's Deathbringer Stance empowered auto, but he has a direct out: Umbral Dash (E) lets him dash away rather than walk into your parry, which is exactly why OP.GG flags 'Aatrox will use E to dodge Riposte.' Neither tool auto-wins the exchange, so the matchup is decided by whoever burns the other's dash or parry first — matching the even solo-kill rate underneath Fiora's stronger 56.3% overall win rate.",
   "tell": {
-   "watch": "Aatrox's E (Umbral Dash) cooldown",
+   "watch": "Deathbringer Stance proc glow",
    "theirWindow": {
-    "when": "Aatrox lands all 3 Q stacks in a row",
-    "what": "The third Darkin Blade hit knocks up on the outer edge and chains into empowered Deathbringer's Stance autos plus W (Infernal Chains) pull for a full combo. If you see him land Q1 clean and immediately reposition for Q2, disengage or pre-commit Riposte to eat the knockup rather than trading through it."
+    "when": "Passive glow lit and Infernal Chains ready",
+    "what": "He'll hook W (Infernal Chains, 825 range) to close distance or punish a dash, then land the glowing empowered auto for bonus magic damage plus a heal off your max HP. Don't stand still when he starts glowing — sidestep the chain's pull zone so you don't get dragged in and hit twice."
    },
    "yourWindow": {
-    "when": "vital marked and Riposte (W) is up",
-    "what": "Lunge (Q) onto the marked vital for the bonus true damage and the E/W cooldown refund, then immediately fire E (Bladework) for two empowered autos before he can reset with Umbral Dash. This is your highest damage-per-second window in the entire lane."
+    "when": "His Umbral Dash (E) or Infernal Chains (W) is down",
+    "what": "Without E to reposition or W to threaten a hook, Aatrox has no way to disengage or extend. Chain both Lunge (Q) casts into him and pop Burst of Speed (E) for the attack speed and move speed stacks — he cannot answer your damage output in that window."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Neither combo is online yet"
+    "note": "Riposte parry threat checks his early Q aggression"
    },
    {
     "levels": "3-5",
-    "edge": "them",
-    "note": "E unlocks his Q3-knockup all-in"
+    "edge": "you",
+    "note": "Burst of Speed online, double-Lunge trades win"
    },
    {
     "levels": "6-8",
-    "edge": "even",
-    "note": "Both ultimates land, spikes cancel out"
+    "edge": "them",
+    "note": "World Ender all-in spike, respect the cooldown"
    },
    {
-    "levels": "9-13",
+    "levels": "9-11",
     "edge": "you",
-    "note": "Hydra/Trinity burst outpaces his scaling"
+    "note": "Ravenous Hydra online, sustain and wave power"
    },
    {
-    "levels": "14-18",
-    "edge": "even",
-    "note": "Stacking Aatrox matches your duel resets"
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Trinity Force/Death's Dance close out duels"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "The dominant start at 51.6% over 607 games (93.1% pick) — the extra sustain and AD let you take the level 1-2 trades before his E unlocks without needing to disengage."
+    "why": "57.3% win rate over 227 games and the dominant 92.3% pick — the AD and sustain fuel the Q-into-Riposte trade pattern from level 1."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "Best-performing boots here at 54.2% over 439 games (79.2% pick); Aatrox's damage is almost entirely auto-attacks and Darkin Blade physical hits, so flat reduction blunts every stacked Q chain."
+    "why": "54.3% win rate over 164 games and 75.2% pick — Aatrox's Q swings and empowered autos are all physical damage, so flat armor reduction outvalues tenacity here."
    },
    "core": [
     {
      "item": "Ravenous Hydra",
-     "why": "First item in the highest-winrate path (61.6% over 146 games); the active lets you cleave through his summoned Sunder minions and confirm a vital reset mid-trade."
+     "why": "First item in the 71.4% win-rate, 41.2% pick path — sustain and wave clear to survive the level 6-8 World Ender window."
     },
     {
      "item": "Trinity Force",
-     "why": "Second in the same 44.2%-pick path; the movement speed and empowered-auto burst let you land E's payload before he can Umbral Dash away."
+     "why": "Second in the same 71.4% path — the damage spike lets you win extended trades once his Umbral Dash is on cooldown."
     },
     {
      "item": "Death's Dance",
-     "why": "Closes the 61.6% WR path; damage-over-time conversion keeps you alive through his Deathbringer's Stance-empowered counter-hit after your all-in."
+     "why": "Closes the highest win-rate path (71.4%, 49 games) — durability against his Deathbringer Stance burst if he lands it anyway."
     }
    ],
    "situational": [
     {
-     "item": "Eclipse",
-     "when": "you are ahead early and want a faster burst spike instead of the full Hydra path"
-    },
-    {
-     "item": "Endless Hunger",
-     "when": "he is shoving you off wave with Q poke and you need the sustain/wave-clear tool"
-    },
-    {
      "item": "Executioner's Calling",
-     "when": "his R (World Ender) sustain or Deathbringer's Stance healing is winning extended fights"
+     "when": "his passive, Umbral Dash, and World Ender healing is stabilizing him through your trades"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you want an earlier burst spike to force a kill before he hits level 6"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the game turns into a side-lane split-push standoff"
     }
    ]
   },
   "runes": {
-   "keystone": "Press the Attack",
-   "keystoneWhy": "The 59.6% WR page outperforms the Conqueror page (52%) here because PTA's burst amp rewards your fast Q-vital into E-empowered-auto combo, ending the trade before he can proc Deathbringer's Stance back — sustained fights are where his healing catches up, so you want to win fast, not long.",
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking AD and heal rewards the double-Lunge auto-attack trade pattern, and this page's 53.8% win rate (208-game sample) edges out the Press the Attack page; Bone Plating in Resolve blunts the burst from his back-to-back Q swings and Infernal Chains follow-up.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
     "Last Stand"
    ],
    "secondary": [
-    "Jack Of All Trades",
-    "Biscuit Delivery"
+    "Unflinching",
+    "Bone Plating"
    ],
    "shards": [
+    "Attack Speed",
     "Adaptive Force",
-    "Adaptive Force",
-    "Health"
+    "Health Scaling"
    ]
   },
   "summoners": {
@@ -107,58 +107,58 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Flash+Ignite is run in 93.6% of games at 52.1% WR; Ignite is the key tech here since it directly cuts the healing from his R (World Ender) and Deathbringer's Stance during your level 6+ all-in, denying the exact sustain that lets him win extended trades."
+   "why": "57.5% win rate at 92.8% pick rate — Ignite cuts through the healing stacked in his passive, Umbral Dash, and World Ender, letting you finish all-ins before he stabilizes."
   },
   "playing": [
    {
-    "title": "Track your passive vitals constantly",
-    "detail": "Fiora's passive marks four vitals on Aatrox; only commit your Q dash to a marked vital, since hitting it grants bonus true damage and refunds W/E cooldowns for the follow-up."
+    "title": "Bait Umbral Dash (E) first",
+    "detail": "He'll dash away rather than eat a Riposte parry. Poke with Lunge (Q) until you see the dash spent before committing to Blade Waltz or a full all-in."
    },
    {
-    "title": "Hold Riposte for his Q3 or W",
-    "detail": "Don't burn W (Riposte) early to poke — save it to parry the edge-hit knockup on his third Darkin Blade stack or the Infernal Chains pull, both of which start his real combo."
+    "title": "Save Riposte for the glow",
+    "detail": "Time W specifically for his Deathbringer Stance empowered auto — parrying it removes both the bonus magic damage and the heal. Don't waste the parry on a normal auto."
    },
    {
-    "title": "Respect level 3-5 all-in windows",
-    "detail": "Once he has E (Umbral Dash), he can chain Q stacks and dash to close distance if you kite; play from max Q-Lunge range and don't extend past your minion wave in this window."
+    "title": "Count his Darkin Blade swings",
+    "detail": "Aatrox's Q hits up to three times with a different area each swing. Track which swing he's on before you commit to a trade in his effective range."
    },
    {
-    "title": "Punish his used E and Q charges",
-    "detail": "After he burns Umbral Dash to engage or his three Q charges are on cooldown, he loses both his gap-close and his knockup — this is your safest window to Lunge in for a vital-marked trade."
+    "title": "Chain both Lunge casts",
+    "detail": "Q can be recast for free within a couple seconds of the first — always spend both charges in one trade window to stack Duelist healing."
    },
    {
-    "title": "All-in on cooldown-down R at level 6",
-    "detail": "Fiora's R (Grand Challenge) reveals all vitals and deals true damage plus a heal; time your all-in for when his R (World Ender) is down so his sustain can't offset the true damage."
+    "title": "Play outside 825 range",
+    "detail": "Infernal Chains reaches 825 range. Stay outside it, or be ready to walk out of the impact zone immediately so you don't get dragged in and hit a second time."
    },
    {
-    "title": "Kite with E's movement speed, don't stand and auto",
-    "detail": "E (Bladework) grants bonus movement speed on cast — use it to walk-and-auto around his slower melee range rather than trading auto-for-auto, which favors his Deathbringer's Stance procs."
+    "title": "Respect the level 6 all-in",
+    "detail": "World Ender comes online at 6 on a 120-second cooldown and grants AD, healing, and move speed. Back off from extended trades the moment he hits that level."
    },
    {
-    "title": "Use Ignite to close out all-ins, not to open them",
-    "detail": "Save Ignite for the moment he tries to sustain back through Deathbringer's Stance or R healing during your level 6+ engage, rather than flaring it at the start of the trade."
+    "title": "Ignite through his sustain",
+    "detail": "Once you commit to a kill, burn Ignite immediately — it cuts through the healing layered across his passive, Umbral Dash, and ultimate."
    }
   ],
-  "patchCaveat": "Win rates, pick rates, and every item/rune/summoner listed here are measured from live OP.GG games on the current patch (Fiora 49.4% overall over 16,247 games; 51.8% vs Aatrox over 519 games); the mechanical reasoning, timings, and trade patterns explaining those numbers are my own analysis."
+  "patchCaveat": "Build order, rune pages, and win rates here are measured from live games on the current patch (208-game sample, 56.3% Fiora win rate); the mechanical reasoning and trade timing are our own read of the kit."
  },
- "generatedAt": 1789272942765,
- "patch": "16.18.1",
+ "generatedAt": 1790211959387,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789272851265,
+  "fetchedAt": 1790211874792,
   "overall": {
-   "winRate": 49.4,
-   "play": 16247,
-   "tier": 4
+   "winRate": 51.5,
+   "play": 5743,
+   "tier": 1
   },
   "headToHead": {
-   "play": 519,
-   "wins": 269,
-   "winRate": 51.8
+   "play": 208,
+   "wins": 117,
+   "winRate": 56.3
   },
-  "laneAdvantage": "EVEN",
+  "laneAdvantage": "Fiora",
   "soloKillAdvantage": "EVEN",
   "playStyle": "even",
   "opponentTip": "Keep in mind that Aatrox will use (E) to dodge [W]. Always keep Aatrox’s range in mind.",
@@ -168,17 +168,17 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 52.1,
-    "play": 584,
-    "pickRate": 93.6
+    "winRate": 57.5,
+    "play": 219,
+    "pickRate": 92.8
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 34.5,
-    "play": 29,
+    "winRate": 81.8,
+    "play": 11,
     "pickRate": 4.7
    },
    {
@@ -186,9 +186,9 @@
      "Exhaust",
      "Flash"
     ],
-    "winRate": 80,
-    "play": 5,
-    "pickRate": 0.8
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 1.7
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health"
     ],
-    "winRate": 59.6,
-    "play": 89,
-    "pickRate": 14.3
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 11.9
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 52,
-    "play": 75,
-    "pickRate": 12.1
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 11
    }
   ],
   "starter": [
@@ -243,18 +243,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 51.6,
-    "play": 607,
-    "pickRate": 93.1
+    "winRate": 57.3,
+    "play": 227,
+    "pickRate": 92.3
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 47.6,
-    "play": 21,
-    "pickRate": 3.2
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 4.9
    }
   ],
   "boots": [
@@ -262,17 +262,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 54.2,
-    "play": 439,
-    "pickRate": 79.2
+    "winRate": 54.3,
+    "play": 164,
+    "pickRate": 75.2
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 53.1,
-    "play": 64,
-    "pickRate": 11.6
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 11.5
    }
   ],
   "core": [
@@ -282,9 +282,19 @@
      "Trinity Force",
      "Death's Dance"
     ],
-    "winRate": 61.6,
-    "play": 146,
-    "pickRate": 44.2
+    "winRate": 71.4,
+    "play": 49,
+    "pickRate": 41.2
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Hullbreaker"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 16
    },
    {
     "items": [
@@ -292,19 +302,9 @@
      "Eclipse",
      "Death's Dance"
     ],
-    "winRate": 45.7,
-    "play": 35,
-    "pickRate": 10.6
-   },
-   {
-    "items": [
-     "Ravenous Hydra",
-     "Eclipse",
-     "Endless Hunger"
-    ],
-    "winRate": 62.5,
-    "play": 24,
-    "pickRate": 7.3
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 8.4
    }
   ],
   "lateOptions": [
@@ -312,49 +312,49 @@
     "items": [
      "Ravenous Hydra"
     ],
-    "winRate": 51.8,
-    "play": 591,
-    "pickRate": 93.8
+    "winRate": 58.3,
+    "play": 235,
+    "pickRate": 97.5
    },
    {
     "items": [
      "Trinity Force"
     ],
-    "winRate": 54.5,
-    "play": 398,
-    "pickRate": 63.2
+    "winRate": 59.7,
+    "play": 149,
+    "pickRate": 61.8
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 58.9,
-    "play": 231,
-    "pickRate": 36.7
+    "winRate": 65.9,
+    "play": 91,
+    "pickRate": 37.8
    },
    {
     "items": [
      "Executioner's Calling"
     ],
-    "winRate": 47.4,
-    "play": 156,
-    "pickRate": 24.8
+    "winRate": 50,
+    "play": 58,
+    "pickRate": 24.1
    },
    {
     "items": [
      "Eclipse"
     ],
-    "winRate": 53.3,
-    "play": 105,
-    "pickRate": 16.7
+    "winRate": 60.5,
+    "play": 38,
+    "pickRate": 15.8
    },
    {
     "items": [
      "Endless Hunger"
     ],
-    "winRate": 59.4,
-    "play": 69,
-    "pickRate": 11
+    "winRate": 71.4,
+    "play": 28,
+    "pickRate": 11.6
    }
   ],
   "skillOrder": [
@@ -376,8 +376,8 @@
      "W",
      "W"
     ],
-    "winRate": 54.9,
-    "play": 306
+    "winRate": 68.1,
+    "play": 113
    }
   ]
  }

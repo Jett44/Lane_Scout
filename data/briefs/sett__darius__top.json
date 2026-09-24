@@ -4,96 +4,95 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Even skill matchup",
-   "line": "You lose if you eat a clean E (Apprehend) into full Q-W-R before level 6 without Grit charged; you win by trading only on empowered autos and punishing every Apprehend whiff into a Stridebreaker-powered late game."
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into Darius's Decimate while carrying heavy Hemorrhage stacks; you win if you save Facebreaker for a sandwich or step in during his Q windup."
   },
-  "thesis": "The numbers back an even lane — 50.7% Sett winrate over 1090 games, even lane and solo-kill advantage — because both champions are built around the same resource-gate: Darius needs autos landing between abilities to keep Hemorrhage stacked, and Sett needs Pit Grit charged before a trade pays off. Whoever trades on the other's terms loses the exchange. Sett's structural edge is that his empowered hits scale off max health and his kit gets tankier through Stridebreaker into Black Cleaver, so even trades late become Sett trades.",
+  "thesis": "The lane hinges on cooldown windows, not raw stats: Darius's Apprehend is his only hard engage/peel tool and sits on a long 26-16s cooldown, while your Facebreaker only stuns when he's caught between two sides and merely slows him 1v1. Both kits punish overextension with true damage — his R scales off your bleed stacks, your W hits true damage in the center — which is exactly why this lands at a near-coinflip 50.5% over 210 games.",
   "tell": {
    "watch": "Darius's Hemorrhage stack count",
    "theirWindow": {
-    "when": "When his E (Apprehend) actually connects",
-    "what": "A landed Apprehend chains straight into Q's slow and a true-damage W auto with no way for you to disengage — if you feel the pull land, trade back immediately with your own empowered auto rather than trying to walk away, since he resets to full combo faster than you can kite at these levels."
+    "when": "Darius stacks 3+ bleed on you",
+    "what": "Back off from extended trading here: at 5 stacks he enrages for bonus attack damage, and his R (Noxian Guillotine) deals more true damage the more stacks you're carrying."
    },
    "yourWindow": {
-    "when": "After Darius's E (Apprehend) whiffs",
-    "what": "Apprehend only pulls on its outer edge and leaves him with no stick tool for several seconds afterward — close the gap, land Q (Knuckle Down)'s alternating hits to bait his Q, then dump your charged Grit auto or E (Facebreaker) before he can reset."
+    "when": "Darius mid-animation on Q (Decimate)",
+    "what": "He's committed to the windup and can't cast E (Apprehend) to pull you out mid-swing — step in and land Q (Knuckle Down) or E (Facebreaker) for a free hit."
    }
   },
   "powerCurve": [
    {
-    "levels": "1-2",
-    "edge": "even",
-    "note": "Neither combo is online, poke trades only"
-   },
-   {
-    "levels": "3-5",
+    "levels": "1-3",
     "edge": "them",
-    "note": "Full Q-E-W Darius combo outpaces uncharged Grit"
+    "note": "Blade-edge Decimate poke outpaces early Sett"
    },
    {
-    "levels": "6-8",
+    "levels": "4-6",
     "edge": "even",
-    "note": "Both ults live, all-ins now mutual"
+    "note": "Both ultimates online, all-ins are mutual"
    },
    {
-    "levels": "9-12",
-    "edge": "you",
-    "note": "Stridebreaker active plus tenacity swings duels"
+    "levels": "7-11",
+    "edge": "even",
+    "note": "Stridebreaker completes, trades stay roughly equal"
    },
    {
-    "levels": "13-18",
+    "levels": "12-18",
     "edge": "you",
-    "note": "Black Cleaver/Sterak's outscale his flat bleed"
+    "note": "Full build sustain and shield outscale Darius"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "Run at 84.4% pick and 52.4% winrate over 1230 games — the sustain and AD keep you even in poke exchanges before Grit is reliably capped each wave."
+    "why": "The dominant start here (49.6% win rate, 82.8% pick over 240 games); the extra AD and sustain trade evenly into Darius's Decimate poke and Hemorrhage bleed."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "74.2% pick, 51.4% winrate over 1013 games — Darius refreshes Hemorrhage through autos between ability casts, so flat reduction on his basic attack damage blunts his primary stacking tool."
+    "why": "Clear top pick (48.5% win rate, 74.2% pick over 196 games); the flat physical damage reduction blunts his autos, Crippling Strike hits, and Decimate swings."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "Gives you the Ravenous Hydra active to force a fight the instant his E (Apprehend) is down, and the attack speed feeds Q (Knuckle Down)'s alternating hits."
+     "why": "First item in the most-played path (68.5% win rate, 35.3% pick over 54 games); its slow lets you stick through Darius's Crippling Strike slow and close gaps for E (Facebreaker)."
     },
     {
      "item": "Black Cleaver",
-     "why": "60.1% winrate over 228 games on this path — the armor shred matters directly against a champion whose entire kit is physical damage."
+     "why": "Second in that same path; the armor shred and bonus health help you out-trade a Darius who's already shredding your armor with Apprehend's passive."
     },
     {
      "item": "Overlord's Bloodmail",
-     "why": "Also hits 61.5% winrate paired earlier with Sterak's — the max-health scaling and heal-on-cast keep you alive through his true-damage W autos in extended trades."
+     "why": "Completes the top build path; the bonus health directly counters Darius's true-damage Guillotine execute and scales your W (Haymaker) shield."
     }
    ],
    "situational": [
     {
      "item": "Sterak's Gage",
-     "when": "he is landing clean R (Noxian Guillotine) executes and you need the tenacity plus the shield to survive the follow-up"
+     "when": "you're ahead and need burst mitigation plus tenacity to survive his all-in"
+    },
+    {
+     "item": "Warmog's Armor",
+     "when": "he's snowballing and you need raw health to soak Guillotine's true damage"
     },
     {
      "item": "Spear of Shojin",
-     "when": "the game goes long and you want faster Grit uptime through ability haste to out-trade him in extended skirmishes"
+     "when": "the game goes long and you need cooldown reduction to loop your kit faster than his engage timers"
     },
     {
      "item": "Blade of The Ruined King",
-     "when": "he starts building health-stacking tank items and you need the percent-health shred to keep him dying to your combo"
+     "when": "he builds tanky and you need percent-health damage plus a slow to stop him disengaging"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Both listed pages run Conqueror — it converts your prolonged melee trades directly into healing, which is what closes out even fights against a champion who has no answer to sustained damage output.",
+   "keystoneWhy": "Conqueror's stacking damage and healing rewards the extended trades this lane forces, and directly offsets the healing Darius gets from landing Decimate's blade edge on you.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
     "Last Stand"
    ],
    "secondary": [
-    "Shield Bash",
+    "Unflinching",
     "Second Wind"
    ],
    "shards": [
@@ -107,56 +106,56 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Flash + Ignite is run in 95.3% of games at 51.7% winrate — Ignite offsets Darius's healing off Conqueror and Grasp-style sustain and secures kills once you land your R (The Show Stopper) slam."
+   "why": "Flash+Ignite is the standard pick here (50.2% win rate, 95.7% pick); Ignite punishes the healing he gets off Decimate's blade edge and secures kills before his Guillotine cooldown resets."
   },
   "playing": [
    {
-    "title": "Trade only at full Grit",
-    "detail": "Take Darius's Q edge or E pull damage only when it caps your Pit Grit passive — free damage that doesn't charge your empowered auto just feeds his stacking, so disengage instead of absorbing chip for nothing."
+    "title": "Track his E cooldown",
+    "detail": "Apprehend sits on 26/23.5/21/18.5/16s. Once he whiffs it or it's down, you have a long window to freely trade or all-in without fear of the pull."
    },
    {
-    "title": "Punish every Apprehend whiff",
-    "detail": "Darius's E only pulls on the outer hitbox — if it misses, he has no stick tool for several seconds. Close immediately and unload Q (Knuckle Down) into your charged Haymaker before he can reset."
+    "title": "Trade during his Q windup",
+    "detail": "Decimate has a visible wind-up before the swing lands. Step in during that animation since he can't cancel it to cast Apprehend on you."
    },
    {
-    "title": "Track the 5-stack execute threshold",
-    "detail": "Once Hemorrhage hits 5 stacks, his R (Noxian Guillotine) becomes a lethal true-damage finisher. Back off or commit E (Facebreaker) before level 6 rather than sitting at low health inside his ult range."
+    "title": "Stay on the handle side",
+    "detail": "Decimate's blade (outer edge) deals more damage than the handle. If you're forced into range, hug close to him rather than standing at the rim."
    },
    {
-    "title": "Use E while he winds up Q",
-    "detail": "Darius has to commit to Q (Decisive Strike)'s cast to get the slow and bonus edge damage — throw Facebreaker in that window to stun him before the edge hit lands, per the matchup's own engage tell."
+    "title": "Facebreaker won't stun alone",
+    "detail": "E only stuns if Darius is caught between two sides — in a straight 1v1 it just slows him. Use minions, walls, or a jungler's arrival to convert it into a real stun."
    },
    {
-    "title": "Position minions for a guaranteed E stun",
-    "detail": "Facebreaker only stuns if enemies are hit on both sides — walk Darius so a minion wave sits opposite him before you commit, otherwise it only slows."
+    "title": "Bank Grit before committing",
+    "detail": "W (Haymaker) passively stores damage you take as Grit. Absorb a hit first, then cast it so the shield and true-damage burst land at full strength."
    },
    {
-    "title": "Bank Flash for his E, not his R",
-    "detail": "Since his ult resets on takedown, surviving the initial Apprehend pull matters more than dodging the follow-up Guillotine — save Flash to escape the grab itself."
+    "title": "Respect the Guillotine leap range",
+    "detail": "From level 6 on, his R leaps 460 range and deals true damage scaled by your bleed stacks. Don't sit low HP with stacks up inside that range."
    },
    {
-    "title": "Force the fight when Stridebreaker completes",
-    "detail": "Your win rate climbs from item spikes, not levels — once Stridebreaker is up, start initiating trades yourself instead of waiting for him to commit first."
+    "title": "Use Q to close, not just to poke",
+    "detail": "Knuckle Down grants Move Speed toward champions on cast. Use that burst of speed to force the all-in before he can walk to a minion wave or his turret."
    }
   ],
-  "patchCaveat": "Build paths, runes, summoners, and all win-rate/sample figures above are measured OP.GG data from real games on the current patch; the mechanical reasoning, timings, and trade patterns are my own tactical read layered on top of that data."
+  "patchCaveat": "Build order, item win rates, boots, runes, and summoner spell rates are pulled from measured games on the current patch; the mechanical reasoning — cooldown windows, stun conditions, and trade timing — is our own read of the kit."
  },
- "generatedAt": 1789270752923,
- "patch": "16.18.1",
+ "generatedAt": 1790210749699,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789270656749,
+  "fetchedAt": 1790210652245,
   "overall": {
-   "winRate": 49.8,
-   "play": 24489,
-   "tier": 3
+   "winRate": 50.3,
+   "play": 5582,
+   "tier": 2
   },
   "headToHead": {
-   "play": 1090,
-   "wins": 553,
-   "winRate": 50.7
+   "play": 210,
+   "wins": 106,
+   "winRate": 50.5
   },
   "laneAdvantage": "EVEN",
   "soloKillAdvantage": "EVEN",
@@ -168,27 +167,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 51.7,
-    "play": 1326,
-    "pickRate": 95.3
+    "winRate": 50.2,
+    "play": 269,
+    "pickRate": 95.7
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 38.2,
-    "play": 34,
-    "pickRate": 2.4
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 2.1
    },
    {
     "names": [
-     "Flash",
-     "Ghost"
+     "Exhaust",
+     "Flash"
     ],
-    "winRate": 33.3,
-    "play": 18,
-    "pickRate": 1.3
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 1.4
    }
   ],
   "runes": [
@@ -210,9 +209,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 47.8,
-    "play": 414,
-    "pickRate": 29.5
+    "winRate": 43,
+    "play": 79,
+    "pickRate": 28.1
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +231,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 56.3,
-    "play": 174,
-    "pickRate": 12.4
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 11.7
    }
   ],
   "starter": [
@@ -243,18 +242,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 52.4,
-    "play": 1230,
-    "pickRate": 84.4
+    "winRate": 49.6,
+    "play": 240,
+    "pickRate": 82.8
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 42.1,
-    "play": 126,
-    "pickRate": 8.6
+    "winRate": 63,
+    "play": 27,
+    "pickRate": 9.3
    }
   ],
   "boots": [
@@ -262,17 +261,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 51.4,
-    "play": 1013,
+    "winRate": 48.5,
+    "play": 196,
     "pickRate": 74.2
    },
    {
     "items": [
-     "Boots of Swiftness"
+     "Mercury's Treads"
     ],
-    "winRate": 57.5,
-    "play": 214,
-    "pickRate": 15.7
+    "winRate": 62.9,
+    "play": 35,
+    "pickRate": 13.3
    }
   ],
   "core": [
@@ -282,9 +281,9 @@
      "Black Cleaver",
      "Overlord's Bloodmail"
     ],
-    "winRate": 60.1,
-    "play": 228,
-    "pickRate": 28.9
+    "winRate": 68.5,
+    "play": 54,
+    "pickRate": 35.3
    },
    {
     "items": [
@@ -292,19 +291,19 @@
      "Overlord's Bloodmail",
      "Sterak's Gage"
     ],
-    "winRate": 61.5,
-    "play": 130,
-    "pickRate": 16.5
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 13.1
    },
    {
     "items": [
      "Stridebreaker",
-     "Black Cleaver",
-     "Sterak's Gage"
+     "Overlord's Bloodmail",
+     "Warmog's Armor"
     ],
-    "winRate": 54.2,
-    "play": 48,
-    "pickRate": 6.1
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 7.8
    }
   ],
   "lateOptions": [
@@ -312,49 +311,49 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 52.8,
-    "play": 1294,
-    "pickRate": 93
+    "winRate": 54.5,
+    "play": 257,
+    "pickRate": 93.5
    },
    {
     "items": [
      "Overlord's Bloodmail"
     ],
-    "winRate": 57.1,
-    "play": 808,
-    "pickRate": 58.1
+    "winRate": 62.7,
+    "play": 169,
+    "pickRate": 61.5
    },
    {
     "items": [
      "Black Cleaver"
     ],
-    "winRate": 53.3,
-    "play": 606,
-    "pickRate": 43.5
+    "winRate": 61.4,
+    "play": 114,
+    "pickRate": 41.5
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 57,
-    "play": 421,
-    "pickRate": 30.2
+    "winRate": 60,
+    "play": 80,
+    "pickRate": 29.1
    },
    {
     "items": [
      "Spear of Shojin"
     ],
-    "winRate": 59.7,
-    "play": 159,
-    "pickRate": 11.4
+    "winRate": 54.8,
+    "play": 31,
+    "pickRate": 11.3
    },
    {
     "items": [
      "Blade of The Ruined King"
     ],
-    "winRate": 50,
-    "play": 142,
-    "pickRate": 10.2
+    "winRate": 34.6,
+    "play": 26,
+    "pickRate": 9.5
    }
   ],
   "skillOrder": [
@@ -376,8 +375,8 @@
      "E",
      "E"
     ],
-    "winRate": 56.9,
-    "play": 490
+    "winRate": 65.2,
+    "play": 89
    }
   ]
  }

@@ -4,92 +4,97 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Skill matchup",
-   "line": "You lose if you throw E (Judgment) into an unused Riposte or grind an extended duel where she stacks vitals; you win when you silence-into-spin and let Mortal Reminder shut off her sustain from level 12 on."
+   "difficulty": "Hard early",
+   "line": "You lose extended trades where Fiora parries your Q's follow-up attack and stacks her passive off your autos, but you win short all-ins started with E when her Riposte and both Lunge charges are down."
   },
-  "thesis": "This is genuinely even on paper (48.9% win rate over 401 games) but plays out as a sequencing puzzle: her W (Riposte) can block and disarm any ability she sees coming, which is exactly the OP.GG warning about not letting her block your kit. Garen's own Q (Decisive Strike) silences her, and a silenced champion cannot activate Riposte — so every real trade should open Q into E, never E first. Outside that window Fiora holds the edge in prolonged 1v1s because her passive (Duelist's Dance) stacks true damage and healing off revealed vitals, which lines up with her measured solo-kill advantage.",
+  "thesis": "Fiora's kit is built to punish the exact tool Garen leans on to trade: Riposte (W) parries the next basic attack, which is exactly what Decisive Strike's (Q) bonus-damage silence hit is, so throwing Q into an up Riposte gets it blocked for free while her Duelist passive heals her off every auto you land back. That's why Garen sits at 43.1% over 137 games with Fiora holding both the lane and solo-kill edge — the matchup is defensive until Garen's kit closes the gap with items.",
   "tell": {
-   "watch": "Her W (Riposte) cooldown/glow",
+   "watch": "Fiora's Riposte (W) cooldown",
    "theirWindow": {
-    "when": "Her W is up, unspent",
-    "what": "If you throw out a raw E (Judgment) or engage with Q first-hit exposed, she flashes W up mid-animation, blocks the tick, disarms you for about 1.3s and hits back — that disarm kills your auto-attack damage and your only sustain source for the rest of the trade. Don't commit E until you've either baited the parry on something else or already silenced her."
+    "when": "Her Riposte (W) is off cooldown",
+    "what": "Do not commit Q's empowered attack into her — she can parry it, negating the silence and bonus damage while denying your damage. Trade with E (Judgment) instead, since it's a spin, not a basic attack, and can't be parried."
    },
    "yourWindow": {
-    "when": "Your Q silence just landed",
-    "what": "Silence locks out ability activation, so Fiora physically cannot Riposte while it's up. Land Q, then immediately chain into E (Judgment) — this is the one window where you get to spin freely and stack Perseverance regen without fear of the parry."
+    "when": "Her Lunge (Q) and Riposte (W) are both down",
+    "what": "All-in immediately: open with E for the AoE tick, then Q for the silence and speed burst. With Riposte down she has no way to block the attack, and with both Lunge charges spent she has no gap-close to escape or reset the fight."
    }
   },
   "powerCurve": [
    {
-    "levels": "1-3",
-    "edge": "even",
-    "note": "Poke phase, neither all-in threat online"
-   },
-   {
-    "levels": "4-6",
+    "levels": "1-2",
     "edge": "them",
-    "note": "W (Riposte) and dash punish extended fights"
+    "note": "Lunge outranges your kit at 600 vs 300-325"
    },
    {
-    "levels": "7-11",
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Riposte CD drops to 8s, punishes your Q"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Blade Waltz burst window, solo-kill risk peaks"
+   },
+   {
+    "levels": "11-15",
     "edge": "even",
-    "note": "Your R offsets her ult's vital snowball"
+    "note": "Stridebreaker and Phantom Dancer stabilize trades"
    },
    {
-    "levels": "12-18",
-    "edge": "you",
-    "note": "Mortal Reminder guts her heal loop"
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Mortal Reminder cuts her passive sustain hard"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield",
-    "why": "Runs in 55.7% of games at 51.3% win rate — the extra sustain and damage reduction on the first hit of every attack blunts Fiora's early auto-reset poke while you look for silence-into-spin windows."
+    "item": "Doran's Blade",
+    "why": "Measured win rate on Doran's Blade (47.2% over 53 games) beats Doran's Shield (42.1% over 95 games) in this matchup despite lower pick rate — the extra auto damage helps you actually threaten her during your short trade windows instead of just surviving her poke."
    },
    "boots": {
     "item": "Berserker's Greaves",
-    "why": "The default 71% pick — the attack speed feeds Stridebreaker procs and lets you land more autos inside your silence window before she can reset with W."
+    "why": "Highest measured win rate (47% over 117 games) and pick rate (72.2%); the attack speed feeds your auto-reset trades once you land E and gets you back into range faster after her Lunge poke."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "Closes the gap on her dash-heavy kit and the Ravenous Hydra slow keeps you attached through her Q (Lunge) so she can't kite the spin."
+     "why": "The 47.1% win rate build path starts here; the on-hit slow lets you actually stick to Fiora after she Lunges away, which she can otherwise do freely twice per cooldown cycle."
     },
     {
      "item": "Phantom Dancer",
-     "why": "58.6% win rate on this exact path over 87 games — the attack speed and slow-resist keep your auto uptime high during her Riposte-disarm window."
+     "why": "Second item in the highest-performing measured path (47.1% over 34 games); attack speed compounds your short-trade damage before she can stack Duelist back to even."
     },
     {
      "item": "Mortal Reminder",
-     "why": "Grievous Wounds directly counters the healing from her passive (Duelist's Dance) vitals and her ultimate — without it she out-sustains every extended duel."
+     "why": "Closes the build in the top-performing path; grievous wounds directly guts her passive healing, which is the stat that lets her win extended trades against you."
     }
    ],
    "situational": [
     {
-     "item": "Youmuu's Ghostblade",
-     "when": "you're ahead and want more active mobility to chase down her Q (Lunge) resets instead of a third defensive item"
+     "item": "executioner's calling",
+     "when": "she is snowballing off her passive sustain early and you need grievous wounds before your third item finishes"
     },
     {
-     "item": "Dead Man's Plate",
-     "when": "she's snowballing off vitals procs and you need raw HP and a gap-closer to even survive to your own combo"
+     "item": "youmuu's ghostblade",
+     "when": "you're ahead and need more burst to force a kill window before her Blade Waltz comes off cooldown"
     },
     {
-     "item": "Executioner's Calling",
-     "when": "you need cheap Grievous Wounds online before your third full item because she's already stacking vital procs on you"
+     "item": "dead man's plate",
+     "when": "you're behind and need more durability and wave-clear to survive to your power spike"
     }
    ]
   },
   "runes": {
-   "keystone": "Conqueror",
-   "keystoneWhy": "Stacks over sustained autos and heals for a percentage of the damage dealt, which matches how this lane is actually won — grinding out extended trades once your Mortal Reminder is up, not one burst window.",
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "This page measures 61.5% win rate over its sample, far ahead of the more popular Conqueror page's 43.4% in this exact matchup — Second Wind in the secondary tree directly answers Fiora's early poke damage, which is the main thing dragging Garen's overall win rate down here.",
    "primary": [
-    "Triumph",
-    "Legend: Haste",
-    "Last Stand"
+    "Axiom Arcanist",
+    "Celerity",
+    "Gathering Storm"
    ],
    "secondary": [
-    "Axiom Arcanist",
-    "Celerity"
+    "Second Wind",
+    "Overgrowth"
    ],
    "shards": [
     "Adaptive Force",
@@ -102,54 +107,54 @@
     "Flash",
     "Ignite"
    ],
-   "why": "95.5% pick rate for a reason — Ignite's Grievous Wounds stacks with your later Mortal Reminder to shut down her vital-proc healing, and it converts a landed Q-silence-into-E trade into an actual kill threat instead of just a shove."
+   "why": "Run in 94.4% of games at 45% win rate; Ignite's damage-over-time seals kills after your Q silence and E burst, and pairs with Demacian Justice (R) for confirmed picks once she overextends on a Lunge."
   },
   "playing": [
    {
-    "title": "Silence before you spin",
-    "detail": "Never open a trade with a raw E (Judgment). Land Q (Decisive Strike) first — the silence prevents her from activating W (Riposte) during your spin, so this is the only sequence that guarantees your damage lands."
+    "title": "Open trades with E, not Q",
+    "detail": "Judgment (E) is a spin, not a basic attack, so it can't be parried by Riposte. Land E first, then decide whether to commit Q's empowered attack based on whether her Riposte is up."
    },
    {
-    "title": "Punish a whiffed Riposte immediately",
-    "detail": "Once she's used W on a skillshot bait or a minion, it's down for roughly 20+ seconds early — that's your green light to E freely and all-in."
+    "title": "Track her Riposte cooldown",
+    "detail": "Riposte drops to as low as 6s cooldown at max rank, faster than your own Q's flat 8s. If you can't remember the last time she used it, assume it's up and don't feed your Q's follow-up attack into it."
    },
    {
-    "title": "Disengage before a vitals proc",
-    "detail": "If she's landed enough hits to reveal a vital spot, back off before her next auto or ability lines up on it — that hit gives her true damage, a heal, and cooldown refunds that snowball the fight."
+    "title": "Punish both Lunge charges spent",
+    "detail": "Lunge can be used twice within a couple seconds for free, but after that she has no gap-close for 16 down to 8 seconds depending on rank. Wait for both dashes to be burned before you commit to an all-in."
    },
    {
-    "title": "Keep pre-6 trades short",
-    "detail": "Her solo-kill advantage comes from winning extended fights, not short pokes. Trade with Q-auto-E once, then reset rather than channeling a full fight before level 6."
+    "title": "Keep trades short",
+    "detail": "Duelist stacks every time Fiora lands a hit on you, healing her more the longer the fight runs. Two-hit trades (E into Q) beat prolonged auto-attack exchanges where her sustain catches up."
    },
    {
-    "title": "Rush the Mortal Reminder path",
-    "detail": "Follow Stridebreaker into Phantom Dancer into Mortal Reminder (58.6% win rate over this exact order) — her sustained duel identity collapses once Grievous Wounds is online."
+    "title": "Watch for Burst of Speed before all-ins",
+    "detail": "Once she activates Burst of Speed (E), every hit or Lunge she lands during it stacks extra move speed, letting her chase or kite freely. If she's already used it, she has no speed tool left to escape your engage."
    },
    {
-    "title": "Save R for a locked animation",
-    "detail": "Demacian Justice can't be parried once cast, but she can still disengage before it — throw it when she's mid-Riposte or mid-ultimate and can't dash away, not on cooldown as a poke."
+    "title": "Respect Blade Waltz from level 6",
+    "detail": "Her ultimate dashes to hit you from 400 range with the cooldown as low as 130s at rank 1; this is the level range where the data shows her solo-kill advantage peaks, so don't overextend past your wave once she hits 6."
    }
   ],
-  "patchCaveat": "The build, runes, summoners, and win rates above are pulled directly from measured Garen vs Fiora games on the current patch (401 games, 48.9% win rate); the sequencing and timing reasoning — silence-locks-Riposte, vitals windows, trade length — is my own read of the kits, not part of the OP.GG data."
+  "patchCaveat": "Build order, rune pages, and every win-rate or pick-rate figure above are pulled directly from measured games on the current patch; the mechanical reasoning for why those numbers land where they do — the Riposte interaction, the trade timing, the cooldown windows — is our own tactical read, not something OP.GG reports."
  },
- "generatedAt": 1789271858732,
- "patch": "16.18.1",
+ "generatedAt": 1790211201170,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789271733852,
+  "fetchedAt": 1790211089446,
   "overall": {
-   "winRate": 50.9,
-   "play": 30313,
-   "tier": 2
+   "winRate": 50.4,
+   "play": 6960,
+   "tier": 1
   },
   "headToHead": {
-   "play": 401,
-   "wins": 196,
-   "winRate": 48.9
+   "play": 137,
+   "wins": 59,
+   "winRate": 43.1
   },
-  "laneAdvantage": "EVEN",
+  "laneAdvantage": "Fiora",
   "soloKillAdvantage": "Fiora",
   "playStyle": "defensive",
   "opponentTip": "Do not let Fiora block your abilities with her Riposte(W). Be careful of her (P) while using your skills to deal damage whenever they come off cooldown.",
@@ -159,27 +164,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 47.1,
-    "play": 471,
-    "pickRate": 95.5
+    "winRate": 45,
+    "play": 151,
+    "pickRate": 94.4
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 46.2,
-    "play": 13,
-    "pickRate": 2.6
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 3.8
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 50,
-    "play": 4,
-    "pickRate": 0.8
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 1.3
    }
   ],
   "runes": [
@@ -201,9 +206,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 48.5,
-    "play": 200,
-    "pickRate": 40.1
+    "winRate": 43.4,
+    "play": 53,
+    "pickRate": 33.1
    },
    {
     "primaryTree": "Sorcery",
@@ -223,9 +228,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 53.6,
-    "play": 84,
-    "pickRate": 16.8
+    "winRate": 61.5,
+    "play": 26,
+    "pickRate": 16.3
    }
   ],
   "starter": [
@@ -234,18 +239,18 @@
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 51.3,
-    "play": 279,
-    "pickRate": 55.7
+    "winRate": 42.1,
+    "play": 95,
+    "pickRate": 57.9
    },
    {
     "items": [
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 43.3,
-    "play": 157,
-    "pickRate": 31.3
+    "winRate": 47.2,
+    "play": 53,
+    "pickRate": 32.3
    }
   ],
   "boots": [
@@ -253,17 +258,17 @@
     "items": [
      "Berserker's Greaves"
     ],
-    "winRate": 48.1,
-    "play": 345,
-    "pickRate": 71
+    "winRate": 47,
+    "play": 117,
+    "pickRate": 72.2
    },
    {
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 52,
-    "play": 75,
-    "pickRate": 15.4
+    "winRate": 41.7,
+    "play": 24,
+    "pickRate": 14.8
    }
   ],
   "core": [
@@ -273,9 +278,9 @@
      "Phantom Dancer",
      "Mortal Reminder"
     ],
-    "winRate": 58.6,
-    "play": 87,
-    "pickRate": 27.3
+    "winRate": 47.1,
+    "play": 34,
+    "pickRate": 31.5
    },
    {
     "items": [
@@ -283,19 +288,19 @@
      "Mortal Reminder",
      "Phantom Dancer"
     ],
-    "winRate": 52.9,
-    "play": 34,
-    "pickRate": 10.7
+    "winRate": 25,
+    "play": 8,
+    "pickRate": 7.4
    },
    {
     "items": [
      "Stridebreaker",
-     "Youmuu's Ghostblade",
-     "Mortal Reminder"
+     "Phantom Dancer",
+     "Dead Man's Plate"
     ],
-    "winRate": 35.3,
-    "play": 17,
-    "pickRate": 5.3
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 7.4
    }
   ],
   "lateOptions": [
@@ -303,49 +308,49 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 47.5,
-    "play": 457,
-    "pickRate": 93.5
+    "winRate": 46.7,
+    "play": 152,
+    "pickRate": 95
    },
    {
     "items": [
      "Phantom Dancer"
     ],
-    "winRate": 51.2,
-    "play": 283,
-    "pickRate": 57.9
+    "winRate": 48.8,
+    "play": 86,
+    "pickRate": 53.8
    },
    {
     "items": [
      "Mortal Reminder"
     ],
-    "winRate": 51.6,
-    "play": 248,
-    "pickRate": 50.7
+    "winRate": 47.5,
+    "play": 80,
+    "pickRate": 50
    },
    {
     "items": [
      "Youmuu's Ghostblade"
     ],
-    "winRate": 39.2,
-    "play": 102,
-    "pickRate": 20.9
+    "winRate": 41,
+    "play": 39,
+    "pickRate": 24.4
    },
    {
     "items": [
      "Dead Man's Plate"
     ],
-    "winRate": 52.2,
-    "play": 90,
-    "pickRate": 18.4
+    "winRate": 47.1,
+    "play": 34,
+    "pickRate": 21.3
    },
    {
     "items": [
      "Executioner's Calling"
     ],
-    "winRate": 34.9,
-    "play": 86,
-    "pickRate": 17.6
+    "winRate": 32.3,
+    "play": 31,
+    "pickRate": 19.4
    }
   ],
   "skillOrder": [
@@ -367,8 +372,8 @@
      "W",
      "W"
     ],
-    "winRate": 50.9,
-    "play": 214
+    "winRate": 50.7,
+    "play": 69
    }
   ]
  }

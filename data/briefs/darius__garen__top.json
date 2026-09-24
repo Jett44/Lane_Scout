@@ -4,89 +4,89 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Slightly favoured",
-   "line": "You lose if you let Garen freeform Q (Decimate) spins and E (Judgment) resets stack up unanswered, you win if you land E (Apprehend) into full combo before he hits level 6."
+   "difficulty": "Favoured lane",
+   "line": "You lose if you let him land a free Q (Decisive Strike) silence into full trade; you win almost every fight where you land E (Apprehend) first."
   },
-  "thesis": "Darius wins this lane at 51.7% over 1204 games because his E (Apprehend) range lets him initiate fights Garen can't decline, and five Hemorrhage stacks turn every W (Crippling Strike) into a near-execute before Garen's own kill pattern (Q-E-Q spin into R) comes online. The lane advantage and solo-kill edge both belong to you, so the matchup rewards forcing early skirmishes rather than farming passively into his level-6 all-in.",
+  "thesis": "Garen's entire kit is 300-325 range, while your E (Apprehend) reaches 535 — you can hook him before he can silence, spin, or flee. Once Apprehend lands, his only counter is a Q he's already burned to close distance, and your Hemorrhage stacks plus Decimate healing let you out-sustain his Perseverance regen through the whole fight. The 56.3% win rate over 245 games reflects a range and initiation mismatch, not a close skill matchup.",
   "tell": {
-   "watch": "Garen's Courage (W) status",
+   "watch": "Garen's Q (Decisive Strike) cooldown",
    "theirWindow": {
-    "when": "you're below ~30% HP after level 6",
-    "what": "Demacian Justice (R) deals true damage scaling off your missing health, so it can delete you from range before you can Flash away. Don't stand in E (Apprehend) range or push all-in animations at low HP once he's 6; disengage and let a wave die if needed."
+    "when": "he hasn't taken damage recently",
+    "what": "Perseverance is ticking and he can afford to eat a trade he'd otherwise lose. Land a Q (Decimate) edge-hit or auto first to shut off the regen before you commit further."
    },
    "yourWindow": {
-    "when": "Garen's Courage (W) is on cooldown",
-    "what": "His damage reduction is gone, so E (Apprehend) into full auto-Q(Decimate edge)-W-auto lands unmitigated. Commit hard here — this is when your five-stack Hemorrhage execute threat actually kills instead of just scaring him off."
+    "when": "his Q (Decisive Strike) is on cooldown",
+    "what": "He has no gap-close, no silence, and no slow-cleanse for 8 seconds. This is your window to walk up and land E (Apprehend) from 535 range before he can react."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Neither E nor R online, just pokes"
+    "note": "No Apprehend yet, trades are short pokes only"
    },
    {
     "levels": "3-5",
     "edge": "you",
-    "note": "E unlocked, stacks Hemorrhage fast"
+    "note": "E outranges his entire kit once online"
    },
    {
     "levels": "6-8",
-    "edge": "them",
-    "note": "Demacian Justice execute threat spikes"
+    "edge": "you",
+    "note": "R execute threat plus Q sustain vs his damage"
    },
    {
     "levels": "9-13",
-    "edge": "you",
-    "note": "Youmuu's/Deadman's spike wins skirmishes"
+    "edge": "even",
+    "note": "Shorter Garen cooldowns let regen reset between trades"
    },
    {
     "levels": "14-18",
-    "edge": "even",
-    "note": "Both scale, fights decided by cooldowns"
+    "edge": "you",
+    "note": "Item power and stacked Hemorrhage overwhelm his flat spin"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "Run in 85.4% of games at 52.6% winrate over 1301 games — the AD and sustain let you win the early auto trades Garen tries to force with his passive (Perseverance) regen."
+    "why": "Wins 56.8% over 278 games and is picked 87.7% of the time in this matchup — the extra sustain and damage let you hold your ground through his early Judgment (E) pokes while you stack Hemorrhage faster."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "73.5% pick, 51.8% winrate over 1082 games — flattens Garen's auto-attack trades and softens the Q (Decimate) spin damage you'll eat closing distance."
+    "why": "55.7% win rate over 244 games and the standard pick (78%) — Garen's damage is entirely physical (Q bonus damage, W, E spin), so the flat reduction directly cuts his trade damage."
    },
    "core": [
     {
      "item": "Youmuu's Ghostblade",
-     "why": "The active dash closes the gap Garen tries to create after Judgment (E) resets his movement speed, letting you land E (Apprehend) or a follow-up auto before he escapes."
+     "why": "The active haste closes the gap to E range faster and adds burst before he can react, part of the highest-winrate path (63.3% over 30 games)."
     },
     {
      "item": "Dead Man's Plate",
-     "why": "Charges up on the walk toward him, then dumps into a slow on the first hit so he can't run once you've stacked Hemorrhage."
+     "why": "Builds momentum for chasing down his Q move-speed burst and adds HP to survive his sustained spin damage."
     },
     {
      "item": "Death's Dance",
-     "why": "This path hits 63.6% winrate over 154 games — the damage-to-healing conversion keeps you alive through his Decimate/Judgment burst so your own bleed ticks and R (Noxian Guillotine) can close out the fight."
+     "why": "Completes the top build path at 63.3% win rate — the damage-over-time conversion lets your Hemorrhage bleeds and his own W/E damage tick past his Perseverance regen instead of bursting you down."
     }
    ],
    "situational": [
     {
      "item": "Sterak's Gage",
-     "when": "you're ahead and want a burst-shield to survive his all-in instead of pure lifesteal"
+     "when": "you're getting focused or need a stronger all-in payoff instead of Death's Dance (75% win rate over 20 games in that path)"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want to prioritize mobility and wave clear over Youmuu's as your first core item (61.5% win rate over 13 games)"
     },
     {
      "item": "Force of Nature",
-     "when": "the enemy team has stacked magic damage beyond just Garen"
-    },
-    {
-     "item": "Boots of Swiftness",
-     "when": "you need to close E (Apprehend) range consistently against a kiting or slow-heavy enemy comp"
+     "when": "the enemy team stacks magic damage alongside Garen"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Your combo is extended auto-trades (E-W-auto-Q), not single-burst — Conqueror's stacking adaptive damage and healing rewards staying in prolonged skirmishes, which is exactly how you beat Garen's burst-spin pattern.",
+   "keystoneWhy": "Ramps damage and healing through extended fights, which matters most in this matchup since your E-initiated trades run long and you need the adaptive force/healing to outlast Perseverance ticks. Runs 54.8% win rate at 30.5% pick, the standard choice.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
@@ -107,56 +107,52 @@
     "Flash",
     "Ghost"
    ],
-   "why": "The 66.1%-picked Flash+Ghost page matches your winrate exactly (51.2%) and Ghost closes the same gap Youmuu's does, guaranteeing your E (Apprehend) range advantage turns into a stick instead of a poke — swap Ghost for Ignite (also 51.2% over 29.6% pick) if you want guaranteed early solo-kill pressure instead."
+   "why": "Flash+Ghost is both the highest win rate (58.2%) and most-picked combo (63.8%) in this matchup — Ghost closes the distance to land E even faster and helps you stick through his Q move-speed burst. Flash+Ignite (53.3%, 30.3% pick) is the alternative if you want a harder guaranteed kill threat with R (Noxian Guillotine) pre-6."
   },
   "playing": [
    {
-    "title": "Open with E before he sets up",
-    "detail": "Land E (Apprehend) as he approaches for a CS auto — it out-ranges his kit entirely and lets you get a free W (Crippling Strike) and Q edge-hit before he can react."
+    "title": "Lead every fight with E",
+    "detail": "Apprehend's 535 range beats his Q (300) and E (325) outright — pull him in before he can silence or spin, don't wait for him to approach first."
    },
    {
-    "title": "Clip the edge of your Q",
-    "detail": "Decimate's outer ring hits harder than the center — position so Garen is on the rim when you cast, not stacked on top of you."
+    "title": "Stack Hemorrhage before R",
+    "detail": "Noxian Guillotine's true damage scales per Hemorrhage stack on him, so land Q (Decimate) and autos first to maximize the execute rather than R'ing on cooldown."
    },
    {
-    "title": "Stack to five before you commit",
-    "detail": "Hemorrhage caps at five stacks; if you're not there yet, throw one more auto or W before going for the kill so it actually executes."
+    "title": "Hit the Decimate blade, not the handle",
+    "detail": "Only the blade edge gives full damage and the champion-hit heal — swing so he's caught on the outer edge rather than standing in the weaker inner handle zone."
    },
    {
-    "title": "Track his Courage cooldown",
-    "detail": "Courage (W) is a flat damage-reduction shield — if you see him pop it on a previous trade, wait it out before your next all-in rather than fighting into a mitigated combo."
+    "title": "All-in only after his Q is spent",
+    "detail": "Once Decisive Strike is on its 8s cooldown he has no slow-cleanse or gap-close left — that's your green light to commit fully."
    },
    {
-    "title": "Respect his 6-8 execute window",
-    "detail": "Demacian Justice scales off missing HP as true damage — don't extend trades below ~30% once he's level 6, even if you're winning the fight on paper."
+    "title": "Poke before you engage",
+    "detail": "If he hasn't taken damage recently, Perseverance is healing him a percentage of his health every second — land a Decimate edge or autos first to shut that off before going for the kill."
    },
    {
-    "title": "Punish his E cooldown",
-    "detail": "Judgment (E) is his attack-speed steroid and mobility reset — if it's down, he can't kite or spin away, so this is your best window to force the all-in."
-   },
-   {
-    "title": "Hunt the solo kill",
-    "detail": "You have the measured solo-kill edge in this matchup — roam-adjacent pressure and side-lane 1v1s post-6 are where your Guillotine (R) execute snowballs fastest."
+    "title": "Time W after his Q, not before",
+    "detail": "Crippling Strike's slow gets cleansed instantly if he still has Decisive Strike up, so land it after he's already used Q to actually stick the slow."
    }
   ],
-  "patchCaveat": "Win rates, item paths, runes, and summoners above are pulled from measured OP.GG games on the current patch; the mechanical reasoning — why those numbers hold, and how to play around specific cooldowns and thresholds — is my own tactical read."
+  "patchCaveat": "Build, rune, and summoner data are measured from live games on the current patch (16.18.1) via OP.GG; the mechanical reasoning behind the trade patterns and timings is my own analysis, not measured data."
  },
- "generatedAt": 1789270307436,
- "patch": "16.18.1",
+ "generatedAt": 1790210474591,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789270232897,
+  "fetchedAt": 1790210405650,
   "overall": {
-   "winRate": 50,
-   "play": 31185,
+   "winRate": 48.6,
+   "play": 6934,
    "tier": 2
   },
   "headToHead": {
-   "play": 1204,
-   "wins": 622,
-   "winRate": 51.7
+   "play": 245,
+   "wins": 138,
+   "winRate": 56.3
   },
   "laneAdvantage": "Darius",
   "soloKillAdvantage": "Darius",
@@ -168,27 +164,27 @@
      "Flash",
      "Ghost"
     ],
-    "winRate": 51.2,
-    "play": 969,
-    "pickRate": 66.1
+    "winRate": 58.2,
+    "play": 194,
+    "pickRate": 63.8
    },
    {
     "names": [
      "Flash",
      "Ignite"
     ],
-    "winRate": 51.2,
-    "play": 434,
-    "pickRate": 29.6
+    "winRate": 53.3,
+    "play": 92,
+    "pickRate": 30.3
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 70.2,
-    "play": 47,
-    "pickRate": 3.2
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 4
    }
   ],
   "runes": [
@@ -210,9 +206,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 50.7,
-    "play": 448,
-    "pickRate": 30.2
+    "winRate": 54.8,
+    "play": 93,
+    "pickRate": 30.5
    },
    {
     "primaryTree": "Sorcery",
@@ -232,9 +228,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 50.3,
-    "play": 306,
-    "pickRate": 20.6
+    "winRate": 52.1,
+    "play": 73,
+    "pickRate": 23.9
    }
   ],
   "starter": [
@@ -243,17 +239,17 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 52.6,
-    "play": 1301,
-    "pickRate": 85.4
+    "winRate": 56.8,
+    "play": 278,
+    "pickRate": 87.7
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 50.9,
-    "play": 163,
+    "winRate": 41.2,
+    "play": 34,
     "pickRate": 10.7
    }
   ],
@@ -262,17 +258,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 51.8,
-    "play": 1082,
-    "pickRate": 73.5
+    "winRate": 55.7,
+    "play": 244,
+    "pickRate": 78
    },
    {
     "items": [
      "Boots of Swiftness"
     ],
-    "winRate": 55.6,
-    "play": 196,
-    "pickRate": 13.3
+    "winRate": 58.3,
+    "play": 36,
+    "pickRate": 11.5
    }
   ],
   "core": [
@@ -282,9 +278,9 @@
      "Dead Man's Plate",
      "Death's Dance"
     ],
-    "winRate": 63.6,
-    "play": 154,
-    "pickRate": 15.8
+    "winRate": 63.3,
+    "play": 30,
+    "pickRate": 15.6
    },
    {
     "items": [
@@ -292,19 +288,19 @@
      "Dead Man's Plate",
      "Sterak's Gage"
     ],
-    "winRate": 52.7,
-    "play": 74,
-    "pickRate": 7.6
+    "winRate": 75,
+    "play": 20,
+    "pickRate": 10.4
    },
    {
     "items": [
-     "Youmuu's Ghostblade",
-     "Dead Man's Plate",
-     "Force of Nature"
+     "Stridebreaker",
+     "Sterak's Gage",
+     "Dead Man's Plate"
     ],
-    "winRate": 59.7,
-    "play": 72,
-    "pickRate": 7.4
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 6.8
    }
   ],
   "lateOptions": [
@@ -312,49 +308,49 @@
     "items": [
      "Dead Man's Plate"
     ],
-    "winRate": 54.4,
-    "play": 860,
-    "pickRate": 57.9
+    "winRate": 62,
+    "play": 171,
+    "pickRate": 55.9
    },
    {
     "items": [
      "Youmuu's Ghostblade"
     ],
-    "winRate": 50.9,
-    "play": 688,
-    "pickRate": 46.3
+    "winRate": 60.9,
+    "play": 151,
+    "pickRate": 49.4
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 55.6,
-    "play": 613,
-    "pickRate": 41.3
+    "winRate": 63.4,
+    "play": 123,
+    "pickRate": 40.2
    },
    {
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 53.1,
-    "play": 608,
-    "pickRate": 40.9
+    "winRate": 50.4,
+    "play": 117,
+    "pickRate": 38.2
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 58.4,
-    "play": 500,
+    "winRate": 64.1,
+    "play": 103,
     "pickRate": 33.7
    },
    {
     "items": [
      "Force of Nature"
     ],
-    "winRate": 57.3,
-    "play": 307,
-    "pickRate": 20.7
+    "winRate": 60.8,
+    "play": 51,
+    "pickRate": 16.7
    }
   ],
   "skillOrder": [
@@ -376,9 +372,14 @@
      "W",
      "W"
     ],
-    "winRate": 54.2,
-    "play": 511
+    "winRate": 60,
+    "play": 115
    }
-  ]
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 932
+  }
  }
 }

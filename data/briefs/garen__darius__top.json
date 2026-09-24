@@ -4,97 +4,97 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Uphill lane",
-   "line": "You lose if he hits 5 Hemorrhage stacks and dives the all-in; you win if you drag it to items and never trade into his E."
+   "difficulty": "Hard early",
+   "line": "You lose if you trade autos into a stacked Hemorrhage bleed or walk into Apprehend before level 6; you win if you dodge his E, bait Decimate's wind-up, and carry the fight past your first back with Stridebreaker online."
   },
-  "thesis": "Darius wins this matchup (48% Garen win rate over 1203 games, lane and solo-kill edge his) because his passive Hemorrhage stacks on every auto and ability hit, and at 5 stacks his next hit carries a true-damage spike that turns an even trade into a kill. Garen has no way to remove those stacks and no gap-closer to punish Darius's Apprehend (E) pull from range, so the fight is always on his terms unless his E is down.",
+  "thesis": "Darius wins short trades because every Hemorrhage stack adds bleed damage and his passive armor shred on Apprehend makes Garen's flat spin damage fall off fast, while his E pull denies the one tool (Q's gap-close) Garen has to force a fight on his own terms. That's why Garen sits at 41.7% over 242 games here even though he's a 50.4% champion overall — this is a lane you survive with wave control and Health Potion sustain until items even the fight out.",
   "tell": {
-   "watch": "Your Hemorrhage stack count",
+   "watch": "Darius's Hemorrhage stack count",
    "theirWindow": {
-    "when": "you're sitting at 4-5 bleed stacks",
-    "what": "Disengage immediately — do not trade through a 5th stack, since his next auto or Q on top of it is the true-damage spike that wins the exchange outright."
+    "when": "Apprehend (E) is off cooldown",
+    "what": "He'll walk up baiting a trade, then hook you in with Apprehend for a free auto and Hemorrhage stack before you can react. Don't extend trades while his E is up, especially levels 1-6 when it's only 26/23.5/21/18.5/16s."
    },
    "yourWindow": {
-    "when": "his E (Apprehend) is on cooldown",
-    "what": "This is your only safe all-in window. Walk up, force him to auto or Q first so he can't pull you mid-spin, then land E (Judgment) and hold W (Courage) for his response."
+    "when": "right after he whiffs or uses Apprehend",
+    "what": "Use Q (Decisive Strike) to close the gap free of any slow, land the silence, then chain W (Courage) and E (Judgment) for your two damage-around-you casts back to back. He has nothing to disengage with for the next 16-26s."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "them",
-    "note": "Q into auto out-trades your kit"
+    "edge": "even",
+    "note": "No Hemorrhage stacks built yet, trades are fair"
    },
    {
     "levels": "3-5",
     "edge": "them",
-    "note": "E pull punishes any melee engage"
+    "note": "Decimate ranks up, bleed stacking punishes extended trades"
    },
    {
-    "levels": "6-8",
-    "edge": "even",
-    "note": "Both ults live, all-ins get risky"
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Guillotine execute threat plus stacked bleed damage"
    },
    {
-    "levels": "9-12",
+    "levels": "11-15",
     "edge": "even",
-    "note": "Stridebreaker slow lets you stick"
+    "note": "Stridebreaker's slow finally lets you close his kiting"
    },
    {
-    "levels": "13-18",
-    "edge": "even",
-    "note": "Full build trades fine if not behind"
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build outlasts his all-in burst"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield + Health Potion",
-    "why": "Runs 55.2% pick over Doran's Blade's 34.4% in this matchup for a reason — the flat 8 damage block per auto blunts his early poke and the passive HP5 offsets Hemorrhage's tick damage so he can't zone you off farm."
+    "item": "Doran's Shield",
+    "why": "The passive damage reduction and health regen directly offset early Decimate pokes and the constant Hemorrhage bleed tick — this is the pick 53.9% of Garens take into this exact matchup."
    },
    "boots": {
     "item": "Berserker's Greaves",
-    "why": "65% pick, 49.1% win rate — the attack speed lets your E (Judgment) tick faster for wave clear and lets you actually punish auto-reset windows instead of needing the pure escape speed of Swiftness."
+    "why": "Most-picked at 66.8%; the attack speed lets you land more Judgment ticks and stack your own trades faster before Darius's bleed outpaces you."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "The slow proc on your empowered auto is your only tool to prevent him from just walking away after landing his E pull — without it he disengages a lost trade for free."
+     "why": "The active slow is your answer to Darius disengaging with Crippling Strike or walking you down — you can't out-trade him without first being able to stick."
     },
     {
      "item": "Phantom Dancer",
-     "why": "Attack speed scales your passive Perseverance uptime by ending trades faster, and the slow-resist keeps you in range to punish his cooldowns."
+     "why": "Attack speed and move speed keep you in range to finish trades once Stridebreaker has closed the gap."
     },
     {
      "item": "Mortal Reminder",
-     "why": "Grievous Wounds shuts down his Q outer-edge heal, which is the main way he sustains through a losing extended trade."
+     "why": "Grievous Wounds cuts the healing Darius gets from Decimate's blade edge, which is a big chunk of why he wins extended fights."
     }
    ],
    "situational": [
     {
+     "item": "Executioner's Calling",
+     "when": "he's healing off Decimate blade hits early and you need the Grievous Wounds before Mortal Reminder completes"
+    },
+    {
      "item": "Dead Man's Plate",
-     "when": "he's building health and out-tanking your all-ins"
+     "when": "you need more raw health to survive his all-in past level 6 rather than pure damage"
     },
     {
      "item": "Youmuu's Ghostblade",
-     "when": "you're ahead and want to force resets before he can stack Hemorrhage back up"
-    },
-    {
-     "item": "Executioner's Calling",
-     "when": "you need Grievous Wounds online before three items finish"
+     "when": "he's playing passively and kiting — you need the extra active haste to run him down"
     }
    ]
   },
   "runes": {
-   "keystone": "Stormraider's Surge",
-   "keystoneWhy": "This page runs a 50.9% win rate here versus 47.3% on Conqueror — the burst of speed after your E (Judgment) spin is what actually lets you follow up his retreat or peel off his all-in, which matters more than sustained-fight damage you rarely get to use against his true-damage spike.",
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking damage and healing rewards the longer trades you're forced into once you've dodged his E, directly offsetting the Hemorrhage bleed ticking on you.",
    "primary": [
-    "Axiom Arcanist",
-    "Celerity",
-    "Gathering Storm"
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
    ],
    "secondary": [
-    "Second Wind",
-    "Overgrowth"
+    "Axiom Arcanist",
+    "Celerity"
    ],
    "shards": [
     "Adaptive Force",
@@ -107,56 +107,52 @@
     "Flash",
     "Ignite"
    ],
-   "why": "92% pick rate at 48.4% win rate — Ignite's true damage and Grievous Wounds directly answer his Q sustain and give you the extra kill pressure your kit lacks against his true-damage spike."
+   "why": "Run at 90.6% pick rate here — Ignite makes up the raw damage deficit against Darius's healing and bleed, and it secures kills once Demacian Justice brings him low."
   },
   "playing": [
    {
-    "title": "Never fight at 5 stacks",
-    "detail": "Track your own Hemorrhage stack count on your buff bar all lane — at 4 stacks, back off rather than trade, since the 5th stack's true-damage hit is what flips close trades into deaths."
+    "title": "Never fight at five stacks",
+    "detail": "Once Hemorrhage hits max stacks Darius enrages and his attack damage spikes hard. Disengage before you let a trade run that long."
    },
    {
-    "title": "Bait his E before engaging",
-    "detail": "Apprehend has a real cooldown early (roughly 9 seconds at rank 1). Walk into auto range and watch for the pull animation — if he throws it and misses or you dodge it, that's your window to commit E (Judgment) and W (Courage)."
+    "title": "Bait Apprehend before committing",
+    "detail": "Walk to the edge of his 535 range and watch for the wind-up. If he whiffs E, that's your 16-26s window to all-in with Q into W and E."
    },
    {
-    "title": "Max E, delay Q",
-    "detail": "Follow the measured order (E first, W second priority, Q last) — the extra spin uptime and cooldown reduction on Judgment matters more here than the Q silence, since you're avoiding extended trades, not initiating them."
+    "title": "Side-step the blade edge of Decimate",
+    "detail": "Enemies hit by Decimate's blade take far more damage than those hit by the handle, and it heals him on champion hits. Stand at the edge of his swing radius during his wind-up."
    },
    {
-    "title": "Hold W for his empowered auto",
-    "detail": "Courage's damage reduction is strongest timed right as he lands Decimate (Q) or an auto with max Hemorrhage stacks — don't pop it early just to soak chip damage."
+    "title": "Use Q's silence to shut down his all-in",
+    "detail": "Decisive Strike's next attack silences — land it on Darius right before he'd otherwise cast Noxian Guillotine at low health to deny the execute."
    },
    {
-    "title": "Freeze, don't shove",
-    "detail": "Your passive Perseverance only regens when untouched for several seconds — shoving the wave into him invites all-ins where you can't heal between trades, so hold the wave near your tower instead."
+    "title": "Freeze the wave near your tower",
+    "detail": "Since this is a defensive matchup, deny him easy trade windows by holding the wave close to your turret rather than fighting him in the open river-side of the lane."
    },
    {
-    "title": "All-in only above half HP",
-    "detail": "Demacian Justice (R) does more as a percentage of his missing health, but you need to survive his true-damage window to land it — don't initiate the all-in under 50% HP yourself."
-   },
-   {
-    "title": "Itemize Grievous Wounds on curve",
-    "detail": "Get Mortal Reminder or Executioner's Calling as soon as he starts winning trades off Q sustain — cutting his outer-edge heal is what turns this from a losing lane into an even one by mid game."
+    "title": "Play for the level 11-13 spike",
+    "detail": "Once Stridebreaker completes, its slow finally lets you stick to him — this is when the lane stops being purely defensive and starts being winnable."
    }
   ],
-  "patchCaveat": "Win rates, pick rates, item paths, runes, and summoner spells above are measured from live OP.GG games on the current patch (30,313 Garen games, 1,203 in this matchup); the mechanical reasoning, timings, and trade calls are my own coaching read on top of that data, not measured facts."
+  "patchCaveat": "Build, runes, and win rates above are pulled from measured OP.GG games on the current patch; the trade timing, cooldown windows, and lane-management reasoning are my own read of the matchup."
  },
- "generatedAt": 1789270394073,
- "patch": "16.18.1",
+ "generatedAt": 1790210546075,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789270314097,
+  "fetchedAt": 1790210475584,
   "overall": {
-   "winRate": 50.9,
-   "play": 30313,
-   "tier": 2
+   "winRate": 50.4,
+   "play": 6960,
+   "tier": 1
   },
   "headToHead": {
-   "play": 1203,
-   "wins": 577,
-   "winRate": 48
+   "play": 242,
+   "wins": 101,
+   "winRate": 41.7
   },
   "laneAdvantage": "Darius",
   "soloKillAdvantage": "Darius",
@@ -168,27 +164,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 48.4,
-    "play": 1351,
-    "pickRate": 92
-   },
-   {
-    "names": [
-     "Flash",
-     "Teleport"
-    ],
-    "winRate": 32.6,
-    "play": 43,
-    "pickRate": 2.9
+    "winRate": 41.9,
+    "play": 279,
+    "pickRate": 90.6
    },
    {
     "names": [
      "Flash",
      "Ghost"
     ],
-    "winRate": 28.6,
-    "play": 42,
-    "pickRate": 2.9
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 3.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 2.3
    }
   ],
   "runes": [
@@ -210,9 +206,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 47.3,
-    "play": 510,
-    "pickRate": 34.3
+    "winRate": 42.6,
+    "play": 94,
+    "pickRate": 30.4
    },
    {
     "primaryTree": "Sorcery",
@@ -232,9 +228,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 50.9,
-    "play": 324,
-    "pickRate": 21.8
+    "winRate": 39.5,
+    "play": 76,
+    "pickRate": 24.6
    }
   ],
   "starter": [
@@ -243,18 +239,18 @@
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 47,
-    "play": 838,
-    "pickRate": 55.2
+    "winRate": 40.4,
+    "play": 166,
+    "pickRate": 53.9
    },
    {
     "items": [
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 49,
-    "play": 522,
-    "pickRate": 34.4
+    "winRate": 46.2,
+    "play": 104,
+    "pickRate": 33.8
    }
   ],
   "boots": [
@@ -262,17 +258,17 @@
     "items": [
      "Berserker's Greaves"
     ],
-    "winRate": 49.1,
-    "play": 958,
-    "pickRate": 65
+    "winRate": 41.2,
+    "play": 199,
+    "pickRate": 66.8
    },
    {
     "items": [
      "Boots of Swiftness"
     ],
-    "winRate": 49.4,
-    "play": 253,
-    "pickRate": 17.2
+    "winRate": 50,
+    "play": 54,
+    "pickRate": 18.1
    }
   ],
   "core": [
@@ -282,9 +278,9 @@
      "Phantom Dancer",
      "Mortal Reminder"
     ],
-    "winRate": 54.9,
-    "play": 277,
-    "pickRate": 29.5
+    "winRate": 41.2,
+    "play": 34,
+    "pickRate": 18.8
    },
    {
     "items": [
@@ -292,19 +288,19 @@
      "Phantom Dancer",
      "Dead Man's Plate"
     ],
-    "winRate": 56.9,
-    "play": 109,
-    "pickRate": 11.6
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 9.4
    },
    {
     "items": [
      "Stridebreaker",
-     "Mortal Reminder",
-     "Phantom Dancer"
+     "Youmuu's Ghostblade",
+     "Mortal Reminder"
     ],
-    "winRate": 47.6,
-    "play": 63,
-    "pickRate": 6.7
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 7.2
    }
   ],
   "lateOptions": [
@@ -312,49 +308,49 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 48.7,
-    "play": 1410,
-    "pickRate": 95.2
+    "winRate": 42.1,
+    "play": 285,
+    "pickRate": 94.7
    },
    {
     "items": [
      "Phantom Dancer"
     ],
-    "winRate": 52.6,
-    "play": 877,
-    "pickRate": 59.2
+    "winRate": 48.7,
+    "play": 152,
+    "pickRate": 50.5
    },
    {
     "items": [
      "Mortal Reminder"
     ],
-    "winRate": 50.7,
-    "play": 592,
-    "pickRate": 40
-   },
-   {
-    "items": [
-     "Dead Man's Plate"
-    ],
-    "winRate": 50.5,
-    "play": 378,
-    "pickRate": 25.5
+    "winRate": 47.5,
+    "play": 101,
+    "pickRate": 33.6
    },
    {
     "items": [
      "Youmuu's Ghostblade"
     ],
-    "winRate": 50.8,
-    "play": 248,
-    "pickRate": 16.8
+    "winRate": 41.3,
+    "play": 75,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 42.4,
+    "play": 59,
+    "pickRate": 19.6
    },
    {
     "items": [
      "Executioner's Calling"
     ],
-    "winRate": 42.5,
-    "play": 193,
-    "pickRate": 13
+    "winRate": 40.9,
+    "play": 44,
+    "pickRate": 14.6
    }
   ],
   "skillOrder": [
@@ -376,8 +372,8 @@
      "W",
      "W"
     ],
-    "winRate": 50.8,
-    "play": 583
+    "winRate": 42.2,
+    "play": 109
    }
   ]
  }

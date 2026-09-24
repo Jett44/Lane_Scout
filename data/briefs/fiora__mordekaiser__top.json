@@ -4,89 +4,89 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Even skill matchup",
-   "line": "You lose if you stand in extended trades and let his shield snowball or get isolated by an unanswered Realm of Death; you win if you burst him fast off vitals and use Riposte to strip his engage."
+   "difficulty": "Skill matchup",
+   "line": "You lose fights you let run long enough for his Darkness Rise to proc and his Indestructible shield to bank; you win the trades where you parry his Death's Grasp or Realm of Death with Riposte and burst him down before either lands."
   },
-  "thesis": "This is a genuinely even matchup (51.1% over 329 games) because the two champions win through opposite mechanics: Mordekaiser through poke damage converting into an Indestructible shield plus a hard-isolate ultimate, Fiora through true-damage vitals procs and positioning he can't contest since he has zero dash or blink. Whoever manages their cooldowns and W (Riposte) timing better decides the lane, not raw stats.",
+  "thesis": "This lane sits at 48.1% over 104 games because Fiora's W (Riposte) is a direct counter to both of Mordekaiser's commitment tools - Death's Grasp and Realm of Death - while his Indestructible shield and Darkness Rise passive punish Fiora for grinding out repeated-hit trades instead of sharp ones. Whoever forces the fight onto their own cooldown wins it; whoever gets pulled into the other's rhythm loses it.",
   "tell": {
-   "watch": "Mordekaiser's Indestructible shield size",
+   "watch": "His Death's Grasp (E) cooldown",
    "theirWindow": {
-    "when": "after his E (Death's Grasp) lands, pulling you",
-    "what": "Once the hand connects he can free-cast Q (Obliterate) and W (Siphon of Destruction) on a stationary target, and his shield grows off every point of damage he lands — disengage rather than trade through it, since staying in the fight only inflates the shield further."
+    "when": "after he lands 3 hits on you",
+    "what": "Darkness Rise triggers off 3 landed attacks or spells, giving him a damage aura and bonus Move Speed. Do not keep trading through this window - back off and let it fall off before re-engaging."
    },
    "yourWindow": {
-    "when": "his E (Death's Grasp) whiffs or is down",
-    "what": "Death's Grasp is his only way to force you to stand still and it's on a long cooldown with no other gap-closer behind it. The moment it misses, dash in with Q (Lunge), pop E (Bladework), and commit — he has no tool left to disengage or reposition."
+    "when": "his E and R are both on cooldown",
+    "what": "With Death's Grasp (16-8s) and Realm of Death (140-80s) down he has no way to force or escape a fight. Lunge in, chain Burst of Speed attacks to stack your Duelist heal, and use Lunge's free second dash to control the range."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Trade only after his Q (Obliterate) is spent"
+    "note": "Both weak, trade only on your Lunge cooldown"
    },
    {
     "levels": "3-5",
-    "edge": "you",
-    "note": "Circle to his flank, he can't chase"
+    "edge": "them",
+    "note": "Obliterate cooldown drops to 6s, passive procs faster"
    },
    {
     "levels": "6-8",
     "edge": "even",
-    "note": "Both get ults; save W for his R"
+    "note": "Realm of Death adds his kill threat, yours too"
    },
    {
     "levels": "9-13",
     "edge": "you",
-    "note": "Hydra/Trinity spike wins quick duels"
+    "note": "Hydra/Trinity spike lets you win short burst trades"
    },
    {
     "levels": "14-18",
     "edge": "even",
-    "note": "His isolate ult threatens picks in fights"
+    "note": "His shield scales with damage dealt to you"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Blade + Health Potion",
-    "why": "The 93.1%-picked start (52.1% over 388 games) gives the sustain and early AD needed to trade autos into Obliterate poke without losing the wave."
+    "item": "Doran's Blade",
+    "why": "Run at 49.1% win rate over 106 games and 89.1% pick rate - the extra AD and sustain let you match his early Obliterate poke without falling behind on health."
    },
    "boots": {
     "item": "Mercury's Treads",
-    "why": "Picked in 55.5% of games at 50.3% win rate — the magic resist directly blunts his Q/W poke damage and the pull from E (Death's Grasp) still lands, but the follow-up hurts far less."
+    "why": "50% win rate over 58 games and the standard pick - his entire kit (Q, E, R) is magic damage, so the magic resist matters more than usual in this lane."
    },
    "core": [
     {
      "item": "Ravenous Hydra",
-     "why": "Highest-pickrate first item (part of the 56.6% winrate, 31.7% pick path) — the cleave and lifesteal let you win short, bursty trades before his shield can build."
+     "why": "Gives you the sustained damage and healing to win extended trades before his shield fully banks."
     },
     {
      "item": "Trinity Force",
-     "why": "The empowered auto after E (Bladework) with Trinity's proc is what actually spikes your duel window against his growing HP pool."
+     "why": "The core power spike (part of the 53.8% win rate, 22% pick path) that lets you burst through a fight faster than his Indestructible can offset."
     },
     {
      "item": "Death's Dance",
-     "why": "Converts his burst poke (Q into W) into damage-over-time you can outheal, which is exactly what keeps you alive through his highest-damage combo."
+     "why": "Closes out the 53.8% win rate path - the damage-over-time conversion keeps you alive through his delayed magic burst from Q and R."
     }
    ],
    "situational": [
     {
      "item": "Maw of Malmortius",
-     "when": "if he's ahead and threatening to burst you down with a full combo before you can vitals-proc him"
+     "when": "he's ahead and threatening to burst you down before your damage or Indestructible timing matters"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the lane stays even and you want to close out the game by split pushing instead of forcing fights"
     },
     {
      "item": "Eclipse",
-     "when": "if you're already ahead and want a faster all-in spike instead of the sustain-focused path"
-    },
-    {
-     "item": "Endless Hunger",
-     "when": "if the lane is a slow poke war and you need the extra sustain/damage before committing to fights"
+     "when": "you can isolate him before he lands three hits and triggers Darkness Rise"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "The 59.3% winrate page outperforms the Press the Attack page here, and Conqueror's healing directly offsets his poke while ramping toward the true-damage burst window you're building around.",
+   "keystoneWhy": "The higher pick-rate page (17.8% pick, 47.6% win rate) - Conqueror's ramping damage and healing rewards you for sustaining through a fight once his shield window has passed. Master-tier Fiora players instead run Press the Attack across 1,122 games, which suits players who want to punish his early poke windows with burst rather than grind out longer trades.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
@@ -105,57 +105,59 @@
   "summoners": {
    "picks": [
     "Flash",
-    "Ignite"
+    "Ignite",
+    "Flash",
+    "Teleport"
    ],
-   "why": "The dominant pick (92.2% of games, 51.8% win rate) — Ignite gives you the extra burst to close out an all-in once his E (Death's Grasp) whiffs, since he has no mobility to escape it."
+   "why": "Flash + Ignite is the standard pick (49.5% win rate, 90.7% pick rate) - this is a skirmish-heavy matchup where Ignite closes out the all-in windows when his E or R is down. Flash + Teleport (62.5% win rate, 6.8% pick) is the higher-win-rate alternative for players prioritizing wave and side-lane management over guaranteed kill pressure."
   },
   "playing": [
    {
-    "title": "Bait Obliterate before engaging",
-    "detail": "His Q (Obliterate) is his only burst tool early and has a real cooldown — once he throws it as poke, walk in immediately since he has nothing else to punish the approach."
+    "title": "Hold W for his E and R",
+    "detail": "Riposte parries his next basic attack and reflects magic damage - hold it whenever he's near Death's Grasp range (700) or after he ults you, since blocking his follow-up denies his main sources of damage and control."
    },
    {
-    "title": "Save W for E or R, per the matchup read",
-    "detail": "Riposte can block either his E (Death's Grasp) pull or his R (Realm of Death) cast — blocking E denies his only way to force a stand-still fight, and a well-timed block on R can prevent the isolation duel entirely."
+    "title": "Disengage before his third hit",
+    "detail": "Darkness Rise triggers after 3 landed attacks or spells against you, giving him a damage aura and Move Speed. Break the trade after two hits instead of fighting through the proc."
    },
    {
-    "title": "Circle for side and back vitals",
-    "detail": "He has no dash or blink, so rotating to his flank between trades gets you easier vitals procs (bonus true damage plus self-heal) that he physically cannot reposition to stop."
+    "title": "Force his Indestructible early",
+    "detail": "His W banks damage dealt and taken to create a shield he can consume to heal, on a 12-8s cooldown with effectively unlimited range. Make him use it defensively on a smaller trade so it isn't available for your real all-in."
    },
    {
-    "title": "Keep trades short, not sustained",
-    "detail": "Indestructible shields off a percentage of damage he deals, so a long fight only inflates his shield — burst with Q into an empowered E auto, then reset instead of standing in extended exchanges."
+    "title": "Use Lunge's free second dash to reset",
+    "detail": "Q can be recast within a couple seconds at no mana cost - use the second dash to leave the fight cleanly rather than committing to a third hit."
    },
    {
-    "title": "Time all-ins off a whiffed Death's Grasp",
-    "detail": "E has a long cooldown and nothing backs it up — a missed hook is your green light to Lunge in and fully commit."
+    "title": "Track his Obliterate cooldown at levels 3-5",
+    "detail": "Q drops to a 6s cooldown by rank 3 and hits hardest on a single target - expect frequent poke in this window and don't stand still to trade autos."
    },
    {
-    "title": "Respect the level-6 isolate threat",
-    "detail": "Once he hits 6, don't overextend near brush or river where he can land Realm of Death mid-trade; if you get pulled into it without W available, play to disengage rather than stand and fight, since no ally can help you inside it."
+    "title": "All-in the instant his E is down",
+    "detail": "Death's Grasp is his only tool to punish you approaching. When its 16-8s cooldown is on cooldown, Lunge in and chain Burst of Speed attacks to stack your Duelist passive heal before he can reset spacing."
    }
   ],
-  "patchCaveat": "Build paths, runes, and every win-rate/pick-rate figure above come from measured OP.GG games on the current patch (16.18.1); the trade timing, vitals positioning, and W-usage reasoning are my own tactical read, not part of the measured data."
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch; the mechanical reasoning and timing windows are our own read of the ability kits, not sourced data."
  },
- "generatedAt": 1789272431771,
- "patch": "16.18.1",
+ "generatedAt": 1790211578927,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789272342094,
+  "fetchedAt": 1790211504673,
   "overall": {
-   "winRate": 49.4,
-   "play": 16247,
-   "tier": 4
+   "winRate": 51.5,
+   "play": 5743,
+   "tier": 1
   },
   "headToHead": {
-   "play": 329,
-   "wins": 168,
-   "winRate": 51.1
+   "play": 104,
+   "wins": 50,
+   "winRate": 48.1
   },
   "laneAdvantage": "EVEN",
-  "soloKillAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "EVEN",
   "playStyle": "even",
   "opponentTip": "Use [W] to block either Mordekaiser’s (E) or his (R). Do not let him maintain his (P) by keeping your distance while fighting him.",
   "spells": [
@@ -164,52 +166,30 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 51.8,
-    "play": 367,
-    "pickRate": 92.2
+    "winRate": 49.5,
+    "play": 107,
+    "pickRate": 90.7
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 31.8,
-    "play": 22,
-    "pickRate": 5.5
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 6.8
    },
    {
     "names": [
-     "Flash",
-     "Ghost"
+     "Teleport",
+     "Ignite"
     ],
-    "winRate": 100,
-    "play": 2,
-    "pickRate": 0.5
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 0.9
    }
   ],
   "runes": [
-   {
-    "primaryTree": "Precision",
-    "primary": [
-     "Press the Attack",
-     "Triumph",
-     "Legend: Alacrity",
-     "Last Stand"
-    ],
-    "secondaryTree": "Inspiration",
-    "secondary": [
-     "Jack Of All Trades",
-     "Biscuit Delivery"
-    ],
-    "shards": [
-     "Adaptive Force",
-     "Adaptive Force",
-     "Health"
-    ],
-    "winRate": 51.6,
-    "play": 62,
-    "pickRate": 15.4
-   },
    {
     "primaryTree": "Precision",
     "primary": [
@@ -228,9 +208,31 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 59.3,
-    "play": 54,
-    "pickRate": 13.4
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 17.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 11
    }
   ],
   "starter": [
@@ -239,18 +241,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 52.1,
-    "play": 388,
-    "pickRate": 93.1
+    "winRate": 49.1,
+    "play": 106,
+    "pickRate": 89.1
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 62.5,
-    "play": 16,
-    "pickRate": 3.8
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 5.9
    }
   ],
   "boots": [
@@ -258,17 +260,17 @@
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 50.3,
-    "play": 197,
-    "pickRate": 55.5
+    "winRate": 50,
+    "play": 58,
+    "pickRate": 58
    },
    {
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 56.6,
-    "play": 83,
-    "pickRate": 23.4
+    "winRate": 57.9,
+    "play": 19,
+    "pickRate": 19
    }
   ],
   "core": [
@@ -278,9 +280,9 @@
      "Trinity Force",
      "Death's Dance"
     ],
-    "winRate": 56.6,
-    "play": 76,
-    "pickRate": 31.7
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 22
    },
    {
     "items": [
@@ -288,19 +290,19 @@
      "Trinity Force",
      "Maw of Malmortius"
     ],
-    "winRate": 58.6,
-    "play": 29,
-    "pickRate": 12.1
+    "winRate": 25,
+    "play": 8,
+    "pickRate": 13.6
    },
    {
     "items": [
      "Ravenous Hydra",
-     "Eclipse",
-     "Endless Hunger"
+     "Trinity Force",
+     "Hullbreaker"
     ],
-    "winRate": 61.1,
-    "play": 18,
-    "pickRate": 7.5
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 10.2
    }
   ],
   "lateOptions": [
@@ -308,49 +310,49 @@
     "items": [
      "Ravenous Hydra"
     ],
-    "winRate": 52.2,
-    "play": 383,
-    "pickRate": 94.8
+    "winRate": 52.3,
+    "play": 107,
+    "pickRate": 95.5
    },
    {
     "items": [
      "Trinity Force"
     ],
-    "winRate": 58.4,
-    "play": 226,
-    "pickRate": 55.9
+    "winRate": 52.1,
+    "play": 71,
+    "pickRate": 63.4
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 49.3,
-    "play": 144,
-    "pickRate": 35.6
-   },
-   {
-    "items": [
-     "Maw of Malmortius"
-    ],
-    "winRate": 54.2,
-    "play": 83,
-    "pickRate": 20.5
+    "winRate": 61.3,
+    "play": 31,
+    "pickRate": 27.7
    },
    {
     "items": [
      "Eclipse"
     ],
-    "winRate": 43.2,
-    "play": 81,
-    "pickRate": 20.1
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 42.1,
+    "play": 19,
+    "pickRate": 17
    },
    {
     "items": [
      "Endless Hunger"
     ],
-    "winRate": 56.9,
-    "play": 65,
-    "pickRate": 16.1
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 15.2
    }
   ],
   "skillOrder": [
@@ -372,9 +374,14 @@
      "W",
      "W"
     ],
-    "winRate": 54,
-    "play": 163
+    "winRate": 51.7,
+    "play": 60
    }
-  ]
+  ],
+  "highElo": {
+   "keystone": "Press the Attack",
+   "tree": "Precision",
+   "play": 1122
+  }
  }
 }

@@ -4,93 +4,85 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Lane favoured",
-   "line": "You lose if you throw R (Noxian Guillotine) straight into an up W (Riposte) and eat a parry; you win if you bait that parry with E (Apprehend) first and crash the wave to force a bad fight at 6."
+   "difficulty": "Skill matchup",
+   "line": "You lose if you auto-attack into an up W (Riposte) or open with R before pulling her in; you win if you land E (Apprehend) first and stack Hemorrhage before she resets with Q (Lunge)."
   },
-  "thesis": "This matchup is decided by whether Fiora's W (Riposte) is up or down when you commit. Darius holds both the lane-trade edge and the solo-kill edge here (51.9% win rate over 489 games) because Apprehend can bait out her only defensive tool before your ultimate goes through clean. Left unanswered, though, her (P) Duelist's Dance vitals let her outheal and out-scale extended fights into the mid-late game, which is why the overall shape reads as even instead of a stomp.",
+  "thesis": "Both of you win extended stick-fights, so this comes down to sequencing: Fiora's W (Riposte) parries your next basic attack and buffs her AD, and her passive Duelist heals her on every hit she lands, so a sloppy all-in just feeds her healing. Darius' answer is to pull first with E (Apprehend) — landing the hook applies Hemorrhage and lets you stack Q and W without ever feeding her a parriable auto. Measured data backs an even lane (47.1% over 155 games) with the solo-kill edge on your side, which matches the read: if you initiate correctly you out-duel her, if you don't she out-sustains you.",
   "tell": {
-   "watch": "Fiora's revealed vital procs",
+   "watch": "Fiora's W (Riposte) availability",
    "theirWindow": {
-    "when": "her W (Riposte) is off cooldown",
-    "what": "Do not throw E (Apprehend) or R (Noxian Guillotine) into her here — either bait it with a throwaway Q (Decimate) edge-tick or wait, since a landed parry negates your CC and hits back with a slow that unwinds your whole engage."
+    "when": "Her E (Burst of Speed) is active",
+    "what": "She gains bonus attack speed and every landed hit or Lunge speeds her up further, so she can chain autos into you and then kite or reposition faster than you can follow. Don't chase once she's disengaging under Burst of Speed — you'll just eat free autos while she resets space."
    },
    "yourWindow": {
-    "when": "she's just used or missed W (Riposte)",
-    "what": "This is your all-in window: land E to pull her in, stack Hemorrhage with Q and autos, and execute with R without fear of a parry, per OP.GG's own E-R sequencing note for this matchup."
+    "when": "Her W (Riposte) was just used or is on cooldown (10/9/8/7/6s)",
+    "what": "Riposte only blocks your next basic attack, so once it's down you can freely auto and land E (Apprehend) without fear of the parry buffing her AD. Pull with E, land Q (Decimate) for the blade-side heal, then W (Crippling Strike) to lock her in range before finishing."
    }
   },
   "powerCurve": [
    {
-    "levels": "1-3",
+    "levels": "1-2",
     "edge": "even",
-    "note": "both weak, trading pokes only"
+    "note": "Both poke with dash/heal trades, no all-in yet"
    },
    {
-    "levels": "4-6",
+    "levels": "3-5",
     "edge": "you",
-    "note": "E-Q combo and W max hit hard"
+    "note": "E (Apprehend) online lets you force fights"
    },
    {
-    "levels": "7-9",
+    "levels": "6",
     "edge": "you",
-    "note": "E-R bait combo wins all-ins"
+    "note": "R (Noxian Guillotine) true damage execute threat"
    },
    {
-    "levels": "10-13",
+    "levels": "7-11",
     "edge": "even",
-    "note": "her vital procs start scaling back"
+    "note": "Her Q double-dash starts winning skirmishes back"
    },
    {
-    "levels": "14-18",
+    "levels": "12-18",
     "edge": "them",
-    "note": "full-build Fiora out-duels and splits"
+    "note": "Blade Waltz and Duelist scaling take over"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "The 75.3%-pick, 52% win rate start on this patch; the extra AD and sustain let you win the level 1-3 auto trades she uses to find her first vital procs."
+    "why": "83.5% pick rate and the highest win rate start (49% over 157 games) — the lifesteal offsets the poke you eat closing distance before E is up."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "84.6% pick, 53.5% win rate; the flat physical damage reduction blunts both her auto-attack pokes and the counter-damage from a landed W (Riposte) parry."
+    "why": "83.8% pick rate; Fiora's damage is entirely auto-attack and Lunge-based, so the flat physical mitigation blunts her extended trades better than the alternative."
    },
    "core": [
     {
      "item": "Youmuu's Ghostblade",
-     "why": "The active haste closes the gap on her Lunge (Q) resets so she can't kite out after tagging a vital — first item in the highest-win-rate path (56.9% over 51 games)."
+     "why": "Active haste closes the gap on her Q (Lunge) resets and lets you actually land E instead of watching her kite away."
     },
     {
      "item": "Dead Man's Plate",
-     "why": "Stacking move speed plus the slow-on-hit keeps you attached through extended trades and punishes her attempts to disengage post-vital."
+     "why": "Move speed stacking keeps you attached through her Burst of Speed windows; part of the highest-win-rate build path (66.7% over 12 games)."
     },
     {
      "item": "Death's Dance",
-     "why": "Converts burst into a damage-over-time you can heal through, directly countering the true-damage-and-heal loop from her (P) vitals in late trades."
+     "why": "Bleed-out damage reduction directly counters her healing race — she wins prolonged fights on raw sustain, this closes that gap."
     }
    ],
    "situational": [
     {
      "item": "Sterak's Gage",
-     "when": "she itemizes to burst you down in a single all-in past level 6 (78.6% win rate in this build path)"
-    },
-    {
-     "item": "Bramble Vest",
-     "when": "her stacked vital procs are outhealing your damage in extended fights"
+     "when": "she is winning extended duels off her passive healing and you need the shield to survive to your own R"
     },
     {
      "item": "Force of Nature",
-     "when": "her team stacks magic damage to zone you out of the Fiora lane fight"
-    },
-    {
-     "item": "Stridebreaker",
-     "when": "she starts splitpushing and you need waveclear plus a slow to catch her"
+     "when": "her team adds magic damage on top of her physical pressure and you need the tenacity and move speed to stay on her"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Highest measured win rate page for this matchup (52.4% over the sampled games); stacking adaptive force and heal off Q, E pulls, and R lets you outlast her vital-proc sustain in the extended trades this matchup forces.",
+   "keystoneWhy": "This is a stick-fight matchup decided by extended trades — Conqueror's adaptive force stacking rewards you for staying in range through her Duelist healing instead of trying to burst and reset.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
@@ -111,58 +103,58 @@
     "Flash",
     "Ghost"
    ],
-   "why": "The 59.1%-pick, 53.1%-win-rate combo on this patch; Ghost is what lets you stick through her Lunge dashes since Darius has no dash of his own, and Flash covers the E-R kill combo or a bad-parry escape. Flash+Ignite (49.8%) is the alternative if you're confident you win every early trade outright."
+   "why": "60.6% pick rate at 51.8% win — Ghost is what actually lets you stay attached through her Q (Lunge) resets and E (Burst of Speed) kiting, which Flash alone can't solve in a matchup built around sticking."
   },
   "playing": [
    {
-    "title": "Bait Riposte with E first",
-    "detail": "Never open with R. Throw E (Apprehend) first — if it's parried, her W is now down and your next R goes through clean; if it lands, you're already ahead on the trade."
+    "title": "Never auto into an up W",
+    "detail": "Riposte parries your next basic attack and buffs her AD on top of the reflected damage. If her W is up, engage with E (Apprehend) or Q (Decimate) instead of an auto to avoid feeding the parry."
    },
    {
-    "title": "Track her passive vitals",
-    "detail": "Fiora's (P) marks up to four vitals; once she's hit two or more, expect a free heal and speed burst on her next connected auto, so disengage rather than face-tank the next exchange."
+    "title": "Pull before you R",
+    "detail": "Landing E (Apprehend) first means Hemorrhage is already stacking and her W is more likely spent, so your Noxian Guillotine finishes clean instead of risking a blocked engage."
    },
    {
-    "title": "Point W at level 1",
-    "detail": "Take W (Crippling Strike) first for safer short trades, then follow standard E-max priority; its bonus execute damage punishes her sustained-trade pattern without risking a dodged Q."
+    "title": "Track her Q charge",
+    "detail": "Lunge (16/14/12/10/8s CD) can be used twice within a couple seconds at no cost. If she's already thrown the first dash, the second is coming immediately — don't waste your E dodging the first one."
    },
    {
-    "title": "Crash the wave for a level 6 kill",
-    "detail": "With both lane and solo-kill advantage measured on this patch, shove in around level 5 so you hit 6 first and force her into a fight she can't fully answer with a fresh W."
+    "title": "Stack Hemorrhage before committing R",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks, so land Q's blade edge and a W (Crippling Strike) auto first — a 5-stack R is a completely different threshold than a 1-stack R."
    },
    {
-    "title": "Time engages to Ghostblade's active",
-    "detail": "Once Youmuu's Ghostblade is up, pop it before engaging or right as she uses Lunge (Q) to disengage, matching her mobility so a tagged vital doesn't let her reset."
+    "title": "Punish her Q cooldown windows",
+    "detail": "Her only gap-closer is Q (Lunge). Between 8-16s of Q cooldown (scales by rank) she has no way to disengage your E pull — this is when your all-ins land cleanest."
    },
    {
-    "title": "Respect a fresh parry after a whiffed combo",
-    "detail": "If your E-R bait sequence misses its window, back off instead of continuing to auto-trade — a reset W punishes prolonged exchanges far harder than a single missed cooldown."
+    "title": "Don't overextend into her E burst",
+    "detail": "Burst of Speed increases her attack speed and grants move speed on every landed hit or Lunge, and killing a champion refreshes it. If you're low, disengage early rather than trading — she out-scales a drawn-out duel once it's active."
    },
    {
-    "title": "Itemize anti-heal once she snowballs",
-    "detail": "If her vital procs start outhealing your damage output in the mid game, prioritize Bramble Vest over the third core item to close the sustain gap."
+    "title": "Use Youmuu's active to force the engage",
+    "detail": "Her kit has no hard CC to punish your approach, only the W parry. Youmuu's Ghostblade haste closes distance fast enough that she can't kite you down with Q resets before your E is in range."
    }
   ],
-  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures above are measured from live OP.GG games on the current patch; the trade-timing and combo reasoning (E-baiting Riposte, vital tracking, power spikes) is my own tactical read layered on top of that data."
+  "patchCaveat": "Item paths, runes, boots, and summoner spells above are pulled directly from measured games on the current patch (16.18.1); the timing reads, power spikes, and execution notes are my own tactical analysis built on top of that data."
  },
- "generatedAt": 1789274689816,
- "patch": "16.18.1",
+ "generatedAt": 1790211087972,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789274586632,
+  "fetchedAt": 1790211020496,
   "overall": {
-   "winRate": 50.1,
-   "play": 32082,
+   "winRate": 48.6,
+   "play": 6934,
    "tier": 2
   },
   "headToHead": {
-   "play": 489,
-   "wins": 254,
-   "winRate": 51.9
+   "play": 155,
+   "wins": 73,
+   "winRate": 47.1
   },
-  "laneAdvantage": "Darius",
+  "laneAdvantage": "EVEN",
   "soloKillAdvantage": "Darius",
   "playStyle": "even",
   "opponentTip": "Be careful of Fiora’s (P) when fighting her. Do not let her block your ultimate with her (W) by using [E] - [R] combo instead.",
@@ -172,27 +164,27 @@
      "Flash",
      "Ghost"
     ],
-    "winRate": 53.1,
-    "play": 356,
-    "pickRate": 59.1
+    "winRate": 51.8,
+    "play": 114,
+    "pickRate": 60.6
    },
    {
     "names": [
      "Flash",
      "Ignite"
     ],
-    "winRate": 49.8,
-    "play": 209,
-    "pickRate": 34.7
+    "winRate": 37.1,
+    "play": 62,
+    "pickRate": 33
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 39.4,
-    "play": 33,
-    "pickRate": 5.5
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 5.9
    }
   ],
   "runes": [
@@ -214,9 +206,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 51.6,
-    "play": 159,
-    "pickRate": 26.2
+    "winRate": 36.5,
+    "play": 52,
+    "pickRate": 27.7
    },
    {
     "primaryTree": "Precision",
@@ -236,9 +228,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 52.4,
-    "play": 126,
-    "pickRate": 20.7
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 21.8
    }
   ],
   "starter": [
@@ -247,18 +239,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 52,
-    "play": 458,
-    "pickRate": 75.3
+    "winRate": 49,
+    "play": 157,
+    "pickRate": 83.5
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 52.9,
-    "play": 104,
-    "pickRate": 17.1
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 14.4
    }
   ],
   "boots": [
@@ -266,17 +258,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 53.5,
-    "play": 501,
-    "pickRate": 84.6
+    "winRate": 48.4,
+    "play": 155,
+    "pickRate": 83.8
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 46.2,
-    "play": 52,
-    "pickRate": 8.8
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 9.7
    }
   ],
   "core": [
@@ -286,19 +278,9 @@
      "Dead Man's Plate",
      "Death's Dance"
     ],
-    "winRate": 56.9,
-    "play": 51,
-    "pickRate": 14.1
-   },
-   {
-    "items": [
-     "Youmuu's Ghostblade",
-     "Dead Man's Plate",
-     "Force of Nature"
-    ],
-    "winRate": 46.2,
-    "play": 26,
-    "pickRate": 7.2
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 12.1
    },
    {
     "items": [
@@ -306,59 +288,69 @@
      "Dead Man's Plate",
      "Sterak's Gage"
     ],
-    "winRate": 78.6,
-    "play": 14,
-    "pickRate": 3.9
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 6.1
    }
   ],
   "lateOptions": [
    {
     "items": [
-     "Youmuu's Ghostblade"
-    ],
-    "winRate": 53.5,
-    "play": 299,
-    "pickRate": 50.4
-   },
-   {
-    "items": [
      "Dead Man's Plate"
     ],
-    "winRate": 59,
-    "play": 283,
-    "pickRate": 47.7
+    "winRate": 58.6,
+    "play": 87,
+    "pickRate": 47.5
    },
    {
     "items": [
-     "Death's Dance"
+     "Youmuu's Ghostblade"
     ],
-    "winRate": 58.5,
-    "play": 207,
-    "pickRate": 34.9
-   },
-   {
-    "items": [
-     "Sterak's Gage"
-    ],
-    "winRate": 54.7,
-    "play": 203,
-    "pickRate": 34.2
+    "winRate": 52.4,
+    "play": 84,
+    "pickRate": 45.9
    },
    {
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 54.9,
-    "play": 195,
-    "pickRate": 32.9
+    "winRate": 43.3,
+    "play": 67,
+    "pickRate": 36.6
    },
    {
     "items": [
-     "Bramble Vest"
+     "Sterak's Gage"
     ],
-    "winRate": 44.8,
-    "play": 125,
-    "pickRate": 21.1
+    "winRate": 55.2,
+    "play": 67,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.7,
+    "play": 60,
+    "pickRate": 32.8
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 35.3,
+    "play": 34,
+    "pickRate": 18.6
    }
   ],
   "skillOrder": [
@@ -380,8 +372,8 @@
      "W",
      "W"
     ],
-    "winRate": 57.2,
-    "play": 180
+    "winRate": 50.8,
+    "play": 59
    }
   ]
  }

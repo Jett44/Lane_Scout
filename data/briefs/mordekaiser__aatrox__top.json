@@ -4,93 +4,97 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Skill matchup",
-   "line": "You lose if you eat a full Q-E combo standing in melee range before level 6; you win if you survive to two items and force extended duels with R (Realm of Death)."
+   "difficulty": "Hard lane",
+   "line": "You lose if you let him land Q-E all-ins while his E (Umbral Dash) is up; you win if you drag the lane past level 9 with Q (Obliterate) maxed and items online."
   },
-  "thesis": "Aatrox out-ranges and out-sustains you with Q (The Darkin Blade) chains and W (Infernal Chains) resets, so the 49.4% head-to-head over 621 games reflects a lane where he dictates the all-in timing, not a lane you're outclassed in — Morde's answer is denying his healing with Thornmail/Bramble Vest and closing the gap with item power rather than trying to out-trade him in isolated exchanges.",
+  "thesis": "Aatrox has a real gap closer and sustain (E's passive heal on damaging champions plus his Deathbringer Stance empowered auto) while your only engage tool is E (Death's Grasp), a 700-range pull with a 16-second base cooldown. He picks the fights until his E (Umbral Dash, 9/8/7/6/5s) is down; you only get to pick them when it isn't. The 44.4% win rate over 151 games and OP.GG's own defensive read confirm this is a lane you survive, not one you push.",
   "tell": {
-   "watch": "Aatrox's Q charge count",
+   "watch": "Aatrox's E (Umbral Dash) cooldown",
    "theirWindow": {
-    "when": "he has 2-3 Q charges stacked",
-    "what": "This is his chain-combo all-in window — Q1 knockup/slow into Q2 (and a possible Q3 reset) plus E dash-in. Do not stand still to trade autos here; this is exactly the Q-E combo OP.GG's own tip warns about, so back off or pre-emptively E (Death's Grasp) him to interrupt the chain."
+    "when": "his E is up and Deathbringer Stance is ready",
+    "what": "He can dash in with E, threaten a Q-Q-Q sequence, and land an empowered auto that heals off your max health. Play for W (Indestructible) shield uptime and don't stand still for the third Q swing."
    },
    "yourWindow": {
-    "when": "his W (Infernal Chains) whiffs or E is on cooldown",
-    "what": "He loses his gap-close/root and can't reposition — walk him down with Q (Obliterate) into W (Siphon of Destruction) and commit to the extended trade, since without E he can't disengage from your sustained damage."
+    "when": "his E is on cooldown after a dash or trade",
+    "what": "He has no escape from your E (Death's Grasp) and no healing from a dash-in auto. Walk up, land Obliterate point-blank for the single-target bonus, and follow with Death's Grasp if he tries to walk off."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "even",
-    "note": "Poke trades, neither side commits"
+    "edge": "them",
+    "note": "his base damage and W chains punish you first"
    },
    {
     "levels": "3-5",
     "edge": "them",
-    "note": "Q maxed first, chain all-in online"
+    "note": "Deathbringer Stance burst outpaces your 1-point W"
    },
    {
-    "levels": "6-8",
+    "levels": "6-9",
     "edge": "them",
-    "note": "World Ender spike outscales your early R"
+    "note": "R (World Ender) live, snowballs any trade won"
    },
    {
-    "levels": "9-13",
+    "levels": "10-13",
     "edge": "even",
-    "note": "Rylai's/Riftmaker close the gap"
+    "note": "Q maxed, your R live, trades close"
    },
    {
     "levels": "14-18",
     "edge": "you",
-    "note": "Full build wins isolated duels"
+    "note": "core items and shield stacking outscale"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield",
-    "why": "Runs 50.7% over 152 games — the flat damage reduction and regen directly blunt Aatrox's Q poke and the passive punishes his early auto-trades, which matters more here than the Doran's Ring mana sustain since you're not winning a poke war."
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Highest win rate in this exact matchup (48.5% over 136 games, 72.7% pick) — the extra sustain and mana let you match his early poke without losing trades outright."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "50.3% over 582 games and 82.8% pick — Aatrox's damage in extended trades leans heavily on auto-attacks between ability casts, so the flat AA reduction outperforms tenacity here."
+    "why": "Best performer here (51.1% over 133 games, 83.1% pick) — flat physical damage reduction directly cuts his auto-attacks, Q swings, and empowered Deathbringer Stance hit."
    },
    "core": [
     {
+     "item": "Bramble Vest",
+     "why": "OP.GG's own tip for this matchup — the passive heal-cut blunts both Deathbringer Stance and his E sustain, and it's the highest-sampled winning core path (66.7%)."
+    },
+    {
      "item": "Rylai's Crystal Scepter",
-     "why": "Slow on every ability lets you kite his E dash-ins and keeps him inside W (Siphon of Destruction) and E (Death's Grasp) range instead of letting him reset neutral."
+     "why": "Slow from Q (Obliterate) and E (Death's Grasp) helps you actually keep him inside Death's Grasp range instead of letting him walk out."
     },
     {
      "item": "Riftmaker",
-     "why": "The omnivamp lets you win extended trades even after he's landed his combo, and the true damage ramp closes the duel-power gap he has pre-6."
+     "why": "Omnivamp lets your W (Indestructible) shield-and-heal loop outlast his burst in extended trades."
     },
     {
-     "item": "Thornmail",
-     "why": "Best measured path here at 68.8% over 16 games — the grievous wounds directly shuts down his W lifesteal and R sustain, which is the actual reason he wins extended fights."
+     "item": "Liandry's Torment",
+     "why": "Rounds out the magic damage core so your Q hits harder once trades go past level 10."
     }
    ],
    "situational": [
     {
-     "item": "Bramble Vest",
-     "when": "he's out-healing your trades before you can finish Thornmail — this is the item OP.GG flags for exactly this reason"
+     "item": "Thornmail",
+     "when": "he's building lifesteal or healing is carrying his trades"
     },
     {
-     "item": "Liandry's Torment",
-     "when": "the game goes long and you need more burn DPS instead of another defensive stat stick"
+     "item": "Zhonya's Hourglass",
+     "when": "his team has burst that can punish you for landing R (Realm of Death)"
     },
     {
-     "item": "Oblivion Orb",
-     "when": "you need the grievous wounds online faster than a full Thornmail build allows"
+     "item": "Experimental Hexplate",
+     "when": "you're ahead and want to force all-ins with cooldown reduction"
     },
     {
      "item": "Mercury's Treads",
-     "when": "his W (Infernal Chains) root is landing consistently and the tenacity matters more than the AA reduction"
+     "when": "the enemy team is stacking hard CC instead of pure AD"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "The stacking adaptive damage and healing on full stacks (5 hits) rewards exactly the extended-trade style this matchup demands — you're not winning quick pokes, you're winning the 4-5 second all-in once stacks are up.",
+   "keystoneWhy": "Highest-picked page for this matchup (42.2% pick, 48.7% WR) — Conqueror's stacking damage rewards the extended trades you're forced into by his higher early damage.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -111,56 +115,52 @@
     "Flash",
     "Ignite"
    ],
-   "why": "49.1% win rate at 87% pick — Ignite denies the healing from his W lifesteal and R sustain during the level 1-5 window before Thornmail is up, and Flash is your only way to escape a landed Q-E combo since Morde has no dash."
+   "why": "Most-picked and highest win-rate combo here (84.4% pick, 49.3% WR) — Ignite punishes his Deathbringer Stance and E healing directly, since it cuts the same health pool he's trying to regain."
   },
   "playing": [
    {
-    "title": "Track Q charge count constantly",
-    "detail": "Two or three stacked charges means his chain all-in is live. Disengage or force him to use E first before you commit to a trade."
+    "title": "Track his E cooldown",
+    "detail": "Umbral Dash is his only gap closer and escape, cycling every 9/8/7/6/5s. Only initiate with Q (Obliterate) when it's down."
    },
    {
-    "title": "Punish whiffed W chains",
-    "detail": "If Infernal Chains misses, immediately walk in with Q into W — he has no follow-up mobility until E comes back."
+    "title": "Hold W before trades",
+    "detail": "Indestructible stores damage dealt and taken into a shield you can pop to heal. Pre-cast it before he engages, not after."
    },
    {
-    "title": "Don't fight into his level 6 spike",
-    "detail": "World Ender gives him sustain, movement speed, and AD that outscales your early R (Realm of Death). Play for CS from level 6-8, not skirmishes."
+    "title": "Punish overextensions with E",
+    "detail": "Death's Grasp pulls all enemies in its 700-range area — use it to drag him back before he can walk off with a Q3 or empowered auto."
    },
    {
-    "title": "Rush grievous wounds components",
-    "detail": "Bramble Vest into Thornmail is the single biggest lever in this matchup — it directly negates the healing that lets him win extended fights."
+    "title": "Save R for isolation",
+    "detail": "Realm of Death drags only him into your dimension. Use it once he's overextended past minion wave, not as a first-strike tool."
    },
    {
-    "title": "Freeze the wave pre-6",
-    "detail": "Aatrox wants a pushed wave to E in and combo you near his minions. Freezing near your tower removes his engage range."
+    "title": "Don't fight his empowered auto",
+    "detail": "Deathbringer Stance procs periodically and heals him off your max health when it lands. Step out of auto range when you see the glow."
    },
    {
-    "title": "Use R to isolate him in skirmishes",
-    "detail": "Realm of Death cuts him off from ally peel and vision — once you're two items deep this is where you flip fights he'd otherwise win."
-   },
-   {
-    "title": "Bait E before all-inning",
-    "detail": "Poke with W (Siphon of Destruction) from max range to force an E dash-in on cooldown, then commit your all-in."
+    "title": "Play the long game",
+    "detail": "This is a defensive-shape matchup — trade passively, keep wave state neutral, and wait for Bramble Vest/Rylai's to come online before forcing anything."
    }
   ],
-  "patchCaveat": "The build paths, win rates, and pick rates above are measured from live OP.GG games on the current patch; the tell, power curve, and trade-pattern reasoning are my own tactical read of the matchup, not sourced data."
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from live games on the current patch; the mechanical reasoning and timing advice are my own read of the ability kits."
  },
- "generatedAt": 1789273618496,
- "patch": "16.18.1",
+ "generatedAt": 1790211872911,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789273538491,
+  "fetchedAt": 1790211805083,
   "overall": {
-   "winRate": 49.1,
-   "play": 21823,
-   "tier": 3
+   "winRate": 49.7,
+   "play": 4959,
+   "tier": 2
   },
   "headToHead": {
-   "play": 621,
-   "wins": 307,
-   "winRate": 49.4
+   "play": 151,
+   "wins": 67,
+   "winRate": 44.4
   },
   "laneAdvantage": "Aatrox",
   "soloKillAdvantage": "Aatrox",
@@ -172,27 +172,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 49.1,
-    "play": 647,
-    "pickRate": 87
+    "winRate": 49.3,
+    "play": 152,
+    "pickRate": 84.4
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 58.2,
-    "play": 55,
-    "pickRate": 7.4
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 10.6
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 59.1,
-    "play": 22,
-    "pickRate": 3
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 2.8
    }
   ],
   "runes": [
@@ -214,9 +214,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 49,
-    "play": 343,
-    "pickRate": 46.9
+    "winRate": 48.7,
+    "play": 76,
+    "pickRate": 42.2
    },
    {
     "primaryTree": "Precision",
@@ -236,9 +236,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 55.6,
-    "play": 63,
-    "pickRate": 8.6
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 8.3
    }
   ],
   "starter": [
@@ -248,18 +248,18 @@
      "Health Potion",
      "Health Potion"
     ],
-    "winRate": 49.3,
-    "play": 525,
-    "pickRate": 69.5
+    "winRate": 48.5,
+    "play": 136,
+    "pickRate": 72.7
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 50.7,
-    "play": 152,
-    "pickRate": 20.1
+    "winRate": 47.2,
+    "play": 36,
+    "pickRate": 19.3
    }
   ],
   "boots": [
@@ -267,17 +267,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 50.3,
-    "play": 582,
-    "pickRate": 82.8
+    "winRate": 51.1,
+    "play": 133,
+    "pickRate": 83.1
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 55.4,
-    "play": 83,
-    "pickRate": 11.8
+    "winRate": 33.3,
+    "play": 18,
+    "pickRate": 11.3
    }
   ],
   "core": [
@@ -287,79 +287,80 @@
      "Riftmaker",
      "Liandry's Torment"
     ],
-    "winRate": 53.8,
-    "play": 26,
-    "pickRate": 6.5
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 5.8
    },
    {
     "items": [
+     "Riftmaker",
+     "Experimental Hexplate",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 3.5
+   },
+   {
+    "items": [
+     "Bramble Vest",
      "Rylai's Crystal Scepter",
      "Riftmaker",
-     "Thornmail"
+     "Liandry's Torment"
     ],
-    "winRate": 68.8,
-    "play": 16,
-    "pickRate": 4
-   },
-   {
-    "items": [
-     "Rylai's Crystal Scepter",
-     "Liandry's Torment",
-     "Thornmail"
-    ],
-    "winRate": 28.6,
-    "play": 14,
+    "winRate": 66.7,
+    "play": 3,
     "pickRate": 3.5
    }
   ],
   "lateOptions": [
    {
     "items": [
-     "Rylai's Crystal Scepter"
+     "Riftmaker"
     ],
-    "winRate": 52.1,
-    "play": 501,
-    "pickRate": 68
+    "winRate": 48.4,
+    "play": 122,
+    "pickRate": 69.3
    },
    {
     "items": [
-     "Riftmaker"
+     "Rylai's Crystal Scepter"
     ],
-    "winRate": 57.4,
-    "play": 469,
-    "pickRate": 63.6
+    "winRate": 50.9,
+    "play": 114,
+    "pickRate": 64.8
    },
    {
     "items": [
      "Bramble Vest"
     ],
-    "winRate": 46.5,
-    "play": 202,
-    "pickRate": 27.4
+    "winRate": 43.4,
+    "play": 53,
+    "pickRate": 30.1
    },
    {
     "items": [
      "Liandry's Torment"
     ],
-    "winRate": 51.5,
-    "play": 198,
-    "pickRate": 26.9
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 22.7
    },
    {
     "items": [
      "Thornmail"
     ],
-    "winRate": 56.8,
-    "play": 185,
-    "pickRate": 25.1
+    "winRate": 52.9,
+    "play": 34,
+    "pickRate": 19.3
    },
    {
     "items": [
-     "Oblivion Orb"
+     "Experimental Hexplate"
     ],
-    "winRate": 44.4,
-    "play": 124,
-    "pickRate": 16.8
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 16.5
    }
   ],
   "skillOrder": [
@@ -381,8 +382,8 @@
      "W",
      "W"
     ],
-    "winRate": 57.6,
-    "play": 316
+    "winRate": 52.9,
+    "play": 70
    }
   ]
  }

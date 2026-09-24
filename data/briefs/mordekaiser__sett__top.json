@@ -4,89 +4,93 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Even skill matchup",
-   "line": "You lose if you trade into a fully-charged Haymaker without your shield up; you win if you out-scale his all-in past level 6 with Rylai's kite and duel him solo with Realm of Death."
+   "difficulty": "Skill matchup",
+   "line": "You lose if you feed Sett's Grit bar with full auto-trades and let his Q max-health procs snowball; you win if you land E into Q before he closes and pop W to eat his Haymaker."
   },
-  "thesis": "This matchup is a real 50.9% coinflip over 639 games because both champions win the fight differently: Sett wants to burst you down inside 3-5 seconds with his Q-W-E chain before you can react, while Mordekaiser wants to survive that window with Indestructible and then grind him out with sustained magic damage and a forced 1v1 in Realm of Death. Whoever dictates when the fight actually starts wins it.",
+  "thesis": "This matchup runs on two competing resource bars, not raw cooldowns: Sett's entire trade pattern is fed by his W (Haymaker) Grit meter and Q (Knuckle Down) auto-empower, while yours runs through W (Indestructible)'s stored shield and E (Death's Grasp)'s pull. Whoever forces the other to spend their defensive resource first wins the all-in. The measured numbers call it dead even (46.7% Mordekaiser win rate over 137 games), and the kits back that up — there's no hard counter here, just a tighter execution check.",
   "tell": {
-   "watch": "Sett's Haymaker charge time",
+   "watch": "Sett's stored Grit (W bar)",
    "theirWindow": {
-    "when": "he holds W fully charged and closes in",
-    "what": "A maxed Haymaker heals him off your missing HP and hits harder than any single trade he has. Do not stand still in melee range while his fists are pulled back — back off or pre-emptively pop Indestructible so the shield eats the punch instead of your HP bar."
+    "when": "Sett's Grit is full, W ready",
+    "what": "Haymaker deals true damage in the center and physical damage on the sides plus a shield sized off his stored Grit — don't sit in melee range when his bar looks full; bait it from range or hold W (Indestructible) to absorb the hit and flip it into your own heal."
    },
    "yourWindow": {
-    "when": "his E (Facebreaker) is on cooldown",
-    "what": "Without Facebreaker he has no gap-closer or wall-stun combo, so he can only threaten you with autos and Q. Walk up, land E (Death's Grasp) to root/slow him, then Q (Obliterate) — you get a free trade he can't fully answer."
+    "when": "Sett's E and W both down",
+    "what": "With Facebreaker (16-10s cd) and Haymaker (18-12s cd) on cooldown he has no stun, slow, or shield — pull him with E (Death's Grasp, 700 range) into Q (Obliterate) and commit, since Q hits hardest on a single target."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "them",
-    "note": "Sett's autos and Q stacks out-trade your no-E kit"
+    "note": "Sett's early autos and Q punish trades"
    },
    {
     "levels": "3-5",
     "edge": "even",
-    "note": "his all-in combo online, your E-Q punish online too"
+    "note": "Morde's E into Q combo online"
    },
    {
-    "levels": "6-11",
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R isolates Sett, biggest lane spike"
+   },
+   {
+    "levels": "9-12",
     "edge": "even",
-    "note": "Realm of Death forces isolated duels, negates his backup"
+    "note": "Cooldown-timed skirmishes, still roughly balanced"
    },
    {
-    "levels": "12-15",
+    "levels": "13-18",
     "edge": "you",
-    "note": "Rylai's slow plus Riftmaker true damage grinds him down"
-   },
-   {
-    "levels": "16-18",
-    "edge": "you",
-    "note": "Thornmail option shuts down his Haymaker sustain entirely"
+    "note": "Rylai's plus Riftmaker/Liandry's out-scale his build"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Ring, Health Potion, Health Potion",
-    "why": "51.8% win rate over 606 games and the 73.5% pick rate reflect that Morde needs the extra sustain and AP scaling to survive early trades into Sett's autos rather than the flat armor of Doran's Shield."
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The potions cover the sustain hit from early auto-trades against Sett's stronger right-punch, and the ring keeps your Q (8s base cd) spammable for wave pressure."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "86.8% pick rate and directly matches the live tip: armor before closing in mitigates his auto-reset damage and the physical half of his Q and R."
+    "why": "Directly answers the matchup's own tip — stack armor before you close the distance, since it cuts down both his empowered Knuckle Down autos and Haymaker's physical-damage sides."
    },
    "core": [
     {
      "item": "Rylai's Crystal Scepter",
-     "why": "the slow on Q and E lets you kite Sett's melee range and land Death's Grasp reliably instead of trading auto for auto"
+     "why": "The slow from Q and E is how you stay stuck to Sett, who has no dash and only gets move speed toward you off Q."
     },
     {
      "item": "Riftmaker",
-     "why": "true damage ramp and the omnivamp let you win extended fights and duels inside Realm of Death"
+     "why": "Omnivamp keeps you ahead in the extended trades this lane forces, especially the ones where you're eating a Haymaker on purpose."
     },
     {
      "item": "Liandry's Torment",
-     "why": "the highest-sample core path (62 games, 56.5% win rate) — burn damage punishes him for standing in melee range to land Q stacks"
+     "why": "The burn punishes Sett's flat-HP itemization and stacks cleanly with Rylai's near-permanent slow uptime."
     }
    ],
    "situational": [
     {
      "item": "Thornmail",
-     "when": "sett is snowballing or you need to shut down his Haymaker healing directly"
-    },
-    {
-     "item": "Bramble Vest",
-     "when": "you're losing the early trades and need cheap armor plus anti-heal before his first back"
+     "when": "sett is building lifesteal or his auto-attack sustain is snowballing the lane"
     },
     {
      "item": "Spirit Visage",
-     "when": "his team stacks magic damage or CC and you need more ability haste and healing power in extended fights"
+     "when": "their team is stacking magic damage or true-damage sources on top of Sett"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "the level 1-3 trades are going badly and you need armor and grievous wounds earlier than the standard core allows"
+    },
+    {
+     "item": "Experimental Hexplate",
+     "when": "you're ahead and want a shorter W cooldown to loop Indestructible's shield more often"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "the stacking adaptive damage and healing reward exactly the extended melee trades and duels this matchup comes down to, and it's the 55.5%-pick page in the live data",
+   "keystoneWhy": "Rewards the repeated melee contact this lane demands and gives the sustain needed to outlast Sett's Grit-fed healing once it's stacked.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -107,52 +111,56 @@
     "Flash",
     "Ignite"
    ],
-   "why": "77.8% pick rate and the top win rate (51.2%) — Ignite denies his Haymaker heal-back on kill attempts, which is the exact mechanic that swings this matchup either direction."
+   "why": "Ignite denies the extra regen Sett's Pit Grit passive grants when he's low, closing off his usual way to walk away from a bad trade; Flash+Teleport is the measured higher-winrate alternative (51.5%) if you expect the lane to go long and need side-lane presence instead."
   },
   "playing": [
    {
-    "title": "Hold Indestructible for his W",
-    "detail": "Don't shield preemptively on cooldown — bait the fully charged Haymaker, then pop W right as it lands so the shield (and his lost heal) eats it instead of your HP."
+    "title": "Poke, don't full-trade",
+    "detail": "Sett's W (Haymaker) passively banks all damage he takes as Grit, so extended auto-for-auto exchanges just fund his shield and punch; land Q (Obliterate) and step out rather than staying in for a full trade."
    },
    {
-    "title": "Punish empty E cooldowns",
-    "detail": "Facebreaker is his only gap-closer. The moment it's down, walk up and force a Q-E trade he can't escape."
+    "title": "Save W for his Haymaker",
+    "detail": "Haymaker deals true damage at the center and physical damage on the sides once Sett dumps his Grit — pop Indestructible (W) into it so the damage feeds your own shield instead of just chunking your health."
    },
    {
-    "title": "Freeze to deny his Q stacking",
-    "detail": "Sett's Knuckle Down wants free auto resets on minions and you. Hold the wave near your tower so he has to overextend to get value."
+    "title": "Chain E into Q on cooldown",
+    "detail": "Death's Grasp (E, 700 range) pulls him in with no way to escape since Sett has no dash; follow immediately with Obliterate (Q) for its single-target bonus damage every time E comes off cooldown."
    },
    {
-    "title": "Save Realm of Death for isolation, not just burst",
-    "detail": "Ulting him removes his ability to disengage toward allies or walls for a Facebreaker combo — use it to trap him in a straight duel, not only to secure a kill."
+    "title": "Finish, don't poke and walk",
+    "detail": "Pit Grit gives Sett extra health regen the lower his health drops, so chip damage that doesn't kill or force a recall just heals back off; commit fully once you've landed E, or don't start the trade at all."
    },
    {
-    "title": "Track his grit shield before all-inning",
-    "detail": "His passive shield pops when his resolve bar fills from taking or dealing damage. If it's up, delay your all-in a beat rather than dumping cooldowns into a free shield."
+    "title": "Armor up before you engage",
+    "detail": "Plated Steelcaps and, later, Thornmail or Bramble Vest cut down both his empowered Knuckle Down autos and Haymaker's physical-damage sides — buy the armor before you close the distance."
    },
    {
-    "title": "Pivot to Thornmail if he's healing off you",
-    "detail": "If Haymaker sustain is keeping him in lane or fights, swap a core slot for Thornmail — it directly answers the mechanic that wins him trades."
+    "title": "Respect Q's engage speed",
+    "detail": "Knuckle Down grants Sett move speed while closing on champions and empowers his next two attacks off your max health — if it's up while he's out of range, expect him to close fast and have your W ready."
+   },
+   {
+    "title": "Isolate with R at level 6",
+    "detail": "Realm of Death drags Sett into your dimension after you've already landed E into Q, cutting him off from teleport, allies, or peel — this is your biggest lane spike since nothing in his kit removes him from the fight."
    }
   ],
-  "patchCaveat": "All win rates, item paths, rune pages, and summoner splits above are measured OP.GG numbers from live games on the current patch; the mechanical reasoning and timing calls are my own read on why those numbers land where they do."
+  "patchCaveat": "Build order, boots, runes, and summoner spells above are pulled from measured games on the current patch via OP.GG; the ability breakdowns, trade timing, and tactical reasoning are our own read of the matchup."
  },
- "generatedAt": 1789292492827,
- "patch": "16.18.1",
+ "generatedAt": 1790211018645,
+ "patch": "16.19.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789292410292,
+  "fetchedAt": 1790210905075,
   "overall": {
-   "winRate": 49.1,
-   "play": 24105,
-   "tier": 3
+   "winRate": 49.7,
+   "play": 4959,
+   "tier": 2
   },
   "headToHead": {
-   "play": 639,
-   "wins": 325,
-   "winRate": 50.9
+   "play": 137,
+   "wins": 64,
+   "winRate": 46.7
   },
   "laneAdvantage": "EVEN",
   "soloKillAdvantage": "EVEN",
@@ -164,27 +172,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 51.2,
-    "play": 603,
-    "pickRate": 77.8
+    "winRate": 49.6,
+    "play": 125,
+    "pickRate": 74.4
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 46.2,
-    "play": 104,
-    "pickRate": 13.4
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 19.6
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 51.1,
-    "play": 45,
-    "pickRate": 5.8
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 3
    }
   ],
   "runes": [
@@ -206,9 +214,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 50.6,
-    "play": 433,
-    "pickRate": 55.5
+    "winRate": 48.4,
+    "play": 91,
+    "pickRate": 54.2
    },
    {
     "primaryTree": "Precision",
@@ -228,9 +236,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 46.3,
-    "play": 67,
-    "pickRate": 8.6
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 7.7
    }
   ],
   "starter": [
@@ -240,18 +248,18 @@
      "Health Potion",
      "Health Potion"
     ],
-    "winRate": 51.8,
-    "play": 606,
-    "pickRate": 73.5
+    "winRate": 50.4,
+    "play": 127,
+    "pickRate": 73.4
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 41.7,
-    "play": 120,
-    "pickRate": 14.6
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 12.7
    }
   ],
   "boots": [
@@ -259,17 +267,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 50.7,
-    "play": 678,
-    "pickRate": 86.8
+    "winRate": 48.3,
+    "play": 147,
+    "pickRate": 87
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 48,
-    "play": 75,
-    "pickRate": 9.6
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 8.3
    }
   ],
   "core": [
@@ -279,9 +287,9 @@
      "Riftmaker",
      "Liandry's Torment"
     ],
-    "winRate": 56.5,
-    "play": 62,
-    "pickRate": 12
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 10.4
    },
    {
     "items": [
@@ -289,19 +297,19 @@
      "Riftmaker",
      "Thornmail"
     ],
-    "winRate": 65.6,
-    "play": 32,
-    "pickRate": 6.2
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 8.5
    },
    {
     "items": [
      "Rylai's Crystal Scepter",
-     "Liandry's Torment",
-     "Riftmaker"
+     "Riftmaker",
+     "Experimental Hexplate"
     ],
-    "winRate": 62.5,
-    "play": 24,
-    "pickRate": 4.6
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 7.6
    }
   ],
   "lateOptions": [
@@ -309,49 +317,49 @@
     "items": [
      "Rylai's Crystal Scepter"
     ],
-    "winRate": 50,
-    "play": 602,
-    "pickRate": 76.5
+    "winRate": 49.2,
+    "play": 122,
+    "pickRate": 75.3
    },
    {
     "items": [
      "Riftmaker"
     ],
-    "winRate": 53.8,
-    "play": 565,
-    "pickRate": 71.8
+    "winRate": 52.5,
+    "play": 118,
+    "pickRate": 72.8
    },
    {
     "items": [
      "Liandry's Torment"
     ],
-    "winRate": 54,
-    "play": 287,
-    "pickRate": 36.5
+    "winRate": 50.8,
+    "play": 65,
+    "pickRate": 40.1
    },
    {
     "items": [
      "Thornmail"
     ],
-    "winRate": 55.7,
-    "play": 194,
-    "pickRate": 24.7
-   },
-   {
-    "items": [
-     "Bramble Vest"
-    ],
-    "winRate": 41.8,
-    "play": 134,
-    "pickRate": 17
+    "winRate": 47.2,
+    "play": 36,
+    "pickRate": 22.2
    },
    {
     "items": [
      "Spirit Visage"
     ],
-    "winRate": 56.2,
-    "play": 130,
-    "pickRate": 16.5
+    "winRate": 41.9,
+    "play": 31,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 34.6,
+    "play": 26,
+    "pickRate": 16.1
    }
   ],
   "skillOrder": [
@@ -373,8 +381,8 @@
      "W",
      "W"
     ],
-    "winRate": 51.9,
-    "play": 312
+    "winRate": 52.4,
+    "play": 63
    }
   ]
  }
