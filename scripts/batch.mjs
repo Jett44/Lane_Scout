@@ -71,7 +71,7 @@ async function main() {
     return 0;
   }
 
-  let wrote = 0, failed = 0, tokens = 0, stopped = null;
+  let wrote = 0, failed = 0, noData = 0, tokens = 0, stopped = null;
 
   for (const t of queue) {
     const res = await generateOne(t.you, t.them, t.lane, livePatch, { timeoutMs: TIMEOUT_MS });
@@ -81,7 +81,18 @@ async function main() {
     if (!res.ok) {
       failed++;
       log(`  FAIL  ${t.you} into ${t.them} — ${res.error}`);
-      if (failed >= 5 && wrote === 0) { stopped = "5 failures with nothing written"; break; }
+
+      /* A pairing with no match data is a gap in the source, not a sign the
+         run is broken — skip it and keep going. Counting these toward the
+         abort guard froze the whole project for days: five K'Sante pairs sit
+         at the head of the queue, so every scheduled run died before reaching
+         a matchup it could actually write. */
+      if (res.suggestLanes) {
+        noData++;
+      } else if (failed - noData >= 5 && wrote === 0) {
+        stopped = "5 real failures with nothing written";
+        break;
+      }
       continue;
     }
 
@@ -98,7 +109,7 @@ async function main() {
 
   const after = stats(LANE);
   if (stopped) log(`run stopped early — ${stopped}`);
-  log(`run end — wrote=${wrote} failed=${failed} tokens~${tokens} coverage=${after.done}/${after.total} (${(100 * after.done / after.total).toFixed(1)}%)`);
+  log(`run end — wrote=${wrote} failed=${failed}${noData ? ` (${noData} no-data)` : ""} tokens~${tokens} coverage=${after.done}/${after.total} (${(100 * after.done / after.total).toFixed(1)}%)`);
 
   if (wrote > 0) {
     /* Rebuild and push, so copies already in people's hands update themselves

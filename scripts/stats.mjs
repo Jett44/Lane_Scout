@@ -20,8 +20,16 @@ const TIMEOUT_MS = 25000;
    returns nothing at all — so runs of non-alphanumerics collapse to one, and
    any leading or trailing underscore is trimmed. Affects Dr. Mundo and
    Nunu & Willump, which is ~220 matchups silently losing their stats. */
+/* Apostrophes and periods are DROPPED, not replaced: K'Sante is KSANTE and
+   Kai'Sa is KAISA, while K_SANTE returns nothing. Everything else that is not
+   alphanumeric collapses to a single underscore, which is what Dr. Mundo
+   (DR_MUNDO) and Nunu & Willump still need. Getting this wrong is silent —
+   the call succeeds and simply comes back empty. */
 const upper = (s) =>
-  String(s).trim().toUpperCase().replace(/[^A-Z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+  String(s).trim().toUpperCase()
+    .replace(/[’'`.]/g, "")
+    .replace(/[^A-Z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
 
 async function rpc(method, params) {
   const ctl = new AbortController();

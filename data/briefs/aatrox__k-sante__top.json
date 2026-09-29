@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you eat the Q-stack shockwave into a Path Maker stun before level 6; you win if you turn Infernal Chains and Umbral Dash sustain into a long game the 52.5% win rate says you're supposed to win."
+  },
+  "thesis": "K'Sante's Q (Ntofo Strikes) recharges every 3.5 seconds and builds stacks toward a pulling shockwave at 2 stacks, giving him constant poke and a self-sufficient engage that Aatrox's slower early cooldowns (Q at 14s, W at 20s, E at 9s pre-rank-up) can't match trade-for-trade. Aatrox's answer is attrition, not burst: Deathbringer Stance and Umbral Dash's on-hit heal let him win the healthbar war over many short exchanges instead of one big one. That's why K'Sante owns the solo-kill column but the overall matchup still lands at 52.5% for Aatrox over 1370 games — it's a war of patience, not a duel.",
+  "tell": {
+   "watch": "K'Sante's Ntofo Strikes stack count",
+   "theirWindow": {
+    "when": "K'Sante at 2 Ntofo stacks",
+    "what": "The second Q stack fires a shockwave that pulls you in, so back off after the first poke lands instead of standing for the second — getting pulled into Path Maker's stun is the actual kill combo, not the Q damage itself."
+   },
+   "yourWindow": {
+    "when": "K'Sante's W and E both down",
+    "what": "With Path Maker's 14-10s cooldown and Footwork's 10-8s cooldown both spent, he has no stun and no escape/shield dash, so land W (Infernal Chains) and commit — use E (Umbral Dash) to close and reset off its on-hit heal."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither kit has scaled up yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q stacks and W stun punish short trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults share the same cooldown curve"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Black Cleaver/Shojin online, sustain outpaces poke"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Death's Dance sustain wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest measured winrate start (54.4% over 1087 games, 68.2% pick) — the lifesteal and damage help you actually win the short trades you take instead of losing the poke war outright."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.7% winrate over 1011 games and the clear majority pick (70.9%) — flattens the damage from K'Sante's constant 3.5s-cooldown Q pokes and his auto-attacks once he's marked you with a stack."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "First item in the highest-measured-winrate path (66% over 50 games) — the armor shred matters against a champion who otherwise tanks up out of your poke."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Ability haste shortens Q/W/E cooldowns further, letting you loop Deathbringer Stance and Umbral Dash sustain more often per minute than K'Sante can reset his stacks."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the top build path — converts the damage you're absorbing from Q pokes and Ntofo shockwaves into delayed damage you can heal through."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's landing the All Out knockback into a follow-up combo reliably"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you're ahead early and want a faster on-hit power spike than Shojin"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're snowballing and want to close the lane out before he scales"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the extended-trade, healthbar-war pattern this lane actually is — stacking it across repeated short exchanges outvalues a burst keystone against a champion who can shield/dash away with Footwork.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest-winrate and most-picked combo (54.8% winrate, 56.1% pick) — Ignite punishes the trades you win off Deathbringer Stance/Umbral Dash sustain before he can heal back with a Footwork disengage. Flash+Teleport (49.9%, 41.6% pick) is the wave-priority alternative if you expect a slow scaling lane instead."
+  },
+  "playing": [
+   {
+    "title": "Track Ntofo stacks, not autos",
+    "detail": "K'Sante's Q (Ntofo Strikes) grants a stack on hit and fires a pulling shockwave at 2 stacks, so disengage after the first poke lands instead of soaking the second and getting dragged into a stun combo."
+   },
+   {
+    "title": "Bait Path Maker's charge",
+    "detail": "W (Path Maker) requires K'Sante to charge up before dashing, so step out of range during the charge to force a whiffed 14-10s cooldown, then trade in while it's down."
+   },
+   {
+    "title": "Trade with Umbral Dash, not autos",
+    "detail": "E (Umbral Dash) heals you whenever it damages an enemy champion, so dash in, trade, and dash out rather than standing in prolonged exchanges against his 3.5s-cooldown Q."
+   },
+   {
+    "title": "Only throw W without Footwork up",
+    "detail": "Infernal Chains only punishes if he can't leave the impact area in time, so land it when E (Footwork) — his only dash/shield — is on cooldown, since otherwise he just shields and escapes."
+   },
+   {
+    "title": "Treat level 6 as a coin-flip",
+    "detail": "Both ultimates share the identical 120/100/80/80/80s cooldown curve, so don't extend a fight through the level-6 spike until you've confirmed whether his R (All Out) or your R (World Ender) is actually up."
+   },
+   {
+    "title": "Hold Deathbringer Stance for trades",
+    "detail": "Your passive periodically empowers your next auto with bonus magic damage and healing off max health, so save the proc for when K'Sante is in range instead of burning it on minions."
+   },
+   {
+    "title": "Fight back once he's All Out",
+    "detail": "All Out gives K'Sante more damage and healing but comes at the cost of reduced defenses on himself, so once the initial knockback lands, trade back into him with E and your passive rather than running — he's the squishier target in this state."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample numbers above are measured from live games on the current patch (OP.GG); the mechanical reasoning — why each cooldown, stack, and window matters — is this brief's own tactical read, not sourced data."
+ },
+ "generatedAt": 1790717296586,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790717212906,
+  "overall": {
+   "winRate": 49.9,
+   "play": 74412,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1370,
+   "wins": 719,
+   "winRate": 52.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.8,
+    "play": 890,
+    "pickRate": 56.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.9,
+    "play": 659,
+    "pickRate": 41.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 60.7,
+    "play": 28,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.6,
+    "play": 696,
+    "pickRate": 42.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.3,
+    "play": 105,
+    "pickRate": 6.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.4,
+    "play": 1087,
+    "pickRate": 68.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 454,
+    "pickRate": 28.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.7,
+    "play": 1011,
+    "pickRate": 70.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.9,
+    "play": 344,
+    "pickRate": 24.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 65.4,
+    "play": 52,
+    "pickRate": 7.5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 66,
+    "play": 50,
+    "pickRate": 7.2
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 59,
+    "play": 39,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.2,
+    "play": 973,
+    "pickRate": 63
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 56.7,
+    "play": 693,
+    "pickRate": 44.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 53.8,
+    "play": 560,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 55.6,
+    "play": 487,
+    "pickRate": 31.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 61.4,
+    "play": 394,
+    "pickRate": 25.5
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 59.9,
+    "play": 142,
+    "pickRate": 9.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.4,
+    "play": 891
+   }
+  ]
+ }
+}
