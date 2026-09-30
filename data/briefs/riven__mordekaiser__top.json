@@ -1,0 +1,388 @@
+{
+ "you": "Riven",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, punish-or-be-punished",
+   "line": "You lose if you sit in extended trades and let Morde land three hits to pop Darkness Rise; you win if you burst in on Valor and disengage before his third hit lands."
+  },
+  "thesis": "This is a 49% head-to-head over 433 games with an even overall lane grade, but the solo-kill edge sits with Mordekaiser because his passive Darkness Rise triggers off three landed attacks or spells and then buffs his damage and Move Speed mid-fight. Riven doesn't win by out-sustaining him — she wins by compressing damage into short windows with Q (Broken Wings) and W (Ki Burst) before he reaches that third hit, then leaving with E (Valor).",
+  "tell": {
+   "watch": "Morde's landed-hit count toward passive",
+   "theirWindow": {
+    "when": "he's already landed two hits on you",
+    "what": "Back off immediately. His third landed attack or spell activates Darkness Rise's damage aura and Move Speed, and trading into that is how Riven loses the all-in despite the even matchup rating."
+   },
+   "yourWindow": {
+    "when": "Obliterate (Q) is on cooldown (8/7/6/5/4s)",
+    "what": "This is your engage window. Dash in with Valor (E), land Ki Burst (W) for the stun, and dump Broken Wings (Q) charges before he has his main poke tool back up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both trade with basic combos, farm safely"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Obliterate poke plus Death's Grasp threatens all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Riven's R unlocks burst windows, trades tighten"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Conqueror plus core items win short trades"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "Death's Dance sustains you through his split-push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 91%-pick, 48.7%-winrate start over 503 games — it's built for a lane where you need early trade damage and sustain to survive Morde's Obliterate poke rather than outlasting him passively."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Highest-pick boots at 64.2% (335 games, 48.7% WR) — the ability haste shortens Q/W/E cooldowns, letting you re-enter burst windows faster than Morde can reset his Obliterate poke."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Leads the top-performing core path at 61.9% WR over 42 games — the cooldown refund rewards exactly the burst-in-burst-out pattern this lane requires."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Second item in the same 61.9% WR path, adds sustained trade damage that scales into your all-in windows."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the strongest measured core path — the damage-over-time conversion keeps you alive through Morde's delayed magic damage after you disengage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Maw of Malmortius",
+     "when": "he's building ahead and threatening burst with Obliterate stacks"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're snowballing and want to close all-in windows faster"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's stacking armor or you need to shred through Indestructible's tankiness"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "his team has heavy CC to punish your engage timing"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The adaptive-force ramp and healing from stacking Conqueror offsets the sustain Morde builds through Indestructible's stored-damage shield, letting you win the short trades this lane is decided by.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick at 96.4% and 49.3% WR — Ignite offsets the healing Morde gets from consuming his Indestructible shield and secures kills in your burst windows before he can stabilize."
+  },
+  "playing": [
+   {
+    "title": "Trade only when Obliterate is down",
+    "detail": "Obliterate is his main poke on an 8/7/6/5/4s cooldown at 675 range. Engage with Broken Wings (Q) and Valor (E) right after he throws it, not while it's up."
+   },
+   {
+    "title": "Leave before the third hit",
+    "detail": "Darkness Rise needs three landed attacks or spells to trigger. Count his hits in every trade and dash out with Valor (E) before that third one connects."
+   },
+   {
+    "title": "Front-load damage, don't auto-trade",
+    "detail": "Indestructible stores damage dealt and taken into a shield he can consume to heal. Sustained autos feed that shield — burst with Q-W-E instead of trading blow-for-blow."
+   },
+   {
+    "title": "Respect the Death's Grasp pull angle",
+    "detail": "Death's Grasp pulls all enemies in its area at 700 range on a 16/14/12/10/8s cooldown. Don't stand in a straight line with the wave when it's up."
+   },
+   {
+    "title": "Avoid extended 1v1s without support",
+    "detail": "Solo-kill advantage in this matchup sits with Mordekaiser. Don't commit to a prolonged duel unless your jungler is nearby or you've already landed your full burst."
+   },
+   {
+    "title": "Time Blade of the Exile for reset windows",
+    "detail": "Your R comes online at level 6 (120s cooldown, dropping to 60s at rank 3). Use the AD and range boost plus Wind Slash to close out trades he thinks he's won."
+   },
+   {
+    "title": "Use Ki Burst to punish his engage",
+    "detail": "Ki Burst (W) stuns on an 11/10/9/8/7s cooldown. Save it to interrupt his Death's Grasp attempts rather than opening with it."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates are pulled directly from measured OP.GG games on the current patch (433-game Riven-vs-Mordekaiser sample); the tactical reading of ability timings and trade windows is our own analysis layered on top."
+ },
+ "generatedAt": 1790769886868,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790769839671,
+  "overall": {
+   "winRate": 49.5,
+   "play": 28560,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 433,
+   "wins": 212,
+   "winRate": 49
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being hit by Mordekaiser’s abilities. Deal burst damage and fall back periodically to prevent Mordekaiser’s (P) from activating.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 535,
+    "pickRate": 96.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 30,
+    "play": 10,
+    "pickRate": 1.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 1.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.6,
+    "play": 248,
+    "pickRate": 43.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 39.7,
+    "play": 58,
+    "pickRate": 10.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.7,
+    "play": 503,
+    "pickRate": 91
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 3.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48.7,
+    "play": 335,
+    "pickRate": 64.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.7,
+    "play": 103,
+    "pickRate": 19.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 61.9,
+    "play": 42,
+    "pickRate": 12.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 21,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Maw of Malmortius",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.2,
+    "play": 276,
+    "pickRate": 50.8
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 54.4,
+    "play": 270,
+    "pickRate": 49.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46.1,
+    "play": 243,
+    "pickRate": 44.8
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 60.7,
+    "play": 196,
+    "pickRate": 36.1
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 48.5,
+    "play": 171,
+    "pickRate": 31.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.5,
+    "play": 122,
+    "pickRate": 22.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.5,
+    "play": 221
+   }
+  ]
+ }
+}

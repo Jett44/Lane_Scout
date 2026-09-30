@@ -1,0 +1,383 @@
+{
+ "you": "Riven",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, reactive",
+   "line": "You lose lane if you stand in extended trades and let Sett bank Grit and land Facebreaker stuns; you win by poking with Q and resetting before he can cash in, which is why Riven still closes out this matchup at 51.3% over 663 games despite Sett holding the solo-kill edge."
+  },
+  "thesis": "Sett's kit is built to punish standing trades: W (Haymaker) banks every point of damage he takes as Grit and pays it back as a shield plus a true-damage nuke, and his passive (Pit Grit) heals him harder the lower his health drops. Riven's Q (Broken Wings) lets her hit-and-step-back without ever letting Sett's Grit bar fill, which is exactly why OP.GG's own tip for this matchup is to poke and disengage rather than commit.",
+  "tell": {
+   "watch": "Sett's stored Grit (W shield)",
+   "theirWindow": {
+    "when": "Facebreaker and Grit both available",
+    "what": "Do not let him get you between minions or walls where Facebreaker (E, CD 16/14.5/13/11.5/10s, range 490) can pull you in from both sides for a stun; if his Grit bar looks full, disengage instead of trading auto-for-auto."
+   },
+   "yourWindow": {
+    "when": "his E and W are both down",
+    "what": "This is when to run the full Q-W combo: land Ki Burst (W, CD 11/10/9/8/7s) to stun, dump Broken Wings charges, and walk away before his cooldowns reset, per OP.GG's own read on this matchup."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q move speed and health-based regen punish early all-ins"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "your full Q-W-E kit is online for poke-disengage"
+   },
+   {
+    "levels": "6-9",
+    "edge": "them",
+    "note": "R (Show Stopper) adds a real kill threat"
+   },
+   {
+    "levels": "10-18",
+    "edge": "you",
+    "note": "core items and low-CD R take over"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "51.2% win rate over 732 games and the 90.7% pick for this matchup; the extra sustain and AD cover the early Q-poke trades against Sett's health-based regen."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "51% win rate over 431 games and the top pick (56%); the ability haste tightens Q/W/E cooldowns so you can poke-and-reset more often before Sett's Grit bar refills."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Highest sample core path (56.8% over 95 games, 17.7% pick); the cooldown refund rewards the poke-disengage pattern this matchup calls for."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Follows Axiom Arc in the top-performing build path; sustains you through extended poke exchanges."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the 56.8% win-rate core path; the damage-over-time conversion covers you against Sett's burst once he stacks Grit and lands a Facebreaker stun."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Plated Steelcaps",
+     "when": "you are losing straight auto-attack trades to his empowered right punches"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you are ahead in lane and want the extra burst to force a kill before he hits level 6"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game runs long and his stacked health and passive regen are stalling your damage"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "he is building health and you need the bonus damage and healing against a high-max-health target"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking damage and healing offset Sett's Grit-based shield and passive regen across a lane defined by repeated short trades rather than one long fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick at 94.6% and 51.4% win rate; Ignite's healing cut is what actually lets you close out kills against a champion whose passive regenerates health as he drops low."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q, then disengage",
+    "detail": "Use Broken Wings (Q, CD 13s) to hit and step out rather than committing to full auto trades; every hit you let him eat without disengaging fills his Grit bar."
+   },
+   {
+    "title": "Save E for his all-in",
+    "detail": "Hold Valor (E, CD 10/9/8/7/6s) to block incoming damage during his all-in window rather than burning it just to gap-close."
+   },
+   {
+    "title": "Track his Grit bar",
+    "detail": "Haymaker (W) banks the damage he takes and pays it out as a shield plus a true-damage-center, physical-damage-sides nuke; if it looks full, back off instead of trading."
+   },
+   {
+    "title": "Don't get flanked for Facebreaker",
+    "detail": "Facebreaker (E, CD 16/14.5/13/11.5/10s, range 490) only stuns if he pulls you in from both sides at once; stay on one side of him near minions so it slows you instead."
+   },
+   {
+    "title": "Play around his level 6 R",
+    "detail": "The Show Stopper (R, CD 120/100/80/80/80s, range 400) carries and slams you, slowing everyone near the landing spot; respect it the moment he hits 6."
+   },
+   {
+    "title": "Bank the full Q chain to knock him off",
+    "detail": "Broken Wings can be reactivated three times, with the third hit knocking back nearby enemies; save the full chain to punish him for closing distance with Q's move speed buff."
+   },
+   {
+    "title": "Convert once your core is online",
+    "detail": "After Axiom Arc, Endless Hunger, and Death's Dance complete, look for kills whenever Conqueror is stacked and his E and W are both down, matching OP.GG's read on this matchup's win condition."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and summoner spells above come from measured OP.GG games on the current patch (663 sampled for this Riven-vs-Sett matchup); the mechanical reasoning about cooldowns, trade timing, and power spikes is my own analysis."
+ },
+ "generatedAt": 1790769835845,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790769766295,
+  "overall": {
+   "winRate": 49.5,
+   "play": 28560,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 663,
+   "wins": 340,
+   "winRate": 51.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Use your [Q] to attack and fall back periodically to prevent Sett from activating his passive ability. We recommend engaging when your Conqueror’s stacks are up and Sett’s abilities are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.4,
+    "play": 759,
+    "pickRate": 94.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 36.8,
+    "play": 19,
+    "pickRate": 2.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 2.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56,
+    "play": 323,
+    "pickRate": 39.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.7,
+    "play": 71,
+    "pickRate": 8.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 732,
+    "pickRate": 90.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 2.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 51,
+    "play": 431,
+    "pickRate": 56
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.3,
+    "play": 230,
+    "pickRate": 29.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 56.8,
+    "play": 95,
+    "pickRate": 17.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 57.4,
+    "play": 68,
+    "pickRate": 12.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 71.7,
+    "play": 53,
+    "pickRate": 9.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.2,
+    "play": 562,
+    "pickRate": 70.8
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 55.5,
+    "play": 474,
+    "pickRate": 59.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 49.4,
+    "play": 413,
+    "pickRate": 52
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 52,
+    "play": 244,
+    "pickRate": 30.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.9,
+    "play": 169,
+    "pickRate": 21.3
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 52.7,
+    "play": 131,
+    "pickRate": 16.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52,
+    "play": 325
+   }
+  ]
+ }
+}

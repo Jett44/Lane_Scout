@@ -1,0 +1,380 @@
+{
+ "you": "Riven",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into his E (Counter Strike), you win if you punish the long cooldown right after he burns it."
+  },
+  "thesis": "This matchup is decided by one cooldown: Jax's E (Counter Strike), 18/16/14/12/10s. While it's up he can dodge your autos and turn any auto-attack trade into a stun-and-burst for him; the instant it's down he has no answer to your dash-stun-dash combo. The measured 49.6% win rate over 607 games reflects a lane that's genuinely even, decided by who tracks that cooldown better, not by raw stats.",
+  "tell": {
+   "watch": "Jax's E stance animation",
+   "theirWindow": {
+    "when": "he lands empowered Q (Leap Strike) engage",
+    "what": "Once Empower (W, 7-3s cooldown) is loaded onto a Leap Strike (Q, 700 range, 17-5s cooldown), he closes the gap and hits bonus damage on arrival. Use E (Valor) to block the follow-up hit rather than trading autos into him."
+   },
+   "yourWindow": {
+    "when": "right after he activates E (Counter Strike)",
+    "what": "That's an 18s cooldown at rank 1, dropping only to 10s at rank 5. The moment he burns it — successfully or on a whiff — go in with Q (Broken Wings) into W (Ki Burst) with no fear of the stun."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side can force a kill yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E ranks up fast, punishes auto trades hard"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R adds range/AD to match his gap close"
+   },
+   {
+    "levels": "9-11",
+    "edge": "even",
+    "note": "Cooldown races roughly cancel each other out"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Item spikes trade evenly, E timing still decisive"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest win rate start (49.2% over 663 games, 90.2% pick) — the sustain and early AD offset Jax's poke range on Q."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Best measured win rate on boots (49% over 390 games) — the ability haste shortens Q/W/E cooldowns so you can punish his E window faster than he can reset it."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Highest-win-rate core path (58.2% over 55 games) — the active dash lets you close or escape independent of your own cooldowns."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Follows Axiom Arc in the top-performing build order, adding sustained damage to skirmish trades."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the core path — bleed-and-heal lets you win extended fights where his R (Relentless Assault) attack speed would otherwise wear you down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you want earlier burst pressure to punish his E cooldown windows before level 9"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "fights are running long and you need to shred through his Equipment Mastery bonus HP"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "their team adds magic burst you need a shield against"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Your Q dashes and E step let you stay on top of him through extended trades, which is exactly the sustained-fight shape that stacks Conqueror before his E timer resets.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Runs 49.7% win rate at 93.9% pick — Ignite closes out all-ins during his E cooldown before he can disengage with Leap Strike."
+  },
+  "playing": [
+   {
+    "title": "Punish the E cooldown, not the stance",
+    "detail": "Never auto-attack into an active Counter Strike. Wait for him to burn it, then all-in immediately — the 18s rank-1 cooldown is your entire lane plan before level 5."
+   },
+   {
+    "title": "Trade with Q, not autos, when E is up",
+    "detail": "Broken Wings (Q, 13s cooldown) damage doesn't get eaten by his dodge stance the way an auto-attack chain does. Use it to poke when you're unsure if E is loaded."
+   },
+   {
+    "title": "Block his empowered engage with E",
+    "detail": "When he Leap Strikes (Q, 700 range) with Empower (W) loaded, use Valor (E) to soak the bonus-damage hit rather than eating it flat."
+   },
+   {
+    "title": "Save R for the all-in, not the poke",
+    "detail": "Blade of the Exile's AD and range let you match his gap close and finish with Wind Slash if he tries to walk away — hold it for the fight, not for chip damage."
+   },
+   {
+    "title": "Chain Ki Burst into free autos",
+    "detail": "Ki Burst (W, 11-7s cooldown) is your only guaranteed window to land clean autos without an E interrupt — use it the moment he commits to a Leap Strike."
+   },
+   {
+    "title": "Respect his passive HP scaling late",
+    "detail": "Equipment Mastery gives him bonus health off his own AD/AP items, so raw one-shot burst gets less reliable by mid-game — lean on Conqueror's sustained trade damage instead."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner spells are pulled directly from measured games on the current patch; the cooldown-window tactical reading is my own analysis of the kit interactions."
+ },
+ "generatedAt": 1790770146951,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790770088764,
+  "overall": {
+   "winRate": 49.5,
+   "play": 28560,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 607,
+   "wins": 301,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Retreat with your abilities when Jax tries to close in with his Leap Strike (Q) – Counter Strike (E) combo. Harass Jax with your abilities, but keep an eye out for his (P) and Conqueror’s stacks.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.7,
+    "play": 672,
+    "pickRate": 93.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 4.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 21.4,
+    "play": 14,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.5,
+    "play": 299,
+    "pickRate": 40.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 52.3,
+    "play": 65,
+    "pickRate": 8.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 663,
+    "pickRate": 90.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 2.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49,
+    "play": 390,
+    "pickRate": 56
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.7,
+    "play": 172,
+    "pickRate": 24.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 58.2,
+    "play": 55,
+    "pickRate": 12.9
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 55.8,
+    "play": 52,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 41.2,
+    "play": 34,
+    "pickRate": 8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.1,
+    "play": 439,
+    "pickRate": 64
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 54.6,
+    "play": 379,
+    "pickRate": 55.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 50.6,
+    "play": 340,
+    "pickRate": 49.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.7,
+    "play": 203,
+    "pickRate": 29.6
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 47.5,
+    "play": 200,
+    "pickRate": 29.2
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 59,
+    "play": 105,
+    "pickRate": 15.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.2,
+    "play": 208
+   }
+  ]
+ }
+}

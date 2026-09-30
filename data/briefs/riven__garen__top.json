@@ -1,0 +1,384 @@
+{
+ "you": "Riven",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you stand and trade into level 6-8 Ignite all-ins; you win if you poke and disengage to scaling items."
+  },
+  "thesis": "Garen's kit has no mana cost and his passive Perseverance regenerates a percentage of his health whenever he hasn't taken damage recently, so short all-ins just heal him back up. Riven's only way to win the lane is to hit-and-run with Q (Broken Wings) into immediate E (Valor) resets rather than standing in extended trades where his W (Courage) and passive sustain outlast her. The 45.7% win rate over 947 games and Garen's solo-kill advantage confirm this is a lane you survive early and win with items, not one you win with early kill pressure.",
+  "tell": {
+   "watch": "Garen's E (Judgment) cooldown",
+   "theirWindow": {
+    "when": "Q, W, and E all off cooldown near you",
+    "what": "He can burst his move speed with Q (Decisive Strike) to close the gap, silence and bonus-damage you on the next auto, hold W (Courage) for sustained damage, and spin E (Judgment) on top. If your own E (Valor) is down when this lines up, disengage instead of trading."
+   },
+   "yourWindow": {
+    "when": "right after his Q (Decisive Strike) is used or whiffs",
+    "what": "With the silence and move-speed burst gone for 8 seconds, he can't punish or escape a real trade. Stun with W (Ki Burst) and chain into Q (Broken Wings) charges while it's down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q silence and bonus damage punish short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Maxed E clears waves fast, passive outsustains"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Ultimate plus Ignite threatens a kill"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Riven's full combo and first item spike online"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Item spikes let Riven win extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 90% pick rate at 45.7% win rate reflects the standard answer to a lane where you need sustain through poke rather than a burst item you can't use safely yet."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Highest win rate of the boot options (47.3%); the ability haste shortens Q/W/E cooldowns so you can poke-and-reset more often against a champion who punishes standing still."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Anchors the highest-winrate core path (63.2% over 95 games) and gives the cooldown/mobility to keep disengaging."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Sustain and scaling damage to survive the poke phase before your kit fully comes online."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-to-heal conversion directly counters Garen's Perseverance sustain race in extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you get ahead early and want burst to punish a whiffed Q (Decisive Strike)"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he starts building health and armor to shrug off your poke"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you need more on-hit healing to survive the early trade phase"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through extended skirmishes and grants adaptive healing, directly offsetting Garen's Perseverance regen once a fight goes long enough for you to win it.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The overwhelming pick (93.8%) for this matchup; Ignite gives you kill pressure and grievous wounds to blunt his passive regen when he overextends a trade."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't stand and trade",
+    "detail": "Hit with Q (Broken Wings) and step out with E (Valor) instead of holding an extended trade. Garen's Perseverance heals him back the moment he stops taking damage, so sustained contact favors him."
+   },
+   {
+    "title": "Track his Q (Decisive Strike) cooldown",
+    "detail": "It's an 8-second cooldown. Once he's used it and the silence/move-speed burst is gone, you can trade freely without fear of a follow-up lockdown."
+   },
+   {
+    "title": "Respect the level 6-8 all-in",
+    "detail": "Once he hits 6, Demacian Justice paired with Ignite threatens an execute. Play for pokes, not all-ins, until you have E (Valor) ready to absorb his engage."
+   },
+   {
+    "title": "Save E (Valor) for his engage, not pre-emptively",
+    "detail": "Valor blocks incoming damage during the dash. Hold it to step through his Q auto or E (Judgment) spin rather than burning it early."
+   },
+   {
+    "title": "Build Runic Blade charges before committing",
+    "detail": "Charge your blade with Q/W/E so your empowered autos carry the trade. He has no ranged tool to interrupt your setup."
+   },
+   {
+    "title": "Full-combo only after his E (Judgment) is down",
+    "detail": "Judgment is his main sustained damage on a 13/12/11/10/9s cooldown. Commit your Q-W-E string right after he uses it, not before."
+   },
+   {
+    "title": "Play for scaling, not lane kills",
+    "detail": "With Garen favored for solo kills, avoid forcing all-ins early. Use Q's mobility to win tempo and rotate, and bank on your Death's Dance/Axiom Arc spike to flip 1v1s from level 9 onward."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, and win rates are pulled from measured games on the current patch (947 Riven vs Garen games); the mechanical reasoning and trade timing are our own tactical read."
+ },
+ "generatedAt": 1790769760856,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790769685059,
+  "overall": {
+   "winRate": 49.5,
+   "play": 28560,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 947,
+   "wins": 433,
+   "winRate": 45.7
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "defensive",
+  "opponentTip": "Use your abilities to attack and fall back periodically to prevent Garen from activating his passive ability. Be careful when Garen reaches level 6 and has Ignite.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.6,
+    "play": 1080,
+    "pickRate": 93.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.4,
+    "play": 37,
+    "pickRate": 3.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 60.7,
+    "play": 28,
+    "pickRate": 2.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.9,
+    "play": 465,
+    "pickRate": 38.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 37,
+    "play": 108,
+    "pickRate": 8.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 1048,
+    "pickRate": 90
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 30.2,
+    "play": 43,
+    "pickRate": 3.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 47.3,
+    "play": 601,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 42.2,
+    "play": 315,
+    "pickRate": 29.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 63.2,
+    "play": 95,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 60.9,
+    "play": 69,
+    "pickRate": 10.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 60.3,
+    "play": 68,
+    "pickRate": 10.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.6,
+    "play": 731,
+    "pickRate": 65
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 52.9,
+    "play": 588,
+    "pickRate": 52.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46.3,
+    "play": 560,
+    "pickRate": 49.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.3,
+    "play": 375,
+    "pickRate": 33.4
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 46.1,
+    "play": 295,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 44.7,
+    "play": 141,
+    "pickRate": 12.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.5,
+    "play": 413
+   }
+  ]
+ }
+}

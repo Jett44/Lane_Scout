@@ -1,0 +1,380 @@
+{
+ "you": "Riven",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if she lands Hookshot's knockup near a wall while your cooldowns are down; you win if you dump full Q charges into Ki Burst before her Adaptive Defenses shield goes up."
+  },
+  "thesis": "Nothing in the numbers favors either side — 49.1% over 579 games is a genuine coinflip. The lane is decided by two mechanical windows: whether you can land Broken Wings into Ki Burst before Camille's Adaptive Defenses shields her from the follow-up, and whether you're standing near a wall when her Hookshot is up.",
+  "tell": {
+   "watch": "Camille's E cooldown state",
+   "theirWindow": {
+    "when": "Her E and Q are both up",
+    "what": "Tactical Sweep's outer edge slows and adds bonus damage, and if you're near a wall inside her 800-range Hookshot, the knockup on landing chains straight into that slowed Q-empowered auto. Back off walls when both are ready."
+   },
+   "yourWindow": {
+    "when": "Conqueror is fully stacked",
+    "what": "Dump all three Broken Wings charges and follow with Ki Burst's stun the moment Conqueror is maxed — OP.GG's own read on this matchup is to spend abilities exactly here, and the stun stops her mid-Hookshot windup."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Hookshot knockup into Tactical Sweep lands first"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates online, trades level out"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse-Conqueror burst outpaces her scaling"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Comparable scaling, positioning decides"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run in 94.7% of games at a 49.9% win rate over 655 games — the sustain and early AD keep you even in the poke-trade phase before Camille's Hookshot comes online."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "The primary pick at 61.9% pick rate (48.7% win rate over 409 games) — the ability haste loops back into more frequent Broken Wings and Ki Burst resets for your Runic Blade trades."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The Eclipse-first path posts the best win rate of any listed build (64.3% over 42 games) — the shield and proc damage cover exactly the trade window where you're dumping Q charges into her."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Second item in the highest-win-rate path — sustains you through the poke phase before her all-in comes online at level 3-5."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the 64.3% win-rate path — the damage-over-time conversion lets you survive her delayed Q recast burst and win the extended fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Plated Steelcaps",
+     "when": "she is landing her empowered autos and Precision Protocol recasts consistently (51% win rate over 145 games, the auto-heavy alternative to Lucidity Boots)"
+    },
+    {
+     "item": "Axiom Arc",
+     "when": "you want the alternate top-performing path (Axiom Arc into Endless Hunger into Death's Dance, 50.7% over 71 games) instead of Eclipse"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and she's stacking armor to survive your Q-W bursts"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run in the higher-performing page (51.5% win rate, 41.6% pick rate) — the stacking directly gates your burst window, which is why watching your own stack count matters more than watching hers.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant pick at 96.3% pick rate (49.6% win rate) — Ignite punishes the all-in Camille commits to once her Hookshot is on cooldown after a failed engage."
+  },
+  "playing": [
+   {
+    "title": "Track your Runic Blade charges",
+    "detail": "Riven's passive charges her blade off ability casts, and her basic attacks consume those charges for bonus damage — always land an auto immediately after Broken Wings or Ki Burst, never before."
+   },
+   {
+    "title": "Bait her shield before committing",
+    "detail": "Camille's Adaptive Defenses shields her against your damage type right after she lands a basic attack on you. Take the first trade light, then dump your real burst once that shield has worn off."
+   },
+   {
+    "title": "Stay off walls when her E is up",
+    "detail": "Hookshot pulls her to a wall and knocks up anyone she lands on — fighting near terrain when her E is off cooldown turns a normal trade into a full combo against you."
+   },
+   {
+    "title": "Full-charge Q into W on Conqueror stacks",
+    "detail": "Wait for Conqueror to be maxed, then chain all three Broken Wings charges into Ki Burst's stun — this is the single highest-value window in the matchup per the measured data."
+   },
+   {
+    "title": "Save Valor for her delayed Q recast",
+    "detail": "Precision Protocol's recast does significantly more damage the longer she delays it — use Valor's damage block to eat that hit if you see her holding the recast."
+   },
+   {
+    "title": "Time your ult after her Hookshot is spent",
+    "detail": "Blade of the Exile gives you AD, range, and one Wind Slash cast — commit your all-in once she's used her 16-12s cooldown Hookshot and can't reposition to a new wall."
+   }
+  ],
+  "patchCaveat": "All win rates, item paths, boots, runes, and summoner spells above are measured from live OP.GG games on the current patch (579-game sample for this matchup). The mechanical reasoning — passive shield timing, Runic Blade sequencing, Hookshot positioning — is my own tactical read on top of that data."
+ },
+ "generatedAt": 1790770084152,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790770012434,
+  "overall": {
+   "winRate": 49.5,
+   "play": 28560,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 579,
+   "wins": 284,
+   "winRate": 49.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoiding Camille’s (E) is vital when fighting her. Use your abilities when your Conqueror’s stacks are raised to deal damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.6,
+    "play": 673,
+    "pickRate": 96.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 2.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 1.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.5,
+    "play": 295,
+    "pickRate": 41.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.6,
+    "play": 70,
+    "pickRate": 9.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 655,
+    "pickRate": 94.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 2.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48.7,
+    "play": 409,
+    "pickRate": 61.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51,
+    "play": 145,
+    "pickRate": 21.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 18.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 57.8,
+    "play": 45,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 64.3,
+    "play": 42,
+    "pickRate": 10.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 55.4,
+    "play": 435,
+    "pickRate": 64.6
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 54.8,
+    "play": 396,
+    "pickRate": 58.8
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.7,
+    "play": 317,
+    "pickRate": 47.1
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 47,
+    "play": 251,
+    "pickRate": 37.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.6,
+    "play": 95,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 55.4,
+    "play": 74,
+    "pickRate": 11
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 62.6,
+    "play": 235
+   }
+  ]
+ }
+}

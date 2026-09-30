@@ -1,0 +1,379 @@
+{
+ "you": "Riven",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk an empowered auto into an up Riposte or brawl through her level 6-11 Blade Waltz window; you win if you bait W (Riposte) with Q or W first and all-in the moment it's down."
+  },
+  "thesis": "Fiora's W (Riposte) parries the next basic attack, and Riven's entire damage pattern is built around Runic Blade-empowered autos, so Fiora's core defensive tool directly answers Riven's core damage tool. That's why this reads as even lane, 45.9% over 678 games, with solo-kill edge to Fiora and a defensive shape overall — Riven has to sequence around her cooldowns instead of just trading face to face.",
+  "tell": {
+   "watch": "Fiora's W (Riposte) cooldown",
+   "theirWindow": {
+    "when": "her W (Riposte, 10-6s CD) is up",
+    "what": "Don't lead with a basic attack. Riposte only parries basic attacks, not spells, so an auto-first engage gets denied and your Runic Blade charge wasted while she reflects damage back."
+   },
+   "yourWindow": {
+    "when": "she's just spent W or Q's double-dash",
+    "what": "Riposte and Lunge's free second dash (Q, 16-8s CD, 600 range, usable twice within a couple seconds) are both down. All-in with Q (Broken Wings) into W (Ki Burst) stun and let your empowered autos land clean."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Fiora's Q outranges your E; trade cautiously"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "her Riposte punishes early Ki Burst all-ins"
+   },
+   {
+    "levels": "6-11",
+    "edge": "them",
+    "note": "Blade Waltz online, her solo-kill window"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "your R cooldown drops, itemization catches up"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest-performing start at 46% over 752 games and 92.6% pick — the extra sustain and AD keep short trades even while you look for Riposte-down windows."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "46.9% over 461 games, 60.7% pick — the ability haste shortens Q/W/E cooldowns, which is what lets you re-bait and re-engage before her Riposte comes back up."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Best-performing path at 63.7% over 91 games — the cooldown reduction feeds your Q/W/E loop, which is your entire answer to her parry."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Early damage and healing that keeps pace with her Duelist passive sustain during extended trades."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage mitigation over time smooths out her level 6-11 Blade Waltz burst window, which is her real kill threat per the data."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to burst through her before she can set up Riposte (58.6% over 58 games as an alt path)"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her Duelist healing is stabilizing every trade and extending fights past your combo window"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and you need sustained DPS and armor shred in extended fights"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "her Burst of Speed auto-attack windows are doing more damage than her cooldown-based threats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the repeated Q/W/E trades this lane forces you into, and the adaptive force stacking helps you out-sustain her Duelist healing over a long fight — the higher-performing page (52.7% over 10.9% pick) runs this.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Dominant pick at 45.7% WR and 97.1% pick rate — Ignite cuts through her Duelist healing during your all-in window, which matters more here than in most matchups since she stacks sustain off every hit she lands."
+  },
+  "playing": [
+   {
+    "title": "Bait Riposte before you auto",
+    "detail": "Open trades with Q (Broken Wings, 13s CD) or W (Ki Burst) rather than a basic attack. Riposte only parries basic attacks — once it's spent, your empowered Runic Blade autos land freely."
+   },
+   {
+    "title": "Track her Q double-dash",
+    "detail": "Lunge (16-8s CD, 600 range) can fire twice within a couple seconds for free. If she's already used both charges, she has no gap-closer or escape until it resets."
+   },
+   {
+    "title": "Avoid trading into her E buff",
+    "detail": "Burst of Speed (15-11s CD) spikes her attack speed and, once she lands a hit, her move speed too. Don't extend a trade while it's visibly active."
+   },
+   {
+    "title": "Respect the level 6-11 kill window",
+    "detail": "Blade Waltz (130-110s CD, 400 range) is her stated solo-kill tool in this matchup. Don't push past the wave without a health buffer once she hits 6."
+   },
+   {
+    "title": "Use E to block, not just to gap-close",
+    "detail": "Valor (10-6s CD) blocks incoming damage during the dash step — use it to eat her Q or a key auto, not only to reposition."
+   },
+   {
+    "title": "Charge Runic Blade before entering range",
+    "detail": "Cast a spell before you're in auto range so your first hit is already empowered. Walking in auto-first is exactly what her Riposte punishes."
+   }
+  ],
+  "patchCaveat": "Build, runes, boots, summoners, and the win-rate figures above are measured from live games on the current patch via OP.GG. The cooldown windows, Riposte-baiting sequence, and power-curve read are my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1790769968115,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790769891568,
+  "overall": {
+   "winRate": 49.5,
+   "play": 28560,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 678,
+   "wins": 311,
+   "winRate": 45.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "defensive",
+  "opponentTip": "It is important to dodge Fiora’s (W). Use your abilities carefully while keeping an eye out for Vitals.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.7,
+    "play": 781,
+    "pickRate": 97.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 2.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 0.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.5,
+    "play": 282,
+    "pickRate": 33.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 52.7,
+    "play": 91,
+    "pickRate": 10.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46,
+    "play": 752,
+    "pickRate": 92.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 2.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 46.9,
+    "play": 461,
+    "pickRate": 60.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.6,
+    "play": 193,
+    "pickRate": 25.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 63.7,
+    "play": 91,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 58.6,
+    "play": 58,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 47.6,
+    "play": 42,
+    "pickRate": 9.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 51,
+    "play": 504,
+    "pickRate": 64.5
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 50.8,
+    "play": 447,
+    "pickRate": 57.2
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 44.6,
+    "play": 352,
+    "pickRate": 45.1
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 48.7,
+    "play": 304,
+    "pickRate": 38.9
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 47.8,
+    "play": 113,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 45.2,
+    "play": 84,
+    "pickRate": 10.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.8,
+    "play": 278
+   }
+  ]
+ }
+}

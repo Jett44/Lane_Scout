@@ -1,0 +1,383 @@
+{
+ "you": "Renekton",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, aggressive",
+   "line": "You lose if you let Riven farm to a maxed Conqueror proc and free-cast her full Q-W combo while your Fury sits banked; you win if you spend Fury the instant it crosses 50 to chain empowered W stuns into Q bursts."
+  },
+  "thesis": "Renekton's whole trade pattern hinges on the 50 Fury threshold: above it, W (Ruthless Predator) becomes a 3-hit that strips shields and stuns for 1.5s instead of 0.75s, and Q (Cull the Meek) hits harder and heals more. Riven's threat scales with her own resource — Runic Blade charges from landing abilities, plus stacked Conqueror — and her E (Valor) lets her block a chunk of your damage mid-engage. At 53.8% over 1077 games with lane and solo-kill advantage, this is a matchup Renekton is supposed to win, provided he dumps Fury off cooldown rather than hoarding it.",
+  "tell": {
+   "watch": "Riven's Conqueror stack count",
+   "theirWindow": {
+    "when": "Riven fully stacked with Q charges and E up",
+    "what": "She can all-in with the full Broken Wings (Q) combo into Ki Burst (W) for the stun, using Valor (E) to soak part of your damage mid-fight. Don't force a trade into a fresh E — wait for her to spend it first."
+   },
+   "yourWindow": {
+    "when": "Your Fury is above 50 with W/E off cooldown",
+    "what": "Walk up and open with the empowered W for the 1.5s stun and shield-strip, then follow with the boosted Q for the extra damage and heal. This is the exact window OP.GG's own data flags: use abilities the moment Fury is full instead of sitting on it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her Q-W stun combo and Conqueror ramp outtrade you first"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W/E ranked up, Fury-empowered stuns swing trades"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R sustains fights, Eclipse spike outpaces her burst"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Blade of Exile refresh on kills lets her snowball"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The dominant start at 54.9% over 1119 games and 84% pick rate — the extra sustain and early damage matter since you're trading into her poke before your Fury threshold is reliably up."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "84% pick and 54.4% win rate over 1102 games — the flat physical damage reduction blunts Riven's Runic Blade-empowered autos during extended trades."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Highest-picked and best-performing core start (57.1% over 231 games) — the shield and proc reward exactly the burst-trade pattern your empowered W/Q combo creates."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacks armor shred on top of your empowered E's own shred, compounding your burst against her limited defenses."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Rounds out the top-performing three-item path (57.1% over 231 games) — the damage-over-time conversion keeps you alive through her Wind Slash burst once she hits R."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need to survive dives or all-ins after picking up an early kill"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're snowballing and want more ability haste to chain empowered combos faster (67.3% win rate over 55 games on this path)"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks crowd control beyond Riven's own stun"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want to split push and need a slow to stick to targets"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "The higher-performing page (57.5% over its sample vs. 51.8% for the Conqueror page) — its burst on the third hit lines up with your empowered W's multi-slash rather than rewarding the longer extended fights Conqueror wants.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The clear standard at 86.9% pick and 54.5% win rate — with a measured solo-kill advantage in this matchup, Ignite lets you close out the empowered-W all-in before Riven can sustain or flash away."
+  },
+  "playing": [
+   {
+    "title": "Engage after her third Q charge",
+    "detail": "Riven's Q (Broken Wings) has three charges on a 13s cooldown as a set; once she's burned all three without a takedown reset, walk up and start your empowered combo before she has a dash back."
+   },
+   {
+    "title": "Wait out her Valor",
+    "detail": "E (Valor) lets her dash forward while blocking incoming damage. Don't dump your Fury-stacked W into a fresh Valor cast — bait it or wait for her to have used it already."
+   },
+   {
+    "title": "Play safe before level 3",
+    "detail": "Before your W and E are past rank one, Riven's Q-W stun chain plus early Conqueror procs can out-damage you. Farm with auto-attacks and Q pokes only until you hit level 3."
+   },
+   {
+    "title": "Spend Fury, don't bank it",
+    "detail": "The moment Fury crosses 50, both Q and W upgrade meaningfully. Use them off cooldown at that threshold instead of waiting to stack more — this is the exact behavior OP.GG's data calls out for this matchup."
+   },
+   {
+    "title": "Track her Conqueror stacks",
+    "detail": "A maxed Conqueror proc spikes her sustained damage and healing hard. If she's fully stacked from farming or poking, shorten your trades or wait for jungle pressure instead of dueling into it."
+   },
+   {
+    "title": "Force fights after level 6",
+    "detail": "R (Dominus) gives bonus health and periodic Fury generation, letting you win extended fights even against her Blade of the Exile burst. Look to initiate post-6 rather than play passive."
+   },
+   {
+    "title": "Land empowered E for the shred",
+    "detail": "The second cast of E (Slice and Dice) reduces the Armor of units it hits. Weave it into your all-in combo so the follow-up empowered W and Q land harder."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win-rate figures are measured from live OP.GG games on the current patch; the trade-pattern reasoning, timing windows, and combo priority are this brief's own tactical read."
+ },
+ "generatedAt": 1790769578968,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790769498149,
+  "overall": {
+   "winRate": 49.6,
+   "play": 66197,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1077,
+   "wins": 579,
+   "winRate": 53.8
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep an eye out for Riven’s Conqueror stacks before engaging her. Use your abilities off cooldown whenever Fury is full to easily gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.5,
+    "play": 1152,
+    "pickRate": 86.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.2,
+    "play": 86,
+    "pickRate": 6.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 54.3,
+    "play": 81,
+    "pickRate": 6.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.8,
+    "play": 521,
+    "pickRate": 38
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.5,
+    "play": 252,
+    "pickRate": 18.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.9,
+    "play": 1119,
+    "pickRate": 84
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 142,
+    "pickRate": 10.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.4,
+    "play": 1102,
+    "pickRate": 85.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 58,
+    "play": 157,
+    "pickRate": 12.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 57.1,
+    "play": 231,
+    "pickRate": 28.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.1,
+    "play": 77,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 67.3,
+    "play": 55,
+    "pickRate": 6.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54.5,
+    "play": 1089,
+    "pickRate": 84.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 56.9,
+    "play": 772,
+    "pickRate": 59.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.6,
+    "play": 646,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58.1,
+    "play": 320,
+    "pickRate": 24.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 59.9,
+    "play": 284,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 57.7,
+    "play": 111,
+    "pickRate": 8.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.9,
+    "play": 264
+   }
+  ]
+ }
+}
