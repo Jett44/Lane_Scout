@@ -1,0 +1,388 @@
+{
+ "you": "Renekton",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you throw Q or W into a charged Defiant Dance or engage below 50 Fury; you win if you force the fight the moment her E (Flawless Duet) is down and your Fury is stacked."
+  },
+  "thesis": "This lane is a genuine coinflip, not a stat advantage for either side: Renekton's win condition is landing his 50-Fury threshold on W (Ruthless Predator) and E (Slice and Dice) inside her cooldown windows, while Irelia's is sustaining through Q (Bladesurge) heals and shrugging off damage during W (Defiant Dance) charges. Whoever tracks the other's cooldowns and resource bar more precisely wins the exchange, which is exactly why the numbers land at 50.9%.",
+  "tell": {
+   "watch": "Irelia's Ionian Fervor stack count",
+   "theirWindow": {
+    "when": "She channels W (Defiant Dance)",
+    "what": "She takes reduced physical damage while charging, so any Q or W you throw into it is wasted; step out of range or hold your combo, then punish immediately after since Defiant Dance's cooldown (20/18/16/14/12s) leaves her without it for a while."
+   },
+   "yourWindow": {
+    "when": "Your Fury bar is above 50",
+    "what": "W upgrades to a 3-hit, 1.5s stun that destroys shields instead of the base 0.75s stun, and Q's damage and heal both increase; bank Fury on autos before you commit, then chain empowered W into empowered E for a full stun-lock trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a stun or dash online yet."
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W stun comes online, punishes her cooldowns hard."
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Dominus grants Health and Fury regen for all-ins."
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Fury thresholds and item spikes trade off evenly."
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Her max passive stacks match your item scaling."
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run by 83.8% of Renektons in this matchup (51.2% WR over 1161 games) because the extra sustain and stats matter when your W requires standing at 300 range to land the stun."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "The dominant pick (89.5% pick rate, 51.9% WR over 1182 games); Irelia's damage comes from stacked Ionian Fervor autos, so flat physical reduction directly blunts her scaling."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "First item in the most-played and highest win-rate path (60.5% over 172 games); the burst-damage proc rewards landing your stun combo."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred compounds with your empowered E's own Armor reduction, letting your later autos and W hit harder through her defenses."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the most-sampled core build; the damage-over-time conversion lets you win extended trades against her Q sustain instead of losing the burst race."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you need more survivability against burst or all-in pressure (68.3% WR over 82 games in this alt path)"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want to snowball cooldowns and damage faster (58.3% WR over 36 games in this alt path)"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "her Q (Bladesurge) healing and resets are keeping her alive through your trades"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks hard crowd control alongside her E (Flawless Duet) stun"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The most-played page (39.4% pick, 51.8% WR); Conqueror's stacking healing rewards the repeated Q/W/E trades this matchup forces, keeping you ahead in fights that run past the first stun since Irelia's own Q heal and W damage reduction extend skirmishes.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick (89.9% pick rate, 51.9% WR); Ignite converts your Fury-stacked all-ins into kills in a matchup with no clean kill edge, and Flash covers the gap when your E (450 range) can't quite reach a retreating target."
+  },
+  "playing": [
+   {
+    "title": "Bait her W before all-in",
+    "detail": "Defiant Dance reduces the physical damage she takes while charging, so don't throw Q or W into it; wait it out or disengage, then punish once it's down since its cooldown (20/18/16/14/12s) leaves her exposed."
+   },
+   {
+    "title": "Track her E cooldown",
+    "detail": "Flawless Duet stuns and Marks on hit with a 16/14.5/13/11.5/10s cooldown; once it's used, she loses her stun tool and her Q reset setup, making this your best window to commit."
+   },
+   {
+    "title": "Hold W until 50+ Fury",
+    "detail": "Below 50 Fury, Ruthless Predator only stuns 0.75s over two hits; above 50 it becomes a 1.5s, three-hit stun that also destroys shields, letting you land a full follow-up combo instead of a half-trade."
+   },
+   {
+    "title": "Don't feed Q resets",
+    "detail": "Bladesurge refreshes its cooldown if it hits a Marked target or kills, so if her E has just Marked you, disengage rather than trading through it and handing her a free reset."
+   },
+   {
+    "title": "Empower E for the armor shred",
+    "detail": "Slice and Dice above 50 Fury deals bonus damage and lowers Armor on hit; bank Fury on autos first so the dash lands empowered and softens her for the stun that follows."
+   },
+   {
+    "title": "Use Dominus to force all-ins",
+    "detail": "Dominus grants bonus Health and periodic Fury generation once it comes online at level 6, letting you commit to extended fights she can't out-sustain even with her Q heal."
+   },
+   {
+    "title": "End fights fast past max stacks",
+    "detail": "At maximum Ionian Fervor stacks she gains bonus on-hit damage plus attack speed, so a fight that runs past 4-5 exchanged hits starts favoring her; close it out with your stun-lock burst rather than trading toe-to-toe."
+   }
+  ],
+  "patchCaveat": "The build order, boots, runes and summoner spells above are pulled directly from measured games on the current patch at this matchup's sample sizes; the cooldown-tracking and trade-window reasoning is my own read of the kit, not part of the stat line."
+ },
+ "generatedAt": 1790751568759,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790751488026,
+  "overall": {
+   "winRate": 49.6,
+   "play": 64839,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1147,
+   "wins": 584,
+   "winRate": 50.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Keep an eye out on Irelia’s (P) stacks before engaging combat. Slowly build up Fury and avoid using your skills when Irelia uses (W).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.9,
+    "play": 1232,
+    "pickRate": 89.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.5,
+    "play": 93,
+    "pickRate": 6.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 41.5,
+    "play": 41,
+    "pickRate": 3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.8,
+    "play": 558,
+    "pickRate": 39.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 185,
+    "pickRate": 13.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 1161,
+    "pickRate": 83.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.1,
+    "play": 143,
+    "pickRate": 10.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.9,
+    "play": 1182,
+    "pickRate": 89.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 59.4,
+    "play": 128,
+    "pickRate": 9.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 60.5,
+    "play": 172,
+    "pickRate": 21.8
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 68.3,
+    "play": 82,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 58.3,
+    "play": 36,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 53.9,
+    "play": 1055,
+    "pickRate": 77.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55,
+    "play": 858,
+    "pickRate": 62.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.9,
+    "play": 534,
+    "pickRate": 39
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58.4,
+    "play": 341,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 57.4,
+    "play": 272,
+    "pickRate": 19.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50.5,
+    "play": 190,
+    "pickRate": 13.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55,
+    "play": 333
+   }
+  ]
+ }
+}

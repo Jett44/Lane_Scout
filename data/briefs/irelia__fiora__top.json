@@ -1,0 +1,376 @@
+{
+ "you": "Irelia",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into an open Riposte or facecheck her double Lunge; you win if you land E first and snowball the stun into a Q reset."
+  },
+  "thesis": "Irelia and Fiora are both melee dash-duelists whose damage lives in cooldowns rather than stat checks, and the 46.2% win rate over 1122 games says the deciding factor is engage discipline, not raw power. Fiora's W (Riposte) punishes any auto-attack-first trade by boosting her AD and reflecting the next basic hit, so the lane is won or lost on whether you engage with a spell (E) or with your hand on right-click.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "Riposte is up, she Lunges (Q) in",
+    "what": "She can bait an auto with the parry then follow the free second Lunge dash for a big burst-heal trade off her Duelist passive. Back off basic attacks and let the Riposte window (10/9/8/7/6s CD) expire before you commit."
+   },
+   "yourWindow": {
+    "when": "Riposte on cooldown, you have 4 passive stacks",
+    "what": "Open with E (Flawless Duet, 850 range) to stun and Mark her, then Q (Bladesurge) in — the Mark refreshes your Q cooldown instantly for a second strike and heal, and your maxed passive stacks add bonus on-hit damage to the combo."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both dash-dependent, waveclip and cooldowns decide first trades"
+   },
+   {
+    "levels": "3-6",
+    "edge": "them",
+    "note": "double Lunge poke and Riposte punish careless auto trades"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "both ultimates online, all-in windows trade evenly"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "BORK/Hullbreaker sustain out-scales her diminishing Blade Waltz"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 47% win rate over 1150 games on this start exists because the lifesteal offsets Fiora's Duelist self-heal in extended trades — you need sustain parity, not burst, to survive to level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "89.2% pick and 47.6% win rate — flat physical reduction directly cuts the value of every auto Fiora lands to build her Duelist stacks."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Current-health damage plus the slow proc lets you punish her low-mobility windows after she burns both Lunge charges"
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Highest-winrate path (56% over 193 games) — scales your split-push threat once the lane stabilizes past level 11"
+    },
+    {
+     "item": "Wit's End",
+     "why": "Magic resist and attack speed keep your passive stacking online while denying her any hybrid poke"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you are behind on cooldowns and need to survive her all-in windows instead of racing damage"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you are ahead after level 6 and want to close out fights before her Blade Waltz cooldown (130/120/110s) resets"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her Duelist passive sustain is keeping her alive through your combos"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Both champions win through sustained skirmishing rather than one burst window, so the healing and adaptive force from stacked Conqueror directly counters her Duelist regen in prolonged trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The 88% pick rate reflects the matchup's kill pressure once you land E — Ignite shuts down her Duelist sustain heal exactly when you need the stun-to-Q burst to close."
+  },
+  "playing": [
+   {
+    "title": "Engage with E, never with autos",
+    "detail": "Walking an auto into an up Riposte gives her bonus AD and a free reflected hit. Open trades with E (850 range) so the stun lands before she can react."
+   },
+   {
+    "title": "Chain E into Q for the reset",
+    "detail": "Any target Marked by E refreshes Bladesurge's cooldown on hit, letting you dash-strike-heal twice in one trade window."
+   },
+   {
+    "title": "Respect the double Lunge",
+    "detail": "Fiora can dash a second time within a couple seconds at no mana cost. If you dodge the first Q, hold position — the follow-up is still coming."
+   },
+   {
+    "title": "Track your own 4-stack passive",
+    "detail": "Ionian Fervor caps for bonus on-hit damage at max stacks; delay your all-in a beat if you're one auto short of the cap."
+   },
+   {
+    "title": "Charge W to eat her burst",
+    "detail": "Defiant Dance reduces physical damage taken while charging — hold it for her Blade Waltz (R) or a double-Lunge all-in rather than firing it early for poke."
+   },
+   {
+    "title": "Don't chase past her E speed window",
+    "detail": "Burst of Speed stacks move speed on every landed attack or Lunge; if she's already popped it, you likely can't catch the kill — reset instead."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and the 46.2% head-to-head figure are measured from live OP.GG games on the current patch; the trade-pattern and cooldown-window reasoning above is my own read of the ability kits, not sourced data."
+ },
+ "generatedAt": 1790751972781,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790751913169,
+  "overall": {
+   "winRate": 50.4,
+   "play": 53924,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1122,
+   "wins": 518,
+   "winRate": 46.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be caution of being hit with Fiora’s Reposte (W). Use [E] to engage when Irelia has 4 stacks [P] prepared while keeing her Reposte and Vitals in mind.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.2,
+    "play": 1123,
+    "pickRate": 88
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.2,
+    "play": 89,
+    "pickRate": 7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.3,
+    "play": 59,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 51.1,
+    "play": 446,
+    "pickRate": 33.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 39.8,
+    "play": 236,
+    "pickRate": 17.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47,
+    "play": 1150,
+    "pickRate": 88.7
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 40.2,
+    "play": 92,
+    "pickRate": 7.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.6,
+    "play": 1093,
+    "pickRate": 89.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.3,
+    "play": 87,
+    "pickRate": 7.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 56,
+    "play": 193,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 47.7,
+    "play": 153,
+    "pickRate": 18.7
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 51.3,
+    "play": 117,
+    "pickRate": 14.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 47.7,
+    "play": 1226,
+    "pickRate": 97.4
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 51.9,
+    "play": 665,
+    "pickRate": 52.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 50.9,
+    "play": 519,
+    "pickRate": 41.2
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 49.3,
+    "play": 400,
+    "pickRate": 31.8
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 54.8,
+    "play": 356,
+    "pickRate": 28.3
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 36.4,
+    "play": 162,
+    "pickRate": 12.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50.2,
+    "play": 219
+   }
+  ]
+ }
+}

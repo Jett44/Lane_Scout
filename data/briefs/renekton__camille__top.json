@@ -1,0 +1,382 @@
+{
+ "you": "Renekton",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Yours to press",
+   "line": "You lose if you let her land Hookshot off a wall into a free combo; you win if you force the all-in before she resets away with Q."
+  },
+  "thesis": "Renekton's kit has a hard Fury threshold: past 50 Fury his W (Ruthless Predator) goes from a two-hit stun to a three-hit stun that strips shields, which is exactly what shreds Camille's passive Adaptive Defenses shield mid-trade. That mechanical edge is why Renekton holds lane advantage and the solo-kill edge here, but Camille's Q (Precision Protocol) delayed-recast scaling and Hookshot (E) knockup keep the head-to-head at a near-even 49.5% over 1504 games — she claws back what she loses in the early trades once she hits 6.",
+  "tell": {
+   "watch": "Renekton's Fury bar (50)",
+   "theirWindow": {
+    "when": "After she Hookshots off a wall near you",
+    "what": "Camille's E (Hookshot) knocks you up on landing at up to 800 range; she'll chain that into W (Tactical Sweep) and an empowered Q (Precision Protocol) auto while you're locked down, and from level 6 on she can follow with R (The Hextech Ultimatum) to anchor you in place for the full combo."
+   },
+   "yourWindow": {
+    "when": "Once your Fury is above 50 and E is up",
+    "what": "Dash in with E (Slice and Dice) to close the gap, then land the empowered W (Ruthless Predator) — three slashes, 1.5s stun, and it destroys her passive shield outright — before she can get a Q recast off. Her E is on a 16-12s cooldown, so if she's already used Hookshot to reposition or farm, she has no knockup to save her."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither stun-lock combo nor Q reset is online yet."
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W ranks up, E-into-W all-ins hit hardest."
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R (Hextech Ultimatum) lets her force extended fights."
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse and Black Cleaver online, Fury sustained."
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Full builds, Q resets and Death's Dance offset each other."
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run in 82.4% of games at a 50.8% win rate — the extra sustain and AD feed your early Q (Cull the Meek) poke-and-heal pattern."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked in 81.4% of games for a 52.2% win rate — Camille is an auto-attack-reliant AD threat, and the flat reduction blunts her Q-empowered and R-empowered autos."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "First item in the most-played and best-performing path (55.6% win rate, 261 games) — spikes your burst right when you're already ahead in trades."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second item in the same path — stacking armor shred compounds with your E's own armor reduction on empowered hits."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the top-performing core (55.6% over 261 games) — the extra sustain matters once Camille starts landing empowered Q autos and R magic damage on top of her basics."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "she's landing her full Hookshot-into-R combo on you and you need to survive burst instead of just outlasting it"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're already ahead and want to shorten your W and E cooldowns for a faster stun-lock chain in extended fights"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need to catch her Q-empowered movement speed bursts or chase down a losing Camille before she resets"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run in the higher win-rate page (52.3%, 34.6% pick) — the stacking adaptive damage and healing directly offsets Camille's W (Tactical Sweep) self-heal and passive shield in a prolonged trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is run in 85.8% of games (50.2% win rate) and lines up with your solo-kill advantage — take it to close out level 3-5 all-ins before she can trade back. Flash + Teleport (12.6% pick, 49.3% win rate) is the fallback if you'd rather scale and stay relevant to sidelanes."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q on cooldown",
+    "detail": "Cull the Meek is only a 7s cooldown and heals you — throw it out whenever she's in your 325 range to stack Fury and offset her passive shield's sustain before she can even proc it twice."
+   },
+   {
+    "title": "Save E for punishing her Q recast",
+    "detail": "Her Q (Precision Protocol) does its big damage if she delays the recast — dash in with Slice and Dice while she's holding that window open so she either whiffs it or takes the empowered W stun before it lands."
+   },
+   {
+    "title": "Track her E before you commit",
+    "detail": "Hookshot is 16-12s on cooldown and only knocks up off a wall — if she's near a wall and it's up, don't extend your trade; wait for it to go on cooldown from farming or repositioning first."
+   },
+   {
+    "title": "All-in the instant Fury crosses 50",
+    "detail": "Your W becomes a three-hit, 1.5s stun that destroys her passive shield outright — this is the single biggest swing point in the matchup, so track your own Fury bar over anything on her side."
+   },
+   {
+    "title": "Respect her ultimate timer from level 6",
+    "detail": "The Hextech Ultimatum is 140/115/90s early — once you've seen her use it, you have a long window where she has no forced-engage tool, which is your best time to shove and all-in again."
+   },
+   {
+    "title": "Don't fight into a fresh W (Tactical Sweep)",
+    "detail": "The outer half of her cone slows and deals extra damage while healing her — if she's just landed it on you, back off half a second rather than immediately trading through the heal."
+   }
+  ],
+  "patchCaveat": "Every item, rune, and summoner pick above comes from measured Renekton vs Camille games on the current patch (16.19.1) via OP.GG; the timing windows and mechanical reasoning are my own read on how the abilities interact."
+ },
+ "generatedAt": 1790750840349,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790750759388,
+  "overall": {
+   "winRate": 49.6,
+   "play": 64839,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1504,
+   "wins": 744,
+   "winRate": 49.5
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being hit with Camille’s (E). Use Renekton’s reinforced [W] to destroy the shield on (P) and to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.2,
+    "play": 1483,
+    "pickRate": 85.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.3,
+    "play": 217,
+    "pickRate": 12.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.3,
+    "play": 619,
+    "pickRate": 34.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.2,
+    "play": 249,
+    "pickRate": 13.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 1446,
+    "pickRate": 82.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 268,
+    "pickRate": 15.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.2,
+    "play": 1332,
+    "pickRate": 81.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.4,
+    "play": 266,
+    "pickRate": 16.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 55.6,
+    "play": 261,
+    "pickRate": 25.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 52.1,
+    "play": 146,
+    "pickRate": 14.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 54.7,
+    "play": 64,
+    "pickRate": 6.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 50.2,
+    "play": 1422,
+    "pickRate": 83
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.7,
+    "play": 1073,
+    "pickRate": 62.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.8,
+    "play": 658,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.7,
+    "play": 490,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.3,
+    "play": 370,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50,
+    "play": 152,
+    "pickRate": 8.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.6,
+    "play": 469
+   }
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "you": "Irelia",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, mechanical",
+   "line": "You lose if you feed Q into a 50+ Fury Renekton with W up; you win if you all-in only after Cull the Meek, Ruthless Predator, and Slice and Dice are all on cooldown."
+  },
+  "thesis": "This matchup is a race between two cooldown-gated all-in kits, and the deciding variable is Renekton's Fury bar: below 50 Fury his W (Ruthless Predator) is just a 0.75s double-slash stun, but at 50+ it becomes a 1.5s triple-slash that destroys shields and doubles his Q (Cull the Meek) damage and heal. Irelia's W (Defiant Dance) reduces physical damage taken while charging, which is the direct counter to that empowered burst window if you time it right.",
+  "tell": {
+   "watch": "Renekton's Fury bar (50+)",
+   "theirWindow": {
+    "when": "Fury is 50+ and W is up",
+    "what": "His Ruthless Predator becomes a three-hit, 1.5s stun that shreds shields, and Cull the Meek's damage and heal both spike. Do not trade auto-for-auto into this state — back off and let his Fury bleed down instead."
+   },
+   "yourWindow": {
+    "when": "his Q, W, and E are all on cooldown",
+    "what": "Cull the Meek is only a 7s cooldown so it's easy to bait out, but once his W (16-8s) and Slice and Dice (16-10s) are also down he has no stun and no gap-closer. Stack 4 Ionian Fervor charges and dash in with Q (Bladesurge) — this is OP.GG's own read on the lane, and it's the correct one."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cull the Meek AoE sustain beats your ranged pokes"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "double-slash W plus E dash threatens real all-ins"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "both ultimates online, passive stacks start snowballing"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Q/E cooldowns near minimum, BORK on-hit takes over"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "his 80s R uptime makes extended brawls risky again"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 47.9% win rate, 91.6%-pick start — the sustain offsets Cull the Meek's constant AoE chip and his Fury-fueled auto trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "89.2% pick, 48.8% win rate — flat physical reduction directly answers his auto-attack Fury generation and his slash-stun combos."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Current-health damage plus the slow undercuts his Slice and Dice dash-away and answers his Q lifesteal."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Part of the highest-sample core path (BORK into Hullbreaker into Death's Dance, 59.5% win rate over 195 games) and scales your side-lane duels."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion smooths his burst windows, especially the empowered W all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "he starts building early armor and you need attack speed and magic damage to keep trading"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you want the alternate 49.5%-win-rate path with more consistent burst over Hullbreaker's split-push scaling"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "he's ahead and Dominus all-ins are threatening to end fights outright"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The higher-win-rate page (48.1% over the 33.3%-pick sample) — Conqueror's stacking heal matches Irelia's extended-trade pattern and offsets Renekton's Fury-fueled sustain.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick at 84.3% and 48.9% win rate — Ignite punishes his Cull the Meek sustain and low-Fury all-ins, Flash lets you reset a Bladesurge angle or escape his Slice and Dice engage."
+  },
+  "playing": [
+   {
+    "title": "Track Fury, not just health",
+    "detail": "Once his Fury crosses 50, W becomes a three-hit 1.5s stun that strips shields and his Q heal doubles. Don't extend an even trade into that state — disengage and let it decay."
+   },
+   {
+    "title": "Bait Cull the Meek first",
+    "detail": "It's only a 7s cooldown so it's the easiest ability to force out. Wait until Ruthless Predator (16-8s) and Slice and Dice (16-10s) are both down before committing Q."
+   },
+   {
+    "title": "Charge W into his combo",
+    "detail": "Defiant Dance reduces physical damage taken while charging — start it the moment he commits Slice and Dice or Ruthless Predator, not after you're already hit."
+   },
+   {
+    "title": "Chain E into free Q resets",
+    "detail": "Flawless Duet's stun applies a Mark; landing Q on a Marked target refreshes its cooldown instantly, so stun-into-Q is your fastest damage window."
+   },
+   {
+    "title": "Respect level 2-3 all-ins",
+    "detail": "Once he has W rank 2 plus E, the double-stun into dash is a real kill threat while your E is still on its 16s rank-1 cooldown. Don't overextend before level 3."
+   },
+   {
+    "title": "Play around Dominus after 6",
+    "detail": "His R grants bonus health, AoE damage, and passive Fury generation. Once it's up, avoid extended brawls — burst him before it activates or disengage entirely."
+   },
+   {
+    "title": "Stack passive before engaging",
+    "detail": "Build Ionian Fervor to 4 stacks off Q and E hits before committing so your attack speed scaling outpaces his raw slash damage in the extended trade."
+   }
+  ],
+  "patchCaveat": "Build order, rune pages, and every win rate cited here are measured from live games on the current patch (1141-game sample for this matchup); the mechanical reasoning — Fury thresholds, cooldown windows, and trade timing — is our own tactical read, not part of the sampled data."
+ },
+ "generatedAt": 1790752298080,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790752225557,
+  "overall": {
+   "winRate": 50.4,
+   "play": 53924,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1141,
+   "wins": 562,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Absorb Renekton’s skill damage with a well-timed [W]. Engage aggressively with 4 stacks [P] ready whenever Renekton’s skills are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 1183,
+    "pickRate": 84.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.4,
+    "play": 146,
+    "pickRate": 10.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41.9,
+    "play": 74,
+    "pickRate": 5.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.1,
+    "play": 484,
+    "pickRate": 33.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.7,
+    "play": 347,
+    "pickRate": 23.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.9,
+    "play": 1301,
+    "pickRate": 91.6
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 56.6,
+    "play": 76,
+    "pickRate": 5.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.8,
+    "play": 1218,
+    "pickRate": 89.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 42.3,
+    "play": 111,
+    "pickRate": 8.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 50.7,
+    "play": 219,
+    "pickRate": 25
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 59.5,
+    "play": 195,
+    "pickRate": 22.3
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 49.5,
+    "play": 93,
+    "pickRate": 10.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 49.4,
+    "play": 1347,
+    "pickRate": 98.2
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 51,
+    "play": 800,
+    "pickRate": 58.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.1,
+    "play": 559,
+    "pickRate": 40.7
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 53.2,
+    "play": 421,
+    "pickRate": 30.7
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 51.6,
+    "play": 339,
+    "pickRate": 24.7
+   },
+   {
+    "items": [
+     "Guardian Angel"
+    ],
+    "winRate": 58.3,
+    "play": 103,
+    "pickRate": 7.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.8,
+    "play": 326
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Irelia",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Tight underdog",
+   "line": "You lose if you stand and auto-trade while Jax's Counter Strike is up and let Relentless Assault ramp; you win if you burst him down with Q-E the moment his E is on cooldown."
+  },
+  "thesis": "Jax's E (Counter Strike) dodges all incoming basic attacks and reduces AoE damage, so trading autos into it is punished, but Irelia's Q (Bladesurge) is a targeted dash-strike, not a basic attack, so it goes through untouched. The entire lane is a question of whose cooldown is up: his E or your Q/E combo.",
+  "tell": {
+   "watch": "Jax's Counter Strike (E) cooldown",
+   "theirWindow": {
+    "when": "his E and W (Empower) are both up",
+    "what": "He baits you into an auto trade, dodges it with Counter Strike, then stuns and follows with an empowered attack. Do not extend an auto exchange here."
+   },
+   "yourWindow": {
+    "when": "his E (Counter Strike) is on cooldown",
+    "what": "All-in immediately: E (Flawless Duet) to stun and Mark him, then Q (Bladesurge) to dash in, heal, and refresh Q's cooldown off the Mark."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Leap Strike engage plus Counter Strike punishes early all-ins"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Your full combo and R online closes the gap"
+   },
+   {
+    "levels": "7-12",
+    "edge": "even",
+    "note": "Blade of the Ruined King and Hullbreaker start swinging duels"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "On-hit build outscales his flat attack-speed passive"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The highest-picked, highest-winrate start in this matchup (86.8% pick, 47.4% WR over 1,478 games) — the sustain matters because Jax's Leap Strike lets him force early trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "79.4% pick and top winrate; flat physical damage reduction blunts both his empowered autos and his Relentless Assault attack-speed ramp."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Percent-health damage and the on-hit slow let you win extended skirmishes without needing to land a perfect all-in."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Appears in both top build paths (56% and 54.2% WR); lets you split and punish him for not having a real engage tool once Counter Strike is down."
+    },
+    {
+     "item": "Wit's End",
+     "why": "Completes the highest-winrate path (56% over 257 games); the attack speed and magic resist keep your Passive stacks up through his sustained pressure."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you want damage mitigation over attack speed against a dive-heavy enemy comp"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you're already ahead in lane and want to close out duels faster than the Hullbreaker path allows"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team has heavy crowd control beyond just Jax's Counter Strike"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "you're the primary dive target in the mid-late game"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror rewards committed, extended melee engagements — exactly the all-in you're taking the instant Jax's Counter Strike goes on cooldown — and its adaptive healing offsets his lack of sustain in the fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the most-picked (70.4%) and highest-winrate (48%) combo here — Ignite punishes the all-in kills you get by timing your engage to his Counter Strike cooldown, since he has no healing to answer it."
+  },
+  "playing": [
+   {
+    "title": "Play for Counter Strike's cooldown",
+    "detail": "Jax's E (Counter Strike, 18/16/14/12/10s CD) is his only stun and his only way to dodge autos. When it's down, he has nothing to punish your all-in."
+   },
+   {
+    "title": "Bladesurge through his dodge stance",
+    "detail": "Counter Strike dodges basic attacks, not targeted spell strikes — Q (Bladesurge) still lands even while he's stanced, so it's safe to use to reposition or reset."
+   },
+   {
+    "title": "Never stand and auto-trade",
+    "detail": "His passive, Relentless Assault, gains attack speed on every strike with bonus damage on every third hit — the longer an auto exchange runs, the worse it gets for you. Win fast with spells."
+   },
+   {
+    "title": "Block the empowered auto with charged W",
+    "detail": "Jax's W (Empower, 7/6/5/4/3s CD) buffs his next attack. When you see it come up, charge W (Defiant Dance) — it reduces physical damage taken while charging and absorbs the hit."
+   },
+   {
+    "title": "Bank Passive stacks before skirmishes",
+    "detail": "Keep Ionian Fervor stacked going into any trade so you already have the bonus attack speed and on-hit damage live the moment his E is down."
+   },
+   {
+    "title": "Mark before you dash",
+    "detail": "E (Flawless Duet) stuns and Marks — landing it first means your follow-up Q (Bladesurge) refreshes its own cooldown off the Mark, letting you chain in and out safely."
+   },
+   {
+    "title": "Respect his early Leap Strike",
+    "detail": "Jax's Q (Leap Strike, 17/14/11/8/5s CD, range 700) closes distance fast at levels 1-3, matching the data's early solo-kill edge for him — don't overextend for CS in this window."
+   }
+  ],
+  "patchCaveat": "The build order, runes, summoners, and win-rate figures are pulled directly from measured games on the current patch. The cooldown timing, ability interactions, and trade-pattern reasoning are my own tactical read applied to that data."
+ },
+ "generatedAt": 1790752222608,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790752130576,
+  "overall": {
+   "winRate": 50.4,
+   "play": 53924,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1382,
+   "wins": 672,
+   "winRate": 48.6
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Try to engage whenever Jax’s Counter Strike (E) is on cooldown. Absorb Jax’s (W) damage with a well-timed [W], while waiting for an opportunity to strike back by keeping your [P] stacks up.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48,
+    "play": 1194,
+    "pickRate": 70.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.9,
+    "play": 356,
+    "pickRate": 21
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.4,
+    "play": 140,
+    "pickRate": 8.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 45.5,
+    "play": 549,
+    "pickRate": 31.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.2,
+    "play": 477,
+    "pickRate": 27.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.4,
+    "play": 1478,
+    "pickRate": 86.8
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 44,
+    "play": 125,
+    "pickRate": 7.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.3,
+    "play": 1285,
+    "pickRate": 79.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.3,
+    "play": 274,
+    "pickRate": 16.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 56,
+    "play": 257,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 54.2,
+    "play": 227,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 57.3,
+    "play": 110,
+    "pickRate": 10.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 48.7,
+    "play": 1584,
+    "pickRate": 96.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 52.7,
+    "play": 883,
+    "pickRate": 53.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.6,
+    "play": 651,
+    "pickRate": 39.7
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 52.3,
+    "play": 554,
+    "pickRate": 33.8
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 54.4,
+    "play": 353,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Guardian Angel"
+    ],
+    "winRate": 59,
+    "play": 144,
+    "pickRate": 8.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50,
+    "play": 298
+   }
+  ]
+ }
+}
