@@ -52,6 +52,19 @@ const cases = [
       boots: { item: "Plated Steelcaps" }, core: [], situational: [] } })
   },
   {
+    name: "item whose own name has a comma",
+    expect: "accept",
+    brief: brief({ build: { start: { item: "Doran's Shield" },
+      boots: { item: "Plated Steelcaps" },
+      core: [{ item: "Jak'Sho, The Protean" }], situational: [] } })
+  },
+  {
+    name: "starting set written with >",
+    expect: "accept",
+    brief: brief({ build: { start: { item: "Doran's Shield > Health Potion" },
+      boots: { item: "Plated Steelcaps" }, core: [], situational: [] } })
+  },
+  {
     name: "prose in the item slot",
     expect: "reject",
     brief: brief({ build: { start: { item: "she is snowballing and out-dueling you even with sustained damage" },

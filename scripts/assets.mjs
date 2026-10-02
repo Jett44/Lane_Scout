@@ -90,7 +90,21 @@ const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
    that either way: "Doran's Blade + Health Potion" or
    "Doran's Ring, Health Potion, Health Potion". Both are correct answers, so
    split on both rather than rejecting the comma form. */
-const splitItems = (s) => String(s).split(/\s*[+,]\s*/).map((x) => x.trim()).filter(Boolean);
+const splitItems = (s) => String(s).split(/\s*[+,>]\s*|\s+and\s+/i).map((x) => x.trim()).filter(Boolean);
+
+/*
+ * Turn one item field into the item names it actually refers to.
+ *
+ * Splitting on separators first was wrong: "Jak'Sho, The Protean" is a single
+ * real item whose NAME contains a comma, so it became two items that do not
+ * exist and every K'Sante brief was rejected. So try the whole string first
+ * and only split when it is not itself an item.
+ */
+export function resolveItemNames(raw, known) {
+  const whole = stripQty(String(raw));
+  if (known.has(norm(whole))) return [whole];
+  return splitItems(whole).map(stripQty).filter(Boolean);
+}
 
 /* Stat shards are rune-page choices, not perks — Data Dragon does not list them. */
 const SHARDS = new Set(["adaptiveforce", "attackspeed", "abilityhaste", "armor",
@@ -163,7 +177,7 @@ export function validateNames(brief) {
        starting set like "Doran's Ring + Health Potion + Health Potion" is long
        but every part of it is real. Prose is a part that is both unrecognised
        and sentence-shaped. */
-    for (const one of splitItems(raw).map(stripQty)) {
+    for (const one of resolveItemNames(raw, items)) {
       if (items.has(norm(one))) continue;
       if (one.split(/\s+/).length > 4) bad.push(`item field is prose: "${one.slice(0, 50)}…"`);
       else bad.push(`no such item: "${one}"`);

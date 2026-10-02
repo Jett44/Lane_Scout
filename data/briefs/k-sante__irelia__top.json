@@ -1,0 +1,386 @@
+{
+ "you": "K'Sante",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if Irelia lands E's stun into a Q reset chain uncontested; you win if you catch her committing Q (Bladesurge) with no Mark to reset it."
+  },
+  "thesis": "This is a measured coinflip (49.4% over 933 games) because both champions' threat is tied to a single cooldown: Irelia's Q (Bladesurge) only resets if it kills or hits a target Marked by her E (Flawless Duet), and K'Sante's Q (Ntofo Strikes) only pulls once it reaches 2 stacks. Whoever is forced to spend their key tool first loses the exchange. Your W (Path Maker) stun is the punish for a whiffed or committed Irelia Q, which is why the data shows K'Sante holding the solo-kill edge even in an even lane.",
+  "tell": {
+   "watch": "Irelia's Q (Bladesurge) cooldown",
+   "theirWindow": {
+    "when": "After her E (Flawless Duet) stun connects",
+    "what": "The Mark from Flawless Duet lets her Q refresh off the follow-up dash-strike, stacking Ionian Fervor toward bonus on-hit damage. Expect the full stun-into-Q-into-autos chain, not a single poke."
+   },
+   "yourWindow": {
+    "when": "Her Q and E are both on cooldown",
+    "what": "With Bladesurge and Flawless Duet down she has no gap closer and no stun. Step up, land two stacks of Q (Ntofo Strikes) for the pull, then follow with W (Path Maker)'s knockback stun."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither stun/reset chain is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Flawless Duet) unlocks her stun-reset combo"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates online, trades swing on commitment"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Iceborn Gauntlet and Thornmail land first"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Jak'Sho stacks and grievous wounds win fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm + Health Potion",
+    "why": "Measured as the dominant start (49.9% over 1021 games, 89.5% pick) and answers the early poke from her charged W (Defiant Dance) without giving up trade damage."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Highest sample and win rate (50.8% over 964 games, 88% pick); reduces the auto-attack chip she generates while stacking Ionian Fervor."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Cuts the self-heal on her Q (Bladesurge) and punishes her passive's on-hit reliance early."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The proc slow helps you actually land W (Path Maker) and R (All Out) on a champion whose only disengage is Q."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Grievous wounds answers her Q sustain directly, and the armor blunts max-stack Ionian Fervor damage."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacks resistances from the damage you absorb tanking her all-ins, scaling your side of extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "she builds lifesteal or sustain items to outlast your pressure"
+    },
+    {
+     "item": "Frozen Heart",
+     "when": "she's scaling hard on Ionian Fervor attack speed stacks and you need the slow-attacker aura"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The bonus health and proc damage keep you ahead on the stun-for-stun trades this lane is built around, and the sustain offsets her Q lifesteal.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The measured top pick (51.1% win rate, 74.2% pick rate); Teleport lets you reset after even trades instead of conceding wave pressure while this matchup is decided by cooldown timing, not all-in races."
+  },
+  "playing": [
+   {
+    "title": "Punish her Q commitment",
+    "detail": "Bladesurge only resets on a kill or a Marked target; once she throws it at you clean, she has no gap closer back. Step forward with Q (Ntofo Strikes) and threaten W (Path Maker) during her recovery."
+   },
+   {
+    "title": "Farm toward 2 Q stacks before engaging",
+    "detail": "Ntofo Strikes grants a stack on hit and fires a pulling shockwave at 2 stacks on its 3.5s cooldown. Landing two in a row drags her into your follow-up instead of letting her walk away."
+   },
+   {
+    "title": "Trade when her E is down",
+    "detail": "Flawless Duet runs 16s early down to 11.5s at max rank. With it on cooldown she has no CC to protect an all-in, so that's your window to step up."
+   },
+   {
+    "title": "Respect her 850-range E before committing",
+    "detail": "Flawless Duet's converging blades stun and Mark anything caught between them at 850 range. Don't overextend past the wave where both blades can land, since a Mark there refreshes her Q."
+   },
+   {
+    "title": "Charge W into her commitment, not her poke",
+    "detail": "Path Maker takes reduced damage while charging but has a visible wind-up before the knockback-stun dash. Throw it only after she's already dashed in with Q so she can't sidestep it."
+   },
+   {
+    "title": "Build Thornmail before her passive snowballs",
+    "detail": "Ionian Fervor stacks bonus attack speed and then bonus on-hit damage every time she lands a spell. Thornmail's grievous wounds also cuts her Q sustain, so prioritize it once she's ahead on stacks."
+   },
+   {
+    "title": "Save R for her all-in, not as an opener",
+    "detail": "All Out knocks an enemy through walls and transforms your kit for bonus damage and healing at reduced defenses, on a 120s cooldown that drops to 80s. Hold it to flip her engage into yours rather than opening with it."
+   }
+  ],
+  "patchCaveat": "Build order, rune pages, and every win-rate/pick-rate figure here are measured from live games on the current patch (the 933-game K'Sante vs Irelia sample specifically); the cooldown-window and trade-timing analysis is our own read layered on top of that data."
+ },
+ "generatedAt": 1790963833087,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790963745655,
+  "overall": {
+   "winRate": 47.1,
+   "play": 61009,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 933,
+   "wins": 461,
+   "winRate": 49.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.1,
+    "play": 837,
+    "pickRate": 74.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.3,
+    "play": 190,
+    "pickRate": 16.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 43.6,
+    "play": 78,
+    "pickRate": 6.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 255,
+    "pickRate": 21.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 176,
+    "pickRate": 15.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 1021,
+    "pickRate": 89.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.6,
+    "play": 105,
+    "pickRate": 9.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.8,
+    "play": 964,
+    "pickRate": 88
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.4,
+    "play": 128,
+    "pickRate": 11.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Iceborn Gauntlet",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 46.6,
+    "play": 58,
+    "pickRate": 9
+   },
+   {
+    "items": [
+     "Thornmail",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 5
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Thornmail"
+    ],
+    "winRate": 62.5,
+    "play": 24,
+    "pickRate": 3.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 50.5,
+    "play": 914,
+    "pickRate": 80.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.3,
+    "play": 590,
+    "pickRate": 52.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49.9,
+    "play": 445,
+    "pickRate": 39.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 55.3,
+    "play": 416,
+    "pickRate": 36.7
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 61.3,
+    "play": 243,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 52.1,
+    "play": 219,
+    "pickRate": 19.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.9,
+    "play": 272
+   }
+  ]
+ }
+}

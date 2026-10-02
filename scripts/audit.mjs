@@ -80,7 +80,9 @@ for (const f of files) {
     .concat((bd.situational || []).map((x) => x.item));
 
   for (const raw of itemFields) {
-    for (const one of splitItems(raw).map(stripQty)) {
+    const whole = stripQty(String(raw));
+    const parts = realItems.has(norm(whole)) ? [whole] : splitItems(whole).map(stripQty);
+    for (const one of parts) {
       checked++;
       if (!realItems.has(norm(one))) note("item", one, where);
     }
