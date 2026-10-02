@@ -1,0 +1,375 @@
+{
+ "you": "Riven",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Disadvantaged early",
+   "line": "You lose trades before level 6 whenever Renekton's Fury hits 50 for the empowered stun combo; you win once you've itemized burst and start answering his all-ins instead of starting them."
+  },
+  "thesis": "Renekton's Fury bar is the whole matchup: at 50 Fury his W (Ruthless Predator) becomes a 3-hit, shield-destroying 1.5s stun and his Q (Cull the Meek) heals harder, letting him win extended exchanges Riven can't out-damage before level 6. That's why OP.GG logs this as defensive with Renekton favored for both the lane and the solo kill at a 46.7% Riven win rate over 1442 games — the fix is to deny him free Fury, not to out-trade him cold.",
+  "tell": {
+   "watch": "Renekton's Fury bar at 50",
+   "theirWindow": {
+    "when": "Fury crosses 50 before you hit 6",
+    "what": "His W now lands a 1.5s stun through shields and his Q heal spikes. Disengage with E (Valor) or step past 300 range rather than standing in it."
+   },
+   "yourWindow": {
+    "when": "After his E (Slice and Dice) is down",
+    "what": "Slice and Dice is a 16-10s cooldown dash with no other gap closer behind it — once he's spent it to engage or reset wave, step in with Q (Broken Wings) into W (Ki Burst) for a stun he can't escape."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q poke and W stun land first"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "empowered 50-Fury W one-shots trades"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "your R and Conqueror offset his sustain"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Death's Dance and Wind Slash out-scale him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 46% win rate, 88.4% pick path — the extra HP and sustain are what let you survive his Q/W pokes while you wait out the Fury-dump levels."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.5% pick, 44.2% win rate — flat physical reduction blunts his empowered W auto and the follow-up Q/E of his all-in combo."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Highest-performing core start (68.1% win rate) — the shield and execute damage answer his burst rather than racing it."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts the burst from his empowered W+Q combo into damage over time, which is the single biggest thing that flips this matchup past level 6."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Sustain and waveclear to keep you even on resources through the levels he's fed on Fury off trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "they start stacking armor to wall off your damage"
+    },
+    {
+     "item": "Axiom Arc",
+     "when": "you're ahead and want faster R resets for repeated skirmishes"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want onhit sustain in prolonged trades instead of pure burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive healing in extended trades is your direct counter to his Q self-heal and Fury-fed all-ins — it's what lets you stay in skirmishes instead of being out-sustained.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "92.7% pick rate at 46.5% win rate — Ignite's grievous wounds directly undercuts his Q heal and punishes any all-in he commits Fury to."
+  },
+  "playing": [
+   {
+    "title": "Track the Fury bar, not just HP",
+    "detail": "At 50 Fury his W (Ruthless Predator) becomes a 1.5s stun that strips shields. Don't contest a trade if he's near that threshold."
+   },
+   {
+    "title": "Use E (Valor) to absorb, not to chase",
+    "detail": "Valor's forward dash (cooldown 10/9/8/7/6s) blocks incoming damage — spend it on his engage hit, not to close distance on him."
+   },
+   {
+    "title": "Punish the gap after his E",
+    "detail": "Slice and Dice sits on a 16-10s cooldown with no backup dash. Once he's used it, step in with Q (Broken Wings) into W (Ki Burst)."
+   },
+   {
+    "title": "Never extend into his Q heal",
+    "detail": "Cull the Meek heals him on a 7s cooldown every cast. Burst and disengage instead of trading auto-for-auto."
+   },
+   {
+    "title": "Hold R for his all-in, not yours",
+    "detail": "Blade of the Exile costs 120/90s on its first two casts — save Wind Slash to finish a fight he starts rather than opening with it."
+   },
+   {
+    "title": "Freeze and deny Fury pre-6",
+    "detail": "OP.GG's own read is defensive for a reason: fall back level 1-5, don't let him farm Fury off free autos, then flip the lane once your core items land."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate figures are measured from live games on the current patch via OP.GG; the Fury-threshold reasoning and trade timing are my own tactical read on top of that data."
+ },
+ "generatedAt": 1790966790900,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790966719522,
+  "overall": {
+   "winRate": 49.5,
+   "play": 38214,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1442,
+   "wins": 673,
+   "winRate": 46.7
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "Engage Renekton while keeping an eye out for his Fury. Use your abilities to deal burst damage and fall back to slowly gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.5,
+    "play": 1602,
+    "pickRate": 92.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.9,
+    "play": 63,
+    "pickRate": 3.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.3,
+    "play": 59,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.7,
+    "play": 352,
+    "pickRate": 19.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 46.5,
+    "play": 217,
+    "pickRate": 12.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46,
+    "play": 1521,
+    "pickRate": 88.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 35.1,
+    "play": 97,
+    "pickRate": 5.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.2,
+    "play": 832,
+    "pickRate": 51.5
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49.8,
+    "play": 594,
+    "pickRate": 36.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 63.3,
+    "play": 79,
+    "pickRate": 9.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 68.1,
+    "play": 69,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 44.6,
+    "play": 65,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.2,
+    "play": 1122,
+    "pickRate": 67.8
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 54.6,
+    "play": 758,
+    "pickRate": 45.8
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46.4,
+    "play": 739,
+    "pickRate": 44.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.7,
+    "play": 599,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 50.2,
+    "play": 331,
+    "pickRate": 20
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 53.3,
+    "play": 210,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.3,
+    "play": 501
+   }
+  ]
+ }
+}

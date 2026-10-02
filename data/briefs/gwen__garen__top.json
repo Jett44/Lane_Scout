@@ -1,0 +1,376 @@
+{
+ "you": "Gwen",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, lean Garen",
+   "line": "You lose if you let Garen stand next to you and spin it out; you win if you poke at max range and wall his engages with W."
+  },
+  "thesis": "Every tool Garen has is strictly melee-range — Q (Decisive Strike, 300 range), E (Judgment, 325 range), and R (Demacian Justice, 400 range) all require him standing next to you — so Gwen's W (Hallowed Mist) can deny his entire kit simply by not letting him walk in. The 48.2% win rate over 1028 games reflects a lane that's close on paper but asymmetric in shape: Garen wins the sustained short-range war off his passive regen and a short E cooldown, Gwen wins by refusing that fight and poking with Q's 450-range cone instead.",
+  "tell": {
+   "watch": "Garen's Judgment (E) cooldown",
+   "theirWindow": {
+    "when": "Q and E both off cooldown",
+    "what": "He engages with Decisive Strike (Q, 8s cooldown) to close the gap, break any slow on him, and silence your next ability on hit, then follows with Judgment (E) for AoE damage around him. His passive is also regenerating him back up between these windows if you haven't tagged him recently."
+   },
+   "yourWindow": {
+    "when": "right after his Judgment (E) whiffs",
+    "what": "Step in with E (Skip 'n Slash) to dash onto him and stack Q (Snip Snip!) snips, since his only remaining threat for the next 9-13 seconds is a plain auto-attack."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "passive regen plus cheap Judgment wins early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "short E cooldown lets him re-engage repeatedly"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Needlework online, his execute threat appears too"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "burst items outscale his flat damage profile"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "87.5% of games take this; the extra sustain lets you tank Judgment ticks and farm safely from max Q range instead of fighting at his preferred distance."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Garen's damage comes almost entirely from basic attacks and Judgment's physical tick; steelcaps dampen both so his short trading windows hurt less."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "32.1% pick, 60.2% win rate as the opener — gives the mana and ability haste to keep Q cycling without ever worrying about an empty bar."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Spikes burst against a tank-building Garen and pairs with the 450-range Q poke you're using to avoid his melee kit entirely."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "By the point you have this, Garen's engage tools are already denied by W — this converts your lane patience into a full burst threat."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustain in extended skirmishes instead of pure burst"
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "you're behind and need to survive a Demacian Justice execute once his ultimate is up"
+    },
+    {
+     "item": "Sorcerer's Shoes",
+     "when": "you're ahead and want the extra magic penetration over the defensive boots"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through repeated Q snips and E dash-hits, and the healing on full stacks directly offsets Garen's passive regen in extended fights.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "49.5% win rate and the most-picked setup at 59.6%; Ignite punishes exactly the passive regen window Garen relies on to reset between trades."
+  },
+  "playing": [
+   {
+    "title": "Poke from max Q range",
+    "detail": "Snip Snip! reaches 450, well outside Judgment's 325 — harass the wave and his HP bar without ever standing inside his spin radius."
+   },
+   {
+    "title": "Wall his engage with W",
+    "detail": "Q (300), E (325), and R (400) are all melee-range, so Hallowed Mist denies every one of them unless he walks into the mist — hold it for his all-in windows, not as a reflex."
+   },
+   {
+    "title": "Trade right after his E lands",
+    "detail": "Judgment's cooldown runs 13 down to 9 seconds by rank 5 — that's your entire window to dash in with E (Skip 'n Slash) and stack snips while his only answer is a plain auto."
+   },
+   {
+    "title": "Respect the Q silence",
+    "detail": "Decisive Strike breaks any slow on him and silences on hit — don't commit to a full W-and-attack combo while his Q (8s cooldown) is up, since he can cancel your follow-up."
+   },
+   {
+    "title": "Fight in short bursts, not stand-and-trade",
+    "detail": "His passive regenerates a percentage of max health per second once he's gone untouched — poke and disengage rather than holding extended auto trades so he can't tick back up between them."
+   },
+   {
+    "title": "Save R to finish, not to open",
+    "detail": "Needlework applies A Thousand Cuts to anyone it hits, so it's strongest as a execute on a damaged Garen rather than an opener — especially once his own Demacian Justice becomes a reciprocal execute threat from level 6."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner picks above are pulled from measured OP.GG games on the current patch; the trade timing and W-denial reading are my own analysis of the kit, not sampled data."
+ },
+ "generatedAt": 1790967731763,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790967645859,
+  "overall": {
+   "winRate": 50.6,
+   "play": 42220,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1028,
+   "wins": 495,
+   "winRate": 48.2
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.5,
+    "play": 739,
+    "pickRate": 59.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40.7,
+    "play": 145,
+    "pickRate": 11.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.8,
+    "play": 83,
+    "pickRate": 6.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.5,
+    "play": 415,
+    "pickRate": 32.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.5,
+    "play": 107,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.7,
+    "play": 1087,
+    "pickRate": 87.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 67,
+    "pickRate": 5.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.7,
+    "play": 475,
+    "pickRate": 41.2
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 50.2,
+    "play": 454,
+    "pickRate": 39.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 60.2,
+    "play": 236,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Riftmaker"
+    ],
+    "winRate": 38.7,
+    "play": 31,
+    "pickRate": 4.2
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Shadowflame"
+    ],
+    "winRate": 60.7,
+    "play": 28,
+    "pickRate": 3.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 48.8,
+    "play": 943,
+    "pickRate": 77.2
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 51.4,
+    "play": 728,
+    "pickRate": 59.6
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 49.2,
+    "play": 457,
+    "pickRate": 37.4
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 57.1,
+    "play": 450,
+    "pickRate": 36.9
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 49.4,
+    "play": 318,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 55.4,
+    "play": 184,
+    "pickRate": 15.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50.5,
+    "play": 547
+   }
+  ]
+ }
+}

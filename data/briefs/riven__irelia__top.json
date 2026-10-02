@@ -1,0 +1,385 @@
+{
+ "you": "Riven",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive, then scale",
+   "line": "You lose if Irelia lands Flawless Duet (E) while stacked on her passive and chains into a Bladesurge (Q) kill before level 6; you win if you survive lane, itemize into Death's Dance, and start landing Blade of the Exile (R) picks in the mid-late game."
+  },
+  "thesis": "Irelia's Ionian Fervor passive stacks bonus attack speed off spell hits and caps with bonus on-hit damage, so she wins short trades the moment she lands two spells on you. Her E (Flawless Duet) stuns and Marks at range 850, and a Marked target refreshes her Q (Bladesurge) on a kill — so one connected E can chain straight into a kill combo before you can respond. Riven's own tools are reactive here: Valor (E) only blocks, Ki Burst (W) only stuns at point-blank range 260, and Blade of the Exile (R) isn't a real threat until mid-game. The 54.9% win rate over 731 games reflects Riven out-scaling a lane she does not win outright.",
+  "tell": {
+   "watch": "Irelia's passive stack count",
+   "theirWindow": {
+    "when": "Irelia hits 5 passive stacks",
+    "what": "At max stacks she gains bonus on-hit damage and wins extended trades she'd otherwise lose. Back off from prolonged auto exchanges and use Valor (E) to disengage rather than contest."
+   },
+   "yourWindow": {
+    "when": "after her E (Flawless Duet) whiffs",
+    "what": "Flawless Duet is her only stun and sits on a 16/14.5/13/11.5/10s cooldown, so a missed cast is a long window — close immediately with Broken Wings (Q) and land Ki Burst (W) before she can threaten again."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither threat is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E stun unlocks Q kill resets"
+   },
+   {
+    "levels": "6-11",
+    "edge": "them",
+    "note": "Passive stacking still wins her trades"
+   },
+   {
+    "levels": "12-16",
+    "edge": "even",
+    "note": "Death's Dance sustain closes the gap"
+   },
+   {
+    "levels": "17-18",
+    "edge": "you",
+    "note": "Blade of the Exile burst takes over"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest win rate start at 55.4% over 827 games (94.5% pick) — the extra HP and sustain let you absorb Irelia's early poke without needing a second potion."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "56.9% win rate over 404 games (49.2% pick) — the ability haste gets Valor (E) and Ki Burst (W) back up faster to answer her next Flawless Duet attempt."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "First piece of the highest win-rate path, 66.7% over 93 games — cooldown refund on takedowns keeps Valor (E) and Broken Wings (Q) available for the trades she forces."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Second item in that 66.7% path — sustain and burst to offset the healing she gets off Bladesurge (Q)."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes the path at 66.7% WR over 93 games — the damage-over-time conversion lets you survive the burst window right after her E (Flawless Duet) connects."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you are ahead on kills and want to start Eclipse > Death's Dance > Endless Hunger instead (64.5% WR over 62 games)"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and you need the armor shred to keep killing through her Defiant Dance (W) damage reduction"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want more lane-phase trading power before committing to the Axiom Arc power spike"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "56.3% win rate at 37.1% pick — the stacking adaptive force and heal-on-hit is what lets you keep trading into a passive that out-scales you in short fights.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 94.9% of games at 55.9% win rate — Ignite punishes the all-in Irelia goes for once she's stacked on passive, since you often won't have kill pressure without it."
+  },
+  "playing": [
+   {
+    "title": "Track her passive stacks",
+    "detail": "Ionian Fervor stacks attack speed every time Irelia lands a spell, and caps with bonus on-hit damage — disengage before she reaches 5 stacks rather than trading into it."
+   },
+   {
+    "title": "Punish a whiffed E",
+    "detail": "Flawless Duet (E) is her only stun and sits on 16/14.5/13/11.5/10s cooldown — if it misses, close immediately with Broken Wings (Q) and land Ki Burst (W) before she can threaten again."
+   },
+   {
+    "title": "Save Valor for engage",
+    "detail": "Valor (E) blocks incoming damage for its short step — hold it to eat the Flawless Duet blades or the Bladesurge strike rather than burning it just to reposition."
+   },
+   {
+    "title": "Don't feed Bladesurge resets",
+    "detail": "If you're Marked, or if Bladesurge (Q) kills you, its cooldown refreshes immediately — disengage above half health rather than trading into a kill-range Q."
+   },
+   {
+    "title": "Poke with Q, don't engage",
+    "detail": "Broken Wings (Q) can be reactivated three times, with the third hit knocking back — per OP.GG's own read on this matchup, throw single casts to catch her off guard instead of dumping all three into an all-in."
+   },
+   {
+    "title": "Play for scaling, not kills",
+    "detail": "Solo-kill advantage sits with Irelia this patch — farm the wave, hold Valor (E) defensively, and let Axiom Arc into Death's Dance carry you past level 12."
+   },
+   {
+    "title": "Threaten with R once up",
+    "detail": "Blade of the Exile (R) grants bonus AD, range, and a one-time Wind Slash — once it's online at level 6, use the extended range to punish her for overextending without Flawless Duet available."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner spells are pulled from measured OP.GG games on the current patch; the power-curve timing and trade reads are my own analysis of the kit interactions, not measured data."
+ },
+ "generatedAt": 1790966903706,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790966795482,
+  "overall": {
+   "winRate": 49.5,
+   "play": 38214,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 731,
+   "wins": 401,
+   "winRate": 54.9
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "defensive",
+  "opponentTip": "Always be careful when Irelia’s passive has 5 stacks. Focus on dodging Irelia’s (E) when engaging, and use your [Q] slowly to catch her off guard.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.9,
+    "play": 812,
+    "pickRate": 94.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 37.1,
+    "play": 35,
+    "pickRate": 4.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.3,
+    "play": 327,
+    "pickRate": 37.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 59.6,
+    "play": 94,
+    "pickRate": 10.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 55.4,
+    "play": 827,
+    "pickRate": 94.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 1.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 56.9,
+    "play": 404,
+    "pickRate": 49.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.4,
+    "play": 325,
+    "pickRate": 39.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 93,
+    "pickRate": 17.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 64.5,
+    "play": 62,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Axiom Arc",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 57.9,
+    "play": 38,
+    "pickRate": 7.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.8,
+    "play": 600,
+    "pickRate": 70.9
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 62,
+    "play": 495,
+    "pickRate": 58.5
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54,
+    "play": 359,
+    "pickRate": 42.4
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 54.7,
+    "play": 309,
+    "pickRate": 36.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.3,
+    "play": 116,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 51.7,
+    "play": 116,
+    "pickRate": 13.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 62.6,
+    "play": 265
+   }
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "you": "Gwen",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales",
+   "line": "You lose trades before level 6 if you auto into an up Riposte or get caught outside Mist on her Q-R all-in; you win from roughly level 12 once Snip Snip!'s cooldown and E's on-hit procs out-pace her Duelist healing."
+  },
+  "thesis": "Gwen's Q only reaches 450 range and her E dash is 400, so she has to walk inside Fiora's 600-range Lunge and 750-range Riposte just to start a trade. Fiora's passive sustain and reflect punish that approach early, which is why the measured win rate sits at 46.7% over 863 games with Fiora favoured for both lane and solo kills. The matchup flips once Gwen's Q cooldown drops toward 3.5s and her E refund loop lets her stack A Thousand Cuts faster than Fiora can heal through it.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "Riposte up and R unlocked (lvl 6+)",
+    "what": "She can parry an E-empowered auto for a full magic-damage reflect, then Lunge in and threaten Blade Waltz before you can react. Hold all autos and stay behind minions until you've confirmed Riposte is down."
+   },
+   "yourWindow": {
+    "when": "Both Lunge charges spent, Riposte down",
+    "what": "Walk up and chain Q snips, then land an E dash-empowered auto; she has no parry and no gap-close for several seconds, so the trade is free."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Short Q range loses to Duelist sustain"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Riposte punishes autos; R threatens all-in"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "Mist cooldown drops, Q stacks faster"
+   },
+   {
+    "levels": "12-15",
+    "edge": "you",
+    "note": "E refund loop outpaces her healing"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full burst shreds through any Riposte window"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring, Health Potion, Health Potion",
+    "why": "Run in 85.6% of games at 46.2% win; the extra healing from two potions is what lets you survive forced early trades where Fiora's Duelist passive out-sustains you."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Taken in 56.2% of games at 47.8% win; cuts the repeated auto damage from her Lunge pokes and Burst of Speed attack-speed windows."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item on the 53.9%-win path; gives the mana and ability haste that shrinks Q's cooldown toward its 3.5s floor sooner."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item on that same path; the bonus magic damage spikes the burst your Q/E combo already applies through her passive healing."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Closes out the 53.9%-win build; by level 16-18 this is what lets your snips outright out-damage her sustain in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "she is ahead and threatening to one-shot you with a landed Blade Waltz"
+    },
+    {
+     "item": "Oblivion Orb",
+     "when": "her Duelist stacks are keeping her alive through every trade you win"
+    },
+    {
+     "item": "Sorcerer's Shoes",
+     "when": "she is building armor early and Plated Steelcaps stops paying off"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force and self-healing over an extended trade directly answers Duelist; the longer the fight runs, the less her sustain advantage matters.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 62.8% of games at 46.4% win; Ignite's healing reduction directly cuts into her Duelist sustain during trades. Exhaust+Flash (47.1% win, lower sample) is the pick instead if you'd rather blunt her Q-R all-in than win the poke war."
+  },
+  "playing": [
+   {
+    "title": "Respect her longer threat range",
+    "detail": "Fiora's Lunge reaches 600 and Riposte 750, both past your 450-range Q; don't walk into those ranges unless you're committing to the trade."
+   },
+   {
+    "title": "Mist before she commits",
+    "detail": "Pop W (Hallowed Mist) the instant she dashes in post-6; outside the mist she physically cannot target you with the follow-up damage."
+   },
+   {
+    "title": "Trade only after both Lunges are spent",
+    "detail": "Her Q can dash a second time for free within a couple seconds; once both charges are used she has no gap-close for several seconds, so that's your window to walk up and snip freely."
+   },
+   {
+    "title": "Never auto into an up Riposte",
+    "detail": "Her W cooldown runs 6-10s and reflects magic damage straight back to you, including E-empowered on-hit procs; bait it with a minion auto first if you need the information."
+   },
+   {
+    "title": "Fire E right after Riposte falls",
+    "detail": "Use Skip 'n Slash's dash-and-buff window the moment her parry is confirmed down; landing the empowered auto also partially refunds E's cooldown."
+   },
+   {
+    "title": "Farm through Q, not autos",
+    "detail": "Snip Snip! applies true damage to the center target and stacks your passive without exposing you to a parry; lean on it for safe CS instead of trading autos."
+   },
+   {
+    "title": "Play for the level 12+ turn",
+    "detail": "The lane is measured as defensive for a reason; concede early skirmishes if needed and bank on your Dusk and Dawn into Shadowflame timing to flip the fight."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, boots, and summoner spell rates are pulled directly from measured OP.GG games on the current patch (16.19.1); the cooldown math and trade-window reasoning above are my own tactical read, not measured data."
+ },
+ "generatedAt": 1790968078134,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790967991118,
+  "overall": {
+   "winRate": 50.6,
+   "play": 42220,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 863,
+   "wins": 403,
+   "winRate": 46.7
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "defensive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.4,
+    "play": 642,
+    "pickRate": 62.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.7,
+    "play": 119,
+    "pickRate": 11.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.1,
+    "play": 68,
+    "pickRate": 6.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.3,
+    "play": 280,
+    "pickRate": 26.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 35.6,
+    "play": 87,
+    "pickRate": 8.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 879,
+    "pickRate": 85.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.4,
+    "play": 57,
+    "pickRate": 5.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.8,
+    "play": 510,
+    "pickRate": 56.2
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 47.8,
+    "play": 255,
+    "pickRate": 28.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 53.9,
+    "play": 141,
+    "pickRate": 28.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 33.3,
+    "play": 24,
+    "pickRate": 4.8
+   },
+   {
+    "items": [
+     "Riftmaker",
+     "Nashor's Tooth",
+     "Shadowflame"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 3.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 46.8,
+    "play": 729,
+    "pickRate": 73.5
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 49,
+    "play": 539,
+    "pickRate": 54.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 45,
+    "play": 333,
+    "pickRate": 33.6
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 45.5,
+    "play": 299,
+    "pickRate": 30.1
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 57.1,
+    "play": 296,
+    "pickRate": 29.8
+   },
+   {
+    "items": [
+     "Oblivion Orb"
+    ],
+    "winRate": 42,
+    "play": 193,
+    "pickRate": 19.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50.7,
+    "play": 422
+   }
+  ]
+ }
+}

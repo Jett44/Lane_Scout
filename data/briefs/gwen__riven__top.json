@@ -1,0 +1,377 @@
+{
+ "you": "Gwen",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Riven dumps her full burst into you before level 6 and you have no answer to the knockback; you win if you survive to Needlework range and out-scale through items."
+  },
+  "thesis": "Riven's entire kit is burst windows gated by cooldowns you can see expire — Q (Broken Wings, 13s cooldown) and W (Ki Burst, 11/10/9/8/7s cooldown) both have to be up at the same time for her all-in to work. Gwen has no dash to escape a stun, only Hallowed Mist to deny being targeted, so the matchup is decided by whether you poke her cooldowns down with Q (Snip Snip!) before she can line up Q into W.",
+  "tell": {
+   "watch": "Riven's Q and W cooldowns",
+   "theirWindow": {
+    "when": "Q and W both off cooldown, level 1-6",
+    "what": "She can Ki Burst to stun then chain Broken Wings for full combo damage with no way for you to escape since you have no dash. Pop W (Hallowed Mist) the instant she commits so she either backs off or has to walk into the mist to hit you."
+   },
+   "yourWindow": {
+    "when": "her Q and W are both down",
+    "what": "Walk up and land as many Snip Snip! cones as you can — true damage to the center target plus passive stacks — since she has nothing but Valor (E) to block one instance before she has to just eat it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ki Burst stun threatens trades you can't dash out of"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full combo online, solo-kill risk highest here"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Needlework range lets you punish cooldown windows"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Shadowflame/Rabadon's burst outpaces her flat AD scaling"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full burst combo one-shots through Valor block"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Sustain and mana for repeated Snip Snip! pokes let you contest trades without all-in'ing into her stun."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Riven's damage is almost entirely basic-attack-reliant through Runic Blade charges; the flat reduction blunts her all-in harder than Sorcerer's Shoes helps your poke."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Core scaling piece that starts the build in 67.4% of winning games on this matchup."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Spikes burst damage right as your power curve overtakes hers from level 11 on."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Caps the AP scaling so your Needlework and passive procs start one-shotting through her reduced HP pool."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "she is landing her full Q-W combo on you reliably and you need to survive her all-in window"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustained DPS in extended skirmishes rather than burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the sustained trading pattern of poking with Snip Snip! and sticking during E (Skip 'n Slash) windows rather than one burst all-in.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Exhaust",
+    "Flash"
+   ],
+   "why": "Exhaust directly answers her burst window by cutting the damage and tenacity on her Q-into-W all-in, and at 52% win rate with 26.7% pick it outperforms the Ignite line specifically because this matchup is about surviving her spike, not racing a kill."
+  },
+  "playing": [
+   {
+    "title": "Track her Q and W cooldowns",
+    "detail": "Her all-in requires both up. If either is down, you can walk up and trade freely with Snip Snip!."
+   },
+   {
+    "title": "Pop Hallowed Mist on her commit",
+    "detail": "W only lets enemies who enter the mist target you, so timing it as she dashes in with Q denies the follow-up stun-into-damage."
+   },
+   {
+    "title": "Poke, don't all-in, before level 6",
+    "detail": "Snip Snip! has a 6.5-3.5s cooldown depending on rank and deals true damage to the center target — use it to whittle her down from range where her Broken Wings can't reach."
+   },
+   {
+    "title": "Use E (Skip 'n Slash) to disengage after trades",
+    "detail": "The dash plus attack speed window lets you reset spacing immediately after a Snip Snip! poke, keeping you outside her 275-range Q."
+   },
+   {
+    "title": "Save W for her stun, not her poke",
+    "detail": "Hallowed Mist's 22-18s cooldown is too long to waste on chip damage — hold it specifically for the Ki Burst stun setup."
+   },
+   {
+    "title": "All-in once Needlework is rank 2",
+    "detail": "At levels 11+ your burst from Needlework plus passive stacks starts outscaling anything Valor can block."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are pulled from measured OP.GG games on the current patch (16.19.1); the ability interactions, timing windows, and tactical reasoning are my own analysis, not sourced from the data."
+ },
+ "generatedAt": 1790968698338,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790968662970,
+  "overall": {
+   "winRate": 50.6,
+   "play": 42220,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 407,
+   "wins": 203,
+   "winRate": 49.9
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 213,
+    "pickRate": 45.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52,
+    "play": 125,
+    "pickRate": 26.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.8,
+    "play": 42,
+    "pickRate": 9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.3,
+    "play": 165,
+    "pickRate": 34.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 26,
+    "pickRate": 5.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 382,
+    "pickRate": 79.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.8,
+    "play": 52,
+    "pickRate": 10.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.3,
+    "play": 292,
+    "pickRate": 66.4
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 47.1,
+    "play": 104,
+    "pickRate": 23.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 67.4,
+    "play": 89,
+    "pickRate": 33.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 5.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Shadowflame"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 3.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50.5,
+    "play": 372,
+    "pickRate": 81.2
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 52,
+    "play": 269,
+    "pickRate": 58.7
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 59.9,
+    "play": 157,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 51.4,
+    "play": 146,
+    "pickRate": 31.9
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 50,
+    "play": 118,
+    "pickRate": 25.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 56.2,
+    "play": 73,
+    "pickRate": 15.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.5,
+    "play": 211
+   }
+  ]
+ }
+}
