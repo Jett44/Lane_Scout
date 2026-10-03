@@ -1,0 +1,386 @@
+{
+ "you": "Ornn",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose the trades from level 1 to 5 if you stand in his Q chain and let his E heal him back up, but you win the lane from level 9 onward once Thornmail and Sunfire Aegis gut his sustain."
+  },
+  "thesis": "Aatrox's entire kit is built to win short trades and heal through them: Q (The Darkin Blade) resets down to a 6s cooldown at rank 5 for repeated poke, Deathbringer Stance periodically empowers an auto with bonus magic damage and a heal, and E (Umbral Dash) heals him passively whenever he lands damage while also letting him disengage. Ornn has no sustain tool to match that and no real threat until R (Call of the Forge God) comes online at 6, so the matchup is a 50.3% coinflip over 1556 games that is actually two different matchups: a losing poke war pre-6, and a winning tank-vs-bruiser stall once Grievous Wounds items (Bramble Vest, Thornmail) shut off all three of his heals.",
+  "tell": {
+   "watch": "Aatrox's Deathbringer Stance glow",
+   "theirWindow": {
+    "when": "Deathbringer Stance lit and E off cooldown",
+    "what": "He has a free empowered auto plus a dash to land it and sustain off the damage. Don't trade face-to-face here — let him walk the poke and reset to CS instead of matching autos."
+   },
+   "yourWindow": {
+    "when": "Right after he uses E (Umbral Dash)",
+    "what": "Umbral Dash is on a 9-5s cooldown and is both his stick and his escape — without it he can't heal off you or leave. Punish with Q (Volcanic Rupture) for the slow or dash your own E (Searing Charge) into him toward terrain for the knockup."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q/E trade pattern outpaces your base stats"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown shrinking faster than your tools"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your R and his R both come online"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Thornmail/Sunfire cut his three heals"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full tank build plus Living Forge resists"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction on autos directly blunts his auto-reliant poke pattern and the Deathbringer Stance procs you can't avoid."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Reduces the physical damage from both his normal autos and his empowered Deathbringer Stance auto, which is where most of his early lane damage comes from."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Early Grievous Wounds on hit starts cutting his Deathbringer Stance and Umbral Dash healing before he snowballs the lane."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Adds HP and armor plus passive burn damage so you stop losing the farming war while you're behind on trades."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Full Grievous Wounds on hit against a champion whose kit heals from three separate sources (passive, E, R) is the single biggest swing in this matchup."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances let you actually win extended fights once his early-game damage lead is neutralized."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "he or his team is leaning on healing/lifesteal and you need the Grievous Wounds without giving up magic resist"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their damage shifts heavily magic and you need the spell shield instead of more armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustained HP damage and healing on every proc keeps you in lane through his auto-heavy poke instead of losing the war of attrition before your items come online.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This is the dominant page at 73.9% pick and 49.5% win rate — Teleport lets you reset off bad early trades and still make it back to scale into your level 9+ power spike instead of being forced to fight before you're ready."
+  },
+  "playing": [
+   {
+    "title": "Don't trade into empowered autos",
+    "detail": "When Deathbringer Stance is up, he gets bonus magic damage and a heal on his next auto — disengage and farm instead of matching hits."
+   },
+   {
+    "title": "Dash out of Infernal Chains before the drag",
+    "detail": "His W deals damage on the first hit, but if you don't leave the impact area quickly you get pulled to the center and hit again. Use E (Searing Charge) immediately to get clear and avoid the second instance."
+   },
+   {
+    "title": "Punish his E cooldown, not his Q",
+    "detail": "Umbral Dash is both his stick and his heal; it's on a short 9-5s cooldown but still a real window. Walk up with Q (Volcanic Rupture) poke only when E is down."
+   },
+   {
+    "title": "Farm through levels 1-5",
+    "detail": "You lose the solo-kill race at this stage per the measured data — prioritize CS and avoid extended trades until your tank items land."
+   },
+   {
+    "title": "All-in once Bramble Vest and Thornmail are both up",
+    "detail": "Grievous Wounds removes his Deathbringer Stance heal, his Umbral Dash heal, and his R World Ender sustain boost at the same time — this is your real power spike, not level 6."
+   },
+   {
+    "title": "Use R to flip a losing trade",
+    "detail": "Call of the Forge God's elemental slows and applies Brittle on first contact; recast by charging into it to redirect a knockup onto him for a follow-up all-in."
+   },
+   {
+    "title": "Respect his three-hit Q chain",
+    "detail": "The Darkin Blade swings up to three times with a different area each swing — back off after the first hit instead of eating the full chain."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample-size figures above are measured from live games on the current patch via OP.GG; the matchup read — why the trades go this way and when the power shifts — is my own analysis of the ability mechanics, not measured data."
+ },
+ "generatedAt": 1791039551998,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791039474296,
+  "overall": {
+   "winRate": 51.5,
+   "play": 63779,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1556,
+   "wins": 782,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "defensive",
+  "opponentTip": "Move away from Aatrox’s (Q), while using [E] and [W] to block his (W). Try to focus on farming lane and growing instead of fighting him often as he can recover a lot of health.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.5,
+    "play": 1355,
+    "pickRate": 73.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54,
+    "play": 404,
+    "pickRate": 22
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 42.6,
+    "play": 47,
+    "pickRate": 2.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.5,
+    "play": 488,
+    "pickRate": 26
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.8,
+    "play": 266,
+    "pickRate": 14.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 1131,
+    "pickRate": 61.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 51.1,
+    "play": 456,
+    "pickRate": 24.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 1441,
+    "pickRate": 83.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.4,
+    "play": 258,
+    "pickRate": 14.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 62,
+    "play": 79,
+    "pickRate": 10.1
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 4.1
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 63.3,
+    "play": 30,
+    "pickRate": 3.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 52.1,
+    "play": 938,
+    "pickRate": 51.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.9,
+    "play": 881,
+    "pickRate": 48.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.1,
+    "play": 817,
+    "pickRate": 44.8
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 53.2,
+    "play": 648,
+    "pickRate": 35.6
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 62.6,
+    "play": 388,
+    "pickRate": 21.3
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 58.8,
+    "play": 369,
+    "pickRate": 20.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 57.6,
+    "play": 493
+   }
+  ]
+ }
+}

@@ -1,0 +1,386 @@
+{
+ "you": "Ornn",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you trade autos into a live Riposte or let her stack Duelist through levels 1-5; you win if you survive to Bramble Vest/Thornmail and grind her sustain down in extended fights."
+  },
+  "thesis": "Fiora's free second Lunge and Duelist passive let her win short trades and solo-kill attempts long before Ornn has the gold for Bramble Vest or Thornmail, and her Riposte punishes any auto you throw while it's up. Ornn has zero hard CC to force a trade on his own terms, so the matchup lives and dies on whether you can turn her W cooldown and terrain into an E knockup for your jungler.",
+  "tell": {
+   "watch": "Fiora's W (Riposte) cooldown",
+   "theirWindow": {
+    "when": "Her W is up and HP close",
+    "what": "She'll walk up and bait an auto or short trade specifically to parry it and heal off Duelist stacks; don't initiate anything, including minion-adjacent trades, while her W is live."
+   },
+   "yourWindow": {
+    "when": "Her W is down, you're near a wall",
+    "what": "Charge E (Searing Charge) into terrain near her for the knockup, drop Q (Volcanic Rupture) on the landing spot for the slow and pillar zone, and call your jungler immediately — this is the exact window OP.GG flags for setting up a kill."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Lunge poke outranges your trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q+E all-in, solo-kill threat peaks"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "R online, Bramble Vest cuts her sustain"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Sunfire/Thornmail tankiness takes over"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build, Brittle chains win fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Blocks chip from her poke autos and offsets early Lunge harass; run with it in 66.7% of games at 49.4% win rate for a reason."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Flat reduction on every auto in her Burst of Speed attack-speed window, where she's landing the most hits per second."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Grievous Wounds cuts the Duelist passive heal that lets her win extended trades — rush this before she snowballs sustain."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "HP and armor plus passive burn punish her for sitting on you after a Lunge in."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Completes the Grievous Wounds package and reflects damage back onto her every time she autos you, directly countering her stack-and-heal pattern."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the enemy team has shifted toward magic damage you need to scale against"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "you're facing a burst magic damage threat that can blow you up in one rotation"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you need more frontline sustain in skirmishes over raw magic resist"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Permanent max-health scaling and sustain against her poke-heavy early trades, pairing with Bone Plating to survive her levels 3-5 all-in window.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport lets you reset and hold under turret safely (the explicit fallback plan if your jungler can't gank) while scaling toward the item power spikes that actually win this matchup."
+  },
+  "playing": [
+   {
+    "title": "Hold under turret levels 1-3",
+    "detail": "Don't contest cannon waves directly; Fiora's free double-Lunge wins short trades before your items come online."
+   },
+   {
+    "title": "Never auto into a live W",
+    "detail": "Any basic attack thrown while Riposte is up gets parried and healed off — only trade when you've seen her actually use it."
+   },
+   {
+    "title": "Punish her Q cooldown",
+    "detail": "After she Lunges in and the dash is spent (16-8s cooldown depending on rank), that's your window to answer with Q (Volcanic Rupture) for the slow."
+   },
+   {
+    "title": "E only knocks up on terrain",
+    "detail": "Searing Charge's shockwave and knockup only trigger if you collide with terrain while charging — position near a wall before calling for a gank."
+   },
+   {
+    "title": "Rush Bramble Vest",
+    "detail": "Grievous Wounds early cuts the Duelist stacking sustain that's the core reason she wins extended fights."
+   },
+   {
+    "title": "Don't force all-ins solo",
+    "detail": "With solo-kill advantage on her side, play for jungler ganks using the E-knockup-into-R setup rather than dueling her alone."
+   },
+   {
+    "title": "Scale into the late game",
+    "detail": "This is a 49.6% matchup with a defensive shape — farm patiently and let Thornmail/Jak'Sho tankiness close the gap by mid-game."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch; the tactical reasoning (windows, timings, trade patterns) is my own read on top of that data."
+ },
+ "generatedAt": 1791039469619,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791039392197,
+  "overall": {
+   "winRate": 51.5,
+   "play": 63779,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1377,
+   "wins": 683,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "defensive",
+  "opponentTip": "Fiora will contest lane strongly during early game, while her (W) makes it difficult to hit her with CC skills. Call your jungler for a gank, while using [E] to prop her airborne when (W) is on cooldown and follow up with [R] to set up the gank. If you jungler cannot come help you, try to hold on by receiving lane under turret.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.9,
+    "play": 1186,
+    "pickRate": 74.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 324,
+    "pickRate": 20.3
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 61.1,
+    "play": 36,
+    "pickRate": 2.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.2,
+    "play": 372,
+    "pickRate": 22.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50.5,
+    "play": 218,
+    "pickRate": 13.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 1075,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 44.9,
+    "play": 303,
+    "pickRate": 18.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.3,
+    "play": 1357,
+    "pickRate": 88.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47,
+    "play": 168,
+    "pickRate": 10.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 67.9,
+    "play": 56,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 4.4
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 64.5,
+    "play": 31,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 50.9,
+    "play": 829,
+    "pickRate": 52.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.9,
+    "play": 761,
+    "pickRate": 47.8
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 44.5,
+    "play": 752,
+    "pickRate": 47.2
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 52.3,
+    "play": 480,
+    "pickRate": 30.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 52.5,
+    "play": 356,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 60.1,
+    "play": 311,
+    "pickRate": 19.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 54.4,
+    "play": 428
+   }
+  ]
+ }
+}

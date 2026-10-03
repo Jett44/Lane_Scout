@@ -1,0 +1,388 @@
+{
+ "you": "Ornn",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly favored",
+   "line": "You lose if you trade autos into a full Granite Shield and eat Ground Slam's attack-speed shred; you win if you force fights right after his Q or E lands."
+  },
+  "thesis": "Malphite's passive Granite Shield only recharges when he hasn't been hit recently, so short pokes just feed it back — Ornn needs to land Q (Volcanic Rupture)'s slow and immediately follow with E (Searing Charge) into terrain to keep Malphite perma-hit instead of trading single autos. Malphite's E (Ground Slam, 7s cooldown, 400 range) shreds attack speed, so this is an ability-damage fight for Ornn, not an auto-attack one.",
+  "tell": {
+   "watch": "Malphite's Granite Shield recharge state",
+   "theirWindow": {
+    "when": "shield charged, his Q and E both up",
+    "what": "He can poke safely: Q (Seismic Shard, 8s cooldown, 625 range) steals your movement speed, then E (Ground Slam, 7s cooldown, 400 range) shreds your attack speed while the shield soaks the first hits. Don't commit autos here — back off until the shield decays."
+   },
+   "yourWindow": {
+    "when": "right after he fires Q or E",
+    "what": "He has no slow or attack-speed tool to peel for 7-8 seconds. Charge in with E (Searing Charge) into nearby terrain for the shockwave knockup, then land Q for the slow and keep him pinned."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Shield soaks early pokes, neither side commits"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W (Brutal Strikes) cleave and stat buff online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Call of the Forge God) forces a Brittle window first"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Cooldowns shrink, Hollow Radiance/Unending Despair online"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Both full tank, fight decided by who lands R"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The highest-performing start (52.2% over 1040 games) sustains through Malphite's Q poke and auto trades, keeping your HP high enough that his Granite Shield isn't offsetting a losing exchange."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Takes the 53.7% boots slot and the tenacity cuts the lockout after his R (Unstoppable Force) knockup, letting you recast E or walk away sooner."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "First item in the 57.6%-winrate path; the HP and regen let you stay in range to re-apply Brittle instead of resetting the trade."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Second item in that same 125-game core path; grief damage punishes him for cleaving you with W (Brutal Strikes)."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Most-picked third item (12.4% pick) in the top-performing path; stacking resistances outlasts his armor-scaling E (Ground Slam) damage into the late game."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he leans on sustained autos after activating W (Brutal Strikes) or buys lifesteal"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his team is attack-speed or crit heavy and you need the active slow to stick fights"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their comp shifts to burst magic damage beyond just Malphite"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "you need waveclear and AoE pressure for teamfights over single-target tankiness"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Permanent HP growth out-stalls a passive that only resets when he avoids hits — you're never giving that sustain back.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The dominant pick (82.3% pick rate, 50.6% win rate) — Teleport resets you to lane after all-ins through his long Q/E cooldowns, and Flash covers his R (Unstoppable Force) engage."
+  },
+  "playing": [
+   {
+    "title": "Never auto a full shield",
+    "detail": "If Malphite hasn't been hit recently, Granite Shield is charged and your first hits are wasted. Open trades with Q (Volcanic Rupture) instead of an auto."
+   },
+   {
+    "title": "Chain E into terrain for knockup",
+    "detail": "Searing Charge only knocks up if it collides with terrain — walk him toward a wall before committing so the shockwave actually lands."
+   },
+   {
+    "title": "Minimize auto commitment after his E",
+    "detail": "Ground Slam reduces your attack speed for a short duration, so lean on Q and W (Bellows Breath) damage instead of continuing to auto through it."
+   },
+   {
+    "title": "Punish whiffed Q",
+    "detail": "Seismic Shard is on an 8s cooldown — if he misses it or uses it to poke from range, that's 8 seconds with no slow tool to stop your engage."
+   },
+   {
+    "title": "Track the R cooldown gap",
+    "detail": "Your R (Call of the Forge God) comes online at 140/120/100/100/100s, his R (Unstoppable Force) at 130/115/100/80/80s — in the mid game your ultimate is often up when his isn't; look for forced Brittle windows then."
+   },
+   {
+    "title": "Use W's Brittle for jungler ganks",
+    "detail": "Bellows Breath's final gout applies Brittle — time it right before your jungler arrives so the extra damage from Brittle lands on the gank, not a solo trade."
+   },
+   {
+    "title": "Itemize sustain before damage",
+    "detail": "Hollow Radiance into Unending Despair outlasts his armor-scaling Ground Slam; don't skip to burst items early or you lose the extended-fight war the OP.GG data warns about."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are measured from live games on the current patch (16.19.1); the mechanical reasoning — when to engage, what his cooldowns open up, and how to play around Granite Shield — is my own tactical read, not sourced from aggregate stats."
+ },
+ "generatedAt": 1791040229341,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791040161967,
+  "overall": {
+   "winRate": 51.5,
+   "play": 63779,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1434,
+   "wins": 742,
+   "winRate": 51.7
+  },
+  "laneAdvantage": "Ornn",
+  "soloKillAdvantage": "Ornn",
+  "playStyle": "aggressive",
+  "opponentTip": "Malphite can go through Ornn’s armor if he has purchased items adequately and has Press the Attack, so avoid fighting him in prolonged combat. Hit and run often when fighting him. Use [R] carefully while keeping his (R) in mind.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.6,
+    "play": 1421,
+    "pickRate": 82.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55,
+    "play": 260,
+    "pickRate": 15.1
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.5,
+    "play": 474,
+    "pickRate": 26.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 378,
+    "pickRate": 21.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.2,
+    "play": 1040,
+    "pickRate": 59.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 461,
+    "pickRate": 26.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.7,
+    "play": 831,
+    "pickRate": 49.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.4,
+    "play": 806,
+    "pickRate": 48.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 57.6,
+    "play": 125,
+    "pickRate": 12.4
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 64.6,
+    "play": 48,
+    "pickRate": 4.8
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Randuin's Omen"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 3.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 52.4,
+    "play": 1005,
+    "pickRate": 58.8
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 55.9,
+    "play": 752,
+    "pickRate": 44
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 59.1,
+    "play": 548,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 56.6,
+    "play": 488,
+    "pickRate": 28.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.6,
+    "play": 396,
+    "pickRate": 23.2
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 48.4,
+    "play": 308,
+    "pickRate": 18
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 53.1,
+    "play": 542
+   }
+  ]
+ }
+}

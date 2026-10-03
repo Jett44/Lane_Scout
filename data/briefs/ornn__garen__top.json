@@ -1,0 +1,384 @@
+{
+ "you": "Ornn",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if Garen freely trades E and Q into you before level 6; you win if you survive to level 6+ and land the Q-into-R combo OP.GG itself flags for this matchup."
+  },
+  "thesis": "Garen's passive (Perseverance) heals him back to full between skirmishes and his E (Judgment) is a short-cooldown spin he can throw out constantly, so uninterrupted trading favors him. Ornn's tools are slower to land — Q (Volcanic Rupture) has a delay before the pillar forms, and E (Searing Charge) only knocks up if it hits terrain — which is why Garen holds lane and solo-kill advantage here (47.9% Ornn win rate over 1654 games, below Ornn's 51.5% baseline). Ornn's equalizer is the ultimate: once R is live, the matchup's real win condition is the Q-slow into R-kill pattern.",
+  "tell": {
+   "watch": "Garen's E (Judgment) cooldown",
+   "theirWindow": {
+    "when": "Garen's E is off cooldown and he's near full",
+    "what": "He can spin (13/12/11/10/9s cooldown) to poke you repeatedly while Perseverance heals the damage back. Don't stand in minion range trading autos with him during this window — disengage or force him to walk into your Q slow instead."
+   },
+   "yourWindow": {
+    "when": "Your Q (Volcanic Rupture) slow has landed and R is up",
+    "what": "Follow immediately with R (Call of the Forge God) and recast it to redirect the elemental into him for the knockup — this is the exact line OP.GG calls out: punish with Q, close with R, before he can Flash or Q (Decisive Strike) away."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "E spin + Q silence win uncontested trades"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "W Brittle and Q slow let you disengage"
+   },
+   {
+    "levels": "7-10",
+    "edge": "you",
+    "note": "R online, Q-into-R kill threat live"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "tank items keep pace with his split push"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "R knockup chain outscales his single-target R"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "55.4% pick rate and the higher win rate of the two common starts (48% over 1107 games) — the extra sustain directly counters Garen's E poke and Perseverance regen race."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "81.9% pick rate and the better of the two boot options (49.6% over 1555 games) — flat physical reduction cuts both his auto-attacks and his E spin damage."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "First item on every viable build path in this data — gives you the HP and immolate pressure to punish him for standing near you."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Part of the best-performing path recorded (63.5% win rate over 52 games into Jak'Sho) — the grievous wounds and shield directly blunt his Perseverance sustain."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Closes out the strongest recorded build path and gives the resistance stacking you need once he starts one-shotting with R (Demacian Justice) at higher levels."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "garen is ahead and leaning on auto-attacks or lifesteal to close out the lane"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team has a strong magic damage threat alongside garen"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "garen or another enemy carry is stacking crit or attack speed"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustained healing on your first attack every few seconds directly offsets the damage you take absorbing his E spins and auto trades — this is the higher win-rate page recorded (53.1% over 16% of games).",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Legend: Haste",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The standard pick at 72.5% of games and a 49.1% win rate — Teleport lets you reset after losing an early trade and answer his split-push threat later, which matters more here than Ignite given you're behind in solo-kill potential."
+  },
+  "playing": [
+   {
+    "title": "Trade only after his E lands",
+    "detail": "Step in and poke with Q (Volcanic Rupture) right after he spends E (Judgment), since its cooldown (13/12/11/10/9s) is the one window he can't immediately spin again."
+   },
+   {
+    "title": "Respect his Q before committing E or R",
+    "detail": "Decisive Strike (8s cooldown) breaks slows and silences on his next hit — don't start a long E (Searing Charge) charge or wind up R while it's up, bait it out on minions first."
+   },
+   {
+    "title": "Aim E charges at terrain",
+    "detail": "Searing Charge only knocks up if you collide with terrain mid-charge, so position your charges toward walls near him rather than flat open-ground charges that deal no knockup."
+   },
+   {
+    "title": "Apply W before you all-in",
+    "detail": "Bellows Breath's final gout of flame inflicts Brittle — land it right before you commit so your Q and R follow-up hit a debuffed target instead of a clean one."
+   },
+   {
+    "title": "Deny his passive regen window",
+    "detail": "Perseverance heals him back to full once he's gone untouched for a moment — keep poking with Q on cooldown between trades so he never gets to sit and regenerate."
+   },
+   {
+    "title": "Chain Q into R for the kill",
+    "detail": "OP.GG's own read on this matchup: slow him with Q, then summon and recast R (Call of the Forge God) to redirect the elemental into him for the knockup before he can reset with Flash or Decisive Strike."
+   },
+   {
+    "title": "Play around his execute past level 11",
+    "detail": "Demacian Justice drops to a 50s and then 20s cooldown at ranks 4-5, meaning from level 11 on it's nearly always up — don't sit below 50% health near him."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above are measured from live OP.GG games on the current patch; the mechanical reasoning — cooldown windows, terrain requirements, trade timing — is my own tactical read layered on top of that data."
+ },
+ "generatedAt": 1791039190283,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791039107890,
+  "overall": {
+   "winRate": 51.5,
+   "play": 63779,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1654,
+   "wins": 793,
+   "winRate": 47.9
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "even",
+  "opponentTip": "Use [Q] to punish Garen and kill him afterwards using [R]. Be careful of being killed when you are below 50% health as Garen can use (R) to kill you instead.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.1,
+    "play": 1440,
+    "pickRate": 72.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 446,
+    "pickRate": 22.5
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 54.8,
+    "play": 42,
+    "pickRate": 2.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50.1,
+    "play": 521,
+    "pickRate": 25.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.1,
+    "play": 326,
+    "pickRate": 16
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 1107,
+    "pickRate": 55.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 567,
+    "pickRate": 28.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.6,
+    "play": 1555,
+    "pickRate": 81.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49,
+    "play": 306,
+    "pickRate": 16.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 50.6,
+    "play": 81,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 63.5,
+    "play": 52,
+    "pickRate": 4.7
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 52.4,
+    "play": 42,
+    "pickRate": 3.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 47.8,
+    "play": 1171,
+    "pickRate": 59.5
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 52.8,
+    "play": 879,
+    "pickRate": 44.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.3,
+    "play": 550,
+    "pickRate": 28
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 55.8,
+    "play": 507,
+    "pickRate": 25.8
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 52.7,
+    "play": 474,
+    "pickRate": 24.1
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 57,
+    "play": 372,
+    "pickRate": 18.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 56.5,
+    "play": 577
+   }
+  ]
+ }
+}

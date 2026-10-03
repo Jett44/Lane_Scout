@@ -1,0 +1,379 @@
+{
+ "you": "Ornn",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales",
+   "line": "You lose if you trade autos into Sett before level 6; you win if you survive to Sunfire Aegis and Thornmail and let Brittle plus armor stacking take over."
+  },
+  "thesis": "Sett's passive (Pit Grit) rewards every exchange with alternating left/right punches and missing-health regen, and his Q (Knuckle Down) adds bonus damage on his next two attacks while speeding him toward you — so early trades are built to favor him by design. Ornn has no way to out-damage that in a straight auto-trade before level 6; the matchup only turns once Sunfire Aegis and Thornmail are online and Sett's healing stops outpacing your sustained damage. OP.GG's 52.5% head-to-head over 1,647 games reflects that late reversal, not an easy lane.",
+  "tell": {
+   "watch": "Sett's W Grit bar",
+   "theirWindow": {
+    "when": "Grit bar full, level 6+",
+    "what": "A full Haymaker (W) shield plus his ultimate online means he can shield through your poke and all-in. Do not stand in minion wave with allies on both sides of you, since that lets Facebreaker (E) pull and stun instead of just slow."
+   },
+   "yourWindow": {
+    "when": "Right after Sett casts W (Haymaker)",
+    "what": "His Grit resets to zero and Haymaker goes on cooldown (18s at rank 1, down to 12s at rank 5), so he loses his true-damage punch and shield. Land Q (Volcanic Rupture) for the slow and follow with autos while he has no answer."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Passive regen and Q bonus damage win every trade"
+   },
+   {
+    "levels": "6-9",
+    "edge": "them",
+    "note": "Ultimate online, all-in kill threat on overextension"
+   },
+   {
+    "levels": "10-13",
+    "edge": "even",
+    "note": "Sunfire Aegis and Thornmail blunt his burst"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Forge items and Brittle knockup outscale his dueling kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The passive damage block and sustain directly answer Sett's empowered right-hand punches and chip poke, which is why it's picked in 54.3% of these games at a 50.7% win rate."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Sett's entire kit is physical autos and auto-reliant combos (Q, passive), so the flat reduction from Steelcaps (83.4% pick, 52.9% win rate) outperforms Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Gives you the health and armor to survive the levels 6-9 all-in window without needing to win the fight outright."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes his auto-attack-dependent trading pattern and cuts the healing from his missing-health regen and any Conqueror he's running."
+    },
+    {
+     "item": "Kaenic Rookern",
+     "why": "This exact path hit a 72.1% win rate over 43 games — the shield absorbs his burst windows (Q into E) that Sunfire and Thornmail alone don't fully cover."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the game goes long and you need stacking resistances for extended teamfights instead of a one-time shield"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you're getting dove repeatedly and need the omnivamp and grievous wounds proc more than raw resist"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're getting rushed by an early Sett all-in and need the grievous wounds component before you can finish Thornmail"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Turns your first auto of every extended trade into bonus damage plus max-health regen, which is exactly what offsets Sett's passive healing advantage in a defensive lane like this.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash/Teleport is run in 75.5% of these games at 52.1% win rate and lets you reset after losing the early trades instead of being locked into a lane you can't win pre-6. Flash/Ignite (54% win rate, 20% pick) is the aggressive alternative if you intend to punish his low-mobility all-ins with summoner damage."
+  },
+  "playing": [
+   {
+    "title": "Never auto-trade into his Q",
+    "detail": "If Sett's Knuckle Down (Q) is up (9s at rank 1, down to 5s at rank 5), his next two autos carry bonus max-health damage. Back off and poke with Q (Volcanic Rupture) instead of standing in range."
+   },
+   {
+    "title": "Hold wave position against Facebreaker",
+    "detail": "Sett's E (Facebreaker, 16s to 10s cooldown) only stuns if enemies are on opposite sides of him; staying on one side with the wave turns it into a slow instead of a stun."
+   },
+   {
+    "title": "Don't prolong fights once he's level 6",
+    "detail": "Sett is very likely to be running Conqueror, so drawn-out skirmishes heal him back up. Land your slow, trade once, and disengage rather than fighting to the death."
+   },
+   {
+    "title": "Save E for his engage, not yours",
+    "detail": "Searing Charge (E, 14s to 12s cooldown) knocks up if you collide with terrain mid-charge. Use it to punish the moment he commits with Q or R, not to initiate yourself."
+   },
+   {
+    "title": "Bait Haymaker before committing",
+    "detail": "Sett's W (Haymaker) consumes all stored Grit for a shield and true-damage punch. If you see his Grit bar maxed, back off a step and let him either waste it early or commit without it."
+   },
+   {
+    "title": "Punish the post-ultimate window",
+    "detail": "The Show Stopper (R, 120s to 80s cooldown) commits him fully — once he's used it, he's lost his only hard engage tool for up to two minutes. Shove and look to trade freely."
+   },
+   {
+    "title": "Hold R for the all-in, not the poke",
+    "detail": "Call of the Forge God (140s to 100s cooldown) is your only way to flip a 6-9 all-in; don't spend it chasing a single trade before Sunfire Aegis and Thornmail are online."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch; the trade patterns, cooldown reads, and tactical sequencing are my own analysis built on top of that data."
+ },
+ "generatedAt": 1791039268384,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791039194793,
+  "overall": {
+   "winRate": 51.5,
+   "play": 63779,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1647,
+   "wins": 864,
+   "winRate": 52.5
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Do not prolong the fight with Sett as he will most likely have Conqueror. Ignore the CC on Sett’s (E) and (R) with a well-timed [W].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.1,
+    "play": 1500,
+    "pickRate": 75.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54,
+    "play": 398,
+    "pickRate": 20
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 51.1,
+    "play": 47,
+    "pickRate": 2.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.6,
+    "play": 524,
+    "pickRate": 25.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.8,
+    "play": 305,
+    "pickRate": 15
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.7,
+    "play": 1083,
+    "pickRate": 54.3
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 54.2,
+    "play": 589,
+    "pickRate": 29.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.9,
+    "play": 1602,
+    "pickRate": 83.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.2,
+    "play": 293,
+    "pickRate": 15.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 53.8,
+    "play": 65,
+    "pickRate": 6.1
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 72.1,
+    "play": 43,
+    "pickRate": 4
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 54.1,
+    "play": 37,
+    "pickRate": 3.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.4,
+    "play": 1058,
+    "pickRate": 53.8
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 54.9,
+    "play": 880,
+    "pickRate": 44.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.3,
+    "play": 644,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 59.5,
+    "play": 565,
+    "pickRate": 28.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 48.8,
+    "play": 488,
+    "pickRate": 24.8
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 57.7,
+    "play": 473,
+    "pickRate": 24.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 56.6,
+    "play": 601
+   }
+  ]
+ }
+}

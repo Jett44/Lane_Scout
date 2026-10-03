@@ -1,0 +1,380 @@
+{
+ "you": "Ornn",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into her while her W and E are both up; you win if you catch both on cooldown and punish with Q's slow and W's Brittle."
+  },
+  "thesis": "Ornn has no way to force a fight Gwen doesn't want: her W (Hallowed Mist) makes her untargetable to anyone outside it, and her E (Skip 'n Slash) gives her a dash to reposition before Ornn's slow, mostly-stationary kit lands anything. The lane is decided by whether Ornn can catch her W (22-18s cooldown) and E (13-11s cooldown) both down to force a trade on his terms, since her Q (Snip Snip!) true damage and max-health-scaling passive punish him for free if he just stands and trades evenly.",
+  "tell": {
+   "watch": "Gwen's W cooldown timer",
+   "theirWindow": {
+    "when": "Her E is off cooldown",
+    "what": "She can dash in, get bonus attack speed/range/magic on-hit for a few seconds, and refund the dash cooldown on a hit. Don't let her walk away for free; she's at her most dangerous but also her most committed during this window."
+   },
+   "yourWindow": {
+    "when": "Her W (Hallowed Mist) is down",
+    "what": "Without the mist to hide in she can't escape your Q (Volcanic Rupture) slow. Walk up, land Q, and follow with W (Bellows Breath) for Brittle if she's still in range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her Q true damage wins poke exchanges"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W escape and E dash punish all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates online, trades even out"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Tank items blunt her on-hit magic damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "R plus E knockup wins the teamfight"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Doran's Shield wins the 717-game sample at 51.6% here, and the flat damage reduction on the first auto taken each few seconds directly blunts her Q (Snip Snip!) poke and E empowered autos."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Mercury's Treads post the higher of the two listed win rates (51.8% over 635 games); the magic resist cuts her Q true-damage-adjacent center hits and passive scaling, and tenacity shortens how long her R (Needlework) slow holds you."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "Leads the highest-win-rate path (67.7% over 62 games) and its anti-heal directly undercuts her passive (A Thousand Cuts) sustain, which is the main way she wins extended trades."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Second item on the same 67.7% path; the magic resist and damage-reduction proc absorb her burst windows off E (Skip 'n Slash) and R (Needlework)."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Closes out the top win-rate build; stacking resistances scale Ornn into the level 14+ window where his R and E knockup combo takes over fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team stacks magic damage beyond gwen"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're losing the early sustain war to her passive healing"
+    },
+    {
+     "item": "Thornmail",
+     "when": "the enemy adds a heavy-healing or on-hit threat later"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page posts the better of the two listed (54.4% over the 47.7% Precision page); Grasp's proc heal and permanent bonus health reward Ornn for walking up and landing autos in extended trades, which is how you outlast her poke rather than all-in her mobility.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 70.4% of these games at a 48.6% win rate; since the lane itself is close to a coinflip, Teleport's value comes from wave management and objective swaps rather than forcing kills Gwen can dodge with W."
+  },
+  "playing": [
+   {
+    "title": "Trade only after her E lands",
+    "detail": "Her E (Skip 'n Slash) is on a 13-11s cooldown; if she dashes in and doesn't land a hit to refund it, she's stuck without her main repositioning tool for that window — walk up and land Q (Volcanic Rupture)."
+   },
+   {
+    "title": "Don't commit R before her W is down",
+    "detail": "Gwen's W (Hallowed Mist) makes her untargetable to anyone outside it for its duration; don't send your R (Call of the Forge God) elemental or charge your E (Searing Charge) at her until you've confirmed W is on cooldown."
+   },
+   {
+    "title": "Clear waves with Q pre-6",
+    "detail": "Before level 6 your E needs terrain contact to knock up, which rarely lines up in open lane; use Q (Volcanic Rupture) to shove waves and deny her passive (A Thousand Cuts) stacking, which only triggers on champion hits."
+   },
+   {
+    "title": "Hold W for her all-in, not the wave",
+    "detail": "Her all-ins come off an E dash into empowered autos; save W (Bellows Breath) to tag her with Brittle during that window instead of using it to clear minions."
+   },
+   {
+    "title": "Rush anti-heal if you fall behind",
+    "detail": "Hollow Radiance's anti-heal is the direct counter to her passive sustain; buy it first if she's winning the poke war early rather than waiting for the full build order."
+   },
+   {
+    "title": "Use lane walls for E knockups",
+    "detail": "Walk your E (Searing Charge) toward a wall when she's overextended; the terrain-collision shockwave knocks her up and can interrupt her W cast if you catch it before the mist goes up."
+   }
+  ],
+  "patchCaveat": "The build order, rune pages, boots, summoners, and every win-rate/sample-size figure above come from measured Ornn vs Gwen games on the current patch (16.19.1). The cooldown windows, trade timing, and tactical reasoning are my own read of the published ability kits, not measured data."
+ },
+ "generatedAt": 1791040119186,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791040022441,
+  "overall": {
+   "winRate": 51.5,
+   "play": 63779,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1296,
+   "wins": 625,
+   "winRate": 48.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.6,
+    "play": 1038,
+    "pickRate": 70.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.6,
+    "play": 334,
+    "pickRate": 22.6
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 58,
+    "play": 50,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.4,
+    "play": 384,
+    "pickRate": 25.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 214,
+    "pickRate": 14.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 717,
+    "pickRate": 48.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 44.7,
+    "play": 510,
+    "pickRate": 34.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.4,
+    "play": 682,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.8,
+    "play": 635,
+    "pickRate": 46.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 67.7,
+    "play": 62,
+    "pickRate": 8.5
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58.6,
+    "play": 29,
+    "pickRate": 4
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 56,
+    "play": 25,
+    "pickRate": 3.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 49.5,
+    "play": 790,
+    "pickRate": 54.7
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 50.5,
+    "play": 721,
+    "pickRate": 49.9
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 52.3,
+    "play": 493,
+    "pickRate": 34.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 47.4,
+    "play": 407,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56.5,
+    "play": 354,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.3,
+    "play": 308,
+    "pickRate": 21.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 54.7,
+    "play": 426
+   }
+  ]
+ }
+}

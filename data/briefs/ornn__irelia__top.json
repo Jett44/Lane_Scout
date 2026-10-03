@@ -1,0 +1,385 @@
+{
+ "you": "Ornn",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Defensive but winnable",
+   "line": "You lose if you trade into her stacked Ionian Fervor or let her land a free Flawless Duet before level 6; you win by surviving the early skirmishes and converting Ornn's level-6 Call of the Forge God plus tank itemization into forced fights."
+  },
+  "thesis": "Irelia wins the lane and the 1-for-1 duel on her own — Bladesurge gives her a free gap-closer every 10 to 6 seconds and her stacking Ionian Fervor passive turns extended trades in her favor before Ornn has the tools to answer. Ornn's real advantage is structural, not a lane-phase one: Bellows Breath's Brittle and a terrain-charged Searing Charge knockup turn skirmishes into forced exchanges once his tank core and R are online. The 52.1% head-to-head winrate over 944 games reflects a lane that's typically lost early and clawed back from level 6 onward with the right build.",
+  "tell": {
+   "watch": "Irelia's Ionian Fervor stack count",
+   "theirWindow": {
+    "when": "Irelia sitting at max Fervor stacks",
+    "what": "She'll commit with E (Flawless Duet) for the stun and Mark, then chain Q (Bladesurge) into stacked, faster autos. Searing Charge's 450 range can't contest her 850-range E, so disengage toward minions or your tower instead."
+   },
+   "yourWindow": {
+    "when": "Right after her E (Flawless Duet) whiffs",
+    "what": "Her only stun is down for 16 to 10 seconds by rank, and Bladesurge won't refresh its cooldown without a Mark or a kill. Step in with Q (Volcanic Rupture) to slow, follow with W (Bellows Breath) for Brittle, then charge E (Searing Charge) into terrain for the knockup."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Irelia dashes free, Ornn has no E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Her full combo plus stacking Fervor snowballs"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "Both ults live; forced fights trade evenly"
+   },
+   {
+    "levels": "10-18",
+    "edge": "you",
+    "note": "Tank items and peel favor Ornn hard"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "49.8% winrate over 504 games. The regen and autoattack block blunt Irelia's early Bladesurge pokes and let you hold CS without burning summoners."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.2% winrate over 972 games (90.3% pick rate). Flat physical damage reduction directly counters her auto-attack-heavy, Fervor-stacked trade pattern."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Cuts into the healing Irelia gets from Bladesurge, undercutting her sustain in extended trades."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Passive damage punishes her for staying in melee range during Fervor-stacked exchanges."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Grievous Wounds shuts down the Bladesurge heal entirely once completed; this path hits 56.4% winrate over 55 games, the highest sampled build."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances and the damage-reduction active keep Ornn alive through her burst windows in prolonged fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "their comp adds heavy magic damage alongside irelia"
+    },
+    {
+     "item": "Frozen Heart",
+     "when": "she's stacking attack speed and auto-resetting off fervor"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you need more sustain through extended skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustained HP growth and free poke damage keep Ornn healthy through a lane phase he's statistically losing, without needing to commit to risky trades.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Teleport is run in 73.3% of games at 50.7% winrate and lets Ornn freeze safely and reset for plates in a lane he's behind in. Flash + Ignite measures higher at 55.3% over a smaller sample if you want to pressure early kill windows instead."
+  },
+  "playing": [
+   {
+    "title": "Track her Fervor stack count",
+    "detail": "Irelia's Ionian Fervor stacks attack speed on spell hits; once she's near max stacks she'll look to commit, so disengage rather than trade autos back."
+   },
+   {
+    "title": "Punish a missed Flawless Duet",
+    "detail": "Her E stun sits on a 16 to 10 second cooldown by rank. If it whiffs, step in with Q to slow and W for Brittle before she can reset with Bladesurge."
+   },
+   {
+    "title": "Respect Bladesurge resets",
+    "detail": "Q refreshes its cooldown if the target is Marked or dies to it, so don't fight at low HP once she's landed an E Mark on you."
+   },
+   {
+    "title": "Line up E into terrain",
+    "detail": "Searing Charge only knocks up and shockwaves if Ornn collides with terrain mid-charge, so aim it at lane walls instead of open space for the extra damage and crowd control."
+   },
+   {
+    "title": "Freeze and farm levels 3-5",
+    "detail": "Her full combo plus stacking Fervor wins extended trades before Ornn hits 6. Hold the wave near your tower and only poke with Q when she overextends."
+   },
+   {
+    "title": "Force fights after level 6",
+    "detail": "Call of the Forge God's knockup and Brittle let Ornn dictate engages that Irelia can't out-trade once Bramble Vest and Sunfire Aegis are online."
+   },
+   {
+    "title": "Pivot to Frozen Heart vs on-hit",
+    "detail": "If her build leans into attack speed and on-hit effects, Frozen Heart's aura slow directly cuts the extra attack speed Fervor gives her."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and the 52.1% head-to-head winrate over 944 games are measured from live OP.GG data on the current patch; the reasoning about stack timing, cooldown windows, and trade patterns is my own tactical read."
+ },
+ "generatedAt": 1791039978739,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791039880309,
+  "overall": {
+   "winRate": 51.5,
+   "play": 63779,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 944,
+   "wins": 492,
+   "winRate": 52.1
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid fighting Irelia when she has her (P) stacks up. Irelia will try to fight with (E) when she has full stacks on, so avoid it with either [W] or [E]. Try to hit and run often when fighting Irelia.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.7,
+    "play": 795,
+    "pickRate": 73.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.3,
+    "play": 217,
+    "pickRate": 20
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 41.9,
+    "play": 43,
+    "pickRate": 4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 314,
+    "pickRate": 28.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 168,
+    "pickRate": 15.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.8,
+    "play": 504,
+    "pickRate": 45.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50.1,
+    "play": 417,
+    "pickRate": 37.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.2,
+    "play": 972,
+    "pickRate": 90.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.5,
+    "play": 101,
+    "pickRate": 9.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56.4,
+    "play": 55,
+    "pickRate": 9.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 3.8
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 3.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.4,
+    "play": 532,
+    "pickRate": 48.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.5,
+    "play": 517,
+    "pickRate": 47.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49.3,
+    "play": 456,
+    "pickRate": 42
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 58.9,
+    "play": 387,
+    "pickRate": 35.6
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 58.6,
+    "play": 309,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 57.8,
+    "play": 287,
+    "pickRate": 26.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 56.5,
+    "play": 345
+   }
+  ]
+ }
+}

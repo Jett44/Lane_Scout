@@ -1,0 +1,376 @@
+{
+ "you": "Sett",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Shadow Dash range on cooldown and eat a taunt-stun combo; you win if you force fights while Feint is down and punish with Facebreaker."
+  },
+  "thesis": "Shen has no sustained damage and relies entirely on E (Shadow Dash) to taunt you into a bad trade, then W (Feint) to no-sell your burst. Sett's whole kit is burst-and-stun, so the matchup is decided by whether you can bait Feint away before you commit Q and E. Data backs this as close to even — 50.5% over 1583 games — with Sett holding the lane- and solo-kill edge, so this is winnable with correct sequencing, not a free lane.",
+  "tell": {
+   "watch": "Shen's W (Feint) cooldown",
+   "theirWindow": {
+    "when": "Feint is up and E is charged",
+    "what": "Shen can taunt you with E (Shadow Dash) at up to 575 range then shield through your response with W. Don't fish for a trade here; your Q/E damage gets absorbed and you eat the taunt for nothing."
+   },
+   "yourWindow": {
+    "when": "Feint (18/16.5/15/13.5/12s) is on cooldown",
+    "what": "This is when you all-in. Walk up for Q (Knuckle Down) movement speed, land both empowered hits, and use E (Facebreaker) the moment he's between you and a minion or you're both isolated - it stuns if he's pulled from one side only against another enemy, or stuns on a two-sided pull. Without Feint he has zero answer to your burst."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a real combo yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Shen gets Shadow Dash taunt online first"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R threat plus Q/E burst outscales his poke"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Feint uptime shrinks, trades become 50/50"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Stridebreaker burst overwhelms his low damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Picked in 81.1% of games (50.7% win rate over 1597) because it fuels the all-in trades you need once Feint is down."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Shen's only repeated damage source is auto-attacks and Ki Strike procs; Steelcaps (48.1% over 856 games) blunt that instead of overpaying for magic resist he doesn't deal."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Gives the movement speed to close the gap after he Shadow Dashes in, and the active lets you start fights on your terms instead of his."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Part of the 57.7% win-rate path over 376 games; shred helps since Shen has no bonus resistances to punch through on his own."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Sustain and bonus damage that keeps you ahead in repeated skirmishes once Feint cooldown shrinks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he starts all-inning you with Shadow Dash plus allies"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he builds tanky and your flat damage starts falling off"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Shen has no real poke damage, so stacking Conqueror in extended trades is free value he can't punish.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Unflinching"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 85.2% of games at 50.7% win rate; Ignite punishes Shen's Vorpal Blade sustain and secures the solo kills the data says you're favored for."
+  },
+  "playing": [
+   {
+    "title": "Bait Shadow Dash before committing",
+    "detail": "Make a small, reversible movement near minion range to see if he throws E (Shadow Dash, 16/14/12/10/8s). If it whiffs or lands on a minion, his taunt is gone for a long window - that's your cue to all-in."
+   },
+   {
+    "title": "Never Q-into-E on cooldown Feint",
+    "detail": "If his W (Feint) is clearly up (recently cast, shield shimmer visible), don't dump Q (Knuckle Down) empowered autos into him - he just absorbs it. Wait it out."
+   },
+   {
+    "title": "Use E to punish his dash recovery",
+    "detail": "Shadow Dash has no return mechanic - after he taunts you, he's stuck next to you. Immediately look for E (Facebreaker) if a minion or ally is positioned to stun him before he can trade back."
+   },
+   {
+    "title": "Track Vorpal Blade spam on cooldown",
+    "detail": "His Q (Vorpal Blade, 6/5.5/5/4.5/4s) is his only form of sustain and lane pressure. If he's using it to poke you down, match with your own trades since he has no shield to protect that poke."
+   },
+   {
+    "title": "Save R for isolated all-ins only",
+    "detail": "The Show Stopper (120/100/80/80/80s) carries him away from his team - use it only when you can follow up alone or with jungler, since its long cooldown means a whiffed R leaves you vulnerable for minutes."
+   },
+   {
+    "title": "Don't contest extended trades on cooldown W",
+    "detail": "Your W (Haymaker) is gated by stored Grit, not a flat cooldown - make sure you've been hit enough recently (by minions/Shen) to have a real shield before you commit to a long trade."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners, and all win-rate/pick-rate numbers are measured from live OP.GG games on the current patch; the tactical reading of ability timing and trade windows is our own analysis layered on top."
+ },
+ "generatedAt": 1791040464937,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791040426916,
+  "overall": {
+   "winRate": 50.6,
+   "play": 100990,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1583,
+   "wins": 799,
+   "winRate": 50.5
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being taunted by Shen. Wait until his (W) is on cooldown or fight him outside his (W) to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.7,
+    "play": 1672,
+    "pickRate": 85.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 216,
+    "pickRate": 11
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 49.2,
+    "play": 59,
+    "pickRate": 3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.5,
+    "play": 639,
+    "pickRate": 31.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 247,
+    "pickRate": 12.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.7,
+    "play": 1597,
+    "pickRate": 81.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.5,
+    "play": 256,
+    "pickRate": 13
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.1,
+    "play": 856,
+    "pickRate": 46.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.9,
+    "play": 649,
+    "pickRate": 35.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 57.7,
+    "play": 376,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 53.3,
+    "play": 152,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 56.7,
+    "play": 67,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.7,
+    "play": 1769,
+    "pickRate": 91.2
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 53.6,
+    "play": 1110,
+    "pickRate": 57.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.2,
+    "play": 982,
+    "pickRate": 50.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.3,
+    "play": 541,
+    "pickRate": 27.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 46.3,
+    "play": 229,
+    "pickRate": 11.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 59.8,
+    "play": 204,
+    "pickRate": 10.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52.1,
+    "play": 543
+   }
+  ]
+ }
+}
