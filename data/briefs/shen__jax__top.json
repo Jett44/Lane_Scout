@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You lose if you trade into a cooldown E (Shadow Dash) or let Jax stack R (Relentless Assault) attack speed uncontested; you win every exchange where you taunt him mid-Leap Strike or bait Counter Strike early."
+  },
+  "thesis": "Shen's 55.7% win rate over 1522 games against Jax comes from a timing mismatch: Jax's entire kit (Q Leap Strike, 17/14/11/8/5s cooldown; E Counter Strike, 18/16/14/12/10s cooldown) is burst-and-reset, while Shen's W (Feint) and E (Shadow Dash) punish exactly those windows. OP.GG's own read confirms it — shield when his E is up, swing when it's down. This is a lane about tracking two cooldowns, not raw stats.",
+  "tell": {
+   "watch": "Jax's E (Counter Strike) cooldown",
+   "theirWindow": {
+    "when": "Jax activates E and closes distance",
+    "what": "Do not auto-attack into it. Hold W (Feint) to absorb the stun-damage window, or simply back off 475+ range and let the 2-3s stance expire before re-engaging with Q (Vorpal Blade)."
+   },
+   "yourWindow": {
+    "when": "His E (18-10s) and Q (17-5s) are both down",
+    "what": "This is when you all-in: E (Shadow Dash) in to taunt him so he can't walk away, then Q to life-tap sustain through the trade. He has no stun and no gap-closer to escape your taunt."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has full combo yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Jax Q-E-W burst outscales your single target"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your Grasp sustain offsets his spike"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Titanic Hydra online, taunt wins trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Ults are map plays, not duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Jax's early all-in (Q leap into empowered auto) is physical burst from melee range exactly where Doran's Shield's block and regen matter most; it edges out Doran's Helm here (51.8% vs the matchup's own numbers) because you'll be tanking autos while E is on cooldown."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Jax's damage is entirely basic-attack-based (R's every-third-hit bonus, Q-E combo autos) — Plated Steelcaps' attack damage reduction directly cuts his highest-pick-rate win condition, and it's the 74.2%-picked choice in this exact matchup."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the top win-rate path (57.5% over 120 games); the health-scaling AD and cleave let you win extended trades once Jax's burst cooldowns are gone."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item across all three top build paths; keeps your trades sustainable through repeated Vorpal Blade exchanges."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Highest-win-rate third item (57.5%/120 games) specifically punishing Jax's auto-attack-reliant R and empowered Q."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bandlepipes",
+     "when": "jax is building into a full attack-speed/crit carry path and you need more teamfight utility than Thornmail gives"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "jax or his team is stacking attack speed and you need the active slow to shut down his R uptime"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team has heavy CC beyond Jax's own stun and you need tenacity over flat armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp sustain directly counters Jax's short-cooldown poke (Q 17-5s, W 7-3s) by healing you back on every proc, letting you outlast his early tempo until Titanic Hydra comes online at levels 9-13.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 67.8% of games at a 55.5% win rate — Ignite punishes Jax's low early sustain during the levels 3-5 window where he otherwise outtrades you, converting a close fight into a kill."
+  },
+  "playing": [
+   {
+    "title": "Never auto into active Counter Strike",
+    "detail": "His E (18/16/14/12/10s) dodges all basic attacks and stuns on expiry — walk away or hold Feint instead of feeding him free stun damage."
+   },
+   {
+    "title": "All-in only when both his Q and E are down",
+    "detail": "With Leap Strike (17-5s) and Counter Strike (18-10s) both on cooldown, use E (Shadow Dash) to close and taunt — he has no gap-closer or stun left to answer with."
+   },
+   {
+    "title": "Save W for his engage, not his poke",
+    "detail": "Feint's few seconds of damage absorption (9/8/7/6/5s cooldown) is best spent on the burst window right after his Leap Strike lands, not on chip damage."
+   },
+   {
+    "title": "Track his R stacks in extended trades",
+    "detail": "Relentless Assault has no cooldown and gives bonus damage every third consecutive hit — disengage before the third empowered auto lands rather than fighting through it."
+   },
+   {
+    "title": "Use Q to sustain, not just to poke",
+    "detail": "Vorpal Blade life-taps you on hit; land it whenever it's up (6-4s cooldown) to offset chip damage even outside of all-in windows."
+   },
+   {
+    "title": "Prioritize Titanic Hydra timing",
+    "detail": "The matchup flips to your favor once Titanic Hydra completes around levels 9-13 — play for trades, not kills, until then."
+   },
+   {
+    "title": "Hold R for map pressure, not lane duels",
+    "detail": "Stand United's 200-160s cooldown is a teleport-shield for teammates elsewhere; don't expect it to swing this specific 1v1."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch (16.19.1); the cooldown windows, trade sequencing, and tactical reasoning are this brief's own analysis of the ability mechanics."
+ },
+ "generatedAt": 1791058066748,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791058025661,
+  "overall": {
+   "winRate": 51.3,
+   "play": 65040,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1522,
+   "wins": 847,
+   "winRate": 55.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Use [W] when Jax closes in with his (E) activated! Engage aggressively when Jax’s (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.5,
+    "play": 1248,
+    "pickRate": 67.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.7,
+    "play": 526,
+    "pickRate": 28.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 49.1,
+    "play": 55,
+    "pickRate": 3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.4,
+    "play": 735,
+    "pickRate": 38.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.1,
+    "play": 432,
+    "pickRate": 22.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 955,
+    "pickRate": 51.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 56.9,
+    "play": 850,
+    "pickRate": 45.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 1287,
+    "pickRate": 74.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60.6,
+    "play": 404,
+    "pickRate": 23.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 57.5,
+    "play": 120,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 65.8,
+    "play": 73,
+    "pickRate": 8.6
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 64.7,
+    "play": 68,
+    "pickRate": 8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 56.5,
+    "play": 1509,
+    "pickRate": 83.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 60.3,
+    "play": 776,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53,
+    "play": 438,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.6,
+    "play": 372,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 50,
+    "play": 306,
+    "pickRate": 16.9
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 58.6,
+    "play": 261,
+    "pickRate": 14.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.7,
+    "play": 1035
+   }
+  ]
+ }
+}

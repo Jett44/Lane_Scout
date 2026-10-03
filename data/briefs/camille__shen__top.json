@@ -1,0 +1,380 @@
+{
+ "you": "Camille",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Shen poke freely and force him to all-in you into Feint; you win if you make lane a skirmish he has to answer with Shadow Dash on cooldown."
+  },
+  "thesis": "This is a 46.5% matchup over 1378 games despite Camille's 50.8% baseline, which means Shen's kit answers Camille's specific tools: Feint (W) is a flat damage shield that can eat an empowered Q (Precision Protocol) auto for free, and Shadow Dash (E) taunts through your own engage timing. The matchup is decided by who baits whose cooldown first, not by raw stats.",
+  "tell": {
+   "watch": "Shen's W (Feint) shield state",
+   "theirWindow": {
+    "when": "Shadow Dash (E) is up, you're overextended",
+    "what": "Shen can dash in from 575 range, taunt you on contact, and follow with Vorpal Blade (Q) life-tap heals. Back off wave or hug minions so the dash either whiffs or he eats minion aggro instead."
+   },
+   "yourWindow": {
+    "when": "Shen's E and W are both down",
+    "what": "This is your all-in window. Use E (Hookshot) off a sidelane wall to engage, then land the delayed-recast Precision Protocol (Q) for the big second hit since he has no shield to absorb it and no taunt to punish your dash-in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "even",
+    "note": "both trade pokes, Feint blunts your Q"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Shadow Dash taunt punishes early aggression"
+   },
+   {
+    "levels": "7-10",
+    "edge": "you",
+    "note": "Trinity Force online, W (Tactical Sweep) heal scales"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Ravenous Hydra sustain outlasts his Q life tap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "his Stand United swings teamfights back"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "46.3% win rate over 1107 games and the overwhelming 69.8% pick; the lifesteal and AD let you win extended trades where Shen's Vorpal Blade is also sustaining him, so you need your own damage-to-heal ratio to keep pace."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.6% pick rate at 45.9% win; Shen's Ki Strike empowered autos and Vorpal Blade are both physical, so the flat reduction on his auto-reset trades matters more than magic resist."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "39.7% pick in the top build path at 53.4% win; the move speed and empowered auto proc both synergize with Q's bonus movement to close distance before Shen can set up Feint."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "universal second item across all three top paths; sustained damage and healing directly counters his Vorpal Blade life-tap war of attrition."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "highest-winrate completion at 53.4% over 307 games; the bleed-and-heal lets you tank Shen's mixed physical/magic poke and still win extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "shen is building toward a taunt-and-peel teamfight comp and you need to survive his Stand United follow-up"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "lane is going even and you want faster ultimate and ability cooldowns to out-skirmish him before he hits 6"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "44.7% pick rate and the top-performing page; sustained health regen directly offsets Shen's poke-and-shield pattern and rewards you for staying in minion-trade range rather than backing off.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the top pick at 28.9% with the best win rate at 48.7%; Teleport lets you reset after even trades and still contribute to sidelane skirmishes where this matchup is actually decided."
+  },
+  "playing": [
+   {
+    "title": "Bait Feint before all-in",
+    "detail": "Throw a cheap poke or minion-trade auto to force Shen to pop Feint (W) early. Once it's down, your empowered Q auto goes through clean."
+   },
+   {
+    "title": "Track Shadow Dash range",
+    "detail": "Shen's E has 575 range and taunts on contact. Stay outside that threat radius when you don't want to be locked down, especially before trading."
+   },
+   {
+    "title": "Hookshot off sidelane walls",
+    "detail": "Use E (Hookshot) proactively to reposition for all-ins rather than reactively; it has an 800 range but needs a wall, so plan your engage angle before the fight starts."
+   },
+   {
+    "title": "Delay your Q recast",
+    "detail": "Precision Protocol's second hit does significantly more damage if you wait between the two attacks. Land the first auto, then bait Shen into committing before you recast."
+   },
+   {
+    "title": "Punish his Q cooldown dips",
+    "detail": "Vorpal Blade is only 4-6s cooldown depending on rank, so Shen can spam it in trades. Watch for him missing a cast and burst him in that window before it's back up."
+   },
+   {
+    "title": "Respect level 6 Stand United",
+    "detail": "His ultimate has a 25000 range global teleport-shield; don't force skirmishes elsewhere on the map expecting him to be stuck in lane."
+   },
+   {
+    "title": "Use W heal to win attrition",
+    "detail": "Tactical Sweep's outer-cone slow and bonus damage also heals you; landing it in extended trades directly counters his Q life-tap sustain."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner spells here are pulled from measured OP.GG data on the current patch (16.19.1); the tactical reasoning connecting them to Shen's kit is my own read, not sourced from the win-rate data itself."
+ },
+ "generatedAt": 1791056755172,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791056716477,
+  "overall": {
+   "winRate": 50.8,
+   "play": 76315,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1378,
+   "wins": 641,
+   "winRate": 46.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of getting caught with Shen’s taunt! Be careful of having [Q] blocked when Shen’s (W) is active! Camille will have an easy time contesting lane if she uses her passive [P] to engage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.7,
+    "play": 885,
+    "pickRate": 56.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.7,
+    "play": 452,
+    "pickRate": 28.9
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 44.9,
+    "play": 207,
+    "pickRate": 13.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.7,
+    "play": 456,
+    "pickRate": 28.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 205,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 1107,
+    "pickRate": 69.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.1,
+    "play": 349,
+    "pickRate": 22
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.9,
+    "play": 700,
+    "pickRate": 52.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.1,
+    "play": 549,
+    "pickRate": 41.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 53.4,
+    "play": 307,
+    "pickRate": 39.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 53.7,
+    "play": 149,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.1,
+    "play": 140,
+    "pickRate": 18.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.1,
+    "play": 1519,
+    "pickRate": 98.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 48.6,
+    "play": 1285,
+    "pickRate": 83.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53,
+    "play": 428,
+    "pickRate": 27.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53.2,
+    "play": 237,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 56,
+    "play": 207,
+    "pickRate": 13.4
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 37.1,
+    "play": 140,
+    "pickRate": 9.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 49.4,
+    "play": 532
+   }
+  ]
+ }
+}

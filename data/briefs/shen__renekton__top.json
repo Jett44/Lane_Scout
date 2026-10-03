@@ -1,0 +1,381 @@
+{
+ "you": "Shen",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose lane if Renekton hits 50+ Fury before you can trade safely, but Shen's 52.6% win rate over 1271 games holds up because he doesn't need to win lane to win the game."
+  },
+  "thesis": "Renekton has the lane and solo-kill edge because his Reign of Anger passive lets him threaten an empowered, shield-destroying W the moment he banks 50 Fury, and his Q sustains him through your poke on a flat 7s cooldown. Shen's answer isn't to out-trade him in lane, it's to play the defensive shape OP.GG flags: block his real all-in with Feint, poke at range he can't match, and let teleport ult and item spikes convert the matchup on the map instead of at the minion wave.",
+  "tell": {
+   "watch": "Renekton's Fury meter",
+   "theirWindow": {
+    "when": "his Fury bar is at or above 50",
+    "what": "His W (Ruthless Predator) upgrades to a 3-hit slash that destroys damage shields, deals high physical damage, and stuns for 1.5s instead of 0.75s. Don't walk up on him here, and don't pre-shield with Feint expecting it to hold — the empowered version strips it on cast."
+   },
+   "yourWindow": {
+    "when": "right after his W or E goes on cooldown",
+    "what": "W (16-8s CD) and E (16-10s CD) are his only real threats besides autos — once he's used either, step up and poke with Q (475 range), since it outranges his Q (325), W (300), and E (450), and the life tap gets some of that damage straight back to you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Only Qs are live, trades are symmetric"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Ruthless Predator online, stun threat starts"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Fury snowballs, R adds sustained AoE pressure"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "Titanic Hydra and teleport close the gap"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Measured at 51.5% over 1002 games and the 64.7% pick choice — the flat damage block on his first poke auto and HP5 regen directly counters a lane built around chip autos and Q sustain."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "81.4% pick at 53.1% win rate over 1198 games — the physical damage reduction cuts into both his auto-attack Fury generation game and his W/E burst."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item on the strongest measured path (56.4% WR, 101 games) — the HP and wave-clear let you survive the 3-10 disadvantage window and start threatening side waves."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item on that same path — closes the stat gap that opens once Renekton hits his Fury-fueled power spike."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Caps the 56.4% WR core path and directly punishes an auto-attack-reliant Fury generator with reflected damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "the enemy team adds more attack-speed or crit-reliant damage, since this swap hit 65.9% over 44 games"
+    },
+    {
+     "item": "Bandlepipes",
+     "when": "you're already ahead and want the utility pivot that hit 72.2% over 36 games"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "renekton's Q healing is keeping him in lane trades you should be winning"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "you want sustained teamfight HP over another armor item"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on autos you're already landing in trades, scales HP all game, and is the backbone of the top-picked page (36.6% pick, 53% WR) for exactly this kind of defensive, sustain-through-poke lane.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport",
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Teleport posts the best measured win rate (52.7%, 28.4% pick) and matches Shen's actual win condition in this matchup — giving up a close lane to split-push and teleport into fights elsewhere. Flash+Ignite (52.6%, 68.7% pick) is the more common choice if you want to punish any overextension he makes while chasing Fury."
+  },
+  "playing": [
+   {
+    "title": "Save Feint for his real W",
+    "detail": "Use W (Feint) to absorb the unempowered two-slash Ruthless Predator, not a guess. If he's already above 50 Fury when he casts it, the upgraded version destroys your shield outright, so you want to bait the first cast while he's still below threshold."
+   },
+   {
+    "title": "Poke with Q, not E",
+    "detail": "Vorpal Blade's 475 range beats his Q (325), W (300), and E (450), so chip him down from max range and take the lifesteal-style heal instead of closing distance with your own E, which commits you from 575 range into his taunt."
+   },
+   {
+    "title": "Respect a 'low' Renekton",
+    "detail": "Reign of Anger generates Fury faster the lower his own HP drops, so a Renekton who looks finishable can still have the Fury banked for an empowered W-E combo. Don't force a trade on him without knowing his Fury bar."
+   },
+   {
+    "title": "React, don't initiate",
+    "detail": "OP.GG's own read on this matchup is to answer his engage rather than start your own. Let him commit E (16-10s CD) into taunt range first, Feint the follow-up, then Q once his gap-closer is spent."
+   },
+   {
+    "title": "Play for the level 11+ item spike",
+    "detail": "You're behind through the 3-10 window where his Fury and lower W cooldown dominate skirmishes. Prioritize safe farm over contesting trades until Titanic Hydra and Dusk and Dawn come online."
+   },
+   {
+    "title": "Win on the map, not the wave",
+    "detail": "Stand United's unlimited range and 200-160s cooldown let you trade lane equity for global pressure — ward deep, take skirmishes elsewhere, and use teleport to make his lane lead irrelevant to the final result."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates/sample sizes above are pulled directly from measured games on the current patch via OP.GG; the tactical reasoning connecting them to specific ability cooldowns and Fury thresholds is our own analysis."
+ },
+ "generatedAt": 1791058229683,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791058120179,
+  "overall": {
+   "winRate": 51.3,
+   "play": 65040,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1271,
+   "wins": 669,
+   "winRate": 52.6
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "It is important to absorb Renekton’s (W) with [W]. Rather than initiating combat, try to respond to Renekton initiating combat. Be careful when Renekton has his Fury full as it deals a lot of damage!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.6,
+    "play": 1059,
+    "pickRate": 68.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.7,
+    "play": 438,
+    "pickRate": 28.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.4,
+    "play": 28,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53,
+    "play": 581,
+    "pickRate": 36.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.3,
+    "play": 394,
+    "pickRate": 24.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 1002,
+    "pickRate": 64.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 53,
+    "play": 508,
+    "pickRate": 32.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.1,
+    "play": 1198,
+    "pickRate": 81.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.6,
+    "play": 228,
+    "pickRate": 15.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 56.4,
+    "play": 101,
+    "pickRate": 15.5
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 65.9,
+    "play": 44,
+    "pickRate": 6.7
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 72.2,
+    "play": 36,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 53.1,
+    "play": 1227,
+    "pickRate": 80.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 57.5,
+    "play": 626,
+    "pickRate": 41.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49.1,
+    "play": 513,
+    "pickRate": 33.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.4,
+    "play": 460,
+    "pickRate": 30.3
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 56.6,
+    "play": 249,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 62.9,
+    "play": 170,
+    "pickRate": 11.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.8,
+    "play": 865
+   }
+  ]
+ }
+}

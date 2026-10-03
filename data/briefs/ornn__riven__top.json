@@ -1,0 +1,388 @@
+{
+ "you": "Ornn",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Riven's Q (Broken Wings) chain reset off your trades uncontested; you win if you survive to Sunfire Aegis and she's out of dashes to escape your W (Bellows Breath) engage."
+  },
+  "thesis": "This is a 48.9% head-to-head over 569 games precisely because it's a mobility-versus-durability check: Riven's Q (Broken Wings) has 3 reactivations and only a 13s cooldown on the first cast, so she can disengage or chase far more often than you can catch her. Your entire job is to bait those dashes onto cooldown, then punish with Q (Volcanic Rupture)'s slow and W (Bellows Breath)'s Brittle before she can reset.",
+  "tell": {
+   "watch": "Riven's Q charge counter",
+   "theirWindow": {
+    "when": "all 3 Broken Wings charges available",
+    "what": "She can engage, trade, and dash away clean. Don't commit your E (Searing Charge) into this — she'll just reposition through your charge path and you whiff into terrain for nothing."
+   },
+   "yourWindow": {
+    "when": "she's used Q charges or E (Valor) on cooldown (10-6s)",
+    "what": "This is your trade window. Land Q (Volcanic Rupture) for the slow, then walk up and use W (Bellows Breath) — the final gout of flame applies Brittle, which guts her follow-up damage and lets you freely land autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her Q burst outpaces your single-target poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W Brittle starts punishing her all-in trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "R (Call of the Forge God) threatens her dash windows"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Sunfire Aegis and armor stacking outscale her"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Jak'Sho tankiness she can't burst through"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "52.7% win rate over 351 games — the sustain and passive regen directly offset Riven's early poke from Q (Broken Wings) pokes while you're still missing Brittle windows to punish her."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.5% pick rate and 48.6% win rate; the flat physical damage reduction blunts her empowered autos from Runic Blade stacks, which matter more than magic resist against her all-AD kit."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Core first item in the 58.3% win-rate path — the passive damage ring punishes her for standing in melee range during trades, which she has to do since her kit is entirely melee."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Follows Sunfire in the top win-rate path; the grievous wounds and damage reflect directly answer her sustain-heavy trading pattern."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Final piece of the 58.3% path — stacking resistances scales your effective HP against her single-target physical burst as the game goes long."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "she's building full lethality/crit and you need the omnivamp and shield proc to survive extended trades"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "she's ahead and her burst threatens to one-shot you through your first item"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "she's fed and her attack speed from Runic Blade stacks is shredding you in extended fights"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early grievous wounds spike before Thornmail is online"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "48.3% win rate at 26.3% pick — the permanent max-HP growth and proc healing let you win extended trades even though Riven's burst wins short ones, which matches her dash-reset kit.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "52.9% win rate at 20.7% pick — Ignite punishes her all-in Q (Broken Wings) engages before her E (Valor) sustain or lifesteal can offset the damage, since you can't out-mobility her to secure a kill otherwise."
+  },
+  "playing": [
+   {
+    "title": "Count her Q charges before trading",
+    "detail": "Broken Wings gives 3 reactivations in a short window. If she's spent them all or they're on cooldown, that's your signal to step up and trade — she can't disengage."
+   },
+   {
+    "title": "Never E into open space",
+    "detail": "Searing Charge only knocks up and damages on terrain collision. Thrown into open lane it's just a slow dash with no payoff, and she'll dash through or around it."
+   },
+   {
+    "title": "Use W's Brittle to force bad fights",
+    "detail": "Bellows Breath's final gout applies Brittle on hit. Land it before she commits her W (Ki Burst) stun so her all-in does less damage than she expects."
+   },
+   {
+    "title": "Hold R for her dash cooldowns, not her dashes",
+    "detail": "Call of the Forge God travels slowly at first. Summon it when she's already used Valor or Broken Wings so she can't simply dash out of its path."
+   },
+   {
+    "title": "Respect her Q in trades until Sunfire is up",
+    "detail": "OP.GG's own read holds here: she can dodge your engage easily pre-6 items. Don't force exchanges — let her approach you so her dashes are spent closing distance, not escaping."
+   },
+   {
+    "title": "Watch for Runic Blade empowered autos",
+    "detail": "Her passive charges off ability casts. If you see her auto-attack glow right after a Q or W, that hit carries bonus damage — factor it into whether you can win the trade."
+   },
+   {
+    "title": "Don't fight her ultimate for free",
+    "detail": "Blade of the Exile grants bonus AD/range and a ranged Wind Slash. If she pops R mid-trade, disengage rather than extending — her lethality spikes until the empowered state ends."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample-size figures are measured OP.GG data from live games on the current patch (16.19.1). The matchup read — why each power spike happens and how to play around her Q resets — is my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1791056541345,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791056499348,
+  "overall": {
+   "winRate": 51.5,
+   "play": 65906,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 569,
+   "wins": 278,
+   "winRate": 48.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Although Riven pressures lane, she can be defeated after purchasing items that increase your armor. However, she can dodge abilites with ease, making it difficult for you to initiate combat. Try to respond to her closing in first.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.4,
+    "play": 485,
+    "pickRate": 72.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.9,
+    "play": 138,
+    "pickRate": 20.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 28,
+    "play": 25,
+    "pickRate": 3.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 180,
+    "pickRate": 26.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.6,
+    "play": 97,
+    "pickRate": 14.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.7,
+    "play": 351,
+    "pickRate": 51.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 234,
+    "pickRate": 34.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.6,
+    "play": 552,
+    "pickRate": 85.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.3,
+    "play": 87,
+    "pickRate": 13.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 6.8
+   },
+   {
+    "items": [
+     "Unending Despair",
+     "Kaenic Rookern",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 3.4
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 3.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 50.3,
+    "play": 332,
+    "pickRate": 51.4
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 47.4,
+    "play": 308,
+    "pickRate": 47.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.2,
+    "play": 201,
+    "pickRate": 31.1
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 54,
+    "play": 187,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 42.9,
+    "play": 163,
+    "pickRate": 25.2
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 51.7,
+    "play": 147,
+    "pickRate": 22.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 52.9,
+    "play": 187
+   }
+  ]
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "you": "Ornn",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill early",
+   "line": "You lose trades before level 6 when Shadow Dash (E) chains into Vorpal Blade (Q) sustain, but you win the matchup once Sunfire Aegis comes online and your knockups land — matching the near-even 47.7% split across 1339 games."
+  },
+  "thesis": "Shen's lane and solo-kill edge come from Vorpal Blade (Q) life-tap sustain and Shadow Dash (E)'s taunt forcing you to eat damage you can't walk away from. Ornn has no comparable early sustain and his own engage (E, Searing Charge) is dead weight until there's terrain to collide with. The matchup flips once Ornn's armor stacking (Living Forge bonus Armor/MR plus Sunfire Aegis/Thornmail/Jak'Sho) outgrows Shen's physical+Ki Strike damage, which is why the overall shape nets out even despite Shen owning the early lane.",
+  "tell": {
+   "watch": "Shen's E (Shadow Dash) cooldown",
+   "theirWindow": {
+    "when": "Shadow Dash (E) off cooldown and in range",
+    "what": "Shen dashes to your location, taunting you on contact and dealing minor damage, then follows with Vorpal Blade (Q) and whatever auto Ki Strike has queued. You cannot flash out of the taunt once it lands, so disengage before he closes or make sure you've already landed your own Q slow to blunt the chain."
+   },
+   "yourWindow": {
+    "when": "Shadow Dash (E) on cooldown, no taunt",
+    "what": "His cooldown drops from 16/14/12/10/8s as he levels, but whenever it's down he has no way to lock you in place. Step up, back him into the nearest wall, and use E (Searing Charge) for the terrain-collision knockup, then follow with Q for the slow."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Vorpal Blade sustain outheals your poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Shadow Dash taunt forces one-sided trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both hit R; wall knockups swing all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Sunfire Aegis/Thornmail tankiness beats his DPS"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Shen's Stand United roams make lane irrelevant"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Measured as the stronger start into Shen (45.7% WR over 703 games) because the passive sustain offsets Vorpal Blade poke and minion-based healing without Ornn needing to spend his own cooldowns to hold the wave."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Shen's damage leans on autos and Ki Strike procs between ability cooldowns, so flat physical reduction (48.9% WR, 63.6% pick) outperforms Mercury's Treads here since Shadow Dash's taunt is a single short application, not sustained CC."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "The highest-winrate path into this matchup (59.5% over 42 games) starts here; it gives Ornn the first real damage/health buffer to survive extended Q/E exchanges before level 6."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes Shen's auto-attack-reliant trading and Ki Strike procs, turning his own poke pattern against him."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Completes the measured 59.5% WR path, stacking resistances that scale directly against Shen's mixed physical/magic kit and closing the gap left by the slow early game."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hollow Radiance",
+     "when": "shen's vorpal blade life-tap sustain keeps him topped up through every trade and you need grievous wounds to shut it off"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team's damage shifts mostly magic and jak'sho alone isn't enough"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "the lane turns into a prolonged poke war before level 6 and you need extra healing to hold the wave"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "shen's teammates pile on hard crowd control after he roams in with stand united"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs off the extended minion-contested trades Shen forces with Vorpal Blade, giving Ornn sustain and permanent health scaling to outlast the early poke instead of losing the war of attrition outright.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Legend: Haste",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport lets you answer Stand United (R) roams or reset after a side-lane push without giving up tempo, which matters since Shen's ultimate is built to leave lane. Flash+Ignite (52.8% WR, 19.9% pick) is the higher-winrate alternative if you'd rather pressure his lower early sustain directly instead of playing the map."
+  },
+  "playing": [
+   {
+    "title": "Track Shadow Dash cooldown",
+    "detail": "Shen's E drops from 16s to 8s as he levels — only step up for extended trades when it's down, since the taunt is what lets his Q and autos land clean."
+   },
+   {
+    "title": "Hold W through Feint",
+    "detail": "Shen's W shields him from incoming damage for a few seconds; don't dump Bellows Breath's final gout or commit your all-in into an active Feint — wait for it to drop, then follow up with a basic attack."
+   },
+   {
+    "title": "Punish a whiffed Dash with a wall",
+    "detail": "If you sidestep or soak Shadow Dash with a minion, his engage is gone for up to 16 seconds — immediately walk him into the nearest terrain and use Searing Charge for the collision knockup."
+   },
+   {
+    "title": "Zone his dash-in with Q",
+    "detail": "Volcanic Rupture's fissure slows on hit and the pillar forms a moment later at the landing spot — throw it into his approach path before Shadow Dash range so he's slowed when he commits."
+   },
+   {
+    "title": "Don't contest pre-6 poke wars",
+    "detail": "Vorpal Blade's life tap heals Shen off every minion he hits, so extended trading before level 6 favors him by default — let plates reset the wave instead of matching pokes."
+   },
+   {
+    "title": "Watch the map for Stand United",
+    "detail": "His ultimate is on a long cooldown (200/180/160/160/160s) but once up he can leave lane entirely to shield and teleport to a teammate — check his position and use your own Teleport to punish the empty lane or follow the play."
+   },
+   {
+    "title": "Play for scaling, not kills",
+    "detail": "The head-to-head sits at 47.7% because Ornn's items (Sunfire Aegis into Thornmail into Jak'Sho) outscale Shen's kit by mid-game — prioritize farm and plates over forcing all-ins you're statistically losing early."
+   }
+  ],
+  "patchCaveat": "Build order, rune pages, and all win-rate/sample-size figures are pulled from measured games on the current patch via OP.GG; the cooldown tracking, trade timing, and itemization reasoning are my own read of the ability kits, not measured data."
+ },
+ "generatedAt": 1791057534394,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791057428973,
+  "overall": {
+   "winRate": 51.5,
+   "play": 65906,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1339,
+   "wins": 639,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "Shen",
+  "soloKillAdvantage": "Shen",
+  "playStyle": "even",
+  "opponentTip": "Shen’s (R) will allow him to roam towards his teammates, so always check his location and follow him using Teleport. Shen’s (W) will block [W] from activating so use your basic attack after his (W) deactivates.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 1168,
+    "pickRate": 76.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.8,
+    "play": 303,
+    "pickRate": 19.9
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 38.5,
+    "play": 26,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 413,
+    "pickRate": 26.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47,
+    "play": 232,
+    "pickRate": 14.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 703,
+    "pickRate": 45.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 617,
+    "pickRate": 40.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.9,
+    "play": 918,
+    "pickRate": 63.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.1,
+    "play": 509,
+    "pickRate": 35.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 59.5,
+    "play": 42,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 66.7,
+    "play": 33,
+    "pickRate": 4.4
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 48.4,
+    "play": 674,
+    "pickRate": 45
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 51.8,
+    "play": 649,
+    "pickRate": 43.3
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 56.9,
+    "play": 469,
+    "pickRate": 31.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 55.1,
+    "play": 405,
+    "pickRate": 27
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 50.5,
+    "play": 333,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.1,
+    "play": 315,
+    "pickRate": 21
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 50.4,
+    "play": 427
+   }
+  ]
+ }
+}

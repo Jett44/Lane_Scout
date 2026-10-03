@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Defensive, but favored",
+   "line": "You lose the straight 1v1 and the solo-kill race to Darius, but Shen still wins the overall matchup 52.2% of the time over 1629 games because the win condition lives outside the lane, not inside it."
+  },
+  "thesis": "Darius wins trades because Hemorrhage stacks on every hit and his kit is built to punish you for standing in range, which is why OP.GG grades this lane advantage and solo-kill advantage in his favor. Shen's answer isn't to out-duel that — it's to play Vorpal Blade pokes at safe range, deny his E (Apprehend) hook windows with Feint, and treat the lane as a stall until Stand United lets you win the game from somewhere else on the map.",
+  "tell": {
+   "watch": "Your Feint (W) cooldown",
+   "theirWindow": {
+    "when": "your W (Feint) is on cooldown (9-5s by rank)",
+    "what": "Darius will throw E (Apprehend, cd 26-16s) to hook you into melee, land Crippling Strike (W) to slow your retreat, and stack Hemorrhage with free autos — if your shield is down, give up the wave and back off rather than contest the trade."
+   },
+   "yourWindow": {
+    "when": "your jungler is pathing near top",
+    "what": "Call him in instead of initiating yourself — Shadow Dash (E, cd 16-8s, range 575) taunts Darius into the gank and the taunt alone can force a trade he loses 2v1; this matches OP.GG's own read that waiting for jungler help beats engaging Darius directly."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a real spike yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Hemorrhage stacks and Decimate heals snowball"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Stand United unlocks, offsets lane deficit"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Titanic Hydra online, TP splitpush pressure"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build tankiness outlasts his damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The passive block-on-hit and regen directly counters Darius's auto-attack and Decimate poke, which is how he builds Hemorrhage stacks before you can even react."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Darius does all his damage through autos and Crippling Strike-empowered hits; flat reduction on those hits matters more than magic resist here."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Gives you the health and wave-clear to hold the lane passively while you wait out his stronger trading window."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Scales your Ki Strike and Vorpal Blade poke damage so your safe long-range trades still matter."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes the extended auto-attack trades Darius needs to stack Hemorrhage and reach his enrage threshold."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "darius is rushing lifesteal or healing hard off Decimate's blade-hit heal"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "darius is already fed and his autos are deleting your health bar in single trades"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game is going long and you want more raw health for both lane survival and teamfights"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "you're ahead and want to proactively push waves instead of just holding the lane"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The proc-on-minion-hit sustain and permanent bonus health directly answer Darius's bleed poke and let you out-scale his stacking passive over the course of the lane.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Since your actual win condition is global pressure through Stand United rather than winning the 1v1, Teleport (48.6% win rate, 26.6% pick) sets up the splitpush and TP-flank plays that convert this matchup; Flash+Ignite is the higher-volume pick (51.4% win rate, 69% pick rate) but is built around a solo kill you're statistically not favored to get."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q, don't stand for autos",
+    "detail": "Vorpal Blade's cooldown drops to 4s at max rank with 475 range — use it to chip Darius and life-tap sustain without walking into his auto-attack range where Hemorrhage stacks."
+   },
+   {
+    "title": "Never duel for the kill",
+    "detail": "OP.GG flags Darius with the solo-kill advantage in this matchup; don't commit to all-ins hoping to out-trade him, since his enrage at max Hemorrhage stacks swings extended fights hard in his favor."
+   },
+   {
+    "title": "Track his Apprehend cooldown",
+    "detail": "Apprehend's active pull is on a 26-16s cooldown depending on rank — if he just used E to hook something or missed it, that's your safe window to push minions or poke freely."
+   },
+   {
+    "title": "Hold Feint for his all-in, not chip damage",
+    "detail": "Feint only lasts a few seconds, so save it for the moment he commits with E (Apprehend) or ults, not for routine poke — bait him into using Apprehend into your shield."
+   },
+   {
+    "title": "Play the lane as a stall, not a contest",
+    "detail": "Given the lane and solo-kill edge both favor Darius, your job is to survive to level 6+ with items on, not to win trades — the 52.2% overall win rate comes from what happens after that, not from lane dominance."
+   },
+   {
+    "title": "Use Stand United proactively once online",
+    "detail": "From level 6 onward, look to teleport to winning fights elsewhere on the map rather than sitting in a lane you're structurally behind in — that's the actual path to the recorded win rate."
+   }
+  ],
+  "patchCaveat": "The build order, boots, rune pages, and summoner spell win rates above are pulled directly from measured OP.GG games on the current patch (16.19.1); the ability-interaction reasoning and timing calls are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791057634029,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791057538689,
+  "overall": {
+   "winRate": 51.3,
+   "play": 65040,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1629,
+   "wins": 850,
+   "winRate": 52.2
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful when [W] is on cooldown as Darius will try to pull with (E). Rather than engaging Darius directly, try to wait for your jungler to gank!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.4,
+    "play": 1378,
+    "pickRate": 69
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.6,
+    "play": 531,
+    "pickRate": 26.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 56.3,
+    "play": 64,
+    "pickRate": 3.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.3,
+    "play": 756,
+    "pickRate": 37
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.1,
+    "play": 470,
+    "pickRate": 23
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 1428,
+    "pickRate": 71.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 498,
+    "pickRate": 25
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.7,
+    "play": 1547,
+    "pickRate": 82.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 57.4,
+    "play": 244,
+    "pickRate": 13
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 53.3,
+    "play": 120,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 69.8,
+    "play": 53,
+    "pickRate": 6.2
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 52.4,
+    "play": 42,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 52.8,
+    "play": 1544,
+    "pickRate": 79.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 57.2,
+    "play": 705,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.3,
+    "play": 577,
+    "pickRate": 29.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49.2,
+    "play": 530,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 49.8,
+    "play": 327,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 49.6,
+    "play": 230,
+    "pickRate": 11.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 1173
+   }
+  ]
+ }
+}

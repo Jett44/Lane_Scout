@@ -1,0 +1,388 @@
+{
+ "you": "Renekton",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade passively and let Shen's Vorpal Blade sustain and Stand United map presence outweigh your lane win; you win if you force all-ins above 50 Fury before his Feint is up."
+  },
+  "thesis": "Renekton holds a real lane and solo-kill edge on Shen through mid-lane levels, but the 47.5% head-to-head rate over 1275 games (below his 49.6% baseline) shows that edge doesn't convert on its own — Shen's Stand United lets him cash out a lost lane by teleporting into another fight. Win the skirmishes decisively and close them with Ignite, because a lane you merely 'win on points' still lets Shen's kit pay off elsewhere.",
+  "tell": {
+   "watch": "Your Fury bar (50 threshold)",
+   "theirWindow": {
+    "when": "Shen lands Shadow Dash taunt, your Fury <50",
+    "what": "Disengage rather than fight through it. Without 50 Fury your Q (Cull the Meek) heal and W (Ruthless Predator) are both on their weaker, unempowered values, so an extended trade off his taunt favors his Vorpal Blade life tap."
+   },
+   "yourWindow": {
+    "when": "Fury >50 and Shen's Feint (W) is on cooldown",
+    "what": "All-in immediately. Empowered W hits three times for 1.5s of stun and strips any shield he still has, then E (Slice and Dice) in to shred Armor, then Q to heal through the trade — he has nothing left to absorb it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both passive, you're still generating Fury"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Empowered W all-ins open, E unlocked"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R adds HP/Fury, extended fights favor you"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Feint CD drops to 5s, trades tighten"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "Stand United online, lane stops mattering"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Picked in 79.3% of games at 46.2% win rate — the extra AD and sustain feed your early all-in damage and let you win the Fury-race trades without recalling."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Most-picked boots at 56.4% pick rate; mitigates Shen's Ki Strike-boosted autos and Vorpal Blade pokes during the extended trades you're forcing."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "First item in the 20.7%-picked, 54% win-rate path — the burst-damage proc and shield line up with your empowered W/E all-in windows."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second item in the same core path; the Armor shred stacks with your empowered E, making each follow-up all-in hit harder."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the top-picked core (54% WR, 176 games); the damage-over-time conversion and healing let you out-sustain Shen's Vorpal Blade life tap."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and want to survive extended skirmishes instead of taking Death's Dance's lifesteal/armor pen"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're fed and snowballing, since this path hits 65% win rate albeit on a small sample"
+    },
+    {
+     "item": "Zeke's Convergence",
+     "when": "fights are turning into close-quarters teamfights where the aura utility helps allies"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks magic damage or hard CC beyond Shen's taunt"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The most-picked page (46.2% pick, 45.8% WR) — Conqueror's stacking adaptive damage and healing scale with the longer, Fury-gated skirmishes this matchup produces, directly offsetting Shen's Vorpal Blade sustain.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 78.7% of games at 47.9% win rate; Ignite converts your measured solo-kill advantage into actual kills by burning through Shen's Vorpal Blade healing during your all-in window."
+  },
+  "playing": [
+   {
+    "title": "Hold W until 50 Fury",
+    "detail": "Below 50 Fury your W (Ruthless Predator) only double-slashes for a 0.75s stun with no shield-shred. Wait for the empowered three-slash, 1.5s-stun version before committing to a fight."
+   },
+   {
+    "title": "Never W into Feint",
+    "detail": "If Shen's W (Feint) is up, your empowered W damage gets absorbed by his shield. Bait it out or wait for its cooldown (9s at rank 1, down to 5s at rank 5) before swinging."
+   },
+   {
+    "title": "Punish a whiffed Shadow Dash",
+    "detail": "Shen's E (Shadow Dash) is 16s at rank 1, scaling down to 8s — if he dashes and misses the taunt, that's a long window with no engage tool where you can freely all-in."
+   },
+   {
+    "title": "Lead with empowered E for shred",
+    "detail": "Empowered E (Slice and Dice) reduces the Armor of everything it hits. Dash in first, then land W, so your follow-up damage lands on reduced Armor."
+   },
+   {
+    "title": "Burst through Vorpal Blade, don't slow-trade",
+    "detail": "Shen's Q (Vorpal Blade) life-taps him every 4-6s depending on rank. A short trade lets that healing matter; a full stun-into-burst all-in doesn't give it time to offset the damage."
+   },
+   {
+    "title": "Track his ult timer after level 6",
+    "detail": "Stand United starts at 200s cooldown and drops to 160s by rank 3. Once it's up, a dominant lane can still let him bail into another fight — push your advantage into kills, not just CS."
+   },
+   {
+    "title": "Close all-ins with Ignite",
+    "detail": "Your solo-kill advantage is real on paper, but Shen's healing can let him survive a burst that should've killed him. Ignite removes that out."
+   }
+  ],
+  "patchCaveat": "Build, rune, and summoner numbers above are measured from live OP.GG games on the current patch (16.19.1); the power-curve timing and trade-pattern reasoning are my own read of the ability kits, not scraped stats."
+ },
+ "generatedAt": 1791057097856,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791057015430,
+  "overall": {
+   "winRate": 49.6,
+   "play": 98291,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1275,
+   "wins": 605,
+   "winRate": 47.5
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being hit with Shen’s (E). Do not use [W] while within Shen’s (W), and slowly build up Fury while waiting for an opportunity.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.9,
+    "play": 1162,
+    "pickRate": 78.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.2,
+    "play": 285,
+    "pickRate": 19.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.8,
+    "play": 703,
+    "pickRate": 46.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 133,
+    "pickRate": 8.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 1192,
+    "pickRate": 79.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 216,
+    "pickRate": 14.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.2,
+    "play": 793,
+    "pickRate": 56.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49,
+    "play": 580,
+    "pickRate": 41.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 54,
+    "play": 176,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 55.8,
+    "play": 104,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 65,
+    "play": 40,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.8,
+    "play": 1226,
+    "pickRate": 84
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 49.4,
+    "play": 959,
+    "pickRate": 65.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.5,
+    "play": 476,
+    "pickRate": 32.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53.8,
+    "play": 411,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 50.9,
+    "play": 275,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 55.7,
+    "play": 115,
+    "pickRate": 7.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.4,
+    "play": 446
+   }
+  ]
+ }
+}
