@@ -1,0 +1,384 @@
+{
+ "you": "Illaoi",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you E into her raised W every time; you win by forcing Q trades and landing E only when her Riposte is down."
+  },
+  "thesis": "This matchup is decided entirely by E (Test of Spirit): if Fiora's W (Riposte) is up, she parries it and the trade flips hard. Illaoi still holds the measured edge here — 46.9% over 712 games is close to even and both lane advantage and solo-kill advantage favor Illaoi — but that edge only shows up if you bait Riposte before committing E.",
+  "tell": {
+   "watch": "Fiora's W (Riposte) cooldown",
+   "theirWindow": {
+    "when": "Riposte is off cooldown (10-6s)",
+    "what": "She can parry your E on reaction, negating the spirit-link damage and the Tentacle swings it triggers. Do not throw E here — walk up with Q (Tentacle Smash) or autos instead and wait her out."
+   },
+   "yourWindow": {
+    "when": "Riposte just went down or she used it on a minion",
+    "what": "E immediately. The spirit echoes damage back to her with no parry risk, and Tentacles join in — this is your biggest single trade of the level."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has reliable kill pressure yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Bait Riposte, land free E trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Her Blade Waltz threatens all-ins now"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Black Cleaver/Iceborn sustain outlasts her"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Her splitpush scales, you out-duel in melee"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "43.9% win rate over 494 games (55.6% pick) — the sustain and damage help you survive early Lunge pokes while you wait for Riposte windows"
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "45.3% over 623 games (76.7% pick) — Fiora's autos and Lunge procs are physical, so the flat reduction blunts her all-in burst more than Mercury's would"
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds her armor so your E/Tentacle swings and autos hit harder through extended trades"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The slow on proc keeps her inside Tentacle range when she tries to disengage after a bad Riposte read"
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The shield covers you through her Blade Waltz burst once she hits level 6"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she builds full lifesteal/crit and her passive sustain is winning extended trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "she's snowballing early and you need armor plus grievous wounds sooner than a full core item"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "you need to survive her burst windows to let Tentacles finish the trade"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the slow, repeated trades this matchup is built around — you proc it every time you land E or walk up for Q, and the health scaling helps you win the war of attrition her passive sustain is trying to start",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "48.3% win rate and the highest pick rate (45.7%) — Teleport lets you reset after losing an early E trade to a Riposte parry without bleeding CS, since this matchup is won over many trades, not one all-in"
+  },
+  "playing": [
+   {
+    "title": "Track Riposte, not her health",
+    "detail": "Her W (Riposte, 10-6s cooldown) is the only thing that matters before you commit E. If it's up, don't throw E — it gets parried and you lose the whole trade."
+   },
+   {
+    "title": "Use Q to poke, not to commit",
+    "detail": "Q (Tentacle Smash, 10-6s cooldown, 850 range) is safe chip damage while you wait for her Riposte to go down. It doesn't require you to stand in Lunge range."
+   },
+   {
+    "title": "Never let her close the gap for free",
+    "detail": "Her E (Burst of Speed) ramps her attack speed and move speed on landed hits or Lunges. Once she's stacking it, disengage rather than trying to out-trade her in melee."
+   },
+   {
+    "title": "Save E for the exact window",
+    "detail": "The instant Riposte goes on cooldown — whether baited, wasted on a minion, or used on your Tentacle — land E. This is your biggest damage spike of the level and triggers nearby Tentacles to swing too."
+   },
+   {
+    "title": "Respect level 6 Blade Waltz",
+    "detail": "Her R (130-110s cooldown) dashes to every nearby champion for physical damage that gets weaker on repeat hits to you specifically. Don't overextend past minion waves once she hits 6."
+   },
+   {
+    "title": "Use R to punish a landed E",
+    "detail": "Per the matchup read, your R (Leap of Faith) is strongest right after a successful E — follow up for a huge damage window and extra Tentacle spawns, since E is the ability she's built to deny most of the time."
+   },
+   {
+    "title": "Never initiate at low HP",
+    "detail": "Her passive (Duelist) heals her on every hit landed, so she wins extended fights once ahead. Walk away and reset with Teleport rather than trying to force a kill when behind."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates/sample sizes above are measured from live OP.GG games on the current patch (16.19.1); the tactical reading — Riposte windows, trade timing, power spikes — is my own analysis layered on that data."
+ },
+ "generatedAt": 1790986350565,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790986316725,
+  "overall": {
+   "winRate": 50,
+   "play": 41337,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 712,
+   "wins": 334,
+   "winRate": 46.9
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "Fiora has the upper hand as her (W) can block Illaoi’s main dealing ability [E]. Use your [Q] to harass or farm lane, but always keep your distance and do not allow Fiora to close in. Try not to engage Fiora if possible. However, harass her if with [R] if [E] lands successfully after reaching level 6. Illaoi will not have many opportunities to harass Fiora as [E] will be blocked, so try to make the most out of it when it lands.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.3,
+    "play": 400,
+    "pickRate": 45.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.2,
+    "play": 285,
+    "pickRate": 32.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.3,
+    "play": 147,
+    "pickRate": 16.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 360,
+    "pickRate": 40
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.1,
+    "play": 128,
+    "pickRate": 14.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 43.9,
+    "play": 494,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.9,
+    "play": 244,
+    "pickRate": 27.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.3,
+    "play": 623,
+    "pickRate": 76.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 134,
+    "pickRate": 16.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 44.4,
+    "play": 54,
+    "pickRate": 10.2
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 92.3,
+    "play": 26,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Thornmail"
+    ],
+    "winRate": 54.2,
+    "play": 24,
+    "pickRate": 4.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.2,
+    "play": 602,
+    "pickRate": 69.3
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 46.5,
+    "play": 535,
+    "pickRate": 61.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50.4,
+    "play": 375,
+    "pickRate": 43.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 40.5,
+    "play": 195,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 43.9,
+    "play": 187,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54,
+    "play": 174,
+    "pickRate": 20
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 45.9,
+    "play": 109
+   }
+  ]
+ }
+}

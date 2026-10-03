@@ -1,0 +1,385 @@
+{
+ "you": "Garen",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you let Illaoi tag you with E (Test of Spirit) and stack free damage before level 6, but you win trades from 6 onward once Q (Decisive Strike) silences her out of Leap of Faith."
+  },
+  "thesis": "Illaoi's W (Harsh Lesson) and E (Test of Spirit) both scale with nearby Tentacles, so every trade she starts near a wall is worse than one fought in an open lane. Garen has no way to interrupt Test of Spirit's spirit-link, so the matchup is decided by whether you can deny tentacle spawns and force fights away from terrain rather than by any single cooldown trade. Once Garen hits 6, Q's silence shuts down her R (Leap of Faith) engage and the 54.8% head-to-head over 1014 games reflects that late-lane flip.",
+  "tell": {
+   "watch": "nearby wall tentacles",
+   "theirWindow": {
+    "when": "you're near a wall pre-6",
+    "what": "Illaoi can land W (Harsh Lesson) and E (Test of Spirit) with a Tentacle swinging too, so back off walls and make her walk to the center of the lane to hit you."
+   },
+   "yourWindow": {
+    "when": "she commits R (Leap of Faith) at 6+",
+    "what": "Walk into range and land Q (Decisive Strike) the instant she lands Leap of Faith; the silence stops her from following with W or E and you out-trade with E (Judgment) and W (Courage) while she's locked down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Harsh Lesson dash punishes any trade near terrain"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Test of Spirit stacks spirit damage, you can't interrupt"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Q silence answers her Leap of Faith engage"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Stridebreaker lets you stick without a wall fight"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Mortal Reminder cuts her Tentacle sustain hard"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Illaoi's auto-reset poke from Harsh Lesson and passive Tentacle procs add up fast; the extra HP and regen let you hold the lane without recalling early."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "54.5%/93.7% pick on Flash+Ignite Garen, and the attack speed feeds Judgment resets and the Courage/Q trade pattern better than Swiftness does."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The slow on-hit keeps Illaoi from walking away after you land Q, and it's the single most-run first item in this matchup (60.2% over 211 games with this path)."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed compounds your Judgment and Courage uptime, letting you win extended trades once you're past her level 6 Leap of Faith burst."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Illaoi heals off every Tentacle hit on a champion; grievous wounds directly removes that sustain and is the third item in both top-run paths."
+    }
+   ],
+   "situational": [
+    {
+     "item": "executioner's calling",
+     "when": "you're ahead by level 6 and want to close out kills faster"
+    },
+    {
+     "item": "dead man's plate",
+     "when": "she's building tanky and your damage alone isn't closing trades"
+    },
+    {
+     "item": "youmuu's ghostblade",
+     "when": "you need more engage speed to catch her before she reaches a Tentacle"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Garen's trades with Illaoi are extended, not burst, since neither of you has hard CC beyond the Q silence; Conqueror's stacking adaptive damage and healing reward you for staying in prolonged fights once you hit 6.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 93.7% of games at 54.5% win rate; Ignite's grievous wounds stacks with your post-6 Q silence to secure kills against Illaoi's Tentacle healing before she can sustain back."
+  },
+  "playing": [
+   {
+    "title": "Fight away from walls",
+    "detail": "Illaoi's passive spawns Tentacles on nearby impassible terrain, and both her W (Harsh Lesson) and E (Test of Spirit) hit harder with a Tentacle swinging too. Force trades in open lane space, not against the river wall or jungle wall."
+   },
+   {
+    "title": "Don't walk into Test of Spirit range",
+    "detail": "E (Test of Spirit) has 900 range and a 16/15/14/13/12s cooldown; there's no way to block or dodge the spirit-link once it lands, so respect the range and don't overextend when it's up."
+   },
+   {
+    "title": "Save Q for her Leap of Faith",
+    "detail": "Decisive Strike's silence (8s cooldown, 300 range) is your best answer to R (Leap of Faith) — land it the moment she jumps so she can't follow up with W or E while it's down."
+   },
+   {
+    "title": "Use Q's move speed to dictate range",
+    "detail": "Decisive Strike breaks slows and gives burst Move Speed; use it to close distance before she can set up a Tentacle-backed trade, not just as a damage tool."
+   },
+   {
+    "title": "Track her Tentacle Smash cooldown",
+    "detail": "Q (Tentacle Smash) is 10/9/8/7/6s and amplifies all her Tentacle damage. If you see it on cooldown, that's your safest window to trade since her Tentacles hit for less."
+   },
+   {
+    "title": "Hold R for a clean execute, not a panic button",
+    "detail": "Demacian Justice starts at a 140s cooldown at rank 1, dropping to 20s at rank 5 — early ranks are too precious to waste. Save it for when Illaoi is isolated from Tentacles, since her passive sustain can undo a sloppy R."
+   },
+   {
+    "title": "Let Perseverance work between trades",
+    "detail": "Garen's passive regenerates a percentage of total health per second when he hasn't taken damage recently. After any trade, disengage fully rather than poking back immediately so the regen ticks up before your next engage."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are pulled from measured OP.GG games on the current patch; the mechanical reasoning and trade timing are our own read on the matchup."
+ },
+ "generatedAt": 1790984862276,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790984822226,
+  "overall": {
+   "winRate": 50.8,
+   "play": 102354,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1014,
+   "wins": 556,
+   "winRate": 54.8
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid getting hit by Illaoi’s (E) while laning. Purchase Executioner’s Calling and try to kill her after reaching level 6 by using the silence on [Q] to finish her off in one burst.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.5,
+    "play": 1225,
+    "pickRate": 93.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54,
+    "play": 50,
+    "pickRate": 3.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 61.1,
+    "play": 18,
+    "pickRate": 1.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 600,
+    "pickRate": 46.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.3,
+    "play": 213,
+    "pickRate": 16.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55.7,
+    "play": 702,
+    "pickRate": 53.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 463,
+    "pickRate": 35.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 55.8,
+    "play": 920,
+    "pickRate": 72.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.3,
+    "play": 174,
+    "pickRate": 13.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 60.2,
+    "play": 211,
+    "pickRate": 24
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 60,
+    "play": 105,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Executioner's Calling",
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 75.6,
+    "play": 45,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 55.6,
+    "play": 1213,
+    "pickRate": 95.4
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 58.9,
+    "play": 734,
+    "pickRate": 57.8
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 59.6,
+    "play": 700,
+    "pickRate": 55.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.2,
+    "play": 317,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 60.1,
+    "play": 223,
+    "pickRate": 17.6
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 48,
+    "play": 204,
+    "pickRate": 16.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 60.6,
+    "play": 634
+   }
+  ]
+ }
+}

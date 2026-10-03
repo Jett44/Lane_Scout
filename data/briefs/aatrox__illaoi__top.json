@@ -1,0 +1,375 @@
+{
+ "you": "Aatrox",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade near walls where her tentacles pile up; you win if you force fights in open lane and respect her E timer."
+  },
+  "thesis": "Illaoi's threat is entirely tied to terrain — her passive spawns Tentacles on nearby impassible terrain, and those Tentacles both hit you and heal her when she lands W (Harsh Lesson) or E (Test of Spirit) near them. Away from walls she has no extra damage source and Aatrox's dash-and-heal kit trades clean into her. The 46.7% win rate over 1074 games reflects a lane that is genuinely even once you control where the fight happens.",
+  "tell": {
+   "watch": "Illaoi's E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "you're tethered by her E near walls",
+    "what": "Do not trade while a spirit is out — damage you deal gets echoed back onto you, and nearby Tentacles swing at you too. Walk the spirit away from terrain or just disengage until it expires."
+   },
+   "yourWindow": {
+    "when": "her E is down, you're off terrain",
+    "what": "This is your trade window. Go in with Q (The Darkin Blade) swings and use E (Umbral Dash) to stick and heal — her only answer is W (Harsh Lesson), a single-target leap on a 4s cooldown that can't out-damage your sustain here."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "no Tentacles up, she can't punish poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E online, W-E all-in near walls"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R (World Ender) swings all-ins your way"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Death's Dance vs her R tentacle swarm"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run with the 49.9% win rate pick (1018 games) — the extra sustain and AD let you match her early poke without a wall to fish off."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Her W and Tentacle autos are all physical; Plated Steelcaps (50.2% WR, 76.9% pick) blunts the chip damage you take walking into range."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield plus the proc damage wins the short trade windows between her E cooldowns."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Highest-rated path (63.8% WR, 69 games) with Eclipse — the on-hit heal stacks with your E passive sustain."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts the burst she gets off Tentacle procs into damage over time you can heal through."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "she's healing off Tentacle hits and sustaining fights you should be winning"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "she's building tanky and your trades aren't closing her out"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "fights are going long and you need cooldown to loop Q and E faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended trades near her Tentacles reward stacking Conqueror — it's the only keystone in the live data and it rewards the sustained-fight pattern this lane turns into.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 84.6% of games at a 49.3% win rate — Ignite's healing cut matters directly against her Tentacle sustain, per OP.GG's own tip to carry anti-heal into this lane."
+  },
+  "playing": [
+   {
+    "title": "Fight away from walls",
+    "detail": "Illaoi's passive only spawns Tentacles on nearby impassible terrain. Pull trades into open sections of the lane where she has no extra damage or healing source."
+   },
+   {
+    "title": "Track her E cooldown",
+    "detail": "Test of Spirit is 16/15/14/13/12s. If you're tethered by a spirit, stop trading — damage you take gets echoed back onto you and nearby Tentacles pile on."
+   },
+   {
+    "title": "Dash in with E, not W, to open",
+    "detail": "Umbral Dash heals you on champion damage and is up again in 9/8/7/6/5s — use it to close distance and sustain through her autos."
+   },
+   {
+    "title": "Save W for her W commitment",
+    "detail": "Her Harsh Lesson is a single-target leap on a 4s cooldown — once she's committed into range, land Infernal Chains to drag her back in and stack Q swings."
+   },
+   {
+    "title": "All-in with R away from terrain",
+    "detail": "World Ender comes online at level 6 (120/100/80/80/80s). Force the fight in the open lane where her kit has no Tentacle backup."
+   },
+   {
+    "title": "Respect her R near walls late",
+    "detail": "Leap of Faith spawns a Tentacle for every champion it hits — never group for a fight next to terrain once she has it up."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the measured win rates above are pulled from current-patch OP.GG data; the terrain-and-cooldown reasoning behind each call is my own read of the matchup."
+ },
+ "generatedAt": 1790985312950,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790985253553,
+  "overall": {
+   "winRate": 49.9,
+   "play": 105185,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1074,
+   "wins": 502,
+   "winRate": 46.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid Illaoi’s (E) while facing her. Purchase items that reduce healing and maintain some distance to use your abilities to when fighting her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 1153,
+    "pickRate": 84.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40.2,
+    "play": 189,
+    "pickRate": 13.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 25,
+    "play": 16,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.8,
+    "play": 611,
+    "pickRate": 44.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.7,
+    "play": 94,
+    "pickRate": 6.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 1018,
+    "pickRate": 73.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.6,
+    "play": 316,
+    "pickRate": 23
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.2,
+    "play": 967,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.2,
+    "play": 218,
+    "pickRate": 17.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 63.8,
+    "play": 69,
+    "pickRate": 10.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 6.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 54.8,
+    "play": 31,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.9,
+    "play": 657,
+    "pickRate": 49.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 50.8,
+    "play": 537,
+    "pickRate": 40.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 46.4,
+    "play": 509,
+    "pickRate": 38.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.7,
+    "play": 440,
+    "pickRate": 33.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.1,
+    "play": 422,
+    "pickRate": 31.8
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 44.7,
+    "play": 387,
+    "pickRate": 29.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.1,
+    "play": 791
+   }
+  ]
+ }
+}

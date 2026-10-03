@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose extended trades and any fight she starts with Test of Spirit before level 10, but once Trinity Force and your Q (Leap Strike) cooldown are online you win the skirmishes that matter."
+  },
+  "thesis": "Illaoi's damage comes from tentacles she spawns on nearby walls that swing at you and heal her, plus W (Harsh Lesson) on a 4s cooldown that lets her poke constantly without committing — that sustained chip is why Jax sits at a 44% win rate over 955 games with the lane and solo-kill edge going to her. Jax has no tool that out-sustains that early, so the matchup is won by denying her tentacle uptime and her E tether, not by trading evenly in lane.",
+  "tell": {
+   "watch": "Whether you're tethered by her E",
+   "theirWindow": {
+    "when": "She lands Test of Spirit on you near a wall",
+    "what": "Disengage immediately. Don't attack her, don't use Q, W, or E near the spirit — Test of Spirit echoes a percentage of the damage the spirit takes back onto you, and any nearby tentacle will swing on it for free while you're stuck fighting."
+   },
+   "yourWindow": {
+    "when": "Her W (Harsh Lesson) and Q (Tentacle Smash) are both down",
+    "what": "Leap Strike (Q) in, Empower (W) your next hit, then Counter Strike (E) to stun once she retaliates. Without her 4s-cooldown leap or wall tentacles to lean on she has no sustain tool to answer the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Tentacle sustain beats your early trades"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Test of Spirit punishes any extended fight"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Counter Strike timing starts closing the gap"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Trinity Force spike, Q cooldown drops hard"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build outlasts her in skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "45.4% win rate over 771 games at 62.3% pick — sustains the auto-Q-W trade pattern you want to force rather than letting her dictate poke range."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "47.5% win rate over 749 games at 67.3% pick — her damage lands as frequent physical instances (W leap, tentacle swings), and Steelcaps flattens that chip."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The first real power spike; your Q (Leap Strike) cooldown is already dropping with ranks, and Trinity's damage and mobility close the gap on her sustain window."
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Part of the 74.2% win rate path over 31 games — sustained damage and a slow that keeps you on top of her once you're already ahead on tempo."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Same high-winrate path — bleeds damage over time and cuts burst, which matters since her tentacle procs and W leap add up over a long fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "she's threatening to combine Test of Spirit with Leap of Faith (R) on you, since stasis buys out the execute window from both"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her tentacle procs and Harsh Lesson hits are healing her back up faster than you can whittle her down"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want an earlier, cheaper power spike with on-hit healing instead of waiting on the full Trinity Force timing"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's bonus health and per-interval sustain directly answers a matchup defined by her constant tentacle and W chip damage — Second Wind and Unflinching extend how long you can hold the wave before Trinity Force comes online.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest win rate (45.5%) and most picked (76.8%) combo — Ignite punishes the tentacle healing she relies on if you can catch a short-trade window. Flash+Teleport is a close second (44.4%, 17.2% pick) if you'd rather play for side-lane scaling than early skirmishes."
+  },
+  "playing": [
+   {
+    "title": "Fight away from walls",
+    "detail": "Her passive spawns tentacles on nearby impassible terrain that swing at you and heal her on champion hits — pull trades toward open lane space, not jungle entrances or tower walls."
+   },
+   {
+    "title": "Never fight inside a Test of Spirit tether",
+    "detail": "Her E (900 range, 16/15/14/13/12s cd) rips your spirit out and echoes a percentage of damage it takes back onto you — don't attack her or use Q/W/E near the spirit, just walk away until it expires."
+   },
+   {
+    "title": "Trade right after her W",
+    "detail": "Harsh Lesson is only a 4s cooldown, so she can poke constantly — watch for the moment right after she's spent it and Leap Strike (Q) in for a free hit before it's back up."
+   },
+   {
+    "title": "Save Counter Strike for her all-in",
+    "detail": "E (18/16/14/12/10s cd) dodges incoming basic attacks and stuns everything around you afterward — hold it for when she commits rather than burning it on cooldown."
+   },
+   {
+    "title": "Don't dive into tentacle range",
+    "detail": "If she's forcing a fight near a wall or tower, back off instead of committing — every tentacle swing that lands heals her and tilts the extended trade her way."
+   },
+   {
+    "title": "Track her Leap of Faith cooldown",
+    "detail": "R is 120/95/70/70/70s and spawns a tentacle per champion hit on top of AoE damage — once she's used it early, you have a long window where her all-in is gone."
+   },
+   {
+    "title": "Hold skirmishes until Trinity Force",
+    "detail": "Your Q cooldown drops from 17s to as low as 5s at rank 5, so once Trinity Force and boots are online, your reset-based fighting finally outpaces her tentacle sustain."
+   }
+  ],
+  "patchCaveat": "Build order, rune pages, summoner spells, and all win-rate/pick-rate figures above are measured from live games on the current patch via OP.GG; the tactical reading — wall positioning, tether discipline, and cooldown-window timing — is my own analysis layered on top of that data."
+ },
+ "generatedAt": 1790985496215,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790985394926,
+  "overall": {
+   "winRate": 49.3,
+   "play": 93587,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 955,
+   "wins": 420,
+   "winRate": 44
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Illaoi’s Test of Spirit(E)! If hit with Test of Spirit (E), avoid her skills while fighting her!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.5,
+    "play": 924,
+    "pickRate": 76.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.4,
+    "play": 207,
+    "pickRate": 17.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 41.3,
+    "play": 63,
+    "pickRate": 5.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.3,
+    "play": 416,
+    "pickRate": 33.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 103,
+    "pickRate": 8.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.4,
+    "play": 771,
+    "pickRate": 62.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.9,
+    "play": 217,
+    "pickRate": 17.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.5,
+    "play": 749,
+    "pickRate": 67.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.8,
+    "play": 159,
+    "pickRate": 14.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 42.9,
+    "play": 77,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 74.2,
+    "play": 31,
+    "pickRate": 5.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Hextech Gunblade",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 61.5,
+    "play": 26,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 46.3,
+    "play": 872,
+    "pickRate": 73.6
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 49,
+    "play": 339,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 44.7,
+    "play": 311,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 52,
+    "play": 271,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 47,
+    "play": 249,
+    "pickRate": 21
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 48.2,
+    "play": 166,
+    "pickRate": 14
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 53.5,
+    "play": 454
+   }
+  ]
+ }
+}

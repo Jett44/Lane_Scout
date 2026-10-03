@@ -1,0 +1,388 @@
+{
+ "you": "Fiora",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Scales past lane",
+   "line": "You lose the pre-6 trades and the solo-kill race if you let her rip your spirit near a wall, but Fiora's level-6 answer and mid-game item spikes turn this into a 52.8% win rate over 710 games."
+  },
+  "thesis": "Illaoi's Harsh Lesson (W) has only a 4s cooldown and her Test of Spirit (E) punishes you whether you fight or flee, so she wins the pure lane and the solo-kill numbers before level 6. Fiora has no ability that answers the spirit tether early, but at level 6 Riposte (W) becomes a direct counter to her ultimate, and from there Ravenous Hydra and Trinity Force let Fiora out-skirmish and split-push past a lane she was always going to lose on paper.",
+  "tell": {
+   "watch": "Illaoi's E cooldown",
+   "theirWindow": {
+    "when": "Her E is off cooldown",
+    "what": "She'll rip your spirit, often near a wall where her passive tentacles spawn. If you stand and fight the spirit the damage it takes echoes back to you; if you run too far or let it die you become a Vessel that spawns tentacles and feeds her sustain. Get outside her 900 range before the tether resolves instead of trading into it."
+   },
+   "yourWindow": {
+    "when": "Her Q and E are both down",
+    "what": "Lunge in with Q, then again for free within the next couple seconds, land an auto, and burn E (Burst of Speed) so each landed hit stacks move speed. Get out before Tentacle Smash or Harsh Lesson come off cooldown."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Harsh Lesson's 4s cooldown outpaces your trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Test of Spirit forces a lose-lose trade"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Riposte now answers her Leap of Faith"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hydra and Trinity win extended skirmishes"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Blade Waltz erases squishies in side fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Extra AD and sustain to win short trades before her E tether can snowball into free tentacle damage; 52.3% win rate over 800 games at 92% pick."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Illaoi's autos, tentacle swings, and Harsh Lesson procs are all physical damage, so flat reduction outvalues Mercury's Treads here; 51.5% win rate at 73.8% pick."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "Sustain and wave clear to answer her tentacle poke without losing CS."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Damage and move speed spike that lets you punish her low mobility once Riposte is up."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Physical damage mitigation and healing to survive her all-in windows after a bad Test of Spirit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to burst her down during a Q/E cooldown window"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "she's shoving you under tower with tentacles and you need wave control"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her passive tentacle and Vessel healing is keeping her alive in extended trades"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their other laners bring heavy magic damage or hard crowd control"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards the double-Lunge-into-auto trade pattern with a burst window, punishing her before her echo and tentacle sustain can offset the damage; 53.6% win rate at 9.4% pick.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite's healing reduction cuts directly into her passive tentacle self-heal during all-ins, and it's the dominant pick at 92.7% for a 52.1% win rate; Flash pairs with Lunge to extend engages or escape the spirit tether."
+  },
+  "playing": [
+   {
+    "title": "Give ground when her E is up",
+    "detail": "Avoid standing inside her 900-range Test of Spirit when it's off cooldown, especially near walls where her passive tentacles spawn."
+   },
+   {
+    "title": "Fight away from walls",
+    "detail": "Illaoi's passive spawns tentacles on nearby impassable terrain that swing at you and heal her, so pull trades toward open lane."
+   },
+   {
+    "title": "Trade with the double Lunge",
+    "detail": "Q can be recast within a couple seconds at no mana cost; use both hits plus an auto in one in-and-out window."
+   },
+   {
+    "title": "Save Riposte for her autos",
+    "detail": "Riposte parries her next basic attack, not Harsh Lesson itself, so hold it for the auto she throws out after the leap."
+   },
+   {
+    "title": "Block her ultimate at 6",
+    "detail": "Once you hit level 6, hold W to answer her Leap of Faith directly instead of trying to out-damage it."
+   },
+   {
+    "title": "Build to outlast her sustain",
+    "detail": "If her Vessel and tentacle healing is carrying trades, pick up Executioner's Calling to shut it down."
+   },
+   {
+    "title": "Use Blade Waltz on skirmishes, not duels",
+    "detail": "R dashes to and damages nearby enemy champions with reduced damage on repeat hits, so it's better spent erasing a squishy in a group fight than soloing Illaoi under her tentacles."
+   }
+  ],
+  "patchCaveat": "Build order, win rates, and pick rates are pulled from measured games on the current patch; the tactical reading — trade timing, wall positioning, and the level-6 Riposte answer — is my own judgement."
+ },
+ "generatedAt": 1790985248208,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790985140120,
+  "overall": {
+   "winRate": 50.4,
+   "play": 75845,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 710,
+   "wins": 375,
+   "winRate": 52.8
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with Illaoi’s (E) while laning. Use [Q] to contest lane and gain control before reaching level 6. After reaching level 6, use [W] to block her (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.1,
+    "play": 797,
+    "pickRate": 92.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.8,
+    "play": 43,
+    "pickRate": 5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 1.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 53.6,
+    "play": 84,
+    "pickRate": 9.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.8,
+    "play": 79,
+    "pickRate": 8.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 800,
+    "pickRate": 92
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 38.5,
+    "play": 39,
+    "pickRate": 4.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.5,
+    "play": 559,
+    "pickRate": 73.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 59.6,
+    "play": 104,
+    "pickRate": 13.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 69.1,
+    "play": 175,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 56.2,
+    "play": 73,
+    "pickRate": 15.1
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 58.6,
+    "play": 58,
+    "pickRate": 12
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 53,
+    "play": 828,
+    "pickRate": 96.1
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 58.8,
+    "play": 439,
+    "pickRate": 50.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 63.6,
+    "play": 365,
+    "pickRate": 42.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 53.7,
+    "play": 229,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 61.2,
+    "play": 165,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 49.1,
+    "play": 165,
+    "pickRate": 19.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 63.3,
+    "play": 335
+   }
+  ]
+ }
+}

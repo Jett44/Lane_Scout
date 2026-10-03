@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane",
+   "line": "You lose if you let Illaoi poke you with E and sit near her Tentacles; you win if you hold every trade until 50+ Fury and force fights away from terrain."
+  },
+  "thesis": "Illaoi's W (Harsh Lesson) is only a 4s cooldown leap, so she can poke constantly while Tentacles spawned on nearby impassable terrain swing in and heal her on every champion hit. Renekton has no ranged answer to this and must win burst trades instead of a sustained fight, timing his E (Slice and Dice) engage and W (Ruthless Predator) stun around his own 50-Fury threshold rather than matching her poke for poke.",
+  "tell": {
+   "watch": "Illaoi's E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "she lands E on you away from minions",
+    "what": "Test of Spirit rips your spirit out for up to 16/15/14/13/12s; if you get too far from it or it's killed you become a Vessel that spawns Tentacles on your own death. Stay on top of the spirit and don't walk off alone."
+   },
+   "yourWindow": {
+    "when": "your Fury sits above 50 and her W is down",
+    "what": "Dash in with E (Slice and Dice) for the armor shred, then land W for the empowered triple slash, 1.5s stun, and shield removal before she can Harsh Lesson you again."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "no Tentacles rooted near lane yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E online, punishes any overextension"
+   },
+   {
+    "levels": "6-11",
+    "edge": "them",
+    "note": "ults live, Tentacle heal snowballs skirmishes"
+   },
+   {
+    "levels": "12-15",
+    "edge": "even",
+    "note": "Cleaver shred closes the sustain gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "teamfight R offsets lingering dueling deficit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Most picked and highest-winning start (78.2% pick, 42.9% WR over 1216 games) — the extra sustain matters against a lane where she can poke you with a 4s-cooldown W."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.5% pick, 44% WR — Illaoi's damage is entirely physical autos and Tentacle swings, so flat physical reduction blunts every poke instance."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Shield + burst on ability-hit rewards the Fury-stacked all-in you're forced into instead of a drawn-out trade."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks with your empowered E, and this is the best-measured path at 53.5% WR over 142 games."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts incoming burst to a DoT, giving you room to survive her Tentacle-assisted all-ins while you heal off Q."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "her Tentacles are healing her back up faster than you can burst her down"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "she's building toward one-shotting you in all-ins and you need the tenacity and bonus health"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're already ahead and want to snowball cooldowns to chain W stuns faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force over an extended trade and healing on takedown rewards you for surviving her poke phase and converting Fury windows into kills, rather than trading evenly with her early burst.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the highest-winning combo here (46.9% WR) even though Flash+Ignite is picked more often (87.2%) — this lane is measured as defensive, so Teleport lets you reset off bad trades and come back with wave/plates rather than forcing an early kill you're not favored to get."
+  },
+  "playing": [
+   {
+    "title": "Build Fury before you commit",
+    "detail": "Auto-attack and farm with Q until you're over 50 Fury; a non-empowered W stun is only 0.75s and won't win the exchange."
+   },
+   {
+    "title": "Never isolate from minions",
+    "detail": "If her E lands, stay near the spirit so you don't get pulled too far and turned into a Vessel that spawns Tentacles on death."
+   },
+   {
+    "title": "Trade right after her W",
+    "detail": "Harsh Lesson is a 4s-cooldown leap — the instant after she uses it is your safest window to walk up and auto or E in."
+   },
+   {
+    "title": "Fight away from terrain",
+    "detail": "Tentacles only spawn on nearby impassable terrain, so pulling fights toward open lane denies her the extra swings and healing."
+   },
+   {
+    "title": "Buy Grievous Wounds on sight of sustain",
+    "detail": "Executioner's Calling cuts the healing her Tentacles give her on champion hits, which is the single biggest lane-win swing available to you."
+   },
+   {
+    "title": "Chain E into empowered W for all-ins",
+    "detail": "Dash with E for the armor shred, then land the 50+ Fury W for the triple slash, shield removal, and 1.5s stun before she can reset."
+   },
+   {
+    "title": "Don't force early kills",
+    "detail": "The data shows a solo-kill advantage for her, so play for scaling and itemized power spikes at Black Cleaver rather than contesting all-ins at level 3-5."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above are measured from live games on the current patch; the Fury-timing, Tentacle-positioning, and trade-pattern reasoning is my own tactical read on top of that data."
+ },
+ "generatedAt": 1790985757671,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1790985687578,
+  "overall": {
+   "winRate": 49.6,
+   "play": 88308,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1234,
+   "wins": 533,
+   "winRate": 43.2
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being hit with Illaoi’s (E) while laning. Purchase Executioner’s Calling, and try engaging aggressively after building up Fury.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.1,
+    "play": 1345,
+    "pickRate": 87.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.9,
+    "play": 160,
+    "pickRate": 10.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 30.8,
+    "play": 26,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.7,
+    "play": 618,
+    "pickRate": 38.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 39.7,
+    "play": 189,
+    "pickRate": 11.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.9,
+    "play": 1216,
+    "pickRate": 78.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.6,
+    "play": 289,
+    "pickRate": 18.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44,
+    "play": 1228,
+    "pickRate": 85.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.3,
+    "play": 161,
+    "pickRate": 11.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 53.5,
+    "play": 142,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 67.6,
+    "play": 68,
+    "pickRate": 9.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 51.4,
+    "play": 37,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 46.5,
+    "play": 1169,
+    "pickRate": 77.5
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 44.9,
+    "play": 995,
+    "pickRate": 66
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.7,
+    "play": 459,
+    "pickRate": 30.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58.2,
+    "play": 380,
+    "pickRate": 25.2
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 39.1,
+    "play": 338,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 48.8,
+    "play": 209,
+    "pickRate": 13.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.4,
+    "play": 508
+   }
+  ]
+ }
+}
