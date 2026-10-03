@@ -1,0 +1,378 @@
+{
+ "you": "Malphite",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you let her stack Test of Spirit procs and fight at full tentacle uptime before 6; you win once Unstoppable Force forces a bad trade or you reach Sunfire/Thornmail timing."
+  },
+  "thesis": "Illaoi's W (Harsh Lesson) and passive Tentacles punish every short trade because Tentacles swing and heal her whenever she lands damage near them, so standing anywhere close to a wall is a loss. Malphite has no reliable way to out-damage that sustain pre-6, so this lane is about denying her Tentacle spawns and minion-tanking her E rather than brawling.",
+  "tell": {
+   "watch": "Her E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "E lands and you're near a wall",
+    "what": "If Test of Spirit hits you near impassable terrain she'll spawn a Tentacle and start free damage; back off the wall immediately and let the spirit timer expire without fighting near it, since the echoed damage and Tentacle swings stack fast."
+   },
+   "yourWindow": {
+    "when": "Her E and Q are both down",
+    "what": "With Tentacle Smash and Test of Spirit on cooldown she has no empowered damage source, so step up and take a trade with your own W (Brutal Strikes) active for the Armor/AD buff — this is your only safe window to actually hit her."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "W empowers Tentacles immediately, you have nothing"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E stacks snowball if you fight near walls"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R threatens a knock-up, forces caution"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Sunfire/Thornmail online, her sustain shrinks"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "teamfight R value outscales her 1v1 power"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The passive block and extra regen directly offset the poke and Tentacle chip she generates every time you're near terrain, letting you hold position on minions instead of surrendering CS."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Her W, auto-resets off Harsh Lesson, and Tentacle swings are all basic physical hits — the attack-damage reduction specifically blunts every one of those instances."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Gives you the HP and armor to actually stand in her E range and tank Tentacle procs instead of kiting, which is the only way to deny her sustain loop."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Illaoi's damage is entirely physical autos and W leaps — Thornmail's reflect punishes every engage she makes on you and the grievous wound cuts her Tentacle-fueled healing."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack speed slow on nearby enemies directly reduces how many W/auto resets she can land on you in extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "she's rushing lifesteal or healing items to sustain off Tentacle procs"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "she's building burst-adjacent magic pen or you need the shield reset to survive her R engage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's proc rewards standing in minion-wave melee range, which is exactly where you need to be to deny her Test of Spirit setups — it heals you for holding the trade instead of running.",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "48% of games run Flash/Teleport at 71.6% pick rate — Teleport lets you reset after shoving with W (Brutal Strikes) and avoid dying to a gank while you're near the wall denying her Tentacles."
+  },
+  "playing": [
+   {
+    "title": "Never fight near walls",
+    "detail": "Every wall near the lane is a Tentacle spawn point for her passive and R — if Test of Spirit lands there you're fighting a 2v1. Reposition fights toward open river or mid-lane terrain."
+   },
+   {
+    "title": "Hold Q for the slow, not poke",
+    "detail": "Q (Seismic Shard) steals her movement speed on impact — use it to stick to her for an E (Ground Slam) and auto, not as chip damage from range, since you can't out-trade her sustain at distance."
+   },
+   {
+    "title": "Pop W before she commits W",
+    "detail": "Brutal Strikes' Armor and AD buff is your only damage window — activate it right as she leaps in with Harsh Lesson so the extra armor blunts her hit and the AD buff makes your response trade worth it."
+   },
+   {
+    "title": "Save R for her Test of Spirit window",
+    "detail": "Unstoppable Force's knock-up interrupts her channel if she tries to isolate you with E away from minions — a 130s (level 6) cooldown means you only get this punish once early, so don't waste it diving."
+   },
+   {
+    "title": "Last-hit from max range on E cooldown",
+    "detail": "When her E is down she has no way to force spirit damage from range, so this is your safest CS window — step up and farm aggressively instead of staying passive all lane."
+   },
+   {
+    "title": "Track her Tentacle Smash charges",
+    "detail": "Q cooldown drops from 10s to 6s by level 5 — once she's spamming it for wave clear and empowered Tentacle damage, you lose any extended trade near terrain even with Sunfire online."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner picks above are pulled directly from measured OP.GG games on the current patch (909-game sample for this matchup); the mechanical reasoning and trade-window calls are my own read of the kit, not sourced from win-rate data."
+ },
+ "generatedAt": 1791021514043,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791021473870,
+  "overall": {
+   "winRate": 51.4,
+   "play": 121081,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 909,
+   "wins": 449,
+   "winRate": 49.4
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Illaoi’s (E) while fighting her. Stay behind minions to avoid being hit with (E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 811,
+    "pickRate": 71.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.8,
+    "play": 303,
+    "pickRate": 26.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.3,
+    "play": 531,
+    "pickRate": 45.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 210,
+    "pickRate": 17.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 896,
+    "pickRate": 77.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.9,
+    "play": 142,
+    "pickRate": 12.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.8,
+    "play": 836,
+    "pickRate": 76.5
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 46.9,
+    "play": 128,
+    "pickRate": 11.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 53.3,
+    "play": 45,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 58.8,
+    "play": 34,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 61.3,
+    "play": 31,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 50.1,
+    "play": 677,
+    "pickRate": 59.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.9,
+    "play": 618,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 52.1,
+    "play": 376,
+    "pickRate": 33.2
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 54.8,
+    "play": 325,
+    "pickRate": 28.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.2,
+    "play": 219,
+    "pickRate": 19.4
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 52.8,
+    "play": 195,
+    "pickRate": 17.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.4,
+    "play": 231
+   }
+  ]
+ }
+}

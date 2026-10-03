@@ -1,0 +1,383 @@
+{
+ "you": "Malphite",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales out",
+   "line": "You lose extended trades and all-ins from level 1 through roughly level 8 to Aatrox's healing and chain damage, but the 54.2% head-to-head rate over 3,132 games shows you win the game once anti-heal and armor stacking come online and you can land R in a skirmish."
+  },
+  "thesis": "Aatrox's kit is built to win isolated fights — Deathbringer Stance empowers a periodic auto with bonus magic damage and a heal, and E (Umbral Dash) passively heals him whenever he damages you on top of letting him dash in or out — so he out-trades and out-sustains you in any 1-for-1 before you have armor and anti-heal. Malphite has no way to answer that sustain with damage alone; the matchup is won by denying him free damage windows, stacking armor for E (Ground Slam), and buying the healing-reduction items this build path is built around.",
+  "tell": {
+   "watch": "Aatrox's Deathbringer Stance glow",
+   "theirWindow": {
+    "when": "His W (Infernal Chains) lands on you",
+    "what": "He will immediately follow with E (Umbral Dash) to close the gap and chain Q (The Darkin Blade) swings while his empowered passive auto heals him off a percentage of your max health. Do not stand inside 825 range of his W at all once you see his cast animation — walking out of that zone is cheaper than fighting out of it."
+   },
+   "yourWindow": {
+    "when": "After he spends E (Umbral Dash) to engage or flee",
+    "what": "Umbral Dash is only 9/8/7/6/5s on cooldown, but while it's down he has no gap-closer or escape. Step in with Q (Seismic Shard) to steal his movement speed, then pop W (Brutal Strikes) for the armor/AD buff and trade autos — he can't reset the fight until the dash comes back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his sustain auto beats your early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "solo-kill window, Q chains snowball fast"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your R unlocks real all-in threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Bramble/Thornmail gut his healing kit"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full tank build erases his damage and sustain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "This measures a higher win rate (55.2% over 578 games) than the more popular Doran's Ring start, and the passive regen directly offsets Deathbringer Stance pokes and Darkin Blade swings during the 1-5 all-in window."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "The 80.5% pick rate and 55.2% win rate reflect that this matchup is almost entirely physical autoattack damage — Steelcaps directly blunts both his empowered Deathbringer Stance auto and his normal Q swings."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Rushing anti-heal first is the single highest-win-rate path in the data (65.6% over 186 games) specifically because Aatrox's passive, E, and R all heal him — this item is the direct answer to all three."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Gives you the HP and burn damage to actually win the extended skirmishes you were losing early, once the anti-heal is online."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Stacks a second source of grievous wounds and heavy armor against his physical damage, completing the sustain-shutdown plan OP.GG's own tip calls for."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Caps the build with cooldown reduction and more armor, feeding your E (Ground Slam) damage and letting you weather his attack speed in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team is loaded with burst magic damage and you need the shield proc to survive dives"
+    },
+    {
+     "item": "Malignance",
+     "when": "you're ahead and want your ultimate back faster to follow up ganks and picks"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Arcane Comet",
+   "keystoneWhy": "Rewards landing Q (Seismic Shard) pokes during the windows when his E (Umbral Dash) is down and he can't dodge, giving you free burst damage in a matchup where you otherwise have none.",
+   "primary": [
+    "Manaflow Band",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This is the standard pick at 71.3% with a 54.1% win rate, and it fits the plan of playing defensively through the hard early levels, holding waves, and Teleporting back in once your anti-heal and armor items make you the stronger champion in fights."
+  },
+  "playing": [
+   {
+    "title": "Refuse extended trades levels 1-5",
+    "detail": "Aatrox has the solo-kill advantage in this window because of his healing passive and chain Q swings. Take short pokes and disengage rather than standing in extended autoattack trades."
+   },
+   {
+    "title": "Hold cannon waves, don't force CS",
+    "detail": "If he's pushing you off the wave, let big minion waves go and reset rather than contesting CS into a sustain fight you lose."
+   },
+   {
+    "title": "Trade only when E (Umbral Dash) is down",
+    "detail": "Without his dash he can neither close distance nor escape, so this is the only window where your Q (Seismic Shard) slow and W (Brutal Strikes) buff actually stick."
+   },
+   {
+    "title": "Poke with E (Ground Slam) on cooldown",
+    "detail": "Ground Slam deals magic damage based on your Armor and slows his attack speed for free whenever he's in your 400 range — use it every 7 seconds rather than saving it, it doesn't require you to auto-trade into his sustain."
+   },
+   {
+    "title": "Rush Bramble Vest first back",
+    "detail": "Per the measured data, anti-heal first item is the single biggest lever you have — it directly cuts his Deathbringer Stance, Umbral Dash, and R sustain."
+   },
+   {
+    "title": "Save R (Unstoppable Force) for a clean pick",
+    "detail": "With a 130/115/100/80/80s cooldown early, don't burn it just to disengage — hold it to catch him out of position for a kill with your jungler, since isolated fights favor him but your burst all-in doesn't."
+   }
+  ],
+  "patchCaveat": "All build paths, rune pages, summoner spells, and win rates above are measured from live OP.GG games on the current patch (16.19.1) — the tactical reasoning for why each choice works is this brief's own analysis, not part of the measured data."
+ },
+ "generatedAt": 1791020838374,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791020727399,
+  "overall": {
+   "winRate": 51.4,
+   "play": 121081,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 3132,
+   "wins": 1698,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "defensive",
+  "opponentTip": "Manage your distance well to avoid Aatrox’s (E)-(Q) combo. Purchase items that reduce healing.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.1,
+    "play": 2655,
+    "pickRate": 71.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.7,
+    "play": 996,
+    "pickRate": 26.8
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 56.4,
+    "play": 39,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.8,
+    "play": 1838,
+    "pickRate": 48
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.9,
+    "play": 596,
+    "pickRate": 15.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 54.1,
+    "play": 2832,
+    "pickRate": 75.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55.2,
+    "play": 578,
+    "pickRate": 15.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.2,
+    "play": 2906,
+    "pickRate": 80.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.4,
+    "play": 375,
+    "pickRate": 10.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 65.6,
+    "play": 186,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 63.8,
+    "play": 127,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 58.4,
+    "play": 113,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 55.8,
+    "play": 2414,
+    "pickRate": 64.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 57.3,
+    "play": 2243,
+    "pickRate": 60.3
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 59.6,
+    "play": 1158,
+    "pickRate": 31.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50.8,
+    "play": 915,
+    "pickRate": 24.6
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 52.4,
+    "play": 817,
+    "pickRate": 21.9
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 58.7,
+    "play": 721,
+    "pickRate": 19.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.9,
+    "play": 854
+   }
+  ]
+ }
+}

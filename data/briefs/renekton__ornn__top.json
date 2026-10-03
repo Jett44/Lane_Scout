@@ -1,0 +1,380 @@
+{
+ "you": "Renekton",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose extended trades where Ornn eats your all-in with Bone Plating and Living Forge armor, but you win if you force quick Fury-dump trades before he itemizes."
+  },
+  "thesis": "Ornn's Passive (Living Forge) gives him bonus Armor and Magic Resist from all sources, so his effective tankiness scales faster than yours as items come online, and this shows up directly in the 44% win rate over 1531 games. Renekton's entire kit is a burst-and-heal package built on Fury, so the matchup is decided by whether you can spend that Fury on him before his passive and Bone Plating blunt it.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "after he lands E (Searing Charge) knockup",
+    "what": "Ornn's E (Searing Charge) only knocks up if he collides with terrain — if he baits you toward a wall and connects, you eat a shockwave stun-adjacent window and he follows with W (Bellows Breath) to make you Brittle before an all-in."
+   },
+   "yourWindow": {
+    "when": "your Fury is above 50 and his Q/E are down",
+    "what": "Dash in with E (Slice and Dice) to proc the Armor reduction, then W (Ruthless Predator) for the empowered 3-hit stun that also strips shields, and close with Q (Cull the Meek) for the boosted heal — this is your entire kill window and it closes the moment his Q (Volcanic Rupture) or E (Searing Charge) come off cooldown to peel you off."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has Fury or Brittle tools online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "empowered W stun-lock trades punish his short range"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "his R threatens all-in, Living Forge armor scaling"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Eclipse burst vs his Bone Plating mitigation"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "his tank itemization outpaces your Death's Dance sustain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "picked in 44.1% of 1407 games (79.5% pick rate) — the extra damage and sustain let you win the Fury-generation race in short trades before his passive armor kicks in"
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "run in 45.9% of 939 games (56.9% pick) — the magic resist directly answers Ornn's magic damage poke from Q (Volcanic Rupture) and R (Call of the Forge God)"
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "the shield-and-burst passive lets your empowered W (Ruthless Predator) all-in land before Living Forge armor fully absorbs it"
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "stacking armor shred compounds with your empowered E (Slice and Dice) armor reduction to cut through his bonus Armor"
+    },
+    {
+     "item": "Death's Dance",
+     "why": "the damage-over-time conversion keeps you alive through his delayed magma pillar and shockwave poke in extended fights"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he builds toward a knockup-into-ult all-in and you need the tenacity and bonus health to survive the combo"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need cooldown reduction to loop Fury generation faster than his armor stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "stacking adaptive force rewards you for staying in extended trades to melt his rising Armor/MR from Living Forge, and it's the 47.3% page picked in 41.1% of games",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "run together in 44.7% of games at a 73.4% pick rate — Ignite punishes his Q (Volcanic Rupture)-poke pattern by converting your short trade windows into real kill pressure before he can walk away"
+  },
+  "playing": [
+   {
+    "title": "Trade only above 50 Fury",
+    "detail": "Below 50 Fury your Q (Cull the Meek) and W (Ruthless Predator) are both weaker versions — bait autos first, then commit the E-W-Q combo once Fury crosses the threshold."
+   },
+   {
+    "title": "Punish his E whiff",
+    "detail": "Ornn's E (Searing Charge) only knocks up on terrain collision — if he charges without a wall nearby, he's committed to a straight-line dash with no payoff, so step in behind it immediately."
+   },
+   {
+    "title": "Save E for his W gap-close",
+    "detail": "His W (Bellows Breath) is a forward advance with unlimited range (25000) that ends in a Brittle-applying flame burst — hold your E (Slice and Dice) dash to either close distance before it lands or disengage the instant he commits."
+   },
+   {
+    "title": "Respect the Brittle window",
+    "detail": "OP.GG's own read is correct here: once you're Brittle from his W or R, his basic attacks deal bonus damage — back off cooldowns rather than trading autos while tagged."
+   },
+   {
+    "title": "Zone his R channel",
+    "detail": "Call of the Forge God (120-100-80-80-80s cooldown) summons a slow-building elemental he can redirect by charging into it — stay mobile near walls so a redirect can't convert into a knockup chain."
+   },
+   {
+    "title": "Front-load damage before item spikes",
+    "detail": "Living Forge gives him bonus Armor/MR from every item he buys, so your highest-equity fights are levels 3-5 before his build catches up, not late after Eclipse completes."
+   },
+   {
+    "title": "Use Ignite to seal short trades",
+    "detail": "Since your all-in window is brief and closes once his cooldowns reset, Ignite converts a non-lethal W-E-Q combo into a real kill threat rather than a even trade."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and the 44% head-to-head win rate over 1531 games are measured from live OP.GG data on the current patch (16.19.1); the mechanical reasoning and trade timing are my own analysis built on top of those numbers."
+ },
+ "generatedAt": 1791022242866,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791022203059,
+  "overall": {
+   "winRate": 49.6,
+   "play": 93027,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1531,
+   "wins": 673,
+   "winRate": 44
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being hit Ornn’s basic attacks when Renekton is Brittle. with Sylas’s (E) and (Q). Slowly build up Fury and engage to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.7,
+    "play": 1294,
+    "pickRate": 73.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.5,
+    "play": 435,
+    "pickRate": 24.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 72.2,
+    "play": 18,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.3,
+    "play": 746,
+    "pickRate": 41.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.4,
+    "play": 132,
+    "pickRate": 7.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 44.1,
+    "play": 1407,
+    "pickRate": 79.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 40.4,
+    "play": 272,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.9,
+    "play": 939,
+    "pickRate": 56.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 41.9,
+    "play": 635,
+    "pickRate": 38.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 51.2,
+    "play": 129,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 49.3,
+    "play": 75,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 49.3,
+    "play": 71,
+    "pickRate": 7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 44.1,
+    "play": 1555,
+    "pickRate": 89.2
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 44.9,
+    "play": 985,
+    "pickRate": 56.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 45.5,
+    "play": 503,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 48.7,
+    "play": 474,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 44.7,
+    "play": 412,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 41.8,
+    "play": 134,
+    "pickRate": 7.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 46.5,
+    "play": 703
+   }
+  ]
+ }
+}

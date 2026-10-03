@@ -1,0 +1,381 @@
+{
+ "you": "Malphite",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into his raised E (Counter Strike) or ult into a trade he can dodge; you win if you force him to commit Q (Leap Strike) first and then punish with Q+E before his R (Relentless Assault) stacks."
+  },
+  "thesis": "This is a measured 51.6% matchup over 2313 games because both champions win short, cooldown-gated trades rather than one dominating the lane. Jax's damage lives in his W (Empower) buffed auto and his third consecutive hit under R (Relentless Assault), while Malphite's E (Ground Slam) directly reduces attack speed and scales its damage off your own Armor, which is the exact stat your build stacks. Whoever reads the other's cooldown correctly wins the exchange.",
+  "tell": {
+   "watch": "Jax's Counter Strike (E) cooldown",
+   "theirWindow": {
+    "when": "Jax's E (Counter Strike) is up",
+    "what": "He can enter the defensive stance to dodge your basic attacks, then stun everyone around him when it expires. Do not auto-attack into a raised E; walk off instead and let the stance run out before re-engaging."
+   },
+   "yourWindow": {
+    "when": "Jax used Q (Leap Strike) or E on cooldown",
+    "what": "Once his Leap Strike (17/14/11/8/5s cooldown) or Counter Strike (18/16/14/12/10s) is spent, he has no stun and no gap closer. Step in with Q (Seismic Shard) for the slow, auto, then E (Ground Slam) to cut his attack speed before he can reset the fight."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has rank 2 abilities or ultimate"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W (Empower) rank-ups spike his trade damage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R is up but on a long 130s cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Armor items make E (Ground Slam) hit harder"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build, R cooldown down to 80s"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "The 75% pick rate and 50.4% win rate over 2123 games reflect how often this lane turns into a poke war of Q (Seismic Shard) pokes and E (Ground Slam) trades rather than an all-in; the extra sustain and mana keep you casting both every time they're up."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Measured at 51.8% over 1933 games. Jax's entire kit — W (Empower) autos and the R (Relentless Assault) third-hit bonus — is basic-attack damage, which is exactly what Plated Steelcaps reduces."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "First item in the highest win-rate path (62.6% over 107 games); the Armor it grants directly buffs your E (Ground Slam) damage, which scales off your Armor stat."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes an attack-speed-stacking champion; Jax's R (Relentless Assault) and W (Empower) both depend on landing repeated basic attacks on you."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack-speed reduction aura directly slows how fast Jax can reach his third R hit, compounding what your E (Ground Slam) already does."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "jax is building ability power alongside his physical damage and you need the magic shield"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early armor and anti-heal rush before level 9 to survive his level 3-5 all-in window"
+    },
+    {
+     "item": "Malignance",
+     "when": "you are ahead and need more magic penetration to secure kills with Q (Seismic Shard) and ultimate"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Arcane Comet",
+   "keystoneWhy": "Jax has to commit Q (Leap Strike) to close distance on you, and Comet rewards landing Q (Seismic Shard) from range on that engage with extra burst.",
+   "primary": [
+    "Manaflow Band",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is measured at 53.6% over a 26.1% pick-rate sample, clearly outperforming the more common Flash+Teleport (50.2%, 72.2% pick). Since the matchup's solo-kill advantage is even, Ignite is what converts a won trade into an actual kill instead of just a shove."
+  },
+  "playing": [
+   {
+    "title": "Never auto into raised E",
+    "detail": "While Jax's Counter Strike (E) is active he dodges all incoming basic attacks and then stuns on expiry. Stop auto-attacking the moment you see him enter the stance and wait it out."
+   },
+   {
+    "title": "Punish spent Leap Strike",
+    "detail": "Jax's Q (Leap Strike) cooldown runs 17s at rank 1 down to 5s at rank 5. The moment he uses it to engage or reset, he has no gap closer until it's back — step in with Q (Seismic Shard) and an auto."
+   },
+   {
+    "title": "Spam E to blunt his R stacks",
+    "detail": "Ground Slam's 7s cooldown lets you recast it almost every exchange. Its attack-speed reduction directly undercuts Relentless Assault's attack-speed ramp before he reaches his bonus-damage third hit."
+   },
+   {
+    "title": "Hold ult for his commitment",
+    "detail": "Unstoppable Force is 130s at rank 1 and only drops to 80s by rank 5-6, so don't waste it starting fights. Save it to knock him up the instant he leaps in with Q, cancelling his all-in."
+   },
+   {
+    "title": "Pop W during extended skirmishes",
+    "detail": "Brutal Strikes' Armor and Attack Damage buff is best timed once Jax's Counter Strike is down, since that's the window he can't dodge your attacks and you want the extra damage and Armor for the trade."
+   },
+   {
+    "title": "Build into his auto reliance",
+    "detail": "Thornmail, Frozen Heart, and Plated Steelcaps all specifically answer a kit built around basic-attack damage (W empower, R third-hit); prioritize them over generic tank stats."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoner spells, and all win-rate and sample-size figures above are measured from live games on the current patch via OP.GG. The ability interactions, trade windows, and timing reads are the author's own tactical analysis, not measured data."
+ },
+ "generatedAt": 1791021021352,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791020941200,
+  "overall": {
+   "winRate": 51.4,
+   "play": 121081,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2313,
+   "wins": 1194,
+   "winRate": 51.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Jax deals a lot of damage with his (W) and third strike after learning (R). Use [R] to reduce his attack speed when Jax closes in.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.2,
+    "play": 2026,
+    "pickRate": 72.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.6,
+    "play": 732,
+    "pickRate": 26.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.1,
+    "play": 1131,
+    "pickRate": 39
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52,
+    "play": 433,
+    "pickRate": 14.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 2123,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50.9,
+    "play": 411,
+    "pickRate": 14.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.8,
+    "play": 1933,
+    "pickRate": 70.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.6,
+    "play": 549,
+    "pickRate": 20.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 62.6,
+    "play": 107,
+    "pickRate": 6.7
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 63.6,
+    "play": 66,
+    "pickRate": 4.1
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 51.5,
+    "play": 66,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.2,
+    "play": 1461,
+    "pickRate": 52.4
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 55.4,
+    "play": 1347,
+    "pickRate": 48.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.6,
+    "play": 1101,
+    "pickRate": 39.5
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 52.4,
+    "play": 785,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 52.4,
+    "play": 735,
+    "pickRate": 26.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46.1,
+    "play": 521,
+    "pickRate": 18.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.7,
+    "play": 702
+   }
+  ]
+ }
+}

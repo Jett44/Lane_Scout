@@ -1,0 +1,381 @@
+{
+ "you": "Malphite",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive, then scale",
+   "line": "You lose this lane if Renekton hits level 2-3 with 50+ Fury and lands a trade, but you win the matchup overall once your armor items come online, matching the 51.5% head-to-head over 1913 games."
+  },
+  "thesis": "Renekton's power is Fury-gated: at 50+ Fury his W (Ruthless Predator) upgrades from a 0.75s double-slash stun to a 1.5s triple-slash stun that destroys shields, and he has that burst online by levels 2-3 while your Ground Slam is still weak. Once you stack Armor from Sunfire Aegis and Thornmail, E (Ground Slam) scales into real damage and Unstoppable Force gives you the all-in Renekton lacks past mid game, which is why OP.GG measures Renekton with the lane and solo-kill edge but Malphite still holding 51.5% in the head-to-head.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Fury above 50%, levels 2-3",
+    "what": "His W becomes a 1.5s triple-slash stun that strips your Granite Shield and his Q (Cull the Meek) heals harder. Do not stand and trade here; you have no stun of your own until R at level 6, and Ground Slam's attack-speed slow does nothing to stop the stun-lock."
+   },
+   "yourWindow": {
+    "when": "Slice and Dice (E) on cooldown",
+    "what": "That dash starts at a 16s cooldown and only reaches 10s at rank 5, so whenever he's just used it to engage or reset he can't dash away or back in. Shove the wave or stand and trade with Q (Seismic Shard) poke during this window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Renekton trades favorably before your E scales"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Fury-fueled double/triple stun wins extended fights"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Unstoppable Force knockup evens the all-in"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Armor stacking makes Ground Slam outscale him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction from champion hits directly blunts Cull the Meek pokes and empowered-W trades during the level 2-3 window where Renekton is strongest, and it has the better measured win rate (51.8%) of the two common starts."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Cuts down the physical damage from his autos and both the double and triple-slash versions of Ruthless Predator, which is where most of his trade damage comes from."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Generic Health and Armor plus an immolate aura gives you a damage source that doesn't require you to walk into his stun range, and it's the first item in the 60.3%-win-rate core path."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Grievous Wounds directly answers the heal on Cull the Meek that lets Renekton win extended trades, and the reflected damage punishes his empowered autos."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The Armor and attack-speed slow aura stack with Ground Slam's own attack-speed reduction, further gutting his auto-attack damage once Fury is up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "you're behind at level 2-3 and need early tank stats and grievous wounds immediately"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team stacks heavy magic damage or burst AP threats"
+    },
+    {
+     "item": "Malignance",
+     "when": "you're ahead and want to amplify Unstoppable Force's damage for pick potential"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Bites him on every attack during the short, repeated trades Renekton forces with Cull the Meek, and the scaling Health keeps you alive through the level 2-3 window where his Fury burst is strongest.",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the most-picked and highest-sampled option (50.1% win rate, 77% pick) and lets you reset after shoving with Q poke, then convert to objective/siege teleports once you out-scale him; Flash is your out from his stun-lock during the level 2-3 all-in window."
+  },
+  "playing": [
+   {
+    "title": "Don't trade under 50 Fury stun",
+    "detail": "Below 50 Fury his W is just a 0.75s double-slash stun, but at 50+ it becomes a 1.5s triple-slash that destroys your Granite Shield. Disengage rather than trade whenever his Fury is climbing toward half bar, especially levels 2-3."
+   },
+   {
+    "title": "Poke with Q, don't chase",
+    "detail": "Use Q (Seismic Shard, 8s CD, 625 range) to chip and slow from max range instead of walking into Cull the Meek's sustain radius; the movement-speed steal also helps you disengage before his E dash punishes overextension."
+   },
+   {
+    "title": "Punish Slice and Dice cooldown",
+    "detail": "His E starts at a 16s cooldown and only drops to 10s at rank 5. Whenever he's just used it to engage or reset, shove the wave or stand and trade since he can't dash away or back in."
+   },
+   {
+    "title": "Hold R for his stun window",
+    "detail": "Save Unstoppable Force (130/115/100/80/80s CD) for after he's committed his W stun or when his Fury is near full. Knocking him up during that window neutralizes the exact stun-lock that wins Renekton the early game."
+   },
+   {
+    "title": "Let Ground Slam scale before all-in",
+    "detail": "E deals magic damage based on your Armor, so it's weak with just Doran's Shield and boots and only becomes a real threat once Sunfire Aegis and Thornmail are online. Avoid extended skirmishes before that."
+   },
+   {
+    "title": "Build Thornmail for his sustain",
+    "detail": "Grievous Wounds cuts the heal off Cull the Meek, directly answering the sustain that lets him win extended trades. Prioritize it as soon as he's ahead on items."
+   },
+   {
+    "title": "Play around Granite Shield recharge",
+    "detail": "Your passive shield only refills after a period without being hit, so after eating an empowered W or E poke, back off a few seconds to let it recharge before the next exchange."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner spells here are pulled directly from measured OP.GG data on the current patch across 1913 Malphite-vs-Renekton games; the mechanical reasoning and timing calls are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791021196539,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791021107759,
+  "overall": {
+   "winRate": 51.4,
+   "play": 121081,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1913,
+   "wins": 986,
+   "winRate": 51.5
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "Renekton is very strong when he reaches level 2 and 3. Avoid fighting him when he has over 50% Fury.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.1,
+    "play": 1762,
+    "pickRate": 77
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.1,
+    "play": 484,
+    "pickRate": 21.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55.6,
+    "play": 27,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 731,
+    "pickRate": 31.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51,
+    "play": 631,
+    "pickRate": 26.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 1468,
+    "pickRate": 63.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 427,
+    "pickRate": 18.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.7,
+    "play": 1836,
+    "pickRate": 82.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.9,
+    "play": 233,
+    "pickRate": 10.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 54.4,
+    "play": 79,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 60.3,
+    "play": 78,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 46.3,
+    "play": 54,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.8,
+    "play": 1520,
+    "pickRate": 66.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.9,
+    "play": 1326,
+    "pickRate": 58.4
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 53.3,
+    "play": 808,
+    "pickRate": 35.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 44.8,
+    "play": 560,
+    "pickRate": 24.7
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 50.9,
+    "play": 485,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 49.2,
+    "play": 437,
+    "pickRate": 19.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.4,
+    "play": 412
+   }
+  ]
+ }
+}

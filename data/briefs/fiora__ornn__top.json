@@ -1,0 +1,384 @@
+{
+ "you": "Fiora",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skirmish",
+   "line": "You lose if you let him charge E into a wall near you; you win if you land the double Lunge before he turns and parry his empowered auto with W."
+  },
+  "thesis": "This is a melee duel where Fiora's mobility and burst consistently out-trade Ornn's slower, cooldown-gated kit, which is why the measured data gives Fiora both the lane edge and the solo-kill edge at a 50.4% head-to-head over 1340 games. Ornn's only hard punish, E (Searing Charge), only knocks up if he collides with terrain, so almost the entire lane is decided by whether you let him fight you next to a wall.",
+  "tell": {
+   "watch": "His E charge toward walls",
+   "theirWindow": {
+    "when": "You're near a wall, his E up",
+    "what": "Searing Charge (E) deals damage to everything he passes through and, if he hits terrain while charging, erupts into a shockwave that knocks up and damages everyone around him. If he's lined up on a wall with you between him and it, back off the terrain line or hold W (Riposte) to eat the follow-up auto."
+   },
+   "yourWindow": {
+    "when": "After your double Q lands clean",
+    "what": "Lunge (Q) can be reactivated for a second dash within a couple seconds at no mana cost, so chain both hits into an auto, then pop E (Burst of Speed) — every attack or Lunge during it stacks Move Speed, letting you stick to him through his short-ranged kit and keep landing Duelist stacks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Volcanic Rupture slow and E threat out-range your single Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Double-Lunge trades beat his longer cooldowns"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Blade Waltz burst outpaces his Living Forge resistances"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "His stacked armor/MR starts absorbing your all-ins"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "92.4% pick rate and 50.8% win rate over 1481 games; the sustain and AD let you take short trades off Q without needing to recall into his poke."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "50.5% pick rate at 49.2% win rate over 710 games; Ornn's Q, W, and R all apply slows or Brittle setups for magic damage, so the tenacity and MR answer his control tools directly."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "First item in the highest-sample core path (52.6% over 304 games); the sustain and cleave let you win extended trades once Duelist stacks are up."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade plus the move speed passive stacks with Burst of Speed (E) to keep you stuck to him through his short dashes."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the top win-rate path; the damage-over-time conversion lets you survive his delayed Volcanic Rupture (Q) pillar burst and knock-up combos."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're snowballing lane and want a burst-shield item for isolated picks after Blade Waltz"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the game goes long and you need siege/split-push power against his tank itemization"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "you want extra true-damage execute pressure once he's stacked resistances"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 13.4%-pick, 55%-winrate page; the healing-and-adaptive-force scaling rewards exactly the extended melee trades this matchup wants. Master-tier Fiora players instead run Press the Attack across 13,801 games — better suited if you're confident landing clean all-in windows and want the burst amp instead of sustained healing.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "51.9% win rate at 77.7% pick rate; Ignite converts your solo-kill advantage into actual kills in a lane where you're already favored to win the duel. Flash+Teleport (47.3%, 19.7% pick) is the alternative if you'd rather use the lane to scale and roam off resets instead of forcing kills."
+  },
+  "playing": [
+   {
+    "title": "Poke with single Q, not autos",
+    "detail": "Use the first Lunge (Q) to proc Duelist stacks and heal before he's in range to punish with Searing Charge (E); save the free second dash for when he commits."
+   },
+   {
+    "title": "Hold W for his empowered auto",
+    "detail": "Riposte (W) parries his next basic attack and reflects magic damage; save it for the auto after Bellows Breath's (W) final gout applies Brittle, since that hit is his biggest damage spike."
+   },
+   {
+    "title": "Respect walls once his E is up",
+    "detail": "Searing Charge (E) only knocks up if he collides with terrain mid-charge; track his position relative to walls before you commit to a trade."
+   },
+   {
+    "title": "Chain both Lunges into one trade",
+    "detail": "Q's second activation is free within a couple seconds; use it to close the gap and land an extra auto rather than saving it as an escape."
+   },
+   {
+    "title": "Pop E to stick through his dashes",
+    "detail": "Burst of Speed (E) stacks Move Speed on every attack or Lunge landed; use it to stay on top of him since his kit has no ranged disengage outside terrain."
+   },
+   {
+    "title": "Save R for isolated burst, not waves",
+    "detail": "Blade Waltz (R) hits every nearby champion but deals reduced damage on repeat hits to the same target, so it's best spent finishing him 1v1 rather than chip damage into a minion wave."
+   },
+   {
+    "title": "Avoid lingering near his Q pillar",
+    "detail": "Volcanic Rupture (Q) leaves a magma pillar at the fissure's end point after a delay; don't stand in that zone during an extended trade."
+   }
+  ],
+  "patchCaveat": "All win rates, pick rates, item paths, runes, and summoner spells above are measured from live OP.GG games on the current patch; the mechanical reasoning and trade timing are my own read of the ability kits."
+ },
+ "generatedAt": 1791021986606,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791021890800,
+  "overall": {
+   "winRate": 50.3,
+   "play": 80042,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1340,
+   "wins": 675,
+   "winRate": 50.4
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep your Conqueror stacks whiel using [Q] to strike [P] to gain lane control. Block Ornn’s Brittle+ basic attack or his (R) with your [W].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.9,
+    "play": 1236,
+    "pickRate": 77.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.3,
+    "play": 313,
+    "pickRate": 19.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55,
+    "play": 218,
+    "pickRate": 13.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Scorch"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.5,
+    "play": 130,
+    "pickRate": 8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 1481,
+    "pickRate": 92.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.4,
+    "play": 74,
+    "pickRate": 4.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.2,
+    "play": 710,
+    "pickRate": 50.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.3,
+    "play": 470,
+    "pickRate": 33.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 52.6,
+    "play": 304,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Hullbreaker"
+    ],
+    "winRate": 54.2,
+    "play": 107,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 56.6,
+    "play": 83,
+    "pickRate": 8.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 51.2,
+    "play": 1532,
+    "pickRate": 97
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.4,
+    "play": 967,
+    "pickRate": 61.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 51.9,
+    "play": 578,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 52.5,
+    "play": 326,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 49.8,
+    "play": 273,
+    "pickRate": 17.3
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 54.4,
+    "play": 160,
+    "pickRate": 10.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50.8,
+    "play": 701
+   }
+  ],
+  "highElo": {
+   "keystone": "Press the Attack",
+   "tree": "Precision",
+   "play": 13801
+  }
+ }
+}

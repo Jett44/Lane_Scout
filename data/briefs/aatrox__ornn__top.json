@@ -1,0 +1,380 @@
+{
+ "you": "Aatrox",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you flash E-in on a loaded Q-E combo; you win if you chain Q3 onto a trade he started."
+  },
+  "thesis": "Ornn's entire lane threat is tied to his Q (Volcanic Rupture) and E (Searing Charge) coming off cooldown together, and both are single-target skillshots with no AoE bailout. Aatrox's Q (The Darkin Blade) has a 25000 range and three stacking swings that out-damage anything Ornn throws in an isolated trade, so if you force fights on his cooldowns instead of his, the 49.7% win rate over 1533 games tilts in your favor.",
+  "tell": {
+   "watch": "Ornn's Q and E cooldowns",
+   "theirWindow": {
+    "when": "both Q and E are up",
+    "what": "He can slow you with Q (Volcanic Rupture, 9/8.5/8/7.5/7s cooldown) then close the gap with E (Searing Charge, 14/13.5/13/12.5/12s cooldown) to land a wall-shockwave knockup. If he lands the Q slow first, back off instead of trading — the follow-up E knockup chains into a free W (Bellows Breath) application of Brittle."
+   },
+   "yourWindow": {
+    "when": "his Q or E is on cooldown",
+    "what": "Walk up and unload Q (The Darkin Blade, 14/12/10/8/6s cooldown) stacks plus E (Umbral Dash) for the on-hit heal — without the Q slow or E gap-close he has no way to punish your dash-in, so this is when solo kills happen."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither combo nor Q3 online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q stacks and E sustain outpace his poke"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "his R (Call of the Forge God) threatens all-ins"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "Eclipse/Sundered Sky burst wins skirmishes"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Death's Dance sustain vs his tank scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "75.3% pick rate at 48.9% win over 1354 games — the sustain and AD let you win extended trades where his Q slow would otherwise punish you."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "51% win rate over 904 games; the tenacity shortens how long his E knockup and Q slow lock you down, which is the entire window he needs to land his combo."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "65.2% win over 69 games in the top path; the shield and burst let you punish the exact moment his Q/E are down."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Pairs with Eclipse for all-in trades where you need the crit-proc healing to outlast his Living Forge bonus armor/MR."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts his magic poke damage into a damage-over-time you can heal through with E (Umbral Dash) and passive Deathbringer Stance procs."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "he builds armor early off Living Forge and you need the shred to keep trading through it"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "fights go long and you need the cooldown haste to get more Q (The Darkin Blade) swings per trade"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you're ahead and want to close distance faster before his Q (Volcanic Rupture) slow lands"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended trades are where you win this lane — stacking Conqueror through repeated Q swings and E dashes out-heals his magic poke over a long fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "60.6% pick rate at 49.8% win — Ignite seals the solo-kill advantage this matchup already gives you once you catch him out of his Q/E window."
+  },
+  "playing": [
+   {
+    "title": "Trade only on his cooldowns",
+    "detail": "Never walk up when both Q (Volcanic Rupture) and E (Searing Charge) are available — wait for one to be down, then commit Q (The Darkin Blade) stacks."
+   },
+   {
+    "title": "Respect level 6 Ignite-R all-in",
+    "detail": "Once he hits 6, he can combo Ignite into R (Call of the Forge God) for a slow-and-Brittle setup. Play with extra spacing right as he levels up near his cooldown windows."
+   },
+   {
+    "title": "Hold E for the gap, not the poke",
+    "detail": "Umbral Dash's passive heal only triggers on champion damage, so save the dash to close distance after his E charge misses or whiffs into terrain."
+   },
+   {
+    "title": "Stack Q before committing",
+    "detail": "The Darkin Blade's three swings each hit different areas — bait his E charge with your first swing, then land swings two and three once he's locked into his animation."
+   },
+   {
+    "title": "Watch for the knockup off terrain",
+    "detail": "His E only creates a shockwave if he hits a wall while charging — if you're near lane terrain, back off the second he starts the charge animation."
+   },
+   {
+    "title": "Save R for extended skirmishes",
+    "detail": "World Ender's fear and healing boost are wasted on a short trade; use it when a fight will run long enough for the takedown-extension to matter."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win rates above are measured from live games on the current patch via OP.GG; the cooldown reads, trade-window timing, and overall tactical plan are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791022027871,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791021991884,
+  "overall": {
+   "winRate": 49.9,
+   "play": 110605,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1533,
+   "wins": 762,
+   "winRate": 49.7
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of Ornn’s (Q)-(E) combo as well as when he reaches level 6 to use his Ignite – Call of the Forge God (R) combo. Keep some distance while using your abilities come off cooldown to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.8,
+    "play": 1091,
+    "pickRate": 60.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.4,
+    "play": 684,
+    "pickRate": 38
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 0.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 702,
+    "pickRate": 38.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 145,
+    "pickRate": 7.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 1354,
+    "pickRate": 75.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 369,
+    "pickRate": 20.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51,
+    "play": 904,
+    "pickRate": 54.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.9,
+    "play": 651,
+    "pickRate": 39.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 65.2,
+    "play": 69,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 58.7,
+    "play": 63,
+    "pickRate": 7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 42,
+    "play": 50,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.2,
+    "play": 992,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.7,
+    "play": 756,
+    "pickRate": 42.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 48.8,
+    "play": 723,
+    "pickRate": 40.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 48.7,
+    "play": 686,
+    "pickRate": 38.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 49.1,
+    "play": 525,
+    "pickRate": 29.7
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 49.7,
+    "play": 157,
+    "pickRate": 8.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.7,
+    "play": 1015
+   }
+  ]
+ }
+}

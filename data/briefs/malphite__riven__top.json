@@ -1,0 +1,390 @@
+{
+ "you": "Malphite",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into her Q (Broken Wings) chain or stand still for W (Ki Burst), but you win the extended fight once her E (Valor) shield is down and your R (Unstoppable Force) resets the fight."
+  },
+  "thesis": "Riven's entire combo depends on landing W (Ki Burst) to stun you before she dumps her Q (Broken Wings) charges and empowered autos; if you deny that stun window with spacing and only commit E (Ground Slam) when she's already inside 400 range, she has no way to force damage onto you. The 53.3% win rate over 1122 games reflects that Malphite's kit directly answers her all-in shape once you play the punish correctly instead of trading blow-for-blow.",
+  "tell": {
+   "watch": "Her E (Valor) cooldown/charge",
+   "theirWindow": {
+    "when": "Valor (E) and Ki Burst (W) both ready",
+    "what": "This is her all-in: she'll Valor in, Ki Burst to stun, then dump Broken Wings (Q) charges and empowered autos. Do not stand in W (Ki Burst) range at 260 units when both are up — back off a step or pre-emptively E (Ground Slam) the moment she closes to 400 to clip her before the stun lands."
+   },
+   "yourWindow": {
+    "when": "Her E (Valor) is on cooldown",
+    "what": "She has no gap-close or damage-block left, so this is when you walk up and land Q (Seismic Shard) for the slow plus W (Brutal Strikes) autos. Do not blow E (Ground Slam) here if she's out of range — save it for when she re-engages."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ki Burst stun punishes early trades hard"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Granite Shield recharges fade her all-in"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R (Unstoppable Force) threatens every engage"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Her R (Blade of Exile) burst matches your tankiness"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Sunfire/Thornmail stack makes you unkillable"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Not actually in the measured data for this lane, so default to the listed Doran's Ring + Health Potion + Health Potion if you want to match the recorded 50.4% line — it covers the early poke and sustain against her short-trade pokes without needing mana you don't use much."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.2% pick rate at 53.4% win rate — the flat damage reduction blunts her empowered auto-attack bursts from Runic Blade stacks far better than the alternative."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Highest-winrate first core item (58% in the top path) and gives the armor your E (Ground Slam) scales off of, plus waveclear to punish her all-in misses."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Appears in every top-performing core path; the attack speed debuff from E (Ground Slam) plus Thornmail's grievous wounds shuts down her sustain from Runic Blade autos."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Part of the 58% and 58.7% win-rate paths; the attack speed slow stacks with E (Ground Slam) to make her empowered auto-reliant combo nearly inert."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "she is building AD/true damage heavy and you need a magic shield buffer for her burst windows"
+    },
+    {
+     "item": "Malignance",
+     "when": "you are ahead and want your R (Unstoppable Force) and E (Ground Slam) to hit harder in skirmishes rather than just scaling tankiness"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "she rushes lifesteal or sustain items and you need the grievous wounds earlier than Thornmail completes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 55.9% win-rate page's keystone rewards you for staying in extended autoattack range, which matches the plan of out-sustaining her short trades rather than all-inning; at master tier, players switch to Arcane Comet (Sorcery) instead, which suits players who want to punish her E (Valor) engage with burst poke rather than scale through sustain.",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the overwhelming pick at 76.5% with a 53.4% win rate, letting you reset waveclear and item timers in a lane where you're outscaling rather than all-inning; Ignite is a viable alternative at 19.2% pick if you want to punish her low-sustain all-in attempts directly."
+  },
+  "playing": [
+   {
+    "title": "Hold E for her Valor engage",
+    "detail": "Don't throw Ground Slam (E, 7s cooldown, 400 range) preemptively — wait until she's committed inside 400 range with Valor (E) so the attack speed reduction actually disrupts her follow-up empowered autos."
+   },
+   {
+    "title": "Poke with Q when Valor is down",
+    "detail": "Seismic Shard (Q, 8s cooldown, 625 range) outranges her entire kit when her E (Valor) is on cooldown — use this window to slow and chip her without any risk of a stun trade."
+   },
+   {
+    "title": "Never fight into her shield",
+    "detail": "Valor (E) blocks incoming damage while active — OP.GG's own read confirms this: do not commit Q, E, or autos the instant you see her dash, or you're wasting cooldowns on a shield."
+   },
+   {
+    "title": "Track Ki Burst for all-in timing",
+    "detail": "Ki Burst (W, cooldown 11/10/9/8/7s) is her only stun and scales down fast with levels — respect it more at level 1-2 and less by level 6+ when she's cycling it faster but you have more HP to eat it."
+   },
+   {
+    "title": "Use R to punish her cooldown dumps",
+    "detail": "Unstoppable Force (R, cooldown 130/115/100/80/80s, 1000 range) threatens a knockup the moment she's spent Broken Wings (Q) charges and Valor (E) — look for this after she whiffs an all-in."
+   },
+   {
+    "title": "Brutal Strikes for extended trades",
+    "detail": "Brutal Strikes (W, 14s cooldown, 400 range) boosts your Armor and AD for the duration — activate it before you walk up to trade, not reactively, so the armor is already up when her empowered autos land."
+   },
+   {
+    "title": "Don't contest level 1-2 skirmishes",
+    "detail": "Her Ki Burst stun is at its lowest cooldown relative to her power spike early — play passive near your tower until Granite Shield's passive recharge and your own levels catch up around level 3-5."
+   }
+  ],
+  "patchCaveat": "All win rates, pick rates, item paths, runes, and summoner spells above are measured from live OP.GG games on the current patch (16.19.1); the tactical reasoning connecting those numbers to specific ability interactions is this brief's own analysis, not sourced from OP.GG."
+ },
+ "generatedAt": 1791021338310,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791021295145,
+  "overall": {
+   "winRate": 51.4,
+   "play": 121081,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1122,
+   "wins": 598,
+   "winRate": 53.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Use [E] when Riven closes in to reduce her attack speed and not allow her to use her full combo. Do not try to deal damage when Riven has her shield.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.4,
+    "play": 1032,
+    "pickRate": 76.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.8,
+    "play": 259,
+    "pickRate": 19.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 54,
+    "play": 50,
+    "pickRate": 3.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 55.9,
+    "play": 449,
+    "pickRate": 32.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.8,
+    "play": 398,
+    "pickRate": 28.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 783,
+    "pickRate": 57.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 56.7,
+    "play": 291,
+    "pickRate": 21.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.4,
+    "play": 1124,
+    "pickRate": 85.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.9,
+    "play": 116,
+    "pickRate": 8.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 58,
+    "play": 81,
+    "pickRate": 9.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 57.4,
+    "play": 47,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 58.7,
+    "play": 46,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 53.1,
+    "play": 904,
+    "pickRate": 68.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.4,
+    "play": 687,
+    "pickRate": 52.1
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 56.3,
+    "play": 623,
+    "pickRate": 47.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 54.4,
+    "play": 307,
+    "pickRate": 23.3
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 47.3,
+    "play": 245,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50.2,
+    "play": 231,
+    "pickRate": 17.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.6,
+    "play": 248
+   }
+  ],
+  "highElo": {
+   "keystone": "Arcane Comet",
+   "tree": "Sorcery",
+   "play": 16338
+  }
+ }
+}

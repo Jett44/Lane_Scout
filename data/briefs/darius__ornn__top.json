@@ -1,0 +1,393 @@
+{
+ "you": "Darius",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable, doesn't scale",
+   "line": "You lose if you sit back and let Ornn poke with Q from range; you win if you force E pulls and close fights before level 9."
+  },
+  "thesis": "Darius has the melee trading tools to win the skirmish range Ornn is forced into, which is why OP.GG shows a lane and solo-kill edge here, but Ornn's Living Forge passive grants him bonus Armor and Magic Resist from every item he buys, and his late Call of the Forge God adds zoning Darius can't out-stat. That's why the head-to-head sits at 47.1% over 1666 games, below Darius's own 49.4% baseline across 107,814 games - the lane win doesn't automatically carry.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "Ornn lands Q then charges E at you",
+    "what": "Back off immediately if you lack Flash or Ghost - Volcanic Rupture's slow sets up Searing Charge, and if he collides with terrain mid-charge it knocks you up for a follow-up combo."
+   },
+   "yourWindow": {
+    "when": "Ornn steps inside your E (535) range",
+    "what": "Apprehend him in immediately, stack Hemorrhage with Q (Decimate) and autos, then W (Crippling Strike) to slow and finish - OP.GG's own read on this matchup is to fight whenever he's in range, since you hold the solo-kill edge."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ornn's 800-range Q outpokes you before E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E pull closes the gap for full combo"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute spikes your kill threat"
+   },
+   {
+    "levels": "9-11",
+    "edge": "even",
+    "note": "Ornn's forged resistances blunt your damage"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "Forge God zoning favors tankier Ornn"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Run with the Health Potion like 80.4% of Darius players do (47.8% WR, 1618 games) - the extra sustain and AD let you win extended trades and bleed-stack fights before Ornn can poke you out with Q."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Every Ornn ability (Q, W, E, R) deals magic damage, and Mercury's Treads is the slightly higher-winrate pick here (48.5%, 973 games) over Plated Steelcaps - the MR directly counters his damage type."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Opens the highest-winrate path tracked (67.5% over 40 games) - the active haste closes the distance Ornn's Q tries to create."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Built-speed stacking lets you stick through Ornn's Searing Charge and run him down before he can zone with another Volcanic Rupture."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Completes the top-winrate core path and gives the tenacity and shield you need to survive Ornn's W-into-E CC chain while you finish your all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "ornn's magic damage from his forged items is outscaling your sustain"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "you need more sustain to win extended skirmishes instead of one-shot burst"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "you want more armor shred and sustained pressure in repeated skirmishes"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need more catch and kill pressure to run down a kiting ornn"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is a prolonged-trade matchup, not a burst one - Conqueror ramps through repeated autos and Decimate hits as you stack Hemorrhage. Master-tier Darius players instead take Stormraider's Surge (12,575 games) for the extra movement burst to chase down Ornn's Searing Charge dashes; take that version if you're confident executing the mobility-reliant playstyle.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost is run in 79.4% of games here (47.4% WR) because Ghost closes the gap Ornn's Q and E create and helps you escape his R elemental. Flash+Ignite (47.2%, 16.2% pick) is the alternative if you want to press the solo-kill advantage and secure early kills outright."
+  },
+  "playing": [
+   {
+    "title": "Pull before he resets",
+    "detail": "Fire E (Apprehend, range 535) the instant Ornn is in range rather than waiting - it's your only way to force him into melee before Volcanic Rupture (range 800) zones you back out."
+   },
+   {
+    "title": "Stack Hemorrhage fast",
+    "detail": "Land Q (Decimate) blade-side and weave autos to build Hemorrhage to 5 stacks quickly - at max stacks Darius enrages with massive bonus Attack Damage, so plan your all-in around that spike."
+   },
+   {
+    "title": "Respect the Q-E combo",
+    "detail": "OP.GG flags this directly: Ornn chaining Volcanic Rupture's slow into a Searing Charge that collides with terrain produces a knockup shockwave. Disengage if you don't have a way to survive it."
+   },
+   {
+    "title": "Fight when he overextends",
+    "detail": "You hold the solo-kill advantage, so punish any Ornn step into your range - either kill him outright or force a summoner spell out of him, per OP.GG's own read on this matchup."
+   },
+   {
+    "title": "Hold R for guaranteed value",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks and refreshes its cooldown (120/100/80/6/6s) on a kill - don't open with it. Wait until Ornn is already bleeding heavily."
+   },
+   {
+    "title": "Watch for Brittle follow-ups",
+    "detail": "Both W (Bellows Breath) and R (Call of the Forge God) apply Brittle to anyone hit by their final hit - expect Ornn or his team to chain hard CC right after either lands, so don't stand still."
+   },
+   {
+    "title": "Close the lane before his forges stack",
+    "detail": "Ornn's passive (Living Forge) grants him bonus Armor and Magic Resist from every item plus the ability to forge gear anywhere - convert your early-game edge into plates and kills before those resistances pile up."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample-size numbers above are measured from live OP.GG games on the current patch; the trade sequencing, power-spike timing, and tactical reasoning are my own read on the matchup."
+ },
+ "generatedAt": 1791021609196,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791021520251,
+  "overall": {
+   "winRate": 49.4,
+   "play": 107814,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1666,
+   "wins": 785,
+   "winRate": 47.1
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of Ornn’s (Q)-(E) combo while applying pressure. Fight Ornn whenever he steps in range to kill him or to at least get a Summoner’s Spell from him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47.4,
+    "play": 1592,
+    "pickRate": 79.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.2,
+    "play": 324,
+    "pickRate": 16.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 65.6,
+    "play": 61,
+    "pickRate": 3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.1,
+    "play": 684,
+    "pickRate": 33.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.1,
+    "play": 373,
+    "pickRate": 18.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 1618,
+    "pickRate": 80.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47,
+    "play": 321,
+    "pickRate": 16
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.5,
+    "play": 973,
+    "pickRate": 49.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.3,
+    "play": 630,
+    "pickRate": 32.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 51,
+    "play": 102,
+    "pickRate": 8.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 53.8,
+    "play": 78,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 67.5,
+    "play": 40,
+    "pickRate": 3.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 50.3,
+    "play": 858,
+    "pickRate": 43.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 52.3,
+    "play": 754,
+    "pickRate": 38.1
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 43.8,
+    "play": 680,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53,
+    "play": 621,
+    "pickRate": 31.4
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 52.5,
+    "play": 547,
+    "pickRate": 27.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.9,
+    "play": 530,
+    "pickRate": 26.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50.9,
+    "play": 562
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 12575
+  }
+ }
+}

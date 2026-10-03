@@ -1,0 +1,381 @@
+{
+ "you": "Irelia",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Tempo matchup",
+   "line": "You lose this if you trade face-to-face into his Q-into-E combo; you win it by stacking Ionian Fervor and Conqueror, then chaining E's mark into Q resets to all-in on your terms."
+  },
+  "thesis": "Every point of Ornn's threat is magic damage delivered through a slow-into-knockup chain — Q (Volcanic Rupture) drops a delayed pillar, and E (Searing Charge) knocks up if he collides with it or a wall — which Irelia's only defensive tool, W (Defiant Dance), cannot answer since it only reduces physical damage. That's why this sits at 47.4% over 919 games, below Irelia's 50.3% baseline: she has to win the matchup on cooldown tempo and resets, not by tanking his combo.",
+  "tell": {
+   "watch": "Ornn's Q cooldown",
+   "theirWindow": {
+    "when": "right after his Q pillar lands near you",
+    "what": "He can follow immediately with E (Searing Charge) and knock you up if he collides with that pillar or nearby terrain. Step off the pillar's landing spot the instant you see it drop."
+   },
+   "yourWindow": {
+    "when": "at 4 Ionian Fervor stacks with Conqueror live",
+    "what": "Land E (Flawless Duet) to stun and Mark him, then Q (Bladesurge) in — the Mark refreshes Q's cooldown on hit, letting you chain in and out faster than he can reset his Q/E combo."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both farm, no combo pieces online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q-E knockup threat active, you lack R"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R plus stacks let you punish his cooldowns"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "trades decided by stack and Brittle timing"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "his tankiness and R scale past dueling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "88.4% pick rate at 48.1% WR over 964 games — the sustain and early trade damage let you poke his Q cooldown windows without a potion-starved lane."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "52.2% pick, 49.1% WR over 525 games — his entire kit is magic damage, and the tenacity shortens the window his Searing Charge or R elemental knockup can chain a follow-up onto you."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "On-hit magic damage and the slow punish his melee range advantage without needing to commit to a long trade"
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Lets you push and threaten towers when he's forced to back off and forge items instead of fighting"
+    },
+    {
+     "item": "Death's Dance",
+     "why": "51.8% WR over 112 games — the damage-over-time conversion specifically offsets his burst-then-Brittle follow-up pattern"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "he or his team is stacking magic damage and you need the flat magic resist"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you're ahead and want to close out duels faster instead of sustaining through them"
+    },
+    {
+     "item": "Terminus",
+     "when": "you need adaptive resistances against a mixed damage enemy team, not just Ornn"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking Conqueror through extended trades is literally the engage condition OP.GG calls out for this matchup — you don't commit until stacks and Conqueror are both up, and the adaptive heal offsets his Q/E poke.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the highest-winrate pairing in this sample (50.5% over its share of 919 games) — Teleport lets you reset waves after he trades you down early and still scale into the stacks-plus-Conqueror all-in window. Flash+Ignite (76.1% pick) is the more common choice if you want kill pressure the moment he mistimes E into terrain."
+  },
+  "playing": [
+   {
+    "title": "Respect the Q-into-E combo",
+    "detail": "Ornn's Q (Volcanic Rupture, 9-7s CD) slows and drops a delayed pillar; if he follows with E (Searing Charge, 14-12s CD) into that pillar or a wall, it knocks you up. Clear the pillar's spot the moment it lands."
+   },
+   {
+    "title": "Don't lean on W defensively",
+    "detail": "W (Defiant Dance) only reduces physical damage while charging, and Ornn's entire kit is magic — treat it purely as your hardest-hitting poke tool, not a shield against his combo."
+   },
+   {
+    "title": "Farm stacks with Q before committing",
+    "detail": "Use Q (Bladesurge) on casters and minions to build Ionian Fervor attack-speed stacks safely from range before you step into his Q/E threat radius."
+   },
+   {
+    "title": "Chain E's mark into a Q reset",
+    "detail": "E (Flawless Duet) stuns and Marks anyone caught between the blades; landing it on Ornn lets your next Q refresh on hit, letting you dash in and out faster than his cooldowns reset."
+   },
+   {
+    "title": "Back off the instant Brittle lands",
+    "detail": "His W (Bellows Breath) final flame and R elemental both apply Brittle, boosting his next hit on you — if it ticks onto your bar mid-trade, disengage instead of trading through it."
+   },
+   {
+    "title": "Deny the wall collision",
+    "detail": "His E only knocks up off a terrain or pillar collision — fighting in open lane space instead of near the tri-bush wall removes that tool from the trade entirely."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, and summoner spells above are pulled directly from measured OP.GG games on the current patch (16.19.1); the tactical read on cooldown windows, the Brittle/knockup combo, and the stack-timing engage pattern is this brief's own analysis layered on top of the live ability text."
+ },
+ "generatedAt": 1791022342452,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791022247579,
+  "overall": {
+   "winRate": 50.3,
+   "play": 77298,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 919,
+   "wins": 436,
+   "winRate": 47.4
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being hit with Ornn’s (Q)-(E) combo. Engage for a kill whenever Irelia has 4 stacks [P] and Conqueror stacks prepared, or to at least force a summoner spell.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.7,
+    "play": 820,
+    "pickRate": 76.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.5,
+    "play": 214,
+    "pickRate": 19.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 40,
+    "pickRate": 3.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.1,
+    "play": 395,
+    "pickRate": 35.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 195,
+    "pickRate": 17.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 964,
+    "pickRate": 88.4
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 102,
+    "pickRate": 9.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.1,
+    "play": 525,
+    "pickRate": 52.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.4,
+    "play": 415,
+    "pickRate": 41.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 48.4,
+    "play": 192,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 51.8,
+    "play": 112,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 54.7,
+    "play": 75,
+    "pickRate": 9.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 49.4,
+    "play": 1044,
+    "pickRate": 97.4
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 51.7,
+    "play": 601,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 47.3,
+    "play": 444,
+    "pickRate": 41.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 49.5,
+    "play": 396,
+    "pickRate": 36.9
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 53.6,
+    "play": 304,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Terminus"
+    ],
+    "winRate": 45.1,
+    "play": 133,
+    "pickRate": 12.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 48.7,
+    "play": 384
+   }
+  ]
+ }
+}
