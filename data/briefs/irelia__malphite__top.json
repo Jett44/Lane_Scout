@@ -1,0 +1,380 @@
+{
+ "you": "Irelia",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill, winnable",
+   "line": "You lose if you stand and auto-trade into a charged Granite Shield or a Brutal Strikes buff; you win if you poke the shield down first and then stun-engage the moment his E (Ground Slam) is on cooldown."
+  },
+  "thesis": "Malphite's passive, Granite Shield, absorbs a chunk of whatever burst hits it first and only recharges if he hasn't been hit recently — so Irelia's normal Q (Bladesurge) dash-in gets partially eaten unless the shield is already down from prior chip damage. Layer on Ground Slam, a 400-range shockwave on a 7s cooldown that reduces attack speed, and standing in extended auto trades is a losing pattern. The 45.2% win rate over 2,245 games reflects players trading like it's a normal duel instead of a shield-bait-then-burst matchup.",
+  "tell": {
+   "watch": "Malphite's E (Ground Slam) cooldown",
+   "theirWindow": {
+    "when": "Both Q and E are up on his bar",
+    "what": "He can steal your movement speed with Q (Seismic Shard, 625 range, 8s CD) as you close in, then hit the attack-speed-reducing shockwave from E (400 range, 7s CD) right as you try to auto. Back off and let a minion or poke tick his shield instead of walking into both."
+   },
+   "yourWindow": {
+    "when": "E (Ground Slam) is on cooldown",
+    "what": "With his attack-speed shockwave down, dash in with Q (Bladesurge), land E (Flawless Duet) for the stun and Mark, then Q again off the Mark for the free cooldown refresh and healing — chain it fast before Granite Shield has time to recharge."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke plus shield wins extended early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Flawless Duet stun arrives, trades even out"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Both ultimates online, all-ins get risky"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Blade of The Ruined King shreds his stacked HP"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The dominant start at 45% win rate over 2,286 games — the lifesteal and AD keep you topped off through his Q pokes and let you threaten a trade the moment his shield is down."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Higher pick rate and win rate than Plated Steelcaps here; the magic resist blunts his Q and E magic damage, and the tenacity shortens how long his R (Unstoppable Force) knockup keeps you locked down."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Percent current-health damage ignores how much armor and HP he stacks, making it the single best tool for actually killing a tank who out-scales you on raw stats."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Isolated-target bonus damage rewards exactly the 1v1 duels this matchup is built around, and the highest-win-rate core path (57.5%) runs it second."
+    },
+    {
+     "item": "Wit's End",
+     "why": "Attack speed feeds your passive, Ionian Fervor, into max stacks faster, and the magic resist directly answers his magic Q and E."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "he or his team builds up burst damage and you need the damage-over-time conversion to survive extended fights"
+    },
+    {
+     "item": "Terminus",
+     "when": "he stacks resistances evenly and you need the alternating penetration to keep your on-hit damage relevant"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you're ahead in gold and want to close out duels faster instead of sustaining through them"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through your dash-in-and-auto combo and the healing offsets his Q poke damage during the window before you commit to a full all-in.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The highest win rate (46.6%) and by far the most-picked combo (65.4%) — Ignite punishes his shield-recharge sustain and secures kills in the short stun-burst window E (Flawless Duet) opens up."
+  },
+  "playing": [
+   {
+    "title": "Bait the shield before committing",
+    "detail": "Granite Shield only recharges if he hasn't been hit recently. Land a minion auto or a ranged poke first so your Q (Bladesurge) all-in isn't partially absorbed."
+   },
+   {
+    "title": "Engage only when his E is down",
+    "detail": "Ground Slam (400 range, 7s cooldown) reduces your attack speed the instant you try to stand and auto. Walk up right after he uses it, not into it."
+   },
+   {
+    "title": "Respect Q range, don't try to dodge it",
+    "detail": "Seismic Shard is targeted at you from 625 range, not a skillshot — staying outside that range is the only way to avoid the speed steal, juking won't work."
+   },
+   {
+    "title": "Chain E into Q for the reset",
+    "detail": "Flawless Duet stuns and Marks; a Marked target refreshes Bladesurge's cooldown on hit, so land E first, then Q in for the free dash, heal, and extra damage."
+   },
+   {
+    "title": "Charge W when Brutal Strikes is up",
+    "detail": "His W activation spikes his armor and AD for a few seconds. Charging Defiant Dance during that window uses its physical damage reduction to blunt the buffed autos."
+   },
+   {
+    "title": "Play around his level 6 all-in",
+    "detail": "Unstoppable Force charges 1000 range and knocks up on a 130/115/100s cooldown. Stay near a wall or minions you can juke behind rather than fighting in the open river."
+   },
+   {
+    "title": "Rush Blade of The Ruined King for relevance",
+    "detail": "Percent-health damage is what actually lets you punish his tank stacking; prioritize finishing it before Hullbreaker so your trades scale before his armor does."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, and all win-rate/pick-rate figures above are pulled from measured games on the current patch; the mechanical reasoning and trade-timing advice are my own analysis layered on top."
+ },
+ "generatedAt": 1791003970316,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791003865496,
+  "overall": {
+   "winRate": 50.2,
+   "play": 75547,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2245,
+   "wins": 1014,
+   "winRate": 45.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Engage combat whenever Malphite’s (E) is on cooldown. Avoid being hit with (Q) too often while closing in to deal damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.6,
+    "play": 1730,
+    "pickRate": 65.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40.2,
+    "play": 473,
+    "pickRate": 17.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.4,
+    "play": 428,
+    "pickRate": 16.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 44.2,
+    "play": 1012,
+    "pickRate": 37.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46,
+    "play": 472,
+    "pickRate": 17.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45,
+    "play": 2286,
+    "pickRate": 86.1
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 44.3,
+    "play": 228,
+    "pickRate": 8.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46,
+    "play": 1525,
+    "pickRate": 62.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.3,
+    "play": 753,
+    "pickRate": 31
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 50.4,
+    "play": 395,
+    "pickRate": 22.7
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 49,
+    "play": 202,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Wit's End",
+     "Hullbreaker"
+    ],
+    "winRate": 57.5,
+    "play": 193,
+    "pickRate": 11.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 45.5,
+    "play": 2506,
+    "pickRate": 95.9
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 49.7,
+    "play": 1293,
+    "pickRate": 49.5
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 48.9,
+    "play": 1212,
+    "pickRate": 46.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 51.1,
+    "play": 801,
+    "pickRate": 30.7
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 48.5,
+    "play": 550,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Terminus"
+    ],
+    "winRate": 50.2,
+    "play": 287,
+    "pickRate": 11
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 47,
+    "play": 839
+   }
+  ]
+ }
+}

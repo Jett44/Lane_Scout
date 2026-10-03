@@ -1,0 +1,381 @@
+{
+ "you": "Malphite",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Sett stack Grit for free and eat a Facebreaker pull into Haymaker; you win every trade where you land Q first and he's forced to walk into your E."
+  },
+  "thesis": "This matchup is decided by who initiates. Sett's W (Haymaker) banks damage he takes as Grit and only pays off on command, so passive poke and extended trades feed his shield for free. Malphite's entire kit is built to punish commitment: Q (Seismic Shard) slows him on approach, E (Ground Slam) shreds his attack speed once he's in range, and both are on short cooldowns Sett can't match. The 53.7% Malphite win rate over 2526 games reflects a lane where patience and armor stacking beat brawling.",
+  "tell": {
+   "watch": "Sett's E (Facebreaker) cooldown",
+   "theirWindow": {
+    "when": "Facebreaker off cooldown, you're near minions",
+    "what": "He wants you between himself and a minion or lane partner so E pulls and stuns you, chaining into a free Q (Knuckle Down) auto-reset or his R (The Show Stopper) at level 6+. Don't stand directly across a creep from him once his E is up."
+   },
+   "yourWindow": {
+    "when": "His E (Facebreaker) is on cooldown",
+    "what": "This is your window to walk up and poke. Open with Q (Seismic Shard) to slow and tag him, follow with an auto, then E (Ground Slam) as he closes the gap so his attack speed drops mid-trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both weak, poke range similar"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q/E combo outtrades his all-in"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "His R threatens solo kills"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Sunfire/Thornmail online, he can't trade"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight-dependent, both tanky"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Taken in 72.9% of games at 53.1% win rate; the mana and AP let you spam Q/E in extended poke exchanges without running dry."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "82.7% pick rate at 54.5% win rate; the flat physical damage reduction directly cuts his empowered right-punch autos and Haymaker side-hits."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "First item in the top two build paths (62.1% and 55.4% win rate); the burn zone punishes him for standing in melee range to stack Grit."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Second item in the 62.1%-win-rate path; grievous wounds cuts the missing-health regen from his passive (Pit Grit) that lets him sustain through trades."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Third item in the 62.1%-win-rate path; the attack speed slow stacks with your E to make his auto-reliant Q procs nearly useless."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he's building into magic damage teammates or you need a shield buffer against his R engage"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the enemy team is mixed damage and you need an all-resist stacking item late"
+    },
+    {
+     "item": "Malignance",
+     "when": "you're ahead and want to amplify your E/R burst for skirmishes instead of pure tank stats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "54.5% win rate at 21.1% pick; sustained health growth from auto-ing him in extended trades outlasts his burst-and-reset pattern.",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "76.8% pick rate at 52.8% win rate; Teleport lets you reset after shoving with Sunfire pressure while Flash dodges his E (Facebreaker) pull angle."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't stand",
+    "detail": "Land Q (Seismic Shard) from max range whenever it's up, then back off. His W (Haymaker) only rewards him if you let him absorb sustained damage at close range."
+   },
+   {
+    "title": "Track his E cooldown",
+    "detail": "16s at rank 1 down to 10s at rank 5. If you see it land or miss, you have a full window to walk up and trade freely without fear of the stun."
+   },
+   {
+    "title": "Never duo-side with minions",
+    "detail": "Facebreaker only stuns if he pulls enemies from both sides into each other. Staying on one side of him alone means you're only slowed, not stunned."
+   },
+   {
+    "title": "E on approach, not on cooldown-dump",
+    "detail": "Save Ground Slam for the moment he closes distance to auto you. The attack speed shred directly counters his passive's alternating punch pattern."
+   },
+   {
+    "title": "Respect level 6 all-in",
+    "detail": "His R (The Show Stopper) can drag you into his minions/tower for a kill threat starting level 6. Don't overextend past minion wave until you have Sunfire online."
+   },
+   {
+    "title": "Use R to punish his dash-in",
+    "detail": "Unstoppable Force (80-130s cooldown) knocks him airborne if he commits to Q (Knuckle Down) movement speed and runs it down. Save it for when he's isolated from his jungler."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win rates above are pulled directly from measured games on the current patch (16.19.1); the tactical reasoning connecting them to ability mechanics and trade timing is my own read, not sourced from the data."
+ },
+ "generatedAt": 1791004475316,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791004437491,
+  "overall": {
+   "winRate": 51.4,
+   "play": 118307,
+   "tier": 0
+  },
+  "headToHead": {
+   "play": 2526,
+   "wins": 1356,
+   "winRate": 53.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by Sett’s (E). If pulled, use [E] to reduce his attack speed. Move laterally to avoid Facebreaker (E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.8,
+    "play": 2411,
+    "pickRate": 76.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.9,
+    "play": 672,
+    "pickRate": 21.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.7,
+    "play": 29,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.3,
+    "play": 1381,
+    "pickRate": 42.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 682,
+    "pickRate": 21.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.1,
+    "play": 2314,
+    "pickRate": 72.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.2,
+    "play": 439,
+    "pickRate": 13.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.5,
+    "play": 2541,
+    "pickRate": 82.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.1,
+    "play": 282,
+    "pickRate": 9.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 62.1,
+    "play": 190,
+    "pickRate": 9.8
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 49.6,
+    "play": 131,
+    "pickRate": 6.8
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Frozen Heart",
+     "Kaenic Rookern"
+    ],
+    "winRate": 55.4,
+    "play": 83,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 53.6,
+    "play": 2097,
+    "pickRate": 67.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.4,
+    "play": 1570,
+    "pickRate": 50.3
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 58.4,
+    "play": 1472,
+    "pickRate": 47.2
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 49.3,
+    "play": 745,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 53.6,
+    "play": 740,
+    "pickRate": 23.7
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56,
+    "play": 496,
+    "pickRate": 15.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.5,
+    "play": 817
+   }
+  ]
+ }
+}

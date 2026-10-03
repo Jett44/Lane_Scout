@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, skill-based",
+   "line": "You lose if you dump your combo into a full Granite Shield or let Ground Slam/Brutal Strikes drag the fight out; you win if you land your 50+ Fury all-in the moment his shield is down."
+  },
+  "thesis": "Malphite's Granite Shield absorbs the first hits of any trade unless it's already been triggered, while Renekton's Q, W, and E only reach their strong versions once Fury passes 50. The matchup is decided by whether you can line up your Fury threshold with a moment his shield is already popped, not by who has the bigger numbers in a raw stat check.",
+  "tell": {
+   "watch": "Malphite's Granite Shield status",
+   "theirWindow": {
+    "when": "Shield full, your Fury under 50",
+    "what": "Your first hits just get eaten by the shield while he trades back at full value. Don't commit here — poke with Q (Cull the Meek, 7s cooldown) to chip the shield and build Fury instead of starting the fight."
+   },
+   "yourWindow": {
+    "when": "Shield down and Fury over 50",
+    "what": "Go now. E (Slice and Dice) in with the armor-shred bonus, land the 3-hit empowered W (Ruthless Predator) for the 1.5s stun and shield-destroy, then Q for the healed burst before Ground Slam or Brutal Strikes come off cooldown."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Granite Shield blunts your first trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W rank 2 stun wins extended trades"
+   },
+   {
+    "levels": "6-9",
+    "edge": "you",
+    "note": "Dominus adds health to force all-ins"
+   },
+   {
+    "levels": "10-13",
+    "edge": "even",
+    "note": "Brutal Strikes, Ground Slam stabilize him"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Unstoppable Force scales as team engage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Sustains through Malphite's Seismic Shard poke and recurring Ground Slam chip better than a Blade start; measured 49.2% win rate over 773 games, the higher of the two common starts."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Cuts down his auto-attack trades and Brutal Strikes-buffed hits; measured 52.5% win rate over 690 games, well above Mercury's Treads in this matchup."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The proc shield and burst reward your short, Fury-gated all-in windows instead of long trades he can out-shield."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred pairs with your empowered E's Armor reduction to cut through whatever he stacks off Brutal Strikes."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Lets you heal back through his Ground Slam and Seismic Shard chip during extended skirmishes once lane priority shifts to fighting."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he builds armor and you need to survive his Unstoppable Force engages"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're snowballing and want the extra ability haste to loop Fury-empowered abilities faster"
+    },
+    {
+     "item": "Zeke's Convergence",
+     "when": "your team needs more teamfight utility once lane priority is already established"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks off every ability and auto you land through his shield, converting to adaptive force and healing that lets you keep forcing fights even when the first few hits get absorbed.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The 72.4% pick rate pairing matches the matchup's solo-kill advantage for Renekton — Ignite seals kills once your Fury window opens, Flash covers both the engage and the escape from his 1000-range Unstoppable Force."
+  },
+  "playing": [
+   {
+    "title": "Bait the shield first",
+    "detail": "Pop Granite Shield with a Q poke or minion aggro before committing your real combo — hitting a full shield wastes your burst for nothing."
+   },
+   {
+    "title": "Track your Fury to 50",
+    "detail": "Don't all-in below half Fury. Above it, W hits three times with a 1.5s stun and strips shields, and Q's damage and heal both jump."
+   },
+   {
+    "title": "Dodge Seismic Shard",
+    "detail": "His Q (8s cooldown, 625 range) steals your movement speed on hit, which kills your ability to close distance — break line of sight in the wave rather than walking it down."
+   },
+   {
+    "title": "Keep trades short",
+    "detail": "His E, Ground Slam (7s cooldown), cuts your attack speed and slows your Fury generation — burst and disengage instead of standing in prolonged auto exchanges."
+   },
+   {
+    "title": "Respect active Brutal Strikes",
+    "detail": "When his W is toggled on he hits everything in front of him with boosted AD and Armor — back off with E rather than trading into it."
+   },
+   {
+    "title": "Time Dominus around his cooldowns",
+    "detail": "Pop R (Dominus, available at 6/11/16) for the bonus health before committing your all-in, so his Q poke and shield sustain can't out-value your burst."
+   },
+   {
+    "title": "Shove before his ult comes online",
+    "detail": "From level 11 on his Unstoppable Force threatens engages from 1000 range — push the wave and look to roam once the 1v1 stops favoring you."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates above are measured from live games on the current patch (16.19.1) via OP.GG; the matchup mechanics and trade-pattern reasoning are my own analysis, not part of that dataset."
+ },
+ "generatedAt": 1791003860452,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791003773070,
+  "overall": {
+   "winRate": 49.6,
+   "play": 90953,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1856,
+   "wins": 899,
+   "winRate": 48.4
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being hit with Malphite’s (Q). Build up Fury while using your abilities off cooldown to apply pressure in order to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.2,
+    "play": 1615,
+    "pickRate": 72.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49,
+    "play": 575,
+    "pickRate": 25.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 38.5,
+    "play": 26,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 849,
+    "pickRate": 37.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46,
+    "play": 189,
+    "pickRate": 8.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 1377,
+    "pickRate": 61.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 773,
+    "pickRate": 34.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.9,
+    "play": 1314,
+    "pickRate": 63.4
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.5,
+    "play": 690,
+    "pickRate": 33.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 50.3,
+    "play": 161,
+    "pickRate": 12.6
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 58.6,
+    "play": 116,
+    "pickRate": 9.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 51.1,
+    "play": 92,
+    "pickRate": 7.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.9,
+    "play": 1972,
+    "pickRate": 89.1
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 49.4,
+    "play": 1209,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.4,
+    "play": 669,
+    "pickRate": 30.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.5,
+    "play": 576,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.5,
+    "play": 508,
+    "pickRate": 23
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 57.3,
+    "play": 185,
+    "pickRate": 8.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 716
+   }
+  ]
+ }
+}

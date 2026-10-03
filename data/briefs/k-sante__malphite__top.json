@@ -1,0 +1,384 @@
+{
+ "you": "K'Sante",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Malphite's Granite Shield sit recharged and poke you down with Seismic Shard from range; you win if you stack Q to pull him in and chain W/E before his shield resets."
+  },
+  "thesis": "Malphite's only early pressure is Seismic Shard (Q, 8s cooldown, 625 range) stealing your movement speed — he has no short-trade tool that beats your Q (3.5s cooldown) stacking into a shockwave pull. Once you hit 2 Ntofo Strikes stacks you can yank him into W (Path Maker)'s stun or E (Footwork)'s dash on your terms instead of his. The measured 49.3% win rate over 1142 games and K'Sante's solo-kill advantage both reflect this: it's close on paper, but the trade pattern is built for you, not him.",
+  "tell": {
+   "watch": "Malphite's Granite Shield recharge state",
+   "theirWindow": {
+    "when": "Granite Shield is fully recharged",
+    "what": "Don't open with your full combo into a recharged shield — it absorbs your opener for free. Poke it down with a Q or auto first, then commit."
+   },
+   "yourWindow": {
+    "when": "You've landed 2 Q stacks on him",
+    "what": "The shockwave pull yanks Malphite to you — immediately follow with W for the stun or E to reposition, since his shield is already cracked from the Q hits that built the stacks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Only his Q and your Q trade at range"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W online lets Q-stack-into-stun trades start"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His R threatens the map, W buffs his trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Q and W near-maxed, stun-lock all-ins repeat"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Resistance core shrugs his low magic damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm > Health Potion",
+    "why": "Highest win rate (49.6%) and by far the most picked start (79.9%) in this matchup — sustains you through the early Seismic Shard pokes while you wait for W to come online."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Both his Q and E deal magic damage, and the tenacity shortens the airtime if he ever catches you with Unstoppable Force; measured as the stronger pick here (49.7% over Plated Steelcaps' 46.7%)."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The cooldown and mana sustain feed your Q-stack trade pattern, and the proc adds extra zone damage exactly where you're already fighting."
+    },
+    {
+     "item": "Kaenic Rookern",
+     "why": "Raw magic resist and a shield that mirrors his own Granite Shield, directly countering his all-magic Q/E damage."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances let you walk through his poke to force the all-in, which is where this matchup is won."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "the lane turns into a long stalemate and you need the omnivamp to win extended trades"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "their team adds a crit or attack-speed carry that needs an active slow"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "Malphite's magic poke is stacking with other AP damage on their team"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards exactly the short Q-stack-into-auto trade pattern this matchup is built on, converting every poke into free damage, healing, and max-health growth while his own damage output is low early.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the dominant pick (86.1%) and lets you reset after trades or answer sidelanes once your Q/W stun-lock pattern takes over the lane; Flash covers the all-in engage and escape."
+  },
+  "playing": [
+   {
+    "title": "Farm safely before level 3",
+    "detail": "Until W unlocks, respect Seismic Shard's 8s cooldown and 625 range — it steals your movement speed, so don't overextend chasing minions wide of your wave."
+   },
+   {
+    "title": "Stack Q before you commit",
+    "detail": "Land Q on him repeatedly; at 2 Ntofo Strikes stacks the shockwave pulls him in, confirming your W stun or E dash instead of guessing on a cooldown you can't see."
+   },
+   {
+    "title": "Poke the shield down first",
+    "detail": "Granite Shield absorbs your opener if it's recharged — land a Q or auto to crack it before going for the full W+E combo."
+   },
+   {
+    "title": "Respect an active Brutal Strikes",
+    "detail": "When he activates W, his Armor and AD spike for a short window — don't trade into empowered autos, back off and let it expire."
+   },
+   {
+    "title": "Pre-load attacks before Ground Slam",
+    "detail": "His E (7s cooldown) cuts your attack speed on hit, so land your Q and autos before it connects rather than relying on sustained attacks through it."
+   },
+   {
+    "title": "Use All Out to isolate him",
+    "detail": "Once R is up, the initial knockback separates Malphite from his support before you go all-in with All Out's bonus damage and healing."
+   },
+   {
+    "title": "Don't fear his ult 1v1",
+    "detail": "Unstoppable Force (130s cooldown at rank 1) is a map threat, not a lane-winning tool against you directly — keep trading, just track when it comes off cooldown for roams."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all numbers above are measured from live ranked games on the current patch via OP.GG (1142 games, 49.3% win rate); the mechanical reasoning and trade timing are my own tactical read."
+ },
+ "generatedAt": 1791003768007,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791003687304,
+  "overall": {
+   "winRate": 47,
+   "play": 64897,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 1142,
+   "wins": 563,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.4,
+    "play": 1199,
+    "pickRate": 86.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.1,
+    "play": 138,
+    "pickRate": 9.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.3,
+    "play": 440,
+    "pickRate": 30.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 295,
+    "pickRate": 20.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 1118,
+    "pickRate": 79.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.9,
+    "play": 276,
+    "pickRate": 19.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.7,
+    "play": 708,
+    "pickRate": 53.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.7,
+    "play": 574,
+    "pickRate": 43.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 53,
+    "play": 66,
+    "pickRate": 9.1
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 57.7,
+    "play": 52,
+    "pickRate": 7.1
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Randuin's Omen"
+    ],
+    "winRate": 48.4,
+    "play": 31,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 48.7,
+    "play": 1060,
+    "pickRate": 77.7
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 49.5,
+    "play": 572,
+    "pickRate": 41.9
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 54.7,
+    "play": 561,
+    "pickRate": 41.1
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 340,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 49.1,
+    "play": 232,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 58.5,
+    "play": 176,
+    "pickRate": 12.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.4,
+    "play": 384
+   }
+  ]
+ }
+}

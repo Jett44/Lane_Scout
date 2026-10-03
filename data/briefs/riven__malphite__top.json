@@ -1,0 +1,384 @@
+{
+ "you": "Riven",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you dump your full combo into a charged Granite Shield or facecheck his level-6 Unstoppable Force; you win if you bait the shield first and burst with Blade of the Exile before he resets."
+  },
+  "thesis": "This matchup sits at 46% over 1,088 games with an even lane rating because neither side has a hard early punish — Malphite's Granite Shield eats a chunk of any burst you throw out cold, and your stun (Ki Burst) stays at rank 1 for most of the early-mid game under the standard skill order. The matchup is decided by sequencing: who breaks shield/cooldowns first, not who all-ins hardest.",
+  "tell": {
+   "watch": "Has Malphite been hit recently?",
+   "theirWindow": {
+    "when": "your Valor (E) is on cooldown",
+    "what": "Without E up to block it, Seismic Shard (Q, 625 range, 8s cd) slows you into a free Ground Slam (E, 400 range, 7s cd) attack-speed shred, and that combo alone wins the exchange since you can't trade autos back at full speed."
+   },
+   "yourWindow": {
+    "when": "Granite Shield hasn't recharged yet",
+    "what": "If you've just landed a poke auto or Q that broke the shield, immediately chain Broken Wings (Q) into Ki Burst (W) and autos before it resets — a full combo into a charged shield wastes most of your burst for nothing."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a reliable all-in yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "His armor/AD buff and shred outtrade your rank-1 kit"
+   },
+   {
+    "levels": "6-9",
+    "edge": "you",
+    "note": "Blade of the Exile and near-maxed Q spike your damage"
+   },
+   {
+    "levels": "10-13",
+    "edge": "you",
+    "note": "Shorter R cooldown lets you reset all-ins faster"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Full builds online, teamfights decide it, not lane"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "46.4% win rate over 1,098 games at 83.5% pick — the sustained damage and lifesteal matter since Granite Shield means your early trades run longer than a clean burst exchange."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "47.3% win rate at 59% pick; the ability haste lowers Broken Wings, Ki Burst, and Valor cooldowns, which is how you re-engage and re-block faster against a laner who out-ranges your dash with Seismic Shard."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield and proc damage help punch through Granite Shield on the all-in and keep you alive through a Ground Slam poke."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred directly counters the bonus armor Malphite gains from Brutal Strikes (W), and the haste keeps your combo cooldowns short."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion lets you survive extended trades and the delayed magic damage from Ground Slam and Unstoppable Force."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mercury's Treads",
+     "when": "malphite's ground slam and r engage are chipping you down and you need magic resist and tenacity over lucidity"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "you need a defensive magic-resist spike to survive his unstoppable force all-in"
+    },
+    {
+     "item": "Axiom Arc",
+     "when": "you're snowballing lane and want the cooldown reduction on wind slash resets to close it out faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the sustained poke-and-fall-back pattern this matchup demands — you build stacks trading into Granite Shield, then convert them into the burst window once it's down.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "87.6% pick at 46.6% win rate — Ignite secures kills in the all-in before Granite Shield or sustain lets him escape, and Flash gives you a follow-up onto a broken shield or an out against his level-6 Unstoppable Force."
+  },
+  "playing": [
+   {
+    "title": "Bait the shield before all-in",
+    "detail": "Granite Shield only recharges if Malphite hasn't been hit recently; land a poke auto or Q first to break it, then dump your full combo before it resets."
+   },
+   {
+    "title": "Use Valor to dodge Seismic Shard",
+    "detail": "Seismic Shard (Q, 625 range, 8s cd) steals your movement speed; time Valor (E) to block it so you aren't slowed into his follow-up."
+   },
+   {
+    "title": "Respect Ground Slam's attack-speed shred",
+    "detail": "Ground Slam (E, 400 range, 7s cd) cuts your attack speed, which delays the auto-weaves that spend your Runic Blade charges — don't idle in melee range when it's up."
+   },
+   {
+    "title": "Don't lean on W to lock him down",
+    "detail": "Under the common skill order, Ki Burst stays at rank 1 from level 3 until level 14, so its stun window is short — plan trades around Q poke and E's damage block, not a long chain-stun."
+   },
+   {
+    "title": "Track Unstoppable Force at level 6",
+    "detail": "His ultimate (130s cooldown at rank 1, 1000 range) is a knock-up gap-closer; once he hits 6, stop overextending on waves where a flashless engage picks you off."
+   },
+   {
+    "title": "Punish with Blade of the Exile resets",
+    "detail": "Riven's R grants bonus AD, range, and a one-time Wind Slash; fire it once his shield is broken and Seismic Shard/Ground Slam are both down so he can't answer with Brutal Strikes' armor buff."
+   },
+   {
+    "title": "Play for even, not for a bailout",
+    "detail": "This sits at 46% over 1,088 games with an even lane rating — don't force all-ins hoping for an edge that isn't there, out-rotate and out-wave instead."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled from measured games on the current patch via OP.GG; the mechanical reasoning and trade-timing advice above is my own read of the ability kit."
+ },
+ "generatedAt": 1791004074516,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791003975314,
+  "overall": {
+   "winRate": 49.5,
+   "play": 39454,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1088,
+   "wins": 501,
+   "winRate": 46
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Absorb the damage on Malphite’s (Q) with [E]. Engage Malphite by managing the stacks on Conqueror, and dealing burst damage and falling back. Be careful of enemy (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.6,
+    "play": 1142,
+    "pickRate": 87.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.8,
+    "play": 145,
+    "pickRate": 11.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 553,
+    "pickRate": 41.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 135,
+    "pickRate": 10.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.4,
+    "play": 1098,
+    "pickRate": 83.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.3,
+    "play": 150,
+    "pickRate": 11.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 47.3,
+    "play": 728,
+    "pickRate": 59
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.5,
+    "play": 297,
+    "pickRate": 24.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 55.4,
+    "play": 74,
+    "pickRate": 9.9
+   },
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 63.9,
+    "play": 61,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 51.9,
+    "play": 52,
+    "pickRate": 6.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.7,
+    "play": 750,
+    "pickRate": 58.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.6,
+    "play": 666,
+    "pickRate": 52.3
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 54.5,
+    "play": 594,
+    "pickRate": 46.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 45.1,
+    "play": 581,
+    "pickRate": 45.6
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 49.2,
+    "play": 236,
+    "pickRate": 18.5
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 49.5,
+    "play": 214,
+    "pickRate": 16.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.4,
+    "play": 485
+   }
+  ]
+ }
+}

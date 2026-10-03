@@ -1,0 +1,379 @@
+{
+ "you": "Garen",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose if he lands a Flash-R knockup while your Q is down; you win if you force all-ins before level 6 or punish his cooldowns after a whiffed engage."
+  },
+  "thesis": "Garen's Perseverance sustain and Decisive Strike's silence let him match Malphite's poke, but the entire lane pivots on Unstoppable Force: once Malphite hits 6 he owns a 1000-range engage that neither champion can out-scale around, which is exactly why the measured 49.8% win rate over 2055 games sits dead even rather than favoring either side.",
+  "tell": {
+   "watch": "Malphite's R and Flash",
+   "theirWindow": {
+    "when": "Level 6+ with R and Flash both up",
+    "what": "He can Seismic Shard to slow you, Flash or walk into Unstoppable Force range for a knock-up, then follow with Ground Slam's attack-speed reduction and Brutal Strikes' armor/AD buff. Play back from unwarded flanks and don't commit to trades without Decisive Strike available to silence and break the slow."
+   },
+   "yourWindow": {
+    "when": "When his Q and R are both down",
+    "what": "Shove in and all-in immediately: Decisive Strike's silence cancels his Ground Slam or Brutal Strikes activation, and with no slow or knock-up available he can't disengage or punish your commit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "his 625-range Q pokes, your sustain offsets it"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "no hard CC on him yet, Q silence wins all-ins"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Unstoppable Force enables a lane-ending engage"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "both scale into items, fight depends on R timing"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Flat damage reduction and the passive proc blunt repeated Seismic Shard pokes while you walk up, and it stacks with Perseverance to keep you topped off between trades."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "The attack speed lets you land more autos inside Judgment's spin duration and during post-silence all-ins, where raw DPS matters more than Armor."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The active's slow and gap-close let you close the distance his longer-range Q keeps open and stick through his Seismic Shard slow."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Sustained attack speed keeps your DPS up while his Granite Shield recharges between your engages, so extended trades favor you."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Grievous Wounds cuts through the sustain his Granite Shield passive provides, denying him free damage absorption over the course of a fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "the game drags into mid-game and you need more stick for repeated engages rather than a burst spike"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's stacking armor through Brutal Strikes and you need to shred it to keep your autos and Judgment relevant"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you want extra mobility to force the pre-6 all-in window before his Unstoppable Force comes online"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Repeated autos and Judgment spins during extended trades stack Conqueror into healing that offsets his Seismic Shard poke and Ground Slam chip damage, turning drawn-out fights in your favor.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite punishes all-ins and secures kills since Demacian Justice starts on a brutal 140-second cooldown, while Flash lets you either dodge or immediately follow up his Unstoppable Force engage."
+  },
+  "playing": [
+   {
+    "title": "Hold Q for his engage",
+    "detail": "Save Decisive Strike for the moment he flashes or charges in with Unstoppable Force; the silence shuts down his follow-up Ground Slam or Brutal Strikes, and the move speed burst breaks his Seismic Shard slow."
+   },
+   {
+    "title": "Trade when his shield is cracked",
+    "detail": "Granite Shield absorbs damage and recharges if he avoids getting hit, so land your Judgment and autos back-to-back rather than letting gaps reset his shield for free."
+   },
+   {
+    "title": "Respect his range before level 6",
+    "detail": "Seismic Shard's 625 range outreaches your 300/325-range Q and E, so use minions to block it or wait out its 8-second cooldown before stepping up to trade."
+   },
+   {
+    "title": "Force fights at levels 3-5",
+    "detail": "Before his ultimate comes online he has no hard CC besides a slow, so your Perseverance sustain plus Q silence should win extended all-ins in this window."
+   },
+   {
+    "title": "Track his ultimate cooldown after 6",
+    "detail": "Unstoppable Force runs 130/115/100/80/80 seconds; once he's used it and missed or burned it defensively, shove hard and all-in without fear of a knock-up."
+   },
+   {
+    "title": "Max Judgment first",
+    "detail": "Following the EQWEEREQEQRQQWW order, prioritizing Judgment drops its cooldown from 13 to 9 seconds, letting you out-trade his flat 7-second Ground Slam in prolonged skirmishes."
+   },
+   {
+    "title": "Use brush to proc your passive",
+    "detail": "Back into brush when he's not actively poking so Perseverance's health regen kicks in faster, matching the standard read on this matchup."
+   }
+  ],
+  "patchCaveat": "The build order, rune pages, summoner spells, and every win-rate or pick-rate figure above come from measured games on the current patch via OP.GG; the mechanical reasoning and trade-timing advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791003233929,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791003151622,
+  "overall": {
+   "winRate": 50.8,
+   "play": 105635,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2055,
+   "wins": 1023,
+   "winRate": 49.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Mitigate the damage on Malphite’s (Q) by using [W]. Close in to deal damange whenever he steps in your range. Activate [P] inside a brush.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.9,
+    "play": 2334,
+    "pickRate": 90.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.7,
+    "play": 147,
+    "pickRate": 5.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 54.7,
+    "play": 75,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.8,
+    "play": 1125,
+    "pickRate": 42.1
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.9,
+    "play": 403,
+    "pickRate": 15.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 1630,
+    "pickRate": 62.4
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 642,
+    "pickRate": 24.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 50.4,
+    "play": 1671,
+    "pickRate": 66.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.7,
+    "play": 472,
+    "pickRate": 18.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 51.6,
+    "play": 347,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 51.3,
+    "play": 117,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 54.8,
+    "play": 104,
+    "pickRate": 5.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50,
+    "play": 2426,
+    "pickRate": 94.5
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 53.3,
+    "play": 1408,
+    "pickRate": 54.8
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 52.4,
+    "play": 760,
+    "pickRate": 29.6
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.8,
+    "play": 599,
+    "pickRate": 23.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49.7,
+    "play": 581,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 56.2,
+    "play": 436,
+    "pickRate": 17
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.5,
+    "play": 1211
+   }
+  ]
+ }
+}

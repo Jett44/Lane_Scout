@@ -1,0 +1,385 @@
+{
+ "you": "Malphite",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you let Garen free-hit you with Q (Decisive Strike) off cooldown and E (Judgment) spinning; you win every trade where you land E (Ground Slam) and Q (Seismic Shard) while your Passive (Granite Shield) is charged."
+  },
+  "thesis": "This is a passive-vs-passive lane: Garen's Passive (Perseverance) heals him hard if he avoids damage for a few seconds, and your Passive (Granite Shield) blocks a hit then needs time to recharge. Whoever forces the other's passive to be down wins the exchange. The 50.2% win rate over 2042 games confirms this is genuinely even, decided by who dictates engagement timing rather than raw stats.",
+  "tell": {
+   "watch": "Garen's Q (Decisive Strike) cooldown",
+   "theirWindow": {
+    "when": "His Q is up and shield recharged",
+    "what": "He breaks any slow you put on him with Seismic Shard, silences you, and his bonus-damage auto lands clean. Do not stand still in melee range here — back off until it's down (8s cooldown) or bait it into hitting a minion."
+   },
+   "yourWindow": {
+    "when": "His Q is down, Granite Shield is up",
+    "what": "Walk in and land Q (Seismic Shard) to slow him so he can't kite your follow-up, then E (Ground Slam) for the armor-scaled magic damage and attack speed shred. Your shield eats his first E (Judgment) tick for free."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both poke with Q, shields trade evenly"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Garen's E ranks up, sustain outpaces your damage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Unstoppable Force) threatens kills, forces caution"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Sunfire/Thornmail online, trades stabilize"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Frozen Heart cooldown and armor win extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Garen's autos and E (Judgment) ticks are physical poke; the flat damage reduction on trades and passive regen keep you ahead of his Perseverance sustain rather than racing it."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "79.7% pick rate and 51.8% win rate here because Garen's entire kit is auto-attacks and physical spin damage — flat reduction on every hit matters more than tenacity."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "AoE burn punishes him for standing in melee range to auto you, and the health/armor keep you alive through E (Judgment) spam"
+    },
+    {
+     "item": "Thornmail",
+     "why": "Garen is auto-attack reliant with no gap-close besides Q (Decisive Strike), so the reflect and grievous wounds directly counter his Perseverance healing"
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack speed slow on him cuts into his auto-attack and E uptime, and the armor stacks with your passive and E (Ground Slam) scaling"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he is building toward true damage or you need a magic shield buffer for all-ins"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he is fed and his auto-attack burst with R (Demacian Justice) threatens to execute you"
+    },
+    {
+     "item": "Malignance",
+     "when": "you are ahead and want your R (Unstoppable Force) and E (Ground Slam) to hit harder in skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "53.9% win rate build — Grasp heals you on extended trades and grows your health, which directly offsets Garen's Perseverance sustain race instead of trying to out-damage it",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "76.1% pick rate and the top win rate (49.1%) pairing — Teleport lets you reset after even trades and return with tempo, since neither side has a reliable all-in before level 6."
+  },
+  "playing": [
+   {
+    "title": "Bait his Q before committing",
+    "detail": "Walk forward just enough to see if Garen uses Q (Decisive Strike) on a minion or whiffs it. Only trade once it's on its 8s cooldown."
+   },
+   {
+    "title": "Shield-check before every trade",
+    "detail": "If your Granite Shield passive hasn't recharged, you take full damage from his E (Judgment). Disengage and wait for it to come back up before re-engaging."
+   },
+   {
+    "title": "Use E first in extended fights",
+    "detail": "Ground Slam's attack speed reduction cuts directly into his auto-attack and Perseverance uptime, since his healing depends on avoiding recent damage."
+   },
+   {
+    "title": "Save R for his Flash",
+    "detail": "Unstoppable Force (130-80s cooldown) only guarantees a kill if he can't Flash out of the knock-up, so hold it until his Flash is confirmed down."
+   },
+   {
+    "title": "Don't duel him under tower at level 1-2",
+    "detail": "His W (Courage) absorbs your early poke damage, so short trades favor him before you have Q (Seismic Shard) rank 2."
+   },
+   {
+    "title": "Punish his E cooldown mid-game",
+    "detail": "At levels 9+ his Judgment cooldown is still 9-11s; walk him down the moment he uses it since he has no other way to stick to you besides his broken-free Q movespeed."
+   },
+   {
+    "title": "Play for scaling, not early kills",
+    "detail": "This matchup trends even to favored for you past level 14 once Frozen Heart and Thornmail are online, so avoid forcing all-ins before your core items finish."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner picks above are pulled directly from measured OP.GG games on the current patch (16.19.1); the win-condition reasoning and ability timing calls are my own tactical read, not statistical output."
+ },
+ "generatedAt": 1791004432384,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791004392679,
+  "overall": {
+   "winRate": 51.4,
+   "play": 118307,
+   "tier": 0
+  },
+  "headToHead": {
+   "play": 2042,
+   "wins": 1026,
+   "winRate": 50.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid fighting Garen when he activates (W). Use Malphite’s passive shield to hit and run often!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.1,
+    "play": 1957,
+    "pickRate": 76.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.6,
+    "play": 571,
+    "pickRate": 22.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 24,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 874,
+    "pickRate": 33
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.9,
+    "play": 851,
+    "pickRate": 32.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 1755,
+    "pickRate": 66.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 511,
+    "pickRate": 19.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.8,
+    "play": 2024,
+    "pickRate": 79.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.9,
+    "play": 268,
+    "pickRate": 10.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 56.9,
+    "play": 153,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 49,
+    "play": 104,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 51.8,
+    "play": 83,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.4,
+    "play": 1715,
+    "pickRate": 67.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.8,
+    "play": 1186,
+    "pickRate": 46.6
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 53.5,
+    "play": 1103,
+    "pickRate": 43.4
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 49.1,
+    "play": 662,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 53.3,
+    "play": 550,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 55.6,
+    "play": 376,
+    "pickRate": 14.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 49.2,
+    "play": 524
+   }
+  ]
+ }
+}

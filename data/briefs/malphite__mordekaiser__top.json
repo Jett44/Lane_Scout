@@ -1,0 +1,381 @@
+{
+ "you": "Malphite",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Disadvantaged lane",
+   "line": "You lose if you let him land E (Death's Grasp) and trade freely into his sustain; you win if you poke with Q and deny his passive stacks before all-ins."
+  },
+  "thesis": "Mordekaiser's W (Indestructible) banks damage from both dealing and taking hits into a shield he converts to healing, so straight trading just refunds his sustain. The matchup's 48.3% win rate over 2840 games reflects that Malphite has no tool to stop the E (Death's Grasp) pull into a stacked Q (Obliterate), and his own E (Ground Slam) scales off Armor he hasn't built yet at level 1-3.",
+  "tell": {
+   "watch": "His W (Indestructible) shield charge",
+   "theirWindow": {
+    "when": "E (Death's Grasp) off cooldown, you're near minions",
+    "what": "He will pull you in with Death's Grasp and follow with Obliterate; stay outside 700 range when his E is up so he can't chain the pull into stacked Q damage."
+   },
+   "yourWindow": {
+    "when": "His E (Death's Grasp) just went down",
+    "what": "Use Q (Seismic Shard) to poke and slow his retreat for free poke damage, since without the pull he has no way to force extended exchanges on you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "His Q damage spikes solo-target, you lack Armor for E"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Realm of Death online, all-in threat rises sharply"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Your W (Brutal Strikes) armor buff stabilizes trades"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Core Armor items make Ground Slam hit hard"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "His ultimate still swings all-in fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield > Health Potion",
+    "why": "The extra regen and block-on-hit sustain directly counters his poke-heavy Obliterate trades and the 48.4% win rate on Doran's Ring data shows most lanes skip sustain items you actually need here."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Magic resist and tenacity reduce his all-in damage and the duration of any crowd control he lands through Death's Grasp."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "Early Armor and magic resist directly scale your E (Ground Slam) damage while giving sustain against his magic poke."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Armor and damage reflection punish his melee autos and Obliterate casts in extended fights."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Armor plus attack speed reduction on him weakens his ability to stack Darkness Rise passive quickly."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he is building burst magic damage and you need a shield that blocks a Realm of Death all-in"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "you are ahead and want to apply extra pressure through wave clear and prolonged skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The sustain and max-health damage proc rewards trading on cooldown without needing to all-in, which matters since Mordekaiser's W punishes aggressive extended fights.",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport lets you reset after losing early trades and return with full resources, while Flash is your only way to dodge a Death's Grasp pull or reposition out of Realm of Death range."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't trade",
+    "detail": "Use Q (Seismic Shard) at range whenever it's up since prolonged melee trades feed his W (Indestructible) shield on both ends."
+   },
+   {
+    "title": "Track E cooldown before auto-trading",
+    "detail": "Death's Grasp has a 16/14/12/10/8s cooldown; never stand in a position where the pull plus his Obliterate can combo you before level 6."
+   },
+   {
+    "title": "Respect level 6 all-in",
+    "detail": "Once Realm of Death is up, he can commit to extended fights knowing he keeps your stats on a kill; play passive near his 6 if you're even on HP."
+   },
+   {
+    "title": "Save W for his engage, not yours",
+    "detail": "Brutal Strikes' armor and AD buff is best used reactively when he commits E into you, not as an opener, since you want the trade to happen on your terms."
+   },
+   {
+    "title": "Freeze when behind",
+    "detail": "If you lose the early trades, freeze the wave near your turret to deny him easy E-Q combos on minions and champion together."
+   },
+   {
+    "title": "Build Armor before damage",
+    "detail": "Ground Slam's damage scales off your Armor stat, so Hollow Radiance and Thornmail aren't just defensive—they're your main damage scaling against him."
+   },
+   {
+    "title": "Don't walk into Death's Grasp range for last hits",
+    "detail": "700 range covers most of the wave; step up only when his E is confirmed down or you bait it out first with Q poke."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, and summoner spells are pulled from measured games on the current patch (16.19.1); the matchup reasoning and trade-pattern advice are my own tactical read, not sourced from the win-rate data."
+ },
+ "generatedAt": 1791004510388,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791004480208,
+  "overall": {
+   "winRate": 51.4,
+   "play": 118307,
+   "tier": 0
+  },
+  "headToHead": {
+   "play": 2840,
+   "wins": 1372,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid fighting Mordekaiser head on as well as being pulled by his (E). Use [Q] to focus on contesting and farming lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 2669,
+    "pickRate": 75.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.1,
+    "play": 773,
+    "pickRate": 22
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 64.3,
+    "play": 42,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 1661,
+    "pickRate": 46
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 543,
+    "pickRate": 15
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.4,
+    "play": 2651,
+    "pickRate": 74.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.6,
+    "play": 413,
+    "pickRate": 11.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.6,
+    "play": 1855,
+    "pickRate": 55.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.3,
+    "play": 913,
+    "pickRate": 27.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Malignance",
+     "Stormsurge",
+     "Shadowflame"
+    ],
+    "winRate": 48.8,
+    "play": 84,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 4.5
+   },
+   {
+    "items": [
+     "Malignance",
+     "Hollow Radiance",
+     "Thornmail"
+    ],
+    "winRate": 64.9,
+    "play": 57,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 49.6,
+    "play": 1650,
+    "pickRate": 48.1
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 49.8,
+    "play": 1272,
+    "pickRate": 37.1
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 51.3,
+    "play": 1103,
+    "pickRate": 32.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.4,
+    "play": 1048,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 55.5,
+    "play": 658,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.3,
+    "play": 591,
+    "pickRate": 17.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.7,
+    "play": 984
+   }
+  ]
+ }
+}
