@@ -1,0 +1,382 @@
+{
+ "you": "Nasus",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Fiora stack Vitals and Duelist procs unanswered before 6; you win if you survive to your own power spike and out-scale."
+  },
+  "thesis": "Fiora's Passive (Duelist) and W (Riposte) punish you for trading autos into her, but Nasus doesn't need to win trades — he needs to win the farm race and the post-6 all-in. Every Siphoning Strike (Q) you land on a minion is permanent stat growth Fiora can't contest, so the lane is really about whether you can farm safely enough to make her early aggression irrelevant.",
+  "tell": {
+   "watch": "Her W (Riposte) cooldown/activation",
+   "theirWindow": {
+    "when": "Levels 1-5, before your R",
+    "what": "Fiora wants to Q (Lunge) onto you, land the second free dash, and stack Duelist healing while daring you to auto back into a lit-up W (Riposte). Don't take the bait — she can parry and reflect magic damage, so throw Q (Siphoning Strike) on minions instead of autoing her face."
+   },
+   "yourWindow": {
+    "when": "Level 6+, she's used Q (Lunge) or E (Burst of Speed) recently",
+    "what": "Her Q (Lunge) is 16-8s cooldown and E (Burst of Speed) is 15-11s; if she's just spent one to engage or disengage, drop E (Spirit Fire) on her and W (Wither) to shred her armor and slow her, then commit with R (Fury of the Sands) up for the extended trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "her Q/E burst and Riposte punish early trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your R enables first real all-in"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "stacked Q damage outscales her flat ratios"
+   },
+   {
+    "levels": "12-15",
+    "edge": "you",
+    "note": "Trinity Force online, Wither locks her down"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "R uptime and stacks make 1v1 unwinnable for her"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "72.7% pick rate and the sustain/block-on-hit damage directly offsets Fiora's early Q-into-auto poke pattern."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "39% pick rate and the auto-attack damage reduction is built for a lane where she wants to chain Burst of Speed autos into you."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "14.1% pick rate on this path; the stats and proc damage scale your stacked Q into real all-in threat by level 9-11."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Attack speed slow directly neutralizes her E (Burst of Speed) and Duelist stacking tempo."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "53.9% win rate on this exact path; sustains through her Duelist healing in extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she is building lifesteal or you need the grievous wounds to cut through her Duelist regen"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you are getting bullied early and need the armor plus anti-heal rushed before Trinity Force"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The sustain and movement speed on hit let you farm through her poke attempts without needing to all-in early, which is exactly when she has lane advantage.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "48.7% pick rate and highest win rate (51.4%) in this matchup; Teleport lets you commit to farming through her early pressure and reset, while Ghost helps you stick a Wither target or disengage a bad Lunge chain."
+  },
+  "playing": [
+   {
+    "title": "Farm through levels 1-5, don't duel",
+    "detail": "Fiora has the solo-kill edge and lane advantage early. Land Q (Siphoning Strike) on minions for the permanent stack bonus instead of trading autos she can Riposte."
+   },
+   {
+    "title": "Respect lit Riposte at all times",
+    "detail": "Her W (Riposte) is 10-6s cooldown and parries your next basic attack, reflecting magic damage. If it's up, don't auto her — bait it with a minion or wait it out."
+   },
+   {
+    "title": "Track her Q and E cooldowns",
+    "detail": "Lunge (16-8s) and Burst of Speed (15-11s) are her only engage/disengage tools. If both are down, you can walk up and threaten freely."
+   },
+   {
+    "title": "E (Spirit Fire) before committing",
+    "detail": "Spirit Fire's armor shred on a 12s cooldown makes every follow-up auto and Q hit harder — drop it the moment she commits to a trade."
+   },
+   {
+    "title": "Save R for level 6 power spike",
+    "detail": "Fury of the Sands is your only way to flip the early disadvantage. Don't waste it defensively before 6 — use it to force the first all-in on your terms."
+   },
+   {
+    "title": "Wither her the instant she engages",
+    "detail": "W (Wither) slows her Movement and Attack Speed over time, directly countering her Duelist stacking and Burst of Speed kiting."
+   },
+   {
+    "title": "Play for 9-11, not for lane kills",
+    "detail": "Your stacked Q damage starts outscaling her flat ratios around level 9-11. The matchup is 51.9% over 1856 games in your favor if you survive to that point — don't force anything early."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner picks above are pulled from measured OP.GG games on the current patch (16.19.1); the tactical reading of cooldown windows and trade patterns is my own analysis layered on top."
+ },
+ "generatedAt": 1791147234183,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791147197090,
+  "overall": {
+   "winRate": 50.4,
+   "play": 107271,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1856,
+   "wins": 964,
+   "winRate": 51.9
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being hit with Fiora’s Riposte (W). Try to avoid being hit with Fiora’s (Q) while keeping an eye out for your Vitals. Focus on farming lane and wait until you reach level 6 for an opportunity.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 51.4,
+    "play": 1111,
+    "pickRate": 48.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 51.5,
+    "play": 594,
+    "pickRate": 26
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.9,
+    "play": 440,
+    "pickRate": 19.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.2,
+    "play": 1243,
+    "pickRate": 52.9
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.7,
+    "play": 129,
+    "pickRate": 5.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.7,
+    "play": 1679,
+    "pickRate": 72.7
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.1,
+    "play": 371,
+    "pickRate": 16.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 51.8,
+    "play": 1037,
+    "pickRate": 46.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.1,
+    "play": 867,
+    "pickRate": 39
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 53.9,
+    "play": 180,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 53.1,
+    "play": 113,
+    "pickRate": 8.9
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 69.1,
+    "play": 55,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.6,
+    "play": 1511,
+    "pickRate": 67.6
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 53.9,
+    "play": 1235,
+    "pickRate": 55.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.6,
+    "play": 773,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 55.4,
+    "play": 767,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.1,
+    "play": 755,
+    "pickRate": 33.8
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 56.7,
+    "play": 436,
+    "pickRate": 19.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.5,
+    "play": 483
+   }
+  ]
+ }
+}

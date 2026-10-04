@@ -1,0 +1,385 @@
+{
+ "you": "Nasus",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Illaoi wins trades before level 6 and snowballs tentacle uptime; you win if you survive to Trinity Force and out-scale her with Fury of the Sands."
+  },
+  "thesis": "Illaoi's W (Harsh Lesson) is a 4-second-cooldown dash-trade tool that also pulls nearby Tentacles into the fight, so every short trade she starts near a wall or jungle camp hits harder than it looks. Nasus has no way to punish the dash itself and must win by refusing those trades, stacking Q (Siphoning Strike) on minions, and letting W (Wither) plus Spirit Fire do the scaling work instead of trying to brawl her on her terms.",
+  "tell": {
+   "watch": "Illaoi's E (Test of Spirit) cast",
+   "theirWindow": {
+    "when": "she lands E on you near a Tentacle",
+    "what": "If the spirit is tethered near a wall-spawned Tentacle, do not stand and fight — the echo damage plus Tentacle swings plus her W dash-in can burst you before you can disengage, so walk the spirit away from the Tentacle immediately."
+   },
+   "yourWindow": {
+    "when": "she has no Tentacles up and E is on cooldown (12-16s)",
+    "what": "This is your trade window: step up, land Q on the minion wave for stacks and lifesteal, and only trade autos if she has to walk forward without a Tentacle backing her up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her W dash wins extended trades before your Q stacks matter"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E-into-Tentacle combo threatens kill pressure, OP.GG confirms solo-kill edge"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R (Fury of the Sands) check matches her all-in burst"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Wither cooldown (11-13s) lets you kite her engages reliably"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Trinity Force plus stacked Q damage outscales her flat tentacle damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Taken in 67.6% of games at 49.1% win rate — the sustain and poke-reduction directly counters her W dash-ins and Tentacle chip damage while you farm Q stacks."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked 32.8% of the time — her entire kit is physical (Tentacles, W, E echo, R), so the flat auto-attack reduction blunts every poke source she has."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the 63.9%-win, 14.6%-pick path — the damage and speed spike is what finally lets you win trades instead of just surviving them."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Second item in the strongest measured path — armor plus attack speed slow directly blunts her Tentacle-assisted auto trades."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Common alternate third item (65.2% win in the Trinity-Frozen Heart-Thornmail order) — punishes her for landing W dashes on you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "she is building AD and you need the healing amp to win extended sieges"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "she rushes lifesteal or heavy AD items and you need the grievous wounds earlier"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you want Spirit Fire to proc a slow for easier stack-securing on retreating minions"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Taken in 52.9% of games at 47.7% win rate — the sustain from the heal-on-hit proc offsets her W/E poke damage during the stretches where you're just trying to farm Q stacks safely.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "The highest-pick combo (50% pick rate) — Ghost lets you close distance or disengage from her W dash without a flash-cooldown commitment, and Teleport resets you after short trades so you don't lose CS to her Tentacle poke."
+  },
+  "playing": [
+   {
+    "title": "Farm Q, don't chase autos",
+    "detail": "Siphoning Strike (Q, 4-8s cooldown) is your entire scaling plan — prioritize landing it on minions over trading autos with Illaoi, since her Tentacle-backed trades are not worth matching blow for blow."
+   },
+   {
+    "title": "Track her E cooldown",
+    "detail": "Test of Spirit is 12-16s on cooldown — once she uses it on you or a ward, you have a clean window to push a stack or two before she can threaten the spirit-echo combo again."
+   },
+   {
+    "title": "Never fight near Tentacle walls",
+    "detail": "Her passive spawns Tentacles on nearby impassible terrain that swing at you once her E or Vessels are active — reposition trades away from jungle walls and the lane's edge terrain."
+   },
+   {
+    "title": "Use Wither to disengage, not initiate",
+    "detail": "W (Wither, 11-15s cooldown) slows her Movement and Attack Speed — save it for when she commits her W dash on you so you can walk away safely, rather than using it to start a fight you can't finish."
+   },
+   {
+    "title": "Save Spirit Fire for shove timings",
+    "detail": "E (Spirit Fire, 12s cooldown) reduces armor on the zone — drop it on the wave when you want to shove fast for a Teleport-back reset, not just as poke."
+   },
+   {
+    "title": "Hold R for her all-in, not for farming",
+    "detail": "Fury of the Sands (120s cooldown) is your answer to her all-in burst from level 6 on — don't burn it just to speed up stacking when she hasn't committed."
+   },
+   {
+    "title": "Respect the early solo-kill risk",
+    "detail": "OP.GG's own read is to manage distance and avoid her skills while farming Q — at levels 1-5 her kill pressure is real, so play for even trades and stacks, not damage races."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate/pick-rate figures above come from measured OP.GG games on the current patch (16.19.1); the tactical reasoning — tells, timings, and trade logic — is my own read of the ability kits."
+ },
+ "generatedAt": 1791147769640,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791147728624,
+  "overall": {
+   "winRate": 50.4,
+   "play": 107271,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1474,
+   "wins": 709,
+   "winRate": 48.1
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of Illaoi’s (E) while laning. Focus on farming with [Q] to gain stacks and heal, and always manage your distance to avoid Illaoi’s skills.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 46.5,
+    "play": 922,
+    "pickRate": 50
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50.4,
+    "play": 415,
+    "pickRate": 22.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46,
+    "play": 391,
+    "pickRate": 21.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 1000,
+    "pickRate": 52.9
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 107,
+    "pickRate": 5.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 1272,
+    "pickRate": 67.6
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 369,
+    "pickRate": 19.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49.6,
+    "play": 929,
+    "pickRate": 52.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.4,
+    "play": 585,
+    "pickRate": 32.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 63.9,
+    "play": 147,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 65.2,
+    "play": 69,
+    "pickRate": 6.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.2,
+    "play": 1146,
+    "pickRate": 63.6
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 53,
+    "play": 922,
+    "pickRate": 51.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.1,
+    "play": 632,
+    "pickRate": 35.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 55.7,
+    "play": 589,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 40.9,
+    "play": 482,
+    "pickRate": 26.7
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 50,
+    "play": 404,
+    "pickRate": 22.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53,
+    "play": 338
+   }
+  ]
+ }
+}

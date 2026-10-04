@@ -1,0 +1,379 @@
+{
+ "you": "Nasus",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive then scale",
+   "line": "You lose if you keep trading into Mordekaiser's longer-ranged Obliterate and let Darkness Rise and Death's Grasp force all-ins before level 6; you win if you farm safely through Spirit Fire's zone and arrive at a stacked Siphoning Strike with Trinity Force before he can close the lane out."
+  },
+  "thesis": "Mordekaiser's Q (Obliterate, 675 range) outreaches your Q (Siphoning Strike, 255 range) by nearly 3x, so he can poke and shove without ever walking into your true damage window. His passive (Darkness Rise) rewards him for landing three hits in a trade, and his W (Indestructible) banks both damage dealt and taken into a shield he can convert into healing - every short trade you take funds his sustain. Your path to parity is farming through the deficit: stack Siphoning Strike, shred his armor with Spirit Fire, and let Trinity Force close the gap he opened early.",
+  "tell": {
+   "watch": "Darkness Rise proc on Mordekaiser",
+   "theirWindow": {
+    "when": "he lands his third hit on you",
+    "what": "Darkness Rise procs, giving him a damage aura and bonus move speed - disengage immediately and let the wave or terrain separate you rather than exchanging again."
+   },
+   "yourWindow": {
+    "when": "Death's Grasp (E) is on cooldown",
+    "what": "He has no pull to start an all-in, so step up safely to land Siphoning Strike on the wave, drop Spirit Fire, or take a free poke."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Obliterate outranges your Siphoning Strike badly"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Realm of Death isolates you for a duel"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Stacked Q and armor shred close the gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build and max stacks overwhelm him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The sustain and poke-reduction (49.3% WR over 1622 games, 64.9% pick) absorb Obliterate's free-range chip damage without forcing you to recall early."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "51.8% WR over 1240 games and the most-picked option (51.7%); lower Q/W/E cooldowns mean more Siphoning Strikes per back-and-forth and more frequent Spirit Fire zoning."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The 62.9% WR path (264 games) that converts your stacked Q damage and movement speed into real threat the moment you hit it."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Magic-damage sustain against Morde's Obliterate/Death's Grasp poke, and it amplifies the lifesteal from your own Soul Eater passive."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Armor and attack-speed slow that blunts his melee trades once he's forced to stand next to you post-Death's Grasp."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "mordekaiser is ahead and poking you down from range before you can close in"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he's leaning on indestructible's stored-damage heal to win extended fights"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he or his team starts stacking healing or lifesteal to outlast your damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The move-speed burst and healing let you disengage out of Obliterate's range after a short trade instead of standing in it and feeding his passive.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "This pairing posts the best measured win rate (51.9% over 26.3% pick); Flash dodges a Death's Grasp pull and Ghost lets you close distance to stack Q or disengage once Wither has slowed him."
+  },
+  "playing": [
+   {
+    "title": "Farm with Q, don't duel",
+    "detail": "Siphoning Strike's 255 range means you're already inside Obliterate's 675 range when you use it - only step up to use it when his Q is visibly on cooldown."
+   },
+   {
+    "title": "Zone waves with Spirit Fire",
+    "detail": "Drop E on the minion wave before he walks up to trade; the armor reduction boosts every auto and Q you land on him while he's in it."
+   },
+   {
+    "title": "Save Wither for his engage",
+    "detail": "Wither slows both move and attack speed over time - hold it to peel after a Death's Grasp pull, or to run him down once your stacks make you the stronger duelist."
+   },
+   {
+    "title": "Disengage on third hit",
+    "detail": "The instant Darkness Rise procs on him, back off the trade; continuing to swing into his buffed damage and speed is how these lanes get lost."
+   },
+   {
+    "title": "Track Death's Grasp cooldown",
+    "detail": "It's 16s at rank 1, falling to 8s by rank 5 - after he pulls or whiffs it, that's your safe window to farm or poke until it's back up."
+   },
+   {
+    "title": "Don't feed his shield",
+    "detail": "Indestructible banks damage dealt and taken into a heal - avoid throwing out autos or Q when he's clearly disengaging, since you're just funding his sustain for free."
+   },
+   {
+    "title": "Play for the level 11+ spike",
+    "detail": "Trinity Force plus a stacked Q is your win condition per the data (62.9% WR, 264 games) - look to convert to side-lane plates and turret pressure once itemized rather than forcing earlier skirmishes."
+   }
+  ],
+  "patchCaveat": "The build order, boots, runes, and summoner spells above are pulled directly from measured games on the current patch (16.19.1); the tactical reasoning connecting them to the Nasus-vs-Mordekaiser mechanics is my own read, not measured data."
+ },
+ "generatedAt": 1791147191863,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791147097847,
+  "overall": {
+   "winRate": 50.4,
+   "play": 107271,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1935,
+   "wins": 976,
+   "winRate": 50.4
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Keep some distance from Mordekaiser to prevent his (P) from activating. Focus on raising [Q] stacks while keeping Mordekaiser’s skills in mind. Focus on farming with [Q] and growing while waiting for an opportunity.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 49,
+    "play": 1191,
+    "pickRate": 48.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 51.9,
+    "play": 647,
+    "pickRate": 26.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.7,
+    "play": 485,
+    "pickRate": 19.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 1379,
+    "pickRate": 54.7
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.6,
+    "play": 124,
+    "pickRate": 4.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 1622,
+    "pickRate": 64.9
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 51.9,
+    "play": 422,
+    "pickRate": 16.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 51.8,
+    "play": 1240,
+    "pickRate": 51.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.9,
+    "play": 823,
+    "pickRate": 34.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Frozen Heart"
+    ],
+    "winRate": 62.9,
+    "play": 264,
+    "pickRate": 18.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 61,
+    "play": 136,
+    "pickRate": 9.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Thornmail"
+    ],
+    "winRate": 45.1,
+    "play": 91,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.7,
+    "play": 1783,
+    "pickRate": 75.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 53.5,
+    "play": 1477,
+    "pickRate": 62.2
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 55.7,
+    "play": 846,
+    "pickRate": 35.6
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 55.2,
+    "play": 366,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.1,
+    "play": 361,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46.9,
+    "play": 294,
+    "pickRate": 12.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.7,
+    "play": 486
+   }
+  ]
+ }
+}

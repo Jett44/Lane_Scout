@@ -1,0 +1,386 @@
+{
+ "you": "Teemo",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Nasus stack Q uncontested into a 20-minute all-in; you win if you poke him off the wave and deny farm before level 9."
+  },
+  "thesis": "Nasus's only damage tool, Q (Siphoning Strike), has 255 range and an 8/7/6/5/4s cooldown that only gets scary once he's slain enough minions to stack it — your Q (Blinding Dart) and E (Toxic Shot) both reach to 680, so every early trade should happen entirely outside his Q range. The matchup flips once those stacks pile up: his Soul Eater lifesteal and ballooning Q damage turn a close lane into a losing late fight, win rate landing at 49.4% over 1641 games because most Teemos win the first ten minutes and lose the next twenty.",
+  "tell": {
+   "watch": "Nasus's Q (Siphoning Strike) stack count",
+   "theirWindow": {
+    "when": "Nasus lands Wither (W) on you",
+    "what": "Wither (15/14/13/12/11s cooldown, 700 range) is his only way to stick to a kiting target — if it connects, disengage immediately using your W (Move Quick) passive speed rather than trading autos, since his Q threat scales directly with stacks you don't want to feed him."
+   },
+   "yourWindow": {
+    "when": "Wither (W) is on cooldown",
+    "what": "With no slow available Nasus cannot close 680 range — walk up, land E (Toxic Shot) autos and a Blinding Dart on any Q attempt, then kite back before his next Wither comes off cooldown."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both weak, neither has reliable poke yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "range and blind punish his 255-range Q"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his R adds a burst window in fights"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Q cooldown drops to 4s, stacks compound"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "stacked Q plus lifesteal wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "49.6% win rate over 1526 games and the most-picked start (70%) — the extra sustain covers the early trades you're taking at max range while Nasus farms."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "50.1% win rate and the dominant pick (61.9%) — the flat speed buffer matters specifically because Wither is the only tool Nasus has to stop you from kiting."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "35% pick rate path, 54.9% win rate — gives you a wave-clear and poke tool that doesn't require standing in his Q range"
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "burn damage punishes Nasus for staying near you to farm or trade"
+    },
+    {
+     "item": "Malignance",
+     "why": "completes the highest win-rate core (54.9% over 468 games) by adding burst to your poke"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Oblivion Orb",
+     "when": "his Soul Eater lifesteal is keeping him alive through your poke"
+    },
+    {
+     "item": "Shadowflame",
+     "when": "you're ahead and want to close out fights faster before his stacks matter"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you want attack speed to maximize E (Toxic Shot) poison uptime instead of raw burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "the most-picked page (29.8%, 52.5% win rate) — it rewards the auto-poke pattern you need to run on a melee target with no gap closer",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "the standard pick (89.8%, 50.4% win rate) — Ignite punishes the early lead you're favored to build before his Q stacks catch up, and Flash keeps you safe from any Wither-engage all-in."
+  },
+  "playing": [
+   {
+    "title": "Poke from outside 255 range",
+    "detail": "Nasus's Q (Siphoning Strike) can't reach past 255 units — stand at 680 and chip with E (Toxic Shot) autos and Q (Blinding Dart) whenever he walks up for a minion."
+   },
+   {
+    "title": "Count his Q stacks, not just his level",
+    "detail": "A level 9 Nasus with 40 stacks hits far harder than one with 15 — adjust how much damage you respect per trade based on stacks, not just levels."
+   },
+   {
+    "title": "Blind any all-in attempt",
+    "detail": "Blinding Dart's 8s cooldown means you can deny one Q from landing on nearly every engage he starts."
+   },
+   {
+    "title": "Punish the Wither cooldown window",
+    "detail": "Once his W (Wither, 15-11s cooldown) is down, he has zero tools to stick to you — this is when you push trades hardest."
+   },
+   {
+    "title": "Avoid standing in Spirit Fire",
+    "detail": "His E (Spirit Fire, 12s cooldown, 650 range) strips armor on anyone standing in it — step out immediately rather than trading through the zone."
+   },
+   {
+    "title": "Respect his R after level 6",
+    "detail": "Fury of the Sands (120s cooldown) gives him bonus health and max-health drain for its duration — don't extend fights once he activates it."
+   },
+   {
+    "title": "Use R for zone control, not just lane",
+    "detail": "Noxious Trap has only a 1s cooldown but is limited by your mushroom charges — seed river/jungle entrances to deny his jungler and deny vision rather than spamming them in lane."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate figures above are measured from live OP.GG data on the current patch (16.19.1); the trade-pattern and timing advice is my own read of the kit interactions, not a measured stat."
+ },
+ "generatedAt": 1791146650965,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791146576044,
+  "overall": {
+   "winRate": 51.1,
+   "play": 87653,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1641,
+   "wins": 810,
+   "winRate": 49.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Wither (W) reduces attack speed and movement speed! Use Blinding Dart [Q] if Nasus uses Wither (W) to retreat, and close in once it is on cooldown!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.4,
+    "play": 1935,
+    "pickRate": 89.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.4,
+    "play": 90,
+    "pickRate": 4.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 53,
+    "play": 66,
+    "pickRate": 3.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.5,
+    "play": 659,
+    "pickRate": 29.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.2,
+    "play": 327,
+    "pickRate": 14.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 1526,
+    "pickRate": 70
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.7,
+    "play": 450,
+    "pickRate": 20.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 50.1,
+    "play": 1302,
+    "pickRate": 61.9
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 49.8,
+    "play": 542,
+    "pickRate": 25.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 54.9,
+    "play": 468,
+    "pickRate": 35
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 58.2,
+    "play": 110,
+    "pickRate": 8.2
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 51.9,
+    "play": 79,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 51,
+    "play": 1654,
+    "pickRate": 78
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 51.8,
+    "play": 1570,
+    "pickRate": 74.1
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 54.9,
+    "play": 1041,
+    "pickRate": 49.1
+   },
+   {
+    "items": [
+     "Oblivion Orb"
+    ],
+    "winRate": 49.2,
+    "play": 494,
+    "pickRate": 23.3
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 58.1,
+    "play": 327,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 50,
+    "play": 284,
+    "pickRate": 13.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.2,
+    "play": 649
+   }
+  ]
+ }
+}

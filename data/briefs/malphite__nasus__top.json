@@ -1,0 +1,386 @@
+{
+ "you": "Malphite",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early edge, late risk",
+   "line": "You win if you poke him down with E and force a kill through level 6-8; you lose if the lane stalls and his Q stacks compound into the late game."
+  },
+  "thesis": "Malphite's short-cooldown, armor-scaling E outtrades Nasus before his stacks matter, which is why Malphite holds lane and solo-kill advantage early. But every minion Nasus last-hits with Q (Siphoning Strike) is a permanent damage increase, so the longer the lane goes uncontested the more the math flips toward him — the 47% win rate across 3,172 games is a lane that opens favored and closes contested.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Wither is up, you're level 9+",
+    "what": "Once Wither (W, 15/14/13/12/11s cooldown) lands on you, your movement and attack speed are cut for its duration. Combined with a high stack count his Q trades will out-damage your E — disengage instead of trading through it."
+   },
+   "yourWindow": {
+    "when": "level 6+, his Wither on cooldown",
+    "what": "Unstoppable Force (R, 1000 range) lets you charge in from well outside his 255-range Q and knock him up for your jungler to follow up — call for the gank the moment you hit 6, per the matchup's own solo-kill advantage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both trading Q pokes, no stacks banked yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E's armor-scaling nuke wins short trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R unlocks a real gank-kill threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "his Q stacks start compounding his damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Fury of the Sands makes him a duel threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "77.1% pick rate at 46.3% win over 2,999 games — the mana sustains your 8s Q and 7s E so you can poke every cooldown without running dry early."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "63.4% pick rate at 47.5% win over 2,347 games — Nasus's entire kit is auto-attacks, so flat reduction on his Siphoning Strike autos matters more than magic resist."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Highest-winning core path (53.2% over 173 games) — the burn adds free armor-scaling damage and helps you shove waves, denying him free Q last-hits."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Directly punishes Soul Eater lifesteal and stacked-up autos, which is his only damage source once he's farmed stacks."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack speed slow aura cuts into his Q-stacking auto rhythm, and the armor further inflates your E's damage output."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "he rushes lifesteal and is healing through your trades early"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their team has heavy magic damage threatening a burst combo onto you"
+    },
+    {
+     "item": "Malignance",
+     "when": "you're ahead and want your R+E combo to delete him before his stacks matter"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "49.7% win rate over the higher-picked page — the extra health and sustain let you win extended short trades against his Q without losing the HP war before 6.",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "71.7% pick rate at 47.6% win — Teleport lets you reset after shoving with E without losing CS to his free farming, and Flash backs up your R engage or bails you out of a Wither chase."
+  },
+  "playing": [
+   {
+    "title": "Trade with E, not autos",
+    "detail": "Ground Slam (E, 7s cooldown) deals magic damage off your armor and slows his attack speed — fire it on cooldown in short trades, since it outpaces his Q's 8-4s cooldown range early, then step outside his 255-range Siphoning Strike."
+   },
+   {
+    "title": "Count his stacks all lane",
+    "detail": "Every Siphoning Strike kill is permanent bonus damage. Don't give him free, uncontested farm windows by overextending your trades — shove the wave and walk, don't duel through minion waves."
+   },
+   {
+    "title": "Call the level 6 gank",
+    "detail": "Unstoppable Force (R, 1000 range, 130s cooldown at rank 1) lets you engage from outside his Q range — this matches the matchup's own solo-kill edge, so ask your jungler to path top the moment you hit 6."
+   },
+   {
+    "title": "Save W for all-ins",
+    "detail": "Brutal Strikes (W, 14s cooldown) hits everything in front of you and buffs your armor and AD briefly — hold it for a committed trade or his Wither window, not for poke."
+   },
+   {
+    "title": "Respect Wither",
+    "detail": "When his W (Wither, 15-11s cooldown) lands, your attack and movement speed drop — disengage rather than trading through it, since it strips the kiting edge your Q slow normally gives you."
+   },
+   {
+    "title": "Finish Thornmail and Frozen Heart on curve",
+    "detail": "His entire scaling is stacked Q autos plus Soul Eater lifesteal — Thornmail punishes the healing and Frozen Heart's aura slows the autos down, both hitting his power source directly."
+   },
+   {
+    "title": "Don't 1v1 him past 14",
+    "detail": "Once he's banked enough stacks and Fury of the Sands is up, a straight duel favors him — play for picks with your team or split-push elsewhere instead."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner spells above come from measured win rates across the cited games on the current patch; the trade timing, cooldown windows, and stack-denial reasoning are my own read of the kit matchup, not sourced from OP.GG."
+ },
+ "generatedAt": 1791146490310,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791146406351,
+  "overall": {
+   "winRate": 51.4,
+   "play": 147013,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 3172,
+   "wins": 1491,
+   "winRate": 47
+  },
+  "laneAdvantage": "Malphite",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus gain stacks by dealing damage. Try to kill him after reaching level 6 though a gank.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 2767,
+    "pickRate": 71.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.6,
+    "play": 982,
+    "pickRate": 25.5
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 46.9,
+    "play": 49,
+    "pickRate": 1.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.6,
+    "play": 1278,
+    "pickRate": 32.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 1150,
+    "pickRate": 29
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 2999,
+    "pickRate": 77.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 53,
+    "play": 411,
+    "pickRate": 10.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.5,
+    "play": 2347,
+    "pickRate": 63.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.9,
+    "play": 721,
+    "pickRate": 19.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 53.2,
+    "play": 173,
+    "pickRate": 8
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 48.2,
+    "play": 114,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 51.5,
+    "play": 103,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 48.7,
+    "play": 2210,
+    "pickRate": 57.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.2,
+    "play": 2063,
+    "pickRate": 53.5
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 50.7,
+    "play": 1418,
+    "pickRate": 36.8
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 46.8,
+    "play": 1181,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 44.8,
+    "play": 810,
+    "pickRate": 21
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 48.6,
+    "play": 638,
+    "pickRate": 16.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.3,
+    "play": 747
+   }
+  ]
+ }
+}

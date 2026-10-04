@@ -1,0 +1,380 @@
+{
+ "you": "Garen",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand still through Q (Thundering Smash) and trade into his W (Frenzied Maul) recast heal; you win if you trade only when his Q is down and silence the W recast with Q (Decisive Strike)."
+  },
+  "thesis": "Volibear's kit is built to start fights on his terms and heal through the end of them: Q (Thundering Smash) closes distance and stuns the first thing he hits, then W (Frenzied Maul) recast on the same target deals bonus damage and heals him. Garen has no way to prevent the stun itself, but Decisive Strike's silence can remove the W recast heal from a trade he's already losing. The 50.1% head-to-head over 2208 games says this is close on paper; the 'Volibear lane advantage' tag says the gap is in who starts the fight, not raw damage.",
+  "tell": {
+   "watch": "Volibear's Q (Thundering Smash) cooldown",
+   "theirWindow": {
+    "when": "his Q is off cooldown",
+    "what": "He can dash to you from 300 range, stun on the hit, then chain W (Frenzied Maul) twice for the recast heal. Don't stand in his dash lane when his Q timer looks full — hold at the edge of 300 range instead."
+   },
+   "yourWindow": {
+    "when": "right after he lands or whiffs Q",
+    "what": "His Q is now 12/11.5/11/10.5/10s away. Walk in and spam E (Judgment) for free physical damage, and save Q (Decisive Strike) to silence him the moment he tries the W recast so he can't heal off it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q stun plus early W heal win first trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown shrinks, E zones from 1200 range"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "E (Judgment) spam offsets his passive attack speed"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stridebreaker/Mortal Reminder online, his heal cut"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his R resets fights, your R threatens execute"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Volibear's W applies on-hit poke every 5 seconds and his passive adds bonus magic damage on top — the sustain and damage reduction from Doran's Shield keeps you from losing the lane to chip damage alone (49.3% win rate, 55% pick)."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "The standard pick at 51.2% win rate over 1844 games — more attacks landed means more E (Judgment) ticks and faster stacking toward trades you can win."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Highest-performing core path (57.8% over 457 games); the slow on-hit lets you stick through his Q burst of speed instead of getting kited after he disengages."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed compounds with E (Judgment)'s short cooldown to out-trade his passive attack speed stacking."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Directly answers the matchup's core problem — Volibear's W recast heal and passive sustain. Grievous Wounds removes the reason he wins extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "if he is rushing early sustain and you need the healing cut before Mortal Reminder completes"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "if you need to close the gap faster since he has no slow immunity on approach"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "if you want to force fights on cooldown windows rather than wait for him to engage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is a sustained-trade matchup decided by who's still landing hits at the end of the fight — Conqueror's stacking adaptive force and healing reward you for staying in range and spamming E (Judgment) rather than trading once and resetting.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 93.1% of games at a solid 51.3% win rate — Ignite punishes his W recast heal directly by applying Grievous Wounds early, before your Mortal Reminder is online."
+  },
+  "playing": [
+   {
+    "title": "Trade only when his Q is down",
+    "detail": "Watch his Q (Thundering Smash) cooldown — 12s at rank 1, down to 10s at rank 5. Walking up while it's available means eating a stun into a W chain."
+   },
+   {
+    "title": "Silence the W recast, not the Q",
+    "detail": "Decisive Strike's silence can't stop the initial Q stun, but it can stop him from recasting W (Frenzied Maul) on you for the bonus damage and heal mid-fight."
+   },
+   {
+    "title": "Don't face-check brush before trading",
+    "detail": "Sky Splitter has 1200 range and can land on you from out of sight. Clear vision before committing to an extended trade near his likely cast spots."
+   },
+   {
+    "title": "Back off to use your passive",
+    "detail": "Perseverance regenerates a percentage of your health per second once you've gone a few seconds without being hit — disengage after a trade instead of forcing a second exchange."
+   },
+   {
+    "title": "Spam E for trade damage, not just waveclear",
+    "detail": "Judgment's cooldown drops to 9s at rank 5 — use it every time it's up during a fight, not just to clear casters."
+   },
+   {
+    "title": "Hold R for the execute window",
+    "detail": "Demacian Justice only reaches 400 range, so land it right after a trade when he's already low rather than opening with it."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate/pick-rate numbers above come from measured OP.GG games on the current patch; the mechanical reasoning for why those numbers look the way they do is my own read of the ability kits."
+ },
+ "generatedAt": 1791148274384,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791148208611,
+  "overall": {
+   "winRate": 50.7,
+   "play": 131017,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2208,
+   "wins": 1107,
+   "winRate": 50.1
+  },
+  "laneAdvantage": "Volibear",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with Volibear’s (E) used out of sight. Purchase items that reduce healing and fight him when his abilities are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.3,
+    "play": 2544,
+    "pickRate": 93.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.4,
+    "play": 99,
+    "pickRate": 3.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 57.5,
+    "play": 40,
+    "pickRate": 1.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.1,
+    "play": 1108,
+    "pickRate": 39.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 492,
+    "pickRate": 17.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 1507,
+    "pickRate": 55
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54,
+    "play": 750,
+    "pickRate": 27.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 51.2,
+    "play": 1844,
+    "pickRate": 69.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53,
+    "play": 396,
+    "pickRate": 15
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 57.8,
+    "play": 457,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 57.3,
+    "play": 213,
+    "pickRate": 11.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 45.9,
+    "play": 85,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 51.2,
+    "play": 2583,
+    "pickRate": 95.5
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 54.2,
+    "play": 1514,
+    "pickRate": 56
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 56,
+    "play": 1365,
+    "pickRate": 50.4
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.4,
+    "play": 562,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 55.3,
+    "play": 519,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 38.7,
+    "play": 431,
+    "pickRate": 15.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.9,
+    "play": 1200
+   }
+  ]
+ }
+}
