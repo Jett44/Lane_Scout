@@ -1,0 +1,386 @@
+{
+ "you": "Teemo",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Narrow underdog",
+   "line": "You lose if Malphite reaches level 6 near his jungler and lands Unstoppable Force on you before you can Flash away; you win if you keep autoing him with Toxic Shot and bait Seismic Shard into your minions so his Granite Shield never gets to recharge."
+  },
+  "thesis": "Malphite has no ranged poke before level 6 beyond Seismic Shard, an 8-second-cooldown single-target hit, while your Toxic Shot applies on every attack with no cooldown at 680 range - so lane phase is simply whether you keep autoing him. His Granite Shield passive only recharges when he hasn't been hit recently, which is why the OP.GG tip is literally 'attack him constantly.' The measured 49% head-to-head and Malphite's rated lane/solo-kill advantage come almost entirely from what happens after he hits 6 and gets Unstoppable Force, a 1000-range knockup you have no mechanical answer to besides Flash and distance.",
+  "tell": {
+   "watch": "Malphite's Granite Shield status",
+   "theirWindow": {
+    "when": "Right after he hits level 6",
+    "what": "Unstoppable Force (R) is a 1000-range knockup with a 130-second cooldown at rank 1, long enough to open you for a jungler gank. Stop shoving the wave alone once he's 6 until you've seen him use it."
+   },
+   "yourWindow": {
+    "when": "Right after his Q or R goes down",
+    "what": "Once Seismic Shard or Unstoppable Force is on cooldown he has zero way to close the gap on you. Walk up, stack Toxic Shot, and contest the wave freely until either comes back up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "No engage tool exists on his side yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Full kit lets you poke and kite freely"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Unstoppable Force unlocks a kill threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Bait his R, then poke the long cooldown"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Burst items still outrange his melee kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "67.6% pick rate and the highest-sample start (47.6% over 2820 games). The mana and AP keep you spamming Blinding Dart every 8 seconds and feed Toxic Shot's magic damage without running dry from constant poking."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "Most-picked boots in this matchup (39.2% pick, 47.7% WR over 1521 games). Magic penetration pushes more damage through every free Toxic Shot auto, which is your entire win condition here."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "Highest-winrate core path (53.9% over 824 games). Movement speed and on-hit magic damage amplify the poke trade you're already winning pre-6."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn stacks off a tanky, shield-recharging target - directly punishes Malphite for not dying to burst."
+    },
+    {
+     "item": "Malignance",
+     "why": "Caps the 53.9%-winrate build order and adds the cooldown reduction that keeps Blinding Dart and traps available for every engage window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Boots of Swiftness",
+     "when": "if he or his jungler keep catching you with Seismic Shard's slow and you need more raw kiting speed than magic penetration"
+    },
+    {
+     "item": "Shadowflame",
+     "when": "if you're already ahead on damage and want a bigger burst spike to punish him the moment Granite Shield is down"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "if you want the extra attack speed and cooldown reduction to stack Toxic Shot faster in extended trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards exactly the play this matchup demands - landing consecutive autos. Three hits exposes him for bonus damage right when his Granite Shield should be down from your constant poking, matching the highest-pick rune page (26.1% pick, 49.6% WR).",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Overwhelmingly the standard pick here (86.1% pick, 48.3% WR). Ignite closes out trades your poison already started, and Flash is your only answer to the 1000-range Unstoppable Force knockup once he hits 6."
+  },
+  "playing": [
+   {
+    "title": "Poke with E, never trade autos",
+    "detail": "Toxic Shot has no cooldown and reaches 680 range, far past anything Malphite can answer with in melee. Walk up, auto, walk back - don't stand and fight."
+   },
+   {
+    "title": "Blind before any close trade",
+    "detail": "Blinding Dart (Q, 8s cooldown, 680 range) blinds its target. Fire it right before he commits Brutal Strikes or walks up to all-in, so his attacks whiff."
+   },
+   {
+    "title": "Bait Seismic Shard near your minions",
+    "detail": "Per the matchup data, let his Q (Seismic Shard, 8s cooldown) land on you near caster minions. You lose little tempo and his main poke tool is down for 8 full seconds."
+   },
+   {
+    "title": "Respect level 6 Unstoppable Force",
+    "detail": "His R is a 1000-range knockup gap closer with a 130-second cooldown at rank 1 (dropping to 115/100/80/80s as he ranks it). Stop pushing alone the moment he hits 6 until you've confirmed he's used it."
+   },
+   {
+    "title": "Use Move Quick to re-angle pokes",
+    "detail": "W passively builds movement speed until you're struck. Use the window to dart in for an auto and retreat before he can close with Ground Slam or Brutal Strikes."
+   },
+   {
+    "title": "Zone dives with Noxious Trap",
+    "detail": "Place R mushrooms (1s cooldown per trap) in jungle entrances once you have charges. Malphite has no ranged way to clear them, so they punish any all-in or jungler gank attempt."
+   },
+   {
+    "title": "Don't auto-trade into Ground Slam",
+    "detail": "Ground Slam (E, 7s cooldown, 400 range) cuts your attack speed for a short duration. Don't commit a long trade the moment it's up - your DPS output drops mid-fight."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the 49% head-to-head figure are measured from live games on the current patch (16.19.1) via OP.GG; the ability readings and trade-pattern advice are my own analysis of how those numbers play out in lane."
+ },
+ "generatedAt": 1791110681518,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791110567845,
+  "overall": {
+   "winRate": 51.1,
+   "play": 83197,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 3288,
+   "wins": 1611,
+   "winRate": 49
+  },
+  "laneAdvantage": "Malphite",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Try to get hit with Seismic Shard (Q) near your caster minions! Attack Malphite constantly to prevent him from getting a shield!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.3,
+    "play": 3571,
+    "pickRate": 86.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.6,
+    "play": 401,
+    "pickRate": 9.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.5,
+    "play": 66,
+    "pickRate": 1.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.6,
+    "play": 1109,
+    "pickRate": 26.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.1,
+    "play": 478,
+    "pickRate": 11.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.6,
+    "play": 2820,
+    "pickRate": 67.6
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.3,
+    "play": 571,
+    "pickRate": 13.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 47.7,
+    "play": 1521,
+    "pickRate": 39.2
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.8,
+    "play": 1138,
+    "pickRate": 29.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 53.9,
+    "play": 824,
+    "pickRate": 33.6
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 56.8,
+    "play": 190,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 51.6,
+    "play": 128,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 48.9,
+    "play": 2992,
+    "pickRate": 73.8
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 51,
+    "play": 2916,
+    "pickRate": 71.9
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 51.4,
+    "play": 1970,
+    "pickRate": 48.6
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 54.9,
+    "play": 610,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 47.2,
+    "play": 392,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50.1,
+    "play": 367,
+    "pickRate": 9.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 51.8,
+    "play": 1235
+   }
+  ]
+ }
+}

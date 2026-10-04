@@ -1,0 +1,385 @@
+{
+ "you": "Gwen",
+ "them": "Yorick",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skirmish lane",
+   "line": "You lose if you let Yorick's grave count climb into a walker swarm before you commit; you win if you isolate him with E into Q before level 6."
+  },
+  "thesis": "Yorick has almost no inherent lane pressure — his threat scales with Mist Walkers summoned from graves his Q (Last Rites) digs, so an early Yorick is just a melee auto-attacker. Gwen's Q (Snip Snip!) deals true damage to whatever is centered in its cone and her E (Skip 'n Slash) dash-reset lets her win a raw 1v1 before that swarm exists, which is exactly why the overall lane reads EVEN at 50.6% but the Gwen-vs-Yorick head-to-head sits at 57.3% over 626 games with the solo-kill edge on your side.",
+  "tell": {
+   "watch": "Yorick's Mist Walker count",
+   "theirWindow": {
+    "when": "walker count is 3+, usually lvl 6+",
+    "what": "Once he's dug enough graves his walkers tank damage and chase marked targets faster, so he can trade into you with free bodies absorbing your Q hits and his W (Dark Procession) wall can box you against them — disengage rather than stand and trade here."
+   },
+   "yourWindow": {
+    "when": "levels 1-5, before walkers exist",
+    "what": "Dash in with E (Skip 'n Slash), land Q (Snip Snip!) so the true-damage center hits him, then auto to refresh E's cooldown and re-engage — he has no swarm to fall back on yet."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both weak, Yorick's Q just a poke heal"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E-Q all-in before walkers exist"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "walker swarm plus Eulogy dive threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Shadowflame burst outpaces his swarm"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his split-push vs your skirmish power"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "92.5% pick at 57.4% win rate — the AP boosts your Q cone true-damage poke and the potions cover the chip damage from his empowered Q auto while you wait for walker count to stay at zero."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "Highest-winning boots option (63.1% over 293 games) — Yorick has no magic burst to dodge, so magic penetration into your Q/E damage matters more than the armor from Plated Steelcaps."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Core first item in the 65.5% win-rate path, builds your early skirmish damage into the level 6-8 window where you need to still threaten kills despite his walkers."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item in the same 29.4%-pick path — the burst amp converts your solo-kill advantage into actual kills before his swarm scales."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Final item of the top build path (65.5% WR, 145 games) — scales your true-damage Q and on-hit E once lane is decided."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustain through repeated walker-swarm skirmishes (61.9% WR alt path)"
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "Yorick lands Eulogy of the Isles and you need to survive a Maiden-boosted dive"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you're ahead and want to lean on attack speed on-hit from E rather than pure burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run in both top win-rate pages (52% and 66.3% pick share) — stacks through your Q's six snips and E's on-hit window, rewarding the sustained skirmishes this matchup is built on.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest-performing combo in the data (56.4% WR, 68% pick) — Ignite punishes Yorick's Q (Last Rites) self-heal during your all-in window and converts your solo-kill advantage into secured kills before walkers exist."
+  },
+  "playing": [
+   {
+    "title": "Punish before walkers stack",
+    "detail": "All-in with E (Skip 'n Slash) into Q (Snip Snip!) before level 6, while his grave count is still low — Yorick's lane presence is almost entirely dependent on walker numbers he hasn't built yet."
+   },
+   {
+    "title": "Don't fight inside his wall",
+    "detail": "Yorick's W (Dark Procession) drops a destructible wall at 600 range on a 20-12s cooldown — if he places it mid-trade, break off or go around rather than getting boxed in with his walkers."
+   },
+   {
+    "title": "Hide in your own mist",
+    "detail": "Pop W (Hallowed Mist) when he commits his empowered Q auto or throws E (Mourning Mist) — enemies outside the mist can't target you, so he has to walk in and expose himself to punish it."
+   },
+   {
+    "title": "Confirm E before disengaging",
+    "detail": "Skip 'n Slash's cooldown (13/12.5/12/11.5/11s) partially refunds on a landed hit, so always land an auto before backing off — it lets you re-dash for a second trade he can't match without walkers."
+   },
+   {
+    "title": "Count his graves",
+    "detail": "Every champion hit or kill from his Q (Last Rites) digs a grave that eventually becomes a Mist Walker — track this to know when the free-kill window closes, usually around level 6."
+   },
+   {
+    "title": "Respect the armor-shred poke",
+    "detail": "His E (Mourning Mist) reduces armor and slows on an 8-12s cooldown — don't walk into auto range right after he throws it or you eat a free empowered Q auto on top of it."
+   },
+   {
+    "title": "Convert kills into tempo",
+    "detail": "You hold the solo-kill edge in this matchup (57.3% WR, 626 games) — prioritize isolated skirmishes over passive farming so you hit Shadowflame and Rabadon's before his split-push wincon takes over post-13."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoners and the win-rate figures above are measured from live games on the current patch via OP.GG; the tactical reasoning connecting them to grave counts, walker timing, and wall/mist interactions is my own read of the ability kit, not sourced data."
+ },
+ "generatedAt": 1791111166665,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791111079026,
+  "overall": {
+   "winRate": 50.6,
+   "play": 50993,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 626,
+   "wins": 359,
+   "winRate": 57.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Gwen",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.4,
+    "play": 528,
+    "pickRate": 68
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.1,
+    "play": 89,
+    "pickRate": 11.5
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 66.7,
+    "play": 48,
+    "pickRate": 6.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52,
+    "play": 275,
+    "pickRate": 34.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.3,
+    "play": 83,
+    "pickRate": 10.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 57.4,
+    "play": 727,
+    "pickRate": 92.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 40,
+    "play": 25,
+    "pickRate": 3.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 63.1,
+    "play": 293,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.8,
+    "play": 281,
+    "pickRate": 38.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 65.5,
+    "play": 145,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Riftmaker"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 4.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Nashor's Tooth",
+     "Riftmaker"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 57.2,
+    "play": 579,
+    "pickRate": 75.2
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 60.4,
+    "play": 449,
+    "pickRate": 58.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 56.1,
+    "play": 326,
+    "pickRate": 42.3
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 69,
+    "play": 290,
+    "pickRate": 37.7
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 56.3,
+    "play": 252,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 61.5,
+    "play": 122,
+    "pickRate": 15.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 59.7,
+    "play": 392
+   }
+  ]
+ }
+}

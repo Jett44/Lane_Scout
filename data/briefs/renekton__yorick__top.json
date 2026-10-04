@@ -1,0 +1,388 @@
+{
+ "you": "Renekton",
+ "them": "Yorick",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Yorick stack Mist Walkers and wall you off from minions; you win if you burst him down before he digs his first grave."
+  },
+  "thesis": "Yorick's Passive and Q (Last Rites) need time against a target to dig graves and summon Mist Walkers, so he wants slow, drawn-out trades; Renekton's W (Ruthless Predator) and E (Slice and Dice) give him a hard stun and gap-close to force a single fast burst before the Walkers show up. This lines up almost exactly with OP.GG's own read: apply pressure early and look for single bursts rather than extended fights, which is also why the measured 50.7% win rate over 1144 games sits essentially even.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Yorick has graves dug nearby",
+    "what": "If Mist Walkers are already out, back off trading in that spot — the extra bodies change the damage math in his favor. Reset to a part of the lane with no graves before you commit."
+   },
+   "yourWindow": {
+    "when": "Your Fury is above 50",
+    "what": "At 50+ Fury your W (Ruthless Predator) becomes a 3-hit stun that strips shields and hits much harder, and your Q (Cull the Meek) heals for more. Dump W into E (Slice and Dice) the instant Fury crosses that threshold rather than waiting for a bigger window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a full stun or wall yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W stun lands before his Walkers accumulate"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Ultimates online, trades get riskier both ways"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Burst combo outpaces his sustained split-push damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Maiden plus Walkers overwhelm single-target burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "81% pick rate and the higher win rate of the two starts (49.7% over 1119 games) — the extra sustain and damage fuel the early all-in trades this matchup rewards."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "81.4% pick rate; the attack reduction helps you survive Yorick's auto-reliant Q (Last Rites) trades once he starts stacking Walkers on you."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "First item in the highest win-rate path (58.6% over 191 games) — the burst-on-two-hits pattern matches the single-burst game plan."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second in that same 58.6% path, giving the armor shred and sustained pressure to break through once he walls you with W (Dark Procession)."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Third item in the top path (58.6%, 191 games) — the damage-over-time conversion keeps you alive through drawn-out Walker swarms."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you are getting bursted down before your stun combo finishes"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game is going long and you need more ability haste to keep resetting W (Ruthless Predator)"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "yorick is building sustain through his q (last rites) heal"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their jungle or mid is piling on hard cc to lock you out of your stun window"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Matches the highest-played page (38.5% pick, 50.2% win rate) and rewards exactly the sustained-trade-into-burst pattern you want against a champion that out-sustains you if the fight drags.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run on 87.5% of Renekton picks in this matchup (49.7% win rate) — Ignite punishes Yorick's Q (Last Rites) healing and secures the burst kills this lane is built around."
+  },
+  "playing": [
+   {
+    "title": "Trade only when Fury is high",
+    "detail": "Wait until your Fury bar crosses 50 before committing to W (Ruthless Predator) — the 3-hit empowered version stuns for 1.5 seconds and strips shields, versus the base 0.75-second stun."
+   },
+   {
+    "title": "Punish before graves appear",
+    "detail": "Yorick's Passive and Q (Last Rites) need a dug grave to summon Mist Walkers. Engage early in a fight before any graves are on the ground so you're fighting only Yorick, not Yorick plus Walkers."
+   },
+   {
+    "title": "Don't fight through his wall",
+    "detail": "W (Dark Procession) is a destructible wall on a 20/18/16/14/12s cooldown that blocks movement. If he drops it mid-trade, disengage rather than wasting time breaking it — walk around instead."
+   },
+   {
+    "title": "Respect Mourning Mist poke",
+    "detail": "E (Mourning Mist) reduces your armor, damages, slows, and marks you on a 12/11/10/9/8s cooldown. If you're marked, expect summoned Walkers to gain move speed chasing you — disengage rather than facetank the follow-up."
+   },
+   {
+    "title": "Use E to close and reset",
+    "detail": "E (Slice and Dice) on a 16/14.5/13/11.5/10s cooldown both closes the gap for your stun chain and, when empowered, cuts armor — use it to initiate, not just to escape."
+   },
+   {
+    "title": "Hold R for forced extended fights",
+    "detail": "R (Dominus) grants bonus health and periodic Fury generation. Save it for moments you're stuck in a longer fight near his Maiden or Walkers rather than popping it on a clean single-target burst you can already win."
+   },
+   {
+    "title": "Track his ultimate timer",
+    "detail": "R (Eulogy of the Isles) is on a long 160/130/100/100/100s cooldown and summons the Maiden, which raises Walkers from dead enemies. After level 11 ask your jungler to help contest objectives before his Maiden snowballs the sidelane."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured from live games on the current patch (16.19.1) via OP.GG; the mechanical reasoning and timing advice are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791110899598,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791110860260,
+  "overall": {
+   "winRate": 49.6,
+   "play": 106245,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1144,
+   "wins": 580,
+   "winRate": 50.7
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Apply pressure early game to Yorick to gain lane control. Rather than engaging in prolonged fights, try to deal single bursts of damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.7,
+    "play": 1194,
+    "pickRate": 87.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.4,
+    "play": 157,
+    "pickRate": 11.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 0.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.2,
+    "play": 538,
+    "pickRate": 38.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.2,
+    "play": 129,
+    "pickRate": 9.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 1119,
+    "pickRate": 81
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 244,
+    "pickRate": 17.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.3,
+    "play": 1063,
+    "pickRate": 81.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.4,
+    "play": 204,
+    "pickRate": 15.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 58.6,
+    "play": 191,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 58,
+    "play": 100,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 48.1,
+    "play": 52,
+    "pickRate": 6.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.6,
+    "play": 1025,
+    "pickRate": 76.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 49.7,
+    "play": 989,
+    "pickRate": 73.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.5,
+    "play": 506,
+    "pickRate": 37.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.7,
+    "play": 344,
+    "pickRate": 25.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 55.5,
+    "play": 281,
+    "pickRate": 20.9
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 46,
+    "play": 126,
+    "pickRate": 9.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54,
+    "play": 531
+   }
+  ]
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "you": "Yorick",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill matchup",
+   "line": "You lose if you stand and trade autos into a stacked Ionian Fervor or get caught by an unanswered E (Flawless Duet) stun; you win if you poke safely with E (Mourning Mist), wall her Q (Bladesurge) engages with W, and stall into a tankier late game."
+  },
+  "thesis": "Irelia's Q (Bladesurge) dash plus E (Flawless Duet) stun let her dictate when fights happen, and Ionian Fervor's stacking attack speed means every extra second of melee trading is worth more to her than to you. Yorick has no dash or hard disengage of his own, so the matchup is decided by whether you can poke from range and deny her the extended trades her passive wants, which lines up with Yorick's 48.5% win rate over 1139 games and Irelia holding both the lane and solo-kill edge.",
+  "tell": {
+   "watch": "Irelia's Ionian Fervor stack count",
+   "theirWindow": {
+    "when": "She's near or at 5 passive stacks",
+    "what": "At max stacks she gains bonus on-hit damage, so she wins any straight auto trade. Do not stand in melee range here — disengage with E's slow or drop W (Dark Procession) between you."
+   },
+   "yourWindow": {
+    "when": "Her Q (Bladesurge) is on cooldown",
+    "what": "Bladesurge only refreshes if the target is Marked or dies, so a whiffed dash onto a minion leaves her without her engage/escape for up to 10/9/8/7/6s. Use that window to land E (Mourning Mist) poke or shove the wave without fear of a follow-up dash."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Only one ability each, poke trades roughly even"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full combo online, solo-kill advantage hers"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Her R comes online well before your R"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Wall and poke cooldowns offset her engages"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Tank items and Maiden pressure blunt her damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The highest-winrate start (47.2% over 576 games) — the passive block and regen directly answer her poke-heavy E and chip autos while you farm behind minions."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Measured at 48% win rate and 91.6% pick rate here; Irelia's damage is heavily auto-attack and on-hit driven once Ionian Fervor stacks, and Steelcaps cuts that down directly."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Part of the highest-winrate build path (66.7% over 30 games); the passive and regen punish her for sitting in melee to stack her passive."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Gives you the stats to actually threaten damage back once she's forced to disengage, rather than just surviving."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "The armor shred stacks with E (Mourning Mist)'s own shred, letting your Walkers and autos punch through her reduced physical damage window from W (Defiant Dance)."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Completes the 66.7%-winrate core; Grievous Wounds directly cuts her Q (Bladesurge) self-heal, which is her main sustain in extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team has heavy crowd control to chain off an Irelia E (Flawless Duet) stun"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need cooldown reduction on Q/E over more raw tankiness"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead and want to pressure towers with W (Dark Procession) covering your split push"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 48.2%-winrate page built around this keystone heals you off wave contact, which is exactly how OP.GG's own read of this lane says to play it: poke with E while farming safely instead of forcing melee trades into her passive.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "This combo has the best measured win rate in this matchup (51.5% over its sample); Ignite's damage-over-time denies the self-heal she gets off a landed Q (Bladesurge), making her all-ins less safe than they look."
+  },
+  "playing": [
+   {
+    "title": "Wall her engage with W",
+    "detail": "The instant she commits Q (Bladesurge) onto you, drop Dark Procession behind her to block her retreat path or cut her off before she can follow up with E (Flawless Duet)."
+   },
+   {
+    "title": "Poke with E, don't trade autos",
+    "detail": "Mourning Mist's armor shred and slow let you chip her from 700 range without eating the attack speed stacks from Ionian Fervor — this is the 'poke while farming safely' line OP.GG's data points to."
+   },
+   {
+    "title": "Count her Ionian Fervor stacks",
+    "detail": "At 5 stacks she gets bonus on-hit damage and wins any standing trade. Disengage before that point rather than after."
+   },
+   {
+    "title": "Punish a whiffed Bladesurge",
+    "detail": "Her Q only refreshes on a Marked or dying target. If it lands on a minion clean, her dash is down for up to its full 10/9/8/7/6s cooldown — use that window to shove or land your own Q (Last Rites) for free."
+   },
+   {
+    "title": "Delay hard trades until level 6",
+    "detail": "Eulogy of the Isles has a 160s cooldown at rank 1 and isn't up to answer her early combo. Avoid forcing extended fights before then; once it's up, use the Maiden's bonus damage to turn skirmishes instead of dueling her passive head-on."
+   },
+   {
+    "title": "Itemize into her sustain",
+    "detail": "Rushing Bramble Vest before Trinity Force, then Black Cleaver into Thornmail, is the measured 66.7%-winrate path — the bleed and Grievous Wounds specifically cut into her Q heal."
+   },
+   {
+    "title": "Use the wall to split push",
+    "detail": "Since you lose straight lane trades, threaten side waves instead — Dark Procession can block a gank path while your Walkers apply pressure elsewhere on the map."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate numbers above are measured from live games on the current patch (16.19.1) via OP.GG; the ability breakdowns, cooldown windows, and the tactical reasoning connecting the two are my own read of the matchup, not sourced data."
+ },
+ "generatedAt": 1791112380650,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791112289903,
+  "overall": {
+   "winRate": 49.2,
+   "play": 55912,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1139,
+   "wins": 552,
+   "winRate": 48.5
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "defensive",
+  "opponentTip": "Irelia has the upper hand in combat. Do not let her close in when she has 5 stacks of (P) while using [E] and [W] to retreat. Use [E] to poke while farming safely.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46,
+    "play": 622,
+    "pickRate": 44.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 371,
+    "pickRate": 26.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.2,
+    "play": 328,
+    "pickRate": 23.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.2,
+    "play": 390,
+    "pickRate": 27.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.8,
+    "play": 260,
+    "pickRate": 18.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.2,
+    "play": 576,
+    "pickRate": 41.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 555,
+    "pickRate": 39.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48,
+    "play": 1216,
+    "pickRate": 91.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.9,
+    "play": 51,
+    "pickRate": 3.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Trinity Force",
+     "Black Cleaver",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 30,
+    "pickRate": 4.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 2.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 2.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.5,
+    "play": 866,
+    "pickRate": 63.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46.8,
+    "play": 466,
+    "pickRate": 34.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.5,
+    "play": 415,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.3,
+    "play": 360,
+    "pickRate": 26.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 53.3,
+    "play": 349,
+    "pickRate": 25.6
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 55.1,
+    "play": 198,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.6,
+    "play": 524
+   }
+  ]
+ }
+}

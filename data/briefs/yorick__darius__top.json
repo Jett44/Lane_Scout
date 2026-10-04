@@ -1,0 +1,389 @@
+{
+ "you": "Yorick",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade inside his E (Apprehend) range and eat a hooked all-in before level 6; you win if you force him to commit E on minions or whiff it, then grind him down with W walls and E (Mourning Mist) poke."
+  },
+  "thesis": "This is a 52.2% win rate over 1172 games because neither side has a clean mechanical answer to the other — Darius wins by landing Apprehend and stacking Hemorrhage to 5 for the enrage, you win by denying that hook with Dark Procession and out-sustaining him with Last Rites. The matchup is decided by whether you respect his E cooldown or walk into it.",
+  "tell": {
+   "watch": "Darius' E (Apprehend) cooldown",
+   "theirWindow": {
+    "when": "His E is up and you're near minions",
+    "what": "Darius can sweep you with Apprehend (range 535, cooldown 26/23.5/21/18.5/16s) and pull you into melee range, then chain Q (Decimate) and W (Crippling Strike) to stack Hemorrhage fast. Hold position outside 535 range or stand behind a minion he'd rather not hook."
+   },
+   "yourWindow": {
+    "when": "He's thrown E on a minion or it's down",
+    "what": "Trade freely — land E (Mourning Mist) for the armor shred, slow and mark, then use Q (Last Rites) on your next auto for the bonus damage and heal. He has no way back into range for several seconds."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Q heal and early Hemorrhage stacking win short trades"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "W wall starts blocking his E engage"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "E slow/shred plus Q sustain outlasts his damage"
+   },
+   {
+    "levels": "12-15",
+    "edge": "even",
+    "note": "His true-damage R punishes any overextension"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Maiden (R) and item power swing extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Run 53.3% over 732 games — the regen and poke-block absorb his early auto trades and Decimate pokes while you wait for W."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "72.3% pick rate and 52.7% win rate — the flat auto-attack reduction directly undercuts Hemorrhage stacking and his enrage window."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item on the strongest listed path (59.1% win over 44 games) — gives you the stats to trade evenly before his items come online."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks with your E's own armor reduction, so your extended trades and skirmishes hit harder than his."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown refund on E (Mourning Mist) and Q (Last Rites) lets you reapply the slow/mark and heal far more often in prolonged fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he is snowballing and his R (Noxian Guillotine) threatens to burst you in one hit"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "he or his team is stacking armor to blunt your physical damage"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "lane is won and you want to split push and pressure towers instead of grouping"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run on 22.8% of games at 52.4% win — the stacking adaptive force rewards exactly the prolonged auto-trading this matchup becomes once W blocks his engage. High-elo players instead favor Grasp of the Undying (51.7% win, 5,865 games at master+) for a tankier lane-sustain approach if you'd rather out-heal his poke than out-damage it.",
+   "primary": [
+    "Triumph",
+    "Legend: Bloodline",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the top pick at 46.7% with a 50.4% win rate, letting you dodge his E engage with Flash and still return to lane or reset waves after trading. Flash+Ignite (55.8% win, 38.5% pick) is the stronger option if you're confident you out-trade him and want to close out early kills."
+  },
+  "playing": [
+   {
+    "title": "Never stand inside 535 range idle",
+    "detail": "Darius' E (Apprehend) hooks anything in that range on a 26-16s cooldown. Last-hit from max auto range and only step in to trade when you've confirmed it's down."
+   },
+   {
+    "title": "Wall him off with W",
+    "detail": "Dark Procession (cooldown 20/18/16/14/12s) blocks movement through it — drop it behind you when he commits E, or between you and him pre-emptively to deny the engage entirely."
+   },
+   {
+    "title": "Track his Hemorrhage stacks",
+    "detail": "At 5 stacks Darius enrages for massive bonus AD. Disengage before he caps stacks rather than trading through the enrage window."
+   },
+   {
+    "title": "Poke with E before committing Q",
+    "detail": "Mourning Mist's armor shred and slow set up your Last Rites auto for bonus damage and sustain — throw E first so the follow-up auto does more and you heal more."
+   },
+   {
+    "title": "Don't fight below 50% without W up",
+    "detail": "His R (Noxian Guillotine) is true damage and scales with your Hemorrhage stacks — at 6s cooldown late it can chain twice if he gets a reset, so bank W as an escape, not just an engage tool."
+   },
+   {
+    "title": "Use Maiden to reset ghoul pressure",
+    "detail": "R (Eulogy of the Isles) raises Walkers from anything it kills — use it in skirmishes near his jungle or dead minions to snowball side-lane pressure after level 6."
+   },
+   {
+    "title": "Play the trade, not the all-in",
+    "detail": "OP.GG's own read holds: keep distance, use W and E to poke, and only trap him in W to finish with Q and E once he's already low — don't initiate full commits."
+   }
+  ],
+  "patchCaveat": "Build, runes, and all win-rate/pick-rate figures are measured OP.GG data from games on the current patch; the mechanical reasoning and trade-pattern advice are my own analysis, not sourced numbers."
+ },
+ "generatedAt": 1791111665032,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791111599972,
+  "overall": {
+   "winRate": 49.2,
+   "play": 55912,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1172,
+   "wins": 612,
+   "winRate": 52.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by his (E) by keeping your distance while using [W] and [E] to contest lane. If he is running low on health, trap him inside [W] and use [Q] and [E] to finish him off.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.4,
+    "play": 706,
+    "pickRate": 46.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.8,
+    "play": 582,
+    "pickRate": 38.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.1,
+    "play": 93,
+    "pickRate": 6.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 353,
+    "pickRate": 22.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.7,
+    "play": 321,
+    "pickRate": 20.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 732,
+    "pickRate": 48.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 364,
+    "pickRate": 24.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.7,
+    "play": 1031,
+    "pickRate": 72.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53.1,
+    "play": 239,
+    "pickRate": 16.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 60.7,
+    "play": 61,
+    "pickRate": 6.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 59.1,
+    "play": 44,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Sterak's Gage"
+    ],
+    "winRate": 75.9,
+    "play": 29,
+    "pickRate": 3.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 53.6,
+    "play": 935,
+    "pickRate": 63
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.4,
+    "play": 586,
+    "pickRate": 39.5
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 56.3,
+    "play": 540,
+    "pickRate": 36.4
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 53.7,
+    "play": 335,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 54.9,
+    "play": 297,
+    "pickRate": 20
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.1,
+    "play": 224,
+    "pickRate": 15.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53,
+    "play": 564
+   }
+  ],
+  "highElo": {
+   "keystone": "Grasp of the Undying",
+   "tree": "Resolve",
+   "play": 5865
+  }
+ }
+}

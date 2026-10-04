@@ -1,0 +1,388 @@
+{
+ "you": "Yorick",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, but losing",
+   "line": "You win if you only commit your wall-and-burst combo while her Lunge (Q) and Riposte (W) are both down; you lose if you trade autos into an up Riposte or let Burst of Speed (E) carry an extended fight."
+  },
+  "thesis": "The lane itself is statistically even — EVEN lane advantage, EVEN solo-kill rate — but Yorick sits at 45.6% over 1062 games because every one of his tools (empowered Q auto, E globule, W wall) is a single, telegraphed commitment that Fiora's Riposte and double-dash Lunge are built to answer. This isn't a lane you get bullied out of; it's one you lose by trading on her terms instead of yours.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "Her E (Burst of Speed) is active",
+    "what": "Burst of Speed gives her attack speed plus stacking move speed on every landed hit or Lunge, so once it's up she wins a straight stand-and-trade and can chase you down afterward. Disengage rather than keep swinging."
+   },
+   "yourWindow": {
+    "when": "Her Q and W are both on cooldown",
+    "what": "With Lunge (16-8s CD) and Riposte (10-6s CD) both down, she has no dash to escape your Dark Procession wall and no parry to eat your empowered Q auto. This is the only window to fully commit Q into W into extended damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither kit is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Burst of Speed unlocked, outpaces your single Q"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Blade Waltz all-in beats your wall timing"
+   },
+   {
+    "levels": "11-14",
+    "edge": "even",
+    "note": "Trinity Force online, wall cooldown shrinks"
+   },
+   {
+    "levels": "15-18",
+    "edge": "you",
+    "note": "Black Cleaver plus Maiden push outscale her"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Measured as the stronger start into her (46.4% over 715 games, 53.8% pick) — the flat damage reduction on the first hit each trade blunts her Duelist passive stacking off Lunge pokes."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Run in 79.9% of games at 46.4% win rate; cuts down the physical damage from her autos and Lunge during the levels where Burst of Speed lets her stay on top of you."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Core first item in every listed build path; the attack speed and bonus damage make your empowered Q auto and wall-trap trades hit far harder."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "66.7% win rate in the Trinity > Cleaver > Shojin path (24 games); the armor shred stacks on top of your E's armor reduction so her Riposte AD steroid matters less."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Appears in every listed core path; ability haste shortens W (Dark Procession) back down toward its 12s floor, letting you re-trap her faster after she burns Lunge."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's stacking Duelist healing and out-sustaining your trades through mid-game"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "you need grievous wounds online earlier than Thornmail completes to shut down her passive"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "she's kiting your wall using Burst of Speed and you need the slow to pin her"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "she's all-inning off Blade Waltz at level 6 and you need the health buffer to survive the burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Her Duelist passive wins short trades through sustain; Grasp procs on the same empowered auto your Q sets up, giving you a heal-back on every exchange instead of losing the sustain race outright.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest measured win rate of the three common pages (47.4%, 36.9% pick) — Ignite answers her Duelist passive healing directly and closes out the kill once you've landed a wall-trap combo."
+  },
+  "playing": [
+   {
+    "title": "Wall only after her Lunge is spent",
+    "detail": "Dark Procession has no effect if she can just dash through or away — commit your W the moment she's thrown out Q (Lunge, 16-8s CD), not before."
+   },
+   {
+    "title": "Don't auto into an active Riposte",
+    "detail": "Riposte parries her next incoming basic attack and reflects magic damage; your empowered Q auto is exactly what it's built to eat. Hold the Q auto until her 10-6s W cooldown is confirmed down."
+   },
+   {
+    "title": "Poke with E through her Riposte",
+    "detail": "Mourning Mist is a thrown globule, not a basic attack, so it passes through an active Riposte untouched — use it to apply the armor shred and slow safely while her parry is up."
+   },
+   {
+    "title": "Respect the level 6-10 all-in",
+    "detail": "Blade Waltz hits you repeatedly in a 1v1 with diminishing returns per strike, which is still a lot of single-target damage. Play for freezes near your own wall rather than extended exposure in this window."
+   },
+   {
+    "title": "Fight next to terrain after she ults",
+    "detail": "Blade Waltz repositions her onto her target each strike; staying tight to your Dark Procession wall or jungle terrain limits how far she can keep relocating onto you."
+   },
+   {
+    "title": "Spend Q every exchange, don't bank it",
+    "detail": "Last Rites drops to a 4.5-4s cooldown at higher ranks and heals you on the empowered hit — using it on cooldown in every trade offsets her passive sustain better than saving it."
+   },
+   {
+    "title": "Push waves once R is up",
+    "detail": "From level 6, Eulogy of the Isles' Maiden adds bonus damage to your target and strong wave clear; she has no clean answer to a pushed Maiden lane, so force tempo instead of standing still to duel."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured from live OP.GG games on the current patch (16.19.1); the ability breakdowns and trade-timing advice are my own tactical reading, not sourced data."
+ },
+ "generatedAt": 1791111985955,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791111889720,
+  "overall": {
+   "winRate": 49.2,
+   "play": 55912,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1062,
+   "wins": 484,
+   "winRate": 45.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with (Q) while trapping her inside [W] when (Q) is on cooldown. Do not let her absorb both [Q] and [E] with her (W). If used (R), try to stick to a wall while dealing damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.5,
+    "play": 594,
+    "pickRate": 45.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.4,
+    "play": 483,
+    "pickRate": 36.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.1,
+    "play": 141,
+    "pickRate": 10.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.5,
+    "play": 318,
+    "pickRate": 23.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 174,
+    "pickRate": 13.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.4,
+    "play": 715,
+    "pickRate": 53.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 42.7,
+    "play": 342,
+    "pickRate": 25.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.4,
+    "play": 1000,
+    "pickRate": 79.9
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.4,
+    "play": 116,
+    "pickRate": 9.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 33.3,
+    "play": 30,
+    "pickRate": 4.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 66.7,
+    "play": 24,
+    "pickRate": 3.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Sterak's Gage"
+    ],
+    "winRate": 54.2,
+    "play": 24,
+    "pickRate": 3.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 49,
+    "play": 802,
+    "pickRate": 62.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.7,
+    "play": 425,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.6,
+    "play": 420,
+    "pickRate": 32.9
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 44.8,
+    "play": 335,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 40.6,
+    "play": 298,
+    "pickRate": 23.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 46.2,
+    "play": 210,
+    "pickRate": 16.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 49.9,
+    "play": 573
+   }
+  ]
+ }
+}

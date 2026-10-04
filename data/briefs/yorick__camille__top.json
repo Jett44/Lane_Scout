@@ -1,0 +1,380 @@
+{
+ "you": "Yorick",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Yorick-favoured",
+   "line": "You lose if you walk into Hookshot engage with your wall on cooldown; you win if you dig a grave, zone with E, and force her into trades she can't profitably start."
+  },
+  "thesis": "Camille has no sustain tool besides W's cone heal and no way to reset neutral once her E (Hookshot) is down, so Yorick's W (Dark Procession) wall directly counters her only engage/escape tool by boxing her in or locking her out. Yorick's win condition is a slow siege: stack graves with Q (Last Rites), poke with E (Mourning Mist), and never let her Q (Precision Protocol) empowered auto land for free.",
+  "tell": {
+   "watch": "Camille's E (Hookshot) cooldown",
+   "theirWindow": {
+    "when": "E is up and you're near a wall",
+    "what": "She can Hookshot off terrain to engage or disengage with a guaranteed knockup on landing. Back off from walls or pre-place your own W to block the hook's landing zone."
+   },
+   "yourWindow": {
+    "when": "Her E (Hookshot) is on cooldown (16-12s)",
+    "what": "She has zero gap-close or escape. Walk up, land Q (Last Rites) for the heal, and use E (Mourning Mist) to shred her armor and slow — she cannot punish this window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has full combo; trade only on her Q cooldown"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Camille gets E engage + Q burst online first"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Grasp sustain and W walls outscale her all-in"
+   },
+   {
+    "levels": "12-15",
+    "edge": "you",
+    "note": "Trinity Force spike lets you win extended trades"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Her ult picks you if caught alone in side lane"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Blocks the harass from her empowered Q auto and W cone poke so you aren't zoned off minions before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "She's entirely physical damage from autos and Q/W/R procs; the flat reduction on repeated hits outvalues Mercury's here."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The spellblade proc turns your Q-empowered auto into real burst and lets you actually win a trade once she's committed her E."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction lets you throw E (Mourning Mist) and dig graves with Q more often, which is your whole win condition against her lack of sustain."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds her armor further on top of your E's reduction, making your autos and Trinity proc hit much harder through her passive shield."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "she is landing her full Q-into-E all-in on you repeatedly"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "she builds armor or you need the slow to stop her kiting after Hookshot"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "lane is won and you want to push waves and split since she has no wave-clear answer to Mist Walkers"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the slow grinding trades this matchup wants — proc Grasp on her every time she walks up post-E, and the max-health damage plus heal wins attrition she can't match without sustain.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the most-picked combo (52% pick rate) because Yorick wants to use his wave-shoving graves to roam or reset after she commits Hookshot; Flash is your only answer to her E engage range (800)."
+  },
+  "playing": [
+   {
+    "title": "Hold E for her Q window",
+    "detail": "Throw Mourning Mist the moment she commits her empowered Q auto (after the delay for bonus damage) — she can't dodge it mid-animation and you get the slow to punish the recast window."
+   },
+   {
+    "title": "Wall her hook landing spot",
+    "detail": "W (Dark Procession) placed on the terrain she's about to Hookshot off of blocks the dash entirely, per OP.GG's own read on this lane — bait the E, then box her in."
+   },
+   {
+    "title": "Don't rush all-ins blind",
+    "detail": "You have the solo-kill edge in this matchup, but only after you've wasted her E — rushing while Hookshot is up just hands her the knockup and the trade."
+   },
+   {
+    "title": "Dig graves every Q cycle",
+    "detail": "Last Rites is up every 6-4s depending on rank; land it on minions or her to keep grave count high so your Mist Walkers are swarming by mid-lane."
+   },
+   {
+    "title": "Track her ult at 11",
+    "detail": "The Hextech Ultimatum (140-90s cooldown, 475 range) anchors you in place from level 6 but only unlocks real pressure once she has Trinity-equivalent damage around 11 — respect roams after that point."
+   },
+   {
+    "title": "Freeze if you're already ahead",
+    "detail": "Since Yorick has lane and solo-kill advantage here, freezing near your tower after level 6 denies her the E-engage space she needs off jungle walls or river bushes."
+   }
+  ],
+  "patchCaveat": "Build order, rune pages, and the 49.5% head-to-head win rate over 689 games are measured from live OP.GG data on patch 16.19.1; the ability readings, timing windows, and trade logic are my own analysis of the kit interactions."
+ },
+ "generatedAt": 1791112069496,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791112033663,
+  "overall": {
+   "winRate": 49.2,
+   "play": 55912,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 689,
+   "wins": 341,
+   "winRate": 49.5
+  },
+  "laneAdvantage": "Yorick",
+  "soloKillAdvantage": "Yorick",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being hit with Camille’s (E). Trap her inside [W] if she closes in with (E). Try not to make a mistake by rushing as you can easily kill her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 435,
+    "pickRate": 52
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 285,
+    "pickRate": 34.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 56,
+    "play": 75,
+    "pickRate": 9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 220,
+    "pickRate": 25.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.2,
+    "play": 122,
+    "pickRate": 14.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.2,
+    "play": 413,
+    "pickRate": 49.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52.4,
+    "play": 227,
+    "pickRate": 27
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.7,
+    "play": 571,
+    "pickRate": 72.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.5,
+    "play": 99,
+    "pickRate": 12.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 64.3,
+    "play": 42,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Sterak's Gage"
+    ],
+    "winRate": 48,
+    "play": 25,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Hullbreaker",
+     "Spear of Shojin"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 4.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 49.8,
+    "play": 562,
+    "pickRate": 68
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 53.4,
+    "play": 305,
+    "pickRate": 36.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.4,
+    "play": 269,
+    "pickRate": 32.6
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 45.5,
+    "play": 167,
+    "pickRate": 20.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50.4,
+    "play": 133,
+    "pickRate": 16.1
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 52.3,
+    "play": 132,
+    "pickRate": 16
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.2,
+    "play": 377
+   }
+  ]
+ }
+}

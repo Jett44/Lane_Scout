@@ -1,0 +1,386 @@
+{
+ "you": "Teemo",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand still for Ki Burst range or let her stack Runic Blade charges uncontested; you win every trade where you blind her before she closes."
+  },
+  "thesis": "Riven has no ranged poke, so every point of damage she deals to you has to come through Valor's engage or Broken Wings' dash chain, both of which are single-target, short-range, and telegraphed. Teemo's Q (Blinding Dart) directly answers that by blinding her mid-engage, turning her all-in into a whiffed stun attempt and empowered autos that miss. The data backs this as genuinely even on paper (52.6% over 618 games) but defensive in shape — she wins the all-in if she lands it clean, you win the poke war if she doesn't.",
+  "tell": {
+   "watch": "Her E (Valor) cooldown",
+   "theirWindow": {
+    "when": "Valor and Broken Wings both up",
+    "what": "She can chain E in to close the gap then Q three times with the knockback on the third hit — if W (Ki Burst) is also up, that stun locks you for the full combo. Back off or pre-emptively Q her face the instant she starts the dash."
+   },
+   "yourWindow": {
+    "when": "Her E (Valor) is on cooldown",
+    "what": "She has no gap closer and no damage block for 10 (down to 6 at rank 5) seconds. Walk up, poke with E (Toxic Shot) autos, and don't give up trades just because she's in range — she can't punish you back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has full kit online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Ki Burst stun unlocks her all-in"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your poke offsets her burst window"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Shiv/Liandry's online, she falls off"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "R (Blade of Exile) is a one-time cooldown reset"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "51.8% win rate over 598 games and the 75.3% pick — the extra sustain from two potions matters because Riven's trades are burst, not poke, so you need HP to survive a bad all-in window, not mana."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "54.3% win rate over 291 games — Riven has no reliable CC beyond Ki Burst's short stun, so you don't need Swiftness to dodge skillshots; magic pen compounds your poke damage instead."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "Mobility and a proc that rewards you for kiting instead of standing in Ki Burst range"
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "58.8% win rate over 194 games on this path — burn damage punishes her for closing distance and staying in E (Toxic Shot) range during her all-in"
+    },
+    {
+     "item": "Malignance",
+     "why": "Completes the highest win-rate path (58.8%) and spikes your R (Noxious Trap) damage for zone control around her engage lane"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "she's building any magic resist or you're ahead and want burst over DoT"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you're snowballing and want attack speed to stack E (Toxic Shot) ticks faster in extended trades"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need the extra utility/stats item to close out"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "52.4% win rate on this page — the true damage proc rewards landing three autos between her dash windows, which is exactly the poke pattern this lane runs on.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "86.8% pick rate and the highest win rate on record (51.5%) — Ignite punishes her all-in commitment since she has no sustain to out-heal the burn once she's dumped Valor and Broken Wings into you."
+  },
+  "playing": [
+   {
+    "title": "Q her the instant Valor starts",
+    "detail": "Blinding Dart has an 8s cooldown and 680 range, far outside her 250-range E — fire it the moment she dashes in so her empowered autos from Runic Blade whiff on arrival."
+   },
+   {
+    "title": "Track Ki Burst cooldown, not just Valor",
+    "detail": "W (Ki Burst) scales from 11s down to 7s by rank 5 and stuns on hit — if both W and E are up at once, that's her full all-in window and the moment you should be walking back, not forward."
+   },
+   {
+    "title": "Trade freely when E is down",
+    "detail": "With no gap closer for up to 10 seconds early, she physically cannot punish your E (Toxic Shot) poke — walk up and auto, she has no answer."
+   },
+   {
+    "title": "Respect the Broken Wings knockback on reactivation three",
+    "detail": "Her Q can be used three times in a short window, each a 275-range dash; the third hit knocks back, which can reposition you into a bad spot or peel you off a kill — don't facecheck brush after she's used two charges."
+   },
+   {
+    "title": "Camouflage after a trade, not before",
+    "detail": "Standing still long enough to trigger Camouflage near her is only safe once her all-in cooldowns (Q/W/E) are confirmed down — baiting invisibility into a live Ki Burst just feeds her a free stun."
+   },
+   {
+    "title": "Save R (Noxious Trap) for her dash lanes",
+    "detail": "Cooldown is only 1s per cast, so drop traps on the exact tiles she'll Broken Wings or Valor through — the slow and DoT chip her through an engage even if she lands the stun."
+   },
+   {
+    "title": "Watch for her R before all-in trades late",
+    "detail": "Blade of the Exile's cooldown drops to 10s at rank 5 and grants bonus AD/range plus Wind Slash — if she's near max level and you see her blade glow, assume the all-in is backed by a ranged poke you can't blind away."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner picks, and the 52.6%-over-618-games head-to-head number are measured OP.GG data on the current patch (16.19.1); the ability interactions, timing windows, and trade patterns explaining why those numbers land this way are this brief's own tactical read."
+ },
+ "generatedAt": 1791110562493,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791110520767,
+  "overall": {
+   "winRate": 51.1,
+   "play": 83197,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 618,
+   "wins": 325,
+   "winRate": 52.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful when Riven closes in using Valor (E)! Hit her with Blinding Darts [Q] if she closes in first to block the damage on her basic attacks.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 678,
+    "pickRate": 86.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.6,
+    "play": 57,
+    "pickRate": 7.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 4.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 294,
+    "pickRate": 36.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.6,
+    "play": 65,
+    "pickRate": 8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 598,
+    "pickRate": 75.3
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.4,
+    "play": 140,
+    "pickRate": 17.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 54.3,
+    "play": 291,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.6,
+    "play": 229,
+    "pickRate": 30.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 58.8,
+    "play": 194,
+    "pickRate": 36.5
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 50,
+    "play": 44,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 52.8,
+    "play": 599,
+    "pickRate": 78.4
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 54.2,
+    "play": 553,
+    "pickRate": 72.4
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 56.1,
+    "play": 408,
+    "pickRate": 53.4
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 58,
+    "play": 162,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 50,
+    "play": 116,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50.5,
+    "play": 111,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 55.3,
+    "play": 246
+   }
+  ]
+ }
+}
