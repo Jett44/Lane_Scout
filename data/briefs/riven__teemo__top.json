@@ -1,0 +1,384 @@
+{
+ "you": "Riven",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose the poke war before level 6 but win forced all-ins whenever Teemo's Blinding Dart is down."
+  },
+  "thesis": "Teemo's E (Toxic Shot) has a 680 range and 0 cooldown, so he can poke you for free every time you step up to farm pre-6 with no way for you to close the gap. After level 3 your Q (Broken Wings) dash chain plus W (Ki Burst) stun let you punish the 8-second window whenever his Q (Blinding Dart) is on cooldown, which is where your solo-kill edge comes from even though the overall matchup sits at an even 48.2% win rate over 575 games.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "you approach minions to last-hit",
+    "what": "Teemo auto-attacks you with E (Toxic Shot, 0s cooldown, 680 range) for free poison damage every time you're in minion range. Stand at the edge of caster aggro and let your casters tank until level 3."
+   },
+   "yourWindow": {
+    "when": "right after his Q lands on something",
+    "what": "Blinding Dart is on an 8s cooldown once used, so immediately dash in with Q (Broken Wings) and chain into W (Ki Burst, stuns) before it resets and he can blind your autoattacks mid-fight."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "uncontested E poke, no gap closer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q-dash plus W stun punishes blind cooldown"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his traps zone, your R threatens kills"
+   },
+   {
+    "levels": "9-14",
+    "edge": "you",
+    "note": "Axiom Arc burst snowballs forced trades"
+   },
+   {
+    "levels": "15-18",
+    "edge": "even",
+    "note": "his on-hit poison and traps stay relevant"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The extra sustain (48.2% WR, 54.5% pick over 425 games) lets you out-heal his free E poke while you wait out the level 1-2 range disadvantage."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "52% WR over 256 games; the magic resist blunts his Toxic Shot and trap damage, and tenacity cuts the slow duration on Noxious Trap when you're forced to dive it."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Highest-measured core path (58% WR over 88 games) and gives you the burst to close out the all-ins you start in his blind-cooldown windows."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Sustain and magic penetration help you win extended trades once he's forced to stand and fight instead of kiting."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time mitigation directly answers his stacking poison from Toxic Shot during drawn-out skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Maw of Malmortius",
+     "when": "he's ahead and burst-poking you down with Blinding Dart plus autos before you can engage"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're already snowballing off solo kills and want a bigger single-target burst spike"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "the lane drags into a sustained poke war and you need the healing proc to keep farming through his E"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking damage and healing reward the extended trades you force once you close the gap, offsetting the chip damage he lands while kiting.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Dominant pick at 92.8% with a 46.4% WR; Ignite converts your solo-kill advantage into actual kills on his squishy, regen-less frame once your all-in lands."
+  },
+  "playing": [
+   {
+    "title": "Hold max range before level 3",
+    "detail": "His E (Toxic Shot) has 0 cooldown and 680 range, so every auto he lands while you're near minions is free damage. Stand at the edge of caster aggro and let your casters eat it until you hit level 3."
+   },
+   {
+    "title": "Engage only after his Q is spent",
+    "detail": "Blinding Dart is on an 8s cooldown; wait for him to use it on a ward or poke attempt, then immediately close with Q (Broken Wings) so your autoattacks aren't blinded mid-fight."
+   },
+   {
+    "title": "Chain Q into W for the real trade",
+    "detail": "Use Broken Wings' dash sequence to close his range gap, then land Ki Burst's stun (11/10/9/8/7s cooldown) before he can kite — that stun is your only guaranteed full-damage window since he has no hard escape."
+   },
+   {
+    "title": "Save Valor's block for his first poke",
+    "detail": "E (Valor) blocks one incoming instance of damage; trigger it as you engage to eat his opening auto or poison tick, not passively while farming."
+   },
+   {
+    "title": "Respect camouflage near his trap routes",
+    "detail": "If he stands still he goes invisible indefinitely and gains bonus attack speed on reappearing. Don't walk blind into brush near jungle entrances, especially from level 6 on when he starts laying Noxious Traps."
+   },
+   {
+    "title": "Hold ult for the finish, not the open",
+    "detail": "Blade of the Exile drops to a 10s cooldown after its first cast and grants Wind Slash as a ranged execute. Save it to finish him when he tries to kite out of Ki Burst range instead of popping it to initiate."
+   },
+   {
+    "title": "Rush Axiom Arc to snowball",
+    "detail": "The measured 58% WR core (Axiom Arc into Endless Hunger into Death's Dance) gives the burst to actually kill him during the blind-cooldown windows you fight for."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are measured OP.GG stats from live games on the current patch; the tactical reading of ability timings and trade windows is my own analysis."
+ },
+ "generatedAt": 1791076130211,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791076049007,
+  "overall": {
+   "winRate": 49.6,
+   "play": 42602,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 575,
+   "wins": 277,
+   "winRate": 48.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being harassed by Teemo before reaching level 3 by keeping your distance and farming lane. Afterwards, use [Q] slowly to catch Teemo off guard to nuke him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.4,
+    "play": 709,
+    "pickRate": 92.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 4.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 2.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.9,
+    "play": 286,
+    "pickRate": 36
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 93,
+    "pickRate": 11.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 425,
+    "pickRate": 54.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 277,
+    "pickRate": 35.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 46.8,
+    "play": 406,
+    "pickRate": 54.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52,
+    "play": 256,
+    "pickRate": 34.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 58,
+    "play": 88,
+    "pickRate": 18.1
+   },
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Maw of Malmortius"
+    ],
+    "winRate": 42.4,
+    "play": 33,
+    "pickRate": 6.8
+   },
+   {
+    "items": [
+     "Axiom Arc",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 74.1,
+    "play": 27,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 55.6,
+    "play": 448,
+    "pickRate": 59.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.3,
+    "play": 394,
+    "pickRate": 52.3
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 50.7,
+    "play": 379,
+    "pickRate": 50.3
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 50.3,
+    "play": 368,
+    "pickRate": 48.8
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 45.8,
+    "play": 238,
+    "pickRate": 31.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 44.7,
+    "play": 76,
+    "pickRate": 10.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50.1,
+    "play": 365
+   }
+  ]
+ }
+}

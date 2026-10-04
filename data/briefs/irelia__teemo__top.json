@@ -1,0 +1,380 @@
+{
+ "you": "Irelia",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Marginal edge, yours",
+   "line": "You lose if you walk into Blinding Dart range and trade autos into his poison; you win if you time your E-into-Q all-in for the 8 seconds after his Q is spent."
+  },
+  "thesis": "Every source of Teemo's damage — Q (Blinding Dart), E (Toxic Shot), and R (Noxious Trap) — is magic, and his only answer to Irelia's engage is the blind on Q, which stops autoattacks but does nothing to spell damage. Since Irelia's stun (E, Flawless Duet) and gap-close (Q, Bladesurge) are both spells, she can force the fight exactly when his Blinding Dart is down, which is why the lane sits at a near-even 50.3% over 1160 games with a measured solo-kill edge in her favor.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Q (Blinding Dart) is up",
+    "what": "He baits you into range and lands Blinding Dart (8s cooldown, 680 range) before you swing, denying your autoattacks and passive attack-speed stacking while he free-hits you with E (Toxic Shot)."
+   },
+   "yourWindow": {
+    "when": "right after he spends Q",
+    "what": "Flash E (Flawless Duet, 850 range) through him for the stun and Mark, then Q (Bladesurge) dashes in free since it refreshes off a Marked target — he has no blind for 8 seconds to stop the follow-up autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q blind and ranged autos poke before your E exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E stun plus Q dash unlocks the all-in"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R mushrooms zone brush, trade pattern unchanged"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Blade of The Ruined King shreds his low HP"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Wit's End MR and attack speed outscale his poke"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "51.8% win rate over 1156 games and the highest pick at 80.2% — the extra sustain and damage let you out-trade his poison chip instead of losing the lane to attrition."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "53.6% win rate over 1098 games, 80.5% pick — every one of his damage sources (Q, E, R) is magic, so flat magic resist directly counters his whole kit."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Current-health physical damage and the slow punish his low base HP and lack of peel the moment you land Q."
+    },
+    {
+     "item": "Wit's End",
+     "why": "62.4% win rate over 170 games on this path — stacking magic resist plus attack speed is the direct answer to his all-magic damage profile."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Rewards you for shoving the wave after winning trades, converting lane dominance into structure pressure he can't contest."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you are ahead and want to shrug off his poison DoT ticks during extended skirmishes"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "you fall behind on levels and need insurance against his poke before you can close the all-in"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "he kites and splits poke rather than standing still, and you need the bonus true damage proc to punish dashes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through the extended autoattack-and-spell trades this lane produces and the healing conversion keeps you ahead of his poison ticks during the all-in.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "53% win rate and 77.5% pick — Ignite's damage ignores his low sustain and closes out the kill in the window right after his Q is spent, converting your solo-kill edge into an actual kill."
+  },
+  "playing": [
+   {
+    "title": "Chain E into Q, not autos",
+    "detail": "Blinding Dart only blocks autoattacks — Flawless Duet's stun and Bladesurge's dash damage are spells, so they go through even if he lands the blind."
+   },
+   {
+    "title": "All-in right after his Q",
+    "detail": "His Blinding Dart is on an 8 second cooldown with 680 range; commit your engage the moment you see it fire, not before."
+   },
+   {
+    "title": "Poke from 850, not 680",
+    "detail": "Flawless Duet's range outreaches both his autoattacks and Blinding Dart, so you can threaten the stun from a distance he can't punish."
+   },
+   {
+    "title": "Respect mushrooms in brush",
+    "detail": "Noxious Trap has only a 1 second cooldown and 230 range, so he can carpet tri-bush and river entrances — don't walk blind into unwarded brush."
+   },
+   {
+    "title": "Deprioritize W against his all-magic kit",
+    "detail": "Defiant Dance only reduces physical damage taken, which does nothing against Q, E, or R — this is why the common skill order (QEWQQRQWQWRWWEE) levels W last; follow it here."
+   },
+   {
+    "title": "Itemize magic resist early",
+    "detail": "Mercury's Treads and Wit's End are your actual counters to his poke, not W — rush them over pure damage if his poison starts adding up."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.19.1); the tactical reasoning — why the Q-cooldown window works and why W is deprioritized — is my own read of the ability mechanics, not a stat."
+ },
+ "generatedAt": 1791076045120,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791075948752,
+  "overall": {
+   "winRate": 50.3,
+   "play": 81948,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1160,
+   "wins": 583,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "aggressive",
+  "opponentTip": "Absorb Jayce’s damage with a well-timed [W]. Easily get a kill by landing [E] successfully whenever Irelia has [P] stacks prepared.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53,
+    "play": 1111,
+    "pickRate": 77.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.9,
+    "play": 184,
+    "pickRate": 12.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 39.8,
+    "play": 93,
+    "pickRate": 6.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 53.6,
+    "play": 453,
+    "pickRate": 30.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.9,
+    "play": 273,
+    "pickRate": 18.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 1156,
+    "pickRate": 80.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 120,
+    "pickRate": 8.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.6,
+    "play": 1098,
+    "pickRate": 80.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.7,
+    "play": 199,
+    "pickRate": 14.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 56.8,
+    "play": 222,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Wit's End",
+     "Hullbreaker"
+    ],
+    "winRate": 62.4,
+    "play": 170,
+    "pickRate": 16.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Wit's End",
+     "Death's Dance"
+    ],
+    "winRate": 48.9,
+    "play": 137,
+    "pickRate": 13
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 52.4,
+    "play": 1354,
+    "pickRate": 96
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 54.3,
+    "play": 898,
+    "pickRate": 63.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 55.2,
+    "play": 665,
+    "pickRate": 47.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54,
+    "play": 578,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 52.9,
+    "play": 280,
+    "pickRate": 19.9
+   },
+   {
+    "items": [
+     "Guardian Angel"
+    ],
+    "winRate": 50.9,
+    "play": 161,
+    "pickRate": 11.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.8,
+    "play": 363
+   }
+  ]
+ }
+}

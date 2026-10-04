@@ -1,0 +1,389 @@
+{
+ "you": "Shen",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose this lane if you trade into his Umbral Dash (E) and Deathbringer Stance autos before level 6; you win it by scaling Ki Strike sustain and tank items into a 1-13+ splitpush."
+  },
+  "thesis": "Aatrox's The Darkin Blade (Q) cooldown drops from 14s to 6s by level 5 and his Umbral Dash (E) heals him on every champion hit it lands, so he out-sustains and out-trades Shen in nearly every direct exchange before level 6 — matching the measured 48.1% head-to-head over 1687 games and the defensive matchup shape. Shen has no tool to punish his dashes early; the lane is won by surviving to tank itemization and turning the global range on Stand United (R) into map pressure instead of forcing even trades.",
+  "tell": {
+   "watch": "Aatrox's Umbral Dash (E) cooldown",
+   "theirWindow": {
+    "when": "Umbral Dash (E) is up",
+    "what": "He can freely dash in, land a hit for sustain off its passive, and dash back out before you punish. Don't commit to a trade here — hold Feint (W) for the empowered Deathbringer Stance auto instead of contesting."
+   },
+   "yourWindow": {
+    "when": "Both his Q and E are on cooldown",
+    "what": "He has no burst and no dash to disengage. Step in with Vorpal Blade (Q) for the life-tap sustain and walk away before his auto-attack reset catches up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Deathbringer Stance autos outtrade your Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown shrinking, Infernal Chains threatens farm"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "World Ender (R) online, kill pressure peaks"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Ki Strike sustain and core items close the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Thornmail tankiness, Stand United (R) map presence"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Run by 70% of Shen players in this matchup for the passive regen and harass block against his auto-reliant poke before 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "82.3% pick rate here — directly reduces the damage from his basic attacks and Deathbringer Stance-empowered autos."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "The measured 52.7%-winrate line into Dusk and Dawn and Thornmail starts here, giving you wave clear and sustained trading power."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in the strongest-sampled build path (110 games), adding the stats to actually survive his 6+ all-ins."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Directly punishes his Deathbringer Stance and Umbral Dash healing by reflecting damage back on every auto he lands."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "he's rushing an aggressive all-in pattern pre-6 — the Bramble-into-Thornmail line posts 62.1% over 29 games"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "you need the active slow and extra tankiness over Thornmail's pure reflect"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you need raw HP stacking for splitpush duels"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "teamfights are forming and you need AoE wave clear alongside your tank stats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs off the extra auto you're weaving in for Ki Strike cooldown reduction, giving sustained healing and a slow in every extended trade.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 67.3% of games with the higher measured 50.9% winrate, converting your sustain-based trades into kill pressure once he's low."
+  },
+  "playing": [
+   {
+    "title": "Track Umbral Dash cooldown",
+    "detail": "He heals off every champion hit landed while Umbral Dash (E, cd 9/8/7/6/5s) is up. Don't trade into it — wait for it to go down before engaging."
+   },
+   {
+    "title": "Hold Feint for Deathbringer procs",
+    "detail": "Save Feint (W) for his empowered Deathbringer Stance auto rather than popping it on normal hits, since it only absorbs for a few seconds."
+   },
+   {
+    "title": "Taunt him off his dash cooldown",
+    "detail": "Shadow Dash (E) taunts every enemy champion it passes through (cd 16-8s, range 575) — use it to lock him into attacking you while your shield or allies punish him."
+   },
+   {
+    "title": "Weave Ki Strike into every exchange",
+    "detail": "Your passive's cooldown drops further with each hit landed on a unit, so always take the free auto in a trade to both proc Grasp of the Undying and speed up your next empowered hit."
+   },
+   {
+    "title": "Don't contest right after his level 6",
+    "detail": "World Ender (R, cd 120/100/80s) fears nearby minions and boosts his AD, healing, and move speed — play for wave state and vision instead of forcing a trade until you have Thornmail."
+   },
+   {
+    "title": "Rush Bramble Vest vs aggressive all-ins",
+    "detail": "If he's fighting for every trade pre-6, the Bramble Vest-into-Thornmail line directly cuts his Deathbringer Stance and Umbral Dash sustain."
+   },
+   {
+    "title": "Convert the deficit into splitpush",
+    "detail": "Stand United (R) has global range and doesn't need lane dominance — once Plated Steelcaps and Titanic Hydra are online, push side lanes and teleport into fights rather than forcing even trades."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample numbers are measured from live games on the current patch; the mechanical reasoning and trade-pattern advice are my own interpretation layered on top of that data."
+ },
+ "generatedAt": 1791074654082,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791074566304,
+  "overall": {
+   "winRate": 51.3,
+   "play": 65040,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1687,
+   "wins": 811,
+   "winRate": 48.1
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being airborne by Aatrox’s (Q). Use [E] when Aatrox uses his first (Q) to engage combat while avoiding being airborne.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.9,
+    "play": 1345,
+    "pickRate": 67.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.3,
+    "play": 601,
+    "pickRate": 30.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.7,
+    "play": 35,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.6,
+    "play": 734,
+    "pickRate": 35.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47,
+    "play": 436,
+    "pickRate": 21.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.6,
+    "play": 1414,
+    "pickRate": 70
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52.8,
+    "play": 559,
+    "pickRate": 27.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.9,
+    "play": 1519,
+    "pickRate": 82.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.9,
+    "play": 221,
+    "pickRate": 12
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 52.7,
+    "play": 110,
+    "pickRate": 15.5
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 55.2,
+    "play": 29,
+    "pickRate": 4.1
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 62.1,
+    "play": 29,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 51.2,
+    "play": 1527,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.2,
+    "play": 868,
+    "pickRate": 43.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 55.7,
+    "play": 630,
+    "pickRate": 31.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.6,
+    "play": 619,
+    "pickRate": 31.2
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.4,
+    "play": 287,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 49.8,
+    "play": 233,
+    "pickRate": 11.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.1,
+    "play": 1138
+   }
+  ]
+ }
+}

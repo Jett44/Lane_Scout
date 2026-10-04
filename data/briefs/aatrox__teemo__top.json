@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Q poke before level 3 and let Doran's Shield Teemo out-sustain your trades; you win if you commit E through blind and force all-ins once you hold Conqueror stacks and item spikes."
+  },
+  "thesis": "This is a 48% head-to-head over 2011 games despite Aatrox holding the lane-advantage and solo-kill-advantage tags, because Teemo's Toxic Shot (E) and Blinding Dart (Q) chip you down from range for free while your own damage requires walking into that range. The matchup is close precisely because Aatrox's E (Umbral Dash) and R (World Ender) let him close the gap and punish any all-in once levels and items let him survive the poke long enough to land it.",
+  "tell": {
+   "watch": "Teemo's Q (Blinding Dart) cooldown",
+   "theirWindow": {
+    "when": "Your Q (Darkin Blade) or E on cooldown",
+    "what": "Teemo free-hits with Toxic Shot autos and threatens Blinding Dart; back off rather than trade blind, since a landed Q blinds your next basic attacks including your Deathbringer Stance passive proc."
+   },
+   "yourWindow": {
+    "when": "His Q (Blinding Dart) just used, 8s cooldown",
+    "what": "Dash in with E (Umbral Dash) and commit your full Q (Darkin Blade) swing chain; he has no way to blind or disengage your stick for 8 seconds, so this is when you force the real trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Toxic Shot autos poke free before you have combos"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "full kit online, trade only after his Q"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R (World Ender) turns all-ins lethal"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Eclipse/Sundered Sky spikes close the gap damage"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Death's Dance sustain vs his split-push mushrooms"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "the 49.2% win rate pick (1865 games, 71.8% pick rate) exists because its damage-reduction-on-hit and regen directly answer Toxic Shot's poke-based wear-down before you have the levels to all-in."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "49.6% win rate over 1800 games; the tenacity cuts the duration of any slow from Noxious Trap (R) clouds he drops to zone your approach."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "part of the top core path (55.6% win rate, 108 games); the shield proc lets you tank one more auto-poke cycle mid-trade."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "same 55.6% path; the crit-on-first-hit rewards landing your Q (Darkin Blade) swings once you've closed distance with E."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "closes out every listed core path; the damage-over-time conversion keeps you alive through residual Toxic Shot poison stacks after a trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Maw of Malmortius",
+     "when": "his Q (Blinding Dart) burst chunks you hard in skirmishes"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "he's building toward auto-attack poke items rather than pure AP"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need more burst to punish his low mobility once R is up"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "sustained stacking damage rewards the extended trades this lane forces once you're in range, and the healing scaling offsets Toxic Shot's constant poison tick.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Revitalize"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 77.9% of games at a 48.8% win rate; Ignite's guaranteed damage-over-time secures kills on a squishy Teemo who otherwise kites with Move Quick (W)."
+  },
+  "playing": [
+   {
+    "title": "Hold position pre-level-3",
+    "detail": "OP.GG's own read confirms it: keep distance before level 3 so you're not eating free Toxic Shot pokes with no answer."
+   },
+   {
+    "title": "Trade only after his Q lands",
+    "detail": "Blinding Dart is on an 8s cooldown with no other disengage tool attached to it; that window is when you commit E (Umbral Dash) and your full Q chain."
+   },
+   {
+    "title": "Never auto while blinded",
+    "detail": "OP.GG flags this directly: a landed Blinding Dart cancels your Deathbringer Stance proc, so disengage or use Q/E instead of right-clicking."
+   },
+   {
+    "title": "Save R for a committed all-in",
+    "detail": "World Ender has a 120s cooldown at rank 1; don't pop it to poke-trade, save the AD/healing/move speed burst for the engagement you intend to win outright."
+   },
+   {
+    "title": "Respect his invisibility reset",
+    "detail": "If Teemo stands still and takes no actions, Camouflage goes active and he gains an Attack Speed burst on breaking it; don't let him disengage into brush unpunished."
+   },
+   {
+    "title": "Watch the ground for R traps",
+    "detail": "Noxious Trap has only a 1s cooldown once placed, so a zoned path near walls or jungle entries may be seeded with poison clouds that slow and damage you."
+   },
+   {
+    "title": "Itemize through the poison, not around it",
+    "detail": "Death's Dance converts incoming damage to a delayed DoT, directly countering the residual Toxic Shot stacks that linger after every exchange."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured OP.GG data from current-patch games; the mechanical reasoning and timing calls are this brief's own analysis."
+ },
+ "generatedAt": 1791075518363,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791075480785,
+  "overall": {
+   "winRate": 50,
+   "play": 116928,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2011,
+   "wins": 966,
+   "winRate": 48
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep your distance from Teemo before reaching level 3 to avoid being punished. Afterwards, use your skills whenever they come off cooldown. Avoid using your [P] basic attack when blinded by his [Q]",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.8,
+    "play": 1974,
+    "pickRate": 77.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.9,
+    "play": 450,
+    "pickRate": 17.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.6,
+    "play": 103,
+    "pickRate": 4.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47,
+    "play": 634,
+    "pickRate": 24.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Revitalize"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 405,
+    "pickRate": 15.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 1865,
+    "pickRate": 71.8
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.5,
+    "play": 619,
+    "pickRate": 23.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.6,
+    "play": 1800,
+    "pickRate": 73.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.3,
+    "play": 457,
+    "pickRate": 18.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 55.6,
+    "play": 108,
+    "pickRate": 7.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 54.9,
+    "play": 82,
+    "pickRate": 5.5
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 3.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.9,
+    "play": 1152,
+    "pickRate": 46
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 49.9,
+    "play": 1043,
+    "pickRate": 41.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 47.5,
+    "play": 810,
+    "pickRate": 32.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.9,
+    "play": 778,
+    "pickRate": 31.1
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 54.5,
+    "play": 714,
+    "pickRate": 28.5
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 51.9,
+    "play": 692,
+    "pickRate": 27.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.5,
+    "play": 1586
+   }
+  ]
+ }
+}

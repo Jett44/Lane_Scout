@@ -1,0 +1,384 @@
+{
+ "you": "Fiora",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Blinding Dart on cooldown and trade blind; you win if you force fights right as Riposte comes off cooldown."
+  },
+  "thesis": "Teemo has no hard engage beyond Q (Blinding Dart, 8s cooldown) and all his damage past that is autoattack poison, so this lane is decided by whether you can bait the blind and then trade into his now-empty kit. Fiora holds a 50.3% baseline win rate overall and a near-even 49.4% across 1169 games here, with lane and solo-kill advantage on her side - this is winnable but not free.",
+  "tell": {
+   "watch": "Teemo's Q (Blinding Dart) cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart is up and you're exposed",
+    "what": "He'll land Q to blind you out of your trade, then free-hit with Toxic Shot stacks while you can't retaliate. Don't engage into an available Q - bait it on a minion or wait it out."
+   },
+   "yourWindow": {
+    "when": "Right after he throws Q or during his Camouflage cooldown",
+    "what": "Lunge (Q) in immediately - with no blind available he has nothing to stop your dash-reset trade, and Riposte (W) punishes any attack he lands trying to poke you off."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Toxic Shot pokes safely before you reach level 3"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Riposte online punishes his auto-poke attempts"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Lunge resets outtrade his sustained poison damage"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Blade Waltz threatens kills he can't blind away"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Mushroom zone control limits your roaming"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "32.5% pick rate at a 52.1% win rate over 484 games - the extra sustain against his Toxic Shot poke keeps you from getting whittled down before level 3."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "75% pick rate at 52.5% over 1036 games - the magic resist directly cuts his poison and Noxious Trap damage over the whole game."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "First item in the top build path (59.6% win rate over 228 games) - the sustain and wave clear let you shrug off poison stacks while farming through his poke."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Second in the same path - the move speed proc helps you close the gap he's constantly kiting with Move Quick."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Caps the top-performing build (59.6% over 228 games) - banks damage over time so his lingering Toxic Shot ticks don't burst you down mid-fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to end fights before his poison DoT ticks out the damage"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "his magic damage from Toxic Shot and Noxious Trap is piling up and you need the shield"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "you want the lane-sustain path instead of a pure duel item"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "58.5% pick rate at a 58.5% win rate - the stacking mark punishes Teemo for standing still to autoattack-poke you, turning his own trade pattern against him.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport runs 48.5% over 6.8% of games - Teleport lets you reset off Doran's Shield sustain and come back to lane instead of losing tempo to his poke, since he has no kill pressure to punish the lack of Ignite."
+  },
+  "playing": [
+   {
+    "title": "Bait Blinding Dart before engaging",
+    "detail": "Walk into minion range and let him waste Q (8s cooldown) on a creep or a near-miss before you commit Lunge - engaging into an up Q gets you blinded out of your whole trade."
+   },
+   {
+    "title": "Hold Riposte for his autos, not his Q",
+    "detail": "Riposte (W, 10/9/8/7/6s cooldown) only reflects basic attacks, so save it for when he's auto-poking with Toxic Shot rather than trying to parry Blinding Dart, which it can't block."
+   },
+   {
+    "title": "Punish his Camouflage cooldown",
+    "detail": "After Teemo breaks stealth he gets a brief Attack Speed buff from Element of Surprise but can't go invisible again immediately - this is a safe window to shove the wave or force a trade since his vision trick is down."
+   },
+   {
+    "title": "Double-Lunge every trade",
+    "detail": "Q (Lunge) can be used twice within a couple seconds at no extra mana cost - always use both casts in a single trade window so you're not giving up free damage before he resets with Move Quick."
+   },
+   {
+    "title": "Track mushroom placement from level 6 on",
+    "detail": "Noxious Trap has only a 1s cooldown but costs charges from his pack, so once he starts dropping them near brush or your jungle entrances, path around known trap zones instead of walking blind into a slow-and-DoT."
+   },
+   {
+    "title": "Save Blade Waltz for isolated picks",
+    "detail": "R deals less damage on successive strikes to the same target, so use it to burst Teemo down in a solo skirmish rather than expecting it to carry a messy teamfight."
+   },
+   {
+    "title": "Don't greed past 50% HP into his poison stacks",
+    "detail": "Toxic Shot damage lingers after the trade ends, so disengage once you're near half health even if you feel ahead - the DoT alone can finish what the fight didn't."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above come from measured games on the current patch (16.19.1) via OP.GG; the mechanical reasoning and trade timing are my own read of the kit."
+ },
+ "generatedAt": 1791075476797,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791075439257,
+  "overall": {
+   "winRate": 50.3,
+   "play": 84703,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1169,
+   "wins": 578,
+   "winRate": 49.4
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "aggressive",
+  "opponentTip": "Purchase Doran’s Shield and use Graps of the Undying to increase your lane sustain when facing Teemo. Keep your distance from him before reaching level 3 while focusing onfarming. Use [W] to hit him to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.5,
+    "play": 1280,
+    "pickRate": 86.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.5,
+    "play": 101,
+    "pickRate": 6.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50.9,
+    "play": 57,
+    "pickRate": 3.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 58.5,
+    "play": 183,
+    "pickRate": 12
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.8,
+    "play": 127,
+    "pickRate": 8.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 909,
+    "pickRate": 61
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.1,
+    "play": 484,
+    "pickRate": 32.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.5,
+    "play": 1036,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.4,
+    "play": 179,
+    "pickRate": 13
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 59.6,
+    "play": 228,
+    "pickRate": 25.8
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 51.8,
+    "play": 114,
+    "pickRate": 12.9
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Maw of Malmortius"
+    ],
+    "winRate": 53.4,
+    "play": 88,
+    "pickRate": 10
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 50.8,
+    "play": 1419,
+    "pickRate": 96.5
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.8,
+    "play": 722,
+    "pickRate": 49.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.7,
+    "play": 513,
+    "pickRate": 34.9
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54,
+    "play": 411,
+    "pickRate": 27.9
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 51.7,
+    "play": 393,
+    "pickRate": 26.7
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 54.2,
+    "play": 308,
+    "pickRate": 20.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.9,
+    "play": 793
+   }
+  ]
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "you": "Shen",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slight edge",
+   "line": "You lose if you walk up into Ornn's Volcanic Rupture range before level 3; you win by landing Shadow Dash's taunt to force extended trades where Vorpal Blade's sustain and Mercury's Treads tenacity add up."
+  },
+  "thesis": "Ornn's Q (Volcanic Rupture, range 800) outranges your Q (Vorpal Blade, range 475) by a full auto-attack's worth of space, so early trading favors him if you let him poke freely. Your actual lever is E (Shadow Dash, range 575), which taunts anyone it passes through — it turns a poke fight into a forced stand-and-trade that his kit isn't built to win. That's the structural reason the measured numbers lean your way: 52.1% over 1342 games, lane advantage Shen, solo-kill advantage Shen.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "Ornn's Q slows you near a wall",
+    "what": "Volcanic Rupture's slow sets up Searing Charge into terrain behind you for the shockwave knockup. Feint (W) absorbs the shockwave's damage for a few seconds but doesn't stop the knockup or any taunt he follows it with, so use it to survive the hit, not to cancel the CC."
+   },
+   "yourWindow": {
+    "when": "Shadow Dash (E) is off cooldown",
+    "what": "Dash in to taunt him, not just to poke — Shadow Dash deals only minor damage itself. Taunting locks him into trading while Vorpal Blade's life tap heals you through it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his 800-range Q outpokes your 475-range Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "your E taunt online, his Brittle procs online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Stand United lets you threaten other lanes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "his Forge God ult vs your teleport ult trade"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Titanic Hydra/Randuin's scaling beats his auto-reliance"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The 60.8% pick rate and 51% win rate over 1007 games reflect that you need to absorb Volcanic Rupture poke and minion harass while Ornn out-ranges your Q early."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Every one of Ornn's damaging abilities (Q, W, E, R) is magic, and the tenacity cuts down the slow from Volcanic Rupture and the knockup chain from his E/R — the 51.9% pick rate backs this over Plated Steelcaps here."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Scales your health into bonus damage, letting you actually threaten Ornn once you're taunting him with Shadow Dash instead of just tanking his poke."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Standard second item on this path, feeding the same health-scaling pattern the rest of the build leans on."
+    },
+    {
+     "item": "Randuin's Omen",
+     "why": "This exact path posts the best recorded result on the matchup — 58% over 69 games — because the active's attack-speed slow directly counters Ornn's auto-attack-reliant Brittle procs."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Common fourth item on this build, continuing the health-stacking plan that both tanks the magic damage and powers Titanic Hydra."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "the enemy team is stacking lifesteal or omnivamp and you need the grievous wounds"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "ornn's team goes heavy magic burst and you need the spell shield to blunt a single big combo"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need the antiheal effect online before you can finish a full Thornmail"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustains you through the sustained Q poke exchanges and scales your max health, which directly feeds the Titanic Hydra/Randuin's health thresholds this build is built around.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best recorded win rate of the three pairings (52.4%) and feeds directly into your win condition — Stand United's teleport plus a second Teleport lets you win fights on other parts of the map while this lane sits even. Flash+Ignite is still the more popular pick (65.7%) if you want direct lane-kill pressure instead."
+  },
+  "playing": [
+   {
+    "title": "Don't trade before level 3",
+    "detail": "Vorpal Blade's life tap is weak at rank 1 and Ornn's Q outranges you by 325 units. Wait until Shadow Dash is up at level 2 before you commit to a stand-and-fight."
+   },
+   {
+    "title": "Dash to taunt, not to poke",
+    "detail": "Shadow Dash only deals minor damage on its own — its value is the taunt on everyone it passes through. Use it to force the fight, then let Vorpal Blade's healing do the work."
+   },
+   {
+    "title": "Hold Feint for the E shockwave",
+    "detail": "Feint absorbs incoming damage for a few seconds, so save it for when Ornn charges Searing Charge into nearby terrain. It blocks the shockwave's damage but not the knockup or any taunt that follows."
+   },
+   {
+    "title": "Track his W for Brittle timing",
+    "detail": "Bellows Breath's final gout of flame applies Brittle on a 10-12s cooldown depending on rank. Don't all-in into a fresh Brittle application or you eat extra damage on the trade."
+   },
+   {
+    "title": "Roam once R is up",
+    "detail": "Since this lane is close to even (52.1% over 1342 games), your actual win condition is Stand United pressuring other lanes, not out-trading Ornn solo. Track his Call of the Forge God cooldown (140/120/100s) so you're not caught split when he goes for a gank."
+   },
+   {
+    "title": "Itemize into his auto-attacks",
+    "detail": "Randuin's Omen's active attack-speed slow is why this exact build path has the best recorded result in the matchup (58% over 69 games) — Ornn leans on autos after Brittle procs, and this directly cuts that damage."
+   },
+   {
+    "title": "Don't contest Volcanic Rupture's pillar",
+    "detail": "The fissure leaves a delayed magma pillar at its end point. Standing in that zone after the initial hit just eats more poke for no reason — back off instead of trading through it."
+   }
+  ],
+  "patchCaveat": "The win rates, pick rates, item paths, runes, and summoner spells above are measured from live OP.GG games on the current patch (65,040 Shen games overall, 1342 in this specific head-to-head); the tactical reasoning — why each timing and item matters — is my own read of the ability kits, not measured data."
+ },
+ "generatedAt": 1791075113455,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791075025362,
+  "overall": {
+   "winRate": 51.3,
+   "play": 65040,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1342,
+   "wins": 699,
+   "winRate": 52.1
+  },
+  "laneAdvantage": "Shen",
+  "soloKillAdvantage": "Shen",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being airborne by Ornn’s (Q)-(E) combo. Ornn can ignore [E] with his (W) if timed correctly, so try to use it carefully.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.1,
+    "play": 1080,
+    "pickRate": 65.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.4,
+    "play": 531,
+    "pickRate": 32.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.3,
+    "play": 706,
+    "pickRate": 42.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.4,
+    "play": 405,
+    "pickRate": 24.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 1007,
+    "pickRate": 60.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 613,
+    "pickRate": 37
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51,
+    "play": 786,
+    "pickRate": 51.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.6,
+    "play": 633,
+    "pickRate": 41.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 49.1,
+    "play": 106,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Kaenic Rookern"
+    ],
+    "winRate": 48.6,
+    "play": 70,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 58,
+    "play": 69,
+    "pickRate": 9.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 52.2,
+    "play": 1368,
+    "pickRate": 84.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.4,
+    "play": 805,
+    "pickRate": 49.5
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.3,
+    "play": 410,
+    "pickRate": 25.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50.3,
+    "play": 288,
+    "pickRate": 17.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49,
+    "play": 247,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 49.8,
+    "play": 217,
+    "pickRate": 13.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.1,
+    "play": 1003
+   }
+  ]
+ }
+}

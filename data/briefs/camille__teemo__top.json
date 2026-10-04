@@ -1,0 +1,380 @@
+{
+ "you": "Camille",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, skill matchup",
+   "line": "You lose by getting poked down with Q (Blinding Dart) and E (Toxic Shot) autos while he walks away on W (Move Quick) before level 6; you win by living to 6, then landing E (Hookshot) into R (The Hextech Ultimatum) with your jungler to force a melee fight he can't kite out of."
+  },
+  "thesis": "Camille's entire win condition is closing distance and connecting an auto-attack-based combo (Q, on-hit from passive, R bonus magic damage), but Teemo's kit is built to prevent exactly that: Q (Blinding Dart) blinds her the moment she commits, E (Toxic Shot) ticks poison for free while he kites on W (Move Quick), and R (Noxious Trap) mushrooms can zone the wall or brush she needs for E (Hookshot). Her only real answer is the level 6 power spike, where R anchors him in melee and removes his kiting.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown (8s)",
+   "theirWindow": {
+    "when": "His Q (Blinding Dart) is up, you're overextended",
+    "what": "Don't commit E (Hookshot) or walk up for a Q (Precision Protocol) auto here — if he blinds you on engage your attacks deal no damage and he just kites off on W (Move Quick) while E (Toxic Shot) ticks poison for free."
+   },
+   "yourWindow": {
+    "when": "Level 6+, his Q down, jungler nearby",
+    "what": "Dash in with R (The Hextech Ultimatum) to anchor him in place, then follow with E (Hookshot) off a wall for the knockup and W (Tactical Sweep) for the slow and heal — he physically cannot kite out of the anchored zone, which is the one window the lane data says to use (OP.GG explicitly calls for a jungler gank here)."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "free poke from Q/E, no answer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W punishes overextension if he misreads range"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R online, all-in with jungler"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "R cooldown 115s, Trinity Force online"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "full mushroom coverage zones your engage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "44.7% win rate over 1074 games at 79.2% pick — the sustain directly offsets the free poke from his Q (Blinding Dart) damage and E (Toxic Shot) on-hit before you have any way to punish him."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "47% win rate over 1027 games at 82.6% pick — the magic resist blunts his poison ticks and the tenacity cuts the slow duration from his R (Noxious Trap) mushroom fields."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item on the 57.4% win-rate path over 195 games — the stats scale your auto-reset trade pattern once you can actually land hits."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Second item on the same build path — sustain and cleave for extended duels once you've anchored him with R."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Most-picked third item (30.6% pick) on the 57.4% win-rate path — bleed damage over time lets you survive his poison DoT stacking during the all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need to survive extended skirmishes after you've already committed R"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "you're falling behind on poison/magic damage and need the shield plus magic resist"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're snowballing and want the cooldown reduction to loop Q (Precision Protocol) and E (Hookshot) faster in skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustains you through his free ranged poke on every passing proc, which matters most before level 6 when you have no answer to his damage.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest win rate (47.4%) and most-picked combo (58.9%) — Ignite punishes the all-in window once R (The Hextech Ultimatum) anchors him and he can't heal or kite the kill away."
+  },
+  "playing": [
+   {
+    "title": "Track his Blinding Dart before committing",
+    "detail": "If his Q (Blinding Dart, 8s cooldown) is up, do not walk up for a trade or commit E (Hookshot) — getting blinded on engage removes your entire auto-based damage plan."
+   },
+   {
+    "title": "Hold E for all-in, not poke",
+    "detail": "E (Hookshot) is a 16/15/14/13/12s cooldown wall-leap — whiffing it to poke burns your only hard engage for a full lane rotation, so save it for a real all-in near usable terrain."
+   },
+   {
+    "title": "Punish overextension with delayed W",
+    "detail": "W (Tactical Sweep) only lands if he doesn't see the cast delay coming — throw it when he's pushed past the point he can walk out of the cone, since the outer half slows and heals you."
+   },
+   {
+    "title": "All-in at 6 with your jungler",
+    "detail": "R (The Hextech Ultimatum) anchors him in a zone he can't leave — this is the single biggest swing in the matchup and OP.GG's own data calls for exactly this: wait for your jungler to gank and convert the kill."
+   },
+   {
+    "title": "Oracle Lens before pushing",
+    "detail": "His R (Noxious Trap) mushrooms are placed instantly (1s cooldown, 230 range) and are invisible until triggered — sweep brush and chokepoints before you commit to an all-in path."
+   },
+   {
+    "title": "Don't duel into his Move Quick window",
+    "detail": "W (Move Quick) gives him passive bonus movement speed until he's hit — if he's actively kiting at range, close the gap fast or disengage rather than chasing a losing race."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates/sample sizes above are measured from live games on the current patch via OP.GG; the mechanical reasoning and timing calls are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791075609804,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791075523919,
+  "overall": {
+   "winRate": 50.8,
+   "play": 76315,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1089,
+   "wins": 508,
+   "winRate": 46.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Purchase Doran’s Shield and use [W] to mitigate some of the damage Teemo deals. We recommend waiting for your jungler to gank to get a kill! Use Oracle Lens to avoid stepping on mushrooms when engaging!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.4,
+    "play": 793,
+    "pickRate": 58.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.8,
+    "play": 357,
+    "pickRate": 26.5
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 42.2,
+    "play": 161,
+    "pickRate": 12
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52,
+    "play": 254,
+    "pickRate": 18.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.2,
+    "play": 106,
+    "pickRate": 7.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.7,
+    "play": 1074,
+    "pickRate": 79.2
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.2,
+    "play": 201,
+    "pickRate": 14.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47,
+    "play": 1027,
+    "pickRate": 82.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.2,
+    "play": 168,
+    "pickRate": 13.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 57.4,
+    "play": 195,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.8,
+    "play": 116,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Maw of Malmortius"
+    ],
+    "winRate": 53.3,
+    "play": 92,
+    "pickRate": 14.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 46.5,
+    "play": 1259,
+    "pickRate": 97
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 48.9,
+    "play": 1001,
+    "pickRate": 77.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.5,
+    "play": 315,
+    "pickRate": 24.3
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 49.2,
+    "play": 199,
+    "pickRate": 15.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.6,
+    "play": 189,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 56.7,
+    "play": 141,
+    "pickRate": 10.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 49.1,
+    "play": 320
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Defensive lane",
+   "line": "You lose if you keep getting caught by her E's spirit tether near her Tentacle walls; you win if you survive to Thornmail and start swinging side lanes with your ultimate instead of forcing lane."
+  },
+  "thesis": "Illaoi's kit revolves entirely around E (Test of Spirit): once the spirit lands on Shen, she follows with W and Q while nearby Tentacles also swing at him, and if he doesn't break the tether fast enough he becomes a Vessel feeding Tentacles that heal her on every champion hit. Shen has no ability that repositions him away from that — W is a self-shield, E is a taunting engage dash — so he can't out-footwork it. That's exactly why the measured data has Illaoi holding both the lane and solo-kill edge (49.3% for Shen here versus his 51.3% baseline), and why the standard advice is to disengage immediately rather than commit.",
+  "tell": {
+   "watch": "Illaoi's E cooldown",
+   "theirWindow": {
+    "when": "She lands E (Test of Spirit) on you",
+    "what": "She'll follow with W (Harsh Lesson) and Q (Tentacle Smash) while the spirit echoes damage back onto you. Walk far enough away or kill the spirit immediately, or you become a Vessel feeding her tentacle-heal passive."
+   },
+   "yourWindow": {
+    "when": "Her E and R are both on cooldown",
+    "what": "Step up and throw Q (Vorpal Blade) for free poke and the life-tap heal — with no spirit tether or tentacle smash available, she can't punish you for standing in range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither combo nor tentacles active yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W-Q-E combo plus wall tentacles punish trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R (Leap of Faith) spawns tentacles, snowballs fast"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "shift to roaming, ult swings side lanes"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Thornmail's grievous wounds guts her tentacle healing"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Absorbs her early W (Harsh Lesson) leap-ins and tentacle chip damage while you farm safely; it's the 71.6%-pick, 48.6%-win-rate start in this matchup."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Her entire kit — W autos, Q tentacle smashes, passive tentacle swings — is physical. Steelcaps is the 83.4%-pick choice and directly blunts that harass."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "HP and wave-clear cleave let you safely split-push once lane isn't winnable; first item in the strongest measured path at 60.5% win rate."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in that same 60.5%-win-rate path, keeping you relevant with stats as you transition off lane dominance toward sidelane and roam duty."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Applies Grievous Wounds, directly cutting the healing her Tentacles passive gives her off every champion hit — the single highest-value item against her kit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "you're falling behind early and need the grievous wounds and armor spike before you can finish thornmail"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their comp shifts toward heavy magic damage later"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game runs long and you need more teamfight health and sustained damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs off her poke trades and permanently grows your max HP, directly answering a lane where she out-pokes you with W leaps and tentacle swings.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest-performing combo in this matchup (50.3% win rate) and the most picked (70.2%); Ignite punishes her all-in HP leaps and Flash resets your E taunt-dash for either an engage or an escape."
+  },
+  "playing": [
+   {
+    "title": "Track her E cooldown",
+    "detail": "Test of Spirit is 16/15/14/13/12s. If it's not up, she can't tether you to a spirit, so that's your safest window to step up and trade."
+   },
+   {
+    "title": "Break the spirit immediately",
+    "detail": "If she lands E on you, walk far enough away or kill the spirit fast — staying near it lets nearby Tentacles keep swinging at you and risks turning you into a Vessel that feeds her passive heal."
+   },
+   {
+    "title": "Fight away from walls",
+    "detail": "Her passive spawns Tentacles on nearby impassible terrain that swing at spirit victims and Vessels; taking the fight into open lane denies her that extra damage source."
+   },
+   {
+    "title": "Use W to blunt bursts, not extend trades",
+    "detail": "Feint is a short self-shield with no reposition — pop it to survive her W-Q burst, then disengage rather than trying to out-sustain her in an extended fight."
+   },
+   {
+    "title": "Save E to punish overextensions",
+    "detail": "Shadow Dash taunts anyone it hits, so save it for moments she overcommits without Harsh Lesson up, rather than opening with it and eating a full combo while taunted onto her."
+   },
+   {
+    "title": "Stop forcing lane past level 9",
+    "detail": "The measured read on this matchup favors roaming over lane dominance; once Stand United is up, look to swing side lanes and objectives instead of forcing trades you're statistically behind in."
+   },
+   {
+    "title": "Rush Thornmail if you fall behind",
+    "detail": "Her sustain comes from Tentacles healing her on champion hits — Grievous Wounds from Thornmail is the fastest way to neutralize that even before it's a core item."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled from measured games on the current patch via OP.GG; the mechanical reasoning about Test of Spirit, Tentacles, and trade timing is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791074881427,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791074770222,
+  "overall": {
+   "winRate": 51.3,
+   "play": 65040,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 835,
+   "wins": 412,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Escape quickly whenever you are hit with Illaoi’s (E). Illaoi will have the upper hand if you are hit repeatedly. Rather than focusing on lane, try to roam around using your ultimate.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.3,
+    "play": 724,
+    "pickRate": 70.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.1,
+    "play": 274,
+    "pickRate": 26.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 2.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.3,
+    "play": 389,
+    "pickRate": 36.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 270,
+    "pickRate": 25.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.6,
+    "play": 747,
+    "pickRate": 71.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 51.4,
+    "play": 257,
+    "pickRate": 24.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.1,
+    "play": 818,
+    "pickRate": 83.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.1,
+    "play": 102,
+    "pickRate": 10.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 60.5,
+    "play": 86,
+    "pickRate": 18.9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 75,
+    "play": 20,
+    "pickRate": 4.4
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 51.3,
+    "play": 824,
+    "pickRate": 80.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.4,
+    "play": 380,
+    "pickRate": 37.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53,
+    "play": 364,
+    "pickRate": 35.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50.4,
+    "play": 351,
+    "pickRate": 34.5
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 48.1,
+    "play": 189,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 61.2,
+    "play": 103,
+    "pickRate": 10.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.6,
+    "play": 619
+   }
+  ]
+ }
+}

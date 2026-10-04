@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Unfavored, winnable",
+   "line": "You lose if you trade autos or walk into a loaded Q+W combo before level 6; you win if you survive to the Titanic Hydra power spike and let Stand United swing other lanes."
+  },
+  "thesis": "Riven's Runic Blade passive turns her basic attacks into bonus-damage hits every time she casts, so any extended auto-trade bleeds you faster than it bleeds her, and her Q (Broken Wings, 13s cooldown) stacked with W (Ki Burst, 11/10/9/8/7s) can stun-lock and burst you before your E (Shadow Dash, 16/14/12/10/8s) is even up. The 47.7% win rate over 664 games and Riven's lane/solo-kill edge both come from that early trading math, not from anything unwinnable long-term.",
+  "tell": {
+   "watch": "Riven's E (Valor) cooldown",
+   "theirWindow": {
+    "when": "Q and W both off cooldown near you",
+    "what": "She can stun with W (Ki Burst) then dump all three Q (Broken Wings) charges plus empowered autos from Runic Blade. Hold W (Feint) in reserve rather than using it preemptively, and don't trade autos with her in this window."
+   },
+   "yourWindow": {
+    "when": "right as her E (Valor) lands on you",
+    "what": "Per the live matchup data, use E (Shadow Dash) reactively the instant she dashes in rather than initiating with it yourself — the taunt locks her down for your Q (Vorpal Blade) and allied follow-up before she can reposition."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her W stun lands before your E exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full Q+W combo online, matches solo-kill data"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "W (Feint) timing starts neutralizing her burst"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Titanic Hydra and tank items outscale her"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Stand United teleport-shield swings other lanes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Measured as the 65.5% pick at 50.3% win rate over 519 games — its single-target damage reduction directly answers Riven mixing autos between abilities, and it pairs with Second Wind for sustain in short trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "83.9% pick rate at 50.3% win over 626 games. Riven's whole damage model is empowered autos off her Runic Blade passive, so flat auto-attack reduction is the correct boots here, not magic resist."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the 49.1% win rate, 15.4% pick path — the stacking passive and wave clear let you hold lane without needing to win auto trades directly."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in that same core path; adds the stat spread that lets you survive her all-in windows past level 6."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Third item in the highest-sample core path (53 games); punishes her for the exact auto-attack-heavy trading pattern her kit is built around."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "she's snowballing on crit or attack speed and the Q+W all-in keeps landing clean"
+    },
+    {
+     "item": "Bandlepipes",
+     "when": "your team needs more peel or utility than a straight tank item provides"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an earlier spike against her auto-reliant damage than Thornmail's timing allows"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want more raw HP to out-scale her duel potential"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest-performing page in the data (51.4% win, 34.1% pick). Grasp's proc sustains you through the poke-and-auto pattern Riven uses to win early trades, which is exactly where this matchup is lost if unanswered.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the highest win rate at real volume (49.4% over the majority 67.7% pick share), and Ignite punishes Riven for over-extending her E (Valor) engage before her Second Wind-denying burst is fully online."
+  },
+  "playing": [
+   {
+    "title": "Never auto-trade freely",
+    "detail": "Her Runic Blade passive makes every few autos hit harder than yours. Trade with Q (Vorpal Blade) procs and allied minion damage instead of standing in autos."
+   },
+   {
+    "title": "Hold W for the real combo",
+    "detail": "Save Feint for the moment she commits Q (Broken Wings) and W (Ki Burst) together, not for chip damage — that's the one window the live-data tip calls out directly."
+   },
+   {
+    "title": "React with E, don't open with it",
+    "detail": "Shadow Dash's taunt is strongest as a punish the instant her E (Valor) lands her in range, locking her in place before she can reposition."
+   },
+   {
+    "title": "Short-trade and reset",
+    "detail": "Vorpal Blade's life tap rewards poke-and-retreat over standing fights, especially before level 6 when her all-in is strongest."
+   },
+   {
+    "title": "Play for the item spike",
+    "detail": "Levels 9-13 with Titanic Hydra online is your real power window — look to force fights here instead of levels 1-5."
+   },
+   {
+    "title": "Use R to shift the map",
+    "detail": "Stand United's 200/180/160/160/160s cooldown global teleport-shield is strongest once you're ahead structurally; use it to swing other lanes rather than saving it purely to survive Riven duels."
+   }
+  ],
+  "patchCaveat": "Build, rune, and summoner numbers are measured from live OP.GG games on the current patch; the power-curve and trade-pattern reasoning connecting them to Shen's and Riven's actual ability cooldowns and mechanics is this brief's own analysis."
+ },
+ "generatedAt": 1791074721722,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791074659704,
+  "overall": {
+   "winRate": 51.3,
+   "play": 65040,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 664,
+   "wins": 317,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": "Riven deals a lot of damage because she mixes basic attacks in between her skills. Use [W] to ignore Riven’s basic attacks and gain the upper hand in combat. Rather than initiating combat with Taunt, try to use [E] in response to Riven closing in.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.4,
+    "play": 536,
+    "pickRate": 67.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.2,
+    "play": 197,
+    "pickRate": 24.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 50,
+    "pickRate": 6.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 276,
+    "pickRate": 34.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.6,
+    "play": 176,
+    "pickRate": 21.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.3,
+    "play": 519,
+    "pickRate": 65.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 45.1,
+    "play": 246,
+    "pickRate": 31
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.3,
+    "play": 626,
+    "pickRate": 83.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 42.4,
+    "play": 99,
+    "pickRate": 13.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 49.1,
+    "play": 53,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 29.2,
+    "play": 24,
+    "pickRate": 7
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 48.1,
+    "play": 619,
+    "pickRate": 80.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 51,
+    "play": 304,
+    "pickRate": 39.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.7,
+    "play": 199,
+    "pickRate": 25.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.2,
+    "play": 166,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 43.8,
+    "play": 128,
+    "pickRate": 16.6
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 46.8,
+    "play": 109,
+    "pickRate": 14.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.1,
+    "play": 466
+   }
+  ]
+ }
+}

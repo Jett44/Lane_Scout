@@ -1,0 +1,389 @@
+{
+ "you": "Gwen",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose trades before level 3 or whenever you fight outside your own Hallowed Mist; you win every exchange you force inside it."
+  },
+  "thesis": "W (Hallowed Mist) can only be entered — not shot into — so Teemo must physically walk into your mist to land Q (Blinding Dart) or auto-attack you with E (Toxic Shot) stacks, which strips him of his entire ranged poke kit the moment you drop it. That single interaction, not raw damage, is why the head-to-head sits flat at 50% over 500 games: lane is decided by who controls when the mist goes up, not by outdamaging his poison.",
+  "tell": {
+   "watch": "Your Hallowed Mist cooldown",
+   "theirWindow": {
+    "when": "W is down and you're within 680 range",
+    "what": "Blinding Dart has no skillshot to dodge and no bonus cooldown reduction (flat 8s), so he will poke on cooldown — back out past 680 range or trade immediately rather than soaking it for free."
+   },
+   "yourWindow": {
+    "when": "W is up and he steps into the mist",
+    "what": "The instant he enters to Q or auto you, dash in with E (Skip 'n Slash) for the attack speed/range/on-hit window, then Q (Snip Snip!) for the true-damage center hit — he has no dash or blind-immunity to answer a mist all-in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no W yet, fully exposed to Q poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W online, poke neutralized unless he commits"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his R traps add zoning, your items still brewing"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "core items online, mist all-ins snowball"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "1200-range R punishes any overextension"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "AP and sustain to eat early Toxic Shot stacks while you wait for W to come online at level 3."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Every point of his damage (Q, E, R) is magic, and this choice measures higher at 50.9% over 231 games versus Sorcerer's Shoes."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Scales your mist all-ins with raw AP first, the most-run path at 55.3% win rate over 152 games."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Bonus burst damage against the low-HP targets your passive (A Thousand Cuts) already punishes."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Converts your snowball from mist skirmishes into lethal R (Needlework) poke range."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Lich Bane",
+     "when": "you're ahead early and want to burst harder off E (Skip 'n Slash) resets"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "lane drags into extended skirmishes and you need omnivamp through his poison"
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "his R traps or a jungler threaten to punish your mist dives"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you're leaning on E auto-resets rather than burst combos"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "First Strike",
+   "keystoneWhy": "Rewards the exact pattern this lane runs on — baiting him into your mist and landing the first hit — with bonus gold and damage, and it measures the highest win rate of the available pages at 52.1%.",
+   "primary": [
+    "Cash Back",
+    "Biscuit Delivery",
+    "Jack Of All Trades"
+   ],
+   "secondary": [
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Most-played and best-performing combo at 50.3% over 54.2% pick rate — Ignite punishes the trades you force once he's forced to enter your mist, where his only defensive tool is Camouflage, which requires standing still and doing nothing."
+  },
+  "playing": [
+   {
+    "title": "Hold W, don't preemptively mist",
+    "detail": "Popping Hallowed Mist too early just tells him to back off; wait until he commits to a poke attempt or you're ready to engage."
+   },
+   {
+    "title": "Track the 8-second Q timer",
+    "detail": "Blinding Dart has no rank scaling on cooldown, so once he fires it you have a full 8 seconds of guaranteed safe trading or shoving."
+   },
+   {
+    "title": "Dash in only inside your mist",
+    "detail": "E (Skip 'n Slash) outside the mist just exposes you to his auto-attack poison stacks with no protection."
+   },
+   {
+    "title": "Respect Camouflage near brush",
+    "detail": "If he stands still for a moment he vanishes; don't push blind into unwarded grush expecting to see him coming."
+   },
+   {
+    "title": "Play around traps from level 6",
+    "detail": "Noxious Trap has only a 1-second cooldown per cast, so he can carpet an area fast — don't dive through grass without vision."
+   },
+   {
+    "title": "Snowball mist all-ins into items",
+    "detail": "Once Dusk and Dawn and Shadowflame are online, the same mist trade pattern starts ending in kills, not just chip damage."
+   },
+   {
+    "title": "Threaten with R at 1200 range",
+    "detail": "Needlework punishes any overextension past level 6, but its base cooldown is 120/100/80s pre-rank-4, so don't throw it away on a non-kill."
+   }
+  ],
+  "patchCaveat": "Build, runes, and all win-rate/pick-rate figures are measured from live games on the current patch via OP.GG; the mist-control reading of the matchup is my own tactical analysis layered on top."
+ },
+ "generatedAt": 1791076218190,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791076134861,
+  "overall": {
+   "winRate": 50.6,
+   "play": 46963,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 500,
+   "wins": 250,
+   "winRate": 50
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.3,
+    "play": 344,
+    "pickRate": 54.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.5,
+    "play": 92,
+    "pickRate": 14.5
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 55.4,
+    "play": 56,
+    "pickRate": 8.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 37.9,
+    "play": 116,
+    "pickRate": 17.9
+   },
+   {
+    "primaryTree": "Inspiration",
+    "primary": [
+     "First Strike",
+     "Cash Back",
+     "Biscuit Delivery",
+     "Jack Of All Trades"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 7.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 381,
+    "pickRate": 59
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 206,
+    "pickRate": 31.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 47.2,
+    "play": 231,
+    "pickRate": 38.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.9,
+    "play": 230,
+    "pickRate": 38.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 55.3,
+    "play": 152,
+    "pickRate": 38.9
+   },
+   {
+    "items": [
+     "Lich Bane",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Shadowflame"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 49.8,
+    "play": 474,
+    "pickRate": 75.4
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 51.6,
+    "play": 413,
+    "pickRate": 65.7
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 54.9,
+    "play": 268,
+    "pickRate": 42.6
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 46.3,
+    "play": 164,
+    "pickRate": 26.1
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 48.9,
+    "play": 131,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 46.7,
+    "play": 92,
+    "pickRate": 14.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.2,
+    "play": 303
+   }
+  ]
+ }
+}

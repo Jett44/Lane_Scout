@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Teemo poke freely from range 1-6 with no answer; you win if you crash waves and force all-ins where Feint and Shadow Dash equalize his damage."
+  },
+  "thesis": "This is a true even matchup at 50.7% Shen win rate over 897 games because Shen has no way to punish Teemo's range 680 Q (Blinding Dart) or E (Toxic Shot) poke, but Teemo has almost no answer to Shen's W (Feint) absorbing a trade or E (Shadow Dash) closing the gap to taunt him. Whoever controls wave state controls the lane: if Teemo can sit at max range and poke, he wins the damage race; if Shen forces short trades by crashing waves, Feint negates the alpha strike.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown (8s)",
+   "theirWindow": {
+    "when": "Dart is up and you're at range 680",
+    "what": "He will land the blind before trading, which removes your ability to last-hit or react to Toxic Shot stacking. Back off to minion-range until Dart is on cooldown, then step up to farm."
+   },
+   "yourWindow": {
+    "when": "Dart is down and wave is near his tower",
+    "what": "Use E (Shadow Dash, 16/14/12/10/8s cooldown) to dash in and taunt him, forcing the trade at melee range where Q (Vorpal Blade) and your passive Ki Strike proc outvalue his autos. Pop W (Feint) just before he can land Toxic Shot stacks to absorb the burst."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Dart blind denies trades, Toxic Shot pokes free"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Shadow Dash online, trades become two-sided"
+   },
+   {
+    "levels": "7-10",
+    "edge": "you",
+    "note": "Feint cooldown drops to 6s, absorbs poke"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Noxious Trap zoning complicates your dash paths"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Stand United swings fights lane can't touch"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Taken in 80% of games (48.8% win rate over 875) because it directly offsets Teemo's poke-based Toxic Shot and Blinding Dart chip damage through the sustain-on-hit effect."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "69.9% pick rate at 49.8% win rate; the magic resist directly reduces both Toxic Shot's damage-over-time and Noxious Trap's poison cloud."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the top three build paths; the health scaling and wave-clear let you crash lane and force the close-range trades Teemo wants to avoid."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in both top paths (55% and 53.8% win rate); builds the health pool that makes Feint's absorption window matter more in extended trades."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Highest win rate completion at 55% over 40 games; punishes Teemo's attack-speed-reliant Toxic Shot poke pattern if he keeps auto-ing you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "teemo is building into a full AP poke setup and you need the magic shield to survive his damage-over-time stacking"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "you want earlier wave-clear and sustain to crash lanes faster against his ranged harass"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "teemo is attacking you directly instead of poking from max range and you need the grievous wounds to cut his sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Taken in the top rune page (40.4% pick, 48.8% win rate); the proc rewards you for staying in minion-range to farm through Teemo's poke rather than backing off, and the health scaling compounds versus his damage-over-time effects.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 60.6% of games at 48.9% win rate; Ignite punishes the all-in trades you force with Shadow Dash and denies Teemo's sustain from Toxic Shot stacking if he tries to disengage."
+  },
+  "playing": [
+   {
+    "title": "Track Dart cooldown before stepping up",
+    "detail": "Blinding Dart has an 8s cooldown and 680 range. Only approach to last-hit or trade once you've seen it used, since the blind removes your vision and ability to react."
+   },
+   {
+    "title": "Crash waves to force melee range",
+    "detail": "Push minions into his tower so he cannot stay at max range poking with Toxic Shot; this forces him to either trade in Vorpal Blade range or lose CS."
+   },
+   {
+    "title": "Save Feint for the all-in, not chip damage",
+    "detail": "W (Feint) only lasts a few seconds and has a 9-5s cooldown depending on rank. Hold it for when he commits multiple autos or Dart, not for passive poke."
+   },
+   {
+    "title": "Use Shadow Dash to close gaps, not just taunt minions",
+    "detail": "E (Shadow Dash) taunts every enemy champion it passes through on its 575-range path. Line it up through Teemo specifically when he's out of position to force the fight."
+   },
+   {
+    "title": "Respect Noxious Trap zoning after level 11",
+    "detail": "Traps have a 1s cooldown and 230 range, letting Teemo lay multiple in your dash lane. Scout the ground before committing Shadow Dash into brush or jungle entrances."
+   },
+   {
+    "title": "Play around jungler ganks, not solo kills",
+    "detail": "Solo-kill rate is even at 897 games sampled, meaning neither side reliably kills the other alone. Group with your jungler for kill pressure instead of forcing 1v1s."
+   },
+   {
+    "title": "Hold Stand United for teamfight swings",
+    "detail": "R has a 200/180/160/160/160s cooldown and global range. Since lane itself is even, your biggest edge comes from teleporting into a side fight Teemo's team can't see coming."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live OP.GG games on the current patch (16.19.1); the mechanical reasoning on cooldowns, timings, and trade patterns is my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791076497853,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791076458557,
+  "overall": {
+   "winRate": 51.3,
+   "play": 67235,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 897,
+   "wins": 455,
+   "winRate": 50.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use Doran’s Shield and Second Wind to recover while using [W] and [P] to shield Teemo’s damage. Teemo is vulnerable to ganks, so kill him with your jungler.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 666,
+    "pickRate": 60.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 399,
+    "pickRate": 36.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 26,
+    "pickRate": 2.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.8,
+    "play": 453,
+    "pickRate": 40.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.8,
+    "play": 224,
+    "pickRate": 20
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.8,
+    "play": 875,
+    "pickRate": 80
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 44.9,
+    "play": 207,
+    "pickRate": 18.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.8,
+    "play": 717,
+    "pickRate": 69.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.8,
+    "play": 256,
+    "pickRate": 25
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 8
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Kaenic Rookern"
+    ],
+    "winRate": 53.8,
+    "play": 39,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hollow Radiance",
+     "Thornmail"
+    ],
+    "winRate": 52.2,
+    "play": 23,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 51.2,
+    "play": 778,
+    "pickRate": 72.7
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 50.8,
+    "play": 370,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 55.5,
+    "play": 364,
+    "pickRate": 34
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 49.4,
+    "play": 255,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54,
+    "play": 176,
+    "pickRate": 16.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 48.5,
+    "play": 134,
+    "pickRate": 12.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.9,
+    "play": 618
+   }
+  ]
+ }
+}

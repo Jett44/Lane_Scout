@@ -1,0 +1,384 @@
+{
+ "you": "Ornn",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose extended poke exchanges while Blinding Dart is up, but you win nearly every skirmish once you catch Teemo with a slow or a knockup."
+  },
+  "thesis": "Teemo's kit is built to poke from range and disengage before Ornn can touch him, but Ornn has the only hard engage tool in the lane: E (Searing Charge) off terrain and R (Call of the Forge God) both force fights Teemo cannot kite or blind his way out of. That's why the lane rates even overall (54.2% Ornn win rate, 1288 games) despite Teemo having the better poke, and why Ornn holds the solo-kill advantage once he closes the gap.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart is up and ready",
+    "what": "Stay out of melee range until he's thrown it or it's close to expiring. A landed blind cancels your next basic attack and lets him free-hit you with Toxic Shot while you whiff."
+   },
+   "yourWindow": {
+    "when": "Blinding Dart just went on cooldown",
+    "what": "Close immediately with Q (Volcanic Rupture) to slow him, then follow with autos and bank E (Searing Charge) for a nearby wall. He has no blind to stop the trade for the next 8 seconds."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Blinding Dart poke outranges your melee trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Searing Charge knockup punishes his overextension"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Forge God zone threatens instant skirmish kills"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Tank itemization scales teamfights, Brittle chains kills"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Picked in 71.6% of games at 53% win rate — the flat damage reduction on the first attack from a champion each few seconds directly blunts Toxic Shot's poke and Blinding Dart's chip damage."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "60% pick rate at 54.8% win rate — the magic resist cuts into Teemo's fully-magic damage profile (Toxic Shot, Blinding Dart, Noxious Trap), and the tenacity shortens how long Noxious Trap's slow holds you in its cloud."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "First item in the 60.3% win rate path — the magic resist and sustain keep you alive through Teemo's poison DoT while you close distance."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Second in the same path; the damage-reduction shield turns prolonged Toxic Shot poke into a non-threat by mid-game."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Closes out the 60.3%-win-rate, 131-game path — stacking resistances makes Teemo's DPS poke irrelevant once you're online."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "the Teemo is building burst magic items to try to all-in off a trap or Blinding Dart combo"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "the Toxic Shot poison stacks are chunking your sustain faster than you can trade back"
+    },
+    {
+     "item": "Thornmail",
+     "when": "the enemy team is itemizing around healing or crit to outlast your resistance stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Summon Aery",
+   "keystoneWhy": "Aery's proc rides your Q (Volcanic Rupture) poke to add free magic damage and a shield during ranged exchanges, and Scorch adds burst the instant you land a trade. Master-tier Ornn players (11,102 games) run Grasp of the Undying instead — that suits a slower, sustain-first approach if you'd rather out-regen Teemo's poke than trade damage for damage before Hollow Radiance comes online.",
+   "primary": [
+    "Manaflow Band",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Demolish"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite posts the best measured win rate in this matchup (56% over 18.3% pick) and converts your solo-kill advantage directly — Q's slow plus an E knockup off terrain holds Teemo in place long enough for Ignite to finish before Move Quick lets him scamper off. Flash+Teleport is the far more common pick (79.4%) if you'd rather scale safely and use Living Forge to recall-forge items while teleporting straight back to lane."
+  },
+  "playing": [
+   {
+    "title": "Track Blinding Dart's cooldown",
+    "detail": "Teemo's Q (Blinding Dart, 8s cooldown) blinds on hit. Only step into auto-attack range once you've seen it thrown, since a blinded basic attack whiffs and gives him a free trade."
+   },
+   {
+    "title": "Slow before you commit",
+    "detail": "Open with Q (Volcanic Rupture) to slow him first, then follow with autos. Walking in without the slow lets him kite your melee range while Toxic Shot ticks you for free."
+   },
+   {
+    "title": "Bank E for a terrain knockup",
+    "detail": "Hold E (Searing Charge) until you can charge into a wall near him. The resulting shockwave knockup is your only hard CC in the lane and the one window he can't walk out of."
+   },
+   {
+    "title": "Slow first, then commit R",
+    "detail": "Call of the Forge God has a 140-second cooldown at rank 1, so don't throw it blind. Land Q's slow beforehand so the elemental actually connects, and the recast knockup lands too."
+   },
+   {
+    "title": "Respect camouflage near bushes",
+    "detail": "Standing still briefly turns Teemo invisible, and leaving invisibility grants him bonus attack speed. Don't facecheck bushes without vision — a blind trade into his attack-speed window loses hard."
+   },
+   {
+    "title": "Forge items without recalling",
+    "detail": "Living Forge lets you spend gold to create non-consumable items anywhere on the map, so a stalled poke lane doesn't force you back to base to finish Hollow Radiance or Unending Despair."
+   },
+   {
+    "title": "Force short fights, not long poke wars",
+    "detail": "The lane is rated even overall, but your odds improve sharply in short skirmishes. Look to engage around level 6 and after rather than absorbing extended ranged poke all game."
+   }
+  ],
+  "patchCaveat": "Build order, runes, summoner spells, and every win rate or sample size above are measured from live OP.GG games on the current patch (16.19.1). The timing windows, trade patterns, and tactical reasoning are my own read of the matchup."
+ },
+ "generatedAt": 1791076454609,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791076362193,
+  "overall": {
+   "winRate": 51.5,
+   "play": 65906,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1288,
+   "wins": 698,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Ornn",
+  "playStyle": "aggressive",
+  "opponentTip": "Slow Teemo down with [Q] before dealing damage. His blind will prevent [W] from activating, so hit him with basic attacks before his airborne ends. Kill him easily with [R] after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.7,
+    "play": 1305,
+    "pickRate": 79.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56,
+    "play": 300,
+    "pickRate": 18.3
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 1.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Summon Aery",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Demolish"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 387,
+    "pickRate": 22.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.8,
+    "play": 271,
+    "pickRate": 16
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53,
+    "play": 1182,
+    "pickRate": 71.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.3,
+    "play": 257,
+    "pickRate": 15.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.8,
+    "play": 957,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53,
+    "play": 611,
+    "pickRate": 38.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 60.3,
+    "play": 131,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Jak'Sho, The Protean",
+     "Thornmail"
+    ],
+    "winRate": 56.5,
+    "play": 46,
+    "pickRate": 4.8
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 41,
+    "play": 39,
+    "pickRate": 4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 53.5,
+    "play": 1063,
+    "pickRate": 65.6
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 57.8,
+    "play": 697,
+    "pickRate": 43
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 54.2,
+    "play": 673,
+    "pickRate": 41.5
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 57.1,
+    "play": 590,
+    "pickRate": 36.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.3,
+    "play": 367,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 55.1,
+    "play": 265,
+    "pickRate": 16.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 54.9,
+    "play": 486
+   }
+  ],
+  "highElo": {
+   "keystone": "Grasp of the Undying",
+   "tree": "Resolve",
+   "play": 11102
+  }
+ }
+}

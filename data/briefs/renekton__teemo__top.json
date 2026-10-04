@@ -1,0 +1,388 @@
+{
+ "you": "Renekton",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Snowball or fade",
+   "line": "You win by forcing all-ins while Blinding Dart (8s cooldown) is down and closing the game before 9; you lose if lane goes passive and Teemo's poke plus mushroom zoning drag it past 20 minutes, which tracks with Renekton's 46.4% win rate here over 1267 games despite holding lane and solo-kill advantage."
+  },
+  "thesis": "Renekton's entire edge is the pre-6 all-in: Teemo has no hard CC and only an 8-second Q (Blinding Dart) to stop a Fury-stacked W (Ruthless Predator) stun-chain. But once Teemo hits 6 and starts planting R (Noxious Trap) mushrooms, those poison-cloud zones plus stacking E (Toxic Shot) on-hit damage let him kite and siege from range, which is why the aggregate win rate (46.4%) sits below Renekton's overall baseline (49.6%) even though the lane and kill-pressure metrics favor him.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Right after he lands Q (Blind) on you",
+    "what": "Your autos whiff for the blind's duration, so you can't generate Fury past 50 to threaten the 3-hit empowered W. Disengage instead of trading autos blind — he's free-hitting you with Toxic Shot stacks while you do nothing."
+   },
+   "yourWindow": {
+    "when": "Blinding Dart is on cooldown (8s)",
+    "what": "Commit immediately: auto twice to build Fury, W (Ruthless Predator) for the stun, E (Slice and Dice) to stick through his kite, Q (Cull the Meek) to heal off the trade. This is the only window where he can't blind your way out of the chain."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Poke trades even, no all-in power yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W/E all-in online, Teemo lacks peel"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R adds burst and health to all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Mushrooms and Eclipse spikes trade blows evenly"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Teemo kites and zones sieges with traps"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Run at the 46.1% win rate, 77.1% pick start — the flat damage reduction on the first hit from each champion blunts his early Q poke and the passive HP regen offsets Toxic Shot's damage-over-time between trades."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "80.2% pick, 46.4% win rate — Teemo's entire kit (Blinding Dart, Toxic Shot, Noxious Trap cloud) is magic damage, and the tenacity shortens how long the mushroom slow pins you in the cloud."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Highest win rate core path (49.2% with this sequence) — the shield proc and burst let you win the Fury-stacked all-in trade outright instead of trading evenly."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks with your empowered E's own Armor reduction, turning short all-ins into sustained DPS windows if he tries to just run."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts a chunk of incoming damage to a heal-over-time, which specifically answers Teemo's poison — Toxic Shot stacks and mushroom cloud ticks — instead of burning you down over the fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Maw of Malmortius",
+     "when": "teemo and his team are stacking magic damage and you need a shield against the poke"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need to stick to his Move Quick sprint speed to actually land your all-in"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "the game goes long and you need raw tankiness to survive dives past 20 minutes"
+    },
+    {
+     "item": "Zeke's Convergence",
+     "when": "you're peeling and buffing an auto-attacking carry in teamfights instead of diving"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror stacks over the extended trade your all-in creates and converts to healing, directly offsetting the poison DoT from Toxic Shot and Noxious Trap that otherwise outlasts you in prolonged skirmishes.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run at 46.3% win rate and 73.6% pick — Ignite closes out the pre-6 all-in window before Teemo's Move Quick lets him kite out of kill range, and punishes his low early HP pool directly."
+  },
+  "playing": [
+   {
+    "title": "Track the Blind cooldown",
+    "detail": "Blinding Dart is only 8 seconds — note the moment he uses it and start your all-in timer immediately, since your whole combo depends on landing autos to build Fury."
+   },
+   {
+    "title": "All-in before level 6",
+    "detail": "Once W (rank 2, 14s cooldown) and E are both up, dash in with E, auto twice for Fury, then W for the double-slash stun. Teemo has nothing to punish this short of the Q he's already spent."
+   },
+   {
+    "title": "Save R for clean kills",
+    "detail": "Dominus's bonus Health and AoE pulse let you commit through a blind without dying — hold it for a window where Blinding Dart is already down, not as your opener."
+   },
+   {
+    "title": "Don't facecheck invis brush",
+    "detail": "A stationary Teemo goes invisible via Camouflage after a short delay. Ward river and tri-brush entrances so a stealthed mushroom-plus-ambush doesn't flip a trade you were winning."
+   },
+   {
+    "title": "Respect mushroom zones after 6",
+    "detail": "Noxious Trap only has a 1-second cooldown per cast, so once he's planted a few around river or objective entrances, don't walk sieges through blind — bait the cloud with a minion or ward first."
+   },
+   {
+    "title": "Freeze waves, bait his poke",
+    "detail": "Your advantage is the all-in, not the ranged exchange. Hold the wave near your tower so he has to walk up into your Q/E range instead of you shoving into his 680-range poke."
+   },
+   {
+    "title": "Rush MR if poked down",
+    "detail": "If you're losing the lane to sustained Toxic Shot and Blinding Dart chip rather than dying to all-ins, finish Mercury's Treads before completing Eclipse."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner picks, and every win-rate and pick-rate figure above come from measured games on the current patch via OP.GG; the mechanical reasoning, timings, and trade patterns are my own read of the two kits."
+ },
+ "generatedAt": 1791075944419,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791075850228,
+  "overall": {
+   "winRate": 49.6,
+   "play": 98291,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1267,
+   "wins": 588,
+   "winRate": 46.4
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being punished by Teemo early game by keeping some distance. Do not use [W] immediately after Teemo has used (Q).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.3,
+    "play": 1199,
+    "pickRate": 73.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.4,
+    "play": 306,
+    "pickRate": 18.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 43.4,
+    "play": 106,
+    "pickRate": 6.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 342,
+    "pickRate": 20.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.1,
+    "play": 221,
+    "pickRate": 13.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.1,
+    "play": 1261,
+    "pickRate": 77.1
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.8,
+    "play": 285,
+    "pickRate": 17.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.4,
+    "play": 1268,
+    "pickRate": 80.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.2,
+    "play": 251,
+    "pickRate": 15.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 49.2,
+    "play": 61,
+    "pickRate": 6.1
+   },
+   {
+    "items": [
+     "Zeke's Convergence",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 40.7,
+    "play": 54,
+    "pickRate": 5.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 47.5,
+    "play": 909,
+    "pickRate": 57.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 44.5,
+    "play": 705,
+    "pickRate": 44.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 50.2,
+    "play": 478,
+    "pickRate": 30
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 48.3,
+    "play": 437,
+    "pickRate": 27.4
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 45.8,
+    "play": 426,
+    "pickRate": 26.7
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 50.4,
+    "play": 401,
+    "pickRate": 25.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.8,
+    "play": 606
+   }
+  ]
+ }
+}

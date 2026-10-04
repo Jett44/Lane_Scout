@@ -1,0 +1,384 @@
+{
+ "you": "Illaoi",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk up for trades into free Blinding Dart and poke; you win if you force Test of Spirit onto him and he has no good answer to the spirit's damage."
+  },
+  "thesis": "This is a 48.2% head-to-head over 579 games precisely because Illaoi's entire kit requires being next to Teemo, and Teemo's entire kit punishes exactly that. Blinding Dart turns off your trade (no autos, no Tentacle Smash follow-up value) and Toxic Shot chips you for free on every poke, but Illaoi's E ignores all of that since Test of Spirit cannot be blinded and the spirit's damage echo hits him anyway.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart is up and you're in his face",
+    "what": "He will land Q on approach to blind you, then kite with free Toxic Shot autos while your Tentacles and auto-attacks miss. Do not commit a full trade here — bait the Dart from max E range instead."
+   },
+   "yourWindow": {
+    "when": "Blinding Dart is down (used or on 8s cooldown)",
+    "what": "This is your window to walk up and land W (Harsh Lesson) into E (Test of Spirit). The spirit's damage echo cannot be blinded away, and Tentacles swinging at him during the spirit duration is where most of your damage actually comes from."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q blind denies early trades, poke-only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, spirit damage ignores his blind"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates live, all-in trades volatile"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Black Cleaver armor shred outpaces his scaling"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build, split-push and side-lane pressure win"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Chosen in 60.3% of games (45.2% win rate over 467 games) specifically because it offsets the harass from Toxic Shot autos and poke damage so you can survive to level 3 when Test of Spirit comes online."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Taken in 80.5% of games (47.4% win rate over 591 games); the magic resist and tenacity reduce the sting of his poison DOT and any slow from Noxious Trap."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Core item in the top win-rate paths (up to 52.4% over 21 games); the armor shred compounds with your Tentacle and auto damage once you're inside melee range."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Paired with Black Cleaver in the two highest-sample builds (50% over 28 and 24 games); the slow on proc helps you stick to Teemo once you've actually closed the gap."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Shows up in all three top core paths; the magic resist and healing amp directly counter his poison DOT and boost your passive's healing off Tentacle hits."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he or his team starts burst-focusing you in skirmishes"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you're ahead and want to snowball single-target duels"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "his damage output (poison DOT plus trap stacking) is overwhelming you in extended fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Taken in 38.6% of games (43.6% win rate); since most of your trades are extended melee engagements around Test of Spirit, Grasp's sustain outlasts his poke-and-kite pattern better than a burst keystone would.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the most-run and best-performing pairing (55.1% pick, 45.9% win rate); Teleport lets you reset onto the wave after being poked off it, and Flash covers the gap-close that Blinding Dart otherwise denies."
+  },
+  "playing": [
+   {
+    "title": "Bait Blinding Dart from range",
+    "detail": "Walk into E (Test of Spirit) range (900) without committing further. If he throws Q to blind you preemptively, it's now on an 8s cooldown and you can follow up safely."
+   },
+   {
+    "title": "Lead trades with E, not W",
+    "detail": "Test of Spirit's damage echo cannot be blinded, unlike your auto-attacks and Tentacle Smash. Always open with E so you guarantee damage even if he blinds you mid-trade."
+   },
+   {
+    "title": "Don't overextend on W",
+    "detail": "Harsh Lesson is a 400-range leap that commits you fully; using it to chase into his poke range just feeds him free Toxic Shot stacks, per OP.GG's own read on this matchup."
+   },
+   {
+    "title": "Track Tentacle uptime, not just cooldowns",
+    "detail": "Your passive Tentacles only matter if you're fighting near terrain they spawned on. Pull trades toward walls and jungle entrances so Tentacles are already swinging when the fight starts."
+   },
+   {
+    "title": "Punish Camouflage re-engages",
+    "detail": "After he breaks invisibility he gains an attack speed buff (Element of Surprise) for a few seconds. If he's been stationary and suddenly reappears, expect a faster trade window and don't stand in extra autos."
+   },
+   {
+    "title": "Use Vessels to zone the lane",
+    "detail": "A killed or extended Test of Spirit target becomes a Vessel that spawns Tentacles. Landing E on him even once creates persistent space you control for the rest of that wave."
+   },
+   {
+    "title": "Play for 9+ scaling, not level 1-2 dominance",
+    "detail": "You're behind in trades before level 3 and roughly even through level 8; the matchup turns in your favor once Black Cleaver's shred and Iceborn's slow let you actually stick on him."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from live OP.GG games on the current patch (16.19.1); the matchup reasoning, timing windows, and trade patterns are my own tactical read, not sourced from OP.GG."
+ },
+ "generatedAt": 1791076263275,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791076222469,
+  "overall": {
+   "winRate": 49.9,
+   "play": 46172,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 579,
+   "wins": 279,
+   "winRate": 48.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Teemo can secure a kill early game through constant (E) and Ignite damages, so we recommend avoid being harassed even at the cost of some lane CS. We recommend engaging if [E] lands, but not to overextend by closing in with [W].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.9,
+    "play": 425,
+    "pickRate": 55.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.7,
+    "play": 197,
+    "pickRate": 25.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.4,
+    "play": 117,
+    "pickRate": 15.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.6,
+    "play": 305,
+    "pickRate": 38.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.8,
+    "play": 109,
+    "pickRate": 13.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.2,
+    "play": 467,
+    "pickRate": 60.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52,
+    "play": 171,
+    "pickRate": 22.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.4,
+    "play": 591,
+    "pickRate": 80.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 39.6,
+    "play": 106,
+    "pickRate": 14.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 5.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 24,
+    "pickRate": 5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Spirit Visage",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.5,
+    "play": 408,
+    "pickRate": 54
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 48.3,
+    "play": 356,
+    "pickRate": 47.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 49.3,
+    "play": 353,
+    "pickRate": 46.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 52.9,
+    "play": 291,
+    "pickRate": 38.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 50.8,
+    "play": 177,
+    "pickRate": 23.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 49.5,
+    "play": 103,
+    "pickRate": 13.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.9,
+    "play": 119
+   }
+  ]
+ }
+}
