@@ -1,0 +1,381 @@
+{
+ "you": "Teemo",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Renekton lands his dash-stun combo on you before level 6; you win once your poke, blind, and traps outscale his all-in through the mid game."
+  },
+  "thesis": "Renekton owns the lane and the solo-kill numbers because his E (Slice and Dice) plus W (Ruthless Predator) combo gives him a reliable stun-into-burst window Teemo cannot out-trade at melee range before level 6. Teemo's 53.8% head-to-head win rate over 1307 games comes from playing the lane defensively and winning the game later, not from winning early trades. The whole matchup is Teemo converting a losing lane into a winning game through poke, zone control, and build scaling.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "His Fury nears or passes 50",
+    "what": "Above 50 Fury his Q (Cull the Meek) does more damage and heals more, and his W becomes a triple slash with a 1.5s stun that strips shields. Do not stand and trade autos through this window, even if it looks like you can win the exchange."
+   },
+   "yourWindow": {
+    "when": "Right after his E dash lands",
+    "what": "The instant Slice and Dice puts him next to you, fire Q (Blinding Dart) at max 680 range. It won't stop the dash, but it blinds him for the duration so his follow-up autos whiff while you walk away and keep hitting him with Toxic Shot (E)."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q sustain and early W stun beat your range"
+   },
+   {
+    "levels": "3-6",
+    "edge": "them",
+    "note": "full combo online, your Toxic Shot still weak"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "poke and mushrooms start matching his all-in"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Statikk Shiv and Liandry's outrange his damage falloff"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "The 54.3% win rate path over 1233 games. The extra AP and health regen let you survive his early all-in windows without falling behind on trades you're going to lose anyway."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "54.7% win rate over 627 games. The magic penetration pushes your poke damage through his armor stacking, which matters more than the raw movement speed here since Move Quick (W) already helps you reposition."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "First item in the highest win rate path (59.4% over 416 games). The proc gives you a ranged poke tool that punishes him every time he walks up to try to engage."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burns down his sustain from Cull the Meek over time, and the damage scales with the same auto-attack poke pattern you're already running."
+    },
+    {
+     "item": "Malignance",
+     "why": "Caps the 59.4% win rate core build. Cooldown reduction lets you land Blinding Dart on more of his engage attempts and refresh Noxious Traps faster to hold zone control."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "you are ahead and want to burst him down before he can stack Fury in a fight"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "the game goes long and you need the attack speed and mana sustain to keep weaving Toxic Shot procs"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "his all-ins are landing anyway and you need the slow resistance and raw speed to disengage instead of trade"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "54.6% win rate at 38.1% pick. It rewards exactly the hit-and-kite pattern you need here — land three autos (even spaced out via Move Quick repositioning) and the damage amp punishes any trade he lets you take.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "91.7% pick rate at 53.3% win rate, far ahead of the Teleport or Exhaust alternatives. Ignite threatens an execute after any poke exchange, which discourages him from trading into your Toxic Shot stacks even when his Fury is up."
+  },
+  "playing": [
+   {
+    "title": "Poke from 680, not 325",
+    "detail": "Blinding Dart reaches 680 range; his Cull the Meek only hits 325 around him. Land Q from outside that radius and walk out before he can swing back."
+   },
+   {
+    "title": "Never auto through his Q radius",
+    "detail": "Cull the Meek hits everyone in melee range around him and heals him for it. Taking autos inside that radius just funds his sustain — poke and retreat instead."
+   },
+   {
+    "title": "Track his W cooldown by level",
+    "detail": "Ruthless Predator is 16s at rank 1, dropping to just 8s at rank 5. Early levels give you long windows between his stun threats to shove the wave; by level 9 those windows shrink hard."
+   },
+   {
+    "title": "Blind him mid-dash",
+    "detail": "The moment Slice and Dice (E) puts him next to you, fire Q. It doesn't stop the dash, but it blinds his follow-up autos while you kite and keep landing Toxic Shot."
+   },
+   {
+    "title": "Pre-plant traps at entry points",
+    "detail": "Noxious Trap has only a 1s cooldown, so you can stack several in brush and jungle entrances near your lane. Use them to deny his flank angles, not just for damage."
+   },
+   {
+    "title": "Reset fights with Camouflage",
+    "detail": "Stand still in brush after a trade and you go invisible indefinitely. Use it to break vision, heal up, and come back with the Element of Surprise attack speed buff for your next poke window."
+   },
+   {
+    "title": "Respect the 50-Fury threshold",
+    "detail": "Past 50 Fury his Q heals harder and his W becomes a 3-hit, 1.5s stun that strips shields. If you see his Fury bar climbing near that line, disengage rather than contest."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.19.1) and should be trusted as-is; the tells, timing windows, and trade reasoning are my own read on how the mechanics produce those numbers."
+ },
+ "generatedAt": 1791093152040,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791093066244,
+  "overall": {
+   "winRate": 51.2,
+   "play": 78805,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1307,
+   "wins": 703,
+   "winRate": 53.8
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "If Renekton closes in using Slice/Dice (E), use Blinding Dart [Q] to block his Ruthless Predator (W) while managing your distance.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.3,
+    "play": 1541,
+    "pickRate": 91.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 65.5,
+    "play": 55,
+    "pickRate": 3.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.8,
+    "play": 46,
+    "pickRate": 2.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.6,
+    "play": 661,
+    "pickRate": 38.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.1,
+    "play": 147,
+    "pickRate": 8.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 54.3,
+    "play": 1233,
+    "pickRate": 73.1
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 304,
+    "pickRate": 18
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 54.7,
+    "play": 627,
+    "pickRate": 38.9
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.9,
+    "play": 586,
+    "pickRate": 36.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 59.4,
+    "play": 416,
+    "pickRate": 36.8
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 56.5,
+    "play": 85,
+    "pickRate": 7.5
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 54.5,
+    "play": 66,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 53.9,
+    "play": 1308,
+    "pickRate": 78.8
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 56,
+    "play": 1225,
+    "pickRate": 73.8
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 57,
+    "play": 900,
+    "pickRate": 54.2
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 61.8,
+    "play": 327,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 54,
+    "play": 248,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 60.5,
+    "play": 205,
+    "pickRate": 12.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 55.2,
+    "play": 583
+   }
+  ]
+ }
+}

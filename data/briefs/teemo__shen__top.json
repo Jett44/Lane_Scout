@@ -1,0 +1,378 @@
+{
+ "you": "Teemo",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Shadow Dash's taunt drag you into melee range; you win if you poke with Blinding Dart and Toxic Shot and disengage before it lands."
+  },
+  "thesis": "Shen has no ranged poke of his own — Vorpal Blade only reaches 475 range — and his only gap-closer, Shadow Dash (E), starts on a 16-second cooldown at rank 1. That means Teemo dictates every exchange from 680 range with Blinding Dart (Q) as long as he respects the dash's cooldown and never stands in it when it's up. This lane is decided by cooldown tracking, not raw stats, which is exactly why the measured numbers sit at an even 50.2% over 890 games.",
+  "tell": {
+   "watch": "Shen's Shadow Dash (E) cooldown",
+   "theirWindow": {
+    "when": "Shadow Dash (E) off cooldown",
+    "what": "With E up he can dash 575 range, taunt you on contact, then free-hit with Vorpal Blade and Ki Strike while Feint (W) soaks your poke back. Stay behind minions or at max range until you've confirmed it's down."
+   },
+   "yourWindow": {
+    "when": "Shadow Dash (E) on cooldown",
+    "what": "With no gap-closer available he cannot punish you for walking up. Land Blinding Dart, auto to stack Toxic Shot, and kite out with Move Quick (W) before his next Vorpal Blade (Q) comes off cooldown."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Shen's only poke tool, trades close"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q blind denies autos, E poison stacks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Stand United unlocks roams, lane holds"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Shiv and Liandry's burn shred his armor"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Taunt and shield matter more than damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The 75.2%-picked start (49.7% WR, 881 games) — the extra ability power and sustain reward a lane fought entirely with Q/E poke instead of auto trades."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "54% WR over 522 games. Shen's base kit is low-damage but he stacks armor on purpose; magic penetration is what actually gets Toxic Shot and Liandry's through it."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "First item on the 53%-WR path (298 games) — the proc gives you a free poke tool that doesn't cost a Q cooldown."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage scales off his max HP as he builds tank items, turning his own itemization against him."
+    },
+    {
+     "item": "Malignance",
+     "why": "Closes out the most-picked core path (36.6% pick rate) and adds the burst needed once he's stacked enough resistances to shrug off DoT alone."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "he's building shields or health stacking and you need the extra execute damage on burning targets"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you need the attack speed and CDR to loop Blinding Dart faster against a split-push Shen"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Shen is a tanky, stand-and-fight target with no displacement besides Shadow Dash — exactly the profile Press the Attack is built to punish with repeated autos and Toxic Shot procs.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "92.1% pick rate at 51.3% WR. Ignite's grievous wounds directly cuts the lane sustain Shen gets from Vorpal Blade's life tap, and it punishes any all-in he commits to through Feint's shield window."
+  },
+  "playing": [
+   {
+    "title": "Blind him the instant Shadow Dash lands",
+    "detail": "Blinding Dart (Q, 8s CD) doesn't stop Vorpal Blade's damage, but it zeroes out the autoattacks and Ki Strike procs he needs once he's taunted you into melee range."
+   },
+   {
+    "title": "Never stand in dash range when E is up",
+    "detail": "Track his Shadow Dash cooldown (16/14/12/10/8s by rank) and hold outside 575 range until you've seen it used or expire."
+   },
+   {
+    "title": "Zone brush and jungle entrances with mushrooms",
+    "detail": "Noxious Trap (R, 1s CD) is cheap enough to pre-place in the tri-bush and dash lane, punishing invades and denying his vision for free."
+   },
+   {
+    "title": "Poke on an 8-second clock",
+    "detail": "Run the Q-auto-W-kite loop every time Blinding Dart comes off cooldown — land Q, stack Toxic Shot with an auto, then use Move Quick's passive speed to leave before he can respond."
+   },
+   {
+    "title": "Use Camouflage to reset trades",
+    "detail": "Standing still in brush goes invisible; breaking it grants bonus attack speed for a few seconds, which lets you re-engage a poke with better DPS than he's expecting."
+   },
+   {
+    "title": "Don't force all-ins expecting him to stay",
+    "detail": "Once he hits 6, Stand United (R, 200/180/160/160/160s CD) lets him vanish to defend a dying ally anywhere on the map — plan around him disappearing, not just standing in lane."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from current-patch OP.GG data; the cooldown reads, trade windows, and tactical plan are this brief's own analysis."
+ },
+ "generatedAt": 1791093796351,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791093699493,
+  "overall": {
+   "winRate": 51.2,
+   "play": 78805,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 890,
+   "wins": 447,
+   "winRate": 50.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Shen’s Spirit Blade reinforces his Twilight Assault (Q). Avoid his Shadow Dash (E)!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.3,
+    "play": 1065,
+    "pickRate": 92.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.9,
+    "play": 49,
+    "pickRate": 4.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 70,
+    "play": 20,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.6,
+    "play": 356,
+    "pickRate": 30.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.5,
+    "play": 127,
+    "pickRate": 10.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 881,
+    "pickRate": 75.2
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 55.8,
+    "play": 181,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 54,
+    "play": 522,
+    "pickRate": 46.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 49.2,
+    "play": 413,
+    "pickRate": 36.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 53,
+    "play": 298,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 61.5,
+    "play": 78,
+    "pickRate": 9.6
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 50.4,
+    "play": 873,
+    "pickRate": 76.6
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 52.2,
+    "play": 868,
+    "pickRate": 76.1
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 54.4,
+    "play": 638,
+    "pickRate": 56
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 55.6,
+    "play": 223,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 52.7,
+    "play": 165,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.2,
+    "play": 141,
+    "pickRate": 12.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.8,
+    "play": 390
+   }
+  ]
+ }
+}

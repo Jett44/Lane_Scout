@@ -1,0 +1,382 @@
+{
+ "you": "Teemo",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly favoured",
+   "line": "You lose if you let Garen auto you down unblinded and eat repeated Judgment spins; you win if you poke with Toxic Shot from range and blind his Decisive Strike the moment he commits."
+  },
+  "thesis": "Teemo's autoattacks and Toxic Shot reach 680 range while every one of Garen's tools caps at 325 or less, so this lane is a pure kiting problem for Garen. Decisive Strike's bonus damage and silence only trigger if the attack actually lands, which means Blinding Dart fully erases his one gap-close-and-punish tool.",
+  "tell": {
+   "watch": "Garen's Q (Decisive Strike) cooldown",
+   "theirWindow": {
+    "when": "Garen's Q is up, closing in",
+    "what": "He'll pop Decisive Strike's speed burst to break any slow and run at you; if his hit lands, the attack silences you on top of bonus damage, so don't just walk away and let him catch the auto."
+   },
+   "yourWindow": {
+    "when": "His Q and E both down",
+    "what": "With Decisive Strike and Judgment on cooldown Garen has no way to close distance or punish your trade, so walk up, land Q (Blinding Dart) and a few E-stacked autoattacks, then step back out of his 325 range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "ranged Toxic Shot beats melee stats"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "blind nullifies his Q engage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "respect Demacian Justice execute threshold"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Statikk Shiv poke outpaces his sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "maxed R, 20s cooldown, split-push duelist"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "Highest-sample start (71.5% pick, 51.1% wr over 1762 games) and the mana sustain lets you spam Blinding Dart every time his Q comes off cooldown instead of rationing it."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Slightly higher winrate and pick rate (51.4%, 49.6% over 1189 games) than Sorcerer's Shoes, and the flat speed stacks with Move Quick to keep you permanently out of his 325-range kit."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "Most-picked first core item (37.3% pick in the top path) — the attack speed and proc let you stack Toxic Shot faster during trades."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Pairs with Toxic Shot's damage-over-time to punish Garen for standing in poke range trying to proc his own passive regen."
+    },
+    {
+     "item": "Malignance",
+     "why": "Caps the most popular and highest-winrate core path (53.3% over 655 games) with a cooldown-reduction spike for Blinding Dart uptime."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "you are already ahead on poke damage and want to burst him down in skirmishes"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you need more attack speed to stack Toxic Shot faster against his regen"
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "when": "the lane is won and you want to scale into teamfight burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Your 680-range autoattacks stack Press the Attack from outside his 325-range kit, so you amplify damage on him for free before he can ever threaten a trade back.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the overwhelming standard here (90.7% pick, 51.1% wr) — Ignite's burn denies Garen's Perseverance passive from healing back any poke damage once a trade ends."
+  },
+  "playing": [
+   {
+    "title": "Poke with Toxic Shot",
+    "detail": "Autoattack Garen whenever he's inside your 680 range; E applies poison instantly on a 0s cooldown, so every landed hit chips him down and keeps his Perseverance regen from ever ticking."
+   },
+   {
+    "title": "Save Q for his Q",
+    "detail": "Hold Blinding Dart until Garen uses Decisive Strike's speed burst to close distance. Landing the blind makes his follow-up attack miss entirely, so the bonus damage and silence never go off — and your Q is back up in 8s for the next engage."
+   },
+   {
+    "title": "Kite with Move Quick",
+    "detail": "Let W's passive speed build while he's not hitting you, then burn the sprint the moment he closes in — only his strikes interrupt the speedup, not his spells."
+   },
+   {
+    "title": "Respect Judgment windows",
+    "detail": "Garen's E deals physical damage to everything near him on a 13/12/11/10/9s cooldown. Don't stand next to him for an extra auto; let the spin end before you step back in."
+   },
+   {
+    "title": "Track his ultimate cooldown",
+    "detail": "Demacian Justice attempts to execute at 400 range on a 140s cooldown at rank 1, falling to 20s once maxed. Play aggressive while it's down; play around your health threshold once he hits level 16-18."
+   },
+   {
+    "title": "End trades before he resets",
+    "detail": "Since Garen heals a percentage of health per second once unbothered, never walk away from a trade without one more auto or a Noxious Trap dropped on his retreat path."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, and all winrate/pickrate numbers above are measured from live OP.GG games on the current patch; the mechanical reasoning and trade timing are my own read of the matchup."
+ },
+ "generatedAt": 1791092524766,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791092449609,
+  "overall": {
+   "winRate": 51.2,
+   "play": 78805,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1785,
+   "wins": 908,
+   "winRate": 50.9
+  },
+  "laneAdvantage": "Teemo",
+  "soloKillAdvantage": "Teemo",
+  "playStyle": "even",
+  "opponentTip": "Garen is weak without his Decisive Strike (Q). If he closes in using Decisive Strike (Q), use Blinding Dart [Q] to block it.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.1,
+    "play": 2213,
+    "pickRate": 90.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45,
+    "play": 80,
+    "pickRate": 3.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 53.8,
+    "play": 65,
+    "pickRate": 2.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.7,
+    "play": 889,
+    "pickRate": 36.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.2,
+    "play": 295,
+    "pickRate": 12
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.1,
+    "play": 1762,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 52.1,
+    "play": 486,
+    "pickRate": 19.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.4,
+    "play": 1189,
+    "pickRate": 49.6
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 51.2,
+    "play": 885,
+    "pickRate": 36.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 53.3,
+    "play": 655,
+    "pickRate": 37.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 58.1,
+    "play": 148,
+    "pickRate": 8.4
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 50.8,
+    "play": 118,
+    "pickRate": 6.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 50.9,
+    "play": 1938,
+    "pickRate": 80
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 51.8,
+    "play": 1863,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 53.7,
+    "play": 1375,
+    "pickRate": 56.7
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 53.1,
+    "play": 574,
+    "pickRate": 23.7
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 53.2,
+    "play": 395,
+    "pickRate": 16.3
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 61,
+    "play": 310,
+    "pickRate": 12.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.4,
+    "play": 883
+   }
+  ]
+ }
+}

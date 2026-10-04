@@ -1,0 +1,381 @@
+{
+ "you": "Teemo",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, play safe",
+   "line": "You lose if you stand and trade autos into his Counter Strike into Empower combo; you win if you poke from range and never let him choose the engage."
+  },
+  "thesis": "This matchup sits at 53.4% Teemo over 1195 games, but the lane's own data says solo kills go to Jax — because this is a burst-trade matchup, not an even-trade one. Jax's Q (Leap Strike) and W (Empower) form a one-cooldown all-in, and E (Counter Strike) punishes you for autoing him during it. Teemo wins by refusing that fight: poke, walk away, and never give him a stationary target.",
+  "tell": {
+   "watch": "Jax's E (Counter Strike) cooldown",
+   "theirWindow": {
+    "when": "E (Counter Strike) is up and he closes with Q",
+    "what": "He leaps in expecting you to auto; if you do, he dodges it and stuns everyone around him, then lands an Empowered (W) auto for bonus damage. Hold your attacks, Blind him with Q (Blinding Dart) the moment the stun lands so his follow-up Empowered auto misses entirely, then disengage."
+   },
+   "yourWindow": {
+    "when": "E (Counter Strike) was just used or is on cooldown",
+    "what": "He has no stun and no attack-dodge available, so walk up and freely trade Toxic Shot (E) autos plus Q pokes — his Q (Leap Strike) alone is just a gap-close with no protection behind it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Leap Strike plus Empower burst outpaces your poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q online, his E still on long cooldown"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Shorter E cooldown lets him dive through poke"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Shiv/Liandry's poke outscales his split-push burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "Taken in 55.2% of 1238 games — the mana and sustain let you spam Q and E poke every window without running dry waiting out his E (Counter Strike) cooldown."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "54.5% win rate over 607 games — the magic penetration keeps your Toxic Shot (E) ticks and Blinding Dart (Q) relevant as he stacks health from his passive, Equipment Mastery."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "58.6% win rate as the first core item — the on-hit proc adds burst to the poke trades you're forcing instead of standing fights."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "DoT scaling punishes him for closing distance with Q (Leap Strike) even if he dodges your next auto with E."
+    },
+    {
+     "item": "Malignance",
+     "why": "Completes the 58.6% win-rate path over 411 games, pushing your ability damage past his Equipment Mastery health stacking."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "you are ahead and want to burst him down before his R (Relentless Assault) attack-speed ramp matters"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "he is building tanky and outscaling your raw poke damage"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you need more attack speed to stack Toxic Shot (E) faster in short trade windows"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "52.6% win rate at 34.3% pick — rewards the poke-autos-then-retreat pattern this lane demands instead of a prolonged trade his R (Relentless Assault) would win.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "91.9% pick rate at 53.9% win rate — Flash lets you reposition out of Leap Strike range, and Ignite punishes any all-in he commits to since you aren't winning extended trades."
+  },
+  "playing": [
+   {
+    "title": "Bait Counter Strike early",
+    "detail": "E (Counter Strike) is 18 seconds at rank 1 — poke with Q and E autos without engaging in melee so he's forced to either waste it dodging or eat free chip damage."
+   },
+   {
+    "title": "Blind the Empowered follow-up",
+    "detail": "The instant his E (Counter Strike) stun lands, hit him with Q (Blinding Dart) so the Empowered (W) auto that follows misses — this is the single highest-value play in the lane."
+   },
+   {
+    "title": "Never auto into his E window",
+    "detail": "Counter Strike dodges all basic attacks while active, so only commit autos when you've confirmed it's on cooldown."
+   },
+   {
+    "title": "Kite every Leap Strike",
+    "detail": "Q (Leap Strike) is his only gap closer; use W (Move Quick)'s sprint to escape after baiting it out, especially before he's leveled it past rank 1 (17s cooldown)."
+   },
+   {
+    "title": "Walk, don't stand",
+    "detail": "Toxic Shot (E) ticks damage over time even through a dodged auto, so poke-and-retreat beats a standing fight against his R (Relentless Assault) attack-speed ramp."
+   },
+   {
+    "title": "Zone with mushrooms",
+    "detail": "Drop Noxious Trap (R) on his jungle entrance or approach path so he can't free-engage without eating a slow and damage tick first."
+   },
+   {
+    "title": "Play for poke, not kills",
+    "detail": "The data shows solo kills favor him — win the lane on wave state and item scaling with Statikk Shiv and Liandry's, not by forcing all-ins he's built to win."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the 53.4%/1195-game numbers are measured OP.GG data from the current patch; the tactical reasoning on cooldown windows and trade patterns is my own read of the kits."
+ },
+ "generatedAt": 1791092960489,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791092889575,
+  "overall": {
+   "winRate": 51.2,
+   "play": 78805,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1195,
+   "wins": 638,
+   "winRate": 53.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "defensive",
+  "opponentTip": "Do not stand in range of Counter Strike (E)! Use Blinding Dart [Q] to prevent him from dealing additional damage afterwards!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.9,
+    "play": 1438,
+    "pickRate": 91.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 56.1,
+    "play": 66,
+    "pickRate": 4.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 46,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 549,
+    "pickRate": 34.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.3,
+    "play": 156,
+    "pickRate": 9.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 55.2,
+    "play": 1238,
+    "pickRate": 78.8
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 214,
+    "pickRate": 13.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 54.5,
+    "play": 607,
+    "pickRate": 40.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.1,
+    "play": 513,
+    "pickRate": 34.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 58.6,
+    "play": 411,
+    "pickRate": 40.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 50.6,
+    "play": 85,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 51,
+    "play": 49,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 51.9,
+    "play": 1152,
+    "pickRate": 75.1
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 57.6,
+    "play": 1146,
+    "pickRate": 74.7
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 56.5,
+    "play": 878,
+    "pickRate": 57.2
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 56.2,
+    "play": 313,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.6,
+    "play": 211,
+    "pickRate": 13.8
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 53.8,
+    "play": 173,
+    "pickRate": 11.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 57.3,
+    "play": 466
+   }
+  ]
+ }
+}

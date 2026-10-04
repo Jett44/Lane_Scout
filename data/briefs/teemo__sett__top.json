@@ -1,0 +1,386 @@
+{
+ "you": "Teemo",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into his Q (Knuckle Down) empowered autos while backed against a wall; you win if you poke with Q (Blinding Dart) and E (Toxic Shot) from range and never let him land Facebreaker."
+  },
+  "thesis": "This is a dead-even matchup (50.6% over 1426 games) that hinges entirely on positioning: Sett has zero ranged poke and no gap-closer, so every point of damage he deals has to come from you standing inside his E (Facebreaker, range 490) or Q (Knuckle Down) auto-attack range. Stay outside 490 units and auto-poke with E, and Sett simply cannot answer.",
+  "tell": {
+   "watch": "Sett's E (Facebreaker) cooldown",
+   "theirWindow": {
+    "when": "Facebreaker is up and you're near a wall or minion",
+    "what": "Facebreaker pulls enemies standing on opposite sides of Sett together, stunning them (or slowing if only one side is hit). Don't let a minion or the lane wall sit on your far side while he's in range — back off until his E is on cooldown (16/14.5/13/11.5/10s) before you commit to a trade."
+   },
+   "yourWindow": {
+    "when": "right after Sett uses Facebreaker or Knuckle Down",
+    "what": "With E down for up to 16s and Q down for up to 9s, Sett has no stun and no bonus-damage autos. Walk up and freely stack E (Toxic Shot) autos and land Q (Blinding Dart) — Blinding Dart also shuts off his empowered right-punch entirely for its duration since it removes his basic attacks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q blind and E poison outrange his empty kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q+E combo online, passive regen punishes close trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His R is live but 120s cooldown limits its threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Shiv/Liandry's DoT outgrinds his flat regen"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His scaling true damage closes the gap"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The most-picked start (72.1% pick, 50% WR over 1379 games) — the extra sustain and AP let you win extended poke exchanges where Sett has no way to punish you for standing at range."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Higher win rate and pick rate than Sorcerer's Shoes here (53.1% over 949 games) — the move speed lets you hold the 490-unit Facebreaker line while still landing E autos."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "Attack speed and the on-hit proc stack E (Toxic Shot) poison faster, which is how you out-damage his passive regen"
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage over time overwhelms the health regen he gains from Pit Grit as he loses health in extended trades"
+    },
+    {
+     "item": "Malignance",
+     "why": "Completes the highest-sample core path (53.4% over 474 games) and adds burst to punish him when he commits with Q or E"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "you are ahead and want to burst him down before his shield from Haymaker (W) comes online"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you need more attack speed and cooldown reduction to keep E poison uptime permanent"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need a flexible stat item against his scaling true damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "The 53.1%-winrate page's keystone rewards exactly the poke pattern this matchup calls for — three E autos from range trigger the burst proc before Sett can ever close the distance.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick (89.7% pick rate, 50.9% WR) — Ignite cuts through the health regen Sett gains from Pit Grit when he's low, which is the main way all-ins slip away from you."
+  },
+  "playing": [
+   {
+    "title": "Hold 490+ units at all times",
+    "detail": "Facebreaker only pulls enemies on opposite sides of Sett — if you're never in its 490 range, it physically cannot touch you. Let minions eat it instead."
+   },
+   {
+    "title": "Blind before he commits",
+    "detail": "Q (Blinding Dart, 8s cooldown) removes his basic attacks entirely, which shuts off both his alternating-punch passive and the bonus damage from Q (Knuckle Down). Save it for the moment he walks in, not as a poke tool."
+   },
+   {
+    "title": "Poke with E, never auto in melee range",
+    "detail": "E (Toxic Shot) has 680 range on-hit poison with no cooldown — get your autos off and step back immediately rather than trading autos face to face."
+   },
+   {
+    "title": "Count his Facebreaker cooldown out loud",
+    "detail": "16s at rank 1 down to 10s at rank 5 — once you clock when he last used it, you know exactly how long you have to freely stand closer and poke."
+   },
+   {
+    "title": "Mushroom the brush and the wall gaps",
+    "detail": "R (Noxious Trap) has only a 1s cooldown — drop them in flank brush and along the wall he'd use to set up a Facebreaker pincer, both as vision and as a deterrent."
+   },
+   {
+    "title": "Kite with W after every trade",
+    "detail": "W (Move Quick) gives passive move speed until struck — walk away after poking so he has to use Q's move speed just to catch up, buying you time before he's in range again."
+   },
+   {
+    "title": "Respect The Show Stopper from level 6",
+    "detail": "R has a long 120s cooldown at rank 1, but it suppresses and slams you regardless of blind or peel — don't overextend right after he's used Q and E together, since that's when he's baiting the ult."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are pulled from measured OP.GG games on the current patch (16.19.1); the ability breakdowns, timing windows, and trade patterns are my own tactical read of those numbers."
+ },
+ "generatedAt": 1791092593009,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791092529644,
+  "overall": {
+   "winRate": 51.2,
+   "play": 78805,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1426,
+   "wins": 721,
+   "winRate": 50.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Do not stand in range of Facebreaker (E)! Manage your distance well keeping Facebreaker (E) in mind while dealing damage!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.9,
+    "play": 1701,
+    "pickRate": 89.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 66,
+    "pickRate": 3.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.8,
+    "play": 62,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.1,
+    "play": 623,
+    "pickRate": 33
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.3,
+    "play": 205,
+    "pickRate": 10.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 1379,
+    "pickRate": 72.1
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.5,
+    "play": 370,
+    "pickRate": 19.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53.1,
+    "play": 949,
+    "pickRate": 51.1
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 47.5,
+    "play": 652,
+    "pickRate": 35.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 53.4,
+    "play": 474,
+    "pickRate": 35.7
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 59.3,
+    "play": 123,
+    "pickRate": 9.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 53.6,
+    "play": 97,
+    "pickRate": 7.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 51.1,
+    "play": 1494,
+    "pickRate": 80.1
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 52.9,
+    "play": 1398,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 54.1,
+    "play": 1019,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 53.6,
+    "play": 440,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 57.1,
+    "play": 282,
+    "pickRate": 15.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 56,
+    "play": 234,
+    "pickRate": 12.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.7,
+    "play": 633
+   }
+  ]
+ }
+}

@@ -1,0 +1,381 @@
+{
+ "you": "Mordekaiser",
+ "them": "Yorick",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You lose if you let Yorick stack Mist Walkers and grave-dig uncontested before level 6; you win every trade once your [P] Darkness Rise aura is up."
+  },
+  "thesis": "This matchup sits at 52.1% over 1084 games because Mordekaiser's E (Death's Grasp) ignores Yorick's ability to kite with Q (Last Rites) empowered autos — a 700-range pull yanks him out of his dig animation before the grave finishes. Mordekaiser wins the sustained trade once [P] Darkness Rise is active; Yorick wins only if he's allowed to poke from range and dig graves uninterrupted for Mist Walkers.",
+  "tell": {
+   "watch": "Yorick's Q (Last Rites) charge",
+   "theirWindow": {
+    "when": "Q is up and he's digging a grave",
+    "what": "He's rooted in the dig animation and his Mist Walker count is about to grow. If you can't reach him before it finishes, back off rather than eating a fresh Walker's attack speed buff."
+   },
+   "yourWindow": {
+    "when": "He walks forward to land Q or E",
+    "what": "Immediately E (Death's Grasp) to pull him in, then Q (Obliterate) — the single-target bonus on Q punishes him for being alone in melee range before any Walkers arrive."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has a spike yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E-Q all-in beats single Walker"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "his Maiden adds sustained pressure"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Rylai's+Riftmaker burst outscales him"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "R fight-win potential, full build online"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "50.6% win rate over 1031 games and the 72.9% pick — the mana and sustain let you throw E-Q every cooldown window without running dry against his poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.2% win rate over 1039 games and the 77.5% pick — his empowered Q autos and Walker swarm are physical damage, and the flat reduction blunts both."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "slows both target and anyone caught in E's pull, making it near-impossible for Yorick to walk his dug grave away from your follow-up Q"
+    },
+    {
+     "item": "Riftmaker",
+     "why": "sustained-damage ramp that pairs with [P] Darkness Rise to win any extended trade once the fight lasts past the first exchange"
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "62.1% win rate over 103 games on this exact path — burn damage keeps ticking through his W (Dark Procession) wall if he tries to split the fight"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds lifesteal or his Maiden's bonus damage on-hit is doing more than expected"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "his sustained Walker-swarm damage outpaces your Riftmaker ramp and you need more raw healing from your shield-consume"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he's fully committed to the physical-damage Walker swarm early and OP.GG's own tip to buy it against his [P] is correct"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "stacks through repeated E-Q trades and Walker-swarm exchanges, converting the extended melee grind this matchup becomes into straight healing and damage",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "80.2% pick rate at 50.7% win — Ignite denies the healing off his Q (Last Rites) lifesteal proc during all-ins, which is the exact tool he leans on to win extended trades"
+  },
+  "playing": [
+   {
+    "title": "Pull before he digs twice",
+    "detail": "Land E (Death's Grasp) the moment he commits to a second grave-dig animation — interrupting the dig denies the Walker and the fight becomes 1v1 melee, which you win."
+   },
+   {
+    "title": "Track his W wall placement",
+    "detail": "Dark Procession has a 600 range and blocks movement; don't walk into a position where he can wall you off from your own tower or minions mid-trade."
+   },
+   {
+    "title": "Trade only after landing 3 hits",
+    "detail": "[P] Darkness Rise needs 3 attacks or spells on a champion or monster to activate — bait his poke onto minions early if you need the aura up before an all-in."
+   },
+   {
+    "title": "Hold R for his Maiden window",
+    "detail": "Realm of Death (650 range, 140s base cooldown) is your win condition once he hits level 6 and the Maiden is active — stealing his stats mid-fight removes the bonus damage his autos get against the Maiden's target."
+   },
+   {
+    "title": "Shield-stack before every trade",
+    "detail": "W (Indestructible) stores damage dealt and taken — pre-trigger it on minion damage before E-ing him so the shield is already banked when the Walkers arrive."
+   },
+   {
+    "title": "Punish solo Yorick, not Maiden Yorick",
+    "detail": "Your solo-kill advantage in this matchup is real, but it only holds pre-6 or when his Maiden is on cooldown — don't force all-ins once Eulogy of the Isles is up and Walkers can swarm you."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the 52.1%-over-1084-games number are measured OP.GG data from current live games on this patch; the lane-execution reasoning — when to pull, when to all-in, how [P] interacts with the trade — is my own tactical read, not sourced from the stat page."
+ },
+ "generatedAt": 1791094019074,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791093981720,
+  "overall": {
+   "winRate": 49.8,
+   "play": 88316,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1084,
+   "wins": 565,
+   "winRate": 52.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "aggressive",
+  "opponentTip": "Pressure Yorick during early game to gain lane control. Purchase Bramble Vest and maintain your [P] when fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.7,
+    "play": 1116,
+    "pickRate": 80.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 189,
+    "pickRate": 13.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.6,
+    "play": 42,
+    "pickRate": 3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 638,
+    "pickRate": 45
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.9,
+    "play": 180,
+    "pickRate": 12.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 1031,
+    "pickRate": 72.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 271,
+    "pickRate": 19.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.2,
+    "play": 1039,
+    "pickRate": 77.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.2,
+    "play": 190,
+    "pickRate": 14.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 62.1,
+    "play": 103,
+    "pickRate": 12.9
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 53.7,
+    "play": 41,
+    "pickRate": 5.1
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Spirit Visage"
+    ],
+    "winRate": 61.5,
+    "play": 39,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 52.2,
+    "play": 1046,
+    "pickRate": 76.8
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53.2,
+    "play": 943,
+    "pickRate": 69.2
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 53.8,
+    "play": 424,
+    "pickRate": 31.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.2,
+    "play": 284,
+    "pickRate": 20.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 39.8,
+    "play": 251,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 64.8,
+    "play": 210,
+    "pickRate": 15.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.1,
+    "play": 709
+   }
+  ]
+ }
+}

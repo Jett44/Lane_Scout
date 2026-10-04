@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Yorick",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skirmish",
+   "line": "You lose if you trade passively into his Last Rites sustain and let Dark Procession wall you off; you win if you time Counter Strike into his empowered auto and force fights."
+  },
+  "thesis": "Jax's E (Counter Strike) dodges all incoming basic attacks, and Yorick's entire early trade is built around an empowered basic attack — Q (Last Rites). Timing E into that swing voids both the bonus damage and his self-heal in one stun, which is the real reason the measured numbers favor Jax: 51.9% win rate over 1114 games, well above Jax's 49.4% baseline across all top lane games, plus a measured solo-kill advantage.",
+  "tell": {
+   "watch": "Yorick's Last Rites wind-up",
+   "theirWindow": {
+    "when": "E (Mourning Mist) lands and W wall traps you",
+    "what": "Mourning Mist reduces your armor, damages, slows, and marks you so his summoned units gain move speed chasing you; if Dark Procession's wall is already up behind you, you're stuck eating the full mark duration. Disengage before the wall lands, not after."
+   },
+   "yourWindow": {
+    "when": "Yorick commits his Last Rites auto",
+    "what": "Counter Strike (E) dodges that empowered attack outright and then stuns him and nearby enemies — follow immediately with Leap Strike (Q) and Empower (W) for a full-damage burst while he has no heal and no escape."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both have their core trade tool online"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Leap Strike + Empower outburst his melee pattern"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R up for both, Maiden rarely active yet"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force/Sundered Sky spike wins extended fights"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build shreds him between his 100s R windows"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest-performing start (50.6% over 902 games, 63.1% pick) — the extra AD and sustain reward the aggressive Q/W/E trade pattern you're going to run every time his Last Rites swing is dodgeable."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Best-performing boots here (52.7% over 857 games, 64.3% pick) — Yorick's damage comes from autos (Last Rites, Mist Walkers), so flat physical reduction blunts exactly what he's throwing at you."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Empower (W) and Leap Strike (Q) both benefit from the proc damage and mobility, letting you initiate and burst off cooldown rather than waiting on auto-attack resets."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Converts your empowered strikes into sustained healing and burst, which is what the highest win-rate build paths (58.8-72.7% across these games) are built around."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "The Trinity Force into Sundered Sky into Death's Dance path hits 72.7% over 55 games — the bleed-and-heal lets you win extended trades even if Last Rites connects once."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "yorick's maiden of the mist is up and raising walkers, turning skirmishes into numbers fights you need to survive"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "the game drags past 25 minutes and you need sustained DPS and a slow to punish him through his wall plays"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "his team stacks hard CC that would otherwise lock you out of your counter strike window"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Ramping attack speed stacks directly with Relentless Assault's (R) growing attack speed and every-third-hit bonus damage, so your all-in after an E stun snowballs faster than his sustain can answer.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the most-played (76.4% pick) and backs up the measured solo-kill advantage you have in this matchup — burn through his Last Rites heal once you land the E stun. Flash+Teleport (52.5% win rate, 19.5% pick) is the alternative if you expect a longer, wave-trading lane instead of early kill attempts."
+  },
+  "playing": [
+   {
+    "title": "Dodge Last Rites with E",
+    "detail": "Counter Strike dodges all incoming basic attacks; Last Rites is an empowered auto, so timing E into it cancels his bonus damage and his heal in the same stun."
+   },
+   {
+    "title": "Fight before his R is up",
+    "detail": "Eulogy of the Isles sits at 160 seconds at rank 1 and never drops below 100 even at max rank — without the Maiden active he has no bonus damage multiplier, so look for fights whenever his ultimate is down."
+   },
+   {
+    "title": "Don't get walled in",
+    "detail": "Dark Procession summons a destructible wall that blocks movement; watch for him dropping it behind you to cut off your path to tower before you commit to an extended trade."
+   },
+   {
+    "title": "Step out of Mourning Mist",
+    "detail": "Mourning Mist reduces your armor, damages, slows, and marks you so his summoned units gain move speed chasing the mark — sidestep the throw rather than eating it and fighting through the slow."
+   },
+   {
+    "title": "Leap, then empower the follow-up",
+    "detail": "Use Leap Strike to close or reposition, then immediately Empower your next attack so it hits Yorick and anything near him for bonus damage."
+   },
+   {
+    "title": "Prime Relentless Assault first",
+    "detail": "R grants attack speed with every strike and bonus damage every third hit — land a couple of autos on him or a minion before the all-in so the ramp is already rolling when it matters."
+   },
+   {
+    "title": "Push for the early kill",
+    "detail": "The measured data gives Jax the solo-kill advantage here — your E-stun trade outvalues his healing window before level 6, so look to end the lane rather than scale passively into his wall-and-walker siege."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates/sample sizes here are measured from live games on the current patch; the mechanical reasoning (why the trade works, when to dodge, when to force it) is independent tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1791094346433,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791094260637,
+  "overall": {
+   "winRate": 49.4,
+   "play": 107192,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1114,
+   "wins": 578,
+   "winRate": 51.9
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Mourning Mist (E) will place Mist Walkers on you. Try to avoid getting hit!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.7,
+    "play": 1088,
+    "pickRate": 76.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.5,
+    "play": 278,
+    "pickRate": 19.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 57.8,
+    "play": 45,
+    "pickRate": 3.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.8,
+    "play": 451,
+    "pickRate": 31.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 133,
+    "pickRate": 9.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 902,
+    "pickRate": 63.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.3,
+    "play": 269,
+    "pickRate": 18.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.7,
+    "play": 857,
+    "pickRate": 64.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.4,
+    "play": 277,
+    "pickRate": 20.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 58.8,
+    "play": 119,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 72.7,
+    "play": 55,
+    "pickRate": 7.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 53.8,
+    "play": 39,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52.1,
+    "play": 1110,
+    "pickRate": 79.8
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 56.6,
+    "play": 445,
+    "pickRate": 32
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 47.1,
+    "play": 378,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 55.5,
+    "play": 301,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 62.3,
+    "play": 257,
+    "pickRate": 18.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50.4,
+    "play": 240,
+    "pickRate": 17.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 59,
+    "play": 553
+   }
+  ]
+ }
+}

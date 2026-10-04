@@ -1,0 +1,386 @@
+{
+ "you": "Teemo",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him hit level 2 all-ins or stack 5 bleeds before you can back off, and you win every trade where you land Blinding Dart before his Decimate windup finishes."
+  },
+  "thesis": "Darius has the kill pressure and Teemo has the range, so this is EVEN overall (54.5% over 2079 games) but shaped entirely around whether you trade from 680 range or let him close to his axe. Every stat point of his Hemorrhage passive is a timer against you; every poke you land before he reaches melee is free damage he can't return.",
+  "tell": {
+   "watch": "Hemorrhage stack count on you",
+   "theirWindow": {
+    "when": "He lands E (Apprehend) hook on you",
+    "what": "Once he pulls you in with E (Apprehend, range 535, cooldown 26/23.5/21/18.5/16s), you're in his Q (Decimate) and W (Crippling Strike) range with no escape — Flash out immediately rather than trying to fight back, since his passive stacks will snowball into enrage damage."
+   },
+   "yourWindow": {
+    "when": "His E (Apprehend) is on cooldown",
+    "what": "Walk up and poke with E (Toxic Shot) autos plus Q (Blinding Dart, cooldown 8s, range 680) — he has no gap closer besides the hook, so outside 535 range you're completely safe to harass."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his level 2 all-in with Q+E hits hard"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "trade poke for poke, respect hook range"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R (Noxious Trap) wait — his R (Noxian Guillotine) threatens burst"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Statikk Shiv online, poke outscales his sustain"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Liandry's/Malignance burst wins extended trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "72.9% pick rate and 54.7% win rate over 2010 games — the extra sustain from the potions matters because you'll be eating E (Apprehend) autos while poking."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "55.6% pick rate, 54.2% win rate over 1467 games — the tenacity-less raw speed keeps you out of his E (Apprehend) range, which is the entire win condition of this lane."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "39.1% pick rate on this exact path, 59.5% win rate over 744 games — the attack speed and proc let you poke through his passive bleed window without standing in melee."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage punishes him for sticking near you, and it's the highest-winrate second item on this build path."
+    },
+    {
+     "item": "Malignance",
+     "why": "Caps the core build at 59.5% win rate — the cooldown reduction lets you reset Q (Blinding Dart) faster during extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "he's building any magic resist or you're ahead and want to burst through his healthbar faster"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you're already far ahead and want to snowball attack speed instead of raw burst"
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "when": "the game goes long and you need to one-shot squishies with trap damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "53.6% win rate at 38.5% pick — three autos (which E, Toxic Shot, guarantees you'll land) mark him for bonus damage, rewarding the poke pattern this lane demands.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "88.3% pick rate at 54.9% win rate — Flash is mandatory to dodge his E (Apprehend) hook, and Ignite closes out trades before he can heal off Q (Decimate)'s blade-hit lifesteal."
+  },
+  "playing": [
+   {
+    "title": "Hold Q for his engage",
+    "detail": "Save Blinding Dart (cooldown 8s) to blind him the instant he commits E (Apprehend) or walks into Q (Decimate) range — the blind shuts off his auto-attacks and Crippling Strike slow entirely."
+   },
+   {
+    "title": "Never fight past 3 stacks",
+    "detail": "Hemorrhage stacks up to 5 and enrages him with massive bonus AD at max stacks — disengage the moment you see 3+ bleed icons on your health bar, since that enrage threshold is where trades flip hard against you."
+   },
+   {
+    "title": "Poke from max E range",
+    "detail": "Toxic Shot has 680 range and zero cooldown, so you can auto him from well outside his 535-range Apprehend and still apply poison damage over time for free."
+   },
+   {
+    "title": "Trap his jungle entry, not lane",
+    "detail": "Drop Noxious Trap (cooldown 1s, range 230) along river/tribrush entrances rather than in lane — it reveals ganks and slows his jungler's engage without wasting mushrooms on a target that's too tanky to care about the DoT alone."
+   },
+   {
+    "title": "Punish cooldown windows on E",
+    "detail": "Apprehend's cooldown is 26/23.5/21/18.5/16s — track when he's used it and walk up aggressively to poke during that window since he has zero gap-close otherwise."
+   },
+   {
+    "title": "Use W to disengage, not chase",
+    "detail": "Move Quick's movement speed is removed the instant a champion or turret hits you, so use it proactively to walk out of range before he swings, not to run him down into his own W slow."
+   },
+   {
+    "title": "Freeze the wave at level 2",
+    "detail": "His level 2 all-in (Q into E) is the strongest burst window he has before your poke scales — hold the wave near your tower so he has to overextend to reach you."
+   }
+  ],
+  "patchCaveat": "All win rates, pick rates, item paths, runes, and summoner spells above are measured from live games on the current patch (16.19.1) via OP.GG; the mechanical reasoning and trade timing are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791092444534,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791092405322,
+  "overall": {
+   "winRate": 51.2,
+   "play": 78805,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2079,
+   "wins": 1133,
+   "winRate": 54.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being pulled by Apprehend (E) while contesting lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.9,
+    "play": 2429,
+    "pickRate": 88.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 48.9,
+    "play": 186,
+    "pickRate": 6.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55.3,
+    "play": 76,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.6,
+    "play": 1063,
+    "pickRate": 38.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 296,
+    "pickRate": 10.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 54.7,
+    "play": 2010,
+    "pickRate": 72.9
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 523,
+    "pickRate": 19
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.2,
+    "play": 1467,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 56.1,
+    "play": 865,
+    "pickRate": 32.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 59.5,
+    "play": 744,
+    "pickRate": 39.1
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 50,
+    "play": 138,
+    "pickRate": 7.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 54.2,
+    "play": 107,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 55.3,
+    "play": 2207,
+    "pickRate": 81.8
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 56,
+    "play": 2011,
+    "pickRate": 74.5
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 57.1,
+    "play": 1517,
+    "pickRate": 56.2
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 60.6,
+    "play": 587,
+    "pickRate": 21.8
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 58.5,
+    "play": 439,
+    "pickRate": 16.3
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 60.6,
+    "play": 317,
+    "pickRate": 11.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 56.7,
+    "play": 952
+   }
+  ]
+ }
+}
