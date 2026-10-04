@@ -1,0 +1,388 @@
+{
+ "you": "Yorick",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane behind, game ahead",
+   "line": "You lose extended trades and solo kills through level 5, but the matchup tips to a 53.3% Yorick win rate over 634 games once you survive to scale and split."
+  },
+  "thesis": "Illaoi's passive (Prophet of an Elder God) spawns Tentacles on any nearby impassible terrain, and those Tentacles heal her whenever they hit a champion — so every trade near a wall is a trade she wins for free. Her E (Test of Spirit), on a 16/15/14/13/12s cooldown, is the actual threat: it rips your spirit for an echo trade and turns you into a Vessel if you die or run too far from it. Fight her away from terrain and only when that E is down; everywhere else she out-trades you.",
+  "tell": {
+   "watch": "Illaoi's E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "Her E (Test of Spirit) is up near a wall",
+    "what": "She can rip your spirit from 900 range, chain Tentacle swings off her passive, and threaten the Vessel conversion if you die or disengage too far from the spirit. Back off terrain and don't commit to a long trade here."
+   },
+   "yourWindow": {
+    "when": "Her E (Test of Spirit) just went on cooldown",
+    "what": "For the next 12-16s she has no spirit-echo and no Vessel threat. Mark her with E (Mourning Mist) for the armor shred and slow, empower an auto with Q (Last Rites), and trade freely while her Mist Walkers swarm the marked target."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "W (Harsh Lesson) leap plus passive sustain wins early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Test of Spirit) online, solo-kill advantage is hers"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Eulogy of the Isles) lets you poke-to-kill"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force core comes online, split push opens"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Maiden sieges and splits close games out"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "You're conceding lane trades and Tentacle chip through level 5, so the regen and poke-block keep you above the threshold where she can force a kill."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Her damage is almost entirely physical auto-attacks and Tentacle swings, so the flat reduction blunts both her W (Harsh Lesson) leap-ins and passive chip."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Gives you the stats to survive lane and the empowered auto to pair with Q (Last Rites) once you start winning trades."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks on top of your E (Mourning Mist) shred, letting your late trades snowball once you're ahead."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction accelerates your Q (Last Rites) and E (Mourning Mist) uptime for the poke-to-6 plan OP.GG's data points to."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "the game runs long and her passive Tentacle healing is undoing your damage in skirmishes"
+    },
+    {
+     "item": "Thornmail",
+     "when": "she's building into pure auto-attack damage and punishing your W (Dark Procession) zoning"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the lane has stabilized and you're splitting side lanes instead of grouping"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "you need the armor pen and slow to close out a losing-tempo fight"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "You're behind in solo-kill potential through level 5, so the sustained-trade healing and max-health scaling keep you alive long enough to reach your level 6-8 even window.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport lets you reset after losing early farm to her Tentacle pressure and still show up for the split-push, siege-focused game plan that produces the 53.3% win rate."
+  },
+  "playing": [
+   {
+    "title": "Avoid fighting near walls",
+    "detail": "Her passive (Prophet of an Elder God) spawns Tentacles on nearby impassible terrain that heal her on hit — step off walls before you trade."
+   },
+   {
+    "title": "Trade only when her E is down",
+    "detail": "E (Test of Spirit) on a 16-12s cooldown is her entire all-in; initiate your own Q (Last Rites) trade in the window right after she uses it."
+   },
+   {
+    "title": "Wall off her engage with W",
+    "detail": "W (Dark Procession) at 600 range can block her W (Harsh Lesson) 400-range leap-in or cut off her retreat once you commit."
+   },
+   {
+    "title": "Poke, don't all-in, before level 6",
+    "detail": "Through level 5 she wins extended trades and solo kills via passive sustain and the Vessel threat — land E (Mourning Mist) pokes and reset instead of standing in."
+   },
+   {
+    "title": "Siege with the Maiden at 6",
+    "detail": "Once R (Eulogy of the Isles) is up, poke her to low health or mana with Q/E before committing R — the Maiden's bonus damage on her marked target finishes what she can't contest empty."
+   },
+   {
+    "title": "Zone the wave with W",
+    "detail": "Splitting the lane with W (Dark Procession) denies her Tentacle-assisted farm near minions, cutting off the terrain her passive needs to chip you."
+   },
+   {
+    "title": "Itemize against her sustain late",
+    "detail": "Her passive heals her every time a Tentacle hits a champion — if skirmishes drag on, Executioner's Calling blunts that healing in fights."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner picks are pulled directly from measured games on the current patch; the cooldown-window and terrain-positioning analysis is my own tactical read."
+ },
+ "generatedAt": 1791128758286,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791128677969,
+  "overall": {
+   "winRate": 49.2,
+   "play": 57150,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 634,
+   "wins": 338,
+   "winRate": 53.3
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Illaoi is an easy opponent without her (E). Try to fight her when (E) is on cooldown by using [E] to surround her with [P] and to prevent her from using (E). After reaching level 6, try to poke only until Illaoi is low on either mana or health before using [R] to kill her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.2,
+    "play": 442,
+    "pickRate": 52.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.1,
+    "play": 305,
+    "pickRate": 36.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 57.1,
+    "play": 49,
+    "pickRate": 5.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.2,
+    "play": 212,
+    "pickRate": 24.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.5,
+    "play": 206,
+    "pickRate": 23.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.9,
+    "play": 408,
+    "pickRate": 47.7
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.2,
+    "play": 227,
+    "pickRate": 26.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 57.9,
+    "play": 535,
+    "pickRate": 67.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.4,
+    "play": 147,
+    "pickRate": 18.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 72.7,
+    "play": 33,
+    "pickRate": 7.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 75,
+    "play": 28,
+    "pickRate": 6.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Thornmail"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 3.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 53.3,
+    "play": 518,
+    "pickRate": 62.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 59.1,
+    "play": 352,
+    "pickRate": 42.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 62.4,
+    "play": 271,
+    "pickRate": 32.9
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 52.4,
+    "play": 227,
+    "pickRate": 27.6
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 54.3,
+    "play": 151,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 61,
+    "play": 136,
+    "pickRate": 16.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.7,
+    "play": 427
+   }
+  ]
+ }
+}

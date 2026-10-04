@@ -1,0 +1,381 @@
+{
+ "you": "Irelia",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Nasus free-farm into a stacked late game; you win if you deny his Siphoning Strike stacks before he hits level 6."
+  },
+  "thesis": "Irelia holds lane and solo-kill advantage early because Nasus's entire power budget is tied to landing Siphoning Strike last-hits, and Irelia's dash-reset kit lets her zone him off minions. The 46.6% head-to-head win rate over 1222 games reflects what happens when that denial window is wasted — Nasus scales into a monster that outlasts short trades.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Level 6+, once Wither lands on you",
+    "what": "Wither (15/14/13/12/11s cooldown) kills your movement and attack speed, which sets up Fury of the Sands (120s cooldown) draining your max health. Do not start or continue a fight once Wither is on you post-6."
+   },
+   "yourWindow": {
+    "when": "Levels 1-5, before he hits 6",
+    "what": "Chain E (Flawless Duet) to stun and Mark him, then Q (Bladesurge) to dash in and refresh off the Mark. He has no mobility to escape this and no answer to the stun lock."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "E stun punishes his short-range Q trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q resets off Marks let you all-in freely"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Fury of the Sands threatens overextension"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Stack count decides who's winning skirmishes"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "High-stack Nasus out-sustains short trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 47.7% win rate line over 1318 games — the extra sustain and damage lets you win the early all-in trades that deny his stacks."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "48.3% win rate pick — reduces the physical damage from his autos and Siphoning Strike during the extended trades this lane demands."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Current-health damage and the slow proc let you land kills during your early-game all-in windows."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Follows the 54% win rate path over 174 games — lets you punish his need to stay on lane to farm stacks."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the top-performing build line — the damage-over-time conversion offsets his Soul Eater sustain in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "he's stacked Siphoning Strike heavily and fights are dragging into sustained skirmishes"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you need more single-target burst to close out all-ins before his Wither lands"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "his Soul Eater lifesteal is letting him win trades he should be losing"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The ramping adaptive force and healing reward the extended trades you're forcing, and directly offsets his Soul Eater sustain.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "85.3% pick rate — Ignite punishes your level 2-5 all-in windows and denies the healing Soul Eater would otherwise give him back."
+  },
+  "playing": [
+   {
+    "title": "Deny every last hit you can",
+    "detail": "Nasus's entire scaling is tied to Siphoning Strike (8/7/6/5/4s cooldown) landing kills on minions. Use E's stun to zone him off farm whenever you have it up."
+   },
+   {
+    "title": "All-in hard before level 6",
+    "detail": "Chain E's Mark into Q's dash-reset for repeated burst. He has no dash or hard CC to punish this before Fury of the Sands comes online."
+   },
+   {
+    "title": "Track his Wither cooldown",
+    "detail": "Wither (15-11s cooldown) cripples your movement and attack speed. Don't commit to a long trade or chase while it's available."
+   },
+   {
+    "title": "Stay out of Spirit Fire",
+    "detail": "Standing in the flame patch strips your armor over time, which snowballs his Siphoning Strike damage on top of it."
+   },
+   {
+    "title": "Respect post-6 Fury of the Sands",
+    "detail": "The 120s-cooldown ultimate grants him bonus health, range, and max-health drain. Don't start fights on cooldown timers you haven't tracked."
+   },
+   {
+    "title": "Cash out at max passive stacks",
+    "detail": "Wait for Ionian Fervor's bonus attack speed and on-hit damage to peak before committing to the kill, rather than forcing it on cooldown."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win rates are measured from live OP.GG games on the current patch; the lane-phase reasoning and cooldown tracking above are my own tactical read."
+ },
+ "generatedAt": 1791130156770,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791130104772,
+  "overall": {
+   "winRate": 50.4,
+   "play": 91300,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1222,
+   "wins": 569,
+   "winRate": 46.6
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "even",
+  "opponentTip": "Keep a strong hold over lane control since early game to prevent Nasus from easily growing. Do not get caught off guard and nuked when Nasus uses (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.6,
+    "play": 1306,
+    "pickRate": 85.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.5,
+    "play": 115,
+    "pickRate": 7.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.2,
+    "play": 83,
+    "pickRate": 5.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.2,
+    "play": 556,
+    "pickRate": 35.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.9,
+    "play": 313,
+    "pickRate": 20
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.7,
+    "play": 1318,
+    "pickRate": 85.1
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 41.8,
+    "play": 196,
+    "pickRate": 12.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.3,
+    "play": 847,
+    "pickRate": 59.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.7,
+    "play": 488,
+    "pickRate": 34.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 51.4,
+    "play": 247,
+    "pickRate": 24
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 54,
+    "play": 174,
+    "pickRate": 16.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 53,
+    "play": 115,
+    "pickRate": 11.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 47.3,
+    "play": 1478,
+    "pickRate": 97.9
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 50.4,
+    "play": 833,
+    "pickRate": 55.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.2,
+    "play": 596,
+    "pickRate": 39.5
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 52.6,
+    "play": 521,
+    "pickRate": 34.5
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 48,
+    "play": 444,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 42.2,
+    "play": 154,
+    "pickRate": 10.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.9,
+    "play": 507
+   }
+  ]
+ }
+}

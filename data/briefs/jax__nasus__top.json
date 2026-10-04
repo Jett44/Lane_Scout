@@ -1,0 +1,380 @@
+{
+ "you": "Jax",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early lane edge",
+   "line": "You win if you all-in during levels 3-5 before Siphoning Strike's stacks snowball Nasus; you lose if the lane stalls past level 10 and he out-farms you into an unkillable split-pusher."
+  },
+  "thesis": "Jax's full combo comes online before Nasus has any way to escape it, which is why Jax holds both the lane and solo-kill edge on paper. But Siphoning Strike's stacking and Fury of the Sands scale Nasus independently of the lane result, which is why the raw head-to-head win rate (47.7% over 1791 games) sits slightly under Jax's overall baseline (49.4%) despite that early advantage.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Wither (W) lands on you",
+    "what": "Nasus will chain autos for Soul Eater lifesteal and free Siphoning Strike damage while you're slowed. Only trade back if Counter Strike is up; otherwise walk toward your minions to break his follow."
+   },
+   "yourWindow": {
+    "when": "Wither (W) is on cooldown",
+    "what": "Engage with Leap Strike into Empower, then bait his attack-back into Counter Strike for the stun. Without a slow he has no way to escape or punish the dive."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has full combo; he farms Q safely."
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E online; punish before his stacks matter."
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Poke outside his 400-range ult; deny stacks."
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Stacked Q and Spirit Fire close the gap."
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "Fed Nasus out-scales in extended fights."
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Picked in 70.9% of games at 48.5% win rate — the early AD and sustain win short trading windows against Siphoning Strike's 255-range pokes."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Run in 42% of games (48.7% win rate); flat physical reduction blunts his stacked Siphoning Strike and basic-attack chip damage."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Supplies the attack speed and burst that make Leap Strike into Empower a real all-in before Nasus has meaningful stacks."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Adds on-hit burst and healing for the extended trades that start once Nasus is willing to chain autos back."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Lets you dive and survive the burst window once he hits level 6 Fury of the Sands or is ahead on stacks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Blade of The Ruined King",
+     "when": "nasus is stacked and building into pure health or armor"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "spirit fire and wither chip damage are wearing you down over long trades"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "fights are going long and you need sustain to match his soul eater lifesteal"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page runs 51.8% over 10.9% of games — against Nasus's constant Siphoning Strike pokes and Wither harassment, Grasp's max-health scaling damage and heal let Jax win extended trades without needing a perfect E engage every time.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 75% of games; Ignite converts Jax's measured solo-kill advantage into real kills during the levels 3-5 window, when Nasus has no escape from the Leap Strike all-in."
+  },
+  "playing": [
+   {
+    "title": "All-in before stacks matter",
+    "detail": "Engage levels 3-5 with Leap Strike into Empower into Counter Strike. Siphoning Strike's bonus damage only compounds with kills, so he's weakest before he's farmed meaningful stacks."
+   },
+   {
+    "title": "Track Wither's cooldown",
+    "detail": "It's 15/14/13/12/11 seconds. Only commit to a long trade when it's down — otherwise he slows your movement and attack speed and peels free damage."
+   },
+   {
+    "title": "Time Counter Strike on autos, not Q",
+    "detail": "E dodges his basic attacks, not Siphoning Strike itself. Hold it for the moment he commits to auto-trading, then stun and burst."
+   },
+   {
+    "title": "Don't stand in Spirit Fire",
+    "detail": "It's a 650-range ground zone that strips armor on anyone standing in it. Step out rather than trading through the pool."
+   },
+   {
+    "title": "Respect but don't fear his ult",
+    "detail": "Fury of the Sands only has 400 range and a 120-second cooldown. Poke from outside that range rather than standing in sustained melee once he's level 6."
+   },
+   {
+    "title": "Never push a wave into him",
+    "detail": "Siphoning Strike's stack growth comes from last hits. Freeze instead of shoving minions under his tower, or you're handing him free scaling."
+   }
+  ],
+  "patchCaveat": "The build, runes, and all win-rate/pick-rate numbers above are measured from real games on the current patch (16.19.1); the power-curve and trade-pattern reasoning is my own read of the two kits, not itself measured data."
+ },
+ "generatedAt": 1791129904833,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791129782517,
+  "overall": {
+   "winRate": 49.4,
+   "play": 115194,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1791,
+   "wins": 854,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Use Counter Strike [E] to block Nasus’s basic attacks while fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 1651,
+    "pickRate": 75
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.7,
+    "play": 421,
+    "pickRate": 19.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.3,
+    "play": 75,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 715,
+    "pickRate": 31.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.8,
+    "play": 247,
+    "pickRate": 10.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 1586,
+    "pickRate": 70.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 263,
+    "pickRate": 11.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.7,
+    "play": 877,
+    "pickRate": 42
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.4,
+    "play": 759,
+    "pickRate": 36.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 51.4,
+    "play": 142,
+    "pickRate": 12.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Hextech Gunblade",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 51,
+    "play": 49,
+    "pickRate": 4.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 48.9,
+    "play": 47,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.2,
+    "play": 1567,
+    "pickRate": 72.8
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 47.9,
+    "play": 612,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 52.5,
+    "play": 604,
+    "pickRate": 28
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.3,
+    "play": 529,
+    "pickRate": 24.6
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 51.8,
+    "play": 454,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.5,
+    "play": 282,
+    "pickRate": 13.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 51.8,
+    "play": 767
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured early",
+   "line": "You lose if the lane stalls past three items and Nasus has stacked Siphoning Strike with Fury of the Sands online; you win if you deny his Q stacks and close the game before level 13."
+  },
+  "thesis": "Nasus's entire power curve is rented from Siphoning Strike (Q) kill-stacks — every minion he's denied last-hitting is permanent damage he never gets back. Garen's W (Courage) and E (Judgment) deal free AoE damage around him with no resource cost, so he can contest every farm attempt without a bad trade. The matchup is a race: Garen is strong enough early to deny stacks and threaten kills from level 6 on, but if the lane goes long and passive, Nasus's scaling and Fury of the Sands (R) flip it.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike (Q) stack count",
+   "theirWindow": {
+    "when": "level 6+ with Fury of the Sands (R) up",
+    "what": "During Fury of the Sands he gains bonus health, attack range, and drains your max health into bonus damage for the duration. Don't commit to an extended trade while his ult is active — disengage and reset instead."
+   },
+   "yourWindow": {
+    "when": "levels 1-5, before stacks matter",
+    "what": "Nasus has no peel and short-range tools this early, so step in with W (Courage) plus E (Judgment) on cooldown to deny last hits and force him off the wave. Follow with Q (Decisive Strike) to silence and finish."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both weak, pokes only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W+E all-ins beat unstacked Nasus"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute threat, per OP.GG"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "stacks and items catching up"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "stacked Q plus Fury of Sands"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The lifesteal and damage let you win the early all-in trades you need to deny his Q stacks, at 53.4% win rate over 3129 games."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "Attack speed loops your W (Courage) and E (Judgment) faster and lets you stick to a stack-denied Nasus trying to walk away."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Gives the slow-on-hit to pin Nasus down before he can disengage, plus the AoE proc that pairs with Judgment."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed keeps your stack-denial pressure and ult (Demacian Justice) execute threshold relevant into mid game."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Grievous Wounds cuts his Soul Eater lifesteal, which is how he survives your early all-ins without it."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "he builds tanky and you need to stick during his Fury of the Sands"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead and want faster roams or earlier all-in windows"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "his Soul Eater lifesteal is healing him back up through your trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force and healing sustains you through the extended melee trades you're forcing before his stacks matter.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite guarantees early kills before Nasus stacks up and directly counters the Soul Eater lifesteal keeping him alive in trades."
+  },
+  "playing": [
+   {
+    "title": "Step in on his Q range",
+    "detail": "Siphoning Strike only reaches 255 range. Walk up and trade before he can safely swing at a minion."
+   },
+   {
+    "title": "Deny every stack you can",
+    "detail": "His entire late game is kill-stacked Q damage. Forcing him off even a few minions with W (Courage) and E (Judgment) compounds for 20+ minutes."
+   },
+   {
+    "title": "Threaten the level 6 execute",
+    "detail": "Demacian Justice has a 400 range and executes low-health targets — bait a trade down to that threshold and finish."
+   },
+   {
+    "title": "Punish Wither cooldown",
+    "detail": "Wither is 15/14/13/12/11s on cooldown. Once he's used it to peel, chase — he has nothing left to slow you."
+   },
+   {
+    "title": "Step off Spirit Fire zones",
+    "detail": "Standing in his E reduces your armor and amplifies his damage. Back out of the flame before committing to a trade."
+   },
+   {
+    "title": "Respect his ult windows",
+    "detail": "Fury of the Sands is a 120s cooldown that grants bonus health, range, and max-health drain. Don't extend fights into it, especially once he's stacked."
+   },
+   {
+    "title": "End it before three items",
+    "detail": "You're ahead early and mid; push waves and objectives to close the game before his Q scaling and ult fully come online."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from real games on the current patch via OP.GG; the tells, timing windows, and trade reasoning are my own tactical read on top of that data."
+ },
+ "generatedAt": 1791129264787,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791129204855,
+  "overall": {
+   "winRate": 50.7,
+   "play": 126949,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 4299,
+   "wins": 2298,
+   "winRate": 53.5
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus grow by applying pressure in lane during early game and gaining control over lane. Close in and deal damage whenever he stands in your range and try to kill him after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.1,
+    "play": 5325,
+    "pickRate": 96.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.4,
+    "play": 103,
+    "pickRate": 1.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 41.5,
+    "play": 53,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.6,
+    "play": 3024,
+    "pickRate": 53
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.3,
+    "play": 712,
+    "pickRate": 12.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.4,
+    "play": 3129,
+    "pickRate": 55.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55,
+    "play": 1812,
+    "pickRate": 32.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 55.1,
+    "play": 3839,
+    "pickRate": 70.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 55,
+    "play": 1120,
+    "pickRate": 20.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 61.9,
+    "play": 1105,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 55,
+    "play": 535,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Dead Man's Plate"
+    ],
+    "winRate": 48.7,
+    "play": 195,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 54.6,
+    "play": 5236,
+    "pickRate": 94.9
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 58,
+    "play": 3314,
+    "pickRate": 60.1
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 56.5,
+    "play": 3253,
+    "pickRate": 59
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.5,
+    "play": 1324,
+    "pickRate": 24
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 58.8,
+    "play": 890,
+    "pickRate": 16.1
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 45.5,
+    "play": 824,
+    "pickRate": 14.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 56.2,
+    "play": 2586
+   }
+  ]
+ }
+}

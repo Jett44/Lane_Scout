@@ -1,0 +1,385 @@
+{
+ "you": "Gwen",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him freely land Q (Siphoning Strike) stacks and get caught by his level 6-8 Wither into Spirit Fire combo; you win if you poke from outside 255 range and deny his stacking all lane."
+  },
+  "thesis": "Gwen's Q (Snip Snip!, range 450) outranges Nasus's Q (Siphoning Strike, range 255), so you can poke and even contest last hits without ever entering his trade range. The whole lane is a race between his permanent Siphoning Strike stacking and your Q/E poke damage, decided by whether you deny his farm before his level 6-8 Wither plus Spirit Fire window hits.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Wither and Spirit Fire both off cooldown",
+    "what": "At level 6+ he can land W (Wither) to slow your movement and attack speed, then drop E (Spirit Fire) under you for an armor-reducing burn zone. Don't extend trades or chase through this combo; disengage with E (Skip 'n Slash) immediately."
+   },
+   "yourWindow": {
+    "when": "his Q (Siphoning Strike) is on cooldown",
+    "what": "Walk into Q (Snip Snip!) range and snip him repeatedly; he has nothing in his kit that out-ranges your 450 cone when his Q is down, so this is free damage and passive procs."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "he farms Siphoning Strike stacks uncontested if you don't poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q range advantage lets you poke and deny stacks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Wither plus Spirit Fire plus Fury of the Sands spikes hard"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Dusk and Dawn online, R poke matches his sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Shadowflame and Rabadon's burst outscales his stacking"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "sustains through early poke exchanges and funds mana for repeated Q (Snip Snip!) harass, run in 94.8% of games at 51.8% win rate"
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "magic penetration pushes your Q and R damage through his growing health pool faster, the 53.2% win rate pick at 42.9% over Plated Steelcaps"
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "first item in the 61.4% win rate path, scales your burst for the level 6-8 all-in window"
+    },
+    {
+     "item": "Shadowflame",
+     "why": "amplifies burst damage against his health-stacking build"
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "caps the build for the 14-18 one-shot threshold where you outscale his stacking"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "the lane turns into a prolonged sustained fight instead of a poke war"
+    },
+    {
+     "item": "Void Staff",
+     "when": "he builds magic resist to counter your poke"
+    },
+    {
+     "item": "Oblivion Orb",
+     "when": "his Soul Eater lifesteal is keeping him alive through your trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "stacks through repeated Q (Snip Snip!) pokes and E (Skip 'n Slash) on-hit windows, rewarding the extended trades this matchup produces",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite punishes his Soul Eater lifesteal sustain and secures kills during your level 3-5 poke window before his stacks snowball, the 53.2% win rate pick at 65.9% over Flash+Teleport"
+  },
+  "playing": [
+   {
+    "title": "Poke from 450 range, not 255",
+    "detail": "Q (Snip Snip!) outranges his Siphoning Strike by nearly 200 units. Walk up, snip, walk back before he can ever swing on you."
+   },
+   {
+    "title": "Deny his Siphoning Strike last hits",
+    "detail": "Every kill with Q permanently raises his future Q damage. Contest cannon minions and low-health casters with your own Q poke when his Q is on cooldown."
+   },
+   {
+    "title": "Stand in your own mist to poke safely",
+    "detail": "W (Hallowed Mist) means he can only hit you if he walks into the mist zone himself. Pop it before extended trades so his only answer is committing to melee range."
+   },
+   {
+    "title": "Save E for his all-in, not for damage",
+    "detail": "Skip 'n Slash's dash is your out when he lands Wither. Use it to create distance first; if you tag him on the way out the cooldown partially refunds."
+   },
+   {
+    "title": "Back off during his 6-8 spike",
+    "detail": "Once he has Fury of the Sands, his Wither into Spirit Fire combo deals real damage and sustains him off Soul Eater. Don't trade through it, disengage and reset."
+   },
+   {
+    "title": "Open with R from outside his kit entirely",
+    "detail": "Needlework's 1200 range clears every Nasus ability range (Q 255, E 650, W 700, R 400). From level 6 on, open trades with a needle before he can respond."
+   },
+   {
+    "title": "Slow-push if you're losing the stack race",
+    "detail": "If he's out-stacking you despite your poke, build a slow push so his safe farming windows shrink and he's forced to either lose CS or walk up into your Q range."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample numbers are measured from live OP.GG games on the current patch (16.19.1); the matchup reasoning and timing calls are my own tactical read, not from the data source."
+ },
+ "generatedAt": 1791130265055,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791130199060,
+  "overall": {
+   "winRate": 50.6,
+   "play": 51974,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1202,
+   "wins": 631,
+   "winRate": 52.5
+  },
+  "laneAdvantage": "Gwen",
+  "soloKillAdvantage": "Gwen",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.2,
+    "play": 970,
+    "pickRate": 65.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.5,
+    "play": 122,
+    "pickRate": 8.3
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 47,
+    "play": 117,
+    "pickRate": 8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.6,
+    "play": 425,
+    "pickRate": 28.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 164,
+    "pickRate": 10.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 1395,
+    "pickRate": 94.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 65.4,
+    "play": 26,
+    "pickRate": 1.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 53.2,
+    "play": 579,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.5,
+    "play": 317,
+    "pickRate": 23.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 61.4,
+    "play": 236,
+    "pickRate": 27
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Shadowflame"
+    ],
+    "winRate": 58.7,
+    "play": 46,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Void Staff"
+    ],
+    "winRate": 57.9,
+    "play": 38,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.9,
+    "play": 1111,
+    "pickRate": 76.7
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 54.2,
+    "play": 845,
+    "pickRate": 58.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53.5,
+    "play": 619,
+    "pickRate": 42.7
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 62.6,
+    "play": 487,
+    "pickRate": 33.6
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 52.6,
+    "play": 388,
+    "pickRate": 26.8
+   },
+   {
+    "items": [
+     "Oblivion Orb"
+    ],
+    "winRate": 46.4,
+    "play": 263,
+    "pickRate": 18.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.7,
+    "play": 555
+   }
+  ]
+ }
+}

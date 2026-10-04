@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose this if you let Nasus farm freely to level 6 and beyond and his Siphoning Strike stacks catch up to your flat damage; you win it if you force all-ins before he hits 6, while his Q is on cooldown and he has no answer to your E's knockup."
+  },
+  "thesis": "Camille's trade package peaks before level 6 and decays afterward relative to Nasus's stacking Q, which is exactly why the measured numbers show Camille holding lane and solo-kill advantage but the head-to-head win rate sitting at 49.8% over 1596 games — an overall even matchup. The entire game plan is converting your early structural edge into a lead before Nasus's Fury of the Sands and compounding Siphoning Strike stacks let him scale past you.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Nasus hits 6, Fury of the Sands ready",
+    "what": "Once Nasus has his R (Fury of the Sands, 120s cooldown) available, a sustained fight lets him gain bonus health, attack range, and drain your max health into bonus damage for the duration. Don't chain-trade in melee range during this window — disengage and reset instead of fighting through his sandstorm."
+   },
+   "yourWindow": {
+    "when": "levels 3-5, before his Q stacks snowball",
+    "what": "With E (Hookshot, 16/15/14/13/12s cooldown, range 800) up and a wall nearby, pull in and knock him up, then follow with an empowered Q (Precision Protocol) auto and stand at W (Tactical Sweep) outer range after the cast delay for the slow, bonus damage, and heal. Time these all-ins for when his Siphoning Strike (8/7/6/5/4s cooldown) is on cooldown and he can't contest or stack safely — this is OP.GG's own read on the matchup and it's correct."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both weak, Nasus only farming with Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E knockup plus Q/W online, no Wither yet"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ults live, Fury of Sands changes fights"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Q stacks compound, Soul Eater lifesteal scales"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his scaling vs your pick potential balance out"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Run with Health Potion; this is the dominant start at 50.8% win rate over 1648 games and the sustained-damage profile matches your melee trade pattern better than a shield start into a champion whose poke is a short-range Q, not ranged harass."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.3% win rate over 947 games; Nasus's damage is entirely basic-attack and Siphoning Strike based, and Steelcaps' flat damage reduction against his autos is more valuable here than Mercury's Treads' tenacity, since his only slow (Wither) is a secondary concern next to his auto-attack trading."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item on the highest-win-rate path (58.6% over 413 games); the move speed and empowered auto synergize with your E-engage, Q-empower combo to win the short trade windows before his R."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Second item on the same path; sustain and cleave let you win extended trades and farm/wave-clear to match Nasus's stacking tempo."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the top-performing core (58.6% win rate, 43.8% pick); the damage-over-time conversion blunts the burst from a stacked Siphoning Strike or a Spirit Fire-amplified auto."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "nasus is stacked and his soul eater lifesteal is out-healing your trades"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're behind and need to survive his fury of the sands all-in rather than win the trade"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want cooldown reduction to chain all-ins before he can reset and farm"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page runs at 48.9% win rate with 22.4% pick rate, the more popular of the two measured setups; the proc rewards the exact trade pattern this matchup calls for — standing in range while he farms with Q, stacking max health that both outlasts his poke and fuels the all-in once your E knockup lands.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the most-picked combo (68.9% pick, 51.1% win rate) and pairs with your level 3-5 all-in window — Ignite punishes his lack of a dash or disengage before Wither comes up. Teleport+Ignite measures higher at 55% win rate over fewer games if you'd rather prioritize scaling into side-lane splitpush, which fits if you expect the lane to go even and want to win the game through map pressure instead."
+  },
+  "playing": [
+   {
+    "title": "Punish his Q stacking window",
+    "detail": "Engage when Nasus's Siphoning Strike (8/7/6/5/4s cooldown) is down and he can't contest a trade or safely take the last hit he needs to stack. This is the single highest-value habit in the matchup."
+   },
+   {
+    "title": "Hookshot off lane walls for knockups",
+    "detail": "E (Hookshot, range 800) needs a wall to pull to — identify the nearest one before you commit to a trade so the knockup is available on demand, not just when you happen to be standing next to terrain."
+   },
+   {
+    "title": "Fight from W's outer edge",
+    "detail": "Tactical Sweep's outer half slows and deals extra damage while healing you; after the cast delay, position so his melee range only reaches your Q and basic attacks, not a counter-trade."
+   },
+   {
+    "title": "Don't stand in Spirit Fire",
+    "detail": "Nasus's E (12s cooldown, range 650) reduces the armor of anyone standing in the flame zone; disengage out of it rather than facetanking through your armor-heavy Trinity/Hydra build."
+   },
+   {
+    "title": "Respect level 6 onward",
+    "detail": "Once Fury of the Sands (120s cooldown) is up, a prolonged fight lets him gain health, range, and max-health drain damage — take short trades and reset instead of committing fully."
+   },
+   {
+    "title": "Buy antiheal if he's snowballed",
+    "detail": "Soul Eater's bonus lifesteal scales with his stacks; Executioner's Calling directly answers a Nasus who's pulled ahead on farm."
+   },
+   {
+    "title": "Convert your lead into side pressure",
+    "detail": "Your measured lane and solo-kill advantage is real but time-limited — if you're ahead by level 5, push plates and force him to choose between matching your tempo and continuing to farm stacks."
+   }
+  ],
+  "patchCaveat": "Every build path, rune page, summoner spell, and win rate here is measured from live games on the current patch via OP.GG — none of it is estimated. The level ranges, cooldown citations, and tactical reasoning connecting those numbers to specific trade windows are this brief's own analysis, not sourced data."
+ },
+ "generatedAt": 1791129777425,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791129679095,
+  "overall": {
+   "winRate": 50.8,
+   "play": 84542,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1596,
+   "wins": 795,
+   "winRate": 49.8
+  },
+  "laneAdvantage": "Camille",
+  "soloKillAdvantage": "Camille",
+  "playStyle": "even",
+  "opponentTip": "Engage Nasus whenever he tries to stack up on his (Q)! Purchase items that reduce healing to reduce Nasus’s sustain!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.1,
+    "play": 1308,
+    "pickRate": 68.9
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 55,
+    "play": 349,
+    "pickRate": 18.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.8,
+    "play": 224,
+    "pickRate": 11.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.9,
+    "play": 438,
+    "pickRate": 22.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.9,
+    "play": 190,
+    "pickRate": 9.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 1648,
+    "pickRate": 86
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 150,
+    "pickRate": 7.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.3,
+    "play": 947,
+    "pickRate": 56.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.8,
+    "play": 469,
+    "pickRate": 27.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 58.6,
+    "play": 413,
+    "pickRate": 43.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 61.3,
+    "play": 191,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 61,
+    "play": 164,
+    "pickRate": 17.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.5,
+    "play": 1862,
+    "pickRate": 99.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 54.5,
+    "play": 1527,
+    "pickRate": 81.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.1,
+    "play": 549,
+    "pickRate": 29.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58,
+    "play": 286,
+    "pickRate": 15.3
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 47.6,
+    "play": 273,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 61.1,
+    "play": 265,
+    "pickRate": 14.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52,
+    "play": 354
+   }
+  ]
+ }
+}

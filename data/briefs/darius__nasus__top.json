@@ -1,0 +1,379 @@
+{
+ "you": "Darius",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, timing-based",
+   "line": "You win if you punish him before level 6 and close the game by the 20-minute mark; you lose if the lane drags and he free-farms into his late-game spike."
+  },
+  "thesis": "Nasus' Siphoning Strike (Q) only becomes a threat if he's allowed to farm killing blows uncontested, while Darius' Hemorrhage stacks and E (Apprehend) pull punish him every time he steps forward to last-hit. The data backs this: Darius holds both lane and solo-kill advantage here, but the matchup is rated even overall because the moment Nasus stacks freely and hits his late powerspike, the fight inverts.",
+  "tell": {
+   "watch": "Nasus' Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "after level 11, if he farmed free",
+    "what": "Once Nasus has stacked Siphoning Strike uncontested, his per-hit damage starts to eclipse yours. Don't commit to a drawn-out 1v1 on his Spirit Fire zone, and respect his R (Fury of the Sands, 120s cooldown) — it adds Health, range, and max-Health drain damage the instant it's up."
+   },
+   "yourWindow": {
+    "when": "levels 3-6, before his first back",
+    "what": "The instant he steps up to last-hit, hook him with E (Apprehend) — it passively strips Armor on your hits — then land W (Crippling Strike) to kill his retreat speed and swing Q (Decimate) twice to stack Hemorrhage to max before his Wither (15-11s cooldown) is even relevant."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "Decimate's wide swing stacks faster than his farm Q"
+   },
+   {
+    "levels": "4-6",
+    "edge": "you",
+    "note": "Apprehend pulls punish every farm attempt"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "both ultimates online, outcome depends on stacks"
+   },
+   {
+    "levels": "11-18",
+    "edge": "them",
+    "note": "a farmed Nasus out-scales in extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest pick rate and win rate (51.2% over 2,840 games) — the extra early AD and sustain fund the all-in trades you need to win before he's farmed."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Best measured win rate (53.7% over 1,297 games) — the extra Move Speed keeps you attached to him through Wither and lets you catch him before he resets to tower."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste spike lets you close the gap and chain E into R before he can Wither and walk away."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Move Speed stacking closes distance in open lane and adds a burst of damage on the first hit of a trade."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Highest-winning full path (60.2% over 304 games) — the damage-over-time conversion keeps you alive through his Spirit Fire and Wither poke."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "the enemy team adds heavy magic damage alongside nasus"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need burst survivability to land your all-in safely"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need an extra gap closer to stick onto him before he disengages"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Ramping Adaptive Force and healing over an extended trade matches Darius' stack-then-burst pattern better than a burst keystone — you want to be winning the fight at stack five, not at stack one.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite has the highest measured win rate among run pages (52.3% over a 29.7% pick rate) — Ignite's guaranteed damage pairs with Noxian Guillotine's true-damage execute to close out early solo kills before he can trade back."
+  },
+  "playing": [
+   {
+    "title": "Punish every CS attempt",
+    "detail": "Siphoning Strike only farms safely if he can walk up unanswered. Stand on the wave and force him to burn Wither just to last-hit."
+   },
+   {
+    "title": "Hook the moment he's in range",
+    "detail": "E (Apprehend) passively strips Armor on your hits, so use the pull as soon as he's in the 535 range window rather than saving it — stack Hemorrhage fast while his Wither is down."
+   },
+   {
+    "title": "Stack before you commit R",
+    "detail": "Noxian Guillotine's true damage scales per Hemorrhage stack, so land W (Crippling Strike) and at least one Q swing before you leap in."
+   },
+   {
+    "title": "Don't fight on his Spirit Fire",
+    "detail": "His E zone strips your Armor the longer you stand in it. Finish the trade fast or pull him off the puddle first."
+   },
+   {
+    "title": "Follow him to jungle camps",
+    "detail": "If he roams for cheap Siphoning Strike stacks, trail him and punish it — every uncontested kill compounds his late-game threat."
+   },
+   {
+    "title": "Convert your lead by 20 minutes",
+    "detail": "Once he's past level 11 with a farmed Q, his duel power passes yours. Push the lead into objectives instead of scaling passively."
+   },
+   {
+    "title": "Track his Fury of the Sands timer",
+    "detail": "His R (120s cooldown) adds Health, range, and max-Health drain damage. Never start a long fight inside that window unless you can burst him before the storm ramps."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the win-rate figures above come from measured Darius vs Nasus games on the current patch (16.19.1, 2,586 games); the lane-phase and power-curve reasoning is my own read of the kit interactions."
+ },
+ "generatedAt": 1791129199841,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791129104135,
+  "overall": {
+   "winRate": 49.4,
+   "play": 126485,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2586,
+   "wins": 1328,
+   "winRate": 51.4
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus grow easily by constantly applying pressure in lane. Close in to fight him whenever he steps in range to kill him easily.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50.6,
+    "play": 2185,
+    "pickRate": 65.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.3,
+    "play": 990,
+    "pickRate": 29.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 90,
+    "pickRate": 2.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.5,
+    "play": 1050,
+    "pickRate": 30.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.2,
+    "play": 867,
+    "pickRate": 25.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 2840,
+    "pickRate": 84.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 441,
+    "pickRate": 13.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53.7,
+    "play": 1297,
+    "pickRate": 39.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.9,
+    "play": 1194,
+    "pickRate": 36.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 60.2,
+    "play": 304,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 60.7,
+    "play": 168,
+    "pickRate": 8.6
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 56.9,
+    "play": 102,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 52.3,
+    "play": 1727,
+    "pickRate": 52.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.9,
+    "play": 1726,
+    "pickRate": 52.5
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 48.4,
+    "play": 1028,
+    "pickRate": 31.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.7,
+    "play": 900,
+    "pickRate": 27.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.5,
+    "play": 857,
+    "pickRate": 26.1
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 54.6,
+    "play": 687,
+    "pickRate": 20.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.4,
+    "play": 801
+   }
+  ]
+ }
+}

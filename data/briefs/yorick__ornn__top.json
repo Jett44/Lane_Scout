@@ -1,0 +1,380 @@
+{
+ "you": "Yorick",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Strong lane, risky scale",
+   "line": "You win if you press the lane and solo-kill Ornn before level 10; you lose if the game drags and his Living Forge gold lets him out-scale you into a Brittle-knockup kill."
+  },
+  "thesis": "Yorick holds the lane and solo-kill edge here, but the 43% head-to-head win rate over 790 games exists because Ornn's kit answers Yorick's two core tools directly: W (Bellows Breath) applies Brittle to blow up anyone who overstays, and his E (Searing Charge) collapses Yorick's W (Dark Procession) wall almost immediately if he's near terrain. The matchup rewards closing the lane fast and punishes drawn-out skirmishes where his passive gold lets him out-build you.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "E up and near terrain",
+    "what": "He can charge into any terrain near your W wall and knock everyone up, chaining into R for a kill combo. Don't trade or wall him when he's standing within E range of a wall or cliff."
+   },
+   "yourWindow": {
+    "when": "E (Searing Charge) on cooldown",
+    "what": "This is your only safe window to trap him with W (Dark Procession), since he has no way to break the wall or knock you up. Land E (Mourning Mist) first to mark him, then wall and swing empowered Q autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "Q sustain autos win early trades"
+   },
+   {
+    "levels": "4-6",
+    "edge": "you",
+    "note": "solo-kill window before his R"
+   },
+   {
+    "levels": "7-9",
+    "edge": "even",
+    "note": "R online, overextending gets punished"
+   },
+   {
+    "levels": "10-14",
+    "edge": "them",
+    "note": "Living Forge gold snowballs his stats"
+   },
+   {
+    "levels": "15-18",
+    "edge": "them",
+    "note": "Brittle + knockup combo dominates skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm",
+    "why": "Carries a 47.4% win rate over 272 games against a magic-damage laner, beating Doran's Shield's 38.9% here since Ornn's Q/W/E/R all hit for magic."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "43.8% win rate over 404 games; the tenacity cuts the duration of his Q slow and R knockup chain, and the magic resist softens his full magic-damage kit."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Opens the 46.8%-win, highest-sampled core path; the damage proc and move speed let you punish before his items come online."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds the bonus armor his Living Forge passive grants, which otherwise makes him unexpectedly tanky for a mage."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction keeps Q (Last Rites) and E (Mourning Mist) cycling faster so you can out-trade him between his ability windows."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hullbreaker",
+     "when": "the lane stalls and you need to out-scale through split pushing and waveclear"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "he's stacking armor fast through Living Forge and you need the penetration plus slow"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you want a shield and burst window to force all-ins before his R is up"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 43.2%-win page; sustained autos in extended trades heal you back while his Brittle only punishes burst, not grind, so Grasp wins the war of attrition.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The 44.8%-win combo beats Flash+Teleport's 42.3% here; Ignite secures the solo kills your lane advantage is built around before his R comes online."
+  },
+  "playing": [
+   {
+    "title": "Trade with empowered Q autos early",
+    "detail": "Levels 1-3, use Q (Last Rites) on cooldown (6s at rank 1) to win short trades; Ornn has no Brittle threat yet so every exchange favors your sustain."
+   },
+   {
+    "title": "Mark before you wall",
+    "detail": "Throw E (Mourning Mist) to slow and armor-shred him first, then drop W (Dark Procession) only when his E (Searing Charge) is on cooldown so the wall actually holds."
+   },
+   {
+    "title": "Never wall him near terrain",
+    "detail": "If he's within 450 range of a cliff or wall edge, skip the W trap entirely; Searing Charge breaks it and knocks you up in the same motion."
+   },
+   {
+    "title": "All-in before level 10",
+    "detail": "Your solo-kill advantage is real but shrinks fast once his Living Forge gold starts buying him bonus armor and MR; force fights while you're still ahead on stats."
+   },
+   {
+    "title": "Respect R once he hits 6",
+    "detail": "Call of the Forge God has a 140s cooldown at rank 1, so track it after each cast; don't sit at half health in lane once it's up."
+   },
+   {
+    "title": "Push waves into grave plays",
+    "detail": "Use Q's grave mechanic on minions to build Mist Walkers before contesting him, since the extra bodies win skirmishes once he's past the early solo-kill window."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample numbers above are measured from live games on the current patch (16.19.1); the mechanical reasoning and trade timing are my own analysis."
+ },
+ "generatedAt": 1791128915378,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791128846785,
+  "overall": {
+   "winRate": 49.2,
+   "play": 57150,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 790,
+   "wins": 340,
+   "winRate": 43
+  },
+  "laneAdvantage": "Yorick",
+  "soloKillAdvantage": "Yorick",
+  "playStyle": "even",
+  "opponentTip": "Ornn is a difficult opponent as his (W) can get rid of [P] easily, while [W] can be destroyed with (E) quickly. He can also use (R) to kill you if you did not manage your health properly. Use [E] to contest lane and try to trap him with [W] only when (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.3,
+    "play": 608,
+    "pickRate": 62.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.8,
+    "play": 270,
+    "pickRate": 27.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 4.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.2,
+    "play": 213,
+    "pickRate": 21.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.6,
+    "play": 197,
+    "pickRate": 19.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 38.9,
+    "play": 398,
+    "pickRate": 40.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 47.4,
+    "play": 272,
+    "pickRate": 27.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.8,
+    "play": 404,
+    "pickRate": 44.4
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 37.5,
+    "play": 285,
+    "pickRate": 31.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 46.8,
+    "play": 47,
+    "pickRate": 8.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 29.2,
+    "play": 24,
+    "pickRate": 4.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Hullbreaker"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 3.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 44.3,
+    "play": 612,
+    "pickRate": 63
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 43.3,
+    "play": 570,
+    "pickRate": 58.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 44.8,
+    "play": 335,
+    "pickRate": 34.5
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 42.6,
+    "play": 176,
+    "pickRate": 18.1
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 42.7,
+    "play": 143,
+    "pickRate": 14.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 44.4,
+    "play": 124,
+    "pickRate": 12.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 41.4,
+    "play": 505
+   }
+  ]
+ }
+}
