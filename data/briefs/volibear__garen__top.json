@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you facetank his early Q-auto trades and let Perseverance tick; you win once your Q stun and W-W combo start landing clean around levels 3-5 and your R disables his turret for dives."
+  },
+  "thesis": "This lane is a sustain war disguised as a brawl: Garen's Perseverance heals him back whenever he goes a few seconds untouched, so the whole matchup hinges on whether you keep Sky Splitter (E) on cooldown rotation to deny that regen while your own Frenzied Maul (W) mark-and-detonate heals you back in kind. At 49.6% over 2269 games this is a lane you're built to win on repeated trades and tower-disabling dives, not on a single all-in.",
+  "tell": {
+   "watch": "Garen's passive regen glow",
+   "theirWindow": {
+    "when": "Garen untouched, Perseverance ticking",
+    "what": "He'll stand and spin Judgment (E) freely because he's healing through it. Don't match him auto-for-auto in that window - reset the trade with a Sky Splitter poke to shut the regen off before committing again."
+   },
+   "yourWindow": {
+    "when": "his Q (Decisive Strike) just used",
+    "what": "Decisive Strike is only up every 8 seconds and is his one tool to break your slows and silence you mid-combo. Once it's down, Thundering Smash (Q) him for the stun and run the full W-auto-W mark-detonate-heal without fear of being cut off."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Garen's Q-auto burst outtrades you"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q stun plus W-W sustain wins trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R disables turret, enables dives"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Garen's E drops to 9s cooldown"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "his R threatens low-health executes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Runs a 53.4% win rate over 517 games, and the raw AD and sustain fit how Frenzied Maul's on-hit mark-and-heal actually scales - Volibear has no use for Doran's Ring's mana regen when the whole trade pattern is auto-attack based."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "The standard pick at 54.5% pick rate; flattens the steady physical chip from Garen's autos and Judgment spins that otherwise add up across every extended trade."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "On-hit attack speed and damage directly amplifies the passive's bonus magic damage proc and every Frenzied Maul mark you apply."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Cooldown refund on takedowns keeps Thundering Smash and Sky Splitter cycling faster, letting you re-engage and re-poke his passive more often in a single fight."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Heal and shield power amplifies both the Frenzied Maul recast heal and Stormbringer's bonus health, turning every trade you win into a bigger sustain lead."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "they build crit items or extra AD threats show up on their team"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need more raw sustained damage"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "the lane turns into a prolonged poke war instead of short trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Ramping attack speed over the duration of a fight compounds with the passive's own on-hit attack speed stacking, so every extended W-auto-W trade gets faster and hits harder the longer it goes - exactly the fight Garen's passive is trying to outlast.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The 74.8% pick rate combo for a reason: Ignite's damage-over-time punishes Garen for standing in Perseverance's heal window by cutting into the exact health he's trying to regen, while Flash extends your Q stun range for a clean engage or a safe exit."
+  },
+  "playing": [
+   {
+    "title": "Open with E, not Q",
+    "detail": "Sky Splitter's 1200 range lets you chip Garen before he can step into his level-1 Q-auto trade, and it keeps his Perseverance from ever starting its tick."
+   },
+   {
+    "title": "Deny Perseverance constantly",
+    "detail": "Any few seconds untouched and Garen starts healing back. Rotate E or an auto onto him on cooldown so he's always 'recently damaged' and the regen never fires."
+   },
+   {
+    "title": "Hold Q until his Q is down",
+    "detail": "Decisive Strike's 8s cooldown is his only way to silence you or break your slows mid-combo. Once it's used, Thundering Smash him for the stun and run your full combo risk-free."
+   },
+   {
+    "title": "W-auto-W every single trade",
+    "detail": "Frenzied Maul's 5s cooldown means you can mark and detonate in nearly every exchange; the second cast's heal directly cancels out his own sustain."
+   },
+   {
+    "title": "Use R to disable the turret and dive",
+    "detail": "Stormbringer's landing temporarily disables nearby towers, letting you force dives starting level 6 that he can't punish with a tower shot."
+   },
+   {
+    "title": "Respect his shrinking E cooldown",
+    "detail": "Judgment drops from 13s to 9s by max rank, so by levels 9-13 he can spin far more often - don't facetank extended trades without your W-heal timed to answer it."
+   },
+   {
+    "title": "Play around his R past level 6",
+    "detail": "Demacian Justice falls to a 20s cooldown at rank 5 around levels 16-18 and threatens an execute - don't sit low in his walk-up range after a trade."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner picks above are pulled directly from measured games on the current patch (16.19.1); the matchup reading - the Perseverance-denial pattern, the trade windows around his Q, and the skill-order reasoning - is my own tactical judgment layered on top of that data."
+ },
+ "generatedAt": 1791166169191,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791166051334,
+  "overall": {
+   "winRate": 48.9,
+   "play": 86429,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 2269,
+   "wins": 1126,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "Volibear",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "aggressive",
+  "opponentTip": "Use [E] often to prevent Garen’s (P) from activating. Use Grasp of the Undying whenever it comes off cooldown to engage combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49,
+    "play": 2131,
+    "pickRate": 74.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.5,
+    "play": 355,
+    "pickRate": 12.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.8,
+    "play": 236,
+    "pickRate": 8.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 930,
+    "pickRate": 31.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.2,
+    "play": 228,
+    "pickRate": 7.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.4,
+    "play": 1962,
+    "pickRate": 69.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.4,
+    "play": 517,
+    "pickRate": 18.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.8,
+    "play": 1453,
+    "pickRate": 54.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.3,
+    "play": 346,
+    "pickRate": 13
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 56.6,
+    "play": 228,
+    "pickRate": 11.3
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 56.6,
+    "play": 83,
+    "pickRate": 4.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Unending Despair"
+    ],
+    "winRate": 51.2,
+    "play": 82,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 51.1,
+    "play": 1786,
+    "pickRate": 63.7
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 50.9,
+    "play": 1134,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 52,
+    "play": 1134,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 54.2,
+    "play": 847,
+    "pickRate": 30.2
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 56.3,
+    "play": 419,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 46.6,
+    "play": 393,
+    "pickRate": 14
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 52,
+    "play": 793
+   }
+  ]
+ }
+}

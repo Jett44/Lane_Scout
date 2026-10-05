@@ -1,0 +1,381 @@
+{
+ "you": "Nasus",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly disfavoured",
+   "line": "You lose if you trade autos into Q (Decisive Strike) silence windows or stand in Judgment spin range on cooldown; you win if you stack Q (Siphoning Strike) cleanly and drag it to a 3-item spike."
+  },
+  "thesis": "Garen holds lane advantage and the solo-kill edge (46.3% Nasus win rate over 4547 games) because Perseverance heals him back to full between trades and E (Judgment) punishes you for standing in melee range to farm with Q (Siphoning Strike). The matchup is winnable but it is a scaling race, not an even lane — you are playing for stacks and the Fury of the Sands (R) timer, not for early trades.",
+  "tell": {
+   "watch": "Garen's Q (Decisive Strike) cooldown",
+   "theirWindow": {
+    "when": "Decisive Strike (Q) off cooldown, 8s",
+    "what": "He will walk up, trade an empowered silenced auto, and disengage with the Move Speed burst — do not try to Wither (W) him mid-engage since he breaks free of all slows while Decisive Strike is active. Back off until the silence auto lands, then re-engage."
+   },
+   "yourWindow": {
+    "when": "His Perseverance passive is suppressed",
+    "what": "Perseverance only regenerates health if Garen hasn't recently taken damage or ability hits, so chain Siphoning Strike (Q) and Spirit Fire (E) procs to keep him flagged and deny the sustain — that's your actual damage window, not a cooldown timer on his kit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Judgment (E) poke outtrades uneven Q farm"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Decisive Strike silence punishes melee farm trades"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Spirit Fire armor shred evens sustained trades"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Q stacks and item spikes outscale his kit"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Fury of the Sands (R) wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Run by 47% of games at 66.7% pick rate — the regen and physical damage reduction directly offset Judgment (E) poke and Decisive Strike (Q) trades while you stack Siphoning Strike (Q) on minions."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "46.4% win rate at 48.8% pick rate — the ability haste shortens Wither (W) and Spirit Fire (E) cooldowns, which matters more here than Plated Steelcaps' flat reduction since your damage comes from ability uptime, not autos."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the highest-performing path (53% win rate, 771 games) — gives the stats to both farm Q stacks faster and start winning trades."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Core second item in both top build paths — the armor and cooldown reduction directly answer Garen's auto-reliant Judgment (E) and Decisive Strike (Q) damage."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "53% win rate over 771 games as the third item — stacks with Soul Eater lifesteal to win extended trades once Perseverance can't out-heal you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is building into pure physical damage and you need the healing cut to beat his Perseverance sustain"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he is ahead and threatening to snowball onto you with Decisive Strike engages"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Run in the top page (46.7% win rate, 52.8% pick) — the sustain from attacking during farm-heavy Q (Siphoning Strike) trades keeps you even with Perseverance without needing to all-in.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Highest-performing combo at 46.2% win rate and 47.2% pick rate — Teleport lets you reset after losing early trades and return with full stacks intact, while Ghost helps you stick on him once Wither (W) and item spikes make you the stronger duelist."
+  },
+  "playing": [
+   {
+    "title": "Farm Q, don't force trades",
+    "detail": "Siphoning Strike (Q) stacks are your entire win condition — prioritize landing it on minions over trading autos, since each kill permanently increases its damage."
+   },
+   {
+    "title": "Never auto into open Decisive Strike",
+    "detail": "If his Q (Decisive Strike) is up, any auto you throw eats a silenced, bonus-damage return hit with a Move Speed burst attached — wait for it to go on cooldown before committing."
+   },
+   {
+    "title": "Punish with Spirit Fire on cooldown",
+    "detail": "Drop E (Spirit Fire) on cooldown during any extended trade — it reduces his armor and keeps his Perseverance passive suppressed since he's taking consistent ability damage."
+   },
+   {
+    "title": "Wither only to finish or flee",
+    "detail": "W (Wither) does not work while his Decisive Strike (Q) burst is active since that ability breaks all slows — save Wither for after he's used Q, either to chase a kill or to escape an all-in."
+   },
+   {
+    "title": "Play short trades until level 11",
+    "detail": "Per the curve, levels 1-10 favor him or are even at best — take quick Q pokes and disengage rather than standing in Judgment (E) range."
+   },
+   {
+    "title": "Save Teleport for the reset",
+    "detail": "If you fall behind in stacks or health early, back off and Teleport back in rather than fighting from a losing position — the matchup rewards patience over desperation all-ins."
+   },
+   {
+    "title": "Fight on Fury of the Sands timing",
+    "detail": "Once R (Fury of the Sands) is up at 120s cooldown, look to force fights — the Health gain and max-Health drain swing extended trades firmly in your favor."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.19.1); the tell, power curve, and trade-pattern reasoning are my own tactical read of the ability kits."
+ },
+ "generatedAt": 1791164444281,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791164406238,
+  "overall": {
+   "winRate": 50.4,
+   "play": 109916,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 4547,
+   "wins": 2106,
+   "winRate": 46.3
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance when Garen has his Conqueror stacks up. Focus on farming with [Q] foremost, and try go in for the kill when Unsealed Spellbook + Fury of the Sands [R] come off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 46.2,
+    "play": 2725,
+    "pickRate": 47.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 45,
+    "play": 1501,
+    "pickRate": 26
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.3,
+    "play": 1163,
+    "pickRate": 20.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 46.7,
+    "play": 3135,
+    "pickRate": 52.8
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43,
+    "play": 374,
+    "pickRate": 6.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47,
+    "play": 3899,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.2,
+    "play": 971,
+    "pickRate": 16.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 46.4,
+    "play": 2752,
+    "pickRate": 48.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.4,
+    "play": 1900,
+    "pickRate": 33.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 53,
+    "play": 771,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 57.6,
+    "play": 250,
+    "pickRate": 7.2
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 50.6,
+    "play": 168,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48,
+    "play": 3606,
+    "pickRate": 64.4
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 50.7,
+    "play": 3588,
+    "pickRate": 64.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 52.4,
+    "play": 1985,
+    "pickRate": 35.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 47.9,
+    "play": 1282,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.9,
+    "play": 1005,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 53.7,
+    "play": 698,
+    "pickRate": 12.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51,
+    "play": 1095
+   }
+  ]
+ }
+}

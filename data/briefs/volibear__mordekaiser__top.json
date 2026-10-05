@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Mordekaiser freely stack Darkness Rise and out-sustain you with Indestructible; you win by denying his Q (Obliterate) procs and forcing all-ins while his W shield is down."
+  },
+  "thesis": "This is a dead-even stat check (49% Volibear over 2288 games) decided entirely by who lands poke first. Mordekaiser's Q (Obliterate) deals more damage hitting a single target, so he wants isolated trades, while your E (Sky Splitter) outranges his kit at 1200 range and lets you slow and shield up before he closes in. The lane is won or lost on whether you let him stack 3 hits for his Darkness Rise passive uncontested.",
+  "tell": {
+   "watch": "Mordekaiser's W (Indestructible) cooldown",
+   "theirWindow": {
+    "when": "he's landed 3 hits, passive active",
+    "what": "Darkness Rise gives him a damage aura and move speed burst — he will walk up and trade Q into W shield. Don't facetank; back off and let the aura fall off before re-engaging."
+   },
+   "yourWindow": {
+    "when": "his W (Indestructible) just went down",
+    "what": "He has no shield to offset damage or heal from for 12/11/10/9/8s. Hit E (Sky Splitter) first to slow him, then dive with Q (Thundering Smash) to stun and all-in with W (Frenzied Maul) stacks before he can reset."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "even",
+    "note": "Both sides poke at range, no all-in threat yet"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Q (Obliterate) cooldown drops, single-target damage spikes"
+   },
+   {
+    "levels": "7-10",
+    "edge": "you",
+    "note": "Lethal Tempo ramps, W stacks punish his cooldowns"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Both ultimates online, trades become coinflips"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "R (Realm of Death) isolates and steals your stats"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring, Health Potion, Health Potion",
+    "why": "The 73.2%-picked start (49.5% WR, 2099 games) gives sustain and mana for repeated E (Sky Splitter) pokes to contest his Q (Obliterate) range."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "47.7% pick rate at 48.9% WR — tenacity blunts his E (Death's Grasp) pull chain-CC into R (Realm of Death) burst."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Most-picked core piece (19.8% path), gives the attack speed to stack W (Frenzied Maul) marks faster than he can shield them off"
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Cooldown refund on Q (Thundering Smash) and E lets you re-engage before his W (Indestructible) comes back up"
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Magic resist directly counters his all-magic-damage kit and boosts your W (Frenzied Maul) self-heal"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "the fight is dragging past his shield windows and you need sustained magic damage through his W"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "he's building tanky and you need the sustain-and-burst path instead (55.7% WR, 88 games)"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "his jungler is adding on-hit or auto-attack pressure to the dive"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The 36.1%-picked page's attack speed ramp lets you stack W (Frenzied Maul) marks and proc your passive's bonus magic damage faster than Mordekaiser can out-trade you.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "76% pick rate at 49.7% WR — Ignite punishes his W (Indestructible) healing by reducing it, which matters since he leans on that shield-to-heal conversion every trade."
+  },
+  "playing": [
+   {
+    "title": "Poke with E before he closes",
+    "detail": "E (Sky Splitter) has 1200 range versus his longest tool at 700 — land it first every time he walks up to slow him and force him to eat chip damage before he can swing."
+   },
+   {
+    "title": "Track his passive stack count",
+    "detail": "Darkness Rise triggers after 3 landed hits. If you see the aura pop, disengage immediately rather than trading through it."
+   },
+   {
+    "title": "Double-tap W for the heal",
+    "detail": "W (Frenzied Maul) marks on first cast, then heals you on the second cast against the same target — always go for the second application in extended trades."
+   },
+   {
+    "title": "Save Q for his E dash-in",
+    "detail": "Q (Thundering Smash) stuns the first enemy you attack after gaining speed toward them — hold it to punish Death's Grasp pulls rather than opening with it."
+   },
+   {
+    "title": "Never fight into a fresh W shield",
+    "detail": "His W (Indestructible) has a long base range (25000, self-cast) and stores damage for a heal — only commit full combos when you've tracked it on cooldown."
+   },
+   {
+    "title": "Respect R timing at level 6/11/16",
+    "detail": "Realm of Death isolates you 1v1 and steals your stats on a kill. Don't overextend past minion wave once he's 6+ unless you have summoner spell or E shield up."
+   },
+   {
+    "title": "Use R to disable towers, not just damage",
+    "detail": "Stormbringer disables nearby enemy towers on landing — save it for dive windows after his W is down rather than a mid-lane poke tool."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are pulled from measured OP.GG games on the current patch (16.19.1); the mechanical reasoning and trade-timing calls are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791166331218,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791166295296,
+  "overall": {
+   "winRate": 48.9,
+   "play": 86429,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 2288,
+   "wins": 1120,
+   "winRate": 49
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use [E] to contest lane during early game to easily gain lane control. Try to go in for the kill when (W) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.7,
+    "play": 2175,
+    "pickRate": 76
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 49.7,
+    "play": 388,
+    "pickRate": 13.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.5,
+    "play": 196,
+    "pickRate": 6.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 1058,
+    "pickRate": 36.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.6,
+    "play": 240,
+    "pickRate": 8.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.5,
+    "play": 2099,
+    "pickRate": 73.2
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.2,
+    "play": 435,
+    "pickRate": 15.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.9,
+    "play": 1255,
+    "pickRate": 47.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.2,
+    "play": 391,
+    "pickRate": 14.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 57.4,
+    "play": 380,
+    "pickRate": 19.8
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 55.7,
+    "play": 88,
+    "pickRate": 4.6
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 45.9,
+    "play": 61,
+    "pickRate": 3.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50.7,
+    "play": 1884,
+    "pickRate": 66.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 52.8,
+    "play": 1251,
+    "pickRate": 44.4
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 54.3,
+    "play": 1199,
+    "pickRate": 42.6
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 51.8,
+    "play": 1067,
+    "pickRate": 37.9
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53.8,
+    "play": 411,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 53.1,
+    "play": 341,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 55.2,
+    "play": 822
+   }
+  ]
+ }
+}

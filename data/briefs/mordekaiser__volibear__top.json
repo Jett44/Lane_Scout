@@ -1,0 +1,385 @@
+{
+ "you": "Mordekaiser",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into Volibear's empowered W before level 6; you win every all-in once Realm of Death is up."
+  },
+  "thesis": "This is a dead-even matchup at 50.9% over 2280 games because both champions are weak pre-6 skirmishers who become terrifying duelists at level 6. Volibear's Frenzied Maul (W) punishes short trades with a heal, so Mordekaiser's job before level 6 is to deny CS and avoid stacking that mark, then flip the lane the moment Realm of Death comes online.",
+  "tell": {
+   "watch": "Volibear's W mark on you",
+   "theirWindow": {
+    "when": "W mark applied and he closes distance",
+    "what": "He is about to recast W for bonus damage and a heal. Back off or interrupt with your own trade; do not stand still and let him land the second cast."
+   },
+   "yourWindow": {
+    "when": "Level 6 hits and R is off cooldown",
+    "what": "Realm of Death pulls Volibear into an isolated duel where you steal a slice of his stats. Force the fight here, not before — your kit has nothing to punish his Q (Thundering Smash) gap-close pre-6."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q stun into empowered autos wins short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Farm priority, avoid W-mark trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Realm of Death turns duels your way"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Riftmaker/Rylai's online, trades even out"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build sustain outlasts his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Taken in 71.2% of games (49.9% WR, 2010 games) — the sustain and mana from two potions lets you hold W (Indestructible) stacking uptime through his poke without needing to recall early."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "50.2% pick rate at 49.5% WR — the magic resist and tenacity shortens how long Thundering Smash's stun locks you into his empowered autos."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "First item in the top three build paths (9.8%, 6%, 4.8% pick) — the slow on Obliterate (Q) and Death's Grasp (E) keeps Volibear inside your damage aura instead of letting him kite with Attack Speed stacks from his passive."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Second item in every major build path — omnivamp sustains you through extended trades while Volibear's W heal tries to outlast you."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Most common third item (9.8% path, 61.6% WR) — burn damage punishes him for standing in melee range to land his on-hit W stacks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he is building into sustained heal-reliant trades or ahead in damage"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he rushes attack speed items to abuse his passive's bonus magic damage proc"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early anti-heal/armor spike before full Riftmaker completes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Taken in the top two rune pages (47.6% and 11% pick) — stacking Conqueror through extended Obliterate/Death's Grasp trades out-damages Volibear's short burst-and-heal pattern over a full fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 81.7% of games at 50.5% WR — Ignite denies the sustain from his W heal on kill attempts, which matters since he can refund HP by double-tapping Frenzied Maul."
+  },
+  "playing": [
+   {
+    "title": "Hold W stacks, don't waste them",
+    "detail": "Indestructible (W, cooldown 12/11/10/9/8s) stores damage dealt and taken into a shield you consume for healing. Bank it through his Q stun rather than popping it reactively on cooldown."
+   },
+   {
+    "title": "Never trade into a fresh W mark",
+    "detail": "If you see Frenzied Maul's mark on you, Volibear is one recast from bonus damage and a heal. Disengage or burst him down before he lands the second hit."
+   },
+   {
+    "title": "Save Death's Grasp for his Q cooldown",
+    "detail": "E (cooldown 16/14/12/10/8s) pulls him into your damage aura. Using it while his Thundering Smash (12/11.5/11/10.5/10s cooldown) is down removes his only gap-close/stun, making the pull safe."
+   },
+   {
+    "title": "Don't contest before level 6",
+    "detail": "You have no stun, slow, or burst to answer his empowered autos pre-Realm of Death. Farm under tower pressure instead of matching his trades levels 1-5."
+   },
+   {
+    "title": "All-in the instant R is up",
+    "detail": "Realm of Death (cooldown 140/120/100/90/80s) isolates him and steals stats — this is your one clean kill window per level-up. Initiate it, don't wait for him to engage first."
+   },
+   {
+    "title": "Track his Sky Splitter cooldown",
+    "detail": "E (16s cooldown, 1200 range) slows and shields him if he's in the blast. If he's just used it for wave clear or poke, it's a 16-second window where he has no ranged tool to punish your approach."
+   },
+   {
+    "title": "Respect Stormbringer near your tower",
+    "detail": "His ultimate (cooldown 160/135/110/110/110s) disables towers near its landing zone. Don't overextend under tower once he's level 16+ and R is live — a bad teleport engage there can snowball into a tower loss."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from live OP.GG games on the current patch (16.19.1); the tactical reasoning connecting them to ability mechanics and timing windows is this brief's own analysis."
+ },
+ "generatedAt": 1791164694067,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791164654760,
+  "overall": {
+   "winRate": 49.8,
+   "play": 100844,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2280,
+   "wins": 1161,
+   "winRate": 50.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid fighting Volibear before reaching level 6. Use your skills to focus on farming and contesting lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 2283,
+    "pickRate": 81.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41.5,
+    "play": 289,
+    "pickRate": 10.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.4,
+    "play": 155,
+    "pickRate": 5.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49,
+    "play": 1362,
+    "pickRate": 47.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.3,
+    "play": 315,
+    "pickRate": 11
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 2010,
+    "pickRate": 71.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 397,
+    "pickRate": 14.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.5,
+    "play": 1332,
+    "pickRate": 50.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.9,
+    "play": 1115,
+    "pickRate": 42
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 61.6,
+    "play": 159,
+    "pickRate": 9.8
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Spirit Visage"
+    ],
+    "winRate": 64.9,
+    "play": 97,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 53.8,
+    "play": 78,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53,
+    "play": 1967,
+    "pickRate": 71.2
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 50.7,
+    "play": 1951,
+    "pickRate": 70.6
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 54.5,
+    "play": 861,
+    "pickRate": 31.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 48.6,
+    "play": 650,
+    "pickRate": 23.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.4,
+    "play": 607,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 57.4,
+    "play": 578,
+    "pickRate": 20.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.3,
+    "play": 1307
+   }
+  ]
+ }
+}

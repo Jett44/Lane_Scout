@@ -1,0 +1,381 @@
+{
+ "you": "Volibear",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if she pokes you down with Lunge (Q) and Riposte-punishes your Thundering Smash (Q) before level 6; you win if you survive to your item spikes around level 9-12 and force the fight to go long."
+  },
+  "thesis": "Fiora's Lunge (Q, 16-8s cd, resettable second dash) outranges your W (Frenzied Maul, 325 range) and wins short trades from levels 1-5, and her Riposte (W) directly punishes your main engage tool, Thundering Smash (Q), if you throw it into an active parry. Your actual win condition is range: Sky Splitter (E, 1200 range, 16s cd) can't be parried and lets you poke and shield through her aggression until your bruiser build and W-heal sustain take over around level 9-12. The 50% head-to-head winrate over 1449 games reflects a lane she wins early and you win late, not a lane either side dominates outright.",
+  "tell": {
+   "watch": "Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "Riposte (W) is up near you",
+    "what": "She'll bait your Thundering Smash (Q) into her active parry, negating the stun and taking a magic-damage reflection while her own AD is buffed; don't throw Q into this, poke with E instead."
+   },
+   "yourWindow": {
+    "when": "Riposte (W) just spent or on cooldown",
+    "what": "With her W down for 10-6s depending on rank she can't parry; this is when Thundering Smash (Q) actually lands clean. Commit then, follow with a second W (Frenzied Maul) cast on the same target for the bonus damage and heal, then finish with E for the slow and shield."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Lunge (Q) outranges your short-range poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Free second Lunge dash punishes short trades"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Blade Waltz spikes but your E offsets poke"
+   },
+   {
+    "levels": "12-15",
+    "edge": "you",
+    "note": "Bruiser items and W-heal outscale her sustain"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build and tankiness win extended skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "The regen and mana sustain let you spam W (Frenzied Maul) and E (Sky Splitter) through her poke phase instead of having to back off low on resources."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Flat damage reduction blunts her basic-attack-heavy trade pattern from Lunge (Q) and Burst of Speed (E) auto-resets."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Ability haste cycles Frenzied Maul (W) and Sky Splitter (E) faster so you have more windows to punish her Riposte downtime."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Cooldown refund off takedowns means more W casts for heal and more E uptime for poke across a skirmish."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Heal amp stacks with Frenzied Maul's self-heal to directly outpace her Duelist passive regen in extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's building crit or lifesteal to out-sustain your trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're losing the early poke war to Lunge (Q) and need cheap health and regen to reach level 6"
+    },
+    {
+     "item": "Statikk Shiv",
+     "when": "the lane has gone even and you need wave clear or chase speed instead of more tank stats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The ramping attack speed rewards winning the long trade, stacking with your passive's attack-speed buildup and spam-casting Frenzied Maul (W), rather than trying to win a single short burst exchange where her Riposte-buffed AD wins.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite's healing reduction is what actually lets a landed Thundering Smash (Q) stun convert into a kill instead of a trade, since it cuts through her Duelist passive sustain. It's also the highest win-rate and most-picked combo in this matchup (50.9% WR, 72.9% pick)."
+  },
+  "playing": [
+   {
+    "title": "Trade with E, not Q",
+    "detail": "Sky Splitter (E, 1200 range, 16s cd) can't be parried the way a basic-attack engage can, so it's your safe poke tool while you wait out her cooldowns."
+   },
+   {
+    "title": "Never Q into an up Riposte",
+    "detail": "Check her W cooldown before charging in with Thundering Smash (Q); if Riposte is available she will parry your stunning attack and punish you for it, exactly as OP.GG's own matchup note warns."
+   },
+   {
+    "title": "Bait her second Lunge charge",
+    "detail": "Fiora gets a free second Lunge (Q) dash shortly after the first; let her spend both before you commit, since she's locked out for the full 16-8s cooldown afterward."
+   },
+   {
+    "title": "Double-tap W before any all-in",
+    "detail": "Frenzied Maul (W, 5s cd) marks on the first hit and heals you on the recast; land it twice around your stun to offset her passive regen instead of trading once and backing off."
+   },
+   {
+    "title": "Stand in your own E for the shield",
+    "detail": "Sky Splitter grants you a shield if you're inside its blast; drop it under yourself right as she pops Burst of Speed (E) or double-Lunges to blunt her burst."
+   },
+   {
+    "title": "Save R to force the fight, not to chase",
+    "detail": "Stormbringer (R, 160-110s cd) disables nearby towers on landing, so use it to commit her to an unfavorable fight near her own tower rather than chasing a speed-buffed Fiora who's already landed Blade Waltz (R)."
+   }
+  ],
+  "patchCaveat": "The build, runes, and the 50% head-to-head winrate over 1449 games are measured OP.GG data from the current patch (16.19.1); the lane-phase reasoning, cooldown interactions, and trade windows are my own tactical read, not measured stats."
+ },
+ "generatedAt": 1791166443578,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791166335870,
+  "overall": {
+   "winRate": 48.9,
+   "play": 86429,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1449,
+   "wins": 724,
+   "winRate": 50
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Always be aware of Fiora’s Riposte (W) before charging in using [Q]. Be careful of your Vitals when farming lane, and use [E] to contest lane while waiting for a chance to kill her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.9,
+    "play": 1282,
+    "pickRate": 72.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.4,
+    "play": 248,
+    "pickRate": 14.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.6,
+    "play": 140,
+    "pickRate": 8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52,
+    "play": 448,
+    "pickRate": 25
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 117,
+    "pickRate": 6.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.7,
+    "play": 1132,
+    "pickRate": 63.9
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 324,
+    "pickRate": 18.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.7,
+    "play": 1000,
+    "pickRate": 60.3
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 56.6,
+    "play": 212,
+    "pickRate": 12.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 64.9,
+    "play": 97,
+    "pickRate": 8.9
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 58,
+    "play": 69,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 55.7,
+    "play": 61,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 52.2,
+    "play": 996,
+    "pickRate": 56.8
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 49.4,
+    "play": 678,
+    "pickRate": 38.6
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 53.9,
+    "play": 636,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 58.4,
+    "play": 447,
+    "pickRate": 25.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 47.9,
+    "play": 401,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.4,
+    "play": 334,
+    "pickRate": 19
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 53.4,
+    "play": 350
+   }
+  ]
+ }
+}

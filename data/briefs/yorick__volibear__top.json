@@ -1,0 +1,388 @@
+{
+ "you": "Yorick",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose when Volibear chains Q stun into a prolonged, W-sustained trade before level 6; you win by cutting fights short, poking with E, and scaling into Trinity Force."
+  },
+  "thesis": "Volibear's passive grants ramping attack speed the longer a fight runs, and W (Frenzied Maul) can be recast on the same target for bonus damage and a self-heal — so every trade that goes past the first exchange gets worse for Yorick, which is exactly why Volibear holds the lane and solo-kill edge (Yorick wins only 45.9% over 1121 games here). Yorick's only profitable trades are short ones: Q (Last Rites) for the bonus hit and heal, E (Mourning Mist) for poke and armor shred, then disengage before his passive stacks and his W resets.",
+  "tell": {
+   "watch": "His W recast timer",
+   "theirWindow": {
+    "when": "Right after he lands Q stun",
+    "what": "He'll follow with two W (Frenzied Maul) hits to mark then heal, and his passive attack speed is already ramping — back off after one exchange instead of trading through it, since every extra second favors him."
+   },
+   "yourWindow": {
+    "when": "Right after he throws E (Sky Splitter)",
+    "what": "That ability is on a 16s cooldown, and if it whiffed he also missed the shield it grants him inside the blast — step in with your own E (Mourning Mist) poke and a Q (Last Rites) auto, then leave before he can reset with W."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q stun into W marks can snowball, no wall yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W (wall) is up but long cooldown at rank 1"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "R adds tower-dive threat, sustain still strong"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Core items and ghoul count start to matter"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build plus Maiden swing side fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The passive block and extra sustain offset his auto-reliant poke and the chip damage from an early Q stun combo, matching the measured 44.9% win rate over 648 games."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tenacity cuts the duration of his Q stun and R slow, both of which anchor his engage — critical since this matchup is about denying him a clean extended fight."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Gives you the burst and mobility to actually punish him in a short trade instead of losing the extended fight his passive wants."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred on top of your E's reduction is how you actually kill him once he starts stacking health through his passive and R."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Ability haste shortens your Q and E cooldowns for more poke-and-disengage cycles and faster wall uptime, and this path hit 61.5% over its sample."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "he keeps resetting fights with his W heal"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "he's stacking health and outrunning your slows"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need to survive his all-in instead of just trading"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the game goes long and you're split-pushing with ghouls"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp heals and hits on your first auto each window, and Bone Plating underneath blunts the burst from his Q-into-W combo — this is a defensive matchup and this page measured the higher win rate (46.4% over the sample).",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust directly weakens his Q stun all-in and cuts the bonus damage and heal he gets off a W recast, and this pairing measured the highest win rate (50%) of the three options on this matchup."
+  },
+  "playing": [
+   {
+    "title": "Trade only after your wall",
+    "detail": "Don't commit to an extended fight until W (Dark Procession) is up at level 3+ to block his engage or retreat path — before that, every second you stay in range favors his passive and his W heal."
+   },
+   {
+    "title": "Poke with E, don't all-in",
+    "detail": "Use E (Mourning Mist) at max range to chip him and mark targets for your ghouls, and only follow with a Q (Last Rites) auto if he's already well below half health."
+   },
+   {
+    "title": "Dig graves off minions",
+    "detail": "Use Q (Last Rites) on casters and cannon minions to keep your ghoul count up even when it isn't safe to trade with him directly."
+   },
+   {
+    "title": "Respect the level 1-2 all-in",
+    "detail": "Before your wall is online, his Q stun into W marks can snowball a kill — play passive and take Q procs on minions instead of contesting him."
+   },
+   {
+    "title": "Cut trades after two hits",
+    "detail": "His passive ramps attack speed the longer a fight runs, so disengage after one or two exchanges rather than trying to out-sustain him."
+   },
+   {
+    "title": "Wall off his tower dives",
+    "detail": "From level 6 on, his R (Stormbringer) temporarily disables nearby towers on landing — use W to cut off his follow-up path before he can finish the dive."
+   },
+   {
+    "title": "Save your ult for side fights",
+    "detail": "R (Eulogy of the Isles) raises walkers from dead enemies and boosts your damage onto the Maiden's target — spend it winning a side lane or pushing a wave rather than forcing a mid-lane skirmish with him."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and every win-rate figure above come from measured games on the current patch (OP.GG); the mechanical reasoning and trade-pattern advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791165963311,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791165882316,
+  "overall": {
+   "winRate": 49.2,
+   "play": 60507,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1121,
+   "wins": 514,
+   "winRate": 45.9
+  },
+  "laneAdvantage": "Volibear",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "defensive",
+  "opponentTip": "Before his remake, dealing damage to Volibear was nearly impossible as his (E) inflicted fear on minions. Now, he is relatively easier to deal with. Keep an eye out on his (E) while poking with [E] to close in once he is low on health. Be careful of prolonged fights as his (W) can be used to heal back up, allowing him to kill you instead.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.4,
+    "play": 694,
+    "pickRate": 49.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.3,
+    "play": 499,
+    "pickRate": 35.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 128,
+    "pickRate": 9.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 360,
+    "pickRate": 25.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.8,
+    "play": 237,
+    "pickRate": 16.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.9,
+    "play": 648,
+    "pickRate": 45.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 45.9,
+    "play": 523,
+    "pickRate": 36.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.8,
+    "play": 614,
+    "pickRate": 46.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.5,
+    "play": 481,
+    "pickRate": 36.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 49.1,
+    "play": 57,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 61.5,
+    "play": 26,
+    "pickRate": 3.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Sterak's Gage"
+    ],
+    "winRate": 76.2,
+    "play": 21,
+    "pickRate": 2.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 46,
+    "play": 852,
+    "pickRate": 61.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.7,
+    "play": 522,
+    "pickRate": 37.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 48.9,
+    "play": 423,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 39.2,
+    "play": 278,
+    "pickRate": 20.1
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 48.3,
+    "play": 205,
+    "pickRate": 14.8
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 49.7,
+    "play": 197,
+    "pickRate": 14.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 46.1,
+    "play": 577
+   }
+  ]
+ }
+}

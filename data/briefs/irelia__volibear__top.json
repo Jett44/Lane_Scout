@@ -1,0 +1,385 @@
+{
+ "you": "Irelia",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Patience check",
+   "line": "You lose if you Bladesurge in blind and eat his Q stun into a double W; you win if you farm from range, bank 4 Ionian Fervor stacks, and only commit once his cooldowns are down."
+  },
+  "thesis": "Volibear's W (Frenzied Maul) is a 5-second-cooldown poke-and-heal that lets him win extended trades without ever using his stun, so Irelia can't fight on his terms early — she has to bait his cooldowns and only engage once she's fully stacked. The measured 49% win rate over 1718 games and the defensive lane shape both reflect that Volibear dictates when the trade starts, not Irelia.",
+  "tell": {
+   "watch": "Volibear's W cooldown bar",
+   "theirWindow": {
+    "when": "His Q (Thundering Smash) is off cooldown",
+    "what": "He gains speed toward you and stuns the first champion he attacks at 300 range, then can chain into Frenzied Maul twice for damage plus a heal. Don't walk into auto range to trade while this is up — back off and farm with spells only."
+   },
+   "yourWindow": {
+    "when": "You're at 4 Ionian Fervor stacks and his W/Q are down",
+    "what": "Hit him with E (Flawless Duet) to stun and Mark him, then Bladesurge in — the dash refreshes instantly off the Mark so you can chain another Q before he can answer, and the max-stack bonus damage on-hit swings the trade your way."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "W every 5s outpokes your unstacked passive"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E gives you a stun but his sustain still wins"
+   },
+   {
+    "levels": "6",
+    "edge": "them",
+    "note": "his ult adds health and disables your turret"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "shorter Q/E cooldowns let you dictate engages"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "full build resets outlast his dueling tools"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 86.9%-pick, 48.9%-win-rate start — the extra sustain and damage matter most here since you're trading into a champion whose W heals him back every exchange."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The 53.6%-pick option and the better answer to Thundering Smash's stun and the magic damage his passive eventually adds to his autos."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "The highest-pickrate first core item (22.9% of games) — percent-health damage and the on-hit slow help you actually catch him once you commit to a trade."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Pairs with BORK in the most-played build order and gives you the raw stats to keep trading as he itemizes for tankiness."
+    },
+    {
+     "item": "Wit's End",
+     "why": "Closes out the 55.2%-win-rate core path — magic resist and attack speed scale your passive stacking against his mixed damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "if his Frenzied Maul recast healing is winning him extended trades"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "if you need to survive his level 6+ all-ins and keep fighting through his burst"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "if he's stacking health and you need more raw dueling damage instead of sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The sustained damage and healing from stacking Conqueror is what lets you actually out-trade a champion whose own kit heals him in every exchange.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The most-played and best-performing pair here (49.1% win rate, 87.3% pick) — Ignite punishes his all-in windows and directly cuts into the W recast healing that's propping up his sustain."
+  },
+  "playing": [
+   {
+    "title": "Farm from max range",
+    "detail": "Both his Q (300 range) and W (325 range) require him to close distance first, so stay at the edge of your own auto range and only step in to last-hit."
+   },
+   {
+    "title": "Never Bladesurge in blind",
+    "detail": "A raw Q dash puts you right inside his Q stun zone with no answer; only commit it onto a target you've already Marked with E so it refreshes off the kill-mark instead of a cold engage."
+   },
+   {
+    "title": "Hold W for his engage",
+    "detail": "Defiant Dance reduces physical damage taken while it charges — pop it the moment he dashes in with Q so his stun-into-double-W combo does less."
+   },
+   {
+    "title": "Respect Sky Splitter poke",
+    "detail": "His E has 1200 range, slows, and shields him if he's caught in the blast; wait for it to go down (16s cooldown) before you commit your Q dash into a trade."
+   },
+   {
+    "title": "Bank 4 stacks before trading",
+    "detail": "Ionian Fervor caps out and adds bonus on-hit damage at max stacks — poke with autos or E on minions so you walk into every real fight already empowered."
+   },
+   {
+    "title": "Buy into his sustain",
+    "detail": "His W-into-W recast heals him in nearly every exchange; Executioner's Calling directly answers that if the trades keep slipping away."
+   },
+   {
+    "title": "Play around his level 6 dive",
+    "detail": "Stormbringer grants him bonus health and disables your tower on landing — don't sit near turret once he hits 6, even if your own Vanguard's Edge is up."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners and all win-rate/pick-rate numbers are measured from live OP.GG games on the current patch; the mechanical reasoning and timing calls are my own read of the kits."
+ },
+ "generatedAt": 1791165369806,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791165291530,
+  "overall": {
+   "winRate": 50.4,
+   "play": 96644,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1718,
+   "wins": 842,
+   "winRate": 49
+  },
+  "laneAdvantage": "Volibear",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being hit with Volibear’s (E). Purchase Executioner’s Calling, and engage whenever Irelia has 4 stacks [P] ready to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 1793,
+    "pickRate": 87.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40.1,
+    "play": 147,
+    "pickRate": 7.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41.1,
+    "play": 107,
+    "pickRate": 5.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.1,
+    "play": 749,
+    "pickRate": 35.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.5,
+    "play": 456,
+    "pickRate": 21.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 1802,
+    "pickRate": 86.9
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.8,
+    "play": 171,
+    "pickRate": 8.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.9,
+    "play": 1017,
+    "pickRate": 53.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.3,
+    "play": 807,
+    "pickRate": 42.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 55.2,
+    "play": 288,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Wit's End",
+     "Hullbreaker"
+    ],
+    "winRate": 55.7,
+    "play": 149,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 56.5,
+    "play": 131,
+    "pickRate": 10.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 49.3,
+    "play": 1959,
+    "pickRate": 97.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 54.8,
+    "play": 1004,
+    "pickRate": 50.1
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 52.6,
+    "play": 950,
+    "pickRate": 47.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 55.6,
+    "play": 617,
+    "pickRate": 30.8
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 55.6,
+    "play": 450,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 42.4,
+    "play": 330,
+    "pickRate": 16.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50.5,
+    "play": 412
+   }
+  ]
+ }
+}

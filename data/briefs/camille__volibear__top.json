@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you let Volibear double-tap W (Frenzied Maul) on you in a prolonged fight, and you win if you hit-and-run with Q (Precision Protocol) and your passive shield instead of standing in extended trades."
+  },
+  "thesis": "Volibear has the solo-kill edge because his W (Frenzied Maul) punishes you for committing to a full trade: the second cast on the same target deals bonus damage and heals him, so the fight snowballs in his favor the longer it runs. Camille's win condition is denying that second W by cutting the trade short, using Precision Protocol's bonus damage and move speed to hit once and disengage before he can land the follow-up.",
+  "tell": {
+   "watch": "Volibear's W (Frenzied Maul) mark",
+   "theirWindow": {
+    "when": "He's landed W once on you",
+    "what": "He is actively hunting the recast for bonus damage and healing. Disengage immediately rather than trading again, since letting him land the second W swings the fight hard toward him."
+   },
+   "yourWindow": {
+    "when": "Precision Protocol is off cooldown and he's out of position",
+    "what": "Use the delayed recast for the increased bonus damage, then disengage using the Move Speed from the first cast. This hit-and-run pattern lets your passive Adaptive Defenses shield soak his return damage without you ever sitting in a full trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "even",
+    "note": "Trades are short; neither all-in commits yet"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "W double-cast threat peaks before your R"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Hookshot engages let you pick spacing"
+   },
+   {
+    "levels": "11-13",
+    "edge": "you",
+    "note": "R (Ultimatum) online, Trinity Force spikes tempo"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Ravenous Hydra sustain outlasts his all-in"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "52.2% win rate over 933 games and the 59% pick choice; the extra damage and sustain from on-hit procs matter more than Doran's Shield's flat mitigation since your trades with Volibear are short pokes, not extended tank-offs."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "55.4% win rate over 725 games and the majority pick; the tenacity shaves time off being locked down by his Q (Thundering Smash) stun, which is exactly the window he needs to land the second W."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Core first item in all three listed build paths; the move speed and on-hit burst directly support the hit-and-run pattern this matchup demands."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Second item in every listed path; the heal and cleave let you win extended skirmishes once you're ahead on tempo, which is where the 54.9-65% win rates in these paths come from."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "54.9% win rate over 275 games as the third item; the damage-over-time conversion blunts his burst from Q (Thundering Smash) into W (Frenzied Maul) combos."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spear of Shojin",
+     "when": "he's building tanky and you need to shred through his Stormbringer health bonus (63.4% win rate over 161 games with this path)"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're getting dove or all-in'd early and need the shield to survive to your spike (65% win rate over 143 games with this path)"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "he's building healing or lifesteal to offset his W (Frenzied Maul) self-heal"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The sustained healing from proc'ing Grasp on wave-clear and short trades keeps you topped off against his poke, and it scales your health which directly counters his damage output over the laning phase.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run at 52.7% win rate over the 16.7% pick share, the best of the three listed combos; Teleport lets you reset after short trades and still make it back for sidelane pressure without needing Ignite to force kills in a matchup where he, not you, holds the solo-kill edge."
+  },
+  "playing": [
+   {
+    "title": "Never take the second W",
+    "detail": "The moment he lands Frenzied Maul once, back off. Standing for the recast gives him bonus damage and healing that flips short trades into his favor."
+   },
+   {
+    "title": "Hit with Q, then leave",
+    "detail": "Use Precision Protocol's bonus damage and Move Speed to land one attack and disengage before he can close back in with his passive attack speed stacking."
+   },
+   {
+    "title": "Hold Hookshot for angle, not just engage",
+    "detail": "Hookshot requires a wall to leap off; use it to reposition out of his Q (Thundering Smash) range rather than only as a knock-up initiation."
+   },
+   {
+    "title": "Respect his E zone before committing",
+    "detail": "Sky Splitter slows and shields him if he stands in it. Don't contest ground he's already dropped lightning on, since he gains a damage reduction tool there, not just the slow."
+   },
+   {
+    "title": "Save R for his all-in, not yours",
+    "detail": "The Hextech Ultimatum anchors him in place at 475 range; use it reactively to lock him down once he's already committed Q or R, since your 140/115/90s cooldown at low ranks means you can't afford to miss."
+   },
+   {
+    "title": "Track his passive attack speed stacks",
+    "detail": "The Relentless Storm ramps his attack speed and adds magic damage to nearby enemies on extended trades. The longer the fight runs, the more this stacks against you, reinforcing why short pokes beat standing trades."
+   },
+   {
+    "title": "Play around wave state for Teleport resets",
+    "detail": "Since you're running Teleport, push waves before recalling so you return to a lane state that still favors your hit-and-run pattern rather than a shoved-in wave that forces a bad trade."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win rates/sample sizes above are measured from live games on the current patch via OP.GG; the mechanical reasoning (why the W double-cast matters, how to use Precision Protocol's delay, when to hold Hookshot) is my own tactical read of the ability interactions, not sourced from the stats."
+ },
+ "generatedAt": 1791165048914,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791164898162,
+  "overall": {
+   "winRate": 50.8,
+   "play": 89175,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1378,
+   "wins": 706,
+   "winRate": 51.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being hit with Volibear’s second (W). Volibear can get a kill if Camille prolongs the fight, so try to hit and run using Camille’s shield instead!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 1036,
+    "pickRate": 65.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.7,
+    "play": 264,
+    "pickRate": 16.7
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 52.4,
+    "play": 252,
+    "pickRate": 15.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.8,
+    "play": 394,
+    "pickRate": 24.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40.9,
+    "play": 181,
+    "pickRate": 11.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.2,
+    "play": 933,
+    "pickRate": 59
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 539,
+    "pickRate": 34.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.4,
+    "play": 725,
+    "pickRate": 53
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.9,
+    "play": 543,
+    "pickRate": 39.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 54.9,
+    "play": 275,
+    "pickRate": 37.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 63.4,
+    "play": 161,
+    "pickRate": 21.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 65,
+    "play": 143,
+    "pickRate": 19.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52.3,
+    "play": 1521,
+    "pickRate": 98.5
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 54.8,
+    "play": 1260,
+    "pickRate": 81.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.6,
+    "play": 380,
+    "pickRate": 24.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 64.5,
+    "play": 211,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 60.7,
+    "play": 211,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 49,
+    "play": 206,
+    "pickRate": 13.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.1,
+    "play": 604
+   }
+  ]
+ }
+}
