@@ -1,0 +1,390 @@
+{
+ "you": "Teemo",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Narrow underdog",
+   "line": "You lose trades if you eat free Parrrley pokes before level 6, but you win the lane once Toxic Shot ticks and mushroom zoning take over from level 9 on."
+  },
+  "thesis": "Gangplank's Q (Parrrley) outranges your melee trade pattern at 625 range on a 5s cooldown, and his passive Grog-Soaked Blade adds free poison on every auto he lands, so short trades favor him before your poison stacks catch up. Your real leverage is attrition: once E (Toxic Shot) is ticking on every auto and R (Noxious Trap) mushrooms deny his approach angles, the lane becomes a stalemate his all-in can't force through Remove Scurvy alone.",
+  "tell": {
+   "watch": "His Q (Parrrley) cooldown",
+   "theirWindow": {
+    "when": "Levels 3-6, Q (Parrrley) up",
+    "what": "He pokes from 625 range with Parrrley plus auto poison before you can answer; don't push to last-hit inside his range while his Q is up, since one poke plus Grog-Soaked Blade outpaces your regen."
+   },
+   "yourWindow": {
+    "when": "Blinding Dart up, he's in melee range",
+    "what": "Hit Q (Blinding Dart) the instant he commits to an auto in melee; the blind cancels that auto and the poison tick with it, turning his engage into a free hit for you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley poke beats your short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "His Q+passive poison wins extended trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R mushrooms start zoning his approach"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Toxic Shot DPS + traps punish overextension"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build kites; he has no gap-closer"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "49.3% win rate over 1686 games at 72.5% pick; the mana and sustain let you spam Toxic Shot pokes and absorb Parrrley chip damage without losing lane presence."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "50.2% win rate over 990 games at 45.1% pick; magic pen scales your on-hit poison damage since Gangplank has no early magic resist to answer it."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "Attack speed and on-hit proc stack Toxic Shot ticks faster, part of the 51.2% win rate path over 639 games."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage compounds with your poison DoT for sustained trade damage, the second step of the 41.4%-pick build order."
+    },
+    {
+     "item": "Malignance",
+     "why": "Caps the core path at 51.2% win rate; the cooldown reduction lets you reset Blinding Dart faster in extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Boots of Swiftness",
+     "when": "you need more consistent kiting to dodge his Q poke and his Cannon Barrage zone"
+    },
+    {
+     "item": "Shadowflame",
+     "when": "you're already ahead and want to burst through his Remove Scurvy heal before it's back up"
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "when": "the game runs long and you want maximum poison tick damage"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you want extra attack speed to stack Toxic Shot faster in skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards landing consecutive autos right after a blind shuts down his return trade, amplifying the free-hit window Blinding Dart creates.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 92.6% of games at 48.9% win rate; Ignite's damage over time punishes his all-ins since Remove Scurvy only clears CC and heals, it doesn't stop the burn once it's ticking."
+  },
+  "playing": [
+   {
+    "title": "Freeze under Parrrley range",
+    "detail": "Hold position just outside 625 range before level 6; every Parrrley you eat also triggers Grog-Soaked Blade poison on the follow-up auto, so free pokes compound fast."
+   },
+   {
+    "title": "Blind before he autos",
+    "detail": "Fire Q (Blinding Dart) the moment he steps into melee range to trade; it cancels his auto and its poison tick, converting his engage into a free hit for you."
+   },
+   {
+    "title": "Use Move Quick to dodge",
+    "detail": "Keep W (Move Quick) active for the passive speed boost so you can sidestep Parrrley casts and reposition out of his range without taking chip damage."
+   },
+   {
+    "title": "Zone jungle entrances with traps",
+    "detail": "Drop R (Noxious Trap) mushrooms near jungle entrances and your lane bush; stepping on one slows and deals damage over time, discouraging his roams and dive attempts."
+   },
+   {
+    "title": "Don't facecheck brushes blind",
+    "detail": "His poke is ranged and stacks fast, so avoid walking into brush without vision; use your own Camouflage passive by standing still to set up ambushes instead."
+   },
+   {
+    "title": "Punish his Remove Scurvy cooldown",
+    "detail": "W (Remove Scurvy) sits on an 18-22s cooldown by rank; once he burns it to cleanse a slow or heal through poison, chain your next Blinding Dart or trap engage immediately after."
+   },
+   {
+    "title": "Time kills around Ignite",
+    "detail": "Your kill pressure comes from stacking Toxic Shot ticks plus Ignite's burn; since Remove Scurvy can offset some of that damage, commit to all-ins only after he's already spent W."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoner spells, and every win-rate or pick-rate figure above come from measured OP.GG games on the current patch; the trade-pattern, cooldown-window, and power-curve reasoning is my own read of the kit, not measured data."
+ },
+ "generatedAt": 1791237428158,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791237336995,
+  "overall": {
+   "winRate": 51.1,
+   "play": 95869,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1868,
+   "wins": 903,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of Gangplank’s Powder Keg(E) placed inside brushes! Close in to deal damage when Powder Keg (E) is on cooldown!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 2126,
+    "pickRate": 92.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40,
+    "play": 85,
+    "pickRate": 3.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 34,
+    "pickRate": 1.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48,
+    "play": 754,
+    "pickRate": 32.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.9,
+    "play": 214,
+    "pickRate": 9.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 1686,
+    "pickRate": 72.5
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 377,
+    "pickRate": 16.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 50.2,
+    "play": 990,
+    "pickRate": 45.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 46.6,
+    "play": 633,
+    "pickRate": 28.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 51.2,
+    "play": 639,
+    "pickRate": 41.4
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 50.8,
+    "play": 132,
+    "pickRate": 8.6
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 54.7,
+    "play": 75,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 49.1,
+    "play": 1851,
+    "pickRate": 81.1
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 49.9,
+    "play": 1701,
+    "pickRate": 74.5
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 50.7,
+    "play": 1301,
+    "pickRate": 57
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 53.4,
+    "play": 474,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 52.8,
+    "play": 309,
+    "pickRate": 13.5
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 54,
+    "play": 291,
+    "pickRate": 12.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.3,
+    "play": 713
+   }
+  ]
+ }
+}

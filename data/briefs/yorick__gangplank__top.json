@@ -1,0 +1,379 @@
+{
+ "you": "Yorick",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk up into early Parrrley poke with no answer, but you win if you survive to level 6+ and trap him in the all-in."
+  },
+  "thesis": "Gangplank out-ranges you with Q (Parrrley, 625 range, 5s cooldown) before you have any poke of your own, so the first two levels are about damage soaked, not damage dealt. Once E (Mourning Mist) is up you can trade back and the matchup flattens into the even 48.3% win rate over 1,502 games it actually is, with the kill edge tilting your way once W (Dark Procession) is online because Remove Scurvy clears crowd control, not a wall.",
+  "tell": {
+   "watch": "Gangplank's Q cooldown bar",
+   "theirWindow": {
+    "when": "Levels 1-2, before your E",
+    "what": "He can poke you with Parrrley for free while you have no ranged answer. Hold wave position just outside 625 range, take the trade on minions instead of face, and don't contest aggressively until E is off cooldown."
+   },
+   "yourWindow": {
+    "when": "Level 6+, Maiden up, wall ready",
+    "what": "Drop W behind him mid-trade to cut his retreat, then chain Q (Last Rites) and E (Mourning Mist) for the mark and armor shred. Remove Scurvy cleanses CC but does nothing to the wall itself, so once he's boxed in he's dead."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley poke, no E yet to answer"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, trades even out"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Maiden plus wall wins all-ins"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Trinity Force scaling keeps pace"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction on autos blunts both Parrrley pokes and the Grog-Soaked Blade poison stacking on you, which is the whole early-lane problem."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Gangplank's damage is entirely physical auto-attacks plus poison procs, so the flat attack-speed-reducing armor on Steelcaps caps how much his passive poison and Q trades actually cost you."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Gives you the stats and proc damage to actually punish him once E lands, turning marked targets into real trades."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Ability haste lowers your W and E cooldowns, letting you wall and poke more often across a siege."
+    },
+    {
+     "item": "Serylda's Grudge",
+     "why": "Armor penetration plus the slow on cast punishes a Gangplank who tries to kite with Raise Morale's move speed."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he is pulling ahead and you need survivability to stay in extended trades"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he or his team starts stacking armor to blunt your damage"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you are winning lane and want to pressure towers off the kill pressure you already have"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The sustained healing and max-HP growth directly counters the level 1-2 Parrrley poke window, since every proc on him heals you back the damage he just dealt.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs a measured 49.5% win rate in this matchup versus 47% for Flash+Teleport, and it matches the aggressive, solo-kill-favored shape of this lane by securing the all-in once you trap him in your wall."
+  },
+  "playing": [
+   {
+    "title": "Don't walk up before level 2",
+    "detail": "You have zero ranged answer to Parrrley until E is unlocked, so every step inside 625 range before then is a free hit for him."
+   },
+   {
+    "title": "Use E to open every trade from level 2 on",
+    "detail": "Mourning Mist's armor shred and slow let your melee follow-up actually land instead of chasing a kited target."
+   },
+   {
+    "title": "Save W for the kill, not the poke",
+    "detail": "Dark Procession is a wall on a 20/18/16/14/12s cooldown — drop it to cut his escape route during an all-in, since Remove Scurvy cannot remove it."
+   },
+   {
+    "title": "Track his Q mana for refund kills",
+    "detail": "Parrrley refunds half its mana cost on a killing blow, so he can spam it on minions under tower; don't contest cannon waves when his mana bar is full."
+   },
+   {
+    "title": "Hold your all-in until Maiden is up",
+    "detail": "From level 6 your solo-kill equity jumps because Maiden adds sustained pressure on top of your wall-and-mark combo — this is where the 48.3% average win rate actually tilts your way."
+   },
+   {
+    "title": "Respect Raise Morale in skirmishes",
+    "detail": "If his jungler or a roamer shows, Raise Morale's AD and move speed buff on allies can swing a 2v2 fast, so don't extend past your wall's reach."
+   },
+   {
+    "title": "Play around his ultimate's global range",
+    "detail": "Cannon Barrage has 20000 range and can zone you off a wave from anywhere on the map, so don't facecheck brush or stand still in predictable farm patterns once he hits 6."
+   }
+  ],
+  "patchCaveat": "The build order, boots, runes, and summoner spells above are the actual measured choices from live games on the current patch (16.19.1), including sample sizes and win rates; the trade timing, wall usage, and power-curve reasoning are my own tactical read of the ability kits, not OP.GG data."
+ },
+ "generatedAt": 1791237512509,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791237434803,
+  "overall": {
+   "winRate": 49.1,
+   "play": 64271,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1502,
+   "wins": 726,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Yorick",
+  "playStyle": "aggressive",
+  "opponentTip": "His (W) has no effect on Yorick. Be careful during early game when he uses (Q) and (E) to contest lane. Use [E] to contest lane and to chip away at his health to trap him inside [W] to kill him afterwards.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47,
+    "play": 1041,
+    "pickRate": 55.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.5,
+    "play": 639,
+    "pickRate": 34.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 41.3,
+    "play": 104,
+    "pickRate": 5.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.4,
+    "play": 302,
+    "pickRate": 15.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.2,
+    "play": 271,
+    "pickRate": 14.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 1360,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 309,
+    "pickRate": 16.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.2,
+    "play": 1273,
+    "pickRate": 70.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53.8,
+    "play": 292,
+    "pickRate": 16.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 52.8,
+    "play": 89,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.4,
+    "play": 47,
+    "pickRate": 4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Hullbreaker",
+     "Spear of Shojin"
+    ],
+    "winRate": 70.3,
+    "play": 37,
+    "pickRate": 3.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.8,
+    "play": 1139,
+    "pickRate": 62.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 50.1,
+    "play": 676,
+    "pickRate": 37.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 45.3,
+    "play": 521,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 52.4,
+    "play": 391,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 45.1,
+    "play": 335,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 51.6,
+    "play": 335,
+    "pickRate": 18.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 47.7,
+    "play": 698
+   }
+  ]
+ }
+}

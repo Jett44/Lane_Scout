@@ -1,0 +1,381 @@
+{
+ "you": "Gangplank",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into an active Riposte or let her stack Burst of Speed in a long skirmish; you win if you poke at 625 range with Q and punish the window after she burns both Lunge dashes."
+  },
+  "thesis": "This is a genuine coinflip lane (49.3% over 2521 games) decided entirely by who respects the other's cooldown windows. Gangplank's Parrrley outranges Fiora's Lunge by 25 units and stacks poison for free, but Fiora's Riposte punishes any auto-attack you throw into it, and her Burst of Speed snowballs a skirmish once she's landed a couple of hits. Neither kit is structurally ahead; execution decides it.",
+  "tell": {
+   "watch": "Her Riposte (W) buff icon",
+   "theirWindow": {
+    "when": "Riposte (W) icon appears over Fiora",
+    "what": "She just gained bonus AD and set up a parry on your next basic attack. Do not auto-attack her during this window; Q (Parrrley) is a targeted shot, not a basic attack, so keep poking with it instead and wait out the ~1-2s parry before autoing again."
+   },
+   "yourWindow": {
+    "when": "Both her Lunge (Q) dashes are spent",
+    "what": "Once she's used the free second dash, Lunge goes on a full cooldown of 16/14/12/10/8s depending on rank. She has no gap-closer for that window, so walk up and land free Q pokes and autos to stack Grog-Soaked Blade poison without risk of an engage back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both kits are pure poke/dash, no burst yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Riposte and ramping Burst of Speed online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Cannon Barrage zoning plus ramping poison"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "both combos are full strength, trades tight"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "crit items scale harder than her diminishing R"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Picked in 75.2% of games at 50.5% win rate; the extra health and sustain let you survive the trades where she lands a Lunge and a follow-up auto before you can disengage."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.3% pick rate at 49% win rate; flat damage reduction on autos directly counters a champion whose win condition is stacking Duelist off repeated basic attacks and Burst of Speed procs."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain lets you spam Q (Parrrley) every 5s cooldown to poke without rationing resources."
+    },
+    {
+     "item": "The Collector",
+     "why": "Execute threshold turns poke damage into kills once she's traded HP away chasing with Burst of Speed."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Highest win rate core path (57.6% over 377 games); crit scaling pushes the late-game edge further in your favor."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "her Duelist passive sustain is keeping her alive through your poke in extended trades"
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "she or her team starts building armor to blunt your autos"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "you need the shield to survive a Blade Waltz all-in past level 6"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Stacks extra magic damage over time on top of Grog-Soaked Blade poison, turning every landed Q or auto into a bigger sustained damage tick she has to heal through with Duelist.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "94.6% pick rate at 49.8% win rate; Ignite punishes her Duelist healing directly in short trades and secures kills when The Collector's execute threshold is close."
+  },
+  "playing": [
+   {
+    "title": "Poke at max Q range",
+    "detail": "Parrrley hits at 625 range, 25 units past her 600-range Lunge. Stand just outside her dash threat and chip poison stacks for free every 5s cooldown."
+   },
+   {
+    "title": "Never auto into Riposte",
+    "detail": "The moment her Riposte (W) icon lights up she gains bonus AD and a parry on your next basic attack. Switch to Q or just back off until it expires."
+   },
+   {
+    "title": "Punish the dead Lunge window",
+    "detail": "After she burns both Lunge charges, Q is on a long cooldown (16/14/12/10/8s by rank). That's your cue to walk up and trade freely."
+   },
+   {
+    "title": "Clear her damage with W",
+    "detail": "Remove Scurvy (22/21/20/19/18s cooldown) clears CC and heals you; save it for when she's chaining Burst of Speed autos to stack Duelist on you, not on cooldown-dump reflex."
+   },
+   {
+    "title": "Save R for sieges, not duels",
+    "detail": "Cannon Barrage (120/115/110/120/120s cooldown) is global zoning, not a lane-kill tool. Her Blade Waltz only comes online at 6 and deals less damage on repeat hits to the same target, so you don't need to burn your ult defensively against it."
+   },
+   {
+    "title": "Follow the measured build order",
+    "detail": "Essence Reaver into The Collector into Infinity Edge is the highest win-rate path (57.6% over 377 games); don't deviate into off-meta items this lane doesn't need."
+   }
+  ],
+  "patchCaveat": "All win rates, pick rates, and the build/rune/summoner choices above are measured from live OP.GG games on the current patch (16.19.1); the mechanical reasoning for why each window matters is my own read of the kits, not a measured stat."
+ },
+ "generatedAt": 1791238175599,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791238056258,
+  "overall": {
+   "winRate": 50.8,
+   "play": 122831,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2521,
+   "wins": 1244,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Although an overall easy opponent, victory will go to whoever used Riposte (W) or Powder Keg [E] correctly. Do not allow he to target your Vitals while using your basic attacks and [E] to hit her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.8,
+    "play": 2773,
+    "pickRate": 94.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.2,
+    "play": 130,
+    "pickRate": 4.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 25,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.8,
+    "play": 1055,
+    "pickRate": 35.5
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 51.7,
+    "play": 240,
+    "pickRate": 8.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 2216,
+    "pickRate": 75.2
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.1,
+    "play": 310,
+    "pickRate": 10.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49,
+    "play": 1352,
+    "pickRate": 53.3
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 58.2,
+    "play": 576,
+    "pickRate": 22.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 57.6,
+    "play": 377,
+    "pickRate": 18.7
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Mortal Reminder"
+    ],
+    "winRate": 47.1,
+    "play": 242,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 54.5,
+    "play": 187,
+    "pickRate": 9.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 50.4,
+    "play": 2787,
+    "pickRate": 96.6
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 52.7,
+    "play": 1582,
+    "pickRate": 54.8
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 56.9,
+    "play": 1143,
+    "pickRate": 39.6
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 50.6,
+    "play": 1018,
+    "pickRate": 35.3
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 53.4,
+    "play": 893,
+    "pickRate": 31
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 53.5,
+    "play": 615,
+    "pickRate": 21.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.6,
+    "play": 866
+   }
+  ]
+ }
+}

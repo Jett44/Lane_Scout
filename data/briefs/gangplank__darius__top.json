@@ -1,0 +1,385 @@
+{
+ "you": "Gangplank",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you ever stand inside 535 range and eat the Apprehend pull into a full stack-up; you win if you poke from Q range and never give him a clean hook."
+  },
+  "thesis": "Darius has no way to close the gap outside his E (Apprehend, range 535) — your Q (Parrrley, range 625) outranges every tool he owns except that one hook. This matchup is a range-discipline check: stay outside 535 and you dictate every trade with poison poke; drift inside it even once and his Hemorrhage stacks plus a level-6 Noxian Guillotine can end the fight in two abilities.",
+  "tell": {
+   "watch": "Darius's Hemorrhage stack count (max 5)",
+   "theirWindow": {
+    "when": "He lands Apprehend (E) and pulls you in",
+    "what": "He will immediately auto and Decimate (Q) to stack Hemorrhage fast, then follow with Crippling Strike (W) to slow your retreat. Pop W (Remove Scurvy) to clear that slow and heal back out the moment you're free — you can't prevent the pull itself, only survive what comes after."
+   },
+   "yourWindow": {
+    "when": "His E (Apprehend) is on cooldown — up to 26s at rank 1",
+    "what": "Walk up to exactly 625 range and fire Q freely. He has zero gap-close without that hook, so every second it's down is a free poke window with no retaliation risk."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q range poke, he has no answer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Decimate CD drops but still melee-range only"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Guillotine online, stacked bleed kills fast"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Both itemize, poke trades continue"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Essence Reaver/Collector poke outscales him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The extra AD and sustain let you keep auto-poking through his early Decimate swings without losing the trade war of attrition."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Darius's damage is almost entirely physical autos and Decimate — the flat reduction blunts every stack-up attempt before he reaches Hemorrhage max stacks."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain lets you spam Q (Parrrley) every 5s cooldown all lane without running dry, which is the entire win condition here."
+    },
+    {
+     "item": "The Collector",
+     "why": "Executes low-health targets after a poke exchange and adds the lethality that turns Q pokes into real kill threats."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Crit scaling converts your sustained Q poke into burst damage once he's forced to engage at a disadvantage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "he starts stacking armor or health to shrug off your poke"
+    },
+    {
+     "item": "Mortal Reminder",
+     "when": "his Decimate (Q) healing off your minions or jungle camps is keeping him topped up in trades"
+    },
+    {
+     "item": "Gluttonous Greaves",
+     "when": "you need the lifesteal to win extended melee exchanges instead of pure poke"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The extra burn on ability hit stacks with your Q poke and passive poison, adding free damage to every trade without extending your exposure to Decimate.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 94% of games here — Ignite finishes poke trades before his Decimate heal can offset the damage, and Flash keeps you out of Apprehend range if he closes the gap unexpectedly."
+  },
+  "playing": [
+   {
+    "title": "Hold the 625 range edge",
+    "detail": "Stand at max Q range and never step inside 535 unless his E is confirmed down. This single habit is the matchup."
+   },
+   {
+    "title": "Count Hemorrhage stacks live",
+    "detail": "Disengage before he hits 5 stacks — that's when he enrages into massive bonus AD and his trades stop being even."
+   },
+   {
+    "title": "Punish every E cooldown",
+    "detail": "The moment Apprehend goes on cooldown (up to 26s early), push forward and poke freely. He has no other gap closer."
+   },
+   {
+    "title": "Respect level 6 onward",
+    "detail": "Noxian Guillotine deals true damage scaled by your stack count — don't contest a trade above 2-3 stacks after he hits level 6."
+   },
+   {
+    "title": "Save W for the post-pull slow",
+    "detail": "Remove Scurvy can't stop the Apprehend pull itself, but it clears the Crippling Strike slow that follows, letting your poison ticks finish the disengage."
+   },
+   {
+    "title": "Watch for ult-reset snowball",
+    "detail": "Noxian Guillotine refreshes its cooldown briefly on a kill — if he gets one, assume he can threaten again almost immediately."
+   },
+   {
+    "title": "Farm through item spikes",
+    "detail": "Essence Reaver into Collector is where your poke starts actually threatening kills — play for that spike rather than forcing early all-ins."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner picks above are measured from live games on the current patch (16.19.1) via OP.GG; the range-control reasoning and trade windows are my own read of the kit interactions."
+ },
+ "generatedAt": 1791237828251,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791237739548,
+  "overall": {
+   "winRate": 50.8,
+   "play": 122831,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2984,
+   "wins": 1564,
+   "winRate": 52.4
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Do not get pulled by his (E). Focus on farming lane safely. Be careful when he uses Ghost.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.9,
+    "play": 3449,
+    "pickRate": 94
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 136,
+    "pickRate": 3.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.3,
+    "play": 39,
+    "pickRate": 1.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 52.6,
+    "play": 1522,
+    "pickRate": 40.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 56.6,
+    "play": 228,
+    "pickRate": 6.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.7,
+    "play": 2766,
+    "pickRate": 75.2
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 445,
+    "pickRate": 12.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.7,
+    "play": 1145,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 56.4,
+    "play": 770,
+    "pickRate": 24.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 57.3,
+    "play": 534,
+    "pickRate": 19.9
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 57.9,
+    "play": 482,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 48.5,
+    "play": 206,
+    "pickRate": 7.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 53.3,
+    "play": 3477,
+    "pickRate": 96.6
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 55.2,
+    "play": 2000,
+    "pickRate": 55.5
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 56.8,
+    "play": 1684,
+    "pickRate": 46.8
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 57.1,
+    "play": 1598,
+    "pickRate": 44.4
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 57.4,
+    "play": 978,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 48.7,
+    "play": 528,
+    "pickRate": 14.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 1204
+   }
+  ]
+ }
+}

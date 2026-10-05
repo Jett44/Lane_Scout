@@ -1,0 +1,376 @@
+{
+ "you": "Nasus",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into his poison and Parrrley from 1-5; you win if you pull the wave, hit 6, and he's still in auto range."
+  },
+  "thesis": "This is a farming race, not a fight: Gangplank wants to poke with Q (Parrrley) and his Grog-Soaked Blade poison while you're stuck in auto range, but Nasus's Q (Siphoning Strike) only needs you in melee for a half-second, not a sustained trade. The matchup sits at 50.1% over 2082 games because both champions are actually doing the same thing — denying the other's stacks/gold — and whoever controls wave position wins that war.",
+  "tell": {
+   "watch": "His Parrrley cooldown and your Q stacks",
+   "theirWindow": {
+    "when": "levels 1-5, you're in melee range",
+    "what": "Gangplank can land free Q (Parrrley, 5s cooldown, 625 range) and auto-poison stacks without ever entering your Q range (255). Walking up to last-hit minions here just feeds him free damage and Grog-Soaked Blade stacks."
+   },
+   "yourWindow": {
+    "when": "level 6+, he's within 400 range",
+    "what": "Once you have R (Fury of the Sands), engaging inside 400 range turns the fight: your health pool and attack range jump and you start draining his max health into bonus damage. He has no hard CC to stop this, only W (Remove Scurvy) to cleanse and heal — bait that cleanse first if you can, then commit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Parrrley and poison poke you for free"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R threatens, his burst still hurts"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stacked Q scaling starts snowballing"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build, R uptime wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Picked in 72.2% of games (50.2% win rate over 1871 games) because it directly answers his poke pattern — the flat damage reduction against his Parrrley and auto-poison matters more than the mana sustain of Doran's Ring here."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Run in 39.8% of games at 49.8% win rate; the physical damage reduction against his stacked autos and Q poke keeps your early trades survivable while you're still only half-stacked on Q."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Core in the 15.2%-pickrate build (58.3% win rate over 240 games) — the damage and tempo let you actually punish him once you're stacked instead of just farming."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Follows Trinity in the dominant build path; the armor and attack speed slow blunt his ability to keep poking you with autos while you close distance."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Completes the 58.3%-winrate path — your Soul Eater lifesteal and this item's healing amp turn stacked Q trades into real sustain against his poison."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's building into your autos and you need the grievous wounds to shut down his healing"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he's snowballing ahead and you need the flat damage reduction to survive his all-ins"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you want the wave-clear and slow proc instead of Trinity's burst, especially if he's playing passive and you're just stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Taken in the 49.8%-pickrate page because the sustain from Fleet lets you contest cs and farm Q stacks through his poke without losing the wave.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost sees the highest win rate in this matchup (54.2% over the 24.1% of games that run it) — Ghost lets you close the gap on a kiting Gangplank once R is up, which matters more here than the wave-reset value of Teleport."
+  },
+  "playing": [
+   {
+    "title": "Pull the wave toward your tower",
+    "detail": "OP.GG's own read on this lane is to pull and farm with Q rather than stand and trade. Pulling the wave shortens the distance he needs to walk to poke you and lets your tower punish his Parrrley engages."
+   },
+   {
+    "title": "Don't walk up for last hits early",
+    "detail": "From levels 1-5 his Q (Parrrley, 5s cooldown) and Grog-Soaked Blade poison punish you for approaching minions. Let stacks you can't safely get go rather than eating free poke."
+   },
+   {
+    "title": "Count his Remove Scurvy",
+    "detail": "W (Remove Scurvy, 22/21/20/19/18s cooldown) clears CC and heals him. If you land Wither or any slow right after he's used it, he has no answer until it's back up."
+   },
+   {
+    "title": "All-in only inside 400 range post-6",
+    "detail": "R (Fury of the Sands, 400 range, 120s cooldown) only drains and buffs you while he's close. Don't pop it to chase — walk him down or wait for him to engage first."
+   },
+   {
+    "title": "Respect his ultimate on objectives",
+    "detail": "Cannon Barrage has 20000 range and can hit you anywhere on the map during drakes or herald. Don't stand still in the damage zone when his R is up — check his ult timer before committing to a fight near the river."
+   },
+   {
+    "title": "Wither before he can kite",
+    "detail": "W (Wither, 700 range, 15/14/13/12/11s cooldown) decelerates his move and attack speed. Land it the moment he commits to a trade so he can't walk-away poke you with Parrrley while kiting."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are measured from live op.gg games on the current patch (16.19.1); the matchup reading — windows, trade patterns, and why they happen — is our own tactical analysis layered on top."
+ },
+ "generatedAt": 1791237561927,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791237518438,
+  "overall": {
+   "winRate": 50.3,
+   "play": 116323,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2082,
+   "wins": 1043,
+   "winRate": 50.1
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance from Gangplank to avoid being hit by his Grasp of the Undying + (Q) and (P) basic attacks. Pull lane and farm with [Q] to gain stacks, while looking for an opportunity post-level 6",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 48.8,
+    "play": 1298,
+    "pickRate": 50.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 54.2,
+    "play": 624,
+    "pickRate": 24.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.5,
+    "play": 501,
+    "pickRate": 19.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.7,
+    "play": 1322,
+    "pickRate": 49.8
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.1,
+    "play": 141,
+    "pickRate": 5.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.2,
+    "play": 1871,
+    "pickRate": 72.2
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.7,
+    "play": 463,
+    "pickRate": 17.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 51.3,
+    "play": 1026,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.8,
+    "play": 997,
+    "pickRate": 39.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 58.3,
+    "play": 240,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 60.5,
+    "play": 76,
+    "pickRate": 4.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 53.4,
+    "play": 73,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.3,
+    "play": 1447,
+    "pickRate": 58.1
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 54.5,
+    "play": 1381,
+    "pickRate": 55.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 58.3,
+    "play": 896,
+    "pickRate": 36
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 52.2,
+    "play": 760,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 52.9,
+    "play": 732,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.2,
+    "play": 387,
+    "pickRate": 15.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 57.3,
+    "play": 412
+   }
+  ]
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "you": "Gangplank",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you let her dash off a minion into melee range before level 6; you win if you poke at 625 range and starve her Q resets."
+  },
+  "thesis": "Irelia's entire combo depends on Q (Bladesurge) connecting with something — a champion, or any minion — to reset its cooldown and chain into the next hit. Gangplank's Parrrley reaches 625, her dash reaches 600, so the matchup is decided by whether Gangplank keeps enough distance that her only reset targets are minions she has to walk through his poison and poke to reach. OP.GG's own numbers back the shape: 49.1% over 3168 games, defensive, with Irelia holding both lane and solo-kill advantage.",
+  "tell": {
+   "watch": "Her Q (Bladesurge) cooldown state",
+   "theirWindow": {
+    "when": "Q and E both off cooldown, wave pushed to you",
+    "what": "She can dash a minion into melee range, stack Ionian Fervor attack speed off the hit, then chain Q again if it kills or marks something. Back off the wave entirely rather than contest it in melee."
+   },
+   "yourWindow": {
+    "when": "Her Q and E are both down, no minions nearby",
+    "what": "She has no gap close and no stun. Step up and Parrrley freely — she cannot punish a ranged poke with nothing in her kit up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo is fully online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown drops, passive stacking snowballs trades"
+   },
+   {
+    "levels": "6-11",
+    "edge": "them",
+    "note": "R adds a mark, slow wall, all-in power"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Essence Reaver/Collector poke range offsets her scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Taken in 73.6% of games at 49.9% win rate — the sustained HP and AD let you trade poison-on-hit damage through her early Q engages without losing the lane by level 3."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "70% pick rate at 50.7% win rate. Her damage is almost entirely auto-attacks and on-hit stacking from Ionian Fervor, so flat physical reduction blunts every trade she initiates."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "57.1% win rate on this exact path (401 games). The mana refund keeps Parrrley spammable at 625 range, which is the entire plan against her shorter dash."
+    },
+    {
+     "item": "The Collector",
+     "why": "Execute threshold turns successful poke into a kill, which refunds Parrrley's cost and gold on top."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Highest-winrate third item on this path — crit scaling pushes poke damage past what she can out-sustain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "she is healing back your poke through Q's self-heal on every dash"
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "she or the enemy team is stacking armor against your crit build"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "you need a lifeline to survive her all-in once R is up"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Stacking burn on ability hit layers on top of Grog-Soaked Blade's poison, turning every landed Parrrley into extended chip damage she has to answer without a gap closer.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "91% pick rate at 49.3% win rate. Ignite's burn cuts through Bladesurge's self-heal on every dash, and Flash resets your spacing whenever she closes the 25-range gap between her dash and your poke."
+  },
+  "playing": [
+   {
+    "title": "Deny her Q minion resets",
+    "detail": "Stand off the wave rather than last-hitting in melee range. If there's no minion within 600 range of her, Bladesurge can only target you, which is a trade you control."
+   },
+   {
+    "title": "Don't auto into a charging W",
+    "detail": "Defiant Dance reduces the physical damage she takes while charging. Bait it with a Parrrley instead of walking up to trade autos into it."
+   },
+   {
+    "title": "Hold Remove Scurvy for her E",
+    "detail": "Flawless Duet stuns and Marks on hit. Pop W immediately after the stun lands to cleanse it and heal back the damage before she can chain into Q."
+   },
+   {
+    "title": "Track her Ionian Fervor stacks",
+    "detail": "Her passive caps at 5 stacks with bonus on-hit damage. Disengage from extended trades before she hits max stacks rather than after."
+   },
+   {
+    "title": "Use Raise Morale to punish her cooldowns",
+    "detail": "When her Q and E are both down, pop E for the attack speed and movement speed and commit to a short all-in — she has nothing to answer with."
+   },
+   {
+    "title": "Zone with Cannon Barrage early",
+    "detail": "Cannon Barrage's 20000 range lets you threaten her recall or back line from level 6 onward without exposing yourself to her dash."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate figures are measured from current-patch OP.GG games at the stated sample sizes; the mechanical reasoning (dash-range math, W damage reduction while charging, passive stack thresholds) is this brief's own tactical read."
+ },
+ "generatedAt": 1791238832492,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791238755513,
+  "overall": {
+   "winRate": 50.8,
+   "play": 122831,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 3168,
+   "wins": 1555,
+   "winRate": 49.1
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "defensive",
+  "opponentTip": "Try to contest lane early game as she will become more difficutl to kill as the game progresses. Be careful of her 5 stacks (P) while pushing lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 3446,
+    "pickRate": 91
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.6,
+    "play": 197,
+    "pickRate": 5.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 43.5,
+    "play": 138,
+    "pickRate": 3.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.7,
+    "play": 1278,
+    "pickRate": 33
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.6,
+    "play": 475,
+    "pickRate": 12.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 2798,
+    "pickRate": 73.6
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 370,
+    "pickRate": 9.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.7,
+    "play": 2336,
+    "pickRate": 70
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 52.7,
+    "play": 433,
+    "pickRate": 13
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 57.1,
+    "play": 401,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Mortal Reminder"
+    ],
+    "winRate": 54.1,
+    "play": 218,
+    "pickRate": 8.9
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 59,
+    "play": 200,
+    "pickRate": 8.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 49.9,
+    "play": 3553,
+    "pickRate": 94.8
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 53.1,
+    "play": 1763,
+    "pickRate": 47
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 58.9,
+    "play": 1381,
+    "pickRate": 36.9
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 55.2,
+    "play": 1258,
+    "pickRate": 33.6
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 52.8,
+    "play": 1055,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 52.9,
+    "play": 979,
+    "pickRate": 26.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.9,
+    "play": 1271
+   }
+  ]
+ }
+}

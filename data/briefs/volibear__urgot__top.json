@@ -1,0 +1,380 @@
+{
+ "you": "Volibear",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane",
+   "line": "You lose if you trade autos into his Q and passive before closing the gap; you win if you poke with E and punish the seconds after his Disdain is on cooldown."
+  },
+  "thesis": "Urgot outranges you at every stage except your E, and his W (Purge) cooldown shrinks to 0s at max rank, so he wins any fight that runs long. Your only route to parity is short, explosive trades — poke with E (Sky Splitter), then close with Q (Thundering Smash) the instant his E (Disdain) is down, rather than slugging it out in extended skirmishes.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "Pre-6, while you're inside Urgot's Q range",
+    "what": "Urgot's Q (Corrosive Charge, 800 range) slows and chips you from outside your own W or Q range, and his passive Echoing Flames adds extra physical damage on every auto he lands. Don't walk up to trade autos until you've closed with E or Q."
+   },
+   "yourWindow": {
+    "when": "Urgot's E (Disdain) is on cooldown",
+    "what": "Once Disdain is down he has no shield and no way to hurl you off — land E (Sky Splitter) to slow and poke, then close with Q (Thundering Smash) for a free stun and all-in with W before he can reset the gap."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Urgot's ranged Q and passive chip you first"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates online, trades open when E is down"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "W maxed, boots and core punish short trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Purge near 0s cooldown, R threatens executes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Posts a notably higher win rate (49.7% over 179 games) than the Doran's Ring line, and the AD/lifesteal feeds Volibear's on-hit W trades better than the ring's mana/AP, which you don't need."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Urgot's threat is almost entirely physical — Q, autos, and passive Echoing Flames — so flat armor cuts his poke and his auto-reliant Purge harder than Lucidity Boots' cooldown haste does."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Highest win rate core path (48.7% over 78 games) and sets up the attack-speed scaling your on-hit W trades need."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Attack speed and crit push your short-trade DPS up so you can win the fight in the first few seconds rather than outlast Purge."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Heal and shield power amplifies your W sustain and E shield, offsetting Urgot's constant poke damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "you need more raw sustain against his poke-heavy laning pattern"
+    },
+    {
+     "item": "Thornmail",
+     "when": "urgot or his team is building heavy lifesteal or crit and out-trading you in extended fights"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game runs long and you need omnivamp to offset chip damage from his kit"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Its stacking attack speed rewards Volibear's extended on-hit W trades, letting him win attack-speed-scaling skirmishes in the brief windows before Urgot's kiting Q poke and Purge spam take over.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the standard pick (63.2% pick rate) and gives you kill pressure once you've closed the gap with E into Q. If you'd rather prioritize surviving his all-in and R threshold, Exhaust+Flash carries the higher measured win rate (48.3% over 22.2% pick rate)."
+  },
+  "playing": [
+   {
+    "title": "Lead with E, not Q",
+    "detail": "Open poke with E (Sky Splitter) since its 1200 range outranges Urgot's 800-range Q. Save Q (Thundering Smash) for when you're actually committing to close the gap."
+   },
+   {
+    "title": "Check his E before you engage",
+    "detail": "Confirm Urgot's E (Disdain) is on cooldown before committing your Q stun — if it's up, he shields and hurls you away, wasting your engage."
+   },
+   {
+    "title": "Mark and reset with W",
+    "detail": "Land W (Frenzied Maul) to mark him, then immediately recast on the same target for bonus damage and the heal. This is why Volibear's own skill order maxes W first."
+   },
+   {
+    "title": "Don't slug it out at high levels",
+    "detail": "Urgot's Purge (W) cooldown drops to 0s at max rank, letting him fire indefinitely in long fights. Win the trade in the first few seconds or disengage."
+   },
+   {
+    "title": "Respect Fear Beyond Death at any HP",
+    "detail": "Urgot's R has 2500 range and executes low-health targets — don't sit below the threshold even far from lane, since he can threaten you from off-screen."
+   },
+   {
+    "title": "Punish every Disdain he burns",
+    "detail": "Disdain is his only gap-close or escape, on a 14-16s cooldown. Every time he spends it to clear wave or poke, that's your all-in window before he can reset."
+   },
+   {
+    "title": "Prioritize armor into his physical kit",
+    "detail": "Plated Steelcaps first, and lean Thornmail if he's out-damaging you in extended fights — his passive, Q, and autos are all physical."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner spells above are pulled directly from measured games this patch (OP.GG); the tactical reading of cooldown windows and trade patterns is my own analysis."
+ },
+ "generatedAt": 1791236601217,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791236488777,
+  "overall": {
+   "winRate": 48.9,
+   "play": 91772,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1066,
+   "wins": 466,
+   "winRate": 43.7
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Urgot’s (P) and (E). Use [E] to contest lane and close in with [Q] once Urgot’s abilities are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.6,
+    "play": 819,
+    "pickRate": 63.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.3,
+    "play": 288,
+    "pickRate": 22.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45,
+    "play": 129,
+    "pickRate": 10
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.1,
+    "play": 384,
+    "pickRate": 28.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.5,
+    "play": 82,
+    "pickRate": 6.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 43.7,
+    "play": 902,
+    "pickRate": 68.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 179,
+    "pickRate": 13.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.9,
+    "play": 797,
+    "pickRate": 64.3
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 35.2,
+    "play": 108,
+    "pickRate": 8.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 48.7,
+    "play": 78,
+    "pickRate": 9.2
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Unending Despair"
+    ],
+    "winRate": 43.6,
+    "play": 39,
+    "pickRate": 4.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 40.5,
+    "play": 37,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 45.2,
+    "play": 763,
+    "pickRate": 59.3
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 47.3,
+    "play": 486,
+    "pickRate": 37.8
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 47.1,
+    "play": 467,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 51,
+    "play": 337,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 54.1,
+    "play": 170,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.4,
+    "play": 170,
+    "pickRate": 13.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 47.4,
+    "play": 386
+   }
+  ]
+ }
+}

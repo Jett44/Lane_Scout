@@ -1,0 +1,380 @@
+{
+ "you": "Urgot",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose if you facetank his Granite Shield and trade in his 400-range W/E bubble before level 3; you win if you poke the shield down with Q and punish his commits with E once it's up."
+  },
+  "thesis": "Malphite's Granite Shield absorbs your first hits every time it's had a breather, so trading into him cold just feeds his passive. Urgot's 800-range Q and 490-range W let you keep chipping that shield from outside his 400-range W (Brutal Strikes) and E (Ground Slam), and E (Disdain) rewards patience, not aggression. The 49.2% head-to-head over 1393 games backs this up as genuinely close, not a losing lane.",
+  "tell": {
+   "watch": "Granite Shield recharge state",
+   "theirWindow": {
+    "when": "shield full, you're inside 400 range",
+    "what": "He eats your opening poke for free and his Brutal Strikes/Ground Slam trade cleanly through it. Don't walk up to melee him when his shield is topped off — he wants that fight."
+   },
+   "yourWindow": {
+    "when": "shield cracked, your E is off cooldown",
+    "what": "Once Q (Corrosive Charge) or autos have burned through Granite Shield, step in behind E (Disdain) — it shields you on the charge and hurls him out of position if it connects, letting you follow with W (Purge) for the Echoing Flames proc."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "shield tanks early trades, his melee hits harder"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, poke starts outpacing his sustain"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R threat plus Black Cleaver scaling take over"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "his R makes him a teamfight threat again"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest-picked start in this matchup (66.8% pick, 49.2% WR over 1148 games) — the sustain and auto damage help you keep poking through Granite Shield without going even on health potions."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Best-performing boots here (50.1% WR, 49.3% pick) and relevant since Ground Slam deals magic damage scaling off his armor — the MR cushions that chip damage all lane."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Top-performing core path (53% WR, 22.2% pick) — the armor shred lets your poke keep punching through his Brutal Strikes-buffed armor window."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Pairs with Black Cleaver in the same build path — the HP and tenacity let you commit to E engages without getting peeled off before you connect."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Third piece of the highest-winrate path (53% over 232 games) — stacking resistances blunts his Ground Slam magic damage and Brutal Strikes armor spike in extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team is stacking magic damage beyond just malphite (highest-winrate late item at 57% over 86 games)"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "you're ahead and want to turn your poke lead into sustained teamfight damage (54.5% WR over 101 games)"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "the enemy has a strong ad crit or burst carry you need to slow down on top of malphite"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Used in both top rune pages for this matchup; the vulnerable debuff rewards landing consecutive autos while you're poking down Granite Shield from range.",
+   "primary": [
+    "Triumph",
+    "Legend: Bloodline",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ],
+   "note": "This page runs 49.8% WR (16.3% pick) — the better-performing of the two measured pages, and Approach Velocity helps you close the gap faster once your E (Disdain) catches him."
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest-performing and most-picked combo (49.4% WR, 66.9% pick). Ignite punishes his lack of sustain once you've cracked Granite Shield, since he has no self-heal to fall back on."
+  },
+  "playing": [
+   {
+    "title": "Poke the shield, not the champion",
+    "detail": "Granite Shield recharges if Malphite hasn't been hit recently, so land Q (Corrosive Charge) from its 800 range on cooldown to keep it broken rather than letting it refill between trades."
+   },
+   {
+    "title": "Respect his Brutal Strikes window",
+    "detail": "W (Brutal Strikes) spikes his armor and AD for a short duration on activation — don't initiate a trade the moment you see him turn it on."
+   },
+   {
+    "title": "Stay outside 400 range when not poking",
+    "detail": "Ground Slam (E, 7s cooldown, 400 range) deals magic damage based on his armor and cuts your attack speed; hovering just outside it denies him easy pokes back."
+   },
+   {
+    "title": "Use E (Disdain) as a punish, not an opener",
+    "detail": "Wait for him to commit to a melee trade or whiff Q (Seismic Shard, 8s cooldown), then charge E at 475 range to shield yourself and throw him out of position."
+   },
+   {
+    "title": "Sequence W after your other abilities",
+    "detail": "Purge prioritizes champions you've recently struck with other abilities, so land Q or E first to guarantee it focuses him and triggers Echoing Flames."
+   },
+   {
+    "title": "Back off near his level 6",
+    "detail": "Unstoppable Force is a long-cooldown (130s at rank 1) dash-knockup — if you're overextended when he hits 6, a flip into Ground Slam and Brutal Strikes can swing a trade hard."
+   },
+   {
+    "title": "Lean on R to zone, not just execute",
+    "detail": "Fear Beyond Death's 2500 range threat alone can force him off CS once you're ahead on items from the Black Cleaver timing — you don't need to land it every time to get value."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates/sample sizes above are measured from live OP.GG games on the current patch (16.19.1) — the mechanical reasoning and trade patterns are my own read on why those numbers shake out this way."
+ },
+ "generatedAt": 1791236690434,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791236607426,
+  "overall": {
+   "winRate": 51,
+   "play": 60169,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1393,
+   "wins": 686,
+   "winRate": 49.2
+  },
+  "laneAdvantage": "Malphite",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Do not get hit with (E) by keeping your distance. Get rid of his (P) shield while making sure [E] lands successfully.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.4,
+    "play": 1145,
+    "pickRate": 66.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.3,
+    "play": 503,
+    "pickRate": 29.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 46.7,
+    "play": 45,
+    "pickRate": 2.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.9,
+    "play": 443,
+    "pickRate": 25.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.8,
+    "play": 285,
+    "pickRate": 16.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 1148,
+    "pickRate": 66.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 378,
+    "pickRate": 22
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.1,
+    "play": 800,
+    "pickRate": 49.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.7,
+    "play": 411,
+    "pickRate": 25.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 53,
+    "play": 232,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 54.5,
+    "play": 101,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Kaenic Rookern"
+    ],
+    "winRate": 57,
+    "play": 86,
+    "pickRate": 8.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49.9,
+    "play": 1625,
+    "pickRate": 97.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.5,
+    "play": 1154,
+    "pickRate": 69.5
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 57.3,
+    "play": 431,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 53.6,
+    "play": 224,
+    "pickRate": 13.5
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 57.1,
+    "play": 205,
+    "pickRate": 12.3
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 50.6,
+    "play": 158,
+    "pickRate": 9.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 51.8,
+    "play": 386
+   }
+  ]
+ }
+}

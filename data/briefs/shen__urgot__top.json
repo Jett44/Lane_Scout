@@ -1,0 +1,380 @@
+{
+ "you": "Shen",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if you let Urgot's Q (Corrosive Charge) poke you down before level 6 and then walk into his E-R execute combo; you win if you trade through his Purge with your E and grind him down with sustain runes into a tankier late game."
+  },
+  "thesis": "Urgot out-ranges Shen with Q (Corrosive Charge, 800 range) and has a self-sufficient wave-clear/poke tool in W (Purge) that Shen cannot match at range, which is why the data shows a lane and solo-kill edge to Urgot despite the overall matchup sitting near 50/50 (49.8% over 886 games). Shen's one structural counter is that Shadow Dash's taunt catches Urgot mid-Purge and forces him to stop channeling and fight at melee range, where Vorpal Blade's life tap and Feint's shield even out the exchange.",
+  "tell": {
+   "watch": "Urgot's Purge (W) channel",
+   "theirWindow": {
+    "when": "Level 6+ and you're below half HP",
+    "what": "Urgot can land Disdain (E) to stop and hurl you out of position, then follow with Fear Beyond Death (R) to impale and execute you below its health threshold. Don't walk up to trade or contest a wave once you're already low after this point."
+   },
+   "yourWindow": {
+    "when": "Urgot channels Purge in melee range",
+    "what": "Dash in with Shadow Dash (E) so the taunt catches him mid-channel, interrupting the free damage and forcing him into a fight where Vorpal Blade (Q) life-taps him and Feint (W) soaks his remaining burst."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Corrosive Charge outranges you before your E exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Disdain online, full poke-and-shove pattern"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Fear Beyond Death adds execute threat, your R doesn't help here"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Sustain runes and E-interrupt close the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Thornmail/Titanic Hydra core outscales his auto-reliant poke"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield > Health Potion",
+    "why": "The most-picked start (75.4% of games, 49.5% win rate) directly answers Urgot's poke-heavy early pattern from Corrosive Charge and auto-attack trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Overwhelmingly preferred (87.3% pick, 50.1% win rate) and cuts down the physical damage from Urgot's autos and Echoing Flames procs that define his early trades."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Gives you wave-clear to answer Purge's clear and scales your Vorpal Blade trades with bonus health."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Core second item in the highest-winrate path (60% over 60 games), adds the ability haste that shortens Shadow Dash's cooldown for repeat Purge interrupts."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes an auto-attack-reliant champion like Urgot directly and completes the top build path by measured win rate."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "urgot is building into a pure auto-attack/crit pattern and you need more raw tankiness (67.7% win rate over 31 games on this path)"
+    },
+    {
+     "item": "Bandlepipes",
+     "when": "you need more ability haste and team utility rather than pure damage reduction (58.3% win rate over 24 games)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on your first attack per trade, which pairs with Vorpal Blade's life tap to win the extended melee trades you force by taunting Urgot out of Purge.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite has both the higher win rate (51.5%) and by far the higher pick rate (64.5%) in this matchup, since the kill pressure from Ignite helps you close out the all-in trades you create by interrupting Purge, before Urgot reaches the health threshold where his own E-R combo turns the fight back around."
+  },
+  "playing": [
+   {
+    "title": "Taunt Urgot out of Purge",
+    "detail": "Whenever Urgot starts channeling Purge in range, dash in with Shadow Dash (E, 16/14/12/10/8s cooldown) so the taunt forces him to stop and fight you in melee instead of unloading safely."
+   },
+   {
+    "title": "Respect 800-range poke pre-6",
+    "detail": "Corrosive Charge outranges your Vorpal Blade (475 range) before you have Shadow Dash online at level 2, so don't contest minions you can't trade back on."
+   },
+   {
+    "title": "Track your HP after level 6",
+    "detail": "Once Urgot has Fear Beyond Death, stay above the range where Disdain into R can execute you; disengage early rather than trading down to that threshold."
+   },
+   {
+    "title": "Life-tap with Q on cooldown",
+    "detail": "Vorpal Blade's short cooldown (6s down to 4s at rank 5) and self-heal make repeated short trades favor you once Shadow Dash lets you close the gap."
+   },
+   {
+    "title": "Hold Feint for his burst, not his poke",
+    "detail": "Save Feint's shield (9s down to 5s cooldown) for the all-in window around Disdain-into-ultimate rather than chip damage from autos."
+   },
+   {
+    "title": "Itemize into his auto reliance",
+    "detail": "Thornmail and Bramble Vest directly punish Echoing Flames and his auto-attack damage, which is most of his sustained output."
+   },
+   {
+    "title": "Use your ultimate elsewhere",
+    "detail": "Stand United doesn't affect this lane fight directly, so look to use it to swing another lane rather than holding it for a 1v1 you can win with Shadow Dash and sustain alone."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells are measured from live OP.GG game data on the current patch; the mechanical reasoning connecting Shadow Dash's taunt to interrupting Purge and the E-R execute timing is my own tactical read, not a direct quote from OP.GG."
+ },
+ "generatedAt": 1791236483074,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791236405556,
+  "overall": {
+   "winRate": 51.4,
+   "play": 81785,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 886,
+   "wins": 441,
+   "winRate": 49.8
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Interrupt Urgot’s (W) with [E] while engaging. Be careful of being finished off by his(E)-(R) combo post-level 6 by always managing your health.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 678,
+    "pickRate": 64.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 321,
+    "pickRate": 30.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 36.6,
+    "play": 41,
+    "pickRate": 3.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.6,
+    "play": 407,
+    "pickRate": 37.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.8,
+    "play": 209,
+    "pickRate": 19.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.5,
+    "play": 808,
+    "pickRate": 75.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49.8,
+    "play": 243,
+    "pickRate": 22.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.1,
+    "play": 898,
+    "pickRate": 87.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48,
+    "play": 100,
+    "pickRate": 9.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 60,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 67.7,
+    "play": 31,
+    "pickRate": 7
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 5.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 51.7,
+    "play": 844,
+    "pickRate": 80.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.9,
+    "play": 384,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.9,
+    "play": 276,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.5,
+    "play": 191,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53.5,
+    "play": 187,
+    "pickRate": 17.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 59.7,
+    "play": 149,
+    "pickRate": 14.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 596
+   }
+  ]
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "you": "Gangplank",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early pressure, late poke",
+   "line": "You lose if he lands Q into W before you have mana to spam Parrrley; you win once Essence Reaver lets you out-poke his tankiness for the rest of the game."
+  },
+  "thesis": "K'Sante owns the lane and solo-kill matchup because his kit is built to force a melee fight you don't want — Q (Ntofo Strikes) stacks into a pull, W (Path Maker) stuns through the stack. Gangplank's actual win condition is refusing that fight entirely: Q (Parrrley) at 625 range outranges both his Q (450) and E (525), so the matchup is won by how little melee contact you allow, not by trading autos.",
+  "tell": {
+   "watch": "His Ntofo Strikes stack count",
+   "theirWindow": {
+    "when": "when his W is off cooldown",
+    "what": "Path Maker's charge-up telegraphs the stun dash — if you see him start charging, you're about to get engaged. Back off the moment he starts channeling rather than after he moves."
+   },
+   "yourWindow": {
+    "when": "when his E is off cooldown",
+    "what": "With Footwork down he has no dash or shield to close the range gap or soak your poison. Walk up, land Parrrley, and walk back out of his Q range before he can punish."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q-stack pull into W stun threatens early kill"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q range advantage starts equalizing trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R adds zone pressure he can't answer"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Essence Reaver sustain outpokes his tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "73.5% pick at 51.3% win over 1777 games — the extra AD boosts early Parrrley damage and the sustain lets you hold the poke pattern through his Q harass instead of backing off the wave."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "36% pick at 51.8% win — his damage is almost entirely auto-attack and Ntofo Strikes procs, so flat physical reduction blunts the chip damage he's winning the lane with."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain lets you actually spam Q at 5s cooldown all lane instead of running dry after two or three pokes."
+    },
+    {
+     "item": "The Collector",
+     "why": "Highest-win path in the data (58.8% over 221 games) — the execute threshold turns your poke into real kill pressure once he's chunked."
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "why": "Armor penetration is what actually lets poison and Parrrley damage through his base tank stats."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "his e (footwork) shield is eating most of your poke damage"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "he's landing his r (all out) knockback and you need a lifeline through the follow-up burst"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "you're ahead and he has no more armor to stack against"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The delayed burn stacks with your poison passive on every Parrrley poke, converting ranged harass into real damage over time without you ever needing to stand in his Q/W range to deliver it.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "78.3% pick at 50.7% win. Ignite punishes the poke trades you're already winning and denies his Footwork shield healing back the damage; Flash is your answer to the W stun and the R knockback-through-wall combo."
+  },
+  "playing": [
+   {
+    "title": "Take E at level 1",
+    "detail": "The data's skill order opens with E (Raise Morale), not Q — use the movement speed to control spacing and dodge his early all-in rather than forcing poke damage you can't back up yet."
+   },
+   {
+    "title": "Count his Q stacks",
+    "detail": "At 2 stacks of Ntofo Strikes he fires a shockwave that pulls you in. Never stand in a line with him once he's at 1 stack with minions nearby."
+   },
+   {
+    "title": "Trade only when his W is down",
+    "detail": "Path Maker's charge-up is his only hard engage tool. Back off the instant you see the charge animation start — don't wait for the dash."
+   },
+   {
+    "title": "Out-range, don't out-melee",
+    "detail": "Parrrley's 625 range beats both his Q (450) and E (525). Poke and retreat; standing in auto-attack range just lets his stacking Q catch up to you."
+   },
+   {
+    "title": "Hold W for his ultimate",
+    "detail": "Remove Scurvy clears CC — save it for the knockback from his R (All Out) so you're not stuck eating his transformed-state damage for free."
+   },
+   {
+    "title": "Itemize against his shield",
+    "detail": "Serpent's Fang directly answers Footwork's shield, which is otherwise absorbing a large share of your poke damage output."
+   },
+   {
+    "title": "Use R to punish his resets",
+    "detail": "Cannon Barrage's 20000 range means you can zone his recalls or follow-up plays anywhere on the map, not just in lane — its long cooldown (120/115/110/120/120s) means every cast should target a real window, not just chip damage."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above come from measured games on the current patch (16.19.1); the mechanical reasoning — why the trades favor him early and you late — is my own read of the kit, not something OP.GG reports directly."
+ },
+ "generatedAt": 1791238648879,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791238558860,
+  "overall": {
+   "winRate": 50.8,
+   "play": 122831,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2115,
+   "wins": 1092,
+   "winRate": 51.6
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "defensive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.7,
+    "play": 1868,
+    "pickRate": 78.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.8,
+    "play": 496,
+    "pickRate": 20.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 0.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 50.9,
+    "play": 747,
+    "pickRate": 30.5
+   },
+   {
+    "primaryTree": "Inspiration",
+    "primary": [
+     "First Strike",
+     "Cash Back",
+     "Triple Tonic",
+     "Cosmic Insight"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.5,
+    "play": 202,
+    "pickRate": 8.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.3,
+    "play": 1777,
+    "pickRate": 73.5
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 55.3,
+    "play": 262,
+    "pickRate": 10.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.8,
+    "play": 734,
+    "pickRate": 36
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 53.5,
+    "play": 497,
+    "pickRate": 24.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 55.2,
+    "play": 348,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 58.8,
+    "play": 221,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "The Collector"
+    ],
+    "winRate": 52.7,
+    "play": 150,
+    "pickRate": 9.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 51,
+    "play": 2253,
+    "pickRate": 96
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 53.6,
+    "play": 1596,
+    "pickRate": 68
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 51.6,
+    "play": 812,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 57.5,
+    "play": 774,
+    "pickRate": 33
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 57.8,
+    "play": 514,
+    "pickRate": 21.9
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 57.6,
+    "play": 276,
+    "pickRate": 11.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.1,
+    "play": 643
+   }
+  ]
+ }
+}

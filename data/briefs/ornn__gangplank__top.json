@@ -1,0 +1,376 @@
+{
+ "you": "Ornn",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Patient skill matchup",
+   "line": "You lose extended trades level 1-5 if you walk up into his Q range, but you win the lane and the 1v1 once you can land a cleanse-proof knockup."
+  },
+  "thesis": "Gangplank's Q (Parrrley, 625 range, 5s cooldown) plus his passive Grog-Soaked Blade poison let him win ranged poke exchanges before Ornn can close distance, which is why OP.GG gives him lane advantage despite Ornn holding the overall 51.2% head-to-head over 1586 games. The counter is structural: his W (Remove Scurvy) clears stuns but explicitly does not clear airborne, so Ornn's E (Searing Charge) terrain shockwave and R (Call of the Forge God) recast both knock up through his cleanse, which is the real reason Ornn holds the solo-kill edge.",
+  "tell": {
+   "watch": "GP's Q (Parrrley) cooldown",
+   "theirWindow": {
+    "when": "you approach minions with his Q up",
+    "what": "He fires Parrrley for free poke damage plus Grog-Soaked Blade poison on any follow-up auto. Do not walk up to last-hit under his 625 range until his Q is on cooldown, especially levels 1-5 when you have no answer at range."
+   },
+   "yourWindow": {
+    "when": "his W (Remove Scurvy) is down",
+    "what": "Remove Scurvy only clears stuns, not airborne, so time your all-in around it being on cooldown (18-22s) or already spent. Land E into a wall for the shockwave knockup, or land R and recast into him — both ignore his cleanse entirely."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Free Parrrley poke, no engage threat from you"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q+E combo online but his range still wins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R available, Sunfire online, all-in viable"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Tank core complete, resists snowball, solo kills"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Forge God teamfight presence outweighs his split push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "73.2% pick rate at 50.8% win rate because the regen and damage reduction from blocking autos directly offsets his poison-and-poke harass pattern."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "83% pick rate at 52% win rate — Gangplank's damage comes from autos carrying Grog-Soaked Blade poison, and Steelcaps flatten that basic-attack chip damage all lane."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Immolate punishes him for standing in melee range and gives you the resist stacking to start winning extended fights."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Directly punishes the auto-attack reliance that defines his poke-and-poison pattern (47.6% win rate over 63 games on this path)."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacks with your passive's bonus resists for the late-game tank threshold his auto-reset damage can't break through."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "he builds crit or attack speed items to scale his auto-poison damage faster"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their team has more magic damage threats than Gangplank's own physical poison"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustain-per-proc directly answers a lane defined by ranged poke and passive poison chip rather than burst.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the dominant pick at 72.1% and lets you reset after absorbing poke without losing CS or tempo; Flash is mandatory to close the gap for your E/R knockup windows."
+  },
+  "playing": [
+   {
+    "title": "Don't contest CS under his Q",
+    "detail": "His Parrrley has a 5s cooldown and 625 range, so he can poke every wave. Only step up to last-hit when his Q is visibly on cooldown."
+   },
+   {
+    "title": "Save E for a wall, not open ground",
+    "detail": "Searing Charge only knocks up if you collide with terrain mid-charge. A flat-ground E is just a damage poke, not an engage."
+   },
+   {
+    "title": "Track his Remove Scurvy timer",
+    "detail": "It clears stuns and heals him but does nothing against airborne. All-in when it's down, and commit to the knockup chain rather than a slow or root he can cleanse away."
+   },
+   {
+    "title": "Use R to force the all-in, not to poke",
+    "detail": "Call of the Forge God's recast knockup is the one CC in your kit his W cannot answer. Land the elemental, then recast into him immediately."
+   },
+   {
+    "title": "Hold Teleport for tempo, not just saves",
+    "detail": "Since he wins the poke war early, use Teleport to return to lane with full resources after a bad trade rather than losing CS sitting under tower."
+   },
+   {
+    "title": "Respect his E (Raise Morale) before team fights",
+    "detail": "It buffs nearby allied AD and movement speed on a 20s cooldown, so expect him to hit harder and catch up faster right after he fires it near allies."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are measured OP.GG data from live games on the current patch; the mechanical reasoning about cleanse-proof knockups and poke timing is this brief's own analysis, not sourced from OP.GG."
+ },
+ "generatedAt": 1791237184607,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791237105915,
+  "overall": {
+   "winRate": 51.6,
+   "play": 82343,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1586,
+   "wins": 812,
+   "winRate": 51.2
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Ornn",
+  "playStyle": "aggressive",
+  "opponentTip": "Gangplank’s (W) cleanses CC skills such as stuns but not airborne. Get rid of his (E) yourself and retreat quickly if you failed, and close in only when going in for a ceratin kill.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 1301,
+    "pickRate": 72.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 57,
+    "play": 419,
+    "pickRate": 23.2
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 37.1,
+    "play": 62,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 358,
+    "pickRate": 19.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51,
+    "play": 198,
+    "pickRate": 10.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 1340,
+    "pickRate": 73.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49.8,
+    "play": 239,
+    "pickRate": 13.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52,
+    "play": 1449,
+    "pickRate": 83
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.6,
+    "play": 258,
+    "pickRate": 14.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 47.6,
+    "play": 63,
+    "pickRate": 6.1
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Randuin's Omen",
+     "Kaenic Rookern"
+    ],
+    "winRate": 48.9,
+    "play": 47,
+    "pickRate": 4.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Randuin's Omen",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 46.7,
+    "play": 30,
+    "pickRate": 2.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 50.1,
+    "play": 915,
+    "pickRate": 50.9
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 54.9,
+    "play": 829,
+    "pickRate": 46.1
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 58.2,
+    "play": 615,
+    "pickRate": 34.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 53.5,
+    "play": 536,
+    "pickRate": 29.8
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 55.8,
+    "play": 480,
+    "pickRate": 26.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.3,
+    "play": 438,
+    "pickRate": 24.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 54,
+    "play": 463
+   }
+  ]
+ }
+}

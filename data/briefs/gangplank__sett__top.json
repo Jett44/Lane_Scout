@@ -1,0 +1,381 @@
+{
+ "you": "Gangplank",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, ranged edge",
+   "line": "You lose if you let Sett close to melee range and land Q (Knuckle Down) autos or a full Grit (W) Haymaker; you win if you hold 625-range Parrrley poke and never let him dictate the engage."
+  },
+  "thesis": "Gangplank has the only ranged tool in this lane (625-range Q) against a champion with zero gap-closers who must walk into melee to use any ability. The matchup is a pure spacing check: Sett's kit (Q empowered autos, W Grit payoff, E 490-range pull) only works if he reaches you, so every trade is decided by whether you let him get there. That spacing discipline is why the measured 50.1% head-to-head over 2448 games sits dead even despite Sett holding the solo-kill edge.",
+  "tell": {
+   "watch": "Sett's Grit (W) meter",
+   "theirWindow": {
+    "when": "Grit bar full, Q off cooldown",
+    "what": "Once Grit caps, Sett can W (Haymaker) for a shield plus true damage in the center and physical damage on the sides, then follow with Q (Knuckle Down)-empowered autos while he has move speed toward you. Disengage to max Q range the moment his Grit bar looks near full, especially once Q drops to 7s cooldown at level 3."
+   },
+   "yourWindow": {
+    "when": "after Sett dumps Grit with W (Haymaker)",
+    "what": "The instant his Grit resets to zero his burst-trade threat is gone for roughly 18-12 seconds depending on his W rank. Walk back in and chain Parrrley plus autos to stack Grog-Soaked Blade poison and win the minion-equity exchange risk-free."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a real spike yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown hits 7s, Grit combos punish melee range"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Cannon Barrage) live, but his R is also up"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Essence Reaver tempo outpaces his itemless all-in"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Crit spike and R zoning beat his shrinking cooldowns"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured as the top start at 51.3% win rate over 2105 games and 70.3% pick rate; the extra sustain matters directly against Sett's passive Pit Grit healing off missing health, letting you keep trading at range without losing the sustain war."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.1% win rate over 1062 games. Sett's entire kit is auto-attack and auto-weighted (alternating left/right punches, Q-empowered autos), so flat reduced-damage-from-autos directly blunts his main damage source."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain to spam 5-second-cooldown Parrrley all lane without running dry, part of the 52.9% win rate path over 395 games"
+    },
+    {
+     "item": "The Collector",
+     "why": "Lets Parrrley execute low-health Sett before his missing-health regen can save him"
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Converts the Essence Reaver crit chance into real poke and all-in damage once he's forced to engage"
+    }
+   ],
+   "situational": [
+    {
+     "item": "serpent's fang",
+     "when": "sett or his team leans on shields, since it strips the shield his W (Haymaker) grants on cast"
+    },
+    {
+     "item": "lord dominik's regards",
+     "when": "sett builds into health or armor to survive your poke"
+    },
+    {
+     "item": "immortal shieldbow",
+     "when": "you need insurance against his burst if he lands a clean engage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Procs a burn on ability hit, which rewards the exact pattern this matchup demands: spamming Parrrley from range instead of trading autos in his melee zone. Measured at 47.9% win rate, 38.6% pick rate.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "87.6% pick rate at 50.5% win rate. Ignite punishes Sett's missing-health regen passive directly by cutting incoming heals during your poke trades, and Flash gives you an out from his 490-range E (Facebreaker) pull or his R (The Show Stopper) grab."
+  },
+  "playing": [
+   {
+    "title": "Camp at 625 range",
+    "detail": "Never stand inside Sett's melee reach by choice. He has no dash or gap-closer outside Q's move speed buff, so distance is a decision you control every single trade."
+   },
+   {
+    "title": "Watch the Grit bar, not just HP",
+    "detail": "Sett's W (Haymaker) stores damage he's taken as Grit and dumps it all at once for a shield plus a true-damage center hit. Back off before it caps instead of reacting after he's already swung."
+   },
+   {
+    "title": "Don't fear a 1v1 Facebreaker stun",
+    "detail": "E (Facebreaker) only stuns if enemies are on opposite sides of Sett; in a clean 1v1 with no minions sandwiching you, it just slows. Don't play scared of a stun that mechanically can't happen unless the wave is positioned wrong."
+   },
+   {
+    "title": "Save W for his R",
+    "detail": "Remove Scurvy clears crowd control on cast, and OP.GG's own data flags it as a direct answer to his R (The Show Stopper) grab. Hold W off cooldown once he hits level 6 rather than burning it early for the heal."
+   },
+   {
+    "title": "Weave Parrrley on cooldown",
+    "detail": "Q is up every 5 seconds; using it on cooldown both pokes and stacks Grog-Soaked Blade poison on him, compounding chip damage he can't out-regen even with his passive."
+   },
+   {
+    "title": "Use E for push, not duels",
+    "detail": "Raise Morale buffs nearby allies' attack damage and move speed, not yours alone in a 1v1 sense of a damage tool, so use it to speed siege tempo or catch an escaping Sett rather than expecting it to win a straight trade."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, boots, summoners and all win-rate/sample-size figures are measured from live games on the current patch via OP.GG; the ability readings, timing windows, and tactical recommendations are this brief's own analysis."
+ },
+ "generatedAt": 1791238014222,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791237906860,
+  "overall": {
+   "winRate": 50.8,
+   "play": 122831,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2448,
+   "wins": 1226,
+   "winRate": 50.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Sett has great lane sustain. Stack up on Grasp of the Undying to contest lane. Keep in mind that your [W] can cleanse the CC on (R)",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 2601,
+    "pickRate": 87.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.9,
+    "play": 315,
+    "pickRate": 10.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.7,
+    "play": 45,
+    "pickRate": 1.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.9,
+    "play": 1168,
+    "pickRate": 38.6
+   },
+   {
+    "primaryTree": "Inspiration",
+    "primary": [
+     "First Strike",
+     "Cash Back",
+     "Triple Tonic",
+     "Cosmic Insight"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 50.5,
+    "play": 192,
+    "pickRate": 6.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.3,
+    "play": 2105,
+    "pickRate": 70.3
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 336,
+    "pickRate": 11.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.1,
+    "play": 1062,
+    "pickRate": 40.8
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 57.6,
+    "play": 608,
+    "pickRate": 23.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 52.9,
+    "play": 395,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 48.2,
+    "play": 369,
+    "pickRate": 17.2
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 59.2,
+    "play": 213,
+    "pickRate": 9.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 50.5,
+    "play": 2844,
+    "pickRate": 96.9
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 50.7,
+    "play": 1488,
+    "pickRate": 50.7
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 51.8,
+    "play": 1480,
+    "pickRate": 50.4
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 55.6,
+    "play": 1312,
+    "pickRate": 44.7
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 53.6,
+    "play": 759,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 50.5,
+    "play": 485,
+    "pickRate": 16.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54,
+    "play": 1037
+   }
+  ]
+ }
+}
