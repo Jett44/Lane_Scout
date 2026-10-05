@@ -1,0 +1,375 @@
+{
+ "you": "Garen",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, ranged poke",
+   "line": "You lose the lane if you walk autos into Corrosive Charge and Echoing Flames range before you can close the gap; you win almost every fight you force once you're standing on top of him."
+  },
+  "thesis": "Urgot is a ranged poke champion with an 800-range Q and a passive that punishes trading autos at distance, while Garen is a pure melee duelist whose only answer is to eat the poke and force point-blank fights. The 47.9% head-to-head over 1,429 games (against Garen's 50.7% baseline) reflects that Urgot wins the lane if he's allowed to kite freely, but Garen's short cooldowns mean he wins the lane the moment he's actually standing next to Urgot.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "you're outside melee range of Urgot",
+    "what": "Urgot's Q (Corrosive Charge) is an 800-range skillshot that damages and slows on explosion, and his passive (Echoing Flames) periodically adds extra flame damage to his autos and Purge — standing at range just lets him stack free damage on you. Use Q (Decisive Strike) the instant he lands Corrosive Charge to shed the slow and close distance instead of walking into the next one."
+   },
+   "yourWindow": {
+    "when": "Urgot has used or whiffed E (Disdain)",
+    "what": "Disdain is Urgot's only dash, with a 16/15.5/15/14.5/14s cooldown, and it's both his engage and his escape. The moment he burns it on you (or misses it), he has no tool left to disengage — commit immediately with E (Judgment) and W (Courage) rather than trading at range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "800-range Q wins pure poke exchanges"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E cooldown drops, gap-close trades open up"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "both hold execute ultimates, careful all-ins"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "full build lets Garen force extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The 65.6%-picked start (48.1% win rate) gives the flat damage reduction on autos and sustain needed to survive Urgot's early Q/passive poke while you look for windows to close."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Steelcaps post the higher win rate in this matchup (52% over 323 games vs Berserker's 49.2%) because Urgot's whole early kit — autos, Echoing Flames, Purge — is physical poke; flat auto-attack reduction directly counters it."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The highest-picked rushed item (21.5% in the top build path) — gives the stats and gap-close pressure Garen needs to actually reach a kiting ranged target."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed lets Garen's E (Judgment) ticks and autos punish Urgot once he's pinned in melee range, part of the 51% win rate Stridebreaker-into-Phantom Dancer path."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Caps the top 3-item path with grievous wounds, cutting into any self-healing Urgot picks up and securing kills once you're on top of him."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "urgot keeps kiting you down the lane and you need sustained movement speed to stay on him"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead early and want extra burst and gap-close speed to punish a weaker Urgot before he scales"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "urgot builds toward tankier later items and your fights are dragging without him dying"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive force and healing reward exactly the kind of extended melee fight Garen is trying to force on a ranged poke champion — the longer you're in his face, the more it heals back what Urgot's Q/passive chipped off.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 91.5% of games here (48.9% win rate) because Flash lets you force the all-in through Disdain's displacement or Corrosive Charge's slow, and Ignite closes out the trades Garen's kit is built to win once he's in range."
+  },
+  "playing": [
+   {
+    "title": "Hold Q to break the slow",
+    "detail": "Decisive Strike cleanses all slows on cast, including Corrosive Charge's. Don't trinket-walk through the slow — Q through it and keep closing."
+   },
+   {
+    "title": "Don't trade autos at range",
+    "detail": "Echoing Flames periodically adds bonus damage to Urgot's autos and Purge, so standing at the edge of his range and auto-trading just feeds him free poke. Only engage when you can commit to the full combo."
+   },
+   {
+    "title": "Punish every Disdain whiff",
+    "detail": "Disdain is on a 16-14s cooldown and is Urgot's only dash. The second he misses it or uses it to disengage, he has nothing left — go all-in with E and W immediately."
+   },
+   {
+    "title": "Expect Purge the instant he's hit you",
+    "detail": "Purge prioritizes champions Urgot has recently struck with other abilities and drops to near-zero cooldown at max rank (12/9/6/3/0s). After he lands Q or an E grab, assume immediate follow-up Purge damage and don't stand still in it."
+   },
+   {
+    "title": "Save ultimate to end the fight, not start it",
+    "detail": "Demacian Justice's cooldown is 140/110/80/50/20s — at low rank it's too precious to use as poke. Hold it to execute once you've already won the extended trade in melee."
+   },
+   {
+    "title": "Respect his ultimate once you're low",
+    "detail": "Fear Beyond Death has 2500 range and executes below a health threshold once it connects. Don't overextend on low health even if you're winning the lane — he can end the fight from off-screen."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoners, and win rates above are measured from live OP.GG games on the current patch; the mechanical reasoning and timing calls are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791184314151,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791184229467,
+  "overall": {
+   "winRate": 50.7,
+   "play": 137397,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1429,
+   "wins": 684,
+   "winRate": 47.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance from Urgot during early game to avoid being hit with his (P). Avoid his (E) when fighting him. Close in and use your skills off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 1577,
+    "pickRate": 91.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.5,
+    "play": 68,
+    "pickRate": 4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 34,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49,
+    "play": 673,
+    "pickRate": 38.2
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.7,
+    "play": 310,
+    "pickRate": 17.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 1136,
+    "pickRate": 65.6
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 419,
+    "pickRate": 24.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 49.2,
+    "play": 1067,
+    "pickRate": 63.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52,
+    "play": 323,
+    "pickRate": 19.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 51,
+    "play": 255,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 50.8,
+    "play": 120,
+    "pickRate": 10.1
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Youmuu's Ghostblade",
+     "Phantom Dancer"
+    ],
+    "winRate": 62,
+    "play": 50,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49,
+    "play": 1613,
+    "pickRate": 94.8
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 52.5,
+    "play": 912,
+    "pickRate": 53.6
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 49.6,
+    "play": 518,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.5,
+    "play": 458,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 51.5,
+    "play": 377,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.8,
+    "play": 199,
+    "pickRate": 11.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50.9,
+    "play": 703
+   }
+  ]
+ }
+}

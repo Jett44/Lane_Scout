@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, favored trades",
+   "line": "You lose if you walk into a point-blank Hookshot/Q combo near a wall before level 6; you win almost every fight where she has no wall to engage from."
+  },
+  "thesis": "This is a dead-even matchup on the numbers (48.9% over 1390 games) because both champions are built to force the first commitment, but Volibear carries the solo-kill edge: Camille's entire engage and escape kit runs through E (Hookshot), which only works off a wall. Deny her terrain and she has nothing but a delayed Q (Precision Protocol) auto to poke with, while your Q (Thundering Smash) stun into double W (Frenzied Maul) punishes any extended trade.",
+  "tell": {
+   "watch": "Camille's proximity to a wall",
+   "theirWindow": {
+    "when": "She's near a wall from level 2 on",
+    "what": "Expect Hookshot's knockup chained into an empowered Q (Precision Protocol) auto. Back off or pre-emptively zone her away from the wall rather than standing in E range (800) while she's adjacent to terrain."
+   },
+   "yourWindow": {
+    "when": "Her E or Q recast is on cooldown",
+    "what": "Walk her down and force the fight: stun with Q (Thundering Smash), mark with W (Frenzied Maul), then recast W immediately for the bonus damage and self-heal before Precision Protocol's move speed lets her reset the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo is online, short pokes only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Hookshot unlocked, Q cooldown drops to 7s"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R online, W sustain wins extended trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Lethal Tempo + Navori haste loop takes over"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build out-sustains and out-threats her"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The health and mana regen keep you spamming Frenzied Maul for poke and sustain through Camille's early Tactical Sweep harass without running dry."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Camille's damage is entirely physical (her auto-attacks, Q, and on-hit procs), so the flat damage reduction directly blunts her empowered-auto trades."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "The ability haste shortens Q and E cooldowns for more frequent stuns and shields while feeding the Lethal Tempo attack speed stack."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Crit refunds ability haste, looping Q (Thundering Smash) and E (Sky Splitter) back up faster so you out-trade Camille's lower-cooldown kit."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "The healing amp stacks with W's self-heal on recast, and the magic resist eats into Camille's R bonus magic damage on her autos."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she builds lifesteal and out-heals your W sustain in extended fights"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "you want extra sustain and burst for skirmishes around objectives"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game runs long and you need omnivamp to win extended fights"
+    },
+    {
+     "item": "Statikk Shiv",
+     "when": "you're snowballing ahead and need wave clear speed to split push"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The stacking attack speed rewards staying in extended trades and recasting W (Frenzied Maul), which is exactly the fight Camille loses without her wall.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite converts your solo-kill advantage into actual kills by cutting through Camille's Tactical Sweep healing once you land your stun-into-mark combo."
+  },
+  "playing": [
+   {
+    "title": "Poke from brush with E",
+    "detail": "Sky Splitter has 1200 range, so cast it from inside a brush to land the slow and damage without revealing your position or giving Camille a clean read on your cooldown."
+   },
+   {
+    "title": "Punish her away from walls",
+    "detail": "Hookshot requires a wall target to function at all. If Camille roams or trades without terrain nearby, she has no gap-close or escape — all-in immediately with Q (Thundering Smash)."
+   },
+   {
+    "title": "Dump your combo when she commits",
+    "detail": "Once she steps inside W range (325), stun with Q, mark with W, then immediately recast W for the bonus damage and heal before Precision Protocol's move speed lets her disengage."
+   },
+   {
+    "title": "Respect her Q recast window",
+    "detail": "Precision Protocol's delayed recast hits far harder than the initial proc. If she's holding the recast, don't trade into it — wait for it to expire or whiff."
+   },
+   {
+    "title": "Step through Tactical Sweep, don't back into it",
+    "detail": "The outer half of her cone slows and deals extra damage while healing her. Walking toward her during the cast delay minimizes how much of the cone you eat."
+   },
+   {
+    "title": "Save R for towers and picks",
+    "detail": "Stormbringer's cooldown is far too long to use as a lane combo piece. Hold it from level 6 onward to disable a tower on a dive or close distance on a roam elsewhere."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled directly from measured OP.GG games on the current patch (16.19.1); the matchup reasoning — wall dependency, trade timing, and combo order — is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791182823875,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791182735973,
+  "overall": {
+   "winRate": 48.9,
+   "play": 88127,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1390,
+   "wins": 680,
+   "winRate": 48.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "aggressive",
+  "opponentTip": "Avod being hit by Camille’s (E). Use [E] from inside a brush to contest lane. Use all of your skills off cooldown when she steps in your range.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.6,
+    "play": 1226,
+    "pickRate": 74.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.7,
+    "play": 193,
+    "pickRate": 11.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.6,
+    "play": 158,
+    "pickRate": 9.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.9,
+    "play": 465,
+    "pickRate": 27.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 104,
+    "pickRate": 6.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 1192,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.4,
+    "play": 289,
+    "pickRate": 17.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.6,
+    "play": 798,
+    "pickRate": 50.9
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49,
+    "play": 249,
+    "pickRate": 15.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 54.5,
+    "play": 112,
+    "pickRate": 10.5
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 56.7,
+    "play": 60,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 56.8,
+    "play": 37,
+    "pickRate": 3.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 52.4,
+    "play": 953,
+    "pickRate": 59.2
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 50.2,
+    "play": 636,
+    "pickRate": 39.5
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 52.5,
+    "play": 575,
+    "pickRate": 35.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 55.2,
+    "play": 451,
+    "pickRate": 28
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 44.2,
+    "play": 249,
+    "pickRate": 15.5
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 60,
+    "play": 195,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 57.3,
+    "play": 475
+   }
+  ]
+ }
+}

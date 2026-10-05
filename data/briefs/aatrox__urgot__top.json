@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, skill-based",
+   "line": "You lose if you eat poke passively before level 6; you win if you force all-ins the moment Eclipse completes."
+  },
+  "thesis": "Urgot out-ranges you at every stage with Q (Corrosive Charge, 800 range) and auto attacks that proc his passive (Echoing Flames), so the entire lane is a fight over whether he gets to poke freely or you close the distance with E (Umbral Dash) before he can disengage with E (Disdain). The 49.6% head-to-head win rate across 1,774 games reflects a lane that's genuinely a coinflip decided by trade discipline, not raw power.",
+  "tell": {
+   "watch": "Urgot's W (Purge) availability",
+   "theirWindow": {
+    "when": "after he lands Q (Corrosive Charge) on you",
+    "what": "Expect him to follow with W (Purge), which channels and triggers his passive repeatedly for free damage. Back off the slow instead of fighting through it."
+   },
+   "yourWindow": {
+    "when": "his W (Purge) and E (Disdain) are both down",
+    "what": "Dash in with E (Umbral Dash), chain all three Q (The Darkin Blade) swings, and commit — he has no slow to kite with and no Disdain to throw you off him."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "ranged poke, you have no gap closer rank yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E ranks up, you can punish Purge cooldown windows"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (World Ender) online, all-in power spikes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse and Black Cleaver complete, burst snowballs"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Purge hits 0s cooldown, his poke becomes constant"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "49.4% win rate over 1,208 games and the dominant pick (56.8%) — the extra sustain and damage matter most while you're absorbing his auto poke before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.8% pick rate and 48.9% win rate over 1,728 games — Urgot's damage is entirely physical autos and Q, so the flat reduction directly counters his poke."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield-proc burst is your answer to his ranged poke once you land a dash — it's the first item in both of this matchup's strongest build paths."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "62.3% win rate over 69 games when following Eclipse — the armor shred and haste let you force extended trades instead of single pokes."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Caps both measured Eclipse paths (121 and 69 game samples) — the damage-over-time conversion keeps you alive through his Purge channel and R execute threshold."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spear of Shojin",
+     "when": "you're already ahead and want ability haste to chain Q resets faster instead of raw armor shred"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want lifesteal and a crit proc on your first strike over the Black Cleaver shred"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their jungle or mid has hard CC on top of Urgot's slows and you're getting locked down in dives"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 42% pick rate page — stacking Conqueror through his poke converts the damage you take into healing once you finally close the gap, which matters against a champion whose whole plan is chipping you from range.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "75.1% pick rate — Ignite turns your Eclipse/Q burst windows into kills by cutting off his sustain before he can disengage with E (Disdain)."
+  },
+  "playing": [
+   {
+    "title": "Don't trade into his Q",
+    "detail": "Corrosive Charge (800 range, slows on hit) is free damage he gets for standing still. Walk up on minion aggro angles, not straight lines, to dodge it."
+   },
+   {
+    "title": "Punish Purge cooldown, not Purge itself",
+    "detail": "Early ranks, W (Purge) has a real 12/9.5/9s cooldown. Engage in the window right after he uses it, not while he's mid-channel triggering his passive on you."
+   },
+   {
+    "title": "Save E for the engage, not the poke trade",
+    "detail": "Umbral Dash only heals you when it damages a champion. Don't burn it dodging Q — use it to close distance and get your auto/Q off before he can kite."
+   },
+   {
+    "title": "Respect Disdain in every all-in",
+    "detail": "E (Disdain, 475 range) stops on hit and throws you out of position, resetting your combo. Commit to full trades only when it's down (16-14s cooldown)."
+   },
+   {
+    "title": "R is your all-in button, not a poke answer",
+    "detail": "World Ender fears nearby minions and buffs your AD/heal/MS — pop it when you're already dashing in, since it does nothing for him while you're still at range."
+   },
+   {
+    "title": "Track his R past level 6",
+    "detail": "Fear Beyond Death (2500 range) executes low-health targets. Don't walk back to lane under 50% HP once he's six — he can snipe you from screen-length away."
+   },
+   {
+    "title": "Itemize Eclipse before you force fights",
+    "detail": "Your win rate climbs once Eclipse completes — look for your first real all-in around the time that item finishes rather than before."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/sample figures are measured OP.GG data from live games on the current patch; the mechanical reasoning and timing calls are my own read of the kit."
+ },
+ "generatedAt": 1791184529605,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791184445611,
+  "overall": {
+   "winRate": 50,
+   "play": 138806,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1774,
+   "wins": 880,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being hit with Urgot’s (P) during early game. Avoid his (E) when fighting him. Try to slowly gain lane control by dealing burst damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.7,
+    "play": 1578,
+    "pickRate": 75.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.1,
+    "play": 409,
+    "pickRate": 19.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 59.6,
+    "play": 109,
+    "pickRate": 5.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 906,
+    "pickRate": 42
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Revitalize"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 167,
+    "pickRate": 7.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 1208,
+    "pickRate": 56.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 812,
+    "pickRate": 38.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.9,
+    "play": 1728,
+    "pickRate": 85.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.4,
+    "play": 230,
+    "pickRate": 11.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 48.8,
+    "play": 121,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 62.3,
+    "play": 69,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 58.5,
+    "play": 65,
+    "pickRate": 6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 45.4,
+    "play": 990,
+    "pickRate": 48.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 51.8,
+    "play": 923,
+    "pickRate": 45
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 48.9,
+    "play": 869,
+    "pickRate": 42.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.4,
+    "play": 735,
+    "pickRate": 35.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.7,
+    "play": 546,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50.9,
+    "play": 265,
+    "pickRate": 12.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.2,
+    "play": 1284
+   }
+  ]
+ }
+}

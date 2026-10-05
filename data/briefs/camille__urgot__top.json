@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Q (Corrosive Charge) poke before 6 and get chunked down; you win if you track Disdain's cooldown and time E (Hookshot) or R (The Hextech Ultimatum) onto him when it's gone."
+  },
+  "thesis": "This is a measured 48.5% win rate over 978 games, functionally even, but the shape is lopsided: Urgot's Q (Corrosive Charge) at 800 range outpokes Camille's 325/610/800 kit before level 6, and his E (Disdain) at 475 range gives him a free poke-and-reset tool she can't punish on cooldown reads alone. Camille's answer is her mobility — E (Hookshot) off a wall and R anchoring him in place — which only works once Disdain is down. The solo-kill stat favoring Urgot is a direct product of that poke-then-Disdain-away pattern.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "Disdain is up and you're in its 475 range",
+    "what": "He can poke with Q (Corrosive Charge, 800 range, 10/9.5/9/8.5/8s cooldown) and then dash away with Disdain if you try to punish, or use it to trample forward and throw you out of position. Don't commit your E (Hookshot) engage into a live Disdain — he'll just stop you mid-animation and hurl you back."
+   },
+   "yourWindow": {
+    "when": "Disdain is on cooldown (16-14s)",
+    "what": "This is your all-in window. Use E (Hookshot) from a nearby wall to close the gap he can't counter, or walk him into R (The Hextech Ultimatum) range at 475 — once anchored, your basic attacks deal bonus magic damage to him and he physically cannot Disdain out."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q (Corrosive Charge) outranges your entire kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W (Tactical Sweep) cone trades back once online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R (Fear Beyond Death) adds execute threat to poke"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force spike wins extended duels"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his global R vs your ult-lock trade off"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Measured as the stronger start into this matchup (50.4% over 561 games) — the passive block and regen directly offset Urgot's Q (Corrosive Charge) poke chipping you down before you can close distance."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Taken in 84.5% of games at a 50.6% win rate — Urgot's damage is entirely physical, from his basic attacks, Passive (Echoing Flames) procs, and Q, so flat armor reduces every source he has."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The highest-measured core path starts here (54.3% win rate over 243 games) — the move speed and burst proc are what let you actually close the gap Urgot's poke opens up."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Sustain and cleave to win extended trades once you're in his face, matching the measured build path."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Highest win-rate third item in the data (54.3%) — damage mitigation that keeps you alive through his Q poke chip while you fight back."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you need to survive his all-in once he hits R (Fear Beyond Death) range and threatens the execute"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need the cooldown reduction to keep E (Hookshot) and R available every skirmish"
+    },
+    {
+     "item": "Tiamat",
+     "when": "you want the early cleave and wave-clear power before finishing Ravenous Hydra"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The higher-pick-rate page (21.1% pick, 50.8% win rate) runs this — sustained healing from auto-attacking him in melee range is exactly what offsets being out-ranged by Q (Corrosive Charge) before 6.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The most-picked combo (63.5% pick rate) — Flash backs up your E (Hookshot) engage timing, and Ignite secures kills during your all-in window before Urgot can Disdain away, directly countering his measured solo-kill edge."
+  },
+  "playing": [
+   {
+    "title": "Soak Q pokes behind minions",
+    "detail": "Corrosive Charge is 800 range and explodes on impact — stand behind your casters early so the wave eats the poke instead of you."
+   },
+   {
+    "title": "Never dive into live Disdain",
+    "detail": "If his E (Disdain, 475 range) is up, any engage gets stopped and thrown back out. Wait for the 16-14s cooldown to run out first."
+   },
+   {
+    "title": "Trade with W's outer edge",
+    "detail": "Tactical Sweep's outer half slows and deals extra damage while healing you — land the edge, not the center, to control the follow-up trade."
+   },
+   {
+    "title": "Hold E for the wall, not the gap-close",
+    "detail": "Hookshot requires a wall to leap off — pre-position near terrain so you can threaten the engage the moment Disdain is down."
+   },
+   {
+    "title": "Bait during his Purge animation",
+    "detail": "W (Purge) slows Urgot while it's active — if you can walk out of its 490 range and bait the cast, you get a free window to close in afterward."
+   },
+   {
+    "title": "Anchor him with R the instant he commits",
+    "detail": "The Hextech Ultimatum stops him from using Disdain to escape once it lands — save it specifically for the moment he tries to walk away from a losing trade."
+   },
+   {
+    "title": "Play around his execute past level 6",
+    "detail": "Fear Beyond Death hits from 2500 range and can execute you below its threshold — don't overextend on low health even outside his melee range."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners and all win-rate figures above are measured from live games on the current patch via OP.GG; the mechanical reasoning and timing calls are this brief's own analysis, not sourced data."
+ },
+ "generatedAt": 1791184622727,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791184534669,
+  "overall": {
+   "winRate": 50.8,
+   "play": 90843,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 978,
+   "wins": 474,
+   "winRate": 48.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Urgot’s (Q) pokes and his (E)-(R) combo after he reaches level 6! Avoid Urgot’s ultimate with Camille’s ultimate to easily win the fight!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.3,
+    "play": 708,
+    "pickRate": 63.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 246,
+    "pickRate": 22.1
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 51.4,
+    "play": 138,
+    "pickRate": 12.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.8,
+    "play": 242,
+    "pickRate": 21.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 90,
+    "pickRate": 7.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 561,
+    "pickRate": 48.9
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.1,
+    "play": 527,
+    "pickRate": 46
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.6,
+    "play": 874,
+    "pickRate": 84.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.2,
+    "play": 118,
+    "pickRate": 11.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 54.3,
+    "play": 243,
+    "pickRate": 45.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 54.7,
+    "play": 117,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 56.3,
+    "play": 80,
+    "pickRate": 15.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.8,
+    "play": 1103,
+    "pickRate": 99.1
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 50.3,
+    "play": 912,
+    "pickRate": 81.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53,
+    "play": 328,
+    "pickRate": 29.5
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53.7,
+    "play": 177,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 55,
+    "play": 120,
+    "pickRate": 10.8
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 43.1,
+    "play": 102,
+    "pickRate": 9.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.7,
+    "play": 414
+   }
+  ]
+ }
+}

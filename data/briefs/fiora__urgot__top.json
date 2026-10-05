@@ -1,0 +1,380 @@
+{
+ "you": "Fiora",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you facecheck melee range while Urgot's E (Disdain) is up; you win if you bait that flip into your W (Riposte) and punish the empty cooldown."
+  },
+  "thesis": "Urgot has exactly one all-in tool, E (Disdain), and Fiora has exactly one tool that hard-answers it, W (Riposte). The entire lane is decided by whether Urgot lands that flip or burns it into a parry — everything else is a flat stat-check that the measured 46.9% win rate over 1208 games says is roughly even.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "He lands Q poke, E still up",
+    "what": "Once Corrosive Charge (800 range) has chipped you and Disdain is off cooldown, he can charge in, fling you off a wave or away from your support, and follow with point-blank Purge for a real burst. Respect his 800-range Q before you have W reliably up, and don't stand still in minion wave after he's hit you with it."
+   },
+   "yourWindow": {
+    "when": "His E (Disdain) is on cooldown",
+    "what": "With no engage or disengage tool up (16/15.5/15/14.5/14s CD), Urgot is just a ranged auto-attacker with no mobility. Double-lunge in with Q, pop E (Burst of Speed) for the attack speed and stacking move speed, and stay on him — he cannot create distance until Disdain resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both poking with Q, his E still low-impact"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "ranked-up Disdain starts landing flips reliably"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your R adds pick threat, his R adds execute threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hydra/Trinity online, your chase beats his lack of mobility"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "max-rank Purge and cheap R make him dangerous again"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Picked in 83.9% of games (48.1% WR over 1186) — the lifesteal and AD feed directly into Duelist sustain for the extended trades this matchup forces."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "83.7% pick, 47.7% WR over 1075 games — Urgot's entire kit is physical damage (autos, Echoing Flames, Q, Purge), so flat damage reduction outvalues Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "Most-picked first core item (32.6% of games on this path) — the lifesteal and cleave sustain you through poke while you wait out his E cooldown."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade procs amplify your Lunge-into-auto trade pattern, and the move speed stacks with your E for sticking to a Flash-less Urgot."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion blunts his Echoing Flames and Purge chip so you don't get ground down in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and looking to one-shot him through his execute threshold before he can Purge"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "lane is attrition-heavy and you need the extra sustain over raw burst"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "fights are dragging and you need ability haste to loop Q/W/E faster than his cooldowns"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Highest-performing page here (53.7% WR, 8.4% pick) — the stacking adaptive damage and heal conversion match Fiora's passive sustain in a lane that's decided by who wins the extended stat-check, not a single burst window.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "86.3% pick rate (47.1% WR) — Flash lets you dodge or follow up a baited Disdain, and Ignite closes out the exact kind of low-HP window his own execute R is trying to deny you."
+  },
+  "playing": [
+   {
+    "title": "Hold W for Disdain",
+    "detail": "Riposte's parry (750 range, 10/9/8/7/6s CD) directly negates his only engage. Bait the E in, parry it, and he's left standing with zero mobility to escape the counter-attack."
+   },
+   {
+    "title": "Respect his Q range pre-6",
+    "detail": "Corrosive Charge reaches 800 range and slows on explosion — let minions soak it and only commit your Q (600 range) once he's already used Q or E."
+   },
+   {
+    "title": "Double-lunge on cooldown windows",
+    "detail": "Q can be re-cast within a couple seconds at no mana cost. Use the second dash the instant his E goes down, since it's his only gap-closer and disengage."
+   },
+   {
+    "title": "Pop E once you're already in",
+    "detail": "Burst of Speed's attack speed and the move speed from each landed hit matter after you've parried or dodged his flip — it's a sticking tool, not an engage tool."
+   },
+   {
+    "title": "Save R for isolated picks",
+    "detail": "Blade Waltz (400 range, 130/120/110s CD) deals reduced damage on repeat hits to the same target, so it's better spent diving a second target than farming damage onto Urgot alone."
+   },
+   {
+    "title": "Track his ult range after trading",
+    "detail": "Fear Beyond Death reaches 2500 range and executes below a health threshold — don't walk away from a won trade at low HP, even off-screen."
+   }
+  ],
+  "patchCaveat": "Build path, runes, summoners and all win-rate figures are measured from live games on the current patch (16.19.1); the mechanical reasoning — why the E/W interaction and cooldown windows matter — is my own read of the kit, not OP.GG data."
+ },
+ "generatedAt": 1791184441222,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791184362471,
+  "overall": {
+   "winRate": 50.3,
+   "play": 101045,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1208,
+   "wins": 567,
+   "winRate": 46.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid Urgot’s (E) or block it with [W]. Keep your distance while contesting with [Q] to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.1,
+    "play": 1213,
+    "pickRate": 86.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41,
+    "play": 105,
+    "pickRate": 7.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55.4,
+    "play": 65,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 46.9,
+    "play": 145,
+    "pickRate": 10.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 121,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 1186,
+    "pickRate": 83.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.5,
+    "play": 167,
+    "pickRate": 11.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.7,
+    "play": 1075,
+    "pickRate": 83.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.2,
+    "play": 127,
+    "pickRate": 9.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 56.2,
+    "play": 251,
+    "pickRate": 32.6
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 55.3,
+    "play": 141,
+    "pickRate": 18.3
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 57.6,
+    "play": 85,
+    "pickRate": 11
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 47.2,
+    "play": 1357,
+    "pickRate": 96.5
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.6,
+    "play": 668,
+    "pickRate": 47.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.4,
+    "play": 574,
+    "pickRate": 40.8
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 49.9,
+    "play": 407,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 59.4,
+    "play": 249,
+    "pickRate": 17.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.8,
+    "play": 127,
+    "pickRate": 9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.5,
+    "play": 773
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him poke you to half HP before level 6; you win any all-in once E (Apprehend) lands inside his Disdain cooldown."
+  },
+  "thesis": "This is an even matchup by the numbers (46.1% Darius win rate over 1632 games) because Urgot's Q (Corrosive Charge) and auto-attacks out-trade you at range, but Darius has the higher solo-kill ceiling once he closes the gap. The entire lane is a question of whether you can force fights on your terms with E (Apprehend) before Urgot's kit resets, since outside of that pull Darius has no way to close distance on a ranged champion.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "Disdain is up, levels 3+",
+    "what": "Urgot can charge through minions to shield himself and throw you out of position if you walk up carelessly. OP.GG flags this directly: be wary of E while closing in to fight him from level 3 onward."
+   },
+   "yourWindow": {
+    "when": "Disdain is on cooldown (16/15.5/15/14.5/14s)",
+    "what": "This is your all-in window. Walk him down, land E (Apprehend) to pull him in, then chain Q (Decimate) and W (Crippling Strike) to stack Hemorrhage before he can reposition."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his auto-attack range and passive punish melee approach"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Disdain lets him disengage your all-ins"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R (Noxian Guillotine) threatens kills Disdain can't stop"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "his R (Fear Beyond Death) threatens executes from range"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "fully stacked Hemorrhage one-shots through his kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "the higher-winrate start (45.5% over 1212 games) gives the sustain and AD to trade autos back into his poke rather than just absorbing it"
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "by far the dominant pick (83.9% over 1631 games) — the flat damage reduction blunts his auto-attack and Corrosive Charge chip damage every single trade"
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "the active haste closes the gap on a kiting ranged opponent and is the first item in the highest-winrate path (53.4% over 178 games)"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "builds speed while walking him down, converting into armor and a slowing auto once you're finally on top of him"
+    },
+    {
+     "item": "Death's Dance",
+     "why": "the damage reduction and bleed-out heal let you survive his poke phase long enough to reach your all-in levels"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he is building toward burst or you need to survive his Fear Beyond Death execute threshold"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "his team adds heavy magic damage on top of his physical poke"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want an earlier gap-close option before Youmuu's active is online"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "the stacking adaptive force and healing reward you for staying in extended trades against his poke, which is exactly what this lane demands (44.1% win rate, 21.1% pick on this page)",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite is the second most-run combo here (43.5% win rate, 19.9% pick) and secures kills through his sustain once E (Apprehend) locks him down, since Ghost doesn't help you catch a champion with a dash"
+  },
+  "playing": [
+   {
+    "title": "Hold E for his Disdain window",
+    "detail": "Don't throw Apprehend into range just to poke — save it to initiate the instant Disdain goes on cooldown (16/15.5/15/14.5/14s) so he has no escape from the all-in."
+   },
+   {
+    "title": "Track his passive before level 3",
+    "detail": "OP.GG's own read holds: avoid eating his passive proc at level 1, since early trades you lose here snowball into a lane you can't close distance in."
+   },
+   {
+    "title": "All-in on cooldown windows, not HP bars",
+    "detail": "His kit resets fast — fight when Disdain and Purge are down, not just when he looks low, or he'll shield and throw you away mid-combo."
+   },
+   {
+    "title": "Threaten R at level 6 immediately",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks and ignores his armor stacking — this is your first real kill threat and it arrives before his Fear Beyond Death at 11."
+   },
+   {
+    "title": "Respect Fear Beyond Death past level 11",
+    "detail": "Once he hits his ultimate, low-HP all-ins become a liability — his execute threshold punishes exactly the trades that worked for you levels 6-10."
+   },
+   {
+    "title": "Use minions to close the gap",
+    "detail": "Walk up behind minion waves so his Corrosive Charge and autos have to pass through bodies first, cutting down the number of free pokes he gets before you're in range."
+   },
+   {
+    "title": "Finish stacks with W before R",
+    "detail": "Crippling Strike's slow keeps him from kiting out of Guillotine range — land it before you commit your ultimate, not after."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are pulled from measured games on the current patch via OP.GG; the cooldown timers, ability behavior, and tactical reasoning are drawn from the live game files and my own judgment."
+ },
+ "generatedAt": 1791184224709,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791184069344,
+  "overall": {
+   "winRate": 49.4,
+   "play": 136796,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1632,
+   "wins": 752,
+   "winRate": 46.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being hit with Urgot’s passive ability while on level 1. After reaching level 3, be wary of his (E) while closing in on him to fight and kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 45.7,
+    "play": 1296,
+    "pickRate": 65.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.5,
+    "play": 393,
+    "pickRate": 19.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50.9,
+    "play": 277,
+    "pickRate": 14
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.9,
+    "play": 499,
+    "pickRate": 24.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 429,
+    "pickRate": 21.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 1212,
+    "pickRate": 60.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.6,
+    "play": 667,
+    "pickRate": 33.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.9,
+    "play": 1631,
+    "pickRate": 83.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.1,
+    "play": 174,
+    "pickRate": 9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 53.4,
+    "play": 178,
+    "pickRate": 15.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 39.3,
+    "play": 84,
+    "pickRate": 7.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 58.8,
+    "play": 68,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 49.8,
+    "play": 1020,
+    "pickRate": 52.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 46.1,
+    "play": 938,
+    "pickRate": 48
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 51.6,
+    "play": 692,
+    "pickRate": 35.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.4,
+    "play": 687,
+    "pickRate": 35.2
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 45.8,
+    "play": 686,
+    "pickRate": 35.1
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 48.9,
+    "play": 362,
+    "pickRate": 18.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 49.1,
+    "play": 409
+   }
+  ]
+ }
+}

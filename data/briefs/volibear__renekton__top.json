@@ -1,0 +1,380 @@
+{
+ "you": "Volibear",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you let Renekton's Fury bar cross 50 before you can punish his dash cooldown; you win once your sustain items and his Dominus timer are both on cooldown at the same time."
+  },
+  "thesis": "Renekton's Fury bar is a hard gate: below 50 Fury his Q (Cull the Meek) and W (Ruthless Predator) are survivable moderate hits, but at 50+ Fury his W becomes a three-hit, 1.5s stun that destroys shields and his Q's damage and heal both spike. The 50.1% head-to-head over 2019 games says this is winnable, but it's won by denying that threshold, not by out-damaging it directly.",
+  "tell": {
+   "watch": "Renekton's Fury bar fill",
+   "theirWindow": {
+    "when": "Renekton's Fury sits above 50",
+    "what": "His W (Ruthless Predator) now lands a triple slash with a 1.5s stun that strips shields, and his Q heal jumps. Back off and reset the wave instead of trading auto for auto."
+   },
+   "yourWindow": {
+    "when": "His E (Slice and Dice) is on cooldown",
+    "what": "Slice and Dice is his only gap-closer and escape, on a 16/14.5/13/11.5/10s cooldown. With it down he can't dash in to start a combo or dash out of your Q (Thundering Smash) stun, so this is when you initiate."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Renekton's Q+W combo outtrades your one-cast kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Fury builds fast off his short Q cooldown"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Dominus threat vs your W heal stabilize trades"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "on-hit items outscale his Fury resets"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The lifesteal on autos offsets the sustain Renekton gets back from his Q (Cull the Meek) heal during early short trades, and it sits at 50% win rate over 446 games as the matchup's secondary start."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Renekton's entire kit is auto-attacks plus physical slashes; Steelcaps is the 60% pick rate, 50.1% win rate choice for a reason here — it directly undercuts his W and Q damage."
+   },
+   "core": [
+    {
+     "item": "Hextech Gunblade",
+     "why": "The active heal and spellblade proc stack with your W (Frenzied Maul) mark-and-heal combo, giving you a second sustain tool to match his Fury-boosted Q heal."
+    },
+    {
+     "item": "Statikk Shiv",
+     "why": "On-hit proc extends your poke threat alongside E (Sky Splitter), so you can chip him from range without walking into his W stun chain."
+    },
+    {
+     "item": "Terminus",
+     "why": "Toggling resistances covers Renekton's mixed physical burst from empowered W and Q once his Fury is high, part of the 53.6% win rate path over 84 games."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "renekton is stacking lifesteal or healing off his Q to win extended trades"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "his W stun chains are repeatedly locking you down before you can react"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you need more raw healing amp to out-sustain his Fury-scaled Q in prolonged fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "OP.GG's own read on this lane calls out Grasp specifically for fighting Renekton — the max-health proc and bonus health reward the long trades you want to force instead of short all-in exchanges where his Fury snowballs.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Revitalize"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 72.2% of games here at 50.6% win rate — Ignite punishes his Q self-heal directly, cutting into the sustain that makes his Fury all-ins scary."
+  },
+  "playing": [
+   {
+    "title": "Poke from brush, not melee range",
+    "detail": "Per OP.GG's own tip, use E (Sky Splitter) from inside a brush to chip Renekton's health without stepping into his W (Ruthless Predator) stun range."
+   },
+   {
+    "title": "Track his Fury before every trade",
+    "detail": "Below 50 Fury his Q and W are moderate; above 50, his W triples into a 1.5s stun that strips shields and his Q heal spikes. Disengage the moment he crosses that line."
+   },
+   {
+    "title": "Double-cast W for the heal",
+    "detail": "Recasting Frenzied Maul on a marked target deals bonus damage and heals you — use this to win sustain races instead of trading single autos."
+   },
+   {
+    "title": "Punish his E cooldown",
+    "detail": "Slice and Dice is on a 16/14.5/13/11.5/10s cooldown and is his only dash. The moment he uses it to engage or reset, follow with Q (Thundering Smash) since he has no way to disengage."
+   },
+   {
+    "title": "Don't contest his Dominus window",
+    "detail": "At level 6, Dominus grants bonus health and ongoing Fury generation — new fights right after he pops it favor him. Wait it out rather than trading into it."
+   },
+   {
+    "title": "Save R for towers, not just damage",
+    "detail": "Stormbringer temporarily disables nearby towers on landing — hold it for a dive or a plate-denying engage, not as a reflexive damage tool."
+   },
+   {
+    "title": "Initiate once your items land",
+    "detail": "Around levels 11-13 your on-hit core (Gunblade into Statikk Shiv) outpaces his Fury-gated damage — start flipping fights instead of waiting on him."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates above come from measured games on the current patch (16.19.1); the Fury-threshold reasoning and trade-timing advice are our own tactical read on top of that data."
+ },
+ "generatedAt": 1791183128046,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791183020267,
+  "overall": {
+   "winRate": 48.9,
+   "play": 88127,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 2019,
+   "wins": 1011,
+   "winRate": 50.1
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Check Renekton’s Fury before fighting him. Use [E] from inside a brush to contest lane while using Grasp of the Undying when fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.6,
+    "play": 1752,
+    "pickRate": 72.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.7,
+    "play": 348,
+    "pickRate": 14.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.9,
+    "play": 221,
+    "pickRate": 9.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 635,
+    "pickRate": 25.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.1,
+    "play": 175,
+    "pickRate": 7.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 1677,
+    "pickRate": 68.2
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 446,
+    "pickRate": 18.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.1,
+    "play": 1370,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.4,
+    "play": 331,
+    "pickRate": 14.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 60.1,
+    "play": 148,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 53.8,
+    "play": 91,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 53.6,
+    "play": 84,
+    "pickRate": 5.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50.9,
+    "play": 1362,
+    "pickRate": 57.4
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 51,
+    "play": 894,
+    "pickRate": 37.7
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 51.9,
+    "play": 835,
+    "pickRate": 35.2
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 55.8,
+    "play": 678,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.2,
+    "play": 415,
+    "pickRate": 17.5
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 51.1,
+    "play": 311,
+    "pickRate": 13.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 55.2,
+    "play": 601
+   }
+  ]
+ }
+}
