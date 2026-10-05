@@ -1,0 +1,381 @@
+{
+ "you": "Irelia",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, aggressive lane",
+   "line": "You lose this lane by sitting in Parrrley range and letting Grog-Soaked Blade poison stack uncontested; you win it by closing with W and landing E before Remove Scurvy is up to cleanse it."
+  },
+  "thesis": "Gangplank's only ranged poke is Parrrley (625 range, 5s cooldown) plus the Grog-Soaked Blade poison his autos apply, and he has zero hard CC of his own — Remove Scurvy only clears CC that's already on him, it can't stop you from landing it. That means Irelia's E (Flawless Duet) stun is uncontested the moment it connects, and W (Defiant Dance) can be timed to blunt the one poke tool he has while you close the gap. The data agrees: Irelia holds lane and solo-kill advantage here, 50.9% over 3093 games.",
+  "tell": {
+   "watch": "Gangplank's Remove Scurvy cooldown",
+   "theirWindow": {
+    "when": "Parrrley is up as you approach",
+    "what": "He'll fire Parrrley (625 range, 5s cooldown) to stack poison and chip you before you're in melee range. Either eat it and keep closing — Bladesurge's heal offsets it — or walk up along minions to block the shot."
+   },
+   "yourWindow": {
+    "when": "Remove Scurvy was just used",
+    "what": "Remove Scurvy clears CC on cast but is then down for 22-18s depending on rank. The instant he burns it, your next E (Flawless Duet) stun sticks for its full duration with no way for him to cleanse it — all-in immediately."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Only Q online, Parrrley pokes freely"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E stun online, all-in before Scurvy ranks up"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Cannon Barrage adds zone threat, R online"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "BotRK sustain outlasts his poison DoT"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build answers burst, R wall locks trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "51.9% win rate over 3175 games; the extra sustain and HP directly offset Parrrley pokes and early poison ticks."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.3% over 3014 games; Parrrley and his autos are physical, so flat physical reduction blunts his entire poke pattern."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Highest-winning path (58.7% over 632 games); the on-hit sustain matches up directly against a lane built around chip damage and poison."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Continues the same build path and scales your trading power through mid-lane."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts incoming burst into a DoT you can heal through, which covers both his Parrrley all-ins and poison stacking."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "his poison and magic poke are stacking faster than you can heal through"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you want more burst on your all-in windows instead of extra sustain"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "the game goes long and you need insurance in teamfights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the sustained melee trades you're forcing — every auto and spell hit in his face stacks it while BotRK and Death's Dance keep you alive through the poison.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "85.4% pick rate and the top win rate at 51.5%; Ignite closes out the all-ins your E stun opens up, since he has no CC of his own to punish you for committing."
+  },
+  "playing": [
+   {
+    "title": "Time all-ins around Remove Scurvy",
+    "detail": "Track when he last used W. Its cooldown is 22-18s depending on rank, so the window right after he burns it is when your E stun is guaranteed to land uncleansed."
+   },
+   {
+    "title": "Charge W into incoming Parrrley",
+    "detail": "Defiant Dance reduces physical damage taken while charging. Time the charge to absorb his next Parrrley (625 range, 5s cooldown) and release the strike as you close the remaining distance."
+   },
+   {
+    "title": "Chain Bladesurge off E marks",
+    "detail": "Flawless Duet marks anything it stuns, and hitting a marked target with Bladesurge refreshes its cooldown. Use this to reset your dash for a second engage or a clean disengage."
+   },
+   {
+    "title": "Trade in short bursts, not long",
+    "detail": "Grog-Soaked Blade's poison scales with his level and ticks over time. Land your burst, then disengage instead of face-tanking extended autos where the DoT outlasts your Bladesurge healing."
+   },
+   {
+    "title": "Side-step Cannon Barrage warning",
+    "detail": "Cannon Barrage has unlimited range and telegraphs before it lands. Step out of the slow zone rather than contest a trade standing in it."
+   },
+   {
+    "title": "Use R's wall to lock the trade",
+    "detail": "After Vanguard's Edge hits, it leaves a wall that damages and slows anyone walking through it. Place your all-in so that wall sits behind him, cutting off his retreat."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and win rates above are pulled from measured games on the current patch (OP.GG); the mechanical reasoning — timing windows, cooldown interactions, trade patterns — is my own read of the kit, not sourced data."
+ },
+ "generatedAt": 1791220975652,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791220898743,
+  "overall": {
+   "winRate": 50.5,
+   "play": 100435,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 3093,
+   "wins": 1575,
+   "winRate": 50.9
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "aggressive",
+  "opponentTip": "Absorb Gangplank’s Powder Keg (E) damage with a well-timed [W]. Close in and engage aggressively with [Q] whenever Gangplank steps in range.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 3187,
+    "pickRate": 85.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.1,
+    "play": 352,
+    "pickRate": 9.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41.8,
+    "play": 177,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 50.3,
+    "play": 1393,
+    "pickRate": 37.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.9,
+    "play": 664,
+    "pickRate": 17.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.9,
+    "play": 3175,
+    "pickRate": 86
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 331,
+    "pickRate": 9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.3,
+    "play": 3014,
+    "pickRate": 85
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.9,
+    "play": 408,
+    "pickRate": 11.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 58.7,
+    "play": 632,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 55.3,
+    "play": 608,
+    "pickRate": 22.7
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 53.9,
+    "play": 317,
+    "pickRate": 11.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 51.8,
+    "play": 3555,
+    "pickRate": 98.5
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 54.9,
+    "play": 2193,
+    "pickRate": 60.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.6,
+    "play": 1728,
+    "pickRate": 47.9
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 53.5,
+    "play": 1187,
+    "pickRate": 32.9
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 52,
+    "play": 1104,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Guardian Angel"
+    ],
+    "winRate": 58.3,
+    "play": 465,
+    "pickRate": 12.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.6,
+    "play": 987
+   }
+  ]
+ }
+}

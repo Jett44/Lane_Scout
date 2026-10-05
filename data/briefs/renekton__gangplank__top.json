@@ -1,0 +1,379 @@
+{
+ "you": "Renekton",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slight underdog",
+   "line": "You lose this if you walk into his 625-range Q poke with your E on cooldown and no way to close distance; you win it if you catch his W (Remove Scurvy) on cooldown and land the full E into W stun chain."
+  },
+  "thesis": "Gangplank out-ranges you by nearly 200 units with Q (Parrrley, 625 range, 5s cooldown) while your only gap-closer is E (Slice and Dice, 450 range), so every trade starts with him choosing to poke or not. His W (Remove Scurvy) also clears any crowd control on him, so your W (Ruthless Predator) stun only matters as a kill tool when his W is already down — otherwise he just cleanses and heals off the damage.",
+  "tell": {
+   "watch": "Gangplank's W cooldown",
+   "theirWindow": {
+    "when": "your E is on cooldown",
+    "what": "You have no way to close the gap, so he free-hits you with Q and stacks his passive poison with autos. Hold position at max wave range and eat the poke rather than walking up to trade."
+   },
+   "yourWindow": {
+    "when": "his W (Remove Scurvy, 22-18s cd) is down",
+    "what": "Commit the full combo: E into him, then W for the stun (3 hits and a 1.5s stun if you're above 50 Fury), then Q. He can't cleanse the stun or heal through it, so this is your real kill window, not a random level-up all-in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke range beats your melee kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W unlocks the E-W-Q stun combo"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "R adds damage, his W still cleanses"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "poison stacking and R zoning scale past you"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Measured at 47.4% over 1380 games and the majority pick (56.1%) in this matchup — the regen and damage reduction on the first few autos directly offsets his passive poison chip and Q poke while you're stuck walking up."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "87% pick rate and the standard choice here; the flat auto-attack damage reduction cuts into both his on-hit poison and his Q poke, which are the two things actually hurting you before you can engage."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Opening item on the highest-performing path (51.3% over 230 games) — the shield absorbs a Q poke or two during your approach and the burst passive rewards landing your full stun combo."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacks armor shred on top of your empowered E's own armor reduction, which matters because you need every point of burst you can get during the narrow window his W is down."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the 51.3% win-rate path; the damage-over-time conversion and healing let you survive the chip poison and poke damage you eat every time you don't have a kill window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need to survive being focused by his Cannon Barrage or a jungler diving alongside his poke"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're snowballing and want W and E back faster so you get more cracks at his W cooldown window per minute"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their jungler or mid adds extra hard crowd control on top of his poke, making the tenacity worth more than the armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The ramping adaptive damage and healing matter specifically because his W (Remove Scurvy) heals him back after trades — Conqueror lets you out-sustain that heal over an extended fight instead of relying on a single burst window to win lane.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The standard pick at 83.3% pick rate and 47.7% win rate — Ignite punishes the all-in window when his W is down and he can't heal off the burn, since Remove Scurvy clears CC but not damage-over-time. Flash+Teleport (43.9% win, 13.7% pick) is the alternative if you need to answer his Cannon Barrage's global map pressure."
+  },
+  "playing": [
+   {
+    "title": "All-in only when his W is down",
+    "detail": "Track Remove Scurvy's 22-18s cooldown. Outside that window your stun gets cleansed and healed through; inside it, your W actually kills."
+   },
+   {
+    "title": "Hold range when your E is down",
+    "detail": "Your longest reach is E at 450; his Q hits from 625. Without E up you cannot close the gap, so don't walk forward and eat free poke."
+   },
+   {
+    "title": "Bank Fury before committing",
+    "detail": "Above 50 Fury your Q deals and heals more, and your W gets a third hit, destroys shields, and stuns for 1.5s instead of 0.75s. Land a few autos first so the combo lands at full strength."
+   },
+   {
+    "title": "Look for level 3 tempo",
+    "detail": "Per the common skill order you have Q and E by level 2 but no stun until W at level 3. The moment you hit 3, check if he's extended on CS and punish with the full combo."
+   },
+   {
+    "title": "Use R to win extended fights",
+    "detail": "Dominus (120/100/80/80/80s cooldown) adds sustained AoE damage and periodic Fury gain from level 6 on — lean on it to outlast his Remove Scurvy sustain in longer trades rather than trying to one-shot him."
+   },
+   {
+    "title": "Contest his Powder Kegs",
+    "detail": "OP.GG's own read on this matchup is to contest his keg plays directly rather than cede them, since uncontested kegs are free poke damage he gets without ever entering stun range."
+   },
+   {
+    "title": "Stop forcing fights past level 12",
+    "detail": "His passive poison stacking and Cannon Barrage zoning scale harder than your kit late. Bank your advantage from the levels-3-11 window into plates and objectives rather than looking for a late pick."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured OP.GG data from live games on the current patch (16.19.1); the timing windows, Fury thresholds, and trade-pattern reasoning are my own read of the ability kits, not OP.GG's."
+ },
+ "generatedAt": 1791220892809,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791220789149,
+  "overall": {
+   "winRate": 49.7,
+   "play": 119206,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2054,
+   "wins": 974,
+   "winRate": 47.4
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being hit with Gangplank’s Grasp of the Undying + (Q) combo. Focus on contesting Powder Kegs while fighting him. Purchase Executioner’s Calling for a slight edge.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.7,
+    "play": 2032,
+    "pickRate": 83.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.9,
+    "play": 335,
+    "pickRate": 13.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 57.9,
+    "play": 57,
+    "pickRate": 2.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47,
+    "play": 602,
+    "pickRate": 24.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.9,
+    "play": 375,
+    "pickRate": 15
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.4,
+    "play": 1380,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 992,
+    "pickRate": 40.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.9,
+    "play": 2058,
+    "pickRate": 87
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 232,
+    "pickRate": 9.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 51.3,
+    "play": 230,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 53.8,
+    "play": 119,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 44.4,
+    "play": 63,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.2,
+    "play": 1715,
+    "pickRate": 71.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.6,
+    "play": 1262,
+    "pickRate": 52.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 51.3,
+    "play": 979,
+    "pickRate": 40.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53.2,
+    "play": 664,
+    "pickRate": 27.6
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 48.5,
+    "play": 474,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.1,
+    "play": 447,
+    "pickRate": 18.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.6,
+    "play": 896
+   }
+  ]
+ }
+}

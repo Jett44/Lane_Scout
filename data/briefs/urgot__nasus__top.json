@@ -1,0 +1,388 @@
+{
+ "you": "Urgot",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You lose if you let him free-farm stacks past level 6; you win if you zone his Q (Siphoning Strike) off the wave before then."
+  },
+  "thesis": "Nasus is a melee farm champion whose entire win condition is landing Siphoning Strike (Q, 255 range) on minions — every stack he misses is gone forever. Urgot's Corrosive Charge (Q, 800 range) and auto range let him poke Nasus off cs without ever entering his Q range, which is exactly why Urgot holds both the lane and solo-kill edge here (52.9% over 1065 games). Let the wave sit and he scales into a problem; deny it and he never recovers.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Wither lands and stacks are high",
+    "what": "Wither ages your Movement and Attack Speed, letting Nasus close the gap and unload stacked autos while burning Spirit Fire under you. Disengage immediately rather than trading autos — don't try to out-DPS a slowed fight."
+   },
+   "yourWindow": {
+    "when": "Siphoning Strike and Wither both down",
+    "what": "Walk up and land Corrosive Charge, then commit Disdain to shield through his melee range and shove him off the wave or into tower range. Before level 6 he has no tool to punish this."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Short trades only, no all-in yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Zone his Q, deny stacks"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Black Cleaver timing punishes his all-ins"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Wither shuts down kiting, trade carefully"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Respect Fury of the Sands range"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Most-picked start (87.6%, 54.8% WR over 1196 games) — the extra sustain and auto damage fund the short poke trades you want, not a melee shove war."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.3% pick, 54.5% WR over 642 games — Nasus's damage is entirely stacked-auto physical, so flat reduction on autos matters more than slow resist here."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Shred stacks from Q/W/E poke whittle his armor down fast, undercutting the tankiness he buys to survive your range."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Survivability for when Wither connects and he closes the gap to auto you down."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Highest-winrate third item in the data (58% over 176 games) — scales your own tankiness as the fight drags into his late-game power spike."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "if he's built up Soul Eater lifesteal and is winning extended melee trades"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "if his healing from stacked Q and lifesteal is stalling your kills"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "if you need an early grievous wounds rush to stop him sustaining through poke"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "if he starts split-pushing and you need to catch him across the map"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards the ranged auto-poke plan directly — three hits exposes him to bonus damage right as he's forced to step up for cs, turning every farm attempt into a losing trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest pick rate by far (88.4%, 55% WR) — Ignite denies Soul Eater healing during your level 2-5 all-in windows and secures kills before he can scale out of them."
+  },
+  "playing": [
+   {
+    "title": "Poke before he farms",
+    "detail": "Land Corrosive Charge on the wave to deny Siphoning Strike attempts — every missed stack is permanent lost scaling for him."
+   },
+   {
+    "title": "All-in on cooldown windows",
+    "detail": "When his Q and Wither are both down, commit Disdain to close distance, trample through his melee range, and shove him off the wave."
+   },
+   {
+    "title": "Don't auto-duel into Wither",
+    "detail": "Once Wither lands, his attack/move speed edge over you kicks in — disengage instead of trading autos while slowed."
+   },
+   {
+    "title": "Respect Spirit Fire zoning",
+    "detail": "His armor-shred flame swings extended trades his way; don't stand in it to farm or fight."
+   },
+   {
+    "title": "Sequence Q into Purge",
+    "detail": "Purge prioritizes champions you've already hit with Q or E, so poke first, then follow with Purge to close out short trades for plates."
+   },
+   {
+    "title": "Track his ultimate timer",
+    "detail": "Fury of the Sands is a 120-second cooldown that transforms him in skirmishes — don't fully commit if he's healthy and it's up."
+   },
+   {
+    "title": "Build through his sustain",
+    "detail": "Soul Eater lifesteal scales his staying power in long trades — Bramble Vest or Executioner's Calling cuts that off if the lane stalls."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and all win-rate/pick-rate figures are measured from live games on the current patch; the mechanical and timing reasoning behind them is my own read of the matchup."
+ },
+ "generatedAt": 1791219759650,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791219662830,
+  "overall": {
+   "winRate": 51,
+   "play": 58815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1065,
+   "wins": 563,
+   "winRate": 52.9
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus farm lane easily by contesting lane during early game. Gain control over lane and use it to get turret plates or to kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55,
+    "play": 1213,
+    "pickRate": 88.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.4,
+    "play": 109,
+    "pickRate": 7.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 44.4,
+    "play": 27,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 408,
+    "pickRate": 29.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.2,
+    "play": 257,
+    "pickRate": 18.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.8,
+    "play": 1196,
+    "pickRate": 87.6
+   },
+   {
+    "items": [
+     "Cull",
+     "Health Potion"
+    ],
+    "winRate": 49.5,
+    "play": 97,
+    "pickRate": 7.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.5,
+    "play": 642,
+    "pickRate": 49.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 55.6,
+    "play": 394,
+    "pickRate": 30.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58,
+    "play": 176,
+    "pickRate": 19.5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.4,
+    "play": 88,
+    "pickRate": 9.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 68,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.7,
+    "play": 1300,
+    "pickRate": 97.5
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.1,
+    "play": 952,
+    "pickRate": 71.4
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 54.4,
+    "play": 342,
+    "pickRate": 25.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.3,
+    "play": 255,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 49.2,
+    "play": 181,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.7,
+    "play": 178,
+    "pickRate": 13.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 53.5,
+    "play": 331
+   }
+  ]
+ }
+}

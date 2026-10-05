@@ -1,0 +1,375 @@
+{
+ "you": "Garen",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close matchup",
+   "line": "You're on the back foot until level 6 while Gangplank free-pokes with Q, but the lane flips once Decisive Strike's silence shuts down his Remove Scurvy and you land the all-in."
+  },
+  "thesis": "Gangplank's Q (Parrrley) hits from 625 range while your Q (Decisive Strike) only reaches 300, so every trade before level 6 is on his terms and his passive poison adds extra magic damage on top of each auto he lands. The 48.4% win rate over 2534 games reflects that poke advantage without a kill advantage: Garen just has to survive the lane, because once Decisive Strike's silence lands it cancels his Remove Scurvy cleanse right as Demacian Justice comes online.",
+  "tell": {
+   "watch": "Gangplank's Q (Parrrley) cooldown",
+   "theirWindow": {
+    "when": "Levels 1-5, before you hit 6",
+    "what": "He can shoot Q (Parrrley) at 625 range on a 5s cooldown and walk away before you close to melee range, with Grog-Soaked Blade poison ticking extra magic damage on every auto he lands after. Don't contest minions at the edge of his range; last-hit from max distance and let W (Courage) soak the chip damage instead of trading autos."
+   },
+   "yourWindow": {
+    "when": "Level 6+, when you can open with Q",
+    "what": "Decisive Strike's silence on hit blocks his W (Remove Scurvy), so if you land Q first he cannot cleanse or heal through the E (Judgment) tick damage or the Demacian Justice execute that follows. Flash in to force the Q landing rather than waiting for him to walk into range himself."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Q outranges you by 325 units"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R + Q silence opens the all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "itemization race, Stridebreaker closes gaps"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build bruiser wins extended duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction on autos and passive regen offset the poke-and-poison chip from his Q and Grog-Soaked Blade without needing to all-in early."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Measured at 51.4% win rate over 525 games; the extra movement speed matters more here than attack speed since you need to close distance on a kiting Q and walk out of Cannon Barrage zones."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The active's dash and AoE slow is your only reliable way to close a 625-range gap and pin him down before he resets distance."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "This exact path (Stridebreaker into Youmuu's into Phantom Dancer) is measured at 63.3% win rate over 196 games, the highest of any build here, because the active haste chains a second gap-close into the fight."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed and move speed let you stick to him through Remove Scurvy's brief invulnerability-less window and keep auto-ing during the all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "his W (Remove Scurvy) heal is letting him survive your all-ins"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need more durability to tank through his E (Raise Morale) buffed teammates in skirmishes"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "you're ahead and want to scale your execute damage for faster picks"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "Measured at 50.9% win rate over this page, and the movement speed burst from taking repeated poke damage directly counters a lane where your main problem is closing distance on a ranged auto-user.",
+   "primary": [
+    "Axiom Arcanist",
+    "Celerity",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "92.7% pick rate at 49.2% win rate; Flash closes the gap onto a kiting Gangplank or dodges Cannon Barrage, and Ignite's damage over time can't be cleared by Remove Scurvy, which secures kills he'd otherwise heal through."
+  },
+  "playing": [
+   {
+    "title": "Don't walk into Q range",
+    "detail": "His Q (Parrrley) reaches 625 to your Q's 300, so standing at the edge of minion range to last-hit just feeds him free pokes. Stay at melee range only when you're ready to commit."
+   },
+   {
+    "title": "Hide in brush to deny his Q",
+    "detail": "Parrrley is a targeted shot on an enemy unit, meaning he needs vision on you to cast it. Breaking line of sight in brush removes the target entirely, not just the damage."
+   },
+   {
+    "title": "Save Q's silence for the engage",
+    "detail": "Open your all-in with Decisive Strike so the silence lands before he can react with Remove Scurvy. Landing it after he's already cleansed wastes the one tool that beats his sustain."
+   },
+   {
+    "title": "Track his E for incoming ganks",
+    "detail": "Raise Morale has 1200 range and buffs nearby allies' damage and speed; if he fires it toward your lane before a gank arrives, back off the wave immediately."
+   },
+   {
+    "title": "Respect Cannon Barrage after level 6",
+    "detail": "Its range is unlimited and it slows while dealing damage over time, so don't overextend once he hits 6. Use Boots of Swiftness to walk out of the zone rather than trading through it."
+   },
+   {
+    "title": "Rank R on cooldown, not just on kill",
+    "detail": "Demacian Justice starts at a 140s cooldown and drops to 20s at rank 5; the skill order (EQWEEREQEQRQQWW) prioritizes getting it to rank 2-3 quickly so the execute threat is back up for the next skirmish."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners and win rates above are pulled directly from measured OP.GG games on the current patch; the ability mechanics, trade timing and tactical reads are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791220079015,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791219971734,
+  "overall": {
+   "winRate": 50.7,
+   "play": 139758,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2534,
+   "wins": 1227,
+   "winRate": 48.4
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Be careful of his Graps of the Undying + (Q) combo by hiding inside brushes or maintaining your distance. Be careful of his (E) pokes and try to kill him using Flash after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.2,
+    "play": 2849,
+    "pickRate": 92.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.2,
+    "play": 123,
+    "pickRate": 4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 46,
+    "pickRate": 1.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.2,
+    "play": 1020,
+    "pickRate": 32.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.9,
+    "play": 745,
+    "pickRate": 23.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.6,
+    "play": 2345,
+    "pickRate": 75.9
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 474,
+    "pickRate": 15.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 49.8,
+    "play": 2033,
+    "pickRate": 67.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.4,
+    "play": 525,
+    "pickRate": 17.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 48.6,
+    "play": 479,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.5,
+    "play": 202,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Youmuu's Ghostblade",
+     "Phantom Dancer"
+    ],
+    "winRate": 63.3,
+    "play": 196,
+    "pickRate": 9.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.7,
+    "play": 2940,
+    "pickRate": 96.7
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 51.4,
+    "play": 1754,
+    "pickRate": 57.7
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 49.4,
+    "play": 1049,
+    "pickRate": 34.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.2,
+    "play": 892,
+    "pickRate": 29.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 55.8,
+    "play": 883,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 53,
+    "play": 315,
+    "pickRate": 10.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 51.6,
+    "play": 1198
+   }
+  ]
+ }
+}

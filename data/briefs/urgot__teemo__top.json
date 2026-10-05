@@ -1,0 +1,388 @@
+{
+ "you": "Urgot",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Aggressive favor",
+   "line": "You win this lane when you land Disdain to catch Teemo for a forced trade or kill; you lose it if you let him sit at range and stack Toxic Shot poison for free."
+  },
+  "thesis": "Urgot is the one ranged top laner who can actually close the gap on Teemo: E (Disdain) is a dash, not a basic attack, so Teemo's Blinding Dart can't stop it from landing, and Q (Corrosive Charge) at 800 range out-reaches his 680-range poke. That structural mismatch is why Urgot holds the solo-kill edge and a 51.3% win rate over 875 games on this patch.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart (Q) cooldown",
+   "theirWindow": {
+    "when": "Q (Blinding Dart) off cooldown, poking from range",
+    "what": "Don't walk into his 680-range auto/Q poke to trade basic attacks while his blind is up; it just lets him stack Toxic Shot for free without risk."
+   },
+   "yourWindow": {
+    "when": "his Q (Blinding Dart) is on cooldown (8s)",
+    "what": "All-in immediately with E to catch and toss him, then follow with Q and W (Purge) since nothing in his kit stops the dash or the follow-up burst while Q is down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Disdain lands even through his blind"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q cooldown dictates who gets to poke"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R execute threat on a squishy target"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Cleaver/Sterak's outscale his poke"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Mushroom zone control slows your engages"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Sustains the early all-in pattern and the trades you take while pressuring with E at level 1-2 (51.4% win rate, 658 games)."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Magic resist directly answers Toxic Shot's poison DoT and Noxious Trap's poison cloud, both of which tick repeatedly over a fight (51.6% win rate, 649 games)."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred and haste let you chain Disdain catches into Purge faster, which matters since Teemo has no armor to speak of."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Flat health and the shield proc keep you alive through stacked poison ticks and mushroom fields during extended fights."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances blunt the slow poison bleed of a Teemo who's built around chip damage rather than burst."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he's building AP/magic pen to make his poke and traps hit harder"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "the lane turns into a long poke war and you need more raw sustain"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you need more mobility to close the gap before Move Quick lets him disengage"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "he's kiting with Move Quick and mushroom fields and you need to cross ground faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards landing consecutive hits right after a Disdain catch, turning one successful dash into a real burst window on an isolated Teemo.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite closes out kills on a squishy Teemo after an E catch pushes him below the R execute threshold, since he has no shield or heal to out-value it (51.5% win rate, 75.2% pick rate)."
+  },
+  "playing": [
+   {
+    "title": "All-in with E at level 1",
+    "detail": "Disdain is a dash, not a basic attack, so Blinding Dart can't prevent it from landing. Use the level 1-2 window to catch him off guard and start building Echoing Flames pressure immediately."
+   },
+   {
+    "title": "Poke first with Q at max range",
+    "detail": "Corrosive Charge's 800 range outreaches his 680-range Q and autos, so open exchanges with Q rather than letting him set the poke tempo."
+   },
+   {
+    "title": "Time all-ins around his Q cooldown",
+    "detail": "Blinding Dart is only up every 8 seconds. Commit hard the moment he's used it elsewhere, since it's his only answer to your engage."
+   },
+   {
+    "title": "Hold Purge until after E connects",
+    "detail": "Purge's close-range unload is far stronger once he's tossed into range and can't easily juke, so don't open with W before the dash lands."
+   },
+   {
+    "title": "Walk around suspicious mushroom spots",
+    "detail": "Noxious Trap has essentially no cooldown, so a shroom hiding near your usual engage path will slow and poison you before you ever reach him. Scout the angle instead of walking straight in."
+   },
+   {
+    "title": "Save R for a guaranteed execute",
+    "detail": "Fear Beyond Death's cooldown (100/85/70/70/70s) is too long to waste. Only fire it when he's already isolated or clearly below the execute threshold."
+   },
+   {
+    "title": "Don't dive blind into his brush",
+    "detail": "Camouflage lets him vanish if he stands still for a moment, so avoid chasing a 'low' Teemo into unwarded bushes expecting an easy finish."
+   }
+  ],
+  "patchCaveat": "All win rates, sample sizes, build paths, rune pages, and summoner spell numbers above are measured OP.GG data from the current patch (16.19.1). The mechanical reasoning, timing windows, and trade patterns are my own tactical read, not measured statistics."
+ },
+ "generatedAt": 1791219557543,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791219476898,
+  "overall": {
+   "winRate": 51,
+   "play": 58815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 875,
+   "wins": 449,
+   "winRate": 51.3
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "aggressive",
+  "opponentTip": "Use [E] on level 1 to use [P] to pressure Teemo. Make sure [E] lands successfully when fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 831,
+    "pickRate": 75.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47,
+    "play": 183,
+    "pickRate": 16.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47.5,
+    "play": 59,
+    "pickRate": 5.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.4,
+    "play": 251,
+    "pickRate": 22.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 59.2,
+    "play": 179,
+    "pickRate": 15.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.4,
+    "play": 658,
+    "pickRate": 59.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 342,
+    "pickRate": 30.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.6,
+    "play": 649,
+    "pickRate": 60.9
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.6,
+    "play": 254,
+    "pickRate": 23.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 52.4,
+    "play": 145,
+    "pickRate": 18.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Kaenic Rookern"
+    ],
+    "winRate": 50,
+    "play": 68,
+    "pickRate": 8.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 46,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.3,
+    "play": 949,
+    "pickRate": 87.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53.6,
+    "play": 750,
+    "pickRate": 69.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 49.8,
+    "play": 321,
+    "pickRate": 29.6
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 54.9,
+    "play": 213,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 51.4,
+    "play": 146,
+    "pickRate": 13.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 50,
+    "play": 122,
+    "pickRate": 11.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 54.3,
+    "play": 164
+   }
+  ]
+ }
+}

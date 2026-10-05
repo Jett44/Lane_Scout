@@ -1,0 +1,378 @@
+{
+ "you": "Urgot",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Ornn lands Searing Charge into a wall for a free knockup, you win if you poke behind parity Q range and punish with R once he's low."
+  },
+  "thesis": "Both champions carry an 800-range skillshot (Urgot's Q Corrosive Charge, Ornn's Q Volcanic Rupture) that slows on hit, so the early poke exchange is symmetrical rather than one-sided. The matchup actually swings on Ornn's E (Searing Charge, 450 range): it's a harmless dash unless he collides with terrain, in which case it becomes a knockup. That single conditional is why the measured 47.6% win rate over 957 games sits even despite Urgot holding the solo-kill edge.",
+  "tell": {
+   "watch": "Searing Charge cooldown and terrain",
+   "theirWindow": {
+    "when": "His E is up and you're near a wall",
+    "what": "If he's lined up to collide with terrain while charging, back off the wall or walk perpendicular so the charge whiffs past you instead of landing the knockup shockwave that opens his combo."
+   },
+   "yourWindow": {
+    "when": "His E (Searing Charge) is on cooldown (14-12s)",
+    "what": "Step up and fire Q, then commit W (Purge) and move around him while it's active to keep tagging him with autos, since Purge prioritizes recently-struck champions and triggers Echoing Flames blasts — this is the OP.GG-confirmed way to stack passive damage in this matchup."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Symmetrical 800-range Q pokes trade evenly"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "His E only threatens near terrain"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute swings all-ins your way"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Living Forge's bonus resists blunt your shred"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sterak's/Jak'Sho win extended duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 47.6% win rate over 936 games (84.3% pick) reflects the fact that this is a poke-and-sustain lane, not a burst lane — the extra HP sustain from the potion outlasts Ornn's Q chip damage while you match his ranged trades."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Ornn is a magic-damage dealer and both his W's final gout and his R apply Brittle, so the magic resist plus tenacity (47.5% over 425 games, 40.5% pick) directly answers his damage type and any CC he lands."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred on a kit that already lands repeated Q/W/passive hits is the highest win-rate path (53.5% over 170 games, 24.2% pick) and compounds with every Echoing Flames proc."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The bonus health and tenacity let you survive the one window Ornn has to punish you — a landed Searing Charge knockup into follow-up damage."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Rounds out the build's defensive scaling for extended 1v1s and matches Ornn's own Living Forge resist stacking so you don't fall behind on durability late."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "you're ahead and want to close out duels faster (60.7% over 56 games)"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need to close the gap on him to land W (Purge) before he can kite with Q slows"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Your ranged autos plus Q/W poke stack the vulnerable debuff quickly on a melee target, and it rewards the exact 'move around to land autos during Purge' pattern this matchup calls for.",
+   "primary": [
+    "Triumph",
+    "Legend: Bloodline",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport",
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash + Teleport posts the higher measured win rate (49.6% over 32.2% pick) and lets you reset after poke exchanges without losing lane presence; take Flash + Ignite instead (46.8%, 64% pick — the far more common choice) if you want to force kills once he's inside your R's execute threshold."
+  },
+  "playing": [
+   {
+    "title": "Trade Q for Q at range",
+    "detail": "Both Corrosive Charge and Volcanic Rupture are 800-range slows, so don't give up the poke exchange just because he's melee — you have the same tool he does."
+   },
+   {
+    "title": "Sidestep off walls vs his E",
+    "detail": "Searing Charge only knocks up if it collides with terrain, so staying off the lane walls when his E is up denies him his only real engage."
+   },
+   {
+    "title": "Move during Purge, not stand still",
+    "detail": "W prioritizes champions you've recently struck and triggers Echoing Flames — walking to keep hitting him during the channel is the single highest-value action in the trade."
+   },
+   {
+    "title": "Hold E to punish his commitment",
+    "detail": "Save Disdain for the moment he's locked into Searing Charge or just landed a knockup — the shield covers the return trade and hurling him away ends the exchange on your terms."
+   },
+   {
+    "title": "Threaten R from level 6 on",
+    "detail": "Fear Beyond Death's 2500 range and execute condition mean any all-in that drops him low should end in R rather than walking away — this is where your solo-kill edge actually shows up."
+   },
+   {
+    "title": "Watch his gold for Living Forge spikes",
+    "detail": "He can forge items anywhere, so a sudden stat jump mid-lane isn't a recall — expect his resists to climb outside the normal level/item curve."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live OP.GG data on the current patch (16.19.1); the mechanical reasoning — why Searing Charge only matters near terrain, why Purge movement matters, when to threaten R — is my own tactical read, not scraped data."
+ },
+ "generatedAt": 1791219365210,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791219273146,
+  "overall": {
+   "winRate": 51,
+   "play": 58815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 957,
+   "wins": 456,
+   "winRate": 47.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Move around to use [P] when fighting. Make sure [E] lands successfully.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.8,
+    "play": 713,
+    "pickRate": 64
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.6,
+    "play": 359,
+    "pickRate": 32.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 44.4,
+    "play": 27,
+    "pickRate": 2.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 243,
+    "pickRate": 21.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.1,
+    "play": 188,
+    "pickRate": 16.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.6,
+    "play": 936,
+    "pickRate": 84.3
+   },
+   {
+    "items": [
+     "Cull",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 98,
+    "pickRate": 8.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.5,
+    "play": 425,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48,
+    "play": 348,
+    "pickRate": 33.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 53.5,
+    "play": 170,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 45.1,
+    "play": 82,
+    "pickRate": 11.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 60.7,
+    "play": 56,
+    "pickRate": 8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.9,
+    "play": 1104,
+    "pickRate": 99.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 48.6,
+    "play": 835,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 53.6,
+    "play": 289,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 56.5,
+    "play": 131,
+    "pickRate": 11.8
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 46.9,
+    "play": 113,
+    "pickRate": 10.1
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 53.6,
+    "play": 110,
+    "pickRate": 9.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 48.4,
+    "play": 213
+   }
+  ]
+ }
+}

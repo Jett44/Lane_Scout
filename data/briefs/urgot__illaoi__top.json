@@ -1,0 +1,384 @@
+{
+ "you": "Urgot",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let her stack W (Harsh Lesson) leaps and tentacle hits on you in melee before level 6; you win if you hold Q (Corrosive Charge) range and land R (Fear Beyond Death) executes after."
+  },
+  "thesis": "Urgot is fully ranged (Q 800, W 490) against a melee champion whose only gap closer, W (Harsh Lesson), is a short 400-range leap on a 4-second cooldown — this lane is decided by whether Urgot keeps the fight at Q distance or gets dragged into point-blank trades where her tentacles and passive sustain take over. The 49.5% win rate over 729 games says it's close, but the measured lane and solo-kill edge both go to Illaoi, so play it as a poke-and-wait matchup, not a brawl.",
+  "tell": {
+   "watch": "Illaoi's E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "right after she lands E on you",
+    "what": "She'll have tentacles or Q (Tentacle Smash) hit the spirit for free echoed damage back onto you, and staying too far from the spirit turns you into a Vessel that spawns tentacles against you — back off the spirit immediately instead of trading through it."
+   },
+   "yourWindow": {
+    "when": "the instant her W (Harsh Lesson) whiffs or hits a minion",
+    "what": "She has no gap close for 4 seconds — step up, land Q (Corrosive Charge) and a few autos for Echoing Flames procs, then reset to max range before it's back up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "melee autos and W leap win short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q poke and E disengage come online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute threat punishes her engages"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "wall tentacles give her zone control back"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "tentacles scale skirmishes near terrain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 50.6% winrate, 82.7% pick-rate start over 767 games — the extra sustain and auto damage help you survive the level 1-2 window where her short trades beat you."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49% winrate, 69.1% pick-rate — flat physical damage reduction directly answers her autos, W (Harsh Lesson) hits, and tentacle swings, all of which are physical."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred plus attack speed turns your kiting autos into real damage once she's forced to close with W."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The bonus health and shield absorb the burst from a W leap + tentacle + E (Leap of Faith) all-in before you can disengage."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Highest-winrate of the listed core paths (55.4% over 65 games) — Grievous Wounds from being hit cuts the healing her tentacle passive gives her off you, which is her main lane sustain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "you're laning near walls early and her tentacles are healing her off every trade"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "she itemizes into extra lifesteal or healing to outlast your poke"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the game goes long and she's building to dive you in skirmishes near terrain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "The higher-winrate page (53.6% over 15% pick rate) — the vulnerable debuff rewards you for landing autos during your short poke windows before she closes distance.",
+   "primary": [
+    "Triumph",
+    "Legend: Bloodline",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 83% of games at 49.5% winrate — Ignite's burn secures the R (Fear Beyond Death) execute threshold earlier and denies tentacle sustain during a dive. Flash+Teleport (49.2%, 14% pick) is the alternative if you need safer wave priority given her lane edge."
+  },
+  "playing": [
+   {
+    "title": "Poke from Q range, not melee",
+    "detail": "Fire Q (Corrosive Charge, 800 range) behind minions whenever it's up on its 10/9.5/9/8.5/8s cooldown instead of walking in to auto — you out-range everything she has except E's setup."
+   },
+   {
+    "title": "Respect the 4-second leap",
+    "detail": "W (Harsh Lesson) is only 400 range but recycles every 4 seconds, so never dangle in that range band expecting it to be down for long."
+   },
+   {
+    "title": "Trade only when her Q is spent",
+    "detail": "After she smashes a tentacle with Q (Tentacle Smash, 10-6s cooldown) her burst drops — that's your window to step in with W (Purge) for a short attack sequence."
+   },
+   {
+    "title": "Lane away from walls",
+    "detail": "Her tentacles only spawn on impassible terrain, so holding the open side of the lane denies the extra hits and heals that come with them."
+   },
+   {
+    "title": "Disengage off her spirit, don't fight through it",
+    "detail": "If her E (Test of Spirit) lands on you, back off immediately so tentacles or Q can't smash the spirit and echo damage back onto you."
+   },
+   {
+    "title": "Hold E (Disdain) for escape, not engage",
+    "detail": "With lane and solo-kill advantage on her side, Disdain is your safety valve out of an all-in, not your opener."
+   },
+   {
+    "title": "Hunt the level 6 execute",
+    "detail": "Once R (Fear Beyond Death) is up, any poke that drops her below the threshold is a kill at 2500 range — Ignite extends that window further."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above are measured from live OP.GG games on the current patch (16.19.1); the mechanical reasoning and trade-pattern advice are my own analysis layered on top."
+ },
+ "generatedAt": 1791219170275,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791219077881,
+  "overall": {
+   "winRate": 51,
+   "play": 58815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 729,
+   "wins": 361,
+   "winRate": 49.5
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with her (E). Try to keep some distance rather than fighting in close combat to slowly apply pressure.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.5,
+    "play": 758,
+    "pickRate": 83
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.2,
+    "play": 128,
+    "pickRate": 14
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48,
+    "play": 256,
+    "pickRate": 27.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.6,
+    "play": 140,
+    "pickRate": 15
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 767,
+    "pickRate": 82.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.2,
+    "play": 74,
+    "pickRate": 8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49,
+    "play": 612,
+    "pickRate": 69.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.6,
+    "play": 151,
+    "pickRate": 17
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 49.4,
+    "play": 79,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 55.4,
+    "play": 65,
+    "pickRate": 11.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.9,
+    "play": 56,
+    "pickRate": 9.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.7,
+    "play": 854,
+    "pickRate": 96.5
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.6,
+    "play": 628,
+    "pickRate": 71
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.7,
+    "play": 216,
+    "pickRate": 24.4
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 52.1,
+    "play": 190,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 43.4,
+    "play": 145,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 47.3,
+    "play": 131,
+    "pickRate": 14.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 50.7,
+    "play": 215
+   }
+  ]
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "you": "Urgot",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Irelia lands E and chains into a marked Q before level 6; you win once W (Purge) and E (Disdain) are both online and she's forced to fight at point-blank range."
+  },
+  "thesis": "Urgot vs Irelia sits at 50.8% over 859 games, but the shape is defensive — Irelia has both the lane and solo-kill edge because her Q (Bladesurge) and E (Flawless Duet) let her dictate when the fight happens, while Urgot's only pre-6 answer is a single rank of Q (Corrosive Charge) and a slow-building W. The matchup flips once Urgot's W cooldown drops low enough to punish her for staying in range and E (Disdain) is up to physically remove her from the fight.",
+  "tell": {
+   "watch": "Irelia's Ionian Fervor stack count",
+   "theirWindow": {
+    "when": "she lands E (Flawless Duet) on you",
+    "what": "Getting caught between the two converging blades stuns and Marks you, which refreshes her Q (Bladesurge) on the follow-up hit and snowballs her passive attack-speed stacks. Disengage immediately rather than trading through the stun."
+   },
+   "yourWindow": {
+    "when": "her Q (Bladesurge) is down (used on a minion)",
+    "what": "Bladesurge needs a target and is her only gap-close/escape; if she spends it clearing a wave or repositioning, step up and poke with Q or autos for the 10-6s it's on cooldown (lower at higher rank)."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her Q dash threatens all-in before your W is online"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (stun+mark) into Q reset burst punishes any trade"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "Both ults online; your W cooldown finally drops"
+   },
+   {
+    "levels": "10-13",
+    "edge": "you",
+    "note": "W near-zero cooldown, E (Disdain) shields and throws her out"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Itemization and teamfights equalize the lane matchup"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Measured at 51.7% over 900 games and 87.6% pick rate — the sustain and damage help you survive early all-in attempts without a strong poke tool of your own yet."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.9% over 818 games and the standard pick — Irelia's passive stacks attack speed off every spell hit, and Steelcaps flattens the resulting auto-attack damage once she's on top of you."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "First item in the highest-sample core path (58.2% over 91 games); the armor shred matters against an on-hit skirmisher who wants to keep landing autos through her passive."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Second item in the same path — the bonus health and damage reduction buy you the extra survivability to actually land W (Purge) channels instead of dying mid-cast."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Third item in the 58.2%-over-91-games path — stacking resistances cap out her snowballing passive damage over a long fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's fed and leaning on sustained autos/on-hit damage"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you want more engage speed to close gaps and stick Disdain"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early defensive item to survive all-ins before Cleaver completes"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "you're ahead and want more sustain and damage on top of the core"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards landing consecutive hits on the same target, which lines up with W (Purge) prioritizing the champion you've recently struck — the vulnerability amplifies the channel's damage once she's locked in range.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 85.3% of games at 50.6% — Ignite punishes the heal she gets off a hit Bladesurge and gives you lane-kill pressure once E (Disdain) lands. Exhaust+Flash shows a notably higher 61.1% WR on a small sample if you want more direct control over her all-in windows instead."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q, respect her ranges",
+    "detail": "Hold Corrosive Charge (800 range) to chip her from outside her 600-range Q and don't walk into the zone where her 850-range E can converge on you."
+   },
+   {
+    "title": "Never trade through an unmarked E",
+    "detail": "If you get caught between the two blades of Flawless Duet you're stunned and Marked, which refreshes her Q on the follow-up hit. Back off the instant she throws it rather than fighting through the stun."
+   },
+   {
+    "title": "Save E to physically remove her",
+    "detail": "Disdain (16/15.5/15/14.5/14s cooldown) stops on the first enemy champion it hits and hurls them away — use it to reset neutral spacing the moment she commits Q or W."
+   },
+   {
+    "title": "Channel W once she's already stuck on you",
+    "detail": "Purge's self-slow barely matters when she's already at melee range post-dash; it prioritizes her as a recently-struck target and triggers Echoing Flames for extra damage."
+   },
+   {
+    "title": "Punish Q spent on minions",
+    "detail": "Bladesurge requires a target; if she dashes a minion instead of you, her only gap-close is down for 10-6s depending on rank — step up and poke while she has no dash."
+   },
+   {
+    "title": "Bank R for the execute, not the engage",
+    "detail": "Fear Beyond Death threatens from 2500 range once she's low, but its 100/85/70s cooldown means whiffing it or burning it defensively costs you tempo for the rest of the fight."
+   },
+   {
+    "title": "Check her passive stacks before extending",
+    "detail": "Ionian Fervor stacks attack speed per spell hit and adds bonus on-hit damage at max stacks — if she's near cap mid-trade, disengage instead of continuing to exchange autos."
+   }
+  ],
+  "patchCaveat": "Build, rune, summoner, and win-rate numbers are measured from live OP.GG games on the current patch (16.19.1); the ability mechanics, timing windows, and tactical reading are my own analysis built on top of that data."
+ },
+ "generatedAt": 1791218903482,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791218783172,
+  "overall": {
+   "winRate": 51,
+   "play": 58815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 859,
+   "wins": 436,
+   "winRate": 50.8
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "defensive",
+  "opponentTip": "Keep an eye out for Irelia’s (P) and Conqueror stacks before fighting her. Focus on avoiding her (E) when contesting lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.6,
+    "play": 869,
+    "pickRate": 85.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 100,
+    "pickRate": 9.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 61.1,
+    "play": 36,
+    "pickRate": 3.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 347,
+    "pickRate": 33.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.7,
+    "play": 112,
+    "pickRate": 10.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.7,
+    "play": 900,
+    "pickRate": 87.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41,
+    "play": 61,
+    "pickRate": 5.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.9,
+    "play": 818,
+    "pickRate": 83.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.9,
+    "play": 77,
+    "pickRate": 7.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58.2,
+    "play": 91,
+    "pickRate": 14.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 57.6,
+    "play": 59,
+    "pickRate": 9.6
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 61.7,
+    "play": 47,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52,
+    "play": 953,
+    "pickRate": 94.5
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.5,
+    "play": 684,
+    "pickRate": 67.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49.6,
+    "play": 278,
+    "pickRate": 27.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.9,
+    "play": 275,
+    "pickRate": 27.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58.3,
+    "play": 228,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 61.9,
+    "play": 105,
+    "pickRate": 10.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 55.3,
+    "play": 244
+   }
+  ]
+ }
+}

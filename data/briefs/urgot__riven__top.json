@@ -1,0 +1,384 @@
+{
+ "you": "Urgot",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, close",
+   "line": "You lose if you stand still for her E-into-W stun chain; you win if you poke her down at 800 range before she ever gets to use it."
+  },
+  "thesis": "Urgot's 800-range Q (Corrosive Charge) outranges every tool in Riven's kit — her Q (Broken Wings, 275 range), W (Ki Burst, 260 range), and E (Valor, 250 range) all require her to close distance first. The entire lane is decided by whether she gets her E (Valor) dash off cooldown to close that gap safely; data backs this structurally with a 51.7% Urgot win rate over 632 games and a stated lane and solo-kill advantage for Urgot.",
+  "tell": {
+   "watch": "Riven's E (Valor) cooldown",
+   "theirWindow": {
+    "when": "her E (Valor) is up and she engages",
+    "what": "E lets her dash in, block incoming damage, and set up W (Ki Burst) stun at 260 range, which chains into empowered Runic Blade autos and a Q3 knockback. If she lands E clean, back off or use your own E (Disdain) to throw her back out rather than trading blows."
+   },
+   "yourWindow": {
+    "when": "her E (Valor) is on cooldown (6-10s by rank)",
+    "what": "With no gap-close or damage-block available, she cannot safely reach your 800-range Q poke, and your E (Disdain, 475 range) will actually land and hurl her away since she has nothing to dash through it with."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "E (Disdain) online turn 1 punishes early dash-ins"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "800-range Q poke outranges her whole kit"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute threat deters her overextending"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Conqueror/Runic Blade stacking closes gap in fights"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Full build and range end her all-ins"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "52.8% win rate over 650 games as the dominant start (87.3% pick) — the extra sustain and early auto damage matter because every trade you win is one she had to spend her E to start."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50.3% win rate over 527 games (72.7% pick) — Riven's damage is almost entirely physical autos and ability hits, so flat physical reduction blunts her all-in once she does close."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds the armor she's building against your poke and keeps your Q/W DPS relevant into mid game."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The HP and tenacity-adjacent survivability covers the one window where she does land her E-W stun combo."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "56.1% win rate over 123 games on this exact path (24.3% pick) — stacks resistances so her Conqueror-fueled extended fights stop paying off."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "she keeps disengaging after a failed E and you need to catch her before she resets"
+    },
+    {
+     "item": "Thornmail",
+     "when": "she's leaning on Conqueror healing to survive your poke and you need the grievous wounds"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "you'd rather kite her E (Valor) engages outright than trade through them (59.8% win rate, 14.1% pick)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards landing consecutive autos from range during her E (Valor) cooldown windows, shredding her armor before she's close enough to fight back.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "86.6% pick rate at 51.9% win rate — Ignite converts your stated solo-kill advantage into actual kills once your poke and E (Disdain) punish force her into a bad all-in."
+  },
+  "playing": [
+   {
+    "title": "Take E first at level 1",
+    "detail": "Skill order opens E (Disdain), giving you an immediate punish for any Q or E engage she tries before level 2."
+   },
+   {
+    "title": "Poke at 800 range, never at her range",
+    "detail": "Only throw Q (Corrosive Charge) when she can't close in one dash — her Q/W/E all cap out near 250-275 range, so you should never be fighting inside that bubble unprompted."
+   },
+   {
+    "title": "Track her E (Valor) cooldown, not her HP",
+    "detail": "It's a 10/9/8/7/6s cooldown that gates her entire engage; poke freely the moment it's down and hold position when it's up."
+   },
+   {
+    "title": "Don't eat the full combo",
+    "detail": "If her W (Ki Burst) stun connects you're locked into empowered Runic Blade autos and a Q3 knockback — use E (Disdain) proactively to throw her out before she gets there, not after."
+   },
+   {
+    "title": "Threaten dives with R from level 6",
+    "detail": "Fear Beyond Death's 2500 range means you can punish any overextension even off-screen; the 100/85/70s cooldown means save it for a real commit, not a poke."
+   },
+   {
+    "title": "Watch her Conqueror stacks in extended trades",
+    "detail": "Per OP.GG's own read on this matchup, long fights let her stack healing — disengage with Q poke and reset rather than brawling past 4-5 stacks."
+   },
+   {
+    "title": "Rush Steelcaps into Cleaver",
+    "detail": "Physical reduction first blunts her burst window; Cleaver's armor shred then makes your sustained poke scale through mid game."
+   }
+  ],
+  "patchCaveat": "The build paths, rune pages, summoner spells, and all win-rate/sample figures above are measured from live games on the current patch via OP.GG; the mechanical reasoning — range windows, cooldown timing, and trade sequencing — is my own tactical read on top of that data."
+ },
+ "generatedAt": 1791218992756,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791218909349,
+  "overall": {
+   "winRate": 51,
+   "play": 58815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 632,
+   "wins": 327,
+   "winRate": 51.7
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep an eye out on Riven’s Conqueror stacks while contesting lane. Use [E] when Riven closes in.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.9,
+    "play": 647,
+    "pickRate": 86.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 60,
+    "play": 55,
+    "pickRate": 7.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 54.3,
+    "play": 35,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 235,
+    "pickRate": 30.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.3,
+    "play": 92,
+    "pickRate": 12
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.8,
+    "play": 650,
+    "pickRate": 87.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 57.8,
+    "play": 45,
+    "pickRate": 6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.3,
+    "play": 527,
+    "pickRate": 72.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 59.8,
+    "play": 102,
+    "pickRate": 14.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56.1,
+    "play": 123,
+    "pickRate": 24.3
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.8,
+    "play": 73,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 48.6,
+    "play": 37,
+    "pickRate": 7.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.5,
+    "play": 703,
+    "pickRate": 95.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54,
+    "play": 552,
+    "pickRate": 75.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 52.5,
+    "play": 198,
+    "pickRate": 27
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.6,
+    "play": 97,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 62.2,
+    "play": 90,
+    "pickRate": 12.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 48.3,
+    "play": 89,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 50.5,
+    "play": 190
+   }
+  ]
+ }
+}

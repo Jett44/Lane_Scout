@@ -1,0 +1,380 @@
+{
+ "you": "Urgot",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Ranged poke advantage",
+   "line": "You win this by poking from Q range and dodging Shadow Dash; you lose it if you melee-trade into Feint and let his Q sustain stabilize him."
+  },
+  "thesis": "Every one of Urgot's basic abilities outranges Shen's: Corrosive Charge (Q) hits at 800, Purge (W) at 490, Disdain (E) at 475, all beyond Shen's melee autos and 475-range Vorpal Blade (Q). Shen's only way to close that gap is Shadow Dash (E), a 575-range commitment on a 16-second cooldown at rank 1 that taunts but leaves him exposed if it misses. The data matches this shape exactly — Urgot holds lane advantage and solo-kill advantage, but the overall win rate still sits near even (50.2% over 871 games) because Feint (W) and Vorpal Blade's life tap let Shen survive the poke once he closes it.",
+  "tell": {
+   "watch": "Shen's Shadow Dash (E) cooldown",
+   "theirWindow": {
+    "when": "Feint (W) and Vorpal Blade both up",
+    "what": "His Feint shield absorbs a full burst and Vorpal Blade's life tap sustains him through the rest — don't force the all-in here. Throw a Q first to bait Feint out, or wait for it to be down before committing Purge (W)."
+   },
+   "yourWindow": {
+    "when": "Shadow Dash (E) on cooldown",
+    "what": "He has no gap-close or escape — walk up and poke freely with Corrosive Charge (Q) at 800 range or chain autos and Purge (W) without fear of the taunt landing."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q outranges his entire kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Shadow Dash and Q sustain stabilize him"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute threat plus cheap Purge"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Ki Strike resets punish melee trades"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Full build outscales his shield value"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "87.3% pick rate at 51.5% win rate over 925 games — the AD and sustain win the early poke-range stat check before Shen's Q life tap comes online."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.8% win rate over 490 games, 48% pick rate — Shen leans on frequent autos empowered by Ki Strike, and Plated Steelcaps cuts that incoming physical damage directly."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred lets your sustained autos and Purge chip through Feint's absorbed damage faster once the shield drops."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Bonus health and the tenacity passive keep you alive through the taunt window if Shadow Dash does land."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Best measured outcome of the listed core paths (56.2% win rate over 89 games) — the health and movement speed close distance after your poke lands."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the enemy team adds magic damage sources beyond Shen"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "Shen's team is building around crit or attack speed carries"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "fights go long and you need sustained healing through extended trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Most-picked page for this matchup (26.8% pick, 51.2% win rate) — the bonus damage and shield on the third hit reward chaining autos into Purge once you've baited Feint out.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant pick (72.8% pick rate, 51.6% win rate) and converts your solo-kill advantage into real kills; Flash+Teleport (23.3% pick, 47.1% win rate) is the alternative if you need to prioritize scaling and tower pressure over early kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Dodge Shadow Dash with E",
+    "detail": "When Shen commits Shadow Dash (E, 575 range, taunts champions it hits), trigger Disdain (E) to move out of his path before it lands — Disdain's self-shield also eats the minor damage if you can't fully clear it."
+   },
+   {
+    "title": "Poke freely when Dash is down",
+    "detail": "With Shadow Dash on cooldown (16/14/12/10/8s by rank), step up and throw Corrosive Charge (Q) or walk-poke with autos; he has no tool to close the gap or punish you for it."
+   },
+   {
+    "title": "Rush W levels per skill order",
+    "detail": "The EWQWWRWEWEREEQQ order maxes Purge (W) early, dropping its cooldown toward 3s by mid-game — chain short trades on that near-zero downtime instead of one long stand-and-unload."
+   },
+   {
+    "title": "Bait out Feint before all-in",
+    "detail": "Feint (W, 9/8/7/6/5s cooldown) absorbs a full trade's damage — throw a Q first to force it out, or wait for it to be down before committing Purge."
+   },
+   {
+    "title": "Threaten the execute from level 6",
+    "detail": "Fear Beyond Death (R, 100/85/70/70/70s cooldown) can execute Shen below its health threshold from 2500 range — once it's up, play for the solo kill the data says you're favored to get."
+   },
+   {
+    "title": "Punish life tap by staying at range",
+    "detail": "Vorpal Blade (Q) only heals Shen when he lands it in melee — staying at Urgot's max range denies the sustain he'd otherwise get from trading into you."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and every win-rate and pick-rate figure here are pulled from measured games on the current patch via OP.GG; the cooldown numbers, range values, and tactical reasoning about dodging Shadow Dash and baiting Feint are my own read of the matchup, not measured stats."
+ },
+ "generatedAt": 1791219470551,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791219370812,
+  "overall": {
+   "winRate": 51,
+   "play": 58815,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 871,
+   "wins": 437,
+   "winRate": 50.2
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Use [E] when you are about to be hit with Shen’s (E). Contest lane from a distance to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.6,
+    "play": 764,
+    "pickRate": 72.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.1,
+    "play": 244,
+    "pickRate": 23.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 2.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.2,
+    "play": 287,
+    "pickRate": 26.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.5,
+    "play": 132,
+    "pickRate": 12.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 925,
+    "pickRate": 87.3
+   },
+   {
+    "items": [
+     "Cull",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 58,
+    "pickRate": 5.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.8,
+    "play": 490,
+    "pickRate": 48
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51,
+    "play": 306,
+    "pickRate": 30
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 50.6,
+    "play": 158,
+    "pickRate": 22.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 56.2,
+    "play": 89,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 45.8,
+    "play": 59,
+    "pickRate": 8.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.5,
+    "play": 1011,
+    "pickRate": 98
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 52.5,
+    "play": 785,
+    "pickRate": 76.1
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 49.6,
+    "play": 278,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 128,
+    "pickRate": 12.4
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.5,
+    "play": 121,
+    "pickRate": 11.7
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 48.7,
+    "play": 115,
+    "pickRate": 11.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 57.8,
+    "play": 225
+   }
+  ]
+ }
+}

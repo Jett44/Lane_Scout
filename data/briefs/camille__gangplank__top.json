@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, grindy lane",
+   "line": "You lose straight poke exchanges before level 6 when Parrrley chips you for free; you win once Hextech Ultimatum (R) is up and his Remove Scurvy (W) is down."
+  },
+  "thesis": "Gangplank's Parrrley (Q) is a 625-range, 5-second-cooldown poke he can throw all day while Camille has nothing at that range until she lands a telegraphed Tactical Sweep (W), so pre-6 trading favors him by default. Camille's answer isn't out-poking him, it's Hextech Ultimatum (R) at level 6: a dash that anchors him to the fight so he can't kite back to Parrrley range, which is why the matchup settles back to a near-coinflip 50.5% over 2200 games despite OP.GG crediting him the lane.",
+  "tell": {
+   "watch": "His Remove Scurvy (W) cooldown",
+   "theirWindow": {
+    "when": "Parrrley (Q) off cooldown while you approach",
+    "what": "Don't walk a straight line into his pistol range — he's refreshing Parrrley every 5 seconds and will poke you for free the moment you close distance without a wall or minion to break line of sight."
+   },
+   "yourWindow": {
+    "when": "his Remove Scurvy (W) is on cooldown",
+    "what": "Remove Scurvy clears CC and heals him on a 22-18s cooldown, so bait it out with a feint or chip damage first; once it's down, Hookshot (E) knockup into Hextech Ultimatum (R) locks him to the fight with no cleanse available."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley pokes free before your E/R exist"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "poison stacks, your W is dodgeable"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R online, punish missing Remove Scurvy"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force/Hydra sustained trades favor you"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Cannon Barrage siege offsets your item lead"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "51.4% win rate over 1538 games and the majority pick — the regen and damage reduction on autos offset the chip from Parrrley poke and Grog-Soaked Blade poison while you're waiting to reach 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50.9% over 1832 games, 80.8% pick rate — his whole early kit is auto-attack poison stacking plus Parrrley, so flat auto-attack reduction matters more than tenacity here."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the highest-performing path (58.1% over 632 games) — the move speed and proc damage let you actually close the gap he's trying to keep open."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Second in the same path — sustain and AoE damage for extended skirmishes once you're forcing fights instead of dodging poke."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Most common third item (47.2% pick in the top path) — bleeds his burst/poison damage over time so you survive to out-sustain him in longer trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're winning fights but dying to burst once he all-ins with allies"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game is going long and you need Hextech Ultimatum back faster for repeated picks"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "his team is stacking magic damage or CC beyond just Gangplank's poison"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs off your autos in melee trades for max-health scaling damage and healing, which directly answers Grog-Soaked Blade's poison DOT — short trades net in your favor instead of just bleeding health to his passive.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the top performer at 51.2% and the clear majority pick (68.7%) — Ignite caps the healing from Remove Scurvy and punishes any overextension he makes to land Parrrley, while Flash lets you dodge a poke or force a Hextech Ultimatum engage he can't walk away from."
+  },
+  "playing": [
+   {
+    "title": "Don't trade before W lands",
+    "detail": "Tactical Sweep (W) has a delay and 610 range — throw it first and only commit to melee once its outer-cone slow and heal have actually landed, or you're just walking into free Parrrley damage."
+   },
+   {
+    "title": "Bait Remove Scurvy early",
+    "detail": "Force him to burn Remove Scurvy (22-18s cooldown) on a feinted engage or poke exchange before you commit your real all-in, since it clears CC and heals him on demand."
+   },
+   {
+    "title": "Shield blocks autos, not poison",
+    "detail": "Adaptive Defenses shields you against his basic attack damage type, but Grog-Soaked Blade's poison is magic damage and ticks straight through that physical shield — don't assume full mitigation in extended trades."
+   },
+   {
+    "title": "Use R to deny his kite",
+    "detail": "Hextech Ultimatum dashes to him and anchors him to the area, stopping the walk-back-and-reset pattern his Parrrley trading depends on — look for this the instant he commits to a fight at level 6+."
+   },
+   {
+    "title": "Save E for the wall, not the poke",
+    "detail": "Hookshot (E) requires a wall and is your main engage/escape on a 16-12s cooldown — don't waste it chasing a single auto when you could be setting up a full E-into-R combo."
+   },
+   {
+    "title": "Ignite cancels his sustain",
+    "detail": "Landing Ignite before he can heal with Remove Scurvy caps his recovery in all-ins, which is often the difference in a lane that's genuinely close to 50/50."
+   },
+   {
+    "title": "Respect Raise Morale near his jungler",
+    "detail": "If his jungler is nearby and he fires Raise Morale (20s cooldown, buffs nearby allies' AD and move speed), expect an immediate dive — hold Hookshot (E) toward your own wall instead of using it aggressively."
+   }
+  ],
+  "patchCaveat": "Build, runes, boots, summoners, and all win rates are pulled from measured OP.GG data on the current patch (16.19.1, 2200-game sample); the power-curve timing and trade reasoning are my own tactical read of the two kits."
+ },
+ "generatedAt": 1791220576515,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791220468194,
+  "overall": {
+   "winRate": 50.8,
+   "play": 92373,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2200,
+   "wins": 1110,
+   "winRate": 50.5
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Gangplank’s (Q) when he has Grasp of the Undying! Destroy his Powder Keg(E) with a quick [Q]-basic attack when engaging him!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.2,
+    "play": 1730,
+    "pickRate": 68.7
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 398,
+    "pickRate": 15.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.9,
+    "play": 360,
+    "pickRate": 14.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.5,
+    "play": 489,
+    "pickRate": 19
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.8,
+    "play": 177,
+    "pickRate": 6.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.4,
+    "play": 1538,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 887,
+    "pickRate": 34.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.9,
+    "play": 1832,
+    "pickRate": 80.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.7,
+    "play": 307,
+    "pickRate": 13.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 58.1,
+    "play": 632,
+    "pickRate": 47.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 61.9,
+    "play": 247,
+    "pickRate": 18.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 60.3,
+    "play": 199,
+    "pickRate": 14.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.2,
+    "play": 2461,
+    "pickRate": 98.9
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 53.8,
+    "play": 2015,
+    "pickRate": 81
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.7,
+    "play": 846,
+    "pickRate": 34
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 60.8,
+    "play": 441,
+    "pickRate": 17.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 59.9,
+    "play": 314,
+    "pickRate": 12.6
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 39.7,
+    "play": 242,
+    "pickRate": 9.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.1,
+    "play": 700
+   }
+  ]
+ }
+}
