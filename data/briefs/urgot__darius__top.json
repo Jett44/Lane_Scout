@@ -1,0 +1,384 @@
+{
+ "you": "Urgot",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Spacing matchup",
+   "line": "You lose if Darius lands E (Apprehend) and stacks Hemorrhage to five for the enrage; you win if you poke with Q (Corrosive Charge) and W (Purge) from range and never trade autos in melee."
+  },
+  "thesis": "Urgot's kit is entirely ranged — Q (Corrosive Charge) at 800 range, W (Purge) at 490, even E (Disdain) at 475 — against a champion whose entire kit tops out at 535 range and who needs melee autos to build Hemorrhage stacks. The matchup is decided by whether Darius can close that gap with E before Urgot's poke adds up, which is why the overall shape measures as defensive for Urgot despite the 53.9% win rate.",
+  "tell": {
+   "watch": "Darius's E (Apprehend) cooldown",
+   "theirWindow": {
+    "when": "his E (Apprehend) is up",
+    "what": "He can hook you from 535 range and force a melee trade. Keep Disdain charged so you can punish the landing, and don't stand in E range just to land an auto."
+   },
+   "yourWindow": {
+    "when": "his E (Apprehend) just went on cooldown (16 to 14s)",
+    "what": "Step up and freely land Q and auto-W pokes since he physically cannot close the distance. This is when you win the wave without risk."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Decimate's blade-heal sustains his early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Your Q plus Purge poke starts matching his damage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Fear Beyond Death) threatens execute from range"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Trades stay close as both power spike on items"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build and range advantage take over"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "86.5% pick rate at 52.3% win rate over 1,759 games — the AD and sustain let you win early auto trades at range before he can engage."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53% win rate over 1,408 games and the clear majority pick (71.7%) — Darius wins through autos and Decimate hits, so flat damage reduction on every one of those blunts his all-in."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred lets your ranged poke punch through his stacking armor and amplifies every Q and Purge tick."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The HP and tenacity buffer means one E pull into a Guillotine doesn't just end the trade — you survive it."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "58% win rate over 212 games, the strongest of the three core finishers — the speed-up helps you disengage before he stacks Hemorrhage to five."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's building full lifesteal/heal-heavy and you need the grievous wounds to shut off Decimate's healing"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "their team adds magic damage threats alongside him and you need the dual-resist stack"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "the lane turns into a prolonged slugfest and you need sustain to out-trade his Hemorrhage bleed over time"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Landing three consecutive hits from range before he closes in triggers the damage amp and vulnerability — this rewards exactly the kiting pattern you need to win the lane.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "87.5% pick rate at 53.5% win rate — Ignite cuts through Decimate's blade-heal and closes out trades before he reaches max Hemorrhage stacks and the AD enrage."
+  },
+  "playing": [
+   {
+    "title": "Slow him before he commits E",
+    "detail": "Land Q (Corrosive Charge) on approach so the slow is already active when he tries to close with E (Apprehend) — it shortens how long he's actually in range of you."
+   },
+   {
+    "title": "Never auto-trade in melee",
+    "detail": "Every auto he lands is a Hemorrhage stack toward his enrage. Fight at max range with Q and Purge, and walk away rather than standing in his auto range."
+   },
+   {
+    "title": "Track the E cooldown out loud",
+    "detail": "16/15.5/15/14.5/14s — count it down in your head. Step up aggressively the moment it's down, disengage the moment it comes back up."
+   },
+   {
+    "title": "Bail before stack four",
+    "detail": "Once Hemorrhage hits four stacks he's one hit from enrage and massively bonus AD. Disengage with Disdain or just walk, don't try to out-damage the enrage proc."
+   },
+   {
+    "title": "Respect Decimate's windup, not its range",
+    "detail": "Q (Decimate) only hits what's in the swing — sidestep during the windup so you take handle damage or nothing instead of the blade, which also denies his heal."
+   },
+   {
+    "title": "Fire R on a losing Darius, not an even one",
+    "detail": "R (Fear Beyond Death) is a long-cooldown execute threat (100s down to 70s) — only commit it once your poke has him under the execute threshold, since missing it just tells him you're all-in."
+   },
+   {
+    "title": "Back off once his R is up past level 6",
+    "detail": "Noxian Guillotine is true damage and scales with Hemorrhage stacks already on you. If you're under half HP and his ult is available, disengage rather than trading one more auto."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates/sample sizes above are measured from current-patch games on OP.GG; the mechanical reasoning for why those numbers come out this way — the range gap, the E timer, the Hemorrhage stack threshold — is my own read of the kits."
+ },
+ "generatedAt": 1791201580600,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791201511949,
+  "overall": {
+   "winRate": 51,
+   "play": 57935,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1631,
+   "wins": 879,
+   "winRate": 53.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being pulled in with his (E) while maintaining your distance. Bring Ignite to fight aggressively in lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.5,
+    "play": 1785,
+    "pickRate": 87.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.8,
+    "play": 158,
+    "pickRate": 7.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 48.1,
+    "play": 52,
+    "pickRate": 2.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.3,
+    "play": 648,
+    "pickRate": 31.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.8,
+    "play": 267,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 1759,
+    "pickRate": 86.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60.7,
+    "play": 135,
+    "pickRate": 6.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53,
+    "play": 1408,
+    "pickRate": 71.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.2,
+    "play": 312,
+    "pickRate": 15.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 50.6,
+    "play": 265,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 58,
+    "play": 212,
+    "pickRate": 16.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 54.2,
+    "play": 118,
+    "pickRate": 9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.7,
+    "play": 1949,
+    "pickRate": 97.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.8,
+    "play": 1543,
+    "pickRate": 77.2
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 50.5,
+    "play": 469,
+    "pickRate": 23.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.9,
+    "play": 320,
+    "pickRate": 16
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 57.8,
+    "play": 287,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 62.5,
+    "play": 240,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 59.2,
+    "play": 412
+   }
+  ]
+ }
+}

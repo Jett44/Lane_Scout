@@ -1,0 +1,384 @@
+{
+ "you": "Urgot",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly favoured",
+   "line": "You lose if you walk autos into an active W (Riposte) and get out-traded point-blank; you win if you poke with Q (Corrosive Charge) from 800 range and only commit E (Disdain) once Fiora's double Lunge is spent."
+  },
+  "thesis": "Urgot is the only ranged kit in this lane — Q (800 range) and E (475 range) both outreach every Fiora tool except her Q (Lunge, 600 range) — and his W (Purge) cooldown collapses from 12s to 0s as it ranks, turning him into a near-permanent DPS check that an all-melee dash kit can't out-trade late. That structural gap is why a lane OP.GG calls EVEN on paper still returns a 53.1% Urgot win rate over 1211 games, slightly ahead of his 51% baseline across 57,935 games.",
+  "tell": {
+   "watch": "Fiora's W (Riposte) cooldown",
+   "theirWindow": {
+    "when": "W (Riposte) up and E active",
+    "what": "If her parry is available and she's mid Burst of Speed (E), she's actively hunting an auto-attack trade and gaining move speed off every hit she lands — don't feed her the parry, and don't try to walk away from a stacking speed buff."
+   },
+   "yourWindow": {
+    "when": "Both her Q (Lunge) charges spent",
+    "what": "Lunge can be recast within a couple seconds for free, but once both charges are used she has no gap-closer until the 16/14/12/10/8s cooldown refreshes — this is when E (Disdain) to hurl her away or a straight Purge trade is safe."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both kits weak, low kill pressure"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "ranked Q/E burst outpaces your slow W"
+   },
+   {
+    "levels": "6-7",
+    "edge": "even",
+    "note": "R (Fear Beyond Death) threat vs her R"
+   },
+   {
+    "levels": "8-12",
+    "edge": "you",
+    "note": "Purge near-permanent, Cleaver shred online"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "full build outscales her single-target kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The measured favorite at 51.6% over 1218 games (85.4% pick) — sustain plus damage to win early auto trades before your W cooldown drops."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.5% over 1013 games (74.7% pick); her Duelist passive stacks off basic attacks, so flat auto-damage reduction blunts her sustain engine directly."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred rewards landing repeated hits with Purge's multi-trigger kit, and the haste loops Q/E/W faster."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Health and AD scaling to survive a double-Lunge all-in or a Blade Waltz reset chain without dying to burst."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Highest measured win rate on this path at 58% over 100 games (11.5% pick) — stacking tankiness for extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's ahead and spamming autos to climb back on Duelist healing"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "her Duelist sustain keeps rescuing her out of your execute range"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need to stick onto her while she kites with Burst of Speed"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "The stacking vulnerability debuff rewards Purge's rapid multi-hit ticks against a single melee target, turning extended trades into bonus damage windows.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The measured favorite at 52.4% win rate and 85.5% pick rate; Ignite secures kills once R (Fear Beyond Death) drops her below the execute threshold before Duelist regen can heal her back out, and Flash dodges her double Lunge (Q) engage or disengages from a stacking Burst of Speed (E)."
+  },
+  "playing": [
+   {
+    "title": "Poke from 800 range",
+    "detail": "Q (Corrosive Charge) outranges every Fiora tool including her Q (Lunge, 600 range) — throw it whenever she steps forward to farm."
+   },
+   {
+    "title": "Hold autos on her Riposte",
+    "detail": "W (Riposte, CD 10/9/8/7/6s) parries your next basic attack and reflects damage; if it's up, land Q/E instead of walking an auto into it."
+   },
+   {
+    "title": "Punish after double Lunge",
+    "detail": "Her Q recasts free within a couple seconds, but once both charges are gone she has no gap-closer until the cooldown resets — step up with E (Disdain) or trade freely here."
+   },
+   {
+    "title": "Spam Purge once ranked",
+    "detail": "W's cooldown drops from 12s to 3s by rank 4; once you're there, use it on cooldown for wave clear and trade damage instead of saving it."
+   },
+   {
+    "title": "Hurl her off your tower",
+    "detail": "E (Disdain) stops on the first champion it hits and throws them past you — use it to fling Fiora away from your plates before committing further, not just to close distance."
+   },
+   {
+    "title": "Pair R with antiheal",
+    "detail": "R (Fear Beyond Death, CD 100/85/70s) only executes below a health threshold; land it alongside Ignite or Executioner's Calling so Duelist regen can't pull her back out of range."
+   },
+   {
+    "title": "Don't chase a sped-up Fiora",
+    "detail": "Every attack or Lunge she lands during Burst of Speed (E) adds move speed — if she's mid-E, disengage rather than trying to outrun a stacking speed buff."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoners, and all win-rate/sample figures above are measured from live games on the current patch via OP.GG; the mechanical reasoning, timing windows, and trade-pattern advice are my own tactical read on top of that data."
+ },
+ "generatedAt": 1791201915010,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791201811513,
+  "overall": {
+   "winRate": 51,
+   "play": 57935,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1211,
+   "wins": 643,
+   "winRate": 53.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid her (W) when fighting her. Be careful of your Vitals when fighting her to slowly gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.4,
+    "play": 1212,
+    "pickRate": 85.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52,
+    "play": 152,
+    "pickRate": 10.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 65.2,
+    "play": 23,
+    "pickRate": 1.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.9,
+    "play": 408,
+    "pickRate": 28.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.5,
+    "play": 160,
+    "pickRate": 11.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 1218,
+    "pickRate": 85.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60.7,
+    "play": 122,
+    "pickRate": 8.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.5,
+    "play": 1013,
+    "pickRate": 74.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.9,
+    "play": 175,
+    "pickRate": 12.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58,
+    "play": 100,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 55.8,
+    "play": 95,
+    "pickRate": 10.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.9,
+    "play": 71,
+    "pickRate": 8.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54,
+    "play": 1352,
+    "pickRate": 96
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.7,
+    "play": 977,
+    "pickRate": 69.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 53.1,
+    "play": 420,
+    "pickRate": 29.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.7,
+    "play": 348,
+    "pickRate": 24.7
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58.1,
+    "play": 272,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 54.7,
+    "play": 179,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 55.5,
+    "play": 292
+   }
+  ]
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "you": "Urgot",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, early danger",
+   "line": "You lose if Aatrox lands his W (Infernal Chains) into a full Q combo before level 6; you win once Black Cleaver and Executioner's Calling let you out-trade and execute him with R."
+  },
+  "thesis": "Aatrox is melee with a 825-range pull (W, Infernal Chains) and a self-healing dash (E, Umbral Dash), while Urgot's entire kit — Q at 800 range, W at 490, E at 475 — is built to fight from outside that pull radius. OP.GG's 50.2% head-to-head over 1760 games and the measured lane/solo-kill edge for Aatrox both come from the same window: levels 1-5, before Urgot's W (Purge) cooldown drops low enough to matter and before any armor shred or grievous wounds exists to blunt his all-in and sustain.",
+  "tell": {
+   "watch": "Aatrox's W (Infernal Chains) cooldown",
+   "theirWindow": {
+    "when": "his W (Infernal Chains) lands on you",
+    "what": "Once Infernal Chains hooks you to the impact point you're in range for his full Q (The Darkin Blade) swing sequence and a Deathbringer Stance-empowered auto. Use Flash or E (Disdain) immediately to get back outside 475-800 range rather than trading autos in the pull."
+   },
+   "yourWindow": {
+    "when": "his W (Infernal Chains) just missed or is on cooldown",
+    "what": "With Infernal Chains down for 20/18/16/14/12s depending on his rank, he has no way to close the gap except E (Umbral Dash). Step up and land Q (Corrosive Charge) poke for free, since he can't punish you without burning that dash on cooldown."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q+W combo threatens a kill, your W is 12s CD"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "max-rank Q sweeps hit hardest here"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your R threatens picks, his R extends fights"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Black Cleaver + Sterak's online, Purge CD near 0"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Executioner's Calling cuts his sustain, R executes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "87% pick rate at 50.9% WR — the AD and sustain let you trade Q pokes without losing the all-in race before level 3."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "69.6% pick at 50.7% WR; Aatrox's damage is entirely physical (Q, autos, Deathbringer's bonus is the only magic component), so flat physical reduction blunts both his poke and his all-in."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred from repeated Q and Purge hits strips his tankiness and the haste lowers your W (Purge) cooldown faster."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The shield and tenacity directly answer the Q+W all-in window — it's the item that turns a losing level 3-5 fight into a survivable one."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Highest-winning path (60.7% over 178 games); stacking resistances scale as fights drag into mid-game skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "his Umbral Dash heal or Deathbringer Stance is keeping him alive through your trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's stacking lifesteal or healing to offset his passive sustain"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need to stick to him after he commits E (Umbral Dash) to disengage"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he's leaning on early auto-attack heals from Deathbringer Stance to win trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards landing consecutive hits at range before he closes the gap — exactly the poke pattern Q (Corrosive Charge) and auto-attacks need to win the pre-6 window.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust+Flash runs the highest measured WR (53.1%) and directly answers the thing that kills you in this matchup — it cuts both the damage and the healing on his Q+W all-in. Flash+Ignite (86% pick, 50.1% WR) is the standard default if you'd rather threaten early kills yourself."
+  },
+  "playing": [
+   {
+    "title": "Hold outside 825 range",
+    "detail": "Infernal Chains reaches further than any of your abilities. Pre-6, never stand where a landed W lets him chain into a full Q sequence."
+   },
+   {
+    "title": "Track his W cooldown, not his HP",
+    "detail": "Infernal Chains is his only long-range engage. When it's down (20/18/16/14/12s by rank), he can only reach you with E (Umbral Dash), which you can out-trade at range."
+   },
+   {
+    "title": "Don't contest solo all-ins before level 6",
+    "detail": "The measured solo-kill advantage favors him in exactly this window — play for minions and poke, not for a duel."
+   },
+   {
+    "title": "Buy Executioner's Calling before forcing fights",
+    "detail": "His passive and E both heal him; grievous wounds is what makes your damage actually stick in extended trades."
+   },
+   {
+    "title": "Save E (Disdain) as a punish, not an opener",
+    "detail": "Disdain shields you and displaces the first champion it catches — hold it to answer his E dash-in rather than leading with it."
+   },
+   {
+    "title": "Finish with R once he's low and sustain is cut",
+    "detail": "Fear Beyond Death's execute threshold is easiest to close once Executioner's Calling removes his Umbral Dash heal — this is the kill pattern OP.GG's own notes point to."
+   },
+   {
+    "title": "Let Purge rank up before trading sustained",
+    "detail": "W starts at a 12s cooldown; it's not a real trading tool until rank 3+ drops it to 6s or lower."
+   }
+  ],
+  "patchCaveat": "Build paths, win rates, and pick rates above are measured from live OP.GG games on the current patch; the mechanical reasoning — why the all-in window exists and how to play around it — is my own read, not sourced data."
+ },
+ "generatedAt": 1791202011886,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791201919985,
+  "overall": {
+   "winRate": 51,
+   "play": 57935,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1760,
+   "wins": 884,
+   "winRate": 50.2
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "defensive",
+  "opponentTip": "Focus on keeping your distance from his (Q)-(E) combo. After purchasing Executioner’s Calling, make sure [E] lands successfully and kill him off with [R].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.1,
+    "play": 1771,
+    "pickRate": 86
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.6,
+    "play": 228,
+    "pickRate": 11.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 1.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 539,
+    "pickRate": 25.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.3,
+    "play": 256,
+    "pickRate": 12.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.9,
+    "play": 1812,
+    "pickRate": 87
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.8,
+    "play": 145,
+    "pickRate": 7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.7,
+    "play": 1365,
+    "pickRate": 69.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.9,
+    "play": 365,
+    "pickRate": 18.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 60.7,
+    "play": 178,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 51.9,
+    "play": 104,
+    "pickRate": 8.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 56.4,
+    "play": 101,
+    "pickRate": 8.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.6,
+    "play": 1956,
+    "pickRate": 96.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.3,
+    "play": 1363,
+    "pickRate": 67.1
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 49.1,
+    "play": 483,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56.3,
+    "play": 394,
+    "pickRate": 19.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 47.4,
+    "play": 348,
+    "pickRate": 17.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50.5,
+    "play": 293,
+    "pickRate": 14.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 52.2,
+    "play": 364
+   }
+  ]
+ }
+}

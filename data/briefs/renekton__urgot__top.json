@@ -1,0 +1,380 @@
+{
+ "you": "Renekton",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose if you eat free Corrosive Charge poke before level 3 and get Purged down before you can dash in; you win if you bank Fury past 50, dodge Q, and force the all-in before Urgot's items outscale your burst."
+  },
+  "thesis": "Urgot has no reliable mobility beyond E (Disdain), a 475-range charge that only stuns if it connects — everything else is a ranged poke tool (Q, 800-range Corrosive Charge) or a stationary channel (W, Purge). Renekton's entire game plan is closing that gap: survive the poke window, use E (Slice and Dice) to dash in on cooldown, and convert once Fury crosses 50 so W (Ruthless Predator) upgrades from a 2-hit stun to a 3-hit shield-shredding stun. The data backs this as a genuinely even fight (48.1% over 1217 games) rather than a lane you're supposed to lose.",
+  "tell": {
+   "watch": "Your Fury bar vs 50",
+   "theirWindow": {
+    "when": "Levels 1-5, Q and W both up",
+    "what": "Urgot can land Corrosive Charge at 800 range and follow with Purge's self-slowed auto channel without you being able to punish it. Hold position just outside Q range and farm with Q (Cull the Meek) instead of walking up for free autos."
+   },
+   "yourWindow": {
+    "when": "Disdain (E) on cooldown, 14-16s",
+    "what": "Once Urgot has used Disdain to clear a wave or whiffed it on you, he has no escape or hard CC for up to 16 seconds. Dash in with E, land W, and if Fury is above 50 the 3-hit empowered W stun-locks him for 1.5 seconds with no shield to peel it off."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Corrosive Charge poke, no dash yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, Fury trading begins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Dominus grants health, Fury regen, kill threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Black Cleaver shred vs Purge rank 5"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Full-build ranged kiting, R execute range"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Posts the higher win rate of the two starts (51.6% over 574 games) against a lane built entirely around poke — the passive block reduces how much Corrosive Charge and stray autos cost you before you're close enough to answer."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "89.2% pick rate and the better winrate option; Urgot's damage is almost entirely basic attacks, Echoing Flames procs, and auto-reliant Purge, all of which Steelcaps directly reduces."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Rewards landing full combos during your level 6-8 all-in window with a shield and burst proc that offsets Urgot's poke damage taken on the way in."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred compounds with E's own Armor reduction on hit, letting extended trades scale in your favor instead of Urgot just kiting on cooldowns."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts the physical damage from Q poke and Purge channels into delayed healing, which is the main thing that keeps this lane from tipping to Urgot's favor."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you need more raw HP and tenacity to survive extended Purge channels in longer fights"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you want W and E back faster to keep chaining stuns"
+    },
+    {
+     "item": "Zeke's Convergence",
+     "when": "you're ahead and shifting into a teamfight-utility role alongside another melee carry"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Sustained-fight healing is exactly what offsets a lane defined by poke damage and a self-slowing channel — Conqueror rewards staying in extended trades, which Fury-stacked Renekton wants anyway.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "83.7% pick rate by far; Ignite denies any sustain Urgot has and secures the kill inside your Fury-empowered W stun window before he can disengage. Flash+Teleport posted the higher measured win rate (52.1%) if you'd rather play for scaling and side-wave priority instead of early kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Bank Fury before committing",
+    "detail": "Don't throw W (Ruthless Predator) below 50 Fury — the 2-hit version only stuns for 0.75s and skips the shield-shred, which isn't enough to win the exchange."
+   },
+   {
+    "title": "Respect the 800-range Q",
+    "detail": "Corrosive Charge (10/9.5/9/8.5/8s cooldown) slows anyone caught in the explosion; don't stand in minion clumps when it's up, or you eat the poke and the follow-up Purge both."
+   },
+   {
+    "title": "Step in during Purge, not after",
+    "detail": "Urgot slows himself while channeling W (Purge). That's your cue to close with E (Slice and Dice) mid-channel rather than waiting for it to end."
+   },
+   {
+    "title": "Track Disdain's cooldown before diving",
+    "detail": "E (Disdain, 14-16s cooldown) shields Urgot and can throw you off him if it connects. Confirm it's down before committing your own E dash into an all-in."
+   },
+   {
+    "title": "Use level 6 as your spike, not his",
+    "detail": "Dominus grants bonus Health and periodic Fury generation — this is your best engage window of the whole laning phase, well before his items come online."
+   },
+   {
+    "title": "Don't out-race rank 5 Purge",
+    "detail": "At rank 5, Purge has 0s cooldown and becomes a near-constant auto reset. Past level 13 or so, don't try to win a straight channel-trade — force the fight through a stun chain instead."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate figures are measured from live games on the current patch (16.19.1); the mechanical reasoning and trade-pattern advice are my own analysis layered on top."
+ },
+ "generatedAt": 1791200681827,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791200617852,
+  "overall": {
+   "winRate": 49.7,
+   "play": 117065,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1217,
+   "wins": 585,
+   "winRate": 48.1
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful early game of being hit with Urgot’s (P) and (E). Focus on clearing lane while building up Fury, and close in whenever possible to engage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.4,
+    "play": 1193,
+    "pickRate": 83.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.1,
+    "play": 169,
+    "pickRate": 11.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 56,
+    "pickRate": 3.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.8,
+    "play": 521,
+    "pickRate": 36
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.7,
+    "play": 188,
+    "pickRate": 13
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.1,
+    "play": 816,
+    "pickRate": 56.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 574,
+    "pickRate": 39.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.2,
+    "play": 1230,
+    "pickRate": 89.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.8,
+    "play": 127,
+    "pickRate": 9.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 57.1,
+    "play": 170,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 55.5,
+    "play": 119,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 5.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.5,
+    "play": 1095,
+    "pickRate": 77.9
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.7,
+    "play": 985,
+    "pickRate": 70.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.5,
+    "play": 528,
+    "pickRate": 37.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.7,
+    "play": 439,
+    "pickRate": 31.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 53.2,
+    "play": 248,
+    "pickRate": 17.7
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 52.2,
+    "play": 90,
+    "pickRate": 6.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.2,
+    "play": 450
+   }
+  ]
+ }
+}

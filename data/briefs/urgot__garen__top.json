@@ -1,0 +1,388 @@
+{
+ "you": "Urgot",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you melee-trade into his E (Judgment) spin or let him sit uncontested long enough for Perseverance to top him off; you win if you poke with Q (Corrosive Charge) from range and save E (Disdain) to physically remove him when he commits."
+  },
+  "thesis": "Urgot's Q (800 range) and W (490 range) both outrange Garen's Q (300 range) and E (325 range), but Urgot has no real escape besides E's shield-dash, while Garen's only gap-closer is Q (Decisive Strike), which breaks all slows on him and silences on the next hit. The lane is decided by whether you can out-poke his Perseverance sustain in the windows his Q is down, because once it's up he erases your Q slow and closes to melee range regardless.",
+  "tell": {
+   "watch": "Garen's Q cooldown bar",
+   "theirWindow": {
+    "when": "Garen's Q (Decisive Strike) is up",
+    "what": "He can cleanse any slow you've landed and close distance with a silencing empowered auto, then chain into E (Judgment) for free. Don't stand still in his dash range during this window, and don't expect your Q slow to hold him off."
+   },
+   "yourWindow": {
+    "when": "right after he uses Q to farm or trade",
+    "what": "With Decisive Strike on its 8s cooldown he has zero gap-close or slow-cleanse. Throw Q (Corrosive Charge) freely, auto between casts, and walk him down since he physically cannot catch you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both laning cautiously, no abilities decide trades yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q range punishes his lack of a dash"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "His R execute threatens careless low-HP trades"
+   },
+   {
+    "levels": "9-14",
+    "edge": "even",
+    "note": "Black Cleaver shred trades with his tank-up"
+   },
+   {
+    "levels": "15-18",
+    "edge": "you",
+    "note": "R picks overextensions, boots keep you kited out"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured as the dominant start at 51.3% WR over 1,560 games (86.5% pick) — the extra sustain and auto damage matter because you want to win the auto-attack exchanges that deny his Perseverance tick."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "65.7% pick, 49.7% WR. Garen's threats in this matchup (empowered Q auto, E spin, W's close-range damage) are all delivered through repeated instances near him — flat damage reduction on those hits outweighs the mobility upside here."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Highest-performing core path start (57.7% WR, 298 games) — the armor shred lets your Q/auto poke actually threaten through his building resistances."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Health and damage reduction scaling off bonus AD keeps you alive through his all-in burst window once his R comes online."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Completes the 24.2%-pick path (57.7% WR) — stacking resistances let you tank his E spin repeatedly without losing the poke war."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Boots of Swiftness",
+     "when": "you need to kite harder because he's committing to all-ins and your Steelcaps aren't creating enough distance"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "he keeps disengaging with Q's move speed burst and you need to close the distance back down yourself"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "you're already ahead and want the sustain to keep extending your poke advantage"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "the enemy team stacks additional attack-speed or crit threats on top of Garen"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards the exact pattern OP.GG flags for this matchup — chaining autos and Q onto Garen to keep him from standing still long enough for Perseverance to regenerate him.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest win rate (51.8%) and by far the most picked (83.1%) combo. Ignite's burn ticks through Garen's Perseverance regen entirely, which is the single biggest lever in this lane; Flash covers the moments his Q-empowered silence closes the gap faster than expected. Flash+Teleport (48.3%, 13.1% pick) is the fallback if you're prioritizing wave/scaling over lane pressure."
+  },
+  "playing": [
+   {
+    "title": "Deny the passive heal",
+    "detail": "Keep tagging him with autos and Q (Corrosive Charge, 10-8s CD by rank) whenever he's in range so Perseverance never gets a clean window to tick. A Garen sitting at 70% HP mid-wave is one who out-sustains your poke by the time he hits level 6."
+   },
+   {
+    "title": "Poke before he closes",
+    "detail": "Throw Q at 800 range the moment he steps past his own 300-325 range, but hold it if his Q (Decisive Strike) is up — the move speed burst and slow-cleanse let him walk through or dodge it."
+   },
+   {
+    "title": "Land E to displace, not just to chase",
+    "detail": "Disdain only stops on the first enemy champion it catches and hurls him out of the way. Use it reactively when he commits to melee range to physically remove him from the fight, not purely as an engage tool."
+   },
+   {
+    "title": "Respect the silence window",
+    "detail": "His Q's empowered auto silences on landing. If he closes with Q while you're mid-channel on W (Purge), the current channel finishes, but your next cast gets shut down — sequence E or R before he's in auto range if you expect the all-in."
+   },
+   {
+    "title": "Purge after you've already hit him",
+    "detail": "W (Purge) prioritizes champions you've struck with other abilities and triggers Echoing Flames procs. Land Q first to slow and tag him, then channel W, rather than opening the trade with W."
+   },
+   {
+    "title": "Track his R cooldown past level 6",
+    "detail": "Demacian Justice starts at 140s but drops to 110/80/50/20s with ranks. Once he's 11+, his execute threat resets fast enough that extending a trade at low HP becomes a real risk, not a bluff."
+   },
+   {
+    "title": "Save R for the commitment, not the poke",
+    "detail": "Fear Beyond Death sits at 85-70-70-70s past rank 1 and only executes below a health threshold. Hold it for when he's fully committed to a fight or overextended — firing it early as poke leaves you with nothing for the real engage."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoners, and all win rates/sample sizes above are measured OP.GG data for this matchup on the current patch (16.19.1) — the ability breakdowns, timing windows, and trade patterns are my own tactical reading applied to that data."
+ },
+ "generatedAt": 1791201685082,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791201586433,
+  "overall": {
+   "winRate": 51,
+   "play": 57935,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1427,
+   "wins": 738,
+   "winRate": 51.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Do not let Garen activate (P) by constantly using basic attack and [Q]. Make sure [E] lands successfully when dealing damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 1488,
+    "pickRate": 83.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.3,
+    "play": 234,
+    "pickRate": 13.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.9,
+    "play": 42,
+    "pickRate": 2.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53,
+    "play": 559,
+    "pickRate": 30.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 301,
+    "pickRate": 16.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.3,
+    "play": 1560,
+    "pickRate": 86.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 104,
+    "pickRate": 5.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.7,
+    "play": 1132,
+    "pickRate": 65.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 55.5,
+    "play": 355,
+    "pickRate": 20.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 57.7,
+    "play": 298,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 57.6,
+    "play": 184,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 61.8,
+    "play": 102,
+    "pickRate": 8.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.1,
+    "play": 1735,
+    "pickRate": 98.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54,
+    "play": 1375,
+    "pickRate": 77.8
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 54.3,
+    "play": 495,
+    "pickRate": 28
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 59.8,
+    "play": 254,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 57.5,
+    "play": 247,
+    "pickRate": 14
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 46.4,
+    "play": 224,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 49,
+    "play": 449
+   }
+  ]
+ }
+}

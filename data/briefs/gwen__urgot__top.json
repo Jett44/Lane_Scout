@@ -1,0 +1,385 @@
+{
+ "you": "Gwen",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Q range at range-advantage levels and eat free poke; you win if you force him to fight inside Hallowed Mist on your terms."
+  },
+  "thesis": "Urgot has no hard engage before 6 that threatens you inside W (Hallowed Mist) — Disdain is a dash with a 475 range that only matters if he catches you outside the mist. The entire lane is decided by whether Gwen walks forward into Corrosive Charge poke range or forces Urgot to close distance into her mist, which flips every trade.",
+  "tell": {
+   "watch": "Urgot's Q (Corrosive Charge) cooldown",
+   "theirWindow": {
+    "when": "Q is up and you're outside W",
+    "what": "He fires Corrosive Charge (8-10s cooldown, 800 range) for free poke and a slow. Don't stand still in lane or walk minions down without mist up — you have no way to punish him for landing it at range."
+   },
+   "yourWindow": {
+    "when": "his Q is down, he's near you",
+    "what": "Drop W (Hallowed Mist) and walk forward. He can only target you once he enters the mist, so he either eats your Q (Snip Snip!) for free or backs off and forfeits the exchange. Follow with E (Skip 'n Slash) to dash in, swing, and refund the cooldown on a hit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke outranges your kit, no mist yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W online, trades through mist possible"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Fear Beyond Death threatens execute at low HP"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "E refund loop outpaces his cooldowns"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Shadowflame/Deathcap burst wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "86.3% pick rate at 53.8% win rate — the extra sustain from two potions matters directly against Corrosive Charge poke that you can't otherwise punish early."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.3% pick, 55.5% win rate — the armor cuts down his auto-attack and Echoing Flames chip damage in extended trades inside your mist."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First core item in the 68.6% win rate path — scales your Snip Snip! and passive proc damage immediately."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item in all three measured build paths — magic pen spikes your burst right when his Fear Beyond Death execute threshold starts to matter."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Highest win rate completion (68.6% over 159 games) — by level 13+ your E-refund loop is already hitting multiple times per fight, so raw AP compounds hardest here."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "he's building toward landing Fear Beyond Death on you repeatedly"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustain in extended mist trades"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you want faster E (Skip 'n Slash) attack speed uptime to chain refunds"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards the exact pattern this lane demands — walking into mist trades and stacking during extended E-refund loops rather than single burst windows.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the highest win rate combo here (63.6% over 11.1% pick) — Teleport lets you skip the early poke phase where he has the range edge and reset post-6 when his Fear Beyond Death threatens plates."
+  },
+  "playing": [
+   {
+    "title": "Never stand still off cooldown",
+    "detail": "His Q (Corrosive Charge) is an 800-range explosive with an 8-10s cooldown depending on rank. Track it — if it's up and you're outside mist range, you're taking free damage for nothing in return."
+   },
+   {
+    "title": "Drop mist before you commit",
+    "detail": "W (Hallowed Mist) means he can only target you once he steps inside it. Always place it before walking forward to trade, never after he's already swinging."
+   },
+   {
+    "title": "Dash in with E, not Q first",
+    "detail": "E (Skip 'n Slash) gives you attack speed, range, and bonus magic damage on-hit for a few seconds, and refunds its 11-13s cooldown if you land a hit. Lead with E to close the gap, then layer Q (Snip Snip!) during the buff window."
+   },
+   {
+    "title": "Respect the W window",
+    "detail": "His W (Purge) cooldown drops from 12s to 0s as he ranks it, meaning late-game he can fire it back-to-back. Don't facetank extended trades after he's maxed W rank — disengage and reset instead."
+   },
+   {
+    "title": "Watch your HP% past level 6",
+    "detail": "R (Fear Beyond Death) executes at a health threshold. Once he's 6, don't let your HP dip low in trades you don't need to win — a stray hit becomes a kill."
+   },
+   {
+    "title": "Use Teleport to skip bad windows",
+    "detail": "If he's abusing Q poke range before you have W up reliably, Teleport back after a recall to reset the lane state entirely rather than absorbing more chip damage."
+   },
+   {
+    "title": "Snip the center for true damage",
+    "detail": "Q (Snip Snip!) deals true damage and applies your passive to units in the center of the cone specifically — line him up dead-center during mist trades, not just anywhere in the cone."
+   }
+  ],
+  "patchCaveat": "All win rates, pick rates, item paths, runes, and summoner spells above are measured from live games on the current patch via OP.GG; the tactical reasoning connecting them to specific ability cooldowns and timings is my own analysis."
+ },
+ "generatedAt": 1791200814203,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791200775547,
+  "overall": {
+   "winRate": 50.7,
+   "play": 55843,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 660,
+   "wins": 348,
+   "winRate": 52.7
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.9,
+    "play": 512,
+    "pickRate": 64.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 63.6,
+    "play": 88,
+    "pickRate": 11.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.2,
+    "play": 64,
+    "pickRate": 8.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.2,
+    "play": 251,
+    "pickRate": 31
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.5,
+    "play": 66,
+    "pickRate": 8.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 695,
+    "pickRate": 86.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.6,
+    "play": 63,
+    "pickRate": 7.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.5,
+    "play": 373,
+    "pickRate": 51.3
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 51.8,
+    "play": 247,
+    "pickRate": 34
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 68.6,
+    "play": 159,
+    "pickRate": 33.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 68.6,
+    "play": 35,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Riftmaker"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.6,
+    "play": 647,
+    "pickRate": 81.9
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 60.4,
+    "play": 467,
+    "pickRate": 59.1
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 68.3,
+    "play": 293,
+    "pickRate": 37.1
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 52.7,
+    "play": 258,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 49.7,
+    "play": 197,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 61.2,
+    "play": 139,
+    "pickRate": 17.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 59.8,
+    "play": 368
+   }
+  ]
+ }
+}
