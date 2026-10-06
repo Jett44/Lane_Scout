@@ -1,0 +1,381 @@
+{
+ "you": "Gwen",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Jayce freely cycles Hammer E knockback and Cannon Q poke before 6; you win once Dusk and Dawn comes online and he has to respect Hallowed Mist all-ins."
+  },
+  "thesis": "Jayce in Hammer Stance can knock you away with E (Thundering Blow / Acceleration Gate, 20/18/16/14/12s cooldown, range 240) the instant you walk into E (Skip 'n Slash) range, which denies the one tool Gwen has to close distance and refund her dash. Until Gwen hits her first real item spike she is stuck trading into a kit that resets neutral for free every 12-20 seconds.",
+  "tell": {
+   "watch": "Jayce's stance (Hammer vs Cannon)",
+   "theirWindow": {
+    "when": "Jayce in Hammer Stance with E up",
+    "what": "He can knock you back the moment you commit E (Skip 'n Slash) or walk up to trade. Don't dash in on cooldown-visible E; bait it out with Q (Snip Snip!) poke first."
+   },
+   "yourWindow": {
+    "when": "Jayce's E and Q both on cooldown",
+    "what": "This is your only clean window to E (Skip 'n Slash) in, stack Q (Snip Snip!) procs, and walk out before he swaps stance again. Needle R (Needlework) only comes online at 6 and resets the trade in your favor."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Hammer E knockback punishes any E (Skip 'n Slash) approach"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Cannon Q poke chips you before E is live"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Needlework) lets you punish his stance swaps"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Dusk and Dawn plus Shadowflame outscale his poke"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Full combat items, he has no reset tool"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Taken in 25.3% of games at 53.8% win rate, the extra sustain and physical damage reduction directly answers Jayce's auto-reset poke pattern while he's still in Cannon Stance."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "59.1% pick, 50.7% win rate — the attack-speed-reduction-on-hit mitigates his Hyper Charge burst windows and repeated Q pokes better than raw magic pen."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the 60.5%-winrate, 31.4%-pick path; the spike that finally lets you win the all-in instead of just surviving it."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item in the same line; the burst amp turns your Q (Snip Snip!) and E on-hit magic damage into real kill pressure."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Closes out the highest-winrate path (60.5% over 167 games) once you're ahead or even, maximizing R (Needlework) burst."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "he's building toward all-in kill pressure with Hammer R and you need to survive the knockback-into-engage combo"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the lane goes long and even, since the 64%-winrate Riftmaker-into-Shadowflame line rewards sustained Q (Snip Snip!) trading"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run in 27.7% of games at 50.9% win rate; the stacking adaptive force rewards exactly the extended Q (Snip Snip!) and E on-hit trades you're forced into once Jayce's E knockback is down.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport sits at 50.3% win rate over a 19.2% pick rate; Teleport lets you skip the losing early trades entirely by resetting for Doran's Shield stacks and re-TPing in once Dusk and Dawn is done."
+  },
+  "playing": [
+   {
+    "title": "Never engage into live E",
+    "detail": "If Jayce is in Hammer Stance with E (Thundering Blow) off cooldown, do not walk into Skip 'n Slash range — he knocks you right back out and you eat a free Lightning Field tick."
+   },
+   {
+    "title": "Poke with Q before committing",
+    "detail": "Use Q (Snip Snip!), 6.5/5.75/5/4.25/3.5s cooldown, to bait his Cannon Q (Shock Blast) or force his E down before you dash in with E."
+   },
+   {
+    "title": "Hide in Hallowed Mist to reset",
+    "detail": "W (Hallowed Mist) makes you untargetable to anyone outside it; duck in after a trade to heal off Q procs and deny his follow-up poke."
+   },
+   {
+    "title": "Save R for stance-swap punish",
+    "detail": "R (Needlework) at level 6 slows and lets you chain up to three casts — fire it the moment he swaps stance mid-trade, since that's when his defensive tool is unavailable."
+   },
+   {
+    "title": "Play for the item spike, not level 1-5 kills",
+    "detail": "You are not expected to win trades before Dusk and Dawn; farm Q procs from range and let Teleport cover the wave if you fall behind on CS."
+   },
+   {
+    "title": "Track Hyper Charge windows",
+    "detail": "Cannon Stance W gives him max attack speed for several autos — disengage behind minions or W (Hallowed Mist) rather than trading through it."
+   },
+   {
+    "title": "Punish empty E cooldown with full combo",
+    "detail": "Once his E (Thundering Blow / Acceleration Gate) is on cooldown — 20/18/16/14/12s — commit E into Q stacks into R; this is the only window where he can't knock you back out."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and the 51.3% head-to-head win rate over 855 games are measured OP.GG data from the current patch; the tactical reading of stance timing and cooldown windows is my own analysis layered on top."
+ },
+ "generatedAt": 1791272730320,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791272689810,
+  "overall": {
+   "winRate": 50.7,
+   "play": 60295,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 855,
+   "wins": 439,
+   "winRate": 51.3
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.4,
+    "play": 479,
+    "pickRate": 49.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.3,
+    "play": 187,
+    "pickRate": 19.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.1,
+    "play": 96,
+    "pickRate": 9.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.9,
+    "play": 277,
+    "pickRate": 27.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.7,
+    "play": 71,
+    "pickRate": 7.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.9,
+    "play": 645,
+    "pickRate": 65.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 249,
+    "pickRate": 25.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.7,
+    "play": 536,
+    "pickRate": 59.1
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 57.5,
+    "play": 247,
+    "pickRate": 27.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 60.5,
+    "play": 167,
+    "pickRate": 31.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Shadowflame"
+    ],
+    "winRate": 64,
+    "play": 25,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.4,
+    "play": 757,
+    "pickRate": 79.5
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 59,
+    "play": 568,
+    "pickRate": 59.7
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 51.8,
+    "play": 307,
+    "pickRate": 32.3
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 64.7,
+    "play": 289,
+    "pickRate": 30.4
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 53.8,
+    "play": 253,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 57.7,
+    "play": 163,
+    "pickRate": 17.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57,
+    "play": 384
+   }
+  ]
+ }
+}

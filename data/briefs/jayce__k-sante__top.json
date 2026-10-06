@@ -1,0 +1,400 @@
+{
+ "you": "Jayce",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, favored",
+   "line": "You lose if he lands Footwork (E) shields and Path Maker (W) stuns in point-blank trades before level 6; you win if you poke from outside 525 range and let Muramana-charged Shock Blasts whittle him down after level 11."
+  },
+  "thesis": "K'Sante's Footwork (E) shield-dash and Path Maker (W) stun/knockback let him force short, point-blank trades that beat Jayce's melee Hammer form — that's why he holds the lane and solo-kill edge. But none of his tools out-range Jayce's Cannon-stance Shock Blast (600 range vs. his 450/525), so Jayce actually wins the matchup overall (51.9% over 3,196 games) by refusing to fight inside his threat range and poking him down instead.",
+  "tell": {
+   "watch": "K'Sante's Q stack count",
+   "theirWindow": {
+    "when": "He lands a Q stack on you",
+    "what": "A second Ntofo Strikes (Q) stack fires a shockwave that pulls you in, opening his Path Maker (W) stun/knockback into a shielded Footwork (E) all-in. Break line of sight or walk back past 450 range right after the first hit instead of trading through it."
+   },
+   "yourWindow": {
+    "when": "His Footwork (E) is on cooldown",
+    "what": "With his dash/shield down for 8-10s, step up and land a Cannon-stance Shock Blast (Q) or Hyper Charge (W) autos from outside his engage range without fear of a punish dash."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "His Q stacks and shield beat early Hammer autos"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Path Maker (W) stun punishes any close trade"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "R stance-swap lets you poke, but his R threatens"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Muramana/Cleaver online, poke outranges his cooldowns"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build burst wins extended poke exchanges"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "The highest-performing start (51.5% over 3,446 games, 96% pick) — the extra damage lets your Cannon-stance pokes actually hurt before items, since you can't win sustained melee trades anyway."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Best measured win rate of the two options (55.1% over 906 games) — the flat move speed is what lets you hold the 525+ range your whole poke plan depends on against his dash-based engage."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Fuels the mana you burn spamming Q/W/E to poke instead of trade, and scales directly into Muramana."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Physical damage plus armor shred cuts through his naturally high armor, stacking off the same poke autos and abilities you're already throwing."
+    },
+    {
+     "item": "Muramana",
+     "why": "Empowers your next auto off mana spent — this is the item that turns your poke from annoying into a real DPS check, typically online around level 11-13."
+    },
+    {
+     "item": "Serpent's Fang",
+     "why": "Directly cuts his Footwork (E) shield and the extra defenses he gains going All Out (R), so your poke damage actually lands instead of getting absorbed."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need the cooldown reduction to keep poking through his repeated all-in windows"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you want extra mobility and burst to poke-and-kite rather than ever commit to a full combo"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to threaten a real burst window once his Footwork (E) is on cooldown"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need a cheap active slow to peel his engage off before Cleaver/Muramana are finished"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustains you through the forced melee trades he wins early via Footwork (E) and Path Maker (W), buying time until your poke items come online. Master-tier Jayce players instead run Stormraider's Surge (Sorcery) across 25,036 games — better suited if you're confident enough to never get caught in his engage range at all and want the extra kiting speed instead of sustain.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is both the highest win rate (52.1%) and by far the most-picked setup (77.5%) — Teleport lets you reset top after a poke-and-leave trade instead of ever needing to stand and all-in. Flash+Ignite (51%, 21.6% pick) is a fine alternative if you're ahead and want to force a kill off a landed poke combo."
+  },
+  "playing": [
+   {
+    "title": "Poke from max range",
+    "detail": "Fire Cannon-stance Shock Blast (Q, 600 range) from outside his Ntofo Strikes (450 range) and Footwork (525 range) — he physically cannot punish you from there."
+   },
+   {
+    "title": "Punish shield cooldown",
+    "detail": "Track his Footwork (E, 8-10s cooldown) — once it's used offensively or defensively, you have a clean window to step up and poke before he can dash in or out again."
+   },
+   {
+    "title": "Never feed his 2-stack pull",
+    "detail": "Don't stand still after he lands one Ntofo Strikes (Q) stack — the second stack fires a pulling shockwave that sets up his whole combo. Walk out past 450 range immediately."
+   },
+   {
+    "title": "Use Acceleration Gate to poke",
+    "detail": "Drop E (Acceleration Gate) in Cannon stance and fire Shock Blast through it for increased missile speed, range, and damage before his Q/E are back up."
+   },
+   {
+    "title": "Respect Path Maker windup",
+    "detail": "His W (Path Maker) telegraphs with a charge-up where he takes reduced damage before dashing to knock back and stun. Walk out of its 600 range during the charge rather than trading through it."
+   },
+   {
+    "title": "Swap to Hammer only to finish",
+    "detail": "Save Hammer-stance Q leap and E knockback for securing a poked-low kill or peeling him off you — don't initiate melee trades into his shield and all-in kit."
+   },
+   {
+    "title": "Play around his All Out timer",
+    "detail": "After level 6, track his R (All Out, 120/100/80s cooldown). Once it's down, his knockback-through-wall setup is gone — poke freely in that window."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and the 51.9% Jayce-vs-K'Sante win rate (3,196 games) are measured from live games on the current patch (16.19.1); the tactical reading — why ranged poke beats his shield-engage despite his lane and solo-kill edge — is my own analysis."
+ },
+ "generatedAt": 1791274487042,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791274360424,
+  "overall": {
+   "winRate": 47.7,
+   "play": 127458,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 3196,
+   "wins": 1660,
+   "winRate": 51.9
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "defensive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.1,
+    "play": 2779,
+    "pickRate": 77.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51,
+    "play": 775,
+    "pickRate": 21.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 30.4,
+    "play": 23,
+    "pickRate": 0.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.9,
+    "play": 589,
+    "pickRate": 16.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 51.3,
+    "play": 341,
+    "pickRate": 9.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 3446,
+    "pickRate": 96
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 39,
+    "pickRate": 1.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 53.2,
+    "play": 1079,
+    "pickRate": 33.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 55.1,
+    "play": 906,
+    "pickRate": 28.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Black Cleaver",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 59.5,
+    "play": 220,
+    "pickRate": 9.8
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Black Cleaver",
+     "Muramana",
+     "Spear of Shojin"
+    ],
+    "winRate": 53,
+    "play": 198,
+    "pickRate": 8.9
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 59.8,
+    "play": 169,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 55.1,
+    "play": 2606,
+    "pickRate": 72.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.6,
+    "play": 1543,
+    "pickRate": 43.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 52.2,
+    "play": 1358,
+    "pickRate": 38
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 54.5,
+    "play": 1133,
+    "pickRate": 31.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 52.3,
+    "play": 833,
+    "pickRate": 23.3
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 57.8,
+    "play": 811,
+    "pickRate": 22.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.1,
+    "play": 575
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 25036
+  }
+ }
+}

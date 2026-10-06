@@ -1,0 +1,383 @@
+{
+ "you": "Jayce",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even poke lane",
+   "line": "You lose if you let him stack 3 hits into Darkness Rise or get caught melee-trading inside his Death's Grasp pull; you win if you poke from max Cannon-stance range and deny the all-in before his W shield stabilizes him."
+  },
+  "thesis": "This is a ranged-poke-vs-melee-brawler matchup, but Mordekaiser's E (Death's Grasp, range 700) actually outranges Jayce's Cannon-stance Q (Shock Blast, range 600), so there is no distance at which you can poke and be guaranteed safe from his engage. His passive Darkness Rise rewards him for closing that gap and landing 3 hits, and his W (Indestructible) turns a prolonged trade into free shield and sustain. That's exactly why OP.GG's own read is to poke rather than fight extended — the measured 49.3% win rate over 1451 games confirms this is genuinely even, decided by who manages spacing and cooldowns better, not by a structural favorite.",
+  "tell": {
+   "watch": "Morde's Darkness Rise stack count",
+   "theirWindow": {
+    "when": "after he lands his 3rd hit on you",
+    "what": "Darkness Rise procs a damage aura plus Move Speed — disengage immediately rather than extending the trade, since staying in means eating the buffed hit and feeding his W (Indestructible) shield."
+   },
+   "yourWindow": {
+    "when": "his E (Death's Grasp, 16-8s cd) is on cooldown",
+    "what": "This is your only truly safe poke window — step into Cannon-stance Q (Shock Blast, range 600) range, fire, and swap stance to use your passive Hextech Capacitor Move Speed to reset distance before his E comes back up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither Q nor E online at full strength yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Shock Blast poke pattern comes online first"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His R isolates you, but cooldown is 140s"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Obliterate's cooldown drops to 5-4s"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Muramana and Youmuu's close the gap"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "48% win rate over 1738 games and 95.5% pick rate — the sustain and early trade damage let you poke through his melee range without dipping below safe HP."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "48.5% win rate, 45.3% pick rate — the cooldown reduction tightens your Q/stance-swap poke cadence, which matters more here than raw resists since his E cooldown (16-8s) is what you're racing."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Scales your mana pool for sustained poke across a lane where you can't afford to run dry mid-trade."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste lets you disengage immediately after a Darkness Rise proc instead of getting caught in his buffed aura."
+    },
+    {
+     "item": "Muramana",
+     "why": "55.4% win rate over 112 games on this path — converts your mana into the burst poke damage that punishes him before his W shield absorbs it."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "Completes the 55.4%-winrate path; the dash-on-activation gives you another tool to reset range after a trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "he leans on stacking Indestructible shield value to tank your poke"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "his Q/E combo magic burst is outpacing what Ionian Boots lets you trade through"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "Triggered by your poke-and-reposition combo, it grants burst Move Speed right when you need to clear his E (Death's Grasp) range after firing Shock Blast — directly answers the fact that his pull outranges your poke.",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "51% win rate, the most-run combo (49.1% pick) — Ignite punishes his all-in attempt before Indestructible lets him heal it off, and Flash covers the fact that his E range exceeds your own poke range."
+  },
+  "playing": [
+   {
+    "title": "Respect his 700-range pull",
+    "detail": "His E (Death's Grasp) outranges your Cannon-stance Q (600). Standing at your own max poke range does not mean you're safe from his engage — track his E cooldown (16/14/12/10/8s), not just your own."
+   },
+   {
+    "title": "Disengage at 3 hits, not after",
+    "detail": "Darkness Rise procs on his 3rd landed hit and grants him a damage aura plus Move Speed. Break the trade before that proc, not when you're already eating the buffed damage."
+   },
+   {
+    "title": "Poke, never brawl",
+    "detail": "His W (Indestructible) banks damage dealt and taken into a shield he can consume to heal. Extended melee trades feed that shield directly — single-hit poke and retreat starves it."
+   },
+   {
+    "title": "Swap stance to kite",
+    "detail": "Your passive (Hextech Capacitor) gives Move Speed on every weapon swap. Use a Hammer-Cannon swap as your exit tool right after landing a poke, not just as a damage combo."
+   },
+   {
+    "title": "Track his R timer past level 6",
+    "detail": "Realm of Death is 140-80s cooldown and isolates you from minions and turret help. Once it's confirmed down after a use, you can push trades harder; while it's up, don't overextend past his minion wave."
+   },
+   {
+    "title": "Gate your own Shock Blast",
+    "detail": "Fire Acceleration Gate (Cannon-stance E) before a poke to boost Shock Blast's missile speed, range, and damage — it's the only way to extend your effective poke range past his E threat range."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/pick-rate figures above are pulled from measured OP.GG games on the current patch (16.19.1); the mechanical reasoning — why the E-range mismatch and passive timing matter — is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791273930234,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791273848658,
+  "overall": {
+   "winRate": 47.7,
+   "play": 127458,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1451,
+   "wins": 715,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Keep some distance to deactivate Mordekaiser’s (P). Rather than fighting in prolonged combat, try to poke him instead.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51,
+    "play": 888,
+    "pickRate": 49.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.9,
+    "play": 864,
+    "pickRate": 47.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 43.1,
+    "play": 51,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.6,
+    "play": 444,
+    "pickRate": 24
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.5,
+    "play": 278,
+    "pickRate": 15
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 1738,
+    "pickRate": 95.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 39.1,
+    "play": 23,
+    "pickRate": 1.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48.5,
+    "play": 726,
+    "pickRate": 45.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.9,
+    "play": 376,
+    "pickRate": 23.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 55.4,
+    "play": 112,
+    "pickRate": 9
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 37.8,
+    "play": 74,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 51.7,
+    "play": 58,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 50.6,
+    "play": 1165,
+    "pickRate": 64.5
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 48.9,
+    "play": 939,
+    "pickRate": 52
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 48.5,
+    "play": 847,
+    "pickRate": 46.9
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 51.3,
+    "play": 602,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.9,
+    "play": 599,
+    "pickRate": 33.2
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 53.7,
+    "play": 367,
+    "pickRate": 20.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.2,
+    "play": 308
+   }
+  ]
+ }
+}

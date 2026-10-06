@@ -1,0 +1,391 @@
+{
+ "you": "Jayce",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane",
+   "line": "You lose if you trade autos into her Q (Bladesurge) range and let her stack a reset chain; you win if you farm from 600 range and let levels 14+ turn poke into a lead."
+  },
+  "thesis": "Jayce's 43.4% win rate over 4268 games against Irelia (versus his 47.7% baseline) comes from one structural problem: Irelia's Q (Bladesurge) dashes to any target including minions and refreshes its 10/9/8/7/6s cooldown on a Marked or killed target, so once she lands her E (Flawless Duet) stun+Mark she can chain Q resets into a kill before Jayce's ranged kit can create distance. Jayce has no tool that reliably stops the dash itself, so the matchup is won or lost on whether Jayce ever lets her get the first E off.",
+  "tell": {
+   "watch": "Irelia's E (Flawless Duet) cooldown",
+   "theirWindow": {
+    "when": "Her E is up and she's near you",
+    "what": "She'll bait a trade then land the two converging blades from up to 850 range for a stun and Mark, then Q (Bladesurge) resets in for free damage. Do not stand in line between her and a minion when her E could be live."
+   },
+   "yourWindow": {
+    "when": "Her E (Flawless Duet) is on cooldown",
+    "what": "Sit in Cannon stance and poke freely with Q (Shock Blast) and autos since she has no stun to punish the trade. This is when you actually farm and chip her, not when her E is up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Poke wins before her stun (E) exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E stun plus Q reset enable all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R adds burst and a wall, snowballs"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Itemization closes gap if farmed clean"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Ranged poke and split-push outscale late"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The run rate (43.9% over 4574 games, 91.9% pick) reflects that Jayce needs the extra sustain and on-hit damage to survive forced trades while her Q (Bladesurge) heals her through poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "45.8% win rate over 2833 games — the flat physical damage reduction directly undercuts her auto-attack trades and her stacking Ionian Fervor on-hit damage."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Builds toward Muramana's mana-to-damage conversion for your ranged poke; this exact path carries the highest sampled win rate (55.2% over 440 games)."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Active haste lets you disengage or reposition the instant her E is thrown, which is the single most dangerous moment in the lane."
+    },
+    {
+     "item": "Muramana",
+     "why": "Empowered autos and Q (Shock Blast) scale your poke damage so you can win the farm war without melee range."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "Completes the 55.2% win-rate path and adds burst for when you land poke onto a committed dash."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serylda's Grudge",
+     "when": "she rushes armor or tank items that are blunting your poke damage"
+    },
+    {
+     "item": "Ionian Boots of Lucidity",
+     "when": "you want faster Q (Shock Blast) uptime for poke over the flat damage reduction of Plated Steelcaps"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're already ahead on gold and want to punish a whiffed Q (Bladesurge) with a hard all-in"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "It's the higher-win-rate page (44.2% vs 43.9%) and it rewards exactly the playstyle this lane demands — hit poke, get a burst of Move Speed to immediately disengage before her Q (Bladesurge) range closes.",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "This is both the top win rate (45%) and most picked (56.3%) combo, and it has a direct mechanical reason here: Ignite's Grievous Wounds cuts the self-heal she gets off Q (Bladesurge), taking away the sustain that lets her win extended trades."
+  },
+  "playing": [
+   {
+    "title": "Poke, never duel, before level 6",
+    "detail": "Stay in Cannon stance and fire Q (Shock Blast) from 600 range; melee autos into her just feed Q (Bladesurge) its heal and her Ionian Fervor stacks."
+   },
+   {
+    "title": "Respect E the moment she hits level 3",
+    "detail": "Flawless Duet reaches 850 range and stuns plus Marks on hit — once she has it, don't stand between her and a minion where the two blades can converge on you."
+   },
+   {
+    "title": "Never auto into a charging W",
+    "detail": "Defiant Dance deals more damage the longer she charges it and reduces the physical damage she takes while charging, so trading into the charge wastes your damage; wait for the release or the whiff."
+   },
+   {
+    "title": "Punish a landed Q with Hammer E",
+    "detail": "Swap stance and use Thundering Blow's knockback the instant she dashes in with Bladesurge to shove her off minion-reset range before she can chain into you."
+   },
+   {
+    "title": "Track her passive and Conqueror stacks",
+    "detail": "Ionian Fervor caps out into bonus on-hit damage, and the Conqueror rune page stacks true damage on top of it — if she's near max stacks, disengage immediately instead of trading."
+   },
+   {
+    "title": "Fire Shock Blast through the wave",
+    "detail": "Cannon-stance Q detonates on the first thing it hits and damages everyone caught, so angle it through minions to farm and chip her HP in the same cast."
+   },
+   {
+    "title": "Save Teleport-style scaling for the split",
+    "detail": "Since the matchup is lane-losing early (43.4% WR), play for 14+ where your ranged poke and push outscale her all-in; don't force kills before then."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoner spells, and all win-rate/pick-rate/sample-size numbers above are measured from live OP.GG games on the current patch; the mechanical reasoning — why the stun window matters, when to swap stances, how the resets chain — is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791274646104,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791274537940,
+  "overall": {
+   "winRate": 47.7,
+   "play": 127458,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 4268,
+   "wins": 1852,
+   "winRate": 43.4
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "defensive",
+  "opponentTip": "Keep an eye out on Irelia’s (P) and Conqueror stacks. Rather than fighting her, focus on farming lane while avoiding her (E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45,
+    "play": 2774,
+    "pickRate": 56.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41.1,
+    "play": 1615,
+    "pickRate": 32.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.4,
+    "play": 525,
+    "pickRate": 10.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.2,
+    "play": 976,
+    "pickRate": 19.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 954,
+    "pickRate": 18.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 43.9,
+    "play": 4574,
+    "pickRate": 91.9
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 35.8,
+    "play": 95,
+    "pickRate": 1.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.8,
+    "play": 2833,
+    "pickRate": 63.9
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 45.6,
+    "play": 1196,
+    "pickRate": 27
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 55.2,
+    "play": 440,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 53.1,
+    "play": 175,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serylda's Grudge"
+    ],
+    "winRate": 52.2,
+    "play": 134,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 45.9,
+    "play": 3052,
+    "pickRate": 61.8
+   },
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 48.1,
+    "play": 2878,
+    "pickRate": 58.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 43.9,
+    "play": 1863,
+    "pickRate": 37.7
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 51.6,
+    "play": 1784,
+    "pickRate": 36.1
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 53.1,
+    "play": 882,
+    "pickRate": 17.9
+   },
+   {
+    "items": [
+     "Tear of the Goddess"
+    ],
+    "winRate": 26.5,
+    "play": 657,
+    "pickRate": 13.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.4,
+    "play": 673
+   }
+  ]
+ }
+}

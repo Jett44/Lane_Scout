@@ -1,0 +1,385 @@
+{
+ "you": "Gangplank",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, respect R",
+   "line": "You lose if Riven catches you without Remove Scurvy up and chains Ki Burst into Broken Wings, especially the moment she hits level 6 Blade of the Exile; you win every exchange where you poke from Parrrley range and make her walk through poison to reach you."
+  },
+  "thesis": "Riven has to close distance with Valor (250 range) or Broken Wings (275 range) before any of her damage lands, while Parrrley reaches 625 range and Grog-Soaked Blade ticks poison on every auto she eats on approach. The matchup's 53.3% head-to-head win rate over 1649 games reflects that gap: Gangplank's threat is passive and ranged, Riven's is burst and committed, so the lane is decided by whether you have Remove Scurvy ready to answer her stun.",
+  "tell": {
+   "watch": "Riven's W (Ki Burst) cooldown",
+   "theirWindow": {
+    "when": "Right as Riven hits level 6",
+    "what": "She gains Blade of the Exile (R) - bonus AD, extended range, and a one-time ranged Wind Slash - then looks to chain Q (Broken Wings) into W (Ki Burst) for a stun-locked all-in. Hold Remove Scurvy (W) in reserve and don't extend trades into melee range here."
+   },
+   "yourWindow": {
+    "when": "Her E (Valor) is on cooldown",
+    "what": "Valor is her only dash to close distance or shield through incoming damage; with it down (6-10s depending on rank) she can't escape your poke or block the poison. Walk up and fire Parrrley (Q, 5s cooldown) freely."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "You lack Remove Scurvy to clear her stun yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q ranked, poke from 625 range outpaces her"
+   },
+   {
+    "levels": "6",
+    "edge": "them",
+    "note": "Blade of the Exile all-in window, per OP.GG"
+   },
+   {
+    "levels": "7-10",
+    "edge": "you",
+    "note": "Core items online, poison stacking wins trades"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "Teamfights dilute the 1v1 poke advantage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "53.3% win rate over 1465 games and the highest pick rate (74.7%) — the extra sustain lets you eat her dash-in trades without losing the poke war."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.9% win rate over 1103 games (62.7% pick) — flat physical damage reduction blunts her empowered Runic Blade autos during an all-in."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain to spam Parrrley every 5 seconds without running dry"
+    },
+    {
+     "item": "The Collector",
+     "why": "Execute threshold and lethality punish her for diving in low"
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Crit scaling turns sustained poke into real damage by mid-game"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "she rushes armor or stacks health to survive your poke"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "she's ahead and threatening to kill you on an all-in"
+    },
+    {
+     "item": "Serpent's Fang",
+     "when": "she buys a shield item like Immortal Shieldbow herself"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The DoT proc stacks with Grog-Soaked Blade poison on every poke, so even when she dashes out of range with Valor she keeps taking damage.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "52.5% win rate at 89.9% pick rate — Ignite closes out poke trades and cuts through any healing she picks up, Flash keeps you safe from a committed Broken Wings engage."
+  },
+  "playing": [
+   {
+    "title": "Poke from Parrrley range",
+    "detail": "Fire Q (Parrrley, 625 range) every time she steps forward instead of trading in melee — she has no answer to it until she's already closed the gap."
+   },
+   {
+    "title": "Save Remove Scurvy for her stun",
+    "detail": "Hold W until she commits Ki Burst; it clears the stun and heals you, which single-handedly invalidates her combo if timed right."
+   },
+   {
+    "title": "Punish Valor cooldown",
+    "detail": "Track her E (Valor, 6-10s depending on rank) — when it's down she has no dash to escape poke or block damage, so press the window."
+   },
+   {
+    "title": "Respect level 6 all-in",
+    "detail": "The moment she hits R (Blade of the Exile), she gets bonus AD, range, and a ranged Wind Slash — don't extend fights here, let poison do the work from range instead."
+   },
+   {
+    "title": "Read her Runic Blade charges",
+    "detail": "Her passive charges on ability use and empowers her next auto; a glowing weapon means she's one auto from a bigger hit, so don't stand in auto range unnecessarily."
+   },
+   {
+    "title": "Use Raise Morale to disengage",
+    "detail": "E (Raise Morale, 20s cooldown) gives you movement speed — use it to break off a trade or kite away from a Broken Wings knockback setup."
+   },
+   {
+    "title": "Zone or finish with Cannon Barrage",
+    "detail": "Save R for punishing an overextended all-in attempt; the slow plus damage-over-time can finish a Riven who commits past her Valor and Broken Wings cooldowns."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners, and all win-rate/sample figures are measured OP.GG data from current-patch games; the mechanical reasoning about cooldowns, ranges, and trade windows is my own tactical read, not something OP.GG tracks."
+ },
+ "generatedAt": 1791272498722,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791272406348,
+  "overall": {
+   "winRate": 50.8,
+   "play": 127480,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1649,
+   "wins": 879,
+   "winRate": 53.3
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Keep an eye out on Riven’s Conqueror stacks while contesting lane. Avoid fighting her in prolonged combat when Riven learns (R) as she will try to get a kill.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.5,
+    "play": 1744,
+    "pickRate": 89.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 56.9,
+    "play": 102,
+    "pickRate": 5.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.1,
+    "play": 89,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 49.9,
+    "play": 567,
+    "pickRate": 28.7
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 56.4,
+    "play": 346,
+    "pickRate": 17.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 1465,
+    "pickRate": 74.7
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 62.3,
+    "play": 191,
+    "pickRate": 9.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.9,
+    "play": 1103,
+    "pickRate": 62.7
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 53.9,
+    "play": 317,
+    "pickRate": 18
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 58.1,
+    "play": 284,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 54.2,
+    "play": 179,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Immortal Shieldbow",
+     "Infinity Edge"
+    ],
+    "winRate": 53.9,
+    "play": 102,
+    "pickRate": 7.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 53.1,
+    "play": 1834,
+    "pickRate": 95.9
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 54,
+    "play": 1007,
+    "pickRate": 52.7
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 57.5,
+    "play": 777,
+    "pickRate": 40.6
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 56.6,
+    "play": 684,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 55.2,
+    "play": 649,
+    "pickRate": 33.9
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 52.1,
+    "play": 338,
+    "pickRate": 17.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.9,
+    "play": 595
+   }
+  ]
+ }
+}

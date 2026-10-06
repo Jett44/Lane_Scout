@@ -1,0 +1,390 @@
+{
+ "you": "Jayce",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose if you eat a Tactical Sweep (W) before level 3 or get caught near a wall when her Hookshot (E) is up; you win if you poke with Shock Blast (Q) while her E is down and punish her dash-ins with Thundering Blow (E)."
+  },
+  "thesis": "This is a cooldown-reading lane, not a stat-check: Jayce's Cannon-stance Shock Blast (Q) poke only works when Camille's Hookshot (E, 16/15/14/13/12s) is on cooldown, and Camille's all-in only works if she lands Tactical Sweep (W) or Hookshot clean. 127,458 games put Jayce at 47.7% in this role and 2,536 head-to-head games put this specific pairing at 45.6%, which OP.GG itself calls an even lane with an even solo-kill rate — the numbers say skill and cooldown tracking decide it, not champion identity.",
+  "tell": {
+   "watch": "Camille's Hookshot (E) cooldown",
+   "theirWindow": {
+    "when": "Her E (Hookshot) is up near a wall",
+    "what": "She can pull to the wall, leap off, and knock up on landing, then chain Precision Protocol (Q) and a point-blank Tactical Sweep (W) for a full trade. Don't stand in range of a wall she can hook to, and if she commits the dash anyway, hold Thundering Blow (E) to knock her back out of her follow-up window."
+   },
+   "yourWindow": {
+    "when": "Her E (Hookshot) is on cooldown",
+    "what": "Swap to Cannon stance and poke freely with Shock Blast (Q), ideally through an Acceleration Gate (E) for the extra missile speed, range, and damage — she has no gap closer to punish the poke."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has a real engage yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Tactical Sweep (W) poke comes online"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "both ultimates online, all-ins trade evenly"
+   },
+   {
+    "levels": "10-13",
+    "edge": "you",
+    "note": "Muramana/Youmuu's ranged poke scales harder"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full burst build outpaces her duel kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "95.7% pick rate at 45.5% win rate — the early AD and sustain let you trade autos into her poke without a potion disadvantage."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "49.5% win rate at 36.5% pick — the extra CDR tightens your Thundering Blow (E) and Shock Blast (Q) cycles, which matters more here than raw armor since her poke is auto-based, not burst."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "solves Jayce's early mana problem so you can actually use Lightning Field (W) and Thundering Blow (E) on cooldown instead of holding them."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "the active haste window is what lets you dash in with Hammer Q, land Thundering Blow (E), and get back out before her Q recast timer expires."
+    },
+    {
+     "item": "Muramana",
+     "why": "converts your banked mana into the burst that actually wins the all-in trades once both ultimates are online."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "the strongest measured path, 55.7% win rate over 307 games — stacks more burst on top of Muramana for the levels where you already have the edge."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "she's leaning on her Adaptive Defenses shield to soak your poke every time you land an auto"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want more raw burst and a shield for the all-in instead of sustained poke"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "she's buying tenacity or boots to shrug off your slows and keep closing distance"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "48.1% win rate, the stronger of the two measured pages — it rewards exactly the hit-three-spells-then-leave pattern you need against a champion whose whole kit wants to stick to you after Hookshot (E).",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the most-picked combo (53.1%) and lets you play the scaling side of an even lane, side-lane and group once your core items come online; if you're confident you can land a level-2 Q+E combo before she gets Hookshot (E), Flash+Ignite (47.4% win rate) is the higher-win-rate alternative for forcing an early kill."
+  },
+  "playing": [
+   {
+    "title": "Poke only when her E is down",
+    "detail": "Track Hookshot's (E) 16-12s cooldown by range and track her last cast. Swap to Cannon stance and fire Shock Blast (Q) through an Acceleration Gate (E) in that window for free damage."
+   },
+   {
+    "title": "Respect her W before level 3",
+    "detail": "Tactical Sweep (W) is a cone after a delay that slows and heals on the outer half — getting clipped by it pre-level-3 is the single biggest reason this lane tips to her."
+   },
+   {
+    "title": "Knock her back mid-dash",
+    "detail": "When she commits Hookshot (E) to leap off a wall at you, hold Thundering Blow (E) to knock her away before she can follow up with an empowered Precision Protocol (Q) auto."
+   },
+   {
+    "title": "Don't stand near hookable walls",
+    "detail": "Hookshot (E) has 800 range but needs a wall behind you — holding mid-lane space instead of the river/tri-brush denies her the engage entirely."
+   },
+   {
+    "title": "Bank mana until Tear is up",
+    "detail": "Lightning Field's (W) passive restores mana per strike in Hammer stance, but don't dump your bar on poke before Tear of the Goddess comes online or you'll have nothing for the all-in."
+   },
+   {
+    "title": "Shred her shield once you're ahead",
+    "detail": "Adaptive Defenses gives her a shield off your own autos — once you're building Serpent's Fang, your poke stops feeding her sustain."
+   },
+   {
+    "title": "Swap stances for the first-hit bonus",
+    "detail": "R's first attack after transforming either reduces armor/MR (Cannon) or adds magic damage (Hammer) — time the swap to land right as she commits to a trade."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, summoners, and all win rates above are pulled directly from measured OP.GG games on the current patch (16.19.1) — only the mechanical reasoning for why those numbers come out this way is my own read."
+ },
+ "generatedAt": 1791274242750,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791274125456,
+  "overall": {
+   "winRate": 47.7,
+   "play": 127458,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 2536,
+   "wins": 1157,
+   "winRate": 45.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid Camille’s (W) before reaching level 3. Close in to engage first while interrupting her (E) with your Thundering Blow [E]",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.1,
+    "play": 1532,
+    "pickRate": 53.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.4,
+    "play": 1295,
+    "pickRate": 44.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 35.7,
+    "play": 56,
+    "pickRate": 1.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 462,
+    "pickRate": 15.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.9,
+    "play": 431,
+    "pickRate": 14.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 2780,
+    "pickRate": 95.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.2,
+    "play": 36,
+    "pickRate": 1.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.1,
+    "play": 1260,
+    "pickRate": 49.1
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49.5,
+    "play": 938,
+    "pickRate": 36.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 55.7,
+    "play": 307,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 43.8,
+    "play": 121,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 42.5,
+    "play": 80,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 46.5,
+    "play": 1891,
+    "pickRate": 65.8
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 46.6,
+    "play": 1637,
+    "pickRate": 57
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50.3,
+    "play": 1106,
+    "pickRate": 38.5
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46,
+    "play": 1047,
+    "pickRate": 36.4
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 46.8,
+    "play": 677,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 50,
+    "play": 616,
+    "pickRate": 21.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 47.5,
+    "play": 432
+   }
+  ]
+ }
+}

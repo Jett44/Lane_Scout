@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill early",
+   "line": "You lose this if you walk into Jayce's poke range before level 6, and you win it once Guillotine comes online and you can force an all-in he can't kite out of."
+  },
+  "thesis": "Jayce has no obligation to fight you at range 1-5; he just autos and casts Q (To the Skies! / Shock Blast, 600 range) and E (Thundering Blow, 240 range magic damage + knockback) while you have zero tools to close the gap except E (Apprehend, 535 range) once he's already in your face. Darius vs Jayce sits at 48.9% over 2,616 games with lane and solo-kill advantage to Jayce, which matches a hero whose entire kit exists to punish you for approaching before you have the stacks and the ultimate to make approaching lethal.",
+  "tell": {
+   "watch": "Jayce's stance and Q cooldown",
+   "theirWindow": {
+    "when": "Jayce in Cannon Stance with Q up",
+    "what": "He can poke with Shock Blast from 600 range and burst you with Hyper Charge-boosted autos if you close in; eat minion damage and hold position rather than walking up."
+   },
+   "yourWindow": {
+    "when": "Jayce's Q (8-16s cooldown) is down",
+    "what": "He has no ranged poke and no gap-closer until it's back; this is your window to walk him down, land Apprehend, and start stacking Hemorrhage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ranged poke, you have no hook yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full Q+E combo, Apprehend still weak"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Guillotine lets you punish overextension"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Youmuu's/Dead Man's close the range gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "He kites teamfights, you one-shot stragglers"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "48.2% WR over 2,107 games and the 66.6% pick; the passive sustain and reduced poke damage matter because Jayce's auto-attack and Shock Blast chip is exactly what you're absorbing for the first five levels."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.7% WR over 2,602 games and 84.3% pick; flat reduction on Jayce's auto-attacks (including his Hyper Charge burst window) is worth more here than the move speed from Swiftness since he's not chasing you down with hard CC."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active's move speed and cooldown reduction is your only real way to close a gap Jayce otherwise controls every fight."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Stacking move speed off minion/jungle damage converts into a running start on him, and the slow-on-hit keeps him from resetting distance once you connect."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Part of the 59.5% WR path (23% pick, 410 games); the damage-over-time conversion lets you tank his poke-heavy trades and still come out ahead once your all-in lands."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need the shield/tenacity to survive the all-in window after you commit"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team stacks magic damage alongside Jayce's E and R procs"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need the slow-immunity and waveclear more than Youmuu's raw gap-close"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "51.4% WR, 32% pick; the burst of move speed it grants after taking damage directly counters Jayce's entire plan of kiting you around range while he autos, letting you close distance the instant you eat a poke instead of staying permanently out of position.",
+   "primary": [
+    "Nimbus Cloak",
+    "Celerity",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "51.9% WR over the 18.9% pick sample, the best of the three listed combos; Ignite's guaranteed damage plus Noxian Guillotine's execute-style true damage is how you convert a single successful all-in into a kill instead of just a good trade."
+  },
+  "playing": [
+   {
+    "title": "Hold position before level 3",
+    "detail": "Before you hit level 3, Jayce's full Q (To the Skies! / Shock Blast) plus E (Thundering Blow) combo out-damages anything you can answer with; eat minion-wave chip and don't walk toward his 600-range Q."
+   },
+   {
+    "title": "Punish Shock Blast's cooldown",
+    "detail": "Q recharges on 16/14/12/10/8 seconds; the moment it's down he has no ranged poke and no gap-closer, so that's your cue to walk him down."
+   },
+   {
+    "title": "Land Apprehend to deny his kite",
+    "detail": "E (Apprehend, 535 range) hooks him to you; use it the instant he oversteps to auto or leaps in with Hammer Stance, since it both closes distance and starts stacking Hemorrhage."
+   },
+   {
+    "title": "Commit instead of poking back",
+    "detail": "Hemorrhage needs stacking hits to reach max and enrage you; short pokey trades reset progress, so once you're in melee range stay in it rather than disengaging after one hit."
+   },
+   {
+    "title": "All-in when his E is down",
+    "detail": "R (Noxian Guillotine, 460 range true damage scaled by Hemorrhage stacks) is your win condition, but Thundering Blow (20/18/16/14/12s cooldown, 240 range knockback) is his main peel; commit to the all-in when that's on cooldown, not when it's up."
+   },
+   {
+    "title": "Back off from Hyper Charge",
+    "detail": "Cannon Stance's W spikes his attack speed to max for several hits; if he swaps stance and triggers it mid-trade, disengage rather than trading autos into it."
+   },
+   {
+    "title": "Snowball once Youmuu's/Dead Man's complete",
+    "detail": "Your gap-close and stickiness spike hard in the mid game; use it to run him down even if he's ahead on CS from early poke."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, summoners, and all win rates above are measured from live games on the current patch via OP.GG; the mechanical reasoning for why each choice works into Jayce's kit is my own read, not a stat."
+ },
+ "generatedAt": 1791272684909,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791272598828,
+  "overall": {
+   "winRate": 49.5,
+   "play": 148010,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2616,
+   "wins": 1279,
+   "winRate": 48.9
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Maintain your distance from Jayce before reaching level 3 to avoid being punished. Try to close in when his Phase Rush is on cooldown to nuke him in one burst.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 48.6,
+    "play": 2019,
+    "pickRate": 64.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.9,
+    "play": 591,
+    "pickRate": 18.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 49.8,
+    "play": 474,
+    "pickRate": 15.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 1030,
+    "pickRate": 32
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.1,
+    "play": 460,
+    "pickRate": 14.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 2107,
+    "pickRate": 66.6
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.7,
+    "play": 952,
+    "pickRate": 30.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.7,
+    "play": 2602,
+    "pickRate": 84.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.2,
+    "play": 269,
+    "pickRate": 8.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 59.5,
+    "play": 410,
+    "pickRate": 23
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 55.3,
+    "play": 206,
+    "pickRate": 11.6
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 70.4,
+    "play": 152,
+    "pickRate": 8.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.6,
+    "play": 1939,
+    "pickRate": 62.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 51.8,
+    "play": 1906,
+    "pickRate": 61.4
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 47.7,
+    "play": 1014,
+    "pickRate": 32.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.2,
+    "play": 1014,
+    "pickRate": 32.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.3,
+    "play": 827,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 57.6,
+    "play": 627,
+    "pickRate": 20.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.3,
+    "play": 655
+   }
+  ]
+ }
+}

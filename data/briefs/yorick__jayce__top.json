@@ -1,0 +1,384 @@
+{
+ "you": "Yorick",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured matchup",
+   "line": "You lose if you eat free Shock Blast poke before level 3 and never close the gap; you win once you're in his face, because he has no hard CC to peel you off."
+  },
+  "thesis": "Jayce's entire kit is built around keeping distance — Cannon Stance pokes, Hammer Stance only has a leap and a 240-range knockback to create separation, neither of which is a stun. Yorick heals through poke with Q (Last Rites) and can wall off his retreat with W (Dark Procession), so the matchup is a race to lane phase 3-5: whoever is ranged and uncommitted wins before that, whoever is melee and stuck in Mourning Mist wins after. The 53.8% win rate over 2115 games reflects that Yorick wins the lane once it goes to extended trades.",
+  "tell": {
+   "watch": "Jayce's weapon stance (Hammer/Cannon)",
+   "theirWindow": {
+    "when": "Jayce is in Cannon Stance, poking freely",
+    "what": "Cannon Stance Q (Shock Blast) hits everything in its path for free damage with no commitment. Don't facecheck or walk into the lane center on cooldowns under 12s — eat it on minions and wait for him to swap stances or whiff before stepping up."
+   },
+   "yourWindow": {
+    "when": "Jayce swaps to Hammer Stance and leaps in",
+    "what": "Hammer Stance Q is a leap, not a poke — once he's used it to engage he's melee range and the leap is down for 16-8s depending on rank. Land E (Mourning Mist) for the armor shred and slow, then trade with empowered Q (Last Rites) autos; he only has a 240-range knockback to get back out."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cannon Stance pokes freely, you have no gap-closer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "full combo online, start forcing all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his R transform grants a burst spike, but overextending into W dies"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force online, W cooldown low enough to trap kills"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build, he has no answer to sustained melee pressure"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction on taking poke and the HP5 directly counters Jayce's auto-attack and Shock Blast chip before you hit level 3 and can trade back."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Jayce's damage in this matchup is entirely basic-attack and Shock Blast physical poke — Steelcaps cut that down on every auto, ranged or melee."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade gives you a hard-hitting empowered auto to pair with Last Rites, and the stats (AD/AP/HP/move speed) close the range gap Jayce lives on."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction stacks your Q and E faster, letting you chain Mourning Mist slows and graves more often in extended fights."
+    },
+    {
+     "item": "Serylda's Grudge",
+     "why": "Armor shred plus the slow-on-hit stacks with Mourning Mist to make sure a Hammer Stance Jayce physically cannot walk away once he's tagged."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're fighting from behind and need survivability to win extended all-ins"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the game turns into a 1v9 splitpush and you need raw tower damage"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "you need armor shred stacking on top of serylda's for sustained skirmishes"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you want extra burst and mobility to close the gap on a kiting jayce"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Every poke trade you take and every empowered Last Rites auto you land procs Grasp, turning Jayce's own poke pattern into sustain and max-health scaling for you — the higher-winrate page at 56.2% over the Conqueror alternative.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the highest-pick option (69%) and lets you reset after shoving with your wall-and-poke trade pattern without giving up tempo; Flash+Ignite (53.2%, 20.1% pick) is the stronger choice if you want to force the level 3-5 all-in window into a kill."
+  },
+  "playing": [
+   {
+    "title": "Don't trade before level 3",
+    "detail": "You have no gap-closer and Jayce's Cannon Stance Shock Blast is free damage. Farm behind minions until your full combo is up, matching OP.GG's own read on this matchup."
+   },
+   {
+    "title": "All-in the moment you hit 3",
+    "detail": "Open with E (Mourning Mist) for the armor shred, slow, and mark, then follow with Q (Last Rites) empowered autos. This is your first real kill window and the data backs an aggressive solo-kill edge here."
+   },
+   {
+    "title": "Wall him in before he commits further",
+    "detail": "Drop W (Dark Procession) across his retreat path once he's melee range in Hammer Stance — his only disengage is a 240-range knockback, not a dash, so a well-placed wall traps him."
+   },
+   {
+    "title": "Respect his level 6 transform",
+    "detail": "Jayce's R swaps stances and the first attack after transforming carries bonus armor/MR reduction or magic damage. Expect a burst spike right after he ults and don't greed a trade into it."
+   },
+   {
+    "title": "Hold E for when he's already melee",
+    "detail": "Mourning Mist's slow is wasted on a Jayce who's still kiting at range. Save it for the moment he leaps in on Hammer Stance Q so he can't knock-back and reset."
+   },
+   {
+    "title": "Push waves to force stance decisions",
+    "detail": "Jayce has to commit to either poke (Cannon) or burst (Hammer) — a fast-shoving Yorick wave denies him the farm he needs to freely swap stances every rotation."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above are measured from live OP.GG games on the current patch (16.19.1); the mechanical reasoning — stance tells, cooldown windows, and the all-in timing — is this brief's own tactical read, not sourced data."
+ },
+ "generatedAt": 1791273366491,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791273165923,
+  "overall": {
+   "winRate": 49.2,
+   "play": 66780,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 2115,
+   "wins": 1137,
+   "winRate": 53.8
+  },
+  "laneAdvantage": "Yorick",
+  "soloKillAdvantage": "Yorick",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful during early game as Jayce will apply pressure. After reaching level 3, use [E] to deal damage with [P]. Trap him inside [W] to try to kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.3,
+    "play": 1728,
+    "pickRate": 69
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.2,
+    "play": 504,
+    "pickRate": 20.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55.5,
+    "play": 211,
+    "pickRate": 8.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.2,
+    "play": 447,
+    "pickRate": 17.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.8,
+    "play": 277,
+    "pickRate": 10.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.9,
+    "play": 1785,
+    "pickRate": 71.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 54.9,
+    "play": 550,
+    "pickRate": 21.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.5,
+    "play": 1902,
+    "pickRate": 80.2
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 59.7,
+    "play": 221,
+    "pickRate": 9.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 59.1,
+    "play": 149,
+    "pickRate": 10.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Sterak's Gage"
+    ],
+    "winRate": 62.9,
+    "play": 97,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Hullbreaker"
+    ],
+    "winRate": 71,
+    "play": 69,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 54.3,
+    "play": 1702,
+    "pickRate": 70.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 57.1,
+    "play": 1140,
+    "pickRate": 47
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 57.3,
+    "play": 613,
+    "pickRate": 25.3
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 56.8,
+    "play": 475,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 55.8,
+    "play": 475,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 49.5,
+    "play": 370,
+    "pickRate": 15.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.1,
+    "play": 911
+   }
+  ]
+ }
+}

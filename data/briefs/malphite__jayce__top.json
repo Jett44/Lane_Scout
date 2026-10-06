@@ -1,0 +1,381 @@
+{
+ "you": "Malphite",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured matchup",
+   "line": "You lose if you walk into Q (Shock Blast) poke on cooldown without minion cover; you win every all-in from level 6 on once Jayce commits Hammer Stance."
+  },
+  "thesis": "Jayce wants to poke from range with Cannon Stance and kite, but Malphite's entire kit is a point-blank burst that only works at melee range — so the whole lane is a fight over whether you reach him before he reaches 6 items of poke. Malphite vs Jayce sits at 56.8% over 7,479 games specifically because once R (Unstoppable Force) comes online at 6, Jayce has no form that survives a knock-up into E (Ground Slam) into W (Brutal Strikes).",
+  "tell": {
+   "watch": "Jayce's stance (Hammer vs Cannon)",
+   "theirWindow": {
+    "when": "He's in Cannon Stance at range",
+    "what": "He's sitting on Q (Shock Blast) and E (Acceleration Gate) to poke you for free; don't walk up into open space, stand behind a minion wave so Shock Blast detonates early."
+   },
+   "yourWindow": {
+    "when": "He swaps to Hammer Stance to trade",
+    "what": "This is Jayce choosing melee range — close immediately with Q (Seismic Shard) to steal his speed, then E (Ground Slam) and W (Brutal Strikes) before he can swap back to Cannon and disengage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cannon Stance poke, you have no answer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q (Seismic Shard) lets you punish overextends"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Unstoppable Force) online, all-in wins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Sunfire/Thornmail make trades unwinnable for him"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "he scales into teamfight poke, you're a pick threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Jayce's whole early plan is chip damage from Cannon Stance autos and Shock Blast; Doran's Shield's sustain and poke-reduction directly counters that plan while you wait for level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "80% pick for a reason — Jayce's damage is entirely physical (both stances auto-attack and his Q/E scale off AD), so flat auto-attack reduction shuts down his poke harder than tenacity does."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Gives you the HP and armor to force trades at range-zero where Jayce has no tools, and the burn punishes him for standing near you even passively"
+    },
+    {
+     "item": "Thornmail",
+     "why": "Jayce has no sustained heal, so grievous wounds plus the armor spike makes his AD scaling nearly worthless once you're both level 11+"
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack speed slow directly neuters his Cannon Stance W (Hyper Charge) attack-speed burst and his basic poke rotation"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he builds burst magic items or rushes Lich Bane-style magic damage to punish your lack of MR"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "he's ahead and you need a stacking stat-check item to survive his poke into the fight"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Arcane Comet",
+   "keystoneWhy": "Comet rewards exactly the trade pattern you want — landing Q (Seismic Shard) on him as he commits to a poke auto or Shock Blast, punishing his aggression before he can disengage",
+   "primary": [
+    "Manaflow Band",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is run in 72.8% of games here and lets you skip the losing early poke phase by recalling and TPing back once your level 6 all-in threat is live, while Flash covers your Unstoppable Force engage timing against his dash."
+  },
+  "playing": [
+   {
+    "title": "Hold minions as cover pre-6",
+    "detail": "Shock Blast (Q, Cannon Stance) travels in a line and detonates on the first thing it hits — stand behind your wave so a minion eats it, not you."
+   },
+   {
+    "title": "Punish every Hammer Stance swap",
+    "detail": "When Jayce swaps to Hammer, he's giving up range to threaten E (Thundering Blow) knockback or Q (To the Skies!) leap — step up with your own Q (Seismic Shard) the instant you see the swap animation."
+   },
+   {
+    "title": "All-in the moment R is up at 6",
+    "detail": "Unstoppable Force has an 8s travel-adjusted 130s cooldown at rank 1 but you only need one — knock him up, E (Ground Slam) immediately, then W (Brutal Strikes) to finish; no Jayce stance survives that chain pre-11."
+   },
+   {
+    "title": "Track his mana for Hammer Stance",
+    "detail": "Lightning Field (W, Hammer Stance) restores mana per strike passively — if his bar looks low he's forced into Cannon Stance longer, which is your cue to shove the wave and threaten a recall."
+   },
+   {
+    "title": "Don't chase Cannon Stance kiting",
+    "detail": "You have no gap closer besides R on a long cooldown — if he's kiting in Cannon Stance post-fight, let him go and reset rather than eating a Shock Blast at full range."
+   },
+   {
+    "title": "Use W for extended skirmishes, not pokes",
+    "detail": "Brutal Strikes (W) only pays off once you're already in his face hitting multiple attacks — pop it as you commit to the all-in, not as a poke tool, since it doesn't deal damage on its own."
+   },
+   {
+    "title": "Build toward Thornmail as your powerspike",
+    "detail": "Since Jayce has zero sustain, Thornmail's grievous wounds effectively deletes any late-game 1v1 equity he has left — prioritize it the moment he starts building lifesteal or healing items."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are pulled from measured OP.GG games on the current patch (16.19.1); the mechanical reasoning and trade-pattern advice are my own analysis of the ability kits, not measured data."
+ },
+ "generatedAt": 1791272870561,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791272828068,
+  "overall": {
+   "winRate": 51.5,
+   "play": 167088,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 7479,
+   "wins": 4247,
+   "winRate": 56.8
+  },
+  "laneAdvantage": "Malphite",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Avoid Jayce’s ranged pokes and his hammer form combo to avoid losing health. Stick behind minions to dodge his (E)-(Q) combo.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.2,
+    "play": 6352,
+    "pickRate": 72.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 58,
+    "play": 2249,
+    "pickRate": 25.8
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 47.3,
+    "play": 55,
+    "pickRate": 0.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 56.1,
+    "play": 4045,
+    "pickRate": 45.2
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.4,
+    "play": 1299,
+    "pickRate": 14.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 56.7,
+    "play": 7045,
+    "pickRate": 80.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 56.1,
+    "play": 1148,
+    "pickRate": 13.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 57.7,
+    "play": 6753,
+    "pickRate": 80
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.9,
+    "play": 774,
+    "pickRate": 9.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 62.4,
+    "play": 364,
+    "pickRate": 7.2
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 63.1,
+    "play": 255,
+    "pickRate": 5.1
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 55.3,
+    "play": 206,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 58,
+    "play": 5340,
+    "pickRate": 61.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 60,
+    "play": 3534,
+    "pickRate": 40.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 59,
+    "play": 3220,
+    "pickRate": 37.3
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 54.5,
+    "play": 2750,
+    "pickRate": 31.9
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 59.9,
+    "play": 1915,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 60.7,
+    "play": 1359,
+    "pickRate": 15.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.3,
+    "play": 1760
+   }
+  ]
+ }
+}

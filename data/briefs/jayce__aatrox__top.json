@@ -1,0 +1,381 @@
+{
+ "you": "Jayce",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Disadvantaged, winnable",
+   "line": "You lose if Aatrox closes to melee and chains Deathbringer Stance procs with Umbral Dash heals in extended trades; you win if you live in Cannon stance, poke with Shock Blast (Q) from range 600, and buy Executioner's Calling to shut his sustain down."
+  },
+  "thesis": "Aatrox stacks two independent sustain sources — the periodic empowered auto-heal from his passive Deathbringer Stance, and the on-hit champion heal from Umbral Dash (E) — onto a dash-and-pull package (Umbral Dash's dash, Infernal Chains' 825-range drag) that lets him force exactly the extended melee trade Jayce's base kit loses. Jayce's only path to the 48.1% head-to-head win rate over 4692 games is denying that trade entirely: stay in Cannon stance and fire Shock Blast (Q) from outside his reach instead of ever matching him in Hammer stance.",
+  "tell": {
+   "watch": "Aatrox's Deathbringer Stance auto glow",
+   "theirWindow": {
+    "when": "When Umbral Dash (E) is up",
+    "what": "He can dash onto you and his passive Deathbringer Stance heals him off the next basic attack while Umbral Dash itself heals him on the hit. Do not melee trade here — hold Cannon stance and kite, or knock him back the instant he lands."
+   },
+   "yourWindow": {
+    "when": "When his Q and E are both down",
+    "what": "With Umbral Dash (E) and his Darkin Blade (Q) swings on cooldown he has no way to close the gap or punish a miss. Swap to Cannon stance and fire Shock Blast (Q) freely."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Darkin Blade swings and heal win early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Umbral Dash all-ins punish Jayce's melee stance"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Ultimate online, poke trades even out"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Mana-item burst poke outscales his sustain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade > Health Potion",
+    "why": "Highest-pick, highest-winrate start (48.2% over 5356 games) — the extra AD and sustain let Jayce trade autos into Aatrox's early Darkin Blade swings without losing the health-potion war."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "50% win rate over 2084 games; the cooldown reduction lets Jayce swap Cannon/Hammer stance with R (cooldown 6s) and recast Shock Blast (Q) more often to keep poke tempo up."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Builds mana for Muramana's damage ratio and keeps Lightning Field (W) procing while you poke from range instead of standing in melee."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste lets Jayce disengage after a poke or chase down a retreating Aatrox once his Umbral Dash (E) is on cooldown."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts stacked mana into bonus damage on Shock Blast (Q) pokes and Hammer-stance autos."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "Best-winrate path (57.4% over 570 games) — the active slow punishes Aatrox for committing Umbral Dash (E) to close distance."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "aatrox is healing hard off deathbringer stance and umbral dash and you need grievous wounds to cut both sources"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "aatrox builds armor and you need the extra lethality and slow to keep poke relevant through tankier stats"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "you are behind and taking heavy physical damage from his darkin blade swings and empowered autos"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "The movespeed burst after sustained ability use lets Jayce kite out of Infernal Chains (W, range 825) and Umbral Dash (E) instead of getting pinned into the melee trade Aatrox wants.",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Most-run and highest-winrate combo (48.9% win rate, 62.5% pick); Ignite's Grievous Wounds directly undercuts Deathbringer Stance's heal and Umbral Dash's on-hit healing, and Flash is your main way to dodge a landed Infernal Chains (W) pull."
+  },
+  "playing": [
+   {
+    "title": "Live in Cannon stance",
+    "detail": "Poke with Shock Blast (Q, cooldown 16/14/12/10/8s, range 600) whenever Umbral Dash (E) and Infernal Chains (W) are down. Swapping to Hammer stance to melee trade is exactly where his Deathbringer Stance heal and Umbral Dash sustain punish you."
+   },
+   {
+    "title": "Respect the 825-range chain",
+    "detail": "Infernal Chains (W, cooldown 20/18/16/14/12s, range 825) outranges your 600-range Q leap. Track its cooldown and don't walk up near minimum distance, or you'll be dragged to the impact center and take the damage twice."
+   },
+   {
+    "title": "Punish his dash with a knockback",
+    "detail": "Umbral Dash (E, cooldown 9/8/7/6/5s) heals Aatrox on the hit he lands. The instant he dashes onto you, swap to Hammer stance and knock him back with E (Thundering Blow, range 240) to break off the trade."
+   },
+   {
+    "title": "Buy into his sustain",
+    "detail": "Once he's landing Deathbringer Stance autos and healing off Umbral Dash, pick up Executioner's Calling (per OP.GG data) for Grievous Wounds — it blunts both heal sources at once."
+   },
+   {
+    "title": "Gate your Shock Blast",
+    "detail": "Drop the Cannon-stance Acceleration Gate (E) and fire Shock Blast (Q) through it for increased missile speed, range, and damage — this lands full pokes from outside his Darkin Blade swing range."
+   },
+   {
+    "title": "Track his ultimate timer",
+    "detail": "World Ender (R, cooldown 120/100/80/80/80s) extends on any takedown and buffs his AD, healing, and move speed. If he's picked up a kill anywhere on the map recently, assume it's back up and play trades tighter."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner spell rates above are measured from real Jayce-vs-Aatrox games on the current patch (OP.GG); the mechanical reasoning for when to poke, disengage, and item into his sustain is my own tactical read on the listed ability text."
+ },
+ "generatedAt": 1791274120214,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791273981955,
+  "overall": {
+   "winRate": 47.7,
+   "play": 127458,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 4692,
+   "wins": 2257,
+   "winRate": 48.1
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "defensive",
+  "opponentTip": "Purchase Executioner’s Calling and use Phase Rush to deal damage with To the Skies! (Q) to deal damage one-sidedly. Always pay attention to Aatrox’s range.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 3450,
+    "pickRate": 62.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.1,
+    "play": 2017,
+    "pickRate": 36.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.2,
+    "play": 45,
+    "pickRate": 0.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 1773,
+    "pickRate": 31.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.5,
+    "play": 723,
+    "pickRate": 12.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 5356,
+    "pickRate": 96.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 62,
+    "pickRate": 1.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 50,
+    "play": 2084,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.6,
+    "play": 1869,
+    "pickRate": 37.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 57.4,
+    "play": 570,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 52.5,
+    "play": 202,
+    "pickRate": 5.8
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serylda's Grudge"
+    ],
+    "winRate": 53.5,
+    "play": 185,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 49,
+    "play": 3703,
+    "pickRate": 67.1
+   },
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 50.1,
+    "play": 3423,
+    "pickRate": 62
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 54.7,
+    "play": 2255,
+    "pickRate": 40.8
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.5,
+    "play": 1855,
+    "pickRate": 33.6
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 55,
+    "play": 1092,
+    "pickRate": 19.8
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 41.2,
+    "play": 968,
+    "pickRate": 17.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.3,
+    "play": 816
+   }
+  ]
+ }
+}

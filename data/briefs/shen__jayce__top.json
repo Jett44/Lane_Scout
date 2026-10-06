@@ -1,0 +1,379 @@
+{
+ "you": "Shen",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose extended trades before level 3 and whenever Jayce has Acceleration Gate and Shock Blast both up, but you win the broader game by absorbing his poke and using Stand United to swing fights elsewhere."
+  },
+  "thesis": "Jayce's Cannon-stance Shock Blast (Q) fired through his own Acceleration Gate (E) gains extended missile speed, range, and damage, while Shen's entire engage kit — Feint (W), Shadow Dash (E, range 575), Vorpal Blade (Q, range 475) — only functions once he closes to melee range. That gap is why Jayce holds both lane advantage and solo-kill advantage even though the measured head-to-head sits near even at 51.2% Shen win rate over 1333 games. This lane is won by surviving his poke windows and using Shadow Dash to punish his stance-swap rhythm, not by out-trading him at range.",
+  "tell": {
+   "watch": "Jayce's Acceleration Gate cooldown",
+   "theirWindow": {
+    "when": "Gate and Shock Blast both up",
+    "what": "Jayce drops Acceleration Gate (E, Cannon stance) then fires Shock Blast (Q) through it for boosted speed, range, and damage. Stay behind minions and outside your usual poke range until that E comes off cooldown (20/18/16/14/12s)."
+   },
+   "yourWindow": {
+    "when": "After Jayce's E goes on cooldown",
+    "what": "With Thundering Blow/Acceleration Gate down he can't knock you back or reposition through a gate, so this is when Shadow Dash (E) lands cleanly — taunt him into your Vorpal Blade (Q) range and let Feint (W) soak whatever he swaps into."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no Feint yet, pure ranged poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Feint online, can block his burst"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "gate-boosted Shock Blast widens the gap"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "tank items and R equalize the game"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "81.8% pick, 50.8% WR over 1249 games — the regen offsets Jayce's chip poke from Lightning Field and Shock Blast better than Doran's Helm since most of his damage is physical, not magic."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.1% pick, 51.7% WR over 1241 games — flat damage reduction cuts into his auto-attacks and Hyper Charge attack-speed burst, where Mercury's Treads' tenacity is wasted since his kit has no hard CC, only a slow and a knockback."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Gives you a melee-range AoE slam that punishes Jayce for standing near minions when forced into Hammer stance to trade with you."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Appears in every top build path on this matchup — the health and damage spike you need to survive the lane until Stand United comes online at level 6."
+    },
+    {
+     "item": "Randuin's Omen",
+     "why": "Best-measured finisher on this matchup at 72.1% WR over 43 games, directly countering the attack-speed burst from his Hyper Charge in Cannon stance."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds into sustained auto-attack damage and you need the grievous wounds to cut his sustain"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "you're ahead and need magic damage plus waveclear to keep sieging after winning the lane deficit"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're getting poked down hard before level 6 and need an early piece against his auto-reliant Cannon stance"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "53.2% WR, 37.8% pick — the proc heal offsets Jayce's ranged poke damage over the course of the lane, which matters more here than burst keystones since you can't out-trade him at range.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest measured WR on this matchup at 52.2% (55.6% pick) — once Shadow Dash taunts Jayce into range, Ignite converts that lock into a kill since he has no hard disengage besides the knockback or a gate repositioning."
+  },
+  "playing": [
+   {
+    "title": "Freeze under tower before level 3",
+    "detail": "Without Feint (W) you have no answer to his leap or Shock Blast burst, so let him overextend into your minions rather than contesting the edge of his 600-range Q."
+   },
+   {
+    "title": "Trade only behind Feint",
+    "detail": "From level 3 on, bait a Thundering Blow or Shock Blast into Feint's absorb before stepping up with Vorpal Blade (Q, 475 range) — never initiate without the shield already active."
+   },
+   {
+    "title": "Dash only when his E is down",
+    "detail": "Shadow Dash only taunts champions along its 575-range path, so time it for the window after he's spent Thundering Blow/Acceleration Gate (20/18/16/14/12s CD) and can't knock you out or escape through a gate."
+   },
+   {
+    "title": "Respect the gate-boosted Shock Blast",
+    "detail": "Acceleration Gate extends Shock Blast's missile speed, range, and damage — back off outside your normal range rather than trade into it, exactly as OP.GG's own read on this lane recommends."
+   },
+   {
+    "title": "Don't force 1v1s, roam with R",
+    "detail": "The near-even 51.2% win rate over 1333 games exists because Shen wins the game elsewhere — once Stand United is up (level 6, 200/180/160/160/160s CD), look to save or teleport into a winning fight instead of forcing lane."
+   },
+   {
+    "title": "Lead skirmishes with Vorpal Blade",
+    "detail": "Q heals allies who attack your target, so land it first in any trade to let minions or allies share the burden while you absorb Jayce's poke."
+   },
+   {
+    "title": "Itemize against his Cannon stance",
+    "detail": "Randuin's Omen directly blunts the attack-speed burst from Hyper Charge, which is his main damage source once he's chosen to poke rather than all-in you."
+   }
+  ],
+  "patchCaveat": "Build paths, win rates, and pick rates are pulled from measured OP.GG games on the current patch (16.19.1); the tactical reasoning — which cooldowns to track and when to engage — is my own read on the kits, not measured data."
+ },
+ "generatedAt": 1791273111441,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791272980364,
+  "overall": {
+   "winRate": 51.3,
+   "play": 85028,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1333,
+   "wins": 683,
+   "winRate": 51.2
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Stand outside of the range of Jayce’s (E)-(Q). As it is difficult to regain lane control, try to roam with your [R] to win the game.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.2,
+    "play": 845,
+    "pickRate": 55.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 614,
+    "pickRate": 40.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51,
+    "play": 51,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.2,
+    "play": 587,
+    "pickRate": 37.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.1,
+    "play": 330,
+    "pickRate": 21.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 1249,
+    "pickRate": 81.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 249,
+    "pickRate": 16.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.7,
+    "play": 1241,
+    "pickRate": 85.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.7,
+    "play": 147,
+    "pickRate": 10.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 55.6,
+    "play": 63,
+    "pickRate": 10.3
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 62,
+    "play": 50,
+    "pickRate": 8.2
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 72.1,
+    "play": 43,
+    "pickRate": 7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 51.9,
+    "play": 1177,
+    "pickRate": 79.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 56.1,
+    "play": 510,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.7,
+    "play": 302,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45,
+    "play": 260,
+    "pickRate": 17.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 53.7,
+    "play": 227,
+    "pickRate": 15.3
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 52.9,
+    "play": 208,
+    "pickRate": 14
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.6,
+    "play": 778
+   }
+  ]
+ }
+}
