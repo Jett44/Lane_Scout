@@ -1,0 +1,390 @@
+{
+ "you": "Jayce",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slight edge",
+   "line": "You win if you stay in Cannon stance and poke him down before level 6; you lose if the lane stalls past level 9 and his Siphoning Strike stacks snowball into a late Fury of the Sands."
+  },
+  "thesis": "Nasus has no dash and a 255-range Q, so his only way to win a trade is landing W (Wither, 700 range) to slow you into melee range. As long as you stay in Cannon stance and poke at 600 range with Shock Blast, you deny both his Siphoning Strike stacks and his Soul Eater lifesteal, which is why Jayce holds the lane and solo-kill advantage even though the aggregate win rate (48.3% over 2342 games) is close.",
+  "tell": {
+   "watch": "Nasus's Wither (W) cooldown",
+   "theirWindow": {
+    "when": "Wither is up, you're in range",
+    "what": "He will walk up to land W (15/14/13/12/11s cooldown, 700 range) and then stick to you in melee for the rest of its duration. Back off to max range the moment he enters his Wither threat window instead of trading through it."
+   },
+   "yourWindow": {
+    "when": "Wither on cooldown, Cannon stance",
+    "what": "Freely poke with Shock Blast (Q) and push the wave; he cannot close the gap on you with anything else. Use these windows to deny his Siphoning Strike (Q) last hits, since every minion kill permanently buffs that ability."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Cannon poke beats a stackless Nasus"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Acceleration Gate Shock Blast chips him free"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Fury of the Sands adds his safety"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Stacks plus Muramana spike trade evenly"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Infinite stacks and ult outscale you"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "94.7% pick rate at 47.4% win rate. The extra lifesteal and damage let you contest his early Siphoning Strike (Q) CS fights instead of ceding every stack-building last hit."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "50.1% win rate over 1115 games. The flat move speed is what actually keeps you out of his 700-range Wither (W) net once it lands, which matters more here than the CDR from Ionian boots."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Builds mana sustain for constant Shock Blast poke without running dry, feeding into the Muramana spike."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Active haste lets you disengage the instant Wither lands or close distance for a Hammer-stance punish when it's down."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts your mana pool into the raw poke damage that actually threatens his growing HP bar before it outscales you."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "54.1% win rate over 222 games on this exact path; the active dash-slash gives you a second gap-closer to punish overextensions without needing Hammer stance."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serylda's Grudge",
+     "when": "he stacks enough health and armor to shrug off your auto poke"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and his stacks are starting to out-scale your damage"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you want burst to punish Wither and Spirit Fire cooldowns in a short all-in"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "48.2% win rate, 26.2% pick. The movement burst rewards exactly the poke-and-reposition pattern this lane demands — accelerate out the instant Wither (W) lands, or extend pressure after a good Shock Blast.",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "49.6% win rate, 55.8% pick rate. Ignite cuts directly against his Soul Eater lifesteal passive and converts your existing solo-kill advantage into real early kills; Flash+Teleport (45.2%, 42.9% pick) is the fallback if you'd rather play the scaling/splitpush game into his late-game stacks."
+  },
+  "playing": [
+   {
+    "title": "Live in Cannon stance",
+    "detail": "Default to Cannon form and poke with Shock Blast (Q) at 600 range. Only swap to Hammer to punish a clearly dead Wither cooldown or a misstep."
+   },
+   {
+    "title": "Deny Siphoning Strike CS",
+    "detail": "Contest his last hits with ranged poke instead of melee trades — every minion he kills with Q permanently raises its damage, so starving those stacks is worth more than any single trade."
+   },
+   {
+    "title": "Combo Acceleration Gate",
+    "detail": "Drop Cannon E (Acceleration Gate) behind you and fire Shock Blast through it for extended range, speed, and damage — this lets you poke from outside his 700-range Wither threat entirely."
+   },
+   {
+    "title": "Respect the Spirit Fire zone",
+    "detail": "Don't stand in his E (Spirit Fire) puddle; it strips your armor and turns his next Q trades into real damage. Step out immediately rather than finishing a last hit inside it."
+   },
+   {
+    "title": "Punish only when Wither is down",
+    "detail": "Swap to Hammer stance for To the Skies! (Q) or a Thundering Blow (E) knockback punish only when you've confirmed Wither (15-11s cooldown) is on cooldown — otherwise you're walking into the slow that wins him the fight."
+   },
+   {
+    "title": "Play around his ult timer",
+    "detail": "From level 6 on, Fury of the Sands (R, 120s cooldown) gives him bonus health, range, and HP drain for its duration. Bait it early in a skirmish and disengage rather than committing to an extended all-in against it."
+   },
+   {
+    "title": "Close out before level 14",
+    "detail": "Your damage and kiting win the lane through roughly level 13; past that his stacks and itemization catch up fast, so convert your early lead into plates, kills, or objectives rather than playing for a scaling lane."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured OP.GG data from live games on the current patch; the mechanical reasoning and trade-pattern advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791308701968,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791308615965,
+  "overall": {
+   "winRate": 47.7,
+   "play": 129743,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 2342,
+   "wins": 1132,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Apply pressure during early game to prevent Nasus from growing. Bring Phase Rush as he will use Wither (W).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.6,
+    "play": 1608,
+    "pickRate": 55.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.2,
+    "play": 1236,
+    "pickRate": 42.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 0.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.2,
+    "play": 760,
+    "pickRate": 26.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.6,
+    "play": 341,
+    "pickRate": 11.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.4,
+    "play": 2757,
+    "pickRate": 94.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.8,
+    "play": 47,
+    "pickRate": 1.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 50.1,
+    "play": 1115,
+    "pickRate": 42
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 44.6,
+    "play": 751,
+    "pickRate": 28.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 54.1,
+    "play": 222,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serylda's Grudge"
+    ],
+    "winRate": 58.6,
+    "play": 99,
+    "pickRate": 5.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 58,
+    "play": 88,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 49.8,
+    "play": 1918,
+    "pickRate": 66.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 48.7,
+    "play": 1660,
+    "pickRate": 57.3
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50.8,
+    "play": 1050,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46.6,
+    "play": 1026,
+    "pickRate": 35.4
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 51.3,
+    "play": 569,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49.8,
+    "play": 514,
+    "pickRate": 17.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50.5,
+    "play": 497
+   }
+  ]
+ }
+}

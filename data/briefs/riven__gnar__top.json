@@ -1,0 +1,380 @@
+{
+ "you": "Riven",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you chase mini Gnar into max range of his Boulder/Boomerang or walk into a Mega Gnar Wallop stun chain; you win if you commit the all-in before his E (Hop) or Rage bar are up."
+  },
+  "thesis": "Gnar is two different champions depending on his Rage meter: mini Gnar is a squishy, kiting poke threat, while Mega Gnar is a tanky brawler with an AoE stun and a wall-stun ultimate. Riven's entire plan is to force the fight while he's mini and either finish it or disengage before the transform changes the math.",
+  "tell": {
+   "watch": "Gnar's Rage meter fill",
+   "theirWindow": {
+    "when": "Rage bar maxes mid-fight",
+    "what": "His next ability use (Hyper or Hop) turns him into Mega Gnar, who trades Hyper's kite speed for Wallop, an AoE stun in front of him, and unlocks R (GNAR!), which stuns anyone thrown into a wall. Disengage the moment you see the transform trigger rather than committing further auto-attacks."
+   },
+   "yourWindow": {
+    "when": "Gnar's E (Hop) just used",
+    "what": "Hop is his only gap-closer and escape at 22/19.5/17/14.5/12s cooldown, so once it's down mini Gnar has no way to create distance. Close immediately with E (Valor) into Q (Broken Wings) and commit the stun."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Hop (E) locked, dive with Q+W"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "he pokes with 1100-range Q, kites via Hyper"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Mega Gnar transform adds tanky AoE stun"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Axiom Arc/Eclipse burst punishes his cooldowns"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Death's Dance sustain forces unwinnable all-ins"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Doran's Blade's sustain and AD win the lane's extended poke exchanges where Gnar's Q (Boomerang Throw) chips you from range before you can close; it's the 78.4%-pick standard start for this reason."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "The ability haste loops Q (Broken Wings), W (Ki Burst), and E (Valor) faster, which matters directly against Hyper's move speed burst — you need your dash and stun back up sooner to re-stick to a kiting mini Gnar."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Cooldown reduction on your dash kit lets you re-engage through Gnar's kiting windows more often."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Sustain and damage scaling to win the poke-trade war before you're fully committed to an all-in."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion lets you survive a Mega Gnar Wallop-into-burst combo and keep fighting through the stun window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you want to front-load burst for a faster mini-Gnar all-in instead of a drawn-out trade"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and Mega Gnar's tankiness is making your fights too slow to close"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "their composition is stacking burst or magic damage you need to survive through the transform window"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive force and healing reward you for staying in extended trades against a poke champion, and the healing helps you outlast Gnar's chip damage until you land the stun.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 93.8% of games here because Gnar has no reliable self-sustain to out-heal a solo-kill attempt, and Ignite converts your 53% head-to-head solo-kill edge into actual kills instead of just lane dominance."
+  },
+  "playing": [
+   {
+    "title": "Dive before level 2 Hop",
+    "detail": "Gnar has no escape until his E (Hop) unlocks at level 2, and even then it's on a 22-second cooldown at rank 1. Use this window to force an all-in with Q (Broken Wings) and W (Ki Burst) before he can establish a kiting pattern."
+   },
+   {
+    "title": "Track the Rage bar constantly",
+    "detail": "Watch for it approaching max during any extended exchange. If it's about to cap, back off rather than committing more autos, since his next ability flips him into tankier Mega Gnar with an AoE stun."
+   },
+   {
+    "title": "Use E to eat his Q",
+    "detail": "Valor's forward step blocks incoming damage, so time it against his Boomerang Throw when he fires it at range rather than saving it only as a gap-closer."
+   },
+   {
+    "title": "All-in the instant Hop is down",
+    "detail": "Once he's used E (Hop) to poke or reposition, mini Gnar has zero mobility tools left. Close with E into the full Q chain and land W immediately."
+   },
+   {
+    "title": "Weave autos between every cast",
+    "detail": "Runic Blade only pays off when you expend charges with basic attacks, so delay the next ability by a half-second to land an auto first in every exchange."
+   },
+   {
+    "title": "Don't walk into Wallop range",
+    "detail": "Mega Gnar's W (Wallop) is an area stun directly in front of him, not a single-target tool. Approach from an angle or bait it with Q's dash distance rather than standing still in melee."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner picks above are pulled directly from measured OP.GG games on the current patch (16.19.1); the power-curve timing and trade-pattern reasoning are my own read of the ability kits, not measured data."
+ },
+ "generatedAt": 1791309036682,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791308943120,
+  "overall": {
+   "winRate": 49.7,
+   "play": 55821,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 661,
+   "wins": 350,
+   "winRate": 53
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": "Use your abilities carefully to avoid being kited by Mini Gnar. Be careful of the counterplay from Mega Gnar’s (R), and use your abilities off cooldown to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.1,
+    "play": 737,
+    "pickRate": 93.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 58.6,
+    "play": 29,
+    "pickRate": 3.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 25,
+    "play": 20,
+    "pickRate": 2.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.2,
+    "play": 329,
+    "pickRate": 42
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.2,
+    "play": 92,
+    "pickRate": 11.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.7,
+    "play": 619,
+    "pickRate": 78.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 56.6,
+    "play": 136,
+    "pickRate": 17.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 52.1,
+    "play": 491,
+    "pickRate": 65.4
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.5,
+    "play": 164,
+    "pickRate": 21.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 63.9,
+    "play": 108,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 65,
+    "play": 40,
+    "pickRate": 8.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 70.3,
+    "play": 37,
+    "pickRate": 7.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 60.2,
+    "play": 513,
+    "pickRate": 67.2
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 57.5,
+    "play": 457,
+    "pickRate": 59.8
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 50.6,
+    "play": 308,
+    "pickRate": 40.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 53.3,
+    "play": 300,
+    "pickRate": 39.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.4,
+    "play": 168,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 63.4,
+    "play": 101,
+    "pickRate": 13.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 59.5,
+    "play": 341
+   }
+  ]
+ }
+}

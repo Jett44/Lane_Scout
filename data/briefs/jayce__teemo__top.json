@@ -1,0 +1,386 @@
+{
+ "you": "Jayce",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand and trade autos into Blinding Dart and Toxic Shot stacks; you win if you convert the level 3-8 aggression window before Teemo's poke scales."
+  },
+  "thesis": "Jayce's early aggression (lane advantage and solo-kill edge both favor Jayce per measured data) comes from forcing fights on his terms with the stance-swap combo, but Teemo's zero-cooldown Toxic Shot and Blinding Dart punish any trade that drags on, which is why the matchup still only nets a 47.7% win rate over 1,759 games instead of a clean favor.",
+  "tell": {
+   "watch": "Teemo's Q (Blinding Dart) cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart (8s cd) is up",
+    "what": "Do not walk forward to poke or auto-trade — a landed blind cancels your next attack and lets Teemo free-hit you with Toxic Shot while you can't see him."
+   },
+   "yourWindow": {
+    "when": "Dart just missed or is on cooldown",
+    "what": "This is your engage window. Fire Shock Blast through an Acceleration Gate for extended range, or swap to Hammer Stance and leap in with To the Skies! — he has no hard CC to stop the follow-up combo."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has a real combo online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Gate-boosted Shock Blast outranges his comfort zone"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Mercury Cannon/Hammer transform spikes all-in kill threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Toxic Shot stacking and Move Quick kiting take over"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Noxious Trap zoning outweighs your 1v1 pressure"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Taken in 83.3% of games for a reason — the extra early trade damage and sustain let you contest Teemo's poke instead of being bullied off the lane before level 3."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Cuts the downtime on your stance swap and Q/E combo loop, so you spend less time standing still waiting on cooldowns inside Blinding Dart range."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Scales your mana pool for repeated combo casts across the long poke war this lane turns into."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active gives you the burst of speed to close a gap after he lands a poke, rather than letting him walk away on Move Quick."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts your mana stack into the raw damage you need to win the all-in once you've closed the distance."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "Adds the burst damage to actually kill him in the short window before he can blind and disengage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Edge of Night",
+     "when": "he is landing Blinding Dart on your engage every time — the spellshield eats the blind and lets your combo land clean"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "Move Quick kiting is letting him walk out of your Shock Blast and leap range"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you are consistently landing full combos and just need the execute threshold to close kills faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "Your combo already forces movement (leap, gate dash, stance swap) — the speed burst from triggering it lets you land the poke-and-leave trade or finish an engage before Toxic Shot's damage-over-time outpaces you.",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Taken in 56.2% of games — Ignite secures the all-in once Mercury Cannon/Hammer comes online at 6, since Teemo's Move Quick is otherwise enough to run down your damage and survive."
+  },
+  "playing": [
+   {
+    "title": "Track Blinding Dart before poking",
+    "detail": "Never walk in to trade autos or empowered Hyper Charge hits while his Q (8s cooldown) is up — a landed blind cancels the attack and gives him a free Toxic Shot."
+   },
+   {
+    "title": "Poke through the Acceleration Gate",
+    "detail": "Base Shock Blast range (600) is shorter than his Blinding Dart (680); firing the Q through your own Cannon Stance E gate extends its range and speed to actually outreach him."
+   },
+   {
+    "title": "All-in hard at level 6",
+    "detail": "Combo Thundering Blow's knockback with the Mercury Cannon/Hammer transform to force a fight — he has no hard CC to punish the engage besides the blind."
+   },
+   {
+    "title": "Cut melee trades short",
+    "detail": "Toxic Shot has no cooldown and stacks damage over time on every hit he lands — don't chain autoattacks in Hammer Stance, use Lightning Field's burst and leave."
+   },
+   {
+    "title": "Don't facecheck bushes",
+    "detail": "His passive goes invisible after standing still briefly — ward or sweep before walking into unseen brush where he can poke for free."
+   },
+   {
+    "title": "Deny his scaling once lane is even",
+    "detail": "If the trade war stalls past level 9-10, push waves and force objectives before Noxious Trap zoning and Toxic Shot stacking let him out-scale you."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners and all win-rate/pick-rate numbers are measured from real games on the current patch via OP.GG; the ability readings and tactical reasoning (timing windows, trade patterns, combo sequencing) are my own analysis layered on top."
+ },
+ "generatedAt": 1791308493005,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791308405494,
+  "overall": {
+   "winRate": 47.7,
+   "play": 129743,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1759,
+   "wins": 839,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "aggressive",
+  "opponentTip": "Purchase Hexdrinker if you brought Ignite to lane. Keep some distance during early game and poke from afar.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.3,
+    "play": 1269,
+    "pickRate": 56.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.1,
+    "play": 945,
+    "pickRate": 41.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.1,
+    "play": 710,
+    "pickRate": 31.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41,
+    "play": 139,
+    "pickRate": 6.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.1,
+    "play": 1891,
+    "pickRate": 83.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.3,
+    "play": 190,
+    "pickRate": 8.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48.7,
+    "play": 893,
+    "pickRate": 43.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.9,
+    "play": 774,
+    "pickRate": 37.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 49.1,
+    "play": 381,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 51.1,
+    "play": 88,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serylda's Grudge"
+    ],
+    "winRate": 45.8,
+    "play": 59,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 48.5,
+    "play": 1611,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 47.9,
+    "play": 1515,
+    "pickRate": 67.3
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 48.8,
+    "play": 1209,
+    "pickRate": 53.7
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 51.5,
+    "play": 565,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 45.3,
+    "play": 483,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Edge of Night"
+    ],
+    "winRate": 53.6,
+    "play": 403,
+    "pickRate": 17.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 48.6,
+    "play": 399
+   }
+  ]
+ }
+}

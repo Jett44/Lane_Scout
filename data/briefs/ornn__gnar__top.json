@@ -1,0 +1,379 @@
+{
+ "you": "Ornn",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, favoured",
+   "line": "You lose reps where you walk into Boomerang Throw range for free pokes before level 6, but you win the 53.1% of games where you wait out Gnar's forced reversion to weak Mini Gnar and convert the kill."
+  },
+  "thesis": "This matchup runs on Gnar's Rage passive, which cycles him between a long-range Mini Gnar poke state and a committed melee Mega Gnar state, and each state needs a different answer from you. Ornn cannot out-range Mini Gnar's Q (Boomerang Throw, 1100 range) early, but every transformation eventually reverts, and OP.GG flags that reversion as the moment Mini Gnar is weakest and lowest on health. That reversion window, not the lane phase itself, is where the 1487-game 53.1% win rate and Ornn's solo-kill advantage actually live.",
+  "tell": {
+   "watch": "Gnar's Rage bar (transform timer)",
+   "theirWindow": {
+    "when": "Gnar poking as ranged Mini Gnar",
+    "what": "He throws Q (Boomerang Throw, 16/14.5/13/11.5/10s CD, 1100 range) and kites the return; don't walk forward to trade into it, just hold wave position and let your early W rank (per the QWEWW order) keep Brittle up for when he commits."
+   },
+   "yourWindow": {
+    "when": "Mega Gnar transform just ended",
+    "what": "He reverts to low-health Mini Gnar right after a Mega Gnar commitment. Close immediately with E (Searing Charge, 14/13.5/13/12.5/12s CD) and look for Q (Volcanic Rupture) to slow and finish — this is the solo-kill window the data is built on."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Gnar kites free; hold W, soak"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Mega Gnar stun trades even once online"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Ornn tank core; solo-kill window opens"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build; Ornn unkillable, Brittle chains kill"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction on taking harass directly answers repeated Boomerang Throw pokes while you're still catching minions, not Gnar."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Gnar's Mega Gnar form leans on empowered autoattacks after Wallop stuns you; flat auto-attack reduction blunts that burst window specifically."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Highest-winrate path (63.5% over 63 games) and gives Ornn the proximity damage to punish Gnar for sitting in melee range during Mega Gnar trades."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes Mega Gnar's auto-reliant Wallop-into-attack pattern and is the second item in the top-performing build order."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Closes out the 63.5% winrate core, giving you the raw tankiness to survive the all-in after Gnar transforms back."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "the enemy team's damage is heavily physical and sustained through the mid game"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team shifts toward burst magic damage later"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need early grievous wounds to shut down lifesteal or healing in the matchup"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustain-per-trade and the attack-speed/health scaling shards are built for absorbing Boomerang Throw pokes while you wait for Gnar's Mini Gnar reversion window.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs the highest winrate of the three measured pages (55.2%) and matches the aggressive, solo-kill-favoured shape of this matchup — Ignite secures the kill the moment Mini Gnar reverts."
+  },
+  "playing": [
+   {
+    "title": "Don't trade into Mini Gnar's Q range",
+    "detail": "Boomerang Throw (16/14.5/13/11.5/10s CD, 1100 range) outranges you completely before level 6. Hold position, farm, and let your early W rank build Brittle uptime instead of walking up."
+   },
+   {
+    "title": "All-in only after the transform ends",
+    "detail": "OP.GG's own read is to punish Mini Gnar when he's low from transforming back — that's your highest-value window, not mid-poke and not mid-Mega Gnar."
+   },
+   {
+    "title": "Use W to answer his double-leap engage",
+    "detail": "Gnar's E bounces off a unit and travels further on the way in; hold W (Bellows Breath) to catch him on the approach rather than reacting after he's already on top of you."
+   },
+   {
+    "title": "Rank W before Q and E",
+    "detail": "The measured skill order (QWEWW...) prioritizes W by level 5, keeping Brittle active through the levels where Gnar is most willing to commit to a Mega Gnar trade."
+   },
+   {
+    "title": "Charge E into terrain, not just Gnar",
+    "detail": "Searing Charge (14/13.5/13/12.5/12s CD) only knocks up if you hit terrain mid-charge. Line it up against a wall when Mega Gnar overextends to lock him down instead of just dealing flat damage."
+   },
+   {
+    "title": "Save R for the reversion, not the engage",
+    "detail": "Call of the Forge God (140/120/100/100/100s CD) is slow and telegraphed. Hold it until Gnar is already forced back into weak Mini Gnar form so the Brittle application actually confirms a kill."
+   },
+   {
+    "title": "Track the Rage bar, not just his HP",
+    "detail": "Gnar's health looks low as Mini Gnar even when he's about to transform into a tankier, stun-capable Mega Gnar. Watch the Rage meter to know which version you're actually fighting."
+   }
+  ],
+  "patchCaveat": "Win rates, build order, runes, and summoner spells above are measured from live OP.GG games on the current patch (1487 games for this matchup specifically); the mechanical reasoning and timing calls are my own read on top of that data."
+ },
+ "generatedAt": 1791309522295,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791309408627,
+  "overall": {
+   "winRate": 51.6,
+   "play": 86764,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1487,
+   "wins": 789,
+   "winRate": 53.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Ornn",
+  "playStyle": "aggressive",
+  "opponentTip": "Use [Q] to deal damage to Gnar when he is Mini Gnar only. He has low overall health, making [Q] effective after a couple of pokes. If he is Mega Gnar, he can use (E) to leap twice to follow up with (W) or (R), so use [W] to block it. Mini Gnar is weak when he transforms back, so try to kill him then.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.2,
+    "play": 1398,
+    "pickRate": 78.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.2,
+    "play": 310,
+    "pickRate": 17.5
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 61.1,
+    "play": 36,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.8,
+    "play": 325,
+    "pickRate": 18.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Summon Aery",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Demolish"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.2,
+    "play": 225,
+    "pickRate": 12.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.6,
+    "play": 1268,
+    "pickRate": 71
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.9,
+    "play": 227,
+    "pickRate": 12.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.9,
+    "play": 1467,
+    "pickRate": 85.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.9,
+    "play": 233,
+    "pickRate": 13.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 63.5,
+    "play": 63,
+    "pickRate": 7.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 2.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 2.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 52.5,
+    "play": 815,
+    "pickRate": 46.6
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 58.9,
+    "play": 664,
+    "pickRate": 38
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 59.2,
+    "play": 500,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 57.3,
+    "play": 499,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 52.6,
+    "play": 454,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 62.4,
+    "play": 444,
+    "pickRate": 25.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 61.2,
+    "play": 438
+   }
+  ]
+ }
+}

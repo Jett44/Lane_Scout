@@ -1,0 +1,387 @@
+{
+ "you": "Gnar",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if Camille lands Hookshot (E) off a wall and chains Ultimatum (R) into Precision Protocol (Q) before your Rage maxes; you win if you hold outside her 800-range E and poke with Q (Boomerang Throw) at 1100 range all lane."
+  },
+  "thesis": "Camille has no ranged poke besides a 610-range cone on a delay and a 325-range empowered auto, so Mini Gnar's 1100-range Boomerang Throw outranges her entire kit at neutral spacing. The lane is decided by whether Camille can close that gap with Hookshot (E, 800 range, 16-12s cooldown) before Gnar reacts — if she does, her kill pressure (confirmed by the solo-kill stat) is real; if she doesn't, Gnar just wins the poke war at a 47.7% overall but structurally even lane.",
+  "tell": {
+   "watch": "Camille's Hookshot (E) cooldown",
+   "theirWindow": {
+    "when": "Hookshot (E) up near a wall",
+    "what": "She can dash off nearby terrain and knock you up on landing, then chain her empowered Q auto and Ultimatum (R) into a full combo. Back off walls or hold Hop (E) in reserve whenever you see her near one with E available."
+   },
+   "yourWindow": {
+    "when": "Her E (Hookshot) is on cooldown",
+    "what": "She has no way to engage or disengage for the next 12-16 seconds, so walk up to 1100 range and throw Q freely. Catching the returning boomerang cuts the cooldown further, letting you keep pressure up for the full window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q's 1100 range safely punishes her approach"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Tactical Sweep (W) starts trading and healing"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Ultimatum (R) turns extended trades lethal"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Mega Gnar's W stun answers her all-in"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Item timings decide who commits first"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "61.5% pick rate at a 47.9% win rate over 1024 games. The extra AD and sustain matter because you'll be trading autos at the edge of Camille's 325-range Precision Protocol while fishing for Q poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "87.5% pick rate, 47% win rate. Camille's damage is almost entirely auto-attack based (Precision Protocol empowered autos, Adaptive Defenses stacking off hits), so flat damage reduction from basic attacks outvalues magic resist here."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade procs off W (Hyper) hits and the move speed lets Mini Gnar maintain the kiting distance OP.GG's own notes call out as the win condition."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "The armor shred cuts through the health stacking Camille players tend to build against bruisers, keeping your Q and Mega Gnar combos lethal into the mid game."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "29.4% pick rate on this path at 59.1% win rate. The extra health and tenacity-adjacent survivability keep you alive through a Hookshot knockup into Ultimatum chain long enough to transform and answer back."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "she's ahead and her all-in burst through Hookshot plus Ultimatum is killing you before Mega Gnar comes online"
+    },
+    {
+     "item": "Wit's End",
+     "when": "she's building pure AD and you need the attack speed and magic resist to win extended auto trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "Tactical Sweep's outer-half heal is sustaining her through every trade and you need the grievous wounds to shut it off"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "30.2% pick rate at 46.2% win rate, the highest-played page for this matchup. The heal-on-hit and burst move speed directly support the kiting plan against a champion whose only engage is a single-target dash on a 16-12s cooldown.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport",
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash + Teleport is the standard pick (65.4% pick rate, 46.6% win rate) because Camille has no ranged wave clear to punish a teleport recall, letting you reset the wave after every poke trade. Flash + Ignite (17.3% pick, 46.5% win rate) is the alternative when you're confident you can force a kill during one of her Hookshot-down windows."
+  },
+  "playing": [
+   {
+    "title": "Poke at max Q range",
+    "detail": "Boomerang Throw reaches 1100 units while her Hookshot (E) only reaches 800, so stand just outside her engage range and throw Q. Catching the returning boomerang on Mini Gnar cuts the 16-10s cooldown and keeps the poke constant."
+   },
+   {
+    "title": "Hop away from wall engages",
+    "detail": "The moment Camille drifts toward nearby terrain with Hookshot (E) available, pre-emptively Hop (E) away. This is the exact read OP.GG's data flags: use E to dodge her E."
+   },
+   {
+    "title": "Respect the delayed Q recast",
+    "detail": "Precision Protocol (Q) deals significantly more bonus damage if she delays the recast after the first empowered auto. If she lands one auto and backs off, don't walk up — the second hit is coming."
+   },
+   {
+    "title": "Step out during the W cone delay",
+    "detail": "Tactical Sweep (W) fires after a delay, and its outer half slows you while healing her. Use that delay to walk out of the cone rather than eating both the poke and her sustain."
+   },
+   {
+    "title": "Don't force Mega Gnar without R up",
+    "detail": "GNAR! (R) is on a 90/60/30s cooldown and is what makes a stuck Mega Gnar dangerous instead of just a bigger target. Before it's reliably up, don't commit Wallop's stun into an extended trade — her Ultimatum (140/115/90s cooldown) plus Hookshot's knockup punishes a committed Mega Gnar harder than Mini can escape."
+   },
+   {
+    "title": "All-in on her Hookshot cooldown",
+    "detail": "The real kill window is R up for you, E down for her. Catch a Q for the cooldown refund, transform, land Wallop's stun, then use GNAR! to throw her into a wall for the bonus stun and damage."
+   },
+   {
+    "title": "Teleport back to deny the freeze",
+    "detail": "Camille has no ranged wave clear, so after a poke-heavy trade, Teleport back to lane to retake the wave before she can freeze it near her tower."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners, and all win-rate/pick-rate figures are measured from current-patch OP.GG games (88,181 Gnar top games, 1,413 in this specific head-to-head); the tactical reading of cooldown windows, spacing, and combo sequencing is the coach's own analysis layered on top of that data."
+ },
+ "generatedAt": 1791310829811,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791310697513,
+  "overall": {
+   "winRate": 48.9,
+   "play": 88181,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1413,
+   "wins": 674,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Camille",
+  "playStyle": "defensive",
+  "opponentTip": "Use [E] to dodge Camille’s (E). Kite her when you are Mini Gnar to easily gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.6,
+    "play": 1088,
+    "pickRate": 65.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.5,
+    "play": 288,
+    "pickRate": 17.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.4,
+    "play": 153,
+    "pickRate": 9.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 511,
+    "pickRate": 30.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.6,
+    "play": 395,
+    "pickRate": 23.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.9,
+    "play": 1024,
+    "pickRate": 61.5
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 42.7,
+    "play": 246,
+    "pickRate": 14.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47,
+    "play": 1396,
+    "pickRate": 87.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 41.9,
+    "play": 136,
+    "pickRate": 8.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 59.1,
+    "play": 237,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 50.5,
+    "play": 107,
+    "pickRate": 13.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 57.3,
+    "play": 89,
+    "pickRate": 11
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.5,
+    "play": 1495,
+    "pickRate": 93
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.9,
+    "play": 922,
+    "pickRate": 57.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.4,
+    "play": 608,
+    "pickRate": 37.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 53.9,
+    "play": 308,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 55.4,
+    "play": 231,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.3,
+    "play": 117,
+    "pickRate": 7.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.1,
+    "play": 539
+   }
+  ]
+ }
+}

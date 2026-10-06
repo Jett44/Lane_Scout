@@ -1,0 +1,385 @@
+{
+ "you": "Gnar",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane favored, close game",
+   "line": "You win by staying Mini Gnar and poking from range he can't reach; you lose if you get stuck trading in melee as Mega Gnar or caught low by his R."
+  },
+  "thesis": "Garen has no dash or gap-closer, and every one of his abilities is short range (Q 300, E 325, R 400) while your Q (Boomerang Throw) reaches 1100 — as long as you stay Mini Gnar you can poke him for free. The catch is that Mega Gnar transformation erases that range gap and turns the fight into the stick-and-spin melee duel Garen's whole kit is built for, which is why the matchup is lane-favored for you but evens out overall.",
+  "tell": {
+   "watch": "Your own Rage bar / Mega timing",
+   "theirWindow": {
+    "when": "You're forced into Mega Gnar mid-fight",
+    "what": "Mega Gnar can't bounce away with E, so Garen's W (Courage) sustained swings plus E (Judgment) spin let him stick to you and out-trade you in melee. Back off and let Rage decay before re-engaging if you can."
+   },
+   "yourWindow": {
+    "when": "Mini Gnar with Q (Boomerang Throw) up",
+    "what": "Throw Q from max range and walk back. Garen has no dash to punish the poke, and catching the returning boomerang cuts its cooldown for another throw almost immediately."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "His Q-auto combo threatens early all-ins"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Range plus Hop kiting denies his sustain"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R only lands if you overextend"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Cooldowns shrink, trades tighten both sides"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "Mega Gnar brawls let him stick and win"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 50.1% win rate pick over 1788 games; the extra HP and sustain let you tank his early E (Judgment) spin damage while you look for Q poke windows."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "77.3% pick at 49.6% win rate — flattens the chip damage from his autos and W (Courage) so he can't bully you off CS between your poke trades."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Most-picked first core item (55.1% win rate across this build path); the move speed and on-hit damage amplify your Mini Gnar poke-and-kite pattern."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds armor so your Q and autos keep doing real damage as he builds tankier, and the move speed stacking helps you stay out of his melee range."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The most-picked third item (29.5% pick); the shield and tenacity help you survive the exact Mega Gnar brawls this lane tends to tip into."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "garen is snowballing and threatening to close out fights with his R before you can disengage"
+    },
+    {
+     "item": "Wit's End",
+     "when": "he's stacking armor against your autos and you need the magic on-hit plus magic resist"
+    },
+    {
+     "item": "Thornmail",
+     "when": "his passive (Perseverance) regen is undoing your poke damage between trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The sustain and move speed on hit fit the poke-and-walk pattern directly — it lets you win the HP race against his passive regen while keeping the speed edge that his dash-less kit can't answer.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The dominant pick at 67% and 49.1% win rate. Flash lets you dodge the empowered auto off his Q (Decisive Strike) or sidestep his R (Demacian Justice) at low HP; Teleport resets you to lane after poke trades so you never lose CS to his passive sustain."
+  },
+  "playing": [
+   {
+    "title": "Poke at max range",
+    "detail": "Open with Q (Boomerang Throw) at 1100 range whenever he closes into auto range, then walk back. Catching the returning boomerang cuts its cooldown, so you can keep repeating this without ever trading blows."
+   },
+   {
+    "title": "Respect the Q-auto silence",
+    "detail": "His Q (Decisive Strike) gives him a move speed burst that breaks slows and empowers his next auto to silence you. Don't sit in his auto range while that Q is up or you'll eat bonus damage and lose a cast."
+   },
+   {
+    "title": "Use E to disengage, not engage",
+    "detail": "Save E (Hop/Crunch) to bounce out of his E (Judgment) spin radius rather than jumping in. Mini Gnar loses a straight melee trade, so the leap is your exit, not your opener."
+   },
+   {
+    "title": "Track your own Rage bar",
+    "detail": "Watch how close you are to maxing Rage and transforming. Try to time Mega Gnar for when he commits to an all-in so your W (Wallop) stun punishes him, but avoid transforming mid-kite where you'd lose the range edge for nothing."
+   },
+   {
+    "title": "Deny his passive tick",
+    "detail": "His passive (Perseverance) only regens health if he hasn't taken damage recently. Land a Q on cooldown to keep him off that sustain curve, especially levels 3-5 where your range advantage is largest."
+   },
+   {
+    "title": "Play around his R timer",
+    "detail": "From level 6 on, track his R (Demacian Justice) cooldown (140/110/80/50/20s). Never sit at low HP inside 400 range of him since it executes based on missing health."
+   },
+   {
+    "title": "Expect to lose Mega brawls",
+    "detail": "If you're both forced into prolonged melee as Mega Gnar, his W (Courage) sustained swings and E spin will out-damage you over time. Disengage and reset instead of trading blow for blow."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample figures are measured OP.GG data from live games on the current patch (16.19.1); the ability readings and lane tactics are my own analysis."
+ },
+ "generatedAt": 1791310296295,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791310199885,
+  "overall": {
+   "winRate": 48.9,
+   "play": 88181,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 2159,
+   "wins": 1070,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "Gnar",
+  "soloKillAdvantage": "Gnar",
+  "playStyle": "even",
+  "opponentTip": "Avoid fighting him head on. Kite him while Mini Gnar and avoid being killed by his (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.1,
+    "play": 1796,
+    "pickRate": 67
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.4,
+    "play": 504,
+    "pickRate": 18.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50.3,
+    "play": 195,
+    "pickRate": 7.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 904,
+    "pickRate": 32.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.2,
+    "play": 760,
+    "pickRate": 27.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.1,
+    "play": 1788,
+    "pickRate": 65.7
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.5,
+    "play": 644,
+    "pickRate": 23.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.6,
+    "play": 2055,
+    "pickRate": 77.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.4,
+    "play": 284,
+    "pickRate": 10.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 55.1,
+    "play": 461,
+    "pickRate": 29.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 55.6,
+    "play": 257,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 55.1,
+    "play": 167,
+    "pickRate": 10.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 49.7,
+    "play": 2458,
+    "pickRate": 93
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.9,
+    "play": 1821,
+    "pickRate": 68.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.9,
+    "play": 1048,
+    "pickRate": 39.7
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 54.4,
+    "play": 662,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 54.2,
+    "play": 443,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.5,
+    "play": 167,
+    "pickRate": 6.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52.9,
+    "play": 1211
+   }
+  ]
+ }
+}

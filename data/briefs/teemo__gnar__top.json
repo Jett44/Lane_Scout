@@ -1,0 +1,386 @@
+{
+ "you": "Teemo",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him hit max Rage and dive you at full HP; you win every trade he takes without it."
+  },
+  "thesis": "Teemo vs Gnar is dead even on the numbers (54.2% over 1433 games) because both champions are poke-based ranged laners fighting for the same space at 680/1100 range. The lane is decided by who manages Gnar's Rage Gene and who controls Blinding Dart's 8-second cooldown, not by raw stats.",
+  "tell": {
+   "watch": "Gnar's Rage/Fury bar",
+   "theirWindow": {
+    "when": "Gnar's Rage bar is full",
+    "what": "He is about to transform into Mega Gnar on his next ability use, which removes his ranged Boomerang Throw poke and gives him a melee W (Wallop) stun and E (Crunch) AoE. Do not stand still in his face at full Rage — back off to 680+ range and reset the fight on your terms."
+   },
+   "yourWindow": {
+    "when": "his Q (Boomerang Throw) is on cooldown",
+    "what": "With no boomerang in hand, Gnar has no poke tool until it returns or recharges (16/14.5/13/11.5/10s). Walk up and land Toxic Shot autos or a Blinding Dart to blind him before he can punish the approach."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "even",
+    "note": "both poking at range, no transform yet"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "mini-Gnar Rage procs enable quick all-ins"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Toxic Shot stacks offset his hyper damage"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Statikk Shiv/Liandry's outscale his scaling"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "his R (GNAR!) wall-stun threatens burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "55.7% win rate over 1387 games (76% pick rate) — the extra sustain and mana regen let you hold Blinding Dart for trades instead of auto-poking alone."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "54% win rate over 774 games (44.4% pick) — magic penetration scales your Toxic Shot and Liandry's damage through his armor stacking."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "attack speed plus the proc punishes him for standing in poke range to land his own Boomerang Throw"
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "burn stacks compound with Toxic Shot's damage-over-time for a 58% win rate over 522 games on this path"
+    },
+    {
+     "item": "Malignance",
+     "why": "ability haste drops your Blinding Dart cooldown further, letting you blind him more often during his all-in windows"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Shadowflame",
+     "when": "he builds any magic resist to answer your DoT damage"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you are ahead and want to snowball attack speed for faster Toxic Shot stacking"
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "when": "the game goes long and you need to one-shot squishies with mushrooms"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "rewards sustained autos in extended poke trades and punishes Gnar for staying in range to fight back",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "run at 54.7% win rate and 93.5% pick rate — Ignite closes out poke trades before he can transform and disengage, Flash dodges his E (Hop) engage."
+  },
+  "playing": [
+   {
+    "title": "Track Rage before every trade",
+    "detail": "Check his Rage bar before committing to an auto exchange. At max Rage his next ability flips him into Mega Gnar with a melee stun — disengage to range instead of continuing the trade."
+   },
+   {
+    "title": "Hold Blinding Dart for his engage",
+    "detail": "Blinding Dart has an 8-second cooldown and blinds him on a 680-range hit — save it to shut down his transformed W (Wallop) stun attempt or his E (Hop) landing, not just for chip damage."
+   },
+   {
+    "title": "Poke when his Q is down",
+    "detail": "Boomerang Throw's cooldown is 16 down to 10 seconds with rank; once he's thrown it and missed the catch, close distance and stack Toxic Shot autos freely."
+   },
+   {
+    "title": "Use Camouflage to reset trades",
+    "detail": "Stand still after a trade to go Invisible, then re-engage with the Element of Surprise attack speed buff when he's expecting disengage."
+   },
+   {
+    "title": "Respect the mega form's E (Crunch)",
+    "detail": "Once transformed, his E deals AoE damage around his landing spot instead of bouncing off a unit — don't stand near where he lands even if you dodged the initial hit."
+   },
+   {
+    "title": "Place mushrooms on his jungle entrances",
+    "detail": "Noxious Trap has only a 1-second cooldown between plants — pre-seed river and tri-brush so his all-in or gank attempts walk into a slow and DoT before he reaches you."
+   },
+   {
+    "title": "Punish post-transform cooldowns",
+    "detail": "After he reverts from Mega Gnar his mobility and stun are gone for a stretch — this is your highest-value window to shove the wave or force a kill with Ignite up."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are pulled directly from measured OP.GG games on the current patch (16.19.1); the Rage-tracking and cooldown-window tactics are my own reading of the mechanics, not measured data."
+ },
+ "generatedAt": 1791309651686,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791309611616,
+  "overall": {
+   "winRate": 51.1,
+   "play": 101263,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1433,
+   "wins": 776,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Check Gnar’s Fury. Be careful when he has full Fury as he will try to close in!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.7,
+    "play": 1687,
+    "pickRate": 93.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.4,
+    "play": 63,
+    "pickRate": 3.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 37.5,
+    "play": 24,
+    "pickRate": 1.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55,
+    "play": 698,
+    "pickRate": 37.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Coup de Grace"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 210,
+    "pickRate": 11.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 55.7,
+    "play": 1387,
+    "pickRate": 76
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53,
+    "play": 281,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 54,
+    "play": 774,
+    "pickRate": 44.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.6,
+    "play": 658,
+    "pickRate": 37.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 58,
+    "play": 522,
+    "pickRate": 43.1
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Malignance",
+     "Liandry's Torment"
+    ],
+    "winRate": 53.5,
+    "play": 99,
+    "pickRate": 8.2
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Shadowflame"
+    ],
+    "winRate": 61,
+    "play": 77,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 54.9,
+    "play": 1482,
+    "pickRate": 82.4
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 57,
+    "play": 1378,
+    "pickRate": 76.6
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 57.8,
+    "play": 995,
+    "pickRate": 55.3
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 58.9,
+    "play": 382,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 57.7,
+    "play": 246,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 62.1,
+    "play": 190,
+    "pickRate": 10.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 56.8,
+    "play": 651
+   }
+  ]
+ }
+}

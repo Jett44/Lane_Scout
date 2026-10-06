@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane favored",
+   "line": "You lose if you walk into his 1100-range Q and trade autos while his E (Hop) is up; you win if you dash in with your E the instant his Hop goes on cooldown and chain into a stun before he can reset the gap."
+  },
+  "thesis": "Gnar has no reliable way to create distance once his E (Hop, cooldown 22/19.5/17/14.5/12s) is down, and Renekton gets a 450-range gap closer in E (Slice and Dice) from level 2 onward. The matchup is a race between Renekton's Fury-fueled all-ins during Hop's cooldown window and Gnar's attempt to poke safely with Q (Boomerang Throw, 1100 range) and kite away whenever Hop is up.",
+  "tell": {
+   "watch": "Gnar's Rage meter and E cooldown",
+   "theirWindow": {
+    "when": "his E (Hop) is up and your E is down",
+    "what": "He'll poke freely with Q (1100 range) and harass with Hyper-empowered autos while kiting. Don't walk up to trade here — you'll eat ranged damage with no way to close before he hops away."
+   },
+   "yourWindow": {
+    "when": "his E (Hop) is on cooldown",
+    "what": "Immediately close with E (Slice and Dice, 450-range dash) and chain into W (Ruthless Predator) for the stun. He has no displacement until Hop refreshes, so this is your commit window — especially once you're above 50 Fury for the upgraded empowered Q and three-hit W."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q (1100 range) outranges your Q (325 range)"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E dash punishes every Hop cooldown gap"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults online, burst trades burst"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse/Cleaver spike still threatens kills"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Mega Gnar R knockback wins teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The block-and-regen passive soaks the chip damage from his Q and Hyper-empowered autos while you walk up to threaten a trade, letting you arrive at range with more HP than a Doran's Blade start (48% WR, 63.4% pick)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Gnar's entire poke package — Q, autos, Hyper bonus damage — is physical; Steelcaps (47.9% WR, 88% pick) directly reduces every hit he lands on you while you close in."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The proc shield absorbs a chunk of his Q poke or Hyper auto right as you commit your all-in during a Hop-down window."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred keeps your empowered E and R damage relevant into his HP-stacked Mega Gnar form."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The bonus health and tenacy-adjacent survivability (50% WR over 108 games) let you tank through a stray W Wallop stun or R knockback without instantly dying to the follow-up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "the game extends past 20-25 minutes and you need sustained damage mitigation instead of a single burst window (47.2% WR line)"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their jungler or mid adds extra hard CC on top of Gnar's stuns"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want a mobility rush into Black Cleaver and Sterak's instead of Eclipse (55.4% WR over a smaller 56-game sample)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive force and healing offsets Gnar's ranged poke damage while you close distance, and the stacks keep building through the extended skirmishes your Fury-based all-ins create (46.3% WR, highest-pick page in the data).",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Given your lane and solo-kill advantage here, Ignite (48.2% WR, 68.2% pick) converts your level 2-5 all-in windows into kills before he can disengage, while Flash guarantees you can close the gap or extend a chase through terrain."
+  },
+  "playing": [
+   {
+    "title": "Punish Hop cooldown",
+    "detail": "Track his E (Hop, 22/19.5/17/14.5/12s cooldown). The instant it's down, dash in with your E and chain into W for the stun — he has no way to create distance until it refreshes."
+   },
+   {
+    "title": "Don't walk into Q range",
+    "detail": "His Q (1100 range) outranges your Q (325 range) by a wide margin. Hold just outside that range when his Hop is up so he can't poke you for free."
+   },
+   {
+    "title": "Fury-check before committing",
+    "detail": "Check your Fury bar before diving. Above 50 Fury your W slashes three times for a 1.5s stun and destroys shields — wait the extra auto or two to cross that threshold before an all-in."
+   },
+   {
+    "title": "Respect the Rage transform",
+    "detail": "Watch his Rage meter. At max Rage his next ability instantly triggers Mega Gnar, adding a ground-slam stun (W Wallop) and extra survivability mid-fight — don't start your stun chain right as his bar caps."
+   },
+   {
+    "title": "Ult to tank the poke, not just for damage",
+    "detail": "Your R (Dominus) grants bonus health and periodic Fury generation alongside its initial damage pulse. Pop it when diving past level 6 to soak his Q poke and keep refilling Fury for a second empowered W."
+   },
+   {
+    "title": "Post-6 pattern stays the same",
+    "detail": "His R (GNAR!) only fires once he's capped Rage and transformed — it doesn't replace Hop's short cooldown as his main disengage. Keep closing the instant Hop is down through the mid-game."
+   },
+   {
+    "title": "Trade through Doran's Shield",
+    "detail": "The block-and-regen passive lets you walk up to his Q and Hyper-auto harassment with more HP banked than a straight damage start would give you."
+   }
+  ],
+  "patchCaveat": "Build, runes, boots, summoners, and win rates above are pulled from measured OP.GG games on the current patch (2,134 Renekton-vs-Gnar games at 48.7% win rate); the ability tells, timing windows, and trade-pattern reasoning are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791308849478,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791308707262,
+  "overall": {
+   "winRate": 49.6,
+   "play": 128309,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2134,
+   "wins": 1039,
+   "winRate": 48.7
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep some distance to avoid being kited by Gnar while building up Fury. Close in to engage combat whenever Gnar’s (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.2,
+    "play": 1682,
+    "pickRate": 68.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.6,
+    "play": 642,
+    "pickRate": 26
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 59.8,
+    "play": 117,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.3,
+    "play": 600,
+    "pickRate": 24.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.1,
+    "play": 288,
+    "pickRate": 11.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 1564,
+    "pickRate": 63.4
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 831,
+    "pickRate": 33.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.9,
+    "play": 2108,
+    "pickRate": 88
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.8,
+    "play": 215,
+    "pickRate": 9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 47.2,
+    "play": 197,
+    "pickRate": 15.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 108,
+    "pickRate": 8.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 55.4,
+    "play": 56,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49.9,
+    "play": 1583,
+    "pickRate": 65.1
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.3,
+    "play": 1371,
+    "pickRate": 56.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.5,
+    "play": 764,
+    "pickRate": 31.4
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.9,
+    "play": 723,
+    "pickRate": 29.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54,
+    "play": 622,
+    "pickRate": 25.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 49.9,
+    "play": 427,
+    "pickRate": 17.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.1,
+    "play": 846
+   }
+  ]
+ }
+}
