@@ -1,0 +1,389 @@
+{
+ "you": "Mordekaiser",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, winnable",
+   "line": "You lose extended ranged exchanges before level 6 while Jayce free-pokes from Cannon stance, but you win from level 6 onward by pulling him into melee with E and banishing him 1v1 with R."
+  },
+  "thesis": "Jayce's entire threat lives in Cannon stance at range — Shock Blast poke, Acceleration Gate speed, Hyper Charge attack speed — while Mordekaiser's only way to close that gap is Death's Grasp's 700-range pull. That structural gap favors Jayce pre-6 and flips hard once Mordekaiser can isolate him with R, which lines up with the measured 51.3% Mordekaiser win rate over 1,424 games, Mordekaiser's solo-kill edge, and OP.GG's own read that this is an aggressive lane once you commit at level 6.",
+  "tell": {
+   "watch": "Jayce's weapon stance icon",
+   "theirWindow": {
+    "when": "Jayce in Cannon stance, Q and E up",
+    "what": "He can fire Shock Blast and increase its range/damage by sending it through his own Acceleration Gate (E). Don't trade autos into this; hold behind minions and let him spend mana on a poke that isn't followed by a kill threat. OP.GG's own data is explicit: do not fight him while your W (Indestructible) is on cooldown."
+   },
+   "yourWindow": {
+    "when": "Level 6+, Jayce forced into melee range",
+    "what": "Land E (Death's Grasp, 700 range) to drag him in, then immediately R (Realm of Death) to banish him 1v1 away from minions, allies, and his Acceleration Gate. Once he's trapped at point-blank for the duration, his kiting tools stop mattering and the fight becomes a straight stat race you're built to win."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Starting item offsets early poke trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Gated Shock Blast combo outranges you"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R isolates Jayce in melee, lane flips"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Rylai's slow locks him down in skirmishes"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His range matters again, but you 1v1 better"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "Measured 54.2% win rate over 688 games, the higher of the two listed starts in this matchup, and it keeps you solvent through the mana-hungry early trades where you're mostly absorbing poke rather than returning it."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "84.5% pick rate and 50.7% win rate — Jayce's damage before and after his stance swap is heavily auto-attack based, and Steelcaps directly cuts that."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow from your Q and E is what actually keeps Jayce from walking back to max range after you pull him in with E."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained damage and omnivamp win the extended skirmish you create once R has isolated him — this exact path hits 59.2% over 103 games."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage punishes him for sitting inside your E/R zone and stacks cleanly with the Rylai's slow."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hextech Rocketbelt",
+     "when": "you need an extra gap-closer to punish his cannon-stance poke before level 6"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he starts building into crit or heavy sustained auto-attack damage"
+    },
+    {
+     "item": "Experimental Hexplate",
+     "when": "you need more mobility and CC utility to actually land E on him"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "you need a defensive active against burst once teamfights start"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Ramps during the extended melee skirmish you force after E-into-R, and the adaptive force/omnivamp from stacking it turns a close-quarters fight into sustained healing while he has no range to disengage.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The most picked and highest-sample combo (52.1% win, 65.3% pick) — Mordekaiser holds the solo-kill edge in this matchup, and Ignite is what converts an E-into-R isolation into an actual kill instead of a trade."
+  },
+  "playing": [
+   {
+    "title": "Hold trades until level 6",
+    "detail": "Before 6 you have no reliable way to close distance beyond E's 700-range pull. Eat Cannon-stance poke behind minions and prioritize farming over short trades."
+   },
+   {
+    "title": "Watch for the stance swap",
+    "detail": "R instantly swaps Jayce between Hammer and Cannon on a 6s cooldown, and his first attack after swapping is empowered — armor/MR shred coming out of Hammer, bonus magic damage coming out of Cannon. The stance icon changing is your warning that a trade is about to start."
+   },
+   {
+    "title": "Pull with E before anything else",
+    "detail": "Death's Grasp is your only tool that drags him out of kiting range. Land it first so he can't walk the fight back to max range before your Q lands."
+   },
+   {
+    "title": "Chain R off a landed E",
+    "detail": "Realm of Death isolates him 1v1 away from his Acceleration Gate and allies, stripping the positioning tools he needs to kite. Use it the instant E connects for a clean all-in."
+   },
+   {
+    "title": "Never engage with W down",
+    "detail": "Jayce's full gated Shock Blast combo punishes you hard if Indestructible is on cooldown. Disengage and let it reset before re-initiating."
+   },
+   {
+    "title": "Bank damage, pop the heal late",
+    "detail": "Let W store incoming Shock Blast and auto damage during poke exchanges, then consume it for the heal right before you commit to your all-in window."
+   },
+   {
+    "title": "Repeat the pattern, don't split",
+    "detail": "You hold the solo-kill edge here — once you isolate him once, look to repeat E-into-R on cooldown (140/120/100/90/80s) rather than giving him space to re-establish range."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner picks, and every win rate above are pulled from measured Mordekaiser vs Jayce games on the current patch via OP.GG; the timing windows, stance-tracking advice, and trade patterns are my own tactical read of the ability kits, not measured data."
+ },
+ "generatedAt": 1791256007949,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791255907169,
+  "overall": {
+   "winRate": 49.8,
+   "play": 109523,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1424,
+   "wins": 731,
+   "winRate": 51.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not fight Jayce when your [W] is on cooldown. Try to fight him in close quarters after reaching level 6 to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.1,
+    "play": 1086,
+    "pickRate": 65.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.7,
+    "play": 304,
+    "pickRate": 18.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.6,
+    "play": 196,
+    "pickRate": 11.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.6,
+    "play": 686,
+    "pickRate": 40.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.7,
+    "play": 145,
+    "pickRate": 8.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 851,
+    "pickRate": 50.6
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 54.2,
+    "play": 688,
+    "pickRate": 40.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.7,
+    "play": 1369,
+    "pickRate": 84.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.6,
+    "play": 166,
+    "pickRate": 10.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 59.2,
+    "play": 103,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Experimental Hexplate"
+    ],
+    "winRate": 58.5,
+    "play": 53,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 62.8,
+    "play": 43,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 52.2,
+    "play": 1183,
+    "pickRate": 72.2
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53,
+    "play": 1043,
+    "pickRate": 63.6
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 54.3,
+    "play": 392,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 56.6,
+    "play": 371,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Experimental Hexplate"
+    ],
+    "winRate": 53.5,
+    "play": 273,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.4,
+    "play": 264,
+    "pickRate": 16.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.4,
+    "play": 652
+   }
+  ]
+ }
+}

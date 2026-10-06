@@ -1,0 +1,380 @@
+{
+ "you": "Gangplank",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, spiky",
+   "line": "You lose if Urgot lands Disdain on you at level 3 or 6 and chains it into Echoing Flames and Fear Beyond Death; you win if you survive those two windows and scale into your crit items."
+  },
+  "thesis": "Urgot is a ranged poke-and-burst duelist whose E (Disdain) catch chains into passive flame procs and, from level 6, a global execute — that produces two sharp, discrete kill windows rather than constant pressure. Outside those windows Gangplank's own ranged Q trades and W sustain let him play even, and the head-to-head data (48.6% GP win rate over 1519 games, lane EVEN but solo-kill edge to Urgot) reflects exactly that: defensive, not losing.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "Right after E (Disdain) lands on you",
+    "what": "He stops on the catch and chains autos/W (Purge) to trigger Echoing Flames procs; at level 6 he follows with R (Fear Beyond Death) to set up the execute. Back off immediately instead of trading through it."
+   },
+   "yourWindow": {
+    "when": "Right after his E (Disdain) whiffs or is on cooldown",
+    "what": "Disdain is 16/15.5/15/14.5/14s on cooldown by rank — with no other dash, he can't disengage or re-catch you. Step up and trade with Q (Parrrley) or all-in while it's down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both poking at range, no all-in tools yet"
+   },
+   {
+    "levels": "3-6",
+    "edge": "them",
+    "note": "Disdain-into-Echoing-Flames, R execute online at 6"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "you stabilize as core items complete"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "crit build plus global ult outscales his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "48.2% win rate over 1272 games and the standard 71.1% pick — the extra AD and sustain let you trade Q (Parrrley) into his poke without losing the HP race before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "48.7% win rate, 41% pick — flat physical reduction blunts his autos, Echoing Flames procs, and Purge channel, all of which are physical damage."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain and AD let you spam Q (Parrrley, 5s cooldown) in trades without running dry, and it's the first item in the highest-winrate path (54.8% over 241 games)."
+    },
+    {
+     "item": "The Collector",
+     "why": "Execute threshold synergizes with your own all-in burst once Urgot is low from poison stacks and Q resets."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Completes the 54.8%-winrate path — crit scaling is where you pull ahead of him in the late-game power curve."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "he or the enemy team starts stacking armor or health tank items"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "his Q (Corrosive Charge) poke is wearing you down too hard pre-6 and you need lifesteal sustain"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need extra burst or a dash to punish him right after Disdain goes on cooldown"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Its damage-over-time stacks with your Grog-Soaked Blade poison during extended trades, punishing him for standing in Q (Parrrley) range to poke back.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 88.4% of games at 48.5% win rate — Flash dodges or resets the level 3/6 Disdain all-in, and Ignite denies his sustain and secures the kill once he commits."
+  },
+  "playing": [
+   {
+    "title": "Track Disdain's cooldown out loud",
+    "detail": "16/15.5/15/14.5/14s by rank with no backup dash — once it's down, he has no way to catch or escape you, so that's your trade window."
+   },
+   {
+    "title": "Respect levels 3 and 6 specifically",
+    "detail": "These are his two scripted kill windows (E into Echoing Flames, then R execute at 6). Don't overextend into his E (475) or Q (800) range on these levels even if the wave looks free."
+   },
+   {
+    "title": "Poke with Q, not autos",
+    "detail": "Parrrley's 625 range lets you contest his ranged kit without walking into auto-attack range where Echoing Flames builds up on you."
+   },
+   {
+    "title": "Hold W for his Corrosive Charge slow",
+    "detail": "Remove Scurvy clears CC and heals — save it to cleanse his Q slow mid-chase rather than burning it reflexively on cooldown."
+   },
+   {
+    "title": "Freeze near tower before level 6",
+    "detail": "Denying easy Disdain setups in the 3-6 window matters more than farming aggressively; push harder once you've survived his first ult-enabled all-in."
+   },
+   {
+    "title": "Use R globally once he's immobile",
+    "detail": "Cannon Barrage has 20000 range — punish his lack of a second dash by zoning him off objectives or finishing him in skirmishes he can't escape."
+   },
+   {
+    "title": "Scale into crit items before forcing fights",
+    "detail": "You're the better champion past level 12 with Essence Reaver into Infinity Edge online — avoid forcing all-ins before your core completes."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are pulled directly from measured OP.GG games on the current patch (16.19.1); the ability timings, kill-window reads, and trade patterns are my own tactical analysis layered on top."
+ },
+ "generatedAt": 1791255608202,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791255519407,
+  "overall": {
+   "winRate": 50.8,
+   "play": 125439,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1519,
+   "wins": 738,
+   "winRate": 48.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "defensive",
+  "opponentTip": "Use Grasp of the Undying and [Q] to contest lane and gain control over lane easily. However be careful of being hit with (E)-(P) during level 3 and 6 as he can kill you then.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.5,
+    "play": 1586,
+    "pickRate": 88.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 181,
+    "pickRate": 10.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 25,
+    "pickRate": 1.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.4,
+    "play": 735,
+    "pickRate": 40.1
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 45.7,
+    "play": 92,
+    "pickRate": 5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 1272,
+    "pickRate": 71.1
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.1,
+    "play": 180,
+    "pickRate": 10.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.7,
+    "play": 626,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 53.5,
+    "play": 361,
+    "pickRate": 23.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 54.8,
+    "play": 241,
+    "pickRate": 18.9
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 49.8,
+    "play": 235,
+    "pickRate": 18.5
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 53.4,
+    "play": 148,
+    "pickRate": 11.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 48.8,
+    "play": 1707,
+    "pickRate": 96.4
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 49.8,
+    "play": 985,
+    "pickRate": 55.7
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 49.7,
+    "play": 912,
+    "pickRate": 51.5
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 52.8,
+    "play": 777,
+    "pickRate": 43.9
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 51.6,
+    "play": 479,
+    "pickRate": 27.1
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 55.3,
+    "play": 215,
+    "pickRate": 12.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 49.1,
+    "play": 582
+   }
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "you": "Gangplank",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him stack Siphoning Strike uncontested and melee him after his ult; you win if you poke him down with Parrrley before level 6 and keep him off his stacks."
+  },
+  "thesis": "Parrrley has 625 range and Siphoning Strike only reaches 255, so Nasus physically cannot answer your poke until he either flashes in or lands enough Q stacks to force a trade. The entire lane is about denying him free Siphoning Strike casts on minions while chipping him down at a range he can't match.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Level 6+, he presses Fury of the Sands",
+    "what": "His health, range, and damage spike while the ult is active (120s cooldown). Do not extend a melee trade into it — disengage and let it run out before reapproaching."
+   },
+   "yourWindow": {
+    "when": "He commits Siphoning Strike at a minion",
+    "what": "The cast locks him in place at 255 range. Walk up and land a free Parrrley or auto for passive poison stacks while he's recovering."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "625 range Q outranges his 255 range Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "zone his CS, bank a gold lead"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "his R online, cleanse Wither to disengage"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "stacked Q scales him, your crit items scale you"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "full-build stacked Nasus wins extended skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The lifesteal and HP sustain let you win extended poke exchanges where Nasus is forced to eat Parrrley hits without being able to Q back."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Nasus's threat comes from auto attacks and Siphoning Strike procs; the flat auto-damage reduction blunts both his CS'd Q and any all-in he lands after a Wither."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain to spam Parrrley all lane without running dry, which is how you keep outranging him"
+    },
+    {
+     "item": "The Collector",
+     "why": "Lowers the execute threshold — Parrrley killing blows already grant bonus gold and a mana refund, and Collector stacks that reward on top"
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "why": "Cuts through the armor Nasus naturally stacks as he tanks up, keeping your poke relevant into the late game"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "he builds lifesteal or healing to lean harder on Soul Eater"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "he is threatening to kill you outright in a single all-in after Fury of the Sands"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "the game runs long and he isn't stacking armor, so raw crit outvalues armor pen"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Stacks a second damage-over-time on top of your Grog-Soaked Blade poison, which matters because Nasus can't rush you down fast enough at 255 range to punish a DOT-heavy poke trade.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite converts your Parrrley poke into kill pressure and cuts into the lifesteal he gets from Soul Eater during any extended trade."
+  },
+  "playing": [
+   {
+    "title": "Poke at max range",
+    "detail": "Use Parrrley at 625 range to harass; Siphoning Strike only reaches 255, so he cannot answer without walking into your attack range first."
+   },
+   {
+    "title": "Cleanse Wither on sight",
+    "detail": "The moment he lands Wither, use Remove Scurvy to clear the slow and heal, restoring the kiting distance his whole kit depends on removing."
+   },
+   {
+    "title": "Punish his CS windups",
+    "detail": "Siphoning Strike's cooldown drops from 8s to 4s as he ranks it, but every cast still locks him in place on a minion — that's a free Parrrley or auto window."
+   },
+   {
+    "title": "Respect level 6 Fury of the Sands",
+    "detail": "Once his ult (120s cooldown) is up, don't extend melee trades into it. Back off and let the duration expire before re-engaging."
+   },
+   {
+    "title": "Never stand in Spirit Fire",
+    "detail": "His 650 range, 12s cooldown zone shreds armor on anyone standing in it. Don't contest CS or trade inside it, even for a last hit."
+   },
+   {
+    "title": "Use Raise Morale to extend or escape",
+    "detail": "The 1200 range, 20s cooldown AD and movement speed buff lets you either commit harder to a trade or physically outrun his melee kit on disengage."
+   },
+   {
+    "title": "Save Parrrley to execute",
+    "detail": "A killing blow with Parrrley grants bonus gold and refunds half its mana cost, so hold it to finish low-health trades rather than opening with it."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are measured from live OP.GG games on the current patch (16.19.1); the mechanical reasoning and trade timing are my own read of the matchup."
+ },
+ "generatedAt": 1791255467807,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791255368775,
+  "overall": {
+   "winRate": 50.8,
+   "play": 125439,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2115,
+   "wins": 1056,
+   "winRate": 49.9
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Focus on getting control over lane during early game. Be careful when he uses Unbound Spellbook - (R) to get a kill. Always use [W] to his (W) to manage your distance well.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 2427,
+    "pickRate": 92.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.5,
+    "play": 160,
+    "pickRate": 6.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 0.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.7,
+    "play": 1155,
+    "pickRate": 42.9
+   },
+   {
+    "primaryTree": "Inspiration",
+    "primary": [
+     "First Strike",
+     "Cash Back",
+     "Triple Tonic",
+     "Cosmic Insight"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 49.2,
+    "play": 185,
+    "pickRate": 6.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.1,
+    "play": 1846,
+    "pickRate": 69.5
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 350,
+    "pickRate": 13.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49.7,
+    "play": 591,
+    "pickRate": 25.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.3,
+    "play": 569,
+    "pickRate": 24.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 56.8,
+    "play": 229,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 51.3,
+    "play": 199,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 57.9,
+    "play": 197,
+    "pickRate": 10.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 50.2,
+    "play": 2531,
+    "pickRate": 96.9
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 51.3,
+    "play": 1263,
+    "pickRate": 48.4
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 53.5,
+    "play": 1127,
+    "pickRate": 43.2
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 54.4,
+    "play": 1083,
+    "pickRate": 41.5
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 47.6,
+    "play": 903,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 51.2,
+    "play": 574,
+    "pickRate": 22
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.6,
+    "play": 804
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Riven",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane, favored overall",
+   "line": "You lose if you let Jayce dictate range and poke you down with Q across the laning phase where he holds both the lane and solo-kill edge; you win if you survive to the all-in windows where Riven's 52.1% head-to-head winrate over 1,005 games takes over."
+  },
+  "thesis": "Jayce's two stances give him both a ranged poke (Cannon-stance Shock Blast, range 600) and a melee leap/disengage kit (Hammer-stance To the Skies! and Thundering Blow), so he picks when the fight starts while you only have one short damage-block window per 10-6s on E (Valor) to answer it. Because his passive Hextech Capacitor grants move speed on every stance swap, he can poke, reposition, and still be ready to punish your dash the moment you commit. Your win condition is matching one E block to one poke, then closing the gap with Q (Broken Wings) and W (Ki Burst) before he resets range again.",
+  "tell": {
+   "watch": "Jayce's current stance (Hammer/Cannon)",
+   "theirWindow": {
+    "when": "Jayce in Cannon stance, Shock Blast up",
+    "what": "He's going to fire Q (Shock Blast) down the lane for poke damage, and if he drops E (Acceleration Gate) first the missile gets faster, longer range, and more damage — step off that line rather than trying to tank it."
+   },
+   "yourWindow": {
+    "when": "Jayce's Q and E both on cooldown",
+    "what": "With To the Skies!/Shock Blast on its 16-8s cooldown and Thundering Blow/Acceleration Gate on its 20-12s cooldown, he has no gap-closer and no knockback to punish your engage — dash in with Q (Broken Wings), stun with W (Ki Burst), and unload autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cannon-stance Shock Blast outranges your Q (275) entirely"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Full Q-W-E combo online, but his E knockback punishes it"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R rank 1's 120s cooldown means one all-in only"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Death's Dance sustain and Axiom Arc haste close the gap"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "R cooldown drops to 10s, double-ult all-ins open up"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured at 51.6% winrate over 823 games and 70.2% pick rate; the extra sustain and early damage matter more here than Doran's Shield's block value, since Jayce's poke is ranged and he won't let you facetank it anyway."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "54.1% winrate over 671 games — the ability haste lowers your Q/W/E cooldowns, letting you re-chain an all-in faster the moment one of Jayce's cooldowns is down."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Highest-winning core path (68.4% over 117 games) — the active lowers your ultimate's cooldown further, which is your main tool for closing distance on a kiting ranged champion."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Sustain and scaling damage to offset the chip poke you'll eat every time you can't E through a Shock Blast."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Delayed damage lets you survive the burst from his first empowered R-transform attack and still get your own combo off."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're snowballing early and want to maximize burst on your first all-in instead of sustained trading"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "jayce builds armor or the game goes long and you need sustained DPS through extended skirmishes"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want extra lane sustain through his poke instead of leaning fully into burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through the extended trades this matchup forces — you won't one-shot Jayce through his poke, so the ramping adaptive force/healing rewards staying in the fight rather than a single burst window.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "87.1% pick rate and the highest winrate (52.7%) of the three combos — Ignite punishes the all-in windows you're forced to wait for, since you only get real engage chances a few times per laning phase."
+  },
+  "playing": [
+   {
+    "title": "Eat one poke, not two",
+    "detail": "Use E (Valor) to block either his Hammer-stance leap or his Cannon-stance Shock Blast, then immediately chain into Q (Broken Wings) — Valor's cooldown (10-6s) won't cover a second poke, so don't burn it early."
+   },
+   {
+    "title": "React to the speed burst",
+    "detail": "Jayce's passive Hextech Capacitor gives him a move speed boost on every stance swap — that burst, not the animation, is your real signal that he's about to leap in or disengage."
+   },
+   {
+    "title": "Weave autos into your Q chain",
+    "detail": "Runic Blade charges from your abilities and your basic attacks spend those charges for bonus damage, so land an auto between each Broken Wings activation during the all-in instead of only chaining dashes."
+   },
+   {
+    "title": "Don't waste E on his knockback",
+    "detail": "Hammer-stance Thundering Blow knocks you back and resets his space (cooldown 20-12s) — if you expect it, save E's block for the poke that sets up the knockback, not the knockback itself."
+   },
+   {
+    "title": "Treat rank 1 R as a one-shot window",
+    "detail": "Blade of the Exile is on a 120s cooldown at rank 1, so your first all-in before level 6 has no Wind Slash backup — only commit once W (Ki Burst) can land the stun."
+   },
+   {
+    "title": "Hold your second ult for his kite",
+    "detail": "At rank 3, Blade of the Exile's cooldown drops to 10s, letting you reactivate it for a second empowered window and a second Wind Slash inside one skirmish — save that second activation for when he tries to disengage with Shock Blast."
+   },
+   {
+    "title": "Walk off Acceleration Gate lines",
+    "detail": "If he drops the Cannon-stance Acceleration Gate to upgrade Shock Blast's speed, range, and damage, step off that line entirely — Valor blocks one hit's damage, it doesn't stop the gate's speed boost from letting him keep kiting."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample-size numbers above are measured from current-patch OP.GG games; the ability readings, timing windows, and tactical calls are our own analysis layered on top."
+ },
+ "generatedAt": 1791256888643,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791256783298,
+  "overall": {
+   "winRate": 49.7,
+   "play": 54087,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1005,
+   "wins": 524,
+   "winRate": 52.1
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Either dodge Jayce’s (Q)-(E) pokes or absorb the damage through [E]. Afterwards, instantly close in with your abilities to nuke Jayce.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.7,
+    "play": 1017,
+    "pickRate": 87.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.2,
+    "play": 114,
+    "pickRate": 9.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 3.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53,
+    "play": 355,
+    "pickRate": 29.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 191,
+    "pickRate": 16
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 823,
+    "pickRate": 70.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.9,
+    "play": 230,
+    "pickRate": 19.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 54.1,
+    "play": 671,
+    "pickRate": 59.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.2,
+    "play": 344,
+    "pickRate": 30.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 68.4,
+    "play": 117,
+    "pickRate": 16.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 58.4,
+    "play": 77,
+    "pickRate": 10.9
+   },
+   {
+    "items": [
+     "Axiom Arc",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 62.1,
+    "play": 58,
+    "pickRate": 8.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56,
+    "play": 860,
+    "pickRate": 74.3
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 60.3,
+    "play": 635,
+    "pickRate": 54.8
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 52,
+    "play": 504,
+    "pickRate": 43.5
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 56.8,
+    "play": 419,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 58.4,
+    "play": 173,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 45,
+    "play": 149,
+    "pickRate": 12.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.6,
+    "play": 552
+   }
+  ]
+ }
+}

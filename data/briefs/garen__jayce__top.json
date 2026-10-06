@@ -1,0 +1,380 @@
+{
+ "you": "Garen",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Jayce poke-abuses levels 1-5 before you hit 6; you win once Demacian Justice and Stridebreaker let you force a fight he can't kite."
+  },
+  "thesis": "Jayce is strongest in Cannon Stance before Garen hits level 6 — Shock Blast and Acceleration Gate (E) poke from range while Garen has no way to close the gap except walking. The matchup is measured even at 49.9% over 2058 games despite Jayce holding the lane and solo-kill edge, because once Garen gets Decisive Strike's silence online and Demacian Justice at 6, a single dash-in trade with Perseverance ticking swings it back.",
+  "tell": {
+   "watch": "Jayce's stance (Hammer vs Cannon)",
+   "theirWindow": {
+    "when": "Jayce in Cannon Stance, Shock Blast/E up",
+    "what": "He can poke you down from 600 range with Shock Blast and zone with the Acceleration Gate without ever entering your E (Judgment) radius. Do not walk up to farm into this — eat the poke on cooldown or go wide to split the wave."
+   },
+   "yourWindow": {
+    "when": "Jayce's Q (To the Skies!/Shock Blast) just went on cooldown",
+    "what": "Cooldown is 16/14/12/10/8s, so the gap shrinks fast as he levels it. The moment it's down, close immediately — Q (Decisive Strike) to break any slow and silence him, then W (Courage) and E (Judgment) chain for the trade before he can reset distance."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Jayce pokes free, no way to punish"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Shock Blast cooldown shrinking, poke stacks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Demacian Justice threat forces him cautious"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stridebreaker lets you catch his resets"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfights swing on cooldown timing"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Picked in 77.5% of games (50.6% win rate over 1894 games) because the regen and physical damage reduction directly offset Jayce's Shock Blast and auto-poke during the levels 1-5 window where you have no reliable way to close distance."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "59.9% pick, 50.5% win rate over 1422 games — the attack speed helps you actually land damage once you force a trade, since the fight window against Jayce is short and burst-dependent, not sustained."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The dash is the single item that solves Jayce's kiting — it closes the exact gap his Shock Blast and E knockback are designed to create."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed and move speed let you stick to him after the Stridebreaker dash instead of getting kited back out by his Cannon Stance."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Part of the top build path (55.1% win rate, 316 games) — the grievous wounds shuts down any healing he picks up and the armor pen matters once he builds tanky."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "he's kiting you across the lane and you need the move speed stacks to close instead of pure burst"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead and want a second dash-adjacent tool to chain cooldowns for repeated all-ins"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive force and healing on fully-stacked hits reward the extended trades you're forced into once you finally close distance on a ranged opponent — Jayce's poke means you rarely get a clean burst window, so sustained damage scales better here.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 86.8% of games at 50.3% win rate — Flash is the tool OP.GG explicitly flags for instantly closing the gap when his abilities are down, and Ignite punishes the all-in once you land it since Jayce has no reliable sustain to out-heal it."
+  },
+  "playing": [
+   {
+    "title": "Track his stance every time he casts",
+    "detail": "Hammer Stance means leap-and-slow range threat; Cannon Stance means ranged poke and the Acceleration Gate. Your positioning should change completely depending on which one he's in."
+   },
+   {
+    "title": "Never walk up when Shock Blast is up",
+    "detail": "At levels 1-5 the cooldown is 16-12 seconds and it's his main source of lane advantage — if you see it land, that's your cue the gap is now safe to close for several seconds."
+   },
+   {
+    "title": "Use Perseverance actively between trades",
+    "detail": "Garen's passive regenerates a percentage of total health per second if you haven't been hit recently — back off and let it tick rather than soaking poke, exactly as OP.GG's tip states."
+   },
+   {
+    "title": "Save Decisive Strike's silence for the engage",
+    "detail": "Q breaks slows and silences on the next attack — use it the instant you close distance so he can't Thundering Blow or Shock Blast you away mid-trade."
+   },
+   {
+    "title": "Hold Demacian Justice until the kill is certain",
+    "detail": "At level 6 the cooldown is a brutal 140 seconds, so only commit R when you're sure you get the full trade in — a whiffed execute attempt just hands him the next two minutes of lane."
+   },
+   {
+    "title": "Split the wave if he's zoning with the Gate",
+    "detail": "When he drops Acceleration Gate to zone you off minions, don't force a bad all-in — let a few minions go and look to punish his next cooldown cycle instead."
+   },
+   {
+    "title": "Play for level 9-13 power spike",
+    "detail": "Once Stridebreaker is online, your dash directly answers his kiting — this is your best window to start initiating fights instead of only reacting to his."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from live OP.GG games on the current patch (16.19.1); the ability timings, cooldowns, and tactical reasoning are drawn from the game's own ability text and my own analysis."
+ },
+ "generatedAt": 1791255802763,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791255756913,
+  "overall": {
+   "winRate": 50.7,
+   "play": 146520,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2058,
+   "wins": 1026,
+   "winRate": 49.9
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Avoid being punished by Jayce by managing your distance well while activating [P] to increase your sustain. Use Flash to instantly close in or fight him whenever his skills are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.3,
+    "play": 2103,
+    "pickRate": 86.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.7,
+    "play": 142,
+    "pickRate": 5.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 46.9,
+    "play": 81,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 680,
+    "pickRate": 27.3
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 670,
+    "pickRate": 26.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 1894,
+    "pickRate": 77.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.9,
+    "play": 303,
+    "pickRate": 12.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 50.5,
+    "play": 1422,
+    "pickRate": 59.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.8,
+    "play": 450,
+    "pickRate": 19
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 55.1,
+    "play": 316,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 48.5,
+    "play": 233,
+    "pickRate": 14.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Youmuu's Ghostblade",
+     "Phantom Dancer"
+    ],
+    "winRate": 57.4,
+    "play": 129,
+    "pickRate": 7.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 51,
+    "play": 2329,
+    "pickRate": 96.8
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 52.1,
+    "play": 1416,
+    "pickRate": 58.9
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.2,
+    "play": 765,
+    "pickRate": 31.8
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 57.2,
+    "play": 685,
+    "pickRate": 28.5
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 54.6,
+    "play": 641,
+    "pickRate": 26.7
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 48.8,
+    "play": 211,
+    "pickRate": 8.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.8,
+    "play": 688
+   }
+  ]
+ }
+}

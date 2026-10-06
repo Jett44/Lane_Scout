@@ -1,0 +1,376 @@
+{
+ "you": "Gangplank",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if she catches you near a wall with E (Hookshot) and R (Hextech Ultimatum) both up; you win if you poke with Q while her E is down and cleanse her knockup with W."
+  },
+  "thesis": "Camille has no gap-close or hard CC until she lands E (Hookshot) off a wall, and from level 6 she can chain that knockup into R (Hextech Ultimatum) to anchor you in place for her auto-attack burst. Gangplank's Q (Parrrley) outranges both her Q (Precision Protocol, 325 range) and her W (Tactical Sweep) cone, and W (Remove Scurvy) directly cleanses the knockup that starts her combo. At 49.6% over 2,294 games this is a genuine coin-flip decided by who tracks the other's cooldowns, not raw power.",
+  "tell": {
+   "watch": "Camille's E (Hookshot) cooldown",
+   "theirWindow": {
+    "when": "Near a wall with E and R both up",
+    "what": "She pulls to the wall and leaps back, knocking you up on landing, then from level 6 can follow with R to anchor you in the area for 475-range auto trades — expect this combo to start the moment her ultimate comes online."
+   },
+   "yourWindow": {
+    "when": "Her E (Hookshot) is on cooldown",
+    "what": "With no gap-close she can't force anything, so step up and fire Q (Parrrley) at 625 range — well outside her 325-range Q and melee W cone — and let Grog-Soaked Blade poison tick on every auto you land."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has an all-in tool yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Hookshot) online, wall-dependent all-in"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "R (Hextech Ultimatum) adds anchor burst"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "Core items online, execution decides trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Picked in 74.7% of games at 49.6% win rate — the sustain lets you hold trades through her early Q-into-W poke without losing the lane on tempo alone."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Most-picked boots (52.3%) in this matchup; the flat damage reduction blunts the auto-attack chains she leans on in both her poke and her E/R all-in combo."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain to spam Q (Parrrley) every 5 seconds without running dry, part of the highest-win-rate path at 54% over 326 games."
+    },
+    {
+     "item": "The Collector",
+     "why": "Armor penetration plus the execute threshold finishes targets already ticking down from Grog-Soaked Blade poison."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Crit scaling turns extended poke-and-poison trades into a damage lead rather than just chip damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "she starts building tanky to survive your poison DoT and poke"
+    },
+    {
+     "item": "Mortal Reminder",
+     "when": "her Tactical Sweep healing and Adaptive Defenses shield keep her topped up through skirmishes"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "you're dying to her level 6/11 E-into-R all-in before you can disengage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The DoT stacks with your poison passive to reward a poke-and-walk-away playstyle, which is exactly what you want against a champion whose only threat is a committed, wall-dependent all-in.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 90.8% of games at 50.1% win rate; Flash gives you an out from her E landing angle, and Ignite punishes her level 6-10 all-in window while cutting through the healing from Tactical Sweep."
+  },
+  "playing": [
+   {
+    "title": "Poke whenever her E is down",
+    "detail": "Q (Parrrley) at 625 range outranges her Q (325) and her W cone (610), so every time her E (Hookshot) is on cooldown you should be auto-poking and stacking poison for free."
+   },
+   {
+    "title": "Save W for her knockup",
+    "detail": "Hold Remove Scurvy through her poke so it's ready to cleanse the knockup from E's landing or the lock from R's anchor — using it early for the heal alone gives up your only answer to her combo."
+   },
+   {
+    "title": "Track wall proximity, not just cooldown",
+    "detail": "E only works if she's within 800 range of a wall; if you're fighting in open lane with no wall behind you, her all-in threat drops even with E up."
+   },
+   {
+    "title": "Respect the level 6 spike",
+    "detail": "The moment R (Hextech Ultimatum) comes online she can chain E's knockup into a 475-range anchor for extended auto trades — play a step safer right as she hits 6."
+   },
+   {
+    "title": "Ignite her commitment, not her poke",
+    "detail": "Save Ignite for the moment she actually lands E or R rather than trading it for lane poke — it both secures the kill and denies the sustain from her W."
+   },
+   {
+    "title": "Fight through her shield with DoT",
+    "detail": "Adaptive Defenses shields her against the next hit of whichever damage type she takes, so sustained poison and Deathfire Touch ticks outvalue trying to one-shot through the shield."
+   }
+  ],
+  "patchCaveat": "Build, rune, and summoner picks above are pulled directly from measured OP.GG games on the current patch (16.19.1); the cooldown numbers and ability behavior are from the live game files, and the tactical reading of when to trade or hold W is our own analysis, not measured data."
+ },
+ "generatedAt": 1791254594877,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791254500015,
+  "overall": {
+   "winRate": 50.8,
+   "play": 125439,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2294,
+   "wins": 1138,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Dodge Camile’s (W) while hitting her with your [E] when she closes in with (E). Purchase Doran’s Blade to increase your sustain.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.1,
+    "play": 2386,
+    "pickRate": 90.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.9,
+    "play": 213,
+    "pickRate": 8.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 25,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.9,
+    "play": 932,
+    "pickRate": 34.7
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 55.1,
+    "play": 216,
+    "pickRate": 8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 1982,
+    "pickRate": 74.7
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 274,
+    "pickRate": 10.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47,
+    "play": 1191,
+    "pickRate": 52.3
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 56.2,
+    "play": 527,
+    "pickRate": 23.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 54,
+    "play": 326,
+    "pickRate": 18.3
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 54.2,
+    "play": 262,
+    "pickRate": 14.7
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Immortal Shieldbow",
+     "Infinity Edge"
+    ],
+    "winRate": 50.9,
+    "play": 114,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 50.1,
+    "play": 2512,
+    "pickRate": 96.1
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 52.5,
+    "play": 1336,
+    "pickRate": 51.1
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 54,
+    "play": 992,
+    "pickRate": 38
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 53.4,
+    "play": 954,
+    "pickRate": 36.5
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 51,
+    "play": 930,
+    "pickRate": 35.6
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 48.7,
+    "play": 347,
+    "pickRate": 13.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.9,
+    "play": 951
+   }
+  ]
+ }
+}

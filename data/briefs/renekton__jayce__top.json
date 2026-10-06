@@ -1,0 +1,375 @@
+{
+ "you": "Renekton",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Shock Blast after level 6 with no answer; you win if you close distance the instant his Q or E is down and chain your stun."
+  },
+  "thesis": "Jayce's ranged identity is gated behind his R: until level 6 he is locked in Hammer stance with only a melee leap (Q, To the Skies!), a short pulse (W, Lightning Field, 285 range), and a knockback (E, Thundering Blow, 240 range), so levels 1-5 are a real melee skirmish. Once he hits 6 and can press R (6s cooldown) to flip into Cannon stance, he unlocks Shock Blast (600 range) and the Acceleration Gate combo that extends it further, and the lane turns into a poke-and-punish game you have to win with Fury and timing, not raw range.",
+  "tell": {
+   "watch": "Jayce's stance and R cooldown",
+   "theirWindow": {
+    "when": "After level 6, Jayce swaps into Cannon",
+    "what": "Once he's in Cannon stance he's committed to Shock Blast poke at 600 range, worse if he's dropped an Acceleration Gate to extend it further. He has no leap or knockback in this form, so he can't punish you for walking up slowly — just stay off the blast's straight-line path and don't eat free pokes while you wait him out."
+   },
+   "yourWindow": {
+    "when": "His Q or E is on cooldown",
+    "what": "The moment Shock Blast/To the Skies! (16 down to 8s by rank 5) or Thundering Blow (20 down to 12s by rank 5) is spent, dash in with E (Slice and Dice, 16 down to 10s at rank 5) and chain W (Ruthless Predator) for the stun before he can reset distance."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "even",
+    "note": "Jayce locked in melee Hammer stance"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R unlocks Cannon stance ranged poke"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Eclipse burst punishes his poke habit"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "Full build trades close, skill decides"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "It's the clear favorite into this matchup (48.9% WR, 69.7% pick over 1,806 games) because it blunts the chip damage from Jayce's autos and Thundering Blow while you're still locked in melee range pre-6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "89.1% pick and the stronger win rate (49.6% over Mercury's Treads' 43.9%) because the flat reduction on basic attacks cuts into Jayce's Hyper Charge attack-speed bursts and his auto-reset poke pattern."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield-and-burst proc punishes Jayce for standing in a trade right when your Fury crosses 50 and your W starts hitting for three slashes."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks from your empowered E (Slice and Dice) and sustained autos, which matters once Jayce starts building Mercury Cannon's armor/MR buffer off his R swap."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Highest-sample core finisher (49.5% WR, 13.6% pick) — the damage-over-time conversion keeps you alive through Lightning Field ticks and poke while you close distance."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and want to survive a full all-in through his Cannon-stance kiting"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're snowballing and want faster W/E uptime to chain stuns more often"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team is stacking magic damage or hard crowd control beyond Jayce"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "This page runs a 52.6% win rate over 14.7% of games — the burst-after-mark fits the all-in window you're actually using: dash in, land W, and the extra damage closes out the trade before Jayce can disengage.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The most-run combo here (71.7% pick, 49.8% WR) — Ignite closes out kills after your W stun-chain since Jayce has no native sustain to out-heal the burn."
+  },
+  "playing": [
+   {
+    "title": "Fight freely before level 6",
+    "detail": "Jayce is locked in Hammer stance until he gets R, so he has no 600-range poke yet — only a melee leap, a 285-range pulse, and a 240-range knockback. Trade in melee here and look to land your W."
+   },
+   {
+    "title": "Respect the level-6 flip",
+    "detail": "The instant Jayce can press R (6s cooldown) to swap into Cannon stance, he gets Shock Blast at 600 range. Don't push the wave the same way you did at level 5 once he hits 6 first."
+   },
+   {
+    "title": "Dash on cooldown windows",
+    "detail": "Track Shock Blast/To the Skies! (16 down to 8s) and Thundering Blow (20 down to 12s). The second either is spent, use E (Slice and Dice) to close the gap before he resets range."
+   },
+   {
+    "title": "Bank Fury before committing",
+    "detail": "Poke with Q (Cull the Meek, 7s CD) and autos until you're past 50 Fury — your W then hits three times for a 1.5s stun that strips shields, and your Q heals for more."
+   },
+   {
+    "title": "Punish the R swap itself",
+    "detail": "Right after Jayce presses R to change forms, that button is on a flat 6-second cooldown and he can't do it again. Close distance during that window."
+   },
+   {
+    "title": "Sidestep the Gate combo",
+    "detail": "If he drops an Acceleration Gate (Cannon-stance E) and fires Shock Blast through it, the orb gets longer range and more damage — step off the straight line instead of trading through it."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the quoted win rates are measured from live OP.GG games on the current patch; the stance-lock timing and trade-window reasoning are my own read of the ability kits."
+ },
+ "generatedAt": 1791256676515,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791256545628,
+  "overall": {
+   "winRate": 49.7,
+   "play": 124554,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2206,
+   "wins": 1091,
+   "winRate": 49.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being punished by Jayce’s range abilities early game by keeping some distance. Afterwards, build Fury and engage whenever Jayce’s abilities are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.8,
+    "play": 1837,
+    "pickRate": 71.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46,
+    "play": 570,
+    "pickRate": 22.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.9,
+    "play": 140,
+    "pickRate": 5.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.7,
+    "play": 728,
+    "pickRate": 27.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 388,
+    "pickRate": 14.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 1806,
+    "pickRate": 69.7
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.8,
+    "play": 682,
+    "pickRate": 26.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.6,
+    "play": 2233,
+    "pickRate": 89.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.9,
+    "play": 221,
+    "pickRate": 8.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 49.5,
+    "play": 194,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 60.7,
+    "play": 89,
+    "pickRate": 6.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 47.4,
+    "play": 78,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.8,
+    "play": 1579,
+    "pickRate": 62.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49.6,
+    "play": 1247,
+    "pickRate": 49.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.4,
+    "play": 936,
+    "pickRate": 37
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 51.9,
+    "play": 734,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.5,
+    "play": 694,
+    "pickRate": 27.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 51.8,
+    "play": 595,
+    "pickRate": 23.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.8,
+    "play": 841
+   }
+  ]
+ }
+}

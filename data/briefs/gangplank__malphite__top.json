@@ -1,0 +1,375 @@
+{
+ "you": "Gangplank",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose if he chains Q's slow into a level-6 Unstoppable Force before his Granite Shield has been worn down; you win by poking through the shield with your faster Q cycle and stacking poison in extended trades before his tank items come online."
+  },
+  "thesis": "This matchup is structurally even — Gangplank's 48.9% win rate over 3,240 games reflects a lane where neither side has a clean mechanical answer to the other. Gangplank's faster Q cycle (5s cooldown) and level-scaling poison let him out-poke Malphite's slower 8s-cooldown Q, but Granite Shield eats a chunk of every trade until it's actively worn down. The lane tips once Malphite hits level 6: Unstoppable Force turns a passive laner into a real all-in threat, and that's the one spike window that can flip an otherwise even lane into a kill for him.",
+  "tell": {
+   "watch": "Granite Shield recharge status",
+   "theirWindow": {
+    "when": "Malphite hits level 6",
+    "what": "If he opens with Q's slow and follows with R's knockup, you can't dodge the hit itself, but W (Remove Scurvy) clears any lingering CC and heals you back once you land, blunting the follow-up damage window."
+   },
+   "yourWindow": {
+    "when": "His Granite Shield depletes",
+    "what": "Shield only recharges if he avoids damage for a few seconds, so chain autos into Q (5s cooldown) back-to-back while it's down to land full damage instead of feeding the shield's absorption."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "you",
+    "note": "Faster Q cycle beats his shield recharge"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R comes online; all-in threat spikes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Shield absorbs poke; trades roughly equal"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Crit and armor shred burst through tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Most-picked start at 59.7% with a 48.6% win rate; the extra AD and sustain let you win the auto-trade that opens before his shield has recharged."
+   },
+   "boots": {
+    "item": "Gluttonous Greaves",
+    "why": "Highest-winrate boots option (51.8% over 927 games); the lifesteal keeps you healthy through his Q poke and Ground Slam attack-speed reduction without needing a back."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana return lets you spam Q continuously against his shield-recharge window instead of running dry mid-trade."
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "why": "Armor penetration cuts directly through the armor stacking that also feeds his Ground Slam's damage, keeping your Q and autos relevant into his tank build."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Crit damage scaling to burst through whatever Granite Shield is left once it's down, matching the highest-winrate core path (54.5% over 484 games)."
+    }
+   ],
+   "situational": [
+    {
+     "item": "The Collector",
+     "when": "he stacks heavy armor and you need extra lethality to finish a low-health trade"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "he's committing to level-6+ all-ins off R and you need the shield to survive the knockup chain"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need the dash to dodge his Q slow and reset into another poke"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Triggers off the same auto-trades you're already stacking poison with, and the bonus health lets you contest and out-sustain him in lane rather than conceding it, directly per the matchup read that stacking Grasp is how you contest this lane.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Scorch"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest pick rate at 78.1% for a reason: Malphite has no self-healing to answer Ignite's DoT in an even lane, and Flash covers the one moment that actually threatens you — dodging or repositioning around his level-6 Q-into-R engage."
+  },
+  "playing": [
+   {
+    "title": "Poke through shield gaps",
+    "detail": "Your Q is on a 5s cooldown against his 8s Q, so you get two pokes to his one — land them while Granite Shield is still down from a prior hit instead of into a fresh shield."
+   },
+   {
+    "title": "Respect the level 6 spike",
+    "detail": "Track his R cooldown (120/115/110/120/120s); don't commit to extended trades right as he hits 6 until you've baited or survived one Unstoppable Force."
+   },
+   {
+    "title": "Trade for poison, not burst",
+    "detail": "Grog-Soaked Blade applies on every hit and scales with level, so extended autoattack exchanges outvalue a single big trade that just feeds his shield."
+   },
+   {
+    "title": "Shred his armor stacking",
+    "detail": "His Ground Slam scales off his own Armor, so he'll build tanky — prioritize Lord Dominik's Regards and The Collector from the core path to keep your damage relevant."
+   },
+   {
+    "title": "Use E to extend, not just buff",
+    "detail": "Raise Morale's movement speed (20s cooldown, 1200 range) is best spent chasing after a landed Q or disengaging out of his Ground Slam radius, not as a pre-trade buff."
+   },
+   {
+    "title": "Save R to punish, not open",
+    "detail": "Cannon Barrage's long cooldown and map-wide range make it a siege and punish tool for overextensions, not a reliable way to start a fight on your own."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spell rates, and win rates above are pulled directly from measured OP.GG data on the current patch (16.19.1, 3,240 Gangplank-vs-Malphite games); the trade timings, shield/cooldown interactions, and lane calls are my own tactical read of the kit, not measured stats."
+ },
+ "generatedAt": 1791254984803,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791254862021,
+  "overall": {
+   "winRate": 50.8,
+   "play": 125439,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 3240,
+   "wins": 1583,
+   "winRate": 48.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "He is an easy opponent to lane against. Be careful of his (R) when he reaches level 6 while stacking up Grasp of the Undying to contest lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.6,
+    "play": 3064,
+    "pickRate": 78.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.9,
+    "play": 833,
+    "pickRate": 21.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 38.9,
+    "play": 18,
+    "pickRate": 0.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 49.5,
+    "play": 1546,
+    "pickRate": 38.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Scorch"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 43.6,
+    "play": 234,
+    "pickRate": 5.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.6,
+    "play": 2358,
+    "pickRate": 59.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 665,
+    "pickRate": 16.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 51.8,
+    "play": 927,
+    "pickRate": 27.7
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 47.9,
+    "play": 842,
+    "pickRate": 25.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 54.5,
+    "play": 484,
+    "pickRate": 17.4
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 52.3,
+    "play": 463,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 54.4,
+    "play": 309,
+    "pickRate": 11.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 49,
+    "play": 3637,
+    "pickRate": 93.8
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 50.9,
+    "play": 2504,
+    "pickRate": 64.6
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 50.9,
+    "play": 1667,
+    "pickRate": 43
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 55.5,
+    "play": 1480,
+    "pickRate": 38.2
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 52.7,
+    "play": 918,
+    "pickRate": 23.7
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 55.1,
+    "play": 419,
+    "pickRate": 10.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50.6,
+    "play": 1494
+   }
+  ]
+ }
+}

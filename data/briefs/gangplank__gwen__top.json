@@ -1,0 +1,381 @@
+{
+ "you": "Gangplank",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slight lane edge",
+   "line": "You win by poking from 625 range before she can close the gap, and you lose if the trade drags into prolonged exchanges where A Thousand Cuts healing and her on-hit scaling take over."
+  },
+  "thesis": "Gwen's entire kit is melee — Q (Snip Snip!) is a 450-range cone and E (Skip 'n Slash) is a 400-range dash — while Parrrley hits from 625. That gap lets Gangplank chip her for free until she either lands Skip 'n Slash to flip the fight with on-hit magic damage, or hides behind Hallowed Mist to deny targeting entirely.",
+  "tell": {
+   "watch": "Gwen's Hallowed Mist cooldown",
+   "theirWindow": {
+    "when": "right after she lands E (Skip 'n Slash)",
+    "what": "She gains attack speed, range, and magic damage on-hit for a few seconds, and if that hit refunds the dash cooldown she can chain it again almost immediately — disengage rather than trade autos through that window."
+   },
+   "yourWindow": {
+    "when": "her W (Hallowed Mist) and E are both down",
+    "what": "With no gap-closer and no untargetable shell up (22-18s and 13-11s cooldowns respectively), she has zero answer to a 625-range Parrrley — poke freely and don't waste the window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has combat tools online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q outranges her entire melee kit"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Her Needlework adds ranged poke threat"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Collector and IE burst win trades"
+   },
+   {
+    "levels": "13-18",
+    "edge": "them",
+    "note": "Her on-hit scaling overtakes split-push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "49.5% win rate over 1130 games and the most-picked start (71.9%) — the extra sustain offsets her passive's percent-health poke while you look for free Q trades."
+   },
+   "boots": {
+    "item": "Gluttonous Greaves",
+    "why": "53.7% win rate over 415 games — the lifesteal lets you win prolonged exchanges against her on-hit healing instead of losing the attrition race to A Thousand Cuts."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain to spam Parrrley every 5 seconds without running dry mid-lane."
+    },
+    {
+     "item": "The Collector",
+     "why": "Lethality turns your poke damage into execute threat before her healing stabilizes the trade."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Highest win rate completion (52.6% over 228 games) — crit scaling snowballs your range advantage into kill pressure."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "her A Thousand Cuts healing is swinging extended fights back in her favor"
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "she or the enemy team starts stacking health to shrug off your burst"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "you need the shield to survive her Skip 'n Slash all-in window"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The DoT stacks with Grog-Soaked Blade's poison, so every landed Parrrley bleeds her over time — exactly the kind of sustained poke damage that punishes a melee opponent you outrange.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "92.2% pick rate at 48.4% win rate — Ignite punishes her A Thousand Cuts healing directly and seals kills off your Q poke before she can stabilize the lane."
+  },
+  "playing": [
+   {
+    "title": "Poke every CS step",
+    "detail": "Her Q (450 range) and E (400 range) can't touch you at 625 range — punish any forward step she makes to last-hit."
+   },
+   {
+    "title": "Don't Q into Hallowed Mist",
+    "detail": "While her W is active she can't be targeted by anything outside the mist, so Parrrley will simply fail — hold the cast and wait out her 22-18s cooldown instead of wasting charges."
+   },
+   {
+    "title": "Track her E cooldown",
+    "detail": "Skip 'n Slash (13-11s cooldown) is her only gap-closer and only damage spike — once it's down she has no way to punish your poke or catch a retreat."
+   },
+   {
+    "title": "Save W for CC, not poke",
+    "detail": "Remove Scurvy clears crowd control and heals you — hold it for a hard engage or gank, not just to shrug off her passive poison."
+   },
+   {
+    "title": "Use R for siege, not lane kills",
+    "detail": "Cannon Barrage's 110-120s cooldown is too long to build around a lane kill — save it to zone her off objectives or punish her split-push later."
+   },
+   {
+    "title": "Convert poke into burst",
+    "detail": "Don't let trades drag — her passive heals off sustained damage, so Collector/IE burst damage followed by Ignite closes out kills before that healing kicks in."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner picks are pulled from measured OP.GG games on the current patch (16.19.1); the mechanical reasoning and timing calls are my own read of the kits, not measured data."
+ },
+ "generatedAt": 1791254809143,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791254718677,
+  "overall": {
+   "winRate": 50.8,
+   "play": 125439,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1343,
+   "wins": 649,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.4,
+    "play": 1449,
+    "pickRate": 92.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40.9,
+    "play": 93,
+    "pickRate": 5.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.5,
+    "play": 639,
+    "pickRate": 39.9
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 56.6,
+    "play": 99,
+    "pickRate": 6.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.5,
+    "play": 1130,
+    "pickRate": 71.9
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 44.2,
+    "play": 199,
+    "pickRate": 12.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 53.7,
+    "play": 415,
+    "pickRate": 31.2
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 44.3,
+    "play": 368,
+    "pickRate": 27.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 52.6,
+    "play": 228,
+    "pickRate": 21
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 50.3,
+    "play": 143,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Mortal Reminder"
+    ],
+    "winRate": 47.4,
+    "play": 78,
+    "pickRate": 7.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 47.6,
+    "play": 1500,
+    "pickRate": 96.3
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 49.3,
+    "play": 889,
+    "pickRate": 57.1
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 54.3,
+    "play": 626,
+    "pickRate": 40.2
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 49.3,
+    "play": 515,
+    "pickRate": 33.1
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 49.9,
+    "play": 475,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 48,
+    "play": 298,
+    "pickRate": 19.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.4,
+    "play": 461
+   }
+  ]
+ }
+}

@@ -1,0 +1,381 @@
+{
+ "you": "Gangplank",
+ "them": "Yorick",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Yorick lands his E (Mourning Mist) mark and seals you in behind a W (Dark Procession) wall; you win every trade where you poke with Q (Parrrley) and never let him close the gap."
+  },
+  "thesis": "Gangplank's 52% win rate over 1554 games and OP.GG's own call of an EVEN lane with Yorick holding the solo-kill edge both point to the same structural truth: Yorick is weak before level 3 and has no way to lock you down, but once his W (Dark Procession) wall and E (Mourning Mist) slow come online he dictates when fights happen, not you. Your entire plan is to bank damage while he's defenseless, then refuse engagements on his terms once he has wall and mark up.",
+  "tell": {
+   "watch": "Yorick's W (Dark Procession) cooldown",
+   "theirWindow": {
+    "when": "He lands E mark near a wall spot",
+    "what": "Mourning Mist slows and marks you while W can drop a destructible wall to cut off your retreat — this is his all-in. Pop W (Remove Scurvy) immediately to clear the slow and heal, then disengage rather than trade through it."
+   },
+   "yourWindow": {
+    "when": "Levels 1-2, or his W is on cooldown",
+    "what": "Yorick has no wall and weak trades before level 3 — walk up and fire Q (Parrrley) every 5 seconds, since its 625 range outreaches his melee kit entirely."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q outranges him, no wall exists yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W wall online, Last Rites sustain matches trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Maiden of the Mist raises all-in ceiling"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Essence Reaver crit snowball offsets his sustain"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full crit build and global R win skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "51% win rate over 1320 games at 70.6% pick — the extra sustain lets you out-trade him through the early Q poke war without B-ing."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.9% win rate over 654 games — flat damage reduction blunts the empowered auto from Last Rites (Q) whenever he does land an all-in."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "59.1% win rate over 225 games as the lead item — mana sustain lets you spam Q (Parrrley) every 5 seconds without running dry."
+    },
+    {
+     "item": "The Collector",
+     "why": "Execute damage punishes him for sticking in melee range against your poke instead of resetting."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Caps the build at 59.1% WR — crit scaling turns your sustained Q poke into real burst by the time his sustain stops mattering."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "his Last Rites (Q) self-heal is keeping him alive through your poke"
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "he or his team stacks armor to blunt your autos"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "his E mark + W wall all-ins are landing and you need the shield to survive them"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Stacks a burn on top of your Grog-Soaked Blade poison every time Q (Parrrley) connects, turning your poke-heavy pre-6 plan into real sustained damage over the lane phase.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant pick at 85.3% and 51.8% win rate — Ignite shuts down Last Rites healing in trades and secures kills during his weak pre-level-3 window, while Flash lets you dodge the E mark + W wall combo once he can threaten it."
+  },
+  "playing": [
+   {
+    "title": "Poke relentlessly before level 3",
+    "detail": "Yorick has no answer to ranged damage before level 3 — fire Q (Parrrley) on cooldown every 5 seconds and refuse to let him walk you down for free."
+   },
+   {
+    "title": "Track his W wall cooldown",
+    "detail": "Dark Procession drops a destructible wall that can seal you into a fight with him. Don't commit to extended melee trades while it's available — wait for the 20-12s cooldown to be down first."
+   },
+   {
+    "title": "Save W to answer his E",
+    "detail": "Remove Scurvy clears CC and heals you — hold it specifically to cleanse the Mourning Mist slow/mark when you need to disengage, not as a generic sustain tool."
+   },
+   {
+    "title": "Kill the Maiden first after level 6",
+    "detail": "Per the matchup data, once Yorick hits 6 and summons the Maiden of the Mist, focus the Maiden down before him — it's what's dealing the bonus damage and raising Walkers."
+   },
+   {
+    "title": "Don't feed his graves",
+    "detail": "Avoid dying to or getting low enough that his Last Rites (Q) digs easy graves on you — each one is a future Mist Walker swarming your trades."
+   },
+   {
+    "title": "Pop E before committing to a duel",
+    "detail": "Raise Morale's AD and move speed buff applies to you too — fire it right before an all-in window, not passively on cooldown."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are pulled directly from measured OP.GG games on the current patch (16.19.1); the mechanical reasoning and timing calls are my own read of the matchup."
+ },
+ "generatedAt": 1791255363431,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791255279755,
+  "overall": {
+   "winRate": 50.8,
+   "play": 125439,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1554,
+   "wins": 808,
+   "winRate": 52
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Yorick",
+  "playStyle": "defensive",
+  "opponentTip": "Yorick is weak before reaching level 3 so apply pressure then. Use [Q] often to gain control and focus on destroying (R) first after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 1572,
+    "pickRate": 85.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.6,
+    "play": 253,
+    "pickRate": 13.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 0.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 52.6,
+    "play": 728,
+    "pickRate": 38.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.5,
+    "play": 136,
+    "pickRate": 7.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 1320,
+    "pickRate": 70.6
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.5,
+    "play": 241,
+    "pickRate": 12.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.9,
+    "play": 654,
+    "pickRate": 40.1
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 57.4,
+    "play": 425,
+    "pickRate": 26.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 59.1,
+    "play": 225,
+    "pickRate": 17.3
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 55,
+    "play": 189,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 61.2,
+    "play": 121,
+    "pickRate": 9.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 51.9,
+    "play": 1743,
+    "pickRate": 96
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 54.9,
+    "play": 973,
+    "pickRate": 53.6
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 56.2,
+    "play": 747,
+    "pickRate": 41.2
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 59,
+    "play": 746,
+    "pickRate": 41.1
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 55.7,
+    "play": 445,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 54.9,
+    "play": 377,
+    "pickRate": 20.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.2,
+    "play": 587
+   }
+  ]
+ }
+}

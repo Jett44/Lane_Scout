@@ -1,0 +1,379 @@
+{
+ "you": "Gangplank",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable but risky",
+   "line": "You out-trade him every wave before level 6, but if he lands a knockup off cooldown with Ignite up, the 48.6% win rate over 1623 games shows that single read can erase your whole lead."
+  },
+  "thesis": "Ornn has no gap-closer until E (Searing Charge) or R (Call of the Forge God), while your Q (Parrrley) hits at 625 range versus his E's 450 range and Q (Volcanic Rupture)'s 800-range but slow-only fissure — so you control every trade until he hits 6. Lane advantage is yours, but solo-kill advantage is his: once Searing Charge can collide with a wall for the shockwave knockup, or his ultimate elemental can be redirected into one, Ignite turns a single landed knockup into a kill.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "Level 6+, near terrain, Ignite up",
+    "what": "If his E is up and you're standing near a wall, don't trade — Searing Charge's terrain collision shockwave knocks up, and once he's 6 he can follow with Call of the Forge God redirected into you for a second knockup plus Ignite burst."
+   },
+   "yourWindow": {
+    "when": "Pre-6, his E and Q both down",
+    "what": "Walk to 625 range and fire Parrrley — he has no answer to ranged poke before level 6, so punish every cooldown gap on Volcanic Rupture (9-7s) and Searing Charge (14-12s) for free damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "you",
+    "note": "Ranged Q poke, he has no gap-close"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R + Ignite all-in window opens"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Both itemizing, wave state decides"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Crit scaling outpaces his control"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "50.2% win rate over 1247 games — the sustain and early AD let you win the poke trades Ornn can't contest before he has a dash."
+   },
+   "boots": {
+    "item": "Gluttonous Greaves",
+    "why": "54.6% win rate over 500 games — the lifesteal offsets the chip damage from Volcanic Rupture and his autos while you're walking up to Parrrley range."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain lets you spam Parrrley every 5 seconds without running dry mid-trade."
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "why": "His passive (Living Forge) grants him bonus armor from every item he forges — you need the penetration to keep Q damage relevant."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Highest-sample core path (50% win rate over 320 games) — crit scaling is where your late-game edge over him comes from."
+    }
+   ],
+   "situational": [
+    {
+     "item": "The Collector",
+     "when": "you're ahead and want Ignite + Q to cleanly execute him in the all-in window instead of surviving it"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "his Q poke is wearing you down faster than you're winning trades and you need sustain to hold lane"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need the extra dash/burst to punish a dead Searing Charge or Volcanic Rupture cooldown"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The burn stacks off every Parrrley land, stacking with your passive's poison to out-damage his sustain in extended trades without needing to all-in.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "77.5% pick rate at a 49.3% win rate — Ignite punishes his lack of sustain in the pre-6 poke window and also lets you answer his own Ignite all-in with burst of your own once you hit 6."
+  },
+  "playing": [
+   {
+    "title": "Poke at max Q range",
+    "detail": "Parrrley outranges his auto and his E dash (450 range) by nearly 200 units — walk to 625, fire, and retreat before he can threaten anything back."
+   },
+   {
+    "title": "Save W for his knockup chain",
+    "detail": "Remove Scurvy clears CC and heals — hold it specifically for the Searing Charge wall-collision shockwave or a redirected Call of the Forge God elemental, since either knockup is what lets his Ignite kill you."
+   },
+   {
+    "title": "Respect level 6 near terrain",
+    "detail": "Once he hits 6, don't stand near walls with his E up — that's the exact setup for the knockup-into-Ignite kill OP.GG's own data warns about."
+   },
+   {
+    "title": "Shove waves before 6",
+    "detail": "He has no way to punish a push before Searing Charge comes online, so crash the wave and force him to either eat tower shots or trade into your longer Q."
+   },
+   {
+    "title": "Don't trade into his W gout",
+    "detail": "Bellows Breath's final flame applies Brittle on hit — wait out his charge-up before committing Parrrley so you're not trading into the empowered hit."
+   },
+   {
+    "title": "Time E around his dead cooldowns",
+    "detail": "Pop Raise Morale's attack damage and move speed burst specifically when his Q or E is down, so the extra stats land on a trade he can't contest."
+   },
+   {
+    "title": "Prioritize armor pen on schedule",
+    "detail": "His passive stacks bonus armor from every forged item, so don't delay Lord Dominik's Regards in your Essence Reaver build or your late-game damage falls off a cliff."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, summoners, and all win rates are measured OP.GG numbers from the current patch (16.19.1); the ability timing reads, cooldown windows, and trade patterns are my own analysis on top of that data."
+ },
+ "generatedAt": 1791255080276,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791254989821,
+  "overall": {
+   "winRate": 50.8,
+   "play": 125439,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1623,
+   "wins": 788,
+   "winRate": 48.6
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Ornn",
+  "playStyle": "defensive",
+  "opponentTip": "Although lane overall is easy, be careful of being killed when he reaches level 6 and uses (R) with ignite. Do not get propped airborne.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 1427,
+    "pickRate": 77.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 401,
+    "pickRate": 21.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 0.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.3,
+    "play": 696,
+    "pickRate": 37
+   },
+   {
+    "primaryTree": "Inspiration",
+    "primary": [
+     "First Strike",
+     "Cash Back",
+     "Triple Tonic",
+     "Cosmic Insight"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.1,
+    "play": 210,
+    "pickRate": 11.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.2,
+    "play": 1247,
+    "pickRate": 67
+   },
+   {
+    "items": [
+     "Long Sword",
+     "Refillable Potion"
+    ],
+    "winRate": 47.1,
+    "play": 244,
+    "pickRate": 13.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 54.6,
+    "play": 500,
+    "pickRate": 32.5
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48.4,
+    "play": 436,
+    "pickRate": 28.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 50,
+    "play": 320,
+    "pickRate": 23.5
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 51.4,
+    "play": 208,
+    "pickRate": 15.3
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "The Collector"
+    ],
+    "winRate": 50.7,
+    "play": 138,
+    "pickRate": 10.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 49,
+    "play": 1766,
+    "pickRate": 96.3
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 50.5,
+    "play": 1338,
+    "pickRate": 73
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 53.7,
+    "play": 799,
+    "pickRate": 43.6
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 50.5,
+    "play": 765,
+    "pickRate": 41.7
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 48.1,
+    "play": 414,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 60.2,
+    "play": 254,
+    "pickRate": 13.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.4,
+    "play": 641
+   }
+  ]
+ }
+}

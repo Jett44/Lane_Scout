@@ -1,0 +1,384 @@
+{
+ "you": "Fiora",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk Lunge into a ready Q (To the Skies!) and eat the slow into a knockback; you win if you bait his engage, parry the follow-up auto with Riposte, and turn it into an extended melee trade."
+  },
+  "thesis": "Jayce's whole kit is built to control range: Cannon Stance pokes with Shock Blast, Hammer Stance leaps in with a slow and disengages with a knockback, and his R just swaps forms on a 6s cooldown rather than giving him a true escape. Fiora wins this matchup by refusing to trade into his poke window and instead forcing the fight the instant he commits to Hammer Stance, where his cooldowns and mana are the limiting factor, not yours.",
+  "tell": {
+   "watch": "His current weapon stance",
+   "theirWindow": {
+    "when": "He leaps in with Hammer Q",
+    "what": "To the Skies! (Q, 16/14/12/10/8s CD, 600 range) closes distance and slows you in Hammer Stance, and he'll immediately follow with a basic attack. Pre-charge Riposte (W) before he's in range so you parry that auto and reflect magic damage back, which is exactly the read OP.GG's own data flags for this lane."
+   },
+   "yourWindow": {
+    "when": "His Q (To the Skies!) is on cooldown",
+    "what": "With no gap-close or slow up, walk in and Lunge (Q) him to proc Duelist stacks for sustain. He can't punish your dash back out until that cooldown resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "ranged poke punishes early melee approaches"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Riposte online, parry trades even the lane"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "full W-E-Q combo outpaces his poke"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hydra into Trinity spikes your trade damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "stat caps out, teamfight utility decides"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Runs a 52.1% win rate over 1722 games and is picked 71.2% of the time in this matchup. The extra AD and sustain reward you for snowballing short trades rather than sitting back and absorbing poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.7% win rate over 1776 games. Jayce's Hyper Charge (Cannon W) spikes his attack speed and his Mercury Cannon swap buffs his first attack, so flat damage reduction against autos outvalues Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "Opens the highest-picked path (38.3% of games), giving you wave clear and sustain to shove tempo before he can set up poke angles."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Completes the 60.8% win rate Hydra-into-Trinity-into-Death's-Dance line, adding the burst and move speed to close the gap once his Q is down."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Caps the core path's damage mitigation so his poke doesn't punish you for committing to extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to skip Trinity for the higher-win-rate Hydra-into-Eclipse-into-Death's-Dance line (63.9% over 155 games)"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "you're snowballing and want the Hydra-into-Eclipse-into-Endless-Hunger path (55.5% over 137 games) for lane sustain"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the game goes long and you're splitting a side wave against his poke"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards sustained attacks after three hits with bonus damage and increased damage taken, which lines up with forcing Jayce into the extended melee trades where his cooldowns and mana run out before yours do.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs the highest win rate (52.5%) and is picked in 83.6% of games here. Ignite closes out the skirmishes this lane turns into once you force the melee trade, and Flash lets you close his disengage gap or dodge the Thundering Blow knockback."
+  },
+  "playing": [
+   {
+    "title": "Hold W through his engage",
+    "detail": "Jayce's melee combo opens with Q (To the Skies!) leaping in Hammer Stance to slow you, then a follow-up basic attack. Have Riposte charged before he's in range so the parry lands on that auto, not on dead air."
+   },
+   {
+    "title": "Poke his passive on Q cooldown",
+    "detail": "Once his 600-range Q is down (16/14/12/10/8s), he has no slow or gap-close. Walk in and Lunge him to proc Duelist stacks risk-free."
+   },
+   {
+    "title": "Track the stance, not just his HP",
+    "detail": "Cannon Stance means ranged poke with Shock Blast and max attack speed from Hyper Charge; Hammer Stance means he's committed to melee range where you can parry and punish. Only engage once he's in Hammer."
+   },
+   {
+    "title": "Double-tap your Lunge",
+    "detail": "Lunge can be recast within a couple seconds for no extra mana. Save the second cast to either finish his disengage or follow him in after his one slow or knockback is spent."
+   },
+   {
+    "title": "Extend fights past the first exchange",
+    "detail": "Hammer Stance's passive only restores mana per strike if he's actively using Lightning Field; outside that window he's mana-limited for a sustained trade, so the longer the fight runs, the more it favors you."
+   },
+   {
+    "title": "Save R for isolated picks",
+    "detail": "Blade Waltz (130/120/110/110/110s CD) only hits champions and deals less damage on repeat strikes to the same target. Use it to burst him alone in a skirmish rather than through his cooldown shield, since his own R (6s CD) just swaps forms and doesn't create distance."
+   },
+   {
+    "title": "Push tempo once Hydra spikes",
+    "detail": "Your Ravenous Hydra into Trinity Force core comes online faster than his poke items scale. Once Hydra completes, shove the wave and look to dive before he can reset to Cannon range."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner picks are pulled directly from measured OP.GG games on the current patch (16.19.1); the stance-reading and trade-timing advice is my own analysis of the kit, not measured data."
+ },
+ "generatedAt": 1791256127952,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791256012724,
+  "overall": {
+   "winRate": 50.4,
+   "play": 107695,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2118,
+   "wins": 1105,
+   "winRate": 52.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use [W] to block Jayce’s (E) successfully after he closes in using To the Skies! (Q). Maintain your distance from Jayce while using [Q] to hit [P] when exposed.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.5,
+    "play": 2006,
+    "pickRate": 83.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49,
+    "play": 198,
+    "pickRate": 8.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.1,
+    "play": 156,
+    "pickRate": 6.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 54.5,
+    "play": 297,
+    "pickRate": 12.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.1,
+    "play": 208,
+    "pickRate": 8.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.1,
+    "play": 1722,
+    "pickRate": 71.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.2,
+    "play": 532,
+    "pickRate": 22
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.7,
+    "play": 1776,
+    "pickRate": 81.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.7,
+    "play": 211,
+    "pickRate": 9.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 60.8,
+    "play": 508,
+    "pickRate": 38.3
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 63.9,
+    "play": 155,
+    "pickRate": 11.7
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 55.5,
+    "play": 137,
+    "pickRate": 10.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 53,
+    "play": 2272,
+    "pickRate": 95.7
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 54.8,
+    "play": 1384,
+    "pickRate": 58.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.9,
+    "play": 962,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54.7,
+    "play": 494,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 57.7,
+    "play": 388,
+    "pickRate": 16.3
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 60.7,
+    "play": 178,
+    "pickRate": 7.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.2,
+    "play": 1184
+   }
+  ]
+ }
+}
