@@ -1,0 +1,392 @@
+{
+ "you": "Jayce",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Defensive matchup",
+   "line": "You lose if you brawl into his level 6 Call of the Forge God or walk into Q-E engage; you win by poking at range and denying him free Brittle procs."
+  },
+  "thesis": "Ornn's entire kit is built around landing Brittle (from W or the second hit of a terrain-collision E) to let his follow-up hit harder, but he has to walk into melee range through Jayce's superior ranged poke to get there. Jayce wins this lane from range in Cannon Stance and only loses it if he lets Ornn dictate the engage distance.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "E charges and hits terrain near you",
+    "what": "If his Searing Charge collides with a wall near you, it creates a knock-up shockwave — back off the moment you see him orient toward terrain, since that combo into Q (Volcanic Rupture) slow is how he gets the solo kill the data warns about."
+   },
+   "yourWindow": {
+    "when": "his Q and E are both on cooldown",
+    "what": "Swap to Cannon Stance and walk him down with autos plus Shock Blast; without Q's slow or E's knock-up he has no way to close distance or punish your poke."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has full combo yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Cannon Stance poke outranges his melee kit"
+   },
+   {
+    "levels": "6-7",
+    "edge": "them",
+    "note": "Call of the Forge God threatens a kill"
+   },
+   {
+    "levels": "8-11",
+    "edge": "even",
+    "note": "trades stabilize, respect Brittle windows"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Muramana burst outscales his tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "93.3% pick rate and the higher win rate (45.1% over 1879 games) because the lane rewards sustained auto trading in Cannon Stance rather than the shield's flat mitigation."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "41.1% pick and the better win rate (45.5%) — lower cooldowns on Shock Blast and Thundering Blow matter more here than the magic resist from Mercury's Treads, since Ornn's threat comes from CC windows, not sustained magic damage."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "builds mana for Muramana's damage scaling while you're poking from range early"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "highest win rate core path (50% over 106 games) — the active lets you disengage or finish a trade before he closes with E"
+    },
+    {
+     "item": "Muramana",
+     "why": "spell-empowered autos punish him every time he walks up to try to land Brittle"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "stacks burst damage onto the trade pattern this build is already built around"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "he starts building armor to wall off your Muramana autos"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "his tenacity or slow resistance is making your Shock Blast slow unreliable"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "this is a prolonged-trade matchup, not a burst one — stacking Conqueror in Cannon Stance auto exchanges converts the extra adaptive force directly into the healing and damage that wins extended fights, which matches OP.GG's own advice to keep stacks up on him. Stormraider's Surge (Sorcery) is the master-tier alternative, better suited to players who win lane hard enough to roam rather than sit and trade.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "71.9% pick rate and the higher win rate (45.1%) — Teleport lets you reset waves safely after poking Ornn down from range instead of committing to risky all-ins near his level 6 threat window."
+  },
+  "playing": [
+   {
+    "title": "Stay in Cannon Stance by default",
+    "detail": "Cannon Stance's auto-attack range and Shock Blast poke are what win this lane; only swap to Hammer Stance to punish a missed E or finish a kill."
+   },
+   {
+    "title": "Track his E cooldown before trading",
+    "detail": "Searing Charge (14/13.5/13/12.5/12s) is his only gap-closer and knock-up source off terrain — trade freely the moment it's down, back off the moment it's up near a wall."
+   },
+   {
+    "title": "Respect level 6 completely",
+    "detail": "Call of the Forge God has a long cooldown (140s at rank 1) but threatens a full combo kill; play two steps further back than normal the moment he hits 6 until you've seen him use it once."
+   },
+   {
+    "title": "Punish his forge recalls",
+    "detail": "His passive lets him forge items without returning to base, but he still has to stand still to do it — push waves and take plates whenever he's mid-forge."
+   },
+   {
+    "title": "Use Acceleration Gate offensively",
+    "detail": "Fire Shock Blast through your own E gate to boost its range, speed, and damage for a stronger poke whenever he's walked up to try to brawl."
+   },
+   {
+    "title": "Hold Thundering Blow for his charge",
+    "detail": "Knocking him back with E mid-Searing Charge wastes his cooldown and denies the terrain-collision knock-up entirely."
+   },
+   {
+    "title": "Scale through side lanes after 11",
+    "detail": "Once Muramana comes online your autos outdamage his sustain; look to join skirmishes rather than sitting in lane once waves allow it."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoners above are drawn from measured games on the current patch (16.19.1) via OP.GG; the win-rate and sample-size figures are theirs, while the ability mechanics and tactical reasoning are my own analysis of the current patch's live game files."
+ },
+ "generatedAt": 1791291157193,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791291116566,
+  "overall": {
+   "winRate": 47.7,
+   "play": 129743,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1735,
+   "wins": 777,
+   "winRate": 44.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Ornn",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Ornn’s (Q)-(E) combo. Keep your Conqueror stacks up to pressure him, but be careful upon reaching level 6 as he can kill you then.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.1,
+    "play": 1442,
+    "pickRate": 71.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.5,
+    "play": 548,
+    "pickRate": 27.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 0.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.7,
+    "play": 391,
+    "pickRate": 19
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.2,
+    "play": 270,
+    "pickRate": 13.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.1,
+    "play": 1879,
+    "pickRate": 93.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 31,
+    "play": 42,
+    "pickRate": 2.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 45.5,
+    "play": 739,
+    "pickRate": 41.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 40.6,
+    "play": 416,
+    "pickRate": 23.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50,
+    "play": 106,
+    "pickRate": 7.9
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Black Cleaver",
+     "Muramana",
+     "Spear of Shojin"
+    ],
+    "winRate": 45.5,
+    "play": 99,
+    "pickRate": 7.3
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Black Cleaver"
+    ],
+    "winRate": 44.6,
+    "play": 83,
+    "pickRate": 6.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 44.8,
+    "play": 1471,
+    "pickRate": 73.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 44.4,
+    "play": 899,
+    "pickRate": 44.9
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46.5,
+    "play": 731,
+    "pickRate": 36.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 42.6,
+    "play": 665,
+    "pickRate": 33.2
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 49.6,
+    "play": 561,
+    "pickRate": 28
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 48.3,
+    "play": 327,
+    "pickRate": 16.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.1,
+    "play": 376
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 25501
+  }
+ }
+}

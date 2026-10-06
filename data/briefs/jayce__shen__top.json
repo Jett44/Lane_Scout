@@ -1,0 +1,383 @@
+{
+ "you": "Jayce",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane favoured",
+   "line": "You lose if you facecheck his Shadow Dash range near his tower; you win if you poke in Cannon stance every time Feint is down."
+  },
+  "thesis": "Shen has exactly one gap closer, E (Shadow Dash, 16/14/12/10/8s cooldown), and no other hard engage — if you track that cooldown and stay outside 575 range when it's up, Jayce's Cannon-stance poke wins the exchange every time. The measured numbers back this: Jayce holds the lane advantage and the solo-kill advantage here even though the raw head-to-head win rate (48.7% over 1342 games) sits close to even, because Shen's kit is built for roaming and teamfight utility, not for winning 1v1 trades.",
+  "tell": {
+   "watch": "Shen's E (Shadow Dash) cooldown",
+   "theirWindow": {
+    "when": "Shadow Dash is up and you're overextended",
+    "what": "Shen will dash in, taunt you, and chain Q (Vorpal Blade) autos to heal off you. Back out to minion range so the dash either whiffs or taunts you into a wave you can trade through, not into his tower."
+   },
+   "yourWindow": {
+    "when": "Feint (W, 9/8/7/6/5s cd) is down",
+    "what": "Swap to Cannon stance, land Hyper Charge-boosted autos plus Shock Blast, and commit the full trade — he has no shield to eat the burst."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both sides weak, feeling out stance/Q sustain"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Cannon poke range outclasses his melee kit"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Feint and Shadow Dash enable his all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Muramana burst outpaces his scaling"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Shen's R makes him a teamfight tool, not a laner"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run in 94.3% of games at 48.6% win rate — the extra sustain and early AD matter because you're going to be trading autos in Cannon stance from level 1."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Taken in 39.5% of games at 49.2% win rate; the cooldown reduction shortens your Q and E windows, which is what actually punishes his Feint downtime."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Builds mana for Muramana scaling and keeps your Hammer-stance W (Lightning Field) mana-neutral during poke exchanges."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The highest-winrate path (50.9% over 116 games) runs this second — the active haste lets you reset range after a Shock Blast poke before he can close."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts your mana into the burst that actually wins trades once he's used Feint."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "Closes out the 50.9% win-rate path with more burst and mobility for finishing dives once he's used Shadow Dash."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "he leans on Feint to block your burst in every trade"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "he builds armor and your autos start bouncing off"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "Rewards you for kiting after a trade, which is exactly the pattern you want against a champion whose only follow-up is a single-use dash on a long cooldown.",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "This page has the highest measured win rate (51%) in the matchup, and it matches the data: you hold the solo-kill advantage, so Ignite converts poke damage into kills instead of letting him walk away and heal it off with Q."
+  },
+  "playing": [
+   {
+    "title": "Track Shadow Dash, not his HP bar",
+    "detail": "His E is on a real cooldown (16/14/12/10/8s) and it's his only taunt. If it's down, he physically cannot force a trade — walk up and poke freely."
+   },
+   {
+    "title": "Poke from Cannon, finish from Hammer",
+    "detail": "Stay in Cannon stance for Hyper Charge-boosted autos and Shock Blast range; only swap to Hammer stance to knock him back with Thundering Blow or to dodge a committed Shadow Dash."
+   },
+   {
+    "title": "Fire Shock Blast through your Acceleration Gate",
+    "detail": "Deploying E's gate and firing Q through it increases the missile's speed, range, and damage — use this to poke from further than his dash can reach."
+   },
+   {
+    "title": "Bait Feint before you commit",
+    "detail": "Throw a single auto or Q first; if he pops W (Feint, 9/8/7/6/5s cd) to shield it, wait it out before unloading your real combo."
+   },
+   {
+    "title": "Never stand in dash range near his tower",
+    "detail": "OP.GG's own read on this matchup is to respect the taunt near his turret — a taunt there into tower shots is the one trade that actually loses you the lane."
+   },
+   {
+    "title": "Deny his Ki Strike resets",
+    "detail": "His passive cooldown drops every time he hits a minion, monster, or champion. Don't let him free-farm the wave uncontested, or his empowered auto comes back faster than your trade timers."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured OP.GG data from live games on the current patch; the mechanical reasoning and trade-window calls are my own read on the matchup, not measured stats."
+ },
+ "generatedAt": 1791291232511,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791291162577,
+  "overall": {
+   "winRate": 47.7,
+   "play": 129743,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1342,
+   "wins": 653,
+   "winRate": 48.7
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Deal damage constantly to gain lane control, but be careful of being taunted by Shen. Especially when you are under his turret.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.5,
+    "play": 1029,
+    "pickRate": 66.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51,
+    "play": 488,
+    "pickRate": 31.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 31.6,
+    "play": 19,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.1,
+    "play": 220,
+    "pickRate": 14
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.2,
+    "play": 185,
+    "pickRate": 11.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.6,
+    "play": 1454,
+    "pickRate": 94.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 35,
+    "play": 20,
+    "pickRate": 1.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49.2,
+    "play": 551,
+    "pickRate": 39.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.9,
+    "play": 353,
+    "pickRate": 25.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50.9,
+    "play": 116,
+    "pickRate": 10.7
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 45.3,
+    "play": 53,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 49.4,
+    "play": 1078,
+    "pickRate": 70.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 48.2,
+    "play": 679,
+    "pickRate": 44.6
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 52.5,
+    "play": 564,
+    "pickRate": 37
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 50.6,
+    "play": 522,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 51.6,
+    "play": 483,
+    "pickRate": 31.7
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 52.8,
+    "play": 343,
+    "pickRate": 22.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.2,
+    "play": 263
+   }
+  ]
+ }
+}

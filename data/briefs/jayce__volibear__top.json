@@ -1,0 +1,386 @@
+{
+ "you": "Jayce",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him close to melee range and trade autos; you win if you poke him down in Cannon Stance before he's ever in range to swing."
+  },
+  "thesis": "Volibear's only gap closers are Q (Thundering Smash, range 300) and W (Frenzied Maul, range 325) — both short-range melee tools — while his one long-range threat, E (Sky Splitter, range 1200), is a skillshot with a 16s cooldown. Jayce in Cannon Stance outranges all of that with Q (Shock Blast, range 600) and can kite indefinitely if he never lets Volibear dictate spacing. The 51.6% win rate over 1278 games and Jayce's lane/solo-kill advantage both come from this: it's an even fight on paper that tips hard in Jayce's favor the moment he respects range.",
+  "tell": {
+   "watch": "Track Volibear's Q cooldown",
+   "theirWindow": {
+    "when": "His Q (Thundering Smash) is off cooldown",
+    "what": "He gains speed toward the first enemy he attacks, stunning and damaging them on hit from 300 range. Stay outside 600 range in Cannon Stance so he has to walk into vision before he can even threaten the dash, or bait it onto a minion by staying wave-adjacent."
+   },
+   "yourWindow": {
+    "when": "His Q and W are both down and he's pushed to melee range",
+    "what": "Fire Shock Blast (Q, Cannon Stance) and immediately follow with Acceleration Gate (E, Cannon Stance) — if the Shock Blast travels through the gate its speed, range, and damage all increase, letting you land a full-damage poke he has no gap closer to punish."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Mana-tight, cooldowns long, trade carefully"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Shock Blast poke denies his melee approach"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Stormbringer threat, but 110-160s cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Muramana/Youmuu's burst wins extended trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His tankiness offsets your poke in skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "94.6% pick rate at 52.2% win rate — the extra AD and sustain let you win the poke exchanges in Cannon Stance without needing to recall for mana early."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "52.9% win rate over 306 games. The flat move speed is what actually lets you keep 600-range Cannon Stance spacing against his 300-325 range engage tools — Lucidity's CDR doesn't matter if he's already on top of you."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Scales mana for the ranged poke pattern you're running all lane; builds toward Muramana's damage amp."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Active haste lets you disengage or reposition the instant his Q comes off cooldown, keeping you out of his 300-range threat zone."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts your mana into a huge damage spike on Shock Blast and autos, the single biggest contributor to the 51.7% win rate on this path."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "14.1% pick, 51.7% win rate as the fourth item — adds a slow proc that helps you kite him off a bad engage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "serpent's fang",
+     "when": "he's building shield-heavy and his e (sky splitter) shield is making him hard to burst down"
+    },
+    {
+     "item": "eclipse",
+     "when": "you're ahead and want to close out skirmishes faster with the omnivamp/shield proc instead of pure poke"
+    },
+    {
+     "item": "serylda's grudge",
+     "when": "you need the slow to stick after landing thundering blow's knockback or a shock blast"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "Procs a move speed burst after using two separate spells in a short window — exactly the kiting pattern this matchup demands: Shock Blast then Acceleration Gate, or Thundering Blow then disengage, each trade ending with you faster than him.",
+   "primary": [
+    "Manaflow Band",
+    "Absolute Focus",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport sits at 51.8% win rate and 46.4% pick — Teleport lets you reset waves after poke trades instead of recalling, since you're not racing an all-in timer the way you would vs a lane with real burst kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Never auto-trade in melee",
+    "detail": "OP.GG's own data flags this: staying in his 300-325 range lets his Q stun and W mark-and-heal combo land for free. Swap to Cannon Stance and step back the instant he closes distance."
+   },
+   {
+    "title": "Poke through the gate",
+    "detail": "Deploy Acceleration Gate (E, Cannon Stance) behind you and fire Shock Blast (Q) through it for boosted range, speed, and damage — this is your highest-value ranged trade all lane."
+   },
+   {
+    "title": "Respect Sky Splitter's shield",
+    "detail": "If he stands inside his own E (Sky Splitter) blast he gains a shield — don't dump your full combo into that window, bait him to use it on an empty cast first."
+   },
+   {
+    "title": "Track his ultimate cooldown",
+    "detail": "Stormbringer is 110-160s — once he uses it to engage or escape, you have a long window where his only threats are the short-range Q and W. Push trades hard in that window."
+   },
+   {
+    "title": "Hammer Stance only to finish",
+    "detail": "Only drop into melee Hammer Stance for Thundering Blow's knockback to punish an overextension or secure a kill — never to start a fight, since that's the range band he wins."
+   },
+   {
+    "title": "Contest the lane, don't concede it",
+    "detail": "OP.GG's tip to 'contest lane often' matters because Jayce holds the solo-kill edge here — passive farming under tower gives up the one advantage this matchup actually gives you."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch; the mechanical reasoning for why each choice works in this specific matchup is my own analysis."
+ },
+ "generatedAt": 1791291458801,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791291372391,
+  "overall": {
+   "winRate": 47.7,
+   "play": 129743,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 1278,
+   "wins": 659,
+   "winRate": 51.6
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Avoid fighting Volibear in melee combat. Keep some distance to avoid being hit with his (E) and (Q), and try to contest lane often.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.4,
+    "play": 764,
+    "pickRate": 50.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.8,
+    "play": 704,
+    "pickRate": 46.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 60.5,
+    "play": 43,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.1,
+    "play": 413,
+    "pickRate": 26.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.1,
+    "play": 137,
+    "pickRate": 8.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.2,
+    "play": 1436,
+    "pickRate": 94.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 1.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 51,
+    "play": 565,
+    "pickRate": 40.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.9,
+    "play": 306,
+    "pickRate": 22
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 51.7,
+    "play": 149,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 59.1,
+    "play": 66,
+    "pickRate": 6.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 53.3,
+    "play": 60,
+    "pickRate": 5.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 52.4,
+    "play": 1057,
+    "pickRate": 69.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 53.4,
+    "play": 950,
+    "pickRate": 62.3
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 57.4,
+    "play": 606,
+    "pickRate": 39.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 47.8,
+    "play": 469,
+    "pickRate": 30.7
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 54.3,
+    "play": 398,
+    "pickRate": 26.1
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 55.8,
+    "play": 339,
+    "pickRate": 22.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 56.3,
+    "play": 229
+   }
+  ]
+ }
+}

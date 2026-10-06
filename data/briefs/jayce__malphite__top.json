@@ -1,0 +1,400 @@
+{
+ "you": "Jayce",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if you let Malphite farm free Q pokes and hit level 6 with you low; you win if you abuse levels 1-2 and deny his Granite Shield resets."
+  },
+  "thesis": "Malphite's passive Granite Shield absorbs a chunk of poke damage whenever it's charged, so your ranged Cannon Stance harass only matters if you can hit him before the shield resets — otherwise he just walks even trades off and punishes your mana with Q (Seismic Shard, 8s cooldown). The data backs this up directly: 43.3% Jayce win rate over 7,606 games, with Malphite favored for both lane and solo-kill equity.",
+  "tell": {
+   "watch": "Malphite's Granite Shield recharge state",
+   "theirWindow": {
+    "when": "shield charged, you're in Q range",
+    "what": "He'll walk up and let you hit the shield for free, then punish your follow-up with Seismic Shard (Q) since it steals your Move Speed on impact — don't chain poke into a charged shield, you're just feeding it."
+   },
+   "yourWindow": {
+    "when": "shield depleted, levels 1-2 before his W (Brutal Strikes) is online",
+    "what": "Hammer Stance E (Thundering Blow, 20s cooldown at rank 1) knocks him back on cooldown resets — use it to punish any approach, then swap to Cannon Stance and poke with autos while the shield is down. This is your cleanest damage window all lane."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Shield down, E knockback punishes approaches"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Brutal Strikes online, trades even out"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Unstoppable Force threatens all-in kill"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Muramana online, poke damage scales back up"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Full build outranges his engage entirely"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "76.5% pick rate and the better winrate of the two starts (43.4% vs 43.8% — Doran's Shield only wins by raw survivability, not by trading better); the extra AD helps your early Hammer Stance pokes actually threaten the shield."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "46.3% win rate, the magic resist directly blunts Ground Slam (E) and Unstoppable Force (R) burst, both of which scale off his armor and hit hard from level 6 on."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Builds toward Muramana — you need the mana pool to spam Cannon Stance poke without being starved by Seismic Shard trades."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred lets your autos and Shock Blast actually punish his Brutal Strikes-buffed armor instead of bouncing off it."
+    },
+    {
+     "item": "Muramana",
+     "why": "Core damage spike — this is what flips your poke from 'annoying' to 'threatening' once his shield can't keep up."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction on your stance-swap combat loop, letting you cycle Hammer/Cannon abilities faster than he can recharge Granite Shield."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "the enemy team stacks shields or you're facing a second shield-reliant champion"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to burst him down in the all-in window before his shield resets"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you need to close the gap faster for Hammer Stance E resets in skirmishes"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you want a cheaper lane-phase damage spike before committing to Muramana"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "44.7% win rate and the safer pick into a lane where Malphite's shield soaks your poke — Grasp's sustain lets you out-trade through the shield recharge cycles instead of losing the war of attrition. Master-tier players instead run Stormraider's Surge (Sorcery) across 25,501 games, which suits players comfortable kiting Unstoppable Force with movement speed rather than tanking through it.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "73.6% pick rate and the highest win rate (43.2%) — Teleport lets you reset after shoving with Cannon Stance poke, which matters more here than Ignite since you're not winning most all-in trades before level 6."
+  },
+  "playing": [
+   {
+    "title": "Check shield before every poke",
+    "detail": "Only commit Cannon Stance autos or Shock Blast (Q) when Granite Shield is visibly down — hitting a charged shield wastes mana and gives him a free Seismic Shard punish."
+   },
+   {
+    "title": "Abuse levels 1-2 hard",
+    "detail": "Before his W (Brutal Strikes) is slotted, Hammer Stance E (Thundering Blow) knockback punishes every approach for free — this is your only clean edge on the power curve."
+   },
+   {
+    "title": "Play around level 6 explicitly",
+    "detail": "Unstoppable Force has a long cooldown (130s at rank 1, down to 80s at rank 5) but one connect can kill you outright per OP.GG's own warning — buy toward health-scaling items and don't overextend past minion wave once he hits 6."
+   },
+   {
+    "title": "Track your own mana bar",
+    "detail": "Cannon Stance poke drains mana fast and Tear of the Goddess doesn't finish early — don't poke past 50% mana before level 6 or you'll have nothing left to answer his all-in."
+   },
+   {
+    "title": "Use Acceleration Gate for disengage",
+    "detail": "Cannon Stance E deploys a Move Speed gate for allies — place it facing your tower so you can kite out of Unstoppable Force range if he commits post-6."
+   },
+   {
+    "title": "Shred armor before committing full combos",
+    "detail": "Black Cleaver's stacking armor shred is what makes your mid-game trades actually outpace his Brutal Strikes buff — don't all-in until you've landed a few autos to apply it."
+   },
+   {
+    "title": "Don't chase past minion wave",
+    "detail": "His W (Brutal Strikes) hits everything in front of him and buffs his damage/armor for its duration — walking into melee range to chase is how you lose trades you were winning at range."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the 43.3% head-to-head winrate are measured from live games on the current patch (16.19.1) via OP.GG; the tactical reading — shield timing, level 1-2 window, when to commit — is my own analysis of the ability kits."
+ },
+ "generatedAt": 1791291110496,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791291065257,
+  "overall": {
+   "winRate": 47.7,
+   "play": 129743,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 7606,
+   "wins": 3290,
+   "winRate": 43.3
+  },
+  "laneAdvantage": "Malphite",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Be careful when Malphite reaches level 6 and purchase items that have bonus health to avoid being nuked. Keep your Conqueror stacks up.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.2,
+    "play": 6496,
+    "pickRate": 73.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.2,
+    "play": 2217,
+    "pickRate": 25.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 43.8,
+    "play": 64,
+    "pickRate": 0.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.7,
+    "play": 2129,
+    "pickRate": 23.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40.7,
+    "play": 927,
+    "pickRate": 10.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 43.4,
+    "play": 6798,
+    "pickRate": 76.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.8,
+    "play": 1629,
+    "pickRate": 18.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.3,
+    "play": 3288,
+    "pickRate": 42.5
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 42.4,
+    "play": 2353,
+    "pickRate": 30.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Black Cleaver",
+     "Muramana",
+     "Spear of Shojin"
+    ],
+    "winRate": 51.6,
+    "play": 576,
+    "pickRate": 10.7
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Black Cleaver",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 45.6,
+    "play": 342,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Black Cleaver"
+    ],
+    "winRate": 46.8,
+    "play": 267,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 46.2,
+    "play": 6137,
+    "pickRate": 69.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 44.7,
+    "play": 4488,
+    "pickRate": 50.9
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 43.3,
+    "play": 3060,
+    "pickRate": 34.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 43,
+    "play": 1919,
+    "pickRate": 21.8
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 47.3,
+    "play": 1677,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 49.5,
+    "play": 1658,
+    "pickRate": 18.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 48.2,
+    "play": 1767
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 25501
+  }
+ }
+}

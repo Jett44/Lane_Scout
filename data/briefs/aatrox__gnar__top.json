@@ -1,0 +1,371 @@
+{
+ "you": "Aatrox",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose this when you throw Q or E into a Gnar with both his Q and E up and get kited for free; you win it when you force the fight the instant his Boomerang Throw and Hop are both on cooldown."
+  },
+  "thesis": "Aatrox carries both the lane and solo-kill edge here (50.7% over 2154 games) because Mini Gnar's kite tools are cooldown-gated — Q (Boomerang Throw, 16-10s) and E (Hop, 22-12s) — and he has zero hard CC until he caps Rage into Mega Gnar. The whole lane is about timing your all-ins to land when those two cooldowns are actually down, because committing Q or E into a Gnar who still has his slow and his hop is exactly how you get kited.",
+  "tell": {
+   "watch": "Gnar's Rage bar / Mega transform",
+   "theirWindow": {
+    "when": "Mini Gnar with Q and E both up",
+    "what": "Do not chase. He slows you with Boomerang Throw then hops away with E (Hop) and resets neutral — this is the exact kite OP.GG flags against your Q/E commitments. Back off and let his cooldowns burn instead."
+   },
+   "yourWindow": {
+    "when": "his Q and E are both on cooldown",
+    "what": "All-in immediately. Land W (Infernal Chains) to catch him in the impact zone, let your passive (Deathbringer Stance) proc for the healing auto, then E (Umbral Dash) onto him — he has no stun and no gap-close until Mega Gnar, so a committed trade here is yours to win."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "ranged Q poke outranges your melee trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W + E passive heal close the gap"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R (World Ender) sustain wins all-ins"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Mega Gnar's W stun and R wall-stun swing fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Run this over Doran's Blade (51% over 1730 games vs 49.2% over 750) — the regen and damage block directly counter the Q poke chip you'll eat before you can close distance."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "81.8% pick at 50.9% WR; flat damage reduction on Gnar's hyper-charged autos (from his W) matters more than the magic resist Mercury's Treads offer here."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield proc punishes Gnar whenever he commits to an all-in with Mega Gnar's W stun, blunting the burst that follows it."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Highest-winrate path with Eclipse (56.6% over 76 games) — ability haste shortens your Q/W/E cycle so you're threatening again before his cooldowns reset."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts the poke damage you take while closing distance into a DoT you can heal through, smoothing the exact chip-damage pattern Gnar relies on."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "he's building tanky and you need to burst him down before his transform window"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's stacking armor into a bruiser Mega Gnar build"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Both top rune pages on this matchup run Conqueror — the stacking adaptive force rewards exactly the extended trades you're forcing once his Q and E are down, rather than a burst keystone that wants a shorter window.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Revitalize"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Dominant pick at 66.7% (50.2% WR) — Ignite converts your measured solo-kill advantage into real kills when you catch him mid-combo with no healing to fall back on, and Flash backs up your W (Infernal Chains) engage."
+  },
+  "playing": [
+   {
+    "title": "Trade only on his cooldowns",
+    "detail": "Only commit Q (The Darkin Blade, 14-6s CD) or E (Umbral Dash, 9-5s CD) when his Q (Boomerang Throw, 16-10s CD) and E (Hop, 22-12s CD) are both down. Otherwise he slows you and hops away for free."
+   },
+   {
+    "title": "Watch the Rage bar, not just HP",
+    "detail": "Once Gnar nears max Rage he transforms into Mega Gnar, trading his kite tools for a point-blank stun (W, Wallop) and a wall-stunning ultimate (R, GNAR!). Disengage before he caps Rage, not after he's already transformed."
+   },
+   {
+    "title": "Stack your passive before committing",
+    "detail": "Let Deathbringer Stance proc an empowered auto — bonus magic damage plus healing off his max HP — before you throw W into a fight. That extra sustain is what flips trades he initiates."
+   },
+   {
+    "title": "Land W right as he hops",
+    "detail": "W (Infernal Chains) hits the first target and drags them back if they don't clear the impact zone fast. Time it for the moment Gnar's E (Hop) lands so he can't immediately kite off again."
+   },
+   {
+    "title": "Dash in after his Q is thrown, not before",
+    "detail": "E (Umbral Dash) heals you off damage dealt and closes distance, but dashing in while his Q is still in the air gets you caught by the slow. Wait for the throw, then commit."
+   },
+   {
+    "title": "Respect his ult at later ranks",
+    "detail": "Gnar's R (GNAR!) cooldown drops to 30s then 0s at ranks 4-5, meaning a near-spammable knockback that stuns anyone it throws into a wall. Avoid fighting him flush against lane walls from the mid-game on."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures above are measured from live OP.GG games on the current patch; the mechanical reasoning and trade timing are my own read on why those numbers come out the way they do."
+ },
+ "generatedAt": 1791292160501,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791292065578,
+  "overall": {
+   "winRate": 49.9,
+   "play": 152471,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2154,
+   "wins": 1092,
+   "winRate": 50.7
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being kited by Mini Gnar when you use [Q][E] in lane. Use your lane sustain to fight whenever your skills come off cooldown to deal burst damage in order to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.2,
+    "play": 1697,
+    "pickRate": 66.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.2,
+    "play": 729,
+    "pickRate": 28.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.9,
+    "play": 108,
+    "pickRate": 4.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 737,
+    "pickRate": 28.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Revitalize"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.6,
+    "play": 472,
+    "pickRate": 18.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 1730,
+    "pickRate": 67.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 750,
+    "pickRate": 29.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.9,
+    "play": 1994,
+    "pickRate": 81.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54,
+    "play": 354,
+    "pickRate": 14.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 49.7,
+    "play": 143,
+    "pickRate": 11.8
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 56.6,
+    "play": 76,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 52.9,
+    "play": 70,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 48.6,
+    "play": 1209,
+    "pickRate": 48.5
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.6,
+    "play": 1135,
+    "pickRate": 45.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 50.2,
+    "play": 1052,
+    "pickRate": 42.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.9,
+    "play": 778,
+    "pickRate": 31.2
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 52.1,
+    "play": 451,
+    "pickRate": 18.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.9,
+    "play": 430,
+    "pickRate": 17.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55,
+    "play": 1463
+   }
+  ]
+ }
+}

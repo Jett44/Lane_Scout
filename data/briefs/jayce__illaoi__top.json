@@ -1,0 +1,387 @@
+{
+ "you": "Jayce",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you let Illaoi land Test of Spirit and all-in before level 6; you win if you poke her off tentacles and scale to three-item spikes."
+  },
+  "thesis": "Illaoi's Passive (Prophet of an Elder God) spawns tentacles on nearby walls that smash anything near them, so every trade close to terrain is a trade against a tentacle too. Jayce in Cannon Stance has the range to poke from outside 400 (her E, Harsh Lesson, range) and outside tentacle reach, which is the only reason this lane is survivable at a 48.6% win rate over 991 games rather than a disaster.",
+  "tell": {
+   "watch": "her E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "E (Test of Spirit) off cooldown, you're near a wall",
+    "what": "If she lands Test of Spirit near a tentacle-spawning wall, trading back is bad — the spirit echoes damage to you and nearby tentacles join in. Back off the wall and let the spirit timer run out instead of fighting in it."
+   },
+   "yourWindow": {
+    "when": "her E (Test of Spirit) on cooldown (16/15/14/13/12s), no tentacles nearby",
+    "what": "Swap to Cannon Stance and poke with Q (Shock Blast) from max range (600) or auto-attack. She has no gap closer besides W (Harsh Lesson, range 400), so staying outside 400 while her E is down is close to free damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her W (Harsh Lesson) hits harder than your early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Test of Spirit) threatens all-ins near walls"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Mercury Cannon) range lets you kite her engage"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Muramana/Youmuu's spike outpaces her damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Her ultimate still threatens teamfights, not just lane"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "The 49.1% win rate pick over 1,089 games — the extra sustain from the lifesteal matters since Illaoi's tentacles punish every short trade."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "55.7% win rate over 336 games — the flat physical damage reduction blunts her auto-heavy all-ins and tentacle procs far better than lucidity boots do in a melee matchup."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Starts the mana-scaling engine; you need the mana pool to freely swap stances and poke all lane without running dry."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The 59.3% win rate path (108 games) — the active lets you disengage or reposition the instant she lands Test of Spirit near a tentacle."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts your mana pool into the raw magic/physical damage spike that finally lets your poke out-damage her sustain from level 9 on."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "Completes the 59.3% win rate path and adds burst plus mobility to punish her when E (Test of Spirit) is down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "serylda's grudge",
+     "when": "she builds armor or you need the slow to stay out of harsh lesson range"
+    },
+    {
+     "item": "eclipse",
+     "when": "you're ahead and want a faster burst spike over the muramana path"
+    },
+    {
+     "item": "black cleaver",
+     "when": "she stacks health/armor and you need shred to keep poke relevant"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 44.4% win rate page's keystone rewards the sustained auto-poke trading pattern this lane forces, stacking healing to offset her tentacle damage over the course of a fight.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs a 48.8% win rate at 53.6% pick — Ignite punishes her all-in sustain from tentacles and passive healing directly, which matters more here than the Teleport split-push plan."
+  },
+  "playing": [
+   {
+    "title": "Track her E cooldown, not just mana",
+    "detail": "Her E (Test of Spirit, 16-12s cooldown) is the only threat that turns a poke trade into a kill. Hold your own cooldowns defensively whenever it's up and you're near a wall."
+   },
+   {
+    "title": "Fight away from walls",
+    "detail": "Her Passive (Prophet of an Elder God) spawns tentacles on nearby impassible terrain that swing at you for free damage and heal her. Pull trades into open lane, not against walls or jungle camps."
+   },
+   {
+    "title": "Poke in Cannon Stance, engage in Hammer",
+    "detail": "Use Q (Shock Blast) in Cannon Stance from 600 range to chip her down safely. Only swap to Hammer Stance to use E (Thundering Blow) for peel or to knock her off a tentacle cluster."
+   },
+   {
+    "title": "Use E (Acceleration Gate) to extend your poke",
+    "detail": "Firing Shock Blast through your own Acceleration Gate increases its speed, range, and damage — use this to poke from even further outside her E (Harsh Lesson) range."
+   },
+   {
+    "title": "Don't contest Test of Spirit targets",
+    "detail": "If she lands E on you, walking far from the spirit before it expires avoids becoming a Vessel that spawns tentacles. Don't try to kill the spirit in a close fight."
+   },
+   {
+    "title": "Play for the level 9-13 spike",
+    "detail": "Your damage only pulls ahead once Muramana and Youmuu's Ghostblade are online. Play patiently through levels 3-8 and look to force trades once that spike lands."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.19.1); the mechanical reasoning and trade timing are my own analysis layered on top."
+ },
+ "generatedAt": 1791291059600,
+ "patch": "16.19.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791291022016,
+  "overall": {
+   "winRate": 47.7,
+   "play": 129743,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 991,
+   "wins": 482,
+   "winRate": 48.6
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with Illaoi’s (E). As she is difficult to kill in close quarters, use brushes and pokes to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.8,
+    "play": 617,
+    "pickRate": 53.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.3,
+    "play": 513,
+    "pickRate": 44.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.2,
+    "play": 221,
+    "pickRate": 18.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 162,
+    "pickRate": 13.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 1089,
+    "pickRate": 94.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 49.3,
+    "play": 410,
+    "pickRate": 39.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.7,
+    "play": 336,
+    "pickRate": 32.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 59.3,
+    "play": 108,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serylda's Grudge"
+    ],
+    "winRate": 62.8,
+    "play": 43,
+    "pickRate": 5.4
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Serylda's Grudge"
+    ],
+    "winRate": 39.4,
+    "play": 33,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 50.8,
+    "play": 809,
+    "pickRate": 70.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 51.8,
+    "play": 635,
+    "pickRate": 55
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 55.3,
+    "play": 400,
+    "pickRate": 34.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 45,
+    "play": 391,
+    "pickRate": 33.9
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 48.7,
+    "play": 238,
+    "pickRate": 20.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.8,
+    "play": 218,
+    "pickRate": 18.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.7,
+    "play": 201
+   }
+  ]
+ }
+}
