@@ -5,92 +5,88 @@
  "brief": {
   "verdict": {
    "difficulty": "Skill matchup",
-   "line": "You lose if you tank his level 3-5 Q-E-auto combo standing still, and you win if you bank W through his all-in and punish the cooldown that follows."
+   "line": "You lose if you let Darius stack 4-5 Hemorrhage and land his all-in before level 6; you win if you poke from outside his 535-range Apprehend and out-sustain him with Rylai's/Riftmaker from level 9 on."
   },
-  "thesis": "This is a genuinely even lane at 48.2% over 730 games because Darius's burst window (Q pull-in, E hook, empowered auto) peaks before Mordekaiser has the health and item scaling to make W (Indestructible) trade favorably. Once Mordekaiser hits his Rylai's/Riftmaker power spike, his Q (Obliterate) poke and banked shield damage close the gap back to even. The matchup is decided by who mistimes their cooldowns first, not by a structural favorite.",
+  "thesis": "This is a cooldown-tempo fight, not a stat-check: Darius's Hemorrhage bleed and short early Decimate/Crippling Strike cooldowns give him faster trade pressure through level 5, while Mordekaiser's longer-range Q/E combo and W's shield-to-heal take over once items land. The 51% head-to-head over 3282 games reflects a genuinely even lane decided by who manages engage range and all-in timing better, not a favored side.",
   "tell": {
-   "watch": "Darius's Hemorrhage stack count",
+   "watch": "Hemorrhage stack count on you",
    "theirWindow": {
-    "when": "Level 3-5, his Q off cooldown and full HP",
-    "what": "He can chain Q (Decimate) into an auto, E (Apprehend) pull, then another auto for a huge burst. Do not stand at max E range fighting for last hits here — give up a few CS rather than eat the full combo with your W down."
+    "when": "Darius has 4-5 Hemorrhage stacks and R up",
+    "what": "He's about to all-in for the kill — Noxian Guillotine deals true damage scaled by your stack count and refreshes its cooldown on a kill, so disengage, pop W's stored shield, or Flash away instead of trading further."
    },
    "yourWindow": {
-    "when": "His Q whiffs or E is spent missing you",
-    "what": "Decimate resets its cooldown only on a hit, so a whiffed Q or a wasted E pull leaves him with no engage tool for several seconds. Walk up, dump Q and E, and force a trade he can't answer."
+    "when": "You've landed Q and E on him",
+    "what": "That's 2 of the 3 hits Darkness Rise needs; land one more spell or auto to trigger the damage aura and move speed buff, then press the trade and consume W's shield to heal off the damage you've stored."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "even",
-    "note": "Neither combo is online, minimal trading"
+    "edge": "them",
+    "note": "Hemorrhage bleed outpaces your slower Q cooldown"
    },
    {
     "levels": "3-5",
-    "edge": "them",
-    "note": "Darius's Q-E-auto burst comes first"
-   },
-   {
-    "levels": "6-10",
     "edge": "even",
-    "note": "W shield banks and returns his burst"
+    "note": "You start landing Q+E for Darkness Rise"
    },
    {
-    "levels": "11-15",
-    "edge": "you",
-    "note": "Rylai's slow plus Riftmaker sustain outtrades"
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates online; R isolates vs R executes"
    },
    {
-    "levels": "16-18",
+    "levels": "9-13",
     "edge": "you",
-    "note": "Liandry's DoT wins extended skirmishes"
+    "note": "Rylai's slow and Riftmaker outlast his all-in"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Liandry's/Thornmail shut down his AD stacking"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield",
-    "why": "Doran's Shield runs a 56% win rate over 150 games and its regen-plus-block proc directly answers Darius's poke autos and Hemorrhage bleed ticks better than the more commonly picked Doran's Ring (49.3% over 740 games)."
+    "item": "Doran's Ring + Health Potion",
+    "why": "The most-picked start in this matchup (76.5% pick, 52.3% WR over 3186 games); the mana and sustain let you spam Q (range 675) and E (range 700) pokes without running dry against his melee-range pressure."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "83.3% pick rate at a 50% win rate, and OP.GG's own tip for this matchup is to prioritize armor purchases — Steelcaps directly cuts his auto-attack and Q damage."
+    "why": "82.9% pick rate and the top-performing boots here (51% WR over 3279 games); flat auto-attack damage reduction directly slows how fast he stacks Hemorrhage on you."
    },
    "core": [
     {
      "item": "Rylai's Crystal Scepter",
-     "why": "The slow lets you actually stick Q and E on Darius instead of letting him walk his combo in for free; this is the most-picked full path at 60% over 60 games."
+     "why": "First item in the strongest recorded path (60.2% WR, 10.9% pick); the slow on your Q/E lets you kite out of his 535-range Apprehend after you pull him in with E."
     },
     {
      "item": "Riftmaker",
-     "why": "Omnivamp keeps you healthy through extended trades where he's chipping you with bleed stacks."
+     "why": "Omnivamp sustains you through extended trades and stacks with W's shield-to-heal, letting you win the attrition war his bleed is built to start."
     },
     {
      "item": "Liandry's Torment",
-     "why": "Bonus damage against a target you're already slowing punishes him for standing in range to land his own combo."
+     "why": "Damage-over-time on top of his own bleed punishes him for staying in your Q/E range, and it's the third item in the best-performing path (60.2% WR)."
     }
    ],
    "situational": [
     {
      "item": "Thornmail",
-     "when": "he is building lifesteal or you need armor plus grievous wounds to shut down his passive sustain"
+     "when": "he is fed or threatening to one-shot you with a stacked Noxian Guillotine"
     },
     {
      "item": "Bramble Vest",
-     "when": "you are losing the early trades hard and need cheap armor with an anti-heal proc immediately"
-    },
-    {
-     "item": "Mercury's Treads",
-     "when": "their team stacks CC or magic damage beyond just Darius"
+     "when": "his Decimate heal from landing the blade edge on you is keeping him in lane"
     },
     {
      "item": "Dusk and Dawn",
-     "when": "the game goes long and you need a fourth item with dual scaling instead of more flat armor"
+     "when": "the game goes long and you need the extra utility over a fourth damage item"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Conqueror ramps through the exact kind of extended, multi-auto trade this lane produces, and its adaptive force plus healing offsets the damage he's dealing back with Hemorrhage stacks.",
+   "keystoneWhy": "Stacks over repeated Q/E trades and grants healing on stacks, directly offsetting his Hemorrhage bleed and Decimate sustain in extended fights.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -111,56 +107,56 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Flash+Ignite is run in 84.7% of games at a 51.2% win rate — this is a trading lane, and Ignite lets you close out a kill right as your banked W damage releases."
+   "why": "Flash+Ignite is both the most-picked (84.8%) and highest win-rate (50.9%) combo in this matchup; Ignite punishes his all-in since Darius has no dash or escape once he's hooked you with E or leapt with R, and Flash lets you dodge Apprehend or a lethal Guillotine when low."
   },
   "playing": [
    {
-    "title": "Don't poke Q into his approach",
-    "detail": "Obliterate has a visible wind-up; throwing it while he's closing distance just gives him a free path to trade back. Use it to zone the wave or punish him standing still, not on cooldown."
+    "title": "Poke from outside his Apprehend",
+    "detail": "Your Q (range 675) and E (range 700) both outrange his E hook (range 535); throw Q from max range before level 6 instead of letting him walk Decimate/Crippling Strike onto you."
    },
    {
-    "title": "Bank W before his combo lands",
-    "detail": "Pop Indestructible the instant he commits Q or E so his burst gets absorbed and returned as magic damage. Popping it late or on cooldown is how you lose these trades outright."
+    "title": "Chain Q into E for Darkness Rise",
+    "detail": "Darkness Rise triggers after 3 landed attacks or spells on champions; pairing Q then E (or an auto) in one trade procs the damage aura and move speed buff mid-fight."
    },
    {
-    "title": "Back off at 3-4 Hemorrhage stacks",
-    "detail": "Five stacks triggers his bonus bleed damage and slow — disengage before he caps it out rather than trading through it."
+    "title": "Disengage before his 5th stack",
+    "detail": "Hemorrhage enrages Darius with massive bonus AD once he hits max stacks on you — break off the trade once he's at 4, don't let him complete the stack."
    },
    {
-    "title": "Punish a whiffed Q immediately",
-    "detail": "Decimate only resets on a hit, so a missed Q or a wasted E pull leaves him without an engage tool for several seconds — walk up and dump your combo."
+    "title": "Time your W shield to his burst",
+    "detail": "Indestructible stores the damage you deal and take into a shield; pop it right as he commits his Q/W combo or leaps in with R so you survive the burst, then consume it to heal."
    },
    {
-    "title": "Play around his level 6 execute",
-    "detail": "Noxian Guillotine scales off missing health and resets on takedown. Don't fight him under 40% HP near his tower once he hits 6."
+    "title": "Save R to isolate, not just to fight",
+    "detail": "Realm of Death removes his jungler and allies from the fight entirely — hold it for when his jungler is elsewhere on the map so you get a clean 1v1 rather than using it reactively."
    },
    {
-    "title": "Use E to reset spacing",
-    "detail": "Death's Grasp both slows and repositions him — use it to pull him off a minion he's using for cover or to buy space when your W is down."
+    "title": "Buy armor early if he's ahead",
+    "detail": "Plated Steelcaps plus Bramble Vest/Thornmail cut his physical damage and the healing from his bleed stacks, matching OP.GG's own read on this matchup."
    },
    {
-    "title": "Save R for a forced isolate, not lane poke",
-    "detail": "Realm of Death is a dueling tool, not a trading tool — hold it until you're ahead in items and want to guarantee a 1v1 he can't escape."
+    "title": "Don't feed him free E pulls",
+    "detail": "His Apprehend passively shreds a percentage of your armor on hit and the active pulls you to him from 535 range — hold your spacing until you've decided to commit to the trade."
    }
   ],
-  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured from live OP.GG games on the current patch; the mechanical reasoning and trade timing are my own analysis layered on top of that data."
+  "patchCaveat": "Build, rune, summoner, and win-rate numbers are measured from live OP.GG data on the current patch (16.19.1, 3282 games); the mechanical reasoning — cooldown windows, stack thresholds, and trade timing — is my own tactical read, not measured data."
  },
- "generatedAt": 1789271371144,
- "patch": "16.18.1",
+ "generatedAt": 1791327222124,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789271288949,
+  "fetchedAt": 1791327106049,
   "overall": {
-   "winRate": 49.1,
-   "play": 21823,
-   "tier": 3
+   "winRate": 49.8,
+   "play": 115264,
+   "tier": 2
   },
   "headToHead": {
-   "play": 730,
-   "wins": 352,
-   "winRate": 48.2
+   "play": 3282,
+   "wins": 1674,
+   "winRate": 51
   },
   "laneAdvantage": "EVEN",
   "soloKillAdvantage": "EVEN",
@@ -172,27 +168,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 51.2,
-    "play": 787,
-    "pickRate": 84.7
+    "winRate": 50.9,
+    "play": 3490,
+    "pickRate": 84.8
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 49.3,
-    "play": 69,
-    "pickRate": 7.4
+    "winRate": 48.2,
+    "play": 299,
+    "pickRate": 7.3
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 41.9,
-    "play": 43,
-    "pickRate": 4.6
+    "winRate": 51.4,
+    "play": 208,
+    "pickRate": 5.1
    }
   ],
   "runes": [
@@ -214,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 48.8,
-    "play": 459,
-    "pickRate": 48.9
+    "winRate": 49,
+    "play": 2096,
+    "pickRate": 49.6
    },
    {
     "primaryTree": "Precision",
@@ -236,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 51.7,
-    "play": 89,
-    "pickRate": 9.5
+    "winRate": 55.9,
+    "play": 372,
+    "pickRate": 8.8
    }
   ],
   "starter": [
@@ -248,18 +244,18 @@
      "Health Potion",
      "Health Potion"
     ],
-    "winRate": 49.3,
-    "play": 740,
-    "pickRate": 76.1
+    "winRate": 52.3,
+    "play": 3186,
+    "pickRate": 76.5
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 56,
-    "play": 150,
-    "pickRate": 15.4
+    "winRate": 44.6,
+    "play": 592,
+    "pickRate": 14.2
    }
   ],
   "boots": [
@@ -267,17 +263,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 50,
-    "play": 768,
-    "pickRate": 83.3
+    "winRate": 51,
+    "play": 3279,
+    "pickRate": 82.9
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 59.1,
-    "play": 93,
-    "pickRate": 10.1
+    "winRate": 57.3,
+    "play": 417,
+    "pickRate": 10.5
    }
   ],
   "core": [
@@ -287,9 +283,9 @@
      "Riftmaker",
      "Liandry's Torment"
     ],
-    "winRate": 60,
-    "play": 60,
-    "pickRate": 10.3
+    "winRate": 60.2,
+    "play": 269,
+    "pickRate": 10.9
    },
    {
     "items": [
@@ -297,9 +293,9 @@
      "Riftmaker",
      "Thornmail"
     ],
-    "winRate": 54.1,
-    "play": 37,
-    "pickRate": 6.3
+    "winRate": 52.8,
+    "play": 142,
+    "pickRate": 5.8
    },
    {
     "items": [
@@ -307,9 +303,9 @@
      "Liandry's Torment",
      "Thornmail"
     ],
-    "winRate": 57.1,
-    "play": 28,
-    "pickRate": 4.8
+    "winRate": 56,
+    "play": 91,
+    "pickRate": 3.7
    }
   ],
   "lateOptions": [
@@ -317,49 +313,49 @@
     "items": [
      "Rylai's Crystal Scepter"
     ],
-    "winRate": 51.7,
-    "play": 725,
-    "pickRate": 76.1
+    "winRate": 52.4,
+    "play": 2959,
+    "pickRate": 73
    },
    {
     "items": [
      "Riftmaker"
     ],
-    "winRate": 53.2,
-    "play": 641,
-    "pickRate": 67.3
+    "winRate": 53.1,
+    "play": 2799,
+    "pickRate": 69.1
    },
    {
     "items": [
      "Liandry's Torment"
     ],
-    "winRate": 53.3,
-    "play": 317,
-    "pickRate": 33.3
+    "winRate": 57.9,
+    "play": 1279,
+    "pickRate": 31.6
    },
    {
     "items": [
      "Thornmail"
     ],
-    "winRate": 52.6,
-    "play": 270,
-    "pickRate": 28.3
+    "winRate": 53.7,
+    "play": 1086,
+    "pickRate": 26.8
    },
    {
     "items": [
      "Bramble Vest"
     ],
-    "winRate": 51.6,
-    "play": 225,
+    "winRate": 51.4,
+    "play": 955,
     "pickRate": 23.6
    },
    {
     "items": [
      "Dusk and Dawn"
     ],
-    "winRate": 56.7,
-    "play": 120,
-    "pickRate": 12.6
+    "winRate": 59.3,
+    "play": 555,
+    "pickRate": 13.7
    }
   ],
   "skillOrder": [
@@ -381,8 +377,8 @@
      "W",
      "W"
     ],
-    "winRate": 53.9,
-    "play": 423
+    "winRate": 55.9,
+    "play": 1790
    }
   ]
  }

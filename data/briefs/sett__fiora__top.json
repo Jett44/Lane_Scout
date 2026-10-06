@@ -4,96 +4,100 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Slight underdog",
-   "line": "You lose extended 1v1s from level 3 once Riposte and her Duelist stacks come online, but you win the short, banked-Grit all-ins before then."
+   "difficulty": "Favoured, aggressive lane",
+   "line": "You lose if you dump your burst into an unbaited W (Riposte) or let the fight drag long enough for her E (Burst of Speed) stacks to take over; you win if you tank her early Q (Lunge) pokes to fill W (Haymaker) Grit, then burst her down before she resets."
   },
-  "thesis": "Sett's W passively banks the damage Fiora's aggressive Lunge (Q) pokes deal into him as Grit, so her early poke directly fuels his true-damage nuke — but her Duelist passive heals on every hit she lands and stacks per champion, so any fight that drags past the first exchange starts favoring her sustain instead of yours. That tension between short trades (yours) and long duels (hers) is why Sett actually holds a lane-advantage read on OP.GG but only converts 44.4% of 117 games.",
+  "thesis": "Sett's W (Haymaker) converts every point of damage he takes into stored Grit, so absorbing Fiora's Lunge pokes before unloading the shield-and-burst combo flips her own aggression against her — which is why the data shows a 52.4% win rate over 2946 games with both lane and solo-kill advantage. The friction point is her W (Riposte) and double-charge Q (Lunge): commit an empowered auto into a parry or chase a dash you can't catch, and the trade reverses.",
   "tell": {
-   "watch": "Fiora's Riposte (W) cooldown timer",
+   "watch": "Fiora's Riposte (W) cooldown",
    "theirWindow": {
-    "when": "Riposte (W) is up and ready",
-    "what": "Don't throw your Q-empowered right punch or an engage auto into a live Riposte — it parries the next basic attack and blocks the damage outright, wasting the trade you were banking Grit for."
+    "when": "Riposte up, both Lunge charges ready",
+    "what": "She can parry your Q-empowered right punch for free magic damage back and still has a dash in reserve to disengage. Throw a plain auto or let a minion eat the parry before committing your burst window."
    },
    "yourWindow": {
-    "when": "right after she burns Riposte",
-    "what": "The instant her W is on cooldown (10s down to 6s at rank 5), all-in with Q's empowered autos into E for the pull — there's nothing left to eat your damage."
+    "when": "W (Haymaker) at full Grit, both Lunges spent",
+    "what": "Once she's burned her second Lunge charge she has no gap-close or escape left for a couple seconds. Dump W for the shield and true damage, land Q's empowered autos, and E (Facebreaker) if a minion or wall puts her on the opposite side for the stun instead of just a slow."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "you",
-    "note": "Early trades favor your raw stats"
+    "edge": "them",
+    "note": "Her Q dash poke outtrades before your Grit builds"
    },
    {
     "levels": "3-5",
-    "edge": "them",
-    "note": "Riposte and dash mobility swing lane"
+    "edge": "you",
+    "note": "Full kit online, Q-empowered autos win short trades"
    },
    {
-    "levels": "6",
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R adds a kill threat on top of W burst"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stridebreaker lets you stick to her kiting"
+   },
+   {
+    "levels": "14-18",
     "edge": "even",
-    "note": "Both ultimates arrive, threats balance out"
-   },
-   {
-    "levels": "7-11",
-    "edge": "them",
-    "note": "Sustain and burst speed snowball duels"
-   },
-   {
-    "levels": "12-18",
-    "edge": "even",
-    "note": "Tank items let you hold teamfights"
+    "note": "Her duelist scaling and E stacks catch up"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "The 84.9%-picked start (43% WR, 135 games) — extra AD and sustain to win the short trades you're actually favored in before her passive scales."
+    "why": "The highest-pickrate start (81.6%, 52.1% WR) gives the sustain and auto damage you need to tank early Lunge pokes while you wait for W Grit to fill."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "70.6% pick, 37.9% WR — flat armor blunts her Burst of Speed (E) attack-speed window and the repeated auto-resets from Duelist stacking."
+    "why": "Picked in 73.1% of games at 50.9% WR — flattens the auto-reset chip damage from her Duelist passive stacking during extended exchanges."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "Closes the gap on her double-dash Lunge and lets your Q's empowered attacks actually land."
+     "why": "Gives you the gap-close and slow needed to stick to her once she pops E (Burst of Speed) and tries to kite away."
     },
     {
      "item": "Black Cleaver",
-     "why": "Shreds the armor she stacks against your true-damage W center hit and physical side hits."
+     "why": "Shreds her armor so your empowered Q autos and W burst keep scaling as the fight extends."
     },
     {
      "item": "Overlord's Bloodmail",
-     "why": "Health and damage that scale directly against a lane where she out-sustains you in long fights."
+     "why": "This path hits 61% WR over 482 games — the max-health damage and shield synergize with her high-HP duelist itemization."
     }
    ],
    "situational": [
     {
-     "item": "Executioner's Calling",
-     "when": "her Duelist healing is winning extended trades"
+     "item": "Bramble Vest",
+     "when": "her Duelist passive is out-healing your trades"
     },
     {
      "item": "Sterak's Gage",
-     "when": "she's snowballed and you need to survive her all-in"
+     "when": "you're ahead and want to survive her Blade Waltz all-in"
     },
     {
      "item": "Spear of Shojin",
-     "when": "the game goes long and you're spamming Q/E/W off cooldown"
+     "when": "you're snowballing and want faster W/E cooldowns to chain all-ins"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "she's turtling and you want to pressure turrets instead of fighting"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Stacks through repeated short trades and heals you back, directly contesting the sustain race her Duelist passive is trying to win.",
+   "keystoneWhy": "Stacks through the exact extended trades W (Haymaker) is built around, and the adaptive-force conversion to healing layers on top of your passive's missing-health regen.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
     "Last Stand"
    ],
    "secondary": [
-    "Shield Bash",
+    "Unflinching",
     "Second Wind"
    ],
    "shards": [
@@ -107,56 +111,56 @@
     "Flash",
     "Ignite"
    ],
-   "why": "92.5% pick rate (43.5% WR) — Ignite cuts her Duelist healing during your all-in window and converts your solo-kill advantage before she scales."
+   "why": "Run by 95.1% of players at 52.3% WR — Ignite seals the all-in once you've landed W and E, and offsets the healing from her Duelist passive stacking mid-fight."
   },
   "playing": [
    {
-    "title": "Bank Grit off her Lunge",
-    "detail": "Sett's W passively stores damage taken as Grit; let her first Lunge (Q) land if it's not lethal, then cash it in as a shield plus true-damage punch the moment she closes."
+    "title": "Bait Riposte before committing",
+    "detail": "Throw a plain auto first to see if she parries. Leading with your Q-empowered right punch into an unbaited W (Riposte) wastes the burst window and hands her free magic damage back."
    },
    {
-    "title": "Track her Riposte cooldown",
-    "detail": "Riposte parries your next basic attack and blocks it outright. Never send your Q-empowered right punch in on a fresh W — wait for the 10-6s cooldown to expire first."
+    "title": "Tank trades to fill Grit",
+    "detail": "W passively stores damage you take as Grit. Deliberately eat her Lunge and autos in short trades before levels 3-5 so you can dump the shield-and-true-damage burst on your terms."
    },
    {
-    "title": "Sandwich her with minions for E",
-    "detail": "Facebreaker only stuns when enemies are on opposite sides of you; with nothing on the far side it just slows. Walk her onto the opposite side of a minion before casting E."
+    "title": "Position E for the stun, not the slow",
+    "detail": "E only stuns if enemies are on opposite sides of you; in open lane it just slows her. Line up a minion or wall behind her before casting to get the stun instead."
    },
    {
-    "title": "Punish a single-dash Lunge",
-    "detail": "Her Q can recast for free within a couple seconds. If she only gets one dash off, whiffed or spent, that's your window to Q in and start the true-damage W."
+    "title": "Punish her second Lunge",
+    "detail": "Her Q can be used twice within a couple seconds for free, but once both charges are spent she has no gap-close or escape — that's your window to commit Q and E together."
    },
    {
-    "title": "Trade R for R at level 6",
-    "detail": "Blade Waltz hits repeatedly with falling damage per hit and a 130s cooldown at rank 1. Your Show Stopper isn't a basic attack, so Riposte can't stop it — meet her all-in with your own."
+    "title": "Hold R for an isolated slam",
+    "detail": "With a 120/100/80/80/80s cooldown, R is too valuable to open with. Use it after she's already extended on a Lunge so she lands away from minions and turret range."
    },
    {
-    "title": "Avoid chain-fighting her stacks",
-    "detail": "Duelist heals her on every instance of damage and stacks per champion hit. Short burst trades beat drawn-out skirmishes where her sustain snowballs."
+    "title": "Keep trades short, not extended",
+    "detail": "Her E stacks attack speed and move speed per landed hit, so drawn-out auto exchanges favor her scaling. Burst with Q+W+E together, then disengage rather than standing in extended fights."
    },
    {
-    "title": "Shred her sustain late",
-    "detail": "Pick up Executioner's Calling once she's ahead or the fight length is working against you — it directly cuts the healing keeping her in duels."
+    "title": "Buy Bramble Vest if she snowballs",
+    "detail": "If her Duelist passive sustain is winning extended fights outright, pivot a core item slot into Bramble Vest before continuing the Stridebreaker/Cleaver path."
    }
   ],
-  "patchCaveat": "Every build path, rune page, and win-rate number above is measured from live OP.GG games on the current patch (16.18.1); the mechanical reasoning — Grit banking off her Lunge, Riposte timing, Facebreaker's stun condition — is our own tactical read on top of that data."
+  "patchCaveat": "Win rates, build paths, runes, and summoner picks are measured from live OP.GG games on the current patch; the trade-pattern and timing reasoning is my own read of the ability kits."
  },
- "generatedAt": 1790211278026,
- "patch": "16.19.1",
+ "generatedAt": 1791327584282,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790211202928,
+  "fetchedAt": 1791327483100,
   "overall": {
-   "winRate": 50.3,
-   "play": 5582,
-   "tier": 2
+   "winRate": 50.4,
+   "play": 140376,
+   "tier": 1
   },
   "headToHead": {
-   "play": 117,
-   "wins": 52,
-   "winRate": 44.4
+   "play": 2946,
+   "wins": 1543,
+   "winRate": 52.4
   },
   "laneAdvantage": "Sett",
   "soloKillAdvantage": "Sett",
@@ -168,27 +172,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 43.5,
-    "play": 147,
-    "pickRate": 92.5
+    "winRate": 52.3,
+    "play": 3387,
+    "pickRate": 95.1
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 50,
-    "play": 6,
-    "pickRate": 3.8
+    "winRate": 49,
+    "play": 100,
+    "pickRate": 2.8
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 20,
-    "play": 5,
-    "pickRate": 3.1
+    "winRate": 47.8,
+    "play": 46,
+    "pickRate": 1.3
    }
   ],
   "runes": [
@@ -210,9 +214,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 38.2,
-    "play": 34,
-    "pickRate": 21.3
+    "winRate": 48.8,
+    "play": 841,
+    "pickRate": 23.1
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +236,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 45,
-    "play": 20,
-    "pickRate": 12.5
+    "winRate": 55.6,
+    "play": 615,
+    "pickRate": 16.9
    }
   ],
   "starter": [
@@ -243,18 +247,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 43,
-    "play": 135,
-    "pickRate": 84.9
+    "winRate": 52.1,
+    "play": 2926,
+    "pickRate": 81.6
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 40,
-    "play": 15,
-    "pickRate": 9.4
+    "winRate": 48.5,
+    "play": 396,
+    "pickRate": 11
    }
   ],
   "boots": [
@@ -262,17 +266,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 37.9,
-    "play": 103,
-    "pickRate": 70.6
+    "winRate": 50.9,
+    "play": 2458,
+    "pickRate": 73.1
    },
    {
     "items": [
      "Boots of Swiftness"
     ],
-    "winRate": 59.1,
-    "play": 22,
-    "pickRate": 15.1
+    "winRate": 59.5,
+    "play": 501,
+    "pickRate": 14.9
    }
   ],
   "core": [
@@ -282,9 +286,9 @@
      "Black Cleaver",
      "Overlord's Bloodmail"
     ],
-    "winRate": 50,
-    "play": 16,
-    "pickRate": 19.3
+    "winRate": 61,
+    "play": 482,
+    "pickRate": 24.1
    },
    {
     "items": [
@@ -292,19 +296,19 @@
      "Overlord's Bloodmail",
      "Sterak's Gage"
     ],
-    "winRate": 46.2,
-    "play": 13,
-    "pickRate": 15.7
+    "winRate": 64.1,
+    "play": 320,
+    "pickRate": 16
    },
    {
     "items": [
      "Stridebreaker",
-     "Spear of Shojin",
+     "Hullbreaker",
      "Overlord's Bloodmail"
     ],
-    "winRate": 57.1,
-    "play": 7,
-    "pickRate": 8.4
+    "winRate": 61,
+    "play": 118,
+    "pickRate": 5.9
    }
   ],
   "lateOptions": [
@@ -312,49 +316,49 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 45.8,
-    "play": 144,
-    "pickRate": 91.7
+    "winRate": 53.2,
+    "play": 3343,
+    "pickRate": 93.9
    },
    {
     "items": [
      "Overlord's Bloodmail"
     ],
-    "winRate": 50,
-    "play": 86,
-    "pickRate": 54.8
+    "winRate": 58.1,
+    "play": 2086,
+    "pickRate": 58.6
    },
    {
     "items": [
      "Black Cleaver"
     ],
-    "winRate": 49,
-    "play": 49,
-    "pickRate": 31.2
+    "winRate": 55.2,
+    "play": 1251,
+    "pickRate": 35.1
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 41.9,
-    "play": 43,
-    "pickRate": 27.4
+    "winRate": 57.8,
+    "play": 984,
+    "pickRate": 27.6
    },
    {
     "items": [
      "Spear of Shojin"
     ],
-    "winRate": 43.5,
-    "play": 23,
-    "pickRate": 14.7
+    "winRate": 60.6,
+    "play": 426,
+    "pickRate": 12
    },
    {
     "items": [
-     "Executioner's Calling"
+     "Bramble Vest"
     ],
-    "winRate": 29.4,
-    "play": 17,
-    "pickRate": 10.8
+    "winRate": 46.4,
+    "play": 405,
+    "pickRate": 11.4
    }
   ],
   "skillOrder": [
@@ -376,8 +380,8 @@
      "E",
      "E"
     ],
-    "winRate": 55.3,
-    "play": 38
+    "winRate": 57.4,
+    "play": 963
    }
   ]
  }

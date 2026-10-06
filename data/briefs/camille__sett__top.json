@@ -4,93 +4,93 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Defensive but favoured",
-   "line": "You lose if you sit in extended trades and feed his stored Grit into a full Haymaker shield; you win if you hit-and-run until his W is spent and then commit Q's delayed recast into E's knockup."
+   "difficulty": "Even, reactive",
+   "line": "You lose if you commit into a full Sett Grit bar first; you win if you force him to spend E or W and punish the recovery."
   },
-  "thesis": "Sett's W (Haymaker) banks every point of damage he takes as Grit with no cast cost until he pops it, so any prolonged trade you initiate just fills his shield and buys the true-damage center punch that wins the exchange. Camille's 57.9% win rate over 152 games says the matchup is winnable, but OP.GG's own tip confirms the mechanism: engaging first into a loaded W loses, baiting it empty and punishing the reset wins.",
+  "thesis": "The 49.7% win rate over 2,346 games hides a one-sided fight pattern, not a close one: OP.GG's own read is that Sett wins combat whenever Camille closes the gap first, because his passive Grit and W (Haymaker) turn her engage damage into a shield and a true-damage counterpunch. Camille's kit is built to poke and disengage, not to brawl, so the matchup is even on the scoreboard but defensive in execution — she has to make Sett spend a resource before she spends hers.",
   "tell": {
-   "watch": "Sett's W (Haymaker) cooldown",
+   "watch": "Sett's W (Grit) meter",
    "theirWindow": {
-    "when": "his W is up and Grit is banked",
-    "what": "He goes all-in with Q (Knuckle Down) stacking two empowered autos, then pops W for the shield plus center true damage. Disengage rather than trade through it — Adaptive Defenses only shields your next hit, not a sustained brawl."
+    "when": "Sett's Grit bar is full",
+    "what": "His W (Haymaker) is up, meaning any Q or W you throw into him gets eaten by the shield and answered with true damage center / physical on the sides. Back off and let it cap, don't trade here."
    },
    "yourWindow": {
-    "when": "his W just went down or whiffed",
-    "what": "Commit immediately: land Q (Precision Protocol), delay the recast for its bonus damage, and layer E (Hookshot) off a wall for the knock-up. Without Grit banked he has no shield to swing the trade back."
+    "when": "Right after Sett casts W (Haymaker)",
+    "what": "His Grit resets to zero and the shield is gone, 18/16.5/15/13.5/12s before he can do it again. This is when E (Hookshot) knockup into Q empowered auto and W (Tactical Sweep) cone actually connects cleanly."
    }
   },
   "powerCurve": [
    {
-    "levels": "1-3",
+    "levels": "1-2",
     "edge": "them",
-    "note": "Q's max-health burst on two autos outtrades early"
+    "note": "Q max-health damage plus E stun threat if a minion's behind you"
    },
    {
-    "levels": "4-6",
-    "edge": "them",
-    "note": "Facebreaker/W punish sustained trades before your items"
-   },
-   {
-    "levels": "7-10",
+    "levels": "3-5",
     "edge": "even",
-    "note": "R unlocks picks, but his W still swings fights"
+    "note": "E (Hookshot) unlocks poke/disengage, both kits still slow"
    },
    {
-    "levels": "11-15",
-    "edge": "you",
-    "note": "Trinity Force + Hydra sustain outlasts his shield"
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults live; isolating Sett with R denies his Grit refill"
    },
    {
-    "levels": "16-18",
+    "levels": "9-13",
     "edge": "you",
-    "note": "Full build wins prolonged duels and resets"
+    "note": "Trinity Force completes, burst spike flips extended trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Sett's low-HP regen and W shield stabilize teamfights"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Blade",
-    "why": "64.1% win rate over 142 games and the clear majority pick (75.5%) — the lifesteal and damage keep short pokes profitable without needing to stand in Sett's punch range."
+    "item": "Doran's Blade + Health Potion",
+    "why": "51.2% over 1,998 games and the clear majority pick (73.6%); the sustain and AD let you auto-trade through Sett's alternating punches without losing lane HP you can't get back."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "62.2% win rate over 143 games and 82.7% pick — cuts the sustained physical damage from his alternating punches and Q, which matters more than tenacity in a mostly-slow, not-stun, 1v1."
+    "why": "51.2% over 1,967 games, 81.3% pick; flat reduction on Sett's auto-attack-heavy kit (Pit Grit, Q's bonus attacks) matters more than magic resist since he's all-physical."
    },
    "core": [
     {
      "item": "Trinity Force",
-     "why": "Part of the 69% win rate, 46.2%-pick path over 42 games — the move speed and burst spike let you commit to trades on your terms instead of his."
+     "why": "47.6%-picked path to a 57.3% win rate; this is the spike that flips level 9-13 in your favor — the proc damage punishes Sett for standing in your W cone."
     },
     {
      "item": "Ravenous Hydra",
-     "why": "Second item on the same 69% win rate path — sustain from the heal offsets his Grit regen in extended skirmishes."
+     "why": "Sustain and AoE pressure to keep trading through Sett's W shield without needing to land a perfect all-in."
     },
     {
      "item": "Death's Dance",
-     "why": "Closes out the highest win-rate core path (69% over 42 games) — damage-over-time delay lets you survive his all-in burst and still punish after."
+     "why": "Most-picked third item (47.6% of the top path); converts his Q/W burst into delayed damage you heal back, which matters since he wins burst exchanges."
     }
    ],
    "situational": [
     {
      "item": "Sterak's Gage",
-     "when": "you're facing snowballed kill pressure and need to survive his all-in instead of trading through it"
+     "when": "sett or his team is building to one-shot you off a single E stun into R combo"
     },
     {
      "item": "Spear of Shojin",
-     "when": "you're already ahead and want faster cooldowns to keep the hit-and-run rhythm going"
+     "when": "you need the cooldown refund to recycle Q/E/W faster than his Grit/W regenerates"
     },
     {
      "item": "Mercury's Treads",
-     "when": "the enemy team stacks crowd control beyond just Sett's Facebreaker"
+     "when": "the enemy team stacks CC on top of Sett's E (Facebreaker) stun chain"
     },
     {
      "item": "Tiamat",
-     "when": "you want an earlier wave-clear and sustain pickup before Ravenous Hydra completes"
+     "when": "you're ahead on gold and want the Hydra spike earlier than the standard timing"
     }
    ]
   },
   "runes": {
    "keystone": "Grasp of the Undying",
-   "keystoneWhy": "This page runs a 78.4% win rate at 27.9% pick — the proc sustain directly counters a lane where Sett wants you to overextend into his stored Grit.",
+   "keystoneWhy": "51.6% win rate as the top page; the on-hit heal and max-health growth are what let Camille out-sustain Sett over a long lane instead of needing to win single trades outright, which is the losing proposition here.",
    "primary": [
     "Shield Bash",
     "Bone Plating",
@@ -111,54 +111,58 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Flash + Ignite is both the most-played combo (64.1% pick) and posts a 64.7% win rate — the Ignite closes out short trades before he can stack Grit for a shield-and-regen swing back."
+   "why": "64.5% pick rate at 51.3% win rate; Ignite directly attacks Sett's Pit Grit sustain (the missing-health regen that stabilizes him after a trade) and turns a non-kill poke into a real threat. Flash+Teleport (20.3% pick, 50.5%) is the alternative if you're prioritizing scaling and side-lane split push over early pressure."
   },
   "playing": [
    {
-    "title": "Bait the shield, don't feed it",
-    "detail": "W (Haymaker) stores everything he tanks as Grit until he casts it. Poke with Q autos or the outer edge of your own W rather than standing in a full trade, and never dump your combo into a freshly-cast Haymaker shield."
+    "title": "Let Sett's shield burn first",
+    "detail": "Don't throw Q or W into a full Grit bar — it just feeds his shield. Trade only once you've seen him spend W (Haymaker), on an 18 down to 12s cooldown depending on rank."
    },
    {
-    "title": "Facebreaker only slows you solo",
-    "detail": "Sett's E stuns only when enemies are pulled from both sides; alone in lane you'll just be slowed, not stunned. Respect it near your own minion wave, ignore the stun threat in an empty lane."
+    "title": "Check what's behind him before trading",
+    "detail": "E (Facebreaker) only stuns if there are enemies on both sides of Sett; if a minion is sitting behind you on the opposite side, he can stun you solo and follow with R. Step off that line before committing."
    },
    {
-    "title": "Wall-hop with E to reset range",
-    "detail": "Hookshot's 800 range off a wall lets you poke and immediately disengage before he can punish with Q's empowered autos. Track its 16-12s cooldown before you commit to a stand-and-fight."
+    "title": "Make him engage first",
+    "detail": "OP.GG's own data says Sett wins when Camille closes the gap first. Hold E (Hookshot) until he commits Q or E, then knock him up and punish the recovery instead of initiating yourself."
    },
    {
-    "title": "Delay your Q recast for the burst",
-    "detail": "Precision Protocol's second cast hits far harder if you wait between casts. Land the first auto, hold the recast until his W is down, then fire it alongside your E knock-up."
+    "title": "Bank the Q recast",
+    "detail": "Delay your Precision Protocol recast for the bonus damage window right after Sett finishes his two empowered Q attacks, when he's locked into the animation and can't punish back."
    },
    {
-    "title": "Skill into W for poke and heal",
-    "detail": "Follow the WQEQQR order — max Tactical Sweep early for its outer-cone slow, extra damage, and self-heal, which lets you win the poke war without ever entering his punch range."
+    "title": "Isolate before you ult",
+    "detail": "Hextech Ultimatum works best when Sett is off the wave — if he's still near minions his passive Grit keeps refilling his W shield mid-combo and your all-in fizzles."
    },
    {
-    "title": "Play for the level 11-13 item spike",
-    "detail": "Trinity Force into Ravenous Hydra is where the duel flips; hold priority and avoid throwing all-ins before then, since 57.9% of your wins come from outlasting him, not out-brawling him early."
+    "title": "Finish or leave, don't linger",
+    "detail": "Pit Grit gives Sett extra regen the lower his health drops. Either close the kill fast or disengage; sitting at his low-HP threshold just lets him stabilize for free."
+   },
+   {
+    "title": "Time all-ins to Trinity completion",
+    "detail": "Levels 9-13 are your power spike once Trinity Force comes online — this is where the matchup actually tilts your way, so look for forced fights here rather than earlier."
    }
   ],
-  "patchCaveat": "Build order, rune pages, summoner spells, and all win-rate/pick-rate figures are measured from live games on the current patch via OP.GG; the ability mechanics, timing windows, and tactical reasoning are my own analysis built on top of that data."
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample-size numbers are measured OP.GG data from current-patch games; the engagement timing, Grit/shield reads, and trade-pattern advice are this brief's own tactical analysis layered on top."
  },
- "generatedAt": 1790229437646,
- "patch": "16.19.1",
+ "generatedAt": 1791328674849,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790229330273,
+  "fetchedAt": 1791328580204,
   "overall": {
-   "winRate": 52.3,
-   "play": 6574,
+   "winRate": 50.7,
+   "play": 101301,
    "tier": 1
   },
   "headToHead": {
-   "play": 152,
-   "wins": 88,
-   "winRate": 57.9
+   "play": 2346,
+   "wins": 1165,
+   "winRate": 49.7
   },
-  "laneAdvantage": "Sett",
+  "laneAdvantage": "EVEN",
   "soloKillAdvantage": "Sett",
   "playStyle": "defensive",
   "opponentTip": "Sett has the upper hand in combat in most cases when Camille closes in first to engage. Try to either engage only when Sett engages first or hit and run! Be careful not to use your abilities on Sett’s shield (W).",
@@ -168,27 +172,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 64.7,
-    "play": 116,
-    "pickRate": 64.1
+    "winRate": 51.3,
+    "play": 1743,
+    "pickRate": 64.5
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 52.9,
-    "play": 34,
-    "pickRate": 18.8
+    "winRate": 50.5,
+    "play": 548,
+    "pickRate": 20.3
    },
    {
     "names": [
      "Teleport",
      "Ignite"
     ],
-    "winRate": 68,
-    "play": 25,
-    "pickRate": 13.8
+    "winRate": 51.1,
+    "play": 360,
+    "pickRate": 13.3
    }
   ],
   "runes": [
@@ -210,9 +214,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 78.4,
-    "play": 51,
-    "pickRate": 27.9
+    "winRate": 51.6,
+    "play": 855,
+    "pickRate": 30.9
    },
    {
     "primaryTree": "Resolve",
@@ -232,9 +236,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 34.8,
-    "play": 23,
-    "pickRate": 12.6
+    "winRate": 45.7,
+    "play": 302,
+    "pickRate": 10.9
    }
   ],
   "starter": [
@@ -243,18 +247,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 64.1,
-    "play": 142,
-    "pickRate": 75.5
+    "winRate": 51.2,
+    "play": 1998,
+    "pickRate": 73.6
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 57.1,
-    "play": 35,
-    "pickRate": 18.6
+    "winRate": 51.1,
+    "play": 558,
+    "pickRate": 20.6
    }
   ],
   "boots": [
@@ -262,17 +266,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 62.2,
-    "play": 143,
-    "pickRate": 82.7
+    "winRate": 51.2,
+    "play": 1967,
+    "pickRate": 81.3
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 79.2,
-    "play": 24,
-    "pickRate": 13.9
+    "winRate": 55.4,
+    "play": 350,
+    "pickRate": 14.5
    }
   ],
   "core": [
@@ -282,9 +286,9 @@
      "Ravenous Hydra",
      "Death's Dance"
     ],
-    "winRate": 69,
-    "play": 42,
-    "pickRate": 46.2
+    "winRate": 57.3,
+    "play": 658,
+    "pickRate": 47.6
    },
    {
     "items": [
@@ -292,9 +296,9 @@
      "Ravenous Hydra",
      "Sterak's Gage"
     ],
-    "winRate": 57.9,
-    "play": 19,
-    "pickRate": 20.9
+    "winRate": 57,
+    "play": 258,
+    "pickRate": 18.7
    },
    {
     "items": [
@@ -302,9 +306,9 @@
      "Ravenous Hydra",
      "Spear of Shojin"
     ],
-    "winRate": 64.3,
-    "play": 14,
-    "pickRate": 15.4
+    "winRate": 56.7,
+    "play": 252,
+    "pickRate": 18.2
    }
   ],
   "lateOptions": [
@@ -312,49 +316,49 @@
     "items": [
      "Trinity Force"
     ],
-    "winRate": 61.1,
-    "play": 180,
-    "pickRate": 99.5
+    "winRate": 50.7,
+    "play": 2649,
+    "pickRate": 99.1
    },
    {
     "items": [
      "Ravenous Hydra"
     ],
-    "winRate": 64.5,
-    "play": 141,
-    "pickRate": 77.9
+    "winRate": 52.7,
+    "play": 2209,
+    "pickRate": 82.7
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 62.3,
-    "play": 61,
-    "pickRate": 33.7
+    "winRate": 56.1,
+    "play": 868,
+    "pickRate": 32.5
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 63.3,
-    "play": 30,
-    "pickRate": 16.6
+    "winRate": 58.2,
+    "play": 438,
+    "pickRate": 16.4
    },
    {
     "items": [
      "Spear of Shojin"
     ],
-    "winRate": 58.3,
-    "play": 24,
-    "pickRate": 13.3
+    "winRate": 56.5,
+    "play": 379,
+    "pickRate": 14.2
    },
    {
     "items": [
      "Tiamat"
     ],
-    "winRate": 50,
-    "play": 18,
-    "pickRate": 9.9
+    "winRate": 32.9,
+    "play": 219,
+    "pickRate": 8.2
    }
   ],
   "skillOrder": [
@@ -376,8 +380,8 @@
      "W",
      "W"
     ],
-    "winRate": 66.2,
-    "play": 68
+    "winRate": 53.5,
+    "play": 971
    }
   ]
  }

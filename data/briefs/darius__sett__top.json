@@ -4,97 +4,97 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Even matchup",
-   "line": "You lose if you stand and auto-trade through a full Grit bar and a charged Haymaker heal; you win if you E-pull into an edge-of-Decimate Q, strip his sustain with W, and close with a 5-stack Guillotine before he resets."
+   "difficulty": "Skill matchup",
+   "line": "You lose if Sett gets his W (Haymaker) shield off on a full Grit bar and you lose if you tunnel E (Apprehend) into his E (Facebreaker); you win if you stack Hemorrhage from max Q range before either of his cooldowns are up."
   },
-  "thesis": "Darius and Sett are both attrition duelists who win the lane through resource management, not burst: Darius refreshes Hemorrhage stacks toward a true-damage execute, Sett fills his Grit bar toward an empowered auto and heals off (W) Haymaker. Whoever denies the other's resource first wins the extended trade, which is why the head-to-head sits razor-close at 49.4% over 1,086 games with EVEN lane and solo-kill grades. Your one lever the data hands you is that Darius (W) directly cuts the healing Sett's whole trade pattern depends on.",
+  "thesis": "This is a 48.3% head-to-head over 5070 games because both champions win the same fight differently: Sett needs his W (Haymaker) Grit bar full and his E (Facebreaker) stun lined up, Darius needs five stacks of Hemorrhage before he commits. Whoever forces the other to fight on their terms, rather than their own, wins the trade. There is no inherent lane-advantage to lean on here — the matchup is decided by execution, not champion identity.",
   "tell": {
-   "watch": "Sett's Grit bar fill",
+   "watch": "Sett's W Grit meter",
    "theirWindow": {
-    "when": "grit bar full or W charging",
-    "what": "His next auto is empowered for bonus max-HP damage, and a released Haymaker heals him hard — back off or bait it onto a minion instead of trading into it."
+    "when": "Sett's Grit is full, W off cooldown",
+    "what": "Haymaker expends all stored Grit for a shield and punches a center that deals true damage with physical damage on the sides. Do not stand in the middle of his attack-back animation when his Grit bar is topped off — back off a step or force the trade from range with Q instead."
    },
    "yourWindow": {
-    "when": "passive at 4-5 stacks, W landed",
-    "what": "All-in immediately: E (Apprehend) to lock him, edge-of-blade Q for the doubled heal, W to cut his sustain, then R once stacks are maxed for the true-damage execute."
+    "when": "Sett's E (Facebreaker) is on cooldown",
+    "what": "Facebreaker only stuns if you're caught on opposite sides of him (16/14.5/13/11.5/10s cooldown); with it down he has no hard CC besides R. Commit E (Apprehend) to hook him in and stack Hemorrhage freely."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Sett's empowered Q autos match your poke"
+    "note": "Both poke with autos, no hook or stun yet"
    },
    {
     "levels": "3-5",
-    "edge": "you",
-    "note": "E unlocks full combo, punish his W heal"
+    "edge": "even",
+    "note": "E (Facebreaker) and E (Apprehend) both online"
    },
    {
     "levels": "6-8",
     "edge": "you",
-    "note": "R executes before Grit sustain resets"
+    "note": "R (Noxian Guillotine) executes a stacked target"
    },
    {
     "levels": "9-13",
     "edge": "even",
-    "note": "Youmuu spike fades as his items catch up"
+    "note": "Full combos, outcome depends on stacks/Grit state"
    },
    {
     "levels": "14-18",
     "edge": "them",
-    "note": "Pit Grit's HP-scaling AD out-tanks you"
+    "note": "Sett's health-stacking regen outscales your damage falloff"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Blade",
-    "why": "77.2% pick and the higher-sample line (1,045 games at 50% WR) — front-loads AD so your early autos and Hemorrhage ticks keep pace with Sett's auto-heavy kit rather than trying to out-poke him."
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run at 47.8% win rate over 4,896 games and picked 78.4% of the time — the sustain and lifesteal win extended auto trades against Sett's Grit-building passive, letting you land the stacks you need without losing the attrition war."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "86.7% pick at 50.5% WR — Sett's damage is almost entirely delivered through basic attacks (Q-empowered autos, the Grit-empowered auto, raw AA), so flat AA reduction outvalues Mercury's Treads unless you're facing hard CC stacking elsewhere."
+    "why": "Taken in 85.3% of games at 48.3% win rate — flat reduction on Sett's auto-attack and Q (Knuckle Down) empowered-auto poke is more valuable here than Mercury's Treads' tenacity, since his only hard CC comes from E and R."
    },
    "core": [
     {
      "item": "Youmuu's Ghostblade",
-     "why": "Highest-winrate path listed (62.1% over 95 games) — the active's AD and haste burst is what wins the all-in window (E-pull into edge-Q into W) before Sett's Grit bar refills."
+     "why": "The ability haste shortens your Q (Decimate) cooldown for faster Hemorrhage stacking, and the active lets you close or create distance around Sett's E (Facebreaker) windup."
     },
     {
      "item": "Dead Man's Plate",
-     "why": "Adds HP to keep pace with Sett's max-health-scaling Pit Grit passive, while the charge-up slow lets you stick through his E stun setup or catch him mid-Haymaker charge."
+     "why": "Move speed charge lets you dictate when you engage into his W (Haymaker) center versus baiting him to overextend; armor blunts his physical-damage punches."
     },
     {
      "item": "Death's Dance",
-     "why": "Converts his empowered-auto and Haymaker burst into a damage-over-time you can outlast, then the omnivamp lets you win the follow-up fight after his sustain window closes."
+     "why": "Delays the burst from his W shield-punch and E stun combo, keeping you alive long enough for your own bleed and R true damage to close out the trade."
     }
    ],
    "situational": [
     {
+     "item": "Sterak's Gage",
+     "when": "you're behind and need to survive his all-in off a landed facebreaker stun"
+    },
+    {
      "item": "Force of Nature",
-     "when": "the enemy team stacks magic damage on top of Sett and steelcaps alone isn't enough"
+     "when": "sett's team is stacking magic damage alongside him and you need the health/MR pad"
     },
     {
      "item": "Stridebreaker",
-     "when": "you want the built-in slow and waveclear over Ghostblade's burst (the alternate 60% WR path)"
-    },
-    {
-     "item": "Sterak's Gage",
-     "when": "you're dying to his burst before your own combo lands and need the shield to survive to R range"
+     "when": "you want the mythic slow-on-hit path instead of youmuu's as your first core item"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Both champions want extended, attrition-style fights rather than single burst windows — Conqueror's stacking heal keeps you even with Sett's W lifesteal-like sustain during the trade instead of losing the war of attrition.",
+   "keystoneWhy": "The stacking adaptive force/healing from extended trades matches how this lane is actually won — sustained autos and Q hits while bleed ticks, rather than a single burst window. Run at 49.5% win rate over the 20.7%-pick page. Note: master-tier Darius players favor Stormraider's Surge (Sorcery) instead across 17,974 games — better suited if you plan to kite and disengage rather than brawl Sett head-on.",
    "primary": [
     "Triumph",
-    "Legend: Alacrity",
+    "Legend: Haste",
     "Last Stand"
    ],
    "secondary": [
-    "Axiom Arcanist",
-    "Celerity"
+    "Unflinching",
+    "Bone Plating"
    ],
    "shards": [
     "Attack Speed",
@@ -105,58 +105,54 @@
   "summoners": {
    "picks": [
     "Flash",
-    "Ghost"
+    "Ignite"
    ],
-   "why": "The dominant pick at 72.5% (49.7% WR) — Ghost lets you close the gap on a kiting Sett or run down a Haymaker-charged disengage that Apprehend alone can't reach. Flash+Ignite (49.4%, 20.3% pick) is the better call specifically when you want to punish his W's self-heal directly with the healing-reduction from Ignite in a level 2-3 all-in."
+   "why": "The highest win-rate combo in this matchup at 50.2% over 21.7% of games — Ignite cuts through Sett's missing-health regen from his passive (Pit Grit) during all-ins. Flash+Ghost is the more popular pick (69.9%) if you'd rather prioritize disengage and repositioning around his W (Haymaker) center."
   },
   "playing": [
    {
-    "title": "Start W, not Q",
-    "detail": "The 50.9%-WR order takes (W) first, applying the healing-reduction debuff on your first trade — it directly cuts the sustain Sett's whole W-Haymaker pattern depends on, before you even have Apprehend online."
+    "title": "Hit Q at the blade, not the handle",
+    "detail": "Decimate deals more damage to enemies struck by the blade than the handle, so land it at max range rather than point-blank. This also keeps you off-center from Sett's W (Haymaker) punch zone."
    },
    {
-    "title": "Hit the edge of Decimate",
-    "detail": "Landing (Q) at max range on Sett doubles the heal-back you get compared to hitting him at the center — this is the single highest-value habit in the matchup per OP.GG's own tip."
+    "title": "Track Sett's Grit bar before trading",
+    "detail": "Haymaker's damage and shield scale off stored Grit from damage he's taken. If his Grit looks empty, he has no shield to trade through — this is when your auto/Q poke hits hardest relative to his retaliation."
    },
    {
-    "title": "Track the Grit bar, not just HP",
-    "detail": "Sett's white passive bar fills from champion damage taken; once it's full his next auto is empowered against your max HP. Bait it onto a minion or disengage rather than eating it during a trade."
+    "title": "Stay on one side of Sett",
+    "detail": "Facebreaker only stuns if you're caught on opposite sides of him; if you're always on the same side as his jungle or minions, it only slows you, not stuns."
    },
    {
-    "title": "Punish the Haymaker charge",
-    "detail": "While he holds (W) to charge Haymaker he's committed and slowed relative to a normal trade — an immediate E (Apprehend) pull or all-in denies the extra range and heal he gets from releasing it fully charged."
+    "title": "Hook with E before all-inning",
+    "detail": "Apprehend pulls him to you and passively shreds a percentage of his Armor — use it to start the fight on your terms rather than trading into his engage."
    },
    {
-    "title": "Bank stacks before you R",
-    "detail": "Hold Hemorrhage at 4-5 stacks before using (R) — Noxian Guillotine's true damage scales directly with stack count and can close out the fight before his W heal has time to matter."
+    "title": "Hold R until stacks are high",
+    "detail": "Noxian Guillotine deals true damage that scales per stack of Hemorrhage on the target; don't throw it at one or two stacks when it can finish a near-five-stack target instead."
    },
    {
-    "title": "Respect the level 6+ grab",
-    "detail": "Sett's (R) deals more damage the further he carries you — fight in open lane rather than near brush or walls that extend the throw distance once he hits 6."
-   },
-   {
-    "title": "Front-load Youmuu's for the all-in",
-    "detail": "Rush Ghostblade before Dead Man's Plate — its active is what wins your all-in window in the 9-13 range before his HP-scaling Pit Grit passive starts out-tanking your damage late."
+    "title": "Punish his R cooldown",
+    "detail": "The Show Stopper is on a 120/100/80/80/80s cooldown. After he uses it, whether it lands or not, he has no grab or stun available — look to force fights in that window."
    }
   ],
-  "patchCaveat": "The build order, rune pages, boots, and summoner picks above are pulled directly from measured Darius vs Sett games on the current patch (1,086-game sample, 49.4% WR, EVEN lane grade); the mechanical reasoning, timings, and trade-pattern analysis are my own read of both kits, not sourced from OP.GG."
+  "patchCaveat": "Win rates, pick rates, build paths, runes, and summoner spells above are measured from live games on the current patch via OP.GG; the mechanical reasoning, timing windows, and trade patterns are this brief's own analysis, not sourced data."
  },
- "generatedAt": 1789270534796,
- "patch": "16.18.1",
+ "generatedAt": 1791326597081,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789270402943,
+  "fetchedAt": 1791326492222,
   "overall": {
-   "winRate": 50,
-   "play": 31185,
+   "winRate": 49.5,
+   "play": 152939,
    "tier": 2
   },
   "headToHead": {
-   "play": 1086,
-   "wins": 536,
-   "winRate": 49.4
+   "play": 5070,
+   "wins": 2447,
+   "winRate": 48.3
   },
   "laneAdvantage": "EVEN",
   "soloKillAdvantage": "EVEN",
@@ -168,52 +164,30 @@
      "Flash",
      "Ghost"
     ],
-    "winRate": 49.7,
-    "play": 947,
-    "pickRate": 72.5
+    "winRate": 48.1,
+    "play": 4338,
+    "pickRate": 69.9
    },
    {
     "names": [
      "Flash",
      "Ignite"
     ],
-    "winRate": 49.4,
-    "play": 265,
-    "pickRate": 20.3
+    "winRate": 50.2,
+    "play": 1349,
+    "pickRate": 21.7
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 49.4,
-    "play": 81,
-    "pickRate": 6.2
+    "winRate": 48,
+    "play": 429,
+    "pickRate": 6.9
    }
   ],
   "runes": [
-   {
-    "primaryTree": "Precision",
-    "primary": [
-     "Conqueror",
-     "Triumph",
-     "Legend: Alacrity",
-     "Last Stand"
-    ],
-    "secondaryTree": "Sorcery",
-    "secondary": [
-     "Axiom Arcanist",
-     "Celerity"
-    ],
-    "shards": [
-     "Attack Speed",
-     "Adaptive Force",
-     "Health Scaling"
-    ],
-    "winRate": 50.2,
-    "play": 281,
-    "pickRate": 21.3
-   },
    {
     "primaryTree": "Precision",
     "primary": [
@@ -232,9 +206,31 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 49.6,
-    "play": 258,
-    "pickRate": 19.6
+    "winRate": 49.5,
+    "play": 1310,
+    "pickRate": 20.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.3,
+    "play": 1177,
+    "pickRate": 18.6
    }
   ],
   "starter": [
@@ -243,18 +239,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 50,
-    "play": 1045,
-    "pickRate": 77.2
+    "winRate": 47.8,
+    "play": 4896,
+    "pickRate": 78.4
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 50,
-    "play": 200,
-    "pickRate": 14.8
+    "winRate": 49.3,
+    "play": 907,
+    "pickRate": 14.5
    }
   ],
   "boots": [
@@ -262,17 +258,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 50.5,
-    "play": 1140,
-    "pickRate": 86.7
+    "winRate": 48.3,
+    "play": 5200,
+    "pickRate": 85.3
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 43.4,
-    "play": 106,
-    "pickRate": 8.1
+    "winRate": 52.8,
+    "play": 521,
+    "pickRate": 8.6
    }
   ],
   "core": [
@@ -282,9 +278,9 @@
      "Dead Man's Plate",
      "Death's Dance"
     ],
-    "winRate": 62.1,
-    "play": 95,
-    "pickRate": 12
+    "winRate": 54.3,
+    "play": 429,
+    "pickRate": 11.4
    },
    {
     "items": [
@@ -292,9 +288,9 @@
      "Dead Man's Plate",
      "Force of Nature"
     ],
-    "winRate": 50,
-    "play": 52,
-    "pickRate": 6.6
+    "winRate": 49.1,
+    "play": 220,
+    "pickRate": 5.9
    },
    {
     "items": [
@@ -302,9 +298,9 @@
      "Dead Man's Plate",
      "Death's Dance"
     ],
-    "winRate": 60,
-    "play": 40,
-    "pickRate": 5.1
+    "winRate": 50.3,
+    "play": 183,
+    "pickRate": 4.9
    }
   ],
   "lateOptions": [
@@ -312,49 +308,49 @@
     "items": [
      "Dead Man's Plate"
     ],
-    "winRate": 52.2,
-    "play": 684,
-    "pickRate": 52.3
+    "winRate": 51.8,
+    "play": 3129,
+    "pickRate": 51.3
    },
    {
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 46.4,
-    "play": 552,
-    "pickRate": 42.2
-   },
-   {
-    "items": [
-     "Youmuu's Ghostblade"
-    ],
-    "winRate": 49.4,
-    "play": 506,
-    "pickRate": 38.7
+    "winRate": 48.7,
+    "play": 2630,
+    "pickRate": 43.1
    },
    {
     "items": [
      "Sterak's Gage"
     ],
     "winRate": 54.4,
-    "play": 491,
-    "pickRate": 37.6
+    "play": 2424,
+    "pickRate": 39.8
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 49.2,
+    "play": 2197,
+    "pickRate": 36
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 60.8,
-    "play": 424,
-    "pickRate": 32.4
+    "winRate": 51.7,
+    "play": 1978,
+    "pickRate": 32.5
    },
    {
     "items": [
      "Force of Nature"
     ],
-    "winRate": 55.8,
-    "play": 249,
-    "pickRate": 19.1
+    "winRate": 53.8,
+    "play": 1194,
+    "pickRate": 19.6
    }
   ],
   "skillOrder": [
@@ -376,9 +372,14 @@
      "W",
      "W"
     ],
-    "winRate": 50.9,
-    "play": 348
+    "winRate": 50.8,
+    "play": 1639
    }
-  ]
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 17974
+  }
  }
 }

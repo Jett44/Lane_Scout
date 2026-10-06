@@ -4,89 +4,93 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Defensive underdog",
-   "line": "You lose if you stand in Aatrox's Q/W poke range before level 6 and get chipped down before you can engage; you win if you survive to itemize and force a stacked-Hemorrhage all-in where Guillotine's true damage outpaces his healing."
+   "difficulty": "Even, defensive",
+   "line": "You lose fights you enter without E (Apprehend) ready, since Aatrox's Umbral Dash lets him disengage or extend his Darkin Blade swings onto you; you win once your hook lands and you stack Hemorrhage into a true-damage Guillotine before that dash comes off cooldown."
   },
-  "thesis": "Aatrox has ranged pressure tools (Q's three swings, W's 825-range Infernal Chains) and self-heal (Deathbringer Stance, Umbral Dash's passive heal) that punish Darius for closing distance, which is exactly why OP.GG's tip is to dodge the Q-E poke before fighting in close quarters. Darius's own E (Apprehend, 535 range) is the counter to that pattern — it's a gap-closing pull, not just an engage tool, and it's strongest the moment Aatrox has spent E (Umbral Dash) to disengage.",
+  "thesis": "Darius has no ranged tool and must land E (Apprehend) to force any trade, while Aatrox can poke with The Darkin Blade's multi-swing slams and bail or re-engage with Umbral Dash on a 9/8/7/6/5s cooldown. That's why the matchup sits at a measured 49.4% win rate over 4,257 games and reads as EVEN overall but defensive for Darius, with Aatrox holding the solo-kill edge whenever Darius commits without his hook up.",
   "tell": {
-   "watch": "Deathbringer Stance passive icon",
+   "watch": "Aatrox's E (Umbral Dash) cooldown",
    "theirWindow": {
-    "when": "Q, W, E and stance all up",
-    "what": "Aatrox can poke with Q (The Darkin Blade) and W (Infernal Chains) then dash away with E (Umbral Dash, 9-5s cd) before you close. Don't contest CS or trade in his 825-range W threat zone during this window."
+    "when": "Infernal Chains lands, Umbral Dash ready",
+    "what": "If you're caught in the Infernal Chains impact zone and don't clear it immediately, you take the drag-back hit again, and with Umbral Dash up Aatrox can dash in behind it to land extra Darkin Blade swings and a Deathbringer Stance auto. Walk out of the chain radius the instant it lands instead of trading through it."
    },
    "yourWindow": {
-    "when": "his E (Umbral Dash) just went on cooldown",
-    "what": "Land Apprehend (E, 535 range) to pull him into melee where he can't reset with the dash. This is your best window to stack Hemorrhage and get a real trade."
+    "when": "E (Apprehend) connects, his dash is down",
+    "what": "Once the hook lands with Umbral Dash on cooldown, Aatrox can't disengage. Chain W (Crippling Strike)'s slow into Q (Decimate) swings to stack Hemorrhage toward max stacks, then commit R (Noxian Guillotine) for the true-damage finish."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "them",
-    "note": "Q/W poke chips you before you can close"
+    "note": "his Q pokes while your Q/E need point-blank range"
    },
    {
     "levels": "3-5",
     "edge": "them",
-    "note": "Infernal Chains threat range limits your trades"
+    "note": "Infernal Chains online, adds zone control"
    },
    {
     "levels": "6-8",
     "edge": "even",
-    "note": "both ultimates online, execute trades swing either way"
+    "note": "both ults live, R vs R trade"
    },
    {
     "levels": "9-13",
     "edge": "you",
-    "note": "Youmuu's/Dead Man's Plate let you stick"
+    "note": "Hemorrhage snowball outscales his sustain"
    },
    {
     "levels": "14-18",
     "edge": "even",
-    "note": "his sustain vs your true-damage execute"
+    "note": "teamfights dilute the 1v1 edge"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "The 81% pick rate, 48.3% win rate start over 205 games — the extra sustain and damage help you survive his early poke long enough to look for an E pull."
+    "why": "The measured pick (82% of games, 49.5% win rate over 4,208 games) gives the sustained-damage and lifesteal-adjacent healing needed to survive Aatrox's early poke before you can reliably land E."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "81.6% pick, 51.3% win rate over 199 games. Aatrox's Deathbringer Stance auto and repeated Q swings are basic attacks and physical damage — flat reduction blunts both his poke and his heal-back."
+    "why": "80.3% pick at a 50% win rate — the attack-speed reduction blunts Aatrox's Deathbringer Stance autos and his basic attack pressure during extended trades."
    },
    "core": [
     {
      "item": "Youmuu's Ghostblade",
-     "why": "First item in the 53.8% win rate path over 26 games; the active gives you the burst of mobility to close on E-cooldown windows before he can Umbral Dash away again."
+     "why": "The active haste and burst window close the gap Aatrox tries to keep with Umbral Dash, letting you follow his dash instead of losing him."
     },
     {
      "item": "Dead Man's Plate",
-     "why": "Second in that same path — the move speed lets you actually stay attached through his poke phase instead of eating it from range."
+     "why": "Move speed stacking helps you chase down a disengaging Aatrox and the bonus damage adds to your all-in once E connects."
     },
     {
      "item": "Death's Dance",
-     "why": "Completes the 53.8%-winrate, 20.6%-pick core; the damage mitigation matters against a champion whose kit is built to heal off you in extended fights."
+     "why": "Part of the top measured path (55.9% win rate over 392 games); the damage-over-time conversion blunts his burst from Q swings and Deathbringer Stance procs."
     }
    ],
    "situational": [
     {
      "item": "Force of Nature",
-     "when": "his healing and stacked AD are snowballing the fight (this swap is part of the 66.7% win rate Youmuu's/DMP/FoN path over 9 games)"
+     "when": "the enemy team shifts to ap/magic-damage heavy composition"
     },
     {
      "item": "Sterak's Gage",
-     "when": "you need burst survivability to actually land your all-in instead of dying to his empowered auto first"
+     "when": "you need burst survivability to complete all-ins before dying to his counter-damage"
     },
     {
-     "item": "Spear of Shojin",
-     "when": "you're ahead and want to shorten Apprehend and Guillotine cooldowns to punish his dash windows more often"
+     "item": "Mercury's Treads",
+     "when": "the enemy team adds hard crowd control beyond aatrox's own kit"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need to catch a kiting target instead of pure lethality from ghostblade"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "53.4% win rate, 23% pick — the stacking adaptive force rewards the extended fights you're forced into once you finally land Apprehend. Master-tier Darius players instead run Stormraider's Surge (Sorcery keystone, 932 games) — that suits a more hit-and-run style that leans on Celerity and Gathering Storm rather than sustained trading, worth considering if you're not confident closing distance repeatedly.",
+   "keystoneWhy": "Conqueror ramps AD and healing the longer you're locked in melee range, which matches Darius's all-or-nothing E-pull trade pattern against Aatrox's poke-and-dash kit (50.8% win rate, 23.9% pick). Master-tier players instead favor Stormraider's Surge (Sorcery) across 17,974 games — that suits a more mobile, hit-and-run Darius who leans on E's pull burst rather than grinding out extended stand-and-trade fights.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
@@ -105,56 +109,60 @@
   "summoners": {
    "picks": [
     "Flash",
-    "Ghost"
+    "Ignite"
    ],
-   "why": "Flash+Ghost is both the most-played (65.9% pick) and highest-winning (50.6%) combo — the extra Ghost uptime helps you close the gap on his poke instead of eating it from range. Flash+Ignite (48.1% win rate, 31.4% pick) is the alternative if you want to secure kills against his self-healing kit."
+   "why": "Flash+Ignite holds the highest measured win rate for this matchup (50.5% over games with 32.9% pick), beating Flash+Ghost's higher-pick but lower-win 48.6% rate. Since OP.GG's own data gives Aatrox the solo-kill advantage, Ignite is the tool that closes out his all-ins before his E (Umbral Dash) heal or Deathbringer Stance sustain can offset the trade."
   },
   "playing": [
    {
-    "title": "Hold Q for safe stacks only",
-    "detail": "Decimate (Q, 9-5s cd depending on rank) is your CS and Hemorrhage tool, but walking up to use it into his Q/W range just feeds his poke. Only take it when he's out of range or already engaged."
+    "title": "Dodge the Q-E combo",
+    "detail": "Aatrox chains The Darkin Blade's swings with an Umbral Dash gap-close to extend his sword's reach onto you. Back off during his swing windup rather than trusting W (Crippling Strike)'s slow to save you — it only lands after your next attack connects, not before his dash does."
    },
    {
-    "title": "Pull him the moment E dash is down",
-    "detail": "Apprehend (E, 535 range) is strongest immediately after he burns Umbral Dash to poke-and-leave. Without that dash he can't disengage your pull, so this is your real engage window, not a random level-6 all-in."
+    "title": "Clear Infernal Chains zones",
+    "detail": "Infernal Chains only damages the first target hit, and only drags you back if you stay in the impact circle too long. Step out immediately instead of trading through it — a wasted cast puts his W on a 20/18/16/14/12s cooldown you can punish."
    },
    {
-    "title": "Track the Deathbringer Stance icon",
-    "detail": "Never trade autos into his empowered stance — it deals bonus magic damage and heals him off your max health. Wait for him to burn it on a minion or bait it out before committing."
+    "title": "Pull only when his dash is down",
+    "detail": "Land E (Apprehend) when Umbral Dash is on cooldown so he can't dash away mid-pull. Once hooked, chain W into Q swings to stack Hemorrhage toward the 5-stack enrage before he can reset the engagement."
    },
    {
-    "title": "Bank stacks before using R",
-    "detail": "Noxian Guillotine's true damage scales with his Hemorrhage stack count, so land Q and autos to build stacks first; a 5-stack Guillotine is a completely different threat than a 1-stack one."
+    "title": "Bank Hemorrhage stacks before R",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks on the target, so land Q and W bleeds first. Its cooldown refreshes on a kill, so finish low-health targets to carry that reset into the next skirmish."
    },
    {
-    "title": "Play the lane defensively through level 5",
-    "detail": "Both lane and solo-kill stats favor Aatrox pre-6. Don't contest 50/50 trades in his W (Infernal Chains, 825 range) threat zone — concede some CS if it keeps you out of his combo."
+    "title": "Track his Deathbringer Stance glow",
+    "detail": "Aatrox's passive empowers his next basic attack with bonus magic damage and healing on a periodic timer. Don't trade free autos with him at low health while that's up — it's a max-health-scaling snipe, not a normal hit."
    },
    {
-    "title": "Look to skirmish once Youmuu's is up",
-    "detail": "Your win condition arrives with the item core, not the early lane. The active haste from Youmuu's Ghostblade is what finally lets you match his mobility instead of losing every extended chase."
+    "title": "Trade only with E up",
+    "detail": "This lane is measured EVEN overall but defensive for Darius, with Aatrox favored in solo kills. Avoid extended auto-trades without E (Apprehend) ready — your wins come from forced all-ins, not passive farming exchanges."
+   },
+   {
+    "title": "Force fights in your power window",
+    "detail": "Aatrox's R (World Ender) sits at a flat 80s cooldown from rank 3 onward, while your Hemorrhage-and-Guillotine snowball peaks from level 9-13. Look to force skirmishes in that window before his ultimate uptime and sustain catch back up."
    }
   ],
-  "patchCaveat": "The build, runes, summoners and all win-rate/pick-rate/sample-size figures above are measured from live OP.GG games on the current patch; the mechanical reasoning about cooldown windows, stance timing and trade patterns is my own tactical read, not measured data."
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample figures above are measured OP.GG data from live games on the current patch; the tells, timing windows, and tactical reasoning are this brief's own analysis layered on top of that data."
  },
- "generatedAt": 1790211658249,
- "patch": "16.19.1",
+ "generatedAt": 1791327957175,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790211580912,
+  "fetchedAt": 1791327840937,
   "overall": {
-   "winRate": 48.6,
-   "play": 6934,
+   "winRate": 49.5,
+   "play": 152939,
    "tier": 2
   },
   "headToHead": {
-   "play": 213,
-   "wins": 105,
-   "winRate": 49.3
+   "play": 4257,
+   "wins": 2101,
+   "winRate": 49.4
   },
-  "laneAdvantage": "Aatrox",
+  "laneAdvantage": "EVEN",
   "soloKillAdvantage": "Aatrox",
   "playStyle": "defensive",
   "opponentTip": "Avoid being hit by Aatrox’s (Q)-(E) combo. Avoid his pokes while closing in to fight him in close quarters.",
@@ -164,27 +172,27 @@
      "Flash",
      "Ghost"
     ],
-    "winRate": 50.6,
-    "play": 166,
-    "pickRate": 65.9
+    "winRate": 48.6,
+    "play": 3218,
+    "pickRate": 62.9
    },
    {
     "names": [
      "Flash",
      "Ignite"
     ],
-    "winRate": 48.1,
-    "play": 79,
-    "pickRate": 31.4
+    "winRate": 50.5,
+    "play": 1684,
+    "pickRate": 32.9
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 33.3,
-    "play": 6,
-    "pickRate": 2.4
+    "winRate": 50.6,
+    "play": 174,
+    "pickRate": 3.4
    }
   ],
   "runes": [
@@ -206,9 +214,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 53.4,
-    "play": 58,
-    "pickRate": 23
+    "winRate": 50.8,
+    "play": 1254,
+    "pickRate": 23.9
    },
    {
     "primaryTree": "Sorcery",
@@ -228,9 +236,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 44.6,
-    "play": 56,
-    "pickRate": 22.2
+    "winRate": 46.3,
+    "play": 1206,
+    "pickRate": 23
    }
   ],
   "starter": [
@@ -239,18 +247,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 48.3,
-    "play": 205,
-    "pickRate": 81
+    "winRate": 49.5,
+    "play": 4208,
+    "pickRate": 82
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 50,
-    "play": 38,
-    "pickRate": 15
+    "winRate": 49.3,
+    "play": 747,
+    "pickRate": 14.6
    }
   ],
   "boots": [
@@ -258,17 +266,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 51.3,
-    "play": 199,
-    "pickRate": 81.6
+    "winRate": 50,
+    "play": 3977,
+    "pickRate": 80.3
    },
    {
     "items": [
-     "Boots of Swiftness"
+     "Mercury's Treads"
     ],
-    "winRate": 44.4,
-    "play": 27,
-    "pickRate": 11.1
+    "winRate": 48.4,
+    "play": 490,
+    "pickRate": 9.9
    }
   ],
   "core": [
@@ -278,9 +286,9 @@
      "Dead Man's Plate",
      "Death's Dance"
     ],
-    "winRate": 53.8,
-    "play": 26,
-    "pickRate": 20.6
+    "winRate": 55.9,
+    "play": 392,
+    "pickRate": 14.9
    },
    {
     "items": [
@@ -288,69 +296,69 @@
      "Dead Man's Plate",
      "Force of Nature"
     ],
-    "winRate": 66.7,
-    "play": 9,
+    "winRate": 63.4,
+    "play": 186,
     "pickRate": 7.1
    },
    {
     "items": [
-     "Stridebreaker",
-     "Sterak's Gage",
-     "Death's Dance"
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
     ],
-    "winRate": 50,
-    "play": 4,
-    "pickRate": 3.2
+    "winRate": 52.3,
+    "play": 111,
+    "pickRate": 4.2
    }
   ],
   "lateOptions": [
    {
     "items": [
-     "Dead Man's Plate"
+     "Youmuu's Ghostblade"
     ],
-    "winRate": 54.2,
-    "play": 120,
-    "pickRate": 47.8
+    "winRate": 51.7,
+    "play": 2434,
+    "pickRate": 47.9
    },
    {
     "items": [
-     "Youmuu's Ghostblade"
+     "Dead Man's Plate"
     ],
-    "winRate": 49.5,
-    "play": 107,
-    "pickRate": 42.6
+    "winRate": 55.7,
+    "play": 2385,
+    "pickRate": 47
    },
    {
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 54.7,
-    "play": 95,
-    "pickRate": 37.9
-   },
-   {
-    "items": [
-     "Sterak's Gage"
-    ],
-    "winRate": 52.1,
-    "play": 71,
-    "pickRate": 28.3
+    "winRate": 48.7,
+    "play": 1798,
+    "pickRate": 35.4
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 53.6,
-    "play": 69,
-    "pickRate": 27.5
+    "winRate": 57.1,
+    "play": 1542,
+    "pickRate": 30.4
    },
    {
     "items": [
-     "Spear of Shojin"
+     "Sterak's Gage"
     ],
-    "winRate": 54.5,
-    "play": 44,
-    "pickRate": 17.5
+    "winRate": 55,
+    "play": 1379,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 56.7,
+    "play": 849,
+    "pickRate": 16.7
    }
   ],
   "skillOrder": [
@@ -372,14 +380,14 @@
      "W",
      "W"
     ],
-    "winRate": 50,
-    "play": 48
+    "winRate": 55.7,
+    "play": 985
    }
   ],
   "highElo": {
    "keystone": "Stormraider's Surge",
    "tree": "Sorcery",
-   "play": 932
+   "play": 17974
   }
  }
 }

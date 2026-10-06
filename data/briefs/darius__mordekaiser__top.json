@@ -4,89 +4,89 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Even skirmish",
-   "line": "You lose if you all-in right after Mordekaiser pops a full Indestructible shield or drag the fight past his level 6 Realm of Death; you win if you force the mutual pull first and finish with a fully-stacked Guillotine."
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him land E (Death's Grasp) into Q (Obliterate) for free; you win by forcing all-ins only when his W (Indestructible) shield is already burned."
   },
-  "thesis": "Neither of you has hard crowd control, so this lane is decided by who lands their pull first and whose cooldowns are up when the fight actually starts. Mordekaiser's Indestructible (W) turns him into a much tougher target for a few seconds after every trade, and your whole kit exists to punish the window right after that shield is gone or consumed. At 48.1% Darius win rate over 154 games with lane advantage rated EVEN, this is a genuine coinflip skirmish, not a lane you're supposed to lose or dominate.",
+  "thesis": "This is a measured 49.1% over 3288 games because neither side has a structural edge in the trade — Mordekaiser's Q (Obliterate) and E (Death's Grasp) hit hard but are both single-target skillshots with real cooldowns, so your E (Apprehend) pull-ins land just as often as his do. The fight is decided by who gets caught without their defensive cooldown: his W (Indestructible) shield or your R (Noxian Guillotine) execute window.",
   "tell": {
-   "watch": "Mordekaiser's W shield state",
+   "watch": "Mordekaiser's W (Indestructible) shield state",
    "theirWindow": {
-    "when": "his Indestructible (W) is freshly cast",
-    "what": "Back off. His stored shield from Indestructible absorbs a big chunk of your Q/E/auto burst, so an all-in here trades badly — bait it out with a poke or wait it out (12/11/10/9/8s cooldown) instead of engaging into it."
+    "when": "W shield is up and charged",
+    "what": "He can tank your all-in and sustain through your Q (Decimate) healing, so don't dump your E (Apprehend) engage into a full shield — bait it out with a poke first."
    },
    "yourWindow": {
-    "when": "his W (Indestructible) is on cooldown",
-    "what": "This is your all-in window. Fire Apprehend (E) to hook him in, land Q (Decimate) with the blade for the heal, auto with Crippling Strike (W) for the slow, and finish with Noxian Guillotine (R) once Hemorrhage is stacked — there's no shield to eat the damage."
+    "when": "his W just went on cooldown (12-8s)",
+    "what": "This is your all-in window — land E (Apprehend) to pull him in, stack Hemorrhage with Q (Decimate), and finish with R (Noxian Guillotine) before his shield comes back up."
    }
   },
   "powerCurve": [
    {
-    "levels": "1-2",
+    "levels": "1-3",
     "edge": "even",
-    "note": "Neither kit is online, poke is minimal"
+    "note": "both poke with Q, no kill pressure yet"
    },
    {
-    "levels": "3-5",
-    "edge": "you",
-    "note": "Apprehend (E) lets you force trades first"
-   },
-   {
-    "levels": "6-8",
+    "levels": "4-6",
     "edge": "them",
-    "note": "Realm of Death threatens a permanent stat steal"
+    "note": "his E (Death's Grasp) pull punishes your melee range"
    },
    {
-    "levels": "9-11",
-    "edge": "even",
-    "note": "Both ultimates and full rotations trade evenly"
-   },
-   {
-    "levels": "12-18",
+    "levels": "7-10",
     "edge": "you",
-    "note": "Youmuu's spike outpaces his shield sustain"
+    "note": "R (Noxian Guillotine) live, Hemorrhage stacks snowball"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "his W sustain matches your true damage execute"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "R (Realm of Death) isolates you for his team"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "Run 47.9% win rate over 167 games and an 80.3% pick rate — the sustain from the potion plus Q's blade-heal keeps you ahead in the poke war before either ultimate is live."
+    "why": "81% pick rate at 49.8% over 3390 games — the extra AD and sustain let you trade autos into his Q (Obliterate) poke without losing the lane-sustain war."
    },
    "boots": {
     "item": "Mercury's Treads",
-    "why": "49.6% win rate over 133 games, 66.2% pick — Mordekaiser's entire kit is magic damage with no hard CC to punish, so the flat magic resist outvalues Boots of Swiftness here."
+    "why": "65% pick rate at 49.2% — the magic resist directly cuts the damage from his Q (Obliterate) and E (Death's Grasp), both of which are his entire kit's damage source."
    },
    "core": [
     {
      "item": "Youmuu's Ghostblade",
-     "why": "Part of the 77.8% win rate path over 9 games — the active gives you the closing speed to land Apprehend before he can reposition."
+     "why": "First item in all three top-performing build paths (53.7-61.3% win rate); the active haste lets you close the gap after his E (Death's Grasp) whiffs."
     },
     {
      "item": "Force of Nature",
-     "why": "Same path — stacks magic resist and move speed against a purely magic-damage matchup, which is exactly what this lane calls for."
+     "why": "Appears in the two highest win-rate paths (53.7%, 56%); stacking magic resist is the direct counter to an all-magic-damage opponent."
     },
     {
      "item": "Death's Dance",
-     "why": "Completes the 77.8%-win-rate order — the bleed-over-time damage reduction blunts his burst windows around Obliterate (Q) and Death's Grasp (E)."
+     "why": "Paired with Youmuu's + Dead Man's Plate or Force of Nature for 56-61.3% win rates; the bleed-out-over-time conversion keeps you alive through his burst windows."
     }
    ],
    "situational": [
     {
      "item": "Dead Man's Plate",
-     "when": "he keeps kiting behind his Indestructible shield and you need the health and stick to close the gap"
+     "when": "he's building more poke than burst and you need the waveclear momentum to re-engage"
     },
     {
      "item": "Sterak's Gage",
-     "when": "you're getting chunked hard in every trade and need the survivability more than the extra damage"
+     "when": "his R (Realm of Death) is the thing killing you and you need the shield to survive the isolation"
     },
     {
      "item": "Stridebreaker",
-     "when": "you want a mobility-based gap closer instead of Youmuu's active to guarantee landing E"
+     "when": "he's kiting your E (Apprehend) range with Q (Obliterate) poke and you need the slow to stick the engage"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "The 54% win rate page (24.4% pick) — this is a sustained-trade matchup with no hard CC on either side, so stacking Conqueror through auto/Q/E exchanges gives you the lifesteal to outlast his Indestructible shield in extended fights. Master-tier players instead run Stormraider's Surge (Sorcery, 932 games) — better if you're playing this lane more as poke-and-kite skirmishes than committed all-ins.",
+   "keystoneWhy": "52.9% win rate at 28.1% pick — the stacking adaptive force and healing on takedown directly offset his W (Indestructible) sustain in extended trades, which is how this matchup is actually won.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
@@ -107,56 +107,56 @@
     "Flash",
     "Ignite"
    ],
-   "why": "48.6% win rate at 36.1% pick — Ignite secures kills in an even-shape lane where neither side has a clean burst edge. Flash+Ghost is more popular (57.6% pick) but lower win rate (45.8%); Exhaust+Flash posts 72.7% but on only 5.4% pick, so treat it as a small-sample outlier rather than a default."
+   "why": "Flash+Ignite is the highest-performing combo at 50.4% over 29.7% pick rate — Ignite punishes his lack of a dash the moment you land E (Apprehend), since he can't escape your true-damage execute range."
   },
   "playing": [
    {
-    "title": "Bait his W before all-in",
-    "detail": "Indestructible (W, 12/11/10/9/8s cooldown) stores damage into a shield he can consume to heal. Engaging right after he pops it wastes your burst — poke it down or wait for it to be on cooldown first."
+    "title": "Track his W cooldown, not his HP",
+    "detail": "Indestructible (12-8s cooldown) is a damage-stored shield he can pop to heal — all-in the moment it's down, not when he looks low, since a charged shield erases your burst."
    },
    {
-    "title": "Win the mutual pull",
-    "detail": "Your Apprehend (E, 26/23.5/21/18.5/16s cooldown, range 535) and his Death's Grasp (E, 16/14/12/10/8s cooldown, range 700) both hook. His is up more often, so don't waste yours trying to out-hook him — punish him for using his first."
+    "title": "Save E for after his E whiffs",
+    "detail": "His Death's Grasp (16-8s cooldown) pulls you to him first; if he misses it, your Apprehend pull now has zero counter-engage risk for the next 8-16 seconds."
    },
    {
-    "title": "Stack 5 bleeds before Guillotine",
-    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks, so land Q's blade (not the handle) and autos to hit 5 stacks before committing your R."
+    "title": "Stack Hemorrhage before committing R",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks — land Q (Decimate) and an auto first so your execute threshold is lower when you commit."
    },
    {
-    "title": "Play safe past his level 6",
-    "detail": "Realm of Death drags you into his dimension and steals a portion of your stats permanently if he kills you there — don't extend trades to low HP once he hits 6."
+    "title": "Don't facetank his passive proc",
+    "detail": "Darkness Rise triggers after his 3rd hit on you and grants him a damage aura plus Move Speed — disengage or reset the trade before he lands that third hit."
    },
    {
-    "title": "Re-engage off Q's heal",
-    "detail": "Decimate's cooldown drops to as low as 5s at max rank and heals you for hitting him with the blade — re-cast it on cooldown in extended skirmishes instead of trading once and resetting."
+    "title": "Respect his E range over yours",
+    "detail": "Death's Grasp (700 range) outreaches your Apprehend (535 range) — he can initiate first if you're both at max range, so close distance before trading."
    },
    {
-    "title": "Force him off single-target Q",
-    "detail": "Obliterate deals more damage when it only hits one target, so fight with minions between you or make him choose between hitting you and clearing wave."
+    "title": "Play around his R timer after level 6",
+    "detail": "Realm of Death (140-80s cooldown) isolates you 1v1 and steals your stats on a kill — don't overextend alone once he's level 6 and his ultimate is up."
    },
    {
-    "title": "Rush your magic resist",
-    "detail": "He has zero hard CC to punish tenacity or armor stacking, so Mercury's Treads into Force of Nature scales your effective HP against his burst better than raw armor would."
+    "title": "Use Q healing to win extended fights",
+    "detail": "Decimate heals you for champions hit by the blade — stand in blade range, not handle range, so your sustain actually outpaces his W-shield healing."
    }
   ],
-  "patchCaveat": "Build paths, rune pages, and win rates (48.1% over 154 head-to-head games) are pulled from measured OP.GG data on the current patch; the cooldown timings, trade windows, and tactical reasoning are my own read of the kit."
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live games on the current patch (16.19.1) via OP.GG; the mechanical reasoning and timing calls are my own analysis layered on top of that data."
  },
- "generatedAt": 1790210831952,
- "patch": "16.19.1",
+ "generatedAt": 1791326937519,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790210751438,
+  "fetchedAt": 1791326896734,
   "overall": {
-   "winRate": 48.6,
-   "play": 6934,
+   "winRate": 49.5,
+   "play": 152939,
    "tier": 2
   },
   "headToHead": {
-   "play": 154,
-   "wins": 74,
-   "winRate": 48.1
+   "play": 3288,
+   "wins": 1613,
+   "winRate": 49.1
   },
   "laneAdvantage": "EVEN",
   "soloKillAdvantage": "EVEN",
@@ -168,27 +168,27 @@
      "Flash",
      "Ghost"
     ],
-    "winRate": 45.8,
-    "play": 118,
-    "pickRate": 57.6
+    "winRate": 49.2,
+    "play": 2644,
+    "pickRate": 63.6
    },
    {
     "names": [
      "Flash",
      "Ignite"
     ],
-    "winRate": 48.6,
-    "play": 74,
-    "pickRate": 36.1
+    "winRate": 50.4,
+    "play": 1237,
+    "pickRate": 29.7
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 72.7,
-    "play": 11,
-    "pickRate": 5.4
+    "winRate": 50.9,
+    "play": 212,
+    "pickRate": 5.1
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 54,
-    "play": 50,
-    "pickRate": 24.4
+    "winRate": 52.9,
+    "play": 1192,
+    "pickRate": 28.1
    },
    {
     "primaryTree": "Sorcery",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 46.3,
-    "play": 41,
-    "pickRate": 20
+    "winRate": 47.7,
+    "play": 710,
+    "pickRate": 16.7
    }
   ],
   "starter": [
@@ -243,18 +243,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 47.9,
-    "play": 167,
-    "pickRate": 80.3
+    "winRate": 49.8,
+    "play": 3390,
+    "pickRate": 81
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 39.1,
-    "play": 23,
-    "pickRate": 11.1
+    "winRate": 48,
+    "play": 540,
+    "pickRate": 12.9
    }
   ],
   "boots": [
@@ -262,17 +262,17 @@
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 49.6,
-    "play": 133,
-    "pickRate": 66.2
+    "winRate": 49.2,
+    "play": 2602,
+    "pickRate": 65
    },
    {
     "items": [
-     "Boots of Swiftness"
+     "Plated Steelcaps"
     ],
-    "winRate": 44.4,
-    "play": 36,
-    "pickRate": 17.9
+    "winRate": 50.4,
+    "play": 691,
+    "pickRate": 17.3
    }
   ],
   "core": [
@@ -280,81 +280,81 @@
     "items": [
      "Youmuu's Ghostblade",
      "Force of Nature",
-     "Death's Dance"
+     "Dead Man's Plate"
     ],
-    "winRate": 77.8,
-    "play": 9,
-    "pickRate": 7.4
-   },
-   {
-    "items": [
-     "Youmuu's Ghostblade",
-     "Dead Man's Plate",
-     "Force of Nature"
-    ],
-    "winRate": 50,
-    "play": 8,
-    "pickRate": 6.6
+    "winRate": 53.7,
+    "play": 203,
+    "pickRate": 8.1
    },
    {
     "items": [
      "Youmuu's Ghostblade",
      "Force of Nature",
-     "Dead Man's Plate"
+     "Death's Dance"
     ],
-    "winRate": 83.3,
-    "play": 6,
-    "pickRate": 4.9
+    "winRate": 56,
+    "play": 125,
+    "pickRate": 5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 61.3,
+    "play": 111,
+    "pickRate": 4.5
    }
   ],
   "lateOptions": [
    {
     "items": [
-     "Youmuu's Ghostblade"
-    ],
-    "winRate": 48.3,
-    "play": 89,
-    "pickRate": 46.1
-   },
-   {
-    "items": [
      "Force of Nature"
     ],
-    "winRate": 53.9,
-    "play": 76,
-    "pickRate": 39.4
+    "winRate": 50.7,
+    "play": 1766,
+    "pickRate": 43.2
    },
    {
     "items": [
-     "Dead Man's Plate"
+     "Youmuu's Ghostblade"
     ],
-    "winRate": 57.6,
-    "play": 66,
-    "pickRate": 34.2
+    "winRate": 51.7,
+    "play": 1731,
+    "pickRate": 42.3
    },
    {
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 44.3,
-    "play": 61,
-    "pickRate": 31.6
+    "winRate": 48.9,
+    "play": 1480,
+    "pickRate": 36.2
    },
    {
     "items": [
-     "Death's Dance"
+     "Dead Man's Plate"
     ],
-    "winRate": 66.7,
-    "play": 48,
-    "pickRate": 24.9
+    "winRate": 55.3,
+    "play": 1375,
+    "pickRate": 33.6
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 53.2,
-    "play": 47,
-    "pickRate": 24.4
+    "winRate": 55.5,
+    "play": 1058,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.7,
+    "play": 994,
+    "pickRate": 24.3
    }
   ],
   "skillOrder": [
@@ -376,14 +376,14 @@
      "W",
      "W"
     ],
-    "winRate": 55,
-    "play": 40
+    "winRate": 51.9,
+    "play": 964
    }
   ],
   "highElo": {
    "keystone": "Stormraider's Surge",
    "tree": "Sorcery",
-   "play": 932
+   "play": 17974
   }
  }
 }

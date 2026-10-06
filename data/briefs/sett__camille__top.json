@@ -4,89 +4,93 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Front-loaded edge",
-   "line": "You win the early trades and the solo kills, but Sett only closes this out 40.9% of the time over 149 games, so you lose if the lane goes long and Camille reaches her item spikes."
+   "difficulty": "Skill matchup",
+   "line": "You lose if you auto-trade into her empowered Q before your E stun is ready; you win if you force an all-in off a missed Hookshot or her down ultimate."
   },
-  "thesis": "Sett's E (Facebreaker) stuns anything pulled from opposite sides, which punishes Camille for walking her Q (Precision Protocol) auto-range into you, and Sett has the clear solo-kill edge in this matchup. But Camille's Hookshot (E) only has a 16/15/14/13/12s cooldown even at rank one, so her disengage comes back fast, and her passive Adaptive Defenses shield plus her R (The Hextech Ultimatum) isolating duels let her out-trade you once she has items. This is a matchup you have to win early — the win rate says it slips away if you let it scale.",
+  "thesis": "This is a 50% win rate over 2339 games because both champions are melee skirmishers whose damage is gated behind a single cooldown — her Q (Precision Protocol) empowered auto, your E (Facebreaker) stun. Whoever lands their gated tool first wins the exchange, and the data's solo-kill edge toward Sett says you win more all-ins than she does once you close the gap. The matchup is decided by positioning around walls and stun angles, not raw stats.",
   "tell": {
-   "watch": "Camille's Hookshot (E) cooldown",
+   "watch": "Her Q empower window / your W Grit",
    "theirWindow": {
-    "when": "Hookshot (E) is up near a wall",
-    "what": "She can leap to a wall and knock you up on landing, then follow with an empowered Precision Protocol (Q) auto. Don't stand near ledges when her E icon is lit, and don't let her walk you into a wall-adjacent trade."
+    "when": "her Q (Precision Protocol) auto is primed",
+    "what": "She'll walk up for the empowered hit and gets bonus Move Speed on landing it — if you see the Q buff icon, back off one step rather than trading face-first, or you eat the bonus damage and then get kited by the speed boost."
    },
    "yourWindow": {
-    "when": "Hookshot (E) is on cooldown",
-    "what": "She has no gap-close and no escape for up to 16 seconds at early ranks. This is when you walk Q (Knuckle Down) onto her and force the fight — she has to trade flat-footed or run."
+    "when": "her E (Hookshot) is down after a miss or reposition",
+    "what": "Hookshot only works off a wall and is on a 16/15/14/13/12s cooldown — once it's spent she has no disengage. Use Q's move speed toward her to close distance and land E (Facebreaker) for the stun before she can reset to a wall."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Neither stun nor gap-close is online yet"
+    "note": "both melee, no stun or empower landed yet"
    },
    {
     "levels": "3-5",
-    "edge": "you",
-    "note": "Facebreaker (E) stun punishes her poke attempts"
-   },
-   {
-    "levels": "6-8",
-    "edge": "you",
-    "note": "Show Stopper (R) forces fights she can't dodge"
-   },
-   {
-    "levels": "9-13",
     "edge": "them",
-    "note": "Her duel tools start outscaling your burst"
+    "note": "her Q/W poke outraces your E cooldown"
    },
    {
-    "levels": "14-18",
-    "edge": "them",
-    "note": "Full-build Camille wins extended 1v1s"
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R online, solo-kill data favors you"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "both scaling off Stridebreaker core"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Grit sustain wins extended fights"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "Run in 82% of games at 42.5% win rate. The extra sustain and auto-damage matter because you want to win short trades, not stall for scaling."
+    "why": "81.5% pick rate and the higher win rate (50.2% over 2229 games) — the extra sustain lets you keep matching her auto-trades without losing the lane to attrition."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "Picked in 68.9% of games at 43.2% win rate. Camille auto-resets and Q-empowers her attacks, so flat physical reduction blunts her poke and all-in damage."
+    "why": "68.7% pick rate at 50.2% win — Camille's damage is almost entirely in empowered basic attacks, so flat armor directly blunts her Q auto and passive-shielded trades."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "Your first item in every recorded build path — the slow lets you actually catch a champion whose whole kit is built around disengaging."
+     "why": "The near-universal first item in the data — the active gives you the gap-close to actually reach her before she resets with Hookshot."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Part of the highest-sample core path (60.1% win over 368 games); the armor shred compounds with Steelcaps against her auto-reliant kit."
     },
     {
      "item": "Overlord's Bloodmail",
-     "why": "Appears in every top build path after Stridebreaker; the extra health and sustain matter since you're forcing fights, not avoiding them."
-    },
-    {
-     "item": "Sterak's Gage",
-     "why": "Part of the highest-winrate recorded path (55.6% over 18 games) — the tenacity and survivability spike help you stay alive through her isolating R."
+     "why": "Closes out the most-picked build path and gives sustain for the extended skirmishes this matchup turns into post-6."
     }
    ],
    "situational": [
     {
-     "item": "Black Cleaver",
-     "when": "she's stacking armor or you need the shred to keep killing her through Adaptive Defenses"
+     "item": "Sterak's Gage",
+     "when": "if she's ahead in damage and you need to survive her burst to land your own combo"
+    },
+    {
+     "item": "Warmog's Armor",
+     "when": "if the game is going long and fights are decided by who outlasts, not who burst first (63.2% win rate over the smaller 76-game sample)"
     },
     {
      "item": "Spear of Shojin",
-     "when": "you're ahead and snowballing — this path shows an 83.3% win rate, though on a small 6-game sample"
+     "when": "if you're ahead on kills and want to snowball cooldown uptime on E"
     },
     {
-     "item": "Hullbreaker",
-     "when": "the lane stabilizes and you want to pressure structures instead of forcing more skirmishes"
+     "item": "Blade of The Ruined King",
+     "when": "if she builds tanky and you need the percent-health damage to keep trades even"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "The most-picked keystone for this matchup (43.9% of games) — stacking adaptive force through extended trades rewards the flat-footed all-ins you're forcing while Hookshot is down.",
+   "keystoneWhy": "Rewards the sustained-trade, multi-hit nature of this matchup — stacks build through autos and your E stun window rather than needing a single burst.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
@@ -107,58 +111,54 @@
     "Flash",
     "Ignite"
    ],
-   "why": "The standard pick at 88.4% of games and 42.8% win rate. You have the solo-kill advantage in this matchup, so Ignite converts skirmishes into kills before Camille's Adaptive Defenses shield or her passive healing lets her walk away."
+   "why": "91.2% pick rate at 50.1% win — the matchup's aggressive shape and Sett's solo-kill edge are best converted with Ignite punishing her all-in attempts or her passive sustain shield."
   },
   "playing": [
    {
-    "title": "Track Hookshot cooldown, not her health",
-    "detail": "Her E is a 16/15/14/13/12s cooldown gap-close and knockup setup. When it's down, she has no escape — that's your all-in window, not her low HP."
+    "title": "Hold trades until E is up",
+    "detail": "Your real damage lands in the E (Facebreaker) stun window, not the auto exchange. Don't commit to a long trade just because her Q is on cooldown — wait for your stun to be up too."
    },
    {
-    "title": "Position her between you and minions",
-    "detail": "Facebreaker (E) only stuns if she's pulled from opposite sides. If she's isolated on just one side of you, it slows instead. Force trades with a minion wave or wall behind her to guarantee the stun."
+    "title": "Track your own W Grit bar",
+    "detail": "W (Haymaker) passively banks damage you take as Grit and expends it on cast for a shield plus true damage center and physical damage on the sides. Tank a hit or two before casting so the shield is actually large when you need it."
    },
    {
-    "title": "Hold Haymaker for her empowered Q",
-    "detail": "Precision Protocol (Q) can be recast for a heavily boosted hit if she delays between casts. Bank your stored Grit and pop the W shield right as she commits to the recast."
+    "title": "Punish a whiffed Hookshot",
+    "detail": "Camille's E only functions off a wall and sits on a 16/15/14/13/12s cooldown. The moment she whiffs or has no wall to use it on, close with Q's bonus move speed and force the fight."
    },
    {
-    "title": "Punish her Q gap-close, not her Q poke",
-    "detail": "Her first Q hit is minor bonus damage and Move Speed — don't overreact to it. Save your aggression for the moment she's fully committed into range."
+    "title": "Save R for isolated picks",
+    "detail": "The Show Stopper carries her through the air and slams her, slowing everyone near the landing spot — use it to drag her off a wall or back to your jungler rather than as a lane poke."
    },
    {
-    "title": "Front-load your aggression before level 9",
-    "detail": "Your win rate curve says this lane is winnable early and loses value late. Use Q (Knuckle Down) and E off cooldown to force fights levels 3-8 rather than farming passively."
+    "title": "Respect her ultimate timer",
+    "detail": "Hextech Ultimatum anchors you to her for its duration and is on a long 140/115/90s cooldown pre-16. Play riskier the moment you know it's down; play around positioning near her once it's up."
    },
    {
-    "title": "Ult to end fights, not start them",
-    "detail": "Show Stopper (R) has a long 120/100/80/80/80s cooldown early — save it to lock down and finish a kill you've already started, not to open a neutral trade."
-   },
-   {
-    "title": "Don't chase past her Hextech Ultimatum threat",
-    "detail": "Once she has R up, she can anchor you into a bonus-magic-damage duel on her terms. If Hookshot and R are both up, disengage instead of forcing another fight."
+    "title": "Break her passive shield first",
+    "detail": "Adaptive Defenses gives Camille a shield off her own autos. Open your combo with Q (Knuckle Down)'s empowered hits to burn through that shield before your real damage lands."
    }
   ],
-  "patchCaveat": "Build paths, rune pages, and every win-rate figure above are pulled from measured OP.GG games on the current patch; the mechanical reasoning and trade timing are this brief's own analysis, not measured data."
+  "patchCaveat": "Win rates, build paths, runes, and summoner picks above are measured from live OP.GG games on the current patch (16.19.1) — the mechanical reasoning for why those numbers come out even is this brief's own tactical read."
  },
- "generatedAt": 1790228949323,
- "patch": "16.19.1",
+ "generatedAt": 1791328462213,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790228873098,
+  "fetchedAt": 1791328390210,
   "overall": {
-   "winRate": 50.2,
-   "play": 7688,
-   "tier": 2
+   "winRate": 50.4,
+   "play": 140376,
+   "tier": 1
   },
   "headToHead": {
-   "play": 149,
-   "wins": 61,
-   "winRate": 40.9
+   "play": 2339,
+   "wins": 1170,
+   "winRate": 50
   },
-  "laneAdvantage": "Sett",
+  "laneAdvantage": "EVEN",
   "soloKillAdvantage": "Sett",
   "playStyle": "aggressive",
   "opponentTip": "Avoid being hit by Camille’s (E). Use your abilities off cooldown to close in and fight her. Use [W] when Camille uses (Q).",
@@ -168,27 +168,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 42.8,
-    "play": 152,
-    "pickRate": 88.4
+    "winRate": 50.1,
+    "play": 2485,
+    "pickRate": 91.2
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 33.3,
-    "play": 12,
-    "pickRate": 7
+    "winRate": 43.4,
+    "play": 145,
+    "pickRate": 5.3
    },
    {
     "names": [
      "Flash",
      "Ghost"
     ],
-    "winRate": 40,
-    "play": 5,
-    "pickRate": 2.9
+    "winRate": 54.4,
+    "play": 57,
+    "pickRate": 2.1
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 43.9,
-    "play": 41,
-    "pickRate": 23.8
+    "winRate": 47.4,
+    "play": 736,
+    "pickRate": 26.4
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 42.9,
-    "play": 21,
-    "pickRate": 12.2
+    "winRate": 52,
+    "play": 429,
+    "pickRate": 15.4
    }
   ],
   "starter": [
@@ -243,18 +243,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 42.5,
-    "play": 146,
-    "pickRate": 82
+    "winRate": 50.2,
+    "play": 2229,
+    "pickRate": 81.5
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 42.9,
-    "play": 28,
-    "pickRate": 15.7
+    "winRate": 47.4,
+    "play": 392,
+    "pickRate": 14.3
    }
   ],
   "boots": [
@@ -262,17 +262,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 43.2,
-    "play": 111,
-    "pickRate": 68.9
+    "winRate": 50.2,
+    "play": 1738,
+    "pickRate": 68.7
    },
    {
     "items": [
      "Boots of Swiftness"
     ],
-    "winRate": 51.7,
-    "play": 29,
-    "pickRate": 18
+    "winRate": 57.7,
+    "play": 407,
+    "pickRate": 16.1
    }
   ],
   "core": [
@@ -282,9 +282,9 @@
      "Black Cleaver",
      "Overlord's Bloodmail"
     ],
-    "winRate": 36.8,
-    "play": 19,
-    "pickRate": 23.5
+    "winRate": 60.1,
+    "play": 368,
+    "pickRate": 25.8
    },
    {
     "items": [
@@ -292,19 +292,19 @@
      "Overlord's Bloodmail",
      "Sterak's Gage"
     ],
-    "winRate": 55.6,
-    "play": 18,
-    "pickRate": 22.2
+    "winRate": 60.6,
+    "play": 264,
+    "pickRate": 18.5
    },
    {
     "items": [
      "Stridebreaker",
      "Overlord's Bloodmail",
-     "Spear of Shojin"
+     "Warmog's Armor"
     ],
-    "winRate": 83.3,
-    "play": 6,
-    "pickRate": 7.4
+    "winRate": 63.2,
+    "play": 76,
+    "pickRate": 5.3
    }
   ],
   "lateOptions": [
@@ -312,56 +312,56 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 45.4,
-    "play": 163,
-    "pickRate": 93.7
+    "winRate": 51.7,
+    "play": 2542,
+    "pickRate": 94
    },
    {
     "items": [
      "Overlord's Bloodmail"
     ],
-    "winRate": 54.3,
-    "play": 92,
-    "pickRate": 52.9
+    "winRate": 56.7,
+    "play": 1526,
+    "pickRate": 56.5
    },
    {
     "items": [
      "Black Cleaver"
     ],
-    "winRate": 39.3,
-    "play": 61,
-    "pickRate": 35.1
+    "winRate": 53.4,
+    "play": 1030,
+    "pickRate": 38.1
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 55.3,
-    "play": 47,
-    "pickRate": 27
+    "winRate": 59.3,
+    "play": 769,
+    "pickRate": 28.5
    },
    {
     "items": [
      "Spear of Shojin"
     ],
-    "winRate": 60,
-    "play": 20,
-    "pickRate": 11.5
+    "winRate": 57.4,
+    "play": 336,
+    "pickRate": 12.4
    },
    {
     "items": [
-     "Hullbreaker"
+     "Blade of The Ruined King"
     ],
-    "winRate": 54.5,
-    "play": 11,
-    "pickRate": 6.3
+    "winRate": 46.3,
+    "play": 229,
+    "pickRate": 8.5
    }
   ],
   "skillOrder": [
    {
     "order": [
-     "E",
      "W",
+     "E",
      "Q",
      "Q",
      "Q",
@@ -376,8 +376,8 @@
      "E",
      "E"
     ],
-    "winRate": 47.5,
-    "play": 40
+    "winRate": 58.4,
+    "play": 565
    }
   ]
  }

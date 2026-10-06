@@ -4,93 +4,93 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Close skill matchup",
-   "line": "You lose if Garen lands Decisive Strike's silence into a level 6+ all-in; you win if you pull him with E before he closes and bank the trade into W."
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Garen snowball to a free level 6 all-in; you win almost every extended trade once Rylai's lands and his passive regen stops mattering."
   },
-  "thesis": "Mordekaiser's E (Death's Grasp, range 700) and Q (Obliterate, range 675) both outrange every tool Garen has (Q range 300, E range 325), so Mordekaiser dictates when fights start. The counter is Garen's Q (Decisive Strike): its silence shuts off your ability to consume Indestructible's shield or activate R mid-trade, and once he hits level 6 his 20s-cooldown-at-rank-3 Demacian Justice threatens an execute on anyone he's already damaged. That tension is why the measured 47% win rate over 151 games sits just below even despite Mordekaiser holding the lane and solo-kill edge on paper.",
+  "thesis": "Garen's Perseverance passive only matters if he's allowed to go a few seconds without taking damage, and Mordekaiser's whole kit is built to deny exactly that with constant Q (Obliterate) pokes and E (Death's Grasp) pulls. The 51.5% win rate over 3,360 games reflects a lane where you out-sustain and out-poke him pre-6, then have to survive one dangerous execute window before your core items take over.",
   "tell": {
-   "watch": "Garen's Decisive Strike cooldown",
+   "watch": "Garen's Decisive Strike (Q) cooldown",
    "theirWindow": {
-    "when": "his Q is up and he's level 6+",
-    "what": "He can silence your next ability on contact and follow with a Judgment (E) spin plus auto-attacks, then threaten Demacian Justice if you're already low. Back off and let a wave push instead of contesting."
+    "when": "level 6+ and his Q is up",
+    "what": "He can flash the silence-and-gap-close into a Demacian Justice execute attempt at 400 range. Do not sit below roughly half health near him once he hits 6, and hold W (Indestructible) shield ready rather than consuming it early."
    },
    "yourWindow": {
-    "when": "his Q (8s cooldown) is down",
-    "what": "Open with E to pull him into your max range, land Q for its single-target bonus damage, and auto to build Darkness Rise stacks. Only consume your W shield for healing after he's dumped his Judgment spin into you."
+    "when": "his Q and R are both on cooldown",
+    "what": "Pull him in with E (Death's Grasp) and dump Q (Obliterate) plus autos. Without Q he has no silence or slow-cleanse to escape your E's pull, and without R he has no execute threat to punish your commitment."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
     "edge": "even",
-    "note": "Both weak, farm through Q clears"
+    "note": "neither E nor R online yet"
    },
    {
     "levels": "3-5",
     "edge": "you",
-    "note": "E-into-Q combo wins forced trades"
+    "note": "E pull plus Q poke wins trades"
    },
    {
     "levels": "6-8",
     "edge": "them",
-    "note": "Demacian Justice execute threat spikes"
+    "note": "his R execute threat spikes"
    },
    {
     "levels": "9-13",
     "edge": "you",
-    "note": "Rylai's slow locks him in range"
+    "note": "Rylai's/Riftmaker shred his regen"
    },
    {
     "levels": "14-18",
-    "edge": "you",
-    "note": "Liandry's/Thornmail outscale his sustain"
+    "edge": "even",
+    "note": "his max-rank R still threatens picks"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Ring + Health Potion",
-    "why": "Run in 79.5% of these games (49.7% win rate) — the mana and sustain let you keep throwing Q into the wave without losing trading power."
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The ring's sustain and early damage let you match his poke while you deny his Perseverance regen tick by tick; 52.1% win rate over 3,451 games on this start confirms it over the shield variant here."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "Taken in 71% of games; Garen's damage is entirely physical autos and spin damage, so the flat reduction blunts every trade he initiates."
+    "why": "Garen's damage is almost entirely physical autos and his E (Judgment) spin; the flat reduction on repeated hits blunts both far more than magic resist would."
    },
    "core": [
     {
      "item": "Rylai's Crystal Scepter",
-     "why": "The best-performing path (69.2% win rate) starts here — the slow from Q/E keeps Garen from walking out of your kill range after his Q speed burst."
+     "why": "The slow on Q (Obliterate) and E (Death's Grasp) keeps him inside your pull range instead of walking off to let Perseverance tick."
     },
     {
      "item": "Riftmaker",
-     "why": "Second item on the top path; the omnivamp answers Garen's Perseverance regen war of attrition."
+     "why": "Sustained-damage amp and the omnivamp keep you winning extended trades once his passive regen is already shut off."
     },
     {
      "item": "Liandry's Torment",
-     "why": "Closes out the 69.2% win-rate path; burn damage punishes a healing tank who has to stand in your E/W range to fight."
+     "why": "Burn damage from repeated Q/E hits adds up over a trade and finishes the 55.4% win-rate build path measured over 484 games."
     }
    ],
    "situational": [
     {
      "item": "Thornmail",
-     "when": "he's stacking health regen or armor and Perseverance is undoing your trades"
+     "when": "he's snowballing off autos and building into crit or lifesteal"
     },
     {
      "item": "Spirit Visage",
-     "when": "his physical burst from Q silence plus E spin is outpacing your Riftmaker sustain"
+     "when": "you need more healing amp to win a prolonged sustain war before item spikes"
     },
     {
-     "item": "Zhonya's Hourglass",
-     "when": "he's landing Demacian Justice onto you or diving with jungle help"
+     "item": "Dusk and Dawn",
+     "when": "his team stacks magic resist later and you need the shred"
     },
     {
-     "item": "Experimental Hexplate",
-     "when": "you need more mobility to catch him after his Q move speed burst"
+     "item": "Mercury's Treads",
+     "when": "his team has heavy additional crowd control beyond his own kit"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "The 55.3% win-rate page's keystone — stacks through the extended trades E's pull forces, and the healing on full stacks offsets Garen's regen passive.",
+   "keystoneWhy": "Conqueror's stacking adaptive damage and healing on hit directly offsets the fact that you're trading into a champion whose passive wants to regen between fights.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -111,52 +111,52 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Run in 79.8% of games at a 50.7% win rate — Ignite converts your E-into-Q all-in into a kill before Garen's Perseverance regen ticks him back up."
+   "why": "Ignite is run in 81.2% of games here because it both secures the solo-kill advantage this matchup already favors you in and permanently shuts off Garen's Perseverance regen for the duration."
   },
   "playing": [
    {
-    "title": "Pull with E before he closes",
-    "detail": "Death's Grasp's 700 range beats his 300-range Q, so landing it first guarantees your Q connects before he's in his own attack range."
+    "title": "Pull before you commit Q",
+    "detail": "Use E (Death's Grasp) first to drag Garen into point-blank range, then follow with Q (Obliterate); this locks in his bonus single-target damage before he can walk away."
    },
    {
-    "title": "Track his Q before all-inning",
-    "detail": "If Decisive Strike is up, expect a silence on his next attack that shuts off your W heal or R cast mid-fight — wait it out or bait it on a minion first."
+    "title": "Poke to deny his passive",
+    "detail": "Garen regenerates a percentage of his health per second only while unharmed; landing Q or autos on a short rotation keeps Perseverance from ever ticking."
    },
    {
-    "title": "Save R for a confirmed kill",
-    "detail": "Realm of Death's cooldown runs 140s down to 80s at max rank, so don't burn it to poke — use it only when you're certain you can finish him, since you keep his stolen stats if he dies inside it."
+    "title": "Respect the level 6 execute",
+    "detail": "Once he's 6, Demacian Justice can threaten a kill at 400 range on anyone low; don't dip below roughly half health near him until you've baited or out-leveled his R cooldown."
    },
    {
-    "title": "Time your W consumption late",
-    "detail": "Let Indestructible bank the damage from his Judgment spin and autos, then consume the shield right after he commits so you heal off his full trade."
+    "title": "Bait his Q before all-in",
+    "detail": "Decisive Strike gives him a speed burst, breaks slows, and silences on the next hit; if he wastes it early or it's on cooldown, that's your safest window to commit fully."
    },
    {
-    "title": "Don't crash waves past level 6",
-    "detail": "Demacian Justice executes based on missing health, so avoid parking under his tower low on HP once he has it — Mordekaiser's own R needs him to be closer than Garen's ult range anyway."
+    "title": "Shield into his spin",
+    "detail": "Pop W (Indestructible) just before his E (Judgment) connects so the physical damage it stores converts into healing for you."
    },
    {
-    "title": "Wait for armor before hard trades",
-    "detail": "Matches the matchup read directly: get Plated Steelcaps and your first armor component before initiating extended fights, since early trades favor his flat physical damage."
+    "title": "Save R for a real commitment",
+    "detail": "Hold Realm of Death until after you've already landed E and Q, since it drags him away from his tower and allies once he's already locked in the trade."
    }
   ],
-  "patchCaveat": "The build, runes, summoners, and win rates above are pulled from measured Mordekaiser-vs-Garen games on the current patch; the trade timing, ability interactions, and power-curve calls are my own read on top of that data."
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/pick-rate figures are measured OP.GG numbers from live games on the current patch; the mechanical reasoning about trade timing and passive denial is original analysis layered on top."
  },
- "generatedAt": 1790210903609,
- "patch": "16.19.1",
+ "generatedAt": 1791327308266,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790210833520,
+  "fetchedAt": 1791327225627,
   "overall": {
-   "winRate": 49.7,
-   "play": 4959,
+   "winRate": 49.8,
+   "play": 115264,
    "tier": 2
   },
   "headToHead": {
-   "play": 151,
-   "wins": 71,
-   "winRate": 47
+   "play": 3360,
+   "wins": 1732,
+   "winRate": 51.5
   },
   "laneAdvantage": "Mordekaiser",
   "soloKillAdvantage": "Mordekaiser",
@@ -168,27 +168,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 50.7,
-    "play": 150,
-    "pickRate": 79.8
-   },
-   {
-    "names": [
-     "Exhaust",
-     "Flash"
-    ],
-    "winRate": 35.3,
-    "play": 17,
-    "pickRate": 9
+    "winRate": 52.2,
+    "play": 3470,
+    "pickRate": 81.2
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 70.6,
-    "play": 17,
-    "pickRate": 9
+    "winRate": 48.8,
+    "play": 453,
+    "pickRate": 10.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 49.6,
+    "play": 232,
+    "pickRate": 5.4
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 55.3,
-    "play": 94,
-    "pickRate": 50
+    "winRate": 50.1,
+    "play": 2339,
+    "pickRate": 53.4
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 50,
-    "play": 16,
-    "pickRate": 8.5
+    "winRate": 53.8,
+    "play": 407,
+    "pickRate": 9.3
    }
   ],
   "starter": [
@@ -244,18 +244,18 @@
      "Health Potion",
      "Health Potion"
     ],
-    "winRate": 49.7,
-    "play": 151,
-    "pickRate": 79.5
+    "winRate": 52.1,
+    "play": 3451,
+    "pickRate": 80.5
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 55,
-    "play": 20,
-    "pickRate": 10.5
+    "winRate": 47.7,
+    "play": 501,
+    "pickRate": 11.7
    }
   ],
   "boots": [
@@ -263,17 +263,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 50,
-    "play": 130,
-    "pickRate": 71
+    "winRate": 50.5,
+    "play": 3133,
+    "pickRate": 76.5
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 50,
-    "play": 34,
-    "pickRate": 18.6
+    "winRate": 54.9,
+    "play": 610,
+    "pickRate": 14.9
    }
   ],
   "core": [
@@ -283,9 +283,19 @@
      "Riftmaker",
      "Liandry's Torment"
     ],
-    "winRate": 69.2,
-    "play": 13,
-    "pickRate": 9.9
+    "winRate": 55.4,
+    "play": 484,
+    "pickRate": 16.5
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 52.7,
+    "play": 188,
+    "pickRate": 6.4
    },
    {
     "items": [
@@ -293,19 +303,9 @@
      "Riftmaker",
      "Spirit Visage"
     ],
-    "winRate": 37.5,
-    "play": 8,
-    "pickRate": 6.1
-   },
-   {
-    "items": [
-     "Rylai's Crystal Scepter",
-     "Riftmaker",
-     "Thornmail"
-    ],
-    "winRate": 62.5,
-    "play": 8,
-    "pickRate": 6.1
+    "winRate": 55.8,
+    "play": 156,
+    "pickRate": 5.3
    }
   ],
   "lateOptions": [
@@ -313,49 +313,49 @@
     "items": [
      "Rylai's Crystal Scepter"
     ],
-    "winRate": 48.3,
-    "play": 151,
+    "winRate": 51.8,
+    "play": 3521,
     "pickRate": 83
    },
    {
     "items": [
      "Riftmaker"
     ],
-    "winRate": 45.5,
-    "play": 132,
-    "pickRate": 72.5
+    "winRate": 53.2,
+    "play": 3086,
+    "pickRate": 72.8
    },
    {
     "items": [
      "Liandry's Torment"
     ],
-    "winRate": 55.8,
-    "play": 52,
-    "pickRate": 28.6
+    "winRate": 53.4,
+    "play": 1488,
+    "pickRate": 35.1
    },
    {
     "items": [
      "Thornmail"
     ],
-    "winRate": 58.3,
-    "play": 36,
-    "pickRate": 19.8
+    "winRate": 53.6,
+    "play": 787,
+    "pickRate": 18.6
    },
    {
     "items": [
-     "Experimental Hexplate"
+     "Spirit Visage"
     ],
-    "winRate": 56.7,
-    "play": 30,
-    "pickRate": 16.5
+    "winRate": 55.5,
+    "play": 732,
+    "pickRate": 17.3
    },
    {
     "items": [
-     "Zhonya's Hourglass"
+     "Dusk and Dawn"
     ],
-    "winRate": 48.3,
-    "play": 29,
-    "pickRate": 15.9
+    "winRate": 57.3,
+    "play": 576,
+    "pickRate": 13.6
    }
   ],
   "skillOrder": [
@@ -377,8 +377,8 @@
      "W",
      "W"
     ],
-    "winRate": 48.2,
-    "play": 83
+    "winRate": 54.5,
+    "play": 1988
    }
   ]
  }

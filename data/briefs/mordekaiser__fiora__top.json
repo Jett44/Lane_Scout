@@ -5,88 +5,88 @@
  "brief": {
   "verdict": {
    "difficulty": "Skill matchup",
-   "line": "You lose if you eat a Q-Q poke chain into level 6 without trading back; you win once you hit level 6 and land Realm of Death before her Riposte comes up."
+   "line": "You lose if you let Fiora stack Duelist for free with Riposte up; you win if you force Death's Grasp through and lock in Realm of Death."
   },
-  "thesis": "This matchup is genuinely even at 52% over 102 games because both champions win different phases: Fiora's Q (Lunge) double-dash poke and passive healing dominate short trades before level 6, while Mordekaiser's E (Death's Grasp) into R (Realm of Death) isolates her from teammates and removes her only counterplay tool from the fight. The entire lane is a question of whether she can chip you down before you get to force the 1-for-1 duel on your terms.",
+  "thesis": "This is an even lane at 47.2% over 2078 games because Fiora's Riposte punishes committed cooldowns while Mordekaiser's sustained magic damage and shield from Indestructible out-value her in a drawn-out fight. The matchup is decided by whether you bait out her parry before you commit E (Death's Grasp) or R (Realm of Death), not by raw stats.",
   "tell": {
    "watch": "Fiora's W (Riposte) cooldown",
    "theirWindow": {
-    "when": "both Lunge charges and W available",
-    "what": "She can hit you with the full Q-Q combo and still have Riposte up to punish your E or R engage; do not throw Death's Grasp into a fresh Riposte, it gets parried and reflected."
+    "when": "Riposte is up and you're in E range",
+    "what": "She can parry Death's Grasp or Realm of Death entirely, negating your engage and healing off the block via Duelist stacks. Throw a Q (Obliterate) first to bait it or wait the 10-6s cooldown out."
    },
    "yourWindow": {
-    "when": "her W (Riposte) is on cooldown",
-    "what": "This is your only safe window to throw E (Death's Grasp) or all-in with R (Realm of Death); a parried E or R wastes your 16/14/12/10/8s or 140/120/100/90/80s cooldown and hands her the trade."
+    "when": "Riposte is on cooldown",
+    "what": "This is your window to land E (Death's Grasp) and immediately follow with R (Realm of Death). Once you've pulled her in, she can't escape the duel and your W (Indestructible) shield will keep stacking off her Lunge damage."
    }
   },
   "powerCurve": [
    {
-    "levels": "1-2",
+    "levels": "1-3",
+    "edge": "even",
+    "note": "Trades are even; neither combo is online yet"
+   },
+   {
+    "levels": "4-6",
     "edge": "them",
-    "note": "Q double-dash poke outtrades your melee autos"
+    "note": "Double-Lunge plus E speed boost outtrades you"
    },
    {
-    "levels": "3-5",
+    "levels": "7-10",
     "edge": "even",
-    "note": "Your Q (Obliterate) trades match her sustain"
+    "note": "Your E-R combo matches her all-in once learned"
    },
    {
-    "levels": "6-8",
+    "levels": "11-15",
     "edge": "you",
-    "note": "R (Realm of Death) removes her from the fight"
+    "note": "Rylai's slow plus Riftmaker sustain wins extended fights"
    },
    {
-    "levels": "9-13",
-    "edge": "even",
-    "note": "Riftmaker/Rylai's power spikes trade with her items"
-   },
-   {
-    "levels": "14-18",
+    "levels": "16-18",
     "edge": "you",
-    "note": "Full build magic damage overwhelms her scaling"
+    "note": "R stat steal plus full build overwhelms her reset"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Ring + Health Potion + Health Potion",
-    "why": "Mana sustain and a small damage boost let you match her poke-heavy Q trades without running dry on Obliterate casts."
+    "why": "Taken in 67.8% of games (48.1% win rate over 1708 games); the extra sustain from two potions outlasts her Lunge poke until your first back."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "87.8% pick rate and 53.7% win rate; the flat physical damage reduction blunts her autos and Blade Waltz strikes."
+    "why": "Picked in 86.1% of games for a reason — the flat damage reduction blunts her auto-reliant Duelist stacking and her double-Lunge burst."
    },
    "core": [
     {
      "item": "Rylai's Crystal Scepter",
-     "why": "The slow from Obliterate and Death's Grasp makes it much harder for her to walk out of R (Realm of Death) range."
+     "why": "The slow from your Q and E lets you keep her inside Death's Grasp range instead of letting her kite with Burst of Speed."
     },
     {
      "item": "Riftmaker",
-     "why": "Omnivamp sustains you through extended trades against her passive healing."
+     "why": "Omnivamp sustains you through extended trades where her Duelist passive is also healing her — you need to out-heal, not just out-damage."
     },
     {
-     "item": "Liandry's Torment",
-     "why": "Burn damage punishes her for standing in melee range during Riposte windows."
+     "item": "Thornmail",
+     "why": "Core pick in 6.1% of this build path; the grievous wounds shuts down her Duelist healing entirely once she's committed to the fight."
     }
    ],
    "situational": [
     {
      "item": "Bramble Vest",
-     "when": "she rushes crit items or you see her building toward a heal-heavy Riposte playstyle"
+     "when": "she rushes crit items or you're getting outpaced by her R (Blade Waltz) burst"
     },
     {
-     "item": "Thornmail",
-     "when": "she is ahead and out-dueling you with autos"
+     "item": "Liandry's Torment",
+     "when": "she builds tank or the game goes long and you need more sustained DPS over Thornmail's utility"
     },
     {
-     "item": "Spirit Visage",
-     "when": "you need more sustain to out-heal her passive stacking"
+     "item": "Dusk and Dawn",
+     "when": "you need the extra ability haste to shorten your E and R cooldowns for repeat engages"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "Stacking Conqueror in extended trades outlasts her burst-based Q poke and rewards the sustained fights Mordekaiser wants.",
+   "keystoneWhy": "Sustained stacking damage rewards you for staying in extended trades, which is exactly where Mordekaiser beats Fiora once her all-in windows pass.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -105,58 +105,58 @@
   "summoners": {
    "picks": [
     "Flash",
-    "Ignite"
+    "Teleport"
    ],
-   "why": "Flash+Ignite is run in 79.5% of games at 56.7% win rate; Ignite denies her passive Duelist sustain during your all-in windows."
+   "why": "Flash+Teleport runs a 48.8% win rate (11.5% pick) and lets you reset after level 6 all-ins without losing CS lead, which matters since this matchup is decided by repeated skirmishes rather than one early kill window."
   },
   "playing": [
    {
+    "title": "Bait Riposte with Q first",
+    "detail": "Throw Obliterate before committing E (Death's Grasp) — if she parries the Q instead of your E, her Riposte is wasted and your engage is now safe for its full 16-8s cooldown window."
+   },
+   {
     "title": "Track her Lunge charge count",
-    "detail": "Q (Lunge) can be cast twice in quick succession at no extra mana cost; if she's already used both charges, she has no escape tool and is a safe target for E into R."
+    "detail": "Lunge can be used twice within a couple seconds at no mana cost — if she's already used one dash, the second is still live and will close distance on your retreat."
    },
    {
-    "title": "Never engage into fresh Riposte",
-    "detail": "W (Riposte) parries your next basic attack and reflects magic damage; bait it out with an auto or wait for the 10/9/8/7/6s cooldown before committing E (Death's Grasp) or R."
+    "title": "Don't R into an up Riposte",
+    "detail": "Realm of Death locks you both in; if she still has Riposte available when you cast it, she can parry inside the pocket dimension and you get nothing for your 140-80s cooldown ultimate."
    },
    {
-    "title": "Land Obliterate on single targets",
-    "detail": "Q (Obliterate) deals increased damage when it hits only one enemy, so in lane always aim to hit just Fiora rather than clipping minions for maximum trade damage."
+    "title": "Stack Darkness Rise before trading",
+    "detail": "Land 3 spells or attacks on her first to trigger your passive's damage aura and move speed — this flips short trades in your favor even without full combo access."
    },
    {
-    "title": "Save R for isolated pulls",
-    "detail": "R (Realm of Death) drags her into a separate dimension and steals her stats if you kill her; only use it once E has pulled her away from minion aggro so she can't reset the fight."
+    "title": "Hold W shield for her all-in, not chip damage",
+    "detail": "Indestructible stores damage dealt and taken — pop it to heal only after she's committed Burst of Speed and Lunge, not on early poke."
    },
    {
-    "title": "Bank W shield before trades",
-    "detail": "W (Indestructible) stores damage dealt and taken into a shield you can consume to heal; pop it mid-trade against her Q-Q poke to offset the damage race."
+    "title": "Respect her E move speed stacking",
+    "detail": "Burst of Speed grants move speed per attack or Lunge landed during its duration — once she's chained three hits, she can outrun your slow-free kit; disengage before that stacks up."
    },
    {
-    "title": "Punish her E speed window",
-    "detail": "Her E (Burst of Speed) boosts attack speed and grants move speed on hits or Lunges; if she pops it without landing hits first, she's wasted the cooldown and is easier to walk down."
-   },
-   {
-    "title": "Play around passive Darkness Rise",
-    "detail": "Your passive triggers after 3 landed attacks or spells, granting a damage aura and move speed; time your all-in to start right after it procs for the extra stats."
+    "title": "Push waves before her double reset",
+    "detail": "Killing a champion refreshes her Burst of Speed cooldown entirely — avoid giving her a kill under tower, since it resets her engage tool for free."
    }
   ],
-  "patchCaveat": "Build, runes, and summoners reflect measured games on the current patch (16.18.1) from OP.GG; the tell, power curve, and trade-pattern analysis are my own tactical reading of the ability kits."
+  "patchCaveat": "Build, runes, and win-rate figures are pulled from measured OP.GG games on the current patch (16.19.1); the cooldown numbers, ability mechanics, and tactical sequencing above are my own reading of the kit interactions, not measured data."
  },
- "generatedAt": 1790211315179,
- "patch": "16.19.1",
+ "generatedAt": 1791327624438,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790211280481,
+  "fetchedAt": 1791327586690,
   "overall": {
-   "winRate": 49.7,
-   "play": 4959,
+   "winRate": 49.8,
+   "play": 115264,
    "tier": 2
   },
   "headToHead": {
-   "play": 102,
-   "wins": 53,
-   "winRate": 52
+   "play": 2078,
+   "wins": 980,
+   "winRate": 47.2
   },
   "laneAdvantage": "EVEN",
   "soloKillAdvantage": "EVEN",
@@ -168,27 +168,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 56.7,
-    "play": 97,
-    "pickRate": 79.5
-   },
-   {
-    "names": [
-     "Exhaust",
-     "Flash"
-    ],
-    "winRate": 63.6,
-    "play": 11,
-    "pickRate": 9
+    "winRate": 47.3,
+    "play": 1997,
+    "pickRate": 79.6
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 27.3,
-    "play": 11,
-    "pickRate": 9
+    "winRate": 48.8,
+    "play": 289,
+    "pickRate": 11.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 39.8,
+    "play": 161,
+    "pickRate": 6.4
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 50.9,
-    "play": 55,
-    "pickRate": 45.1
+    "winRate": 46.8,
+    "play": 1204,
+    "pickRate": 47.3
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 56.3,
-    "play": 16,
-    "pickRate": 13.1
+    "winRate": 51.3,
+    "play": 261,
+    "pickRate": 10.2
    }
   ],
   "starter": [
@@ -244,18 +244,18 @@
      "Health Potion",
      "Health Potion"
     ],
-    "winRate": 54.2,
-    "play": 83,
-    "pickRate": 64.8
+    "winRate": 48.1,
+    "play": 1708,
+    "pickRate": 67.8
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 61.8,
-    "play": 34,
-    "pickRate": 26.6
+    "winRate": 45.3,
+    "play": 537,
+    "pickRate": 21.3
    }
   ],
   "boots": [
@@ -263,17 +263,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 53.7,
-    "play": 108,
-    "pickRate": 87.8
+    "winRate": 47.1,
+    "play": 2055,
+    "pickRate": 86.1
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 55.6,
-    "play": 9,
-    "pickRate": 7.3
+    "winRate": 49.8,
+    "play": 233,
+    "pickRate": 9.8
    }
   ],
   "core": [
@@ -283,9 +283,9 @@
      "Riftmaker",
      "Liandry's Torment"
     ],
-    "winRate": 50,
-    "play": 4,
-    "pickRate": 5.7
+    "winRate": 51.8,
+    "play": 110,
+    "pickRate": 7.8
    },
    {
     "items": [
@@ -293,69 +293,70 @@
      "Riftmaker",
      "Thornmail"
     ],
-    "winRate": 50,
-    "play": 4,
-    "pickRate": 5.7
+    "winRate": 51.8,
+    "play": 85,
+    "pickRate": 6.1
    },
    {
     "items": [
+     "Bramble Vest",
+     "Rylai's Crystal Scepter",
      "Riftmaker",
-     "Liandry's Torment",
-     "Rylai's Crystal Scepter"
+     "Thornmail"
     ],
-    "winRate": 100,
-    "play": 2,
-    "pickRate": 2.9
+    "winRate": 65.5,
+    "play": 58,
+    "pickRate": 4.1
    }
   ],
   "lateOptions": [
    {
     "items": [
-     "Riftmaker"
+     "Rylai's Crystal Scepter"
     ],
-    "winRate": 51.8,
-    "play": 85,
-    "pickRate": 72
+    "winRate": 48.3,
+    "play": 1684,
+    "pickRate": 68.3
    },
    {
     "items": [
-     "Rylai's Crystal Scepter"
+     "Riftmaker"
     ],
-    "winRate": 53.8,
-    "play": 78,
-    "pickRate": 66.1
+    "winRate": 49.5,
+    "play": 1656,
+    "pickRate": 67.2
    },
    {
     "items": [
      "Bramble Vest"
     ],
-    "winRate": 57.9,
-    "play": 57,
-    "pickRate": 48.3
+    "winRate": 42.9,
+    "play": 960,
+    "pickRate": 38.9
    },
    {
     "items": [
      "Thornmail"
     ],
-    "winRate": 56.8,
-    "play": 37,
-    "pickRate": 31.4
+    "winRate": 52.6,
+    "play": 778,
+    "pickRate": 31.6
    },
    {
     "items": [
      "Liandry's Torment"
     ],
-    "winRate": 69.2,
-    "play": 26,
-    "pickRate": 22
+    "winRate": 50.4,
+    "play": 647,
+    "pickRate": 26.2
    },
    {
     "items": [
-     "Spirit Visage"
+     "Dusk and Dawn"
     ],
-    "winRate": 57.9,
-    "play": 19,
-    "pickRate": 16.1
+    "winRate": 53.1,
+    "play": 403,
+    "pickRate": 16.3
    }
   ],
   "skillOrder": [
@@ -377,8 +378,8 @@
      "W",
      "W"
     ],
-    "winRate": 69.4,
-    "play": 36
+    "winRate": 53.2,
+    "play": 918
    }
   ]
  }

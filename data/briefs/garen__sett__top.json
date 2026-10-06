@@ -4,97 +4,97 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Defensive, grindy",
-   "line": "You lose any fight that drags on since Sett's Grit shield and max-health Q chunks stack in his favor, but the 48.2% win rate over 170 games says short, punctual trades still keep this close."
+   "difficulty": "Hard early",
+   "line": "You lose if you trade into his banked Grit before level 6; you win if you survive to a four-item spike and force fights after he's already burned Haymaker."
   },
-  "thesis": "Sett's kit is built to win the long exchange: Knuckle Down (Q) refreshes every 9-5 seconds and makes his next two attacks hit harder based on your max health, Haymaker (W) banks every hit he's taken as Grit and cashes it out as a shield plus a true-damage/physical burst, and his passive Pit Grit heals him harder the lower his health drops. Garen's only recovery tool is Perseverance, which resets the moment Sett so much as pokes you. That asymmetry is exactly why the data calls this defensive lane advantage Sett — whoever forces the longer fight wins it, and that's him by design.",
+  "thesis": "Sett's W (Haymaker) passively banks every point of damage he takes as Grit, then releases it as a shield plus a true-damage nuke in the center — so every auto or spell Garen lands on him in extended exchanges is arming the exact punch that's going to hurt him back. At 48.6% over 4,006 games with lane and solo-kill advantage both going to Sett, this is a lane you survive through disciplined short trades, not one you brute-force with Garen's spin-to-win kit.",
   "tell": {
-   "watch": "Sett's stored Grit / W cooldown",
+   "watch": "Sett's banked Grit meter",
    "theirWindow": {
-    "when": "Grit is full and Knuckle Down is up",
-    "what": "When his Grit bar is topped off and Q is off cooldown he can shield through your damage with Haymaker and burst two empowered autos through Knuckle Down — disengage rather than trade into that, since neither Courage (W) nor Judgment (E) alone out-damages the combo."
+    "when": "Sett's Grit looks full",
+    "what": "He can cast W (Haymaker, 18/16.5/15/13.5/12s cd) for a shield and a true-damage center hit, then follow into E (Facebreaker, 16-10s cd, range 490) for a stun if you're caught on the wrong side. Don't stand in the middle of the punch and don't commit a long trade here — back off and let the Grit decay."
    },
    "yourWindow": {
-    "when": "right after he casts Haymaker (W)",
-    "what": "The instant he dumps Grit into Haymaker he has no shield and W is down for 12-18 seconds (18/16.5/15/13.5/12s). That's when to commit Judgment (E) and stack autos, holding Decisive Strike (Q) to silence him if he tries to disengage."
+    "when": "right after he burns W",
+    "what": "His Grit resets to zero, so there's no shield behind his next few hits. Use Q (Decisive Strike, 8s cd, range 300) to silence him out of a follow-up E or W recast, then spin E (Judgment) while his Q (Knuckle Down, 9-5s cd) empowered autos are also down."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "them",
-    "note": "empowered Knuckle Down autos punish early trades"
+    "edge": "even",
+    "note": "Neither side has reliable all-in pressure yet"
    },
    {
     "levels": "3-5",
     "edge": "them",
-    "note": "Facebreaker stun online, Grit shield stacking up"
+    "note": "Sett's Q cooldown drops, empowered autos chain fast"
    },
    {
-    "levels": "6-8",
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Sett R online at 120/100s, Garen R still weak"
+   },
+   {
+    "levels": "11-15",
     "edge": "even",
-    "note": "Demacian Justice threat, but 140s CD at rank 1"
+    "note": "Stridebreaker online, your E cooldown falls to 10s"
    },
    {
-    "levels": "9-13",
-    "edge": "even",
-    "note": "Stridebreaker/Phantom Dancer close the damage gap"
-   },
-   {
-    "levels": "14-18",
+    "levels": "16-18",
     "edge": "you",
-    "note": "Mortal Reminder guts his Pit Grit sustain"
+    "note": "Garen R hits 20s cooldown, full build online"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield",
-    "why": "The higher-winrate start (53.2% over 111 games) — the flat damage reduction and regen blunt Sett's empowered Knuckle Down autos on the wave."
+    "item": "Doran's Shield + Health Potion",
+    "why": "Picked in 57.2% of games at a 47.8% win rate — the flat damage reduction on autos and passive heal directly offset Sett's empowered Knuckle Down pokes and let Garen's own Perseverance regen actually tick between exchanges."
    },
    "boots": {
-    "item": "Plated Steelcaps",
-    "why": "Higher measured win rate (49%) than Berserker's Greaves, and it directly answers Sett's auto-attack-driven trade pattern."
+    "item": "Berserker's Greaves",
+    "why": "Run in 63.3% of games at 49.2% win rate; the attack speed lets Garen land more autos inside his E (Judgment) spin window without needing to commit extra cooldowns to a trade."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "First item in the top-performing build path (53.8% over 39 games); its active gives you a burst-and-slow to force the short trade you want instead of the marathon fight Sett wants."
+     "why": "First item in the highest-performing path (54.1% win rate over 728 games); the active gives Garen a way to actually stick to Sett, who has no dash, once Grit forces a disengage."
     },
     {
      "item": "Phantom Dancer",
-     "why": "Attack speed to capitalize on Judgment/auto weaving once you're even or ahead, matching the measured build order."
+     "why": "Second item in all three measured build paths; the attack speed and move speed keep Garen's E uptime high across longer skirmishes."
     },
     {
      "item": "Mortal Reminder",
-     "why": "Grievous wounds directly undercuts the missing-health regen from Pit Grit — the exact thing keeping him alive through your trades."
+     "why": "Caps the strongest measured path at 54.1% win rate; the grievous wounds cuts directly into Sett's Pit Grit missing-health regen and his Haymaker shield's effective value."
     }
    ],
    "situational": [
     {
      "item": "Serpent's Fang",
-     "when": "he's stacking Grit and shielding through every fight with Haymaker (W)"
-    },
-    {
-     "item": "Youmuu's Ghostblade",
-     "when": "you need more mobility to chase resets or peel around The Show Stopper"
+     "when": "Sett's W shield is swinging fights in his favor"
     },
     {
      "item": "Dead Man's Plate",
-     "when": "you fall behind and need more durability and wave-to-wave tempo"
+     "when": "you need more stickiness in extended chases instead of pure damage"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead and want to force more early skirmishes"
     }
    ]
   },
   "runes": {
-   "keystone": "Conqueror",
-   "keystoneWhy": "Part of the more-picked, higher-winrate page (51.6% win rate, 31.1% pick); stacks off Judgment's multi-target spin and gives you sustain in the short trades where Pit Grit would otherwise out-heal you.",
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "This page measures 49.9% win rate over the Conqueror page's 46.8%, and the bonus move speed burst helps Garen reposition out of Sett's E (Facebreaker) pull range before Grit is fully banked.",
    "primary": [
-    "Triumph",
-    "Legend: Haste",
-    "Last Stand"
+    "Axiom Arcanist",
+    "Celerity",
+    "Gathering Storm"
    ],
    "secondary": [
-    "Axiom Arcanist",
-    "Celerity"
+    "Second Wind",
+    "Overgrowth"
    ],
    "shards": [
     "Adaptive Force",
@@ -107,56 +107,56 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Run in 90.8% of games at 48.7% win rate — Ignite denies the missing-health regen from Pit Grit right when you land a kill window off Demacian Justice or a silence-punish combo."
+   "why": "Run together in 48.5% of games at 91.9% pick rate; Ignite's grievous wounds cuts into both Sett's Pit Grit regen and his Haymaker shield value, while Flash dodges the Facebreaker stun setup."
   },
   "playing": [
    {
-    "title": "Farm through level 5",
-    "detail": "Knuckle Down's short cooldown (9-5s) lets Sett punish nearly every extended trade before 6 — hit CS with Judgment (E) and back off rather than standing in his auto range."
+    "title": "Farm through level 5, don't force trades",
+    "detail": "OP.GG's own read on this matchup is to focus farming before 6 and only poke in short bursts — Sett's Q cooldown (9/8/7/6/5s) means he's chaining empowered autos faster than Garen can safely answer in a stand-still fight."
    },
    {
-    "title": "Track his Grit before trading",
-    "detail": "If he's been eating harass or jungler ganks without casting Haymaker, assume the shield-plus-burst combo is loaded and don't initiate."
+    "title": "Never stand in the center of his W",
+    "detail": "Haymaker deals true damage in the center and only physical damage on the sides — sidestep the cast instead of eating the full hit, especially once you see his Grit meter is high."
    },
    {
-    "title": "Save Decisive Strike for exits",
-    "detail": "Q's move speed burst breaks slows — hold it to escape a Facebreaker pull-stun or to silence him mid-chase rather than opening trades with it."
+    "title": "Save Q for his W/E setup, not for extra damage",
+    "detail": "Decisive Strike's silence (8s cooldown, range 300) is worth far more denying a Haymaker cast or a Facebreaker pull than as a free auto — time it the moment you see Grit bank up."
    },
    {
-    "title": "Punish right after his W",
-    "detail": "The 12-18 second window after Haymaker is when he has no shield — commit Judgment (E) and stack autos here."
+    "title": "Trade immediately after he burns Haymaker",
+    "detail": "The moment his Grit resets to zero he has no shield behind him; that's your window to land E (Judgment, 13-9s cooldown, range 325) and walk away before Grit rebuilds."
    },
    {
     "title": "Respect Facebreaker's stun angle",
-    "detail": "E only stuns if enemies are on opposite sides of him; standing alone on one side only slows you, so position to avoid being caught between him and a wall or ally."
+    "detail": "Facebreaker (16-10s cooldown, range 490) only stuns if you're caught on opposite sides of Sett — it slows instead if you're on one side, so collapse to his flank rather than circling him in minion wars."
    },
    {
-    "title": "Play for level 6, not before",
-    "detail": "Demacian Justice is your first real all-in tool, but its 140s cooldown at rank 1 means you only get one shot — don't force it into a bad trade."
+    "title": "Don't expect your R to trade with his",
+    "detail": "Garen's Demacian Justice starts at a brutal 140s cooldown at rank 1 versus Sett's Show Stopper at 120s, so before rank 3-4 you cannot out-execute an all-in — play for sustained damage instead."
    },
    {
-    "title": "Itemize into his sustain",
-    "detail": "Mortal Reminder's grievous wounds answers the missing-health regen keeping him alive through your spin — prioritize it once trades are even."
+    "title": "Look for all-ins only after Stridebreaker",
+    "detail": "Once Stridebreaker is online you finally have a tool to stick to Sett through his lack of a dash; before that item, disengaging from a bad trade is worth more than forcing one."
    }
   ],
-  "patchCaveat": "Build paths, rune pages, and every win rate above come from OP.GG's measured games on the current patch (16.18.1); the tactical reading of cooldown windows and trade timing is our own analysis layered on top."
+  "patchCaveat": "All win rates, pick rates, item paths, runes, and summoner spells above are measured from live OP.GG games on the current patch; the mechanical reasoning tying them together — the Grit meter, the silence timing, the cooldown comparisons — is this brief's own analysis, not sourced data."
  },
- "generatedAt": 1790210650606,
- "patch": "16.19.1",
+ "generatedAt": 1791326696551,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790210547265,
+  "fetchedAt": 1791326599812,
   "overall": {
-   "winRate": 50.4,
-   "play": 6960,
+   "winRate": 50.7,
+   "play": 154096,
    "tier": 1
   },
   "headToHead": {
-   "play": 170,
-   "wins": 82,
-   "winRate": 48.2
+   "play": 4006,
+   "wins": 1947,
+   "winRate": 48.6
   },
   "laneAdvantage": "Sett",
   "soloKillAdvantage": "Sett",
@@ -168,27 +168,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 48.7,
-    "play": 187,
-    "pickRate": 90.8
+    "winRate": 48.5,
+    "play": 4630,
+    "pickRate": 91.9
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 60,
-    "play": 5,
-    "pickRate": 2.4
+    "winRate": 43.9,
+    "play": 198,
+    "pickRate": 3.9
    },
    {
     "names": [
      "Flash",
      "Ghost"
     ],
-    "winRate": 40,
-    "play": 5,
-    "pickRate": 2.4
+    "winRate": 45.3,
+    "play": 106,
+    "pickRate": 2.1
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 51.6,
-    "play": 64,
-    "pickRate": 31.1
+    "winRate": 46.8,
+    "play": 1694,
+    "pickRate": 32.9
    },
    {
     "primaryTree": "Sorcery",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 37.2,
-    "play": 43,
-    "pickRate": 20.9
+    "winRate": 49.9,
+    "play": 1055,
+    "pickRate": 20.5
    }
   ],
   "starter": [
@@ -243,18 +243,18 @@
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 53.2,
-    "play": 111,
-    "pickRate": 53.1
+    "winRate": 47.8,
+    "play": 2883,
+    "pickRate": 57.2
    },
    {
     "items": [
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 44.6,
-    "play": 74,
-    "pickRate": 35.4
+    "winRate": 49.2,
+    "play": 1556,
+    "pickRate": 30.9
    }
   ],
   "boots": [
@@ -262,17 +262,17 @@
     "items": [
      "Berserker's Greaves"
     ],
-    "winRate": 47.3,
-    "play": 110,
-    "pickRate": 54.7
+    "winRate": 49.2,
+    "play": 3080,
+    "pickRate": 63.3
    },
    {
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 49,
-    "play": 49,
-    "pickRate": 24.4
+    "winRate": 47.9,
+    "play": 972,
+    "pickRate": 20
    }
   ],
   "core": [
@@ -282,9 +282,9 @@
      "Phantom Dancer",
      "Mortal Reminder"
     ],
-    "winRate": 53.8,
-    "play": 39,
-    "pickRate": 25
+    "winRate": 54.1,
+    "play": 728,
+    "pickRate": 21.7
    },
    {
     "items": [
@@ -292,19 +292,19 @@
      "Phantom Dancer",
      "Dead Man's Plate"
     ],
-    "winRate": 40,
-    "play": 10,
-    "pickRate": 6.4
+    "winRate": 52.9,
+    "play": 357,
+    "pickRate": 10.6
    },
    {
     "items": [
      "Stridebreaker",
-     "Youmuu's Ghostblade",
-     "Dead Man's Plate"
+     "Phantom Dancer",
+     "Infinity Edge"
     ],
-    "winRate": 42.9,
-    "play": 7,
-    "pickRate": 4.5
+    "winRate": 54.5,
+    "play": 167,
+    "pickRate": 5
    }
   ],
   "lateOptions": [
@@ -312,49 +312,49 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 47.2,
-    "play": 199,
-    "pickRate": 97.6
+    "winRate": 48.8,
+    "play": 4740,
+    "pickRate": 95.5
    },
    {
     "items": [
      "Phantom Dancer"
     ],
-    "winRate": 49.5,
-    "play": 111,
-    "pickRate": 54.4
+    "winRate": 51.2,
+    "play": 2821,
+    "pickRate": 56.8
    },
    {
     "items": [
      "Mortal Reminder"
     ],
-    "winRate": 50.6,
-    "play": 83,
-    "pickRate": 40.7
+    "winRate": 51.3,
+    "play": 1572,
+    "pickRate": 31.7
    },
    {
     "items": [
      "Dead Man's Plate"
     ],
-    "winRate": 50,
-    "play": 66,
-    "pickRate": 32.4
+    "winRate": 52.5,
+    "play": 1391,
+    "pickRate": 28
    },
    {
     "items": [
      "Youmuu's Ghostblade"
     ],
-    "winRate": 45.8,
-    "play": 48,
-    "pickRate": 23.5
+    "winRate": 55.6,
+    "play": 1039,
+    "pickRate": 20.9
    },
    {
     "items": [
      "Serpent's Fang"
     ],
-    "winRate": 47.8,
-    "play": 23,
-    "pickRate": 11.3
+    "winRate": 51.1,
+    "play": 466,
+    "pickRate": 9.4
    }
   ],
   "skillOrder": [
@@ -376,8 +376,8 @@
      "W",
      "W"
     ],
-    "winRate": 47.9,
-    "play": 94
+    "winRate": 51.7,
+    "play": 2063
    }
   ]
  }

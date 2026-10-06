@@ -4,97 +4,92 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Slightly unfavored",
-   "line": "You lose lane if you eat Mordekaiser's W (Siphon of Destruction) at full range and keep his passive shield topped off; you win if you freeze under tower until his shield decays, then commit full trades and finish with R once he's already chunked."
+   "difficulty": "Hard lane",
+   "line": "You lose if you let him land three hits and trade at length into his banked Indestructible shield; you win if you hit-and-run to deny that third proc and all-in the moment his W is down."
   },
-  "thesis": "Mordekaiser out-ranges you with W (Siphon of Destruction) and sustains every trade through his passive (Indestructible) shield, which is why OP.GG grades this lane 49.3% over 665 games with lane and solo-kill advantage to him. You have no gap closer besides Flash, so the entire lane is about denying him free pokes and picking the exact windows — W on cooldown, shield decayed — where your E (Judgment)-based trade actually lands instead of getting absorbed.",
+  "thesis": "Mordekaiser's kit is built for sustained exchanges: Passive (Darkness Rise) only turns on after he lands 3 hits or spells, and W (Indestructible) banks every point of damage dealt and taken into a shield he can consume to heal. A long trade is a trade he wins by default. Garen's only route to the measured 48.5% win rate over 3,362 games is converting lane into short, decisive bursts instead of extended spin fights.",
   "tell": {
-   "watch": "Mordekaiser's Indestructible shield strength",
+   "watch": "His W shield/cooldown state",
    "theirWindow": {
-    "when": "his shield is freshly refreshed by W or an auto",
-    "what": "Disengage and reset to minions. Trading into a full Indestructible shield means your Q auto and E spin tick into mitigation instead of health — you're just feeding it. Let it decay (a few seconds without him dealing damage) before you commit again."
+    "when": "after he lands his 3rd hit",
+    "what": "Once Darkness Rise procs he gets a damage aura and Move Speed on top of whatever shield he's banked in Indestructible. Disengage immediately rather than continuing to trade through it."
    },
    "yourWindow": {
-    "when": "his W (Siphon) is on cooldown",
-    "what": "This is your all-in window. Walk up, Q (Decisive Strike) to silence and speed up, land the empowered auto, then E (Judgment) spin through the full duration — without W he has no ranged deterrent to punish your approach and his shield has nothing to feed on."
+    "when": "right after he casts W (Indestructible)",
+    "what": "Indestructible is on an 8-12s cooldown depending on rank. The moment he uses it to consume his shield for healing, he has no banked damage to fall back on — commit Q's silence into E (Judgment) spin damage before he can rebuild it."
    }
   },
   "powerCurve": [
    {
-    "levels": "1-2",
+    "levels": "1-5",
     "edge": "them",
-    "note": "W pokes your approach, you have no answer"
+    "note": "Obliterate's 675 range outpokes melee Garen"
    },
    {
-    "levels": "3-5",
+    "levels": "6-10",
     "edge": "them",
-    "note": "his E-Q-W all-in outsustains your trades"
+    "note": "R online, passive sustain still wins trades"
    },
    {
-    "levels": "6-8",
+    "levels": "11-15",
     "edge": "even",
-    "note": "ults trade — his R isolates, your R executes"
+    "note": "Stridebreaker and lower E/Q cooldowns close gap"
    },
    {
-    "levels": "9-13",
-    "edge": "even",
-    "note": "Stridebreaker lets you close his poke gap"
-   },
-   {
-    "levels": "14-18",
+    "levels": "16-18",
     "edge": "you",
-    "note": "Mortal Reminder shreds his shield in duels"
+    "note": "R cooldown drops to 20s, repeat execute threat"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Shield",
-    "why": "The higher-winrate start (50.3% over 451 games) — the flat damage block and HP5 blunt his early auto-poke and give you the sustain to hold the wave near your tower instead of getting bullied off it."
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction on autos blunts Obliterate poke, and the extra sustain lets you outlast his Perseverance-vs-Indestructible healing race in the early trades."
    },
    "boots": {
     "item": "Berserker's Greaves",
-    "why": "Highest pick rate (66.8%) and the attack speed shortens the window your E and empowered Q auto need to actually punish him when his W is down."
+    "why": "Extra attack speed means more autos land inside your Q (Decisive Strike) silence window before he can reposition to bank another shield tick."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "The Rush active is your only real way to close distance on a champion whose entire lane plan is poking you from W range — this is the single biggest reason the matchup improves once you hit level 9-10."
+     "why": "The slow on proc keeps him from kiting out of E (Judgment) range after your all-in starts."
     },
     {
      "item": "Phantom Dancer",
-     "why": "Attack speed and move speed keep you stuck to him through his kite pattern instead of letting him walk you down with autos between W cooldowns."
+     "why": "Attack speed scales your short-trade damage output instead of committing to a long spin war he's built to win."
     },
     {
      "item": "Mortal Reminder",
-     "why": "Grievous Wounds cuts directly into his Indestructible shield strength — this is the item that actually flips extended duels in your favor, matching the 53.3% winrate on this exact path over 169 games."
+     "why": "Grievous Wounds directly cuts the healing he gets from consuming his Indestructible shield."
     }
    ],
    "situational": [
     {
      "item": "Serpent's Fang",
-     "when": "he's stacking Indestructible hard and you need burst shield-shred on top of Mortal Reminder for a clean all-in"
-    },
-    {
-     "item": "Youmuu's Ghostblade",
-     "when": "you're already ahead and want a second gap-close/burst window to punish him before his shield resets"
+     "when": "if his indestructible shield is absorbing too much of your burst to get through"
     },
     {
      "item": "Force of Nature",
-     "when": "his poke and ability damage are outpacing your sustain item and you need to survive the W chip damage to reach your spike"
+     "when": "if obliterate and realm of death magic damage are deleting you too fast to trade"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "if you need faster rotations to punish his w cooldown window before he resets it"
     }
    ]
   },
   "runes": {
-   "keystone": "Stormraider's Surge",
-   "keystoneWhy": "This page runs 55.2% over the alternative's 47.6% in this matchup, and the logic tracks: Stormraider's rewards the constant repositioning you need to dodge his W cone, and it procs off just walking into range rather than needing a landed ability like Conqueror does against a poke-heavy opponent you can't always reach.",
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force through repeated short trades converts to healing, which is how you keep pace with his passive-plus-shield sustain over a long lane.",
    "primary": [
-    "Axiom Arcanist",
-    "Celerity",
-    "Gathering Storm"
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
    ],
    "secondary": [
-    "Second Wind",
-    "Overgrowth"
+    "Axiom Arcanist",
+    "Celerity"
    ],
    "shards": [
     "Adaptive Force",
@@ -107,52 +102,52 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Flash+Ignite is run in 91.4% of games at 49.7% WR — Ignite's Grievous Wounds stacks with your Mortal Reminder timing to strip his shield sustain during your all-in window, and it turns your R execute threshold much lower than his passive can offset."
+   "why": "Ignite denies the healing he'd otherwise get from consuming Indestructible's banked shield right as you commit the silence-into-spin all-in."
   },
   "playing": [
    {
-    "title": "Trade only when his shield is down",
-    "detail": "If he hasn't auto-attacked or landed W in the last several seconds, his Indestructible shield is decayed — that's the only time your Q-auto-E trade deals real damage instead of feeding mitigation."
+    "title": "Deny his third proc",
+    "detail": "Track autos and spells he's landed on you. Disengage before the third one triggers Darkness Rise's damage aura and Move Speed."
    },
    {
-    "title": "Juke his W, don't facetank it",
-    "detail": "Siphon of Destruction is a wide frontal cone but it's still dodgeable — step behind minions or sidestep in melee range rather than eating it point-blank, since every landed W both pokes you and refills his shield."
+    "title": "Trade in bursts, not spin wars",
+    "detail": "Obliterate's bonus damage on a single target punishes standing in his 675-range poke. Hit and leave rather than holding position."
    },
    {
-    "title": "Never all-in with E down",
-    "detail": "Your skill order maxes E (Judgment) first, so it's your primary trade damage — don't walk up or Flash in for a fight unless E is up, or you're trading auto-for-auto into a champion with a passive shield."
+    "title": "All-in right after his W",
+    "detail": "The instant Indestructible is cast, his banked shield is spent. That's your window to commit Q's silence and E's spin damage before he rebuilds it."
    },
    {
-    "title": "Hold Flash for his E, not offense",
-    "detail": "Death's Grasp roots you in place to set up his all-in, and his R (Realm of Death) locks you into an isolated 1v1 — save Flash to get out of E range rather than using it to initiate."
+    "title": "Save Judgment for committed trades",
+    "detail": "E (Judgment) drops to a 9s cooldown at rank 5 — don't burn it to poke; hold it for when he's already in range and can't disengage."
    },
    {
-    "title": "Time R for a decayed shield",
-    "detail": "Demacian Justice's true damage still gets absorbed by an active Indestructible shield, so only cash in your execute once his shield has decayed or after Ignite/Mortal Reminder have already cut it down."
+    "title": "Respect Death's Grasp range",
+    "detail": "His E pulls from 700 range, further than your E's 325. Don't walk up without minion wave between you."
    },
    {
-    "title": "Freeze before level 6",
-    "detail": "Since short trades lose to his sustain and his W punishes you for approaching, freezing the wave near your tower through levels 3-5 denies his poke angle entirely and forces him to overextend for CS."
+    "title": "Don't waste early R",
+    "detail": "Demacian Justice is on a 140s cooldown at rank 1 — a missed execute attempt is a lane-defining mistake this early, so only commit it on a confirmed kill."
    }
   ],
-  "patchCaveat": "Build paths, rune pages, summoners, and win rates here are pulled directly from measured OP.GG games on the current patch (665 games, 49.3% WR for this matchup); the trade timing, shield-decay logic, and cooldown-window calls are my own read on top of that data."
+  "patchCaveat": "Build, runes, and the 48.5% head-to-head figure are pulled from measured games on the current patch (16.19.1) via OP.GG; the tactical reasoning on passive timing and shield windows is independent analysis of the ability kits, not measured data."
  },
- "generatedAt": 1789271132631,
- "patch": "16.18.1",
+ "generatedAt": 1791327017291,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789271028372,
+  "fetchedAt": 1791326939806,
   "overall": {
-   "winRate": 50.9,
-   "play": 30313,
-   "tier": 2
+   "winRate": 50.7,
+   "play": 154096,
+   "tier": 1
   },
   "headToHead": {
-   "play": 665,
-   "wins": 328,
-   "winRate": 49.3
+   "play": 3362,
+   "wins": 1632,
+   "winRate": 48.5
   },
   "laneAdvantage": "Mordekaiser",
   "soloKillAdvantage": "Mordekaiser",
@@ -164,26 +159,26 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 49.7,
-    "play": 785,
-    "pickRate": 91.4
+    "winRate": 49.1,
+    "play": 3875,
+    "pickRate": 91.7
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 47.5,
-    "play": 40,
-    "pickRate": 4.7
+    "winRate": 45.1,
+    "play": 164,
+    "pickRate": 3.9
    },
    {
     "names": [
      "Flash",
      "Ghost"
     ],
-    "winRate": 35.3,
-    "play": 17,
+    "winRate": 49.4,
+    "play": 83,
     "pickRate": 2
    }
   ],
@@ -206,9 +201,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 47.6,
-    "play": 340,
-    "pickRate": 39.3
+    "winRate": 49.6,
+    "play": 1791,
+    "pickRate": 41.5
    },
    {
     "primaryTree": "Sorcery",
@@ -228,9 +223,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 55.2,
-    "play": 134,
-    "pickRate": 15.5
+    "winRate": 48.3,
+    "play": 667,
+    "pickRate": 15.4
    }
   ],
   "starter": [
@@ -239,18 +234,18 @@
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 50.3,
-    "play": 451,
-    "pickRate": 50
+    "winRate": 48.9,
+    "play": 2162,
+    "pickRate": 51
    },
    {
     "items": [
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 49.3,
-    "play": 296,
-    "pickRate": 32.8
+    "winRate": 49.4,
+    "play": 1384,
+    "pickRate": 32.6
    }
   ],
   "boots": [
@@ -258,17 +253,17 @@
     "items": [
      "Berserker's Greaves"
     ],
-    "winRate": 49.1,
-    "play": 581,
-    "pickRate": 66.8
+    "winRate": 49.4,
+    "play": 2847,
+    "pickRate": 69.5
    },
    {
     "items": [
      "Boots of Swiftness"
     ],
-    "winRate": 54.9,
-    "play": 162,
-    "pickRate": 18.6
+    "winRate": 50.5,
+    "play": 713,
+    "pickRate": 17.4
    }
   ],
   "core": [
@@ -278,19 +273,9 @@
      "Phantom Dancer",
      "Mortal Reminder"
     ],
-    "winRate": 53.3,
-    "play": 169,
-    "pickRate": 29.3
-   },
-   {
-    "items": [
-     "Stridebreaker",
-     "Phantom Dancer",
-     "Dead Man's Plate"
-    ],
-    "winRate": 66.7,
-    "play": 30,
-    "pickRate": 5.2
+    "winRate": 54.3,
+    "play": 584,
+    "pickRate": 21.1
    },
    {
     "items": [
@@ -298,8 +283,18 @@
      "Mortal Reminder",
      "Phantom Dancer"
     ],
-    "winRate": 68,
-    "play": 25,
+    "winRate": 51.7,
+    "play": 143,
+    "pickRate": 5.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Serpent's Fang",
+     "Phantom Dancer"
+    ],
+    "winRate": 58.3,
+    "play": 120,
     "pickRate": 4.3
    }
   ],
@@ -308,49 +303,49 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 50.2,
-    "play": 821,
-    "pickRate": 94.9
+    "winRate": 49.8,
+    "play": 3922,
+    "pickRate": 93.4
    },
    {
     "items": [
      "Phantom Dancer"
     ],
-    "winRate": 53.5,
-    "play": 480,
-    "pickRate": 55.5
+    "winRate": 53.1,
+    "play": 2172,
+    "pickRate": 51.7
    },
    {
     "items": [
      "Mortal Reminder"
     ],
-    "winRate": 52.6,
-    "play": 340,
-    "pickRate": 39.3
+    "winRate": 52.7,
+    "play": 1574,
+    "pickRate": 37.5
    },
    {
     "items": [
      "Serpent's Fang"
     ],
-    "winRate": 54.2,
-    "play": 177,
-    "pickRate": 20.5
-   },
-   {
-    "items": [
-     "Youmuu's Ghostblade"
-    ],
-    "winRate": 56.8,
-    "play": 125,
-    "pickRate": 14.5
+    "winRate": 51.6,
+    "play": 976,
+    "pickRate": 23.2
    },
    {
     "items": [
      "Force of Nature"
     ],
-    "winRate": 46.4,
-    "play": 125,
-    "pickRate": 14.5
+    "winRate": 54.1,
+    "play": 711,
+    "pickRate": 16.9
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 54.5,
+    "play": 679,
+    "pickRate": 16.2
    }
   ],
   "skillOrder": [
@@ -372,8 +367,8 @@
      "W",
      "W"
     ],
-    "winRate": 53.6,
-    "play": 394
+    "winRate": 52.9,
+    "play": 1975
    }
   ]
  }

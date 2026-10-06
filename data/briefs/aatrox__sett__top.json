@@ -4,89 +4,89 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Trap lane",
-   "line": "You win if you poke Sett down with Q swings and E dash-outs and punish his 12-18s Haymaker cooldown, and you lose if you stand in prolonged melee where his Grit shield and missing-health regen erase your damage."
+   "difficulty": "Slightly favoured",
+   "line": "You lose if you stand and trade through Sett's stored Grit and empowered Q autos; you win if you poke with Q/E and disengage before he unloads."
   },
-  "thesis": "Sett's Pit Grit passive banks every point of damage he takes into Grit, which his W (Haymaker) spends for a shield plus a true-damage nova, and his passive also grants bonus regen the lower his health drops - so extended slugfests heal and shield him back to even. Aatrox's actual edge is burst-and-reset: land a Q (The Darkin Blade) swing, dash away or reposition with E (Umbral Dash), and only re-engage once his Grit bar and Haymaker are spent. This explains why OP.GG tags Aatrox with lane and solo-kill advantage in isolated trades, yet the measured head-to-head is only 41.9% over 172 games - most Aatrox players are fighting through Sett instead of around him.",
+  "thesis": "Sett has no dash and wins fights by soaking damage into Grit for W (Haymaker) and landing empowered Q (Knuckle Down) autos in extended brawls. Aatrox's E (Umbral Dash) and multi-swing Q (The Darkin Blade) are built for hit-and-run poke, not standing trades, which is exactly why OP.GG flags prolonged melee fights as the losing pattern here. Play it as poke-and-reset and the 51.1% win rate over 3,880 games, plus the solo-kill edge, is yours to take.",
   "tell": {
-   "watch": "Sett's Grit/Haymaker meter",
+   "watch": "Sett's Grit (W) meter",
    "theirWindow": {
-    "when": "Sett's Q (Knuckle Down) glows and he walks at you",
-    "what": "His next two autos deal bonus damage based on your max health and he gets move speed closing the gap - don't let him land both, walk backward or interrupt with your own poke instead of trading auto-for-auto."
+    "when": "Grit near max and Q up",
+    "what": "He's about to cash in W (Haymaker) for a true-damage center hit plus physical sides, backed by Q's empowered autos. Disengage with E (Umbral Dash) rather than continuing to trade autos."
    },
    "yourWindow": {
-    "when": "his W (Haymaker) is on cooldown or Grit bar is empty",
-    "what": "Without a Grit shield or true-damage burst up, he has no answer to a full Q (The Darkin Blade) combo - commit here, using E (Umbral Dash) to close and its on-hit heal to win the exchange outright."
+    "when": "your E and Q both off cooldown",
+    "what": "Dash in with E (Umbral Dash, cooldown 9/8/7/6/5s) to heal off the hit, drop a Q (The Darkin Blade) swing, then dash back out before his Facebreaker or empowered Q lands."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "even",
-    "note": "neither has full combo online yet"
+    "edge": "them",
+    "note": "Sett's Q burst and E stun punish early standing trades."
    },
    {
     "levels": "3-5",
-    "edge": "you",
-    "note": "Q ranks up, E dash punishes his engage"
+    "edge": "even",
+    "note": "Full Q combo and E sustain online, trades level out."
    },
    {
     "levels": "6-8",
-    "edge": "them",
-    "note": "his R can drag you out of position"
+    "edge": "you",
+    "note": "R (World Ender) spike lets you force favorable extended fights."
    },
    {
     "levels": "9-13",
     "edge": "you",
-    "note": "Eclipse/Sundered Sky burst outpaces his shield"
+    "note": "Eclipse into Sundered Sky/Death's Dance widens your healing edge."
    },
    {
     "levels": "14-18",
     "edge": "even",
-    "note": "both ults and sustain items neutralize trades"
+    "note": "Full builds; his R threat offsets your extended R uptime."
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade + Health Potion",
-    "why": "45.6% win rate over 149 games at 69% pick - the AD and lifesteal let you win the early auto trades before Sett's Q empowers his."
+    "why": "Taken in 71.3% of games at 51% win rate; the extra sustain and AD help you win the short poke trades this matchup rewards."
    },
    "boots": {
     "item": "Plated Steelcaps",
-    "why": "44.9% win rate over 178 games at 86.8% pick - the flat damage reduction blunts his empowered right-punch autos and the burst side of Haymaker."
+    "why": "84.2% pick rate at 50.9% win rate; blunts Sett's empowered Q autos and his right-punch passive, which are physical damage."
    },
    "core": [
     {
      "item": "Eclipse",
-     "why": "the shield-and-execute proc lets you survive the one Haymaker burst you can't avoid and answers his Facebreaker pull with your own burst window."
+     "why": "Highest-winning core path (59.3% over 366 games) starts here; the shield triggers on burst combos and punishes his all-in windows."
     },
     {
      "item": "Sundered Sky",
-     "why": "the on-hit proc and healing on crit reward landing your first Q swing in the trade, exactly the poke-then-reset pattern this matchup wants."
+     "why": "Second item in the same path; the on-hit proc and healing reward landing your dash-in Q rather than extended trading."
     },
     {
      "item": "Death's Dance",
-     "why": "56.3% win rate over 16 games on this path - the damage-over-time conversion smooths out Sett's true-damage Haymaker burst instead of eating it all at once."
+     "why": "Closes out the 59.3%-win core path; the damage-over-time conversion keeps you alive through his delayed Haymaker burst."
     }
    ],
    "situational": [
     {
      "item": "Black Cleaver",
-     "when": "he starts stacking resistances and your Eclipse burst stops one-shotting through his shield"
-    },
-    {
-     "item": "Sterak's Gage",
-     "when": "he's landing full Haymaker plus Facebreaker combos and you need to survive the all-in past level 6"
+     "when": "the enemy team is stacking armor and you need shred to keep your poke damage relevant"
     },
     {
      "item": "Spear of Shojin",
-     "when": "you're ahead and want faster Q/E cooldowns to keep resetting the poke-and-reset pattern"
+     "when": "you need faster Q and E cooldowns to keep up the dash-poke-reset pattern against his all-ins"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "Sett's team has burst threats beyond lane and you need a shield plus tenacity to survive a pick"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "the stacking adaptive force and healing-on-hit directly offset the passive regen Sett gains from being low, keeping your trades profitable even in a slightly extended fight.",
+   "keystoneWhy": "Run in the 53%-pick, 51.6%-win page; stacking Conqueror on repeated Q/E pokes builds the adaptive force and healing you need before you can afford to commit to a longer fight.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -107,60 +107,60 @@
     "Flash",
     "Ignite"
    ],
-   "why": "Flash+Ignite is run in 69.6% of games and converts your solo-kill advantage into actual kills once you land a Q-E burst combo through his Grit shield; Flash+Teleport (51% win rate at 24.6% pick) is the safer pick if you'd rather scale and avoid short-trade variance."
+   "why": "76.2% pick rate at 51.7% win rate; Flash backs up your E dash repositioning, and Ignite punishes Sett's lack of a gap-closer when he overextends to stack Grit."
   },
   "playing": [
    {
-    "title": "Track his Grit/Haymaker bar",
-    "detail": "Every point of damage he takes fills Grit for his W shield and true-damage nova - trade in short bursts so he never banks enough to punish your engage."
+    "title": "Poke, don't brawl",
+    "detail": "Dash in with E (Umbral Dash), drop a Q (The Darkin Blade) swing, then dash out before his empowered autos land. OP.GG's own read on this matchup is that prolonged melee fights are the losing pattern."
    },
    {
-    "title": "Respect the Q glow, don't auto back",
-    "detail": "Knuckle Down empowers his next two autos for bonus max-health damage and gives him move speed toward you - walk out of range instead of trading autos into it."
+    "title": "Track his Grit bar",
+    "detail": "Sett's passive Pit Grit stores incoming damage for W (Haymaker). If it's climbing high, back off instead of continuing to trade, since he gets a free shield plus true-damage center hit and physical side hits once he casts it."
    },
    {
-    "title": "Know Facebreaker's real condition",
-    "detail": "It only stuns if you're caught between Sett and something on the exact opposite side; in an open lane duel with nothing behind you it just slows, so stay off walls and away from your own minions when he's near his E cooldown (16-10s by rank)."
+    "title": "Respect empowered Q autos",
+    "detail": "Sett's Q (Knuckle Down, cooldown 9/8/7/6/5s) empowers his next two attacks with bonus max-health damage and grants him move speed toward you. If he's walking at you with Q up, don't stand and trade autos."
    },
    {
-    "title": "Punish the Haymaker cooldown window",
-    "detail": "At 18-12s cooldown depending on rank, once he's spent it he has no shield or burst - this is your all-in window for a full three-hit Q combo."
+    "title": "Stay off both his flanks",
+    "detail": "Sett's E (Facebreaker, cooldown 16/14.5/13/11.5/10s, range 490) stuns if it pulls enemies from both sides together, but only slows if you're on one side. Fight from one side near minions so a hit only slows you."
    },
    {
-    "title": "Use E to poke, not to commit",
-    "detail": "Umbral Dash heals you on damage and lets you exit immediately after - dash in for a Q hit, take the heal, and leave rather than standing in melee range per the prolonged-fight warning."
+    "title": "All-in at level 6",
+    "detail": "Your R (World Ender, cooldown 120/100/80/80/80s) fears nearby minions and buffs your AD, healing, and move speed. Use this spike to force the extended fight once, since your healing and damage edge are strongest right when it comes online."
    },
    {
-    "title": "Bank Deathbringer Stance for his all-in",
-    "detail": "Hold your empowered passive auto if you can see his Q or R coming online, since the bonus magic damage and heal swing an all-in fight in your favor."
+    "title": "Hold E around his R",
+    "detail": "Sett's R (The Show Stopper, cooldown 120/100/80/80/80s, range 400) carries you through the air and slams you, slowing nearby enemies on landing. Keep E (Umbral Dash) available near his level 6 so you can reposition before or right after he grabs you."
    },
    {
-    "title": "Respect his R after level 6",
-    "detail": "The Show Stopper carries you and slams you down, slowing you afterward - don't overextend past minion wave when his ult is up, since it removes your ability to kite with E."
+    "title": "Front-load your burst",
+    "detail": "Only commit to an extended exchange once your Q is building toward its third swing or Deathbringer Stance is up, matching the matchup's measured solo-kill advantage to your own cooldown timing."
    }
   ],
-  "patchCaveat": "The build order, boots, runes, summoner spells, and every win-rate/pick-rate figure above are measured from live games on the current patch via OP.GG - only the tactical reasoning (why the trades work, the Facebreaker positioning nuance, the timing windows) is our own analysis layered on top."
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate numbers above are measured from current-patch games on OP.GG; the ability breakdowns, timing windows, and tactical reasoning are my own read on how to play those numbers out in lane."
  },
- "generatedAt": 1790212153743,
- "patch": "16.19.1",
+ "generatedAt": 1791328219361,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790212064938,
+  "fetchedAt": 1791328146610,
   "overall": {
-   "winRate": 50.5,
-   "play": 7773,
+   "winRate": 49.9,
+   "play": 155594,
    "tier": 1
   },
   "headToHead": {
-   "play": 172,
-   "wins": 72,
-   "winRate": 41.9
+   "play": 3880,
+   "wins": 1983,
+   "winRate": 51.1
   },
   "laneAdvantage": "Aatrox",
   "soloKillAdvantage": "Aatrox",
-  "playStyle": "aggressive",
+  "playStyle": "even",
   "opponentTip": "Do not try to fight Sett through prolonged melee fights. Keep some distance while using your abilities come off cooldown to deal burst damage.",
   "spells": [
    {
@@ -168,27 +168,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 43.8,
-    "play": 144,
-    "pickRate": 69.6
+    "winRate": 51.7,
+    "play": 3578,
+    "pickRate": 76.2
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 51,
-    "play": 51,
-    "pickRate": 24.6
+    "winRate": 49.8,
+    "play": 936,
+    "pickRate": 19.9
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 63.6,
-    "play": 11,
-    "pickRate": 5.3
+    "winRate": 54.1,
+    "play": 146,
+    "pickRate": 3.1
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 42.3,
-    "play": 104,
-    "pickRate": 50.2
+    "winRate": 51.6,
+    "play": 2552,
+    "pickRate": 53
    },
    {
     "primaryTree": "Precision",
@@ -232,9 +232,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 61.5,
-    "play": 13,
-    "pickRate": 6.3
+    "winRate": 42.6,
+    "play": 249,
+    "pickRate": 5.2
    }
   ],
   "starter": [
@@ -243,18 +243,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 45.6,
-    "play": 149,
-    "pickRate": 69
+    "winRate": 51,
+    "play": 3378,
+    "pickRate": 71.3
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 45.3,
-    "play": 53,
-    "pickRate": 24.5
+    "winRate": 49.4,
+    "play": 1107,
+    "pickRate": 23.4
    }
   ],
   "boots": [
@@ -262,17 +262,17 @@
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 44.9,
-    "play": 178,
-    "pickRate": 86.8
+    "winRate": 50.9,
+    "play": 3789,
+    "pickRate": 84.2
    },
    {
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 50,
-    "play": 20,
-    "pickRate": 9.8
+    "winRate": 54,
+    "play": 539,
+    "pickRate": 12
    }
   ],
   "core": [
@@ -282,9 +282,19 @@
      "Sundered Sky",
      "Death's Dance"
     ],
-    "winRate": 56.3,
-    "play": 16,
-    "pickRate": 14.7
+    "winRate": 59.3,
+    "play": 366,
+    "pickRate": 14.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 57.7,
+    "play": 163,
+    "pickRate": 6.4
    },
    {
     "items": [
@@ -292,69 +302,59 @@
      "Black Cleaver",
      "Death's Dance"
     ],
-    "winRate": 62.5,
-    "play": 8,
-    "pickRate": 7.3
-   },
-   {
-    "items": [
-     "Spear of Shojin",
-     "Sundered Sky",
-     "Death's Dance"
-    ],
-    "winRate": 0,
-    "play": 6,
-    "pickRate": 5.5
+    "winRate": 58.7,
+    "play": 126,
+    "pickRate": 4.9
    }
   ],
   "lateOptions": [
    {
     "items": [
-     "Sundered Sky"
+     "Eclipse"
     ],
-    "winRate": 49.1,
-    "play": 106,
-    "pickRate": 51
+    "winRate": 51.1,
+    "play": 2444,
+    "pickRate": 52.7
    },
    {
     "items": [
-     "Eclipse"
+     "Sundered Sky"
     ],
-    "winRate": 48,
-    "play": 102,
-    "pickRate": 49
+    "winRate": 53.3,
+    "play": 2217,
+    "pickRate": 47.8
    },
    {
     "items": [
      "Spear of Shojin"
     ],
-    "winRate": 50.5,
-    "play": 99,
-    "pickRate": 47.6
+    "winRate": 52.3,
+    "play": 2066,
+    "pickRate": 44.6
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 50,
-    "play": 78,
-    "pickRate": 37.5
+    "winRate": 57.8,
+    "play": 1677,
+    "pickRate": 36.2
    },
    {
     "items": [
      "Black Cleaver"
     ],
     "winRate": 52.8,
-    "play": 36,
-    "pickRate": 17.3
+    "play": 917,
+    "pickRate": 19.8
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 55.6,
-    "play": 27,
-    "pickRate": 13
+    "winRate": 57.4,
+    "play": 577,
+    "pickRate": 12.5
    }
   ],
   "skillOrder": [
@@ -376,8 +376,8 @@
      "W",
      "W"
     ],
-    "winRate": 56.9,
-    "play": 123
+    "winRate": 54.6,
+    "play": 2892
    }
   ]
  }

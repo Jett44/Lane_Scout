@@ -4,89 +4,89 @@
  "lane": "Top",
  "brief": {
   "verdict": {
-   "difficulty": "Favoured skirmish",
-   "line": "You lose if you let Darkness Rise stack in a long poke war; you win almost every trade you start on your own terms."
+   "difficulty": "Even, slight edge",
+   "line": "You lose if you let him pull you mid-Q-swing and stack his passive for free; you win by poking in short bursts and chaining Q into W before he ever gets to pull, which lines up with the measured 50.4% win rate and Aatrox holding the lane edge."
   },
-  "thesis": "Mordekaiser has no dash, blink, or gap-closer — his entire threat radius is Q (Obliterate, 675 range) and E (Death's Grasp, 700 range). Aatrox's W (Infernal Chains) reaches 825, which is further than either of those, so Aatrox can open every trade from outside Morde's kit and pull out with E (Umbral Dash) before Death's Grasp can catch him. The 53.7% Aatrox win rate over 147 games, plus the lane and solo-kill edge, comes directly from that range mismatch, not from raw stats.",
+  "thesis": "Aatrox's Q (The Darkin Blade) locks him into a three-swing animation he can't cancel, and Mordekaiser's E (Death's Grasp) is exactly the kind of hard pull that punishes that commitment. Outside of that specific interaction, Aatrox's Deathbringer Stance autos and W (Infernal Chains) let him win longer trades before Mordekaiser's Darkness Rise passive ever comes online. The 3,147-game sample backs this up as close to even (50.4%) with a slight Aatrox lane edge but no clean kill pressure either way (solo-kill even).",
   "tell": {
-   "watch": "Morde's W (Indestructible) shield state",
+   "watch": "His E (Death's Grasp) cooldown",
    "theirWindow": {
-    "when": "Darkness Rise (P) aura already active",
-    "what": "Once he's landed 3 attacks or spells on you, his damage aura and Move Speed are live — disengage immediately rather than trading through it, since every hit he lands from here out hurts more and he'll stick to you."
+    "when": "His E (Death's Grasp) is up",
+    "what": "Don't commit to your full three-swing Q sequence while his E is available — getting dragged mid-animation lets him land Obliterate for free and advances his Darkness Rise stacks toward the free damage aura."
    },
    "yourWindow": {
-    "when": "right after Morde pops W to heal",
-    "what": "Indestructible (cooldown 12/11/10/9/8s) is down for a full rotation once he consumes it. Land W (Infernal Chains) to drag him back into range, then Q-E-auto — there's no shield left to eat the damage."
+    "when": "His W (Indestructible) just went on cooldown",
+    "what": "His stored shield is empty right after he uses it to heal — commit your combo now with Q, autos for Deathbringer Stance procs, and E (Umbral Dash) for the extra heal, since there's no banked shield left to eat the damage."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "even",
-    "note": "Feeling-out poke, neither side all-ins"
+    "edge": "you",
+    "note": "Q poke and Deathbringer Stance autos outtrade his short-range Q"
    },
    {
     "levels": "3-5",
     "edge": "you",
-    "note": "Your Q-W-E burst outpaces his passive ramp"
+    "note": "W (Infernal Chains) forces bad positioning before he scales"
    },
    {
-    "levels": "6",
+    "levels": "6-8",
     "edge": "them",
-    "note": "Realm of Death isolates and steals stats"
+    "note": "Realm of Death isolates you if caught overextended"
    },
    {
-    "levels": "7-11",
-    "edge": "you",
-    "note": "World Ender live, full combo overwhelms his shield"
-   },
-   {
-    "levels": "12-18",
+    "levels": "9-13",
     "edge": "even",
-    "note": "Item power decides more than the duel"
+    "note": "Eclipse spikes trade with his growing Indestructible shield"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Full builds, duels mirror the 50.4% head-to-head"
    }
   ],
   "build": {
    "start": {
-    "item": "Doran's Blade + Health Potion",
-    "why": "54.8% win rate over 135 games and the clear majority pick (70.3%) — the extra sustain and AD let you win the auto-trades Deathbringer Stance sets up without needing to back early."
+    "item": "Doran's Blade",
+    "why": "Picked in 73% of games at 51.1% win rate over 2,879 games — the extra AD and sustain from the lifesteal win the early auto trades this matchup rewards."
    },
    "boots": {
     "item": "Mercury's Treads",
-    "why": "54.1% win rate over 122 games and 73.5% pick rate — Mordekaiser's entire kit (Obliterate, Death's Grasp, Realm of Death) is magic damage, so the MR directly blunts his only damage type."
+    "why": "Run in 69.5% of games — Mordekaiser's entire kit is magic damage, so the magic resist directly blunts his Obliterate and Darkness Rise aura."
    },
    "core": [
     {
      "item": "Eclipse",
-     "why": "The omnivamp and shield on the two-hit proc reward the short, decisive trades this lane wants instead of prolonged skirmishing."
+     "why": "Highest-winrate path (58.4% over 178 games) — the shield and burst proc help punch through a freshly-built Indestructible shield instead of grinding into it."
     },
     {
      "item": "Sundered Sky",
-     "why": "The proc heal on Q (Darkin Blade)'s first swing stacks with your existing sustain package, matching the 50% win rate 10-game core path."
+     "why": "Second item on the same 58.4% path — the extra on-hit damage and shield stack with Deathbringer Stance for sustained trading power."
     },
     {
      "item": "Death's Dance",
-     "why": "Damage-over-time conversion lets you tank a Realm of Death commitment and still walk away with HP, per the recorded Eclipse > Sundered Sky > Death's Dance path."
+     "why": "Closes out the top win-rate core — the damage-over-time conversion and healing let you win extended trades even through his Indestructible heal."
     }
    ],
    "situational": [
     {
      "item": "Maw of Malmortius",
-     "when": "his magic burst from Obliterate starts one-shotting you through your shield window"
+     "when": "his magic burst from Obliterate and the Darkness Rise aura is deleting your HP bar in single trades"
     },
     {
      "item": "Serpent's Fang",
-     "when": "he's stacking a large Indestructible shield every trade and it's eating your damage"
+     "when": "his Indestructible shield is consistently eating the burst you need to win a fight"
     },
     {
      "item": "Spear of Shojin",
-     "when": "the lane is going long and you need cooldown reduction to keep chaining Q resets"
+     "when": "the game goes long and you need the extra ability haste to loop Q and E resets faster than his cooldowns"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "The stacking adaptive damage and healing reward the extended-trade windows you're forcing whenever you catch him with W outside his own range.",
+   "keystoneWhy": "Run in the 49.1%-pick, 50.2%-winrate page — Conqueror's stacking adaptive force rewards exactly the kind of extended, repeated-auto trading this matchup is built around.",
    "primary": [
     "Triumph",
     "Legend: Haste",
@@ -107,60 +107,60 @@
     "Flash",
     "Ignite"
    ],
-   "why": "56.9% win rate at 81.8% pick rate — with the solo-kill advantage already in your favor, Ignite converts your range-mismatch trades into kills instead of just pokes."
+   "why": "Flash+Ignite is run in 81.8% of games at 50.9% win rate — Ignite punishes his Indestructible heal directly since it cuts the healing he relies on to win extended trades."
   },
   "playing": [
    {
-    "title": "Open every trade with W first",
-    "detail": "Infernal Chains reaches 825, further than his Obliterate (675) or Death's Grasp (700). Land it before he can respond, then walk in — you're trading from a range he can't punish."
+    "title": "Bait Death's Grasp before all-in",
+    "detail": "His E (Death's Grasp, cooldown 16/14/12/10/8s) pulls everything in its area and is the exact thing that catches you mid-Q-swing. Make him use it on a dash or poke before you commit your full combo."
    },
    {
-    "title": "Never poke through Darkness Rise",
-    "detail": "His passive activates after 3 landed attacks or spells on you. Don't trade in small increments that let him stack it for free — commit to a full Q-W-E burst or don't engage at all."
+    "title": "Trade in short bursts",
+    "detail": "Darkness Rise triggers after he lands 3 attacks or spells on you, granting him a damage aura and move speed. Land one or two hits and disengage instead of chaining your whole combo so he never completes the stack."
    },
    {
-    "title": "Respect Death's Grasp before you swing Q",
-    "detail": "Getting pulled mid-Q animation strands you in his range with no dash up. Check his E is on cooldown (16/14/12/10/8s) before you commit to the Darkin Blade windup."
+    "title": "Track his W before committing",
+    "detail": "Indestructible (cooldown 12/11/10/9/8s) banks the damage he deals and takes into a shield he can pop to heal. If he just consumed it, that banked shield is empty — that's your highest-value trade window."
    },
    {
-    "title": "Bank HP before level 6",
-    "detail": "Realm of Death isolates you completely and there's no outrunning it with E once it lands. Go into level 6 with a healthy HP lead so the duel is already decided before he casts it."
+    "title": "Respect level 6 isolation",
+    "detail": "Realm of Death drags you into a private 1v1 and steals a portion of your stats, on a 140/120/100/90/80s cooldown. Don't get caught overextended near level 6 without your E (Umbral Dash) ready to escape."
    },
    {
-    "title": "Finish trades through Deathbringer Stance",
-    "detail": "Your passive's empowered auto scales off his max HP. Hold it for the exchange rather than using it on minions — it's the difference-maker in a close short trade."
+    "title": "Use your R to close duels",
+    "detail": "World Ender fears nearby minions and grants bonus AD, enhanced healing, and move speed, extending the buff on a takedown. Since his own R already isolates you from help, your R is the better tool to actually win the fight it creates."
    },
    {
-    "title": "Punish his W cooldown window",
-    "detail": "Indestructible is 12/11/10/9/8s. Once he consumes the shield to heal, that's your green light to force the next fight before it's back up."
+    "title": "Build into his shield, not around it",
+    "detail": "Eclipse's burst proc and Sundered Sky's extra on-hit damage are picked specifically to break through a stacked Indestructible shield rather than trade slowly into it."
    },
    {
-    "title": "Use R to close, not to poke",
-    "detail": "World Ender fears nearby minions and boosts your AD, healing, and Move Speed. Save it for a real all-in once his shield is down, not as a wave-clear tool."
+    "title": "Save Ignite for after his shield pop",
+    "detail": "Since his sustain comes from a self-shield he has to consume to heal, time Ignite for right after he's already burned Indestructible so he has no answer to the sustained damage."
    }
   ],
-  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch; the trade-pattern and cooldown-window reasoning is this brief's own tactical read, not sourced data."
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live OP.GG games on the current patch (16.19.1); the mechanical reasoning and trade-timing calls are this brief's own analysis, not sourced data."
  },
- "generatedAt": 1790212229472,
- "patch": "16.19.1",
+ "generatedAt": 1791328311742,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1790212155849,
+  "fetchedAt": 1791328223503,
   "overall": {
-   "winRate": 50.5,
-   "play": 7773,
+   "winRate": 49.9,
+   "play": 155594,
    "tier": 1
   },
   "headToHead": {
-   "play": 147,
-   "wins": 79,
-   "winRate": 53.7
+   "play": 3147,
+   "wins": 1585,
+   "winRate": 50.4
   },
   "laneAdvantage": "Aatrox",
-  "soloKillAdvantage": "Aatrox",
-  "playStyle": "aggressive",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
   "opponentTip": "Be careful of being hit with (E) while using [Q]. Do not let his (P) continue to activate by dealing small bursts of damage.",
   "spells": [
    {
@@ -168,8 +168,8 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 56.9,
-    "play": 153,
+    "winRate": 50.9,
+    "play": 3219,
     "pickRate": 81.8
    },
    {
@@ -177,18 +177,18 @@
      "Flash",
      "Teleport"
     ],
-    "winRate": 40.6,
-    "play": 32,
-    "pickRate": 17.1
+    "winRate": 49.8,
+    "play": 594,
+    "pickRate": 15.1
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 0,
-    "play": 2,
-    "pickRate": 1.1
+    "winRate": 47.2,
+    "play": 106,
+    "pickRate": 2.7
    }
   ],
   "runes": [
@@ -210,9 +210,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 52.5,
-    "play": 99,
-    "pickRate": 52.9
+    "winRate": 50.2,
+    "play": 1984,
+    "pickRate": 49.1
    },
    {
     "primaryTree": "Precision",
@@ -222,19 +222,19 @@
      "Legend: Haste",
      "Last Stand"
     ],
-    "secondaryTree": "Resolve",
+    "secondaryTree": "Domination",
     "secondary": [
-     "Second Wind",
-     "Revitalize"
+     "Treasure Hunter",
+     "Taste of Blood"
     ],
     "shards": [
      "Adaptive Force",
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 77.8,
-    "play": 9,
-    "pickRate": 4.8
+    "winRate": 45.6,
+    "play": 259,
+    "pickRate": 6.4
    }
   ],
   "starter": [
@@ -243,18 +243,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 54.8,
-    "play": 135,
-    "pickRate": 70.3
+    "winRate": 51.1,
+    "play": 2879,
+    "pickRate": 73
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 50,
-    "play": 46,
-    "pickRate": 24
+    "winRate": 48.6,
+    "play": 874,
+    "pickRate": 22.2
    }
   ],
   "boots": [
@@ -262,17 +262,17 @@
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 54.1,
-    "play": 122,
-    "pickRate": 73.5
+    "winRate": 50.7,
+    "play": 2469,
+    "pickRate": 69.5
    },
    {
     "items": [
      "Plated Steelcaps"
     ],
-    "winRate": 50,
-    "play": 28,
-    "pickRate": 16.9
+    "winRate": 54.4,
+    "play": 823,
+    "pickRate": 23.2
    }
   ],
   "core": [
@@ -282,9 +282,9 @@
      "Sundered Sky",
      "Death's Dance"
     ],
-    "winRate": 50,
-    "play": 10,
-    "pickRate": 10.2
+    "winRate": 58.4,
+    "play": 178,
+    "pickRate": 8.9
    },
    {
     "items": [
@@ -292,69 +292,69 @@
      "Black Cleaver",
      "Death's Dance"
     ],
-    "winRate": 33.3,
-    "play": 3,
-    "pickRate": 3.1
+    "winRate": 60.3,
+    "play": 78,
+    "pickRate": 3.9
    },
    {
     "items": [
      "Eclipse",
-     "Black Cleaver",
-     "Maw of Malmortius"
+     "Spear of Shojin",
+     "Death's Dance"
     ],
-    "winRate": 0,
-    "play": 2,
-    "pickRate": 2
+    "winRate": 53.5,
+    "play": 71,
+    "pickRate": 3.5
    }
   ],
   "lateOptions": [
    {
     "items": [
-     "Sundered Sky"
+     "Eclipse"
     ],
-    "winRate": 65.9,
-    "play": 82,
-    "pickRate": 45.1
+    "winRate": 51.4,
+    "play": 1933,
+    "pickRate": 49.9
    },
    {
     "items": [
-     "Eclipse"
+     "Sundered Sky"
     ],
-    "winRate": 48.1,
-    "play": 79,
-    "pickRate": 43.4
+    "winRate": 52.9,
+    "play": 1549,
+    "pickRate": 40
    },
    {
     "items": [
      "Spear of Shojin"
     ],
-    "winRate": 60.9,
-    "play": 69,
-    "pickRate": 37.9
+    "winRate": 54.7,
+    "play": 1479,
+    "pickRate": 38.2
    },
    {
     "items": [
      "Death's Dance"
     ],
-    "winRate": 54.5,
-    "play": 44,
-    "pickRate": 24.2
+    "winRate": 58.7,
+    "play": 1009,
+    "pickRate": 26.1
    },
    {
     "items": [
      "Maw of Malmortius"
     ],
-    "winRate": 55.8,
-    "play": 43,
-    "pickRate": 23.6
+    "winRate": 54.8,
+    "play": 935,
+    "pickRate": 24.1
    },
    {
     "items": [
      "Serpent's Fang"
     ],
-    "winRate": 58.3,
-    "play": 36,
-    "pickRate": 19.8
+    "winRate": 52.1,
+    "play": 741,
+    "pickRate": 19.1
    }
   ],
   "skillOrder": [
@@ -376,8 +376,8 @@
      "W",
      "W"
     ],
-    "winRate": 59.2,
-    "play": 103
+    "winRate": 56.4,
+    "play": 2396
    }
   ]
  }

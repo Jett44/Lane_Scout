@@ -5,99 +5,90 @@
  "brief": {
   "verdict": {
    "difficulty": "Skill matchup",
-   "line": "You lose if you facetank his extended combos and let Darkness Rises stacks and the Indestructible (W) shield pile up in his favor; you win if you burst a full Facebreaker (E) sandwich before he can convert that damage into shield."
+   "line": "You lose if you stand in extended auto trades and let Mordekaiser bank three passive hits; you win if you dump Grit/W on a clean E-stun and disengage before he resets."
   },
-  "thesis": "This is a genuinely even lane (48.9% Sett win rate over 571 games, versus 49.8% for Sett overall) that is decided by trade duration rather than raw stats. Short, decisive trades favor Sett because his Grit resource and Facebreaker (E) stun land before Mordekaiser can profit; long trades favor Mordekaiser because Indestructible (W) turns your damage into his shield and Darkness Rises rewards him for staying in extended contact. Whoever controls how long each exchange lasts controls the lane.",
+  "thesis": "Both champions scale off a resource they fill passively — Sett's Grit meter (W) builds from damage taken, Mordekaiser's passive aura builds from landing three hits — so this lane is a race to detonate your own meter before the enemy's finishes charging. Even at 51% over 3116 games because neither side has a clean counter to the other's burst window, just a better or worse read on when it opens.",
   "tell": {
-   "watch": "Morde's Darkness Rises stack pips",
+   "watch": "Mordekaiser's passive stack count (3)",
    "theirWindow": {
-    "when": "he lands Death's Grip (E) uncontested",
-    "what": "Once he pulls you in, he'll layer Obliterate (Q) and pop Indestructible (W) while stacking his passive toward the free empowered hit. Don't stand in it hoping to out-trade — back off and let the shield expire before committing again."
+    "when": "Mordekaiser has landed 2+ hits on you",
+    "what": "He's one auto or spell from the passive aura and move speed proc. Back off instead of trading the third hit — eating it lets him snowball the exchange with bonus damage and speed."
    },
    "yourWindow": {
-    "when": "your Grit bar (P) is near full",
-    "what": "All-in immediately: empowered Haymaker auto into a centered Facebreaker (E) so he's sandwiched between both fists for the stun. That burst window closes fast once his shield is up, so commit before he can react."
+    "when": "Your W (Haymaker) Grit meter is near full",
+    "what": "Grit is stored from damage taken and dumped on cast for a shield plus true damage in the center, physical on the sides. Walk Mordekaiser into the center hitbox and release — this is your highest-value burst, not a poke tool."
    }
   },
   "powerCurve": [
    {
     "levels": "1-2",
-    "edge": "you",
-    "note": "Higher base stats and Grit sustain win early pokes"
+    "edge": "even",
+    "note": "Both poke-limited; neither stun nor passive aura online yet"
    },
    {
     "levels": "3-5",
-    "edge": "even",
-    "note": "Obliterate (Q) poke trades match your Knuckle Down"
-   },
-   {
-    "levels": "6-8",
-    "edge": "them",
-    "note": "Realm of Death (R) and full combo threaten hard"
-   },
-   {
-    "levels": "9-13",
     "edge": "you",
-    "note": "Stridebreaker spike wins extended duels"
+    "note": "Q maxed by 5, two empowered autos punish his melee range"
    },
    {
-    "levels": "14-18",
+    "levels": "6-10",
+    "edge": "them",
+    "note": "His R unlocks a kill window before yours matches it"
+   },
+   {
+    "levels": "11-18",
     "edge": "even",
-    "note": "Full builds trade evenly, teamfights decide it"
+    "note": "Both ultimates live, fight decided by execution"
    }
   ],
   "build": {
    "start": {
     "item": "Doran's Blade",
-    "why": "50.8% win rate over 632 games as the dominant start (81.1% pick); the sustain and early damage let you win the short hit-and-run trades this lane is built around."
+    "why": "82% pick at 51.8% win rate — the sustain and AD feed Sett's auto-reliant passive and Q trades better than the shield variant does against Mordekaiser's magic poke."
    },
    "boots": {
     "item": "Mercury's Treads",
-    "why": "51.2% win rate over 418 games and the majority pick (60.1%); the magic resist blunts Obliterate (Q) and the bonus damage from a proc'd Darkness Rises stack."
+    "why": "59.8% pick at 53% win rate — magic resist answers his Q/E/R magic damage, and tenacity shortens how long you're locked down after his E pull or R drag."
    },
    "core": [
     {
      "item": "Stridebreaker",
-     "why": "Part of the top build path (55.9% win rate, 127 games); the slow lets you actually stick a Facebreaker (E) sandwich instead of chasing a kited-out Mordekaiser."
+     "why": "The active's slow and AoE auto let you stick through his W shield window and force the E-stun combo instead of chasing."
     },
     {
      "item": "Black Cleaver",
-     "why": "Armor shred cuts through his stacked HP and Indestructible (W) shield so your all-in windows actually kill instead of just poking."
+     "why": "Shreds armor so your Q max-health damage and auto trades keep scaling as he builds tankier off his own W shield."
     },
     {
-     "item": "Overlord's Bloodmail",
-     "why": "Health and omnivamp let you win the sustain race if a trade runs longer than planned, closing the gap on his shield-based healing."
+     "item": "Sterak's Gage",
+     "why": "This exact path (Stridebreaker into Black Cleaver into Sterak's Gage) runs 68.8% over 96 games — the tenacity and health keep you alive through his R stat-steal all-in."
     }
    ],
    "situational": [
     {
-     "item": "Sterak's Gage",
-     "when": "he's building toward burst or you expect a forced 1v1 inside Realm of Death (R)"
+     "item": "Overlord's Bloodmail",
+     "when": "mordekaiser is landing full E-into-R combos and you need more raw HP and magic resist to survive the all-in"
     },
     {
-     "item": "Blade of The Ruined King",
-     "when": "he's stacking HP items and raw shield/health scaling is outpacing your flat damage"
+     "item": "Blade of the Ruined King",
+     "when": "the lane stays even past level 11 and turns into a sustained auto-trade war rather than burst windows"
     },
     {
      "item": "Spear of Shojin",
-     "when": "you're ahead and want faster Facebreaker (E) and Haymaker resets to keep pressuring"
-    },
-    {
-     "item": "Boots of Swiftness",
-     "when": "you need to consistently disengage after pokes to deny his Darkness Rises stacks"
+     "when": "you're ahead and want faster Q/W/E cooldowns to cycle Grit and the stun more often"
     }
    ]
   },
   "runes": {
    "keystone": "Conqueror",
-   "keystoneWhy": "53.7% win rate over the higher-performing page; Conqueror stacks during your Grit-fueled pokes and converts to omnivamp at max stacks, which is exactly what you need to outlast Indestructible (W) sustain in a trade that runs long.",
+   "keystoneWhy": "Conqueror stacks through the extended trades this lane forces and converts to healing at max stacks, which matches dumping Grit into an all-in rather than one-off pokes.",
    "primary": [
     "Triumph",
     "Legend: Alacrity",
     "Last Stand"
    ],
    "secondary": [
-    "Shield Bash",
+    "Unflinching",
     "Second Wind"
    ],
    "shards": [
@@ -111,56 +102,56 @@
     "Flash",
     "Ignite"
    ],
-   "why": "50.3% win rate and the overwhelming pick (92.6%); Ignite cuts into whatever health he converts from Indestructible (W) or item sustain, letting your Facebreaker (E) all-in actually secure the kill instead of leaving him topped off."
+   "why": "92.4% pick at 51.5% win rate — Ignite punishes his W by burning through the health he'd otherwise bank into a shield, and secures kills off your E-stun or R combo before he can W-heal back."
   },
   "playing": [
    {
-    "title": "Deny his passive with hit-and-run",
-    "detail": "Poke with an empowered Knuckle Down auto then step out of Obliterate (Q) range rather than facetanking — standing in extended contact lets Darkness Rises reach its free empowered hit."
+    "title": "Deny his passive stacks",
+    "detail": "Hit-and-run rather than standing in extended trades. Every third hit he lands on you procs his damage aura and move speed — don't give him the free third hit."
    },
    {
-    "title": "Land Facebreaker (E) centered",
-    "detail": "Catching him between both fists doubles the hit and stuns; time this with a full Grit bar so the empowered Haymaker auto lands in the same window before he can react."
+    "title": "Dump W on the true-damage center",
+    "detail": "Haymaker's center hits true damage, the sides only physical. Walk him into the middle before releasing stored Grit, not just whichever side is closest."
    },
    {
-    "title": "Track Death's Grip (E) cooldown",
-    "detail": "Early levels this pull has a long cooldown — stay outside his pull range while it's up, and punish hard the moment it's down since he loses his main engage tool."
+    "title": "Save E for isolated angles",
+    "detail": "Facebreaker only stuns when enemies are pulled from opposite sides; a one-sided pull just slows. Only commit E when Mordekaiser is alone, not grouped with minions on one flank."
    },
    {
-    "title": "Force fights before level 6",
-    "detail": "Without Realm of Death (R), Mordekaiser has no way to banish you into a forced 1v1 — trades favor you more heavily here than at any later point in lane."
+    "title": "Close with Q, not autos alone",
+    "detail": "Q's move speed toward champions plus two empowered attacks dealing max-health damage is how you win the gap-close into melee range instead of trading autos on his terms."
    },
    {
-    "title": "Don't dump damage into an active shield",
-    "detail": "Indestructible (W) converts the damage you deal into more shield for him, so bait it out with a weak poke first and save your real combo for after it drops."
+    "title": "Track his W shield state",
+    "detail": "Indestructible banks damage dealt and taken into a shield he can pop to heal. Time your all-in for right after he's consumed it, not while it's stacked."
    },
    {
-    "title": "Shred his HP stacking with Black Cleaver",
-    "detail": "His shield and health scale hard over time, so the armor shred is what turns your damage from tickling into actually threatening kills in a prolonged fight."
+    "title": "Isolate before using R",
+    "detail": "The Show Stopper carries one enemy through the air alone — use it to pull Mordekaiser away from allies before his own Realm of Death can drag you first."
    },
    {
-    "title": "Save Ignite for the all-in, not the poke",
-    "detail": "Hold it until you commit to a full Facebreaker (E) combo — it denies his shield-based healing exactly when you need the extra damage to close out the kill."
+    "title": "Respect his longer E range",
+    "detail": "Death's Grasp reaches 700 range against your Facebreaker's 490. Don't walk into his pull range before your Grit or W is ready to answer."
    }
   ],
-  "patchCaveat": "Build order, boots, runes, and summoner spells reflect measured games on the current patch (571 games at 48.9% win rate for Sett vs Mordekaiser); the trade-timing, ability tells, and combo sequencing are my own reading of the matchup, not measured data."
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live OP.GG games on the current patch; the mechanical reasoning and timing calls are my own read of the matchup."
  },
- "generatedAt": 1789271278610,
- "patch": "16.18.1",
+ "generatedAt": 1791327103513,
+ "patch": "16.20.1",
  "generator": "on-demand",
  "grounded": true,
  "stats": {
   "source": "op.gg",
-  "fetchedAt": 1789271144359,
+  "fetchedAt": 1791327020099,
   "overall": {
-   "winRate": 49.8,
-   "play": 24489,
-   "tier": 3
+   "winRate": 50.4,
+   "play": 140376,
+   "tier": 1
   },
   "headToHead": {
-   "play": 571,
-   "wins": 279,
-   "winRate": 48.9
+   "play": 3116,
+   "wins": 1589,
+   "winRate": 51
   },
   "laneAdvantage": "EVEN",
   "soloKillAdvantage": "EVEN",
@@ -172,27 +163,27 @@
      "Flash",
      "Ignite"
     ],
-    "winRate": 50.3,
-    "play": 696,
-    "pickRate": 92.6
+    "winRate": 51.5,
+    "play": 3696,
+    "pickRate": 92.4
    },
    {
     "names": [
      "Flash",
      "Teleport"
     ],
-    "winRate": 42.3,
-    "play": 26,
-    "pickRate": 3.5
+    "winRate": 50,
+    "play": 148,
+    "pickRate": 3.7
    },
    {
     "names": [
      "Exhaust",
      "Flash"
     ],
-    "winRate": 66.7,
-    "play": 15,
-    "pickRate": 2
+    "winRate": 50,
+    "play": 94,
+    "pickRate": 2.4
    }
   ],
   "runes": [
@@ -214,9 +205,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 45.8,
-    "play": 253,
-    "pickRate": 33.3
+    "winRate": 51.6,
+    "play": 1402,
+    "pickRate": 34.1
    },
    {
     "primaryTree": "Precision",
@@ -236,9 +227,9 @@
      "Adaptive Force",
      "Health Scaling"
     ],
-    "winRate": 53.7,
-    "play": 134,
-    "pickRate": 17.7
+    "winRate": 52.5,
+    "play": 684,
+    "pickRate": 16.6
    }
   ],
   "starter": [
@@ -247,18 +238,18 @@
      "Doran's Blade",
      "Health Potion"
     ],
-    "winRate": 50.8,
-    "play": 632,
-    "pickRate": 81.1
+    "winRate": 51.8,
+    "play": 3299,
+    "pickRate": 82
    },
    {
     "items": [
      "Doran's Shield",
      "Health Potion"
     ],
-    "winRate": 50,
-    "play": 96,
-    "pickRate": 12.3
+    "winRate": 49.8,
+    "play": 458,
+    "pickRate": 11.4
    }
   ],
   "boots": [
@@ -266,17 +257,17 @@
     "items": [
      "Mercury's Treads"
     ],
-    "winRate": 51.2,
-    "play": 418,
-    "pickRate": 60.1
+    "winRate": 53,
+    "play": 2181,
+    "pickRate": 59.8
    },
    {
     "items": [
      "Boots of Swiftness"
     ],
-    "winRate": 57.6,
-    "play": 158,
-    "pickRate": 22.7
+    "winRate": 55.5,
+    "play": 730,
+    "pickRate": 20
    }
   ],
   "core": [
@@ -286,9 +277,9 @@
      "Black Cleaver",
      "Overlord's Bloodmail"
     ],
-    "winRate": 55.9,
-    "play": 127,
-    "pickRate": 30.3
+    "winRate": 62.5,
+    "play": 658,
+    "pickRate": 29.8
    },
    {
     "items": [
@@ -296,9 +287,9 @@
      "Overlord's Bloodmail",
      "Sterak's Gage"
     ],
-    "winRate": 62.8,
-    "play": 43,
-    "pickRate": 10.3
+    "winRate": 61.4,
+    "play": 223,
+    "pickRate": 10.1
    },
    {
     "items": [
@@ -306,9 +297,9 @@
      "Black Cleaver",
      "Sterak's Gage"
     ],
-    "winRate": 68,
-    "play": 25,
-    "pickRate": 6
+    "winRate": 68.8,
+    "play": 96,
+    "pickRate": 4.3
    }
   ],
   "lateOptions": [
@@ -316,49 +307,49 @@
     "items": [
      "Stridebreaker"
     ],
-    "winRate": 52.7,
-    "play": 659,
-    "pickRate": 86.9
+    "winRate": 53.6,
+    "play": 3416,
+    "pickRate": 86.3
    },
    {
     "items": [
      "Overlord's Bloodmail"
     ],
-    "winRate": 55.7,
-    "play": 409,
-    "pickRate": 54
+    "winRate": 58.1,
+    "play": 2069,
+    "pickRate": 52.3
    },
    {
     "items": [
      "Black Cleaver"
     ],
-    "winRate": 54.2,
-    "play": 332,
-    "pickRate": 43.8
+    "winRate": 55.8,
+    "play": 1924,
+    "pickRate": 48.6
    },
    {
     "items": [
      "Sterak's Gage"
     ],
-    "winRate": 55,
-    "play": 151,
-    "pickRate": 19.9
+    "winRate": 58.6,
+    "play": 912,
+    "pickRate": 23
    },
    {
     "items": [
      "Blade of The Ruined King"
     ],
-    "winRate": 46.7,
-    "play": 150,
-    "pickRate": 19.8
+    "winRate": 49.7,
+    "play": 801,
+    "pickRate": 20.2
    },
    {
     "items": [
      "Spear of Shojin"
     ],
-    "winRate": 59,
-    "play": 83,
-    "pickRate": 11
+    "winRate": 55.7,
+    "play": 415,
+    "pickRate": 10.5
    }
   ],
   "skillOrder": [
@@ -380,8 +371,8 @@
      "E",
      "E"
     ],
-    "winRate": 53.8,
-    "play": 197
+    "winRate": 58.2,
+    "play": 1178
    }
   ]
  }
