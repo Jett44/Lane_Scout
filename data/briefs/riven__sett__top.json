@@ -1,0 +1,377 @@
+{
+ "you": "Riven",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand still while Sett's Grit is full and his Q is up; you win if you poke-and-reset until both his Q and E are on cooldown, then commit."
+  },
+  "thesis": "Sett's entire kit is a resource meter: W (Haymaker) banks every point of damage he takes as Grit and detonates it as a shield plus true-damage nuke, so every poke you land both helps and arms him. The matchup is genuinely even at 49.9% over 1,526 games, but the solo-kill edge sits with Sett because his passive (Pit Grit) regens health off his missing HP — you need to finish trades, not just start them.",
+  "tell": {
+   "watch": "Sett's stored Grit meter",
+   "theirWindow": {
+    "when": "Grit full and Q off cooldown",
+    "what": "He can detonate Haymaker for a shield plus true damage and chase in with Knuckle Down's move speed and bonus max-health damage on his next two hits. Back off instead of trading autos here."
+   },
+   "yourWindow": {
+    "when": "His Q and E both just missed or landed",
+    "what": "Knuckle Down (9/8/7/6/5s CD) and Facebreaker (16/14.5/13/11.5/10s CD) are his only ways to stick or stun you — once both are down, dash in with Q (Broken Wings) and W (Ki Burst) before he can reset."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Pit Grit regen punishes early all-ins"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "full Q-W-E combo online, trade carefully"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Show Stopper threatens overextensions near walls"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "W/E cooldowns shrink to 7s/6s, outtrade"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Wind Slash execute offsets his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured at 51.5% win rate (33 games) and the clear majority pick (89.2%) — the extra sustain matters directly against Pit Grit's missing-health regen."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Top pick at 55.6% and 50% win rate (20 games) — ability haste keeps Ki Burst and Valor cycling faster than Sett's Q and E."
+   },
+   "core": [
+    {
+     "item": "Axiom Arc",
+     "why": "Core first item on the 16%-pick, 75%-win path — cooldown refund rewards the poke-and-reset pattern OP.GG's own tip describes."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Second item on that same path, adding sustained damage and healing for extended trades."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out every top build path in this data — the damage-over-time conversion lets you tank Haymaker's true damage and heal it back."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you are ahead and winning short trades, since its shield punishes his empowered right punch"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and you need armor shred to push through his Grit shield faster"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "you are behind on cs or taking too much poke from his auto-attack alternation"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want more sustain through extended skirmishes instead of raw cooldown refund"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force and healing on takedown rewards the repeated short trades this lane demands, and converts directly into the sustain you need to outlast Pit Grit.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run at 97.1% pick rate with a 52.9% win rate — Ignite punishes his low-HP all-in attempts before Pit Grit's regen can bail him out. Flash+Teleport exists in the data (2.9% pick) but the sample is too small to recommend over the standard page."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q, then reset",
+    "detail": "Use Broken Wings (13s CD, 275 range) to tag him and step out before his left/right punch alternation catches you — OP.GG's own read on this lane is to attack and fall back, not to sit in melee range."
+   },
+   {
+    "title": "Save W for his Q engage",
+    "detail": "Ki Burst's 260-range stun is your best answer the instant he commits Knuckle Down toward you — interrupting it early denies both of his bonus max-health hits."
+   },
+   {
+    "title": "Don't facetank a full Grit bar",
+    "detail": "Once his stored Grit looks high, Haymaker can shield him and deal true damage in the center plus physical damage to the sides — disengage rather than trade point-blank."
+   },
+   {
+    "title": "Respect one-sided Facebreaker",
+    "detail": "His E only stuns when enemies are on opposite sides of him; alone with no minions flanking him it only slows you, so trading inside a wave where minions sit behind him is more dangerous than an empty lane."
+   },
+   {
+    "title": "Spend E on his punch, not your gap-close",
+    "detail": "Valor's forward step (10-6s CD) blocks incoming damage — hold it to eat his empowered right punch or his E pull instead of burning it just to stick on autos."
+   },
+   {
+    "title": "All-in only when both his cooldowns are down",
+    "detail": "Per OP.GG's tip, engage with Conqueror stacked and his abilities spent — his all-in collapses without Knuckle Down's bonus damage or Facebreaker's slow/stun to keep you in range."
+   },
+   {
+    "title": "Hold Wind Slash to finish",
+    "detail": "Blade of the Exile recasts on a 10s cooldown after the first use — hold the ranged Wind Slash to execute him after a trade rather than opening with it, since opening lets him shield the true-damage portion with W."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, boots, summoners, and win rates above are measured from live games on the current patch (16.20.1); the mechanical reasoning and timing calls are this brief's own analysis, not OP.GG's."
+ },
+ "generatedAt": 1791398596318,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791398502355,
+  "overall": {
+   "winRate": 49.9,
+   "play": 1526,
+   "tier": 4
+  },
+  "headToHead": null,
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Use your [Q] to attack and fall back periodically to prevent Sett from activating his passive ability. We recommend engaging when your Conqueror’s stacks are up and Sett’s abilities are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.9,
+    "play": 34,
+    "pickRate": 97.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 42.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 8.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 89.2
+   },
+   {
+    "items": [
+     "Long Sword",
+     "Doran's Blade",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 2.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 27.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 16
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 12
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 70.8,
+    "play": 24,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 40.9,
+    "play": 22,
+    "pickRate": 61.1
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 72.2,
+    "play": 18,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 90.9,
+    "play": 11,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 30,
+    "play": 10,
+    "pickRate": 27.8
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 11.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 71.4,
+    "play": 14
+   }
+  ]
+ }
+}

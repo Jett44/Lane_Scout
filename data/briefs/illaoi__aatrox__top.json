@@ -1,0 +1,384 @@
+{
+ "you": "Illaoi",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You lose if you swing early and eat a Q (The Darkin Blade) reset chain into Umbral Dash disengage; you win if E (Test of Spirit) lands while his E (Umbral Dash) is down, since that's a trade he can't escape."
+  },
+  "thesis": "The entire matchup is a cooldown race between your E (Test of Spirit), which locks a target in place and spawns a Vessel if they can't break line of sight, and his E (Umbral Dash), which is his only way to dodge it. His E is up far more often (9/8/7/6/5s) than yours is (16/15/14/13/12s), so you only get a handful of true E attempts per level — but when you land one while his dash is on cooldown, he is stuck trading into a tentacle swarm with no escape. This is why Illaoi holds both the lane win rate (52.8% over 36 games) and the solo-kill edge.",
+  "tell": {
+   "watch": "Aatrox's E (Umbral Dash) cooldown",
+   "theirWindow": {
+    "when": "his E (Umbral Dash) is up",
+    "what": "He can dash in to land Q (The Darkin Blade) or W (Infernal Chains) and then dash back out before your E lands, healing off the passive on Umbral Dash and Deathbringer Stance the whole time. Don't commit E here — you'll just whiff and lose the 16-12s cooldown for nothing."
+   },
+   "yourWindow": {
+    "when": "he just used E to engage or reposition",
+    "what": "Fire E (Test of Spirit) immediately. He has no dash to break it, so he either tanks the echo damage and stands still, or runs and becomes a Vessel — either way your passive Tentacles start swinging and healing you through the follow-up trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "No tentacles up, his Q/W poke trades evenly"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E online, tentacle snowball starts near walls"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R adds burst and a tentacle army"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "His sustain items catch up to your damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His R (World Ender) swings extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "51.7% win rate and the most-picked start (64.4%) — the extra sustain and damage let you hold position for W (Harsh Lesson) pokes without losing the trade war."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "76.2% pick rate and best in this matchup — his damage is almost entirely physical autos and Q swings, including the Deathbringer Stance empowered auto, so flat physical reduction blunts his whole kit."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "First item in the 100%-win, 3-game sample path — the armor shred compounds with every E echo and tentacle hit, letting you out-trade his healing."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Second in that same build path — the proc off W (Harsh Lesson) lets you stick to him after his E dash instead of losing the follow-up."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Caps the core path — the shield and tenacity-adjacent survivability keep you alive through his Q-W all-in windows while your tentacles do the real work."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "he's building full lifesteal/healing items and outlasting your trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "his Deathbringer Stance and Umbral Dash healing is sustaining him through your all-ins"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you need your own Tentacle and E-echo healing amplified in a longer siege"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 52.6%-win, most-picked page — Grasp rewards you for staying in minion range to farm tentacle procs and land W (Harsh Lesson), building the health lead that lets you ignore his poke until E is live.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest win rate of the three recorded combos (53.8%) — Ignite directly counters the healing from his passive Deathbringer Stance and Umbral Dash, and secures the kill once your E (Test of Spirit) traps him."
+  },
+  "playing": [
+   {
+    "title": "Fight next to walls",
+    "detail": "Your passive Tentacles only spawn on nearby impassible terrain, so every trade you force should happen with a wall in tentacle range (W/E range, 400/900) or your damage output is half of what it should be."
+   },
+   {
+    "title": "Hold E until his E is down",
+    "detail": "Umbral Dash cycles every 9-5s versus your Test of Spirit's 16-12s. Casting E into an up dash just wastes your longest cooldown — wait for him to spend it first."
+   },
+   {
+    "title": "Watch his Deathbringer Stance charge",
+    "detail": "When his passive is armed, his next auto deals bonus magic damage and heals him off your max health. Back off a step or trade through it with your own W rather than absorbing a free empowered hit."
+   },
+   {
+    "title": "Chip with W every 4 seconds",
+    "detail": "Harsh Lesson's 4s cooldown is far shorter than anything he has — use it on cooldown to proc nearby Tentacles even when E isn't up, keeping constant pressure without committing your long cooldowns."
+   },
+   {
+    "title": "Punish a whiffed third Q swing",
+    "detail": "The Darkin Blade has three charges with different areas; if he burns all three without connecting, he's defenseless until it resets (14-6s) — this is your all-in window with W plus Tentacles."
+   },
+   {
+    "title": "Save R for grouped minions",
+    "detail": "Leap of Faith spawns a Tentacle for every champion it hits, so timing it over a minion wave with Aatrox nearby builds an instant tentacle army for the all-in rather than a lone poke."
+   },
+   {
+    "title": "Itemize into his sustain early",
+    "detail": "If he's out-healing your trades by level 9-13, prioritize Bramble Vest or Death's Dance from the situational list over pure damage — his Q/E healing scales hard and standard builds won't out-race it alone."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from real games on the current patch (16.20.1) via OP.GG; the cooldown-race reading, trade timing, and positioning calls are this brief's own tactical judgement."
+ },
+ "generatedAt": 1791399714021,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791399643460,
+  "overall": {
+   "winRate": 49.5,
+   "play": 1740,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 36,
+   "wins": 19,
+   "winRate": 52.8
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "Aatrox is a difficult matchup as he can easily dodge [E] through (E) while dealing damage with (Q), not to mention his health regeneration or abilities that do not consume mana. However, Illaoi can gain the upper hand if [E] lands while (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 36.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 29.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 22.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 43.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 25
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.7,
+    "play": 29,
+    "pickRate": 64.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 22.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 76.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 16.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 100,
+    "play": 3,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Spirit Visage"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.9,
+    "play": 34,
+    "pickRate": 75.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 62.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 31.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 20
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 15.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 10
+   }
+  ]
+ }
+}

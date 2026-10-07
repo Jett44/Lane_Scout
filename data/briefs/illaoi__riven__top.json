@@ -1,0 +1,380 @@
+{
+ "you": "Illaoi",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you throw E (Test of Spirit) while her Q and E are both up and she dashes or blocks out of it; you win if you wait for her to burn Broken Wings or Valor first and land E the instant they're down."
+  },
+  "thesis": "Illaoi's entire win condition is landing E (Test of Spirit, range 900); Riven's entire survival tool is her Q (Broken Wings) and E (Valor) mobility, which can only dodge that spirit-link while either is off cooldown. The lane is decided by cooldown tracking, not raw damage trades — which is why the data shows Illaoi holding lane and solo-kill advantage despite a near-even overall win rate.",
+  "tell": {
+   "watch": "Riven's Q/E dash cooldowns",
+   "theirWindow": {
+    "when": "She has both Q and E up",
+    "what": "She can freely engage with Broken Wings dashes, block your damage with Valor, then Ki Burst (W) stun to punish any trade you start. Don't throw E into this window — she'll just dash or block through it and punish the whiff."
+   },
+   "yourWindow": {
+    "when": "Her Q and E are both on cooldown",
+    "what": "This is the only safe window for E (Test of Spirit) — she has nothing left to gap-close away or block the link with. Land it immediately and follow with W (Harsh Lesson, 4s cooldown) to pull Tentacles onto her for the spirit-echo burst."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ki Burst stun into Q burst beats you before E is up"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E ranks up, starts threatening a Vessel lock"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Leap of Faith tentacle swarm answers her all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Cleaver + Iceborn sustained DPS outlasts her burst"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sterak's + tentacle healing win extended skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Most-picked start on record (57.9% pick, 54.5% win rate) — the AD and sustain win early poke trades before your E is strong enough to carry the lane."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Dominant pick (84.2% pick, 62.5% win rate) — the flat damage reduction blunts her Runic Blade-empowered autos and Ki Burst follow-up poke."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred lets your tentacle hits and autos keep scaling through her kit, which has no built-in sustain to out-trade a stacking Cleaver."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Adds an AoE slow on proc right as Tentacles converge on an E-locked target, making it much harder for her to walk the spirit link off."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "A health and tenacity spike that outlasts her one real burst window — after her combo is spent she has no follow-up damage to punish you with."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's building pure AD and starting to out-trade you on autos"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "her Q-into-W burst threatens to kill you before your tentacle healing can catch up"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "she's rushing early lifesteal or on-hit to poke you down before level 6"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs off your frequent W (Harsh Lesson) leaps and tentacle hits, giving you lane sustain against her poke. It's the dominant pick at 73.7% with a 57.1% measured win rate. Conqueror is a smaller-sample alternative (66.7% win rate) for players who want to commit fully to all-in trades instead.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust+Flash is the measured outlier at 87.5% win rate (42.1% pick) — Exhaust directly neutralizes her Ki Burst-into-empowered-autos burst window, and Flash lets you force the E lock across a gap she can't dash over. Flash+Teleport is more popular (47.4% pick) but converts far worse (33.3%)."
+  },
+  "playing": [
+   {
+    "title": "Never open with E",
+    "detail": "Throwing Test of Spirit first gives her Q (Broken Wings) or E (Valor) a way to dodge before the spirit connects, burning your 16-12s cooldown for nothing."
+   },
+   {
+    "title": "Bait her dash first",
+    "detail": "Poke with autos until she commits Q or E to the trade. The instant either is on cooldown, land E — she has no gap-close or block left to escape the spirit link."
+   },
+   {
+    "title": "Chain W after E lands",
+    "detail": "Harsh Lesson (4s cooldown) leaps onto the spirit-locked target and pulls nearby Tentacles into the fight, starting the champion-damage heal loop off your passive."
+   },
+   {
+    "title": "Respect a loaded Ki Burst",
+    "detail": "Her W stuns nearby enemies on an 11-7s cooldown as she levels, and feeds Runic Blade-empowered autos right after. Don't facecheck melee range when it's clearly up."
+   },
+   {
+    "title": "Fight over tentacle terrain",
+    "detail": "Your passive spawns Tentacles on nearby impassable terrain. Pull E trades toward walls or jungle edges so tentacles keep swinging and healing you through her dashes."
+   },
+   {
+    "title": "Use R to answer her all-in",
+    "detail": "From level 6, Leap of Faith hits everyone nearby and spawns a Tentacle per champion hit. Use it the moment she commits her Q-W combo so the tentacle swarm outlasts her burst."
+   },
+   {
+    "title": "Lean on Cleaver, not raw autos",
+    "detail": "Black Cleaver's armor shred (online by levels 9-13) is what lets your tentacle and auto damage keep pace with her empowered hits, since she has no sustain to out-heal it."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner picks above are pulled directly from measured games on the current patch via OP.GG; the cooldown numbers are from the live ability text, and the tactical reading — bait the dash, land E, chain W — is my own analysis of the kit, not measured data."
+ },
+ "generatedAt": 1791400240499,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791400115752,
+  "overall": {
+   "winRate": 49.5,
+   "play": 1740,
+   "tier": 4
+  },
+  "headToHead": null,
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "The victor of the engagement will depend on whether [E] lands successfully or not. We recommend not using abilities first as Riven can easily dodge them through (Q) or (E), but rather using [E] while kiting from a distance.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 47.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 87.5,
+    "play": 8,
+    "pickRate": 42.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Teleport"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 5.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 73.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 15.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 57.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 15.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 84.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 15.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 41.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Sundered Sky",
+     "Sterak's Gage",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 8.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 94.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 11.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 0,
+    "play": 3
+   }
+  ]
+ }
+}

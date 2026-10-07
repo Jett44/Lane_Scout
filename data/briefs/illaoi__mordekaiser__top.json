@@ -1,0 +1,380 @@
+{
+ "you": "Illaoi",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured laner",
+   "line": "You lose if you let extended, multi-exchange trades drag on until his passive and shield stack up; you win if you force quick E-into-W all-ins and never ult after he does."
+  },
+  "thesis": "Illaoi's W (Harsh Lesson) and E (Test of Spirit) let her start and end a trade faster than Mordekaiser can stack Darkness Rise, which only triggers after three landed hits. The catch is ultimate order: if he lands R (Realm of Death) on you after you've already used your own R (Leap of Faith), every tentacle you spawned stays outside his Death Realm and does nothing, so the matchup swings hard on who commits R first.",
+  "tell": {
+   "watch": "Mordekaiser's Death's Grasp cooldown",
+   "theirWindow": {
+    "when": "Right after he lands E (Death's Grasp)",
+    "what": "He's pulled you into range and started his passive count; expect a Q (Obliterate) and autos chasing Darkness Rise's third hit. Disengage before he completes it rather than trading through it."
+   },
+   "yourWindow": {
+    "when": "While his E is still on cooldown",
+    "what": "Step up and threaten E (Test of Spirit, range 900) from outside his 700-range Death's Grasp. If he can't pull you, follow with W (Harsh Lesson) to drag nearby tentacles onto him and stack the spirit echo damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither all-in tool online, farm safely"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E into W all-ins win trades outright"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R spike wins fights only if you open"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "his W/passive sustain closes the gap"
+   },
+   {
+    "levels": "13-18",
+    "edge": "them",
+    "note": "prolonged teamfights favor his W and P"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "The lane is won through short, repeated W/E all-ins rather than sustained poke exchanges, and Doran's Blade's lifesteal keeps you healthy through those trades (45.5% WR, 44% pick)."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tenacity shortens how long his Death's Grasp pull and any CC chain keeps you locked down, and the MR blunts his Q/R magic damage (47.2% WR, 80% pick)."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "The armor shred and haste fuel faster Q/W/E resets, so you can land more all-in windows before his passive stabilizes a fight."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The slow on W (Harsh Lesson) engage keeps him inside tentacle range instead of kiting out, and the extra CDR tightens your E uptime."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Magic resist plus healing amp directly counters the W (Indestructible) shield-into-heal pattern and boosts your own tentacle sustain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're getting bursted down mid-all-in and need a survivability buffer to finish the trade"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "his magic burst is ramping fast and you need a spell shield plus MR to survive his engage"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you're already ahead and want more on-hit burst through his armor instead of raw tankiness"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp rewards the repeated auto-trades your W/E all-in pattern creates and gives bonus health that lets you out-brawl his Q (Obliterate) poke instead of losing the war of attrition to his passive.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Exhaust",
+    "Flash"
+   ],
+   "why": "Exhaust is the highest win-rate pick here (62.5%) and directly answers the matchup's core problem: popping it the moment he opens Death's Grasp or Q blunts the passive-fueled burst that otherwise wins him extended trades. Flash covers the repositioning needed to land your E first or escape his R threat."
+  },
+  "playing": [
+   {
+    "title": "Poke with E, don't facecheck his E",
+    "detail": "Use E (Test of Spirit, range 900) to threaten a vessel conversion from outside his Death's Grasp's 700 range. Only walk inside that range once his E is on cooldown."
+   },
+   {
+    "title": "All-in the moment his E is down",
+    "detail": "Death's Grasp is 16s at rank 1 scaling to 8s at rank 5 — once it's spent, leap in with W (Harsh Lesson) to pull nearby tentacles onto him and stack the E spirit-echo damage."
+   },
+   {
+    "title": "Never ult second",
+    "detail": "If he lands R (Realm of Death) after you've already used R (Leap of Faith), your tentacles are stuck outside the Death Realm and deal nothing. Only use R as your own engage opener, never as a reply to his."
+   },
+   {
+    "title": "Track his third landed hit",
+    "detail": "Darkness Rise triggers after 3 attacks or spells connect, giving him a damage aura and move speed. Break off a trade before he lands that third hit, especially right after his Q plus autos."
+   },
+   {
+    "title": "Bait his shield before you commit",
+    "detail": "Indestructible banks the damage he deals and takes into a heal. Poke it down with Q (Tentacle Smash) from range before you commit to a melee all-in, so your damage doesn't just refill his heal."
+   },
+   {
+    "title": "Stop initiating past level 9",
+    "detail": "Once his W/passive sustain stabilizes mid-game fights, shift to poking with Q/E instead of full all-ins until you out-item him again."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates are measured from live OP.GG games on the current patch (16.20.1); the trade timing, cooldown reads, and ultimate-order reasoning are my own tactical analysis layered on top."
+ },
+ "generatedAt": 1791399638699,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791399555005,
+  "overall": {
+   "winRate": 49.5,
+   "play": 1740,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 37,
+   "wins": 22,
+   "winRate": 59.5
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "Mordekaiser has the upper hand in prolonged fights due to his (W) and (P) even when your [E] lands successfully. Mordekaiser will always win if he uses his (R) after you use [R], as all of your tentacles will be outside the Death Realm. Never use your [R] before (R), and use your [E] to harass him without being hit by (E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 46
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 32
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 18
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40.9,
+    "play": 22,
+    "pickRate": 44
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 18
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 44
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 36
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.2,
+    "play": 36,
+    "pickRate": 80
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 8.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Spirit Visage",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 10.3
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 10.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.8,
+    "play": 39,
+    "pickRate": 76.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 41.2
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 39.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 11.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 55.6,
+    "play": 9
+   }
+  ]
+ }
+}

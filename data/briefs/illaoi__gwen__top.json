@@ -1,0 +1,375 @@
+{
+ "you": "Illaoi",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, technical",
+   "line": "You lose this lane if you facetank Gwen's true-damage Q stacks or walk into a fresh Hallowed Mist; you win it by extracting her spirit with E from range and chaining W leaps near terrain before her kit resets."
+  },
+  "thesis": "Illaoi's entire edge in this matchup comes from the E-into-Vessel loop stacking Tentacle damage onto Gwen faster than Gwen's Q poke and passive can out-heal it, but that loop only works if you land E before Gwen gets Hallowed Mist up. The 1,740-game sample gives Illaoi lane and solo-kill advantage despite a near-coinflip 49.5% raw win rate, which means this is a sequencing matchup, not a free one.",
+  "tell": {
+   "watch": "Gwen's Hallowed Mist (W) cooldown",
+   "theirWindow": {
+    "when": "Hallowed Mist (W) is up and she's spacing",
+    "what": "She can port into the mist and become untargetable from outside it, which whiffs your E (Test of Spirit, 900 range) entirely. Don't commit your full combo into a Gwen who's holding W — poke with E from max range first to bait it out."
+   },
+   "yourWindow": {
+    "when": "Hallowed Mist (W) just went down, CD 22-18s",
+    "what": "Immediately E (Test of Spirit) her spirit from 900 range before she can reset it, then W (Harsh Lesson, 4s CD, 400 range) leap in to dump Q and auto damage onto the spirit for the echo while nearby Tentacles swing too."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "W leap trades into her Q poke evenly"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E unlocks the spirit/Vessel all-in window"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R adds AoE Tentacle spawn, snowballs hard"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "her R poke and kiting offset your tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest-performing start in the sample (50% WR, 45.2% pick) — the extra damage and sustain fuel the early W-into-E all-in instead of a passive lane."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "42.9% WR and 70% pick on this matchup — the magic resist and tenacity blunt A Thousand Cuts stacking and her Needlework slow."
+   },
+   "core": [
+    {
+     "item": "Maw of Malmortius",
+     "why": "Highest-WR core path (50% over this build order) and the spellshield directly answers Gwen's magic burst windows off E (Skip 'n Slash)."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred amplifies every Tentacle swing and Q (Tentacle Smash) hit once you're sticking to her in the Vessel loop."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "On-hit slow helps you stay attached through her E (Skip 'n Slash) attack-speed window instead of letting her kite the spirit away."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "gwen's r poke is chipping you down over repeated skirmishes and you need more healing off tentacle procs"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "gwen is building burst and threatens to flip an all-in on you after level 6"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you're already ahead on lane tempo and want to snowball the skirmish window at levels 3-5"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This matchup's winning pattern is an extended skirmish — E extract, W leap, Q smash, Tentacle swings — not a one-shot burst, so Conqueror's stacking adaptive force and healing scale with the loop better than a single Grasp proc. The measured sample backs this: this page runs 80% WR versus the Grasp page's 27.3%, even on a smaller sample.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Highest-WR combo in the sample (50% WR, 40% pick). Teleport lets you leverage the lane-advantage shape of this matchup into the rest of the map once the Vessel loop snowballs; Flash covers the gap-close or the escape if her E (Skip 'n Slash) attack-speed window catches you overextended. Exhaust+Flash (45.5% WR) is the safer alt if you want a hard answer to her on-hit burst instead."
+  },
+  "playing": [
+   {
+    "title": "Extract spirit before engaging",
+    "detail": "Open with E (Test of Spirit, 900 range, CD 16-12s) before you close distance, so the echo captures trade damage even if she later denies your melee follow-up with Hallowed Mist."
+   },
+   {
+    "title": "Leap the instant E lands",
+    "detail": "Follow immediately with W (Harsh Lesson, 4s CD, 400 range) onto Gwen or the spirit — it pulls nearby Tentacles into the swing and starts the Vessel clock before she can disengage."
+   },
+   {
+    "title": "Fight near impassible terrain",
+    "detail": "Your passive Tentacles only spawn on nearby impassible terrain, so position skirmishes toward walls or jungle edges where Q (Tentacle Smash, CD 10-6s, 850 range) and passive swings actually connect."
+   },
+   {
+    "title": "Respect her true damage stacks",
+    "detail": "Gwen's Q (Snip Snip!, CD 6.5-3.5s) deals true damage to the center target on every snip and builds A Thousand Cuts — don't facetank a long extended trade at low HP where that bonus magic damage spikes."
+   },
+   {
+    "title": "Bait Hallowed Mist early",
+    "detail": "Poke with E from max range to force her to pop W (Hallowed Mist, CD 22-18s) defensively; once it's down, your full E-W-Q combo goes through clean."
+   },
+   {
+    "title": "Track her E dash window",
+    "detail": "Gwen's E (Skip 'n Slash, CD 13-11s, 400 range) grants attack speed, range, and on-hit magic damage for a few seconds after the dash — if she just used it, don't trade autos, land your own W leap first."
+   },
+   {
+    "title": "Hold R for grouped moments",
+    "detail": "R (Leap of Faith, CD 120-70s, 450 range) spawns a Tentacle per champion hit, so it's wasted 1v1 early at a 120s cooldown — save it for all-ins or skirmishes where it hits multiple targets."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures above are measured from live games on the current patch (16.20.1) via OP.GG; the mechanical reasoning, timing windows, and trade sequencing are my own analysis built on top of that data."
+ },
+ "generatedAt": 1791400389598,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791400245796,
+  "overall": {
+   "winRate": 49.5,
+   "play": 1740,
+   "tier": 4
+  },
+  "headToHead": null,
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 40
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.5,
+    "play": 11,
+    "pickRate": 36.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 13.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 36.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 16.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 45.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 29
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 70
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 26.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Maw of Malmortius",
+     "Black Cleaver",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Spirit Visage",
+     "Black Cleaver",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 4.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Spirit Visage"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 51.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 51.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 45.2
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 35.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 77.8,
+    "play": 9,
+    "pickRate": 29
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 25,
+    "play": 4
+   }
+  ]
+ }
+}

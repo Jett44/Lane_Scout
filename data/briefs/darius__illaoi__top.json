@@ -1,0 +1,389 @@
+{
+ "you": "Darius",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Illaoi gets uncontested E-Q trades before level 6; you win if you survive to Guillotine range and she's missed her power spikes."
+  },
+  "thesis": "Illaoi's Test of Spirit (E, cooldown 16-12s) forces a spirit-echo trade onto Darius every single time it's off cooldown, and with only 32 games sampled Darius sits at 46.9% versus her 49.7% baseline — this is a lane where her disengage-proof poke outpaces your stack-and-burst plan unless you control the wave. Her Harsh Lesson (W) leap plus nearby Tentacle swings punishes you for standing in melee range to farm your own Hemorrhage stacks, which is the exact tension OP.GG flags.",
+  "tell": {
+   "watch": "Illaoi's E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "E (Test of Spirit) is up and you're in range",
+    "what": "She rips your spirit out for free poke damage with no retaliation window; back off minions or trade autos into her instead of standing still to eat it."
+   },
+   "yourWindow": {
+    "when": "Her E is down and you have 3+ Hemorrhage stacks on her",
+    "what": "This is your trade window — W (Crippling Strike) into autos to stack bleed, then all-in with E (Apprehend) to pull her in if she tries to walk off."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a cooldown advantage yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Test of Spirit) online, outpokes your melee trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Her R (Leap of Faith) threatens kill, your R still weak"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Guillotine ramps, stacks start closing the gap"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Full Hemorrhage burst outscales her tentacle damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "89.4% pick rate and the highest-sampled start (45.2% WR over 42 games) — the extra sustain from the lifesteal passive offsets the chip damage from her tentacles and E poke while you look for stack windows."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "75.6% pick rate and the measured-better option (38.2% WR vs Swiftness's small sample) — the auto-attack damage reduction directly dulls her Harsh Lesson leap-ins and tentacle procs."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "100% WR over the small 2-game sample and gives the slow-on-hit to stick to her before she can disengage and reset tentacle spawns"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Appears in every core path listed — the health and move speed let you close distance and survive her W leap-in burst"
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Pairs with Stridebreaker in the 100% WR path and the shield keeps you alive through her E echo plus tentacle damage during your all-in"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "she's building into burst damage via her Q tentacle smashes and you need to survive the echo-into-engage combo"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you're ahead on stacks and need the active haste to force a Guillotine reset chain"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need ability haste to shorten Guillotine's cooldown for repeated all-ins"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 47.4%-pick, highest-sample page — Conqueror's stacking adaptive force rewards the extended melee trades you're forced into against her tanky Vessel-based sustain, and the healing at max stacks offsets her tentacle poke.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost is the dominant pick at 72.9% pick rate and the best measured result (45.7% WR) — Ghost lets you stick through her E-induced kiting and close the gap before her Leap of Faith zones you off, which Ignite's upfront damage can't replicate here."
+  },
+  "playing": [
+   {
+    "title": "Bait autos behind minions",
+    "detail": "OP.GG's own read holds: stay behind your minions and poke with autos to build Hemorrhage stacks without walking into her Test of Spirit range."
+   },
+   {
+    "title": "Track her E cooldown out loud",
+    "detail": "16s at rank 1 down to 12s at rank 5 — if it's down, she has no answer to a straight auto-trade; if it's up, disengage rather than eating free poke."
+   },
+   {
+    "title": "Never fight into max-stack Vessel",
+    "detail": "If she E's a minion or you and lets it die, tentacles spawn nearby — back off the bush/wall zones where Vessels can proc extra tentacle hits."
+   },
+   {
+    "title": "Save E (Apprehend) for her disengage",
+    "detail": "Her only way out of your Guillotine range is walking or Flash — hook her with Apprehend's pull the moment she tries to kite, since the passive armor shred also helps your true damage land harder."
+   },
+   {
+    "title": "Don't all-in before 2-3 stacks",
+    "detail": "Guillotine's true damage scales with Hemorrhage stacks on the target — a 0-stack R is a wasted cooldown (120/100/80s early) that she can punish with her own W leap."
+   },
+   {
+    "title": "Freeze the wave levels 3-5",
+    "detail": "This is her strongest poke window with E online and your R still on a long cooldown — a frozen wave near your tower limits how often she can safely E you."
+   },
+   {
+    "title": "Look for all-ins after level 9",
+    "detail": "Guillotine's cooldown drops to 6s at rank 3, letting you reset kills — once you're stacking consistently, start initiating instead of waiting for her to make a mistake."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch (16.20.1); the tactical reasoning connecting them to specific cooldowns and ability interactions is my own read, not sourced data. Note master-tier Darius players favor Stormraider's Surge (Sorcery) over Conqueror in 671 games — better suited to a more mobile, poke-trading playstyle if you prefer dueling through disengages rather than sustained melee trades."
+ },
+ "generatedAt": 1791398740438,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791398695600,
+  "overall": {
+   "winRate": 49.7,
+   "play": 4099,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 32,
+   "wins": 15,
+   "winRate": 46.9
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Illaoi’s (E) when fighting her. Try to get your passive stacks up by dealing damage while staying behind minions.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 45.7,
+    "play": 35,
+    "pickRate": 72.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 25
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 2.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 39.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 28.6,
+    "play": 7,
+    "pickRate": 14.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.2,
+    "play": 42,
+    "pickRate": 89.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 10.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 38.2,
+    "play": 34,
+    "pickRate": 75.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 13.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 7.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 33.3,
+    "play": 21,
+    "pickRate": 43.8
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 39.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 39.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 35.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 20.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.6,
+    "play": 9
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 671
+  }
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "you": "Illaoi",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You lose if you let Renekton dump his full stun combo on you for free before level 6; you win if you trade through his cooldowns and scale past his all-in window."
+  },
+  "thesis": "Illaoi wins this lane 60.4% of the time over 53 games because Renekton's entire early threat is tied to a 300-range W (Ruthless Predator) on a 16/14/12/10/8s cooldown — when it's down, he has no stun and no way to stop E (Test of Spirit) from shredding his spirit. The matchup flips hard at level 6, where Renekton's Fury engine and R (Dominus) let him force fights you can't dodge, so your entire job before then is denying free W punishes while banking spirit damage.",
+  "tell": {
+   "watch": "Renekton's Fury bar and W cooldown",
+   "theirWindow": {
+    "when": "W (Ruthless Predator) off cooldown, Fury above 50",
+    "what": "He can land a 3-hit stun that shreds shields and deals high physical damage, then follow with empowered Q (Cull the Meek) to heal off the trade. Back off to 400+ range and don't let him walk up for the first hit."
+   },
+   "yourWindow": {
+    "when": "His W just went on cooldown (he used it to engage or farm)",
+    "what": "Walk in and E (Test of Spirit, 900 range) immediately — he has no stun to punish you with for up to 16 seconds, and the spirit echoes damage back at him even if he flashes away. Follow with W (Harsh Lesson) to leap in and trigger Tentacle swings on the spirit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither W nor E (yours) online yet, trade with autos only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E is up, his W still single-hit, punish cooldowns hard"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Dominus online, Fury stacks faster, his all-in wins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Black Cleaver/Iceborn coming online evens trades back"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sterak's Gage plus Tentacle scaling outlasts his Fury burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "65.9% win rate over 44 games — the lifesteal from autos matters because every E punish window is an auto-attack trade, not a spell trade."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "76.9% is the raw number on Mercury's Treads but Steelcaps carry the sample (56.4% over 55 games) — the flat damage reduction blunts his triple-slash W and his empowered autos during Fury spikes."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "42% of games build this first in the 76.2%-winrate path — the armor shred compounds with Tentacle hits and lets your autos keep pace with his sustain."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Second item in the dominant path — the slow from the proc keeps him inside E range after he tries to dash out with E (Slice and Dice)."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Third item across all three listed paths — the shield and tenacity directly counter his level-6-plus all-in where he's trying to lock you down with Dominus-empowered W."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he's building into true damage or you need more sustain against his Q healing"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's stacking lifesteal or healing off Q (Cull the Meek) too consistently"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early grievous wounds answer to his Q sustain before Thornmail is ready"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "44.8% pick rate and the safer of the two pages — Grasp's proc-and-heal rewards the slow auto trades you're forced into when his W is down, and the extra max HP blunts his burst once Dominus comes online.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 65.7% of games and posts the best win rate (59.1%) — Teleport lets you reset after even trades and still make it back for the level-6 window where you need to not be caught out of position."
+  },
+  "playing": [
+   {
+    "title": "Hold E until his W is down",
+    "detail": "Test of Spirit has a 16/15/14/13/12s cooldown and 900 range — use it the instant his Ruthless Predator goes on cooldown so he can't stun you out of the channel."
+   },
+   {
+    "title": "Don't walk up when Fury is above 50",
+    "detail": "His Q and W both get bonus damage and extra effects past 50 Fury, including a third slash on W that strips shields — bait the swing from max auto range instead."
+   },
+   {
+    "title": "Leap with W only after E lands",
+    "detail": "Harsh Lesson's 400-range leap triggers nearby Tentacles to swing at the same target as your E spirit, stacking damage he has no way to interrupt without his own stun up."
+   },
+   {
+    "title": "Respect level 6 as a full stop",
+    "detail": "Dominus grants bonus health and periodic Fury generation — do not initiate trades here unless your Tentacles are already active from a prior E or Q."
+   },
+   {
+    "title": "Track his E (Slice and Dice) for disengage",
+    "detail": "The 16/14.5/13/11.5/10s dash lets him reset neutral after a bad trade — if you've already applied E's spirit mark, the echo damage still ticks even if he dashes away."
+   },
+   {
+    "title": "Prioritize Black Cleaver into Iceborn for lane",
+    "detail": "The armor shred and slow both answer his post-6 burst directly, and this order wins 76.2% in the measured sample versus reversing it."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner spells here are pulled directly from measured OP.GG games on the current patch (16.20.1); the win-condition reasoning and timing calls are my own read of the ability kits, not sourced from OP.GG's tips beyond the one quoted."
+ },
+ "generatedAt": 1791400000860,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791399963937,
+  "overall": {
+   "winRate": 49.5,
+   "play": 1740,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 53,
+   "wins": 32,
+   "winRate": 60.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Rather than engaging in first, use your [E] when he uses his (E) to brawl. Even if Renekton deals his full combo and falls back with (E), deal damage to his spirit from [E] to fight back. However, Renekton has the upper hand after reaching level 6 and without proper items, so we advise not overreaching until then.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 59.1,
+    "play": 44,
+    "pickRate": 65.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 17.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 44.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 31.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 65.9,
+    "play": 44,
+    "pickRate": 62.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 21.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 56.4,
+    "play": 55,
+    "pickRate": 79.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 76.9,
+    "play": 13,
+    "pickRate": 18.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 76.2,
+    "play": 21,
+    "pickRate": 42
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 8
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 67.9,
+    "play": 56,
+    "pickRate": 81.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 66,
+    "play": 53,
+    "pickRate": 76.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 73,
+    "play": 37,
+    "pickRate": 53.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 27.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 30,
+    "play": 10,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 11.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.8,
+    "play": 13
+   }
+  ]
+ }
+}
