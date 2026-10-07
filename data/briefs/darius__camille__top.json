@@ -1,0 +1,380 @@
+{
+ "you": "Darius",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let fights drag past her Q recast and R anchor; you win if you pull her in with E before she's near a wall."
+  },
+  "thesis": "Darius wins this lane by forcing stand-still trades before Camille's kit is complete — her all-in power spikes once Tactical Sweep (W) hits max rank and The Hextech Ultimatum (R) comes online at 6, but until then she has no reliable way to escape your E (Apprehend) pull. Across 2,841 games Darius sits at 50.9% with both the lane and solo-kill edge, so this is a close fight you're favored to win if you dictate when it starts.",
+  "tell": {
+   "watch": "Her Hookshot (E) cooldown",
+   "theirWindow": {
+    "when": "Hookshot (E) up and she's near a wall",
+    "what": "She can leap to the wall and knock you up on landing, opening the fight on her terms. Back off the wall-adjacent side of the lane until her E is down."
+   },
+   "yourWindow": {
+    "when": "Hookshot (E) down or she's wall-less",
+    "what": "She has no gap-closer or disengage. Land Q (Decimate) to catch her at range, then fire E (Apprehend) to pull her in and stack Hemorrhage before she can reset the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither kit is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q-E all-in beats her incomplete combo"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Her R and your R both come online"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Youmuu's spike outpaces her item timing"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Her full combo closes the gap"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 50.9% win rate pick (81.5% pick rate) — the extra sustain and AD win the early stand-still trades this lane is built around."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49% win rate, 75% pick — Camille leans on auto-attacks (Precision Protocol empowered hits, Adaptive Defenses) so flat damage reduction blunts her poke more than the tenacity on Mercury's Treads."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active's cooldown reset lets you reinitiate a second Q-E all-in in the same fight, matching the top build path's 62.3% win rate over 318 games."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "The move speed stacking closes the gap before she can kite with Precision Protocol's bonus speed."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the highest win-rate path (62.3%, 15.9% pick) — the bleed-out damage conversion keeps you alive through her W (Tactical Sweep) poke while you finish the trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "she's building burst (Precision Protocol empowered recast, R magic damage) and you need to survive a dive"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team adds magic damage on top of Camille's R bonus magic damage"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need to catch her before she reaches a wall for Hookshot (E)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Her Adaptive Defenses shield only triggers off her own autos landing on you — it does nothing to blunt the stacking Conqueror healing you build from repeatedly hitting her during the extended trades this matchup is fought in.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "50.6% win rate over 27% of games — Ignite converts your measured solo-kill advantage into secured early kills once you land the E pull, rather than letting her play for a slow disengage."
+  },
+  "playing": [
+   {
+    "title": "Pull before she reaches a wall",
+    "detail": "Fire E (Apprehend) the moment she walks into its 535 range if her Hookshot (E) is still on cooldown. Once she's pulled in, she has no tool left to disengage the fight."
+   },
+   {
+    "title": "Hit the blade edge of Q, not the handle",
+    "detail": "Decimate deals more damage to enemies struck by the blade than the handle — center your swing so Camille is on the outer edge, not standing on top of you, to maximize both damage and the heal."
+   },
+   {
+    "title": "All-in before level 6",
+    "detail": "At levels 3-5 you have Q-W-E online while her kit is still incomplete. Force fights here rather than waiting, since her Hextech Ultimatum (R) and max-rank Tactical Sweep (W) close the gap once she hits 6 and 9."
+   },
+   {
+    "title": "Respect her Q recast timer",
+    "detail": "Precision Protocol's empowered recast hits much harder if she delays between the two attacks. If she lands the first empowered auto and backs off instead of immediately re-attacking, expect a bigger second hit — don't stand still through it."
+   },
+   {
+    "title": "Finish with true damage, not a guess",
+    "detail": "Noxian Guillotine's damage scales with her Hemorrhage stack count, so wait until she's near 5 stacks before committing your R — the true damage ignores any shield from her passive."
+   },
+   {
+    "title": "Reset fights with Youmuu's active",
+    "detail": "The cooldown refund lets you disengage and immediately threaten a second E-Q combo in the same skirmish, which is what lets Darius's mid-game item spike outpace her own power curve."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates above come from measured OP.GG games on the current patch; the mechanical reasoning for why each choice works in this matchup is my own read of the kits."
+ },
+ "generatedAt": 1791344572820,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791344490294,
+  "overall": {
+   "winRate": 49.5,
+   "play": 152939,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2841,
+   "wins": 1445,
+   "winRate": 50.9
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": "Try to hit Camille at the edge of [Q] when dealing damage. Maintain your passive stacks and fight her whenever she steps in range and interrupt her (E) with your [E].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50.5,
+    "play": 2188,
+    "pickRate": 66.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.6,
+    "play": 891,
+    "pickRate": 27
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.9,
+    "play": 191,
+    "pickRate": 5.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.4,
+    "play": 804,
+    "pickRate": 23.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.5,
+    "play": 782,
+    "pickRate": 23.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.9,
+    "play": 2723,
+    "pickRate": 81.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 527,
+    "pickRate": 15.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49,
+    "play": 2437,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.2,
+    "play": 475,
+    "pickRate": 14.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 62.3,
+    "play": 318,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 155,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 58.3,
+    "play": 151,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.8,
+    "play": 1722,
+    "pickRate": 52.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 52.2,
+    "play": 1592,
+    "pickRate": 48.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.9,
+    "play": 1235,
+    "pickRate": 37.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.9,
+    "play": 1123,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 48.2,
+    "play": 1117,
+    "pickRate": 34.2
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 52.4,
+    "play": 674,
+    "pickRate": 20.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57,
+    "play": 744
+   }
+  ]
+ }
+}

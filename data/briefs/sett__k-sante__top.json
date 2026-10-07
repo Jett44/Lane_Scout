@@ -1,0 +1,384 @@
+{
+ "you": "Sett",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, early deficit",
+   "line": "You're down in early trades and solo-kill threat through level 5, but claw back to even by mid-game once Black Cleaver and Knuckle Down's max-HP scaling come online."
+  },
+  "thesis": "Sett's Q (Knuckle Down) scales its bonus damage off the target's max health, which makes him an efficient duelist into a high-HP bruiser like K'Sante — but K'Sante's 3.5s-cooldown Q (Ntofo Strikes) poke, W (Path Maker) stun, and E (Footwork) dash-shield let him trade safely from range while Sett has to walk in. The matchup hinges on E (Facebreaker): it only stuns when K'Sante is pulled from opposite sides, so in a clean 1v1 it's just a slow, not the lockdown Sett players expect. That gap closes once Sett's build and percent-HP damage scale up, matching the measured 49.7% even overall win rate despite K'Sante's early and solo-kill edge.",
+  "tell": {
+   "watch": "K'Sante's Ntofo Strikes stack count",
+   "theirWindow": {
+    "when": "K'Sante reaches 2 Q stacks nearby",
+    "what": "His next hit fires a shockwave that pulls you in, opening a free follow-up auto plus W (Path Maker) stun or E (Footwork) dash. Back off instead of standing in his short-line poke range once he's one hit from 2 stacks."
+   },
+   "yourWindow": {
+    "when": "K'Sante commits his W (Path Maker) charge-up",
+    "what": "The charge takes reduced damage but he's still rooted in place during it. Walk your empowered Q (Knuckle Down) autos into him, or pop W (Haymaker) once Grit is built — the true-damage center hit still connects through his damage reduction."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke chips you safely at range"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W stun and E shield widen his lead"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates online, all-ins trade evenly"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Black Cleaver/Stridebreaker snowball %HP damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "All Out and defensive items re-level fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "81.7% pick rate and the sustain to out-heal his Q poke chip while you wait for Grit to build on W."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.6% win rate over 1283 games — cuts down the autoattack and Q-poke damage he leans on all lane."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "64.2% win rate on this path; the armor shred matters since K'Sante stacks defenses via W and E."
+    },
+    {
+     "item": "Stridebreaker",
+     "why": "Gives you the gap-close and slow to actually land E (Facebreaker) and R (Show Stopper) on a mobile target."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Max-HP damage and sustain that scales with the extended, grindy trades this matchup produces."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he is building toward all-in burst with R (All Out) and you need anti-burst health plus tenacity"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he stacks pure armor and you need current-HP damage to keep cutting through his effective health"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you want faster Q (Knuckle Down) and E (Facebreaker) cooldowns to loop trades instead of all-or-nothing"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is a sustained-trade matchup against a high-HP target — Conqueror's stacking adaptive damage and healing at full stacks reward staying in extended fights rather than burst trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "83.1% pick rate, and the data flags K'Sante's solo-kill edge — Ignite punishes his E (Footwork) sustain and denies the heal from his R (All Out) if he commits to an all-in you survive."
+  },
+  "playing": [
+   {
+    "title": "Trade on Q (Knuckle Down) resets",
+    "detail": "Knuckle Down's bonus damage scales off the target's max HP, which punishes K'Sante's health pool directly. Look to land both empowered attacks on cooldown even while you're behind on raw trade damage early."
+   },
+   {
+    "title": "Don't swing W (Haymaker) empty",
+    "detail": "Haymaker expends all stored Grit on cast, so hold it until you've tanked a few Q pokes or he's fully committed to a trade. Using it with low Grit wastes the shield and shrinks the true-damage center hit."
+   },
+   {
+    "title": "Know E (Facebreaker) only slows alone",
+    "detail": "Facebreaker stuns only when enemies are pulled in from opposite sides — in a clean 1v1 it's just a slow. Don't plan an all-in around a stun unless your jungler or a second body is on his far side."
+   },
+   {
+    "title": "Respect Q stacks before point blank",
+    "detail": "Once K'Sante hits 2 stacks of Ntofo Strikes, his next hit fires a pulling shockwave that drags you into range for his passive-marked auto and W (Path Maker). Back off instead of standing in his short-line poke near 2 stacks."
+   },
+   {
+    "title": "Punish empty E (Footwork)",
+    "detail": "Footwork is his escape dash-plus-shield on a 10-8s cooldown. If he burns it just to reposition without landing damage, commit your Q (Knuckle Down) and autos before it's back up."
+   },
+   {
+    "title": "Bait W (Path Maker) charge",
+    "detail": "The charge-up takes reduced damage but still roots him in place. Use that window to land empowered autos or walk Haymaker's true-damage center hit in, since it bypasses the damage reduction."
+   },
+   {
+    "title": "All-in after his R (All Out) whiffs",
+    "detail": "All Out's opening knockback has to connect to start the transformation. If he misses it, chain your own R (Show Stopper) immediately — his defenses only drop once he's actually committed."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners, and all win-rate/sample-size numbers above come from measured OP.GG games on the current patch; the ability breakdowns, timings, and trade-pattern reasoning are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791346242484,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791346138727,
+  "overall": {
+   "winRate": 50.4,
+   "play": 140376,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2138,
+   "wins": 1063,
+   "winRate": 49.7
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.5,
+    "play": 2077,
+    "pickRate": 83.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49,
+    "play": 345,
+    "pickRate": 13.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47.9,
+    "play": 48,
+    "pickRate": 1.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.4,
+    "play": 808,
+    "pickRate": 31.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.1,
+    "play": 436,
+    "pickRate": 17
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.7,
+    "play": 2049,
+    "pickRate": 81.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 357,
+    "pickRate": 14.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.6,
+    "play": 1283,
+    "pickRate": 58.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.4,
+    "play": 485,
+    "pickRate": 22
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Stridebreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 64.2,
+    "play": 288,
+    "pickRate": 25.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 61.1,
+    "play": 283,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Stridebreaker",
+     "Sterak's Gage"
+    ],
+    "winRate": 64.2,
+    "play": 67,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 53.6,
+    "play": 1997,
+    "pickRate": 81.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.5,
+    "play": 1766,
+    "pickRate": 71.7
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 57.9,
+    "play": 1081,
+    "pickRate": 43.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58.7,
+    "play": 404,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 48.1,
+    "play": 264,
+    "pickRate": 10.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 59.6,
+    "play": 136,
+    "pickRate": 5.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 56.6,
+    "play": 489
+   }
+  ]
+ }
+}

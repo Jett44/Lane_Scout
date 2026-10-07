@@ -1,0 +1,380 @@
+{
+ "you": "Camille",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if Mordekaiser pulls you into an extended trade; you win if you burst off auto-shields and reset before his passive stacks."
+  },
+  "thesis": "Camille wants short, decisive exchanges off her passive shield and Q burst, but Mordekaiser's kit is built to punish exactly that: his E (Death's Grasp) drags her into range, and three landed hits flip on his passive Darkness Rise aura while his W (Indestructible) banks damage into a heal. The head-to-head (49.9% over 1941 games) and the lane/solo-kill edge both sitting with Mordekaiser confirm this is a lane you win by dictating tempo, not by slugging it out.",
+  "tell": {
+   "watch": "Morde's E cooldown",
+   "theirWindow": {
+    "when": "After he lands E (Death's Grasp)",
+    "what": "Once you're pulled into his range he'll chain Q (Obliterate) and bank damage into W (Indestructible); disengage immediately rather than trading through it, since every extra hit he lands builds toward his 3-hit passive aura."
+   },
+   "yourWindow": {
+    "when": "Right after your auto lands (shield up)",
+    "what": "Adaptive Defenses just gave you a magic-damage shield — this is the window OP.GG flags to trade one-sidedly. Fire Q (Precision Protocol) and commit the trade now, then reset instead of staying in extended melee."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither combo (Q+E vs Q+W/E) is fully online"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E pull into stacking passive punishes extended trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "W shield-to-heal outlasts your short trade windows"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Trinity Force + Hydra burst closes the gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "mobility and R picks outweigh his lane sustain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured at 50.5% over 1571 games (68% pick) — the sustain and auto-attack damage support the short-trade, auto-then-reset pattern this lane demands."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "50.9% over 1318 games (66.7% pick); the magic resist directly offsets Mordekaiser's magic damage and his Darkness Rise aura ticks."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the highest-winrate path (53.2% over 333 games); the burst and move speed are what let you win the Q-then-reset trade instead of getting dragged into his sustain window."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Second item on the same 53.2% path; adds sustained damage and healing to close out skirmishes once his passive stacking becomes a real threat."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Caps the 30.6%-picked core path; damage-over-time mitigation blunts his Obliterate (Q) poke and keeps you alive through his W-fueled sustain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Maw of Malmortius",
+     "when": "mordekaiser's magic burst is outpacing your effective health"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you need more sustained ability-haste damage against a tankier build"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're getting bursted down in skirmishes and need a health buffer"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page measures 51.1% (24.5% pick), the higher of the two recorded pages — the sustained health from proccing Grasp on trades directly counters a lane where you're expected to be on the back foot.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the most-picked combo (67.7%) and the highest-winrate (49.1%) in this matchup; Ignite punishes his W-fueled healing on any trade you win. Flash+Teleport (48.5%, 17.5% pick) is the next-best swap if you'd rather prioritize safety and wave management in a lane you're expected to lose tempo in."
+  },
+  "playing": [
+   {
+    "title": "Track his E before you engage",
+    "detail": "Death's Grasp is on a 16/14/12/10/8s cooldown and pulls everything in its area — if it's up, don't walk into its 700 range, since getting pulled hands him the extended fight he wants."
+   },
+   {
+    "title": "Trade on autos, not marathons",
+    "detail": "Use the Adaptive Defenses shield right after an auto lands to fire Q (Precision Protocol) and commit, then disengage instead of staying in prolonged melee where his W sustain and passive aura take over."
+   },
+   {
+    "title": "Pre-plan Hookshot around walls",
+    "detail": "E (Hookshot, 800 range) only works off a wall — know where your engage/escape walls are before you commit a trade, since you can't reset range without one."
+   },
+   {
+    "title": "Save the Q recast for isolated hits",
+    "detail": "Precision Protocol's delayed recast does significantly more damage, but only use it when you can safely wait out the window — not as a reflex poke into his 675-range Obliterate."
+   },
+   {
+    "title": "Disengage once his passive is lit",
+    "detail": "Darkness Rise needs three landed hits to turn on; if he's stacked it mid-trade, back off instead of continuing, since the damage math flips in his favor."
+   },
+   {
+    "title": "Rush Trinity Force every game",
+    "detail": "It's the first item on the highest-winrate build path (53.2%) and the spike that finally lets you win trades outright around levels 11-15."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live OP.GG games on the current patch; the mechanical reasoning (trade timing, passive stacking, engage patterns) is this brief's own tactical read, not sourced data."
+ },
+ "generatedAt": 1791344676261,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791344579623,
+  "overall": {
+   "winRate": 50.7,
+   "play": 101301,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 1941,
+   "wins": 968,
+   "winRate": 49.9
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being pulled by Mordekaiser’s (E)! Try to deal damage one-sidedly when Camille’s shield [P] is active!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 1561,
+    "pickRate": 67.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.5,
+    "play": 404,
+    "pickRate": 17.5
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 294,
+    "pickRate": 12.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.1,
+    "play": 577,
+    "pickRate": 24.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47,
+    "play": 236,
+    "pickRate": 10
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 1571,
+    "pickRate": 68
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 555,
+    "pickRate": 24
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.9,
+    "play": 1318,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.1,
+    "play": 449,
+    "pickRate": 22.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 53.2,
+    "play": 333,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 54.3,
+    "play": 243,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 52.1,
+    "play": 165,
+    "pickRate": 15.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.1,
+    "play": 2239,
+    "pickRate": 98.7
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 52.8,
+    "play": 1790,
+    "pickRate": 78.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.7,
+    "play": 486,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.4,
+    "play": 309,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 59.5,
+    "play": 259,
+    "pickRate": 11.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.3,
+    "play": 254,
+    "pickRate": 11.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.1,
+    "play": 790
+   }
+  ]
+ }
+}

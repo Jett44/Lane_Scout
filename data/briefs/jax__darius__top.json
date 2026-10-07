@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You win if you dodge Apprehend's pull and punish Decimate's cooldown with empowered trades; you lose if you let Hemorrhage reach five stacks and eat a Noxian Guillotine while Counter Strike is down."
+  },
+  "thesis": "This matchup lives and dies on Darius's Hemorrhage stacks — at five stacks he enrages for massive bonus Attack Damage and his Noxian Guillotine deals true damage scaled by those stacks, so every trade is really a fight over whether he gets to stack you up or you get out clean. The data backs a genuine coinflip (50.1% Jax win rate over 3495 games), with Jax holding the lane and solo-kill edge, so the matchup rewards whoever plays the stack-denial game correctly rather than favoring either champion structurally.",
+  "tell": {
+   "watch": "Darius's Hemorrhage stack count",
+   "theirWindow": {
+    "when": "Darius activates Apprehend (E) to pull you",
+    "what": "He is spending his E cooldown (26/23.5/21/18.5/16s) to lock you into range and start or extend Hemorrhage stacks with autos and Decimate's blade edge — this pull is his all-in commitment, not a free poke."
+   },
+   "yourWindow": {
+    "when": "The instant Apprehend lands on you",
+    "what": "Immediately channel Counter Strike (E) — its stance dodges his follow-up basic attacks and taking less area damage, and the stun on readout gives you a free empowered hit before you leap away with Leap Strike (Q), exactly as OP.GG's tip describes."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Leap Strike plus Empower punishes before his E unlocks"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Apprehend online, Hemorrhage stacking accelerates"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates live, respect his execute threshold"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "Trinity Force spike and shorter Counter Strike cooldown"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Full item power and maxed Empower outscale him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 68.8% pick rate and 49.7% win rate over 2974 games back it as the standard start, giving the sustained damage needed to win extended auto trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "68.9% pick rate at 50.5% win rate — the flat damage reduction from his repeated autos and Decimate swings matters more than magic resist here."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The highest-performing build path (57.8% win rate, 436 games) starts here — it's the single biggest power spike in the matchup."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item in the same 57.8% win rate path, adding burst and sustain to back-and-forth trades."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Completes the top build path and gives a way to survive if he lands Noxian Guillotine while you're stacked."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "he is snowballing kills and his Noxian Guillotine cooldown keeps refreshing to 6 seconds"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "you need sustained dueling damage over a single burst spike"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "you need extra defensive stats to survive his all-in burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Ramping attack speed compounds with Relentless Assault's own attack-speed stacking, letting you win sustained trades instead of single burst exchanges.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick (83.4%) and highest win rate (50.3%) combo — Ignite punishes his Decimate sustain and secures the solo kills this matchup already favors you for."
+  },
+  "playing": [
+   {
+    "title": "Punish Decimate's cooldown",
+    "detail": "Decimate is 9/8/7/6/5s on cooldown. Once he winds it up and it's down, step in and trade freely since he has no immediate follow-up damage."
+   },
+   {
+    "title": "Deny stacks before they cap",
+    "detail": "Hemorrhage caps at 5 stacks and enrages him with massive bonus AD. Disengage trades before he reaches 4-5 stacks rather than fighting through to parity."
+   },
+   {
+    "title": "Counter Strike the Apprehend pull",
+    "detail": "The moment his E lands on you, channel Counter Strike to dodge his autos and stun him on readout, then leap out with Q."
+   },
+   {
+    "title": "Track his Apprehend cooldown",
+    "detail": "It's 26/23.5/21/18.5/16s. Once it's down you can freely contest minions and trade without fear of the pull."
+   },
+   {
+    "title": "Respect the level 6 all-in",
+    "detail": "Noxian Guillotine deals true damage scaled by your Hemorrhage stacks. Don't sit low on health once he hits 6, especially while stacked."
+   },
+   {
+    "title": "Rush Trinity Force",
+    "detail": "It's the first item in the best-performing build path (57.8% win rate) and the clearest power swing you get in this lane."
+   },
+   {
+    "title": "Close trades with Ignite",
+    "detail": "Ignite also counters the healing Decimate grants him from hitting champions with the blade edge, denying his sustain in all-ins."
+   }
+  ],
+  "patchCaveat": "Build, rune, summoner, and win-rate numbers are measured from live OP.GG games on the current patch; the mechanical reasoning and timing calls are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791345528095,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791345428649,
+  "overall": {
+   "winRate": 49.4,
+   "play": 138912,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 3495,
+   "wins": 1750,
+   "winRate": 50.1
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Use Counter Strike [E] when Darius uses Apprehend (E) to stun him and hit him before retreating with Leap Strike [Q]",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.3,
+    "play": 3567,
+    "pickRate": 83.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.1,
+    "play": 387,
+    "pickRate": 9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 49.3,
+    "play": 227,
+    "pickRate": 5.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 1745,
+    "pickRate": 39.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.4,
+    "play": 258,
+    "pickRate": 5.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 2974,
+    "pickRate": 68.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.2,
+    "play": 615,
+    "pickRate": 14.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.5,
+    "play": 2795,
+    "pickRate": 68.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.6,
+    "play": 688,
+    "pickRate": 17
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 57.8,
+    "play": 436,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 55.2,
+    "play": 163,
+    "pickRate": 6.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 57.8,
+    "play": 116,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.7,
+    "play": 3407,
+    "pickRate": 81.2
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 52.9,
+    "play": 1486,
+    "pickRate": 35.4
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 54.9,
+    "play": 1126,
+    "pickRate": 26.8
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 51.1,
+    "play": 910,
+    "pickRate": 21.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.5,
+    "play": 751,
+    "pickRate": 17.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 49.7,
+    "play": 698,
+    "pickRate": 16.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 54.4,
+    "play": 1782
+   }
+  ]
+ }
+}

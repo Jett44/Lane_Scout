@@ -1,0 +1,379 @@
+{
+ "you": "Jax",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose trades any time you fight Garen with your E (Counter Strike) on cooldown, but the lane turns once Trinity Force and a reliable E-into-stun are both online."
+  },
+  "thesis": "Garen's Q (Decisive Strike) empowers his next basic attack with bonus damage and a silence, but it is still a basic attack — your E (Counter Strike) dodges all incoming basic attacks, so timing E to eat that attack voids the entire trade and stuns him instead. The problem is cooldowns: his Q resets every 8 seconds while your E starts at 18 seconds (down to 10s at rank 5), so Garen can simply wait you out and re-engage the moment your E is down. That cooldown gap is the entire reason this is measured as a 45.5% matchup over 5,553 games despite Jax's 49.4% overall top-lane win rate.",
+  "tell": {
+   "watch": "Garen's Decisive Strike (Q) cooldown",
+   "theirWindow": {
+    "when": "His Q is up and your E is down",
+    "what": "He can silence an auto for bonus damage then weave in W (Courage) and E (Judgment) for free. Do not trade here — Leap Strike (Q) away or toward minions and let the wave absorb his spin damage."
+   },
+   "yourWindow": {
+    "when": "Your E is up and his Q is on cooldown",
+    "what": "This is the only clean window to initiate. Walk in, let him swing first, dodge with Counter Strike, land the stun, then dump W (Empower) and autos while he's locked down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Garen's silenced auto hits before your E exists"
+   },
+   {
+    "levels": "3-6",
+    "edge": "them",
+    "note": "Full Q-W-E combo online, your E still 14-16s"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Reliable stun timing starts canceling his all-ins"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Trinity Force proc out-trades his sustained spin damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest measured win rate start (45.5% over 3,938 games) — the extra AD and auto sustain helps you punish any auto he throws out before his Q is up."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "72% pick rate and the win-rate leader; flattens the repeated auto-attack and Judgment poke he weaves between cooldowns."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Best-performing core path (53.9% over 519 games); the proc damage and move speed is what finally lets you win extended trades."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Empower-triggered bonus health and healing lets you absorb his Judgment spin while you wait for your E to come back up."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Buys out his Demacian Justice execute threshold once his ult cooldown drops as low as 20s at rank 3."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he builds tanky and out-sustains your burst with his passive regen"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "he's ahead and you need to survive his follow-up all-in after a silence lands"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "you need extra survivability against his ramping execute threat late"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Scales bonus health, which stacks with Jax's own passive (bonus health from AD/AP items), and directly offsets Garen's Perseverance stall where he out-regens your poke if you can't apply pressure every wave.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest pick rate (66.3%) and win rate (45.4%) pairing. Since Garen's Perseverance heals him back up outside of fights, Ignite is what actually converts your rare E-stun window into a kill instead of a reset."
+  },
+  "playing": [
+   {
+    "title": "Save E for his Q",
+    "detail": "Hold Counter Strike until Garen commits Decisive Strike. Dodging the empowered auto denies the silence and bonus damage completely and stuns him for a free follow-up."
+   },
+   {
+    "title": "Don't fight on cooldown",
+    "detail": "If your E is down, the trade math flips hard in his favor. Disengage with Leap Strike (Q) back to minions instead of brawling."
+   },
+   {
+    "title": "Deny his passive sustain",
+    "detail": "Perseverance regenerates his health if he avoids damage recently. Poke with an auto or Empower right as he's about to tick to erase the heal."
+   },
+   {
+    "title": "Track Judgment's cooldown",
+    "detail": "Judgment drops from 13s to 9s by rank 5. Once it's rank 3 or higher, expect him to spin through minion waves to poke you even without full commitment."
+   },
+   {
+    "title": "Respect the silence timing",
+    "detail": "Decisive Strike's silence shuts off Empower and Counter Strike activation. Pre-activate E to intercept the attack, never react after it's already landed."
+   },
+   {
+    "title": "Play wave states before level 9",
+    "detail": "Lane and solo-kill both favor Garen early. Prioritize matching CS and setting up jungle ganks over contesting even trades solo."
+   },
+   {
+    "title": "Itemize for the mid-game spike",
+    "detail": "Rush Trinity Force. It's the single item that flips your trading pattern from losing to winning starting around level 11."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner spells above come from measured Jax vs. Garen games on the current patch via OP.GG; the cooldown readings, trade timings, and tactical reasoning are my own analysis of the live ability text, not OP.GG's."
+ },
+ "generatedAt": 1791345626143,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791345535055,
+  "overall": {
+   "winRate": 49.4,
+   "play": 138912,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 5553,
+   "wins": 2529,
+   "winRate": 45.5
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "defensive",
+  "opponentTip": "It is difficult to block Garen’s damage even if you managed to block his Decisive Strike (Q). Block Decisive Strike (W) with Counter Strike [E], stun him, and retreat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.4,
+    "play": 4420,
+    "pickRate": 66.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.9,
+    "play": 1436,
+    "pickRate": 21.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.2,
+    "play": 600,
+    "pickRate": 9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 2091,
+    "pickRate": 30.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.2,
+    "play": 798,
+    "pickRate": 11.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 3938,
+    "pickRate": 58.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.5,
+    "play": 1430,
+    "pickRate": 21.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.6,
+    "play": 4417,
+    "pickRate": 72
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.8,
+    "play": 894,
+    "pickRate": 14.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 53.9,
+    "play": 519,
+    "pickRate": 15.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 52,
+    "play": 198,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 52.9,
+    "play": 174,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 45.7,
+    "play": 5095,
+    "pickRate": 78.3
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 48,
+    "play": 2087,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 46.6,
+    "play": 1570,
+    "pickRate": 24.1
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 53.5,
+    "play": 1391,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 47.4,
+    "play": 1096,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.4,
+    "play": 1035,
+    "pickRate": 15.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 51.5,
+    "play": 2094
+   }
+  ]
+ }
+}

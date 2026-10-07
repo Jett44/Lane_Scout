@@ -1,0 +1,384 @@
+{
+ "you": "Sett",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you auto-attack into his Counter Strike or all-in blind before your cooldowns are up; you win if you punish his E's dodge window with Haymaker and force fights once Stridebreaker lands."
+  },
+  "thesis": "Jax's E (Counter Strike) only dodges basic attacks during its stance before stunning — it does not stop abilities — so Sett's auto-reliant Q trades get punished while his ability-based W and E punch straight through it. Both champions are almost entirely cooldown-gated melee bruisers (no mana, short dash/stun timers), so this matchup is decided by who tracks the other's cooldowns, not by stats: 49.2% Sett win rate over 2,773 games is functionally a coin flip.",
+  "tell": {
+   "watch": "Jax's E (Counter Strike) cooldown",
+   "theirWindow": {
+    "when": "Jax leaps in (Q) then pops Counter Strike",
+    "what": "Stop auto-attacking the instant he enters the stance — E dodges all basic attacks for its duration and then stuns surrounding enemies. Eating that stun while he's also mid-Leap Strike or Empower is how you lose the trade and the flash."
+   },
+   "yourWindow": {
+    "when": "Jax's E (Counter Strike) is on cooldown",
+    "what": "This is when you force the fight. All-in with Q (Knuckle Down) for the bonus max-health damage on his next two attacks, then follow with autos and E (Facebreaker) — he has no defensive answer to incoming damage until E resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both weak; Jax's Q (17s cd) is his only real threat"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W (Empower) drops to 5s cd, frequent empowered trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R threatens isolated all-ins, his R always active"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Q/W cooldowns shrink, Stridebreaker online, you force fights"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight scaling, both builds tanky and sustained"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Picked in 75.5% of games (48.2% WR, 2,653 games). The sustain and extra AD help you win the auto-attack exchanges you need before your Q and W cooldowns are low enough to fight on your terms."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked in 66.6% of games (48.3% WR, 2,192 games). Jax's entire damage profile — empowered Leap Strike, empowered autos, and his always-on R attack-speed stacking — is basic-attack-based, which is exactly what Steelcaps reduces."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The slow on-hit lets you actually catch Jax's Leap Strike resets instead of watching him kite the trade."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred keeps your Q's max-health damage and autos relevant as he builds health off his own passive."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "This full path (Stridebreaker > Black Cleaver > Overlord's Bloodmail) is the most-picked core at 28.6% pick rate and 55.9% WR over 521 games, converting your tankiness into sustained-fight damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's committing to extended all-ins and you need the shield/tenacity to not get kited down by his attack speed"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the trade pattern is coming down to who gets Q and E back first — the cooldown refund wins that race"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the lane is stable and you'd rather pressure sidelane/towers than keep forcing skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is a stack-up, extended-fight matchup where neither of you has a clean burst stun that ends the trade in one rotation — Conqueror rewards exactly that style of grinding trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Shield Bash",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 87.9% of games at the best winrate (48.9%). Ignite punishes the all-in/dive pattern this matchup lives on, since neither of you has reliable sustain to heal through it."
+  },
+  "playing": [
+   {
+    "title": "Bait Q-E, answer with W",
+    "detail": "When Jax leaps in and immediately pops Counter Strike expecting you to auto, cast W (Haymaker) instead — it's a punch ability, not a basic attack, so it isn't dodged and still lands the true damage center hit."
+   },
+   {
+    "title": "Never auto into his stance",
+    "detail": "If you see Jax enter Counter Strike mid-trade, stop attacking entirely. Waiting out the stance costs you nothing; attacking into it gets you stunned for free."
+   },
+   {
+    "title": "Don't assume E always stuns",
+    "detail": "Facebreaker only stuns enemies pulled from opposite sides of you. In a straight 1v1 lane, Jax is on one side only, so E will just slow him — use it to reposition or peel distance, not as a guaranteed stun combo starter."
+   },
+   {
+    "title": "Hold R for isolated picks",
+    "detail": "The Show Stopper is 120s at rank 1, dropping to 80s by rank 3-5 — too long to waste as poke. Save it for moments Jax is overextended away from minions, where the slam and landing slow actually end the fight."
+   },
+   {
+    "title": "Let Grit build before releasing W",
+    "detail": "Haymaker's shield size scales with stored Grit from damage taken. Absorbing a couple of his hits before casting W gets you a bigger shield and bigger true-damage hit than firing it on cooldown."
+   },
+   {
+    "title": "Force fights once Stridebreaker is up",
+    "detail": "Around levels 9-13 your Q and W cooldowns are low enough, and Stridebreaker's slow lets you stick to him through Leap Strike resets — this is your highest-leverage all-in window of the lane."
+   },
+   {
+    "title": "Track his E cooldown all lane",
+    "detail": "18s at rank 1 down to 10s at rank 5 — it's the one number that decides whether your engage is safe or walks into a stun."
+   }
+  ],
+  "patchCaveat": "The build path, boots, runes, and summoner spells above are pulled directly from measured Sett vs Jax games on the current patch via OP.GG (2,773 games, 49.2% Sett win rate). The cooldown timings and trade-pattern reasoning are my own tactical read, not sourced from that data."
+ },
+ "generatedAt": 1791345012380,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791344905557,
+  "overall": {
+   "winRate": 50.4,
+   "play": 140376,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2773,
+   "wins": 1365,
+   "winRate": 49.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use [W] when Jax uses (Q)-(E) to gain the upper hand. Fight him often before he has a chance to grow in order to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 3072,
+    "pickRate": 87.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.7,
+    "play": 246,
+    "pickRate": 7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 43.2,
+    "play": 118,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 997,
+    "pickRate": 27.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49,
+    "play": 414,
+    "pickRate": 11.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 2653,
+    "pickRate": 75.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.7,
+    "play": 591,
+    "pickRate": 16.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.3,
+    "play": 2192,
+    "pickRate": 66.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.6,
+    "play": 754,
+    "pickRate": 22.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 55.9,
+    "play": 521,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.3,
+    "play": 307,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 61.3,
+    "play": 119,
+    "pickRate": 6.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.1,
+    "play": 3235,
+    "pickRate": 93.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 52.8,
+    "play": 1947,
+    "pickRate": 56.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.1,
+    "play": 1435,
+    "pickRate": 41.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.3,
+    "play": 961,
+    "pickRate": 27.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 53.8,
+    "play": 420,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 53.8,
+    "play": 223,
+    "pickRate": 6.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.8,
+    "play": 1054
+   }
+  ]
+ }
+}

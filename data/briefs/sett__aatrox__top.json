@@ -1,0 +1,384 @@
+{
+ "you": "Sett",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly unfavoured",
+   "line": "You lose if you eat his full Q1-Q2-E combo standing still before level 6; you win if you bank Grit through it and punch back on his Q3 commitment."
+  },
+  "thesis": "Aatrox's threat is entirely front-loaded into his Q (The Darkin Blade) three-swing combo chained with E (Umbral Dash), which both hits you and heals him back through its passive — Sett has no dash to avoid any of it and must instead eat the hits on purpose to fuel W (Haymaker)'s stored Grit. The measured 48.9% win rate over 3,882 games and Aatrox's lane/solo-kill edge both trace back to this: he dictates every early exchange, and Sett's only counter-lever is turning his own punishment into a bigger shield-and-punch later in the same trade.",
+  "tell": {
+   "watch": "Aatrox's Q swing count",
+   "theirWindow": {
+    "when": "When he opens with Q1 or E",
+    "what": "Umbral Dash heals Aatrox on any champion damage it lands, so a Q1 into E dash both pokes you and refunds his HP — give ground wide rather than trading face-to-face through it, since you have no dash to punish the gap he just closed."
+   },
+   "yourWindow": {
+    "when": "When he commits to Q3",
+    "what": "His third swing is the deepest-committing part of the combo and the moment OP.GG's own data flags as the counter: pop W (Haymaker) right as he swings it. You'll have been banking Grit from the Q1/Q2 hits you just ate, so the shield covers the Q3 damage and your punch lands while he's still in the animation."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q range already pokes you for free"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "full Q-E chain online, you lack a stun"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates live, all-ins close"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stridebreaker/Cleaver burst beats his scaling"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his W-ult sustain matches your items"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 82.9% pick rate and 49.1% win rate reflect lane reality: you need the extra HP and sustain to survive tanking his Q hits on purpose, since that's how you fill Grit for W."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Aatrox's Q, autos, and empowered Deathbringer Stance passive are all physical — flat reduction on every hit in his combo matters more than the swiftness alternative here."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The slow-on-hit gives you a way to stick to or peel from a target you otherwise can't chase, since your only engage tool (E) only stuns if he's flanked."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shred stacks from your attacks cut into his effective HP faster, which matters because he's going to be topping himself off with E and passive healing all fight."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "This exact path hit 55.3% over 528 games — the bonus HP and damage amp let you win the extended trades his sustain is built to survive."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "his Deathbringer Stance and Umbral Dash healing is keeping him alive through your all-ins"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need to survive his R (World Ender) all-in without dying to the extended fear/AD/heal window"
+    },
+    {
+     "item": "Warmog's Armor",
+     "when": "the game goes long and you need raw HP to keep closing with Stridebreaker through his poke"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he's building tanky and you need the percent-health damage to keep trades even"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive damage and healing is the only way to match his built-in sustain across a drawn-out trade — you need the extended fight to be where you catch up, not where he pulls further ahead.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "93.1% of Setts run this into Aatrox for a reason: his kit heals him through every trade (passive, E), and Ignite is the direct answer that closes the solo-kill gap the data shows he otherwise has."
+  },
+  "playing": [
+   {
+    "title": "Trade only to fill Grit",
+    "detail": "W (Haymaker) passively stores the damage you take as Grit and expends it all on cast for a shield plus a punch. Don't dodge every Q — eating one or two on purpose before popping W is how you convert his offense into your burst."
+   },
+   {
+    "title": "Hold E for a flank, not a poke",
+    "detail": "Facebreaker only stuns if enemies are on opposite sides of you; against a single Aatrox standing on one side it's just a slow. Don't waste it as a knockup-check — save it for jungle ganks or wave positions where he's actually surrounded."
+   },
+   {
+    "title": "Respect the Q-E chain pre-6",
+    "detail": "Before level 6 you have no answer to him closing with E after a Q, since Umbral Dash heals him on hit. Give up the wave rather than trade through it if he's already landed Q1."
+   },
+   {
+    "title": "Punish his E cooldown",
+    "detail": "Umbral Dash is only 9/8/7/6/5s on cooldown but it's his only gap-closer and escape. If you see him dash in or out and whiff, that's your window to walk him down with Q (Knuckle Down) active for the move speed toward him."
+   },
+   {
+    "title": "Don't trade R into his R",
+    "detail": "Both ultimates share the same 120/100/80/80/80s cooldown curve. If he's already popped World Ender, your Show Stopper is far safer and more decisive than contesting him while he has the AD/heal/MS buff live."
+   },
+   {
+    "title": "Use Ignite as a sustain check",
+    "detail": "Since his kit's whole identity is healing back through Deathbringer Stance and E, burn Ignite the moment you commit to an all-in rather than saving it — it directly negates the thing that wins him close trades."
+   }
+  ],
+  "patchCaveat": "The win rates, build order, boots, runes, and summoner picks above are measured from live games on the current patch via OP.GG; the ability breakdowns, timing windows, and trade-pattern reasoning are my own read on why those numbers come out this way."
+ },
+ "generatedAt": 1791344483867,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791344408392,
+  "overall": {
+   "winRate": 50.4,
+   "play": 140376,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 3882,
+   "wins": 1898,
+   "winRate": 48.9
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit by Aatrox’s (Q)-(E) combo by managing your distance. If hit by his combo, use the timing of his third (Q) to hit him with [W] instead to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.6,
+    "play": 4415,
+    "pickRate": 93.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.2,
+    "play": 189,
+    "pickRate": 4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 52.4,
+    "play": 84,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 1606,
+    "pickRate": 33
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.7,
+    "play": 657,
+    "pickRate": 13.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 3949,
+    "pickRate": 82.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 660,
+    "pickRate": 13.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.6,
+    "play": 3124,
+    "pickRate": 71.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.7,
+    "play": 750,
+    "pickRate": 17.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 55.3,
+    "play": 528,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 56.6,
+    "play": 297,
+    "pickRate": 14
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Warmog's Armor"
+    ],
+    "winRate": 58.5,
+    "play": 118,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.4,
+    "play": 4325,
+    "pickRate": 92.6
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 55.2,
+    "play": 2386,
+    "pickRate": 51.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.7,
+    "play": 1641,
+    "pickRate": 35.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.5,
+    "play": 1002,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 47.3,
+    "play": 802,
+    "pickRate": 17.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 43.6,
+    "play": 468,
+    "pickRate": 10
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.6,
+    "play": 1254
+   }
+  ]
+ }
+}

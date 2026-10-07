@@ -1,0 +1,371 @@
+{
+ "you": "Jax",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose extended trades where Mordekaiser lands three hits for Darkness Rise before you can answer; you win short all-ins where Counter Strike (E) denies his autos and lands the stun first."
+  },
+  "thesis": "Mordekaiser's passive Darkness Rise only triggers after he lands 3 attacks or spells on you, and Jax's E (Counter Strike) dodges all incoming basic attacks for its duration before stunning and damaging surrounding enemies on expiry - so this lane is decided by whether Jax's E window lines up with Mordekaiser's attack-stacking windup. Over 2,497 games this sits at 50.8% for Jax, which matches the OP.GG even/even read: neither champion has a structural kill threat, it's a timing duel.",
+  "tell": {
+   "watch": "Mordekaiser's Darkness Rise stack count",
+   "theirWindow": {
+    "when": "Darkness Rise hits its 3rd stack",
+    "what": "He gains a damage aura and bonus move speed the instant it procs - disengage immediately rather than trying to out-trade it, since the move speed means Q (Leap Strike) won't cleanly create distance. Reset to minions or your turret and let the buff fall off before re-engaging."
+   },
+   "yourWindow": {
+    "when": "E (Counter Strike) is off cooldown and he's in auto range",
+    "what": "Walk up and bait an auto - the dodge window means his attack doesn't land toward Darkness Rise and you get a free stun plus damage on expiry. This is Jax's cleanest way to start an all-in without eating the first exchange."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Obliterate (Q) 675 range punishes before you commit"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Empower (W) combo and Counter Strike cd drop"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "attack speed scaling closes toward Trinity Force"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "full build wins extended duels outright"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest sample and pick rate (51.4% over 1,897 games, 60.9% pick) - the extra AD and sustain matter because you're going to be trading autos into a melee opponent whose Q rewards single-target hits."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "50.2% over 1,848 games and the dominant pick (64.8%) - Mordekaiser's damage is entirely magic, so the magic resist directly undercuts Obliterate and Death's Grasp."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Highest-winrate core path starts here (55.8% over 233 games) - the attack speed and burst proc scale directly with Relentless Assault's (R) every-third-hit bonus."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item in the top-performing path; its on-hit proc stacks with the same attack-speed-driven trade pattern you're already running."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Closes out the 55.8% winrate path and gives you a way to survive a bad Death's Grasp pull into his Q without dying before you can disengage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he's building toward tank stats or leaning on Indestructible's shield to stall fights, since % current health physical damage cuts through that sustain"
+    },
+    {
+     "item": "Wit's End",
+     "when": "the lane drags into repeated extended trades and you need more magic resist alongside the attack speed you're already stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page measures higher (50.5% over its sample) despite lower play rate, and it fits the structural read here: Mordekaiser's early Q poke rewards sustain through chip damage rather than racing to burst him down before you have items.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the most-run (77.5% pick) and winning (50.4%) combo in this matchup - Ignite punishes the all-in windows you create with Counter Strike. Teleport (46.5%, 13.5% pick) is the alternative if you're planning to win the lane through scaling and side-lane pressure instead of early kills."
+  },
+  "playing": [
+   {
+    "title": "Deny his passive with E timing",
+    "detail": "Save Counter Strike (E) for the moment he's about to land his 3rd attack or spell, not as a reactive panic button - dodging that hit resets his Darkness Rise progress entirely."
+   },
+   {
+    "title": "Retreat on passive proc, no exceptions",
+    "detail": "Once Darkness Rise activates, his damage aura and move speed win the continued trade and let him stick to you - disengage to a wave or your tower rather than trying to fight through it."
+   },
+   {
+    "title": "Respect the 700-range pull",
+    "detail": "Death's Grasp (E) doesn't stun but it does pull every enemy in its area, which sets up his full Q-auto combo. Don't sit at low HP inside that range even if you think you can walk away after."
+   },
+   {
+    "title": "Full combo trades only with E ready",
+    "detail": "Q (Leap Strike) into W (Empower) burst is fine for poke, but don't commit to a full all-in unless Counter Strike is off cooldown to answer his retaliation."
+   },
+   {
+    "title": "Punish after he consumes Indestructible",
+    "detail": "Once he pops his W (Indestructible) shield to heal, he has no damage mitigation up for its 8-12s cooldown - that's your window to force the next trade."
+   },
+   {
+    "title": "Play for the Trinity Force timing",
+    "detail": "This matchup swings in your favor once your attack speed scaling comes online around levels 7-11 - play patient short trades before then and start forcing extended duels after."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates above come from measured OP.GG games on the current patch; the mechanical and timing analysis is my own reading of the ability kits, not measured data."
+ },
+ "generatedAt": 1791345849695,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791345758153,
+  "overall": {
+   "winRate": 49.4,
+   "play": 138912,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2497,
+   "wins": 1268,
+   "winRate": 50.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by Death’s Grasp(E). Retreat if Mordekaiser’s passive ability activates.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.4,
+    "play": 2403,
+    "pickRate": 77.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.5,
+    "play": 417,
+    "pickRate": 13.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 51.7,
+    "play": 242,
+    "pickRate": 7.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.5,
+    "play": 1172,
+    "pickRate": 36.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.5,
+    "play": 220,
+    "pickRate": 6.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.4,
+    "play": 1897,
+    "pickRate": 60.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 438,
+    "pickRate": 14.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.2,
+    "play": 1848,
+    "pickRate": 64.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.4,
+    "play": 550,
+    "pickRate": 19.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 55.8,
+    "play": 233,
+    "pickRate": 13.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Wit's End"
+    ],
+    "winRate": 56.8,
+    "play": 81,
+    "pickRate": 4.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Wit's End"
+    ],
+    "winRate": 55.1,
+    "play": 78,
+    "pickRate": 4.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.1,
+    "play": 2342,
+    "pickRate": 76.7
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 53.9,
+    "play": 888,
+    "pickRate": 29.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 52.2,
+    "play": 876,
+    "pickRate": 28.7
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 55.5,
+    "play": 728,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 50.6,
+    "play": 646,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 51.4,
+    "play": 605,
+    "pickRate": 19.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 55.2,
+    "play": 1289
+   }
+  ]
+ }
+}

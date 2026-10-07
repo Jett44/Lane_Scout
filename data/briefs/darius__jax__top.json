@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close matchup",
+   "line": "You lose if you trade autos into an active Counter Strike or let the first five levels decide the lane; you win if you push exactly when his E (Counter Strike) is down and convert stacked Hemorrhage into a level 6+ Guillotine execute."
+  },
+  "thesis": "Jax's E (Counter Strike) dodges incoming basic attacks and then stuns everyone around him, so every auto-attack trade you start while it's active is wasted and still ends in a stun. Darius's E (Apprehend) is a pull, not a basic attack, so it goes through that dodge window untouched — it's your answer to Counter Strike and your engage tool whenever it's down. That's why the measured numbers split the way they do: Jax owns the early lane and solo-kill race (he has Leap Strike and Counter Strike online first), but Darius's true-damage Guillotine and bleed stacking claw the matchup back to 50.1% over 3491 games.",
+  "tell": {
+   "watch": "Jax's E (Counter Strike) cooldown",
+   "theirWindow": {
+    "when": "Jax activates E (Counter Strike) on you",
+    "what": "Stop auto-attacking immediately — they're dodged for the duration and you still eat the stun at the end. Either back out of his hit-range or land E (Apprehend) instead, since the pull isn't a basic attack and bypasses the dodge entirely."
+   },
+   "yourWindow": {
+    "when": "his E (Counter Strike) is on cooldown (18/16/14/12/10s)",
+    "what": "This is exactly the OP.GG read: apply pressure now. Fire E (Apprehend) to pull him in, stack Hemorrhage with Q (Decimate) and autos, and commit — he has no stun or dodge to punish the all-in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Leap Strike (700 range) pokes/resets, you have no answer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Counter Strike online — his solo-kill window per the data"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Noxian Guillotine unlocks, true-damage execute threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "both cooldowns shrink, trades become back-and-forth"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Guillotine refresh + items snowball side lanes faster"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "70.8% pick rate at 48.7% WR over 3074 games — the AD and sustain win the short, decisive trades you need before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "76.9% pick, 49.4% WR — directly undercuts Jax's R (Relentless Assault), which rewards him for landing a string of basic attacks on you."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The highest-WR path (57.4% over 291 games) runs this first — the active gives you the extra gap-close/reset to land E (Apprehend) a second time in a skirmish."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Builds toward the same 57.4% core path and gives you the HP/armor to survive Leap Strike engages while you stack Hemorrhage."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes out the top-performing 3-item path (57.4% WR) — the damage mitigation over time keeps you alive through his empowered Leap Strike + auto combo."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "their team stacks sustained magic damage and this path is holding 59.4% over 197 games"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need burst survivability against dives, following the 56.5%-over-108-games path"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want to out-stick Jax's Leap Strike resets with your own gap close"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 49.2%-WR Precision/Resolve page stacks Conqueror through the extended trades this matchup forces, and converts to healing that outlasts his R (Relentless Assault) attack-speed scaling.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Exhaust",
+    "Flash"
+   ],
+   "why": "Exhaust+Flash is the highest-measured combo at 52.4% WR, and it's the right tool mechanically — it cuts Jax's attack speed right when his R (Relentless Assault) is ramping and softens his Leap Strike engage. Flash+Ghost (66.4% pick) is the safer default if you'd rather prioritize disengage."
+  },
+  "playing": [
+   {
+    "title": "Push when his E is down",
+    "detail": "Counter Strike is his only answer to an all-in. The moment it's on cooldown (18/16/14/12/10s by rank), use E (Apprehend) to pull him in and start stacking Hemorrhage."
+   },
+   {
+    "title": "Never auto an active Counter Strike",
+    "detail": "Basic attacks thrown during his E channel are dodged for nothing and you still take the stun at the end. Disengage during the animation, then punish the instant it expires."
+   },
+   {
+    "title": "Pull through the dodge window",
+    "detail": "E (Apprehend) isn't a basic attack, so it lands even while Counter Strike is active — it's the one tool you have that isn't wasted on him mid-channel."
+   },
+   {
+    "title": "End trades fast, don't auto-war",
+    "detail": "R (Relentless Assault) gives Jax stacking attack speed with every strike and a bonus-damage proc every third hit, so prolonged auto trades favor him. Burst with Q (Decimate) + E (Apprehend) + autos and disengage rather than standing in extended exchanges."
+   },
+   {
+    "title": "Track his Leap Strike range",
+    "detail": "Leap Strike is 700 range (17/14/11/8/5s cooldown) and lets him reset off minions or jungle camps to escape your all-in — don't commit R (Noxian Guillotine) if he still has a leap target nearby to flee through."
+   },
+   {
+    "title": "Save Guillotine for max stacks",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks, so land Q, autos, and E first before leaping in with R for the execute, and remember a kill refreshes its cooldown."
+   },
+   {
+    "title": "Respect empowered Leap Strike bursts",
+    "detail": "If he has W (Empower) up, his next Leap Strike or auto hits noticeably harder — hold W (Crippling Strike) to slow him off you rather than trading face-to-face into it."
+   }
+  ],
+  "patchCaveat": "The build path, runes, summoners, and all win-rate/sample figures above are pulled directly from measured OP.GG games on the current patch (16.20.1) — only the mechanical reasoning (why Counter Strike punishes autos, why Guillotine timing matters, why extended trades favor his R) is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791344797831,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791344682527,
+  "overall": {
+   "winRate": 49.5,
+   "play": 152939,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 3491,
+   "wins": 1750,
+   "winRate": 50.1
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Avoid Jax’s Leap Strike (Q) – Counter Strike (E) by using [E]. Apply pressure when his (E) is on cooldown to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 49.6,
+    "play": 2858,
+    "pickRate": 66.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.2,
+    "play": 890,
+    "pickRate": 20.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.4,
+    "play": 511,
+    "pickRate": 11.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47,
+    "play": 949,
+    "pickRate": 21.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.2,
+    "play": 809,
+    "pickRate": 18.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.7,
+    "play": 3074,
+    "pickRate": 70.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.4,
+    "play": 811,
+    "pickRate": 18.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.4,
+    "play": 3259,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.8,
+    "play": 769,
+    "pickRate": 18.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 57.4,
+    "play": 291,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 59.4,
+    "play": 197,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 56.5,
+    "play": 108,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.3,
+    "play": 2008,
+    "pickRate": 47.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 49.7,
+    "play": 1769,
+    "pickRate": 41.7
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.6,
+    "play": 1736,
+    "pickRate": 40.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 58,
+    "play": 1506,
+    "pickRate": 35.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.9,
+    "play": 1302,
+    "pickRate": 30.7
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 55.8,
+    "play": 977,
+    "pickRate": 23
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.9,
+    "play": 1125
+   }
+  ]
+ }
+}

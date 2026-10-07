@@ -1,0 +1,388 @@
+{
+ "you": "Garen",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured matchup",
+   "line": "You lose if you throw Q into an up Counter Strike or stand in extended autos against his level-6 all-in; you win almost every trade once Jax's E is down and your Judgment cooldown starts resetting fast."
+  },
+  "thesis": "Jax's entire kit is built to dodge or punish Garen's auto-attack-reliant trade pattern: Counter Strike (E) eats the auto that carries Decisive Strike's silence, and Empower (W) turns his counter-trade into real damage. Garen wins this lane (54.4% over 5532 games) by refusing to feed Q into an up Counter Strike and instead trading only when Jax's E and Leap Strike (Q) are both down, letting Perseverance's passive regen and Judgment's falling cooldown grind him out.",
+  "tell": {
+   "watch": "Jax's Counter Strike (E) cooldown",
+   "theirWindow": {
+    "when": "Jax's Counter Strike (E) is up",
+    "what": "Do not commit Decisive Strike (Q) or stand in prolonged autos here — Counter Strike dodges all incoming basic attacks and then stuns and damages you, eating the exact attack that carries your Q silence. Back off and auto-poke with Judgment (E) range instead."
+   },
+   "yourWindow": {
+    "when": "his Counter Strike (E) is on cooldown",
+    "what": "Walk up and commit Decisive Strike (Q) for the move-speed burst and silence, then chain Judgment (E) spins and autos — he has no basic-attack dodge or stun available to interrupt the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has a trading tool online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Counter Strike live, Empower baits bad Q"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates online, all-ins are coinflips"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Judgment near-maxed, sustain outgrinds him"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "core spike plus execute threat closes trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Flat damage reduction and the health-regen-on-hit blunt Jax's empowered autos and stack directly with Perseverance's passive sustain — the exact combination OP.GG flags as your win condition. Picked in 47.6% of games at 54.7% WR."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "The attack speed feeds Garen's auto-attack-and-Judgment trade loop directly; 75.7% pick rate and the highest win rate of any boots option (55.8%)."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Its active slow is how you catch Jax after he disengages with Leap Strike, and the empowered next-attack mirrors his own Empower, so you're no longer the only one with a burst auto."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "More attack speed to spam Judgment's falling cooldown and the move speed to stick to Jax when he tries to kite with Leap Strike resets."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Grievous Wounds cuts into the bonus health Jax's passive and lifesteal items grant him, which matters since this exact path hits 57.9% WR over 1457 games."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "you want more stickiness and raw health instead of Mortal Reminder's anti-heal because Jax isn't building sustain"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "you're already snowballing hard off the solo-kill advantage and want to end the game faster"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you need the active haste to close the gap Jax opens with Leap Strike"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "jax's team stacks multiple auto-attack-reliant physical damage sources"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended E (Judgment) spins and auto trades stack Conqueror's adaptive force fast, and it synergizes with Perseverance's regen rather than requiring you to burst and leave, which fits the grind-him-out trade pattern this matchup rewards. Run on this page at 54.4% WR, 47.2% pick.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 97% of games at 55% WR, and the true damage burst is what converts Garen's already-measured solo-kill advantage into an actual kill before Jax can disengage with Leap Strike."
+  },
+  "playing": [
+   {
+    "title": "Bait Counter Strike before engaging",
+    "detail": "Feint an auto outside his 300-range Counter Strike until it's used or he lets it expire, then step in for Decisive Strike (Q) and chain Judgment (E)."
+   },
+   {
+    "title": "Never Q into an up Counter Strike",
+    "detail": "OP.GG's own read on this matchup: Counter Strike dodges the auto-attack that carries your Q silence, so holding Q until his E is down is the single highest-leverage habit here."
+   },
+   {
+    "title": "Trade on cooldowns, not a clock",
+    "detail": "Track Jax's Leap Strike and Counter Strike cooldowns rather than lane timers — whenever both are down, that's your window to walk up and spin Judgment."
+   },
+   {
+    "title": "Reset between trades for passive regen",
+    "detail": "Back off after short trades to let Perseverance tick; the longer the lane goes without you taking damage, the more your health regen advantage compounds."
+   },
+   {
+    "title": "Respect the level 6 all-in",
+    "detail": "Relentless Assault has no cooldown and ramps attack speed on every strike, so a sustained 1v1 at level 6 rewards whoever lands first — use Decisive Strike's silence to deny his empowered third hit."
+   },
+   {
+    "title": "Ramp poke once Judgment nears max",
+    "detail": "By levels 9-12 Judgment's cooldown drops into single digits, letting you poke far more often than his Leap Strike cooldown can keep pace with."
+   },
+   {
+    "title": "Close low-health windows with R immediately",
+    "detail": "Demacian Justice's execute threat punishes hesitation, so finish any low-health window right away rather than letting Jax disengage with Leap Strike."
+   }
+  ],
+  "patchCaveat": "Win rates, item paths, rune pages, and skill order above are measured from live OP.GG match data on the current patch; the trade-pattern reasoning — when to hold Q, when Judgment's cooldown flips the lane, how the level 6 all-in resolves — is our own tactical read built to match those numbers."
+ },
+ "generatedAt": 1791344898839,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791344804884,
+  "overall": {
+   "winRate": 50.7,
+   "play": 154096,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 5532,
+   "wins": 3012,
+   "winRate": 54.4
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not let Jax block [Q] by activating Counter Strike (E). Attack him whenever your skills come off cooldown and activate [P] to increase your sustain to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55,
+    "play": 6618,
+    "pickRate": 97
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.5,
+    "play": 101,
+    "pickRate": 1.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.1,
+    "play": 59,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.4,
+    "play": 3288,
+    "pickRate": 47.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.2,
+    "play": 779,
+    "pickRate": 11.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.7,
+    "play": 3279,
+    "pickRate": 47.6
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.8,
+    "play": 2172,
+    "pickRate": 31.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 55.8,
+    "play": 5072,
+    "pickRate": 75.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 826,
+    "pickRate": 12.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 57.9,
+    "play": 1457,
+    "pickRate": 29.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 57.1,
+    "play": 557,
+    "pickRate": 11.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Infinity Edge"
+    ],
+    "winRate": 59.7,
+    "play": 335,
+    "pickRate": 6.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 55.3,
+    "play": 6606,
+    "pickRate": 97.4
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 57.6,
+    "play": 4560,
+    "pickRate": 67.2
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 57.3,
+    "play": 2520,
+    "pickRate": 37.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.4,
+    "play": 1867,
+    "pickRate": 27.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 62,
+    "play": 1338,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 59.6,
+    "play": 821,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 57.1,
+    "play": 3167
+   }
+  ]
+ }
+}

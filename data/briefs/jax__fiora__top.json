@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let her stack Riposte parries and farm Duelist procs for free; you win if you bait a bad Q (Lunge) or land Counter Strike first."
+  },
+  "thesis": "This lane is decided by who dodges the other's hard CC first — OP.GG's own read confirms it: whoever lands Counter Strike (E) or Riposte (W) wins the fight. Jax vs Fiora sits at 48.5% over 2912 games, genuinely even, because both champions win by baiting the other's defensive cooldown and then all-inning the window after it's spent.",
+  "tell": {
+   "watch": "Fiora's W (Riposte) cooldown",
+   "theirWindow": {
+    "when": "Riposte is up and she's full HP",
+    "what": "She can parry your next auto to reflect magic damage and buff her AD — don't throw an auto into a clearly baited stance; wait it out or use Q (Leap Strike) to close distance from a weird angle instead."
+   },
+   "yourWindow": {
+    "when": "Her W (Riposte) and both E (Burst of Speed) charges are down",
+    "what": "This is your all-in window. Leap Strike in, pop W (Empower) on the strike, and immediately chain into E (Counter Strike) — the stun from Counter Strike is unconditional and doesn't care about her cooldowns, so this is where you force the fight."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has E yet, trades are just autos/Q pokes"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Riposte online punishes careless auto-trading hard"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your Counter Strike stun matches her kit, fights are 50/50"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Lethal Tempo + first item spikes your sustained DPS"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "Her Blade Waltz burst threatens you even split"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "48.2% win rate over 1855 games and the majority pick — the extra sustain and AD let you contest her early Lunge trades instead of getting poked out."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "73.2% pick rate at 47.7% win — the flat damage reduction on her auto-reset trade pattern (Lunge into autos) outweighs the MR from Mercury's Treads against a near-zero-magic-damage kit."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade procs off Leap Strike or Empower give you the burst to win an all-in the instant her Riposte is down."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "The crit-on-first-hit and healing proc directly counters her Duelist sustain race once fights go long."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "18.2% pick, 55.1% win rate on this path — Blade Waltz is her only burst reset tool, and Zhonya's lets you survive the dash-execute and punish the long cooldown after."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "she's building lifesteal/Duelist stacking heavily and you need to out-sustain the healing race"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "she's building tanky and you need the % current health shred to keep killing her through Riposte's AD buff"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need a late scaling item slot over Death's Dance"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "27.2% pick at 46.9% win — the stacking attack speed rewards exactly the extended auto-trade pattern you want once her Riposte parry is on cooldown, since you're not feeding it a single telegraphed auto.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "75.7% pick rate on Flash+Ignite at 48.6% win — Ignite's sustained burn cuts directly into her Duelist healing in all-ins, which matters more here than Teleport's scaling since this lane is decided by fights, not farm leads."
+  },
+  "playing": [
+   {
+    "title": "Track her E charge state",
+    "detail": "Burst of Speed (E) gives attack speed and ramping move speed on landed hits; if she's already popped it and is chasing, don't try to kite — turn and Counter Strike to punish the chase."
+   },
+   {
+    "title": "Never auto into standing Riposte",
+    "detail": "If she stops moving and squares up without initiating, that's the Riposte bait. Walk one auto's distance back or threaten with Leap Strike's range (700) instead of feeding the parry."
+   },
+   {
+    "title": "All-in only when both her cooldowns are down",
+    "detail": "Riposte (W) and both Lunge (Q) charges spent is your green light — Leap Strike in, Empower (W) the strike, then land Counter Strike's stun before she can reset with Burst of Speed."
+   },
+   {
+    "title": "Respect double-Lunge poke pre-6",
+    "detail": "Her Q can be thrown twice within a couple seconds at no mana cost — don't walk up for a last-hit right after she's used one charge, since the second is still live."
+   },
+   {
+    "title": "Hold Counter Strike for her all-in, not yours",
+    "detail": "Counter Strike's stun is undodgeable and doesn't require baiting a cooldown like Riposte does — if she commits with Q into an auto string, your E stun wins the exchange outright."
+   },
+   {
+    "title": "Play around Blade Waltz timer from level 6",
+    "detail": "Her ultimate resets on kill and has a long base cooldown (130s at rank 1); if she's used it and whiffed or only partially connected, that's a long window where she has no burst reset — press the lane."
+   },
+   {
+    "title": "Use R uptime to win extended trades",
+    "detail": "Relentless Assault has zero cooldown and stacks attack speed per strike, with every third hit dealing bonus damage — in a drawn-out skirmish away from her Riposte window, this is why even an even trade tips your way."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG data on the current patch; the mechanical reasoning and timing calls are this brief's own tactical analysis."
+ },
+ "generatedAt": 1791345900384,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791345856346,
+  "overall": {
+   "winRate": 49.4,
+   "play": 138912,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2912,
+   "wins": 1411,
+   "winRate": 48.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Whoever stuns their opponent with either Counter Strike [E] or Riposte (W) will win the fight.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.6,
+    "play": 2586,
+    "pickRate": 75.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.1,
+    "play": 635,
+    "pickRate": 18.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.4,
+    "play": 166,
+    "pickRate": 4.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.9,
+    "play": 945,
+    "pickRate": 27.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 417,
+    "pickRate": 12
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 1855,
+    "pickRate": 54
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.2,
+    "play": 1005,
+    "pickRate": 29.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.7,
+    "play": 2340,
+    "pickRate": 73.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.7,
+    "play": 428,
+    "pickRate": 13.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 55.1,
+    "play": 303,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 48.5,
+    "play": 132,
+    "pickRate": 7.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 78,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 49.5,
+    "play": 2846,
+    "pickRate": 84.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 50.3,
+    "play": 1100,
+    "pickRate": 32.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 54.7,
+    "play": 735,
+    "pickRate": 21.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 48.1,
+    "play": 648,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.9,
+    "play": 580,
+    "pickRate": 17.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 46.9,
+    "play": 401,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 54.3,
+    "play": 1187
+   }
+  ]
+ }
+}

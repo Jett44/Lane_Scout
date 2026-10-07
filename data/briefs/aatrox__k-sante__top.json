@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you fight into a full Q-stack shockwave at your tower; you win if you force trades before level 6 and punish Path Maker's dash commitment."
+  },
+  "thesis": "Both champions are built to all-in, but K'Sante's E (Footwork) and shield uptime let him disengage your Q/W combo for free, while your R (World Ender) is the one tool that outlasts his R (All Out) cooldown-for-cooldown. The data backs this as genuinely close — 52.7% over 2810 games — because the lane is won on who commits to the all-in with cooldowns up, not raw stats.",
+  "tell": {
+   "watch": "K'Sante's Q stack count",
+   "theirWindow": {
+    "when": "he has 2 Ntofo Strikes stacks up",
+    "what": "The second Q stack fires a shockwave that pulls you in — do not sit in minion-wave range when he's landed one Q already, since the second hit chains into a stun-adjacent pull you can't Flash out of mid-animation."
+   },
+   "yourWindow": {
+    "when": "his W (Path Maker) is on cooldown (14-10s)",
+    "what": "Path Maker's charge-up gives him reduced damage only while charging; once he dashes, the stun/knockback is spent for 10-14 seconds. Walk him down with E (Umbral Dash) resets and stack Q swings — he has no disengage besides E (Footwork) shield-dash, which doesn't stop your auto-heal."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "even",
+    "note": "Trade Q pokes, avoid his Q-stack shockwave range"
+   },
+   {
+    "levels": "4-5",
+    "edge": "them",
+    "note": "W (Path Maker) stun window opens up kills"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "R (World Ender) sustain matches his all-in"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Black Cleaver stacks shred his armor fast"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Both ultimates reset fights constantly"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "53.8% win rate over 2224 games; the lifesteal and AD pad your trades against his Q poke before he hits his stack threshold."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.1% over 2022 games; K'Sante's Q autos and empowered All Out attacks are physical, so the flat reduction cuts his poke and his all-in burst."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Stacks from Q (The Darkin Blade) swings shred his armor, which matters since K'Sante stacks resistances passively — this is your answer to his tankiness."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "The on-hit proc rewards landing Q swings in extended trades and gives you a shield to match his Footwork shield."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts his burst into damage-over-time you can heal through with E (Umbral Dash) and R lifesteal, which is critical since his All Out burst window is short but heavy."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you're resetting R (World Ender) multiple times per fight"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to close out all-ins before his shield (E, Footwork) comes off cooldown"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he's building full tank and you need the HP buffer to survive his W (Path Maker) stun chain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The sustain stacking directly counters his shield-based poke-and-reset pattern, and it scales into extended trades where he has to commit E (Footwork) just to survive.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport sits at 51.3% over 40.5% pick rate; Teleport lets you reset after all-in attempts and still join the rest of the map, since this lane doesn't snowball hard enough to justify forcing Ignite kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Count his Q stacks before engaging",
+    "detail": "Q (Ntofo Strikes) has a 3.5s cooldown and builds stacks on hit — at 2 stacks he fires a pulling shockwave. Never walk into melee range when he's already landed one Q in the exchange."
+   },
+   {
+    "title": "Punish Path Maker's charge animation",
+    "detail": "W (Path Maker) telegraphs with a charge-up before the dash-stun. If you see the charge start, disengage with E (Umbral Dash) rather than trading through it — eating the stun chains directly into his burst."
+   },
+   {
+    "title": "Track his E (Footwork) shield for all-in timing",
+    "detail": "Footwork's cooldown is 10-8s and grants a shield on use. If he's just spent it to poke or reposition, that's your window to commit Q-W-E without him having a disengage tool up."
+   },
+   {
+    "title": "Save R (World Ender) to outlast All Out",
+    "detail": "His R (All Out) is 120-80s and trades his defenses for damage — a short, high-risk window. Your R has matching cooldown but gives sustained healing and AD, so popping it in response to his All Out often wins the extended fight."
+   },
+   {
+    "title": "Use Q's three-swing reset to zone, not all-in",
+    "detail": "Q (The Darkin Blade) has three different swing AoEs on a 14-6s cooldown. Use the first two swings to poke and control space pre-6; save the third swing reset for when you're actually committing to a kill."
+   },
+   {
+    "title": "Black Cleaver stacks win extended trades",
+    "detail": "Since he stacks resistances through All Out and passive tankiness, prioritize landing every Q swing in a trade to stack Cleaver fast — this is how you turn an even fight into a won one by level 11-15."
+   },
+   {
+    "title": "Don't force all-ins through his stun",
+    "detail": "If his W (Path Maker) and R (All Out) are both up, do not initiate — the stun-into-burst combo is where most Aatrox deaths in this matchup come from. Wait for one of the two to be spent."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures come from measured games on the current patch via OP.GG; the tactical reading of cooldown windows and stack timing is my own analysis layered on top."
+ },
+ "generatedAt": 1791346444025,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791346399759,
+  "overall": {
+   "winRate": 49.9,
+   "play": 155594,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 2810,
+   "wins": 1481,
+   "winRate": 52.7
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.2,
+    "play": 1847,
+    "pickRate": 57.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.3,
+    "play": 1305,
+    "pickRate": 40.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 48,
+    "pickRate": 1.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.6,
+    "play": 1410,
+    "pickRate": 42.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.6,
+    "play": 210,
+    "pickRate": 6.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 2224,
+    "pickRate": 69.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.7,
+    "play": 888,
+    "pickRate": 27.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.1,
+    "play": 2022,
+    "pickRate": 70
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.6,
+    "play": 738,
+    "pickRate": 25.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 120,
+    "pickRate": 8.6
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 67.4,
+    "play": 89,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 52.6,
+    "play": 76,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.7,
+    "play": 2022,
+    "pickRate": 64.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 55.4,
+    "play": 1303,
+    "pickRate": 41.4
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 55.8,
+    "play": 1142,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 55,
+    "play": 1030,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 60.3,
+    "play": 823,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 62.6,
+    "play": 273,
+    "pickRate": 8.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.7,
+    "play": 1773
+   }
+  ]
+ }
+}

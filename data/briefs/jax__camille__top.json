@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You lose if you let Camille chain Q into E engages onto you for free; you win if you dodge or punish her all-in with E."
+  },
+  "thesis": "Camille's entire kill threat is her E (Hookshot) engage chained into Q (Precision Protocol) burst, and Jax's E (Counter Strike) is a hard counter to that exact pattern — a stunned Camille mid-dive gets none of her follow-up damage. This is why Jax sits at 51.3% over 3142 games despite Camille holding the lane-advantage tag: her tools are high-commitment and Jax punishes commitment harder than most tops.",
+  "tell": {
+   "watch": "Camille's E (Hookshot) cooldown",
+   "theirWindow": {
+    "when": "Camille's E and Q both up",
+    "what": "She can wall-jump onto you with E (Hookshot, 16/15/14/13/12s cooldown) for the knockup, then land a Q (Precision Protocol) auto for bonus damage and move speed. If she lands the knockup clean before you can react, this is her most dangerous trade."
+   },
+   "yourWindow": {
+    "when": "she's mid-dash on her E (Hookshot)",
+    "what": "Hold E (Counter Strike) until she's committed to the wall jump animation, then pop it the instant she lands — the stun shuts down her Q follow-up and auto-reset entirely, and you get the full stun damage on her. This is the OP.GG-confirmed line: dodge or punish the dive, don't trade into it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has E online yet, pure autos"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Camille's E unlocks dive-and-knockup threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your E stun now punishes her dives hard"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "Trinity Force spike makes your all-in scarier"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "R uptime and item power favor extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "51.1% win rate over 2130 games as the majority pick (58.3%) — the sustain and damage let you match Camille's early auto trades without folding to poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.7% win rate over 2229 games and the clear majority pick (66.5%) — Camille's damage leans on autos and Q procs, so the flat physical reduction blunts both her poke and her all-in."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Core first item in every winning build path here; the damage and mobility spike is what turns your E stun punish into a full kill window."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item in the top three build paths (58%/51%/60.3% win rates) — the healing on crit keeps you ahead in extended trades once you've stunned her."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Highest-winrate third item path at 58% over 393 games — lets you commit to all-ins without fearing her burst punishing a bad E read."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "she's building toward a longer teamfight-oriented game and you need to survive her Q-R burst sequences"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "she's ahead in gold and you need to survive her all-in rather than win the damage race outright"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "she's building tanky and you need the percent-health damage to keep trades even"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The 50.4% win rate page built around attack speed scaling matches how Jax wants to fight Camille — stack autos through her Q window and punish her for standing still after a failed E dive.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest win rate (51.2%) and by far the most-picked combo (68.5%) — Ignite punishes her all-in commitment the same way your E does, denying the sustain from her passive shield and W healing if she dives and you land the stun."
+  },
+  "playing": [
+   {
+    "title": "Bait the E dive, don't walk into it",
+    "detail": "Stand slightly out of her E (Hookshot, 800 range) threat range near walls so she has to commit fully to reach you — the longer her dash is in flight, the more time you have to see it and hold your E (Counter Strike) for the landing."
+   },
+   {
+    "title": "Stun on landing, not on approach",
+    "detail": "Your E (Counter Strike) only stuns when she's in range on landing — pop it too early during her dash and you waste the 18/16/14/12/10s cooldown on nothing."
+   },
+   {
+    "title": "Track her Q charge state",
+    "detail": "Precision Protocol (Q) can be recast for bonus damage if she delays between hits — if you see her land the first Q and back off instead of following up immediately, she's baiting the delayed recast; don't stand still."
+   },
+   {
+    "title": "Use W before all-in autos",
+    "detail": "Pop W (Empower, 7/6/5/4/3s cooldown) into your next auto or Leap Strike right as you land your E stun — this is your single highest damage window in the trade."
+   },
+   {
+    "title": "Hold R until the fight is committed",
+    "detail": "Relentless Assault (R) has no cooldown and only matters once attacks are landing — don't pre-activate it before she dives, save the attack-speed ramp for when autos are actually connecting."
+   },
+   {
+    "title": "Avoid trading into her W poke pre-6",
+    "detail": "Tactical Sweep (W, 610 range) slows and heals her if you're caught in the outer half — don't walk forward to trade autos when her W is up, let her burn it on a poke instead of a stun setup."
+   },
+   {
+    "title": "Respect R only from level 6",
+    "detail": "The Hextech Ultimatum (R, 140/115/90/0/0s cooldown, 475 range) anchors you in place from level 6 on — don't overextend past minion wave once she's level 6 even if her E and Q are down, since R alone can lock you into a 1v1 she wants."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, boots, and summoner spells above are pulled directly from measured OP.GG win-rate data on the current patch; the trade timing, stun-punish reasoning, and power-curve calls are my own tactical read of the kit interactions."
+ },
+ "generatedAt": 1791346000317,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791345955149,
+  "overall": {
+   "winRate": 49.4,
+   "play": 138912,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 3142,
+   "wins": 1613,
+   "winRate": 51.3
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Use Counter Strike [E] when Camille closes in using Wall Dive (E) to stop her from dealing additional damage. You will have the upper hand if you manage to stun her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.2,
+    "play": 2477,
+    "pickRate": 68.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.5,
+    "play": 965,
+    "pickRate": 26.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.9,
+    "play": 144,
+    "pickRate": 4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.4,
+    "play": 1032,
+    "pickRate": 28
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 510,
+    "pickRate": 13.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.1,
+    "play": 2130,
+    "pickRate": 58.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.4,
+    "play": 1030,
+    "pickRate": 28.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.7,
+    "play": 2229,
+    "pickRate": 66.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.8,
+    "play": 663,
+    "pickRate": 19.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 58,
+    "play": 393,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 51,
+    "play": 143,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Sterak's Gage"
+    ],
+    "winRate": 60.3,
+    "play": 78,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.4,
+    "play": 3085,
+    "pickRate": 86.7
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 52.3,
+    "play": 1403,
+    "pickRate": 39.4
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 58.3,
+    "play": 860,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.3,
+    "play": 585,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 52.6,
+    "play": 523,
+    "pickRate": 14.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 51.3,
+    "play": 429,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 56.8,
+    "play": 1434
+   }
+  ]
+ }
+}

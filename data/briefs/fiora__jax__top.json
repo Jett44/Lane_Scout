@@ -1,0 +1,379 @@
+{
+ "you": "Fiora",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you trade autos freely into his E (Counter Strike) or get caught by a level 3-5 Empower all-in; you win if you parry his empowered auto with W and control your Q resets."
+  },
+  "thesis": "Both champions' damage comes from basic attacks chained with short dashes, so this lane is decided by who lands the first clean auto exchange rather than by any hard counter. Fiora's W (Riposte) is a direct answer to Jax's auto-reliant kit — it parries the exact hit his W (Empower) is built around — which is why the measured data has this at 51.6% over 2918 games instead of a real disadvantage.",
+  "tell": {
+   "watch": "Jax's W (Empower) buff icon",
+   "theirWindow": {
+    "when": "Empower is up and he leaps in",
+    "what": "Expect a bonus-damage auto on the Leap Strike landing. Don't trade an auto back into this — hold W (Riposte) and parry it instead; that single parry removes his biggest hit of the exchange."
+   },
+   "yourWindow": {
+    "when": "his E (Counter Strike) was just used",
+    "what": "For the next 18/16/14/12/10s he has no stun-and-dodge stance. Commit the Q-auto-Q sequence here to stack Duelist passive heals without risking the counter-stun."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither spike is online, poke with Q range"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Empower + Leap Strike all-in windows open"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults live, kill race is a coin flip"
+   },
+   {
+    "levels": "9-18",
+    "edge": "you",
+    "note": "Hydra/Trinity spikes outscale his auto reliance"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "51.5% win rate over 2927 games at 86.6% pick — the extra damage and sustain let you stack Duelist passive off early Q trades instead of just poking for free."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.7% win rate over 2155 games at 71.3% pick — Jax's entire kit (Empower bonus damage, R attack-speed stacking) is delivered through basic attacks, which is exactly what Steelcaps blunts."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "40.6%-picked path into a 62% win rate over 718 games — the sustain and wave clear let you shove and reset before his Empower comes back up."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade damage on your Q punishes every dash-in trade, matching the measured 62% win rate for this build path."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Caps his burst windows from Empower/R stacking into damage-over-time you can out-heal with Duelist passive."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you are ahead by level 6 and want to force all-ins (54.5% win rate path over 189 games)"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "the game goes long and you need sustained dueling power (66.9% win rate over 172 games)"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "his all-ins are chunking you harder than expected and you need the burst shield"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking damage and healing reward the extended auto exchanges this lane is built on, layering on top of Duelist passive instead of relying on a single burst window like Press the Attack would.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "51.8% win rate at 84.4% pick — Ignite punishes his lack of sustain outside of the Duelist/Equipment Mastery health pool. Flash+Teleport (49.2%, 10.6% pick) is the fallback if you're prioritizing scaling and wave state over early kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Trade with Q, not autos",
+    "detail": "Lunge in, land the hit, and take the free second dash within its window before resetting to range. Standing and trading autos lets his R (Relentless Assault) ramp attack speed with zero cooldown cost to him."
+   },
+   {
+    "title": "Save W for his empowered hit",
+    "detail": "Hold Riposte specifically for the auto right after his W (Empower) procs — OP.GG's own read confirms Jax leans on basic attacks for most of his damage, so parrying that one hit removes his biggest trade tool."
+   },
+   {
+    "title": "Don't auto into his E",
+    "detail": "While his E (Counter Strike, 18/16/14/12/10s cd) is up, extra autos are wasted — he dodges all incoming basic attacks during the stance and then stuns on the pulse."
+   },
+   {
+    "title": "Stack passive before all-in",
+    "detail": "Land Q, auto, then the free second Lunge to build Duelist heal stacks before committing further, so sustain is already rolling before he can ramp R attack speed."
+   },
+   {
+    "title": "Use E to control distance",
+    "detail": "Burst of Speed's move-speed gain from landed attacks or Lunges lets you disengage if he lands Leap Strike into Empower — don't linger inside his 300-range E threat after he's already used Counter Strike's dodge."
+   },
+   {
+    "title": "Play level 6 for the clean trade, not the dive",
+    "detail": "Both ults are live at 6 (Blade Waltz 130/120/110/110/110s cd vs instant Relentless Assault). The all-in goes to whoever lands the first stacked trade, not whoever has the longer cooldown, so don't force it blind."
+   },
+   {
+    "title": "Itemize into the auto war, not around it",
+    "detail": "Plated Steelcaps and the Hydra-into-Trinity path exist because his kit is entirely auto-attack-delivered — build that undercuts his win condition rather than reacting to burst that isn't really there."
+   }
+  ],
+  "patchCaveat": "The build order, rune pages, boots, summoners, and every win-rate/pick-rate figure above are measured from live games on the current patch (OP.GG); the tactical reasoning — when to hold W, when to avoid his E, how to sequence Q resets — is my own read on the ability text, not measured data."
+ },
+ "generatedAt": 1791345212697,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791345115222,
+  "overall": {
+   "winRate": 50.4,
+   "play": 113255,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2918,
+   "wins": 1506,
+   "winRate": 51.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use [W] to hit him as Jax will rely on basic attacks to deal most of his damage. Hit [P] through your [Q] to contest lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 2845,
+    "pickRate": 84.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.2,
+    "play": 358,
+    "pickRate": 10.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.7,
+    "play": 138,
+    "pickRate": 4.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.2,
+    "play": 307,
+    "pickRate": 8.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 302,
+    "pickRate": 8.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 2927,
+    "pickRate": 86.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 264,
+    "pickRate": 7.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.7,
+    "play": 2155,
+    "pickRate": 71.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.9,
+    "play": 670,
+    "pickRate": 22.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 62,
+    "play": 718,
+    "pickRate": 40.6
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 54.5,
+    "play": 189,
+    "pickRate": 10.7
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 66.9,
+    "play": 172,
+    "pickRate": 9.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 52.1,
+    "play": 3226,
+    "pickRate": 96.5
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 53.5,
+    "play": 1955,
+    "pickRate": 58.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 61.7,
+    "play": 1283,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 58,
+    "play": 714,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 63.5,
+    "play": 531,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 60.6,
+    "play": 246,
+    "pickRate": 7.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.7,
+    "play": 1750
+   }
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "you": "Jax",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him land two Q stacks and pull you into a trade before level 2; you win every all-in after level 6 once Counter Strike covers his Path Maker."
+  },
+  "thesis": "K'Sante's Q (Ntofo Strikes) builds a stack counter on-screen that you must respect: the first hit is just a slow, but the second hit within its 3.5s cooldown fires a shockwave that pulls you in, so he controls when extended trades start. Jax has no answer to that pull before 6, but E (Counter Strike) dodges every basic attack he throws out during the stun window it creates, which flips any trade where he tries to auto-reset through your stun.",
+  "tell": {
+   "watch": "K'Sante's Q stack counter",
+   "theirWindow": {
+    "when": "he has 1 Ntofo stack already",
+    "what": "He is one Q away from the pull shockwave. Do not stand in his 450-range line for a free poke, and don't let him land Q, walk away, then Q again to drag you in."
+   },
+   "yourWindow": {
+    "when": "his W (Path Maker) and E (Footwork) are both down",
+    "what": "Leap in with Q (Leap Strike), pop W (Empower) on the strike, and go for the extended trade — he has no shield and no dash to disengage, and your E stun locks out his autos entirely."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q stacks and pull punish early extended trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E (Counter Strike) online, trades become two-sided"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R attack speed wins extended all-ins before his R"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "his R All Out raises his damage ceiling in trades"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Trinity/Sundered Sky damage outpaces his falling defenses"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "52.3% win rate over 1,110 games; the extra AD and sustain matter more than Doran's Shield once you're trading into his Q pokes rather than tanking through them."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.8% win rate, 57.5% pick rate — his autos and Q strikes are physical, and the reduced auto damage directly undercuts his poke-and-pull pattern."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "57.9% win rate over 152 games as the first core item; the proc damage and movement speed let you punish the moment his Q is on cooldown."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Pairs with Trinity in the highest win-rate path; the crit/heal proc rewards landing your empowered strikes in extended trades."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Completes the 57.9% path and gives you a way to survive his All Out burst window if he catches you alone."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you are ahead and want to no-sell his All Out burst instead of playing around Zhonya's"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he is building tank and you need sustained DPS and a slow to chase him down"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the lane goes long and you want sustained damage through his All Out tankiness"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "53.8% win rate, 19.9% pick; the sustain from Grasp procs offsets his Q poke damage over a long lane you can't just burst down early. Master-tier Jax players instead run Lethal Tempo (Precision, 20,493 games) if you're confident playing for extended attack-speed trades rather than passive wave trading — better suited to a player comfortable all-inning early rather than scaling.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the highest win rate at 52.8% over a 46.3% pick rate; Ignite punishes his Footwork disengage shield and closes out skirmishes he tries to shield-and-reset out of."
+  },
+  "playing": [
+   {
+    "title": "Track his Q stack count all lane",
+    "detail": "One stack means the next hit pulls you in — back off instead of trading face-to-face. Zero stacks means you can walk up for a free poke without risking the shockwave."
+   },
+   {
+    "title": "Save E for his engage, not your own",
+    "detail": "Counter Strike dodges all incoming basic attacks and stuns on a 18/16/14/12/10s cooldown — hold it until he commits to an all-in so you dodge his autos and lock him down, rather than burning it preemptively."
+   },
+   {
+    "title": "All-in the moment W and E are both down",
+    "detail": "With Path Maker and Footwork on cooldown he has no shield and no disengage. Leap Strike in, Empower the hit, and commit to the extended trade."
+   },
+   {
+    "title": "Respect his All Out past level 6",
+    "detail": "R knocks you back through terrain and transforms his kit for increased damage and healing. Don't get caught alone near a wall once he has it up — his damage spikes hard during that window."
+   },
+   {
+    "title": "Use R's attack speed to win trades, not start them",
+    "detail": "Relentless Assault has 0s cooldown and scales off consecutive attacks, so pop it once you're already in the trade from Leap Strike, not as an opener."
+   },
+   {
+    "title": "Reset waves instead of standing in Q range",
+    "detail": "His Q has a 3.5s cooldown and only a 450 range — crashing the wave and backing off between resets denies him free stacks toward the pull."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are measured from live games on the current patch via OP.GG; the lane-by-lane tactical reading (stack tracking, cooldown windows, trade timing) is my own analysis of the ability kits."
+ },
+ "generatedAt": 1791346541153,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791346498847,
+  "overall": {
+   "winRate": 49.4,
+   "play": 138912,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2274,
+   "wins": 1189,
+   "winRate": 52.3
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "defensive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.8,
+    "play": 1280,
+    "pickRate": 49.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.8,
+    "play": 1194,
+    "pickRate": 46.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.9,
+    "play": 85,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.8,
+    "play": 526,
+    "pickRate": 19.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.7,
+    "play": 511,
+    "pickRate": 19.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 1110,
+    "pickRate": 42.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 942,
+    "pickRate": 36.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.8,
+    "play": 1315,
+    "pickRate": 57.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.8,
+    "play": 681,
+    "pickRate": 29.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 57.9,
+    "play": 152,
+    "pickRate": 14.2
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Hextech Gunblade",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 3.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 44.4,
+    "play": 36,
+    "pickRate": 3.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 53,
+    "play": 1650,
+    "pickRate": 65.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 52.4,
+    "play": 676,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 57.6,
+    "play": 606,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 56.2,
+    "play": 577,
+    "pickRate": 23
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 60.5,
+    "play": 478,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53.8,
+    "play": 277,
+    "pickRate": 11
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 59.1,
+    "play": 850
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 20493
+  }
+ }
+}
