@@ -1,0 +1,376 @@
+{
+ "you": "Darius",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early-favoured, even late",
+   "line": "You win if you land E (Apprehend) pulls and close the lane out before level 13; you lose if it drags into the mid game, where the matchup flattens back to a 49.9% coinflip despite your lane and solo-kill edge."
+  },
+  "thesis": "Darius out-trades Gwen at point-blank range because Hemorrhage stacks faster than her passive's magic damage ticks, and E (Apprehend, range 535) yanks her out of kiting position before she can set up Skip 'n Slash. Her counter is W (Hallowed Mist), which makes her untargetable by everything except enemies who walk into the mist — a 22-18s cooldown escape valve that can null a pull attempt if she times it right, which is why the overall win rate sits at an even 49.9% across 2,004 games despite the stated lane and solo-kill advantage.",
+  "tell": {
+   "watch": "Gwen's Hallowed Mist cooldown",
+   "theirWindow": {
+    "when": "after her E dash connects",
+    "what": "Skip 'n Slash partially refunds its cooldown on hit and grants Attack Speed, range, and magic damage On-Hit for a few seconds. Don't facetank the follow-up autos — back off and let the buff expire before re-engaging."
+   },
+   "yourWindow": {
+    "when": "your E is up, her W is down",
+    "what": "Land E (Apprehend) to pull her into melee, then W (Crippling Strike) to slow and lock her in while Hemorrhage stacks climb. This is your clean all-in — once she gets Hallowed Mist back up she can simply step into it and become untargetable to your follow-up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither combo is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E-W-Q pull combo comes online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute outpaces her mist sustain"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "E dash kiting offsets your pulls"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "on-hit split-push scaling takes over"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "This is the universal start (100% pick, 46.2% WR over 13 games) and gives the sustain to win extended trades where you're stacking Hemorrhage through her passive's magic damage ticks."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Dominant pick at 92.3% (41.7% WR over 12 games) — the magic resist blunts her passive's bonus magic damage and R (Needlework) poke over a long lane."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste and lethality close the gap on a kiting Gwen before she can get Skip 'n Slash's range and attack speed buff rolling."
+    },
+    {
+     "item": "Force of Nature",
+     "why": "Her entire kit is magic damage — passive on-hit, Q true/magic hybrid, R magic — so this directly answers her damage profile while adding move speed to keep pace with her dash."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Built-up move speed turns into a shoulder-charge that closes distance on her E resets and gives you the durability to survive her kiting phase."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "she's building burst and you need tenacity plus a damage shield to survive her engage"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "you want the bleed-out-damage conversion to out-sustain her passive's health-based magic damage"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you'd rather have a built-in slow to lock down her dash instead of going Youmuu's first"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "she's leaning hard on Q (Snip Snip!) and autos rather than magic burst and you want the flat damage reduction instead"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended melee trades with Gwen let Conqueror ramp fully, converting into the adaptive force and healing you need to outlast her sustain. Master-tier Darius players instead run Stormraider's Surge (Sorcery) in 352 games — that suits a more mobile, snowball-the-early-levels playstyle built around chaining E pulls into kills rather than grinding trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost is both the most-picked (69.2%) and best-performing combo (55.6% WR) — Ghost closes the distance Gwen's Skip 'n Slash opens up and lets you stick through her kiting window to land the E (Apprehend) pull."
+  },
+  "playing": [
+   {
+    "title": "Pull before mist pops",
+    "detail": "Use E (Apprehend) the instant she's in its 535 range. If she's already inside Hallowed Mist, you can't target her with it from outside — you'd have to walk in first, losing the window."
+   },
+   {
+    "title": "All-in hard at levels 3-5",
+    "detail": "Once E-W-Q is online you out-damage her before her kit has an answer beyond Hallowed Mist on an 18-22s cooldown. This is your best window before her Needlework poke exists."
+   },
+   {
+    "title": "Track Hemorrhage stacks for R",
+    "detail": "Watch your passive stack count on her — R (Noxian Guillotine)'s true damage scales per stack, so look for the moment she's near 5 stacks to confirm a kill."
+   },
+   {
+    "title": "Don't chase through her E reset",
+    "detail": "Skip 'n Slash refunds cooldown on hit and buffs her attack speed and range for a few seconds after. If she lands it on you, disengage rather than trading into the buffed window."
+   },
+   {
+    "title": "Hold E for all-ins, not pokes",
+    "detail": "Apprehend's cooldown is long (26-16s by rank) — don't burn it to interrupt a single Q poke. Save it for a real all-in when her W is down."
+   },
+   {
+    "title": "Close the lane before level 13",
+    "detail": "Your curve note shows her on-hit scaling catching up from level 14 on. Use your early/mid lane lead to shove, kill, or force recalls rather than letting the lane stabilize into late game."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, and win-rate numbers are measured from live games on the current patch via OP.GG; several paths have small samples (as few as 1-2 games), so treat the exact item order as directional rather than gospel. The matchup mechanics, timing windows, and trade-pattern reasoning are my own read of the ability interactions."
+ },
+ "generatedAt": 1791382151380,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791382058664,
+  "overall": {
+   "winRate": 49.9,
+   "play": 2004,
+   "tier": 2
+  },
+  "headToHead": null,
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 69.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 15.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 7.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 0,
+    "play": 4,
+    "pickRate": 30.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 15.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 100
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 92.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 7.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Dead Man's Plate"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Force of Nature",
+     "Sterak's Gage"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Sterak's Gage"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 11.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 53.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 46.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 46.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 38.5
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 38.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 30.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 6
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 352
+  }
+ }
+}

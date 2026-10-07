@@ -1,0 +1,381 @@
+{
+ "you": "Mordekaiser",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly favoured",
+   "line": "You win trades where you E-pull her into point-blank Q before she can unload her combo; you lose if you extend a fight with Indestructible on cooldown and eat a full Q-W-Q-Q string."
+  },
+  "thesis": "Death's Grasp has 700 range, further than any of Riven's dash abilities, so Mordekaiser can yank her out of a committed Q (275 range) or E (250 range) and punish her with Obliterate's single-target damage bonus before she resets. His W-last skill order (Q>E>W) means early trades lean on that Q/E burst rather than the shield, which only becomes the deciding factor once it's actually up — hence the 50.6% win rate across 1,750 games is a real but modest edge, not a stomp.",
+  "tell": {
+   "watch": "Your W (Indestructible) cooldown",
+   "theirWindow": {
+    "when": "her Q, W, and E are all up",
+    "what": "She can full-combo: Ki Burst stun into Broken Wings dashes and empowered Runic Blade autos. Back off from minion range if your own W is also down, since you have no shield to absorb it."
+   },
+   "yourWindow": {
+    "when": "her E (Valor) is on cooldown",
+    "what": "She loses her only damage-block and extra gap-closer. Pull her in with E (Death's Grasp) and land Obliterate at point blank for the single-target damage bonus."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Short pokes only, neither can all-in yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E-pull into point-blank Q punishes her commits"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Her R adds Wind Slash and bonus AD"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Riftmaker/Rylai's core outscales her dash kit"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfights dilute the 1v1 lane edge"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "The AP, mana regen, and health let you spam Q/E for poke and still have mana for the E-pull all-in window without falling behind on sustain."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Riven's damage leans on empowered Runic Blade autos; the flat reduction on basic attacks blunts her trade pattern more than Mercury's Treads does here."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow from Q and E makes it much harder for her to kite away after Valor or the third Broken Wings hit."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Omnivamp plus the ramping true damage turns extended trades in your favor once Indestructible is also stacking its shield."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Boosts the healing you get from popping your W shield and from Riftmaker's omnivamp, directly countering her burst windows."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "she's building lifesteal or out-trading you on autos and you need the grievous wounds and early armor"
+    },
+    {
+     "item": "Liandry's Torment",
+     "when": "she or her team starts stacking health and you need the burn to shred through it"
+    },
+    {
+     "item": "Banshee's Veil",
+     "when": "her team has another hard-CC or burst threat beyond her own stun and dashes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive force and healing rewards exactly the kind of extended, Q/E-into-combat trades this matchup wants, and it pairs with your W shield for even more sustain.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite seals solo kills on an all-in since Riven has no native sustain outside her Runic Blade autos, and Flash lets you reposition for an E-pull or escape if her combo lands first."
+  },
+  "playing": [
+   {
+    "title": "Hold E for her all-in",
+    "detail": "Death's Grasp's 700 range outreaches every one of her dashes. Save it to yank her back into Q range the instant she commits Broken Wings or Valor."
+   },
+   {
+    "title": "Trade only with W up",
+    "detail": "Indestructible (12/11/10/9/8s cooldown) stores damage dealt and taken into a shield you can pop to heal. Don't extend a fight without it available."
+   },
+   {
+    "title": "Punish her E cooldown window",
+    "detail": "Valor's cooldown is 10/9/8/7/6s. When it's down she has no damage-block or bonus mobility, so your E-into-Q combo is close to unanswerable."
+   },
+   {
+    "title": "Max Q first for single-target burst",
+    "detail": "The Q>E>W skill order ranks Obliterate fastest, and its damage is highest against a single target, so look for isolated trades rather than fighting through minions."
+   },
+   {
+    "title": "Watch for charged Runic Blade",
+    "detail": "Her empowered auto-attacks deal bonus damage off stored charges; if her blade is visibly glowing, expect a harder hit on the next auto and play around it."
+   },
+   {
+    "title": "Use Ignite to close kills",
+    "detail": "She has no sustain outside her attack damage kit, so Ignite on an all-in denies any late heals or active items and seals the solo kill."
+   },
+   {
+    "title": "Respect level 6 Wind Slash",
+    "detail": "Her R grants bonus AD and range plus a one-time ranged Wind Slash. Don't sit at low HP near the point she hits level 6."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from real games on the current patch (16.20.1) via OP.GG, including the small-sample item paths; the tactical reasoning tying them together is my own read of the matchup."
+ },
+ "generatedAt": 1791381375357,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791381263184,
+  "overall": {
+   "winRate": 50.6,
+   "play": 1750,
+   "tier": 2
+  },
+  "headToHead": null,
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not fight Riven if your [W] is on cooldown. Purchase Bramble Vest and maintain your [P] when fighting her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 62.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 0,
+    "play": 3,
+    "pickRate": 18.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 12.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 37.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 12.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 62.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 25
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 18.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Experimental Hexplate",
+     "Riftmaker"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Hextech Rocketbelt",
+     "Riftmaker"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Banshee's Veil"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 11.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 87.5
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 62.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 25
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 25
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 18.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 83.3,
+    "play": 6
+   }
+  ]
+ }
+}

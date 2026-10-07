@@ -1,0 +1,375 @@
+{
+ "you": "Irelia",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose extended auto-trades and all-ins into an up Counter Strike (E), and you win short burst trades off an E-Q stun chain when his E is down."
+  },
+  "thesis": "Jax's Counter Strike (E) dodges incoming basic attacks and then stuns everyone around him, which directly punishes Irelia's stack-and-auto trade pattern and her Q (Bladesurge) engage if she leads with autos into it. That single cooldown is why Jax holds both the lane and solo-kill edge here even though the matchup reads as structurally even — Irelia's 44.2% win rate over 52 games comes from mistiming trades around it, not from a hard power deficit.",
+  "tell": {
+   "watch": "Jax's Counter Strike (E) cooldown",
+   "theirWindow": {
+    "when": "When his Counter Strike (E) is up",
+    "what": "Do not lead with autos or stand in melee range to stack your passive — he dodges the attacks and stuns you on the counter. If he also has Empower (W) ready (7/6/5/4/3s cooldown), expect a glowing empowered auto or Leap Strike (Q, range 700) on top of it; hold W (Defiant Dance) to charge into that hit since it reduces physical damage taken while charging."
+   },
+   "yourWindow": {
+    "when": "When his Counter Strike (E) is down",
+    "what": "This is your window to commit. From level 3 on, open with E (Flawless Duet, range 850) to stun and Mark him, Q (Bladesurge) in off the Mark for the dash-reset, then auto freely while Ionian Fervor stacks attack speed — there's no Counter Strike waiting to punish the autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Leap Strike (Q) and Counter Strike (E) punish early autos"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Your E-Q stun chain matches his all-in"
+   },
+   {
+    "levels": "7-11",
+    "edge": "them",
+    "note": "His attack speed and Empower scaling outpaces you"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "On-hit core closes the gap in fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "40.7% win rate over 54 games and the overwhelming pick (88.5%) — the extra sustain matters because you can't win extended auto-trades into Counter Strike without it."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "39.2% win rate, 89.5% pick — Jax's whole kit (Relentless Assault stacks, Empowered autos) is basic-attack damage, so flat physical reduction outvalues Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Sustain and on-hit damage to survive the early lane deficit and keep trading even when you can't land a clean Q reset."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "72.7% win rate on this exact BotRK into Hullbreaker path — rewards the extended skirmishes this matchup forces."
+    },
+    {
+     "item": "Wit's End",
+     "why": "Attack speed and magic resist to keep your passive stacking fast once Jax's items start adding up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "jax is building into burst damage or you need to survive his all-in on a flat stun"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need more raw tankiness to win extended fights past 11"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you are ahead and want to snowball faster instead of grinding sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "47.8% win rate on this page, highest pick rate (38.3%) — the stacking adaptive force rewards exactly the kind of grinding, multi-hit trades you're forced into against Counter Strike.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "40.9% win rate and by far the most-picked combo (73.3%) — Ignite punishes his sustain-light early trades and Flash lets you dodge or follow up on Leap Strike (Q) engages."
+  },
+  "playing": [
+   {
+    "title": "Track Counter Strike, not his health",
+    "detail": "His Counter Strike (E) is 18/16/14/12/10s. Never lead a trade with autos while it's up — wait it out or force it to whiff on a minion first."
+   },
+   {
+    "title": "Respect the Empower telegraph",
+    "detail": "Empower (W, 7/6/5/4/3s cooldown) lights up his next attack or Leap Strike. Hold W (Defiant Dance) charge for that hit — it reduces physical damage taken while charging."
+   },
+   {
+    "title": "Chain E into Q from level 3",
+    "detail": "E (Flawless Duet) stuns and Marks anyone caught between the blades; Q (Bladesurge) refreshes instantly off a Marked target, letting you reset the dash and keep stacking your passive mid-combo."
+   },
+   {
+    "title": "Don't out-range his engage with Q alone",
+    "detail": "Leap Strike (Q) is range 700 versus your Bladesurge's 600 — he can initiate off a minion or ward from further out than you can answer with Q."
+   },
+   {
+    "title": "Use R to open, not finish",
+    "detail": "Vanguard's Edge (R) Marks on hit, so firing it as an opener sets up a free Q reset into the fight rather than saving it purely as a kill tool."
+   },
+   {
+    "title": "Avoid standing auto-trades past level 7",
+    "detail": "Relentless Assault stacks his attack speed passively with every third hit dealing bonus damage — extended stand-and-swing fights favor him more as the game goes on, so disengage and reset instead."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch (16.20.1); the cooldown/range values are from the game files; the tactical reading of how to use them is our own analysis, not measured data."
+ },
+ "generatedAt": 1791380943535,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791380862711,
+  "overall": {
+   "winRate": 49.3,
+   "play": 2006,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 52,
+   "wins": 23,
+   "winRate": 44.2
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Try to engage whenever Jax’s Counter Strike (E) is on cooldown. Absorb Jax’s (W) damage with a well-timed [W], while waiting for an opportunity to strike back by keeping your [P] stacks up.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40.9,
+    "play": 44,
+    "pickRate": 73.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 18.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 8.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 38.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 18.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 40.7,
+    "play": 54,
+    "pickRate": 88.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 3.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 39.2,
+    "play": 51,
+    "pickRate": 89.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 8.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 31.4
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Wit's End",
+     "Hullbreaker"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 14.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 37.3,
+    "play": 59,
+    "pickRate": 100
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 48.6,
+    "play": 37,
+    "pickRate": 62.7
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 37.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 31.6,
+    "play": 19,
+    "pickRate": 32.2
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 5.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50,
+    "play": 8
+   }
+  ]
+ }
+}

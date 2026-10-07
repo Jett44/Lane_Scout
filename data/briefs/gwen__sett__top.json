@@ -1,0 +1,373 @@
+{
+ "you": "Gwen",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Sett lands a Facebreaker stun and all-ins before level 6; you win if you survive to your Dusk and Dawn into Shadowflame spike and grind him down with Q poke and passive damage."
+  },
+  "thesis": "Sett's E (Facebreaker) stuns you if he pulls you in from both sides and slows you if only one side is caught, and his passive sustain scales with missing health, so he wins nearly every forced trade and most solo-kill attempts through level 5. Gwen's W (Hallowed Mist) denies him a free engage because enemies outside the mist can't be targeted, but that only matters if you hold it until he's actually forced to walk in. Your real win condition isn't lane dominance, it's surviving the early all-in windows long enough to hit your item spike where passive magic damage and E uptime start out-trading his flat punches.",
+  "tell": {
+   "watch": "his position relative to walls/minions",
+   "theirWindow": {
+    "when": "he can pull you from both sides with E",
+    "what": "Facebreaker (E, cooldown 16/14.5/13/11.5/10s, range 490) stuns if you're caught between him and something else, only slows if you're on one side. Never stand in a pocket where he and terrain or a minion wave sandwich you."
+   },
+   "yourWindow": {
+    "when": "he's just used W (Haymaker) or missed E",
+    "what": "Haymaker (cooldown 18/16.5/15/13.5/12s) dumps all his stored Grit into one shield, so right after he casts it he has no shield buffer. Dash in with E (Skip 'n Slash, cooldown 13/12.5/12/11.5/11s, range 400) and unload Q (Snip Snip!, cooldown 6.5/5.75/5/4.25/3.5s, range 450) while his Facebreaker is also down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q bonus damage and passive regen win early pokes"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E stun unlocks real all-in kill threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "W Mist stalls sieges, R still long cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Dusk and Dawn/Shadowflame spike flips trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Rabadon's magic damage outscales his flat punches"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "68.8% of games over this sample start this way, giving sustain through early poke exchanges while Sett's passive heals him for free if you don't fight efficiently."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Taken in 83.3% of games where boots were tracked; Sett's Q empowered autos and W's physical-damage sides are the bulk of his trade damage, so flat reduction on autos blunts his all-in."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the most common full build path; starts your scaling into burst before Sett's flat stats catch up."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item in the same path, adding magic penetration once Sett starts building resistances against your Q poke."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Completes the measured build and is the point where your passive magic damage and Q true damage finally outpace his sustain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "the lane goes long and you need sustained damage and extra survivability over raw burst"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you're landing E resets consistently and want more attack speed to extend fights"
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "he's hitting his R (The Show Stopper, cooldown 120/100/80/80/80s, range 400) reliably and you need to survive the slam"
+    },
+    {
+     "item": "Sorcerer's Shoes",
+     "when": "he's building mostly health and you need to push magic damage through instead of mitigating his autos"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The dominant keystone in the measured pages; stacking adaptive force through extended trades matters because you're not winning quick all-ins against his E stun, you're grinding him down over longer fights.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 75% of games with a 53.3% pick rate; Ignite punishes his passive health regen directly and secures kills during the windows after his Haymaker shield is spent. Flash+Teleport (66.7%, 20% pick) is the alternate if you expect a longer, more passive lane."
+  },
+  "playing": [
+   {
+    "title": "Never stand between him and terrain",
+    "detail": "Facebreaker only stuns if he catches you between himself and something else on the opposite side. If you're only on one side, it's a slow, not a stun, so always leave yourself an escape angle."
+   },
+   {
+    "title": "Hold W until he commits",
+    "detail": "Hallowed Mist only protects you from enemies who stay outside it, so throw it right as he walks in to engage, forcing him to either back off or fight you inside the mist on your terms."
+   },
+   {
+    "title": "Poke at Q's max range",
+    "detail": "Snip Snip! has 450 range versus his Facebreaker's 490, so you can often land a snip and step back before he's in pull range, especially before he hits level 3."
+   },
+   {
+    "title": "Punish right after his W",
+    "detail": "Haymaker dumps all of Sett's stored Grit into one shield and attack. The moment it's used, dash in with E and chain Q while his defensive cooldown is down."
+   },
+   {
+    "title": "Don't waste rank-1 R",
+    "detail": "Needlework's first cast sits on a 120-second cooldown at rank 1, so save it for a kill or priority push rather than chip poke. At rank 2-3 the recast window drops to 8.5/8 seconds, letting you throw all three needles in a single commit."
+   },
+   {
+    "title": "Trade, don't brawl, before level 6",
+    "detail": "You lack kill pressure before your first item spike, so take short Q trades and disengage rather than standing in extended autos where his passive sustain and Q bonus damage add up."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners and the win-rate/lane-advantage figures are measured from live games on the current patch (16.20.1); small samples on some item paths (as few as 1-2 games) mean exact pick rates may shift, but the tactical reasoning above is my own read of the ability interactions."
+ },
+ "generatedAt": 1791382742506,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791382656081,
+  "overall": {
+   "winRate": 51,
+   "play": 859,
+   "tier": 3
+  },
+  "headToHead": null,
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 53.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 20
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Teleport"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 6.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 46.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 20
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 68.8,
+    "play": 16,
+    "pickRate": 100
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 37.5
+   },
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 31.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Dark Seal",
+     "Riftmaker",
+     "Dusk and Dawn",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 9.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Nashor's Tooth"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 9.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 73.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 80,
+    "play": 10,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 40
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 26.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 83.3,
+    "play": 6
+   }
+  ]
+ }
+}

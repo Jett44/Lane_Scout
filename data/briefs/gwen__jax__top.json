@@ -1,0 +1,373 @@
+{
+ "you": "Gwen",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill, winnable",
+   "line": "You lose if Jax lands a leap-empower combo while your E (Skip 'n Slash) is down; you win by denying his all-in windows and outscaling through Dusk and Dawn and Shadowflame."
+  },
+  "thesis": "Jax's threat is burst timing, not sustained damage: Q (Leap Strike) closing with W (Empower) loaded is the only window he kills you in. Gwen's Q (Snip Snip!) deals true damage in its center hit, which is not a basic attack, so Jax's E (Counter Strike) dodging autos does nothing to stop it — bait his E, then land Q for free.",
+  "tell": {
+   "watch": "Jax's E (Counter Strike) cooldown",
+   "theirWindow": {
+    "when": "W (Empower) glowing and Q (Leap Strike) ready",
+    "what": "He can leap, empower-auto, and follow with Relentless Assault stacks for a fast burst. Back off to max Q range or drop W (Hallowed Mist) so he has to commit into the mist to reach you."
+   },
+   "yourWindow": {
+    "when": "Jax's E (Counter Strike) is on cooldown",
+    "what": "All-in with E (Skip 'n Slash) into Q — he has no stun to punish the engage, and even if he pops E later your Q's true-damage center hit still lands since it isn't a basic attack."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q leap-ins punish you before your E exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E (Skip 'n Slash) lets you trade and disengage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Relentless Assault extends trades he wins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "R (Needlework) adds poke, items narrow the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Shadowflame and Rabadon's outscale his duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The 91.3%-pick start on this matchup; the extra potion covers the poke you'll eat from Q leap trades while you lack E."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Jax's damage is almost entirely basic attacks (Empower, Relentless Assault stacks) — flat reduction blunts his all-in harder than Mercury's Treads does here."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the highest-winrate path (66.7% over the sampled games) and gives the early burst you need to punish his cooldown gaps."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item in that same path; spikes your Q and E burst right as his Relentless Assault window gets scarier."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Closes out the build order that posted 66.7% in the sample — this is where Gwen's late-game edge over Jax actually shows up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Nashor's Tooth",
+     "when": "jax is building tanky and you need attack speed to keep E's on-hit damage relevant"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustain in extended side-lane fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "You need to win extended trades, not just burst ones — Conqueror's ramping damage and adaptive healing stacks exactly during the E-into-Q-into-auto sequences you're using to out-trade him.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash/Ignite is run in 87% of games here and lets you close out the all-ins you win; Flash/Teleport (8.7% pick, 50% win rate) is the alternative if you expect a longer, less kill-focused lane."
+  },
+  "playing": [
+   {
+    "title": "Bait Counter Strike before trading",
+    "detail": "Jax's E (Counter Strike) only dodges basic attacks. Throw out a Q (Snip Snip!) first — if he pops E to dodge, land the true-damage center hit anyway and follow with autos once his stance ends."
+   },
+   {
+    "title": "Track Q (Leap Strike) cooldown, not just distance",
+    "detail": "Leap Strike's cooldown drops from 17s at rank 1 to 5s at rank 5 — by mid-game he can reset the leap almost every trade. Don't assume one dodged leap buys you a long window."
+   },
+   {
+    "title": "Drop W (Hallowed Mist) before he commits",
+    "detail": "Hallowed Mist only lets enemies target you once they enter it. Pre-place it when he's loading Empower so his leap-in forces him to walk into your zone, not the other way around."
+   },
+   {
+    "title": "Chain E into Q for the reset",
+    "detail": "Skip 'n Slash's cooldown partially refunds if you hit an enemy during its attack-speed window. Dash in, auto, then Q — a connected hit gets your dash back faster than its base 13-11s cooldown."
+   },
+   {
+    "title": "Don't extended-trade after level 6",
+    "detail": "Relentless Assault gives Jax free attack speed on consecutive hits with bonus damage every third strike. Once he's stacking it, disengage with E rather than standing in prolonged auto exchanges."
+   },
+   {
+    "title": "Save R (Needlework) ranks for poke, not kill threat",
+    "detail": "Needlework starts at a 120s cooldown at rank 1, far too slow to rely on in lane. Once it's ranked up its cooldown drops sharply — use it to zone his approach rather than expecting an early execute."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the 51% overall win rate with Jax holding lane and solo-kill advantage are measured from live OP.GG games on the current patch; the timing reads on Counter Strike, Leap Strike cooldowns, and the Hallowed Mist interaction are our tactical judgment, not measured data."
+ },
+ "generatedAt": 1791382954536,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791382876334,
+  "overall": {
+   "winRate": 51,
+   "play": 859,
+   "tier": 3
+  },
+  "headToHead": null,
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 35,
+    "play": 20,
+    "pickRate": 87
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 8.7
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 4.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 21.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 8.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 38.1,
+    "play": 21,
+    "pickRate": 91.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 4.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 12.5,
+    "play": 8,
+    "pickRate": 53.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 20
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 37.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Nashor's Tooth",
+     "Shadowflame"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 12.5
+   },
+   {
+    "items": [
+     "Nashor's Tooth",
+     "Riftmaker",
+     "Shadowflame"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 12.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 40.9
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 22.2,
+    "play": 9,
+    "pickRate": 40.9
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 36.4
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 16.7,
+    "play": 6,
+    "pickRate": 27.3
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 18.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 100,
+    "play": 3
+   }
+  ]
+ }
+}

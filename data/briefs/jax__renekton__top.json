@@ -1,0 +1,386 @@
+{
+ "you": "Jax",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, not free",
+   "line": "You lose if you trade blind into Fury-empowered stuns before level 6; you win if you survive to Trinity Force and let Relentless Assault take over extended fights."
+  },
+  "thesis": "Renekton's entire kit is gated by his passive, Reign of Anger: above 50 Fury his Q (Cull the Meek) heals harder and his W (Ruthless Predator) upgrades from a two-hit 0.75s stun into a three-hit 1.5s stun that strips shields. That makes his all-in frontloaded and resource-dependent rather than always-on. Jax's counter is structural: E (Counter Strike) dodges all incoming basic attacks for its duration, which is the exact mechanism Renekton needs to land Ruthless Predator, so a well-timed E on his dash doesn't just trade damage, it voids the combo.",
+  "tell": {
+   "watch": "Renekton's Fury bar (above/below 50)",
+   "theirWindow": {
+    "when": "Fury is high and his E is up",
+    "what": "He'll dash in with Slice and Dice (E, 16-10s cooldown scaling by rank) to set up the empowered three-hit Ruthless Predator for the 1.5s stun and shield break. Per the matchup read, this is when you hold Counter Strike rather than trade autos."
+   },
+   "yourWindow": {
+    "when": "His E is down and Fury is low",
+    "what": "Leap Strike (Q) in, pop Empower (W) on an attack, and commit to the auto trade. Below 50 Fury his Q sustain is weak and his W stun is only the base 0.75s, so he can't chain a second stun before Counter Strike (18-10s cooldown by rank) is back up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "His W stun lands before your trades scale"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Empower cooldown drops, trades even out"
+   },
+   {
+    "levels": "6",
+    "edge": "them",
+    "note": "Dominus grants bonus health, AoE burst"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "Trinity Force online, Counter Strike punishes dashes"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Full build plus Relentless Assault wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Measured at 60% win rate over 20 games, the highest of the two starts. Renekton's trades are auto-attack-driven to feed his Fury, so the flat damage block and HP5 blunt exactly the poke pattern he relies on to reach the 50 Fury threshold."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "45% win rate over 40 games and an 80% pick rate. Reduces incoming physical damage from his stacked slashes during the empowered Ruthless Predator and from extended auto trades."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the best-performing path (100% win rate over 5 games). Spikes damage and attack speed right as you want to start winning post-6 trades."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item in that same path; adds burst and sustain on crit-on-first-hit, reinforcing the short trade windows you get after a landed Counter Strike."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Caps the path; survives his Dominus all-in burst and the empowered W stun-lock so you don't get deleted in a 1.5s stun window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Blade of The Ruined King",
+     "when": "renekton is building toward a tankier, higher-health profile off his ultimate and itemization"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "his all-in burst through ignite or a full Fury combo threatens to kill you outright"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game is going long and you need the extra sustain and tempo over a straight damage item"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Measured at 50% win rate on this page (11.1% pick). Grasp rewards the slower auto-trade pattern you want here, converting health into stay-power so you out-sustain his Fury-fueled Q healing across the laning phase rather than trying to out-burst him before 6.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is the most-picked combo (50.9% pick, 48.1% win rate) and converts your measured solo-kill advantage into actual kills once Counter Strike turns a Renekton engage. Flash + Teleport (37.7% pick, 50% win rate) is the alternative when you want wave/tempo flexibility over a secured kill."
+  },
+  "playing": [
+   {
+    "title": "Take E at level 1",
+    "detail": "The measured skill order opens Counter Strike instead of Leap Strike, giving you an answer to his stun combo from the very first trade instead of waiting until level 2 or later."
+   },
+   {
+    "title": "Hold E for his dash, not his autos",
+    "detail": "Counter Strike dodges all incoming basic attacks for its duration. Save it for when he commits Slice and Dice (E) to close the gap, since that's the engine behind his Ruthless Predator follow-up, not for random pokes."
+   },
+   {
+    "title": "Retreat if your E whiffs",
+    "detail": "If he keeps closing after Counter Strike is down, disengage rather than trade blind. His base W stun is still 0.75s even unempowered and can start a second chain."
+   },
+   {
+    "title": "Track Fury, not just health",
+    "detail": "Below 50 Fury his Q heal and empowered W/E don't trigger. That's your all-in window: Leap Strike in, Empower an attack, and commit."
+   },
+   {
+    "title": "Respect the level 6 spike",
+    "detail": "Dominus grants him bonus health and deals AoE damage around him on cast. Don't extend a close trade right as he hits 6 unless your own E is already up."
+   },
+   {
+    "title": "Rush the Trinity Force spike",
+    "detail": "The highest-performing path builds Trinity Force first. Prioritize reaching that spike before his second Dominus cast comes off its 120-second base cooldown."
+   },
+   {
+    "title": "Win fights late, not fast",
+    "detail": "Relentless Assault has no cooldown and stacks attack speed with bonus damage every third hit. The longer a skirmish runs past his initial burst, the more it favors you."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and every win-rate or sample-size figure here are pulled from measured OP.GG games on the current patch; the Fury-threshold reasoning, skill order rationale, and trade timing are my own read of the kit, not measured data."
+ },
+ "generatedAt": 1791380521096,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791380408049,
+  "overall": {
+   "winRate": 50.6,
+   "play": 2218,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 47,
+   "wins": 26,
+   "winRate": 55.3
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Use Counter Strike [E] when Renekton closes in using Slice/Dice (E) to block his Ruthless Predator (W). If Renekton continues to close in, stun him with Counter Strike [E] and retreat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 50.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 37.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 11.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 27.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 11.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 41.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 37.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45,
+    "play": 40,
+    "pickRate": 80
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 18
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 100,
+    "play": 5,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Blade of The Ruined King",
+     "Black Cleaver"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 83
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 11.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 46.2,
+    "play": 13
+   }
+  ]
+ }
+}
