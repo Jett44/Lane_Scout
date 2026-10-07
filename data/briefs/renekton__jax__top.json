@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you let the lane turn into extended auto trades once Jax hits 6 and his Counter Strike (E) is up; you win if you land your stun combo while Fury is above 50 before that E comes off cooldown."
+  },
+  "thesis": "Renekton's stun pressure from Q (Cull the Meek), W (Ruthless Predator), and E (Slice and Dice) is front-loaded and punishes short-trade windows before level 6, while Jax's Counter Strike (E) and Relentless Assault (R) reward exactly the kind of prolonged auto-attack fight Renekton should avoid once Jax hits 6. The 50.2% win rate over 2815 games reflects two kits with opposite timing windows rather than a clear favorite — Renekton owns the engage, Jax owns the extended fight.",
+  "tell": {
+   "watch": "Jax's Counter Strike (E) cooldown",
+   "theirWindow": {
+    "when": "Jax's E is up, level 6+",
+    "what": "His Counter Strike dodges all incoming basic attacks for its duration and then stuns and damages everyone around him, so an all-in into an up E gets your autos negated and you eat a free stun. Hold your empowered W (the 3-hit version) and wait him out instead of forcing it into that window."
+   },
+   "yourWindow": {
+    "when": "Fury over 50, his E on cooldown",
+    "what": "At 50+ Fury your W becomes three slashes that strip shields and stun for 1.5s instead of 0.75s, and your Q and E both hit harder with E also shredding Armor. Commit the full Q-E-W string the instant you see his E go down, especially before he hits level 6 and unlocks Relentless Assault."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both poking, no stun combo online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W stun lands, his E still 18s at rank 1"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R attack speed snowballs extended trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Eclipse burst answers his AS scaling"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "both fully scaled, skirmish timing decides"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "69.5% pick rate at 49.9% win rate — the sustained-damage start keeps your short trades ahead since Jax has no ranged poke to punish you for standing in autos."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "76.3% pick at 50.4% — Jax's damage comes entirely from Empower-boosted autos and Relentless Assault stacks, so flat reduction on his attack speed scaling matters more than tenacity."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield and burst proc reward exactly the short all-in windows your stun combo opens before his E comes back up."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacks Armor shred on top of your empowered E's own shred, which matters since Jax's passive gives him free bonus health that scales with his items."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "57.8% win rate over 400 games on this path — the damage-over-time conversion lets you tank through his Relentless Assault attack speed windows instead of losing the extended fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he out-scales you through items and you need to survive his Relentless Assault attack speed stacking in extended fights"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want to shorten your W and E cooldowns to stack Fury faster and chain stuns"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy jungler or mid is magic-damage heavy and you need the extra MR over the flat armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "48.5% win rate at 43.2% pick — Conqueror's stacking adaptive damage and the healing on full stacks reward the exact short, repeated trades your Q heal and stun combo create.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "81.3% pick rate at 50.4% win rate — Ignite punishes Jax's lack of sustain in the short trade windows your stun combo creates before his Counter Strike resets."
+  },
+  "playing": [
+   {
+    "title": "Track your own Fury, not just his cooldowns",
+    "detail": "Your Q, W, and E all get materially stronger above 50 Fury — W specifically goes from two slashes with a 0.75s stun to three slashes that strip shields and stun for 1.5s. Build Fury in safe exchanges before you commit the real combo."
+   },
+   {
+    "title": "Never W into an active Counter Strike",
+    "detail": "His E dodges all incoming basic attacks and then stuns and damages everyone around him. Your empowered W's follow-up autos get voided by this, so hold the combo until his E visibly goes down."
+   },
+   {
+    "title": "All-in before level 6",
+    "detail": "His E is 18 seconds at rank 1 and he has no Relentless Assault yet, so your W-stun into Q-E window has no clean punish. This is your single best all-in period of the lane."
+   },
+   {
+    "title": "Punish his Leap Strike engage",
+    "detail": "Once he commits Q to leap onto you, he has no second gap-closer or escape besides that same ability on cooldown. Land your W stun immediately after the leap lands to lock in the trade."
+   },
+   {
+    "title": "Watch his stacks before you commit",
+    "detail": "Check his Conqueror or passive stacking before engaging — a fully stacked Jax heals or hits significantly harder on the trade, so bait a bad E usage from him first if you can."
+   },
+   {
+    "title": "Avoid extended auto trades past level 6",
+    "detail": "Relentless Assault gives him free attack speed on every strike with bonus damage every third hit, so standing and trading autos past a few seconds favors him. Land your burst and disengage instead of staying in range."
+   },
+   {
+    "title": "Use E to reset the fight, not just engage",
+    "detail": "Slice and Dice's dash can reposition you out of his attack-speed window just as easily as it closes distance. Don't treat it as a one-way commit button once his R is active."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch; the timing windows, stun interactions, and trade advice are my own read of the ability text, not measured data."
+ },
+ "generatedAt": 1791364542299,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791364440355,
+  "overall": {
+   "winRate": 49.7,
+   "play": 131023,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2815,
+   "wins": 1414,
+   "winRate": 50.2
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful not to use Renekton’s reinforced [W] while Jax has Counter Strike (E) active. Keep an eye out on Jax’s Conqueror and (P) stacks before engaging combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.4,
+    "play": 2708,
+    "pickRate": 81.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.9,
+    "play": 519,
+    "pickRate": 15.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 38.9,
+    "play": 90,
+    "pickRate": 2.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.5,
+    "play": 1470,
+    "pickRate": 43.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.5,
+    "play": 329,
+    "pickRate": 9.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 2315,
+    "pickRate": 69.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.7,
+    "play": 667,
+    "pickRate": 20
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.4,
+    "play": 2421,
+    "pickRate": 76.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.8,
+    "play": 710,
+    "pickRate": 22.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 57.8,
+    "play": 400,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 59,
+    "play": 227,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 54.1,
+    "play": 98,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51,
+    "play": 2407,
+    "pickRate": 73.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.7,
+    "play": 2249,
+    "pickRate": 68.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 55.4,
+    "play": 1207,
+    "pickRate": 36.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.9,
+    "play": 960,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 51.7,
+    "play": 666,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.6,
+    "play": 322,
+    "pickRate": 9.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.7,
+    "play": 1137
+   }
+  ]
+ }
+}

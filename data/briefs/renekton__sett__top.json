@@ -1,0 +1,388 @@
+{
+ "you": "Renekton",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into an extended fight and let Sett's missing-health regen outheal you; you win if you hold for 50+ Fury and burst him before his Haymaker shield is up."
+  },
+  "thesis": "This matchup is decided by two resource bars, not raw stats: your Fury threshold at 50 upgrades W (Ruthless Predator) into a 3-hit, shield-destroying 1.5s stun, and Sett's Grit on W (Haymaker) decides whether he has a shield when you commit. The 52.2% head-to-head over 4067 games reflects Renekton players who time their all-in around those two meters instead of just trading autos.",
+  "tell": {
+   "watch": "Your Fury bar crossing 50",
+   "theirWindow": {
+    "when": "fight drags past 3-4 seconds",
+    "what": "Sett's passive (Pit Grit) grants extra health regen scaled to his missing health, so a long grinding trade lets him heal back what you did. Don't stay in prolonged auto exchanges with him."
+   },
+   "yourWindow": {
+    "when": "Sett has just cast W (Haymaker)",
+    "what": "His Grit is fully spent and Haymaker is down for 18/16.5/15/13.5/12s depending on rank, so he has no shield or burst tool. Commit your full combo immediately after he throws it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Sett's passive regen offsets your Q sustain"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "full Q-W-E combo online, Fury all-ins hit hard"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R adds health, AoE damage, and Fury generation"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Sett's Q scaling and item spikes close the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Sett's regen and R threaten you if behind"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Run with the 84%-pick, 51.8% winrate start over 4227 games. The AD and lifesteal fund short trades where you poke with Q and walk away before Sett's passive regen matters."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.1% pick, 51.8% winrate. Sett's damage is almost entirely physical (autos, Q, E), so the flat damage reduction blunts his trades far more than the Mercury's Treads alternative."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Shield proc covers you through Sett's Q empowered autos during your all-in window."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks with your empowered E, letting your burst through his resistances."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion keeps you alive through Sett's delayed Haymaker burst and funds the Eclipse/Black Cleaver/Death's Dance line's 58.6% winrate over 862 games."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need anti-burst tankiness against his R and E combo"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're snowballing and want the extra ability haste to stack Fury and reset W faster"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team stacks hard CC beyond just Sett's stuns"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need to stick to him or peel him off a teammate in extended fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive damage and healing on extended trades directly counters Sett's missing-health regen, keeping your sustain competitive if an all-in runs long. This is the 52.1%-winrate, 48%-pick page.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The 89%-pick, 52.8%-winrate standard. Ignite denies the exact thing Sett relies on to win extended fights: his passive missing-health regen. Take it specifically to shut that down after you land your all-in."
+  },
+  "playing": [
+   {
+    "title": "Bait his W before you commit",
+    "detail": "Sett's Haymaker only has power once Grit is banked from damage he's taken. Poke with Q (Cull the Meek, 7s cooldown) at range rather than committing fully, so he's tempted to pop Haymaker early or walk into your real all-in without it up."
+   },
+   {
+    "title": "All-in only at 50+ Fury",
+    "detail": "Below 50 Fury your W is a 2-hit, 0.75s stun. Above it, W becomes a 3-hit stun of 1.5 seconds that destroys shields and hits hard — including the exact shield Haymaker grants him, per OP.GG's own read of this matchup."
+   },
+   {
+    "title": "Punish the moment Haymaker is down",
+    "detail": "Once you see Sett cast W, its cooldown is 18/16.5/15/13.5/12s by rank. That's your clearest window to dive with Q-W-E; he has no shield and no true-damage burst available."
+   },
+   {
+    "title": "Don't fear Facebreaker in a clean 1v1",
+    "detail": "Sett's E only stuns if there are enemies on opposite sides of him; alone in lane away from the wave it will only slow you. Don't play passively around a stun that isn't actually live, but don't stand with minions directly behind you either."
+   },
+   {
+    "title": "Keep trades short, not drawn out",
+    "detail": "His passive grants bonus regen scaled to missing health, so grinding a long exchange lets him heal back what you landed. Burst with your combo and disengage with E rather than staying in prolonged autos."
+   },
+   {
+    "title": "Don't stand still into his Q",
+    "detail": "Knuckle Down (9-5s cooldown by rank) empowers his next two attacks off max health and speeds him toward you while active. Use E to reposition rather than let him walk the empowered hits onto you for free."
+   },
+   {
+    "title": "Pop R before your level-6 all-in",
+    "detail": "Dominus grants bonus health, AoE damage around you, and periodic Fury generation while transformed — using it before you engage both tanks his burst and gets you to the 50-Fury threshold faster."
+   }
+  ],
+  "patchCaveat": "Build, rune, summoner, and winrate numbers are pulled from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning and trade timing are my own read of the kits, not measured data."
+ },
+ "generatedAt": 1791364310305,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791364202095,
+  "overall": {
+   "winRate": 49.7,
+   "play": 131023,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 4067,
+   "wins": 2124,
+   "winRate": 52.2
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Renekton’s reinforced [W] can destroy Sett’s (W) shield. Be careful of being hit in the middle part of Sett’s (W) when engaging combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.8,
+    "play": 4458,
+    "pickRate": 89
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.2,
+    "play": 446,
+    "pickRate": 8.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 37.3,
+    "play": 83,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.1,
+    "play": 2457,
+    "pickRate": 48
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.5,
+    "play": 690,
+    "pickRate": 13.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 4227,
+    "pickRate": 84
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.8,
+    "play": 614,
+    "pickRate": 12.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.8,
+    "play": 4101,
+    "pickRate": 85.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.6,
+    "play": 651,
+    "pickRate": 13.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 58.6,
+    "play": 862,
+    "pickRate": 27
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 58.4,
+    "play": 416,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 61.2,
+    "play": 165,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 53.3,
+    "play": 3943,
+    "pickRate": 80.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.4,
+    "play": 3492,
+    "pickRate": 71
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.4,
+    "play": 2146,
+    "pickRate": 43.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.8,
+    "play": 1459,
+    "pickRate": 29.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54,
+    "play": 1060,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 54.6,
+    "play": 379,
+    "pickRate": 7.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 1364
+   }
+  ]
+ }
+}

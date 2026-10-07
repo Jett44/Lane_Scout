@@ -1,0 +1,384 @@
+{
+ "you": "Sett",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if he's allowed to dump Fury-empowered W on you for free; you win once Stridebreaker is up and he has no more burst windows to abuse."
+  },
+  "thesis": "Renekton's whole kit is gated by a Fury bar that fills off his own attacks — at 50+ Fury his W (Ruthless Predator) goes from a single 0.75s stun to a triple-hit, shield-shredding 1.5s stun, and that's the one trade axis this matchup actually hinges on. Sett has no dash to dodge it and no shield until Haymaker's Grit meter is full, so the first 5 levels are about surviving that window, not winning it. The 47.7% win rate over 4071 games says this is a genuine uphill lane, not a loss — it flips once items come online.",
+  "tell": {
+   "watch": "Renekton's Fury bar (50 threshold)",
+   "theirWindow": {
+    "when": "his Fury bar reads 50+",
+    "what": "His W (Ruthless Predator) becomes a 3-hit stun lasting 1.5s that strips shields — do not let him land the first hit of a trade here, back off a step and let him walk into Facebreaker range instead."
+   },
+   "yourWindow": {
+    "when": "his E (Slice and Dice) is on cooldown",
+    "what": "Slice and Dice is his only gap-close and escape, on a 16/14.5/13/11.5/10s timer. With it down he can't disengage a 2v1 or run from a stunned trade, so this is when you commit your W (Haymaker) burst and stand in melee range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his W stun lands before your kit exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Fury-fueled Q/W combo outdamages your trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your Grit shield answers his Dominus burst"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "Stridebreaker/Black Cleaver online, you out-scale"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "full build duels, R punishes overextension"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 79.1% pick rate and 48.7% win rate over 4004 games reflect how this lane is settled — sustained melee trades where the extra AD and healing-on-hit keep you in range fights you'd otherwise lose to his Q heal."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "78% pick rate at 48.5% win rate — Renekton's entire kit is physical autos and ability damage, so flat reduction blunts both his empowered W and his Q sustain."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Gives you the gap-close and burst you're missing before level 9, and anchors the 59% win rate path over 774 games."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shred armor to push through his Fury-stacked tankiness once he's committed to Dominus form."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Health and damage scaling that keeps you alive through his all-in window while out-trading him post-6."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's landing the full 3-hit W consistently and you need the tenacity/shield to survive it"
+    },
+    {
+     "item": "Warmog's Armor",
+     "when": "the lane has gone even and you want to win extended skirmishes through sheer HP"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he's building tanky and you need the %current-health damage to keep dueling him"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is a sustained-trade matchup decided by who's still standing after 3-4 exchanges, not a burst duel — Conqueror's stacking adaptive force and healing rewards exactly that.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "90.4% pick rate at 48.4% win rate — Ignite answers his Q (Cull the Meek) sustain directly and turns a close trade into a kill once his Fury-dump W window closes."
+  },
+  "playing": [
+   {
+    "title": "Let him swing first",
+    "detail": "Sett's W (Haymaker) only charges Grit from damage you take, so early trades where you absorb a hit before answering actually fuel your own shield-and-nuke response."
+   },
+   {
+    "title": "Never trade into 50+ Fury",
+    "detail": "Watch his Fury bar before every exchange — at 50 his W is a 1.5s triple-hit stun that shreds your shields, versus a single 0.75s stun below it."
+   },
+   {
+    "title": "Track his E cooldown",
+    "detail": "Slice and Dice (16/14.5/13/11.5/10s) is his only dash. When it's down he can't disengage, which is when you commit your own all-in."
+   },
+   {
+    "title": "Position before Facebreaker",
+    "detail": "Your E only stuns if he's caught between enemies on opposite sides — against a single target centered on you it just slows, so walk around him before casting."
+   },
+   {
+    "title": "Hold R for overextensions",
+    "detail": "The Show Stopper is a 120/100/80/80/80s pick tool, not a trade cooldown — save it for when he's pushed past his support or minions after a missed all-in."
+   },
+   {
+    "title": "Use Q to stick, not to open",
+    "detail": "Knuckle Down's move speed only triggers moving toward champions, so pop it as he commits into range rather than from max distance."
+   },
+   {
+    "title": "Punish his post-ult Fury dump",
+    "detail": "After Dominus ends he's spent most of his stored Fury — that's your cleanest window to force a second trade he can't answer with an empowered W."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate/pick-rate figures here are measured from live games on the current patch via OP.GG; the Fury-threshold reasoning and trade-window calls are my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791363893204,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791363817545,
+  "overall": {
+   "winRate": 50.4,
+   "play": 140376,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 4071,
+   "wins": 1943,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Keep an eye out on Renekton’s Fury before fighting him. Use [W] when he tries using his reinforced skill to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.4,
+    "play": 4534,
+    "pickRate": 90.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.8,
+    "play": 310,
+    "pickRate": 6.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45,
+    "play": 129,
+    "pickRate": 2.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.7,
+    "play": 1395,
+    "pickRate": 27.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49,
+    "play": 433,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.7,
+    "play": 4004,
+    "pickRate": 79.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 755,
+    "pickRate": 14.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.5,
+    "play": 3696,
+    "pickRate": 78
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.9,
+    "play": 591,
+    "pickRate": 12.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 59,
+    "play": 774,
+    "pickRate": 31.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 58.7,
+    "play": 344,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Warmog's Armor"
+    ],
+    "winRate": 60.3,
+    "play": 136,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.4,
+    "play": 4524,
+    "pickRate": 91.3
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 54.2,
+    "play": 2620,
+    "pickRate": 52.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.1,
+    "play": 2098,
+    "pickRate": 42.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.5,
+    "play": 1146,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 58.8,
+    "play": 486,
+    "pickRate": 9.8
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 44.3,
+    "play": 481,
+    "pickRate": 9.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.2,
+    "play": 1094
+   }
+  ]
+ }
+}

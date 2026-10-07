@@ -1,0 +1,376 @@
+{
+ "you": "Mordekaiser",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if Renekton catches you with a 50+ Fury W combo before you have E to answer; you win if the lane survives to mid game, where your 55.3% Rylai's-Riftmaker-Liandry's core takes over."
+  },
+  "thesis": "This is a genuinely even lane at 50.3% over 2612 games because both champions have a hard engage tool on a real cooldown — your E (Death's Grasp, 16/14/12/10/8s) pulls him in, his W (Ruthless Predator, 16/14/12/10/8s) stuns you — and whoever's engage tool is up controls the trade. Renekton's Fury resource (Reign of Anger) is the swing variable: below 50 Fury he's just a melee stick-fighter you can out-trade, above 50 Fury his Q and W both get materially stronger. Your skill order puts E online at level 2, so from early you have a real punish tool for his dash cooldowns rather than just tanking hits.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Renekton sits above 50 Fury with W ready",
+    "what": "Above 50 Fury his Q (Cull the Meek) does increased damage and heal, and his W becomes a 3-hit slash that strips shields, stuns for 1.5s instead of 0.75s, and hits hard. Don't let him walk up to melee range on his terms here — hold W (Indestructible) to eat the burst, since it can't be shield-broken if it's already up."
+   },
+   "yourWindow": {
+    "when": "right after his E (Slice and Dice) dash is spent",
+    "what": "Slice and Dice is 16/14.5/13/11.5/10s on cooldown — once he's committed it to engage or reposition, he has no gap-closer back. Land E (Death's Grasp, 700 range) to pull him into your Q (Obliterate), which hits hardest on a single target."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "W stun combo online before your E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "your E punishes his dash cooldown"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "both ultimates situational, not decisive"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Rylai's-Riftmaker core outscales his falloff"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Measured at 46.2% over 485 games (15.2% pick) for this matchup — the flat damage reduction on autos blunts his early poke and all-in attempts while his Fury is still building."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Taken in 83.1% of games at 50.4% win rate. Renekton's damage is almost entirely auto-attacks and physical ability hits, so the attack-damage reduction directly cuts his trade output."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "First item in the strongest measured path (55.3% over 188 games). The slow from your Q and E makes it much harder for him to disengage after Slice and Dice is down."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Second in that same 55.3% path — omnivamp sustains you through extended trades once his burst window has passed."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Closes out the top-performing build path and scales your sustained damage against his health bar in longer fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's ahead and building into lifesteal or crit, since it appears in a 54.2% core path alongside Rylai's"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "he's sustaining through your trades off Cull the Meek's heal and you need the extra healing cut"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is the measured 55.2%-pick page for the matchup — Conqueror's stacking damage and the healing it grants on stacks lets you win the extended, grindy trades this even lane produces.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The highest-performing and most-picked combo for this matchup (50.4% win rate, 81.7% pick). Ignite punishes his Cull the Meek sustain directly and secures kills once you win a trade."
+  },
+  "playing": [
+   {
+    "title": "Track Fury before trading",
+    "detail": "Below 50 Fury his Q and W are their base, weaker versions. Initiate trades here rather than waiting for him to stack Fury off autos."
+   },
+   {
+    "title": "Pull on dash cooldown",
+    "detail": "Slice and Dice is his only gap-closer. The moment he's used it, you have a free 700-range E (Death's Grasp) window with no retaliation dash available to him."
+   },
+   {
+    "title": "Save W for the 3-hit combo",
+    "detail": "Indestructible stores damage you take to shield you. Pop it right before he lands an empowered W so the shield absorbs the 1.5s-stun combo instead of being broken by it."
+   },
+   {
+    "title": "Single-target with Q when isolated",
+    "detail": "Obliterate's damage is increased when it hits only him, so don't bait it into minions if you're trying to win a 1v1 trade."
+   },
+   {
+    "title": "Respect his level 2 all-in",
+    "detail": "His W-Q combo comes online before your E does if he hits level 2 first off a cannon wave or fast clear. Play for trades, not all-ins, until you have E."
+   },
+   {
+    "title": "Don't force fights into his ultimate",
+    "detail": "Dominus (120/100/80/80/80s) gives him bonus health and periodic Fury generation. If he's just transformed, disengage and wait him out rather than trading into the bonus health bar."
+   },
+   {
+    "title": "Play for the midgame item spike",
+    "detail": "Your Rylai's-Riftmaker-Liandry's core (55.3% win rate) is the actual win condition here — prioritize surviving lane over forcing kills if the trades stay even."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from current-patch OP.GG games for this exact matchup; the trade-pattern and timing analysis is my own reading of the kits, not measured data."
+ },
+ "generatedAt": 1791363992102,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791363900072,
+  "overall": {
+   "winRate": 49.8,
+   "play": 115264,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2612,
+   "wins": 1313,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Purchase Bramble Vest and other items that increase armor before closing in to fight Renekton. Keep in mind that his reinforced (W) can go through armor.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.4,
+    "play": 2599,
+    "pickRate": 81.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.8,
+    "play": 316,
+    "pickRate": 9.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.8,
+    "play": 201,
+    "pickRate": 6.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.3,
+    "play": 1794,
+    "pickRate": 55.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 243,
+    "pickRate": 7.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.9,
+    "play": 2337,
+    "pickRate": 73.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 485,
+    "pickRate": 15.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.4,
+    "play": 2526,
+    "pickRate": 83.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.1,
+    "play": 366,
+    "pickRate": 12
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 55.3,
+    "play": 188,
+    "pickRate": 9.9
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 54.2,
+    "play": 107,
+    "pickRate": 5.7
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Thornmail"
+    ],
+    "winRate": 50.7,
+    "play": 69,
+    "pickRate": 3.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 52.2,
+    "play": 2245,
+    "pickRate": 71.4
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 51.1,
+    "play": 2205,
+    "pickRate": 70.1
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 53.8,
+    "play": 1034,
+    "pickRate": 32.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.7,
+    "play": 950,
+    "pickRate": 30.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.9,
+    "play": 843,
+    "pickRate": 26.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 55.3,
+    "play": 472,
+    "pickRate": 15
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.5,
+    "play": 1408
+   }
+  ]
+ }
+}

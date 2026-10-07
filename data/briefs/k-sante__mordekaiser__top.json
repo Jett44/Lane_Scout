@@ -1,0 +1,380 @@
+{
+ "you": "K'Sante",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, skill matchup",
+   "line": "You lose if his E (Death's Grasp) catches you mid-animation and chains into Q (Obliterate) before you can shield; you win if you force the first stun with W (Path Maker), since he has nothing to escape it with."
+  },
+  "thesis": "Mordekaiser has zero mobility outside of E (Death's Grasp) — no dash, no blink, nothing that lets him leave melee range once he's committed. K'Sante's whole kit is built to punish exactly that: the 2-stack Q (Ntofo Strikes) shockwave pulls him in, and W (Path Maker) stuns him on the spot, and he cannot walk out of either. The 49% head-to-head over 1,844 games reflects that his pull-into-burst (E into Q) wins the fight if it lands first, but the data's lane-advantage and solo-kill-advantage edges both belong to you because once your stun connects, he's stuck.",
+  "tell": {
+   "watch": "Mordekaiser's W (Indestructible) cooldown",
+   "theirWindow": {
+    "when": "when his E (Death's Grasp) is up",
+    "what": "He pulls you in with E then lands Q (Obliterate) and autos to stack Darkness Rise. Expect a burst of bonus magic damage and move speed right after the third hit lands."
+   },
+   "yourWindow": {
+    "when": "when his E (Death's Grasp) is down",
+    "what": "He has no dash or blink to disengage, so charge W (Path Maker) into him, land the knockback-stun, and chain Q (Ntofo Strikes) autos while he's stuck in melee range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Even poke, his Q hits harder single-target"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W (Path Maker) online, stuns swing trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "His R isolates you for a duel"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Shorter cooldowns both sides, trades normalize"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Rookern blunts his burst, you out-scale"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm",
+    "why": "Mordekaiser's whole early game is magic poke from Q (Obliterate) and autos; Doran's Helm's sustain and magic damage reduction holds the lane through those trades."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "His damage is 100% magic, and the tenacity matters once he starts chaining E (Death's Grasp) pulls into stuns from allies."
+   },
+   "core": [
+    {
+     "item": "Kaenic Rookern",
+     "why": "A flat magic shield that recharges is the single best answer to a melee magic-damage laner who lives on repeated Q and auto trades."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Gives you the AoE slow and extra trade damage to back up Q (Ntofo Strikes) stacking and W (Path Maker) engages."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances rewards the long trades this lane turns into once both W and E cooldowns are down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "his Indestructible (W) shield-heal is undoing your damage in extended trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he's hitting Darkness Rise procs and auto-trading you down early"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "you're already ahead and want a cheaper, faster defensive item to keep the lead"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the auto-trade pattern this lane forces and gives sustained health against his magic poke, which pure damage keystones can't match here.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the standard pick (76.2% pick rate) for scaling and wave management into a melee matchup with no all-in pressure before level 6. Flash+Ignite (49.2% win rate) is a viable alternative if you want to press the solo-kill advantage directly."
+  },
+  "playing": [
+   {
+    "title": "Bait his E before engaging",
+    "detail": "Make him whiff Death's Grasp (cd 16/14/12/10/8s) by holding max range in early trades; once it's down he has no other gap-closer, so you can walk up safely and start the fight on your terms."
+   },
+   {
+    "title": "Stack Q before W stun",
+    "detail": "Land Ntofo Strikes (Q) twice to trigger the 2-stack shockwave pull, then immediately follow with the charge-up on Path Maker (W) for a stun he cannot walk out of."
+   },
+   {
+    "title": "Respect level 6 isolation",
+    "detail": "Once he hits Realm of Death (R, cd 140/120/100/90/80s), any all-in drags you into a 1v1 pocket with no outside help; don't commit to extended trades right as his ultimate comes off cooldown unless you're clearly ahead."
+   },
+   {
+    "title": "Track his Indestructible charges",
+    "detail": "Indestructible (W, cd 12/11/10/9/8s) banks a shield from damage dealt and taken; trade in short bursts so he can't stack a big one off a long fight, and finish extended trades only after it's down."
+   },
+   {
+    "title": "Deny his passive stacks",
+    "detail": "Darkness Rise triggers after he lands 3 attacks or spells on you, giving him a damage aura and move speed; use Footwork (E) to reset range instead of standing in repeated Obliterate (Q) hits."
+   },
+   {
+    "title": "Time All Out with your stun",
+    "detail": "All Out (R) knocks him through terrain and drops your defenses in exchange for damage; pop it right as your W (Path Maker) stun or Q shockwave lands so he can't Indestructible-shield through the burst."
+   }
+  ],
+  "patchCaveat": "Build, runes, boots, and summoner spells here are pulled directly from measured K'Sante vs Mordekaiser games on the current patch (1,844 games, 49% K'Sante win rate); the trade-pattern and timing reads are my own analysis of the kit, not sourced from the data."
+ },
+ "generatedAt": 1791363208257,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791363103492,
+  "overall": {
+   "winRate": 47.2,
+   "play": 93937,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 1844,
+   "wins": 903,
+   "winRate": 49
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.3,
+    "play": 1710,
+    "pickRate": 76.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.2,
+    "play": 441,
+    "pickRate": 19.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40.4,
+    "play": 47,
+    "pickRate": 2.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.8,
+    "play": 566,
+    "pickRate": 24.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.8,
+    "play": 395,
+    "pickRate": 17.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 1985,
+    "pickRate": 87.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.4,
+    "play": 246,
+    "pickRate": 10.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.9,
+    "play": 1227,
+    "pickRate": 58.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48,
+    "play": 798,
+    "pickRate": 38.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 57.7,
+    "play": 213,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Randuin's Omen"
+    ],
+    "winRate": 47.4,
+    "play": 76,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 72,
+    "pickRate": 6.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 49.9,
+    "play": 1708,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 51,
+    "play": 1313,
+    "pickRate": 59.1
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 53.8,
+    "play": 847,
+    "pickRate": 38.2
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 44.5,
+    "play": 373,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 51.6,
+    "play": 335,
+    "pickRate": 15.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.2,
+    "play": 305,
+    "pickRate": 13.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 48.9,
+    "play": 603
+   }
+  ]
+ }
+}

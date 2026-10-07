@@ -1,0 +1,381 @@
+{
+ "you": "Darius",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into his 50+ Fury window or ignore his E (Slice and Dice) cooldown; you win if you time E (Apprehend) pulls for when his Fury is low and bleed him out across 15-20s of heavyweight."
+  },
+  "thesis": "This matchup is decided by Renekton's Fury bar: below 50 Fury his W (Ruthless Predator) is a weak two-hit 0.75s stun, but above 50 it becomes a three-hit 1.5s stun that shreds shields and his Q (Cull the Meek) heal doubles. The 50.9% win rate over 3400 games reflects a lane where both champions have a real all-in, so the winner is whoever forces the fight on their own cooldown state rather than reacting to the other's.",
+  "tell": {
+   "watch": "Renekton's Fury bar (50 threshold)",
+   "theirWindow": {
+    "when": "Fury 50+ and E (Slice and Dice) up",
+    "what": "Do not stand and trade here. His W becomes a 3-hit, 1.5s stun that breaks shields and his Q heal spikes, and he can E in to start it on his terms."
+   },
+   "yourWindow": {
+    "when": "Fury under 50 or his E is down",
+    "what": "This is when you commit. Land E (Apprehend) to pull him in, stack Hemorrhage with Q (Decimate) blade hits and autos, and he has no stun payoff and no dash to disengage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Renekton has Q sustain and W stun before your E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Your E (Apprehend) online, punish his empty dashes"
+   },
+   {
+    "levels": "6",
+    "edge": "even",
+    "note": "Mutual ultimates, his R grants bonus health"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "Lower E cooldown lets you stack Hemorrhage faster"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Core items online, extended trades favor your sustain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "81.4% pick rate and the standard choice for a lane where you need early trade damage and sustain to answer his Q (Cull the Meek) poke-heal."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "83.2% pick rate; his damage is almost entirely basic attacks plus his W/Q hits, so flat physical reduction outvalues Mercury's Treads here despite its stun."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "First item on the strongest measured path (56.4% win rate over 326 games); the active haste lets you stick through his E (Slice and Dice) disengage."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Second item on that same path; the speed buildup closes the gap after he dashes away and the health keeps you alive through his W stun combo."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the 56.4% win rate path; the damage-over-time conversion blunts his burst and keeps your Hemorrhage bleed ticking through his all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he is building lifesteal or you need to survive his level 6 Dominus all-in (64.5% win rate over 107 games, smaller sample)"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "the enemy team stacks magic damage beyond just Renekton (54.9% win rate over 144 games)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 46.4% win rate page builds this matchup around sustained melee trades; Conqueror's healing scales directly with the extended fights you want against his Fury-gated burst.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "This combo posts the highest measured win rate at 51% over 26.6% of games; Ignite directly undercuts his Q (Cull the Meek) and R (Dominus) healing in the all-in windows this lane is built around."
+  },
+  "playing": [
+   {
+    "title": "Punish empty E dashes",
+    "detail": "Renekton's only mobility and disengage is E (Slice and Dice) on a 16/14.5/13/11.5/10s cooldown. The moment he uses it to engage or reposition, land your E (Apprehend) and start stacking Hemorrhage."
+   },
+   {
+    "title": "Read his Fury before committing",
+    "detail": "Below 50 Fury his W (Ruthless Predator) is only a 0.75s two-hit stun. At or above 50 it becomes a 1.5s three-hit stun that destroys shields. Never start a trade into the 50+ window."
+   },
+   {
+    "title": "Hit the blade, not the handle",
+    "detail": "Q (Decimate) only heals off enemy champions struck by the blade edge. In extended trades, position so the blade connects to out-sustain his Q (Cull the Meek) self-heal."
+   },
+   {
+    "title": "Slow his retreat with W",
+    "detail": "Crippling Strike's slow on your next attack is your answer to his E disengage. Hold it until he dashes away so he can't reset the fight on his terms."
+   },
+   {
+    "title": "Time your R around his health pool",
+    "detail": "His R (Dominus) grants bonus Health and ongoing Fury regen, so Noxian Guillotine is only a guaranteed kill once Hemorrhage stacks are high enough that the true damage clears his buffed health bar."
+   },
+   {
+    "title": "Fight at the edge of his Q",
+    "detail": "Per the measured matchup data, staying at max range of Cull the Meek denies his AoE heal while you still threaten with your own longer-reaching E (Apprehend) pull."
+   }
+  ],
+  "patchCaveat": "Build paths, win rates, and pick rates above are measured from live games on the current patch via OP.GG; the Fury-threshold timing and trade-pattern reasoning are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791363808772,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791363742807,
+  "overall": {
+   "winRate": 49.5,
+   "play": 152939,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 3400,
+   "wins": 1731,
+   "winRate": 50.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Fight Renekton while being wary of his Fury and Ignite. Try to hit him at the edge of [Q] while considering his Slice/Dice (E) when fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 49.4,
+    "play": 2690,
+    "pickRate": 65.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51,
+    "play": 1097,
+    "pickRate": 26.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50.7,
+    "play": 294,
+    "pickRate": 7.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 900,
+    "pickRate": 21.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.8,
+    "play": 719,
+    "pickRate": 17.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.9,
+    "play": 3365,
+    "pickRate": 81.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.3,
+    "play": 574,
+    "pickRate": 13.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.8,
+    "play": 3333,
+    "pickRate": 83.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.1,
+    "play": 455,
+    "pickRate": 11.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 56.4,
+    "play": 326,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 54.9,
+    "play": 144,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 64.5,
+    "play": 107,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 56,
+    "play": 2002,
+    "pickRate": 49.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 49.8,
+    "play": 1631,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 52,
+    "play": 1581,
+    "pickRate": 39.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.9,
+    "play": 1350,
+    "pickRate": 33.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.5,
+    "play": 1311,
+    "pickRate": 32.5
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 54.7,
+    "play": 687,
+    "pickRate": 17
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.5,
+    "play": 1158
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 17974
+  }
+ }
+}

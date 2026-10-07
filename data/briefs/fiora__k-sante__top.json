@@ -1,0 +1,393 @@
+{
+ "you": "Fiora",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand in a loaded Q-stack and eat the Path Maker stun that follows it; you win if you bait that sequence, parry his marked auto with Riposte, and outscale him once your core items land."
+  },
+  "thesis": "K'Sante's lane threat is a two-part sequence, not raw stats: Q (Ntofo Strikes) needs a second stack to fire its pulling shockwave, and that pull is what sets up W (Path Maker)'s knockback-stun. Riposte only parries his next basic attack, not that dash-stun or the All Out knockback, so it counters his auto-reliant passive combo rather than bailing you out of his engage. Win the matchup by reading his Q stack and his W charge, not by trusting W to block everything.",
+  "tell": {
+   "watch": "K'Sante's Q (Ntofo) stack count",
+   "theirWindow": {
+    "when": "He already holds one Q stack",
+    "what": "He's one hit from the 2-stack shockwave pull. Back out of Q's short line or let it clip a minion instead, because that pull chains straight into W (Path Maker)'s stun and Riposte does not block either effect."
+   },
+   "yourWindow": {
+    "when": "His passive mark is lit before an auto",
+    "what": "His passive marks you to take bonus damage on his next attack. Hold W (Riposte) until that marked auto is about to land, then parry it — you reflect magic damage back and erase the extra damage his trade was built around."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Low Q stacks, no W stun online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full Q-stack-into-W-stun combo comes online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Blade Waltz lets you punish low-HP all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hydra/Trinity spike outpaces his shield sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "All Out resets fights, Death's Dance offsets it"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "90.8% pick rate and 52.6% win rate over 2280 games — the extra sustain from stacking your passive on trades matters more here than the shield since you're the one initiating pokes with Q."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "61.9% pick, 52.4% win rate — his whole kit is physical autos and physical poke, so flat reduction on every Q line-hit and every marked auto outvalues Mercury's Treads unless his team stacks hard CC beyond his own stun."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "The cleave and on-hit healing sustain you through his Q poke while you stack your passive, and it's the highest-winrate opener at 58.4% across 512 games."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Attack speed and move speed amplify Burst of Speed's stacking move speed, letting you land a Lunge trade and walk out before his next Q or Footwork dash is back up."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts his burst into damage over time so you survive the All Out knockback-engage and fight back once his defenses are down, rather than dying to the opening hit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead on the lane and want to pressure towers rather than keep dueling"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you want a harder burst all-in instead of the sustained Hydra/Trinity duel pattern"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "you've gone the Eclipse route and need the extra sustain it pairs with"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "their team stacks additional crowd control on top of his own Path Maker stun"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive damage and healing rewards the sustained trade pattern this matchup actually produces (51.4% win rate, 11% pick). Master-tier Fiora players instead run Press the Attack for a burst window right after a landed Riposte parry — better suited if you're confident timing that parry on his marked auto rather than grinding out extended trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant pick (74.1% pick, 52.6% win rate) and the Ignite punishes his All Out healing. Flash+Teleport (53.6% win rate, 23.1% pick) is the better choice if you expect a longer scaling lane and want to reset waves without losing tempo."
+  },
+  "playing": [
+   {
+    "title": "Respect the Q two-stack pull",
+    "detail": "Once he's landed one Q (Ntofo Strikes), the next one fires a shockwave that pulls you in and usually chains into W (Path Maker)'s stun. Don't stand in that short line with a stack already loaded."
+   },
+   {
+    "title": "Save Riposte for his marked auto",
+    "detail": "His passive marks you for bonus damage on his next attack. Hold W until that attack is incoming so you parry the empowered hit itself, not a random early auto."
+   },
+   {
+    "title": "Double-lunge the trade window",
+    "detail": "Q (Lunge) can be recast once within a couple seconds at no mana cost — use both hits in the same trade, then disengage before his Q (3.5s) or W (14-10s) is back up."
+   },
+   {
+    "title": "Kite out with E stacks",
+    "detail": "Burst of Speed's move speed builds per landed attack or Lunge. Use the stacked speed to walk outside his Footwork (E) dash range of 525 after trading instead of standing still to out-damage him."
+   },
+   {
+    "title": "Hold Blade Waltz for the finisher",
+    "detail": "Repeated R hits on the same target deal less damage, so use it to close out a fight he's already low in rather than opening with it."
+   },
+   {
+    "title": "Fight back once All Out is committed",
+    "detail": "His R knocks back then grants him bonus damage and healing but reduced defenses. Survive the opening knockback with Death's Dance and punish him once he's locked into the squishier state."
+   },
+   {
+    "title": "Don't dump damage into a charging Path Maker",
+    "detail": "W (Path Maker) reduces the damage he takes while charging up before the dash. Wait out the charge or sidestep rather than trading your cooldowns into it."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and timing calls are this brief's own analysis, not sourced data."
+ },
+ "generatedAt": 1791362729305,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791362615395,
+  "overall": {
+   "winRate": 50.4,
+   "play": 113255,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2194,
+   "wins": 1156,
+   "winRate": 52.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.6,
+    "play": 1841,
+    "pickRate": 74.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.6,
+    "play": 573,
+    "pickRate": 23.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.2,
+    "play": 31,
+    "pickRate": 1.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 280,
+    "pickRate": 11
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Scorch"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 212,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 2280,
+    "pickRate": 90.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.9,
+    "play": 178,
+    "pickRate": 7.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 1314,
+    "pickRate": 61.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.7,
+    "play": 480,
+    "pickRate": 22.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 58.4,
+    "play": 512,
+    "pickRate": 39.4
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Hullbreaker"
+    ],
+    "winRate": 55.6,
+    "play": 169,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 57.5,
+    "play": 113,
+    "pickRate": 8.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 53.3,
+    "play": 2396,
+    "pickRate": 96.6
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 55.6,
+    "play": 1567,
+    "pickRate": 63.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 61.2,
+    "play": 845,
+    "pickRate": 34.1
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 59,
+    "play": 393,
+    "pickRate": 15.8
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 61.2,
+    "play": 358,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 56.2,
+    "play": 249,
+    "pickRate": 10
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.5,
+    "play": 1028
+   }
+  ],
+  "highElo": {
+   "keystone": "Press the Attack",
+   "tree": "Precision",
+   "play": 19496
+  }
+ }
+}

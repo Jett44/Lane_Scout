@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Irelia stack Ionian Fervor freely and trade into her charged W; you win if you dodge Bladesurge resets and punish her cooldowns with Counter Strike."
+  },
+  "thesis": "Jax holds a 53.8% win rate over 3022 games despite Irelia having the lane-advantage read, because Counter Strike (E) directly answers her all-in pattern: it dodges the auto-attacks her passive feeds on and blocks her Flawless Duet follow-up if you time it for when that E is down. This is a cooldown-reading lane, not a stat-check — whoever plays around the other's reset window wins the trade.",
+  "tell": {
+   "watch": "Irelia's E (Flawless Duet) cooldown",
+   "theirWindow": {
+    "when": "Flawless Duet is up and you're near minions",
+    "what": "She can stun-and-Mark you through the wave, then follow with Bladesurge to refresh off the Mark. Hold Counter Strike in reserve and don't stand in a line between two blade positions."
+   },
+   "yourWindow": {
+    "when": "Her E is on cooldown and she closes to auto you",
+    "what": "Pop Counter Strike as she commits — it dodges all her incoming basic attacks and stuns her when it resolves, stripping the Ionian Fervor stacks she needs and giving you a free Leap Strike/Empower combo afterward."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither all-in is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Bladesurge resets punish short trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "your Relentless Assault matches her burst"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force spike outscales her damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build, Counter Strike wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "54% win rate over 2909 games (77.5% pick) — the sustain and AD let you contest short trades without losing the wave."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.6% over 2804 games (78.9% pick) — the attack-speed reduction blunts her passive-fed autos between cooldowns."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The main power spike at levels 9-13 that lets you out-trade her once Leap Strike/Empower is online."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Adds sustain and burst to your empowered auto so extended fights favor you."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "60.8% win rate over 452 games as the third item — survives her burst windows if she gets ahead."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "the game goes long and you need to survive follow-up damage after trading"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "she builds tanky and you need the percent-health damage to keep trades even"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "you need more mobility or stat flexibility to close the gap in skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "54.4% win rate (46.1% pick) — rewards sustained auto-attacking in extended trades, which is exactly how you win fights once Counter Strike lands.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "53.7% win rate (77.8% pick) — Ignite punishes her Bladesurge sustain and secures kills once Counter Strike strips her reset option."
+  },
+  "playing": [
+   {
+    "title": "Track her E cooldown constantly",
+    "detail": "Flawless Duet is a 16/14.5/13/11.5/10s cooldown stun-and-Mark. If it's down, you can walk up and trade; if it's up, respect the stun range and don't clump with minions."
+   },
+   {
+    "title": "Save Counter Strike for her commit",
+    "detail": "Don't use E to farm or poke. Hold it until she dashes in with Bladesurge or closes to auto — the dodge negates her passive stacking and the stun punishes the all-in."
+   },
+   {
+    "title": "Deny Bladesurge resets",
+    "detail": "Bladesurge (10/9/8/7/6s cooldown) refreshes if the target is Marked or dies to it. Avoid standing near low-health minions when she has a Mark on you from Flawless Duet."
+   },
+   {
+    "title": "Use Leap Strike to punish her W commit",
+    "detail": "Defiant Dance (20-12s cooldown) is a charge-up strike — once she commits to charging it, Leap Strike in and Empower your follow-up auto before she releases."
+   },
+   {
+    "title": "Play passive before level 6",
+    "detail": "Her all-in gets significantly scarier at 3-5 with Bladesurge resets online. Match her trades with Empower autos but don't initiate until your own level 6 Relentless Assault is up."
+   },
+   {
+    "title": "Itemize Trinity Force as your spike",
+    "detail": "Your win rate climbs hardest once Trinity Force completes around levels 9-13 — look to force skirmishes once you hit that item, not before."
+   },
+   {
+    "title": "Respect her ultimate's wall",
+    "detail": "Vanguard's Edge (125-85s cooldown, none at rank 4-5) fires a wide area of blades that Mark and later forms a slowing wall — don't walk back through the cast line after she uses it."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner spells are pulled from measured OP.GG data on the current patch (16.20.1); the tactical reading of cooldown windows and trade timing is our own analysis layered on top."
+ },
+ "generatedAt": 1791364945270,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791364910406,
+  "overall": {
+   "winRate": 49.4,
+   "play": 138912,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 3022,
+   "wins": 1625,
+   "winRate": 53.8
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Use Counter Strike [E] when Irelia closes in after landing her Flawless Duet (E) to block her follow up damage. You will have the upper hand if you manage to hit her with Counter Strike [E] when Flawless Duet (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.7,
+    "play": 2909,
+    "pickRate": 77.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 54.5,
+    "play": 481,
+    "pickRate": 12.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.5,
+    "play": 329,
+    "pickRate": 8.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.4,
+    "play": 1764,
+    "pickRate": 46.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.3,
+    "play": 192,
+    "pickRate": 5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54,
+    "play": 2909,
+    "pickRate": 77.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50.2,
+    "play": 295,
+    "pickRate": 7.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.6,
+    "play": 2804,
+    "pickRate": 78.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54,
+    "play": 494,
+    "pickRate": 13.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 60.8,
+    "play": 452,
+    "pickRate": 20.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 60.1,
+    "play": 178,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 53,
+    "play": 134,
+    "pickRate": 6.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 54.2,
+    "play": 3113,
+    "pickRate": 84.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 57.5,
+    "play": 1432,
+    "pickRate": 39.1
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 58.4,
+    "play": 1009,
+    "pickRate": 27.5
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 53.1,
+    "play": 868,
+    "pickRate": 23.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.9,
+    "play": 835,
+    "pickRate": 22.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.2,
+    "play": 456,
+    "pickRate": 12.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 56.8,
+    "play": 1350
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you grind out slow auto-trades that feed his Darkness Rise aura and get isolated by his R; you win if you collapse trades into one empowered burst that destroys his W shield before he can heal off it."
+  },
+  "thesis": "Both champions gate their power behind a threshold mechanic — your Fury above 50 empowers all three abilities, his passive Darkness Rise needs 3 landed hits to grant a damage aura and move speed. The 49.6% win rate over 2622 games reflects that most players trade the wrong way: extended auto-trading feeds his aura for free, while a single burst (Q-W-E in one window) denies it and, if timed against his W (Indestructible), destroys the shield he's trying to stack before he can consume it to heal. Win this lane by forcing single decisive exchanges, not a drawn-out poke war.",
+  "tell": {
+   "watch": "Your Fury gauge past 50",
+   "theirWindow": {
+    "when": "Darkness Rise active and his E up",
+    "what": "His passive grants a damage aura and move speed after 3 landed hits on champions or monsters, and E (Death's Grasp, range 700) pulls all enemies in an area to him. If both are live, disengage rather than keep trading — you'll eat aura damage and risk being pulled into his minion wave for a follow-up Obliterate."
+   },
+   "yourWindow": {
+    "when": "Fury above 50 and he activates W",
+    "what": "Dash in with E (Slice and Dice) then land your empowered W (Ruthless Predator) — at over 50 Fury it hits three times, destroys damage shields on the target, and stuns for 1.5 seconds. Timed against his W (Indestructible), it erases the shield he's storing before he can consume it to heal, and because it's one burst rather than three separate hits, it denies a Darkness Rise proc too."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Obliterate pokes at 675 range, you lack a gap closer"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E online, Fury engine ramps into all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates live, solo-kill stays even"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse into Black Cleaver spikes your all-in"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "lane decided earlier, now macro-dependent"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Sustains you through early trades and adds the flat AD that makes empowered Q and W hit harder once Fury builds."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "His entire kit is magic damage (Q, passive aura, E, R), so flat magic resist directly shrinks every poke and all-in he throws at you."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield and execute proc reward a clean, single all-in window — exactly the burst pattern that punishes his W shield instead of feeding his passive."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking armor shred from autos and empowered E amplifies your physical burst enough to keep outpacing his Indestructible sustain."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Bleed-based healing lets you survive the magic damage trade and keep resetting Fury through autos after the fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "ahead and need survivability against his R isolate burst in skirmishes"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "behind on the magic damage trade and need the resist plus shield"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "snowballing and want faster W and E cooldowns to keep stun uptime"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force into healing at max stacks is built for extended all-ins and directly offsets the sustain he gets from consuming his W shield.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite's grievous wounds cuts the healing he gets from consuming his W shield, so commit all-ins once it's up and his sustain is weakest."
+  },
+  "playing": [
+   {
+    "title": "Punish his W shield",
+    "detail": "When he activates W (Indestructible) to start storing damage, dash in with E and land empowered W if Fury is above 50 — the triple slash destroys his stored shield before he can consume it to heal."
+   },
+   {
+    "title": "Single-burst, don't auto-trade",
+    "detail": "Favor landing full ability combos over prolonged auto-attacking; Darkness Rise only needs 3 landed hits to proc his damage aura and move speed, so spacing out pokes feeds it for free."
+   },
+   {
+    "title": "Track his Obliterate cooldown",
+    "detail": "Q (Obliterate, range 675) hits hardest on a single target and ramps to a 4s cooldown at rank 5 — once it's down, step into range for your own trade since he has no poke to punish you with."
+   },
+   {
+    "title": "Respect Death's Grasp near minions",
+    "detail": "E (range 700) pulls all enemies in an area to him — don't stand near the wave within that range from level 3 onward, since getting pulled into minions sets up a free follow-up Obliterate."
+   },
+   {
+    "title": "Save E for the confirmed all-in",
+    "detail": "Slice and Dice is both your gap closer and, past 50 Fury, an armor-shredding empowered dash — hold it for stun-confirmed all-ins at levels 3-5 rather than spending it just to farm Fury."
+   },
+   {
+    "title": "Ignite before you commit",
+    "detail": "Confirm Ignite is off cooldown before all-inning past level 6 — it denies the heal he gets from popping his W shield and can outright deny a kill reset."
+   },
+   {
+    "title": "Don't overextend once his R is up",
+    "detail": "From level 6, Realm of Death (range 650) drags you into an isolated fight and steals a portion of your stats if he kills you — avoid being caught alone past mid lane even though solo-kill rate is measured even."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above come from measured OP.GG games on the current patch; the mechanical reasoning — Fury thresholds, the W-shield interaction, and the Darkness Rise proc condition — is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791364431087,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791364317031,
+  "overall": {
+   "winRate": 49.7,
+   "play": 131023,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 2622,
+   "wins": 1300,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use Renkton’s reinforced [W] when Mordekaiser uses his (W). Deal singular bursts of damage to prevent Mordekaiser’s (P) from staying active.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.7,
+    "play": 2955,
+    "pickRate": 90.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.3,
+    "play": 233,
+    "pickRate": 7.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 39.3,
+    "play": 56,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 1339,
+    "pickRate": 40.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 366,
+    "pickRate": 11
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 2664,
+    "pickRate": 81.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 458,
+    "pickRate": 14.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.6,
+    "play": 2125,
+    "pickRate": 71.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.1,
+    "play": 720,
+    "pickRate": 24.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 55.4,
+    "play": 303,
+    "pickRate": 16.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.2,
+    "play": 187,
+    "pickRate": 10.3
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Maw of Malmortius"
+    ],
+    "winRate": 60.4,
+    "play": 96,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 50.7,
+    "play": 2343,
+    "pickRate": 73.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.2,
+    "play": 2221,
+    "pickRate": 69.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 53.4,
+    "play": 916,
+    "pickRate": 28.7
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 49.3,
+    "play": 759,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54,
+    "play": 602,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.2,
+    "play": 577,
+    "pickRate": 18.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.7,
+    "play": 1071
+   }
+  ]
+ }
+}

@@ -1,0 +1,386 @@
+{
+ "you": "Mordekaiser",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Irelia stack Ionian Fervor and chip you with free Bladesurge resets; you win the moment you land Q (Obliterate) through her E (Flawless Duet) window and drag her into a Death's Grasp E."
+  },
+  "thesis": "Irelia has the lane advantage because her Q (Bladesurge) and E (Flawless Duet) let her poke and disengage safely while Mordekaiser has no dash, but the 51.9% head-to-head over 1436 games says Mordekaiser wins the war of attrition once he lands Death's Grasp (E) and forces the all-in she can't escape. This is a lane about surviving her poke phase with W (Indestructible) shield banking, not winning early trades outright.",
+  "tell": {
+   "watch": "Irelia's Bladesurge (Q) cooldown/target",
+   "theirWindow": {
+    "when": "Q (Bladesurge) off cooldown near minion",
+    "what": "She can reset Q off a low-HP minion to chain another dash-strike at you for free poke; expect a Q-auto-Q pattern whenever a caster minion is about to die near you, since killing it refreshes her Q cooldown entirely."
+   },
+   "yourWindow": {
+    "when": "She has no Q and E (Flawless Duet) on cooldown",
+    "what": "Without Bladesurge up she has zero escape, so this is when you walk up and land E (Death's Grasp) to pull her into melee range and trade Q (Obliterate) freely; her 16/14.5/13/11.5/10s E cooldown is your green light."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Q resets and heal outpoke your no-mobility kit"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Ionian Fervor stacking plus E stun punishes short trades"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "W shield banking lets you match her sustain"
+   },
+   {
+    "levels": "11-13",
+    "edge": "you",
+    "note": "R (Realm of Death) turns skirmishes into isolation duels"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Rylai's/Riftmaker burst outscales her flat AD scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Measured as the top start at 51.6% over 1279 games and 69.4% pick rate; the extra sustain and mana help you throw Q (Obliterate) and E (Death's Grasp) repeatedly through her poke phase without running dry."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "88% pick rate and 51.3% win rate; Irelia's damage is almost entirely basic-attack-reliant once Ionian Fervor stacks up, so the flat reduction directly counters her Q (Bladesurge) and empowered autos."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "First item in the top two measured paths (50.7% and 60.8% win rate); the slow from Q (Obliterate) and E (Death's Grasp) blunts her Q (Bladesurge) dash-ins and keeps her stuck in your R (Realm of Death)."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Second item in both top build paths; the omnivamp sustains you through her poke and the true damage ramp wins extended trades she can't escape once pulled."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Appears in the 60.8% (51 games) and 61.8% (34 games, with Bramble Vest) build paths; grievous wounds shuts down her Q (Bladesurge) self-heal, which is her primary sustain tool in lane."
+    }
+   ],
+   "situational": [
+    {
+     "item": "bramble vest",
+     "when": "she is all-in heavy early and you need the anti-heal and armor before level 6"
+    },
+    {
+     "item": "liandry's torment",
+     "when": "she builds tankier and you need the burn damage over flat health"
+    },
+    {
+     "item": "dusk and dawn",
+     "when": "the game goes long and you want the extra utility slot"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Measured as the primary page at 52.2% pick rate; sustained melee trades through her poke phase stack Conqueror's healing, which directly answers her Q (Bladesurge) self-heal in a straight fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 78.1% of games at 50.7% win rate; Ignite's sustained burn and healing reduction punishes her Q (Bladesurge) heal and secures kills after you land R (Realm of Death), since she has no Flash-dodge for the execute."
+  },
+  "playing": [
+   {
+    "title": "Hold E for her dash-in",
+    "detail": "Don't throw E (Death's Grasp) on cooldown; wait until she commits Q (Bladesurge) into you so the pull lands guaranteed and you can immediately follow with Q (Obliterate) and autos while she's stuck."
+   },
+   {
+    "title": "Bank W, don't panic-heal",
+    "detail": "W (Indestructible) stores damage dealt and taken before you consume it to heal; let the shield build through her poke instead of popping it early, since the heal scales with stored damage."
+   },
+   {
+    "title": "Track her E cooldown for walk-up windows",
+    "detail": "Flawless Duet (E) is her only hard stun on a 16/14.5/13/11.5/10s cooldown; when it's down, you can walk up and trade freely without fear of the stun-into-auto combo."
+   },
+   {
+    "title": "Save R for isolation, not poke trades",
+    "detail": "Realm of Death (R) is 140/120/100/90/80s cooldown and drags her alone with you, stealing stats; use it only when you can follow with full Q+E combo, not to answer a single poke."
+   },
+   {
+    "title": "Never fight near a dying minion",
+    "detail": "If a low-HP minion is near you both, back off; killing it with Q (Bladesurge) fully refreshes her dash and lets her poke-and-reset indefinitely."
+   },
+   {
+    "title": "Buy Thornmail timing around her power spike",
+    "detail": "Rush Thornmail once she hits two items; the grievous wounds removes her Q (Bladesurge) sustain entirely, turning her all-ins into pure damage races you win with Riftmaker."
+   },
+   {
+    "title": "Respect Ionian Fervor stacks before extended trades",
+    "detail": "Watch her passive stack counter; at max stacks she gains bonus on-hit damage, so disengage short trades before she caps out rather than fighting through her spell rotation."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner choices above are pulled directly from measured OP.GG games on the current patch (16.20.1); the tactical reasoning connecting them to specific cooldowns and windows is my own read of the matchup."
+ },
+ "generatedAt": 1791364902494,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791364856896,
+  "overall": {
+   "winRate": 49.8,
+   "play": 115264,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 1436,
+   "wins": 746,
+   "winRate": 51.9
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Purchase Bramble Vest first. Focus on dodging Irelia’s (E) when fighting her. Keep an eye out for her Conqueror and (P) stacks before fighting her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.7,
+    "play": 1426,
+    "pickRate": 78.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 60.4,
+    "play": 187,
+    "pickRate": 10.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.2,
+    "play": 180,
+    "pickRate": 9.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.3,
+    "play": 978,
+    "pickRate": 52.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 142,
+    "pickRate": 7.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 1279,
+    "pickRate": 69.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.2,
+    "play": 270,
+    "pickRate": 14.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.3,
+    "play": 1545,
+    "pickRate": 88
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 57.1,
+    "play": 147,
+    "pickRate": 8.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 50.7,
+    "play": 75,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 60.8,
+    "play": 51,
+    "pickRate": 4.7
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 61.8,
+    "play": 34,
+    "pickRate": 3.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 55.4,
+    "play": 1275,
+    "pickRate": 70.6
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 51.4,
+    "play": 1169,
+    "pickRate": 64.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46.5,
+    "play": 648,
+    "pickRate": 35.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.1,
+    "play": 594,
+    "pickRate": 32.9
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 55.7,
+    "play": 508,
+    "pickRate": 28.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 63.2,
+    "play": 296,
+    "pickRate": 16.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.5,
+    "play": 713
+   }
+  ]
+ }
+}

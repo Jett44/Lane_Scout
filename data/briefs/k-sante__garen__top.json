@@ -1,0 +1,384 @@
+{
+ "you": "K'Sante",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you let a Q auto silence you mid-engage or dive him under 30% HP into a hidden Demacian Justice; you win if you land two stacks of Q before he resets with E, since whoever lands hard CC first wins the fight."
+  },
+  "thesis": "Garen has no ranged poke and no hard CC outside a self-cleanse-plus-silence combo on Q, so this lane is decided by committed all-ins, not chip damage — his Perseverance passive heals back anything short of a full trade. K'Sante's W (Path Maker) stun and a 2-stack Q (Ntofo Strikes) shockwave pull are the only ways to actually lock him down, which is why the measured numbers show an even lane with the solo-kill edge sitting on K'Sante's side despite a 44.3% head-to-head over 3,080 games.",
+  "tell": {
+   "watch": "Garen's Q speed burst",
+   "theirWindow": {
+    "when": "Garen flashes the Q move-speed burst",
+    "what": "Back off immediately. His next auto is empowered and silences on hit — if you're mid-combo when it lands you lose your Q/W/E follow-up and the trade flips."
+   },
+   "yourWindow": {
+    "when": "You've landed two Q hits for the shockwave stack",
+    "what": "Fire the pull immediately and chain straight into W (Path Maker) for the stun. This locks him for your full combo before his E (Judgment, 13-9s CD) comes back up to peel space."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "No CC yet, trades are even"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W stun plus Q pull online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults add burst and execute risk"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Iceborn Gauntlet accelerates your Q stack chain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight execute threat offsets your tank scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm + Health Potion",
+    "why": "The highest-picked, highest-win-rate start (44.9% over 2,992 games, 82.6% pick) — Garen has zero ranged poke, so the sustain lets you match his melee auto/E-spin trades without losing the HP war to his Perseverance regen."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "82.6% pick for a reason: flat physical damage reduction directly blunts his auto-attacks and the Judgment spin, which are his only two sources of lane damage."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Adds a proc to Q, letting you stack Ntofo Strikes faster and threaten the 2-stack shockwave pull earlier in every trade."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "The Grievous Wounds-adjacent healing cut directly undercuts Garen's Perseverance passive, which is the entire reason poke doesn't work on him."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances let you survive the reduced-defense window during All Out (R) and keep winning extended all-ins into his E/W uptime."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "you need more healing amplification than Jak'Sho offers to out-sustain his Perseverance regen"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "Garen's team builds attack speed or crit and you need the active slow to blunt his spin uptime"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he rushes lifesteal or omnivamp and Unending Despair alone isn't shutting his sustain down"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs every time you land Q in melee range, scales your health, and heals you through his no-poke, all-melee kit — exactly the sustain profile this lane needs.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The most-picked combo (68.3% pick, 42.3% win rate) — this lane scales into a split-push/teamfight matchup where Teleport's map pressure matters more than a forced early kill. Flash+Ignite is also live data (41.7% WR, 13.7% pick) if you want to convert your solo-kill edge directly."
+  },
+  "playing": [
+   {
+    "title": "Respect the Q silence",
+    "detail": "Garen's Q gives him a slow-cleansing speed burst and an empowered auto that silences on hit. If you see the burst mid-trade, disengage rather than committing your Q/W/E — getting silenced mid-combo loses the fight outright."
+   },
+   {
+    "title": "All-in, don't poke",
+    "detail": "His Perseverance passive heals back any chip damage you land without follow-up. Every trade should be a full commit into stacked Q plus W stun, not a hit-and-run."
+   },
+   {
+    "title": "Chain Q stacks into W",
+    "detail": "Land two Ntofo Strikes hits to fire the shockwave pull, then immediately follow with Path Maker's stun before his Judgment (13-9s CD) comes back to let him disengage."
+   },
+   {
+    "title": "Hold E for his spin",
+    "detail": "Footwork's shield is cheap (8-10s CD) and best timed to absorb the burst from his Judgment spin rather than used purely as a gap-closer."
+   },
+   {
+    "title": "Use R near walls",
+    "detail": "All Out's initial knockback launches him through terrain — use it near a wall to displace him off minions or away from his turret, but remember your own defenses drop while transformed, so only commit when you're ahead in the trade."
+   },
+   {
+    "title": "Buy Grievous Wounds on curve",
+    "detail": "Unending Despair's healing cut is non-negotiable here — it's the only item answer to Perseverance, and delaying it lets him regenerate through every trade you win."
+   },
+   {
+    "title": "Don't dive below 30% HP after 6",
+    "detail": "Demacian Justice executes on missing health and its cooldown drops fast with ranks (140 to 20s). Don't extend a trade or dive a kill once you're low enough that his R becomes lethal."
+   }
+  ],
+  "patchCaveat": "The build paths, rune pages, boots, summoners, and win rates above are measured from live OP.GG games on the current patch; the timing reads, the Q-silence danger window, and the all-in logic are my own tactical judgement layered on top of that data."
+ },
+ "generatedAt": 1791362980647,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791362862036,
+  "overall": {
+   "winRate": 47.2,
+   "play": 93937,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 3080,
+   "wins": 1363,
+   "winRate": 44.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.3,
+    "play": 2458,
+    "pickRate": 68.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 41.7,
+    "play": 494,
+    "pickRate": 13.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 50,
+    "play": 486,
+    "pickRate": 13.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 42.1,
+    "play": 870,
+    "pickRate": 23.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 42.7,
+    "play": 572,
+    "pickRate": 15.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 44.9,
+    "play": 2992,
+    "pickRate": 82.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 38.8,
+    "play": 582,
+    "pickRate": 16.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 43.1,
+    "play": 2855,
+    "pickRate": 82.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.5,
+    "play": 561,
+    "pickRate": 16.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 53,
+    "play": 264,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Spirit Visage"
+    ],
+    "winRate": 56.6,
+    "play": 129,
+    "pickRate": 7.1
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Randuin's Omen"
+    ],
+    "winRate": 46.6,
+    "play": 116,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 43.8,
+    "play": 3291,
+    "pickRate": 92.6
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 47.7,
+    "play": 1368,
+    "pickRate": 38.5
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 46.7,
+    "play": 1309,
+    "pickRate": 36.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 45.9,
+    "play": 743,
+    "pickRate": 20.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 45.3,
+    "play": 642,
+    "pickRate": 18.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 53.8,
+    "play": 446,
+    "pickRate": 12.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 43.9,
+    "play": 886
+   }
+  ]
+ }
+}
