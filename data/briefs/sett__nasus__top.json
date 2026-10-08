@@ -1,0 +1,384 @@
+{
+ "you": "Sett",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Nasus farm Siphoning Strike stacks uncontested past level 6; you win if you force stuns through Facebreaker before his Fury of the Sands comes online."
+  },
+  "thesis": "Nasus is a scaling threat whose power is entirely gated by Q (Siphoning Strike) last-hits, not levels or items — every stack he gets is permanent and uncontested lane equals a lost lane. Sett has no way to interrupt the Q animation, so the only lever is denying him CS volume early through all-in pressure, which matches the 46.3% head-to-head over 123 games despite Sett holding the lane-advantage tag.",
+  "tell": {
+   "watch": "Nasus Q stack counter",
+   "theirWindow": {
+    "when": "stacks climbing unchallenged, you're passive",
+    "what": "Every uncontested Siphoning Strike is permanent bonus damage he keeps for the whole game. If you let him free-farm CS from level 1-6 you've already lost the lane regardless of your own damage."
+   },
+   "yourWindow": {
+    "when": "he's on cooldown or out of position",
+    "what": "Siphoning Strike is 8/7/6/5/4s cooldown — after he throws it on a minion, punish the window with E (Facebreaker) to pull him and a minion together for the stun, then Q (Knuckle Down) auto-reset damage. He has no dash, so a good Facebreaker angle is a free combo every time."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "Facebreaker stun wins extended trades and all-ins"
+   },
+   {
+    "levels": "4-6",
+    "edge": "you",
+    "note": "W Haymaker shield punishes his short Q range"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Q stacks accumulating, trades getting costlier"
+   },
+   {
+    "levels": "11-15",
+    "edge": "them",
+    "note": "Wither cripples you, Spirit Fire shreds armor"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "Fury of the Sands turns him into a true threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Picked in 86.4% of games at a 42.8% win rate over 152 games — the lifesteal and AD sustain let you keep all-inning through his Soul Eater lifesteal in the trades that actually matter before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50% win rate over 68 games and the higher pick rate (41.5%) — the flat physical damage reduction directly counters his Q poke and auto-reset damage while you're forcing stun windows."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Core first item in both top build paths (31% and 7.1% pick share) — the slow-on-hit lets you stick to him through Wither's own slow and land full Facebreaker combos."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Appears in the top two build paths at 53.8% and 33.3% win rate — the armor shred compounds with your burst windows before his Fury of the Sands health pool makes him unkillable."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Top-performing third item at 53.8% win rate over 26 games — bonus health and damage-over-time scale your trades as his stacks make him tankier."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's building toward a long fight-heavy game and you need burst mitigation during Fury of the Sands"
+    },
+    {
+     "item": "Warmog's Armor",
+     "when": "you're ahead and want to out-sustain his lifesteal in extended all-ins rather than trade burst"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he's stacked enough health from Q that you need percent-health damage to keep trades relevant"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive damage and healing rewards exactly the extended-trade, stick-on-him playstyle Sett needs to punish Nasus before his stacks snowball — matches both top rune pages (45.6% and 56.5% pick share).",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Shield Bash"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 86.6% of games at 44.3% win rate — Ignite's burn closes the kill window during your early all-ins before his Soul Eater lifesteal can pull him back out of kill range."
+  },
+  "playing": [
+   {
+    "title": "Punish every Q animation",
+    "detail": "Siphoning Strike has an 8-to-4s cooldown and no dash attached — the instant he commits to it on a minion, step in with E (Facebreaker) to pull him alongside the minion for the stun."
+   },
+   {
+    "title": "All-in before level 6 ends",
+    "detail": "His stacks are worthless if he's dead or shoved off minions. Use Q (Knuckle Down)'s empowered attacks plus W (Haymaker)'s stored Grit shield to win short trades repeatedly from level 1-5."
+   },
+   {
+    "title": "Track his Wither cooldown",
+    "detail": "W (Wither) is 15-to-11s cooldown and decelerates your Move Speed and Attack Speed — don't commit to a long stick-fight the moment he lands it, since your Stridebreaker slow and Facebreaker range are what keep you in range, not raw speed."
+   },
+   {
+    "title": "Save R for an isolated punish",
+    "detail": "The Show Stopper carries him alone through the air and slams him, slowing anyone near the landing spot — use it when he's overextended past minions, not as a poke tool, since its 120s base cooldown means a wasted cast gives him a full stack-farming window."
+   },
+   {
+    "title": "Respect Spirit Fire zone control",
+    "detail": "E (Spirit Fire) is a 12s-cooldown ground zone that reduces armor while you stand in it — don't facecheck or stand in an unclaimed Spirit Fire patch during trades, it directly amplifies his Q damage on you."
+   },
+   {
+    "title": "Ward for his Fury of the Sands timer",
+    "detail": "Once he hits 6 with Fury of the Sands up, his range and health balloon for its duration — avoid extended 1v1s during an active ult past level 11-15 and instead bait him to use it early, then punish the 120s cooldown gap."
+   },
+   {
+    "title": "Close the lane before 15 minutes",
+    "detail": "Every uncontested wave is permanent Q stacks for him — track CS parity on the minimap, not just your own farm, since this matchup's 46.3% win rate over 123 games reflects games where Sett let him scale unchecked."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live games on the current patch (16.20.1) via OP.GG; the mechanical reasoning and trade-window calls are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791452751813,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791452705103,
+  "overall": {
+   "winRate": 50.4,
+   "play": 9335,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 123,
+   "wins": 57,
+   "winRate": 46.3
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus grow during early game by applying pressure and gaining lane control. Use your abilities whenever the come off cooldown to deal damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.3,
+    "play": 149,
+    "pickRate": 86.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 9.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 2.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.6,
+    "play": 57,
+    "pickRate": 33.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 13.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.8,
+    "play": 152,
+    "pickRate": 86.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 68,
+    "pickRate": 41.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 48,
+    "play": 50,
+    "pickRate": 30.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 31
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 7.1
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Warmog's Armor"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 46.5,
+    "play": 155,
+    "pickRate": 90.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 45.2,
+    "play": 93,
+    "pickRate": 54.1
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 52.6,
+    "play": 76,
+    "pickRate": 44.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 42.4,
+    "play": 33,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 46.2,
+    "play": 26,
+    "pickRate": 15.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 9.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 46.8,
+    "play": 62
+   }
+  ]
+ }
+}

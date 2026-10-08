@@ -1,0 +1,384 @@
+{
+ "you": "Nasus",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early disadvantage",
+   "line": "You lose if you trade autos or a short skirmish into Mordekaiser before level 6, since his longer Q range and Death's Grasp pull win that fight; you win if you farm Siphoning Strike stacks behind Spirit Fire and only commit once Fury of the Sands' health drain outpaces what his Indestructible shield can heal back."
+  },
+  "thesis": "Mordekaiser's Q (Obliterate, range 675) outranges your Q (Siphoning Strike, range 255), and his E (Death's Grasp, range 700) is a hard pull that chains straight into three landed hits for his passive Darkness Rise aura — so short-range skirmishes favor him on paper and in the measured data (Mordekaiser holds lane and solo-kill advantage). Your actual win condition is refusing those skirmishes entirely: stand at max range, farm with Spirit Fire's zone damage instead of autos, and only commit once your stacked Q damage and Fury of the Sands' drain outscale his shield-heal loop.",
+  "tell": {
+   "watch": "Mordekaiser's passive hit-count",
+   "theirWindow": {
+    "when": "his E (Death's Grasp) pull lands",
+    "what": "He'll immediately follow with Q and autos to complete his 3-hit Darkness Rise proc, gaining a damage and move-speed aura mid-combo; disengage or use W (Wither) on him the moment the pull connects rather than trading back."
+   },
+   "yourWindow": {
+    "when": "Q stacks are high and R is up",
+    "what": "Lead with E (Spirit Fire) to strip his armor, then commit with Q and R (Fury of the Sands) active; the sustained max-health drain from R plus Soul Eater lifesteal outpaces what his W (Indestructible) shield can consume and heal back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q range wins any early poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Death's Grasp threatens all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ults add burst, trades level out"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Q stacks start mattering in skirmishes"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "stacked Q and R out-sustain his shield"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The highest-pick-rate start (60.2% pick, 46.6% WR over 118 games); its block and regen absorb his Q poke and auto chip while you sit back and farm instead of answering trades."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Best measured boots here (53.8% WR, 48.4% pick); the ability haste shortens Wither and Spirit Fire cooldowns so you can zone-farm and slow his engages more often per minute."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The Spellblade proc adds real burst to your short-range Q trades and the move speed lets you disengage before he strings autos into his passive aura."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Magic resist and heal amp directly answers his all-magic Q/E combo and stacks with Soul Eater lifesteal to win extended lane sustain."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack-speed slow weakens his auto-reliant passive stacking (he needs 3 landed hits) and the cooldown reduction keeps your Wither and Spirit Fire cycling."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's leaning on Indestructible's shield-to-heal loop and you need grievous wounds to shut it off"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need the early armor spike and grievous wounds before his first all-in window closes"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team stacks magic damage beyond Mordekaiser alone"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The heal-on-hit kicks in while you're safely farming waves at range instead of trading autos, offsetting the chip damage from his longer-range Q.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best measured win rate in this matchup (59% over tracked games); Flash is your out from his Death's Grasp pull range, and Teleport lets you reset after losing an early skirmish and keep executing the farm-first plan."
+  },
+  "playing": [
+   {
+    "title": "Stand outside 675 range",
+    "detail": "His Q (Obliterate, range 675) outranges your Q (255); only step inside his Q range to last-hit, then retreat so you're not eating free pokes."
+   },
+   {
+    "title": "Count his passive hits",
+    "detail": "Darkness Rise procs after 3 landed attacks or spells on you; if he's already at 2, disengage rather than trade a third hit into his damage-and-speed buff."
+   },
+   {
+    "title": "Farm with Spirit Fire, not autos",
+    "detail": "Use E (12s cooldown, range 650) on cannon waves and contested minions to clear safely and shred his armor if he steps on it, instead of trading melee autos you lose."
+   },
+   {
+    "title": "Respect Death's Grasp timing",
+    "detail": "His E pull is on a 16s cooldown at rank 1, dropping to 8s by rank 5; track whether he's thrown it recently before pushing your wave past the midline."
+   },
+   {
+    "title": "Save Wither for his all-in",
+    "detail": "W (15/14/13/12/11s cooldown) decelerates his move and attack speed; hold it to punish his E-engage rather than opening with it, since you lose a short burst window against him."
+   },
+   {
+    "title": "Bank Q resets before 6",
+    "detail": "Every kill with Q permanently raises its damage; prioritize uncontested stacks exactly as OP.GG's own read says — grow stacks while tracking his cooldowns, don't force trades."
+   },
+   {
+    "title": "Ult to flip extended fights",
+    "detail": "R (120s cooldown) grants bonus health, range, and max-health drain for its duration; trigger it once you have a real Q stack so your sustain outlasts his Indestructible shield-heal."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner picks above are pulled from measured games on the current patch (16.20.1) via OP.GG across 151 head-to-head games; the mechanical reasoning and trade timing are my own read, not measured data."
+ },
+ "generatedAt": 1791453427737,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791453328238,
+  "overall": {
+   "winRate": 51.1,
+   "play": 7712,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 151,
+   "wins": 76,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Keep some distance from Mordekaiser to prevent his (P) from activating. Focus on raising [Q] stacks while keeping Mordekaiser’s skills in mind. Focus on farming with [Q] and growing while waiting for an opportunity.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 49,
+    "play": 96,
+    "pickRate": 49.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 52,
+    "pickRate": 26.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 59,
+    "play": 39,
+    "pickRate": 20
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 46.5,
+    "play": 99,
+    "pickRate": 50.5
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 7.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 118,
+    "pickRate": 60.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.3,
+    "play": 38,
+    "pickRate": 19.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 53.8,
+    "play": 93,
+    "pickRate": 48.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 37
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Frozen Heart"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 20.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 8.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Thornmail"
+    ],
+    "winRate": 0,
+    "play": 5,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.2,
+    "play": 139,
+    "pickRate": 71.3
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 49.2,
+    "play": 128,
+    "pickRate": 65.6
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 57.9,
+    "play": 57,
+    "pickRate": 29.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 52,
+    "play": 25,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 11.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 11.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50,
+    "play": 32
+   }
+  ]
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "you": "Illaoi",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early snowball",
+   "line": "You win if you deny Nasus's Siphoning Strike stacks and force all-ins before level 6; you lose if the lane stalls and he free-farms into a split-push monster with Fury of the Sands up."
+  },
+  "thesis": "Nasus's Q (Siphoning Strike) permanently buffs its own damage every time it kills a minion, so every creep he takes uncontested compounds forever — this is the entire reason the matchup sits at an even 53.2% instead of a blowout. Illaoi's W (Harsh Lesson) is a 4-second-cooldown leap with no cast time or skillshot component, which lets her punish Nasus's short 255-range, immobile kit far more often than he can punish her back. OP.GG's own read confirms it: Illaoi has the lane and solo-kill edge early-mid, and the matchup only evens out once Nasus has banked enough Q stacks and his ultimate comes online.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "His W (Wither) is off cooldown",
+    "what": "Wither decelerates your Movement and Attack Speed on a 15/14/13/12/11s cooldown — do not commit your W (Harsh Lesson) all-in while it's up, since he can kite the slow into a bad trade or lock you down for teammates. Bait it out or wait for the cooldown before diving."
+   },
+   "yourWindow": {
+    "when": "Levels 3-6, before his second item",
+    "what": "Use W (Harsh Lesson) on cooldown to leap onto Nasus whenever he reaches for a Siphoning Strike last-hit — the leap also pulls nearby Tentacles onto him, so every trade both denies a stack and heals you through the passive. This is the window OP.GG flags as Illaoi-favored; spend it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither all-in is online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W leap punishes his no-mobility kit"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R (Leap of Faith) online, his R weak"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Stacks and Spirit Fire shred add up"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "Stacked Q plus Fury of the Sands snowballs"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest-played start into this matchup (74% pick, 51.9% WR over 108 games) — the lifesteal lets you win the W-leap trade war without losing the sustain race to his Soul Eater passive."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "60.9% pick, 54.3% WR — Nasus's entire kit (auto-attacks, Siphoning Strike, and his drained Fury of the Sands damage) is physical and auto-reliant, so flat auto-attack reduction directly blunts his stacking damage."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "First item in the highest-performing path (80% WR over 25 games) — the armor shred stacks with your repeated W leaps to push through his growing resistances as his stacks climb."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Second in that same path — the slow-on-hit from the proc locks Nasus in place for follow-up Tentacle swings, countering his lack of a built-in escape."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Closes the top path (80% WR, 22.5% pick) — the shield and tenacity-adjacent survivability let you commit to all-ins without dying to his Spirit Fire armor shred poke."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "the game goes long and his stacked Q autos start threatening burst through your shield"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "his Soul Eater lifesteal and Fury of the Sands health drain are keeping him alive through your all-ins"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's stacked enough Q that his autos alone are winning extended trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "55.9% WR, 39.9% pick — Grasp's proc rewards the repeated short trades your W leap creates, and the permanent health growth offsets Nasus's long-game scaling instead of racing a burst keystone you don't need this early.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Highest played combo at 59.9% pick (54.5% WR) — Teleport lets you reset back to lane after winning an all-in trade or capitalize on your early lead by joining skirmishes elsewhere before Nasus's stacks catch up."
+  },
+  "playing": [
+   {
+    "title": "Leap on every stack attempt",
+    "detail": "W (Harsh Lesson) is up every 4 seconds — use it to punish Nasus whenever he commits to a Siphoning Strike last-hit, since denying the stack matters more than the trade damage itself."
+   },
+   {
+    "title": "Force the Vessel decision",
+    "detail": "E (Test of Spirit) at 900 range strips his spirit and echoes damage back to him; if he can't kill the spirit or escape its range he becomes a Vessel that spawns Tentacles against him, so throw it before he can retreat."
+   },
+   {
+    "title": "Bait Wither before all-in",
+    "detail": "Wither's 15-to-11s cooldown is his only way to stick to or peel off you — provoke it with a feinted trade, then commit your real all-in once it's down."
+   },
+   {
+    "title": "Contest every last hit you can",
+    "detail": "Because Q stacks are permanent, a denied creep is worth more here than in a normal lane — prioritize trading on his CS attempts over your own farm when you have priority."
+   },
+   {
+    "title": "Save ultimate for the kill, not the poke",
+    "detail": "R (Leap of Faith) is on a long 120/95/70/70/70s cooldown and spawns a Tentacle per champion hit — use it to close out an all-in you've already won, not to start a 50/50 trade."
+   },
+   {
+    "title": "Don't facecheck past level 15",
+    "detail": "Once he's banked enough Q stacks and has Fury of the Sands up, a 1v1 you were winning at level 6 can flip instantly from his health drain — play around vision and teammates instead of dueling blind."
+   }
+  ],
+  "patchCaveat": "Every item, rune, and summoner spell above comes from measured OP.GG games on the current patch (16.20.1); the win rates, pick rates, and sample sizes are real. The mechanical reasoning — why the W leap punishes him, why Q stacks compound, why the powercurve shifts late — is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791453120243,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791453035263,
+  "overall": {
+   "winRate": 50.7,
+   "play": 4192,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 109,
+   "wins": 58,
+   "winRate": 53.2
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "even",
+  "opponentTip": "Harass Nasus while laning to prevent him from gaining stacks through (Q). Illaoi has the upper hand during early and mid-game, so use this to your advantage to engage when possible.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.5,
+    "play": 88,
+    "pickRate": 59.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 57.1,
+    "play": 35,
+    "pickRate": 23.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 14.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.9,
+    "play": 59,
+    "pickRate": 39.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 21.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.9,
+    "play": 108,
+    "pickRate": 74
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 15.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.3,
+    "play": 81,
+    "pickRate": 60.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.5,
+    "play": 40,
+    "pickRate": 30.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 80,
+    "play": 25,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 7.2
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 6.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50,
+    "play": 136,
+    "pickRate": 91.3
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 50.5,
+    "play": 97,
+    "pickRate": 65.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 62,
+    "play": 79,
+    "pickRate": 53
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 68.4,
+    "play": 38,
+    "pickRate": 25.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 48.6,
+    "play": 37,
+    "pickRate": 24.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 16.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.1,
+    "play": 32
+   }
+  ]
+ }
+}

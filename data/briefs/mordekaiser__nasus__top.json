@@ -1,0 +1,385 @@
+{
+ "you": "Mordekaiser",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him freeze and farm stacks uncontested past level 6; you win if you force all-ins before his R timer and keep the lane pushed into him."
+  },
+  "thesis": "This matchup is even on paper (49% over 153 games) but structurally about tempo: Nasus is a scaling threat whose Q (Siphoning Strike, 8/7/6/5/4s cooldown) only gets dangerous once he's stacked it for tens of minutes, while you have the stronger all-in from level 3 onward via E (Death's Grasp) into Q (Obliterate). Your job is to deny stacks and win early skirmishes before his Q damage compounds.",
+  "tell": {
+   "watch": "Nasus's Q stack counter",
+   "theirWindow": {
+    "when": "R (Fury of the Sands) is up, 120s cd",
+    "what": "While his ultimate is active he gains bonus Health, attack range, and drains your max Health into bonus damage for its duration — do not extend trades or stand still near him once he pops it, disengage and let the storm expire."
+   },
+   "yourWindow": {
+    "when": "His W (Wither) and R are both down",
+    "what": "Without Wither's Movement/Attack Speed slow or his R's stat drain, Nasus has no way to stick to you or burst you — this is when you walk E into Q and trade freely."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has a real all-in yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E-Q all-in beats his low Q stacks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R gives him a dangerous all-in window"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "stack count decides each trade"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "late-stacked Q scales past your damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "48.1% win rate over 154 games and the dominant 80.2% pick — the extra sustain and mana let you contest trades and spam Q (Obliterate) on his minions to deny his Q (Siphoning Strike) last-hits."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50.5% win rate over 103 games and 57.2% pick — the flat physical damage reduction directly undercuts his auto-attack and stacked Q damage, which is all he has."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "First item in all three measured build paths; the slow from your Q/E lets you land both hits of Obliterate and keep him inside Death's Grasp range."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Appears in every top build path; sustained magic damage punishes him for standing in melee range to farm or trade."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Shows up in two of the three top paths (37.5% and 57.1% win rates); the omnivamp offsets his Soul Eater lifesteal in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is building into a heavy physical/lifesteal setup and you need the grievous wounds and armor"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you are losing early trades to his stacked Q and need armor plus grievous wounds now, per OP.GG's own matchup tip"
+    },
+    {
+     "item": "Oblivion Orb",
+     "when": "he is itemizing around Soul Eater lifesteal and you need the grievous wounds earlier than Thornmail completes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run in 50% of games at 33.7% pick (and 48.8% at 21.9% pick with the Sorcery variant); the stacking adaptive damage and healing reward exactly the kind of extended E-into-Q trades you want to force before his stacks matter.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the strongest measured combo here (54.5% win rate, 11.3% pick) — Teleport lets you reset after all-in windows and keep pushed waves from being wasted, which matters more than kill pressure in a lane that's even on paper."
+  },
+  "playing": [
+   {
+    "title": "Track his Q stack count",
+    "detail": "Siphoning Strike's bonus damage compounds every time he kills a minion with it — the longer the lane goes uncontested, the worse this matchup gets for you regardless of the even overall win rate."
+   },
+   {
+    "title": "All-in between levels 3 and 5",
+    "detail": "Walk E (Death's Grasp) to pull him in, then Q (Obliterate) — at this stage his Q stacks are low and he has no Wither slow yet, so this is your best damage window in the whole lane."
+   },
+   {
+    "title": "Respect the R timer after level 6",
+    "detail": "Fury of the Sands is on a 120s cooldown — once he uses it, you have a full two minutes where he has no stat-drain all-in, which is your signal to re-engage freely."
+   },
+   {
+    "title": "Hold W until the trade starts",
+    "detail": "Indestructible's shield (12/11/10/9/8s cooldown) is strongest when popped mid-trade rather than pre-emptively, since it banks the damage you're about to take or deal."
+   },
+   {
+    "title": "Don't facetank Wither",
+    "detail": "Wither decelerates your Movement and Attack Speed over time on a 15/14/13/12/11s cooldown — if he lands it, disengage rather than fighting through the slow stacking up."
+   },
+   {
+    "title": "Push waves, don't freeze",
+    "detail": "A frozen lane lets him safely farm Q stacks under tower; keep the wave pushed toward him so he's forced to either give up CS or take E-Q trades on cooldown."
+   },
+   {
+    "title": "Save R for priority, not just kill threat",
+    "detail": "Realm of Death removes him from the fight and steals his stats — use it to swing a 2v2 nearby or to deny his R timing rather than only as a panic button."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are measured from live OP.GG games on the current patch (16.20.1); the tactical reading of cooldown windows and trade patterns is our own analysis layered on top."
+ },
+ "generatedAt": 1791452792118,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791452757389,
+  "overall": {
+   "winRate": 50.4,
+   "play": 9370,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 153,
+   "wins": 75,
+   "winRate": 49
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Use [P] to gain the upper hand in prolonged fights and gain lane control. Purchase Bramble Vest and other items that increase armor.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.1,
+    "play": 153,
+    "pickRate": 78.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 11.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 66,
+    "pickRate": 33.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.8,
+    "play": 43,
+    "pickRate": 21.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 154,
+    "pickRate": 80.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 12
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.5,
+    "play": 103,
+    "pickRate": 57.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 41.7,
+    "play": 48,
+    "pickRate": 26.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 12.3
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Thornmail"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Riftmaker"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 5.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 48.6,
+    "play": 146,
+    "pickRate": 75.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 50,
+    "play": 132,
+    "pickRate": 68
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 43.4,
+    "play": 83,
+    "pickRate": 42.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 47.6,
+    "play": 42,
+    "pickRate": 21.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 44.1,
+    "play": 34,
+    "pickRate": 17.5
+   },
+   {
+    "items": [
+     "Oblivion Orb"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 14.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.5,
+    "play": 101
+   }
+  ]
+ }
+}

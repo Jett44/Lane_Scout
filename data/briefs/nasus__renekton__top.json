@@ -1,0 +1,389 @@
+{
+ "you": "Nasus",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive, then scale",
+   "line": "You lose trades levels 1-6 whenever Renekton's Fury sits above 50 and his W and E are both up, but the 53.3% Nasus win rate over 122 games shows the lane flips hard once Q stacks and Fury of the Sands come online."
+  },
+  "thesis": "Renekton has a dash, a stun, and a sustain tool on short cooldowns; Nasus has none of those and wins purely by out-farming him until Siphoning Strike stacks and Spirit Fire's armor shred make every later trade one-sided. The whole lane is a timer: survive his cooldown windows early, then force fights the moment his W (Ruthless Predator) or E (Slice and Dice) are down.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Fury above 50 with W and E up",
+    "what": "He can dash in with E (Slice and Dice, 450 range), land a 3-hit 1.5s stun with empowered W (Ruthless Predator), and heal off a boosted Q (Cull the Meek). Hold Wither (W) in reserve and back off minions rather than trading autos."
+   },
+   "yourWindow": {
+    "when": "his E and W both on cooldown",
+    "what": "Step up and farm or trade freely with Q (Siphoning Strike, 255 range) since he has no dash or stun available to punish you. This is also when dropping E (Spirit Fire) on the wave is safest."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q sustain and auto damage outtrade you"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Fury-empowered W/E combo online, yours isn't"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ults live, trades become coinflips"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "stacked Q and Trinity Force snowball hard"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Fury of the Sands outscales his Dominus"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The 53.4% win rate over 103 games comes from the extra sustain blunting Renekton's early Q (Cull the Meek) poke so you can stay on CS instead of backing off the wave."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "56.3% win rate over 64 games; the cooldown reduction lets you land Wither (15-11s cd) and Spirit Fire (12s cd) more often per trade window, which matters more than flat armor since you're not winning extended slugfests anyway."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the 62.5% win rate path over 16 games; the stats and proc damage are what finally let your autos punch back at his sustain."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Second in the same build path; the armor directly undercuts his physical-damage all-in and the attack speed slow weakens his stun-chain follow-up autos."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Closes out the top-performing path; stacks with Soul Eater lifesteal to win extended trades once your Q stacks are online."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds lifesteal or crit items to sustain through your trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he's bullying you hard in the first few levels and you need armor plus grievous wounds immediately"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "his team shifts toward magic damage and Spirit Visage alone isn't enough"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you want wave clear and a slow to kite his engage instead of more raw armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The move speed and heal on energy stacks let you disengage from his dash-stun combo and sustain through poke without recalling, which matters most while you're behind on lane pressure.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "The most-picked combo (49% pick rate) supports the farm-and-Teleport-split approach OP.GG's own tip calls for, then Ghost closes the gap for a post-6 all-in with Fury of the Sands once his cooldowns are down; Flash + Ghost (68.6% win rate, smaller sample) is the alternative if you'd rather play for a lane kill."
+  },
+  "playing": [
+   {
+    "title": "Respect Cull the Meek range",
+    "detail": "His Q (325 range, 7s cd) hits everyone near him and heals him, with both numbers boosted above 50 Fury. Don't stand in melee range of the wave when he's farming near that threshold."
+   },
+   {
+    "title": "Track the Fury bar, not just cooldowns",
+    "detail": "Above 50 Fury his W becomes a 3-hit, 1.5s stun that strips shields instead of a single 0.75s stun. Treat his auto-attack count as a countdown to a much scarier all-in."
+   },
+   {
+    "title": "Trade only when Slice and Dice is down",
+    "detail": "His E is his only reposition tool, on a 16/14.5/13/11.5/10s cooldown. Without it he can't re-engage after you step away, so that's your window to land Siphoning Strike for stacks."
+   },
+   {
+    "title": "Wither before he commits, not after",
+    "detail": "Cast W (700 range, 15-11s cd) the moment he starts closing distance so his Movement and Attack Speed are already decaying before the stun lands, not as a panic button mid-combo."
+   },
+   {
+    "title": "Zone trades with Spirit Fire",
+    "detail": "Drop E (650 range, 12s cd) under contested CS so the armor reduction swings any resulting auto exchange or Q trade in your favor, since you have no stun of your own to force a fair fight."
+   },
+   {
+    "title": "Save Ghost for the post-6 window",
+    "detail": "Once you have Fury of the Sands, look for a moment his W and E are both on cooldown, pop Ghost, and commit the ultimate; this is the exact line OP.GG's data points to for converting the matchup."
+   },
+   {
+    "title": "Losing exchanges early is fine if you're hitting CS",
+    "detail": "Every empowered Siphoning Strike kill is permanent. The 53.3% head-to-head over 122 games exists because Nasus players who prioritize stacks over pride win the midgame even after a rough laning phase."
+   }
+  ],
+  "patchCaveat": "The build order, boots, runes, summoners, and all win-rate/sample figures above are pulled directly from measured OP.GG games on the current patch (16.20.1); the ability breakdowns, cooldown timings, and trade/engage reasoning are the author's own analysis layered on top of that data."
+ },
+ "generatedAt": 1791453981255,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791453895270,
+  "overall": {
+   "winRate": 51.1,
+   "play": 7712,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 122,
+   "wins": 65,
+   "winRate": 53.3
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "defensive",
+  "opponentTip": "Farm lane while keeping an eye out for Renekton’s Fury and Slice/Dice (E). Focus on farming with [Q], and go in for the kill post-level 6 with Ghost + Fury of the Sands [R] when Renekton’s skills are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 49
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 68.6,
+    "play": 35,
+    "pickRate": 24.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 20.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50.7,
+    "play": 75,
+    "pickRate": 51.7
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Summon Aery",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 4.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.4,
+    "play": 103,
+    "pickRate": 69.1
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 56,
+    "play": 25,
+    "pickRate": 16.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 56.3,
+    "play": 64,
+    "pickRate": 44.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.9,
+    "play": 57,
+    "pickRate": 39.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 5.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Force of Nature"
+    ],
+    "winRate": 100,
+    "play": 3,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 57.3,
+    "play": 89,
+    "pickRate": 64
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 50.7,
+    "play": 75,
+    "pickRate": 54
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 65.2,
+    "play": 46,
+    "pickRate": 33.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 48.6,
+    "play": 37,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 59.4,
+    "play": 32,
+    "pickRate": 23
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 70.4,
+    "play": 27,
+    "pickRate": 19.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 43.5,
+    "play": 23
+   }
+  ]
+ }
+}

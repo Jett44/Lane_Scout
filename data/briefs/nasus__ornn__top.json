@@ -1,0 +1,379 @@
+{
+ "you": "Nasus",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane disadvantage",
+   "line": "You lose this if you trade into Ornn's ranged Q poke for stacks and get caught against a wall for his E combo; you win it if you farm safe to level 6+, bank Q stacks, and all-in with R while his E and R are down."
+  },
+  "thesis": "Nasus overall sits at 51.2% in this role, but drops to 45.5% over 88 games specifically against Ornn, and the reason is range and tempo: Ornn's Q (Volcanic Rupture, 800 range) out-pokes your Q (Siphoning Strike, 255 range) every single cooldown rotation while his passive (Living Forge) bonus resists make early trades worse than they look. The matchup flips once you're past level 6 with real Q stacks, because Fury of the Sands turns you into the all-in threat and Ornn has no way to peel once Wither is on him.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "his Q slow lands near a wall",
+    "what": "Volcanic Rupture slows on hit and drops a pillar after a delay — if you're slowed anywhere near terrain, Searing Charge (14/13.5/13/12.5/12s cd) can collide with that terrain for a knockup, then W's final gout of flame applies Brittle before he unloads. Walk away from walls the instant his Q is thrown, don't just dodge the initial hit."
+   },
+   "yourWindow": {
+    "when": "level 6+ with Q stacks and his E/R down",
+    "what": "Once Fury of the Sands is up, land Wither first to tank his Move and Attack Speed, then walk in and chain Siphoning Strike — he has no dash if Searing Charge is on cooldown and no knockup reset if Call of the Forge God (140/120/100/100/100s cd) isn't ready."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "his Q outranges your Q for free stacks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates online, trades get dangerous"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force plus banked stacks swing all-ins"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build and max stacks outscale his utility kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "68.5% pick rate here for a reason — the sustain and poke-damage reduction directly answer Ornn's ranged Q harass while you farm Q stacks."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "57.7% pick, 41.7% win rate — the extra ability haste lowers Wither and Spirit Fire cooldowns, which matters more here than raw magic resist since Ornn's combo isn't primarily auto-attack damage."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "the most-run first core item (46.2% win rate path) — the stats let you actually win trades once you commit, instead of just farming stacks passively."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "armor and ability haste blunt his Q poke and Searing Charge follow-ups while keeping your own cooldowns low."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "magic resist plus healing amp directly counters Ornn's magic damage kit and stacks with your Soul Eater lifesteal."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "ornn's team stacks heavy physical damage alongside him and you need the grievous wounds"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his e-into-terrain knockup combo keeps enabling his jungler to burst you down"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you need the wave-clear slow to shove him off tempo instead of going pure Trinity Force"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "it heals and gives move speed off basic attacks, not spells, so it directly rewards farming Q stacks and absorbing his ranged Q poke instead of punishing you for playing passively.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "the highest-picked combo (53.7% pick) — Teleport lets you reset onto lane after back-and-forth poke exchanges without losing stacking time, and Ghost closes the gap for your post-6 all-in since you have no other gap closer."
+  },
+  "playing": [
+   {
+    "title": "Farm Q stacks, don't trade for them",
+    "detail": "Take Siphoning Strike on minions whenever it's free; don't walk up into his 800-range Q just to get a stack, since he wins that exchange every time pre-6."
+   },
+   {
+    "title": "Stay off walls when his Q is up",
+    "detail": "Volcanic Rupture's pillar plus a nearby wall is what lets Searing Charge knock you up — if you're slowed, move away from terrain immediately rather than trying to dodge."
+   },
+   {
+    "title": "Drop Spirit Fire after he commits Q",
+    "detail": "Spirit Fire's armor reduction is wasted if he's still at range; throw it once he's walked in to poke so the armor shred actually lands during the trade."
+   },
+   {
+    "title": "Hold Wither for his engage, not his poke",
+    "detail": "Wither decelerates Move and Attack Speed over time, so it's far more valuable locking him down mid-Searing Charge or mid-fight than chip-damaging him at range."
+   },
+   {
+    "title": "All-in only with R and stacks both up",
+    "detail": "Fury of the Sands is a 120s cooldown — don't burn it to just poke. Wait until you have it plus a meaningful Q stack count and his Call of the Forge God is down."
+   },
+   {
+    "title": "Don't play recall timers against him",
+    "detail": "Living Forge lets Ornn build items without backing, so he won't give you free waves from recalls the way other laners do — win priority through wave management instead."
+   },
+   {
+    "title": "Respect the W engage range",
+    "detail": "Bellows Breath lets him advance in while breathing fire, and the final gout applies Brittle — don't stand still at max range assuming you're safe from the follow-up."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate/pick-rate numbers above are measured from real games on the current patch (16.20.1) via OP.GG; the tactical reasoning — why the poke war favors him early and why R plus stacks flips it — is my own read on the mechanics, not measured data."
+ },
+ "generatedAt": 1791454557358,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791454467646,
+  "overall": {
+   "winRate": 51.2,
+   "play": 7978,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 88,
+   "wins": 40,
+   "winRate": 45.5
+  },
+  "laneAdvantage": "Ornn",
+  "soloKillAdvantage": "Ornn",
+  "playStyle": "even",
+  "opponentTip": "It is important to avoid Ornn’s (Q)-(E) combo. Focus foremost on raising your [Q] stacks, and try go in for the kill post-level 6 when Unsealed Spellbook + Fury of the Sands [R] come off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 44.8,
+    "play": 58,
+    "pickRate": 53.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 46.4,
+    "play": 28,
+    "pickRate": 25.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 16.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 43.6,
+    "play": 55,
+    "pickRate": 50.9
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 8.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.2,
+    "play": 74,
+    "pickRate": 68.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 17.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 41.7,
+    "play": 60,
+    "pickRate": 57.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.4,
+    "play": 31,
+    "pickRate": 29.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Frozen Heart"
+    ],
+    "winRate": 14.3,
+    "play": 7,
+    "pickRate": 12.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 6.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 40.2,
+    "play": 82,
+    "pickRate": 78.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 40.8,
+    "play": 49,
+    "pickRate": 47.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 41.7,
+    "play": 48,
+    "pickRate": 46.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 75,
+    "play": 12,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 44.4,
+    "play": 18
+   }
+  ]
+ }
+}

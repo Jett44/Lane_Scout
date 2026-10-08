@@ -1,0 +1,385 @@
+{
+ "you": "Nasus",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let her poke you down with Lunge before level 6; you win if you farm to stacks and lock her down with Wither once your core items land."
+  },
+  "thesis": "Fiora's Lunge (Q) reaches 600 and can re-cast a second time for free, while your Siphoning Strike (Q) only reaches 255 — so every pre-6 trade she initiates outranges you and her Riposte (W) punishes you for closing that gap. Once you have Wither (W) up on a short cooldown and enough Q stacks to threaten real damage, that range gap stops mattering because you can slow her out of her dash patterns entirely.",
+  "tell": {
+   "watch": "Riposte (W) availability",
+   "theirWindow": {
+    "when": "Levels 1-5, before your first back",
+    "what": "She will Lunge (Q) in, hit you, and either dash out again or hold Riposte (W) up to punish a greedy Siphoning Strike. Only throw Q at minions at this stage and let her spend the dash before you react."
+   },
+   "yourWindow": {
+    "when": "Level 6+, once Wither (W) and Spirit Fire (E) are both ready",
+    "what": "Cast Wither (W) the moment she commits Burst of Speed (E) or a second Lunge — the Movement and Attack Speed decay stops her from disengaging. Follow with Spirit Fire (E) under her feet for the Armor shred, then swing with your stacked Siphoning Strike."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "600 range Lunge beats your 255 range Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Double-cast Lunge poke still outranges trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Wither (W) and your R even out fights"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Stacked Q plus Trinity Force snowballs damage"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Full build and Fury of the Sands win trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "This is the higher-winrate start into this matchup (52.7% over 112 games, 67.1% pick) because the bonus health and regen directly offset Fiora's Lunge poke while you farm through early levels."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "The highest-winrate boots here (50% over 82 games) — the Ability Haste shortens Wither's 15-11s cooldown and Spirit Fire's 12s cooldown, letting you threaten her mobility and sustain more often."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Appears in every top build path for this matchup; the Spellblade proc amplifies your stacked Siphoning Strike and the Attack Speed helps you actually land hits once Wither is slowing her."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Pairs with Trinity Force in the top two measured paths; the Armor and Attack Speed slow directly counters her auto-reliant Duelist stacking."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Part of the 60%-winrate Trinity Force > Frozen Heart > Thornmail path; Grievous Wounds cuts directly into the healing her Duelist passive provides on every hit she lands."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "if you need more raw healing to out-sustain her poke rather than shutting hers down"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "if she is snowballing early and you need Grievous Wounds online before your third item"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "if you want the Spirit Fire-synergy slow zone instead of Trinity Force's proc pattern"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The highest-pick rune page here (50.6% pick, 41.9% WR) — the healing and Move Speed on hit help you absorb Lunge poke and reposition away from her Riposte window without losing CS.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Teleport is the highest-winrate combo among meaningfully-picked options (54.9% over 30% pick) — Flash answers her Lunge all-ins and Teleport lets you reset and return to lane after every efficient back, which matters in a near-50% matchup decided by small edges."
+  },
+  "playing": [
+   {
+    "title": "Hold 255 range",
+    "detail": "Don't walk up to challenge her Lunge (Q); only use Siphoning Strike (Q) on minions until she's already committed her dash, since her 600 range outreaches you before level 6."
+   },
+   {
+    "title": "Bait Riposte, don't feed it",
+    "detail": "Riposte (W) parries your next basic attack within its 10-6s cooldown window. If she's holding it up, wait it out or let a minion auto eat it instead of trading your Q into the parry."
+   },
+   {
+    "title": "Farm through harassment",
+    "detail": "Prioritize CS over trades before level 6 — every Siphoning Strike kill still stacks regardless of lane state, so playing passive early isn't lost tempo."
+   },
+   {
+    "title": "Wither before you engage",
+    "detail": "Cast Wither (W) (15-11s cooldown) the instant she commits Burst of Speed (E) or a second Lunge, since the Movement Speed decay denies her disengage or combo finish."
+   },
+   {
+    "title": "Layer Spirit Fire under fights",
+    "detail": "Drop Spirit Fire (E) (12s cooldown) on her position before trading; the Armor reduction lets your stacked Q and Trinity Force procs punch through her Duelist sustain."
+   },
+   {
+    "title": "Use R to end, not start",
+    "detail": "Save Fury of the Sands (120s cooldown) for when she's already engaged, since the max-health drain only pays off once a fight is underway, not to initiate one."
+   },
+   {
+    "title": "Teleport for lane resets",
+    "detail": "Take every efficient back you can once ahead on stacks; in a 125-game sample sitting at 49.6% win rate, perfect resets are the margin that decides the matchup."
+   }
+  ],
+  "patchCaveat": "Build paths, summoner spells, and the 49.6% win rate over 125 games come from OP.GG's measured data on patch 16.20.1; the trade timings and ability reads are my own tactical analysis."
+ },
+ "generatedAt": 1791453529745,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791453433569,
+  "overall": {
+   "winRate": 51.1,
+   "play": 7712,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 125,
+   "wins": 62,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being hit with Fiora’s Riposte (W). Try to avoid being hit with Fiora’s (Q) while keeping an eye out for your Vitals. Focus on farming lane and wait until you reach level 6 for an opportunity.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 43.1,
+    "play": 72,
+    "pickRate": 42.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.9,
+    "play": 51,
+    "pickRate": 30
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 62.2,
+    "play": 37,
+    "pickRate": 21.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 41.9,
+    "play": 86,
+    "pickRate": 50.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 5.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.7,
+    "play": 112,
+    "pickRate": 67.1
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.6,
+    "play": 35,
+    "pickRate": 21
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 50,
+    "play": 82,
+    "pickRate": 52.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.7,
+    "play": 58,
+    "pickRate": 37.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 14.3,
+    "play": 7,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 5.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Thornmail",
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.9,
+    "play": 108,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 51.2,
+    "play": 84,
+    "pickRate": 51.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.4,
+    "play": 56,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 48.1,
+    "play": 52,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 45.7,
+    "play": 46,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 19.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 43.5,
+    "play": 23
+   }
+  ]
+ }
+}

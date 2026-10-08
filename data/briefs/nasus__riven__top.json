@@ -1,0 +1,389 @@
+{
+ "you": "Nasus",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose any extended trade where Riven opens with her W (Ki Burst) stun before level 6; you win once you've hit Fury of the Sands and can land Wither on her before she closes distance."
+  },
+  "thesis": "Riven has a full stun-into-combo kit by level 3-5 and Nasus has nothing but a single-target poke until he stacks Q and hits 6, which is exactly why this reads as Riven lane advantage and Riven solo-kill advantage at a 37.3% Nasus win rate over 51 games despite Nasus running 51.2% overall in top lane. The matchup isn't close until Fury of the Sands comes online and Wither can actually land on her.",
+  "tell": {
+   "watch": "Riven's Runic Blade stack glow",
+   "theirWindow": {
+    "when": "Levels 3-5 with full ability combo",
+    "what": "She'll open with W (Ki Burst) to stun, chain all three casts of Q (Broken Wings) for burst, and reposition with E (Valor). Disengage rather than trade face to face in this window."
+   },
+   "yourWindow": {
+    "when": "After she burns Q and E",
+    "what": "Her mobility is gone for several seconds once Broken Wings and Valor are both on cooldown. Step in, land W (Wither) to gut her attack and movement speed, then chase down free Q (Siphoning Strike) stacks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "No combo yet but still ahead on trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full stun-chain all-in comes online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your Fury of the Sands offsets her Wind Slash"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "R cooldown drops, all-ins more frequent"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Stacked Q and core items win extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Highest-performing start at 41.2% win rate and 51.5% pick rate; the sustain and damage reduction on autos let you survive her early poke while you farm Q stacks."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Best measured win rate at 56.5%; the ability haste keeps Wither and Spirit Fire on a shorter rotation so you can punish her cooldown windows more often."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Most-picked core item (20.5%); gives the damage and move speed to actually catch her once Wither has her slowed."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Attack speed slow punishes her Runic Blade-fueled autos and takes pressure off your lane during her all-in windows."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Stacks with Soul Eater lifesteal to win extended trades once she's out of dashes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you want a tankier, wave-clear-focused build instead of Trinity Force"
+    },
+    {
+     "item": "Thornmail",
+     "when": "she builds lifesteal or heal-heavy and starts out-sustaining your trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're behind early and need armor plus anti-heal sooner"
+    },
+    {
+     "item": "Essence Reaver",
+     "when": "you're ahead and want more mana and damage to snowball with q"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Highest pick rate page (41.2%) for this matchup; the heal and movement burst on cast let you absorb her poke and reposition out of her stun chain instead of dying to it.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Highest measured win rate of the three common pages (63.2%); Flash gets you out of her Ki Burst stun or Wind Slash angle, and Teleport lets you reset after losing an early trade and still come back to scale."
+  },
+  "playing": [
+   {
+    "title": "Farm safe pre-6",
+    "detail": "Just land Q (Siphoning Strike) on the wave for stacks rather than trading face-to-face before level 6 — her stun-into-triple-Q combo wins any extended fight in this window."
+   },
+   {
+    "title": "Track her Runic Blade stacks",
+    "detail": "Her passive charges on ability casts; a fully-stacked empowered auto glow means she's about to commit. Back off or pre-emptively threaten Wither."
+   },
+   {
+    "title": "Wither the instant she commits",
+    "detail": "Land W (Wither) before she dashes in with Q (Broken Wings) or E (Valor). Once it's on her, her attack and movement speed craters and the combo falls apart."
+   },
+   {
+    "title": "Zone the wave with Spirit Fire",
+    "detail": "Drop E (Spirit Fire) on the minions when she tries to contest farm — it still strips armor off anyone standing in it, turning her aggression into your damage."
+   },
+   {
+    "title": "Pop R the moment she opens",
+    "detail": "Fury of the Sands' health drain is strongest when she's already committed to a stun chain; cast it as she opens W so the fight becomes attrition she can't win."
+   },
+   {
+    "title": "Don't swing into her E block",
+    "detail": "Valor blocks incoming damage on a 10/9/8/7/6s cooldown. Hold your stacked Q swing until the block window expires instead of wasting it."
+   },
+   {
+    "title": "Teleport back after losing prio",
+    "detail": "If she wins the early trades, Teleport resets you without losing more plates, buying time until your Q stacks and Trinity Force core come online."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and summoner spells above are OP.GG's measured picks from real Nasus vs. Riven games on patch 16.20.1; the timings, trade windows, and reasoning behind each pick are our own tactical read, not measured data."
+ },
+ "generatedAt": 1791454192726,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791454094418,
+  "overall": {
+   "winRate": 51.2,
+   "play": 7978,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 51,
+   "wins": 19,
+   "winRate": 37.3
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance from Riven while paying close attention to her Conqueror stack count. Focus on farming with [Q] to stack up rather than engaging Riven. After reaching level 6, try to use Fury of the Sands [R] + Unsealed Spellbook to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 32.3,
+    "play": 31,
+    "pickRate": 45.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 27.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 17.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 39.3,
+    "play": 28,
+    "pickRate": 41.2
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 5.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.2,
+    "play": 34,
+    "pickRate": 51.5
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 22.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 33.3,
+    "play": 27,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 36.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 12.5,
+    "play": 8,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Thornmail",
+     "Spirit Visage"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 5.1
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Frozen Heart",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 34.2,
+    "play": 38,
+    "pickRate": 58.5
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 42.9,
+    "play": 35,
+    "pickRate": 53.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 34.6,
+    "play": 26,
+    "pickRate": 40
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 24.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 13.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 30,
+    "play": 10
+   }
+  ]
+ }
+}

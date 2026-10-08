@@ -1,0 +1,380 @@
+{
+ "you": "Nasus",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales out",
+   "line": "You lose if he chains Q's second stack into a W stun before you have Wither leveled; you win if you reach 15+ with Trinity Force online and a fat Q stack."
+  },
+  "thesis": "K'Sante's Q (Ntofo Strikes) is on a 3.5s cooldown and builds stacks on hit — at 2 stacks it fires a shockwave that pulls you in, which is what turns a poke exchange into his all-in. Nasus has no dash or shield to answer that pull, so the entire lane is about denying him the second stack rather than trading damage. The 46.2% head-to-head over 117 games and K'Sante's lane/solo-kill edge both come from that one mechanic; nothing else in the kit is why you're behind.",
+  "tell": {
+   "watch": "K'Sante's Q stack counter",
+   "theirWindow": {
+    "when": "He lands a Q poke on you in melee",
+    "what": "He now has one stack. If you stay in his 450-range Q line he can land the second stack and pull you in, which chains straight into his Path Maker charge-up. Walk out of line-of-Q range immediately after the first hit instead of trading back."
+   },
+   "yourWindow": {
+    "when": "His W (Path Maker, 14-10s CD) and E (Footwork, 10-8s CD) are both down",
+    "what": "He has no dash, no shield, and no stun available. Drop Spirit Fire under him, stand in it, and land your highest-rank Q — this is the only window where he can't punish you for committing."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Q poke chains into stacks faster than your Q heals"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "R (All Out) adds a wall-knockback all-in"
+   },
+   {
+    "levels": "11-14",
+    "edge": "even",
+    "note": "Trinity Force online, Wither peels his all-in"
+   },
+   {
+    "levels": "15-18",
+    "edge": "you",
+    "note": "Stacked Q and ult drain swing fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "50% win rate over 106 games — the regen and poke-block passive are built for exactly the Q-spam harass you're taking every 3.5 seconds."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "50.5% win rate, 64.5% pick — the ability haste tightens your Q/W/E cooldowns, which matters more than armor since you're not out-tanking his burst early."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Converts your stacked Siphoning Strike into real on-hit damage and gives you the mobility to actually stick a Q before he resets space with Footwork."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack speed slow directly fights his Ntofo Strikes stacking tempo — slower stacks means fewer pull windows against you."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "60% win rate on this exact path over 20 games — stacks Soul Eater lifesteal with heal amp so your sustain in extended trades outpaces his."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's building lifesteal and healing back the damage you land in trades"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he's ahead and diving you repeatedly off All Out knockbacks"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need to stick to him or catch a split-push target in the sidelane"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "You have no dash to dodge the Q-stack pull or the Path Maker charge — the healing and move speed proc is your only built-in way to disengage before the stun lands.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "51.4% win rate, the highest of the three combos in this matchup — Flash answers the W charge-up telegraph or a landed Q pull, and Teleport lets you reset waves safely while you stack Q instead of forcing even trades."
+  },
+  "playing": [
+   {
+    "title": "Count his Q stacks, not his health",
+    "detail": "One stack is safe to walk away from; two stacks means the next hit pulls you in. Disengage after the first Q lands instead of trading back."
+   },
+   {
+    "title": "Farm Q on low minions relentlessly",
+    "detail": "Siphoning Strike's permanent damage growth on kill is your entire scaling identity — every stack you miss is a stack he doesn't have to answer."
+   },
+   {
+    "title": "Zone with Spirit Fire, don't chase with it",
+    "detail": "Drop E on the wave or on him when he commits to CS, not as a follow-up to a trade — the armor shred only matters if he's forced to stand in it."
+   },
+   {
+    "title": "Save Wither for his all-in, not your engage",
+    "detail": "Once he's level 6+, hold W to decelerate him out of a Footwork-into-R combo rather than using it to start fights you can't finish."
+   },
+   {
+    "title": "Watch the Path Maker charge animation",
+    "detail": "He takes reduced damage while charging before the dash that knocks back and stuns — sidestep during the windup rather than trading into it."
+   },
+   {
+    "title": "Don't contest level 6-10 all-ins",
+    "detail": "All Out (R) through a wall into transformed abilities is a lane-losing window if you're even. Play for farm and ult uptime instead of answering his engage."
+   },
+   {
+    "title": "Shift to split-push once Trinity Force lands",
+    "detail": "From level 11 on, your stacked Q and Fury of the Sands' health drain outscale his kit in extended 1v1s — look to force side lane pressure rather than all-in top."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner spells reflect measured win/pick rates from current-patch games; the lane-phase tactical reading — the Q-stack pull as the defining threat and the cooldown-window trade pattern — is my own analysis of the ability kits."
+ },
+ "generatedAt": 1791453890033,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791453810558,
+  "overall": {
+   "winRate": 51.1,
+   "play": 7712,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 117,
+   "wins": 54,
+   "winRate": 46.2
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 46.4,
+    "play": 69,
+    "pickRate": 46.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 43.6,
+    "play": 39,
+    "pickRate": 26.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.4,
+    "play": 35,
+    "pickRate": 23.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 55.3,
+    "play": 76,
+    "pickRate": 50.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 106,
+    "pickRate": 70.7
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 34.5,
+    "play": 29,
+    "pickRate": 19.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 50.5,
+    "play": 91,
+    "pickRate": 64.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 38.5,
+    "play": 26,
+    "pickRate": 18.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 27.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Dead Man's Plate"
+    ],
+    "winRate": 100,
+    "play": 3,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.9,
+    "play": 94,
+    "pickRate": 64
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 59.8,
+    "play": 82,
+    "pickRate": 55.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 65.3,
+    "play": 49,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 41.2,
+    "play": 34,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 12.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 45.8,
+    "play": 24
+   }
+  ]
+ }
+}

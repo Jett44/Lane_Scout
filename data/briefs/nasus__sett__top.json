@@ -1,0 +1,381 @@
+{
+ "you": "Nasus",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales out",
+   "line": "You lose extended trades from level 1-5 while Sett's Q and passive regen punish every stand-and-fight, but by mid game Wither and stacked Q flip the 53.7% head-to-head in your favor."
+  },
+  "thesis": "Sett's entire kit — Q (Knuckle Down) move speed, right-punch autos, and W (Haymaker) grit — depends on staying mobile and landing attacks on you, which is exactly what your W (Wither) is built to strip away. Lane advantage sits with Sett early because his burst outpaces your unstacked Q, but his win condition evaporates once Wither lands and your Siphoning Strike stacks start compounding.",
+  "tell": {
+   "watch": "Sett's stored Grit (W)",
+   "theirWindow": {
+    "when": "Levels 1-5, Q off cooldown",
+    "what": "Knuckle Down (9/8/7/6/5s CD) empowers his next two attacks off max health and gives him move speed toward you — don't stand in auto range to farm, last-hit with Q (255 range) from a step back instead."
+   },
+   "yourWindow": {
+    "when": "The moment Wither lands",
+    "what": "Siphoning Strike freely and walk him down — Wither (15/14/13/12/11s CD, 700 range) decays his Movement and Attack Speed over its duration, so his Q engage and auto-trades both go dead while it ticks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Pit Grit regen wins any extended trade"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Empowered Q burst outpaces unstacked Q"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Fury of the Sands and Wither offset his all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stacked Q and Trinity Force online"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build, R drains him in extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Picked in 64.1% of these games at 60.7% win rate — the flat damage reduction eats into right-punch autos and lets you keep last-hitting with Q instead of trading."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "65.5% win rate over Ionian's 47.3% in this matchup — Sett lives on repeated autos, and the flat reduction blunts both his left and right punch."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First in the highest-performing path (57.1% over 21 games) — the attack speed and move speed let you stick Wither and follow it up with autos."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Armor and attack speed slow directly counter his auto-reliant trading pattern and his W shield threshold."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Closes out the 57.1% win rate path — stacks your Soul Eater lifesteal against his sustained Pit Grit regen."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "sett is stacking lifesteal or healing items to out-sustain your lane"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "his passive regen off missing health is winning extended trades early"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you need the slow proc to punish his Q move speed burst before Wither is up"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The sustain and move speed proc from last-hitting with Q let you dodge Knuckle Down's gap-close before level 6 instead of absorbing it.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "The top combo in these games (48.8% pick, 58% win rate) — Ghost lets you kite once Wither lands instead of trading autos, and Teleport keeps you scaling toward the Trinity Force/Frozen Heart timing where the lane flips."
+  },
+  "playing": [
+   {
+    "title": "Farm Q, skip trades",
+    "detail": "Siphoning Strike (255 range) lets you last-hit from outside his auto range — take the OP.GG line literally through level 5 and let his Q cooldown (9/8/7/6/5s) run out before you commit to anything."
+   },
+   {
+    "title": "Wither his Q engage",
+    "detail": "The instant he presses Knuckle Down, land Wither — it kills the move speed burst the ability grants and slows his attack speed for the rest of the trade."
+   },
+   {
+    "title": "Poke with E, don't stand in it",
+    "detail": "Spirit Fire (650 range, 12s CD) shreds his armor before a trade, but step off the zone once it's dropped — don't let him walk you into auto range to proc right punches."
+   },
+   {
+    "title": "Respect Facebreaker's pull",
+    "detail": "Stay outside 490 range when he's near you — Facebreaker stuns if it catches you between two sources or slows you outright in a 1v1, either way it opens the door for Knuckle Down to follow."
+   },
+   {
+    "title": "Watch his Grit bar",
+    "detail": "Haymaker (18/16.5/15/13.5/12s CD) scales off damage he's already taken — don't feed it with E poke damage, since a full bar means a true-damage nuke plus shield is one cast away."
+   },
+   {
+    "title": "All-in after level 6",
+    "detail": "Fury of the Sands (120s CD) gives you bonus health and drains his max health in melee range — use it to turn stacked trades into kills once Wither has him slowed."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from real games on the current patch (16.20.1) via OP.GG; the mechanical reasoning — why Wither beats his engine, when to poke vs. all-in — is this brief's own tactical read, not measured data."
+ },
+ "generatedAt": 1791453323187,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791453251487,
+  "overall": {
+   "winRate": 51.1,
+   "play": 7712,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 123,
+   "wins": 66,
+   "winRate": 53.7
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance to avoid being hit by Sett’s (E). Focus farming with [Q] rather than fighting Sett, and harass Sett with [E] for an opportunity.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 58,
+    "play": 81,
+    "pickRate": 48.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 53.5,
+    "play": 43,
+    "pickRate": 25.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 60,
+    "play": 30,
+    "pickRate": 18.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 56.7,
+    "play": 90,
+    "pickRate": 54.2
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 3.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60.7,
+    "play": 107,
+    "pickRate": 64.1
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 19.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 47.3,
+    "play": 74,
+    "pickRate": 46.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 65.5,
+    "play": 58,
+    "pickRate": 36.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Frozen Heart",
+     "Trinity Force",
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 57.8,
+    "play": 109,
+    "pickRate": 66.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 55.2,
+    "play": 105,
+    "pickRate": 64.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 65,
+    "play": 60,
+    "pickRate": 36.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 51.6,
+    "play": 31,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 11.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 60,
+    "play": 30
+   }
+  ]
+ }
+}

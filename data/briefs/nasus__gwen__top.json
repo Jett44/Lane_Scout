@@ -1,0 +1,385 @@
+{
+ "you": "Nasus",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales",
+   "line": "You lose if you trade into her Q cone or get caught by an E all-in before level 6; you win if you survive lane, stack Q, and hit your Trinity Force/Frozen Heart timing."
+  },
+  "thesis": "Gwen's whole pattern runs through E (Skip 'n Slash) to engage and Hallowed Mist (W) to disengage safely, while A Thousand Cuts punishes exactly the max-health stat Nasus stacks. You have no ranged answer to her 450-range Q cone and no dash to punish her E, so you lose straight trades until Wither and raw Q stacks catch up. It's a Gwen-favored lane in a vacuum (45.1% win rate over 91 games), but Nasus's scaling through Q kills and his item timings give him a real path back if he doesn't feed a solo kill early.",
+  "tell": {
+   "watch": "Gwen's E cooldown",
+   "theirWindow": {
+    "when": "Her E and Q are both up",
+    "what": "She dashes in with E (Skip 'n Slash), lands the true-damage center hit of Q (Snip Snip!) and autos for A Thousand Cuts procs, then dashes out and partially refreshes E if it connects. Back off and take the chip damage rather than standing in the cone to trade."
+   },
+   "yourWindow": {
+    "when": "Her E (Skip 'n Slash) is on cooldown",
+    "what": "At that point she has no dash for 11-13s depending on rank, so she can't cleanly engage or escape. Step up, land Q and autos, and fire Wither the moment she tries to walk away to kill her attack and move speed."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her Q cone outranges your melee Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Gwen's E all-in kill threat peaks"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Fury of the Sands evens out trades"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Trinity Force spike turns fights your way"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Stacked Q overwhelms her single-target poke"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "You need the flat damage reduction and sustain to survive her Q poke and A Thousand Cuts procs through level 5, since you can't out-range or out-trade her yet."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Lower cooldowns on Siphoning Strike and Wither let you re-apply the slow and stack Q faster, which matters more here than magic resist since you have no gap closer to force fights anyway."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The spellblade proc and stat spike give you the burst to actually punish her when her E is down, matching both measured build paths."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack speed reduction directly cuts her A Thousand Cuts proc rate in extended trades, and this order has the higher recorded win rate (62.5% over 8 games) of the two paths."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Magic resist and heal amp counter her magic-heavy on-hit damage and boost Soul Eater lifesteal in skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "she keeps healing back up through A Thousand Cuts in extended trades"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "her Needlework (R) stacks are deleting you in skirmishes and you need tenacity and magic resist"
+    },
+    {
+     "item": "Essence Reaver",
+     "when": "you're ahead and want faster cooldowns to chain Q kills and all-ins"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The healing and movement speed on landing Q offsets her poke since she has no hard engage to punish the speed boost, keeping you alive long enough to stack Q.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "This combo has the best recorded win rate (46.8%) and highest pick rate (43.5%) in this matchup. Teleport lets you reset after losing early trades or impact a sidelane since you have no gap closer, and Ghost closes distance in skirmishes where her E dash would otherwise out-rotate you."
+  },
+  "playing": [
+   {
+    "title": "Farm under tower early",
+    "detail": "Before level 6, prioritize Q last-hits over melee trades; her Q cone and A Thousand Cuts win straight exchanges."
+   },
+   {
+    "title": "Punish her E cooldown",
+    "detail": "When Skip 'n Slash is down for 11-13s, she has no dash to engage or escape; step up and force a trade with Q and autos."
+   },
+   {
+    "title": "Don't walk into Hallowed Mist",
+    "detail": "Inside the mist she can be targeted but is also protected from anyone outside it; stay outside, farm, and let the mist expire instead of diving it."
+   },
+   {
+    "title": "Time Wither on her commit",
+    "detail": "Fire Wither the instant she uses E or Q to engage, slowing her move and attack speed before she can kite or disengage."
+   },
+   {
+    "title": "Stack Q on minions",
+    "detail": "Siphoning Strike drops to a 4s cooldown at rank 5; kill as many minions with it as possible since the bonus damage snowballs your late game."
+   },
+   {
+    "title": "Avoid solo kills before 6",
+    "detail": "She has the measured solo-kill edge pre-Fury of the Sands; don't start extended skirmishes until your R is live."
+   },
+   {
+    "title": "All-in after Frozen Heart",
+    "detail": "Once Frozen Heart's attack speed slow is online, her A Thousand Cuts proc rate drops sharply; look for all-ins in that item window with R up."
+   }
+  ],
+  "patchCaveat": "Build, rune, summoner, and win-rate numbers are measured from real games on the current patch (16.20.1); the mechanical reasoning and trade-pattern advice are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791454302240,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791454198009,
+  "overall": {
+   "winRate": 51.2,
+   "play": 7978,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 91,
+   "wins": 41,
+   "winRate": 45.1
+  },
+  "laneAdvantage": "Gwen",
+  "soloKillAdvantage": "Gwen",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 46.8,
+    "play": 47,
+    "pickRate": 43.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 46.4,
+    "play": 28,
+    "pickRate": 25.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40,
+    "play": 25,
+    "pickRate": 23.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 51,
+    "pickRate": 47.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 5.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.2,
+    "play": 62,
+    "pickRate": 60.2
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 18.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48,
+    "play": 50,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 39.4,
+    "play": 33,
+    "pickRate": 33
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Frozen Heart"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Fiendhunter Bolts",
+     "Infinity Edge"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.7,
+    "play": 75,
+    "pickRate": 72.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 48.3,
+    "play": 60,
+    "pickRate": 57.7
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 38.5
+   },
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 12.5
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 42.9,
+    "play": 21
+   }
+  ]
+ }
+}

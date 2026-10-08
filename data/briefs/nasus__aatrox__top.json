@@ -1,0 +1,381 @@
+{
+ "you": "Nasus",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose the lane if you trade before level 6; you win the game if you survive to stack Q and hit your item spikes."
+  },
+  "thesis": "Aatrox's Umbral Dash heal-on-hit passive, Deathbringer Stance execute-heal, and Infernal Chains engage let him win every extended trade before level 6, which is why OP.GG gives him both the lane and solo-kill edge. Nasus's Q (Siphoning Strike) deals flat, unstacked damage at this stage and only becomes a threat once farmed up, so the 48.4% win rate over 192 games reflects a matchup that inverts late rather than one that's lost outright.",
+  "tell": {
+   "watch": "Deathbringer Stance charge bar",
+   "theirWindow": {
+    "when": "Deathbringer Stance charged, Umbral Dash up",
+    "what": "Back off to max Q range and farm only. If he lands the empowered auto and has Umbral Dash (9/8/7/6/5s cd) up to chase, you lose the exchange outright."
+   },
+   "yourWindow": {
+    "when": "Umbral Dash on cooldown, Wither applied",
+    "what": "Commit now. Land Wither (15/14/13/12/11s cd) first since its slow ramps the longer it's on him, then follow with Q and drop Spirit Fire under his feet for the armor shred."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Darkin Blade chain + Umbral Dash heal win trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "highest solo-kill risk, per OP.GG data"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Fury of the Sands lets you contest"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "stacked Q and tank items outscale him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Runs at 54.2% win rate over 155 games and 62.8% pick rate because the flat damage reduction on hit directly dulls Aatrox's early auto and Q poke, letting you hold the wave instead of conceding it."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.8% win rate over 93 games. Reduces the physical burst from Deathbringer Stance autos and Darkin Blade swings, which is what actually kills you pre-6, not his spells."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Matches OP.GG's own tip for this matchup — the thorn damage and future Grievous Wounds upgrade path directly cut into Umbral Dash's and Deathbringer Stance's healing, the two things making him unkillable in trades."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Part of the top-win-rate full path listed. The attack speed and movement speed spike is what lets your Q stacking ramp up fast enough to start winning fights around level 11+."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Caps his attack speed and adds armor, directly undercutting the auto-attack trades (empowered Deathbringer Stance included) he's been winning all lane."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Completes the 71.4%-win-rate path over 7 games. Heal amp stacks with Soul Eater lifesteal to make you the one sustaining the fight by the time you're fully built."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is out-healing your damage even with Bramble Vest up, since the Grievous Wounds upgrade hits harder"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you need the waveclear and slow utility more than raw armor from Frozen Heart"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The move speed burst and heal-on-move let you kite out of Infernal Chains' drag radius and create distance from Umbral Dash follow-ups, which is exactly the spacing problem this lane presents.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Highest measured win rate of the three combos at 52.1% over 19.4% pick. Flash lets you dodge the Infernal Chains pull radius or juke an Umbral Dash engage outright, while Teleport keeps your scaling plan alive by letting you reset and still hit base timers."
+  },
+  "playing": [
+   {
+    "title": "Farm at max Q range only",
+    "detail": "Siphoning Strike has only 255 range — stay at its edge and don't step closer than you need to, since every extra step is inside Umbral Dash's 25000-range dash threat."
+   },
+   {
+    "title": "Hold Wither for his engage, not yours",
+    "detail": "Wither's slow ramps over its duration, so firing it the instant he commits to a dash or chain throw gets the most value out of it before he closes distance."
+   },
+   {
+    "title": "Zone with Spirit Fire, don't just poke",
+    "detail": "Drop it on the wave he wants to last-hit, not just on his body — the armor reduction on anyone standing in it makes your own Q trades hit harder too."
+   },
+   {
+    "title": "All-in only after level 6",
+    "detail": "Fury of the Sands gives bonus health, range, and max-health drain damage — this is the first point where you can walk into his Umbral Dash sustain and still come out ahead."
+   },
+   {
+    "title": "Respect the third Darkin Blade swing",
+    "detail": "Each Q cast has a different area, and the third swing has the widest reach — don't walk through minions assuming his first two swings are the full threat range."
+   },
+   {
+    "title": "Buy Bramble Vest on curve, not late",
+    "detail": "Deathbringer Stance and Umbral Dash both heal him off your trades — delaying the Grievous Wounds line lets him outheal everything you do pre-6."
+   },
+   {
+    "title": "Don't contest with R on cooldown",
+    "detail": "Fury of the Sands is a 120s cooldown ultimate with no secondary charge — if it's down, play the lane like you're still pre-6 and disengage from extended fights."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from real games on the current patch (16.20.1) via OP.GG. The timing windows, ability interactions, and trade-pattern reasoning are my own read of the matchup, not measured data — some full build-path samples (7-14 games) are small, so treat the exact order as directionally correct rather than gospel."
+ },
+ "generatedAt": 1791453622494,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791453536105,
+  "overall": {
+   "winRate": 51.1,
+   "play": 7712,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 192,
+   "wins": 93,
+   "winRate": 48.4
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "defensive",
+  "opponentTip": "Keep your distance from Aatrox while keeping the range of his (Q)-(E) in mind. Focus on farming with [Q] and purchase Bramble Vest, and go in for the kill post level 6 with Spellbook + Fury of the Sands [R].",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 51.5,
+    "play": 101,
+    "pickRate": 40.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47.1,
+    "play": 70,
+    "pickRate": 28.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 19.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.8,
+    "play": 125,
+    "pickRate": 50.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 4.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.2,
+    "play": 155,
+    "pickRate": 62.8
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 39.4,
+    "play": 66,
+    "pickRate": 26.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 46.8,
+    "play": 111,
+    "pickRate": 46.4
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.8,
+    "play": 93,
+    "pickRate": 38.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 6.4
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 54.8,
+    "play": 157,
+    "pickRate": 64.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 56.7,
+    "play": 127,
+    "pickRate": 52.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.4,
+    "play": 84,
+    "pickRate": 34.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50.6,
+    "play": 83,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 54.5,
+    "play": 55,
+    "pickRate": 22.7
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 44.2,
+    "play": 52,
+    "pickRate": 21.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 62.1,
+    "play": 29
+   }
+  ]
+ }
+}
