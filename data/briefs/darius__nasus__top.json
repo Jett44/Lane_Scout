@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured early",
+   "line": "You win if you deny Nasus's Siphoning Strike stacks before level 6; you lose if you let him farm uncontested into a 15-minute Wither lane."
+  },
+  "thesis": "Nasus has zero gap closer and a stacking Q (Siphoning Strike, cooldown 8/7/6/5/4s) that does nothing unless he's allowed to walk up and land it on a minion or you. Darius's E (Apprehend) has 535 range and pulls him in for free — every time he steps up to farm, that's a Hemorrhage stack and a trade you started on your terms. The 51.8% win rate over 197 games reflects a lane that's yours if you stay aggressive, not one that's automatically won.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike cooldown/stacks",
+   "theirWindow": {
+    "when": "his W (Wither) is up and you're overextended",
+    "what": "Wither decelerates your Move and Attack Speed over its duration with no cast delay you can dodge. If you're already low or out of position when it lands, disengage immediately rather than trying to trade through it."
+   },
+   "yourWindow": {
+    "when": "Nasus walks up to last-hit a minion",
+    "what": "He has no dash, no blink, nothing to punish an E (Apprehend) pull. Hook him in, land Q (Decimate) for the blade-side damage, and auto before he can disengage — this is the core repeatable trade of the lane."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Early Decimate blade damage beats his single-target Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Apprehend online, punish every farm step"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His Fury of the Sands and your Guillotine both live"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Full combo plus R-reset snowballs kills"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Stacked Q scaling if lane was passive"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The highest-played start (85.7% pick, 44.6% WR over 233 games) — the sustain and AD let you win the repeated short trades Apprehend creates without running out of lane HP."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Most-played boots in this matchup (42.2% pick, 46.8% WR over 111 games) — the flat Move Speed is the direct counter to Wither's slow, letting you re-engage or disengage through it."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Active haste lets you close the last step of a gap-closer-less opponent and reset for a second stack window."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Move Speed stacking plus a bonus-damage proc builds around the same chase problem Boots of Swiftness solves."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Best win rate of the listed third-item paths (66.7% over 18 games) — the damage-over-time conversion keeps you alive through extended Spirit Fire trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "nasus builds magic damage or the enemy team shifts ap-heavy later"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he or the enemy team is stacking burst or executes to punish your all-ins"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want earlier slow-resist and wave clear to shove him off farm"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Nasus fights are extended skirmishes, not burst trades — stacking adaptive damage and the healing conversion reward you for staying in prolonged Apprehend-into-auto trades rather than a single hit-and-run.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite carries the best measured win rate on a meaningful sample (50.6% over games with 29.3% pick rate) — with Darius holding the solo-kill advantage here, Ignite turns a won trade into a kill instead of a reset."
+  },
+  "playing": [
+   {
+    "title": "Pull him every time he farms melee range",
+    "detail": "Nasus has no dash or blink. Any time he steps inside your E (Apprehend)'s 535 range to last-hit, hook him and follow with Q (Decimate) and an auto — this is your single highest-value repeatable action."
+   },
+   {
+    "title": "Track his Siphoning Strike cooldown",
+    "detail": "At 8/7/6/5/4s cooldown, a landed Q is the only thing that scales him. A whiffed or cooling-down Q is a window where he has almost no answer to your engage."
+   },
+   {
+    "title": "Respect Wither before extending",
+    "detail": "Wither slows your Move and Attack Speed for its duration with no way to cleanse it mid-lane. Don't commit to a long trade or chase into his W if you're already below 50% HP."
+   },
+   {
+    "title": "Use Guillotine as a true-damage finisher, not an opener",
+    "detail": "Noxian Guillotine's true damage scales directly with Hemorrhage stacks — land it after 3-5 stacks are already on him, not as your first hit, and remember a kill refreshes its cooldown for a near-immediate follow-up."
+   },
+   {
+    "title": "Don't facecheck his Spirit Fire zone",
+    "detail": "Spirit Fire reduces the Armor of anyone standing in it — if he drops it defensively, back out rather than fighting fully inside it unless you're already committed to the kill."
+   },
+   {
+    "title": "Shove and deny before level 6",
+    "detail": "Every wave you push through denies him the uninterrupted last-hits his stacking Q needs. A hard shove into his turret before his Fury of the Sands comes online compounds over the whole game."
+   },
+   {
+    "title": "Don't let the lane go quiet after 14",
+    "detail": "If stacks got away from you, a passive lane turns into a Nasus who out-scales you 1v1. Force skirmishes, pull him into your jungle's vision, or roam rather than giving him free farm turns."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch (16.20.1) — the trade timing and mechanical reasoning around them is my own read of the matchup."
+ },
+ "generatedAt": 1791470579325,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791470516658,
+  "overall": {
+   "winRate": 49.5,
+   "play": 11758,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 197,
+   "wins": 102,
+   "winRate": 51.8
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus grow easily by constantly applying pressure in lane. Close in to fight him whenever he steps in range to kill him easily.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 44.4,
+    "play": 180,
+    "pickRate": 66.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.6,
+    "play": 79,
+    "pickRate": 29.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 2.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.8,
+    "play": 79,
+    "pickRate": 29
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40.8,
+    "play": 76,
+    "pickRate": 27.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 44.6,
+    "play": 233,
+    "pickRate": 85.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 12.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 46.8,
+    "play": 111,
+    "pickRate": 42.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44,
+    "play": 84,
+    "pickRate": 31.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 12.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 18,
+    "pickRate": 11.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 9.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.9,
+    "play": 142,
+    "pickRate": 52.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 48.6,
+    "play": 140,
+    "pickRate": 51.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 56.3,
+    "play": 87,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 40,
+    "play": 85,
+    "pickRate": 31.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 57.5,
+    "play": 73,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 58,
+    "play": 69,
+    "pickRate": 25.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 46.7,
+    "play": 60
+   }
+  ]
+ }
+}

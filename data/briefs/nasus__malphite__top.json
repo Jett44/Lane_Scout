@@ -1,0 +1,388 @@
+{
+ "you": "Nasus",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slow-start favourite",
+   "line": "You lose if Malphite uses Granite Shield and Brutal Strikes to solo-kill you before level 6, but you win the 54.2% of games where you stack Siphoning Strike through the poke and let Wither and Spirit Fire flip fights from level 9 onward."
+  },
+  "thesis": "Malphite holds the lane and solo-kill edge early because Granite Shield absorbs your poke while Brutal Strikes gives him free all-in windows a level 1-5 Nasus has no answer for. Siphoning Strike's stacking damage and Soul Eater lifesteal only erase that deficit once you've farmed enough resets and unlocked Wither to shut down his attack-speed steroid. The 54.2% winrate over 262 games is a lane you survive, not one you dominate, until Spirit Fire's armor shred and a completed Trinity Force let your stacked Q start winning trades outright.",
+  "tell": {
+   "watch": "Malphite's Granite Shield status",
+   "theirWindow": {
+    "when": "Granite Shield fully recharged, Brutal Strikes up",
+    "what": "He trades for free here — his shield eats your poke and W buffs his Attack Damage and Armor, so hold your Q stacks and avoid extended auto exchanges until his shield breaks."
+   },
+   "yourWindow": {
+    "when": "Right after he uses Brutal Strikes or Ground Slam",
+    "what": "His shield is down and both W (14s cooldown) and E (7s cooldown) are spent — Wither him immediately and chain Siphoning Strikes, since Soul Eater lifesteal now out-sustains his reduced output."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Brutal Strikes trades beat your melee-range Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Seismic Shard poke outpaces missing Wither"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Wither counters his attack-speed steroid"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Spirit Fire shred plus Trinity Force snowball"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Stacked Q and Fury of the Sands close games"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "278-game sample shows a 55.4% win rate because the shield passive blunts Seismic Shard pokes and Ground Slam chip while you farm Q stacks."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "54.2% pick rate and 55.6% win rate over 189 games — the cooldown reduction buys more Wither and Spirit Fire casts per trade window, which is the whole matchup plan."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade proc off Siphoning Strike and autos adds burst and movement speed to run down a Seismic Shard slow."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Amplifies Soul Eater lifesteal and Fury of the Sands' health drain, the exact sustain this matchup is won on."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "More ability haste for Wither/Spirit Fire uptime, plus its attack speed slow directly undercuts a Brutal Strikes-empowered Malphite."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mercury's Treads",
+     "when": "malphite's team stacks extra crowd control around his ultimate engage"
+    },
+    {
+     "item": "Thornmail",
+     "when": "malphite rushes armor and keeps winning extended auto-attack trades off brutal strikes"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "you need more sustained tankiness and an attack-speed slow in skirmishes"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the game goes long and you need magic resistance that scales with your stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The on-hit heal and movement burst let you dodge Seismic Shard and Ground Slam while topping off health, stacking on top of Soul Eater as you farm Q resets.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best win rate of the three common setups (58.4% over this sample) — Teleport lets you reset after stacking Q on waves without losing tempo, and Flash dodges his 1000-range Unstoppable Force engage."
+  },
+  "playing": [
+   {
+    "title": "Stack Q on everything",
+    "detail": "Siphoning Strike resets and grows permanently on a kill — prioritize last-hitting cannons and casters even off-tempo, since OP.GG's own tip is correct: stacked Q is what converts this into a 54.2% matchup."
+   },
+   {
+    "title": "Dodge Seismic Shard",
+    "detail": "Malphite's Q is up every 8 seconds and steals your movement speed on hit — don't walk straight at him when it's available, since repeated hits are the single biggest lane bleed."
+   },
+   {
+    "title": "Check Granite Shield before trading",
+    "detail": "His passive recharges whenever he hasn't been hit recently — if you haven't poked him, your first auto or Spirit Fire tick does nothing, so strip the shield before committing further."
+   },
+   {
+    "title": "Save Wither for his W",
+    "detail": "Brutal Strikes is only up every 14 seconds and buffs his Attack Damage and Armor for the trade — cast Wither the instant he activates it to gut his attack speed and turn the all-in around."
+   },
+   {
+    "title": "Drop Spirit Fire before extended fights",
+    "detail": "E's 12-second cooldown zone cuts his Armor, which raises your physical damage and lowers his Ground Slam damage since that ability scales off his own Armor stat."
+   },
+   {
+    "title": "Track his ultimate cooldown post-6",
+    "detail": "Unstoppable Force has 1000 range but a long cooldown (130s down to 80s at max rank) — don't overextend for stacks near river or bushes until you've seen it used."
+   },
+   {
+    "title": "All-in with R once available",
+    "detail": "Fury of the Sands' max-health drain and extended range from level 6 onward let you punish any trade he opens with Brutal Strikes, since your durability now outscales his burst."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample figures are measured OP.GG data from live games on the current patch; the mechanical reasoning and trade windows are this brief's own tactical read."
+ },
+ "generatedAt": 1791470781709,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791470688268,
+  "overall": {
+   "winRate": 51.1,
+   "play": 9000,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 262,
+   "wins": 142,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "Malphite",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Try not to get hit by Malphite’s (Q) too often. Heal back up with [Q] and control lane to focus on gaining more [Q] stacks.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 51.1,
+    "play": 180,
+    "pickRate": 50.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 52.3,
+    "play": 88,
+    "pickRate": 24.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 58.4,
+    "play": 77,
+    "pickRate": 21.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 214,
+    "pickRate": 60.3
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 4.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55.4,
+    "play": 278,
+    "pickRate": 77.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 49,
+    "pickRate": 13.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 55.6,
+    "play": 189,
+    "pickRate": 54.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.8,
+    "play": 106,
+    "pickRate": 30.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 60,
+    "play": 45,
+    "pickRate": 18.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Frozen Heart"
+    ],
+    "winRate": 71.4,
+    "play": 35,
+    "pickRate": 14.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 35.3,
+    "play": 17,
+    "pickRate": 6.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 54,
+    "play": 291,
+    "pickRate": 78.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 56.4,
+    "play": 218,
+    "pickRate": 58.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 56.4,
+    "play": 195,
+    "pickRate": 52.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 44.4,
+    "play": 54,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 58.3,
+    "play": 48,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 60.4,
+    "play": 48,
+    "pickRate": 13
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.4,
+    "play": 65
+   }
+  ]
+ }
+}

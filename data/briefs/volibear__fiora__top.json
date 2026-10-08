@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, slightly behind",
+   "line": "You lose if you walk into an up Riposte or extend past level 10 before her Blade Waltz is down; you win if you bait her W, chain Q into double W, and out-sustain her Duelist stacks once your on-hit core lands."
+  },
+  "thesis": "Fiora's whole trade pattern depends on baiting your stun or auto into an up Riposte (W) and using Lunge (Q)'s free second dash to disengage, while your Sky Splitter (E, 1200 range) outranges her 600-range Lunge and lets you threaten without ever touching her parry. The head-to-head win rate of 44.7% over 123 games sits below Volibear's overall 48.4% across 8,888 games, matching the measured edge to Fiora, but the even solo-kill rate confirms all-ins are winnable once you actually track her cooldowns instead of swinging blind.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "Riposte is up and you're in melee range",
+    "what": "Do not auto-attack or Thundering Smash into her while W is live; it parries your next basic attack and reflects magic damage. Poke with Sky Splitter (E) from its 1200 range instead and wait for the parry window to expire (10s at rank 1, down to 6s by rank 5)."
+   },
+   "yourWindow": {
+    "when": "Riposte and Lunge are both down",
+    "what": "Commit Q (Thundering Smash, 12-10s cd) for the stun into W (Frenzied Maul), then immediately recast W on the same mark for bonus damage and a heal. This window opens right after she pokes with Lunge (16-8s cd) and has nothing left to punish your engage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Lunge poke outtrades you, Riposte punishes Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online lets you zone from range"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Blade Waltz burst spikes, your R still weak"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "On-hit core and W heal close the gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Sustain and tankiness overwhelm her duelist scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "The mana pool lets you spam E (16s cd) and double-tap W (5s cd) through early trades without running dry, and the regen offsets her Duelist passive stacking off every poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Fiora's damage is almost entirely basic attacks and on-hit from Lunge; flat reduction on autos blunts both her poke and her Blade Waltz follow-up autos after landing."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "Attack speed and the proc damage let you stack your passive's bonus magic damage faster in extended trades, which is how you out-value her short burst windows."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Sustained damage and haste keep your Q/W rotation cycling fast enough to punish every time her Riposte goes down."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "More attack speed compounds your on-hit passive stacks, turning drawn-out fights (which favor you once her Vitals are gone) decisively your way."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Boosts the heal on your double-tap W and your passive sustain, directly countering her Duelist regen in a race for who outlasts the trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "fiora's Duelist stacks are healing her through your all-ins and your burst isn't closing the fight"
+    },
+    {
+     "item": "Thornmail",
+     "when": "fiora snowballs ahead and starts threatening one-shot burst with Blade Waltz plus crit items"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The ramping attack speed rewards exactly the long trades you're trying to force; the longer Fiora's Riposte sits on cooldown (as low as 6s at rank 5), the more your stacked attack speed outpaces her short burst windows.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Waterwalking",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "This pairing posts the best measured win rate in this matchup at 57.1%. Exhaust directly neutralizes her all-in burst from Lunge resets, Burst of Speed, and Blade Waltz, which is exactly the damage spike you're otherwise exposed to between levels 6 and 10."
+  },
+  "playing": [
+   {
+    "title": "Bait Riposte before engaging",
+    "detail": "Poke with a minion auto or your E first; only commit Q or an auto-attack once you've seen her Riposte (W) trigger or its cooldown run out, since swinging into it gets parried and reflected."
+   },
+   {
+    "title": "Lead trades with E, not Q",
+    "detail": "Sky Splitter's 1200 range outranges her 600-range Lunge entirely. Land it on her before she can close distance so you collect the slow and shield without ever offering her a Riposte target."
+   },
+   {
+    "title": "Double-tap W for sustain",
+    "detail": "Mark her with the first Frenzied Maul, then immediately recast it on the same target for bonus damage and a heal. This is your primary tool for out-sustaining her Duelist regen in close trades."
+   },
+   {
+    "title": "Save Q for her committed Lunge",
+    "detail": "She can't Riposte your stun mid-dash. If she burns both charges of Lunge to close or poke, her Riposte is now her only defensive tool left; punish immediately with Q."
+   },
+   {
+    "title": "Respect the level 6-10 all-in window",
+    "detail": "Blade Waltz hits every nearby champion and resets Burst of Speed on a kill. Don't extend solo trades here; your Stormbringer is still on a 160s cooldown at rank 1 and isn't a reliable bailout yet."
+   },
+   {
+    "title": "Hold R to zone, not to chase",
+    "detail": "Stormbringer slows and disables nearby towers on landing. Use it to force a bad trade near your own turret rather than diving after her, since a whiffed 160/135/110s-cooldown ultimate is a long window to play without it."
+   },
+   {
+    "title": "Close the gap at level 11+",
+    "detail": "Once Statikk Shiv and Navori Flickerblade are online, your auto-W-auto rotation starts out-damaging her flat Lunge hits over the course of a fight. This is where the matchup tips back in your favor."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are pulled from measured games on the current patch (123 head-to-head games, 8,888 Volibear games overall); the mechanical reasoning and trade-window calls are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791472167412,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791472060493,
+  "overall": {
+   "winRate": 48.4,
+   "play": 8888,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 123,
+   "wins": 55,
+   "winRate": 44.7
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Always be aware of Fiora’s Riposte (W) before charging in using [Q]. Be careful of your Vitals when farming lane, and use [E] to contest lane while waiting for a chance to kill her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.5,
+    "play": 108,
+    "pickRate": 72.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 14.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 10.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 22.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 7.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 44.2,
+    "play": 95,
+    "pickRate": 63.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 17.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.3,
+    "play": 88,
+    "pickRate": 65.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 10.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 9.2
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Dusk and Dawn",
+     "Navori Flickerblade"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 7.9
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 45.1,
+    "play": 71,
+    "pickRate": 48
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 48
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 55.8,
+    "play": 43,
+    "pickRate": 29.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.2,
+    "play": 42,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.9,
+    "play": 27,
+    "pickRate": 18.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 31.8,
+    "play": 22
+   }
+  ]
+ }
+}

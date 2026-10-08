@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if you walk up into Blinding Dart and Toxic Shot poke before level 6; you win if you survive to a Stridebreaker and start forcing fights he can't kite."
+  },
+  "thesis": "This is a spacing and vision problem, not a damage problem: Teemo's Q (Blinding Dart, 8s cooldown, 680 range) and passive Camouflage let him pick when every trade happens, so Garen is stuck reacting until he buys a gap-closer. Garen's 45.5% win rate over 156 games and Teemo's lane/solo-kill edge both come from that early powerlessness, not from Garen losing stand-and-fight exchanges once he's actually in range.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart just landed on you",
+    "what": "Your basic attacks whiff for the blind duration, so your Q's (Decisive Strike) bonus damage won't land cleanly either since it rides on an attack. Back off, let Toxic Shot's stacks tick down, and don't swing into him."
+   },
+   "yourWindow": {
+    "when": "his Q is on cooldown and he's in melee range",
+    "what": "Commit immediately with Q (Decisive Strike) for the move-speed-plus-silence engage, then E (Judgment) to spin for the burst. You have roughly 8 seconds of safety before his Q is back up to disengage again."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "ranged poke punishes any forward step pre-level 3"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Toxic Shot stacks and Camouflage deny clean trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Demacian Justice threat forces cautious Teemo plays"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Stridebreaker lets you catch and execute kiting Teemo"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "46.6% win rate over 174 games and the highest pick rate (76.3%) in this matchup — the extra sustain offsets Toxic Shot's poke damage so you can last to level 3 without resetting."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "48.8% win rate over 127 games and 57% pick rate; the attack speed keeps your trade damage up once you're in range, which matters more here than magic resist since Teemo can't burst you."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The active gap-closer is the direct answer to Move Quick kiting — this is the item that flips the lane from 'reacting to his poke' to 'forcing fights.'"
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Part of the 61.9% win rate path over 21 games; more attack speed and slow-resist to keep sticking to him once you've closed the gap."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Completes the top build path (61.9% WR, 14.9% pick); grievous wounds cuts into whatever healing/sustain he's stacked and secures kills once your R is live."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you want an earlier second gap-closer to chain with Stridebreaker's active for split-pushing and picks"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "the poison stacking from Toxic Shot and Noxious Trap mushrooms is draining you faster than Perseverance can regenerate"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "he's building squishy and you're already ahead, converting the lead into burst instead of sustained DPS"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need more raw tankiness to survive the walk-up before your gap-closers are off cooldown"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Stormraider's Surge",
+   "keystoneWhy": "The most-picked page here (28.6% pick, 46.9% WR); the movement speed burst after using two spells helps you close distance on a champion whose whole kit is built to keep distance. Master-tier Garen players instead favor Conqueror (Precision) for the sustained healing in prolonged trades — worth switching to if you're confident winning extended skirmishes rather than short burst windows.",
+   "primary": [
+    "Axiom Arcanist",
+    "Celerity",
+    "Gathering Storm"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 88.8% of games here; Ignite punishes the all-in windows above by removing his ability to heal or disengage out of kill range. Flash+Teleport (54.5% WR, 4.9% pick) is a viable alternative if you expect a longer, scaling-focused lane where you'd rather reset and keep farm even."
+  },
+  "playing": [
+   {
+    "title": "Play from brush before level 3",
+    "detail": "Use brush to block his poke angles and force him to guess your position instead of free-hitting Blinding Dart and Toxic Shot on cooldown."
+   },
+   {
+    "title": "Count the 8-second Q window",
+    "detail": "Only commit to a trade once you've confirmed Blinding Dart is down; otherwise your attacks and Q's (Decisive Strike) bonus effect get blinded off."
+   },
+   {
+    "title": "Don't waste early R attempts",
+    "detail": "Demacian Justice is 140s/110s on ranks 1-2, so a missed execute near level 6-10 leaves you with no ultimate for a long stretch — only throw it when his Move Quick and Blinding Dart are both on cooldown."
+   },
+   {
+    "title": "Clear wards before dueling near river",
+    "detail": "Noxious Trap has only a 1-second cooldown between placements, so he can lay several mushrooms cheaply around brush and objectives — sweep or ward before you commit to a skirmish there."
+   },
+   {
+    "title": "Rush the gap-closer, not raw damage",
+    "detail": "Stridebreaker's active is the single biggest lane-flipping purchase against a kiting ranged laner; prioritize finishing it over side items."
+   },
+   {
+    "title": "Let Perseverance tick between trades",
+    "detail": "Step out of range after each exchange so Garen's passive health regen can offset the Toxic Shot damage-over-time stacks instead of fighting through them."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and timing calls are my own read of the matchup, not sourced data."
+ },
+ "generatedAt": 1791470511482,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791470405390,
+  "overall": {
+   "winRate": 50.8,
+   "play": 11525,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 156,
+   "wins": 71,
+   "winRate": 45.5
+  },
+  "laneAdvantage": "Teemo",
+  "soloKillAdvantage": "Teemo",
+  "playStyle": "even",
+  "opponentTip": "Avoid being punished before reaching level 3 by hiding inside a brush or maintaining your distance. Close in to deal damage when either Teemo’s (W) is on cooldown or he steps in your range.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.7,
+    "play": 199,
+    "pickRate": 88.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 4.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 77.8,
+    "play": 9,
+    "pickRate": 4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.9,
+    "play": 64,
+    "pickRate": 28.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 58,
+    "pickRate": 25.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 174,
+    "pickRate": 76.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.6,
+    "play": 28,
+    "pickRate": 12.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 48.8,
+    "play": 127,
+    "pickRate": 57
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 41.7,
+    "play": 48,
+    "pickRate": 21.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Infinity Edge"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 9.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Youmuu's Ghostblade",
+     "Phantom Dancer"
+    ],
+    "winRate": 71.4,
+    "play": 14,
+    "pickRate": 9.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 45.8,
+    "play": 214,
+    "pickRate": 95.1
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 56.5,
+    "play": 124,
+    "pickRate": 55.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 50.8,
+    "play": 61,
+    "pickRate": 27.1
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 45.5,
+    "play": 55,
+    "pickRate": 24.4
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 47.2,
+    "play": 53,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 59.1,
+    "play": 44,
+    "pickRate": 19.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 51.4,
+    "play": 72
+   }
+  ],
+  "highElo": {
+   "keystone": "Conqueror",
+   "tree": "Precision",
+   "play": 1338
+  }
+ }
+}

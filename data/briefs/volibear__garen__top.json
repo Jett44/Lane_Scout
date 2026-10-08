@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Garen stack passive and trade into full Courage; you win if you force fights with E up and punish his cooldowns."
+  },
+  "thesis": "This is a near-50/50 lane (49.8% over 203 games) decided by who controls when damage lands. Garen's Passive (Perseverance) heals him back to full if he avoids damage for a few seconds, so your entire job is denying that window; your E (Sky Splitter) and W (Frenzied Maul) both apply direct, repeatable damage that keeps his regen off.",
+  "tell": {
+   "watch": "Garen's Passive regen glow",
+   "theirWindow": {
+    "when": "Q (Decisive Strike) silence lands on you",
+    "what": "Decisive Strike breaks his slows and silences on the next hit — if he lands it mid-trade you can't use W or R to extend, so disengage with Q (Thundering Smash) stun or back off until it's down."
+   },
+   "yourWindow": {
+    "when": "his E (Judgment) and Q are both on cooldown",
+    "what": "Trade with W into W for the mark-and-heal proc, or land E (Sky Splitter) to slow and shield before fighting — this is when he has no escape and no silence to punish your commitment."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both short-ranged trades, Q stun vs Q silence"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Judgment online, passive heal punishes short trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "your R threatens all-in, his Judgment still spikes"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "W double-proc and E slow outpace his flat scaling"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "R disables his escape, full build burst wins"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "most-picked start (71.7% of games) and gives sustain plus early ability haste to keep W and E cycling through poke exchanges"
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "highest win rate boots (50.4% over 127 games) — Garen's W and auto-resets are physical, so the reduced auto damage directly blunts his trade pattern"
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "most common first core item, builds into ability haste for faster W/E cycles"
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "core second item in the top build path, pushes W procs and attack speed from passive stacking"
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "highest win-rate completed path (43.8%), magic resist plus healing amp stacks with W's self-heal to out-sustain his Perseverance"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is building lifesteal or you need the grievous wounds to shut down his Perseverance regen"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "you are ahead and want to snowball raw damage instead of defensive stats"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "you want extra sustain and poke pressure in a longer, grindier lane"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "attack speed ramp rewards sticking on him through his Q silence window and punishes him every time Perseverance tries to kick in",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "most-picked combo (73% pick rate) and Ignite directly cancels his Perseverance passive regen during all-in windows"
+  },
+  "playing": [
+   {
+    "title": "Deny his passive heal",
+    "detail": "Garen's Perseverance heals him back if he takes no damage for a few seconds. Poke with W every time it's off cooldown (5s) so he never gets a clean window."
+   },
+   {
+    "title": "Track Decisive Strike cooldown",
+    "detail": "His Q (8s cooldown) breaks slows and silences your next ability on hit. Don't commit W-W or R into a fresh Q — bait it out first with a short trade."
+   },
+   {
+    "title": "E before you all-in",
+    "detail": "Sky Splitter slows and shields you if you're in the blast. Land it before fully committing so he can't Q away and you have the shield for his Judgment spin."
+   },
+   {
+    "title": "Save Q stun for his E window",
+    "detail": "Thundering Smash stuns on your first attack after the dash. Use it to lock him in place right as Judgment goes on cooldown so he can't disengage or reset trades."
+   },
+   {
+    "title": "Avoid long trades under his W",
+    "detail": "Courage reduces incoming damage for its duration on a 20-24s cooldown. Don't commit your full W-W combo while it's active — wait it out or bait it early."
+   },
+   {
+    "title": "Ult to deny his execute",
+    "detail": "His R (Demacian Justice) scales down to a 20s cooldown at rank 3 and executes low-health targets. Once you're both near ult, don't sit at low HP without Stormbringer's bonus health or an escape ready."
+   },
+   {
+    "title": "Push for plates, not kills",
+    "detail": "This lane is even in win rate but Volibear holds the solo-kill edge — play for sustained pressure and tower plates rather than forcing all-ins before level 6."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are pulled from measured OP.GG games on the current patch (16.20.1); the trade-timing and cooldown-punish reasoning is my own tactical read layered on top."
+ },
+ "generatedAt": 1791471792275,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791471758163,
+  "overall": {
+   "winRate": 48.4,
+   "play": 8888,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 203,
+   "wins": 101,
+   "winRate": 49.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "aggressive",
+  "opponentTip": "Use [E] often to prevent Garen’s (P) from activating. Use Grasp of the Undying whenever it comes off cooldown to engage combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.3,
+    "play": 189,
+    "pickRate": 73
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 14.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 25,
+    "pickRate": 9.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 68,
+    "pickRate": 26.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 33,
+    "pickRate": 12.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.4,
+    "play": 182,
+    "pickRate": 71.7
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52,
+    "play": 50,
+    "pickRate": 19.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.4,
+    "play": 127,
+    "pickRate": 53.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.7,
+    "play": 29,
+    "pickRate": 12.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 9.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Hextech Gunblade",
+     "Shadowflame"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 5.2
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.5,
+    "play": 167,
+    "pickRate": 64
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 50,
+    "play": 122,
+    "pickRate": 46.7
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 53.3,
+    "play": 90,
+    "pickRate": 34.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 56.8,
+    "play": 74,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 44.2,
+    "play": 43,
+    "pickRate": 16.5
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 62.2,
+    "play": 37,
+    "pickRate": 14.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 50,
+    "play": 64
+   }
+  ]
+ }
+}

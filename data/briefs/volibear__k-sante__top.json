@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, scales your way",
+   "line": "You lose extended Q poke exchanges before level 6, but win from mid-game once your sustain items come online."
+  },
+  "thesis": "K'Sante's Q (Ntofo Strikes) is a 3.5s-cooldown poke tool that out-trades Volibear's slower 12s Q (Thundering Smash) in the first few levels, which is why he holds the lane and solo-kill edge early. Volibear's W (Frenzied Maul) double-cast heal and later sustain items flip that math over a long lane, matching the 51.9% head-to-head win rate over 129 games — better than Volibear's 48.4% average.",
+  "tell": {
+   "watch": "K'Sante's Ntofo Strikes stack count",
+   "theirWindow": {
+    "when": "he reaches 2 Ntofo Strikes stacks",
+    "what": "His next hit fires a shockwave that pulls you in, setting up a follow-up with W (Path Maker). Back off before the second stack lands or be ready to eat the pull without a free stun on you."
+   },
+   "yourWindow": {
+    "when": "his W (Path Maker) and E (Footwork) are both on cooldown",
+    "what": "He has no stun, no knockback, and no dash-shield to disengage. Walk up and chain Q (Thundering Smash) into double W (Frenzied Maul) for the mark bonus damage and heal."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his 3.5s Q poke outpaces your 12s Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Path Maker stun threatens every all-in"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates online, trades stabilize"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "W double-cast heal closes the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "sustain items outlast his All Out risk"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured at 51.6% win rate; the extra damage and sustain let you win W (Frenzied Maul) trades against his Q poke instead of just surviving them."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Measured at 58.1% win rate; the tenacity directly cuts the duration of Path Maker's stun and All Out's knockback, his two hard CC sources."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the highest-winrate recorded path (60% over 5 games); gives the early tempo to punish cooldowns."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Grievous Wounds and omnivamp directly counter his All Out self-healing and your own sustain-trade plan."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Stacks healing amplification on top of W's recast heal, turning every extended trade in your favor."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Navori Flickerblade",
+     "when": "you are ahead and snowballing, since lower cooldowns on Q and W let you chain the stun-heal combo more often"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "the lane turns into a long poke war, since extra sustain and a slow answer his Q chip damage"
+    },
+    {
+     "item": "Terminus",
+     "when": "their team shifts into a mixed physical/magic damage comp, since the adaptive resistances cover both"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Measured at 75% win rate on this page; the per-trade healing and max health growth directly answer his low-cooldown Q poke, which is the stat behind his early lane advantage.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Revitalize"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the standard pick at 65.6% of games and a solid 52.5% win rate; the burn punishes the all-in windows you open once his Path Maker and Footwork are both down."
+  },
+  "playing": [
+   {
+    "title": "Bait the Q poke",
+    "detail": "Don't stand still inside his 450-range Ntofo Strikes line for free pokes. Make him walk up to land it, then punish the approach with W (Frenzied Maul)."
+   },
+   {
+    "title": "Track his Ntofo stacks",
+    "detail": "At 2 stacks his next hit fires a pulling shockwave. Disengage before the second stack lands or be ready to tank the pull without extra CC on you."
+   },
+   {
+    "title": "Trade right after Path Maker",
+    "detail": "His W is his only stun and it's on a 14-10s cooldown. Once it's used, step in with Q (Thundering Smash) into a double W for the mark damage and heal."
+   },
+   {
+    "title": "Don't fight the charge-up",
+    "detail": "Path Maker's channel reduces his damage taken before the dash. Wait out the charge instead of trading into it, then punish the recovery."
+   },
+   {
+    "title": "Zone with Sky Splitter",
+    "detail": "E's 1200 range lets you slow and shield off his Footwork repositioning rather than just using it for poke damage."
+   },
+   {
+    "title": "Double-tap W in every trade",
+    "detail": "Frenzied Maul's second cast on the same marked target heals you. Always recast it in extended exchanges to offset his Q chip damage."
+   },
+   {
+    "title": "Use R to shut down his All Out dive",
+    "detail": "Stormbringer disables nearby enemy towers on landing. Save it to punish his All Out all-in under your tower rather than using it as a standalone engage."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win rates are measured from live OP.GG games on the current patch (16.20.1); the tactical reading of cooldowns, stacks, and trade windows is our own analysis of the ability text."
+ },
+ "generatedAt": 1791472559009,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791472454646,
+  "overall": {
+   "winRate": 48.4,
+   "play": 8888,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 129,
+   "wins": 67,
+   "winRate": 51.9
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.5,
+    "play": 99,
+    "pickRate": 65.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 26,
+    "pickRate": 17.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 6.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.9,
+    "play": 37,
+    "pickRate": 24.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 75,
+    "play": 12,
+    "pickRate": 8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 107,
+    "pickRate": 68.2
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 31,
+    "pickRate": 19.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.6,
+    "play": 57,
+    "pickRate": 39.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 58.1,
+    "play": 31,
+    "pickRate": 21.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Unending Despair",
+     "Spirit Visage"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 4.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 47.6,
+    "play": 82,
+    "pickRate": 52.6
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 52.5,
+    "play": 59,
+    "pickRate": 37.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 64.4,
+    "play": 45,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 44.4,
+    "play": 45,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 53.6,
+    "play": 28,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 52,
+    "play": 25,
+    "pickRate": 16
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 48.8,
+    "play": 41
+   }
+  ]
+ }
+}

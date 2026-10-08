@@ -1,0 +1,382 @@
+{
+ "you": "K'Sante",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane edge, close game",
+   "line": "You lose if you let his W (Frenzied Maul) land twice on you and his attack-speed passive snowball an extended trade; you win if you force the fight on your Q-stack stun and W charge before his sustain kicks in."
+  },
+  "thesis": "K'Sante's W (Path Maker) takes reduced damage while charging before it knocks back and stuns, which lets him walk straight through Volibear's Q (Thundering Smash) engage and flip the stun back onto him - that's the structural reason K'Sante holds lane and solo-kill advantage (49.6% over 123 games) despite Volibear's higher sustain. The catch is Volibear's W (Frenzied Maul) recast heals him and his passive attack speed scales every fight he's allowed to extend, so the matchup stays even once both sides are 6+.",
+  "tell": {
+   "watch": "Volibear's W mark on you",
+   "theirWindow": {
+    "when": "levels 1-2, before your W is ranked",
+    "what": "Your skill order takes Q then E before W, so until level 3 you have no stun to answer his Q (Thundering Smash) gap-close. Don't stand in his 300-range Q threat range to farm; let him burn it on a dodge or trade from outside it."
+   },
+   "yourWindow": {
+    "when": "you land 2 Q stacks and have W off cooldown",
+    "what": "Q (Ntofo Strikes) at 2 stacks fires a shockwave that pulls him in - chain that straight into W's charge-up (damage reduced while charging) and stun. This is your all-in window; take it rather than trading autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q stun online, your W isn't yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W live, Q-stack stun chains win trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R unlocks, All Out all-in threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "his W-recast heal offsets your burst"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "both tanky, Sky Splitter zones sidelanes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm + Health Potion",
+    "why": "90.7% pick rate and the magic resist answers Volibear's passive, which eventually adds bonus magic damage to his attacks - you want that online before his autos start ticking extra."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "52.9% pick rate; the tenacity shortens how long his Q (Thundering Smash) stun locks you down, and the bonus MR stacks with Doran's Helm against his passive proc damage."
+   },
+   "core": [
+    {
+     "item": "Kaenic Rookern",
+     "why": "magic resist and the burst shield directly blunt his passive's magic damage proc and his Sky Splitter poke"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "the slow on-hit and cooldown reduction let your Q stack faster, which is your main engage-into-W tool"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "stacking resistances scale your trades as the lane goes even into mid game"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "he's building attack speed and leaning on his W (Frenzied Maul) recast heal to win extended trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's ahead and threatening to all-in off his passive attack speed stacking"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his attack speed snowball is making extended duels unwinnable"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "sustains you through his early Q-stun poke and scales bonus health, which directly counters a champion whose passive and W recast both reward him for winning long trades",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "73.2% pick rate; Teleport lets you reset after even trades and answer his Stormbringer-enabled tower dives on other lanes. Flash+Ignite (52.8% win rate over fewer games) is the stronger pick if you want to punish his lower-mobility all-ins directly."
+  },
+  "playing": [
+   {
+    "title": "Hold Q for the pull, not poke",
+    "detail": "Don't spend both Q (Ntofo Strikes) casts just for chip damage - the second cast at 2 stacks fires a shockwave that pulls him in, which is what sets up your W stun. Waste the stacks and you lose your engage tool."
+   },
+   {
+    "title": "Trade only with W up before level 6",
+    "detail": "W (Path Maker) reduces damage taken while charging, then knocks back and stuns - starting a trade with it ready lets you walk through his Q engage instead of eating it clean."
+   },
+   {
+    "title": "Respect levels 1-2 without W",
+    "detail": "Your skill order (QEWQQR...) delays W to level 3. Until then you have no answer to his Q stun, so avoid standing in his 300-range engage threat."
+   },
+   {
+    "title": "Disengage before his second W hit",
+    "detail": "Frenzied Maul's recast on the same target deals bonus damage and heals him - if he's already landed one W on you, back off rather than letting him confirm the recast."
+   },
+   {
+    "title": "Force the all-in around level 6-8",
+    "detail": "R (All Out) knocks him through walls and then transforms your kit with more damage and healing. This is your best window to commit to a kill before his sustain scales further."
+   },
+   {
+    "title": "Don't facecheck past level 1 for his E",
+    "detail": "Sky Splitter has 1200 range and slows on hit while shielding him if he's in the blast - stay off cooldown-timer guesswork and just don't overextend past minions when it's up."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above are measured from live K'Sante vs Volibear top-lane games on the current patch via OP.GG; the power-curve timing and trade-pattern reasoning are my own read of the ability mechanics, not measured data."
+ },
+ "generatedAt": 1791471445757,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791471346757,
+  "overall": {
+   "winRate": 47.5,
+   "play": 7643,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 123,
+   "wins": 61,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.8,
+    "play": 112,
+    "pickRate": 73.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.8,
+    "play": 36,
+    "pickRate": 23.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.3,
+    "play": 30,
+    "pickRate": 19.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 11.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 137,
+    "pickRate": 90.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.4,
+    "play": 73,
+    "pickRate": 52.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.3,
+    "play": 64,
+    "pickRate": 46.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 3.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 53.1,
+    "play": 113,
+    "pickRate": 73.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 49.2,
+    "play": 61,
+    "pickRate": 39.6
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 57.6,
+    "play": 59,
+    "pickRate": 38.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 56.4,
+    "play": 55,
+    "pickRate": 35.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.6,
+    "play": 53,
+    "pickRate": 34.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 18.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.3,
+    "play": 38
+   }
+  ]
+ }
+}

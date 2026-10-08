@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You lose if you facecheck her chained Q dashes into a W stun without your own cooldowns up; you win if you spam W (Frenzied Maul) on cooldown and punish every window her E (Valor) is down."
+  },
+  "thesis": "Riven's whole kit is a burst window gated by Broken Wings (Q, 13s cd) and Ki Burst (W, 11s down to 7s cd), and Valor (E) only blocks damage for a short step before going on its own cooldown as low as 6s. Volibear doesn't need to win an all-in — he needs to win the sustained trade, landing Frenzied Maul (W, 5s cd) on cooldown for stacking damage and a heal while Thundering Smash (Q) locks her down the instant she commits a dash. That's the mechanical reason Volibear sits at 57.4% over 68 games here against a 48.4% baseline across all top-lane games.",
+  "tell": {
+   "watch": "Riven's E (Valor) cooldown",
+   "theirWindow": {
+    "when": "She lands W (Ki Burst) stun first",
+    "what": "That stun chains straight into her three Q (Broken Wings) dashes for her full burst combo. If she's walking up with W off cooldown, don't stand still to trade — hold Thundering Smash (Q) for the moment she commits instead of eating the stun."
+   },
+   "yourWindow": {
+    "when": "Her E (Valor) is on cooldown",
+    "what": "She has no damage block available, so step in with Q (Thundering Smash) to stun her and follow with two casts of W (Frenzied Maul) for the bonus damage and the heal — that's the trade she literally cannot answer."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "her W stun + Q poke wins short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "your Q stun starts matching her dashes"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Stormbringer) leap forces winnable all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "W-recast heal outlasts her shrinking dash cooldowns"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "tank items nullify her burst entirely"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "52.6% win rate over 57 games and the most-picked start; the mana regen keeps Frenzied Maul (W) spamming every 5 seconds and the potions buy you sustain through her early Q poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Most-picked boots (59.1%) and directly answers Runic Blade — every empowered auto she lands costs you less once you're stacking armor against her AD-reliant kit."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First piece of the most-run and highest-win-rate core path (85.7% over 7 games) — gives the stats to keep trading through her dashes."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Attack speed scales your passive and W on-hit damage so every trade window does more before she can reset with E."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Amplifies the W (Frenzied Maul) recast heal, turning your sustain trading into a win condition she can't out-damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's leaning on auto-attacks to proc Runic Blade charges instead of ability combos"
+    },
+    {
+     "item": "Statikk Shiv",
+     "when": "you need more waveclear and poke range before she can close the gap with Valor"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "the game runs long and you need extra sustain and slow in extended skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Ramps attack speed the longer a trade runs, which rewards exactly the sustained W-spam trading pattern that beats her short dash windows — matches the 17.6%-pick page with the better sample.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Most-picked combo (65.9% pick, 51.7% win) and it matches the measured solo-kill advantage — Ignite punishes any all-in she takes once her E (Valor) is down and you've landed Q."
+  },
+  "playing": [
+   {
+    "title": "Trade with W on cooldown",
+    "detail": "Land Frenzied Maul (W) every 5 seconds whenever you're in range — the recast bonus damage and heal is where most of your lane-win rate comes from, not from waiting for a big all-in."
+   },
+   {
+    "title": "Hold Q for her first dash",
+    "detail": "Save Thundering Smash (Q, 12s down to 10s cd) until she commits her first Broken Wings hit at 275 range, then stun her on the spot before she can chain the second and third strike."
+   },
+   {
+    "title": "Punish her E cooldown",
+    "detail": "Valor (E, 10s down to 6s at max rank) is her only damage block. Track it — when it's down she has nothing to step through your engage with."
+   },
+   {
+    "title": "Zone the wave with E",
+    "detail": "Drop Sky Splitter (E, 16s cd, 1200 range) on the minion wave when she's about to crash it to slow her off CS, and stand in the blast for the shield."
+   },
+   {
+    "title": "Save R for a forced kill, not a poke",
+    "detail": "Stormbringer's cooldown starts at 160s, so don't burn it chasing a trade — save the leap and bonus health for the moment her W and Q charges are both down."
+   },
+   {
+    "title": "Don't facecheck mid-combo",
+    "detail": "If she's already landed two Broken Wings hits, the third carries a knockback and she may have Blade of the Exile (R) ready to extend her range — back off rather than trade face-to-face."
+   },
+   {
+    "title": "Use R's tower disable to dive",
+    "detail": "Stormbringer temporarily disables nearby towers on landing — use it to force plates or a dive once you've already won the lane trade."
+   }
+  ],
+  "patchCaveat": "Build order, runes, and summoner spells are pulled directly from measured matches on the current patch (sample sizes and win rates noted above); the cooldown windows, trade patterns, and power-spike timing are my own tactical reading."
+ },
+ "generatedAt": 1791472877476,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791472778380,
+  "overall": {
+   "winRate": 48.4,
+   "play": 8888,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 68,
+   "wins": 39,
+   "winRate": 57.4
+  },
+  "laneAdvantage": "Volibear",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep an eye out for Riven’s Conqueror stacks before fighting her. Purchase Bramble Vest, and use [Q][E] combo to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.7,
+    "play": 60,
+    "pickRate": 65.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 23.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 8.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 17.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 8.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 57,
+    "pickRate": 63.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 17.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.2,
+    "play": 52,
+    "pickRate": 59.1
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 12.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 10
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 16.7,
+    "play": 6,
+    "pickRate": 8.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 48.9,
+    "play": 47,
+    "pickRate": 49.5
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 34.7
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 33.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 64.3,
+    "play": 28,
+    "pickRate": 29.5
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 65,
+    "play": 20,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 16.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 60.5,
+    "play": 38
+   }
+  ]
+ }
+}
