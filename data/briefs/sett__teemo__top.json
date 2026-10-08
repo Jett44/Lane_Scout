@@ -1,0 +1,383 @@
+{
+ "you": "Sett",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Blinding Dart range to farm and get poked for free; you win if you let his Q go on cooldown before you commit, since the matchup sits at 50.5% over 95 games with the solo-kill edge on your side."
+  },
+  "thesis": "Teemo's only real defense is Q (Blinding Dart), an 8-second-cooldown blind that nullifies your attack damage — including Q (Knuckle Down)'s empowered punches — but does nothing to W (Haymaker), which deals its true/physical damage directly rather than as an attack. The entire lane is a cooldown-tracking exercise: trade when his dart is down, absorb poke with stored Grit when it's up.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart (Q) cooldown",
+   "theirWindow": {
+    "when": "His Q is up, yours is on cooldown",
+    "what": "He can blind your attacks and poke freely with Toxic Shot (E, 0 cooldown, applies on every auto) without any risk of a clean trade back. Back off and let your Haymaker Grit build off the chip damage instead of forcing a fight."
+   },
+   "yourWindow": {
+    "when": "His Blinding Dart (Q) is on cooldown",
+    "what": "Step in and trade — your Q-empowered autos will actually land, and W (Haymaker) is always safe to throw since it isn't an attack. If a minion is sitting opposite him, this is also your window to land E (Facebreaker) for the stun instead of just a slow."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Blind + ranged poison poke outrange your engage tools"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q empowered autos and W shield start matching his poke"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R (Show Stopper) adds a hard punish for overextensions"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Stridebreaker + Sterak's let you tank poke and all-in"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "This is the dominant start on 78.6% of games for a reason: the flat damage reduction on minion/champion hits plus the regen offsets Toxic Shot's DoT and Blinding Dart's chip, letting you actually hold CS instead of backing off the wave."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The 59.8%-pick, magic-resist choice directly answers Teemo's all-magic damage profile (poison, dart, mushroom clouds) and the tenacity shortens how long Noxious Trap's slow zones you in place."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The attack-speed burst and slow close the gap on a champion whose only defense once you're on him is W (Move Quick) kiting — this is the single highest-pick-rate first core item in the data."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Health plus damage-over-time sustain keeps you alive through extended poke phases before you're fully itemized."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The highest-win-rate full path (61.5% over 13 games) — the shield and tenacity let you walk through a blind-and-poke sequence without losing the trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Boots of Swiftness",
+     "when": "he leans on mushroom zoning to slow your approach through brush and river"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and you need armor shred to end trades before he escapes"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead and want to pressure side lanes and objectives solo"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you want faster cooldowns on Q and E to chain trades more often"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Sustained stacking damage rewards the long poke-absorb-then-engage pattern this lane runs on, rather than a single burst window you won't get past his blind.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest win rate (52.4%) and by far the most-picked combo (64.6%) — Ignite converts your solo-kill edge into actual kills in the short trade windows his blind leaves open, since Teemo has no hard sustain to out-heal it."
+  },
+  "playing": [
+   {
+    "title": "Farm behind minions, don't contest",
+    "detail": "OP.GG's own read on this lane is to keep distance and farm rather than fight — walk up for last hits only, then retreat before his Toxic Shot auto range (680) catches you again."
+   },
+   {
+    "title": "Track his Q, trade on cooldown",
+    "detail": "Blinding Dart is 8 seconds — once it's spent on you or a minion, step in. Your Q-empowered punches will actually connect instead of being blinded."
+   },
+   {
+    "title": "Stack minions for the stun",
+    "detail": "E (Facebreaker, 490 range) only stuns if enemies are on opposite sides of you; against a kiting Teemo with no minion behind him, it just slows — reposition so a minion sits opposite him before casting."
+   },
+   {
+    "title": "Let W absorb poke, don't force it",
+    "detail": "Haymaker stores Grit from all damage you take, including poison ticks — let it build passively through his poke, then expend it for the shield and true-damage punch rather than casting it on cooldown."
+   },
+   {
+    "title": "Respect fresh mushrooms near brush",
+    "detail": "Noxious Trap has essentially no cooldown (1s) — check tri-bush and jungle entrances for recently placed traps before diving or chasing, since the slow-and-DoT cloud can turn a chase into a death."
+   },
+   {
+    "title": "Save R for isolated punishes",
+    "detail": "Show Stopper is 120/100/80 seconds — hold it for a moment he's out of position (after using Move Quick's sprint to reposition, or caught pushing too far), not as an opener."
+   },
+   {
+    "title": "All-in once Stridebreaker completes",
+    "detail": "The slow-on-proc lets you actually stick to him through Move Quick's speed boost — this is the point the lane tips from even to clearly in your favor."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates/sample sizes above are measured from live games on the current patch via OP.GG; the ability mechanics and tactical reasoning (blind interactions, stun setup, cooldown windows) are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791435294254,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791435205959,
+  "overall": {
+   "winRate": 50,
+   "play": 7713,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 95,
+   "wins": 48,
+   "winRate": 50.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not let Teemo punish you during early game by keeping your distance. Focus on farming and using [W] to poke while waiting for a chance when he steps in your range.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.4,
+    "play": 82,
+    "pickRate": 64.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 16.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 11
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60.7,
+    "play": 28,
+    "pickRate": 22.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 13.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.5,
+    "play": 99,
+    "pickRate": 78.6
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 57.9,
+    "play": 19,
+    "pickRate": 15.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.3,
+    "play": 73,
+    "pickRate": 59.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 31.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 20
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 12.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 51.9,
+    "play": 129,
+    "pickRate": 97.7
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 55.4,
+    "play": 74,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.1,
+    "play": 35,
+    "pickRate": 26.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.9,
+    "play": 34,
+    "pickRate": 25.8
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 68.8,
+    "play": 16,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 44,
+    "play": 25
+   }
+  ]
+ }
+}

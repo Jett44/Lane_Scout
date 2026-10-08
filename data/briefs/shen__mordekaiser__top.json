@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard, defensive",
+   "line": "You lose if you trade autos into a stacked Darkness Rise or get isolated by Realm of Death at level 6; you win by farming through Vorpal Blade sustain and Feint absorption until items let you out-scale him."
+  },
+  "thesis": "Mordekaiser's Obliterate (Q) out-damages anything Shen can answer with in a short trade, and his passive Darkness Rise snowballs the longer a fight runs, so Shen cannot win a straight fight in this lane. The only viable plan is disengaging onto Q (Vorpal Blade) sustain and W (Feint) absorption until Titanic Hydra and boots let Shen pressure through taunts instead of trading damage.",
+  "tell": {
+   "watch": "Morde's Obliterate (Q) cooldown",
+   "theirWindow": {
+    "when": "Obliterate up and passive stacked",
+    "what": "Disengage completely. Autoing into a stacked Darkness Rise aura trades terribly. If you must stand, Feint (W) absorbs the Obliterate hit, but back off before his third proc on you lands."
+   },
+   "yourWindow": {
+    "when": "His Q and E are both down",
+    "what": "Step in with an auto plus Vorpal Blade (Q). With no Obliterate or Death's Grasp available he can't punish the trade or re-engage before you reset to minions."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Obliterate trades you down early"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Passive aura snowballs longer fights"
+   },
+   {
+    "levels": "6",
+    "edge": "them",
+    "note": "Realm of Death can solo you"
+   },
+   {
+    "levels": "7-13",
+    "edge": "even",
+    "note": "Hydra tankiness, better E uptime"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Ultimate utility beats his dueling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Measured at 49.1% WR over 108 games and 50.7% pick — the sustain and early poke reduction matters against Obliterate's single-target burst."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "67.9% pick and 50.4% WR over 131 games. Mordekaiser's damage is magic, so the MR directly reduces every Obliterate and Death's Grasp tick."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Core starting item in every winning path (57-85.7% WR across sampled builds) — the health-scaling and wave clear let you farm safely under his poke."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in every recorded core path on this matchup."
+    },
+    {
+     "item": "Kaenic Rookern",
+     "why": "57.1% WR over 7 games as the third item — the magic shield directly answers Mordekaiser's all-magic damage profile."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is leaning on Indestructible's self-heal and you need grievous wounds to shut it off"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "their team has additional heavy magic damage beyond Mordekaiser"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want more HP scaling for split-pushing"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "their team's damage shifts mostly physical and 60.4% WR boots (over a smaller 48-game sample) outweighs the MR from Mercury's Treads"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "54.7% WR and the most-picked page (35.9%) — the sustained-trade healing and max-HP growth are built for a lane you're meant to survive, not win outright.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "54.5% WR at 64.1% pick, the best-performing combo recorded for this matchup — Ignite punishes the rare all-in window when his Indestructible shield is already spent."
+  },
+  "playing": [
+   {
+    "title": "Feint through Obliterate",
+    "detail": "Feint (W, 9/8/7/6/5s cooldown) shields and absorbs incoming damage for a few seconds — use it on his Obliterate casts to blunt trades rather than hoarding it for an all-in that rarely comes."
+   },
+   {
+    "title": "Never eat his third hit",
+    "detail": "Darkness Rise triggers after 3 landed attacks or spells on you, granting him a damage aura and move speed. Disengage before that third proc, not after."
+   },
+   {
+    "title": "Hold Shadow Dash for punishes",
+    "detail": "E (16/14/12/10/8s cooldown, 575 range) taunts on contact but only deals minor damage — use it to punish his used Obliterate or Death's Grasp, not to open a trade he out-damages."
+   },
+   {
+    "title": "Respect level 6 isolation",
+    "detail": "Realm of Death banishes you into a private duel and steals your stats permanently on a kill. Never give him a clean level-6 engage when you're low or far from help."
+   },
+   {
+    "title": "Farm through Vorpal Blade",
+    "detail": "Use Q (Vorpal Blade, 6-4s cooldown) on cooldown for the life-tap sustain — this is how you survive to your item spikes, not how you win early trades."
+   },
+   {
+    "title": "Scale toward split-push, not dueling",
+    "detail": "Shen's late kit is a map-pressure and teamfight tool, not a way to beat Mordekaiser 1v1. Once Titanic Hydra and boots are online, look to roam or split rather than force lane."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners and the 47.4%-over-175-games win rate are measured from live games on the current patch via OP.GG; the ability timings and trade-pattern reasoning are my own analysis."
+ },
+ "generatedAt": 1791434729770,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791434634198,
+  "overall": {
+   "winRate": 50.8,
+   "play": 4877,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 175,
+   "wins": 83,
+   "winRate": 47.4
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Try to use Shen’s [P] to absorb Mordekaiser’s (Q) while engaging. Be careful of Mordekaiser’s (R) after reaching level 6 by keeping an eye out on your health.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.5,
+    "play": 134,
+    "pickRate": 64.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 39.4,
+    "play": 71,
+    "pickRate": 34
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 1.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.7,
+    "play": 75,
+    "pickRate": 35.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40.8,
+    "play": 49,
+    "pickRate": 23.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 108,
+    "pickRate": 50.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.4,
+    "play": 95,
+    "pickRate": 44.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50.4,
+    "play": 131,
+    "pickRate": 67.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 60.4,
+    "play": 48,
+    "pickRate": 24.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Kaenic Rookern"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 49.7,
+    "play": 167,
+    "pickRate": 78.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 55.3,
+    "play": 76,
+    "pickRate": 35.7
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 48.3,
+    "play": 58,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 57.1,
+    "play": 42,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 61,
+    "play": 41,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 15
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.3,
+    "play": 120
+   }
+  ]
+ }
+}

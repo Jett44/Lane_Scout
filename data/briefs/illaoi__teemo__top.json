@@ -1,0 +1,388 @@
+{
+ "you": "Illaoi",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Blinding Dart or chase his Move Quick sprints while Toxic Shot ticks for free; you win if you land Test of Spirit near your tentacles before he kites past its 900 range."
+  },
+  "thesis": "Teemo's only real damage tool, Toxic Shot (E), has 0 cooldown and applies on every auto while he kites, and his Blinding Dart (Q, 8s CD) can shut off your autoattacks the moment you commit Harsh Lesson (W). Your entire win condition is the opposite: stick Test of Spirit (E, 16-12s CD, 900 range) before he escapes it, because a forced Vessel spawns tentacles that punish every further step he takes. Whoever controls the initiation controls the lane, which is why this sits at 40.5% over 37 games despite an even overall shape.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart (Q) is up",
+    "what": "He can blind your autos the instant you leap in with Harsh Lesson (W), so your tentacles and on-hits whiff; bait the blind out at range with Tentacle Smash (Q) before committing the gap-close."
+   },
+   "yourWindow": {
+    "when": "his Q is on 8s cooldown",
+    "what": "This is your only safe engage window - leap with Harsh Lesson (W, 4s CD) and immediately rip Test of Spirit (E) so he either trades in melee or gets stuck as a Vessel."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "free Toxic Shot stacking plus blind on engage"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Test of Spirit unlocks your vessel threat"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Noxious Trap adds zoning, your Q cooldown shrinks"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Black Cleaver/Iceborn power spike lands"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "bruiser scaling outpaces his flat poke"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Runs at 41.4% WR over 29 games and the passive block plus sustain directly offsets the 0-cooldown Toxic Shot chip you'll eat every time you step up to farm."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "86.3% pick rate at 43.2% WR; the magic resist eats into his poison DoT damage and the tenacity shortens how long a Noxious Trap slow keeps you stuck in follow-up poke."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Builds raw AD and armor shred so your Test of Spirit trades and tentacle hits start one-shotting through his low base defenses once he's forced to stand and fight."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Adds the health and CDR that let you reset Harsh Lesson (W) faster for repeated engage attempts between his Blinding Dart cooldowns."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The health and tenacity-adjacent survivability keep you alive through extended poke exchanges while he kites with Move Quick."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "his poison ticks and Ignite are chunking your sustain before you can close the gap"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "their team adds burst magic damage on top of his poke to threaten you off a single engage"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "you need tenacity and raw MR against stacked trap slows and poison damage late"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you'd rather front-load lifesteal-on-trade power over Cleaver's shred"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Autoattacking during a stuck Test of Spirit or Harsh Lesson trade heals you off the proc, directly answering the free chip from his 0-cooldown Toxic Shot across a long lane.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the top performer at 50% WR and lets you reset off bad poke exchanges and still return with full resources; if you'd rather shut down his kiting directly, Exhaust+Flash (40% WR, 37.7% pick) locks his Move Quick sprint and lets Test of Spirit stick for the Vessel kill."
+  },
+  "playing": [
+   {
+    "title": "Play around Blinding Dart",
+    "detail": "Track his Q (Blinding Dart, 8s CD); engaging into Harsh Lesson while he holds it active lets him blind your autoattacks so your trade and tentacle hits plummet. Bait it out before you commit."
+   },
+   {
+    "title": "Trade near your tentacles",
+    "detail": "Passive tentacles only spawn on nearby impassable terrain and heal you when they hit a champion, so pull every forced trade toward a wall. Teemo kiting into open lane denies both your sustain and your Tentacle Smash (Q) damage bonus."
+   },
+   {
+    "title": "Force Test of Spirit early",
+    "detail": "Land E (900 range, 16-12s CD scaling with rank) the instant he overextends for CS. If he runs out of range or dies, he becomes a Vessel and spawns tentacles that punish every further step he takes."
+   },
+   {
+    "title": "Don't chase Move Quick",
+    "detail": "OP.GG's read holds here - don't overextend closing the gap with W. Catching an untouched Move Quick sprint burns your 4s Harsh Lesson cooldown for nothing while his free Toxic Shot keeps ticking on you."
+   },
+   {
+    "title": "Respect camouflage resets",
+    "detail": "Any time he stands still off-screen he can go invisible, then gets an attack-speed burst (Element of Surprise) on breaking it. Back off from unclear bushes rather than facechecking for vision."
+   },
+   {
+    "title": "Minimize trades before level 3",
+    "detail": "Levels 1-2 are his best window from free Toxic Shot stacking and Blinding Dart disables. Farm from max range and look to spike your aggression once Test of Spirit comes online."
+   },
+   {
+    "title": "Step around, don't fight, Noxious Traps",
+    "detail": "His 1s-cooldown trap only matters if you walk onto it. Path around obvious bush zoning instead of building items to counter it, and let Black Cleaver's shred carry your mid-game trades."
+   }
+  ],
+  "patchCaveat": "Build, rune, and summoner numbers reflect measured games on the current patch (16.20.1) via OP.GG across 37 Illaoi-vs-Teemo games; the mechanical reasoning on cooldowns, ranges, and trade windows is our own tactical read, not measured data."
+ },
+ "generatedAt": 1791435786531,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791435684788,
+  "overall": {
+   "winRate": 50.6,
+   "play": 3465,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 37,
+   "wins": 15,
+   "winRate": 40.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Teemo",
+  "playStyle": "even",
+  "opponentTip": "Teemo can secure a kill early game through constant (E) and Ignite damages, so we recommend avoid being harassed even at the cost of some lane CS. We recommend engaging if [E] lands, but not to overextend by closing in with [W].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 41.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 20,
+    "pickRate": 37.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 25,
+    "play": 8,
+    "pickRate": 15.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 39.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 9.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.4,
+    "play": 29,
+    "pickRate": 53.7
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 27.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.2,
+    "play": 44,
+    "pickRate": 86.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 9.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Spirit Visage",
+     "Black Cleaver",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Sundered Sky",
+     "Sterak's Gage",
+     "Force of Nature"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 6.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 43.3,
+    "play": 30,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 51.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 40,
+    "play": 25,
+    "pickRate": 46.3
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 33.3,
+    "play": 21,
+    "pickRate": 38.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 14.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 16.7,
+    "play": 6
+   }
+  ]
+ }
+}

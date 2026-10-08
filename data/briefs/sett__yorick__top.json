@@ -1,0 +1,380 @@
+{
+ "you": "Sett",
+ "them": "Yorick",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let trades drag out and his graves/walkers pile up; you win if you force all-ins before level 6 and punish his Q animation."
+  },
+  "thesis": "This lane is decided by trade length: Sett wants short, violent exchanges where stored Grit and burst close the fight before Yorick's healing and summons matter, while Yorick wants long pokes where Last Rites sustain and Mist Walkers add free damage. The 51.3% head-to-head over 76 games with Sett holding lane and solo-kill advantage says the aggressive plan wins more than it loses.",
+  "tell": {
+   "watch": "Yorick's Q cooldown bar",
+   "theirWindow": {
+    "when": "walkers or graves are active nearby",
+    "what": "His Mist Walkers swarm and attack automatically, adding free damage to any trade you start near a grave marker. Back off and force the fight elsewhere instead of feeding him free pressure."
+   },
+   "yourWindow": {
+    "when": "the instant he casts Q (Last Rites)",
+    "what": "Immediately cast W (Haymaker) — the stored Grit shield eats his bonus damage and your true-damage center hits regardless of his positioning, denying the heal and winning the exchange, exactly as the matchup data recommends."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both poking, no cooldowns decisive yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E+Q burst wins uncontested trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R and core items outpace early Maiden"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "graves and walkers start offsetting damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Maiden and walker swarm scale split-push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest-performing start in this matchup (51.6% WR, 70.3% pick over 64 games) — the extra damage and sustain fuel the early all-in trades that define the lane."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "56.3% WR, 60% pick — flat damage reduction blunts Yorick's auto-attacks and the chip damage from Mist Walkers that stack up over a fight."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Most popular and highest-winning core path (66.7% over 15 games) — the slow-on-hit lets you stick through his kiting and wall plays."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred and ability haste keep your E/W cycle online for repeated all-ins across a long lane."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Appears in every top build path here — the extra health and damage-over-time reward you for tanking Yorick's poke while you close the gap."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you are ahead and want to win straight all-ins without worrying about burst"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game goes long and you need more ability haste for E/R uptime"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you are split-pushing side lanes against his wave-clear and walkers"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Rewards sustained melee trades with healing and adaptive force, matching the measured primary page and the lane's trade-heavy structure.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Shield Bash",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 92.5% of games here with a 59.3% win rate — Ignite punishes Last Rites healing and secures the all-ins this matchup is built around."
+  },
+  "playing": [
+   {
+    "title": "Fight with a wave for E",
+    "detail": "Facebreaker only stuns if Yorick is caught between enemies on opposite sides of you; without a minion on the far side it just slows him, so position so the wave is behind him before you engage."
+   },
+   {
+    "title": "Punish his Q animation",
+    "detail": "Pop W (Haymaker) the moment he casts Last Rites — the stored Grit shield absorbs the bonus damage and your true-damage punch answers before his heal matters."
+   },
+   {
+    "title": "Close with Q, not autos",
+    "detail": "Knuckle Down's move speed toward champions and bonus max-health damage on your next two hits let you catch him before he can kite or wall off."
+   },
+   {
+    "title": "Respect Dark Procession",
+    "detail": "Once his wall is down it blocks movement at that spot — don't commit E or R into a line he can immediately seal to escape."
+   },
+   {
+    "title": "All-in before level 6 snowballs",
+    "detail": "Force fights at levels 3-5 with E into Q while his kit is still just poke damage, ahead of Mist Walkers and Maiden adding free pressure to his side."
+   },
+   {
+    "title": "Save R for isolated picks",
+    "detail": "The Show Stopper's long cooldown (120/100/80/80/80s) means it's best spent dragging him away from walkers or Maiden on an overextension, not opening a trade."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live games on the current patch (16.20.1) via OP.GG; the mechanical reasoning and trade-pattern advice are our own tactical read, not measured data."
+ },
+ "generatedAt": 1791436270576,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791436177741,
+  "overall": {
+   "winRate": 50,
+   "play": 8075,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 76,
+   "wins": 39,
+   "winRate": 51.3
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "aggressive",
+  "opponentTip": "Pressure Yorick during early game to gain lane control. Afterwards, try to use [W] when he uses (Q) to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 59.3,
+    "play": 86,
+    "pickRate": 92.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 5.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 2.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.5,
+    "play": 23,
+    "pickRate": 24.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 72.2,
+    "play": 18,
+    "pickRate": 19.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 64,
+    "pickRate": 70.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 24.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 56.3,
+    "play": 48,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 20
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 10.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 10.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 58.1,
+    "play": 93,
+    "pickRate": 94.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 67.3,
+    "play": 55,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 58.1,
+    "play": 43,
+    "pickRate": 43.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 25.5
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 14.3
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 11.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 63,
+    "play": 27
+   }
+  ]
+ }
+}

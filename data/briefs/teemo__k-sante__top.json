@@ -1,0 +1,386 @@
+{
+ "you": "Teemo",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured trade",
+   "line": "You lose if you let him land a marked auto after Q or E; you win every lane where your Q (Blinding Dart) answers his engage."
+  },
+  "thesis": "K'Sante's whole damage model runs through his passive (Dauntless Instinct): land Q (Ntofo Strikes), W (Path Maker), or E (Footwork), then cash in an empowered auto. Teemo's Q (Blinding Dart) blinds him for its full duration, so a marked auto into a blind just whiffs and he loses the entire combo's payoff. That single interaction is why the head-to-head here runs 61.9% over 63 games, well above Teemo's 51% average across 5,910 top lane games, even though the raw lane and solo-kill stats favor K'Sante on paper.",
+  "tell": {
+   "watch": "K'Sante's Q (Ntofo Strikes) stack count",
+   "theirWindow": {
+    "when": "Q at 2 stacks with W or E also up",
+    "what": "At 2 Q stacks he fires a pull shockwave, and with W (14/13/12/11/10s CD) or E (10/9.5/9/8.5/8s CD) also available he can chain pull into stun or dash-shield into a real all-in. Back off to max range the moment you see the second Q stack land."
+   },
+   "yourWindow": {
+    "when": "He's mid-dash or about to swing a marked auto",
+    "what": "Fire Q (Blinding Dart, 8s CD, 680 range) right as he closes with Q/W/E so the follow-up empowered auto whiffs, then walk away using W (Move Quick)'s passive speed buildup before he can reset the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Base tankiness and Q slow win short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Your Q blind offsets his stack combo"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (120s CD) all-in is risky and telegraphed"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Statikk Shiv/Liandry's poke outranges him"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Mushroom zoning limits his engage angles"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "63.8% win rate over 58 games and 77.3% pick rate — the mana sustain matters because you're spending Q (Blinding Dart) on cooldown every time he goes for a mark-and-swing, and the extra HP buffers his Q slow poke."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "70.4% win rate over 27 games — the flat magic penetration keeps your Q and E (Toxic Shot) ticks relevant as he stacks resistances; Boots of Swiftness (61.5% over 26 games) is the alternative if his Q/E dash pressure is forcing you to kite constantly."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "First item in the 75% win rate, 16-game core path — the attack speed and proc damage punish him for walking up to try to land a marked auto."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Second in that same core path — burn damage scales against his tank stacking and keeps ticking through his E shield."
+    },
+    {
+     "item": "Malignance",
+     "why": "Closes out the 75%-win core build with ability haste, letting you recycle Q (Blinding Dart) and R (Noxious Trap) faster to deny more marked autos per fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dusk and Dawn",
+     "when": "you need the extra survivability/utility path instead of a third damage item (33.3% over 3 games alt build)"
+    },
+    {
+     "item": "Bloodletter's Curse",
+     "when": "he's building heavy armor and you need a dedicated shred item (part of the 33.3%-over-3-games alt path)"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "fights are dragging and you need attack speed to keep E (Toxic Shot) poison uptime on him"
+    },
+    {
+     "item": "Dark Seal",
+     "when": "you're snowballing kills off blinded all-ins and want to convert the lead into raw AP"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "You're kiting and re-engaging with autos between Q cooldowns rather than all-inning, and Press the Attack's exposed-damage proc rewards exactly that stick-and-poke pattern against a champion whose own kit wants to close distance on you.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 93.2% of these games at a 55.9% win rate — Ignite converts a successfully blinded, whiffed-auto all-in straight into a kill. Flash+Teleport shows up in 5.5% of games if you're planning to scale and roam instead of fighting him directly."
+  },
+  "playing": [
+   {
+    "title": "Blind the mark, not the minion",
+    "detail": "Save Q (Blinding Dart) for the moment he lands Q/W/E and is about to swing his empowered auto, not as a poke tool — a wasted blind on cooldown means his next real engage goes through clean."
+   },
+   {
+    "title": "Track his Q stack counter",
+    "detail": "His Q (Ntofo Strikes) only threatens a pull at 2 stacks. One stack is a slow you can walk off; two stacks means disengage immediately before he follows with W or E."
+   },
+   {
+    "title": "Respect his ult timer, not his level",
+    "detail": "R (All Out) is 120 seconds on cooldown at rank 1. Once he's used it on you or burned it elsewhere, that's your window to shove the wave and trade freely without a knockback-through-walls punish."
+   },
+   {
+    "title": "Pre-place mushrooms on his dash lanes",
+    "detail": "R (Noxious Trap) has only a 1s cooldown and 230 range — seed them where his E (Footwork) would dash in from, so an engage attempt eats a slow and damage tick before he even reaches you."
+   },
+   {
+    "title": "Kite with Move Quick, don't trade in place",
+    "detail": "W (Move Quick) builds movement speed passively until he hits you, and your sprint isn't interrupted briefly even if struck — use that to stay at your 680-range Q/E window instead of standing in his 450-525 range ability threat."
+   },
+   {
+    "title": "Don't facecheck brush near his cooldowns",
+    "detail": "If his E (Footwork, 8-10s CD) is up, he can dash in from further than expected, including to an ally for extended range — give extra space in river/tri bush rather than walking the normal distance."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoners, and all win-rate/pick-rate numbers above are measured from live games on the current patch (63 Teemo-vs-K'Sante games, 5,910 Teemo top lane games overall); the tactical reasoning about mark denial, stack counting, and dash timing is this brief's own analysis, not sourced data."
+ },
+ "generatedAt": 1791436125201,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791436026083,
+  "overall": {
+   "winRate": 51,
+   "play": 5910,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 63,
+   "wins": 39,
+   "winRate": 61.9
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "defensive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.9,
+    "play": 68,
+    "pickRate": 93.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 5.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 1.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 28.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Absorb Life",
+     "Legend: Alacrity",
+     "Cut Down"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 4.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 63.8,
+    "play": 58,
+    "pickRate": 77.3
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 18.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 70.4,
+    "play": 27,
+    "pickRate": 37.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 61.5,
+    "play": 26,
+    "pickRate": 36.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Statikk Shiv",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 75,
+    "play": 16,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Liandry's Torment",
+     "Malignance"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Dusk and Dawn",
+     "Bloodletter's Curse"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 6.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 63.2,
+    "play": 57,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 67.4,
+    "play": 46,
+    "pickRate": 60.5
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 68.8,
+    "play": 32,
+    "pickRate": 42.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 15.8
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 83.3,
+    "play": 12,
+    "pickRate": 15.8
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 25,
+    "play": 8,
+    "pickRate": 10.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.3,
+    "play": 15
+   }
+  ]
+ }
+}

@@ -1,0 +1,375 @@
+{
+ "you": "Jax",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose trades where Teemo's Blinding Dart (Q) lands clean before you close the gap; you win every exchange you start after that Q is on cooldown."
+  },
+  "thesis": "Teemo has no cooldown on his auto-attack poison (Toxic Shot, E) and can poke from 680 range all day, but his only real defensive tool against your all-in is Blinding Dart (Q, 8s cooldown) blinding your autos. Jax has a 700-range gap closer in Leap Strike (Q) and a genuine stun in Counter Strike (E) once Teemo is forced into melee. The data backs this up as a coin-flip lane (47.3% Jax win rate over 74 games, lane rated EVEN) with the solo-kill edge sitting with Jax — this is a cooldown-tracking matchup, not a stat-check.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart (Q) cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart (Q) is up",
+    "what": "Teemo will poke freely with Toxic Shot (E) autos and threaten to blind you the moment you commit Leap Strike (Q). Farm from max range, don't walk up for a trade, and don't Leap Strike in unless you can eat the blind."
+   },
+   "yourWindow": {
+    "when": "Blinding Dart (Q) just went on cooldown",
+    "what": "Leap Strike (Q) onto him immediately, pop Empower (W) on the leap or the following auto, and hold Counter Strike (E) stun for when he tries to disengage or kite in melee. You have a clean 8-second window every time he uses Q."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "No gap closer yet, Teemo pokes free"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Counter Strike online, punish his Q cooldowns"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Item spikes and R stacking win skirmishes"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "You duel better, his traps zone objectives"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "53.4% win rate over 58 games as the standard start — the regen and damage reduction on taking poke offsets Toxic Shot ticks while you farm from range."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "70.2% pick rate and the magic resist directly blunts Toxic Shot's damage-over-time and Blinding Dart's upfront magic damage."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Highest-winrate core path (60% over 5 games starting here) — the attack speed and burst proc amplify your Leap Strike-Empower trade the moment his Q is down."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Follows Trinity in the same path; the on-hit healing keeps you ahead on sustain against constant Toxic Shot poison."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Completes the top-winrate build path, giving you a way to survive burst if Teemo's trap (R) zone or a jungler collapses while you're overextended."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "teemo's poison dot and chip damage are wearing you down over extended trades"
+    },
+    {
+     "item": "Wit's End",
+     "when": "the enemy team stacks magic damage alongside teemo's poison"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "you want sustain and a slow to lock down his escape before he camouflages away"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Highest-winrate page for this matchup (54.2%) — the ramping attack speed accelerates Relentless Assault's (R) third-hit bonus damage once you close the gap, turning short trade windows into real damage.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the standard pick (73.3% pick rate) and lets you finish trades you start after his Q is down. Flash+Teleport posts the highest raw win rate (65%) if you'd rather play for scaling and splitpush instead of early skirmishes."
+  },
+  "playing": [
+   {
+    "title": "Trade only when Q is down",
+    "detail": "Never Leap Strike (Q) in while Blinding Dart is up — a landed blind makes your autos miss and kills your Relentless Assault (R) stacking. Wait for the 8-second cooldown window."
+   },
+   {
+    "title": "Hold Counter Strike for his commitment",
+    "detail": "Counter Strike (E) only dodges incoming basic attacks, not Blinding Dart or ticking poison — save it for when Teemo actually walks into melee range or tries to all-in, not as your opener."
+   },
+   {
+    "title": "Farm from max range between trades",
+    "detail": "Toxic Shot (E) has no cooldown, so standing in his auto range for free is pure loss. Only step in when you're about to Leap Strike-Empower a trade."
+   },
+   {
+    "title": "Watch for the Camouflage reappear",
+    "detail": "If Teemo vanishes in brush and pops back out, he gets a short attack speed buff (Element of Surprise) — expect a faster poke burst right after, not before."
+   },
+   {
+    "title": "Chain Empower through cooldown dips",
+    "detail": "Empower's (W) cooldown drops to as low as 3s at max rank — use it on cannon waves or after a Leap Strike to keep pressuring his HP between all-in windows."
+   },
+   {
+    "title": "Look for skirmishes from level 3 on",
+    "detail": "Once Counter Strike (E) is up, you hold the real solo-kill edge in this matchup — force fights in melee range rather than letting it stay a poke war."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample figures are measured from live games on the current patch (16.20.1) via OP.GG; the ability mechanics, cooldown reads, and tactical trade-pattern analysis are my own judgment layered on top of that data."
+ },
+ "generatedAt": 1791435551408,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791435469001,
+  "overall": {
+   "winRate": 49.9,
+   "play": 8206,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 74,
+   "wins": 35,
+   "winRate": 47.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid Teemo’s Blinding Dart (Q). Fight him once it is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40.5,
+    "play": 74,
+    "pickRate": 73.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 65,
+    "play": 20,
+    "pickRate": 19.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.2,
+    "play": 24,
+    "pickRate": 23.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 36.8,
+    "play": 19,
+    "pickRate": 18.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.4,
+    "play": 58,
+    "pickRate": 60.4
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 26.7,
+    "play": 15,
+    "pickRate": 15.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.5,
+    "play": 66,
+    "pickRate": 70.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 17
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Hextech Gunblade",
+     "Wit's End"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 3.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52.7,
+    "play": 55,
+    "pickRate": 57.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 35.3,
+    "play": 34,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 27.4
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 31.6,
+    "play": 19,
+    "pickRate": 20
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 17.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 39.1,
+    "play": 23
+   }
+  ]
+ }
+}

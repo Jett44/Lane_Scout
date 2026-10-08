@@ -1,0 +1,385 @@
+{
+ "you": "K'Sante",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane up, game down",
+   "line": "You win the 1v1 and the solo-kill race up to level 5-6, but the matchup sits at 38.7% over 62 games because Teemo's kiting and mushrooms take the game away from you after that."
+  },
+  "thesis": "K'Sante's Q (Ntofo Strikes) stacks into a shockwave pull that punishes any Teemo push inside 450 range, which is why K'Sante holds lane and solo-kill advantage early. But Teemo's Blinding Dart has only an 8s cooldown and completely denies the attack that detonates Dauntless Instinct marks, so every all-in has to be timed around it rather than forced through it. Past level 6, Noxious Trap hands Teemo permanent zone control at a 230 range with a 1s redeploy cooldown, and his 680 range outranges every K'Sante tool except the 525-range E — that's the structural reason the measured win rate collapses to 38.7% despite the early lane win.",
+  "tell": {
+   "watch": "Teemo's Blind (Q) cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart (Q) is up",
+    "what": "He blinds you the moment you commit, erasing the auto that detonates Dauntless Instinct marks. Don't charge W (Path Maker) into a live Q — bait it out with E (Footwork) poke first or wait the 8s."
+   },
+   "yourWindow": {
+    "when": "Right after Teemo fires his Q",
+    "what": "Blinding Dart is down for a full 8s. Charge W (Path Maker) and dash in immediately — Move Quick can't out-sprint the knockback/stun, and his only answer to the follow-up trade is gone."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "Q stacks/shockwave punish early melee pushes"
+   },
+   {
+    "levels": "4-5",
+    "edge": "even",
+    "note": "Teemo's 680 range outpokes your 450 Q"
+   },
+   {
+    "levels": "6-9",
+    "edge": "them",
+    "note": "Noxious Trap and blind deny your dives"
+   },
+   {
+    "levels": "10-14",
+    "edge": "even",
+    "note": "Kaenic Rookern tanks poison, farm resets lane"
+   },
+   {
+    "levels": "15-18",
+    "edge": "them",
+    "note": "Short 250-range R struggles vs kiting comp"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Measured at 45.9% win rate over 37 games — the flat damage block and regen eat Teemo's low-damage poke autos far better than Doran's Helm's 32.5% over 40 games."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "40% win rate over 50 games vs 36.4% for Plated Steelcaps. The magic resist directly answers Teemo's poison, and the tenacity shortens how long his debuffs stick."
+   },
+   "core": [
+    {
+     "item": "Kaenic Rookern",
+     "why": "The magic-damage shield absorbs Teemo's ranged poke and poison ticks before you're ever in his face."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Gives Q (Ntofo Strikes) the AoE-on-hit and CDR to stack faster and threaten the shockwave pull sooner in a trade."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "This path hit 28.6% win rate over 7 games, the largest sample of the three measured core routes — stacking resistances lets you sit in extended trades where Teemo's E (Toxic Shot) DoT would otherwise outlast you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "teemo itemizes into attack speed or on-hit to stack toxic shot procs faster"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "the enemy team adds more auto-attack or crit carries kiting alongside teemo"
+    },
+    {
+     "item": "Zeke's Convergence",
+     "when": "you're grouping with another frontline or AD carry for teamfights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Aftershock",
+   "keystoneWhy": "Measured at 33.3% win rate (23.1% pick), the strongest recorded keystone for this matchup. The bonus resistances trigger off your W (Path Maker) stun, making the all-in you're forced to time around Blinding Dart actually survivable.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the standard pick at 78.2% (37.7% win rate), giving you wave-state flexibility against a champion who out-ranges you and can split-push behind mushrooms. Exhaust+Flash measured higher at 50% but over a much smaller 7.7%-pick sample — worth considering if you're playing to force all-ins, since Exhaust cuts both Teemo's kiting speed and his sustained poison DPS during All Out."
+  },
+  "playing": [
+   {
+    "title": "Punish melee-range pushes early",
+    "detail": "If Teemo steps inside 450 to last-hit or poke, answer with Q (Ntofo Strikes). At 2 stacks the shockwave pulls him in, which is the only way to deny his Move Quick kite before 6."
+   },
+   {
+    "title": "Time all-ins around Blinding Dart",
+    "detail": "Never start charging W (Path Maker) into a live Q — the blind stops the auto that detonates your Dauntless Instinct mark and strips the trade of its payoff."
+   },
+   {
+    "title": "Scout bushes once he hits 6",
+    "detail": "Noxious Trap redeploys every 1s, so Teemo can seed multiple mushrooms fast. Don't blind-dash E (Footwork) into unscouted brush near your engage path."
+   },
+   {
+    "title": "Use E to close range, not just escape",
+    "detail": "Footwork's dash reaches further when targeting an ally — use it to re-enter trades quickly since Teemo's 680 range outreaches your 450 Q by a wide margin."
+   },
+   {
+    "title": "Don't fire R from max range",
+    "detail": "All Out's knockback is only 250 range. You need to already be in melee — use W or E to close the gap first, or the cooldown (120/100/80/80/80s) is wasted."
+   },
+   {
+    "title": "Stop forcing solo all-ins after 15",
+    "detail": "Your power curve drops off late because his kiting plus trap zoning beats isolated dives. Group or split-push instead of trying to solo-win fights."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, and all win rates/sample sizes above are pulled directly from measured games on the current patch (16.20.1); the mechanical reasoning tying them to K'Sante's and Teemo's abilities is my own read, not measured data."
+ },
+ "generatedAt": 1791435679522,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791435556056,
+  "overall": {
+   "winRate": 47.3,
+   "play": 5388,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 62,
+   "wins": 24,
+   "winRate": 38.7
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.7,
+    "play": 61,
+    "pickRate": 78.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 11.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 7.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Aftershock",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 18,
+    "pickRate": 23.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 10,
+    "play": 10,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 32.5,
+    "play": 40,
+    "pickRate": 52
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.9,
+    "play": 37,
+    "pickRate": 48.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 40,
+    "play": 50,
+    "pickRate": 68.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 36.4,
+    "play": 22,
+    "pickRate": 30.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 28.6,
+    "play": 7,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Thornmail"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Unending Despair"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 38.2,
+    "play": 55,
+    "pickRate": 69.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 42.5,
+    "play": 40,
+    "pickRate": 50.6
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 39.4,
+    "play": 33,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Zeke's Convergence"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 20,
+    "play": 15,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 11.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52.4,
+    "play": 21
+   }
+  ],
+  "highElo": {
+   "keystone": "Grasp of the Undying",
+   "tree": "Resolve",
+   "play": 1235
+  }
+ }
+}

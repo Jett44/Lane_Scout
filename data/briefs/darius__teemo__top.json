@@ -1,0 +1,380 @@
+{
+ "you": "Darius",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose this before level 3 if you walk into Blinding Dart range with no way to close, and you win it the moment E (Apprehend) is live and he steps inside 535 range."
+  },
+  "thesis": "Teemo's entire kit is built to poke and disengage from outside your melee range, but he has zero tools to escape once physically pulled into it. Apprehend (E) is the single mechanic that erases his range advantage, and everything you do before and after landing it exists to set up or capitalize on that pull.",
+  "tell": {
+   "watch": "Teemo's Q cooldown bar",
+   "theirWindow": {
+    "when": "Before you hit level 3",
+    "what": "You have no E yet and no gap closer, so Teemo freely lands Blinding Dart and Toxic Shot autos from 680 range. Keep your distance, last-hit from max range, and don't contest trades you can't win."
+   },
+   "yourWindow": {
+    "when": "E off cooldown and Teemo in range",
+    "what": "The instant Apprehend is up and he's within 535 range, hook him in. Once he's in melee he has no disengage, so chain Q (Decimate) and W (Crippling Strike) to stack Hemorrhage and slow him before finishing with R."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no E, pure poke range"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Apprehend pulls him into melee"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R executes off Hemorrhage stacks"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Youmuu's active catches his kiting"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his trap zone control scales back"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The highest-performing start (47.5% WR, 76.6% pick) because Teemo's Toxic Shot autos and Q poke are constant chip damage pre-6; the regen and block offset his free pokes while you wait on E."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "69.1% pick at 46.3% WR; the magic resist directly blunts Toxic Shot's damage-over-time and Noxious Trap's poison cloud, both magic sources you'll be soaking all lane."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active's speed burst is what lets you actually catch him after an E pull ends or after Move Quick kicks in — without it he just walks away."
+    },
+    {
+     "item": "Force of Nature",
+     "why": "Directly answers the sustained magic poke from Toxic Shot and mushroom clouds that otherwise whittles you down over a fight."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Extra stick once you've closed the gap, and the move speed helps you actually get into E range in the first place."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "the poison DoT stacking off Toxic Shot and mushrooms is bleeding you out over extended skirmishes"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he's building burst to punish you before you can land the E pull"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need a second reliable gap-close for when E is down and he's kiting"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 67.7% WR page outperforms the Stormraider's page by a wide margin; Conqueror stacks through the extended melee fight you force after pulling him in with E, and the adaptive force heal-through offsets his poison ticks.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs 51.2% WR at 23.4% pick, and Ignite's guaranteed damage closes out the all-in once you've landed E and stacked Hemorrhage before he can kite out of R range. Exhaust+Flash posts the highest WR at 55% over a smaller sample if you want to shut down his attack speed and kiting directly during the pull."
+  },
+  "playing": [
+   {
+    "title": "Don't walk into max range",
+    "detail": "Blinding Dart outranges Apprehend by 145 units, so approaching without E up just eats a free blind-and-poke. Wait for him to push up before you threaten anything."
+   },
+   {
+    "title": "Fight through the blind",
+    "detail": "Blind stops your basic attacks from landing, not your abilities. If he lands Q on you mid-engage, keep using Decimate and Crippling Strike's attack rather than relying on autos."
+   },
+   {
+    "title": "Sequence E into R",
+    "detail": "Pull with E, stack Hemorrhage with Q and your W-empowered auto, then finish with R — Noxian Guillotine's true damage scales per stack, so the pull-to-execute order matters."
+   },
+   {
+    "title": "Check for mushrooms before chasing",
+    "detail": "Noxious Trap mushrooms sit on a 1s cooldown and slow plus damage over time on contact. Scan brush and river paths before committing to a chase off an E pull."
+   },
+   {
+    "title": "Don't let him camouflage unseen",
+    "detail": "If Teemo stands still he goes invisible and gains bonus attack speed on reappearing. Ward likely bush spots so he can't ambush you right as your E comes off cooldown."
+   },
+   {
+    "title": "Survive to level 3, then flip it",
+    "detail": "Before E is ranked you have no way to close distance, so farm passively and avoid poke trades. The moment Apprehend is up, start punishing every time he steps inside 535 range."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates/pick rates above are measured from live games on the current patch via OP.GG; the matchup reasoning — why the pull-into-execute pattern works and when to disengage — is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791435095556,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791435003341,
+  "overall": {
+   "winRate": 49.5,
+   "play": 8681,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 133,
+   "wins": 69,
+   "winRate": 51.9
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of being punished by Teemo before reaching level 3 by keeping your distance from him. Close in when Teemo steps in your range to try to kill him or to at least get a Summoner’s Spell.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 49.1,
+    "play": 112,
+    "pickRate": 64
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 23.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 11.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 60,
+    "pickRate": 34.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 67.7,
+    "play": 31,
+    "pickRate": 17.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.5,
+    "play": 141,
+    "pickRate": 76.6
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 58.8,
+    "play": 34,
+    "pickRate": 18.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.3,
+    "play": 123,
+    "pickRate": 69.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.8,
+    "play": 45,
+    "pickRate": 25.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Dead Man's Plate"
+    ],
+    "winRate": 82.4,
+    "play": 17,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Death's Dance"
+    ],
+    "winRate": 18.2,
+    "play": 11,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 87.5,
+    "play": 8,
+    "pickRate": 7.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 51.8,
+    "play": 112,
+    "pickRate": 63.3
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 48.9,
+    "play": 92,
+    "pickRate": 52
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 61.4,
+    "play": 88,
+    "pickRate": 49.7
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50,
+    "play": 58,
+    "pickRate": 32.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 66,
+    "play": 47,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 48.6,
+    "play": 37,
+    "pickRate": 20.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.1,
+    "play": 54
+   }
+  ]
+ }
+}

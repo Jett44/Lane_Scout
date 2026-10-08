@@ -1,0 +1,387 @@
+{
+ "you": "Yorick",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close but unfavoured",
+   "line": "You lose if you trade autos into an available Counter Strike or let fights run long after level 6 when Relentless Assault snowballs; you win if you poke with Mourning Mist, wall with Dark Procession, and only commit Last Rites once his Q and E are both down."
+  },
+  "thesis": "This looks even on paper but actually tilts to Jax (44.7% Yorick win rate over 76 games) because his kit punishes exactly the melee auto-attack trading your Q (Last Rites) needs to dig graves. Counter Strike dodges incoming basic attacks and then stuns and damages everyone around him, turning a greedy Last Rites proc into a lost trade, while Relentless Assault gives him free attack speed scaling with bonus damage every third hit in any fight that runs long from level 6 onward. You have to win this lane from range with Mourning Mist and wall control, not with extended melee commitment.",
+  "tell": {
+   "watch": "Jax's Counter Strike cooldown",
+   "theirWindow": {
+    "when": "Jax has Q and E up",
+    "what": "He can leap in with Leap Strike, bait an auto-attack into Counter Strike's dodge-and-stun, and punish any extended trade. Back off and poke with Mourning Mist instead of auto-trading."
+   },
+   "yourWindow": {
+    "when": "Jax has used both Q and E",
+    "what": "He has no engage, no stun, and no escape left. Step in with Last Rites and auto-attacks to secure the trade and dig a grave."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Leap Strike poke outranges your trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Wall and Mourning Mist control the skirmish"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Relentless Assault snowballs any extended fight"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Trinity Force spike closes the gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Maiden siege and split push dominate"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm + Health Potion",
+    "why": "Highest win-rate start into Jax (45.5% over 44 games); the extra sustain lets you poke-and-heal with Last Rites instead of being forced into a melee trade he wants."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Jax's damage is entirely auto-attack based between Empower and Relentless Assault; flat physical damage reduction blunts both his empowered strikes and his attack-speed-stacked ultimate."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Core item on the highest measured win-rate path (75% over 4 games); the proc gives you the stats and mobility to catch up after a poke-only early game."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction accelerates Last Rites and Mourning Mist uptime, letting you poke more often per Jax engage window."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Bonus health and damage reduction at low health keeps you alive through a Counter Strike stun-and-damage sequence or an extended Relentless Assault fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "jax or his team stack armor and you need the shred to keep trading"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead and want to split-push behind Dark Procession walls"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need more burst to punish Jax the moment his Q and E are both down"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Higher pick rate (21.9%) than the Conqueror page, and the sustain fits a lane where you're poking from range rather than committing to the extended autos Jax's kit is built to win. Master-tier Yorick players instead run Conqueror (488 games) if they're confident winning extended skirmishes rather than playing the poke-and-wall game.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Bloodline"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Exhaust",
+    "Flash"
+   ],
+   "why": "Flash + Ignite has the best measured win rate (52.8%) and punishes the short kill windows right after you've baited out his Q and E. Exhaust + Flash (44%) is the pick if you'd rather directly cut his attack speed and damage during a Relentless Assault fight than rely on a kill secure."
+  },
+  "playing": [
+   {
+    "title": "Track Counter Strike before trading",
+    "detail": "Counter Strike (300 range, 18/16/14/12/10s CD) dodges your incoming basic attacks, then stuns and damages everyone around him. Never commit Last Rites autos into it; only trade once you've seen it go on cooldown."
+   },
+   {
+    "title": "Poke from Mourning Mist range",
+    "detail": "E (700 range) outranges Counter Strike (300 range) and lets you apply the armor shred, damage, and slow before he can close distance on his own terms."
+   },
+   {
+    "title": "Bait out his Q and E",
+    "detail": "Let him commit Leap Strike to close and Counter Strike to punish or escape, then commit Last Rites and auto-attacks while both are down."
+   },
+   {
+    "title": "Cap trade length after level 6",
+    "detail": "Relentless Assault has no cooldown and grants attack speed with bonus damage on every third hit. Any fight that runs long past a few exchanges increasingly favors him, so disengage early rather than standing in it."
+   },
+   {
+    "title": "Wall engages with Dark Procession",
+    "detail": "W (600 range) drops a destructible wall that blocks enemy movement. Use it to cut off his Leap Strike angle or block his exit after he's burned Counter Strike."
+   },
+   {
+    "title": "Save Eulogy of the Isles for sieges",
+    "detail": "R summons the Maiden and raises Walkers from dead enemies around a 600 range. It's a split-push and tower-break tool, not a duel cooldown, so don't burn it trying to win a 1v1."
+   }
+  ],
+  "patchCaveat": "Build, rune pages, boots, starting items, and summoner spells are pulled directly from measured OP.GG games on the current patch (16.20.1); the cooldown and timing reads and the matchup verdict are my own analysis of the ability text, not measured data."
+ },
+ "generatedAt": 1791437001336,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791436882476,
+  "overall": {
+   "winRate": 49.9,
+   "play": 3870,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 76,
+   "wins": 34,
+   "winRate": 44.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "If Jax closes in with (Q) to use his (E), use [E] to retreat. Try to fight Jax when he has both (Q) and (E) on cooldown. He will use (Q) to close in, deal damage, and (Q) again to retreat. Use [E] and [P] to poke while waiting for (E) and (Q) to be on cooldown to kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.8,
+    "play": 36,
+    "pickRate": 37.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 31.4,
+    "play": 35,
+    "pickRate": 36.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44,
+    "play": 25,
+    "pickRate": 26
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.1,
+    "play": 21,
+    "pickRate": 21.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 17.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 44,
+    "pickRate": 47.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.2,
+    "play": 37,
+    "pickRate": 40.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.5,
+    "play": 66,
+    "pickRate": 76.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 23.1,
+    "play": 13,
+    "pickRate": 15.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 9.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Sterak's Gage"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 0,
+    "play": 4,
+    "pickRate": 7.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 45.8,
+    "play": 59,
+    "pickRate": 62.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 34
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 44.8,
+    "play": 29,
+    "pickRate": 30.9
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 35.3,
+    "play": 17,
+    "pickRate": 18.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 16
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 16
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.1,
+    "play": 37
+   }
+  ],
+  "highElo": {
+   "keystone": "Conqueror",
+   "tree": "Precision",
+   "play": 488
+  }
+ }
+}
