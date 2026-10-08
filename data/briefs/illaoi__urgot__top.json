@@ -1,0 +1,375 @@
+{
+ "you": "Illaoi",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable, sharp",
+   "line": "You lose if you walk into Urgot's Q poke before level 6; you win if you force the all-in while his E (Disdain) is down."
+  },
+  "thesis": "Illaoi holds the lane and solo-kill edge here per OP.GG, but Urgot is ranged — his Q (Corrosive Charge) pokes her from 800 range before she can close, and his E (Disdain) lets him reposition out of her engage instead of standing in melee. That gap between 'wins the duel' and 'wins the lane' is why the head-to-head sits at 44.7% over 76 games, below Illaoi's own 50.3% top-lane average across 6,045 games.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "His E (Disdain) is up, you're committing",
+    "what": "He can Disdain through minions to close distance or trample away before you land your combo — hold E (Test of Spirit) until he's burned it, or he repositions before your W (Harsh Lesson) follow-up lands."
+   },
+   "yourWindow": {
+    "when": "His E (Disdain) is down (14-16s cd)",
+    "what": "He has no shield or dash to escape — leap with W (Harsh Lesson) to wake nearby Tentacles, then E (Test of Spirit) to lock the spirit-link and fight it out."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ranged Q poke, you have no E yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, trades close once you leash"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R unlocks all-in, OP.GG favors engaging"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "He scales, R execute punishes low HP"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "53.4% WR over 58 games — the extra sustain and early AD matter more than Doran's Shield's block since you want to win trades, not just survive his Q poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "75.5% pick rate — Urgot leans on basic attacks and Echoing Flames procs, so flat armor reduction from autos outvalues Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds his armor so your Tentacle swings and E spirit-echo hit harder as the fight extends."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Slows him on your proc so he can't kite with Purge or walk out of tentacle range."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "52.6% WR over 19 games on this path — the HP and tenacity let you eat an E (Disdain) engage and still follow through on your all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "the game goes long and you're leaning on W and Tentacle healing to win extended trades"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "he's ahead and threatening to burst you down with R before your Tentacles can heal you back"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustains you through his Q poke pre-6 and rewards standing in melee range, which is exactly where you want to be against a ranged kit you can't out-poke.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "46.6% pick rate — Teleport lets you reset after shoving with Tentacles and still answer sidelane pressure, while Flash covers your W (Harsh Lesson) engage timing against his E (Disdain) disengage."
+  },
+  "playing": [
+   {
+    "title": "Land W before E",
+    "detail": "Leap in with W (Harsh Lesson) to wake nearby Tentacles on him first, then follow with E (Test of Spirit) to lock the spirit-link — this stacks tentacle damage onto him before he can react."
+   },
+   {
+    "title": "Respect Q poke pre-6",
+    "detail": "His Q (Corrosive Charge) is 800 range on an 8-10s cooldown and slows on hit — don't walk forward to last-hit into that threat before level 6, per OP.GG's own read of this lane."
+   },
+   {
+    "title": "Fight near terrain",
+    "detail": "Your passive spawns Tentacles on nearby impassible terrain that heal you on champion hits — pull fights toward walls or jungle entrances so every Q, E, and R proc more Tentacles."
+   },
+   {
+    "title": "All-in when E is down",
+    "detail": "Track his E (Disdain) cooldown (14-16s) — when it's down he has no shield or dash to escape your combo, so that's your green light to commit fully."
+   },
+   {
+    "title": "Hold engages until level 6",
+    "detail": "You won't fall behind if he closes with E post-level 3, but your real window opens at 6 with R (Leap of Faith) for AoE Tentacle spawns — play patient until then."
+   },
+   {
+    "title": "Don't overextend low HP",
+    "detail": "His R (Fear Beyond Death) has 2500 range and executes low-health targets outright — even when you're winning, don't sit at low HP in his ult's sightline post-level 6."
+   },
+   {
+    "title": "Rush Black Cleaver into Iceborn",
+    "detail": "The 52.6% WR path (Black Cleaver > Iceborn Gauntlet > Sterak's Gage) shreds his armor for your Tentacle procs and gives the durability to tank his autos while you commit to the fight."
+   }
+  ],
+  "patchCaveat": "The build, runes, boots, and summoners above are pulled from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning — when to engage, what to track, why the win rate splits from the lane-advantage read — is my own analysis of the kit interaction, not measured data."
+ },
+ "generatedAt": 1791490798157,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791490690516,
+  "overall": {
+   "winRate": 50.3,
+   "play": 6045,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 76,
+   "wins": 34,
+   "winRate": 44.7
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful not to be harassed by Urgot’s (Q) too often. As Urgot’s (P) deals a lot of damage, we recommend fighting next to terrain. Try to be careful before you reach level 3, but keep in mind that Illaoi will not fall behind if Urgot closes in with (E) post-level 3. Although we recommend actively engaging after reaching level 6, be careful to be killed with (R) when your health is low.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.8,
+    "play": 48,
+    "pickRate": 46.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.7,
+    "play": 30,
+    "pickRate": 29.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 16.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 41,
+    "pickRate": 39.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 25
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.4,
+    "play": 58,
+    "pickRate": 56.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 35,
+    "pickRate": 34.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 43.2,
+    "play": 74,
+    "pickRate": 75.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 57.9,
+    "play": 19,
+    "pickRate": 19.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 24.4
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Spirit Visage"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.1,
+    "play": 92,
+    "pickRate": 85.2
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 48.5,
+    "play": 68,
+    "pickRate": 63
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 44.6,
+    "play": 65,
+    "pickRate": 60.2
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 29.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 25
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 15.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.8,
+    "play": 13
+   }
+  ]
+ }
+}

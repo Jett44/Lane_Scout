@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Mild uphill lane",
+   "line": "You lose short trades into a recharged Granite Shield and his cheaper-cooldown pokes, but you win extended trades once W and Q are leveled and his shield is already down."
+  },
+  "thesis": "Malphite's Granite Shield passive recharges whenever he hasn't been hit recently, so single pokes from you get absorbed for free while his own kit cycles faster than yours — Seismic Shard on an 8s cooldown and Ground Slam on 7s against your Sky Splitter's 16s. That cooldown gap is why the measured 44.9% win rate over 167 games sits below your 48.6% overall top-lane average even though OP.GG rates the lane shape as even: you need back-to-back hits to strip the shield before you get real value, not one.",
+  "tell": {
+   "watch": "Malphite's Granite Shield recharge state",
+   "theirWindow": {
+    "when": "right after he activates W (Brutal Strikes)",
+    "what": "Brutal Strikes gives him a short burst of bonus Armor and Attack Damage, and since Ground Slam's damage scales off his Armor, that window also spikes his E. Do not melee trade into it — disengage and poke with E (Sky Splitter) or Q (Thundering Smash) from outside his 400-range W/E instead."
+   },
+   "yourWindow": {
+    "when": "right after you've already landed a hit on him",
+    "what": "Granite Shield only recharges once he goes untouched, so the moment you've poked him with an auto or E, his shield is down. Chain Q's stun into W (Frenzied Maul) and immediately recast W on the same mark for the bonus damage and heal before the shield resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q pokes free; your E still rank 1"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Granite Shield absorbs early poke damage"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "both get ults; your W maxes at 9"
+   },
+   {
+    "levels": "10-13",
+    "edge": "you",
+    "note": "maxed Q shortens stun, W heal wins trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his knockup still peels in teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The 47% win-rate, 70%-pick starter at this matchup, giving you the sustain to out-wait Granite Shield's recharge cycle instead of forcing early all-ins you lose."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The 52.6% win-rate, 50%-pick boots here — tenacity matters against Ground Slam's attack-speed slow and any CC he lands before his all-in range opens up at level 6."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the highest-sample-size core path (57.1% over 21 games), builds your on-hit trading pattern."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Second item in that same path, compounding the attack-speed trading power your passive and W recasts need."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Every point of Malphite's damage — Q, E, and R — is magic, so the magic resist and amplified healing from W's recast and this item compound your sustain advantage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Statikk Shiv",
+     "when": "you're ahead on gold and want to spike early trading power instead of the slower Dusk and Dawn opener"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "the game goes long and you need the extra sustain-and-poke hybrid the Statikk Shiv > Hextech Gunblade > Stormsurge path provides"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "fights are dragging into extended skirmishes and you need the omnivamp to out-heal his shockwave chip"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 50% win-rate page here beats the more popular Lethal Tempo page (48.6%), and Grasp directly answers the OP.GG tip to avoid eating too much Seismic Shard poke — it heals you back on every empowered auto in lane.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Revitalize"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Teleport posts a 52.3% win rate here, well above Flash + Ignite's 43% despite Ignite's higher pick rate. Since this is a slightly losing lane on raw numbers, Teleport lets you play the sustain trade pattern safely and still show up for objectives instead of forcing a kill you don't have priority for."
+  },
+  "playing": [
+   {
+    "title": "Poke before the shield resets",
+    "detail": "Granite Shield only recharges when Malphite hasn't been hit recently. Fire Sky Splitter (E, 16s CD) on cooldown and follow with an auto so his shield never gets to fully mitigate your damage."
+   },
+   {
+    "title": "Never trade into his W",
+    "detail": "Brutal Strikes (14s CD) spikes his Armor and AD, and since Ground Slam's damage scales off his Armor, that same window also boosts his E. Back off and poke from range instead of standing in a melee trade."
+   },
+   {
+    "title": "Q the moment he's in range",
+    "detail": "Thundering Smash (300 range, 10-12s CD depending on rank) stuns the first enemy it hits — use it on sight per the live tip to seize control of the trade before he can open with Q or E."
+   },
+   {
+    "title": "Always double-tap W",
+    "detail": "Frenzied Maul (5s CD) marks on the first cast and heals you plus deals bonus damage on the recast. This is your core sustain tool for winning extended trades once his shield is down."
+   },
+   {
+    "title": "Respect Seismic Shard range",
+    "detail": "His Q reaches 625 range and steals your movement speed on hit. You have no answer to it at range before level 6 besides your own E on cooldown, so don't walk up for no reason."
+   },
+   {
+    "title": "Match his level 6 all-in",
+    "detail": "Both ultimates unlock at level 6 — his Unstoppable Force reaches 1000 range on a 130s cooldown, yours reaches 550 range on a 160s cooldown. Don't overextend past the wave once he hits 6; his engage range outclasses yours at that rank."
+   },
+   {
+    "title": "Build into his magic damage",
+    "detail": "Every source of his damage — Q, E, R — is magic. Spirit Visage's resist plus the extra healing on your W recast and Grasp procs is what turns the late lane into an even fight."
+   }
+  ],
+  "patchCaveat": "Build paths, win rates, and pick rates above are measured OP.GG numbers from live games on the current patch (16.20.1); the mechanical reasoning — why those numbers happen, and how to play around them — is my own read of the ability kits, not measured data."
+ },
+ "generatedAt": 1791489578133,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791489449247,
+  "overall": {
+   "winRate": 48.6,
+   "play": 10173,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 167,
+   "wins": 75,
+   "winRate": 44.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Malphite’s (Q) too often. Use [E] to contest lane and [Q] whenever he is in range to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43,
+    "play": 158,
+    "pickRate": 67.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 18.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 6.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 70,
+    "pickRate": 29.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 24,
+    "pickRate": 10.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47,
+    "play": 166,
+    "pickRate": 70
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 39,
+    "pickRate": 16.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.6,
+    "play": 114,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 14
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Hextech Gunblade",
+     "Stormsurge"
+    ],
+    "winRate": 11.1,
+    "play": 9,
+    "pickRate": 5.5
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.2,
+    "play": 141,
+    "pickRate": 59.5
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 41.8,
+    "play": 110,
+    "pickRate": 46.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 52,
+    "play": 98,
+    "pickRate": 41.4
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 52.2,
+    "play": 69,
+    "pickRate": 29.1
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 42,
+    "play": 50,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 63.3,
+    "play": 30,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 54.1,
+    "play": 61
+   }
+  ]
+ }
+}

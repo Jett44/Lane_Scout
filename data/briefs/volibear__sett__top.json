@@ -1,0 +1,389 @@
+{
+ "you": "Volibear",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, winnable",
+   "line": "You lose extended auto-for-auto trades before level 6 while Sett's passive regen and Q burst outscale you; you claw it back once Stormbringer lets you pick short, sharp fights instead."
+  },
+  "thesis": "Sett's kit is built to punish exactly the kind of prolonged melee exchange Volibear's early game relies on — Pit Grit regens him harder the lower his health drops, and Knuckle Down (Q) loads bonus max-health damage onto his next two autos. Standing and trading hit-for-hit with him bleeds HP you don't get back. Volibear has to convert this into a lane of short, deliberate trades punctuated by Sky Splitter (E) rather than a standing brawl, and only commit to full all-ins once Stormbringer (R) is live to give him the HP buffer and slow to actually finish the fight.",
+  "tell": {
+   "watch": "Sett's Haymaker Grit meter",
+   "theirWindow": {
+    "when": "Sett's Q (Knuckle Down) just activated",
+    "what": "His next two attacks carry bonus damage based on your max health, on a 9/8/7/6/5s cooldown that gets very short by level 9 — do not trade autos back and forth here; step out of his 25000-range Haymaker isn't the threat, the loaded Q autos are."
+   },
+   "yourWindow": {
+    "when": "Sett's E and W are both down",
+    "what": "Facebreaker (16/14.5/13/11.5/10s CD) and Haymaker (18/16.5/15/13.5/12s CD) are his only answers to being locked down — with both on cooldown, walk in and land W (Frenzied Maul) twice on him for the bonus damage and heal, or open with Q (Thundering Smash) to stun before chaining E (Sky Splitter)."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Sett's regen and early Q burst outtrade your weak autos"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown drops to 7s, keeps punishing standing trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Stormbringer lets you force short fights instead"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Full combos online, W/Grasp sustain offsets his shield"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Itemization closes the gap but doesn't flip it"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade > Health Potion",
+    "why": "Measured at 49.2% win rate over 61 games — the lifesteal on-hit helps you win the regen race Sett's passive is built around, which Doran's Ring's mana-focused stats don't address in a lane with no real mana problem."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "47.4% win rate over 192 games — Sett is a pure physical auto-attacker whose Q specifically loads his autos, so the flat physical reduction directly undercuts the exact damage source that wins him the early trades."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Builds toward the attack speed that feeds Frenzied Maul's double-tap heal, letting you sustain through his Q windows instead of just absorbing them."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Cooldown refund on crit keeps your W and E cycling faster, which matters because Sky Splitter is your main tool for threatening him before his Grit shield banks."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Boosts the healing from W's double-tap and your passive on-hit magic damage, directly counteracting Pit Grit's regen advantage in extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "sett is still winning extended duels against you even after your core items"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need more raw damage and sustain in skirmishes"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "you need the active heal and slow to disengage from his repeated all-in attempts"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you're already ahead and want to lock the lane down with more tank stats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Measured at 50% win rate over this page's sample — every stick with W procs Grasp for bonus max-health damage plus a heal, which is the single best counter to standing in Sett's Pit Grit regen race, and Second Wind heals back the chip damage from his Q-loaded autos.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Revitalize"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust+Flash measures at 56% win rate versus Ignite's 43.3% in this matchup specifically because it directly defuses Sett's Q-loaded autos and his R grab — the two windows where he actually kills you — rather than racing a DOT against a champion whose passive heals him back up."
+  },
+  "playing": [
+   {
+    "title": "Don't autoattack through Knuckle Down",
+    "detail": "While Sett's Q is active (9/8/7/6/5s CD) his next two attacks carry bonus max-health damage. Step out of range rather than trading hit-for-hit."
+   },
+   {
+    "title": "Poke with W, commit only when ready",
+    "detail": "Use Frenzied Maul to mark and walk out; only recast it on the same target for the bonus damage and heal when you're actually committing to the full trade."
+   },
+   {
+    "title": "Hold Q to punish his engage",
+    "detail": "Thundering Smash stuns the first enemy you attack after the speed gain (12-10s CD by rank, 300 range) — save it to interrupt Sett running at you off Q's move speed buff rather than opening with it."
+   },
+   {
+    "title": "Fire E before his Grit banks",
+    "detail": "Sky Splitter (16s CD, 1200 range) damages and slows while shielding you if you're caught in the blast — use it early in a trade window, before Haymaker's stored Grit has stacked enough to shield through it."
+   },
+   {
+    "title": "All-in only with R up",
+    "detail": "Stormbringer (160/135/110s CD) grants bonus health on landing plus a slow — save real all-ins for when it's off cooldown, since without the HP buffer you're trading into his superior sustain with nothing to absorb it."
+   },
+   {
+    "title": "Watch his HP curve, not yours",
+    "detail": "Pit Grit regens Sett harder the lower he drops, so a Sett at 30% isn't as dead as the number suggests — only commit if you can finish him before that regen ramps up."
+   },
+   {
+    "title": "Don't fear E as a guaranteed stun",
+    "detail": "Facebreaker (16-10s CD, 490 range) only stuns when enemies are caught on opposite sides of Sett; in a clean 1v1 it just slows you, so don't disengage a winning trade over it unless minions are also caught."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win-rate figures come from measured games on the current patch (16.20.1); the trade patterns, cooldown timing, and tactical reasoning are my own analysis of the ability kits."
+ },
+ "generatedAt": 1791488865268,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791488738376,
+  "overall": {
+   "winRate": 48.6,
+   "play": 10173,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 261,
+   "wins": 119,
+   "winRate": 45.6
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Keep some distance to avoid being hit with Sylas’s (E). Close in to fight him when his skills are on cooldown. Use [E] to contest lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.3,
+    "play": 240,
+    "pickRate": 70.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 56,
+    "play": 50,
+    "pickRate": 14.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.3,
+    "play": 30,
+    "pickRate": 8.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 39,
+    "play": 77,
+    "pickRate": 22.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 8.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 43.8,
+    "play": 217,
+    "pickRate": 64.8
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 61,
+    "pickRate": 18.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.4,
+    "play": 192,
+    "pickRate": 60.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.8,
+    "play": 32,
+    "pickRate": 10.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 3.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 2.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 51.9,
+    "play": 214,
+    "pickRate": 62.8
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 41.8,
+    "play": 153,
+    "pickRate": 44.9
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 49.2,
+    "play": 128,
+    "pickRate": 37.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 48.5,
+    "play": 103,
+    "pickRate": 30.2
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 47.4,
+    "play": 57,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 58.3,
+    "play": 48,
+    "pickRate": 14.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 43.6,
+    "play": 78
+   }
+  ]
+ }
+}

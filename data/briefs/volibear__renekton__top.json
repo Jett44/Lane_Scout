@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose extended all-ins while Renekton's Fury sits above 50 with both his W and E up, and you win any trade where you land Q's stun first or he's already burned Slice and Dice."
+  },
+  "thesis": "Both champions win lane through sustain rather than burst — Renekton's Cull the Meek heal scales up once his Fury passes 50, Volibear's Frenzied Maul recast heals him back — so the matchup is decided by whose engage tool is off cooldown when the fight starts, not by raw damage. That reads directly onto the measured 45.4% win rate over 207 games: a coin-flip lane where cooldown tracking is the entire skill expression.",
+  "tell": {
+   "watch": "Renekton's Fury stack count",
+   "theirWindow": {
+    "when": "his Fury is above 50 before he engages",
+    "what": "His W (Ruthless Predator) upgrades to a triple slash that strips your shields and stuns for 1.5s instead of 0.75s, and his Q heal jumps with it. Do not contest a trade here — back off until he's spent Q or W and his Fury has dropped."
+   },
+   "yourWindow": {
+    "when": "right after he dashes Slice and Dice",
+    "what": "E (16/14.5/13/11.5/10s cooldown by rank) is his only gap-closer and escape. The moment he uses it to engage or reposition, use Q (Thundering Smash, 12-10s cooldown) to close the distance and stun him before he can reset the fight."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "W stun into Q sustain wins early all-ins"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Frenzied Maul recast heal matches his sustain"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Dominus (R) opens a short burst window"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Core items online, Sky Splitter zoning matters"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Thornmail/Spirit Visage, R disables towers for picks"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured at 54.2% win rate over 48 games, the AD and sustain pair better with Frenzied Maul's double-cast heal in this specific sustained-trade matchup than the more common Doran's Ring path (44.4% WR, 70.3% pick)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Taken in 57.7% of games at 43.8% win rate on the larger sample; the flat autoattack reduction directly answers Renekton's on-hit-heavy W/E trade pattern."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Builds into the attack speed that fuels repeated Frenzied Maul procs during extended trades."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Cooldown refund keeps Q and W available more often than Renekton's own low cooldowns during a prolonged skirmish."
+    },
+    {
+     "item": "Thornmail",
+     "why": "The highest-performing recorded path (70% win rate over 10 games) with Dusk and Dawn into Navori; armor directly undercuts his physical-damage sustain loop."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "the game drags into a long siege or teamfight phase where healing from Frenzied Maul needs to scale"
+    },
+    {
+     "item": "Statikk Shiv",
+     "when": "you want wave clear and kiting speed instead of flat armor"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "you're ahead on gold and want sustain plus poke to close the game out early"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The attack speed ramp rewards staying in extended trades, which is exactly how this matchup is won — outlasting his Fury-powered Q heal rather than burst-trading into his empowered W.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust+Flash is the highest-performing pairing recorded in this matchup at 55% win rate (14.4% pick) — timing Exhaust on his empowered W or on Dominus (R) activation directly removes the physical burst his all-in depends on. Flash+Ignite remains the more commonly run pair (69.4% pick, 44% WR) if you're playing to snowball kills instead."
+  },
+  "playing": [
+   {
+    "title": "Track his Fury before committing",
+    "detail": "If his autoattacks have pushed Fury above 50, his W becomes a triple-slash that destroys your shields and stuns for 1.5s instead of 0.75s. Wait for him to spend Q or W and let Fury drop before you trade."
+   },
+   {
+    "title": "Punish the moment Slice and Dice is down",
+    "detail": "Once he's dashed with E, he has no gap-closer or escape until it comes back off cooldown (16 down to 10.5s as he ranks it). Use Q's speed boost to close and stun him immediately in that window."
+   },
+   {
+    "title": "Cast Sky Splitter from inside brush",
+    "detail": "E has 1200 range — firing it from lane or river brush means he never sees the slow coming. Stand inside the blast yourself so you get the shield while he eats the damage and slow."
+   },
+   {
+    "title": "Always double-tap Frenzied Maul",
+    "detail": "The second W cast on a marked target heals you. Weave it into every extended trade so your sustain keeps pace with his Fury-boosted Cull the Meek heal."
+   },
+   {
+    "title": "Hold Q to cut off his engage, not just to chase",
+    "detail": "Thundering Smash's gap-close and stun is strongest used proactively to intercept him before he opens with W, since his own stun chain is just as disruptive to you if he lands it first."
+   },
+   {
+    "title": "Save Exhaust for his burst windows",
+    "detail": "Pop it the instant he activates empowered W or Dominus (R) at level 6+ — it directly undercuts the physical damage spike those windows exist to create."
+   },
+   {
+    "title": "Farm safely toward the Thornmail spike",
+    "detail": "The best-recorded build (Dusk and Dawn into Navori Flickerblade into Thornmail, 70% win rate) wants you surviving the early Fury-chain-stun phase rather than forcing fights before your third item."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, boots, runes, and summoner spells above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning — Fury thresholds, cooldown windows, and trade sequencing — is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791489140115,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791489031915,
+  "overall": {
+   "winRate": 48.6,
+   "play": 10173,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 207,
+   "wins": 94,
+   "winRate": 45.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Check Renekton’s Fury before fighting him. Use [E] from inside a brush to contest lane while using Grasp of the Undying when fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44,
+    "play": 193,
+    "pickRate": 69.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 14.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 11.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 68,
+    "pickRate": 24.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.2,
+    "play": 23,
+    "pickRate": 8.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 196,
+    "pickRate": 70.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.2,
+    "play": 48,
+    "pickRate": 17.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 43.8,
+    "play": 153,
+    "pickRate": 57.7
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 56.8,
+    "play": 37,
+    "pickRate": 14
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 70,
+    "play": 10,
+    "pickRate": 5.4
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 44.9,
+    "play": 156,
+    "pickRate": 55.7
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 47,
+    "play": 115,
+    "pickRate": 41.1
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 53.5,
+    "play": 101,
+    "pickRate": 36.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 54.8,
+    "play": 84,
+    "pickRate": 30
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 43.4,
+    "play": 53,
+    "pickRate": 18.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.1,
+    "play": 41,
+    "pickRate": 14.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 50.7,
+    "play": 75
+   }
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "you": "Mordekaiser",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill, scales out",
+   "line": "You lose prolonged ranged exchanges before level 3 and whenever Disdain is up, but you win forced all-ins once his E is down or your R isolates him at 6."
+  },
+  "thesis": "Mordekaiser has no gap-closer besides the 700-range pull on E (Death's Grasp), while Urgot pokes from range with Q (Corrosive Charge) and can dash-and-throw you away with E (Disdain) to reset neutral. That mismatch in who controls distance is the entire reason the aggregate 50.7% winrate drops to 43% here — Morde's equalizer is R (Realm of Death), which drags Urgot into a melee-only duel where his range stops mattering.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "Disdain and Q both available",
+    "what": "He can poke with Q (Corrosive Charge) and then dash in to throw you out of range with Disdain if you commit. Don't walk up to melee here — you'll eat the poke and get shoved back for free."
+   },
+   "yourWindow": {
+    "when": "Disdain (E) just used or on cooldown",
+    "what": "He has no tool to create separation. Close with E (Death's Grasp) and follow with Q (Obliterate) — at rank 1 that's an 8-second cooldown, so you can re-engage fast if he flinches."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has Disdain yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Disdain online, he kites freely"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Realm of Death forces isolated duels"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Purge ramps down, offsets your sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Rylai's slow-stick plus Conqueror sustain wins"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "The 49.1% win rate over 112 games is the better-performing start; the mana regen and AP keep your Q/E trades funded while you wait out his poke phase rather than trying to out-sustain autos directly."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "85.1% pick rate and the right call here — his passive (Echoing Flames) triggers off autos and Purge, so flat damage reduction against that auto-attack chip matters more than magic resist."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow on Q and E is your only answer to a kiting ranged champion with a disengage tool — it keeps him inside your E pull range after the first hit lands."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Omnivamp lets you win the extended trades his Echoing Flames procs are designed to grind out, and the empowered-after-combat damage punishes him for standing in melee once isolated."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage scales with his tankier late-game armor stacking and keeps ticking through his W (Indestructible)-style shields his build doesn't actually have — it just outlasts his HP bar in a 1v1."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds into crit or armor-shred physical items and his autos are doing most of the work"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you need the healing from W (Indestructible) and Riftmaker to amplify further in a grindy lane"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "his early poke and auto trades before level 6 are too severe to just out-sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Every spell you land in melee range stacks Conqueror toward adaptive healing — since your entire win condition is surviving the walk-up phase and grinding him down once you're in range, that compounding sustain is what turns a close duel into a won one.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest-pick (73.9%) and strongest-performing (42.9%) option, and it matches the matchup's actual win condition: forcing and closing out the level 1-2 and level 6 all-in windows before he can disengage with Disdain."
+  },
+  "playing": [
+   {
+    "title": "All-in before level 3",
+    "detail": "Urgot has no Disdain until level 3, so there's no dash-away to punish — if he trades or overextends for CS, your Q (Obliterate, 8s cooldown at rank 1) wins the exchange clean."
+   },
+   {
+    "title": "Track Disdain's cooldown",
+    "detail": "E (Disdain) sits at 16-14s cooldown early. The moment he spends it — to poke, to clear wave, or to space you — that's your window to walk up without fear of being thrown back."
+   },
+   {
+    "title": "Pull right after his Q",
+    "detail": "Fire E (Death's Grasp) the instant he lands Corrosive Charge, since its 8-10s cooldown means he has no follow-up slow to fight the pull and separate again."
+   },
+   {
+    "title": "Isolate with R the instant E is down",
+    "detail": "Realm of Death drags him away from minions and support and locks the fight to melee-only. Use it the moment Disdain is on cooldown so he has no way to contest the duel on his terms."
+   },
+   {
+    "title": "Pre-shield before committing",
+    "detail": "Pop W (Indestructible) before you walk into an extended trade — the stored damage converts to healing mid-fight, which matters since his autos plus Echoing Flames chip you continuously."
+   },
+   {
+    "title": "Don't walk into a Purge channel",
+    "detail": "W (Purge) triggers extra Echoing Flames procs and prioritizes champions he's recently hit. Wait for the channel to end or interrupt the setup with E instead of absorbing it."
+   },
+   {
+    "title": "Respect his execute range at low HP",
+    "detail": "R (Fear Beyond Death) is a 2500-range execute on low-health targets. Even if you're winning a skirmish, don't let your HP drop into his threshold while his ultimate is up."
+   }
+  ],
+  "patchCaveat": "Build order, runes, boots, and summoner spells are pulled directly from measured games on the current patch (16.20.1); the power-curve timing and trade-pattern reasoning are my own read of the kit, not sourced from OP.GG."
+ },
+ "generatedAt": 1791490506309,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791490392938,
+  "overall": {
+   "winRate": 50.7,
+   "play": 13608,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 121,
+   "wins": 52,
+   "winRate": 43
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being hit with Urgot’s (P) and (E). Use your abilities to fight him in melee combat to easily gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.9,
+    "play": 119,
+    "pickRate": 73.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44,
+    "play": 25,
+    "pickRate": 15.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 8.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.5,
+    "play": 88,
+    "pickRate": 54.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 9.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 112,
+    "pickRate": 72.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 34.4,
+    "play": 32,
+    "pickRate": 20.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 43.7,
+    "play": 126,
+    "pickRate": 85.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 10.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 7.9
+   },
+   {
+    "items": [
+     "Riftmaker",
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 41.5,
+    "play": 123,
+    "pickRate": 77.4
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 47.4,
+    "play": 116,
+    "pickRate": 73
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 42.1,
+    "play": 57,
+    "pickRate": 35.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 20.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 56,
+    "play": 25,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 37.5,
+    "play": 24,
+    "pickRate": 15.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 49.3,
+    "play": 69
+   }
+  ]
+ }
+}

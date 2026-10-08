@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose if you eat his E-into-Q combo standing at range; you win if you force the fight inside your own E (Apprehend) pull range."
+  },
+  "thesis": "Volibear's pressure depends on landing Sky Splitter (E) from range and then committing Thundering Smash (Q) to stick once you're already close enough for its 300-range dash. Darius has no ranged answer to the poke but owns any fight that happens inside his own Apprehend (E) pull range, where Voli can't kite or reset. The whole lane is a fight over who dictates distance, and at 49.3% across 276 games neither side wins that fight by default.",
+  "tell": {
+   "watch": "Volibear's Sky Splitter (E) cooldown",
+   "theirWindow": {
+    "when": "After his E lands while you're in Q range",
+    "what": "He dashes in with Q (Thundering Smash) for a stun, then double-casts W (Frenzied Maul) on you for bonus damage and a heal. Back off and let both cooldowns pass rather than trading through this."
+   },
+   "yourWindow": {
+    "when": "Both his E and Q are on cooldown",
+    "what": "Walk him down, open with Q (Decimate) blade-side for the heal and bleed stacks, then E (Apprehend) to pull him into permanent melee range where his Q can't reset the gap. Finish with R (Noxian Guillotine) once Hemorrhage is at 5 stacks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Q stun into W poke wins early trades"
+   },
+   {
+    "levels": "4-5",
+    "edge": "even",
+    "note": "E (Apprehend) online, trades even out"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R execute threat plus Youmuu's spike"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "his bonus health offsets your burst"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "R split-push and teamfight disable value"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest measured win rate start (49.4% over 247 games) and the sustain lets you hold position instead of backing off every time his E clips you."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Best-performing boots (51.7% over 176 games); tenacity shortens his Q stun window and the MR blunts his passive's bonus magic damage plus E magic damage."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active lets you close his E poke range immediately and the armor pen stacks with Apprehend's passive shred to punish him in extended fights."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Builds speed on wave clear to force the engage on your terms, then dumps it into a slow on contact so he can't walk out of your E range."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts his burst into damage-over-time you can out-sustain, matching the highest win-rate core path (47.8% over 23 games)."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "his passive on-hit magic damage and E poke are adding up faster than your lane sustain can handle"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need to survive his all-in once he commits Q plus R together"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want to stick to him through his Q dash and force the extended trade yourself"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Measured higher win rate (50.7% over Stormraider's 45.7%) and it ramps during the exact extended, locked-in melee trade you're trying to force with E (Apprehend).",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest measured win rate of the three common pairings (52.8%); Ignite punishes his W (Frenzied Maul) self-heal and his R sustain, denying the exact tools he uses to win extended fights."
+  },
+  "playing": [
+   {
+    "title": "Don't trade through his E",
+    "detail": "Sky Splitter is only a 16s cooldown, so if you eat two in a row back off and let it sit on cooldown before committing to a fight."
+   },
+   {
+    "title": "Pull him before he can dash",
+    "detail": "His Q only has 300 range, so landing E (Apprehend) first strips his ability to reposition and locks him into straight autos where your bleed and armor shred win."
+   },
+   {
+    "title": "Bait his Q, don't eat it",
+    "detail": "Thundering Smash stuns on the first thing he hits while dashing toward you; step just outside 300 range and let him commit before you engage."
+   },
+   {
+    "title": "Watch for the double W cast",
+    "detail": "Frenzied Maul recast on the same target deals bonus damage and heals him, so disengage after the first hit if you're not ready to finish the trade."
+   },
+   {
+    "title": "Stack Hemorrhage before R",
+    "detail": "Noxian Guillotine's true damage scales with bleed stacks, so land Q and autos to get Hemorrhage to 5 stacks before committing your ultimate."
+   },
+   {
+    "title": "Close during wave contact",
+    "detail": "Walk up while minions are crashing so his 1200-range E poke isn't free chip damage with no response from you."
+   },
+   {
+    "title": "Chain R off kills",
+    "detail": "Noxian Guillotine refreshes its cooldown on a killing blow, so look to dive his jungler or a low-health ally immediately after closing out the lane duel."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates here are measured from live games on the current patch (16.20.1); the mechanical reasoning for why each choice works against Volibear specifically is my own read, not OP.GG's."
+ },
+ "generatedAt": 1791488585753,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791488490307,
+  "overall": {
+   "winRate": 49.5,
+   "play": 14418,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 276,
+   "wins": 136,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Volibear’s (E) while laning. Try to close in and kill Volibear whenever he steps inside your range.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 47.7,
+    "play": 222,
+    "pickRate": 61.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.8,
+    "play": 106,
+    "pickRate": 29.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 48.4,
+    "play": 31,
+    "pickRate": 8.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.7,
+    "play": 81,
+    "pickRate": 22.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 19.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 247,
+    "pickRate": 68
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.9,
+    "play": 74,
+    "pickRate": 20.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.7,
+    "play": 176,
+    "pickRate": 50.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.6,
+    "play": 133,
+    "pickRate": 37.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 11.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Dead Man's Plate"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 5.8
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 44.7,
+    "play": 161,
+    "pickRate": 44.6
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 51,
+    "play": 155,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 55.3,
+    "play": 123,
+    "pickRate": 34.1
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 53.2,
+    "play": 111,
+    "pickRate": 30.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.3,
+    "play": 105,
+    "pickRate": 29.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 55.9,
+    "play": 102,
+    "pickRate": 28.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54,
+    "play": 87
+   }
+  ]
+ }
+}

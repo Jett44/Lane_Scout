@@ -1,0 +1,389 @@
+{
+ "you": "Volibear",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early favored",
+   "line": "You win if you deny Nasus's Siphoning Strike stacks early and dive him under turret off your level-6 Stormbringer, and you lose if the lane stalls long enough for his stacks and eventual Fury of the Sands to outscale the lead you built."
+  },
+  "thesis": "Nasus's entire power curve is gated behind Siphoning Strike (Q) landing killing blows on minions — deny those last hits and he is permanently behind. Volibear's Q (Thundering Smash) stun into W (Frenzied Maul) re-cast trades let him punish Nasus for stepping up to farm, which is why the data shows a lane and solo-kill edge for Volibear; but once Nasus banks enough stacks and reaches Fury of the Sands (R), the fight math flips, which is why the overall head-to-head sits at 46.7% over 184 games despite the early edge.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Wither (W) off cooldown and you're in range",
+    "what": "Once Wither lands it decelerates your movement and attack speed over time, which guts your Frenzied Maul re-cast trades and your Q stun gap-close. Back off or bait it before committing to an extended fight."
+   },
+   "yourWindow": {
+    "when": "Nasus steps up to last-hit under his Q cooldown",
+    "what": "Siphoning Strike only empowers him when it kills — walk him off the minion or punish the animation with Q (Thundering Smash) into immediate W trades before he can secure the stack."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "both sides feeling out trades, no stacks yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q stun into W trades deny his farm"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Stormbringer enables turret dives per data"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "his banked stacks start closing the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Fury of the Sands snowballs skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "72.5% pick at 49.2% win rate — the mana and health regen sustain repeated Q/W trade attempts without forcing a back before you've denied enough Siphoning Strike stacks."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Highest measured win rate of the two options (60.7%) and the slow-resist built into Swiftness directly blunts Wither's deceleration, keeping you in range to land your own Q stun."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the most-played core path — the attack speed and tech it provides feeds the passive's bonus magic damage proc during W-stacking trades."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Second in the 8.5%-pick core path — more attack speed pushes your Q-into-W trade window and keeps pace once Nasus's stacks start closing the gap."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Closes the core path and gives sustain through extended skirmishes once Nasus's Fury of the Sands drain starts chunking max health."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "nasus's soul eater lifesteal or fury of the sands drain is keeping him alive through your trades"
+    },
+    {
+     "item": "Statikk Shiv",
+     "when": "you want faster wave clear and kiting power earlier, following the alternate statikk shiv > dusk and dawn > spirit visage path"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "you're ahead and want extra poke and sustain for extended skirmishes"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "his auto-attacks and siphoning strike poke are outpacing your trades before you're ahead"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Ramps attack speed into extended trades, stacking with your passive's attack speed grant to accelerate the bonus magic damage proc and win prolonged fights against Nasus's Wither.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Dominant pick at 81.6% and a 50% win rate — Ignite converts your solo-kill advantage into actual kills and cuts through Nasus's Soul Eater lifesteal sustain during early all-ins."
+  },
+  "playing": [
+   {
+    "title": "Deny Siphoning Strike stacks",
+    "detail": "Siphoning Strike only empowers Nasus's future Qs when it lands a killing blow. Walk him off minions with Q (Thundering Smash) into W (Frenzied Maul) before his Q timer comes back around."
+   },
+   {
+    "title": "Trade only when Wither is down",
+    "detail": "Wither (15-11s cooldown, 700 range) decelerates your movement and attack speed over time. Track it and only commit to extended trades or dives in the window after it's used."
+   },
+   {
+    "title": "Zone Spirit Fire with E",
+    "detail": "Sky Splitter (1200 range, 16s cooldown) can punish Nasus for standing in his own armor-reducing Spirit Fire patch, and its slow sets up a follow-up Q stun."
+   },
+   {
+    "title": "Dive under turret at level 6",
+    "detail": "Stormbringer disables nearby enemy towers on landing. Press the level-6 spike immediately and all-in Nasus under his own plates before his stacks matter."
+   },
+   {
+    "title": "Always re-cast W for the heal",
+    "detail": "Frenzied Maul's second cast on a marked target deals bonus damage and heals you — use it in every trade to offset his Soul Eater lifesteal."
+   },
+   {
+    "title": "Bait empty Siphoning Strikes",
+    "detail": "Stand just past 255 range while his Q is up to bait a whiff, denying the stack and gold while opening him up for your own W trade."
+   },
+   {
+    "title": "Respect Fury of the Sands late",
+    "detail": "Once his R is online he gains bonus health, range, and max-health drain. Don't extend solo skirmishes against him past mid-game without your Q stun pre-planned."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner spells above are pulled from measured OP.GG games on the current patch (16.20.1); the win-rate framing and tactical reasoning — stack denial, Wither timing, and the level-6 turret dive — are my own read of the matchup."
+ },
+ "generatedAt": 1791490127522,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791490009675,
+  "overall": {
+   "winRate": 48.7,
+   "play": 10582,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 184,
+   "wins": 86,
+   "winRate": 46.7
+  },
+  "laneAdvantage": "Volibear",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus grow during early game by applying pressure to win lane control. Use [E] to contest lane and after reaching level 6 dive under turret.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 200,
+    "pickRate": 81.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 30,
+    "play": 20,
+    "pickRate": 8.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 4.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 70,
+    "pickRate": 28.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 7.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 177,
+    "pickRate": 72.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 43.6,
+    "play": 39,
+    "pickRate": 16
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.6,
+    "play": 72,
+    "pickRate": 30.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 60.7,
+    "play": 56,
+    "pickRate": 23.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 8.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Thornmail"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 5.5
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 43.3,
+    "play": 134,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 49,
+    "play": 98,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 46.5,
+    "play": 86,
+    "pickRate": 36
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 51.5,
+    "play": 66,
+    "pickRate": 27.6
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 59.3,
+    "play": 54,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 36.4,
+    "play": 33,
+    "pickRate": 13.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 46,
+    "play": 50
+   }
+  ]
+ }
+}

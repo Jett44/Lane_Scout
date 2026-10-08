@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you walk into Corrosive Charge and auto-trade at range without closing the gap; you win if you land E (Apprehend) and slow him with W before he can Disdain away."
+  },
+  "thesis": "Urgot is a ranged poke champion (Q Corrosive Charge, 800 range) with a knockback escape (E Disdain) and an execute ultimate, while Darius is a melee champion whose entire kit depends on using E (Apprehend, 535 range) to drag him into range. This matchup is decided almost entirely by whether Darius's E lands before Urgot's poke and disengage tools are available, which is why the data comes back even — 46.5% win rate over 144 games, EVEN on lane and solo-kill.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "after you whiff or save E (Apprehend)",
+    "what": "Without E up you're a stationary target for Q (Corrosive Charge, cd 10/9.5/9/8.5/8s, slows) and autos that trigger Echoing Flames — don't stand in poke range while your E is down, just farm and wait."
+   },
+   "yourWindow": {
+    "when": "the moment E (Apprehend) connects",
+    "what": "Immediately follow with W (Crippling Strike) to slow him so he can't kite with Purge, then stack Hemorrhage with Q and autos — his E (Disdain, cd 16/15.5/15/14.5/14s) is now his only way out and it's a long cooldown if he already used it to engage or escape."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no E yet, Echoing Flames punishes trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "your E online, his Disdain also unlocks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates live, pull still decides fights"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Youmuu's and armor shred punch through engages"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "duel matters less than macro state"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Measured at 48.2% win rate over 114 games and the clear majority pick (62.6%) — the sustain and damage offset the chip from autos and Corrosive Charge while you wait out E's cooldown."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "48.2% win rate over 137 games and 77.8% pick rate — Urgot's damage is entirely physical (autos, Q, Echoing Flames blasts), so the flat reduction on basic attacks directly blunts his poke."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The highest-performing listed path (64.3% win rate over 14 games starts here); the active haste closes the distance Urgot otherwise keeps with Purge kiting."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Common second item across every listed core path — the move speed stacking helps you catch Urgot before E (Apprehend) is even needed, and the health buffers Echoing Flames chip."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Caps the top win-rate path at 64.3%; the damage-over-time conversion smooths out Urgot's burst from Disdain-into-Purge combos."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Stridebreaker",
+     "when": "you want built-in slow and mobility instead of Ghostblade's active to run down his kiting"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "the enemy team is stacking magic damage alongside Urgot and you need the magic resist"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're committing to all-ins and need anti-burst durability through his Q and Purge"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Once you land E (Apprehend) and slow with W, you're locked into an extended melee fight where Conqueror's stacking damage and healing conversion reward staying on top of him rather than trading at range.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash + Ignite posts the best measured win rate of the listed combos (63.4% over the sample) — Ignite's guaranteed damage secures kills once you've committed E and R (Noxian Guillotine) on Urgot's Hemorrhage stacks, and Flash covers the gap if Disdain knocks you out of range."
+  },
+  "playing": [
+   {
+    "title": "Hold E for the kill, not pokes",
+    "detail": "E (Apprehend) is on a 26/23.5/21/18.5/16s cooldown by rank — only fire it when you can immediately follow with W and a full combo, never to poke."
+   },
+   {
+    "title": "Punish the pre-6 window",
+    "detail": "Before level 6 Urgot has no R and his only real escape is E (Disdain, cd 16-14.5s) — if you land your pull here he has very little to answer with."
+   },
+   {
+    "title": "Dodge Corrosive Charge before closing",
+    "detail": "Q (Corrosive Charge, 800 range, cd 10/9.5/9/8.5/8s) explodes and slows — bait it on minions or sidestep the cast before you commit to walking him down."
+   },
+   {
+    "title": "Respect Disdain after level 3",
+    "detail": "Once Urgot hits level 3, E (Disdain) tramples through your wave and, if it catches you directly, stops and hurls you away — don't approach in a straight line when it's up."
+   },
+   {
+    "title": "Slow the instant you're in range",
+    "detail": "Use W (Crippling Strike) the moment E lands — the slow is what stops him from disengaging with W (Purge) while Echoing Flames ticks on you."
+   },
+   {
+    "title": "Save R for stacked Hemorrhage",
+    "detail": "R (Noxian Guillotine) deals true damage that scales with Hemorrhage stacks and refreshes its cooldown on a kill — build to five stacks with Q and autos before you use it."
+   },
+   {
+    "title": "Avoid level-1 auto trades",
+    "detail": "Echoing Flames punishes you for trading autos at level 1 before Doran's Blade sustain is online — farm safely until you can threaten with E."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and summoner choices above are pulled directly from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning for why each works in this matchup is my own read of the ability kits, not measured data."
+ },
+ "generatedAt": 1791490235339,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791490133739,
+  "overall": {
+   "winRate": 49.5,
+   "play": 14978,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 144,
+   "wins": 67,
+   "winRate": 46.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Urgot’s passive ability while on level 1. After reaching level 3, be wary of his (E) while closing in on him to fight and kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 44.4,
+    "play": 117,
+    "pickRate": 63.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 63.4,
+    "play": 41,
+    "pickRate": 22.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 38.1,
+    "play": 21,
+    "pickRate": 11.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 37.5,
+    "play": 40,
+    "pickRate": 21.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 37.1,
+    "play": 35,
+    "pickRate": 18.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 114,
+    "pickRate": 62.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 59,
+    "pickRate": 32.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.2,
+    "play": 137,
+    "pickRate": 77.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 10.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 28.6,
+    "play": 7,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.2,
+    "play": 94,
+    "pickRate": 48.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 50.6,
+    "play": 81,
+    "pickRate": 42
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 60.3,
+    "play": 78,
+    "pickRate": 40.4
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 52.9,
+    "play": 70,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.2,
+    "play": 69,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 53.3,
+    "play": 30,
+    "pickRate": 15.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 41.9,
+    "play": 31
+   }
+  ]
+ }
+}

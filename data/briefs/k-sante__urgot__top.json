@@ -1,0 +1,388 @@
+{
+ "you": "K'Sante",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane win, game risk",
+   "line": "You outlane and out-duel Urgot through level 9, but the measured 40.7% win rate over 91 games says that lead evaporates if you let Urgot's build and ultimate come online past 20 minutes."
+  },
+  "thesis": "K'Sante has the tools to force this fight: Q's (Ntofo Strikes) two-stack shockwave pulls Urgot out of his comfortable poke range, and E (Footwork) gives a dash-shield to close whenever Urgot's E (Disdain) is down. The data's solo-kill and lane advantage both point your way early, but the 40.7% head-to-head win rate shows those individual wins aren't converting into game wins once Urgot's W (Purge) cooldown collapses toward 0s and his global R (Fear Beyond Death, range 2500) starts threatening executions. Treat this as a lane you should dominate, but a game you need to end, not stall.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) availability",
+   "theirWindow": {
+    "when": "Urgot's E (Disdain) is up",
+    "what": "He can poke freely with Q (Corrosive Charge, 800 range, slows on hit) and still has the tool to fling you away with E (Disdain, 16-14s cooldown) if you commit to a dash. Don't walk your E (Footwork) or W (Path Maker) charge into him while this is up — you'll just get flung off and eat the full trade for nothing."
+   },
+   "yourWindow": {
+    "when": "Urgot's E (Disdain) is down",
+    "what": "All-in immediately. Close with E (Footwork)'s dash-shield or land a second Q (Ntofo Strikes) hit for the two-stack shockwave pull, then lock him in place with W (Path Maker)'s charge-dash stun — he has nothing left to create separation with."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q (800 range) pokes before your W/E exist"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W (Path Maker) stun punishes his E cooldown"
+   },
+   {
+    "levels": "6-9",
+    "edge": "you",
+    "note": "R (All Out) wall-combo threat, solo-kill window"
+   },
+   {
+    "levels": "10-14",
+    "edge": "even",
+    "note": "W (Purge) nears 0s cooldown, trades get messy"
+   },
+   {
+    "levels": "15-18",
+    "edge": "them",
+    "note": "Global R execute threat, full item spikes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm",
+    "why": "Paired with a Health Potion, this is the clearly better-performing start (43.5% WR over 85 games, 84.2% pick) and gives the sustain to keep trading into Urgot's Q (Corrosive Charge) poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "The dominant pick (86.7%) and best-sampled result (38.8% WR over 85 games) — reduces the sting of Urgot's auto-attacks and W (Purge) unload during extended trades."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Common first item across every recorded build path; the slow-on-hit lets you actually stick to Urgot after you close distance with Q or E."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Part of the best-performing recorded path (75% WR over 4 games) into Spirit Visage — stacks resistances for the extended skirmishes this matchup tends to produce."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Completes the top win-rate path; the healing amp matters since you're relying on repeated all-ins, not one clean burst, to win fights."
+    },
+    {
+     "item": "Randuin's Omen",
+     "why": "Listed among the common later items — the active and attack-speed slow directly blunts Urgot's W (Purge) unload once his cooldown collapses."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "the enemy team stacks lifesteal or healing you need to cut through"
+    },
+    {
+     "item": "Frozen Heart",
+     "when": "Urgot's attack speed and W (Purge) resets are shredding you in extended fights"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "the enemy team's CC chain outweighs Urgot's single E (Disdain) displacement"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's sustained trading power and max-health scaling matches the repeated-engagement pattern here — you're not winning with one burst trade, you're winning by re-closing distance on Urgot over and over per wave.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the standard pick (76.9% pick rate) for wave management and map pressure, but Flash+Ignite actually shows the higher measured win rate (44.4% over a smaller sample) if you want to lean into the solo-kill advantage and end the lane outright rather than scale."
+  },
+  "playing": [
+   {
+    "title": "Punish missing E (Disdain)",
+    "detail": "The instant Urgot's E (Disdain, 16-14s cooldown) is down — baited on a wave or already used — engage with E (Footwork)'s dash-shield. He has no tool left to create distance."
+   },
+   {
+    "title": "Respect the 800-range Q poke",
+    "detail": "Before level 3, you have no answer to Urgot's Q (Corrosive Charge, 800 range, slows). Stay behind minions rather than eating free poke with nothing to punish it."
+   },
+   {
+    "title": "Chain Q stacks into the pull",
+    "detail": "Q (Ntofo Strikes) grants a stack on hit; the second stack fires a shockwave that pulls Urgot in. Use this the moment he's already marked to erase his range advantage."
+   },
+   {
+    "title": "All-in before wave 3",
+    "detail": "You have the solo-kill advantage in this data — press it early rather than passively farming, since your lane edge shrinks as his build comes online."
+   },
+   {
+    "title": "Save R for wall combos",
+    "detail": "R (All Out) knocks Urgot back and launches him through any wall in his path. Fight near river or tribrush walls from level 6 on so the knockback converts into a real kill threat."
+   },
+   {
+    "title": "Shorten trades once W ranks up",
+    "detail": "Once Urgot's W (Purge) reaches rank 3-5, its cooldown drops from 6s toward 0s, letting him unload repeatedly. Hit, disengage with E (Footwork), and reset rather than slugging it out past level 10."
+   },
+   {
+    "title": "Close the game before 25 minutes",
+    "detail": "The 40.7% win rate over 91 games means lane wins aren't translating to game wins — convert your early kills into objectives and TP plays rather than letting Urgot scale into his R (Fear Beyond Death, 2500 range) execute threat."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and every win-rate/pick-rate figure above come from measured K'Sante vs Urgot games on the current patch (16.20.1) via OP.GG; the ability readings, trade windows, and tactical framing are my own analysis."
+ },
+ "generatedAt": 1791490684722,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791490554045,
+  "overall": {
+   "winRate": 47.1,
+   "play": 9807,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 91,
+   "wins": 37,
+   "winRate": 40.7
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.3,
+    "play": 83,
+    "pickRate": 76.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 16.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 3.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 27.8,
+    "play": 18,
+    "pickRate": 16.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 15.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 43.5,
+    "play": 85,
+    "pickRate": 84.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 21.4,
+    "play": 14,
+    "pickRate": 13.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 38.8,
+    "play": 85,
+    "pickRate": 86.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 13.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 8
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Spirit Visage"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 42.9,
+    "play": 84,
+    "pickRate": 84.9
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 33.3,
+    "play": 24,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 28.6,
+    "play": 21,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 42.1,
+    "play": 19,
+    "pickRate": 19.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 25,
+    "play": 20
+   }
+  ]
+ }
+}

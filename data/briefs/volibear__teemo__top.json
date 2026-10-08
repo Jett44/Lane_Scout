@@ -1,0 +1,376 @@
+{
+ "you": "Volibear",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you walk into Teemo's poke before level 6; you win once Stormbringer lets you close the gap and force fights near towers."
+  },
+  "thesis": "Teemo pokes from 680 range with Toxic Shot and uses the 8s-cooldown Blinding Dart to blind you right as you close distance, which fails the on-attack payloads of both your Q and W. The 44.4% win rate over 133 games reflects that early-game gap: Volibear has no reliable way to force a fair trade before level 6, when Stormbringer finally gives him a hard gap-close.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart is up, you're approaching",
+    "what": "Teemo blinds you the moment you close in, which causes your Q's attack and W's on-hit mark to whiff. Hold your dash/engage and let him burn Q on a minion or on Sky Splitter's shield instead of on you."
+   },
+   "yourWindow": {
+    "when": "Blind is down and you have E or R ready",
+    "what": "Land Sky Splitter first to slow and shield, then engage with Q's stun or leap in with Stormbringer once it's online. Without Blinding Dart up, your attacks land clean and Frenzied Maul's recast heal actually offsets the poison stacks he's put on you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Toxic Shot pokes you down before you reach melee range"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Blind punishes every Q/W engage attempt"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Stormbringer leap forces real all-in windows"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "tankiness and tower-disable win skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "Runs at a higher win rate and pick rate (45.8% over 107 games) than Doran's Shield here; the regen offsets chip damage from Toxic Shot during the levels where you can't force a clean trade."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tenacity cuts the slow duration on Noxious Trap's poison cloud, and the magic resist directly blunts Toxic Shot's damage-over-time, which is the bulk of Teemo's early damage."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the 100%-win-rate path on this matchup; gives the on-hit scaling that feeds your passive's stacking magic damage and W's mark faster."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Amplifies the heal from recasting Frenzied Maul on a marked target, which is your direct answer to Toxic Shot's poison ticking on you through the lane."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Closes out the highest-performing core path recorded (Dusk and Dawn into Spirit Visage into Navori Flickerblade); the attack speed keeps your W reset loop online in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Statikk Shiv",
+     "when": "teemo is split pushing and leaving mushrooms to zone your wave clear"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "the poison damage over time is outpacing your W heal in extended trades"
+    },
+    {
+     "item": "Shadowflame",
+     "when": "you're ahead and need to burst teemo down before move quick lets him escape"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The ramping attack speed matters more here than it looks: it lets you proc on-hit effects fast enough to catch Teemo's own attack speed bursts after he breaks camouflage, and this exact page records a 58.3% win rate in this matchup despite lower pick rate.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Waterwalking",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust+Flash is the lowest-pick combo (14.9%) but the highest-performing one recorded at 50% win rate; Exhaust directly answers Move Quick's kite speed and cuts the damage Teemo gets off on you during your Stormbringer all-in."
+  },
+  "playing": [
+   {
+    "title": "Track Blinding Dart, not his HP",
+    "detail": "Only commit Q or W when Blinding Dart is down; while it's up, anything you attack-cast into can simply miss, wasting your cooldown for nothing."
+   },
+   {
+    "title": "Poke back with Sky Splitter",
+    "detail": "Use E's 1200 range to force a trade before you're in his Toxic Shot range; the shield only triggers if you're standing in the blast, so step forward into your own E when you throw it."
+   },
+   {
+    "title": "Save Stormbringer for a clean leap",
+    "detail": "At level 6, use R to leap directly onto Teemo rather than near him; the bonus health lets you tank a Blinding Dart and the nearby tower disable buys time to finish the kill under turret."
+   },
+   {
+    "title": "Clear mushrooms before engaging jungle paths",
+    "detail": "Noxious Trap has essentially no cooldown, so Teemo seeds brush and river entrances constantly; check for mushrooms before diving a skirmish or your jungler's gank path."
+   },
+   {
+    "title": "Don't walk blind into stationary brush",
+    "detail": "Camouflage only works if Teemo stops moving, so a bush that's been quiet for a few seconds may already have him hidden in it; ward or poke it before committing."
+   },
+   {
+    "title": "Recast W for sustain, not just damage",
+    "detail": "Frenzied Maul's second cast on a marked target heals you; prioritize landing that recast whenever you're already eating poison damage to keep the trade even."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates above are measured from live games on the current patch; the mechanical reasoning for why they work (blind timing, mushroom zoning, the level 6 power spike) is our own tactical read, not something OP.GG's numbers state directly."
+ },
+ "generatedAt": 1791489905120,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791489796263,
+  "overall": {
+   "winRate": 48.7,
+   "play": 10582,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 133,
+   "wins": 59,
+   "winRate": 44.4
+  },
+  "laneAdvantage": "Teemo",
+  "soloKillAdvantage": "Teemo",
+  "playStyle": "even",
+  "opponentTip": "Avoid being punished by Teemo during early game by keeping your distance. Avoid using [Q][W] while you are blinded by (Q).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 39.5,
+    "play": 119,
+    "pickRate": 63.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.3,
+    "play": 30,
+    "pickRate": 16
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 14.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.5,
+    "play": 39,
+    "pickRate": 20.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 6.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 107,
+    "pickRate": 56.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 40.4,
+    "play": 57,
+    "pickRate": 30.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 42.3,
+    "play": 104,
+    "pickRate": 58.1
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 45.8,
+    "play": 24,
+    "pickRate": 13.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 8.8
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Spirit Visage",
+     "Navori Flickerblade"
+    ],
+    "winRate": 100,
+    "play": 5,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 43.9,
+    "play": 98,
+    "pickRate": 51.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 46.9,
+    "play": 81,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 53.9,
+    "play": 76,
+    "pickRate": 40.2
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 52,
+    "play": 50,
+    "pickRate": 26.5
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 61.5,
+    "play": 39,
+    "pickRate": 20.6
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 6.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 47.4,
+    "play": 38
+   }
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "you": "Volibear",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Morde freely stack Obliterate and Darkness Rise on minions, you win if you punish his W cooldown with E-enabled trades."
+  },
+  "thesis": "This lane is a cooldown war, not a stat check: Mordekaiser's Indestructible (W, 12-8s cooldown) shields and heals off anything he hits, so trading into a full W is wasted damage. Volibear's own kit is built to outlast that shield window — Sky Splitter (E, 16s cooldown, 1200 range) threatens from range to punish shoves, and Frenzied Maul (W, 5s cooldown) rewards double-tapping the same target. The 52.3% win rate over 308 games confirms Volibear's trade pattern beats Morde's when played on his terms.",
+  "tell": {
+   "watch": "Mordekaiser's W (Indestructible) cooldown",
+   "theirWindow": {
+    "when": "Indestructible is up and he's pushing",
+    "what": "He can tank your all-in and heal back off the stored damage, so don't commit Q (Thundering Smash) into a fresh W — you'll just refill his shield."
+   },
+   "yourWindow": {
+    "when": "W just used, no shield available",
+    "what": "This is when to engage: Q (Thundering Smash) to stun, then double-W (Frenzied Maul) for the mark-and-heal combo, finishing with E (Sky Splitter) if he tries to walk out of the zone."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both poke weak, trades roughly equal"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Obliterate cooldown shrinks, farms you faster"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R threatens, his R needs isolation"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Core items online, sustain trades favor you"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Teamfight shield-breaking and splitpush dominance"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Taken in 71.8% of games at 54.2% win rate — the sustain lets you hold trades through Morde's Obliterate poke without losing lane presence."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Highest pick rate (50.3%) and win rate (53.7%) — the tenacity matters against Death's Grasp (E) pulls and any CC chain that follows."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item in the top win-rate path (53.8% over 52 games), giving the AP/AD hybrid scaling Volibear's kit wants."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Cooldown refresh on crits accelerates your Q/W trade loop, letting you reset Frenzied Maul faster in extended fights."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Caps the top build path at 53.8% win rate — the magic resist and healing amp directly counters Morde's all-magic damage profile."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Statikk Shiv",
+     "when": "the enemy team clusters and you need the proc to shred Indestructible's shield faster"
+    },
+    {
+     "item": "Hextech Gunblade",
+     "when": "you're ahead and want the active heal to win extended all-in fights"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need true damage to punish Morde's stacked resistances"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Taken in the top two rune pages (34.9% and 9% pick combined) — the stacking attack speed rewards Volibear's on-hit trade pattern against Morde's slower, cooldown-gated damage.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest pick rate at 72.9% and matching win rate of 52.9% — Ignite punishes all-ins where Morde tries to heal off Indestructible's stored shield, denying the sustain that defines his trades."
+  },
+  "playing": [
+   {
+    "title": "Never engage into fresh W",
+    "detail": "If Indestructible just came off cooldown, hold your Q (Thundering Smash) — any damage you deal gets banked into his shield and returned as healing."
+   },
+   {
+    "title": "Punish with E after his shove",
+    "detail": "Sky Splitter (E) has 1200 range and 16s cooldown — use it to zone or chip him the moment he pushes past minions without W up."
+   },
+   {
+    "title": "Double-tap W for the heal",
+    "detail": "Frenzied Maul's second cast on a marked target heals you — always look to land both casts in a trade, not just one, to win the sustain race."
+   },
+   {
+    "title": "Respect Death's Grasp range",
+    "detail": "His E pulls from 700 range — don't stand at the wave edge past minute 3-4 when his E cooldown drops to 10s or lower."
+   },
+   {
+    "title": "Use R to punish overextension",
+    "detail": "Stormbringer (R) at 550 range slows and grants bonus health on landing — save it for when Morde pushes too far past his minions, since his own R needs you isolated to work."
+   },
+   {
+    "title": "Track Darkness Rise stacks",
+    "detail": "After his passive triggers on 3 hits, he gets a damage aura and move speed — back off trading during that window rather than extending."
+   },
+   {
+    "title": "Splitpush once items complete",
+    "detail": "By level 13+ with Dusk and Dawn and Navori online, your dueling output outscales his — force him to answer your sidelane pressure."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner spell choices above come from measured high-elo games on the current patch (16.20.1) via OP.GG; the tactical reasoning and trade-window analysis is this brief's own judgment based on the listed ability mechanics."
+ },
+ "generatedAt": 1791488904419,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791488871644,
+  "overall": {
+   "winRate": 48.6,
+   "play": 10173,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 308,
+   "wins": 161,
+   "winRate": 52.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use [E] to contest lane during early game to easily gain lane control. Try to go in for the kill when (W) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.9,
+    "play": 306,
+    "pickRate": 72.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53,
+    "play": 66,
+    "pickRate": 15.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 57.1,
+    "play": 35,
+    "pickRate": 8.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.4,
+    "play": 147,
+    "pickRate": 34.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.4,
+    "play": 38,
+    "pickRate": 9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 54.2,
+    "play": 295,
+    "pickRate": 71.8
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51.8,
+    "play": 56,
+    "pickRate": 13.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.7,
+    "play": 188,
+    "pickRate": 50.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 58.5,
+    "play": 53,
+    "pickRate": 14.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 53.8,
+    "play": 52,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Hextech Gunblade",
+     "Shadowflame"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 3.3
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 2.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 52.2,
+    "play": 249,
+    "pickRate": 60.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 61.3,
+    "play": 181,
+    "pickRate": 44.3
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 54.1,
+    "play": 170,
+    "pickRate": 41.6
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 56.1,
+    "play": 164,
+    "pickRate": 40.1
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 62.9,
+    "play": 70,
+    "pickRate": 17.1
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 52.8,
+    "play": 53,
+    "pickRate": 13
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 57.8,
+    "play": 109
+   }
+  ]
+ }
+}
