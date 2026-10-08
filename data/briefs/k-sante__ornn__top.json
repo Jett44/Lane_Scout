@@ -1,0 +1,373 @@
+{
+ "you": "K'Sante",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You lose if you stand in Ornn's Q (Volcanic Rupture) poke range before level 6; you win once W (Path Maker)'s charge-up and a 2-stack Q (Ntofo Strikes) let you force fights he can't Searing Charge away from, matching the 54.8% K'Sante win rate over 42 games."
+  },
+  "thesis": "Ornn's long-range Q (Volcanic Rupture, 800 range) and Searing Charge threat control the first few levels, but K'Sante's W charge-up reduces damage taken through exactly that poke, and once Ntofo Strikes hits 2 stacks its shockwave pulls Ornn into a stun before his R (140s cooldown at rank 1) is ever up. That flip is why the head-to-head sits at 54.8% over 42 games even though the overall matchup shape is even.",
+  "tell": {
+   "watch": "Ornn's Searing Charge (E) cooldown",
+   "theirWindow": {
+    "when": "after his Q slow lands",
+    "what": "Volcanic Rupture's slow sets up Searing Charge; if he collides with terrain mid-charge it knocks up, so back off the moment the fissure clips you instead of trading through it."
+   },
+   "yourWindow": {
+    "when": "Q at 2 stacks or W charged",
+    "what": "Engage the instant Ntofo Strikes reaches 2 stacks or Path Maker finishes its charge-up — the Q shockwave pulls him in and the W stun (pre-level-6) locks him for a full trade before Searing Charge is back up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke range beats your 450-range engage"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W charge-up starts absorbing his poke"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "All Out threat before his 140s R"
+   },
+   {
+    "levels": "11-16",
+    "edge": "you",
+    "note": "Iceborn-boosted Q stacks win sustained trades"
+   },
+   {
+    "levels": "17-18",
+    "edge": "even",
+    "note": "his forged items catch up in teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm > Health Potion",
+    "why": "54.5% win rate over 44 games and the 88% pick rate here outweigh the Doran's Shield line (6 games); the extra regen offsets Volcanic Rupture chip damage during the levels you can't contest range."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "60% win rate over 25 games; the tenacity shortens how long Path Maker's stun-eating charge window gets interrupted and cuts the duration of his E shockwave knockup and R slow."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "cooldown and on-hit magic damage speed up Ntofo Strikes stacking, getting you to the 2-stack pull faster in every trade"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "stacking resists directly counters a magic-damage opponent who is also stacking bonus Armor/MR from Living Forge"
+    },
+    {
+     "item": "Thornmail",
+     "why": "on-hit and anti-heal punish Ornn's Living Forge sustain items and his autos once he's forced into extended trades"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he rushes burst magic items off masterwork forging and you need the shield proc"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "his team stacks healing or you need the grievous wounds proc in skirmishes"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you're the one leaning on sustain through extended trades instead of burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "the matchup is a long poke-then-engage lane, not a burst lane — Grasp's permanent health and proc healing outlast Volcanic Rupture chip damage better than a burst keystone would.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport",
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Teleport is run in 84.3% of games (58.1% win rate) because this lane is about scaling into your 2-stack Q and Iceborn spike before resetting to help other lanes; take Ignite instead only if you're confident you can force a level 6 All Out kill before he can trade back."
+  },
+  "playing": [
+   {
+    "title": "Wait for 2 Q stacks",
+    "detail": "Don't all-in on a single Ntofo Strikes hit — only commit once you're at 2 stacks, since the shockwave pulls Ornn in and removes his option to disengage before your W stun lands."
+   },
+   {
+    "title": "Charge W into his Q",
+    "detail": "Path Maker's charge-up takes reduced damage, so start charging as he casts Volcanic Rupture to eat the fissure damage reduced, then release the dash into the stun while he's still on cooldown."
+   },
+   {
+    "title": "Respect the magma pillar",
+    "detail": "Volcanic Rupture drops a pillar at its end location after a short delay — reposition off that spot immediately instead of standing there to finish a trade."
+   },
+   {
+    "title": "Push when Searing Charge is down",
+    "detail": "After he whiffs or lands E without hitting terrain, his only knockup tool is on a 14-to-12 second cooldown; that's your clearest window to extend a trade."
+   },
+   {
+    "title": "All Out before his R timer resets",
+    "detail": "Call of the Forge God starts at 140 seconds; look to knock him through terrain with R (All Out) and finish the kill in windows where his ultimate isn't up yet."
+   },
+   {
+    "title": "Disengage on the Brittle gout",
+    "detail": "Bellows Breath's final flame applies Brittle and multiplies his next hits, not just autos — back off the instant it connects instead of trading through the debuff."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoners, and all win-rate/pick-rate numbers are from measured games on the current patch (OP.GG); the ability mechanics, timing windows, and trade patterns are my own tactical reading, not measured data."
+ },
+ "generatedAt": 1791417685969,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791417591963,
+  "overall": {
+   "winRate": 47.2,
+   "play": 4321,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 42,
+   "wins": 23,
+   "winRate": 54.8
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 58.1,
+    "play": 43,
+    "pickRate": 84.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 15.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 21.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 13.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 88
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 12
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 52.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 45.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Kaenic Rookern",
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Thornmail"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 8.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 58.1,
+    "play": 43,
+    "pickRate": 86
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 48
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 30
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 24
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 14
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 61.5,
+    "play": 13
+   }
+  ]
+ }
+}

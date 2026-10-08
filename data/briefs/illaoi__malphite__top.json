@@ -1,0 +1,384 @@
+{
+ "you": "Illaoi",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, brawl-heavy",
+   "line": "You lose if you let Malphite plink you down with Q from range without ever landing E on him; you win almost every all-in once E connects, especially if he ever commits R."
+  },
+  "thesis": "Illaoi's whole gameplan is E (Test of Spirit) ripping a spirit off Malphite so your physical damage echoes back onto him, and Malphite has no interrupt or disengage to stop that once it lands. He only wins the fight by poking you down with Q from range and never letting you get the spirit up, which is why Illaoi holds the lane advantage, the solo-kill advantage, and a 52.5% win rate over 59 games here.",
+  "tell": {
+   "watch": "Malphite's Granite Shield state",
+   "theirWindow": {
+    "when": "Shield charged, spamming Q pokes",
+    "what": "Back off and farm passively instead of walking into free Seismic Shard hits - his shield absorbs your first hit anyway, so trading into a full shield just wastes your W leap for nothing."
+   },
+   "yourWindow": {
+    "when": "He commits R (Unstoppable Force) on you",
+    "what": "Immediately E him, then smash the spirit with Q/W/autos and follow with your own R if it's up; Unstoppable Force has no disengage attached, so this is close to a free kill once he's committed."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Only W or E online, no E-trade yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E ranks up, spirit-echo trades open"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R online, punish any Malphite R commit"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Q/E cooldowns shrink, constant trade pressure"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Itemization closes the gap, still ahead"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Carries the higher recorded win rate here (60.9% over 23 games) and the extra regen/HP absorbs Malphite's Q poke and E chip damage while you wait for E to come online at level 2."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Higher sample size (40 games, 55% WR) and the tenacity shortens the knockup from his R (Unstoppable Force), which is the main hard CC he has to lock you down for a trade."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred doesn't just help your physical damage land - Malphite's E (Ground Slam) deals magic damage scaled off his own armor stat, so shredding him also lowers his E damage."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Adds a slow proc that keeps him in Q/auto range after you've torn the spirit out with E, matching the highest-winrate build path (66.7% over 9 games)."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The HP and lifeline shield keep you alive through his W (Brutal Strikes) burst window and his R all-in, letting your tentacles finish the trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he's stacking armor and his E magic damage plus any other magic sources start adding up"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "he's committing hard with R to all-in you and you need to survive the burst to land your own E-R answer"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "the lane is a pure extended duel and you want more sustained 1v1 damage over Iceborn's utility"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustains you through his Q/E poke chip damage so you can keep walking up to threaten the E trade instead of losing the HP war before you ever get to brawl.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the dominant pick at 70.8% with a solid 54.9% WR, letting you reset waves after all-ins; Flash+Ignite posts a better 66.7% WR on a smaller sample if you want to close out early kills after landing E."
+  },
+  "playing": [
+   {
+    "title": "Bait the shield before all-in",
+    "detail": "Malphite's Granite Shield absorbs damage and recharges when he hasn't been hit recently - poke it down with an auto or Q before committing your full E trade so the echo damage isn't wasted on an empty shield."
+   },
+   {
+    "title": "Max E first, trade off spirit",
+    "detail": "Your skill order ranks E before Q or W, so your core trade from level 2 onward is E to rip the spirit out, then Q/W/autos onto the spirit to echo that damage back onto Malphite himself."
+   },
+   {
+    "title": "Fight near terrain for tentacles",
+    "detail": "Tentacles only spawn on nearby impassible terrain, so drag trades toward walls or jungle edges rather than open lane to get extra tentacle swings on every W leap and R slam."
+   },
+   {
+    "title": "Punish his R commitment",
+    "detail": "His R (Unstoppable Force, cooldown 130/95/70/70/70s) is a one-way dash with no escape attached - if he uses it on you, immediately E him and follow with Q or your own R."
+   },
+   {
+    "title": "Don't facetank repeat Q pokes",
+    "detail": "His Q (Seismic Shard, 625 range, 8s cooldown) slows and chips you from range; walking up to trade without ever landing E back is exactly how you lose this lane."
+   },
+   {
+    "title": "Build through his armor",
+    "detail": "Black Cleaver's shred lowers his E (Ground Slam) damage too, since that ability scales off his own armor stat - stacking Cleaver charges punishes him for building tanky."
+   },
+   {
+    "title": "Collapse into his W/E windows",
+    "detail": "His W (Brutal Strikes) and E (Ground Slam) are both melee range (400) - use your W (Harsh Lesson, 4s cooldown, 400 range) to leap in and answer immediately once he commits to either."
+   }
+  ],
+  "patchCaveat": "The build, runes, and every number above come from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning - why those numbers shake out this way - is my own read of the two kits."
+ },
+ "generatedAt": 1791416743159,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791416623542,
+  "overall": {
+   "winRate": 50.8,
+   "play": 2673,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 59,
+   "wins": 31,
+   "winRate": 52.5
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "Illaoi has the upper hand brawling even after a couple of Malphite’s (Q). If Malphite uses (R) on her, Illaoi can easily kill him with [E]-[R]. Be careful, however, of being hit with (Q) too many times without striking back with [E].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.9,
+    "play": 51,
+    "pickRate": 70.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 13.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 12.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.2,
+    "play": 24,
+    "pickRate": 33.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 9.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.5,
+    "play": 33,
+    "pickRate": 45.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 31.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 57.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 34.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 17.3
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 7.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.7,
+    "play": 64,
+    "pickRate": 87.7
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 60,
+    "play": 40,
+    "pickRate": 54.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 64.7,
+    "play": 34,
+    "pickRate": 46.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 65.2,
+    "play": 23,
+    "pickRate": 31.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 78.6,
+    "play": 14,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 15.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 10
+   }
+  ]
+ }
+}

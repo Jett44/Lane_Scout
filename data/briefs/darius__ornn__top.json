@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You lose if you walk into Ornn's E (Searing Charge) off cooldown near a wall; you win because Darius holds both the raw winrate (56.8% over 81 games) and the solo-kill edge in this matchup."
+  },
+  "thesis": "Darius's E (Apprehend) has 535 range against Ornn's 450-range E (Searing Charge) and 1-range Q (Volcanic Rupture) melee swing, so Darius dictates engage distance for most of the laning phase. The one reversal is Ornn's E-into-terrain shockwave, which knocks up and punishes a careless dive — everything else in his kit is a slow or a self-buff, not a hard answer to Darius's pull-stack-execute pattern.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "Q (Volcanic Rupture) slow lands near a wall",
+    "what": "Back off immediately — if Ornn's E is also up he can charge through you into terrain, triggering the shockwave that deals damage and knocks you up, turning your dive into his trade."
+   },
+   "yourWindow": {
+    "when": "Ornn's E (Searing Charge) is on cooldown",
+    "what": "Walk him down and land E (Apprehend) — his only gap-closer/disengage is gone for 14/13.5/13/12.5/12s, so you can stack Hemorrhage with Q and W (Crippling Strike) and threaten R (Noxian Guillotine) with no answer coming back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q heal and auto trades beat his Q poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E (Apprehend) pull unlocks kill threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R refreshes on kill, his R is slow to reset"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Living Forge items start padding his stats"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Masterwork forged items scale his tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "52.9% win rate over 87 games and the highest pick rate (82.1%) — the extra AD and sustain let you win the all-in trades before Ornn's Living Forge bonus Armor/MR stacks up."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "57.1% win rate over 42 games — Ornn still auto-attacks in extended trades, and the flat damage reduction blunts those exchanges better than tenacity does this early."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste closes the gap after your E pull and resets before his E (Searing Charge) does, keeping you on top of him through the trade."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Builds the HP and armor you need once Ornn's forged items start adding up, without losing the speed to chase."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "This path hits 66.7% win rate over the sampled games — the shield and AD boost keep you alive through his Q-E engage and let Guillotine finish."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "ornn or his team starts stacking magic damage onto you"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "you need the healing cutback to survive his late forged burst"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "his bonus Armor from Living Forge is making trades feel too slow"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Fits the sustained skirmish this matchup is — Ornn can't peel you off once E (Apprehend) connects, so a stacking adaptive-damage keystone outperforms a one-shot burst keystone in these longer trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "58.5% win rate at 79.6% pick rate — Ghost keeps pace with his E (Searing Charge) dash and lets you stay attached through the slow from his Q, which a static lane like this needs more than Ignite's early kill threat."
+  },
+  "playing": [
+   {
+    "title": "Pull before he charges",
+    "detail": "Land E (Apprehend, 535 range) the instant he's in range rather than waiting — it outranges his E (Searing Charge, 450 range) and Q melee swing (1 range), so you get the first hit every time."
+   },
+   {
+    "title": "Never dive into a wall",
+    "detail": "If Ornn's E is up and there's terrain behind you, don't commit — his charge collision creates a shockwave that knocks up and damages you, flipping your engage into his."
+   },
+   {
+    "title": "Track his E cooldown, not his mana",
+    "detail": "Ornn's E (Searing Charge) is his only gap-closer and disengage at 14/13.5/13/12.5/12s cooldown — once it's down, there's nothing stopping your stack-and-execute pattern."
+   },
+   {
+    "title": "All-in once Hemorrhage hits 5 stacks",
+    "detail": "Your passive enrages and grants massive bonus AD at max stacks — chain Q (Decimate) and auto-attacks until he's stacked, then W (Crippling Strike) to slow the retreat before Guillotine."
+   },
+   {
+    "title": "Dive post-6 for the solo kill",
+    "detail": "Solo-kill advantage is yours here — R (Noxian Guillotine) deals true damage that scales with Hemorrhage stacks and refreshes its cooldown on a kill, so a clean level-6 all-in can snowball immediately."
+   },
+   {
+    "title": "Respect his ult only in teamfights",
+    "detail": "Call of the Forge God has a 140/120/100/100/100s cooldown and is built for group fights, not 1v1 lane — don't play scared of it solo, just don't stand still near minions once he's 6."
+   },
+   {
+    "title": "Fight for Summoner trades",
+    "detail": "OP.GG's own read on this matchup is to pressure Ornn whenever he steps up — either kill him outright or force a Flash/Ghost burn, since your lane win rate (56.8% over 81 games) comes from exactly this kind of forced exchange."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates/sample sizes above are measured from live games on the current patch via OP.GG; the ability breakdowns, timing windows, and tactical reasoning are my own read on the matchup, not pulled from aggregate stats."
+ },
+ "generatedAt": 1791417253948,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791417168824,
+  "overall": {
+   "winRate": 50.1,
+   "play": 6646,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 81,
+   "wins": 46,
+   "winRate": 56.8
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "aggressive",
+  "opponentTip": "Be careful of Ornn’s (Q)-(E) combo while applying pressure. Fight Ornn whenever he steps in range to kill him or to at least get a Summoner’s Spell from him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 58.5,
+    "play": 82,
+    "pickRate": 79.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 35,
+    "play": 20,
+    "pickRate": 19.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 30,
+    "pickRate": 29.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 23.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.9,
+    "play": 87,
+    "pickRate": 82.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 16
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.9,
+    "play": 47,
+    "pickRate": 46.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 57.1,
+    "play": 42,
+    "pickRate": 41.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Death's Dance"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Dead Man's Plate"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 41.5,
+    "play": 41,
+    "pickRate": 39.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 55.3,
+    "play": 38,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.3,
+    "play": 36,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.3,
+    "play": 35,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.6,
+    "play": 27,
+    "pickRate": 25.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 61.5,
+    "play": 26
+   }
+  ]
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "you": "Illaoi",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Below-average matchup",
+   "line": "You win the early trades and the solo-kill race, but across 73 games Illaoi only closes it out 42.5% of the time — this lane is winnable in isolation and still underperforms once Jax scales."
+  },
+  "thesis": "Jax's E (Counter Strike) only dodges basic attacks, not abilities — so his dodge-and-engage pattern blanks your autos but never blanks W (Harsh Lesson) or E (Test of Spirit). Illaoi should win every isolated trade through level 5 on ability damage alone, but Jax's R (Relentless Assault) has no cooldown and ramps attack speed on every strike, so once he's itemized the extended skirmishes you can't end quickly start slipping away from you.",
+  "tell": {
+   "watch": "Jax's Counter Strike (E) cooldown",
+   "theirWindow": {
+    "when": "Jax pops E (Counter Strike) while closing to engage",
+    "what": "Stop autos immediately — Counter Strike dodges all basic attacks and reduces AoE damage. Answer with your own E (Test of Spirit) and keep hitting him with W (Harsh Lesson) and tentacle swings, since none of that is a basic attack and none of it gets dodged."
+   },
+   "yourWindow": {
+    "when": "Jax's Q (Leap Strike) and E (Counter Strike) are both on cooldown",
+    "what": "This is his only mobility and his only defensive tool both down — commit full combo, E into W into autos. Tentacles swing freely and heal you on every champion hit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "W leap + tentacles beat his Q-only kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E (Test of Spirit) online, full combo active"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his R grants attack speed, no cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Empower (W) burst stacks with item spikes"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "your vessel control vs. his AS scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run at 46% winrate and 52.1% pick — the sustained damage lets you win the auto-trades Jax can't yet dodge before his E is unlocked at 2."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "64.8% pick, 52.5% winrate — Jax's R stacks attack speed every strike with no cooldown, and flat damage reduction per hit is what actually caps his late-skirmish scaling."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "The armor shred compounds across your W-leap-into-auto-into-tentacle sequence, and it's the single highest-winrate first core item (70% over the full path)."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Adds a slow proc off W (Harsh Lesson) that keeps Jax inside tentacle range instead of letting Q (Leap Strike) reset distance."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The shield and tenacity are what let you survive the Counter Strike stun window instead of just eating the follow-up Empower auto."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you're ahead and want to turn kills before 6 into sustained pressure through his Empower trades"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "the Jax is stacking attack speed items and extended skirmishes past level 9 start going his way"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want your W-leap crits to heal through his Counter Strike stun rather than just trading even"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest-winrate page in the data (52.3%) and the sustain matters here specifically — since your lane edge doesn't convert to game wins on its own, Grasp's proc-heal is what lets W-leap trades stay profitable into the midgame instead of bleeding you out against his attack-speed scaling.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Highest pick rate at 57.3%. Teleport lets you reset top after an all-in and still answer the push Jax's Q mobility creates elsewhere on the map — Illaoi's split-push pattern needs the wave, not a kill confirm."
+  },
+  "playing": [
+   {
+    "title": "Open fights with W, not Q",
+    "detail": "W (Harsh Lesson) is a 4-second-cooldown leap that also triggers nearby tentacles — it's your fastest way to start a trade before Jax can react with E."
+   },
+   {
+    "title": "Answer his E with your E",
+    "detail": "When Jax pops Counter Strike to engage, immediately use Test of Spirit — it's not a basic attack, so it lands through the dodge and starts the vessel timer regardless of his stance."
+   },
+   {
+    "title": "Go full ability during Counter Strike",
+    "detail": "For the duration of his E, stop autoing and chain W plus tentacle procs instead — Counter Strike only dodges basic attacks, so ability damage is uninterrupted."
+   },
+   {
+    "title": "Punish a burned Q",
+    "detail": "Jax's Leap Strike is 17/14/11/8/5 seconds — at levels 1-5 that's a long window with no gap-closer or escape. If he spends it to engage or disengage, go all-in."
+   },
+   {
+    "title": "Don't facetank a loaded auto",
+    "detail": "Empower (W, 7/6/5/4/3s cooldown) adds AoE bonus damage to his next attack or Leap Strike. If you see it light up, back off a step rather than eating the bonus hit."
+   },
+   {
+    "title": "Cut skirmishes short past level 6",
+    "detail": "His R has no cooldown and rewards sustained attack-speed trades — land your burst (E into W into tentacles) and disengage rather than standing in extended autos."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner spells above are pulled directly from measured games on the current patch (16.20.1) — the win rates, pick rates, and sample sizes are real. The tactical reading of why the lane plays out this way (ability-vs-basic-attack interactions with Counter Strike, cooldown windows, trade timing) is my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791416499296,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791416405926,
+  "overall": {
+   "winRate": 50.8,
+   "play": 2673,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 73,
+   "wins": 31,
+   "winRate": 42.5
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "When Jax uses (E) while closing in, use [E] in response and deal damage through basic attacks and [W] during the duration of (E). You can also use [E] first to start off the engagement. Jax is an easy matchup after reaching level 3.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.6,
+    "play": 55,
+    "pickRate": 57.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 28.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 7.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 45.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 17.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46,
+    "play": 50,
+    "pickRate": 52.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 31.8,
+    "play": 22,
+    "pickRate": 22.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.5,
+    "play": 59,
+    "pickRate": 64.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 36.7,
+    "play": 30,
+    "pickRate": 33
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 70,
+    "play": 10,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 8.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 42.7,
+    "play": 82,
+    "pickRate": 85.4
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 51.6,
+    "play": 62,
+    "pickRate": 64.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 53.4,
+    "play": 58,
+    "pickRate": 60.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 40.6,
+    "play": 32,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 19.8
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 15.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 47.4,
+    "play": 19
+   }
+  ]
+ }
+}

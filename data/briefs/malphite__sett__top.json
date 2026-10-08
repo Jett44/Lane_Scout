@@ -1,0 +1,380 @@
+{
+ "you": "Malphite",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slight edge",
+   "line": "You lose if you facetank his Q-empowered autos while his Grit bar is full for Haymaker; you win if you poke with E and dodge his Facebreaker angle until items online."
+  },
+  "thesis": "Sett's damage is built on alternating left/right punches, Knuckle Down's max-health autos, and a banked Grit meter he dumps as a shield-punch — all auto-attack and burst, with no way to punish you at range. Malphite's Granite Shield and armor-scaling Ground Slam exist specifically to blunt that kit, which is why the measured 56.3% win rate over 126 games is well above the lane's 'even' shape would suggest. The matchup is decided by whether you let him land Facebreaker and dump full Grit into you, or deny both with positioning and E.",
+  "tell": {
+   "watch": "Sett's banked Grit (W)",
+   "theirWindow": {
+    "when": "Haymaker fully charged, he walks up",
+    "what": "He's about to expend all stored Grit for a shield plus a true-damage-center punch, often paired with Knuckle Down's empowered autos. Don't stand still for it — back off a step or pre-empt with E (Ground Slam) so the attack-speed cut lowers what he can follow up with."
+   },
+   "yourWindow": {
+    "when": "Granite Shield recharged, E off cooldown",
+    "what": "Open with E (Ground Slam, 7s cooldown) for armor-scaling magic damage and an attack-speed reduction on him, then follow with Q (Seismic Shard, 8s cooldown) to steal his movement speed as he tries to disengage. Your passive shield eats his first punch for free."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Passive regen and Q trades outscale your early poke"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "E cooldown and shield recharge let you trade back"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "R threat plus Sunfire/Frozen Heart tankiness online"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Thornmail punishes his auto-reliant, regen-based kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Run in 71.6% of games at 58.6% win rate — the extra sustain covers you through the level 1-3 window where Sett's passive regen and Q trades are ahead."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "80.3% pick rate at 54% win rate. Flat physical damage reduction directly cuts the value of his left/right punch alternation and Knuckle Down's empowered autos."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Armor and health plus a burn aura let you hold the wave and win extended trades instead of short pokes."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "The attack speed slow aura directly throttles an auto-attack-dependent champion like Sett, on top of armor and CDR for faster E/Q cycling."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Grievous Wounds cuts his missing-health regen from Pit Grit, and the damage reflect punishes every auto he throws at you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team shifts onto heavy magic damage"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "sett or his jungler leans on healing and sustain early"
+    },
+    {
+     "item": "Malignance",
+     "when": "you fall behind and need wave clear and poke over raw tankiness"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Arcane Comet",
+   "keystoneWhy": "56.6% win rate at 32.7% pick. Comet triggers off the first E or Q you land after 3 seconds of no contact, which lines up with poking him down before he can close distance with Knuckle Down's movement speed.",
+   "primary": [
+    "Manaflow Band",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 77.8% of games at 53.2% win rate and lets you reset waves safely while scaling toward your level 7-11 item spike. Flash+Ignite (58.1% win rate, smaller 19.1% sample) is the pick if you want to force the solo-kill advantage this matchup already gives you."
+  },
+  "playing": [
+   {
+    "title": "Track his Grit bar before trading",
+    "detail": "Haymaker (W, 18-12s cooldown) stores damage he's taken as Grit and dumps it for a shield plus true damage center-punch on cast. Don't initiate a long trade into a full bar."
+   },
+   {
+    "title": "Move laterally off his pull line",
+    "detail": "Facebreaker (E, 16-10s cooldown, 490 range) only stuns if enemies are on opposite sides of him; if you're not opposite a minion or wall from him, you're slowed instead of stunned."
+   },
+   {
+    "title": "Open trades with E, not autos",
+    "detail": "Ground Slam deals magic damage based on your Armor and cuts his attack speed, directly reducing the value of his auto-reliant Knuckle Down follow-up."
+   },
+   {
+    "title": "Q his disengage, not his engage",
+    "detail": "Seismic Shard steals his movement speed on impact — use it as he tries to walk away after a bad trade, not as he's closing with Knuckle Down's bonus speed."
+   },
+   {
+    "title": "Hold R for his all-in, not yours",
+    "detail": "Unstoppable Force's long cooldown (130-80s) means a missed engage leaves you vulnerable to his Show Stopper (120-80s) later — bait his R before committing yours past level 6."
+   },
+   {
+    "title": "Rush Thornmail by item three",
+    "detail": "His Pit Grit regen scales with missing health, so Grievous Wounds from Thornmail is the single highest-value item you can buy against him."
+   },
+   {
+    "title": "Don't fight through full Granite Shield loss",
+    "detail": "If you've been hit recently your passive shield is down — disengage and let it recharge before re-initiating instead of trading blind."
+   }
+  ],
+  "patchCaveat": "Build, runes, and all win rates are measured OP.GG data from live games on the current patch (16.20.1); the trade-pattern and cooldown reasoning above is my own tactical read, not sourced from OP.GG."
+ },
+ "generatedAt": 1791416836198,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791416748564,
+  "overall": {
+   "winRate": 52.3,
+   "play": 7740,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 126,
+   "wins": 71,
+   "winRate": 56.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by Sett’s (E). If pulled, use [E] to reduce his attack speed. Move laterally to avoid Facebreaker (E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.2,
+    "play": 126,
+    "pickRate": 77.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 58.1,
+    "play": 31,
+    "pickRate": 19.1
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 1.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 56.6,
+    "play": 53,
+    "pickRate": 32.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48,
+    "play": 50,
+    "pickRate": 30.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 58.6,
+    "play": 116,
+    "pickRate": 71.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 12.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54,
+    "play": 126,
+    "pickRate": 80.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 12.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 8.7
+   },
+   {
+    "items": [
+     "Malignance",
+     "Stormsurge",
+     "Shadowflame"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Frozen Heart",
+     "Kaenic Rookern"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 6.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 55.2,
+    "play": 105,
+    "pickRate": 62.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 62.7,
+    "play": 83,
+    "pickRate": 49.1
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 56,
+    "play": 75,
+    "pickRate": 44.4
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 60,
+    "play": 45,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 21.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 39.4,
+    "play": 33,
+    "pickRate": 19.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 65.9,
+    "play": 41
+   }
+  ]
+ }
+}

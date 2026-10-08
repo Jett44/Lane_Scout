@@ -1,0 +1,384 @@
+{
+ "you": "Ornn",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane, winnable",
+   "line": "You lose if you trade into his Obliterate on cooldown before level 9; you win once Hollow Radiance and Unending Despair come online and the fight moves to open ground."
+  },
+  "thesis": "Mordekaiser's Q (Obliterate) deals bonus damage to a single target and his passive (Darkness Rise) grants a damage aura plus move speed after 3 landed hits, so every extended trade snowballs toward him. Ornn has no way to punish that passive proc directly and his own R (Call of the Forge God) is nullified if Mordekaiser pulls him into R (Realm of Death), so this is a lane you survive with Q's slow and W's Brittle, then win later once your resistance items and teamfight knockup outscale his 1v1 sustain.",
+  "tell": {
+   "watch": "Morde's Darkness Rise stack (3 hits)",
+   "theirWindow": {
+    "when": "he's landed 2+ hits on you already",
+    "what": "He is one spell or auto away from Darkness Rise proccing a damage aura and move speed burst. Back off and let the trade end instead of extending it — disengaging now costs less than eating the empowered third hit."
+   },
+   "yourWindow": {
+    "when": "W's final gout of flame lands (Brittle applied)",
+    "what": "Only commit your full trade — Q (Volcanic Rupture) slow into autos — once Brittle is on him from W (Bellows Breath). Trading before Brittle just feeds his single-target Q bonus for free."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Obliterate single-target bonus wins short trades"
+   },
+   {
+    "levels": "4-5",
+    "edge": "them",
+    "note": "Q cooldown drops to 6s, poke compounds"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both get ults; your R can be nullified"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hollow Radiance/Unending Despair stabilize fights"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build, R knockup swings teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm",
+    "why": "Doran's Helm has the higher measured win rate of the two listed starts (50% over 40 games) and its magic-resist-oriented stats blunt Obliterate's early poke damage better than a flat shield."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Mercury's Treads are the clear pick-rate and win-rate leader (51.3% over 80 games) — the tenacity shortens how long Death's Grasp (E, pulls all enemies in an area) locks you down before you can W or walk away."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "Highest-performing core path start (87.5% win rate over 8 games) — the resistance spike is exactly where the matchup flips from them to you."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Stacks more flat resistances on top of Hollow Radiance to blunt the magic burst from Obliterate and the sustained aura damage once Darkness Rise procs."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Closes out the measured core path and gives you the resistance stacking you need to out-sustain his passive in extended skirmishes once lane is over."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "his Indestructible (W) shield-to-heal is snowballing his sustain in extended trades"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "he or his jungler are threatening a burst all-in through your R window"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're getting poked below half HP by Obliterate before level 6"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp heals you off autos during the poke war Obliterate forces on you, and it's the higher win-rate page measured (52.4% over this sample) — exactly what you need to survive before your resistance items come online.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Legend: Haste",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the overwhelming pick (79.7% pick rate) because this lane is about surviving to your item spike, not forcing early kills — Teleport lets you reset the wave and skip the losing poke exchanges. Flash+Ignite (59.1% win rate) is a viable alternative if you want to punish his early all-ins before his W shield scales."
+  },
+  "playing": [
+   {
+    "title": "Trade only after Brittle",
+    "detail": "Only commit a full trade once W's final gout has applied Brittle. Trading on cooldown just feeds Obliterate's single-target bonus damage."
+   },
+   {
+    "title": "Respect Death's Grasp range",
+    "detail": "E pulls all enemies in its 700 range and its cooldown drops to 8s by level 16. Don't stand at that range when it's up — you'll get yanked into his passive proc window."
+   },
+   {
+    "title": "Save R for open ground",
+    "detail": "Your R disappears if you're dragged inside his Realm of Death. Only summon or charge the elemental when he can't ult you — from max range or after his R (cooldown 140 down to 80s) is on cooldown."
+   },
+   {
+    "title": "End fights before his third hit",
+    "detail": "Darkness Rise procs a damage aura and move speed after he lands 3 hits on you. Disengage before that third hit lands instead of trying to out-damage the empowered version."
+   },
+   {
+    "title": "Shove, don't duel, before 9",
+    "detail": "Use Q's fissure and pillar to push waves rather than extend trades. You're racing to your Hollow Radiance spike, not trying to win the lane outright before then."
+   },
+   {
+    "title": "Freeze under tower when poked low",
+    "detail": "After two Obliterates land on you, hug tower and regen off Doran's Helm sustain instead of taking a third single-target hit."
+   },
+   {
+    "title": "Regroup once your core is live",
+    "detail": "From level 9-13 onward your resistances flip the 1v1 math. Look to leave lane for skirmishes where Brittle plus your R knockup outvalues his passive sustain."
+   }
+  ],
+  "patchCaveat": "Build, rune, and summoner numbers are measured OP.GG win rates and pick rates from live games on the current patch (16.20.1); the tactical reasoning — trade timing, R interaction with Realm of Death, passive proc windows — is the author's own read of the ability mechanics, not measured data."
+ },
+ "generatedAt": 1791417969571,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791417875551,
+  "overall": {
+   "winRate": 52.5,
+   "play": 3733,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 115,
+   "wins": 53,
+   "winRate": 46.1
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Mordekaiser’s (P) gives him the upper hand in prolonged fights. Time your [W] well to block (E) and (R). Be careful that your [R] will disappear inside Mordekaiser’s Realm of Death (R), so try to use it from afar.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.2,
+    "play": 110,
+    "pickRate": 79.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 15.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 2.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 46.3,
+    "play": 41,
+    "pickRate": 29.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 15.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.6,
+    "play": 79,
+    "pickRate": 57.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 40,
+    "pickRate": 29.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.3,
+    "play": 80,
+    "pickRate": 64
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 40.5,
+    "play": 42,
+    "pickRate": 33.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 87.5,
+    "play": 8,
+    "pickRate": 13.8
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5.2
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 49.4,
+    "play": 87,
+    "pickRate": 63.5
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 48.4,
+    "play": 62,
+    "pickRate": 45.3
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 60.5,
+    "play": 38,
+    "pickRate": 27.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 39.3,
+    "play": 28,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 19
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 62.2,
+    "play": 37
+   }
+  ]
+ }
+}

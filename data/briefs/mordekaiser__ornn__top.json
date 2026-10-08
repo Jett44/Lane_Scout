@@ -1,0 +1,381 @@
+{
+ "you": "Mordekaiser",
+ "them": "Ornn",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You lose if you let Ornn farm Searing Charge knockups off walls and stall to items; you win if you chain E into Q before he can set up, since the numbers (53% WR, 115 games) favour you early and the shape goes even only once he scales."
+  },
+  "thesis": "Mordekaiser's E (Death's Grasp) pull plus single-target Q (Obliterate) burst punishes a melee champion whose only gap-close, E (Searing Charge), is conditional on hitting terrain for its knockup. That gives Morde the lane and solo-kill edge measured here, but Ornn's passive bonus Armor/MR and anywhere-forged items let him close the gap by the time both ultimates are live.",
+  "tell": {
+   "watch": "Ornn's E (Searing Charge) cooldown",
+   "theirWindow": {
+    "when": "Ornn lands Q then angles toward a wall",
+    "what": "Volcanic Rupture slows you and drops a delayed magma pillar at its end point; if he's also walking toward terrain he's setting up Searing Charge's collision shockwave for a full slow-into-knockup combo. Back off the wall rather than trading face-to-face."
+   },
+   "yourWindow": {
+    "when": "Ornn's E (Searing Charge) is on cooldown",
+    "what": "With his only dash down he can't close distance or threaten the knockup shockwave. Walk up and land E (Death's Grasp) to pull him in, then Obliterate for the single-target damage bonus."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Only Q online for both, pure poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E unlocks pull-into-Q burst combo"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R adds real kill threat on cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Ornn's forged items start closing gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight R trades neutralize lane lead"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "Run in 76.8% of games at 56.6% win rate over 106 games — the mana/AP sustain lets you contest Ornn's Q poke without losing the trade war."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "50% pick rate at 56.1% win rate over 66 games; Ornn's kit is slow-and-knockup heavy (Q slow, E shockwave, R Brittle), so the tenacity directly cuts his control windows."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "Highest-winrate path start (76.9% over 13 games); the slow on Q and E lets you lock Ornn in E (Death's Grasp) range for longer."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Core second item in the top path; sustained damage and the omnivamp keep you healthy through extended trades once W (Indestructible) is on cooldown."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Closes out the 76.9%-winrate core path; burn damage scales against Ornn's passive bonus Armor/MR since it isn't mitigated the same way."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "ornn or his team builds into sustain or crit AD threats"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "you fall behind and need armor plus tenacity to survive his engage"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need the extra ability haste for R uptime"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror stacks off repeated autos and spell hits during the E-into-Q trade pattern, converting into adaptive force and sustain exactly when you're locked into melee range with Ornn — the 65.5% winrate page over the alternative confirms this is the stronger line.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 69.6% of games at 57.4% win rate and converts your measured solo-kill advantage into secured early kills; Flash+Teleport (56.3%, 23.7% pick) is the alternative if you expect to need wave control for scaling into Rylai's/Riftmaker."
+  },
+  "playing": [
+   {
+    "title": "Chain E into Q every trade",
+    "detail": "Death's Grasp pulls Ornn into your face before he can reposition, and Obliterate's damage is increased when it hits a single target — always land the pull first."
+   },
+   {
+    "title": "Play off walls, not into them",
+    "detail": "Searing Charge only knocks up if Ornn collides with terrain; stay away from lane walls so his E is just a pass-through hit with no shockwave."
+   },
+   {
+    "title": "Track his W for the passive block",
+    "detail": "OP.GG flags that Ornn's W (Bellows Breath) can block your Darkness Rise passive from triggering — don't assume your third hit procs the aura if he's mid-dash through you."
+   },
+   {
+    "title": "Hold W shield through the exchange",
+    "detail": "Indestructible stores damage dealt and taken over its duration; don't consume it for healing the instant you're hit, let it build through the full trade first."
+   },
+   {
+    "title": "Save R for a confirmed all-in",
+    "detail": "Realm of Death starts at a 140s cooldown — only use it once Ornn is already slowed or pulled in, since whiffing it costs you over two minutes with no backup play."
+   },
+   {
+    "title": "Deny his forge resets pre-6",
+    "detail": "Living Forge lets Ornn buy items from anywhere on the map; avoid overextending the wave so he can't casually reset and forge up without losing lane presence."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, boots, and summoner picks above are measured from real games on the current patch (16.20.1); the trade-pattern reasoning, cooldown call-outs, and the wall/Searing Charge interaction are my own tactical read, not measured stats."
+ },
+ "generatedAt": 1791417489783,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791417394524,
+  "overall": {
+   "winRate": 50.5,
+   "play": 5979,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 115,
+   "wins": 61,
+   "winRate": 53
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Although Ornn is an easy opponent to lane against, his (W) can block your [P]. Do not let this happen.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 57.4,
+    "play": 94,
+    "pickRate": 69.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 23.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 3.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 65.5,
+    "play": 58,
+    "pickRate": 43
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 12.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 56.6,
+    "play": 106,
+    "pickRate": 76.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 10.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.1,
+    "play": 66,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.1,
+    "play": 49,
+    "pickRate": 37.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 76.9,
+    "play": 13,
+    "pickRate": 15.5
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Randuin's Omen"
+    ],
+    "winRate": 0,
+    "play": 4,
+    "pickRate": 4.8
+   },
+   {
+    "items": [
+     "Riftmaker",
+     "Dusk and Dawn",
+     "Experimental Hexplate"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 60.4,
+    "play": 106,
+    "pickRate": 77.4
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 57.1,
+    "play": 91,
+    "pickRate": 66.4
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 64.7,
+    "play": 51,
+    "pickRate": 37.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 13.1
+   },
+   {
+    "items": [
+     "Bloodletter's Curse"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 13.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 62.1,
+    "play": 66
+   }
+  ]
+ }
+}

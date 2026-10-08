@@ -1,0 +1,380 @@
+{
+ "you": "Jax",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into his Ground Slam on cooldown, you win if you force an all-in right after his Seismic Shard speed buff runs out."
+  },
+  "thesis": "This matchup is genuinely even at 48.3% over 145 games, but Jax holds the solo-kill advantage because Malphite has no hard escape past Flash. The catch is that Malphite's Ground Slam (E) strips your attack speed exactly when you want Relentless Assault (R) ticking, so extended autoattack trades favor him even though forced all-ins favor you.",
+  "tell": {
+   "watch": "Granite Shield recharge state",
+   "theirWindow": {
+    "when": "right after his Seismic Shard lands",
+    "what": "His Ground Slam (E, 7s CD) into Seismic Shard (Q, 8s CD) combo outdamages your Leap Strike (Q) into Counter Strike (E) combo in a straight trade, per the measured matchup data, because the attack-speed cut guts your follow-up autos."
+   },
+   "yourWindow": {
+    "when": "once his Seismic Shard speed buff fades",
+    "what": "Seismic Shard grants Malphite a brief speed boost on impact; walking into Leap Strike while that's active just lets him kite away. Wait it out, then Leap Strike into Counter Strike (E) for the stun since he has no dash to escape it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Granite Shield and Q poke control early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Counter Strike combo wins forced all-ins"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Ground Slam's attack-speed cut neutralizes your R"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Trinity Force scaling outduels his flat armor"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "46.7% win rate, the dominant pick at 62.9%. Seismic Shard chip and Granite Shield recharges wear you down over time, and the regen plus proc shield absorbs exactly that kind of poke."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "44.9% win rate, 67.3% pick. Every source of Malphite damage here — Seismic Shard, Ground Slam, Unstoppable Force — is magic, so flat MR directly cuts his poke and engage burst."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Feeds the attack speed Relentless Assault (R) needs to keep ticking through Ground Slam's attack-speed reduction."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Sustains you through extended trades where Ground Slam and Seismic Shard are chipping your HP down."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Answers Unstoppable Force; once he's rank 6, stepping into the 1000-range knockup without a defensive out is how you get picked."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hextech Gunblade",
+     "when": "the fight drags past the first exchange and you need sustained healing to outlast his poke"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you want tankier bruiser scaling over Trinity's burst"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "you want a magic damage scaling line instead of Trinity's attack-speed-heavy path"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "27.1% pick, the default for this matchup at 43.5% win rate, and the sustain fits a lane where Seismic Shard and Granite Shield chip you constantly. Master-tier Jax players deviate to Lethal Tempo (Precision) instead across 1,121 games, which actually posts a higher 47.1% win rate here — a better pick if you want to out-scale Ground Slam's attack-speed cut and fight him in extended duels rather than short pokes.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "50% win rate at 51.8% pick, the clear default — Teleport lets you reset after a trade and keep wave priority in a lane that's structurally even. Flash+Ignite (43.1%, 42.4% pick) is the alternative if you want to force the solo-kill advantage this data shows you hold."
+  },
+  "playing": [
+   {
+    "title": "Poke down Granite Shield first",
+    "detail": "Granite Shield absorbs damage and recharges if Malphite hasn't been hit recently. Land a few autos or an Empower (W) proc before committing your all-in so that damage isn't wasted soaking the shield."
+   },
+   {
+    "title": "Trade with Empower, not raw autos",
+    "detail": "Empower (W, cooldown 7/6/5/4/3s) spikes a single hit for AoE bonus damage. Use short Empower trades instead of extended auto exchanges, since Ground Slam cuts your attack speed and long trades favor his combo per the matchup data."
+   },
+   {
+    "title": "Engage after his Q speed buff fades",
+    "detail": "Seismic Shard gives Malphite a temporary speed boost on landing. Leap Strike (Q) into him during that window just lets him walk off; wait for it to end, then commit."
+   },
+   {
+    "title": "Counter Strike his Brutal Strikes window",
+    "detail": "Brutal Strikes (W, 14s CD) boosts his armor and AD and makes his attacks hit everyone in front of him. Pop Counter Strike (E) the moment he activates it to dodge those empowered autos entirely, then land your stun back on him."
+   },
+   {
+    "title": "Punish his R cooldown after level 6",
+    "detail": "Unstoppable Force is 130/115/100/80/80s on cooldown. After he uses it for an engage elsewhere, he has no knockup threat for over two minutes at rank 1 — force skirmishes in those windows since you hold the solo-kill advantage."
+   },
+   {
+    "title": "Build into Trinity before extending fights",
+    "detail": "Trinity Force's attack speed keeps Relentless Assault (R) stacking despite Ground Slam's attack-speed reduction, which is the single biggest lever on whether extended trades swing to you."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate figures are measured from live games on the current patch via OP.GG; the ability readings, timing windows, and tactical advice are our own analysis layered on top."
+ },
+ "generatedAt": 1791416618981,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791416504766,
+  "overall": {
+   "winRate": 50,
+   "play": 6433,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 145,
+   "wins": 70,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "aggressive",
+  "opponentTip": "Malphite’s Ground Slam (E) reduces your attack speed. Even if you execute your Leap Strike [Q] - Counter Strike [E] combo, his Ground Slam (E) – Seismic Shard (Q) combo will deal more damage. Try to use Leap Strike [Q] when his speed buff from Seismic Shard (Q) ends.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 88,
+    "pickRate": 51.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.1,
+    "play": 72,
+    "pickRate": 42.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 5.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.5,
+    "play": 46,
+    "pickRate": 27.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 34,
+    "pickRate": 20
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 107,
+    "pickRate": 62.9
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.2,
+    "play": 31,
+    "pickRate": 18.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 44.9,
+    "play": 107,
+    "pickRate": 67.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 34,
+    "pickRate": 21.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 56.3,
+    "play": 16,
+    "pickRate": 19.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Hextech Gunblade",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 13.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 7.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50,
+    "play": 86,
+    "pickRate": 49.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 43.9,
+    "play": 82,
+    "pickRate": 47.4
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 50.9,
+    "play": 53,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 57.5,
+    "play": 40,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 39.5,
+    "play": 38,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 43.2,
+    "play": 37,
+    "pickRate": 21.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 50,
+    "play": 56
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1121
+  }
+ }
+}

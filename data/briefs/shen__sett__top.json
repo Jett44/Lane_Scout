@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose this lane if you trade into Haymaker and get caught alone against Facebreaker; you win it if you wait Sett's cooldowns out and scale into Thornmail."
+  },
+  "thesis": "Sett wins short trades because Knuckle Down (Q) empowers his next two autos off your max health and Haymaker (W) converts stored damage into a shield plus a true-damage nuke, while Facebreaker (E) can stun you outright if you're isolated on the far side of the wave from him. Shen's only hard defensive tool is Feint (W)'s damage-absorb shield, so the 45.3% head-to-head rate over 86 games reflects a lane that's lost through forced trades, not mechanics. That matches the measured defensive shape and Sett's lane and solo-kill advantage.",
+  "tell": {
+   "watch": "Sett's Haymaker (W) cooldown",
+   "theirWindow": {
+    "when": "Haymaker (W) and Facebreaker (E) both ready",
+    "what": "Sett can shield into a true-damage nuke and follow with a stun if you're caught split from the wave; back off and let a minion wave absorb the engage instead."
+   },
+   "yourWindow": {
+    "when": "right after Sett throws Haymaker (W)",
+    "what": "He loses his stored-Grit shield and burst for 18/16.5/15/13.5/12s; chain Vorpal Blade (Q) into autos to life-tap sustain without fear of the counter-nuke."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither kit has spiked yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Knuckle Down + Facebreaker all-in online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Haymaker burst outpaces your Feint shield"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Thornmail cuts Pit Grit sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Stand United swings map, Sett falls off"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Taken over 77 games at 49.4% WR and 69.4% pick rate; the extra regen and block offsets Sett's early poke from empowered Knuckle Down autos."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "80.2% pick rate at 46.9% WR; flat reduction on Sett's alternating left/right punches (Pit Grit) matters more than magic resist here since he's a pure auto-attack bruiser."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the highest-sample winning path (83.3% WR, 6 games); gives you wave clear and a trade tool that doesn't rely on all-in commitment."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item on that same path; keeps you relevant in extended trades without needing to win short burst exchanges."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Closes the 83.3% WR path; grievous wounds directly undercuts Pit Grit's missing-health regen, which is Sett's main sustain tool."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "sett is stacking attack speed or crit to abuse his empowered right punch"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're losing the early sustain war before thornmail is up"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game is going long and you need scaling health for teamfights over a second defensive item"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on Sett's own empowered autos and your Q life-tap chains, converting the trades he initiates into sustain for you.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 29.4% of games and lets you reset off bad trades or use Stand United's teleport window to impact other lanes once you accept this is a defensive matchup; Flash+Ignite (47.9% WR, 67% pick) is the higher-winrate alternative if you want more kill pressure on his low-sustain starts."
+  },
+  "playing": [
+   {
+    "title": "Dodge Facebreaker's pull",
+    "detail": "Facebreaker (E, cooldown 16/14.5/13/11.5/10s, range 490) only stuns if Sett pulls enemies from both sides; if you're alone on one side it just slows you. Stay on the same side as your minion wave instead of isolating yourself."
+   },
+   {
+    "title": "Trade only after Haymaker",
+    "detail": "Haymaker (W, cooldown 18/16.5/15/13.5/12s) stores all damage Sett takes as Grit and detonates it into a shield plus a true-damage/physical nuke. Wait until he's just used it before committing to a Vorpal Blade (Q) trade."
+   },
+   {
+    "title": "Save Feint for his spikes",
+    "detail": "Pop Feint (W, cooldown 9/8/7/6/5s) right as Knuckle Down's (Q) second empowered hit or Facebreaker's stun lands to absorb the burst, not as a passive shield."
+   },
+   {
+    "title": "Use Shadow Dash to body-block, not trade",
+    "detail": "Shadow Dash (E, cooldown 16/14/12/10/8s, range 575) only deals minor damage and taunts on hit; it doesn't shut down Sett's output enough to win a fight, so save it to peel for an ally or reposition."
+   },
+   {
+    "title": "Chain Q to out-sustain Pit Grit",
+    "detail": "Vorpal Blade (Q, cooldown 6/5.5/5/4.5/4s, range 475) heals allies who attack the marked target afterward; follow it with an auto whenever it's off cooldown to offset Sett's missing-health regen."
+   },
+   {
+    "title": "Hold Stand United for the map",
+    "detail": "Stand United (R, cooldown 200/180/160/160/160s) doesn't change the 1v1; use its global teleport and shield to swing a winning fight elsewhere instead of forcing a lane all-in."
+   },
+   {
+    "title": "Build toward Thornmail's timing",
+    "detail": "Titanic Hydra > Dusk and Dawn > Thornmail is your highest-sample path (83.3% WR, 6 games); grievous wounds from Thornmail lands right as Sett's missing-health regen starts to matter most."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate/sample numbers above are pulled from measured games on the current patch (16.20.1); the trade-pattern and cooldown-window reasoning is my own read of the kits, not measured data."
+ },
+ "generatedAt": 1791418706547,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791418620350,
+  "overall": {
+   "winRate": 50.7,
+   "play": 3791,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 86,
+   "wins": 39,
+   "winRate": 45.3
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being pulled by Sett’s (E)! Use [E] and [W] to engage aggressively. Keep in mind that [W] has a long cooldown, so do not engage when it is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.9,
+    "play": 73,
+    "pickRate": 67
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 29.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 42.2,
+    "play": 45,
+    "pickRate": 41.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 19.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 77,
+    "pickRate": 69.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 40,
+    "play": 30,
+    "pickRate": 27
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.9,
+    "play": 81,
+    "pickRate": 80.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 11.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 9.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 46.3,
+    "play": 82,
+    "pickRate": 75.2
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 59,
+    "play": 39,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 21.1,
+    "play": 19,
+    "pickRate": 17.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 17.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 15.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.3,
+    "play": 58
+   }
+  ]
+ }
+}
