@@ -1,0 +1,375 @@
+{
+ "you": "Illaoi",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, needs patience",
+   "line": "You win by stacking E-driven Vessel trades near your tentacles and snowballing side pressure; you lose if you facetank his Q poke before level 6 and skip anti-heal into his R sustain."
+  },
+  "thesis": "Illaoi's skill order (QWEEEREQEQRQQWW) maxes Test of Spirit by level 5, which lets her force repeated Vessel trades that Dr. Mundo cannot win on raw damage — the 53.7% win rate over 123 games and the solo-kill advantage both come from that structural fact. Mundo's answer isn't a trade tool, it's attrition: Infected Cleaver poke plus Adrenaline Rush and Sadism regen, which is why he's hard to outright kill without cutting his healing.",
+  "tell": {
+   "watch": "Mundo's R (Sadism) availability",
+   "theirWindow": {
+    "when": "Before level 6, spamming Q poke",
+    "what": "Infected Cleaver hits for a percentage of your max health at 975 range on a 4s cooldown and you have no answer to it until E is online — don't stand in lane just to trade minions, back up a step and let tentacles screen you."
+   },
+   "yourWindow": {
+    "when": "Level 3+, near a tentacle-spawned wall",
+    "what": "Rip his spirit with E (Test of Spirit) while standing near terrain your passive has already spawned Tentacles on — the spirit echoes damage back to him and the Tentacles swing at him too, which is exactly the harass loop OP.GG flags for this matchup."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q-only poke range beats your melee kit"
+   },
+   {
+    "levels": "3-6",
+    "edge": "you",
+    "note": "E maxed first, Vessel trades open up"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "his sustain climbs, your tentacle pressure too"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "R AoE skirmishes vs his 75s Sadism reset"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "52.7% win rate over 112 games at 70.4% pick — the sustain and early AD keep you winning repeated E trades instead of losing the attrition war to his passive regen."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "56.6% win rate over 76 games — his E (Masochism) turns him into a hard-hitting auto-attacker when low, and flat damage reduction blunts that spike."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "shreds armor so your Q/W/E damage and tentacle hits keep scaling through his health stacking"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "61.9% win rate over 21 games on this path — adds a slow proc so he can't just walk off after a Vessel trade"
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "survivability spike to tank his Q poke and E-boosted autos during extended all-ins"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he's stabilizing off Adrenaline Rush and Sadism between fights"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's leaning on sustained autos and Burning Agony ticks to win the trade war"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "you need to survive his all-in burst while your tentacles finish him off"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "sustains you through the repeated E-trade loop and scales with the health items (Black Cleaver's bonus, Sterak's) you're already buying",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "highest measured win rate at the largest sample (54.9% over 63% pick) — Illaoi's tentacle-fueled split push punishes Mundo's lack of a real waveclear or engage answer, and Teleport lets you cash that in across the map."
+  },
+  "playing": [
+   {
+    "title": "Fight only near tentacle walls",
+    "detail": "Position your E (Test of Spirit) casts so his spirit stands near terrain where your passive already spawned Tentacles — the echo damage plus Tentacle swings is your core harass loop."
+   },
+   {
+    "title": "Hold trades before level 3",
+    "detail": "Until E is live you only have Q (10/9/8/7/6s cooldown) and W's 400-range leap; don't absorb his 975-range Q poke for free, since it scales off your max health."
+   },
+   {
+    "title": "Don't linger on low-health Mundo",
+    "detail": "His E (Masochism) grants bonus AD scaling with missing health, so a drawn-out trade against a low-HP Mundo lets him hit harder — commit to the kill or disengage, don't sit at that threshold."
+   },
+   {
+    "title": "Track his 75s ultimate",
+    "detail": "R (Sadism) lets him burn health for movement speed and heavy regen to escape or stabilize — an all-in while it's up is wasted tempo, wait for it to be down."
+   },
+   {
+    "title": "Buy anti-heal once he stabilizes",
+    "detail": "Adrenaline Rush plus Sadism means flat damage stops closing games on him — Spirit Visage or Thornmail is what actually finishes the kill, per the measured matchup read."
+   },
+   {
+    "title": "Chain R into existing Vessels",
+    "detail": "If E has already turned him into a Vessel, your R (Leap of Faith) hitting him spawns another Tentacle on top of existing pressure — stack this during post-6 all-ins."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample numbers above are pulled from measured games on the current patch (OP.GG); the mechanical reasoning and trade-pattern advice are my own read of the ability kits."
+ },
+ "generatedAt": 1791579474976,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791579369977,
+  "overall": {
+   "winRate": 50.3,
+   "play": 10850,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 123,
+   "wins": 66,
+   "winRate": 53.7
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "even",
+  "opponentTip": "Use your [E] to harass often. Dr. Mundo’s abilities overall make it difficult to kill Illaoi. However, his (R) allows him to recover a lot of health, so we recommend purchasing an item that reduces healing.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.9,
+    "play": 102,
+    "pickRate": 63
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.4,
+    "play": 35,
+    "pickRate": 21.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 13
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 70,
+    "pickRate": 43.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 20.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.7,
+    "play": 112,
+    "pickRate": 70.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 13.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 56.6,
+    "play": 76,
+    "pickRate": 52.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.4,
+    "play": 57,
+    "pickRate": 39.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 5.5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Thornmail"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.6,
+    "play": 141,
+    "pickRate": 86.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 53.4,
+    "play": 88,
+    "pickRate": 54
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 66.2,
+    "play": 77,
+    "pickRate": 47.2
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 62.5,
+    "play": 40,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 54.8,
+    "play": 31,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 16.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 65.5,
+    "play": 29
+   }
+  ]
+ }
+}

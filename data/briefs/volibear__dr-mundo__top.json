@@ -1,0 +1,384 @@
+{
+ "you": "Volibear",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill sustain fight",
+   "line": "You lose if you let Mundo farm you down with Infected Cleaver from range and regen it back with Adrenaline Rush; you win if you land Q's stun and burst him before level 6, before Sadism and his missing-health scaling come online."
+  },
+  "thesis": "Dr. Mundo's Q (Infected Cleaver) deals damage based on your maximum health, and Volibear is one of the tankiest HP-stackers in the game — so your own itemization makes his poke hit harder in absolute numbers. Combine that with Adrenaline Rush healing him back every second he's not taking damage, and the lane becomes a race: can you close the gap with Q and burst him with W resets before his passive erases the trade. The 44.1% win rate over 229 games (below Volibear's own 48.3% lane average) says that race is currently tilted toward Mundo.",
+  "tell": {
+   "watch": "Mundo's Infected Cleaver cooldown",
+   "theirWindow": {
+    "when": "he's already below ~40% HP",
+    "what": "Masochism (E) gives him bonus AD scaling with missing health, so a low-HP Mundo swings harder, not softer. Don't walk into a 'finishing' trade here — disengage and let him walk it off instead."
+   },
+   "yourWindow": {
+    "when": "Q (Thundering Smash) is up and he's overextended",
+    "what": "Dash in with Q to stun him, then double-tap W (Frenzied Maul) on the same target for the bonus damage and self-heal. This window is strongest before level 6, since Sadism isn't online yet to bail him out."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his 975-range Q outranges your 300-range Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E lets you answer Cleaver at range"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R+Q stun punishes him before his R"
+   },
+   {
+    "levels": "11-18",
+    "edge": "them",
+    "note": "max-health Q scales harder as you stack HP"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring",
+    "why": "The pick in 74.7% of games (45.7% WR) — the mana regen keeps your 5s-cooldown W spammable so you can trade W-into-W every time it's up and out-race his passive regen instead of running dry."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Higher win rate of the two options (55.6% over 72 games) — the tenacity matters because Mundo's W (Burning Agony) and ganks are your real threat to lock-down, and the magic resist answers his mixed-damage kit."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Opens the highest-performing listed path (45% WR, 11.2% pick) with the tempo to start forcing trades."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Cooldown refund on crits keeps Q and W cycling faster, which is how you out-trade Adrenaline Rush tick for tick."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Amplifies the self-heal on your W recast and adds magic resist — directly counters the race against his passive regen and his magic-damage W drain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hextech Gunblade",
+     "when": "the game turns into a prolonged healing race and you need lifesteal/spell vamp to match his Adrenaline Rush"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustained DPS and omnivamp to grind through his max-health tankiness"
+    },
+    {
+     "item": "Statikk Shiv",
+     "when": "you need wave clear and kiting speed to avoid walking into his 975-range Cleaver"
+    },
+    {
+     "item": "Shadowflame",
+     "when": "he's stacking pure health and you need a burst spike to break through the regen before it ticks back"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Ramping attack speed over an extended fight lets your passive (The Relentless Storm) proc its bonus magic damage faster and gets your W resets online quicker — the only way to out-tempo Adrenaline Rush is to attack more often than he regens.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The standard pick at 75.7% (45.8% WR) — Ignite's healing reduction is the single best answer to a champion whose entire win condition is Adrenaline Rush and Sadism regen. Flash+Teleport (46.7% WR, 10.7% pick) is the alt if you'd rather scale and side-lane; Exhaust+Flash (47.8% WR, 8.2% pick) works if you want to shut down a Masochism-boosted all-in directly."
+  },
+  "playing": [
+   {
+    "title": "Poke check with E",
+    "detail": "Sky Splitter (E, 1200 range, 16s CD) outranges his Infected Cleaver (975 range). Use it to answer his poke and get the shield bonus by standing in your own blast — don't just eat Cleavers waiting for Q range."
+   },
+   {
+    "title": "Save Q for the stick",
+    "detail": "Thundering Smash (Q, 300 range, 12-10s CD depending on rank) only works if you're close enough to connect. Walking it down into open space lets him kite with his longer-range Q — wait for him to misposition near a wall or minion wave first."
+   },
+   {
+    "title": "Double-tap W for the heal",
+    "detail": "Frenzied Maul (W) marks on first hit; recasting on the same target deals bonus damage and heals you. This W-into-W is your actual counter to Adrenaline Rush — single W pokes don't win the sustain race."
+   },
+   {
+    "title": "Don't facetank a low-HP Mundo",
+    "detail": "Masochism (E) scales his bonus AD with missing health, so he hits hardest when he looks weakest. Treat a sub-40% Mundo as a bigger threat in melee, not a free kill."
+   },
+   {
+    "title": "Track Sadism before you commit",
+    "detail": "Sadism (R, 75s CD) spikes his move speed and health regen on demand. Don't dump your own Stormbringer (R, 160-110s CD) into a fight he can pop R and simply run out of."
+   },
+   {
+    "title": "Punish before level 6",
+    "detail": "Your solo-kill edge in this matchup is real but time-limited — it lives in the Q-stun-into-W-W window at levels 3-5, before his ultimate and missing-health scaling make trades safer for him."
+   },
+   {
+    "title": "Respect the Burning Agony drain",
+    "detail": "Burning Agony (W) costs him health but deals continual damage to anyone nearby and cuts your stun's effective lock-down time. Don't assume a landed Q buys you a full-duration, damage-free window."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from real games on the current patch via OP.GG; the mechanical reasoning and trade-pattern advice are my own read of the kits, not measured data."
+ },
+ "generatedAt": 1791580132078,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791580014396,
+  "overall": {
+   "winRate": 48.3,
+   "play": 19272,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 229,
+   "wins": 101,
+   "winRate": 44.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Volibear",
+  "playStyle": "even",
+  "opponentTip": "Avoid being chased by Dr.Mundo’s (Q) during early game. Use [E] to contest lane and use Phase Rush toclose in on him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.8,
+    "play": 212,
+    "pickRate": 75.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.7,
+    "play": 30,
+    "pickRate": 10.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 8.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56,
+    "play": 75,
+    "pickRate": 26.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 9.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 210,
+    "pickRate": 74.7
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.4,
+    "play": 42,
+    "pickRate": 15
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.6,
+    "play": 72,
+    "pickRate": 27.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 44.4,
+    "play": 63,
+    "pickRate": 24.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 45,
+    "play": 20,
+    "pickRate": 11.2
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Hextech Gunblade",
+     "Shadowflame"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 4.5
+   },
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 50.3,
+    "play": 153,
+    "pickRate": 53.7
+   },
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 46.7,
+    "play": 135,
+    "pickRate": 47.4
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 47.9,
+    "play": 94,
+    "pickRate": 33
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 51.2,
+    "play": 84,
+    "pickRate": 29.5
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 45.2,
+    "play": 73,
+    "pickRate": 25.6
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 54.8,
+    "play": 42,
+    "pickRate": 14.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 43.3,
+    "play": 67
+   }
+  ]
+ }
+}

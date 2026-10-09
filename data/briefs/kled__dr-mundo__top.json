@@ -1,0 +1,384 @@
+{
+ "you": "Kled",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You win by chaining short, violent trades that kill the fight before his sustain turns on; you lose if you chase a baited-low Mundo into a drawn-out trade and let Masochism and his passive regen flip it."
+  },
+  "thesis": "Dr. Mundo has zero hard CC and no disengage — his only defensive tool is W (Burning Agony), which drains his own health to cut disable duration. That means Kled's hit-and-run kit (Q yank, double-dash E, W attack-speed burst) can land, deal its damage, and leave before his passive (Adrenaline Rush) or his missing-health AD steroid (E, Masochism) ever come online. The data backs this directly: Kled holds both lane advantage and solo-kill advantage here (53.8% WR, 78 games), even though the overall shape reads even.",
+  "tell": {
+   "watch": "Mundo's missing HP%",
+   "theirWindow": {
+    "when": "Mundo is already low and standing still",
+    "what": "His E (Masochism) scales AD off missing health, and his passive regenerates a chunk of max HP every second — a 'low' Mundo who holds the fight can burst you back and heal through it. Either commit a full kill with real damage/CC to deny the regen tick, or disengage entirely; don't half-trade into him."
+   },
+   "yourWindow": {
+    "when": "you're mounted with Skaarl at decent HP",
+    "what": "Land Q (Bear Trap on a Rope) to yank him in, follow with E (Jousting) to close, weave W (Violent Tendencies) for the attack-speed burst, then recast E to dash back through him for a second hit. This whole sequence should resolve before his sustain matters."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "Q yank + E dash burst outtrades his only poke"
+   },
+   {
+    "levels": "4-6",
+    "edge": "you",
+    "note": "R online, still ahead, don't chase low baits"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "his sustain items and your HP buff his Q"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "skirmish-dependent, short trades still yours"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "R picks punish his lack of peel/CC"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Dominant start at 58% WR over 81 games — the lane is a sustained physical trading war, and the extra AD/sustain from Blade wins short all-ins before Mundo's passive regen matters."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "54% WR over 50 games. Mundo has no hard CC to dodge with Mercury's Treads — his damage is autos plus a missing-health AD steroid (E), both physical, which Steelcaps flat-out reduces."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Max-health stacking powers your dash-heavy trade pattern and the wave clear/poke damage from E and autos."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Highest-WR follow-up in the data (66.7% over 6 games on this path) — keeps your short-trade burst scaling as the lane extends."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Grievous Wounds directly shuts down Mundo's passive (Adrenaline Rush) and R (Sadism) healing — the exact tools that let him win a drawn-out fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "he's abusing passive regen to reset trades before your core items complete"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and you need armor shred to keep killing through his stacked resistances"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "you're ahead and want more max-health scaling for extended skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive damage/healing rewards exactly the repeated-hit trade pattern Kled runs (Q yank, double E dash, W-boosted autos) and gives you the sustain edge to outlast Mundo's own regen in a skirmish.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "87.9% pick rate at 58.6% WR. Ignite's Grievous Wounds is what makes burst actually stick on a champion whose entire identity is healing through damage via passive regen and R."
+  },
+  "playing": [
+   {
+    "title": "Run the full mounted combo",
+    "detail": "Q hook to yank him in, E dash to close, weave W's attack-speed window, then recast E to dash back out through him for a second hit."
+   },
+   {
+    "title": "Don't finish a baited-low Mundo",
+    "detail": "His E (Masochism) scales AD off missing health and his passive heals a % of max HP every second — committing half a trade into a low Mundo can get you burst back."
+   },
+   {
+    "title": "Watch for his W cutting your yank",
+    "detail": "Burning Agony reduces disable duration, which shortens the shackle on your Q before it triggers the bonus damage and yank."
+   },
+   {
+    "title": "Stop soaking his poke",
+    "detail": "Infected Cleaver (4s cooldown, 975 range) scales off your max health — as you stack Titanic Hydra and HP items, each poke hits harder, so close the gap instead of eating it."
+   },
+   {
+    "title": "Use Ignite to seal kills",
+    "detail": "Both his passive and R heal him back from near-death; Grievous Wounds from Ignite (and later Mortal Reminder) is what actually lets a burst kill stay a kill."
+   },
+   {
+    "title": "Save R for cross-map picks",
+    "detail": "Chaaaaaaaarge!!! has 3500 range and he has no CC or disengage to escape it — use it to collapse on him anywhere, not just as a lane engage."
+   },
+   {
+    "title": "Punish his E cooldown window",
+    "detail": "After Masochism's AD steroid falls off, there's a short stretch before its 7s cooldown refreshes where his damage output drops — that's your safest window to force an extended trade."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the 53.8% head-to-head figure are measured from real games on the current patch (16.20.1); the mechanical reasoning for why the matchup breaks that way is my own read, not OP.GG's."
+ },
+ "generatedAt": 1791580664858,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791580557213,
+  "overall": {
+   "winRate": 50.1,
+   "play": 7492,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 78,
+   "wins": 42,
+   "winRate": 53.8
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 58.6,
+    "play": 87,
+    "pickRate": 87.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 25,
+    "play": 8,
+    "pickRate": 8.1
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 28,
+    "pickRate": 28.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 10.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 58,
+    "play": 81,
+    "pickRate": 84.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 7.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54,
+    "play": 50,
+    "pickRate": 59.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 32.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 13.8
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Mortal Reminder"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 10.3
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 8.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 54.7,
+    "play": 75,
+    "pickRate": 78.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 41.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 56.3,
+    "play": 32,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 53.6,
+    "play": 28,
+    "pickRate": 29.2
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 33.3,
+    "play": 18,
+    "pickRate": 18.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 47.1,
+    "play": 34
+   }
+  ]
+ }
+}

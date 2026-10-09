@@ -1,0 +1,387 @@
+{
+ "you": "Malphite",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, skill matchup",
+   "line": "You lose the slow poke war to his regen, but you win the all-in the moment you commit R before his Sadism is up."
+  },
+  "thesis": "Mundo's whole kit runs on a health-resource loop — passive regen, a self-draining W, an E that scales AD off his missing health, and an R that burns health for speed — so he rewards patient poke trades and punishes you for farming passively. Malphite's E (Ground Slam) deals magic damage based on his own Armor, so the same armor items that blunt Mundo's physical poke (Thornmail, Sunfire Aegis) also scale your trading damage. That's why the lane sits at 46.3% over 520 games — sustained trading favors him — while the all-in favors you once R and armor stacks come online.",
+  "tell": {
+   "watch": "Mundo's missing-health % (Masochism)",
+   "theirWindow": {
+    "when": "he's full HP behind the minion wave",
+    "what": "Stay behind your own minions — his Q (Infected Cleaver, 4s cooldown, 975 range) scales off your max health and he'll poke it for free if you're exposed at range."
+   },
+   "yourWindow": {
+    "when": "his Sadism (R) is on cooldown",
+    "what": "Commit your R (Unstoppable Force) here. Without Sadism's health-for-movespeed escape he can't disengage or out-regen the burst, which is exactly where your solo-kill edge shows up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Granite Shield absorbs his early cleaver chip"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "ranged poke plus passive regen outpaces your trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R plus Q slow create real kill threats"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Thornmail grievous wounds caps his sustain loop"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "armor-scaled E and full build near-unkillable"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "The most-picked start in this matchup (69.9% pick, 47.4% WR over 443 games) — the regen offsets his ranged Cleaver chip and the mana keeps your Q/E loop up for more trades than he gets."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "The majority pick (56.1%) into a target whose damage leans on autoattacks and E (Masochism) AD spikes — flat damage reduction on every hit he lands matters more than magic resist here."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Health and armor you need anyway, and the armor directly buffs your Ground Slam (E) damage."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Grievous wounds is the direct answer to his passive regen, Masochism sustain, and Sadism's health regen spike — this is the item the OP.GG tip is pointing at."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "More armor to keep scaling E, plus the attack speed slow aura further dulls his autoattack and Burning Agony uptime in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "he rushes healing or regen items and you need grievous wounds online before finishing sunfire aegis"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "his team's magic damage is overwhelming your shield uptime more than the thornmail trade warrants"
+    },
+    {
+     "item": "Malignance",
+     "when": "you're ahead and want to prioritize r and e burst damage over pure durability"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The higher-pick, higher-winrate page here (34.5% pick, 45.3% WR) — Grasp's proc heal and bonus max health let you out-sustain his poke instead of just absorbing it, which matters since this lane is won on sustained trades as much as kills. Master-tier Malphite players instead run Arcane Comet (the Sorcery keystone from the alternate page, 4,598 games) for more upfront poke damage — take that version if you're confident landing Q/E rather than farming passive sustain.",
+   "primary": [
+    "Shield Bash",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Transcendence",
+    "Manaflow Band"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the dominant pick (76.5%) because this lane is even rather than losing — reset and rejoin skirmishes elsewhere instead of forcing more trades. Flash+Ignite (45.6% WR) is the alternate if you're leaning into your solo-kill advantage to close the lane out early."
+  },
+  "playing": [
+   {
+    "title": "Trade behind minions",
+    "detail": "His Q (Infected Cleaver, 4s cooldown, 975 range) scales off your max health and outranges your Q (Seismic Shard, 625 range) — eating minion damage is cheaper than eating a free cleaver."
+   },
+   {
+    "title": "Slow attack speed when he commits melee",
+    "detail": "Burning Agony (W, 1s cooldown) only matters in his 325 range — use Ground Slam's attack speed reduction right as he enters melee to blunt his autoattack and Burning Agony uptime together."
+   },
+   {
+    "title": "Engage before Sadism, not after",
+    "detail": "Time your R (Unstoppable Force, 80-130s cooldown depending on rank) for when his R (Sadism, 75s cooldown) is down — up, it lets him kite or outheal your all-in."
+   },
+   {
+    "title": "Don't chase a low-health Mundo alone",
+    "detail": "His E (Masochism) grants AD scaling off missing health, so finishing him without burst backup is risky — use your Q slow to lock the kill down instead of auto-trading it out."
+   },
+   {
+    "title": "Use W only in committed fights",
+    "detail": "Brutal Strikes (14s cooldown, 400 range) hits everything in front of him and buffs his armor/AD briefly — its range is too short to use as a poke tool, save it for extended trades."
+   },
+   {
+    "title": "Rush grievous wounds if he's ahead",
+    "detail": "Thornmail or Bramble Vest directly cuts his passive regen and Masochism/Sadism sustain loop — prioritize finishing whichever is closer if he's snowballing on gold."
+   }
+  ],
+  "patchCaveat": "Build, rune pages, boots, and win-rate numbers are measured from live games on the current patch via OP.GG; the mechanical reasoning and timing advice connecting them is my own read of the matchup."
+ },
+ "generatedAt": 1791579601241,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791579481799,
+  "overall": {
+   "winRate": 52.1,
+   "play": 31152,
+   "tier": 0
+  },
+  "headToHead": {
+   "play": 520,
+   "wins": 241,
+   "winRate": 46.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Stay behind minions to avoid Dr. Mundo’s cleavers! Purchase items that reduce healing to kill him afterwards!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.2,
+    "play": 507,
+    "pickRate": 76.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.6,
+    "play": 147,
+    "pickRate": 22.2
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Manaflow Band"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.3,
+    "play": 232,
+    "pickRate": 34.5
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Arcane Comet",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45,
+    "play": 218,
+    "pickRate": 32.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 47.4,
+    "play": 443,
+    "pickRate": 69.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 32.4,
+    "play": 102,
+    "pickRate": 16.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.6,
+    "play": 339,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.5,
+    "play": 169,
+    "pickRate": 28
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 67.9,
+    "play": 28,
+    "pickRate": 8.8
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Kaenic Rookern"
+    ],
+    "winRate": 35,
+    "play": 20,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Frozen Heart"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 46.6,
+    "play": 371,
+    "pickRate": 55.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.6,
+    "play": 333,
+    "pickRate": 49.5
+   },
+   {
+    "items": [
+     "Malignance"
+    ],
+    "winRate": 47.1,
+    "play": 189,
+    "pickRate": 28.1
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 57.7,
+    "play": 156,
+    "pickRate": 23.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 32.8,
+    "play": 137,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 45,
+    "play": 129,
+    "pickRate": 19.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 54.5,
+    "play": 101
+   }
+  ],
+  "highElo": {
+   "keystone": "Arcane Comet",
+   "tree": "Sorcery",
+   "play": 4598
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Gangplank",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Tight skill matchup",
+   "line": "You own the laning phase and solo-kill threat, but the 44% win rate over 250 games says if you let it drag past mid-lane, Mundo's sustain claws it back."
+  },
+  "thesis": "Your Grog-Soaked Blade poison and Parrrley poke give you the stronger laning phase and the OP.GG-confirmed solo-kill edge, but Dr. Mundo's Adrenaline Rush regenerates a portion of his max health every second and Masochism grants him Attack Damage scaling off missing health, meaning he's never fully poked down and gets more dangerous the lower he drops. That's why the raw head-to-head win rate sits at only 44% across 250 games despite your lane and solo-kill advantage: games that go long swing back toward him.",
+  "tell": {
+   "watch": "Mundo's HP percentage",
+   "theirWindow": {
+    "when": "Mundo's HP drops under ~40%",
+    "what": "Masochism (E) now hands him a big chunk of missing-health Attack Damage, so his next autos hit far harder than the trade looked like it should. Stop standing in and auto-trading at that HP threshold — back off and let Grog-Soaked Blade poison finish him instead."
+   },
+   "yourWindow": {
+    "when": "right after Mundo throws Infected Cleaver (Q)",
+    "what": "His only ranged tool is now on its 4-second cooldown with nothing to punish your approach. Step in, Parrrley, and auto for a free Grog-Soaked Blade poison stack before he can reset to range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Infected Cleaver's 975 range outranges your 625-range Parrrley"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Full Q plus poison trades start landing clean"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Masochism burst now matches your poison DPS"
+   },
+   {
+    "levels": "11-16",
+    "edge": "them",
+    "note": "Adrenaline Rush and HP-scaling items outlast your poke"
+   },
+   {
+    "levels": "17-18",
+    "edge": "even",
+    "note": "Cannon Barrage zoning versus Sadism disengage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Picked in 67.3% of games at 46.3% win rate — the extra health and sustain absorb Infected Cleaver's early chip damage while your damage keeps the poison trades even."
+   },
+   "boots": {
+    "item": "Gluttonous Greaves",
+    "why": "58% win rate over 88 games. The lifesteal directly offsets the max-health-based chip from Infected Cleaver and the burst from Masochism, which matters more here than the flat ability haste from Ionian Boots."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain to keep spamming the 5-second-cooldown Parrrley for poke and poison uptime."
+    },
+    {
+     "item": "The Collector",
+     "why": "Part of the 56.5% win rate path (23 games); the lethality punishes through Mundo's passive regen and closes solo-kill windows before Adrenaline Rush ticks him back up."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Completes the highest-performing listed build path and spikes your damage before the matchup's late-game numbers swing toward Mundo."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "mundo's Adrenaline Rush regen and overall sustain are outlasting your poke in extended trades"
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "mundo stacks health items and out-scales your flat damage"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "the game runs long and you need lifesteal to keep winning drawn-out trades rather than just burst ones"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Picked in 33.4% of games (45% win rate). The extra burn stacks on top of Grog-Soaked Blade poison during your Q-poke trades, pressuring his health down faster than Adrenaline Rush can regenerate it back.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 90% of games at 44.8% win rate. Ignite's damage over time denies Adrenaline Rush's per-second max-health regen during all-ins, which is exactly how you convert your measured solo-kill advantage into real kills."
+  },
+  "playing": [
+   {
+    "title": "Respect Cleaver range pre-level 3",
+    "detail": "Infected Cleaver reaches 975 range on a 4-second cooldown, well past your 625-range Parrrley. Don't stand at 700-900 range soaking free pokes while you wait to farm toward Doran's Blade."
+   },
+   {
+    "title": "Punish the second his Q is gone",
+    "detail": "The instant he throws Infected Cleaver, his only ranged tool is down for 4 seconds. Walk up, Parrrley, auto for the Grog-Soaked Blade poison stack, and leave before it's back up."
+   },
+   {
+    "title": "Time Remove Scurvy after trades",
+    "detail": "W's cooldown falls from 22 to 18 seconds as you level it, but it's a reactive heal-and-cleanse, not a proactive one. Use it to clean up the HP you lost in a trade rather than before one."
+   },
+   {
+    "title": "Back off once he's under 40% HP",
+    "detail": "Masochism gives Mundo Attack Damage scaling off his missing health, so his autos at low HP hit much harder than the fight looked seconds earlier. Stop trading autos there and let poison close it out."
+   },
+   {
+    "title": "Don't chase into Sadism",
+    "detail": "His ultimate sacrifices health for a big movement speed and regen spike, turning a losing fight for him into an unwinnable chase for you. Only commit to the kill if you can burst him down before he can pop it."
+   },
+   {
+    "title": "Buy Mortal Reminder if the lane drags",
+    "detail": "The matchup sits at 44% over 250 games precisely because long games favor his Adrenaline Rush sustain. Grievous Wounds from Mortal Reminder directly cuts that regen when your flat damage alone stops being enough."
+   },
+   {
+    "title": "Close the lane out before 6",
+    "detail": "Your lane and solo-kill advantage are real but time-limited. Use Flash plus Ignite all-ins in the early levels where the power curve favors you, since the overall win rate skews back to Mundo the longer the game runs."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win-rate figures above are measured from live games on the current patch via OP.GG; the matchup read — why the numbers shake out this way — is the author's own tactical judgment."
+ },
+ "generatedAt": 1791580380653,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791580267029,
+  "overall": {
+   "winRate": 50.2,
+   "play": 23500,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 250,
+   "wins": 110,
+   "winRate": 44
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being chased by (Q) when your [E] is on cooldown. Place [E] and get stacks of Grasp of the Undying. Purcahse Executioner’s Calling to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.8,
+    "play": 297,
+    "pickRate": 90
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 26.7,
+    "play": 30,
+    "pickRate": 9.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 0.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 45,
+    "play": 111,
+    "pickRate": 33.4
+   },
+   {
+    "primaryTree": "Inspiration",
+    "primary": [
+     "First Strike",
+     "Cash Back",
+     "Triple Tonic",
+     "Cosmic Insight"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 41.7,
+    "play": 36,
+    "pickRate": 10.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 216,
+    "pickRate": 67.3
+   },
+   {
+    "items": [
+     "Long Sword",
+     "Refillable Potion"
+    ],
+    "winRate": 32.7,
+    "play": 49,
+    "pickRate": 15.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 42.7,
+    "play": 89,
+    "pickRate": 32.5
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 58,
+    "play": 88,
+    "pickRate": 32.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 33.3,
+    "play": 24,
+    "pickRate": 10.5
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 10
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Mortal Reminder",
+     "Infinity Edge"
+    ],
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 9.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 42.1,
+    "play": 330,
+    "pickRate": 96.2
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 49.1,
+    "play": 161,
+    "pickRate": 46.9
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 42.1,
+    "play": 152,
+    "pickRate": 44.3
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 41,
+    "play": 134,
+    "pickRate": 39.1
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 43,
+    "play": 128,
+    "pickRate": 37.3
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 51.5,
+    "play": 66,
+    "pickRate": 19.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 42.2,
+    "play": 90
+   }
+  ]
+ }
+}

@@ -1,0 +1,375 @@
+{
+ "you": "Riven",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him sit on Burning Agony and poke cleavers for free; you win by forcing all-ins before 6 and finishing fast."
+  },
+  "thesis": "Dr. Mundo has no hard CC and no gap-closer, so Riven's stun and burst are structurally safe to throw — the fight is decided by whether you can kill him inside one or two Ki Burst windows before Adrenaline Rush and Burning Agony heal him back to full. This is a true all-in lane: 53.1% over 81 games says Riven wins it, and the kill pressure is yours.",
+  "tell": {
+   "watch": "his Burning Agony on/off",
+   "theirWindow": {
+    "when": "he's topped up, W toggled on",
+    "what": "Burning Agony ticks 1s cooldown as long as he holds it, bleeding his own HP to shred disable duration and chip you — don't facetank it, back out of the 325 range and reset instead of trading into a free damage aura."
+   },
+   "yourWindow": {
+    "when": "he's below 50% HP, E (Masochism) just procced",
+    "what": "His missing-health AD buff from E looks scary but it doesn't heal him — if you can land W (Ki Burst) to stun through it and chain Q (Broken Wings) charges, he can't out-regen a full combo before Adrenaline Rush catches up. Commit here, not when he's full HP."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has kill pressure, trade pokes only"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W stun lets you punish his cleaver throws"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R burst threatens kills before Sadism saves him"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "his sustain scales, trades get riskier"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "max HP regen and Sadism outlast skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "51% win rate over 98 games and the 95.2% pick — the extra AD and sustain let you keep throwing Q poke into his cleaver range without losing the trade war."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "53.2% win rate over 62 games — the ability haste shortens your W stun and E block cooldowns, which is what actually wins the all-in since Mundo has no CC to punish you for being aggressive."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "57.1% win rate over 7 games as a starting core piece — the shield and burst proc matter most here since the kill window closes fast against Adrenaline Rush."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "72.2% win rate over 18 games in the Axiom Arc path and 57.1% in the Eclipse path — the healing-reduction-adjacent sustain and damage keep your all-ins lethal instead of getting outhealed."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "appears in both top build paths (72.2% and 57.1% win rate) — the damage-over-time conversion and healing let you survive his Burning Agony ticks while you finish the kill."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "his healing from Adrenaline Rush is winning him extended trades"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's building HP and you need armor shred to make your burst window count"
+    },
+    {
+     "item": "Axiom Arc",
+     "when": "you're ahead and want cooldown reduction to chain all-ins back to back"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "stacking Conqueror in extended trades directly counters his max-health regen — it's the only way your sustained damage output keeps pace with Adrenaline Rush over a 5-second fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "run at 51.5% win rate with a 97.1% pick rate — Ignite's execute and healing reduction is close to mandatory against a champion whose entire kit is regenerating health."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q before level 6",
+    "detail": "Broken Wings' 275 range lets you charge Runic Blade stacks and chip him down before his cleaver sustain snowballs, without needing to commit E."
+   },
+   {
+    "title": "Save W for his approach, not yours",
+    "detail": "Ki Burst's 260-range stun is your only hard CC in the fight — hold it until he's already within 260 units so he can't just walk away after it lands."
+   },
+   {
+    "title": "Block cleavers with E, not autos",
+    "detail": "Valor's damage block is tailor-made for Infected Cleaver's max-HP-based damage; step into it on cooldown (10/9/8/7/6s) to deny his main poke tool for free."
+   },
+   {
+    "title": "All-in on cooldown windows, not HP thresholds",
+    "detail": "Because he has no stun, dash, or slow, your all-in risk is almost entirely about your own cooldowns — commit when Q and W are both up, not just when he looks low."
+   },
+   {
+    "title": "Use R to close kills, not start them",
+    "detail": "Blade of the Exile's Wind Slash threatens from 200 range after he's already low — pop R mid-combo once Ki Burst has landed, not as your opener, since he can't punish the cast window anyway."
+   },
+   {
+    "title": "Don't trade into active Burning Agony",
+    "detail": "The W toggle deals continual damage in 325 range while he holds it — walking into melee range during that window is a losing damage race until you're ready to all-in."
+   },
+   {
+    "title": "Track Masochism's timer, not his HP bar",
+    "detail": "E's missing-health AD scaling means he hits hardest when low — don't assume low HP means he's safe to engage without respecting that temporary damage spike."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win-rate figures are measured from live games on the current patch (16.20.1) via OP.GG; the matchup reasoning and trade-pattern advice are my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791579285672,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791579242912,
+  "overall": {
+   "winRate": 50,
+   "play": 9921,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 81,
+   "wins": 43,
+   "winRate": 53.1
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": "Purchase items that reduce healing as soon as possible, while absorbing (Q) damage with [E]. Constantly apply pressure while maintaining Conqueror’s stacks for a kill.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.5,
+    "play": 99,
+    "pickRate": 97.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 56,
+    "pickRate": 54.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 7.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 98,
+    "pickRate": 95.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 100,
+    "play": 3,
+    "pickRate": 2.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 53.2,
+    "play": 62,
+    "pickRate": 63.9
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 15.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 72.2,
+    "play": 18,
+    "pickRate": 25.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 9.9
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Death's Dance",
+     "Endless Hunger"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 2.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 59.7,
+    "play": 67,
+    "pickRate": 62
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 58.3,
+    "play": 60,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 44.1,
+    "play": 59,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 58.1,
+    "play": 43,
+    "pickRate": 39.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 23.2
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 28.6,
+    "play": 14,
+    "pickRate": 13
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 67.5,
+    "play": 40
+   }
+  ]
+ }
+}

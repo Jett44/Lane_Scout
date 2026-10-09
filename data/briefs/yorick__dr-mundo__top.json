@@ -1,0 +1,392 @@
+{
+ "you": "Yorick",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane favoured",
+   "line": "You lose reps if you facetank Infected Cleaver throws before level 3; you win once W (Dark Procession) traps him and you fight at close quarters."
+  },
+  "thesis": "Dr. Mundo's Adrenaline Rush regenerates a portion of his max health every second and Infected Cleaver pokes for max-health damage at 975 range on only a 4s cooldown, so he wins the long-range poke war before you have a wall. Once W (Dark Procession) is up at level 3, you can block his retreat, land E (Mourning Mist)'s armor shred and slow, and win the close-quarters fight his own kit can't escape from without burning Sadism early.",
+  "tell": {
+   "watch": "Infected Cleaver cooldown",
+   "theirWindow": {
+    "when": "Q (Infected Cleaver) is up, no minions between you",
+    "what": "He throws a free, low-risk cleaver at 975 range that scales off your max health. Stay behind minions or let your Mist Walkers soak it instead of standing in the open."
+   },
+   "yourWindow": {
+    "when": "W (Dark Procession) is off cooldown near the wave",
+    "what": "Drop the wall to cut his escape path, then mark him with E before trading. In close quarters he has no reliable disengage besides Sadism, so this is your highest-value all-in window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Free cleaver poke, no wall yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W unlocks, wall-trap all-ins open up"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Sadism offsets your burst windows"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Shojin/Serylda's online, shred sticks"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "His AoE sustain vs your split push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Highest measured win rate at the start slot (52.8% over 53 games) and the extra damage/sustain lets you actually win trades once the wall pins him in range."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Highest measured win rate on boots (53.5% over 43 games); cuts down the basic-attack and auto-reliant damage he adds back once Masochism is active."
+   },
+   "core": [
+    {
+     "item": "Executioner's Calling",
+     "why": "Applies Grievous Wounds, directly cutting Adrenaline Rush's per-second regen and Sadism's burst heal — this is the single biggest lever in the matchup."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "The empowered-auto spike punishes him for standing in your Mourning Mist zone during the close-quarters trades you're forcing."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction lets you threaten W and E more often per recall, keeping the wall-and-mark pattern on a tighter loop."
+    },
+    {
+     "item": "Serylda's Grudge",
+     "why": "More armor shred stacks with E and the slow lets you stick to him once he's low and trying to walk off."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "he starts stacking armor to blunt your physical damage"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the game goes long and you're splitting side lanes with the Maiden"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through the extended, close-quarters fights your wall creates and converts to healing that outlasts his sustain once Grievous Wounds is online. Note master-tier Yorick players run Grasp of the Undying instead (1,394 games) — better if you plan to out-regen his early poke rather than win the burst trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Bloodline",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite carries the highest measured win rate (57.4%); the Grievous Wounds from Ignite stacks with Executioner's Calling to shut down Sadism's heal during your all-in window. Flash + Teleport is the highest-pick option (54%) if you'd rather prioritize scaling and side-lane pressure."
+  },
+  "playing": [
+   {
+    "title": "Block cleavers with minions",
+    "detail": "Use the wave and your Mist Walkers to eat Infected Cleaver throws instead of tanking max-health damage at range before you have W."
+   },
+   {
+    "title": "Wall before you all-in",
+    "detail": "Drop W (Dark Procession, cd 20/18/16/14/12s) to cut his retreat the moment you commit to a trade."
+   },
+   {
+    "title": "Mark, then burst in close",
+    "detail": "Lead with E (Mourning Mist) for the armor shred and slow, then follow with your empowered Q (Last Rites) auto — your close-range output beats his."
+   },
+   {
+    "title": "Rush Grievous Wounds if stalled",
+    "detail": "If the lane isn't resolving by your first back, prioritize Executioner's Calling; it cuts both Adrenaline Rush and Sadism's regen."
+   },
+   {
+    "title": "Respect his low-health spike",
+    "detail": "Masochism (cd 7s) gives him AD scaling off missing health for a few seconds — expect his hardest trades right as he dips low, not just at execute range."
+   },
+   {
+    "title": "Don't waste ult on skirmishes",
+    "detail": "Eulogy of the Isles sits on a much longer cooldown (160-100s) than his Sadism (75s); save it for fights you can actually close out."
+   },
+   {
+    "title": "Push the level-3 spike",
+    "detail": "The moment W comes online is your first real kill window — chain it with E's mark immediately."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners and the quoted win rates come from measured games on the current patch via OP.GG; the mechanical and timing analysis is my own reading of the ability kits."
+ },
+ "generatedAt": 1791579906922,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791579813046,
+  "overall": {
+   "winRate": 49.4,
+   "play": 12213,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 103,
+   "wins": 52,
+   "winRate": 50.5
+  },
+  "laneAdvantage": "Yorick",
+  "soloKillAdvantage": "Yorick",
+  "playStyle": "even",
+  "opponentTip": "Avoid early game (Q) by using [p] and minions to block it. Yorick is stronger in close quarters so use [W] and [E] often to try to kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.9,
+    "play": 82,
+    "pickRate": 54
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 57.4,
+    "play": 54,
+    "pickRate": 35.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 42,
+    "pickRate": 27.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Legend: Bloodline"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.5,
+    "play": 39,
+    "pickRate": 25.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.8,
+    "play": 53,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48,
+    "play": 50,
+    "pickRate": 36.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.5,
+    "play": 43,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 59,
+    "play": 39,
+    "pickRate": 30.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Hullbreaker",
+     "Spear of Shojin"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 6.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 6.6
+   },
+   {
+    "items": [
+     "Executioner's Calling",
+     "Trinity Force",
+     "Spear of Shojin",
+     "Serylda's Grudge"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 5.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 46.3,
+    "play": 108,
+    "pickRate": 69.7
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 57.6,
+    "play": 66,
+    "pickRate": 42.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 58.7,
+    "play": 63,
+    "pickRate": 40.7
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 56.5,
+    "play": 46,
+    "pickRate": 29.7
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 40.6,
+    "play": 32,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 54.8,
+    "play": 31,
+    "pickRate": 20
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 44.6,
+    "play": 74
+   }
+  ],
+  "highElo": {
+   "keystone": "Grasp of the Undying",
+   "tree": "Resolve",
+   "play": 1394
+  }
+ }
+}

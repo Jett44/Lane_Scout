@@ -1,0 +1,388 @@
+{
+ "you": "Urgot",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured early",
+   "line": "You win this lane if you poke with ranged Q and reset before he closes distance; you lose it if you stand in extended trades and let Adrenaline Rush and Masochism heal him back and hit harder."
+  },
+  "thesis": "Urgot is the only one with real ranged pressure in this lane — Mundo's one ranged tool, Q (Infected Cleaver), comes off cooldown every 4 seconds but still leaves him walking the rest of the way in on a melee kit. The matchup is decided by trade length: his passive (Adrenaline Rush) regenerates a percentage of his max health every second, and his E (Masochism) hands him bonus AD the lower his health drops, so short poke-and-reset patterns favor you while long stand-and-fight trades let him heal and swing back harder. That's the whole lane.",
+  "tell": {
+   "watch": "Mundo's Q (Infected Cleaver) cooldown",
+   "theirWindow": {
+    "when": "When Mundo is below half HP",
+    "what": "Don't get baited into finishing him off in melee range — Masochism is actively giving him bonus AD for being low, and Adrenaline Rush is regenerating a chunk of that health back every second. Poke once, disengage, and let the drain happen from range instead of trading blows."
+   },
+   "yourWindow": {
+    "when": "Right after Mundo throws Infected Cleaver",
+    "what": "He has zero ranged answer for the next 4 seconds. Step up, land Q (Corrosive Charge) or auto-into-W (Purge) to trigger Echoing Flames, and use E (Disdain) to shove him off the wave if he's isolated."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has reliable kill pressure"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Ranged Q poke outpaces his melee approach"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute threatens before Sadism scales up"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "HP stacking and passive regen close the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Tankiness offsets your single-target damage in fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade > Health Potion",
+    "why": "85.9% pick rate at a 50% win rate — the extra AD speeds up your auto+Q poke damage and the potion lets you keep pressuring Mundo without backing off to heal."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Highest-performing boots at 50.9% win rate — Mundo's damage comes mostly from autos and Burning Agony's continual drain, and the bonus armor directly cuts his auto-attack trades once he closes distance."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred compounds across your auto+Q+W poke pattern and anchors the highest-pickrate build (45% win rate, 20% pick) as the first core item."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Gives you the health and tenacity to survive the moment he commits Burning Agony and Masochism together, so your own poke damage outlasts his all-in."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Completes the 20%-pick, 45% win-rate build path — stacking resistances scale directly against a bruiser trying to grind you down over a long fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "mundo starts stacking health and out-sustaining your poke with adrenaline rush"
+    },
+    {
+     "item": "Thornmail",
+     "when": "mundo builds tanky and leans on autos plus sadism to win extended fights"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need more lane dominance and wave-clear speed to shove him off minions"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their team adds heavy magic damage alongside mundo's physical pressure"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards exactly the poke pattern this lane wants — three hits mark Mundo and the next one deals bonus damage, punishing him for walking up into your range instead of using his own Q from distance.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "84.9% pick rate and the best win rate (53.2%) of the three options — Ignite's burn cuts directly into Adrenaline Rush's percent-health regen and Sadism's healing, taking away the exact tools Mundo needs to win an extended fight."
+  },
+  "playing": [
+   {
+    "title": "Poke before he closes",
+    "detail": "Fire Q (Corrosive Charge) at its full 800 range while Mundo has no gap closer besides walking. Don't stand still long enough to eat his Q (Infected Cleaver) for free."
+   },
+   {
+    "title": "Punish the Cleaver cooldown",
+    "detail": "After Mundo throws Q, you get 4 full seconds with zero ranged pressure from him. Step up, land auto-into-W (Purge) for the Echoing Flames proc, and follow with E (Disdain) if he's isolated."
+   },
+   {
+    "title": "Hold E for isolation or escape",
+    "detail": "Disdain's 16-14s cooldown is long early, so don't burn it just to poke. Save it to displace him off the wave or to disengage once he commits to an all-in."
+   },
+   {
+    "title": "Don't extend trades on a low-HP Mundo",
+    "detail": "Masochism scales his AD with missing health, and Adrenaline Rush keeps healing that health back. A drawn-out trade against a half-health Mundo can flip — reset instead of finishing it in melee."
+   },
+   {
+    "title": "Time R around Sadism",
+    "detail": "His R (Sadism, 75s cooldown) sacrifices health for huge regen and speed. Your R (Fear Beyond Death, 100/85/70/70/70s cooldown, 2500 range) executes off a health threshold — burst him below it before Sadism comes up, or he out-sustains the execute."
+   },
+   {
+    "title": "Build into the healing",
+    "detail": "Once Mundo starts stacking HP, pick up Executioner's Calling or Thornmail. Both his passive and Sadism regenerate percent-health, and grievous wounds cuts both directly."
+   },
+   {
+    "title": "Abuse maxed W uptime",
+    "detail": "W (Purge) cooldown drops all the way to 0 seconds at rank 5. Once it's maxed, hold it active whenever Mundo is in range to chain Echoing Flames procs through extended skirmishes."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and win rates above are pulled from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning — why the poke pattern, trade timing, and item spikes matter — is my own read of the kits."
+ },
+ "generatedAt": 1791580260919,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791580138223,
+  "overall": {
+   "winRate": 51.8,
+   "play": 10978,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 135,
+   "wins": 72,
+   "winRate": 53.3
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Use [P] from level 1 to apply pressure. Purchase items that reduce healing to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.2,
+    "play": 141,
+    "pickRate": 84.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 11.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 2.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.3,
+    "play": 35,
+    "pickRate": 21
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.2,
+    "play": 29,
+    "pickRate": 17.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 140,
+    "pickRate": 85.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 6.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.9,
+    "play": 55,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52,
+    "play": 50,
+    "pickRate": 32.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 45,
+    "play": 20,
+    "pickRate": 20
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Kaenic Rookern"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 49.7,
+    "play": 163,
+    "pickRate": 98.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 52.2,
+    "play": 115,
+    "pickRate": 69.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 51.4,
+    "play": 35,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 44.1,
+    "play": 34,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 12.7
+   },
+   {
+    "items": [
+     "Chempunk Chainsword"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 39.1,
+    "play": 23
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "K'Sante",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You own the lane and the solo-kill angle through level 5, but if the fight drags past level 10 Mundo's health-based scaling claws it back to the 45.7% win rate the data shows over 138 games."
+  },
+  "thesis": "K'Sante's Q (Ntofo Strikes) stacks into a shockwave pull that Mundo has no tool to escape, and W (Path Maker) stuns him the instant he's locked in — that's the structural reason K'Sante holds lane and solo-kill advantage early. But Dr. Mundo's Adrenaline Rush regenerates a percentage of his max health every second and Masochism (E) scales his AD off missing health, so the longer a trade or skirmish runs, the more those numbers quietly flip the exchange in his favor.",
+  "tell": {
+   "watch": "Mundo's missing-HP % (Masochism)",
+   "theirWindow": {
+    "when": "Mundo sits below 50% HP baiting a dive",
+    "what": "Masochism grants him AD scaled to missing health, so his autos hit hardest exactly when he looks killable, and Adrenaline Rush is already regenerating him back. Don't commit a trade on HP bar alone — check whether your Q (Ntofo Strikes) stacks and W (Path Maker) stun are actually up before you dive."
+   },
+   "yourWindow": {
+    "when": "You land 2 Q stacks on him in melee",
+    "what": "The second Ntofo Strikes stack fires a shockwave that pulls Mundo in from up to 450 range, and he has no dash or disengage to answer it. Follow immediately with W (Path Maker) for the stun — this chain is where your measured solo-kill advantage actually comes from."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q stacks force trades; Mundo has no escape"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W stun online; solo-kill window peaks here"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Sadism and sustain narrow your early lead"
+   },
+   {
+    "levels": "11-15",
+    "edge": "them",
+    "note": "His HP-scaling regen wins long skirmishes now"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build and All Out punch back"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Mundo's whole early game is auto-attack and Infected Cleaver poke chipping your max health; the passive damage reduction on autos and the regen let you match his Adrenaline Rush sustain instead of losing the war of attrition before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Masochism (E) is an auto-attack AD steroid, so flat damage reduction on his autos is worth more here than Mercury's Treads' tenacity — his W doesn't disable you, it only shortens his own disable duration."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The CDR and burst catalyst feed your Q (Ntofo Strikes) stack generation, letting you get to the 2-stack shockwave pull faster in every extended trade."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Grievous Wounds cuts directly into Adrenaline Rush's per-second max-health regen, which is the single stat that lets Mundo win long skirmishes against you."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances off your own tankiness lets you keep forcing fights into the late game, where his Masochism AD spike matters less against your scaling armor and MR."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "his Adrenaline Rush sustain is already winning trades before level 6"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "the lane turns into a prolonged poke-and-regen stalemate"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "the enemy team adds burst magic damage on top of Mundo's physical poke"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you're leaning on R (All Out)'s healing to close out extended fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Mundo's trade pattern is about chipping your max health with Infected Cleaver and autos over time; Grasp's bonus health and on-hit sustain directly answers that war of attrition instead of trying to out-burst a champion with built-in self-healing.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is run in 71% of these games (49.6% win rate) because it lets you reset off Mundo's ranged Q poke and still rejoin skirmishes at full resources; Flash+Ignite (47.9% WR, 27.3% pick) is the better call specifically when you plan to force the level 2-5 solo-kill window off your Q-shockwave into W stun."
+  },
+  "playing": [
+   {
+    "title": "Build to 2 Q stacks before committing",
+    "detail": "Ntofo Strikes grants a stack on hit; don't throw W (Path Maker) into a trade until you're one hit away from the 2-stack shockwave pull, since that's what removes his ability to just walk out of range."
+   },
+   {
+    "title": "Don't dive on HP bar alone",
+    "detail": "A low-health Mundo is baiting you — Masochism scales his AD off missing health and Adrenaline Rush is already ticking him back up. Only commit if your Q stacks and W stun are both available."
+   },
+   {
+    "title": "Push levels 3-5 hard",
+    "detail": "This is your measured solo-kill window before his sustain items and R (Sadism) at level 6 come online — force fights here, not later."
+   },
+   {
+    "title": "Save E (Footwork) for his Infected Cleaver",
+    "detail": "His Q is a 975-range skillshot thrown on a 4s cooldown that scales off your max health; use Footwork's shield to blunt the hit or to reposition out of his throw angle entirely."
+   },
+   {
+    "title": "Don't waste R chasing a poke trade",
+    "detail": "All Out is on a 120/100/80/80/80s cooldown and knocks him through walls before you go All Out on him — save it for a kill setup near a wall, not just to win a single exchange."
+   },
+   {
+    "title": "Prioritize grievous wounds if the sustain race stalls",
+    "detail": "If Mundo's Adrenaline Rush is outhealing your trades, rushing Bramble Vest into Thornmail cuts his regen directly rather than trying to out-damage a champion built to not die to poke."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, summoner spells, and all win-rate/sample numbers above are measured from live games on the current patch via OP.GG; the ability breakdowns, trade windows, and tactical reasoning connecting them are my own read of the matchup, not measured data."
+ },
+ "generatedAt": 1791579027400,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791578908360,
+  "overall": {
+   "winRate": 47.2,
+   "play": 17054,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 138,
+   "wins": 63,
+   "winRate": 45.7
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.6,
+    "play": 125,
+    "pickRate": 71
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.9,
+    "play": 48,
+    "pickRate": 27.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 24.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 41.7,
+    "play": 24,
+    "pickRate": 13.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 145,
+    "pickRate": 84.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 24,
+    "pickRate": 14
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.8,
+    "play": 109,
+    "pickRate": 67.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 61.7,
+    "play": 47,
+    "pickRate": 29.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 4.4
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 4.4
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 47.1,
+    "play": 155,
+    "pickRate": 84.2
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 54.7,
+    "play": 75,
+    "pickRate": 40.8
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 42.1,
+    "play": 57,
+    "pickRate": 31
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 39.6,
+    "play": 48,
+    "pickRate": 26.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.2,
+    "play": 43,
+    "pickRate": 23.4
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 56.1,
+    "play": 41,
+    "pickRate": 22.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.3,
+    "play": 45
+   }
+  ]
+ }
+}

@@ -1,0 +1,379 @@
+{
+ "you": "Renekton",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You win if you force short, Fury-timed all-ins before level 10; you lose if the lane drags out and Dr. Mundo's Adrenaline Rush sustain erases your early damage."
+  },
+  "thesis": "Renekton holds the lane and solo-kill advantage early because Fury-empowered W (Ruthless Predator) stun-locks Dr. Mundo through burst windows his passive can't out-heal. Adrenaline Rush regenerates a portion of his max health every second, which does nothing against a 10-15 second all-in but fully resets the lane once a skirmish stalls. That tension is exactly why the matchup lands at 44.1% over 338 games despite your early edge: quick stun-chain bursts win, drawn-out trades don't.",
+  "tell": {
+   "watch": "Your Fury bar (50+ threshold)",
+   "theirWindow": {
+    "when": "He pops W mid-stun",
+    "what": "Burning Agony drains his own health to cut disable duration, and its 1s cooldown means he can use it the instant you land empowered W — expect less than the full 1.5s stun and throw your follow-up damage immediately instead of walking away."
+   },
+   "yourWindow": {
+    "when": "Fury over 50, W and E both up",
+    "what": "Chain empowered W's triple slash (destroys shields, 1.5s stun) into empowered E's Armor shred — this burst spike outruns his per-second Adrenaline Rush regen before he can offset the damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "Fury-stun trades win early skirmishes"
+   },
+   {
+    "levels": "4-6",
+    "edge": "you",
+    "note": "Level 6 Dominus threatens early kills"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "Adrenaline Rush starts matching your damage"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "Sadism and HP regen outscale your burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade > Health Potion",
+    "why": "Lane sustain and raw damage to keep winning the attrition war against Infected Cleaver poke (42.6% WR, 85.6% pick over 338 games)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Mundo is a melee auto-attacker leaning on sustained basic-attack damage between cooldowns; flat damage reduction blunts that chip (43.9% WR, 47.8% pick)."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "A burst-heavy two-item spike punishes him before Adrenaline Rush can regenerate back the health you just took."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacking Armor shred on top of empowered E's own shred keeps your damage relevant as his HP pool and regen grow."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts a chunk of incoming damage into a heal-over-time, directly offsetting his cleaver poke and auto trades (62.5% WR over 24 games in this exact path)."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "he is leaning on healing and regen to win extended trades, per the standard read on this matchup"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need a burst-health buffer to survive his all-in once Sadism comes online"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "the game goes long and you need sustained DPS to keep pace with his scaling HP pool"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive damage and healing across an extended trade is the one thing that can match Adrenaline Rush's per-second regen once a skirmish runs past your burst window.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite's damage-over-time cuts through his healing during your all-in windows, and at 45% win rate with 89.3% pick rate it's the standard answer to a sustain-based laner like Mundo."
+  },
+  "playing": [
+   {
+    "title": "Track Fury before engaging",
+    "detail": "Only commit to extended trades at 50+ Fury, where Q, W, and E all get their empowered effects — below that threshold you're trading into his sustain for less reward."
+   },
+   {
+    "title": "All-in between levels 3-5",
+    "detail": "Your solo-kill advantage is real early; look for kills while Dominus is still on its long early cooldown for both of you and his healing can't outpace a stun-locked burst."
+   },
+   {
+    "title": "Expect a shortened stun",
+    "detail": "Burning Agony's 1s cooldown lets him shave time off your empowered W's 1.5s stun almost on reaction — land your follow-up damage immediately instead of walking away expecting the full duration."
+   },
+   {
+    "title": "Respect low-HP Mundo",
+    "detail": "Masochism gives him bonus AD scaling with missing health for several seconds, so a Mundo under half HP hits harder than his bar suggests — don't facecheck him expecting a free kill."
+   },
+   {
+    "title": "Shred Armor on every all-in",
+    "detail": "Empowered E reduces his Armor on hit — use it first in any engage so your W stuns and autos land for more, since his HP pool only grows over time."
+   },
+   {
+    "title": "Keep trades short",
+    "detail": "Burning Agony's continual drain and Adrenaline Rush's regen both reward him for staying in a fight — win the exchange in one stun-chain burst rather than skirmishing."
+   },
+   {
+    "title": "Back off once Fury is spent",
+    "detail": "Once your resources and cooldowns (W 16-8s, E 16-10s by rank) are down, disengage rather than trading evenly — even trades favor his passive regen over time."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win-rate figures are measured from live games on the current patch (16.20.1) via OP.GG; the tactical reasoning connecting them to specific ability mechanics and timings is my own analysis."
+ },
+ "generatedAt": 1791579138836,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791579034873,
+  "overall": {
+   "winRate": 50,
+   "play": 24018,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 338,
+   "wins": 149,
+   "winRate": 44.1
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Build up Fury while trying to engage aggressively to gain lane control. Purchase Executioner’s Calling and use it to create a gap in growth by pressuring Dr. Mundo.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45,
+    "play": 360,
+    "pickRate": 89.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 38.2,
+    "play": 34,
+    "pickRate": 8.4
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45,
+    "play": 140,
+    "pickRate": 34.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 8.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.6,
+    "play": 338,
+    "pickRate": 85.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 45,
+    "pickRate": 11.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 43.9,
+    "play": 171,
+    "pickRate": 47.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 44.2,
+    "play": 156,
+    "pickRate": 43.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 56,
+    "play": 25,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 62.5,
+    "play": 24,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.4,
+    "play": 285,
+    "pickRate": 70.2
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 46.9,
+    "play": 275,
+    "pickRate": 67.7
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 38.8,
+    "play": 116,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 43.6,
+    "play": 101,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 54.6,
+    "play": 97,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 55.7,
+    "play": 79,
+    "pickRate": 19.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 47.3,
+    "play": 129
+   }
+  ]
+ }
+}

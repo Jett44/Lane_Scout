@@ -1,0 +1,380 @@
+{
+ "you": "Cho'Gath",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, poke early",
+   "line": "You lose if you walk into his auto range without Q up and eat free Blinding Dart plus Toxic Shot poke; you win the moment you land Rupture into a trade or catch him inside Feast range past level 6."
+  },
+  "thesis": "Teemo is ranged with a blind on an 8s cooldown and free poison stacking on every auto, so pre-6 trades favor him whenever Cho has to walk up without a tool to close the gap. Cho's whole kit is melee-range (Vorpal Spikes trigger on attack, Feast is 175 range), so the lane hinges on whether Cho can land Q (Rupture) to force the fight on his terms instead of Teemo's.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "his Q (Blinding Dart) is up",
+    "what": "He can blind you before you reach auto range, shutting off your Vorpal Spikes damage while his Toxic Shot still ticks poison on you from his own autos. Don't initiate a stand-still trade here — he wins it for free."
+   },
+   "yourWindow": {
+    "when": "right after he fires Blinding Dart",
+    "what": "He has 8 seconds with no blind. Close the distance, land Q (Rupture) for the knockup and slow, then stack autos with E (Vorpal Spikes) and finish the trade with W (Feral Scream) to silence any Q he tries to flash-cooldown with. From level 6 on, follow this sequence into R (Feast) for a kill if he's below the true-damage threshold."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "ranged blind + free poison poke, you're melee"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Rupture online, you can punish approaches"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Feast true-damage threatens any overextension"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "teamfight engage vs his kiting and peel"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "57.4% win rate over 68 games and the regen plus block-on-hit sustain directly answers Teemo's poison-poke pattern better than a damage-first start in this lane."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "47.7% win rate over 130 games; the magic resist blunts Toxic Shot's damage-over-time and Blinding Dart's upfront hit, both magic damage."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "highest-winrate core path (58.3% over 12 games) and the gap-close lets you actually reach Teemo instead of eating poke on approach."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "part of the same 58.3% line; sustained damage and tankiness scale your melee trades once you're on top of him."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "closes out that build path; the movement speed burst compensates for being melee into a kiting target."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Force of Nature",
+     "when": "their team stacks sustained magic DOT or poke beyond just Teemo"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "you need more teamfight sustain and healing reduction against a DOT-heavy enemy comp"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "you're getting burst down in one rotation before you can engage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "47.4% win rate over this page's sample; it rewards the slow melee trades this lane forces on you and matches OP.GG's own call to use your passive to manage health and win attrition.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite has the highest win rate of the three options at 51.8% over this sample; Ignite's guaranteed damage closes out trades against a squishy Teemo before his Camouflage reset or Move Quick lets him reposition."
+  },
+  "playing": [
+   {
+    "title": "Hold spikes until Q lands",
+    "detail": "Don't walk into auto range to start stacking E (Vorpal Spikes) damage — land Q (Rupture)'s knockup and slow first so he can't just kite the whole fight."
+   },
+   {
+    "title": "Trade only on his Q cooldown",
+    "detail": "Blinding Dart has an 8s cooldown; engaging while it's up means he blinds your autos away for free. Engage in the window right after he's used it."
+   },
+   {
+    "title": "Track Camouflage resets",
+    "detail": "If Teemo stops moving for even a moment he can go invisible and reappear with an attack speed burst from Element of Surprise. Don't stand still in bushes near him pre-fight."
+   },
+   {
+    "title": "Save W for his cooldowns",
+    "detail": "Feral Scream's silence (13s cooldown, 300 range) is best used mid-trade to shut down a Blinding Dart or a mushroom plant once you're already in his face."
+   },
+   {
+    "title": "All-in at level 6 on overextension",
+    "detail": "Feast's true damage at 175 range can threaten lethal the moment he pushes past his minions. Bait him forward off a Rupture slow."
+   },
+   {
+    "title": "Don't contest early poke damage",
+    "detail": "Toxic Shot procs on every one of his autos with no cooldown; trading autos at range before you have Rocketbelt just bleeds you for free."
+   },
+   {
+    "title": "Play around mushroom vision loss",
+    "detail": "Noxious Trap has only a 1s cooldown to place, so expect zoning mushrooms in bushes and tri-brush — ward or sweep before committing to deep trades."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates above are measured from live games on the current patch via OP.GG; the mechanical reasoning for why each choice works in this matchup is my own tactical read, not sourced from the data."
+ },
+ "generatedAt": 1791578619897,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791578531639,
+  "overall": {
+   "winRate": 51.1,
+   "play": 26469,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 205,
+   "wins": 98,
+   "winRate": 47.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance to avoid being punished by Teemo during early game. Use your skills to poke and [P] to manage your health to gain the upper hand in lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.6,
+    "play": 175,
+    "pickRate": 62.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 85,
+    "pickRate": 30.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 110,
+    "pickRate": 38.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.4,
+    "play": 38,
+    "pickRate": 13.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.8,
+    "play": 171,
+    "pickRate": 64
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 57.4,
+    "play": 68,
+    "pickRate": 25.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.7,
+    "play": 130,
+    "pickRate": 51.2
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 46,
+    "play": 87,
+    "pickRate": 34.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Force of Nature"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Unending Despair"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 3.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 51.9,
+    "play": 158,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 50.5,
+    "play": 107,
+    "pickRate": 37.7
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 58.8,
+    "play": 85,
+    "pickRate": 29.9
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 50.6,
+    "play": 77,
+    "pickRate": 27.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 51.5,
+    "play": 68,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 50,
+    "play": 56,
+    "pickRate": 19.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 58
+   }
+  ]
+ }
+}
