@@ -1,0 +1,380 @@
+{
+ "you": "Darius",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand and trade autos into Mundo's Q poke before level 3; you win if you E-pull him the instant Apprehend comes online and commit to the all-in."
+  },
+  "thesis": "Darius holds the lane advantage and the solo-kill advantage here, but the 44.4% head-to-head win rate over 349 games tells the real story: Mundo's Adrenaline Rush sustain and Sadism let him survive your early windows and scale back into relevance. This is a lane you're supposed to win on paper and have to close out before his kit catches up.",
+  "tell": {
+   "watch": "Mundo's Q (Infected Cleaver) cooldown",
+   "theirWindow": {
+    "when": "levels 1-2, before your E exists",
+    "what": "Mundo throws Infected Cleaver (4s cooldown, 975 range, scales off your max health) for free since you have no gap-closer yet. Hug minions and walk up in short bursts instead of standing at max auto-attack range soaking it."
+   },
+   "yourWindow": {
+    "when": "his Q just missed or is on cooldown",
+    "what": "Apprehend (E) is live the second it's off cooldown — close the gap, pull him in, and start stacking Hemorrhage with Q and autos before he can reset the fight."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "No E yet, free Q pokes land"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E online, all-in trades favor you"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R execute outpaces his early sustain"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "His HP scaling and regen close it"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Runs 43.8% over 331 games at a 77.9% pick rate — the extra sustain and early trade damage matter because you need to win exchanges outright before his Adrenaline Rush ticks the health back."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Posts the better win rate of the two options (47% over 134 games) — Mundo's pressure comes from autos and Q poke stacking up over the laning phase, and flat damage reduction blunts that better than tenacity here."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste gives you a second gap-close on top of E, which matters against a champion whose only real counter-engage is burning his own health to run."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "The movespeed stacking lets you actually stay on top of him once Apprehend lands instead of letting him walk back to minion range and poke again."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "This path hits 57.7% over 26 games — the damage-over-time conversion keeps you alive through his sustained mid-game trades while your own bleed stacks do the real work."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "their team adds hard CC that could lock you out of finishing the guillotine execute"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "mundo's team skews toward magic damage and you need the move speed to keep sticking him"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need another active slow to stop him from disengaging into a Sadism reset"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The higher-sample page (47.9% WR, 32% pick) runs Conqueror, and the stacking healing matters directly against a lane where he's trying to out-sustain you — note that master-tier Darius players instead favor Stormraider's Surge (Sorcery) over 3,021 games, which suits a more mobile, poke-dodging playstyle rather than grinding out extended trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost is the most-picked combo (69.7% pick, 44.8% WR) and the extra mobility is exactly what OP.GG's own matchup note calls for — closing distance before he can poke freely or disengage. Flash+Ignite (40.3% WR) trades that mobility for a guaranteed early kill if you're confident you can force a level 2-3 all-in."
+  },
+  "playing": [
+   {
+    "title": "Close distance before trading",
+    "detail": "Infected Cleaver is a 975-range, 4-second-cooldown poke that scales off your max health. Walk up behind minions in short bursts rather than standing still at range eating free Q's."
+   },
+   {
+    "title": "Save E for the engage",
+    "detail": "Apprehend's pull is your only way to force a fight on a champion with no hard displacement of his own — don't waste the cooldown (26 down to 16s at max rank) chasing minions."
+   },
+   {
+    "title": "Stack bleed before swinging R",
+    "detail": "Hemorrhage stacks up to 5 and enrages you with bonus AD at max stacks, and Noxian Guillotine's true damage scales with those stacks. Land Q and autos to full stacks before committing the ultimate instead of guillotining early."
+   },
+   {
+    "title": "Respect Masochism at low Mundo HP",
+    "detail": "Masochism gives him bonus attack damage based on missing health, so a low-HP Mundo is not a safe Mundo to facetank. Finish him with a fully-stacked guillotine rather than trading autos at the end."
+   },
+   {
+    "title": "Commit fully once hooked",
+    "detail": "Adrenaline Rush regenerates a chunk of his max health every second, so poke-and-retreat trades just heal back. Once E lands, go all the way through the fight instead of disengaging."
+   },
+   {
+    "title": "Use W to lock him in range",
+    "detail": "Crippling Strike's empowered next attack slows him via the bleed on a 5-second cooldown. Chain it right after your E pull so he can't walk back out to Q range."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoner spells and all win-rate/sample figures above are measured OP.GG data from the current patch; the tactical reasoning — why the numbers shake out this way — is my own read of the matchup."
+ },
+ "generatedAt": 1791561893378,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791561778739,
+  "overall": {
+   "winRate": 49.5,
+   "play": 23728,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 349,
+   "wins": 155,
+   "winRate": 44.4
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "even",
+  "opponentTip": "Avoid being punished by Dr. Mundo’s [Q] pokes. Try to close in before fighting him to kill him or at least get a Summoner’s Spell.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 44.8,
+    "play": 306,
+    "pickRate": 69.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40.3,
+    "play": 119,
+    "pickRate": 27.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.9,
+    "play": 140,
+    "pickRate": 32
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.8,
+    "play": 105,
+    "pickRate": 24
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 43.8,
+    "play": 331,
+    "pickRate": 77.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 80,
+    "pickRate": 18.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 44.7,
+    "play": 150,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47,
+    "play": 134,
+    "pickRate": 32.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 57.7,
+    "play": 26,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 41.5,
+    "play": 207,
+    "pickRate": 46.4
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 47.8,
+    "play": 205,
+    "pickRate": 46
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 44.1,
+    "play": 143,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 47.5,
+    "play": 118,
+    "pickRate": 26.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.1,
+    "play": 117,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 49.1,
+    "play": 114,
+    "pickRate": 25.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 46.7,
+    "play": 120
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 3021
+  }
+ }
+}

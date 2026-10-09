@@ -1,0 +1,385 @@
+{
+ "you": "Cho'Gath",
+ "them": "Yorick",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, play patient",
+   "line": "You lose if Yorick walls you into a melee Last Rites trade before level 6; you win if you poke him down with Rupture and finish with Feast's true damage once it's up."
+  },
+  "thesis": "Yorick wins close-range skirmishes early because Last Rites' bonus damage and self-heal out-trade a low-rank Cho'Gath, and Dark Procession's wall can pin you into those fights before you're ready to take them. Your actual tools are range and patience: Rupture pokes him down from 950 range without ever triggering a melee exchange, and once R (Feast) comes online at level 6 its true damage ignores his sustain entirely. The 46.9% head-to-head over 192 games reflects a lane that's close on paper but plays as two very different matchups depending on whether the fight happens at range or against a wall.",
+  "tell": {
+   "watch": "Yorick's W (Dark Procession) cooldown",
+   "theirWindow": {
+    "when": "W wall traps you near terrain",
+    "what": "Yorick lands Dark Procession's wall to cut off your retreat, then stacks Last Rites' bonus damage and heal in extended melee. Back off or flash out immediately rather than trading blows against the wall."
+   },
+   "yourWindow": {
+    "when": "Dark Procession (W) is on cooldown",
+    "what": "With no wall threat up, engage with Q (Rupture)'s pop-and-slow into W (Feral Scream)'s silence to shut down his Last Rites attack, then finish with R (Feast) once it's available at level 6+ for the true-damage kill."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Last Rites heal-trade beats low-rank Vorpal Spikes"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Dark Procession wall enables forced trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Feast's true damage ignores his sustain"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Mourning Mist cooldowns shrink, Feast stacks grow"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Riftmaker/Heartsteel bulk outscales his split push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring, Health Potion, Health Potion",
+    "why": "Mana sustain lets you spam Q (Rupture, 9s cooldown) to poke Yorick off instead of letting him close to Last Rites range; the potions offset his early poke-heal damage."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Yorick's damage is physical and attack-based through Last Rites' bonus-damage auto and basic trades, so flat armor mitigates more than Swiftness does here."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Gives you a gap-closing burst combo to catch Yorick before he can dig away and heal off a grave."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "The magic damage amp and omnivamp let you win the extended skirmishes his Last Rites healing is designed to win."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Closes distance onto him and stacks with Vorpal Spikes damage once you're on top of him."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "yorick builds heavy attack speed or crit and starts out-trading your autos"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you need more frontline tank stats for extended teamfights"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want stacking health over burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on Vorpal Spikes-enabled autos during extended trades, healing you and growing your max health so you out-sustain Last Rites' heal-trade pattern instead of losing the race.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This lane rewards poking and resetting over forcing all-ins before 6; Teleport lets you reset off a Dark Procession wall or a poke exchange and get straight back to the wave."
+  },
+  "playing": [
+   {
+    "title": "Poke with Rupture, don't melee",
+    "detail": "Use Q (Rupture, 9s cooldown, 950 range) to pop and slow Yorick from range rather than trading autos, since his Last Rites heals him on hit and you don't want a melee exchange before level 6."
+   },
+   {
+    "title": "Respect the wall",
+    "detail": "W (Dark Procession, 600 range) summons a destructible wall that can trap you against terrain. Check its cooldown before fighting near jungle walls or tri-brush."
+   },
+   {
+    "title": "Save Feral Scream for his attack",
+    "detail": "W (Feral Scream, 13s cooldown, 300 range cone) silences enemies in front of you. Hold it to cut off Last Rites' bonus-damage attack mid-trade instead of burning it purely for poke damage."
+   },
+   {
+    "title": "All-in once Feast is up",
+    "detail": "At level 6, R (Feast, 60s cooldown, 175 range) deals high true damage that ignores his healing entirely and can outright kill him, exactly as OP.GG's tip suggests."
+   },
+   {
+    "title": "Farm Vorpal Spikes stacks",
+    "detail": "E (Vorpal Spikes) is on a 0.5s cooldown and hits everything in front of you on your autos, including any Mist Walkers he raises. Keep attacking through them rather than kiting away."
+   },
+   {
+    "title": "Crash the wave before he digs graves",
+    "detail": "Yorick's Q and E dig graves on champion hits that let him summon Mist Walkers. Don't let minions stack unanswered near him; push waves early to deny the setup."
+   },
+   {
+    "title": "Teleport back if poked low",
+    "detail": "If Last Rites pokes you under half health before level 6, recall and teleport back in rather than contesting a fight you can't win yet."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner picks above are the measured highest-performing choices from live games on the current patch; the win-rate, sample-size, and cooldown numbers are all taken directly from OP.GG and the game files, while the tactical reasoning connecting them is my own read of the matchup."
+ },
+ "generatedAt": 1791561219024,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791561115841,
+  "overall": {
+   "winRate": 51.2,
+   "play": 24142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 192,
+   "wins": 90,
+   "winRate": 46.9
+  },
+  "laneAdvantage": "Yorick",
+  "soloKillAdvantage": "Yorick",
+  "playStyle": "even",
+  "opponentTip": "Avoid being trapped inside (E). Keep on poking from a distance and try to get a kill after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.9,
+    "play": 167,
+    "pickRate": 68.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.1,
+    "play": 65,
+    "pickRate": 26.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 2.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 46.7,
+    "play": 75,
+    "pickRate": 30.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.4,
+    "play": 58,
+    "pickRate": 23.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.3,
+    "play": 164,
+    "pickRate": 68.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 48,
+    "pickRate": 20.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 130,
+    "pickRate": 57.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 50,
+    "play": 48,
+    "pickRate": 21.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Thornmail"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 5.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Sunfire Aegis",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.6,
+    "play": 170,
+    "pickRate": 68.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.9,
+    "play": 77,
+    "pickRate": 31.2
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 47.2,
+    "play": 72,
+    "pickRate": 29.2
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 44.6,
+    "play": 65,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 51.6,
+    "play": 62,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 66,
+    "play": 53,
+    "pickRate": 21.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 56.6,
+    "play": 76
+   }
+  ]
+ }
+}

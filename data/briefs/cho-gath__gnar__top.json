@@ -1,0 +1,377 @@
+{
+ "you": "Cho'Gath",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Gnar poke you down with Boomerang Throw before level 6; you win if you hit Q (Rupture) to set up R (Feast) kills once Mega Gnar's window closes."
+  },
+  "thesis": "This matchup is a 48.8% win rate over 160 games because Gnar's Boomerang Throw and Mega Gnar form force you to play around a timer, not a cooldown. Mini Gnar kites you with ranged poke and short-cooldown Hop, but Mega Gnar loses mobility entirely, giving you a flat window to walk him down and land Rupture plus Feast.",
+  "tell": {
+   "watch": "Gnar's Rage bar / Mega form",
+   "theirWindow": {
+    "when": "Mini Gnar, Rage bar low",
+    "what": "He throws Boomerang Throw (16-10s cooldown depending on rank, range 1100) to poke and slow you, then Hops away (22-12s cooldown, range 475) if you close distance. Don't walk forward to trade melee into a full Rage bar — you just feed him free hits and Hyper (W) move speed."
+   },
+   "yourWindow": {
+    "when": "Rage bar maxed, Mega Gnar triggers",
+    "what": "Mega Gnar can't Hop and loses his ranged poke — he's forced into melee Wallop (W) and area Crunch (E). The instant he transforms, walk in, land Q (Rupture, 9s cooldown, 950 range) to knock him up and slow him, then follow with R (Feast, 60s cooldown, 175 range) for the true damage execute."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Boomerang poke outranges your kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Hop lets him disengage trades freely"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Feast) threatens kills on Mega transform"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Rocketbelt lets you dash onto Mega Gnar"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "GNAR! wall-stun punishes bad positioning"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Taken in 60% of games and wins 56.1% — the extra potion charges let you sustain through early Boomerang Throw poke without recalling."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked 59.1% of the time at 47.3% win rate — the flat physical damage reduction blunts Gnar's auto-attacks and Boomerang Throw procs while you close distance."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "The dash is how you actually catch Mega Gnar the instant he loses his Hop — this path hits 81.3% in its sample."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained magic damage and the true-damage proc scale your Vorpal Spikes trades once he's stuck in melee range."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Move speed stacking closes the gap on a kiting Mini Gnar between Rocketbelt charges."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds into an auto-attack-heavy hybrid kit and you need the grievous wounds and armor"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want a tankier front-to-back build with Unending Despair and Kaenic Rookern"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Hail of Blades",
+   "keystoneWhy": "Taken in 35.7% of games at 56.3% win rate — the burst of attack speed front-loads Vorpal Spikes damage in short trade windows before he Hops away.",
+   "primary": [
+    "Cheap Shot",
+    "Grisly Mementos",
+    "Ultimate Hunter"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Move Speed",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 65% of games at 54.7% win rate — Teleport lets you reset after losing early trades to poke and still scale into your Rocketbelt timing."
+  },
+  "playing": [
+   {
+    "title": "Track the Rage bar, not his HP",
+    "detail": "Gnar's threat level flips entirely on his Rage meter. A full bar means Mega Gnar is one ability away — back off and wait for the transform rather than trading into it."
+   },
+   {
+    "title": "Never chase Mini Gnar",
+    "detail": "Hop (475 range, 22-12s cooldown by rank) lets him disengage any extended chase. Walking forward into a ranged Boomerang Throw just eats more poke for nothing."
+   },
+   {
+    "title": "Rupture the instant he transforms",
+    "detail": "Mega Gnar can't Hop, so the moment he goes big, land Q (Rupture, 9s cooldown, 950 range) to knock him up and slow him into melee range."
+   },
+   {
+    "title": "Feast on cooldown, not on cooldown-watch",
+    "detail": "R (Feast, 60s cooldown) deals high true damage and grows your max HP on a kill — use it to finish Mega Gnar whenever he's low, don't save it waiting for a 'perfect' engage."
+   },
+   {
+    "title": "Save Feral Scream for his stun setup",
+    "detail": "W (Feral Scream, 13s cooldown, 300 range) silences — hold it to shut down GNAR! (his ultimate) or Wallop at level 6+ rather than using it on cooldown for poke."
+   },
+   {
+    "title": "Push waves during his Mini phase",
+    "detail": "Vorpal Spikes passively damages everything in front of you on attack — use Mini Gnar's poke-only phase to shove the wave in rather than contesting trades you lose."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and win rates above are measured from real games on the current patch via OP.GG; the lane-timing and mechanical reasoning (Rage bar tells, Rupture-into-Feast execute windows) is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791561589854,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791561551374,
+  "overall": {
+   "winRate": 51.2,
+   "play": 24142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 160,
+   "wins": 78,
+   "winRate": 48.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being kited by Mini Gnar by keeping your distance. Use your skills to push and contest lane. Try to use [R] after reaching level 6 to try to get a kill.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.7,
+    "play": 128,
+    "pickRate": 65
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40,
+    "play": 60,
+    "pickRate": 30.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 2.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 56.3,
+    "play": 71,
+    "pickRate": 35.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 34.8,
+    "play": 23,
+    "pickRate": 11.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 56.1,
+    "play": 114,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.1,
+    "play": 58,
+    "pickRate": 30.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.3,
+    "play": 110,
+    "pickRate": 59.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 60.4,
+    "play": 48,
+    "pickRate": 25.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 81.3,
+    "play": 16,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Dead Man's Plate",
+     "Riftmaker"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 4.1
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 3.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 49.5,
+    "play": 107,
+    "pickRate": 53.8
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 49.5,
+    "play": 99,
+    "pickRate": 49.8
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 64.3,
+    "play": 56,
+    "pickRate": 28.1
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 64,
+    "play": 50,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.4,
+    "play": 39,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 19.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 57.8,
+    "play": 45
+   }
+  ]
+ }
+}

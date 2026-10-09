@@ -1,0 +1,385 @@
+{
+ "you": "Cho'Gath",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you facetank Brutal Strikes trades into a charged Granite Shield, you win if you silence his engage and all-in off Rupture into Feast."
+  },
+  "thesis": "Malphite's Granite Shield blunts single pokes, so Cho'Gath's passive Vorpal Spikes autos matter more than burst — they chip through repeated contact rather than one big hit. At level 6, Rupture's slow and airborne pop sets up a true-damage Feast that Malphite has no clean answer for, which is why Cho'Gath carries the 55.5% head-to-head over 373 games and the measured solo-kill edge.",
+  "tell": {
+   "watch": "Malphite's Granite Shield recharge state",
+   "theirWindow": {
+    "when": "Shield fully recharged, undamaged",
+    "what": "He can walk up, eat your opening auto for free, and trade back with Brutal Strikes active (bonus Armor and Attack Damage) or poke with Seismic Shard (8s cooldown, 625 range, slows). Don't dump your full combo into a fresh shield."
+   },
+   "yourWindow": {
+    "when": "Shield down, your W is up",
+    "what": "Once you've already landed a hit this cycle, the shield is cracked. Fire Feral Scream (13s cooldown, 300 range cone) to silence him before he can activate Brutal Strikes or Ground Slam, then walk the auto-spike trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Granite Shield absorbs early single-hit poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Feral Scream silence shuts down his engage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Rupture into Feast threatens solo kills"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Maxed Brutal Strikes wins extended skirmishes"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Feast stacks and true damage scale best"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "Matches the majority pick (69.3% of 323 games, 54.2% win rate) and gives the mana sustain you need to keep firing Q and W every cooldown instead of rationing them."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The 52.7% win rate pick over 205 games; every one of Malphite's damaging abilities (W, E, R) is magic, so the magic resist plus tenacity against his Unstoppable Force knockup is worth more here than pure speed."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Highest-win-rate core path in the data (65.2% over 23 games) — the bonus health feeds your Feast stacking and your passive spike trades."
+    },
+    {
+     "item": "Hollow Radiance",
+     "why": "Sustains you through repeated E-spike trading and adds magic penetration against his armor-leaning build."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Directly punishes his Brutal Strikes auto-attack window and the champion-reliant Malphite damage profile."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hextech Rocketbelt",
+     "when": "he plays passively and you need a gap-closer to force Feast range"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustained magic damage over true-damage burst"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "he builds into heavy armor and your trades are getting shrugged off"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need to close distance faster to land Rupture before he resets to his shield"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest win rate of the two listed pages (63% over its sample) — it rewards exactly the walk-up-and-auto trade pattern that wears down Granite Shield, and the permanent bonus health compounds with Feast stacking.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The standard pick at 73.3% with a 55.4% win rate, giving you wave control and late-game flexibility; swap Ignite in if you want to press the solo-kill advantage directly off a level-6 Feast all-in (56.4% win rate, 21% pick)."
+  },
+  "playing": [
+   {
+    "title": "Trade with spikes before cooldowns",
+    "detail": "Vorpal Spikes fires passively off every auto (0.5s internal cooldown) and chips through a recharged Granite Shield faster than a single Q or W would. Walk up and auto before committing cooldowns."
+   },
+   {
+    "title": "Silence before he buffs",
+    "detail": "Use Feral Scream the moment he starts walking in to activate Brutal Strikes or line up Ground Slam. The silence denies the cast outright rather than just the damage."
+   },
+   {
+    "title": "All-in off Rupture at level 6",
+    "detail": "Rupture's slow plus airborne pop (9s cooldown, 950 range) gives you time to close in and land Feast for true damage. This is your strongest solo-kill window and matches the data's solo-kill edge."
+   },
+   {
+    "title": "Don't facetank Ground Slam stacks",
+    "detail": "Ground Slam (7s cooldown, 400 range) scales off his Armor and cuts your attack speed. Repeated exposure slows your spike uptime, so break line of sight or back off between trades instead of standing in it."
+   },
+   {
+    "title": "Save Feast for champions, not minions",
+    "detail": "Each kill with Feast grows your max health up to 6 stacks. Prioritize using it on Malphite over clearing a cannon wave unless the wave is critical."
+   },
+   {
+    "title": "Respect the 9-12 power dip",
+    "detail": "Once he maxes Brutal Strikes, extended skirmishes tilt back toward him. Shorten your trades in this window and lean on poke instead of prolonged exchanges."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win rates are measured from live OP.GG games on the current patch (16.20.1); the tactical reasoning connecting them to specific cooldowns and timings is my own read, not sourced data."
+ },
+ "generatedAt": 1791560851031,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791560779598,
+  "overall": {
+   "winRate": 51.2,
+   "play": 24142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 373,
+   "wins": 207,
+   "winRate": 55.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Cho'Gath",
+  "playStyle": "aggressive",
+  "opponentTip": "Use [Q] when he steps in to use (Q). Manage your health with [P] while using your skills to contest lane to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.4,
+    "play": 352,
+    "pickRate": 73.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.4,
+    "play": 101,
+    "pickRate": 21
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 2.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 148,
+    "pickRate": 30.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 63,
+    "play": 135,
+    "pickRate": 28
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 54.2,
+    "play": 323,
+    "pickRate": 69.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 92,
+    "pickRate": 19.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.7,
+    "play": 205,
+    "pickRate": 46
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53.7,
+    "play": 136,
+    "pickRate": 30.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Thornmail"
+    ],
+    "winRate": 65.2,
+    "play": 23,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 6.1
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Unending Despair"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 57.4,
+    "play": 359,
+    "pickRate": 73.1
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 49.3,
+    "play": 148,
+    "pickRate": 30.1
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 61.1,
+    "play": 131,
+    "pickRate": 26.7
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 51.2,
+    "play": 123,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 58.6,
+    "play": 116,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 67,
+    "play": 103,
+    "pickRate": 21
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 55.8,
+    "play": 165
+   }
+  ]
+ }
+}

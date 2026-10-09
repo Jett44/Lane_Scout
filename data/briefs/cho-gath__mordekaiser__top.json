@@ -1,0 +1,381 @@
+{
+ "you": "Cho'Gath",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill early lane",
+   "line": "You lose if you let him land three autos or spells and trigger Darkness Rise mid-trade; you win if you poke with Rupture, bank Feast stacks, and let your health-stacking items take over after level 9."
+  },
+  "thesis": "Mordekaiser's passive, Darkness Rise, only turns on after he lands three attacks or spells on a champion, so this lane is decided entirely by whether he gets sustained melee access to you. Cho'Gath's 950-range Q (Rupture) exists to poke and create distance before that threshold is reached, while any extended auto-trade hands Morde a free damage-and-speed buff he uses to close out the exchange. The head-to-head sits at 45.8% over 262 games with lane and solo-kill edge to Mordekaiser, which tracks with a kit built around punishing proximity rather than raw stat deficits.",
+  "tell": {
+   "watch": "Mordekaiser's 3-hit passive stacks",
+   "theirWindow": {
+    "when": "he's landed 2 hits on you already",
+    "what": "Disengage immediately rather than trading a third exchange — Darkness Rise gives him a damage aura and move speed on the third landed hit, and you cannot out-trade that buff in melee once it's live."
+   },
+   "yourWindow": {
+    "when": "you land a clean Q knockup",
+    "what": "Rupture's knock-up and slow buys you the full 950-range gap to walk away or follow with W (Feral Scream) from its 300-range cone; use the window to reset the poke pattern, not to walk back in and auto."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Rupture range decides who lands first poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Darkness Rise snowballs any melee trade"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates online, all-ins risky both ways"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Grasp sustain and core items stabilize lane"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Heartsteel HP stacking outscales his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "This is the majority start (72.8% pick, 48.3% win rate) and it fits the poke pattern — it fuels the mana cost of repeated Q/W pokes rather than rewarding the extended melee sustain that Doran's Shield is built for, which is exactly the trade you're trying to avoid."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The majority pick (56.8%) at a near-identical win rate to Swiftness — the tenacity cuts the duration of his E (Death's Grasp) pull into a W (Feral Scream) silence chain, which is the exact combo that punishes you for standing still."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "The strongest-performing sampled full build (56.3% over 16 games) starts here — it stacks health directly off your autos, compounding with Feast's permanent growth instead of competing with it."
+    },
+    {
+     "item": "Hollow Radiance",
+     "why": "Second item in that same top-performing path — adds sustain and AoE pressure once you're grouped, covering the window where his W (Indestructible) shield otherwise outlasts your damage."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Closes out the 56.3% win-rate path — the damage-reduction-into-healing effect directly counters the burst from his Q (Obliterate) hitting a single target."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's leaning on his W (Indestructible) self-heal to win extended trades"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "he's landing clean single-target Obliterate casts for burst damage"
+    },
+    {
+     "item": "Hextech Rocketbelt",
+     "when": "you want to pivot into the Riftmaker burst path instead of the tank bruiser build"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's on-hit heal lets you absorb his early autos while you poke back with Q, directly offsetting the lane and solo-kill deficit this data shows, and it stacks the permanent health growth that's already central to your Feast identity.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The dominant pick (70.7%) at the dataset's best win rate (50.4%) — Teleport lets you reset after a poke-trade recall and still make level-advantage plays elsewhere, since you're not winning sustained pre-6 all-ins to justify Ignite."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't brawl",
+    "detail": "Lead every exchange with Q (Rupture, 9s cooldown, 950 range) from max range instead of walking into an auto-trade — every attack he lands on you in melee pushes him toward his passive threshold."
+   },
+   {
+    "title": "Reset after two hits land",
+    "detail": "Darkness Rise triggers on his third landed attack or spell against you; if he's already connected twice, disengage rather than contest a third exchange."
+   },
+   {
+    "title": "Save W for his engage tools",
+    "detail": "Feral Scream's silence (13s cooldown, 300-range cone) is more valuable shutting down his E (Death's Grasp) pull or his R cast than used purely for poke damage."
+   },
+   {
+    "title": "Don't commit Feast carelessly",
+    "detail": "R (Feast, 60s cooldown) permanently grows you on a kill but costs half your stacks if you die — only cast it when the kill or your own survival is secured, since his W can bank the true damage you deal into a shield he turns into healing."
+   },
+   {
+    "title": "Track his ultimate timer",
+    "detail": "Realm of Death starts at a 140s cooldown and isolates you 1v1, stealing your stats if he kills you — avoid overextending once enough time has passed for it to be back up."
+   },
+   {
+    "title": "Hold Vorpal Spikes for forced trades",
+    "detail": "E's passive spike damage only matters once you're already in range, so don't walk in just to proc it — let it punish him when he initiates, not the other way around."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and summoner spells above reflect OP.GG's measured win rates for this matchup on the current patch (262 head-to-head games); the mechanical reasoning — when to poke, when to disengage, when to commit Feast — is my own read of the ability kit, not part of the stat sample."
+ },
+ "generatedAt": 1791560693095,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791560585371,
+  "overall": {
+   "winRate": 51.2,
+   "play": 24142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 262,
+   "wins": 120,
+   "winRate": 45.8
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Keep some distance to deactivate his (P) while using your skills to poke. Use [Q] to create some distance.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.4,
+    "play": 236,
+    "pickRate": 70.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.5,
+    "play": 87,
+    "pickRate": 26.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 52,
+    "play": 127,
+    "pickRate": 37.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.3,
+    "play": 70,
+    "pickRate": 20.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 238,
+    "pickRate": 72.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.9,
+    "play": 53,
+    "pickRate": 16.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.7,
+    "play": 176,
+    "pickRate": 56.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.8,
+    "play": 90,
+    "pickRate": 29
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Unending Despair"
+    ],
+    "winRate": 56.3,
+    "play": 16,
+    "pickRate": 8.8
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Thornmail"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.5,
+    "play": 202,
+    "pickRate": 58.2
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 47.4,
+    "play": 133,
+    "pickRate": 38.3
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 54.3,
+    "play": 116,
+    "pickRate": 33.4
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 52.6,
+    "play": 78,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 41.9,
+    "play": 62,
+    "pickRate": 17.9
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 60.3,
+    "play": 58,
+    "pickRate": 16.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.3,
+    "play": 90
+   }
+  ]
+ }
+}

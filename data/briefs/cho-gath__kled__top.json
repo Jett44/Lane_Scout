@@ -1,0 +1,394 @@
+{
+ "you": "Cho'Gath",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose extended trades from level 1 to 5 while Kled is mounted and his dashes are up, but you flip the lane once Rupture and Feral Scream can interrupt his all-in and Feast starts banking true damage."
+  },
+  "thesis": "Kled's Skaarl passive gives him a second health bar, so early trades look even until the mount suddenly pops and he's forced into a much weaker dismounted state. Cho'Gath's short-ranged kit can't out-trade a mounted Kled who dashes in with E (Jousting) and hooks with Q (Bear Trap on a Rope), but Rupture's knockup and slow punish the dash commitment and Feral Scream's silence erases his Violent Tendencies burst once it lands.",
+  "tell": {
+   "watch": "Kled's Skaarl mount health bar",
+   "theirWindow": {
+    "when": "Mounted, Q and E both up",
+    "what": "He can Jousting in, Bear Trap to extend the stick, and trade freely while Skaarl eats the damage. Don't commit to a full trade here — bait the dash and knock it away with Rupture instead of standing to fight."
+   },
+   "yourWindow": {
+    "when": "Skaarl's bar empties and he dismounts",
+    "what": "His damage to champions drops and he has to fight to rebuild courage before remounting. This is when you walk up, silence with Feral Scream to deny Pocket Pistol's knockback escape, and finish with Feast for true damage and a stack."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Jousting dashes punish your short range hard"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Mounted all-ins carry real solo-kill threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Feast true damage and silence start trading back"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "HP stacks and Grasp sustain outlast his bursts"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build lets you silence-lock and execute"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "The highest-winning start here (52.9% over 51 games) — the extra mana sustains Rupture and Feral Scream spam so you can keep threatening the knockup every time he dashes in."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "68.6% pick and the stronger winrate option; it blunts both Violent Tendencies' four-hit attack-speed burst and the auto-reset pressure Kled applies while mounted."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Gives you a gap-close/disengage tool of your own so you're not purely reactive to his Jousting range."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Omnivamp sustains through his poke phase and scales your true-damage Feast threat into the mid game."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Adds the health and move speed to actually catch him post-dismount instead of letting him kite with Pocket Pistol."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds into heavy attack speed or crit and the Violent Tendencies burst windows start actually threatening you"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "he's snowballing solo kills and you need the shield and tenacity to survive his all-in"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want max health to stack with Feast for teamfight presence"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team shifts to magic damage later and your resistances need rebalancing"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The sustain-per-trade is exactly what OP.GG's own tip asks for — you need healing to survive being poked by Q and dashed on by E while you wait for your knockup window. Master-tier Cho'Gath players instead run Hail of Blades (Domination) across 1,766 games for a faster all-in once he dismounts; take that version if you're confident punishing the dismount window rather than grinding sustain.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the heavier-picked option (73.7%) and fits the defensive shape of this lane — you're playing for scaling and side-lane TP pressure rather than forcing early kills. Flash+Ignite (23.7% pick, 55.6% winrate) is the alternative if you plan to punish the dismount window directly for a solo kill."
+  },
+  "playing": [
+   {
+    "title": "Rupture his Jousting commitment",
+    "detail": "The moment he dashes in with E, land Q (Rupture) on his landing spot — the knockup and slow punish the all-in exactly as OP.GG's tip describes, creating the distance you need instead of trading in melee."
+   },
+   {
+    "title": "Track Bear Trap's cooldown",
+    "detail": "Q (Bear Trap on a Rope) is 11/10/9/8/7 seconds — once you see it thrown and miss or land, that's your window to step up and trade without fear of the hook-yank."
+   },
+   {
+    "title": "Silence before Violent Tendencies peaks",
+    "detail": "W (Feral Scream)'s cone silence shuts down the fourth, hardest-hitting auto of his attack-speed buff if you land it as the sequence starts, not after."
+   },
+   {
+    "title": "Punish the dismount, don't chase the remount",
+    "detail": "Once Skaarl's bar empties his damage to champions drops — commit here. If he's rebuilding courage by fighting jungle or minions to remount, don't let him get the free resets."
+   },
+   {
+    "title": "Feast for stacks, not just kills",
+    "detail": "R (Feast) is a 60-second cooldown true-damage execute — use it on him once he's low to both deny the trade and bank a permanent health stack toward your 6-stack cap."
+   },
+   {
+    "title": "Never walk into his recast range",
+    "detail": "E (Jousting) can be recast to dash back through his initial target — don't stand in his dash lane after the first hit expecting it to be over."
+   },
+   {
+    "title": "Respect his Q as a long leash",
+    "detail": "At 800 range, Bear Trap can punish you for overextending even when he looks passive — hold position near minions so the yank doesn't pull you off-balance into a trade."
+   }
+  ],
+  "patchCaveat": "Build, rune, and summoner data reflect 57 measured Cho'Gath-vs-Kled games on the current patch (16.20.1); the tactical reading of cooldowns, windows, and trade patterns is my own analysis layered on top."
+ },
+ "generatedAt": 1791561668883,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791561593500,
+  "overall": {
+   "winRate": 51.2,
+   "play": 24142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 57,
+   "wins": 27,
+   "winRate": 47.4
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with (Q). Use [Q] when he closes in to create some distance. Use your sustain to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 56,
+    "pickRate": 73.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 23.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 1.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 39.1,
+    "play": 23,
+    "pickRate": 30.3
+   },
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 26.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 52.9,
+    "play": 51,
+    "pickRate": 68.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 18.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.2,
+    "play": 48,
+    "pickRate": 68.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 17.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 5.4
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Force of Nature"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 5.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53.8,
+    "play": 52,
+    "pickRate": 67.5
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 27.3
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 27.3
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 18.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 64.7,
+    "play": 17
+   }
+  ],
+  "highElo": {
+   "keystone": "Hail of Blades",
+   "tree": "Domination",
+   "play": 1766
+  }
+ }
+}

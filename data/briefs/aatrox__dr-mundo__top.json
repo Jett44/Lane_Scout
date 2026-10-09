@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You lose if you let Dr. Mundo's Q (Infected Cleaver) chip you for free before level 6; you win every all-in from level 3 onward if you land W (Infernal Chains) into full combo."
+  },
+  "thesis": "Dr. Mundo's entire kit scales off his own missing health (E/Masochism) and regenerates through Adrenaline Rush, but Aatrox's passive Deathbringer Stance and W both scale off the target's max health, so a champion who stacks HP like Mundo is exactly who you're built to punish. The 52.3% win rate over 285 games confirms it: Mundo pokes you down with Q (Infected Cleaver) at range, but he has zero hard disables to stop your dash-in, and Executioner's Calling turns his entire sustain plan into nothing.",
+  "tell": {
+   "watch": "Mundo's HP % and W drain",
+   "theirWindow": {
+    "when": "Q (Infected Cleaver) is off cooldown (4s) and you're exposed",
+    "what": "He hurls it from 975 range for damage based on your max health — this is his only real poke tool pre-6, so trade behind minions or bait it on a wave rather than eating it walking up."
+   },
+   "yourWindow": {
+    "when": "Deathbringer Stance passive is charged",
+    "what": "Land the empowered auto for bonus magic damage and a heal based on his max health, then immediately W (Infernal Chains) so he can't walk out of the pull radius to kite and regen — he has no stun or slow to punish the commit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke chips you before your W exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W online, full combo, Conqueror snowballs trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Sadism gives him an escape/sustain cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Eclipse/Executioner's Calling shut down his regen"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his raw HP pool matters more in teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "85.6% pick rate at 53.1% win rate — the lane is a sustained poke-and-trade fight where you need both the early damage to punish his cooldowns and the sustain to not get starved out by Q chip."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "55.7% win rate over 149 games versus 45.9% on Plated Steelcaps — the tenacity and magic resist matter more here than armor since a chunk of Mundo's damage (Infected Cleaver, Burning Agony drain) is magic."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Highest-performing opener (61.9% WR, 10.8% pick on this path) — the shield lets you force the all-in through his poke, and the burst proc punishes his lower resistances early."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "On-hit healing and the bonus proc reward you for sticking on him with E (Umbral Dash) resets while he's still building his health stack."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts the physical damage he does land back into a DoT you can out-heal with your own passive and E sustain, so extended trades stop being a race you can lose."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "mundo's regen keeps him alive through your all-ins"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "the game goes long and you need armor shred to keep killing him"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're already ahead and want faster cooldowns to chain more empowered autos"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through the extended trades this lane produces and converts to healing, which stacks on top of your own kit's sustain to out-heal his Adrenaline Rush regen in prolonged fights.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "73.6% pick rate at 53.5% win rate — Ignite is the direct answer to Mundo's sustain plan, locking out his Adrenaline Rush regen and Sadism heal during your all-in windows exactly as OP.GG's own tip recommends."
+  },
+  "playing": [
+   {
+    "title": "Punish Q cooldown windows",
+    "detail": "Infected Cleaver is on a 4s cooldown — if he throws it and misses or you dodge it, you have a free window to walk up and trade before it's back."
+   },
+   {
+    "title": "Pull with W before he can kite",
+    "detail": "Infernal Chains forces him to leave the impact area fast or get dragged back in for the damage again — he has no dash or slow to escape it, so landing it is your green light to commit."
+   },
+   {
+    "title": "Save all-ins for Deathbringer Stance",
+    "detail": "Since the empowered auto scales off his max health, timing your engage around the passive being up turns every all-in into a bigger burst and a bigger heal for you."
+   },
+   {
+    "title": "Buy Executioner's Calling on sight of sustain problems",
+    "detail": "If Adrenaline Rush and Sadism are keeping him topped off through your trades, Grievous Wounds removes the entire reason he's winning the extended fight."
+   },
+   {
+    "title": "Don't walk Q range without a plan",
+    "detail": "975 range means he can poke you from well outside your own threat range pre-6 — approach through minions or bait the throw before closing distance."
+   },
+   {
+    "title": "Track his E for burst spikes",
+    "detail": "Masochism gives him bonus AD based on missing health, so a low-HP Mundo hits harder than his bar suggests — don't facetank autos just because he looks close to dead."
+   },
+   {
+    "title": "Respect Sadism as a sustain reset, not a kill threat",
+    "detail": "His ultimate buys him movement speed and health regen, not damage — use the 75s cooldown to plan your next all-in window rather than panicking about a burst."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates above are measured from live games on the current patch via OP.GG; the matchup read — why those numbers come out this way, and how to play around Mundo's cooldowns and health-based scaling — is my own analysis."
+ },
+ "generatedAt": 1791562419411,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791562329307,
+  "overall": {
+   "winRate": 49.9,
+   "play": 24787,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 285,
+   "wins": 149,
+   "winRate": 52.3
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "even",
+  "opponentTip": "Avoid being chased by Dr.Mundo’s (Q) during early game. Purchase Executioner’s Calling and use your skills whenever they come off cooldown to deal burst damage to win lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.5,
+    "play": 284,
+    "pickRate": 73.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.5,
+    "play": 99,
+    "pickRate": 25.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 0.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.8,
+    "play": 130,
+    "pickRate": 34.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.9,
+    "play": 36,
+    "pickRate": 9.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.1,
+    "play": 320,
+    "pickRate": 85.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 48,
+    "pickRate": 12.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.7,
+    "play": 149,
+    "pickRate": 44.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.9,
+    "play": 146,
+    "pickRate": 43.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 10.8
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 4.6
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 77.8,
+    "play": 9,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 54.4,
+    "play": 182,
+    "pickRate": 49.3
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 52.5,
+    "play": 179,
+    "pickRate": 48.5
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 54.8,
+    "play": 146,
+    "pickRate": 39.6
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 66.4,
+    "play": 110,
+    "pickRate": 29.8
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 40.4,
+    "play": 104,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.5,
+    "play": 91,
+    "pickRate": 24.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.3,
+    "play": 217
+   }
+  ]
+ }
+}

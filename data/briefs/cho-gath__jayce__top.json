@@ -1,0 +1,385 @@
+{
+ "you": "Cho'Gath",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you trade into Jayce's Hammer-stance poke before level 6; you win if you survive to Feast range and force all-ins after."
+  },
+  "thesis": "Jayce stances the fight entirely before level 6 — Hammer Stance To the Skies! (16/14/12/10/8s cooldown, 600 range) dashes in to harass and Thundering Blow (20/18/16/14/12s, 240 range) knocks you off him the instant you close distance, while his Cannon Stance Shock Blast pokes you for free at 600 range with zero retaliation. The matchup only turns once you hit level 6: Feast (60s cooldown, 175 range) threatens a true-damage burst Jayce has no answer for, and the measured 47.9% win rate over 234 games reflects a lane that's lost in the laning phase but not lost overall.",
+  "tell": {
+   "watch": "Jayce's weapon stance (Hammer or Cannon)",
+   "theirWindow": {
+    "when": "Hammer Stance, To the Skies! off cooldown",
+    "what": "He will dash in with To the Skies! (16-8s CD scaling with rank) to land free autos then Thundering Blow you away before you can punish — do not walk up when his hammer form is up and his Q is ready."
+   },
+   "yourWindow": {
+    "when": "You're level 6+ and he's melee/Hammer form",
+    "what": "Flash or walk into Feast range (175) when he's in Hammer Stance and has used Thundering Blow or To the Skies! recently — Feast's true damage plus a Rupture follow-up can delete him before he swaps to Cannon Stance and kites away."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Shock Blast poke, you have no answer"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Thundering Blow punishes every approach"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Feast threatens kills, still kiteable"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Rupture-Feast combo outscales his damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build, Jayce falls off hard"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The 44.4% win rate over 90 games on this start exists because Jayce's early poke is physical and chip-damage based — the shield's block and regen directly counters his Shock Blast harass pattern."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Run in 63.4% of games at 45.7% win rate because Jayce's damage is entirely physical from both his autos and To the Skies!/Shock Blast — the attack speed reduction also dulls his Hyper Charge burst windows."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Gives you the gap-close to actually reach him in Cannon Stance when he tries to kite, converting your level 6+ advantage into real kill pressure."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "The sustained-damage and tankiness combo lets you win extended trades once he's out of dash charges."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Closes the mobility gap on approach and adds to your wave-clear via Vorpal Spikes procs while running him down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "thornmail",
+     "when": "he builds crit or heavy attack speed to abuse his autos"
+    },
+    {
+     "item": "unending despair",
+     "when": "you need more sustain to survive his poke phase before level 6"
+    },
+    {
+     "item": "heartsteel",
+     "when": "you want a tankier scaling path over the rocketbelt all-in line"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Hail of Blades",
+   "keystoneWhy": "Picked in 39.8% of games at 50.4% win rate — the burst from three empowered autos lets you punish any moment Jayce misjudges distance and walks into Vorpal Spikes range, since you won't get a second trade window if he resets with To the Skies!.",
+   "primary": [
+    "Cheap Shot",
+    "Grisly Mementos",
+    "Ultimate Hunter"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Move Speed",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 62.4% of games at 49.7% win rate — Teleport lets you reset after losing the early trading phase to Jayce's poke without bleeding more waves, and Flash is mandatory to close the gap through a Thundering Blow knockback or to land Feast through a dash."
+  },
+  "playing": [
+   {
+    "title": "Never approach on cooldown Thundering Blow",
+    "detail": "If his Hammer Stance E (20-12s CD) is up, any walk-up gets you knocked back and re-poked by To the Skies! on the follow-up. Wait for him to use it on a minion or waste it before committing."
+   },
+   {
+    "title": "Track his stance before every trade",
+    "detail": "Hammer Stance means melee range and knockback threat; Cannon Stance means 600-range poke and no knockback. Your engage timing depends entirely on which form he's in."
+   },
+   {
+    "title": "Use Q (Rupture) to punish stance swaps",
+    "detail": "The brief animation delay when Jayce transforms via R (Mercury Cannon/Hammer, 6s CD) is your window — Rupture's 950 range and knockup lets you poke him during the swap without eating Thundering Blow."
+   },
+   {
+    "title": "Hold W (Feral Scream) for his all-in, not poke",
+    "detail": "Feral Scream's silence (13s CD, 300 range) shuts down his Hyper Charge attack speed burst or a Cannon Stance all-in — don't waste it just trying to extend minor trades."
+   },
+   {
+    "title": "Level 6 is your first real all-in window",
+    "detail": "Feast's true damage (60s CD) ignores his armor stacking and threatens execute-range kills — look to engage when he's used a dash recently and can't disengage cleanly."
+   },
+   {
+    "title": "Don't contest poke before level 3",
+    "detail": "You have no ranged answer to early Shock Blast; absorb it with Doran's Shield sustain and look to freeze the wave near your tower instead of trading."
+   },
+   {
+    "title": "Teleport back in if you fall behind on CS",
+    "detail": "Since Jayce wins the laning phase in the overall data shape, losing CS early is expected — Teleport lets you recover wave state and gold without forcing a losing fight."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled directly from measured OP.GG games on the current patch (16.20.1); the tactical reasoning connecting them to Jayce's stance mechanics and ability windows is my own read of the matchup."
+ },
+ "generatedAt": 1791561545032,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791561508751,
+  "overall": {
+   "winRate": 51.2,
+   "play": 24142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 234,
+   "wins": 112,
+   "winRate": 47.9
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Avoid being punished by Jayce by keeping your distance. Use [Q] to poke and gain the upper hand in combat. Try to kill him after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.7,
+    "play": 179,
+    "pickRate": 62.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.2,
+    "play": 85,
+    "pickRate": 29.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 4.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 50.4,
+    "play": 115,
+    "pickRate": 39.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 9.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 171,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 90,
+    "pickRate": 31.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.7,
+    "play": 173,
+    "pickRate": 63.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 56.4,
+    "play": 55,
+    "pickRate": 20.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Unending Despair"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 4.1
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dead Man's Plate",
+     "Kaenic Rookern"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 2.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53.7,
+    "play": 147,
+    "pickRate": 51.4
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 44.7,
+    "play": 132,
+    "pickRate": 46.2
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.5,
+    "play": 77,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 24.8
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 66.2,
+    "play": 68,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 46.2,
+    "play": 52,
+    "pickRate": 18.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 58.2,
+    "play": 55
+   }
+  ]
+ }
+}

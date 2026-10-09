@@ -1,0 +1,381 @@
+{
+ "you": "Cho'Gath",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you eat Parrrley poke for free through levels 1-5, you win if you survive to 6 and start landing Feast kills."
+  },
+  "thesis": "Gangplank wins the poke war at range 625 before level 6 but has no way to escape or punish Cho'Gath once Rupture-Feast threatens a kill. The data backs this: Gangplank has the lane advantage, but Cho'Gath holds the solo-kill edge and a 54.6% head-to-head win rate over 302 games because the lane flips hard once R (Feast) comes online.",
+  "tell": {
+   "watch": "Gangplank's Parrrley mana/cooldown",
+   "theirWindow": {
+    "when": "before level 6, you're in Q range",
+    "what": "Gangplank freely lands Q (Parrrley, 5s cooldown, 625 range) into auto-attack poison stacks while you have no way to close the gap. Play off CS, don't walk up to trade until you have minion cover for Rupture."
+   },
+   "yourWindow": {
+    "when": "level 6+ and he's under 50% HP",
+    "what": "Hit W (Feral Scream, 13s cooldown, 300 range cone) to silence so he can't Remove Scurvy the slow, then Q (Rupture, 9s cooldown, 950 range) to knock up and slow, then walk in and R (Feast, 60s cooldown, 175 range) for true damage. If it kills, you gain a permanent max-HP stack."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley poke, no answer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Poison stacks add up fast"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Feast threatens kill, flips lane"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Rocketbelt gap-close locks him down"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Cannon Barrage offsets your scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "25.5% pick rate at 56.8% win over 95 games; the flat damage reduction blunts Parrrley poke and poison ticks so you can actually hold CS without burning potions early."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50.3% pick at 53.9% win over 178 games; Gangplank's damage is auto-attack and poison based, so the flat physical reduction directly cuts his poke and sustained trades."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "The dash is your answer to his kiting - it closes the gap he built with Parrrley so your Feast window at level 6+ actually connects."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "58.8% win over 34 games with this path; the omnivamp sustains you through poison stacks while you're forcing extended trades."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Same 58.8%-win path; the movement speed stacking lets you chase down a Gangplank who's trying to kite with Raise Morale's speed buff."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "he's building toward raw poke damage and you need more sustain to hold lane"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his team is stacking crit or attack speed and you need the active slow to stick your Rupture engages"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game is going long and you want a bigger HP stat-check instead of the Rocketbelt dash pattern"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Hail of Blades",
+   "keystoneWhy": "The burst of extra attacks lets you win the all-in the moment you land Rupture + Feral Scream silence, converting your level-6 window into a kill before he can Remove Scurvy anything other than the hard CC.",
+   "primary": [
+    "Cheap Shot",
+    "Grisly Mementos",
+    "Ultimate Hunter"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Move Speed",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "56.6% win at 64.5% pick rate; Teleport lets you reset after losing the early poke war without bleeding CS, and you don't need Ignite since your all-in already comes from true damage on R, not burst."
+  },
+  "playing": [
+   {
+    "title": "Farm under tower pre-6",
+    "detail": "Don't contest trades level 1-5; Vorpal Spikes (E) only triggers on your attacks, so last-hitting from max range still ticks it while you absorb poke with Doran's Shield."
+   },
+   {
+    "title": "Track his Remove Scurvy cooldown",
+    "detail": "W (Remove Scurvy, 22/21/20/19/18s cooldown) clears your Rupture slow and silence if he's used it recently. Bait it out with a Q poke before committing your real all-in."
+   },
+   {
+    "title": "Silence before you commit",
+    "detail": "Land W (Feral Scream) first in your level-6 engage - the silence stops him from using Remove Scurvy to cleanse your Rupture knockup/slow mid-fight."
+   },
+   {
+    "title": "Save Feast for the kill, not poke",
+    "detail": "R (Feast, 60s cooldown) only grows you if it kills. Don't throw it into a trade unless you're certain of the kill or you lose the stack opportunity for 60 seconds."
+   },
+   {
+    "title": "Respect Cannon Barrage after 6",
+    "detail": "His ultimate (120/115/110/120/120s cooldown, global range) can zone you off a push or punish a bad base timer. Watch his ult icon before committing to extended sieges."
+   },
+   {
+    "title": "Rocketbelt removes his kiting advantage",
+    "detail": "Once you have the dash, his only tool to disengage is Remove Scurvy's heal, not distance. Force fights near level 9-10 once the item is online."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoners are pulled directly from measured games on the current patch (16.20.1); the power-curve timing and trade-pattern reasoning is my own read of the kit interactions."
+ },
+ "generatedAt": 1791561502065,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791561467508,
+  "overall": {
+   "winRate": 51.2,
+   "play": 24142,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 302,
+   "wins": 165,
+   "winRate": 54.6
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Cho'Gath",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid being hit by Gangplank’s Grasp of the Undying – (Q). Keep your distance while focusing on farming and contesting lane while waiting for a chance after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.6,
+    "play": 249,
+    "pickRate": 64.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.5,
+    "play": 118,
+    "pickRate": 30.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 2.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 56.4,
+    "play": 179,
+    "pickRate": 46.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 54,
+    "pickRate": 13.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.1,
+    "play": 256,
+    "pickRate": 68.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 56.8,
+    "play": 95,
+    "pickRate": 25.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.9,
+    "play": 178,
+    "pickRate": 50.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 58.9,
+    "play": 124,
+    "pickRate": 35
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.8,
+    "play": 34,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Unending Despair"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 3.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 2.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 54.9,
+    "play": 193,
+    "pickRate": 50.3
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53.8,
+    "play": 186,
+    "pickRate": 48.4
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 55.8,
+    "play": 129,
+    "pickRate": 33.6
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.7,
+    "play": 115,
+    "pickRate": 30
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 58.9,
+    "play": 95,
+    "pickRate": 24.7
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 63.3,
+    "play": 90,
+    "pickRate": 23.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50.9,
+    "play": 108
+   }
+  ]
+ }
+}

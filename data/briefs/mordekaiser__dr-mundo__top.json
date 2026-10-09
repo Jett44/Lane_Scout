@@ -1,0 +1,380 @@
+{
+ "you": "Mordekaiser",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You win by using E to drag Mundo into forced melee and finishing with Ignite before his regen catches up; you lose if you trade at range into his Q poke or let the fight drag past his Sadism window without anti-heal."
+  },
+  "thesis": "Dr. Mundo has no hard CC and wins only through ranged max-health poke from Q (Infected Cleaver, 975 range) and passive/ultimate HP regen, while Mordekaiser's E (Death's Grasp, 700 range) forcibly pulls him into melee where Darkness Rise's aura and bonus move speed let Mordekaiser outpace that regen. That structural mismatch is why Mordekaiser sits at 57.6% win rate over 236 games despite this looking like an even matchup on paper.",
+  "tell": {
+   "watch": "Mundo's HP bar during Burning Agony",
+   "theirWindow": {
+    "when": "Level 1, before you have E",
+    "what": "Mundo throws Infected Cleaver (4s cooldown, 975 range) from outside your 700-range E and 675-range Q. Don't trade autos at this range; back off and last-hit until E comes online at level 2."
+   },
+   "yourWindow": {
+    "when": "Right after E lands on him",
+    "what": "Death's Grasp pulls him into melee range — follow immediately with Q (Obliterate) for its single-target bonus damage. His W (Burning Agony) drains his own health while active, so extending the fight after the pull favors you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Mundo's ranged Q trades evenly before your E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Full kit online, E punishes his pokes"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "R isolates him; solo-kill stat favors you"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "His sustain scales without anti-heal items"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Sustains you through Mundo's early Q poke (4s cooldown, max-health scaling) and gives mana for repeated E-into-Q trades once you're forcing fights."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "59.3% win rate in this matchup; cuts the basic-attack damage Mundo deals once your E has forced him into melee range."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow on Q and E helps keep him inside Death's Grasp range and sets up a clean R engage."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Omnivamp and the stacking burn let you out-sustain his Adrenaline Rush regen in extended trades."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn stacks scale off his max-health pool, the same stat his kit and regen are built around."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Oblivion Orb",
+     "when": "his Adrenaline Rush regen and Sadism sustain are winning extended trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he builds into a pure tank and your damage alone can't close him out"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "he itemizes magic resist to blunt your burn damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive force and healing reward the prolonged melee trades you're forcing, directly countering his passive regen.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "60.4% win rate and 80.5% pick rate; Ignite's grievous wounds directly answers his passive regen and Sadism sustain so your E-into-R all-in actually kills instead of getting outhealed."
+  },
+  "playing": [
+   {
+    "title": "Hold E for his engage, not yours",
+    "detail": "Death's Grasp (16/14/12/10/8s cooldown, 700 range) pulls enemies in the area to you. Save it for when he steps up to throw Q rather than wasting it to poke."
+   },
+   {
+    "title": "Never trade at max range",
+    "detail": "His Q outranges your entire kit at 975 range. Eat the poke or dodge it, then close with E before trading."
+   },
+   {
+    "title": "Stack passive before committing R",
+    "detail": "Darkness Rise triggers after 3 hits on champions or monsters. Land it before you drag him into Realm of Death so the aura and move speed carry the isolated fight."
+   },
+   {
+    "title": "Buy anti-heal on OP.GG's cue",
+    "detail": "Bramble Vest first, carried into Oblivion Orb or Thornmail, directly blunts Adrenaline Rush — this is the single highest-leverage item decision in the matchup."
+   },
+   {
+    "title": "Time R around his Sadism",
+    "detail": "Realm of Death (140/120/100/90/80s cooldown, 650 range) isolates him 1v1. Use it when he's about to pop Sadism to retreat — Sadism only buys him time, it doesn't threaten a kill."
+   },
+   {
+    "title": "Respect low-HP Masochism spikes",
+    "detail": "His E gives him attack damage based on missing health for a few seconds. Don't assume he's harmless at 20% HP mid-trade."
+   },
+   {
+    "title": "Shove waves with banked W shield",
+    "detail": "Indestructible stores damage dealt and taken into a shield you can consume to heal. Use it to push the wave safely while his Burning Agony burns his own HP to contest you."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured from live games on the current patch via OP.GG; the mechanical reasoning and timing calls are my own read of the kits."
+ },
+ "generatedAt": 1791562208365,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791562097758,
+  "overall": {
+   "winRate": 50.8,
+   "play": 22139,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 236,
+   "wins": 136,
+   "winRate": 57.6
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Purchase Bramble Vest foremost when facing Dr. Mundo. After reaching level 3, maintain your [P] when fighting him to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 60.4,
+    "play": 260,
+    "pickRate": 80.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 46,
+    "pickRate": 14.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 2.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 64.9,
+    "play": 148,
+    "pickRate": 45.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.8,
+    "play": 59,
+    "pickRate": 18.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 58.4,
+    "play": 269,
+    "pickRate": 84.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 7.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.2,
+    "play": 134,
+    "pickRate": 44.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 59.3,
+    "play": 118,
+    "pickRate": 38.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 57.5,
+    "play": 40,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Riftmaker"
+    ],
+    "winRate": 76.2,
+    "play": 21,
+    "pickRate": 10.1
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Spirit Visage"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 59.2,
+    "play": 265,
+    "pickRate": 81.5
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 58.8,
+    "play": 221,
+    "pickRate": 68
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 56.4,
+    "play": 181,
+    "pickRate": 55.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 58.3,
+    "play": 60,
+    "pickRate": 18.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 64.4,
+    "play": 59,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Oblivion Orb"
+    ],
+    "winRate": 47.3,
+    "play": 55,
+    "pickRate": 16.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.8,
+    "play": 165
+   }
+  ]
+ }
+}

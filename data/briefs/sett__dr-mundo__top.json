@@ -1,0 +1,375 @@
+{
+ "you": "Sett",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You win levels 3-11 by stunning Mundo into empowered autos before his sustain ramps; you lose if the fight drags past 4-5 seconds and his Passive plus E (Masochism) out-heal and out-damage your burst."
+  },
+  "thesis": "Sett's kit is built for one decisive burst, while Mundo's kit is built to stall a fight until his sustain outvalues your damage — fight duration decides this lane, not raw stats. Mundo's Q (Infected Cleaver) is cheap on a 4s cooldown, but his real power is Passive (Adrenaline Rush) regen stacked with W (Burning Agony) draining his own health to buy time for E (Masochism) to spike his AD once he's wounded. Critically, your E (Facebreaker) only stuns when Mundo is sandwiched between bodies on opposite sides of you — in a clean 1v1 with no minion or jungler on his far side, it just slows him, so your main hard-CC tool is conditional on lane state.",
+  "tell": {
+   "watch": "Mundo's missing-HP percentage",
+   "theirWindow": {
+    "when": "Mundo below 50% HP",
+    "what": "His E (Masochism) grants AD scaling off missing health, so a wounded Mundo's next few autos hit harder than they look. Don't facetank the follow-up swing — disengage or burst through with your own Q (Knuckle Down) empowered hits rather than trading evenly."
+   },
+   "yourWindow": {
+    "when": "level 3+, minion on his far side",
+    "what": "Position so Mundo is caught between you and a minion or ally before casting E (Facebreaker) — only that setup turns it into a stun instead of a slow. Chain straight into Q (Knuckle Down)'s empowered attacks while he's locked down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke free on a 4s cd, no E yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E unlocked, full stun-into-Q burst window"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Trades close, his sustain offsets your burst"
+   },
+   {
+    "levels": "12-18",
+    "edge": "them",
+    "note": "Core items online, his regen outlasts dives"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Picked in 79% of games at 53.7% win rate — the extra sustain and damage matter when Mundo's Q chips you from range before level 3."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Highest-performing boots here (61.5% over 96 games) — the flat move speed lets you dodge Infected Cleaver throws and close the gap before he can reposition."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The dominant first core item (66% WR path) — the active gives you the gap-close to catch Mundo before he can kite with his regen ticking."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shred armor so your short burst window actually out-damages his sustain instead of bouncing off it."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Matches his own sustain game — health plus damage lets you win the extended skirmishes you can't always avoid."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Blade of The Ruined King",
+     "when": "mundo is stacking health scaling and out-tanking your flat burst"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "his passive regen and W drain are keeping him topped up through your trades"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he's matching your damage and you need to survive his E-empowered swings"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking damage and self-heal reward exactly the kind of extended, grindy fights this matchup forces on you when the stun doesn't land clean.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 86% of games at a 50% win rate — Ignite's execute and grievous wounds directly counter Mundo's Passive regen and W life-drain sustain."
+  },
+  "playing": [
+   {
+    "title": "Hold position pre-3",
+    "detail": "Before level 3 you have no E (Facebreaker), so Mundo's Q (Infected Cleaver) pokes you for free on its 4s cooldown. Play behind minions and don't walk into cast range just to deny CS."
+   },
+   {
+    "title": "Line up E before casting",
+    "detail": "In a true 1v1, E (Facebreaker) only slows — it needs Mundo on the opposite side of a minion, ward, or ally to stun. Check your flanks before committing to the combo."
+   },
+   {
+    "title": "Bank W before engaging",
+    "detail": "W (Haymaker) stores damage you take as Grit passively. Soak a Q poke or two, then cast it on engage so the shield and punch land with real value instead of empty."
+   },
+   {
+    "title": "End fights in one burst",
+    "detail": "Stack Q (Knuckle Down)'s two empowered attacks into your E stun window. If Mundo escapes past 4-5 seconds, his Passive and W sustain start outpacing your remaining damage."
+   },
+   {
+    "title": "Back off a wounded Mundo",
+    "detail": "E (Masochism) spikes his AD off missing health on a 7s cooldown. A low-HP Mundo hits harder for a few seconds — don't chase into that window, let him walk or finish with ranged poke."
+   },
+   {
+    "title": "Save R for a clean pick",
+    "detail": "The Show Stopper is 120/100/80/80/80s on a long cooldown and only grabs one target — use it to isolate Mundo away from minion-stun setups rather than as a panic button mid-trade."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate figures are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and timing advice are my own read of the ability text, not measured data."
+ },
+ "generatedAt": 1791562091037,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791562001216,
+  "overall": {
+   "winRate": 50.7,
+   "play": 22752,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 232,
+   "wins": 112,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "even",
+  "opponentTip": "Avoid being chased by Dr. Mundo’s (Q) before reaching level 3. Afterwards, use your abilities off cooldown to engage combat to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 252,
+    "pickRate": 86
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 66.7,
+    "play": 27,
+    "pickRate": 9.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 3.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 80,
+    "pickRate": 27.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.2,
+    "play": 43,
+    "pickRate": 14.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.7,
+    "play": 229,
+    "pickRate": 79
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.5,
+    "play": 41,
+    "pickRate": 14.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 61.5,
+    "play": 96,
+    "pickRate": 36.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 94,
+    "pickRate": 35.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 66,
+    "play": 47,
+    "pickRate": 29.6
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Stridebreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 75,
+    "play": 16,
+    "pickRate": 10.1
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 8.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.6,
+    "play": 258,
+    "pickRate": 86.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 59.3,
+    "play": 162,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 57.9,
+    "play": 114,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 48.9,
+    "play": 90,
+    "pickRate": 30.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 63.2,
+    "play": 57,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 30,
+    "play": 30,
+    "pickRate": 10.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 57.1,
+    "play": 77
+   }
+  ]
+ }
+}
