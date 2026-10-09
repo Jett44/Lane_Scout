@@ -1,0 +1,389 @@
+{
+ "you": "Cho'Gath",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you stand in her Hookshot-to-Ultimatum chain at level 6+; you win if you poke with Q (Rupture) and deny her free autos before then."
+  },
+  "thesis": "At 47.9% over 165 games this is a true coinflip, slightly below Cho'Gath's 51.2% baseline in the role, and the reason is structural: Camille's threat is burst gated behind E (Hookshot)'s 16/15/14/13/12s cooldown and R (The Hextech Ultimatum)'s 140/115/90s cooldown, while Cho'Gath's threat is a constant zoning tool in Q (Rupture) on a 9s cooldown plus a scaling true-damage execute in R (Feast). Whoever forces the other to act inside their own cooldown window wins the exchange.",
+  "tell": {
+   "watch": "Her Hookshot cooldown near walls",
+   "theirWindow": {
+    "when": "Camille has E up near a wall",
+    "what": "She can Hookshot off the wall and the landing knocks up any champion she lands near, opening into R (The Hextech Ultimatum) at level 6+ to anchor you in place. Pre-emptively Rupture the space she's dashing into or disengage before she reaches wall range — once she's airborne-committed you can't stop the knockup."
+   },
+   "yourWindow": {
+    "when": "Her E and Q both on cooldown",
+    "what": "With Hookshot and Precision Protocol down she has no gap-close and no empowered auto, so step in and trade Q into auto (Vorpal Spikes fires every attack on a 0.5s cooldown) into W (Feral Scream) silence if she tries to flash-engage anyway."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her empowered Q autos outtrade your lone E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q and W online, you can zone her"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Her first R all-in window opens"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Feast stacks and silence start balancing trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build and R stacks overwhelm her burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "Run with the 46.6% win-rate, 70.1%-picked start — the extra sustain and mana let you throw Q (Rupture) pokes every cooldown without running dry, since Camille has no ranged poke to punish you for standing at 950-range Q distance."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.1% win rate and the clear majority pick (53.1%) — Camille's entire kit (Q bonus damage, auto-attacks, R bonus magic damage on autos) is attack-based, and flat damage reduction blunts every auto she lands, including her passive Adaptive Defenses shield-fishing autos."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Gives you a gap-close to land Q/W/R on her the instant her Hookshot or Ultimatum cooldown expires and she tries to disengage"
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Omnivamp sustains you through her W (Tactical Sweep) poke phase while the empowered-damage passive scales your Feral Scream silence trades"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "The move-speed stack keeps you in range to punish her after she commits E (Hookshot), since she has no mobility left once she's used it"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she builds into heavy crit or lifesteal and her autos are doing most of the work"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "the game stretches long and you need more sustain to out-tank her burst windows"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "their team adds mixed damage sources beyond Camille and you need omni-resistance"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the lane stays even and you can safely stack health over a longer game"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Hail of Blades",
+   "keystoneWhy": "The burst attack-speed window lets you fire all three Vorpal Spikes procs through your autos before Camille's Adaptive Defenses shield fully soaks the exchange, matching the even, auto-trade-heavy nature of this lane.",
+   "primary": [
+    "Cheap Shot",
+    "Grisly Mementos",
+    "Ultimate Hunter"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Move Speed",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "This pairing has the highest measured win rate in the matchup at 55.2% — Ignite punishes the heal from the outer half of her W (Tactical Sweep) and secures kills during her short all-in windows around her level-6, -11, and -16 R spikes."
+  },
+  "playing": [
+   {
+    "title": "Hold Q for her E commitment",
+    "detail": "Her Hookshot knocks up whoever she lands near on a wall, but once she's airborne she has zero mobility left. Punish the landing with Q (Rupture) rather than trying to stop the jump itself."
+   },
+   {
+    "title": "Step past her W's outer band",
+    "detail": "Tactical Sweep only slows, extra-damages, and heals her in the outer half of its cone. Closing distance fast through that band means you eat the base cone damage without feeding her sustain."
+   },
+   {
+    "title": "Silence through her R anchor",
+    "detail": "When The Hextech Ultimatum locks you in place, W (Feral Scream) silences her so she can't recast Precision Protocol for its delayed bonus damage, cutting a large chunk out of her combo."
+   },
+   {
+    "title": "Watch for her held empowered auto",
+    "detail": "Precision Protocol's recast does significantly more damage if she delays it. If she's clearly sitting on the empowered hit, disengage from minion trades until it's used or expires."
+   },
+   {
+    "title": "Auto constantly in melee range",
+    "detail": "Vorpal Spikes fires on a 0.5s cooldown every attack, so simply staying in auto range during any trade stacks chip damage she can't itemize around."
+   },
+   {
+    "title": "Save Feast for overextensions",
+    "detail": "R (Feast) deals true damage that ignores her Adaptive Defenses shield entirely — hold it for the moment she overcommits after both her E and R are down."
+   },
+   {
+    "title": "Last-hit through Carnivore to hold lane",
+    "detail": "OP.GG's own read on this matchup is to poke from range and use your passive's health/mana return from kills to control the wave state rather than all-in early."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner picks above are pulled directly from measured games on the current patch (16.20.1); the mechanical reasoning — which cooldowns matter, when to trade, when to silence — is my own tactical read on top of that data."
+ },
+ "generatedAt": 1791544017062,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791543914180,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 165,
+   "wins": 79,
+   "winRate": 47.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with her (E). Poke from afar and use your [P] to manage your health to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.4,
+    "play": 117,
+    "pickRate": 61.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.2,
+    "play": 58,
+    "pickRate": 30.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 49.3,
+    "play": 71,
+    "pickRate": 37
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 44.7,
+    "play": 38,
+    "pickRate": 19.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 131,
+    "pickRate": 70.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.4,
+    "play": 33,
+    "pickRate": 17.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.1,
+    "play": 94,
+    "pickRate": 53.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 36.2,
+    "play": 47,
+    "pickRate": 26.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 8.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 3.7
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hollow Radiance",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 3.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 49.6,
+    "play": 119,
+    "pickRate": 62.6
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 37.7,
+    "play": 69,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 46.4,
+    "play": 56,
+    "pickRate": 29.5
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 60,
+    "play": 50,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 40,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.1,
+    "play": 37,
+    "pickRate": 19.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 53.3,
+    "play": 45
+   }
+  ]
+ }
+}

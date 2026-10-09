@@ -1,0 +1,384 @@
+{
+ "you": "Kled",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose when you trade into full Fury or get caught dismounted; you win by poking him down before level 6 and cashing in the surprise R engage."
+  },
+  "thesis": "Kled's E (Jousting) dash-and-return and W (Violent Tendencies) attack-speed burst let him out-trade Renekton in short exchanges before Renekton's Fury bar fills, but once Renekton crosses 50 Fury his Q (Cull the Meek) and W (Ruthless Predator) both upgrade into bigger damage, a shield-destroying triple slash, and a 1.5s stun. The 51.9% win rate over 104 games and Kled's listed lane and solo-kill advantage both assume you fight him low-Fury and stay mounted — that edge evaporates the moment either condition flips.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Renekton above 50 Fury",
+    "what": "His Q (Cull the Meek) heals and hits harder, and his W (Ruthless Predator) becomes a 3-hit shield-destroying stun at 1.5s instead of 0.75s. Disengage and let the cooldown reset rather than trading into it."
+   },
+   "yourWindow": {
+    "when": "Renekton under 50 Fury, pre-6",
+    "what": "Dash in with E (13s cooldown at rank 1), auto, dash back out through him for the second hit, and layer W's four-attack speed burst on top. This is your best damage window before his Fury scaling and his R (Dominus, 120s cooldown at rank 1) come online."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both poking, Renekton's W not always up"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E dash-return and W burst win trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Chaaaaaaaarge!!!) sets up surprise kills"
+   },
+   {
+    "levels": "9-12",
+    "edge": "them",
+    "note": "His R plus stacked Fury swings fights"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "Cooldowns shrink both sides, items decide"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 53% win rate start over 90.6% of games — the extra AD and sustain keep you even in the auto-trading war before your dash tools are online."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked in 84.5% of games for a 55.1% win rate; flat reduction on Renekton's auto-reliant Q and W poke matters more than magic resist here."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Builds the HP and wave-clear threat that punish Renekton for shoving, with the highest-sample core path."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks on your E dash-through pattern and offsets the armor Renekton's own E removes from you."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Part of the top-winning core (75% over 12 games); the shield covers you through his empowered W stun window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "the game goes long and you need extra sustain in extended skirmishes"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead and want to pressure towers with your E mobility"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you want more burst to punish him specifically while his Fury is low"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The sustained-trade healing matches Kled's dash-return poke pattern and helps you out-heal Renekton's own Q sustain in extended lane trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 80.3% of games for a 58.5% win rate — Ignite converts your pre-6 trading edge and solo-kill advantage into real kills, and it finishes the surprise R engage OP.GG's data flags at level 6."
+  },
+  "playing": [
+   {
+    "title": "Track the Fury bar, not just HP",
+    "detail": "Renekton's Q and W both get stronger past 50 Fury. If you see his Fury creeping up from autos, back off and wait for it to decay instead of trading into the upgraded W stun."
+   },
+   {
+    "title": "Dash-return before level 6",
+    "detail": "Use E (Jousting) to dash in, auto, then recast to dash back through him. This is your highest-value trading tool while his all-in is still just Q into W."
+   },
+   {
+    "title": "Cash in R at level 6",
+    "detail": "OP.GG's own data flags using Chaaaaaaaarge!!! the moment it's up at level 6 for a surprise kill — his flash and ignite usage spike around when you first threaten this."
+   },
+   {
+    "title": "Never extended-trade while dismounted",
+    "detail": "Dismounted, your Q becomes Pocket Pistol (a knockback poke, not a hook), and you deal less champion damage. Disengage and let Skaarl's courage refill from minions before re-engaging."
+   },
+   {
+    "title": "Pop W before he can stun through it",
+    "detail": "Violent Tendencies' four-attack burst is strongest thrown out before Renekton's W (0.75s stun at low Fury, 1.5s above 50) can interrupt your attack string."
+   },
+   {
+    "title": "Respect his E dash range",
+    "detail": "Slice and Dice has 450 range and can be recast for a bonus-damage, armor-shredding return hit — don't stand at the edge of trade range expecting him to not reach you."
+   },
+   {
+    "title": "Freeze if you're ahead post-8",
+    "detail": "Once Renekton's Fury scaling and his 120s-cooldown R start covering his all-in windows, play the wave rather than force fights — your lane edge is front-loaded."
+   }
+  ],
+  "patchCaveat": "Build paths, win rates, and pick rates above are measured from live games on the current patch (16.20.1); the mechanical reasoning — why these windows exist, when to fight, when to back off — is my own read of the ability kits, not OP.GG's."
+ },
+ "generatedAt": 1791542705949,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791542633938,
+  "overall": {
+   "winRate": 49.6,
+   "play": 6062,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 104,
+   "wins": 54,
+   "winRate": 51.9
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid fighting Renekton when he has his Fury full or when you unmounted Skaarl. Try to use Chaaaaaaaarge!!![R] upon reaching level 6 to get a surprise kill.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 58.5,
+    "play": 106,
+    "pickRate": 80.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 8.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 16.7,
+    "play": 6,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 63.3,
+    "play": 49,
+    "pickRate": 36.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 9.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53,
+    "play": 115,
+    "pickRate": 90.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 4.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.1,
+    "play": 98,
+    "pickRate": 84.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 13.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 75,
+    "play": 12,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 87.5,
+    "play": 8,
+    "pickRate": 11.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Black Cleaver"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 11.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 49.2,
+    "play": 118,
+    "pickRate": 86.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 58.9,
+    "play": 73,
+    "pickRate": 53.3
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 35.5,
+    "play": 31,
+    "pickRate": 22.6
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 66.7,
+    "play": 27,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 73.1,
+    "play": 26,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 13.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 59,
+    "play": 39
+   }
+  ]
+ }
+}

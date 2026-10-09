@@ -1,0 +1,385 @@
+{
+ "you": "Cho'Gath",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if she chains Bladesurge resets and the Flawless Duet stun before level 6; you win once Feast and Feral Scream come online and the fight turns into a straight stat check."
+  },
+  "thesis": "Irelia holds lane and solo-kill advantage early because Bladesurge (Q) lets her reset onto minions to re-engage for free and Flawless Duet (E) adds a stun on top of it, but her kit is almost entirely physical burst with no sustained scaling tool. Cho'Gath's Feral Scream silence erases her engage window and Feast converts any extended trade into permanent health, which is why the head-to-head sits at an even 50.3% over 163 games despite her holding the early edge.",
+  "tell": {
+   "watch": "Her Q (Bladesurge) cooldown bar",
+   "theirWindow": {
+    "when": "Q is up and a low minion is near you",
+    "what": "She can dash a minion to reset Bladesurge, then immediately dash you for a second hit with no cooldown lost. Back off low-health siege minions whenever her Q icon is lit."
+   },
+   "yourWindow": {
+    "when": "Both her Q and E are on cooldown",
+    "what": "Without Bladesurge to stick or Flawless Duet to stun, she physically cannot catch you. Walk in and trade with Vorpal Spikes autoattacks plus a Rupture poke."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Bladesurge poke beats your short-range trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Flawless Duet live, biggest solo-kill window"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "Feast executes offset her stun combo"
+   },
+   {
+    "levels": "10-14",
+    "edge": "you",
+    "note": "HP stacks and bruiser core outscale her burst"
+   },
+   {
+    "levels": "15-18",
+    "edge": "you",
+    "note": "Full build, maxed stacks, you dominate duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Highest-winning and most-picked start here (53.2% over 139 games, 68.5% pick) — the extra sustain and mana regen cover Feral Scream's mana cost through the early all-in window where you're taking the worst of the trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Measured winner over Swiftness (52.3% vs 63.6% WR but 78.8% vs 11.6% pick) and mechanically correct: Irelia's damage comes from stacked autoattacks off Ionian Fervor and Bladesurge, which flat armor plus the auto-damage reduction blunts directly."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Top pick-rate core path (42.9% WR, 5.5% pick) — the dash closes the gap she opened with Bladesurge and guarantees you land Feral Scream's silence instead of chasing."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained magic damage and omnivamp let you win extended trades once Vorpal Spikes and Feral Scream are both landing repeatedly."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Closes the gap after Rupture knocks her up and adds the raw health that makes Feast stacks even harder to burst down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she is snowballing off Ionian Fervor autoattack stacks and out-dueling you"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "her Bladesurge heal is keeping her alive through your early trades"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "you want the tankier path over Rocketbelt — pairs with Thornmail into Unending Despair or Hollow Radiance"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "her sustain from Bladesurge and lifesteal items is undoing your poke"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page measures a 61.3% win rate here, well above the Hail of Blades page's 47.9% — Grasp's heal-on-first-hit lets you out-sustain her Bladesurge-heal trades, and the bonus health directly counters her burst-heavy, no-sustain kit.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite posts the highest measured winrate in this matchup (54.4% over 27.8% pick) — the extra early kill pressure punishes her when she overextends a Bladesurge or Flawless Duet without a follow-up. Flash+Teleport is the safer, far more popular pick (64.4% pick, 49.2% WR) if you'd rather play for wave priority and scaling instead."
+  },
+  "playing": [
+   {
+    "title": "Silence her commitment, not her approach",
+    "detail": "Hold W (Feral Scream) until she actually dashes in with Bladesurge or lands Flawless Duet — the silence on cast cancels her follow-up combo. It's only a 13s cooldown, so don't waste it early."
+   },
+   {
+    "title": "Rupture her engage, don't trade at her range",
+    "detail": "Drop Q (Rupture) on her approach path as she closes — it pops her airborne and slows on landing, turning her dash into a whiff instead of a stick. This matches OP.GG's own read on the matchup."
+   },
+   {
+    "title": "Disengage at max passive stacks",
+    "detail": "Ionian Fervor grants stacking attack speed and bonus on-hit damage at max stacks — if she's chained several spell-hits in a row, back off and reset rather than trading into her hardest-hitting window."
+   },
+   {
+    "title": "Sidestep the Flawless Duet midpoint",
+    "detail": "Her two blades converge toward the center of their path — walking laterally avoids the stun-and-mark far more reliably than retreating straight back into the convergence point."
+   },
+   {
+    "title": "Save Feast to end trades, not start them",
+    "detail": "Feast's true damage plus Carnivore's health/mana refund on the kill is best spent finishing a trade she's already losing, converting it into a permanent health stack for the rest of the game."
+   },
+   {
+    "title": "Let Vorpal Spikes do the work in extended fights",
+    "detail": "Vorpal Spikes procs on every autoattack with a 0.5s cooldown and hits everything in front of you — once you have item and level advantage, simply autoattacking out-trades her stick-and-poke pattern."
+   }
+  ],
+  "patchCaveat": "The build order, rune pages, boots, summoner spells, and win rates above are measured from live games on the current patch (16.20.1); the mechanical reasoning, timing calls, and trade patterns are my own read of the kit."
+ },
+ "generatedAt": 1791544402582,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791544290175,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 163,
+   "wins": 82,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "even",
+  "opponentTip": "Avoid fighting her when she has (P) and Conqueror stacks by keeping your distance. Avoid being hit with her (E) and use [Q] to create some distance when she closes in.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.2,
+    "play": 132,
+    "pickRate": 64.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.4,
+    "play": 57,
+    "pickRate": 27.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 4.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 47.9,
+    "play": 73,
+    "pickRate": 35.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 61.3,
+    "play": 31,
+    "pickRate": 15.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.2,
+    "play": 139,
+    "pickRate": 68.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 16.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.3,
+    "play": 149,
+    "pickRate": 78.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 63.6,
+    "play": 22,
+    "pickRate": 11.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 5.5
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 3.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Thornmail",
+     "Hollow Radiance"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53,
+    "play": 115,
+    "pickRate": 57.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 59.2,
+    "play": 103,
+    "pickRate": 51.8
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 54.4,
+    "play": 68,
+    "pickRate": 34.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 28.6,
+    "play": 49,
+    "pickRate": 24.6
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 71.4,
+    "play": 42,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 63.2,
+    "play": 38,
+    "pickRate": 19.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 46
+   }
+  ]
+ }
+}

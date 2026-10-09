@@ -1,0 +1,389 @@
+{
+ "you": "Cho'Gath",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill early",
+   "line": "You lose if you stand and trade near walls or let Test of Spirit tether you before level 6; you win once Feast and your item spikes let you poke her down with Q and W the way OP.GG's data says to."
+  },
+  "thesis": "Illaoi's passive spawns Tentacles on nearby impassible terrain that swing at anyone caught near her Test of Spirit (E) spirit, and that spirit echoes a percentage of all damage it takes straight back onto Cho'Gath — so this lane is decided by whether Cho'Gath lets himself get tethered near a wall before level 6. Across 83 games Cho'Gath wins only 45.8% of this matchup, matching the measured lane and solo-kill advantage for Illaoi, because Cho'Gath has no point-blank answer before Feast (R) comes online. OP.GG's own read agrees: dodge E, poke with Q and W, and only commit once level 6 gives true damage.",
+  "tell": {
+   "watch": "Her Test of Spirit cooldown",
+   "theirWindow": {
+    "when": "Near walls or tethered by E, levels 1-5",
+    "what": "Tentacles near walls swing at you and heal her on every champion hit, and if you stay near the spirit (E, 900 range, CD 16/15/14/13/12s) too long or damage it, that damage echoes onto you and you become a Vessel spawning Tentacles against yourself. Back off from walls and break the tether distance the moment she casts it."
+   },
+   "yourWindow": {
+    "when": "Level 6+, after her E is on cooldown",
+    "what": "Lead with Q (Rupture, 9s CD, 950 range) to knock up and slow, land W (Feral Scream, 13s CD, 300 range) to silence her Harsh Lesson engage, then finish with R (Feast, 60s CD, 175 range) for true damage — a kill grows your max health (up to 6 stacks) and snowballs the next fight."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "No ult yet, tentacles near walls punish"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Test of Spirit pressure outpaces your poke"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Feast's true damage changes the trade math"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Rocketbelt burst plus stacked health scale"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build magic poke outscales her tentacles"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "The standard start (75.4% pick, 43.5% WR over 92 games) — the mana and sustain let you spam Q (9s CD) and W (13s CD) to poke from range instead of trading autos into her tentacle-boosted damage."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.5% pick, 44.3% WR — flattens the physical damage from her autos, Q tentacle smashes, and passive Tentacle swings that make up most of her early damage."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Gives you a gap-closer to punish her the instant Test of Spirit's tether breaks, stacked on top of magic burst."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained damage and tankiness let you win extended fights once you've survived to your item spikes, matching your late power curve."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Health and move speed let you catch her after she over-commits with W (Harsh Lesson) without sacrificing durability."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's building lifesteal and her tentacles keep healing her through your poke"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early grievous wounds component to cut her passive tentacle healing"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "her team has more waveclear or poke and you need teamfight presence over single-target burst"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want to keep stacking raw health to out-scale her all game"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "50% WR on this page — Grasp pairs with Vorpal Spikes' on-attack damage to heal you through her early harassment, which matters since you're on the back foot until Feast comes online at 6.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 63.6% of games (49.4% WR) because this is a scaling matchup — Flash lets you disengage her W leap or an E tether early, and Teleport resets you after losing a trade or brings you back once Feast and your core items make you the stronger champion from level 6 on."
+  },
+  "playing": [
+   {
+    "title": "Never fight near walls",
+    "detail": "Her passive spawns Tentacles on nearby impassible terrain that swing and heal her on any champion hit — step away from walls before trading so tentacles can't add free damage and sustain to her side."
+   },
+   {
+    "title": "Break Test of Spirit immediately",
+    "detail": "When she casts E (900 range, CD 16/15/14/13/12s), retreat far enough to break the tether or kill the spirit outright — any damage it takes echoes back onto you, and staying near it too long turns you into a Vessel spawning Tentacles against your own team."
+   },
+   {
+    "title": "Poke, don't stand and trade",
+    "detail": "Lead with Q (9s CD, 950 range) to knock up and slow from range, then W (13s CD, 300 range) to silence her Harsh Lesson engage — this is the slow upper-hand play OP.GG flags, and it avoids letting her stack tentacle and Q damage on you."
+   },
+   {
+    "title": "Save Feast for level 6",
+    "detail": "You have no execute before R (60s CD, 175 range), so don't commit to all-ins — once it's up, use it point-blank for true damage and to grow your max HP (up to 6 stacks) off a kill."
+   },
+   {
+    "title": "Weave Vorpal Spikes between casts",
+    "detail": "E fires passively on every attack and hits everything in front of you for free (0.5s CD) — weave autos between Q and W during short trades since it costs nothing extra."
+   },
+   {
+    "title": "Track her Q for tentacle spikes",
+    "detail": "Her Q (10/9/8/7/6s CD) increases tentacle damage when active — if it's down, tentacles near her hit harder, so disengage the moment she lands it."
+   },
+   {
+    "title": "Use Teleport to avoid forced all-ins",
+    "detail": "Reset after losing a trade or soaking poke, then Teleport back once you've scaled past level 6 instead of forcing a fight early just to save CS."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and summoners above are pulled from measured games on the current patch via OP.GG; the win rates, sample sizes, and pick rates are fact, but the tactical reasoning — avoiding walls, breaking Test of Spirit, timing Feast — is my own read of the ability kits."
+ },
+ "generatedAt": 1791544744570,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791544628559,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 83,
+   "wins": 38,
+   "winRate": 45.8
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with (E). Use [Q][W] to slowly gain the upper hand in combat and kill her after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.4,
+    "play": 77,
+    "pickRate": 63.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 41,
+    "play": 39,
+    "pickRate": 32.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 3,
+    "pickRate": 2.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 42,
+    "pickRate": 34.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 14.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 43.5,
+    "play": 92,
+    "pickRate": 75.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 13.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.3,
+    "play": 61,
+    "pickRate": 53.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 55.9,
+    "play": 34,
+    "pickRate": 29.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 100,
+    "play": 7,
+    "pickRate": 10.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Sunfire Aegis",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Thornmail",
+     "Sunfire Aegis"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 2.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 45.5,
+    "play": 66,
+    "pickRate": 56.4
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 42.2,
+    "play": 45,
+    "pickRate": 38.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 59,
+    "play": 39,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53.8,
+    "play": 39,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 30.8,
+    "play": 26,
+    "pickRate": 22.2
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 28
+   }
+  ]
+ }
+}

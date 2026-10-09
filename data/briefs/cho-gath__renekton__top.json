@@ -1,0 +1,385 @@
+{
+ "you": "Cho'Gath",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you trade autos and extended skirmishes before level 6 while Renekton sits above 50 Fury, but you win the actual numbers — 56.8% over 220 games — by poking with Rupture and scaling into Feast stacks."
+  },
+  "thesis": "Renekton's Fury-fueled combo (empowered W triple-slash stun plus Q sustain) gives him the real lane and solo-kill advantage early, which is why OP.GG calls the lane his. Cho'Gath's 950-range Rupture lets him contest waves without ever entering that combo's threat range, and once Feast comes online at 6 the long game flips — hence the 56.8% head-to-head win rate across 220 games despite losing the early lane on paper.",
+  "tell": {
+   "watch": "Renekton's Fury bar",
+   "theirWindow": {
+    "when": "Renekton's Fury bar is above 50",
+    "what": "He can throw a 3-hit Ruthless Predator (W) that destroys shields and stuns for 1.5s instead of 0.75s, and his Cull the Meek (Q) hits harder and heals more. Disengage rather than trade face-to-face until the bar drains."
+   },
+   "yourWindow": {
+    "when": "Right after he dashes with E (Slice and Dice)",
+    "what": "Slice and Dice is on a 16s cooldown at rank 1 (down to 10s at rank 5), so once he's used it he has no gap-closer. Step up and land Rupture (Q, 950 range) for the knockup-slow, then Feral Scream (W, 300 range cone) to silence before he can re-engage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Early all-in stronger before your R"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E dash plus Fury snowball dangerous"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Feast unlocks true damage finisher"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Max rank W silences his combo"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Feast stacks make you a wall"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Highest-winrate, highest-pickrate start in these games (59.2% over 184 games). Mana sustain lets you spam Rupture to zone waves instead of trading autos into his Cull the Meek."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "60.7% win rate and the clear pick-rate favorite; flattens the physical damage from his autos, which is also how he generates Fury in the first place."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Highest win-rate core path listed (57.1%). The dash gives you a way to close distance for Feast or disengage his empowered W without burning Flash."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained magic damage and HP scale your Vorpal Spikes trades and your true-damage R stacks compound the tankiness."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Closes the gap faster to land Rupture and adds the HP buffer you need once he's above 50 Fury."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "he keeps healing off Cull the Meek sustain in extended trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he starts building lifesteal or crit AD items"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game runs long and you want more raw HP to stack on top of Feast"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest win rate of the two listed pages (65.6%). Procs off autos during safe E trades, scaling your HP passively — which matches the matchup's structural fact: you win by outscaling, not out-trading.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest win rate of the recorded combos (68.1%). Ignite secures kills through Feast's true damage and his Cull the Meek sustain; Flash keeps you alive through an empowered Ruthless Predator chain."
+  },
+  "playing": [
+   {
+    "title": "Trade with E, not autos alone",
+    "detail": "Vorpal Spikes procs off every auto and hits everything in front of you, but walking into auto range also puts you inside his Cull the Meek radius. Poke with Rupture's 950 range instead of forcing melee exchanges."
+   },
+   {
+    "title": "Hold W for his all-in",
+    "detail": "Feral Scream is on a 13s cooldown — save the silence to cancel his Ruthless Predator windup or interrupt the empowered three-hit stun once he's above 50 Fury, rather than using it on long-range poke."
+   },
+   {
+    "title": "Punish empty E cooldown",
+    "detail": "Slice and Dice starts at a 16s cooldown and only drops to 10s at max rank. Once he's spent it to engage or escape, close in and land Rupture's knockup-slow freely."
+   },
+   {
+    "title": "Don't force trades before 6",
+    "detail": "You have no Feast yet, and the measured data agrees Renekton holds the early lane and solo-kill edge. Farm from max range and let Rupture zone minions instead of standing in his threat range."
+   },
+   {
+    "title": "Snowball with Feast after 6",
+    "detail": "Feast deals true damage and grows your max HP on a kill, stacking up to 6 times. Use it on cannon minions or a low Renekton to start compounding tankiness."
+   },
+   {
+    "title": "Respect Dominus windows",
+    "detail": "His R grants bonus health and periodic Fury gain while active, on a cooldown starting at 120s and dropping to 80s. Expect a short burst of empowered W access during it — disengage or silence through it rather than brawling."
+   },
+   {
+    "title": "Farm safe, win the long game",
+    "detail": "This matches OP.GG's own tip: keep distance and contest waves from range. Cho'Gath's 56.8% win rate over 220 games comes from outscaling the lane, not winning early skirmishes."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner spells are pulled from measured games on the current patch via OP.GG; the ability timings, trade windows, and tactical reasoning are my own read of the kit."
+ },
+ "generatedAt": 1791544283861,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791544176671,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 220,
+   "wins": 125,
+   "winRate": 56.8
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Pay attention to his Fury levels while keeping your distance. Focus on contesting and farming lane from a safe distance.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.6,
+    "play": 171,
+    "pickRate": 62
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 68.1,
+    "play": 94,
+    "pickRate": 34.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 0,
+    "play": 7,
+    "pickRate": 2.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 60.2,
+    "play": 93,
+    "pickRate": 33.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 65.6,
+    "play": 61,
+    "pickRate": 21.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 59.2,
+    "play": 184,
+    "pickRate": 67.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 58.8,
+    "play": 51,
+    "pickRate": 18.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 60.7,
+    "play": 168,
+    "pickRate": 64.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 56,
+    "play": 50,
+    "pickRate": 19.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 5.8
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 28.6,
+    "play": 7,
+    "pickRate": 4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 56.4,
+    "play": 188,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 59.8,
+    "play": 107,
+    "pickRate": 37.9
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 60.2,
+    "play": 93,
+    "pickRate": 33
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 57.1,
+    "play": 77,
+    "pickRate": 27.3
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 61.6,
+    "play": 73,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 61.8,
+    "play": 55,
+    "pickRate": 19.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 61,
+    "play": 77
+   }
+  ]
+ }
+}

@@ -1,0 +1,381 @@
+{
+ "you": "Cho'Gath",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Losing lane",
+   "line": "You lose the poke-and-trade war to her Runic Blade autos and dashes, but you flip the lane the moment you land Q (Rupture) into W (Feral Scream) before she can react."
+  },
+  "thesis": "Riven's entire kit is abilities — Q (Broken Wings), W (Ki Burst), E (Valor), R (Blade of the Exile) — so your W (Feral Scream) silence is a full kit-lock, not just a damage spell. The 44.1% win rate over 102 games says you lose the even trades she chooses; the solo-kill edge says you win the trade she doesn't choose. Your job is to deny the first kind and force the second.",
+  "tell": {
+   "watch": "Riven's E (Valor) cooldown",
+   "theirWindow": {
+    "when": "Valor and Broken Wings both up",
+    "what": "She dash-auto-dash-outs with Runic Blade-empowered hits and you can't punish it. Don't walk up to trade here — let the wave come to you and eat the poke."
+   },
+   "yourWindow": {
+    "when": "Her E (Valor, 10-6s cd) is down",
+    "what": "She has no block and limited escape. Flash or walk in, land Q (Rupture, 9s cd, 950 range) for the knockup and slow, then follow with W (Feral Scream, 13s cd) to silence her out of Q/W/E/R entirely."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Her stun combo wins before your W"
+   },
+   {
+    "levels": "4-5",
+    "edge": "them",
+    "note": "Runic Blade autos win short trades"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Feast all-in shuts down her kit"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Wind Slash poke offsets your HP edge"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Raw HP and Feast stacks take over"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The 51.1% win rate (92 games, 67.7% pick) pick — the extra sustain and mana keep you throwing Rupture and Feral Scream through her poke without being forced all-in early."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "48.1% win rate, 61.2% pick — flat reduction on her Runic Blade-empowered autos, which are the actual source of her trade advantage."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "The dash closes the gap on a mobile target and lets you catch her mid-Broken Wings to land Rupture."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained magic damage plus omnivamp lets you win extended trades instead of just the burst window."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "This path hits 85.7% over 7 games; the speed stacks let you stick to her through Valor dashes instead of losing her."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's stacking attack speed or crit off Runic Blade autos"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "the lane turns into a slow poke war and you need more sustain to out-wait her"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want more raw HP to stack Feast into teamfights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page hits 57.1% win rate; Grasp procs on every auto you land through her poke, which fits the matchup's real plan — survive the trade war, don't win it, then flip it with Feast.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "52.5% win rate at 58.8% pick — this is a scaling matchup, not a dueling one, so Teleport lets you reset off the wave and still show up for objectives while Flash sets up the Rupture-into-Feral Scream all-in."
+  },
+  "playing": [
+   {
+    "title": "Hold trades until Valor is down",
+    "detail": "Her E (Valor, 10-6s cd) is her only block and gap-close. If it's up, she dictates the trade — wait it out."
+   },
+   {
+    "title": "Pre-cast Rupture on her path, not her feet",
+    "detail": "Q (Rupture) has 950 range but a visible wind-up; throw it where her Broken Wings dash is taking her, not where she's standing."
+   },
+   {
+    "title": "Silence to cancel her combo, not just for damage",
+    "detail": "W (Feral Scream)'s silence stops Ki Burst, Valor, and Wind Slash cold — use it the instant she commits to an all-in, not just as a poke tool."
+   },
+   {
+    "title": "Don't fight for CS, fight for level 6",
+    "detail": "OP.GG's own read holds: she wins skirmishes before you have R (Feast, 60s cd). Farm through the poke instead of contesting every wave."
+   },
+   {
+    "title": "All-in the moment Feast comes up",
+    "detail": "R (Feast) is true damage on top of your Q-W combo — this is the exact mechanic behind your solo-kill advantage, so look for it on cooldown refresh, not just as a finisher."
+   },
+   {
+    "title": "Back off after she lands two abilities",
+    "detail": "Her Runic Blade passive charges off ability use; an auto right after Ki Burst or Valor hits noticeably harder, so disengage instead of trading into it."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, and the 44.1% head-to-head win rate are measured from live games on the current patch via OP.GG; the cooldown timing, silence-lock, and dash-tell reasoning above is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791544513005,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791544408841,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 102,
+   "wins": 45,
+   "winRate": 44.1
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Cho'Gath",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep your distance from her while keeping an eye on her Conqueror stacks. Focus on farming and contesting lane rather than fighting her.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.5,
+    "play": 80,
+    "pickRate": 58.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 39.5,
+    "play": 43,
+    "pickRate": 31.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 5.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 45.7,
+    "play": 46,
+    "pickRate": 33.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 28,
+    "pickRate": 20.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.1,
+    "play": 92,
+    "pickRate": 67.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.7,
+    "play": 24,
+    "pickRate": 17.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.1,
+    "play": 79,
+    "pickRate": 61.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 21.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 8.2
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Unending Despair"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Hextech Rocketbelt",
+     "Riftmaker"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 48.8,
+    "play": 84,
+    "pickRate": 63.2
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 51.1,
+    "play": 45,
+    "pickRate": 33.8
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 44.2,
+    "play": 43,
+    "pickRate": 32.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.3,
+    "play": 39,
+    "pickRate": 29.3
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 55.6,
+    "play": 36,
+    "pickRate": 27.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55.6,
+    "play": 27,
+    "pickRate": 20.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 68.8,
+    "play": 32
+   }
+  ]
+ }
+}

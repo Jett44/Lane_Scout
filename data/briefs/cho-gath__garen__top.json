@@ -1,0 +1,385 @@
+{
+ "you": "Cho'Gath",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Garen stick Decisive Strike and Judgment back-to-back in melee range, and you win if you poke him down with Rupture and Vorpal Spikes before he ever closes the gap."
+  },
+  "thesis": "This is a genuinely even lane — 49.2% over 260 games — because Cho'Gath's ranged poke (Rupture, 950 range) outclasses anything Garen can throw back from range, but Garen's Perseverance passive quietly undoes that poke the moment you stop hitting him. The matchup is decided by whether you keep constant pressure on him (denying the regen) or let trades go cold and let him reset for free.",
+  "tell": {
+   "watch": "Garen's out-of-combat regen timer",
+   "theirWindow": {
+    "when": "Decisive Strike (Q) and Judgment (E) both up",
+    "what": "He breaks any slow with Q, silences you on the hit, then follows with the Judgment spin. If you see both off cooldown and he's walking at you, back off to 950 range or pre-emptively Rupture the ground under him before he enters his 300-range Q threat zone."
+   },
+   "yourWindow": {
+    "when": "his Decisive Strike (Q) just went on cooldown",
+    "what": "For the next 8 seconds he has no silence, no gap-close burst, and no slow-break. Walk up, land Rupture into Feral Scream, and let Vorpal Spikes stack free damage while he can only auto back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither kit is online, trades are roughly equal"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Rupture range and spike stacks outpoke him"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Feast true damage adds a real kill threat"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Judgment cooldown drops, he sustains trades better"
+   },
+   {
+    "levels": "13-18",
+    "edge": "them",
+    "note": "Full build plus 20s ult cooldown closes the gap"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring > Health Potion > Health Potion",
+    "why": "Mana sustain lets you spam Rupture every 9 seconds without running dry, which is the whole poke plan against him."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Garen's damage is entirely physical autos and Judgment ticks, so flat armor and the auto-attack reduction directly blunt his only damage source."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "Gives you the gap-close to actually land Feral Scream and Feast on him instead of only poking from range."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Omnivamp and ramping magic damage let you out-sustain his Perseverance regen in extended trades."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Movement speed and tankiness to both chase a disengaging Garen and survive his all-in once he closes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "garen's passive regen keeps healing back the poke damage you land"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "you want constant anti-heal pressure while sustaining through extended fights"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "you're ahead and want to brawl him down instead of kiting"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you're behind and need grievous wounds and a shield to survive his dives"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Hail of Blades",
+   "keystoneWhy": "The attack speed burst stacks Vorpal Spikes damage instantly in short trades, which punishes Garen before he can ever close to his own effective range.",
+   "primary": [
+    "Cheap Shot",
+    "Grisly Mementos",
+    "Ultimate Hunter"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Move Speed",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the highest-pick option here (64.4%) and lets you reset mana/HP at base then come back to a frozen wave you've zoned with Rupture; take Flash+Ignite instead if you want to convert your solo-kill edge into an early kill."
+  },
+  "playing": [
+   {
+    "title": "Poke from 950 range constantly",
+    "detail": "Garen has no ranged answer to Rupture. Land it on cooldown every 9 seconds whenever he's near minions, and never let him walk up for free."
+   },
+   {
+    "title": "Never let his regen tick",
+    "detail": "Perseverance heals him back whenever he hasn't been hit recently. Keep landing Vorpal Spikes autos and Rupture chip so he's always on a damage timer instead of resetting."
+   },
+   {
+    "title": "Bait Decisive Strike first",
+    "detail": "Wait for him to waste Q on a minion or a missed engage before you commit to a real trade — for the next 8 seconds he has no silence and no slow-break."
+   },
+   {
+    "title": "Silence his all-in with Feral Scream",
+    "detail": "Feral Scream's silence shuts down his follow-up abilities mid-engage. Save it for the moment he commits rather than using it on cooldown."
+   },
+   {
+    "title": "Close kills with Rupture into Feast",
+    "detail": "Rupture's knockup and slow lines up Feast's true damage perfectly from level 6 on. Every Feast kill grows your max HP, so prioritize taking these resets whenever he's low."
+   },
+   {
+    "title": "Punish his ult cooldown early",
+    "detail": "Demacian Justice is on a 140-second cooldown at rank 1. Once he fires it and you survive, you have a long window where he has zero execute threat — play aggressively into it."
+   }
+  ],
+  "patchCaveat": "Build, rune, and win-rate numbers are pulled from measured games on the current patch (16.20.1); the mechanical reasoning and trade timing are my own read of the kits, not measured data."
+ },
+ "generatedAt": 1791543555572,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791543460852,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 260,
+   "wins": 128,
+   "winRate": 49.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Cho'Gath",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep your distance to avoid his skills while farming and contesting lane safely. Do not let (P) activate by attacking him constantly.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44,
+    "play": 232,
+    "pickRate": 64.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 64.4,
+    "play": 101,
+    "pickRate": 28.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 76.9,
+    "play": 13,
+    "pickRate": 3.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 50.4,
+    "play": 121,
+    "pickRate": 33.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.8,
+    "play": 80,
+    "pickRate": 22.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 262,
+    "pickRate": 73.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.2,
+    "play": 51,
+    "pickRate": 14.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48,
+    "play": 200,
+    "pickRate": 59
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.3,
+    "play": 78,
+    "pickRate": 23
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 73.7,
+    "play": 19,
+    "pickRate": 8.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Thornmail",
+     "Hollow Radiance"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 5.5
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Sunfire Aegis",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 49,
+    "play": 251,
+    "pickRate": 70.9
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 58.1,
+    "play": 105,
+    "pickRate": 29.7
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 59.2,
+    "play": 103,
+    "pickRate": 29.1
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 51.5,
+    "play": 101,
+    "pickRate": 28.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50.6,
+    "play": 89,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 67.4,
+    "play": 86,
+    "pickRate": 24.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 55.5,
+    "play": 119
+   }
+  ]
+ }
+}

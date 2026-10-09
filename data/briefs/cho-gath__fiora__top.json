@@ -1,0 +1,389 @@
+{
+ "you": "Cho'Gath",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable, rough early",
+   "line": "You lose this if Fiora catches a solo-kill with Lunge and Riposte before level 6, but the 55% win rate over 171 games says Cho'Gath takes over once Feast and Vorpal Spikes come online."
+  },
+  "thesis": "Fiora's Lunge (Q, 16/14/12/10/8s cooldown with a free second dash) and Riposte (W, 10/9/8/7/6s cooldown) give her the early lane and solo-kill edge that OP.GG flags, because Cho'Gath has no answer to a dash-reset duelist before level 6. Once Feast (R) comes online and Vorpal Spikes (E) is maxed, Cho'Gath's true-damage execute threat and growing max HP from devoured kills flip the long game, which is why the measured head-to-head still favors the Cho'Gath side at 55% over 171 games despite the rough start.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) availability",
+   "theirWindow": {
+    "when": "Riposte is up and she steps in",
+    "what": "She's baiting an auto-attack to parry and reflect magic damage back at you — and since Vorpal Spikes only procs off your own attacks, a parried auto wastes that damage too. Hold your autos and poke with Rupture (Q, 950 range) instead of trading into her."
+   },
+   "yourWindow": {
+    "when": "Feral Scream lands and silences her",
+    "what": "W's silence takes her Riposte and second Lunge off the table for its duration, so chain into free autos (Vorpal Spikes procs) and finish with Feast if she's low enough for the true-damage execute."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "No Rupture yet; her dash sustain bites"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Riposte and Burst of Speed enable all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Feast threat and silence offset her dashes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Maxed Spikes and HP stacks swing fights your way"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Thornmail voids her sustain; teamfight tank checks"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "55.1% win rate over 158 games at 75.6% pick — the extra sustain covers the levels 1-5 window where Fiora wins short trades, and the magic damage/mana scales Vorpal Spikes and Rupture poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "57.1% win rate over 140 games at 70.7% pick — Fiora's damage is entirely physical, from Lunge, Burst of Speed autos, and Blade Waltz, so flat armor directly blunts her duelist loop."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Scales max HP from stacking, which also scales what Feast converts into permanent growth on a kill."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Passive burn adds sustained damage during extended trades where she's healing off Duelist stacks."
+    },
+    {
+     "item": "Thornmail",
+     "why": "100% win rate in the measured 4-game sample of this exact path — directly undercuts her Duelist passive healing loop in prolonged fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "you want tankiness over burn and she's building into sustained attack-speed trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "she's snowballing lane and you need the anti-heal effect online before a full Thornmail completes"
+    },
+    {
+     "item": "Hextech Rocketbelt",
+     "when": "she's playing hit-and-run with Burst of Speed and you need to close distance to land Feast"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "you're ahead and want to add raw damage on top of the HP stacking instead of more armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "59.1% win rate over this page's sample — it rewards exactly the poke-and-disengage trade pattern this matchup calls for, converting safe Rupture/Vorpal Spikes pokes into permanent max HP instead of needing to win extended duels.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is both the most run (63.6% pick) and highest-winning (55.9%) combo here — Teleport lets you play the passive poke-and-scale lane plan without needing to fight for early priority, then resets you into side lanes once you've out-scaled her."
+  },
+  "playing": [
+   {
+    "title": "Poke from max Rupture range",
+    "detail": "Rupture (Q, 950 range, 9s cooldown) pops and slows her from well outside her 600-range Lunge — land it before she closes distance rather than trading autos into Riposte."
+   },
+   {
+    "title": "Save Feral Scream for her engage",
+    "detail": "W (13s cooldown, 300-range cone) silences on top of magic damage — time it the moment she Lunges in to strip her Riposte activation and second Lunge for its duration."
+   },
+   {
+    "title": "Don't auto into an active Riposte",
+    "detail": "Riposte buffs her AD and parries your next basic attack, reflecting magic damage back — since Vorpal Spikes only procs off your own attacks, feeding an auto into it wastes your proc and gives her free damage."
+   },
+   {
+    "title": "Respect the double Lunge",
+    "detail": "Lunge can recast once more within a couple seconds for free, so don't walk away in a straight line once she's near — she'll stick with the second dash."
+   },
+   {
+    "title": "Hold Feast for a real kill threat",
+    "detail": "Feast (R, 60s cooldown, 175 range, true damage) only grows your max HP permanently if it finishes the target, so save it for low-health windows rather than spending it on neutral trades."
+   },
+   {
+    "title": "Lean on Vorpal Spikes to control the wave",
+    "detail": "E hits everything in front of you on a 0.5s internal cooldown — use it to shove or hold the wave without needing to commit to a full melee trade."
+   },
+   {
+    "title": "Build Thornmail once she commits to autos",
+    "detail": "Her Duelist passive heals off damaging champions and stacks — Thornmail (100% in the measured 4-game sample with this build) directly cuts that sustain loop in extended fights."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and summoner spells above are pulled directly from measured games on the current patch (OP.GG); the lane mechanics, timing windows, and trade reasoning are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791543863032,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791543746636,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 171,
+   "wins": 94,
+   "winRate": 55
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "even",
+  "opponentTip": "Use [Q] carefully considering Fiora’s (W) in mind. Keep your distance to avoid your Vitals while using your skills to poke to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.9,
+    "play": 136,
+    "pickRate": 63.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.8,
+    "play": 67,
+    "pickRate": 31.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 2.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 52.9,
+    "play": 102,
+    "pickRate": 47.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 59.1,
+    "play": 44,
+    "pickRate": 20.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 55.1,
+    "play": 158,
+    "pickRate": 75.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 18.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 57.1,
+    "play": 140,
+    "pickRate": 70.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 53.7,
+    "play": 41,
+    "pickRate": 20.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Sunfire Aegis",
+     "Thornmail"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 3.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 3.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 2.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 51.2,
+    "play": 123,
+    "pickRate": 56.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 58.8,
+    "play": 97,
+    "pickRate": 44.9
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 50,
+    "play": 76,
+    "pickRate": 35.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 47.3,
+    "play": 74,
+    "pickRate": 34.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 57.4,
+    "play": 61,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 57.9,
+    "play": 38,
+    "pickRate": 17.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 58.1,
+    "play": 43
+   }
+  ]
+ }
+}

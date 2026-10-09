@@ -1,0 +1,385 @@
+{
+ "you": "Cho'Gath",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him land Q3 and W chain off cooldown at full resource; you win every trade you force before level 6 and every all-in after it."
+  },
+  "thesis": "Cho'Gath vs Aatrox is a resource-timer fight: Aatrox's Q (The Darkin Blade) and E (Umbral Dash) both run on visible cooldowns that start long and shrink hard with ranks, so his trade windows are predictable if you track them. The head-to-head sits at 55.5% over 229 games despite OP.GG flagging lane and solo-kill edges to Aatrox, which means Cho'Gath players are winning this by punishing the gaps between his cooldowns rather than contesting him inside them.",
+  "tell": {
+   "watch": "Aatrox's Q and E cooldowns",
+   "theirWindow": {
+    "when": "Q and E both off cooldown",
+    "what": "He can chain Umbral Dash in, stack Q swings, and heal off Deathbringer Stance procs. Do not extend trades here — W (Feral Scream) to silence him mid-combo and back off rather than trying to out-trade a full combo."
+   },
+   "yourWindow": {
+    "when": "His E (dash) is down",
+    "what": "He has no gap closer or escape. Walk up and force Q (Rupture) into W (Feral Scream) — the silence shuts off his Deathbringer Stance empowered auto and any flash-engage threat, and E (Vorpal Spikes) procs free damage every auto you land while he can't reposition."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his early Q damage outtrades your kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "your Q-W combo punishes cooldown gaps"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "World Ender all-in threat, play safe"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Feast stacks and item spikes take over"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "full build, Rocketbelt engage wins fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "51.5% win rate over 198 games and the standard 69.5% pick — the sustain and mana from two potions lets you spam Q and W to punish his dash cooldown without running dry."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.5% win rate over 172 games and the 64.9% pick — Aatrox is all basic-attack damage once Deathbringer Stance procs, and the flat reduction blunts his Q auto-attack trades."
+   },
+   "core": [
+    {
+     "item": "Hextech Rocketbelt",
+     "why": "61.5% win rate in this build path — the dash closes the gap the moment his E is down, letting you force Q-W off his cooldown windows instead of waiting for him to engage."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "part of the 61.5% win-rate core — sustained magic damage and the omnivamp scale your extended trades once W silences cut his healing window short."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "completes the 8.6%-pick core path — the health and move speed let you close distance between his E cooldowns and stick on him post-silence."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is outpacing you on auto-attack trades and Deathbringer Stance procs are healing him back to full"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need the anti-heal online earlier than a full Thornmail completion"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "you want to build around raw HP stacking instead of the Rocketbelt engage line"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Hail of Blades",
+   "keystoneWhy": "55.1% win rate at 39.3% pick — the burst attack speed window lets you land Vorpal Spikes procs and a full trade before he can land his own auto back, which matters most since his Q/E cooldowns are long at levels 1-5.",
+   "primary": [
+    "Cheap Shot",
+    "Grisly Mementos",
+    "Ultimate Hunter"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Move Speed",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs a 54% win rate at 33.4% pick — Ignite's sustained burn cuts directly into Deathbringer Stance and Umbral Dash healing, denying the exact mechanism that lets Aatrox win extended trades."
+  },
+  "playing": [
+   {
+    "title": "Track his Q and E cooldowns, not his HP",
+    "detail": "The Darkin Blade and Umbral Dash both start slow (14s and 9s at rank 1) and shrink to 6s and 5s by rank 5. Every trade decision should be based on whether both are up, not on flash reactions to his movement."
+   },
+   {
+    "title": "Rupture before he dashes in",
+    "detail": "Q (Rupture) has a 9s cooldown and knocks up on landing — throw it the moment he steps forward so the slow and air-time cancel his Umbral Dash approach instead of trading after he's already on top of you."
+   },
+   {
+    "title": "Save W for his all-in, not poke",
+    "detail": "Feral Scream silences for a few seconds on a 13s cooldown — holding it until he commits to an engage denies his Deathbringer Stance empowered auto and his Q damage window entirely."
+   },
+   {
+    "title": "Play passive from level 6 to 10",
+    "detail": "World Ender grants him attack damage, bonus healing, and move speed with a 120s cooldown at rank 1 — this is his strongest all-in window and OP.GG's own data shows Aatrox holds the solo-kill edge here, so don't contest it without a jungler or flash advantage."
+   },
+   {
+    "title": "Feast priority: him over minions once he's isolated",
+    "detail": "R (Feast) deals true damage and grows your max HP permanently on a kill, capping at 6 stacks — using it on him when he's split from support damage both denies his comeback potential and compounds your own stat lead."
+   },
+   {
+    "title": "Use Vorpal Spikes to zone, not just for damage",
+    "detail": "E procs passively on every auto at a 0.5s internal cooldown — walking forward into auto range constantly chips him even when you're not actively combo-ing, which matters because his healing requires landing damage on you to offset."
+   },
+   {
+    "title": "Don't fight through his Q3",
+    "detail": "The Darkin Blade can swing three times, each hitting a different area — if he's mid-combo, disengage with Rupture's slow rather than trading through the third swing, since that's where his burst damage peaks."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/pick-rate figures are measured OP.GG data from current-patch games; the mechanical reasoning and timing advice are this brief's own analysis layered on top."
+ },
+ "generatedAt": 1791543907424,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791543870235,
+  "overall": {
+   "winRate": 51.2,
+   "play": 21828,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 229,
+   "wins": 127,
+   "winRate": 55.5
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance from his (Q)-(E) combo. Use [Q] to gain the upper hand in combat. Try to kill him after reaching level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.9,
+    "play": 181,
+    "pickRate": 60.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54,
+    "play": 100,
+    "pickRate": 33.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 3.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Domination",
+    "primary": [
+     "Hail of Blades",
+     "Cheap Shot",
+     "Grisly Mementos",
+     "Ultimate Hunter"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Move Speed",
+     "Health Scaling"
+    ],
+    "winRate": 55.1,
+    "play": 118,
+    "pickRate": 39.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 34.1,
+    "play": 44,
+    "pickRate": 14.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 198,
+    "pickRate": 69.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.3,
+    "play": 60,
+    "pickRate": 21.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.5,
+    "play": 172,
+    "pickRate": 64.9
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.9,
+    "play": 51,
+    "pickRate": 19.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Rocketbelt",
+     "Riftmaker",
+     "Dead Man's Plate"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 8.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 3.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 2.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 48.8,
+    "play": 166,
+    "pickRate": 54.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.9,
+    "play": 127,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 49.1,
+    "play": 108,
+    "pickRate": 35.5
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 58,
+    "play": 81,
+    "pickRate": 26.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 47.5,
+    "play": 80,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.5,
+    "play": 65,
+    "pickRate": 21.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 52.8,
+    "play": 72
+   }
+  ]
+ }
+}
