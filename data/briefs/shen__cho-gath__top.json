@@ -1,0 +1,384 @@
+{
+ "you": "Shen",
+ "them": "Cho'Gath",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose extended auto trades to Vorpal Spikes stacking every hit, but you win the moment Shadow Dash lands and locks him into autoing you."
+  },
+  "thesis": "Cho'Gath's entire kit is point-and-click (Rupture at 950 range, Feral Scream at 300, Feast at 175) while his only free damage source, Vorpal Spikes, needs him at melee range on you. Vorpal Blade lets you poke from 475 range without ever entering Spikes range, and taunting him with Shadow Dash forces him to auto you instead of casting Q or W, which is why Shen holds a real lane edge (52.8% over 144 games) even though solo-kills stay even — you out-trade him, you don't necessarily kill him.",
+  "tell": {
+   "watch": "Cho'Gath's Feral Scream (W) cooldown",
+   "theirWindow": {
+    "when": "right after he lands Rupture (Q)",
+    "what": "He'll walk up to auto you with Vorpal Spikes stacking and may follow with Feral Scream (13s CD) to silence your Feint or Dash. Back off the follow-up auto instead of trading into his Spikes."
+   },
+   "yourWindow": {
+    "when": "whenever Shadow Dash (E) is off cooldown",
+    "what": "Dash onto him so the taunt forces him to only auto you, cancelling any Rupture or Feral Scream he's about to cast. Vorpal Blade and your taunted free hits win that exchange outright."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Rupture online before your Dash, free poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Shadow Dash taunt locks him, Feint blocks Q"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Feast execute threat, manage HP closely"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Titanic Hydra online, splitpush pressure"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight value swings with his R stacks"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Blunts the chip damage from Vorpal Spikes and early Rupture harass better than Doran's Helm; it's the higher win-rate start (54.9% over 113 games) for a reason."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tenacity cuts the Feral Scream silence window short so you can still Feint or Dash out of a follow-up, on top of flat magic resist against his magic damage kit."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Fuels the splitpush/wave-clear game plan that actually wins this lane, since solo-kills are even but your side-lane pressure isn't."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Core follow-up in every tracked build path for this matchup, keeps you relevant in extended trades."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes a champion whose only consistent damage source is auto-attacking you with Vorpal Spikes; highest win rate core path at 75% over 8 games."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "he's building attack speed or crit to maximize Vorpal Spikes damage"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their team stacks magic burst alongside his Feast true damage"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you need more health to tank wave clear and dives"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the Vorpal Blade poke-and-sustain pattern you're running this lane on, and keeps you topped off through his constant low-range Spikes chip.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest win rate (54.2%) and by far the most picked combo (65.2%) in this matchup — Ignite also cuts through Carnivore sustain if you ever do get a kill window."
+  },
+  "playing": [
+   {
+    "title": "Poke from Vorpal Blade range, not melee",
+    "detail": "Vorpal Blade reaches 475, Vorpal Spikes only reaches 40. Land Q and back out instead of standing in auto range where his passive spikes punish every attack he lands back."
+   },
+   {
+    "title": "Taunt his cast, not his auto",
+    "detail": "Shadow Dash's taunt forces him to only auto you for its duration, so timing the dash as he's about to cast Rupture or Feral Scream cancels his whole combo."
+   },
+   {
+    "title": "Feint through Rupture's burst",
+    "detail": "Feint's shield (9-5s cooldown as you rank it) absorbs Rupture's damage outright, though not the knockup or slow — pop it right as the ground erupts."
+   },
+   {
+    "title": "Respect Feast past level 6",
+    "detail": "Feast is 175 range, 60s cooldown, true damage, and kills to grow his max health. Don't sit at low HP near his minion wave once he's six."
+   },
+   {
+    "title": "Farm Ki Strike before you trade",
+    "detail": "Ki Strike's cooldown drops from hitting minions too, so land a few farm autos to guarantee the empowered hit lands inside your taunt window."
+   },
+   {
+    "title": "Use R to swing other lanes, not to force a kill",
+    "detail": "Stand United's global teleport means you don't need to out-duel him; shield and jump into a winning fight elsewhere since solo-kills here are even anyway."
+   },
+   {
+    "title": "Disengage once the taunt window ends",
+    "detail": "Vorpal Spikes refreshes every 0.5s on his autos, so prolonged trades after your Dash is down start favoring him again."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, and the 52.8% head-to-head figure are measured from live games on the current patch (16.20.1); the taunt-timing and poke-range reasoning above is my own read on why those numbers come out the way they do."
+ },
+ "generatedAt": 1791526478027,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791526384218,
+  "overall": {
+   "winRate": 51.1,
+   "play": 11347,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 144,
+   "wins": 76,
+   "winRate": 52.8
+  },
+  "laneAdvantage": "Shen",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being airborne by Cho’Gath’s (Q). Engage aggressively whenever Cho’Gath steps in range of [E]. Be careful of being finished off with (R) post-level 6 by always managing your health.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.2,
+    "play": 118,
+    "pickRate": 65.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.7,
+    "play": 60,
+    "pickRate": 33.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.5,
+    "play": 71,
+    "pickRate": 39.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.5,
+    "play": 40,
+    "pickRate": 22.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.9,
+    "play": 113,
+    "pickRate": 63.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 60,
+    "pickRate": 33.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.5,
+    "play": 101,
+    "pickRate": 60.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.5,
+    "play": 59,
+    "pickRate": 35.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 9.4
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Kaenic Rookern"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 53.2,
+    "play": 156,
+    "pickRate": 83
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 63.7,
+    "play": 91,
+    "pickRate": 48.4
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 45.7,
+    "play": 46,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.6,
+    "play": 36,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 48.6,
+    "play": 35,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 14.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.9,
+    "play": 109
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Cho'Gath",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you walk into Rupture and get chain-CC'd into a trade you can't escape; you win by baiting Rupture, closing with Decisive Strike, and executing with Demacian Justice once it's up."
+  },
+  "thesis": "Cho'Gath's entire lane threat is Q (Rupture), a 9-second-cooldown knock-up with a slow at 950 range; everything else he has is short-range. Garen in this lane sits at 50.5% overall and 50.8% across 248 games into Cho'Gath specifically, so this is a mechanically even lane decided by whether you eat Ruptures or dodge them.",
+  "tell": {
+   "watch": "Cho'Gath's Q cooldown/animation",
+   "theirWindow": {
+    "when": "Rupture lands and slows you",
+    "what": "If you get hit by Q you are slowed and knocked up, and he will follow with W (Feral Scream) to silence and zone you off further trades. Don't try to fight through this window; back off and reset."
+   },
+   "yourWindow": {
+    "when": "His Q is on cooldown (9s)",
+    "what": "The instant Rupture is down, walk up and force a trade with E (Judgment) and auto-attacks. Use Q (Decisive Strike) to clear any residual slow, close distance, and land the silenced bonus-damage hit before he can threaten another knock-up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both sides poking, Rupture dictates spacing"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Feral Scream silence punishes aggressive engages"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Demacian Justice threatens execute, forces caution"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Trades stabilize around W (Courage) sustain"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Stridebreaker/Phantom Dancer let you run him down"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Taken in 56.4% of games at 49.7% win rate; the extra sustain and damage reduction blunts poke from Rupture and Vorpal Spikes while you wait out his Q cooldown."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "69.4% pick rate at 46.6% win; attack speed accelerates your Judgment-reset trades in the windows after his Q is down."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "First item in the top build path (61.4% win over 57 games); the slow-on-hit lets you stick to him once you close distance after dodging Rupture."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Second in the dominant build order; attack speed and move speed keep you in range through his short-ranged kit."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Caps the 61.4%-winrate path; grievous wounds cuts into Cho'Gath's Perseverance-style sustain from Carnivore stacks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "he is building tank and out-sustaining your trades"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you need more burst to punish his Q cooldown window before he can reset to max range"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "his magic damage from Feral Scream and Feast is piling up faster than you can trade back"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through extended trades once you're inside his short-range kit, and converts to healing that offsets Vorpal Spikes chip damage during the long windows between his Qs.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run at 51.3% win and 95.6% pick rate; Ignite punishes his Carnivore-fueled sustain and Flash lets you dodge Rupture or close distance the instant his Q cooldown expires."
+  },
+  "playing": [
+   {
+    "title": "Track his Q cooldown constantly",
+    "detail": "Rupture is the only thing that threatens you at range; the second it's on cooldown you have a free window to walk up and trade with E (Judgment)."
+   },
+   {
+    "title": "Don't engage into his Feral Scream range",
+    "detail": "W (Feral Scream) silences in a cone at 300 range; if he still has it up, don't commit your full combo since you'll get silenced mid-trade."
+   },
+   {
+    "title": "Use Q (Decisive Strike) to close, not just to poke",
+    "detail": "Decisive Strike clears any slow from Rupture and gives bonus move speed; use it specifically to chase him down after he lands a Q, not as a standalone poke."
+   },
+   {
+    "title": "Save Demacian Justice for his low-HP moments post-6",
+    "detail": "R (Demacian Justice) at 400 range attempts to execute; hold it until he's already committed to a trade or missed a Rupture, since it has a long cooldown (140s at rank 1) and you don't get a second chance."
+   },
+   {
+    "title": "Respect Vorpal Spikes in prolonged trades",
+    "detail": "His E passively deals damage to everything in front of him on a 0.5s cooldown whenever he autos; don't facetank extended auto-trades expecting it to fall off."
+   },
+   {
+    "title": "Use W (Courage) before committing to all-ins",
+    "detail": "Courage deals damage around Garen for its duration; pop it right as you close distance after dodging a Q so the damage window lines up with your melee range, not before."
+   },
+   {
+    "title": "Punish his Feast cooldown on all-ins",
+    "detail": "R (Feast) is a 60s-cooldown true-damage execute that grows his max HP on kill; if he's already used it recently he has no burst answer to your all-in, so push harder in that window."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above come from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning on cooldown windows and trade patterns is this coach's own analysis, not sourced data."
+ },
+ "generatedAt": 1791526048606,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791526010013,
+  "overall": {
+   "winRate": 50.5,
+   "play": 19116,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 248,
+   "wins": 126,
+   "winRate": 50.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Cho'Gath",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit by Cho’Gath’s (Q). If hit with (Q), use [W] to get rid of its slow to close in to deal damage. Try to kill him after reaching level 6 with your ultimate.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.3,
+    "play": 302,
+    "pickRate": 95.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 2.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 0.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 132,
+    "pickRate": 41.8
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.5,
+    "play": 43,
+    "pickRate": 13.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 173,
+    "pickRate": 56.4
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47,
+    "play": 100,
+    "pickRate": 32.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 46.6,
+    "play": 206,
+    "pickRate": 69.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 58.3,
+    "play": 60,
+    "pickRate": 20.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 61.4,
+    "play": 57,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 7.5
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 7.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.5,
+    "play": 301,
+    "pickRate": 94.1
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 54.1,
+    "play": 185,
+    "pickRate": 57.8
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 54.2,
+    "play": 131,
+    "pickRate": 40.9
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 53,
+    "play": 83,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 49.1,
+    "play": 55,
+    "pickRate": 17.2
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 48.8,
+    "play": 41,
+    "pickRate": 12.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 54.4,
+    "play": 149
+   }
+  ]
+ }
+}

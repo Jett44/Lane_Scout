@@ -1,0 +1,388 @@
+{
+ "you": "Sion",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, stack-sensitive",
+   "line": "You win if you deny Nasus's Siphoning Strike stacks and all-in him before he hits double digits; you lose if you let him farm freely into a maxed Wither and his level-6 Fury of the Sands."
+  },
+  "thesis": "Nasus's win condition is permanent and cumulative: every minion his Q (Siphoning Strike) kills raises its damage forever, so this lane is decided by how much free farm you concede, not by any single trade. Sion's Enrage (E) and the Death's Caress (W) shield let him win short exchanges and even contest last hits early, but once Nasus stacks up and maxes Wither (W), every later fight tilts toward him. The 46.2% win rate over 158 games reflects that: Sion has the early lane, Nasus has the long game and the solo-kill edge.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "Wither lands on you mid-trade",
+    "what": "Nasus's W (Wither) decelerates your Movement and Attack Speed over its duration, so once it's on you he will follow with Siphoning Strike and autos while you can't escape or fight back at full speed. Use Cryptic Gaze (Q) to stun and disengage rather than committing further."
+   },
+   "yourWindow": {
+    "when": "His Q stacks are still low (pre-level 10)",
+    "what": "Turn on Enrage (E), pop Death's Caress (W) to soak his Siphoning Strike, then land Cryptic Gaze (Q) to stun and burst him. His damage is at its floor before stacks accumulate, so this is when all-ins are safest."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a stacked Q or stun advantage yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Enrage plus shield wins sustained melee trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Wither maxing and his first ultimate change risk"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Stacked Siphoning Strike and Wither lockdown snowball"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight tankiness offsets his scaled damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield > Health Potion",
+    "why": "41.7% win rate over 72 games and the higher-pick-rate start; the flat sustain and damage reduction blunt Nasus's early Siphoning Strike harass while you contest his farm."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "48.3% win rate and the majority pick; reduces the auto-attack and Q poke Nasus leans on to stack safely from range of your Q."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "First item in the most common build paths; gives the HP scaling that compounds with Enrage's permanent max-HP gains."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Follows Heartsteel in the 50% win rate path over 6 games; the bonus HP and AoE auto damage punish Nasus's melee range during trades."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Shows up as a third item in two of the listed build paths; the damage shield directly counters his Siphoning Strike and Spirit Fire poke."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he out-scales you and starts winning extended fights"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "his lifesteal from Soul Eater is keeping him alive through your trades"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "he groups with teammates and you need to peel or soak"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "the game goes long and you need more raw damage to threaten him"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on autos during your Enrage trades, matching the 44.4% win rate page that's the top pick for this matchup.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 82.7% of games at a 49.4% win rate; Teleport lets you reset the wave after trading and still scale toward your stronger mid-game items, while Flash gives you an out from a landed Wither."
+  },
+  "playing": [
+   {
+    "title": "Contest his last hits directly",
+    "detail": "Walk up and poke with autos or Q (Cryptic Gaze) when he goes for Siphoning Strike on low-health minions. Every kill you deny is permanent damage he never gets back."
+   },
+   {
+    "title": "Trade with Enrage and shield up",
+    "detail": "Toggle Enrage (E) on, pop Death's Caress (W) to soak his Q and autos, then land Cryptic Gaze (Q) to stun and follow up. This is your best damage window before he stacks."
+   },
+   {
+    "title": "All-in before level 10",
+    "detail": "His Siphoning Strike damage scales with kills, so the earlier you commit to a full trade the less it hurts. Waiting lets his stacks close the gap."
+   },
+   {
+    "title": "Respect a maxed Wither",
+    "detail": "Once his W is rank 3+, assume he can slow you and follow for the kill. Don't stand in melee range on cooldowns you can't answer."
+   },
+   {
+    "title": "Don't stand in Spirit Fire",
+    "detail": "His E reduces the Armor of anyone standing in it and lets him safely farm from range. Step out immediately rather than trading through it."
+   },
+   {
+    "title": "Play around his ultimate after level 6",
+    "detail": "OP.GG's own read on this matchup: once he hits level 6, Fury of the Sands drains nearby max Health into bonus damage for its duration. Don't commit to a long 1v1 once he's near that cooldown being up."
+   },
+   {
+    "title": "Itemize into Thornmail if he's winning late",
+    "detail": "If his stacked Q and Soul Eater lifesteal start winning fights outright, pivot a situational slot into Thornmail or Bramble Vest to blunt both."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live ranked games on the current patch (16.20.1) via OP.GG; the mechanical reasoning and trade-timing advice are my own analysis of the ability kits, not measured data."
+ },
+ "generatedAt": 1791525906185,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791525833724,
+  "overall": {
+   "winRate": 49.7,
+   "play": 8503,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 158,
+   "wins": 73,
+   "winRate": 46.2
+  },
+  "laneAdvantage": "Sion",
+  "soloKillAdvantage": "Nasus",
+  "playStyle": "even",
+  "opponentTip": "Do not let Nasus grow during early game to fight whenever possible. After reaching level 6, be careful of being killed when he uses (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.4,
+    "play": 172,
+    "pickRate": 82.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 8.2
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 4.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 63,
+    "pickRate": 30.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 33,
+    "pickRate": 15.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.7,
+    "play": 72,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 54.3,
+    "play": 46,
+    "pickRate": 23.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.3,
+    "play": 89,
+    "pickRate": 47.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.5,
+    "play": 68,
+    "pickRate": 36.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 6.2
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 5.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Unending Despair"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 46.6,
+    "play": 118,
+    "pickRate": 56.7
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 53.9,
+    "play": 89,
+    "pickRate": 42.8
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 53.2,
+    "play": 62,
+    "pickRate": 29.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 45.8,
+    "play": 59,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 54.9,
+    "play": 51,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 50,
+    "play": 38,
+    "pickRate": 18.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 46.2,
+    "play": 52
+   }
+  ]
+ }
+}

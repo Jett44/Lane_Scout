@@ -1,0 +1,384 @@
+{
+ "you": "Kled",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose the fight you force into an up Riposte, and you win the one you start the instant it's down."
+  },
+  "thesis": "This matchup is a Riposte-timing duel, not a stat check: 48.2% over 114 games is Kled's honest number because the lane swings entirely on whether he trades into W (Riposte) up or down. Fiora wins any exchange where she can parry your first auto or your Q hook; you win every exchange where her Riposte is already burned, because Jousting's double-dash and Violent Tendencies' attack speed both punish a champion with no active cooldown to hide behind.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "Riposte available, she's near full resource",
+    "what": "She can bait your first auto or your Q throw into a parry for free value and an AD buff. Don't start the fight; farm with E Jousting's dash-through damage instead of autos until she's shown it."
+   },
+   "yourWindow": {
+    "when": "She's used Riposte or Lunge in the last ~8-16s",
+    "what": "Her W is on cooldown (10-6s depending on rank) and her engage tool (Q Lunge, 16-8s) is also down. Throw Q Bear Trap to hook and yank her in, pop W Violent Tendencies for the four-hit attack speed burst, and commit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Riposte punishes any extended early auto trade"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Jousting online, Kled's measured solo-kill edge shows"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates live, trades stay close"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Hydra/Cleaver sustain outpaces her early spike"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Her split-push offsets your teamfight disruption"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run in 76.3% of these games at a 46.6% win rate over 103 — the sustain and early AD let you contest short all-in windows without needing to win the full trade."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Picked in 83.2% of games (48.5% win rate) — the flat damage reduction blunts Fiora's auto-reliant Duelist healing loop better than Mercury's Treads, since she has no hard CC to dodge."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Anchors the top path (66.7% win rate in its line) — the health scaling keeps Skaarl's bar fat so you dismount less often during skirmishes."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Stacks armor shred on Jousting's dash-through hits, which matters directly against Fiora's passive sustain-through-damage."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Completes the top-performing core path — the shield covers you through a Blade Waltz burst if she lands her ultimate on you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Mortal Reminder",
+     "when": "fiora's Duelist passive is healing her through your trades"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "you need the grievous wounds earlier than a full Mortal Reminder spike"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "she's taking Blade Waltz all-ins and you need to survive the burst window"
+    },
+    {
+     "item": "Profane Hydra",
+     "when": "you're ahead and want the crit/bruiser path instead of Titanic's tank stats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run on both top rune pages for this matchup — the stacking adaptive force rewards exactly the extended-trade pattern you want once Riposte is confirmed down.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run in 74.8% of games at 46.2% win rate — Ignite converts Kled's measured solo-kill advantage into secured kills once you catch her with Riposte down, before her Duelist sustain can heal her back out."
+  },
+  "playing": [
+   {
+    "title": "Don't feed Riposte",
+    "detail": "Never throw your first auto or Q Bear Trap into an available Riposte. Farm with E Jousting's dash damage instead until she's used W or Q."
+   },
+   {
+    "title": "All-in the instant Riposte is down",
+    "detail": "Once she's parried or her W timer reads under 6s remaining, commit immediately — Q hook, W attack speed burst, E double-dash."
+   },
+   {
+    "title": "Track Skaarl's health bar",
+    "detail": "Watch your own mount HP constantly; fight to build courage before you're forced into a weaker dismounted trade against her sustain."
+   },
+   {
+    "title": "Use Jousting's recast to disengage",
+    "detail": "If a trade goes bad, E's return dash gets you out before she can stack a second Lunge or burn Burst of Speed to chase."
+   },
+   {
+    "title": "Itemize into her sustain",
+    "detail": "Prioritize Mortal Reminder or Executioner's Calling the moment her Duelist healing is winning extended skirmishes for her."
+   },
+   {
+    "title": "Threaten global pressure with R",
+    "detail": "Chaaaaaaaarge!!! has 3500 range — use the threat of it to pull her off safe farming patterns, since her Blade Waltz is on a similarly long cooldown."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners and the win-rate/pick-rate figures above are measured from live games on the current patch (16.20.1); the tell, power curve and trade-pattern reasoning are my own read of the ability kits, not scraped data."
+ },
+ "generatedAt": 1791525153810,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791525073424,
+  "overall": {
+   "winRate": 49.8,
+   "play": 5408,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 114,
+   "wins": 55,
+   "winRate": 48.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not let Fiora hit your Vitals while you are contesting and farming lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.2,
+    "play": 104,
+    "pickRate": 74.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 7.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 5.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 59.4,
+    "play": 32,
+    "pickRate": 23
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Sudden Impact"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 7.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 103,
+    "pickRate": 76.3
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 25,
+    "play": 12,
+    "pickRate": 8.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.5,
+    "play": 99,
+    "pickRate": 83.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 10.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 8.8
+   },
+   {
+    "items": [
+     "Profane Hydra",
+     "Voltaic Cyclosword",
+     "Mortal Reminder"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 49,
+    "play": 100,
+    "pickRate": 70.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 37.8,
+    "play": 45,
+    "pickRate": 31.7
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Profane Hydra"
+    ],
+    "winRate": 33.3,
+    "play": 24,
+    "pickRate": 16.9
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 16.7,
+    "play": 24,
+    "pickRate": 16.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 34.4,
+    "play": 32
+   }
+  ]
+ }
+}

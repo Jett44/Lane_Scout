@@ -1,0 +1,388 @@
+{
+ "you": "Sion",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose the poke war before level 6 if you walk into Parrrley range without a shield up, but you win the lane from mid-game once your Q cooldown drops and your tank items land."
+  },
+  "thesis": "Gangplank's Parrrley reaches 625 range, 75 units past Sion's 550-range Q, and his passive poison ticks on every auto he lands, which is exactly why he holds the solo-kill edge in this matchup. Sion's W shield is built to absorb that kind of ranged chip, and his stun-into-health-for-AD kit scales into longer fights, which is why the lane sits even on paper across 207 games even though Sion actually wins it 55.6% of the time.",
+  "tell": {
+   "watch": "GP's W (Remove Scurvy) cooldown",
+   "theirWindow": {
+    "when": "you're outside 550 range, his Q up",
+    "what": "He can freely land Parrrley and stack passive poison without any retaliation since you can't reach him with Cryptic Gaze. Back off and let the shield soak it instead of trading autos."
+   },
+   "yourWindow": {
+    "when": "you're inside 550 range, his W down",
+    "what": "Land Q (Cryptic Gaze) for the stun, flip E (Enrage) on, and commit fully since Remove Scurvy can't clear the CC or heal him out of it. This is your all-in window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley outranges you, passive poison stacks free"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q online, W shield starts soaking pokes"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his R is map threat, not lane burst"
+   },
+   {
+    "levels": "9-12",
+    "edge": "you",
+    "note": "Q at 9/8s CD, core tank items online"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "full build tank stats win extended trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Picked in 68.3% of games (57.2% WR, 187 games) because it directly offsets the passive poison ticks and Parrrley chip you'll be eating every time you step forward."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "70.1% pick rate, 53% WR over 183 games — reduces the repeated auto-attack damage from a champion whose whole kit is built around landing basic attacks and poison stacks."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Gives you the health and AoE pressure to punish him for standing in melee range after a failed poke."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Stacks more flat health and damage reduction, which directly counters his sustained poison-and-auto chip strategy."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "71.4% WR over 7 games on this path — turns your late trades into unwinnable fights for him once you're fully tanked up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's leaning on Remove Scurvy's heal to survive your all-ins"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his team is stacking attack speed or crit to burst you down"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you want more wave clear and AD scaling to pressure his farm"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want the alternate scaling path (88.9% WR, 9 games)"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Heals you back through the exact poke-and-poison pattern Gangplank relies on, and the bonus health compounds with Enrage's permanent max-health growth on kills.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "87.6% pick rate at 54.6% WR — Teleport lets you reset safely after shoving with E/W and scale into your power windows, while Flash covers both landing Q stuns and escaping Parrrley range when you're caught overextended."
+  },
+  "playing": [
+   {
+    "title": "Shield before you walk up",
+    "detail": "Pop W (Death's Caress) before entering his Q range so the shield eats the Parrrley poke and passive poison instead of your health. If it survives, it still detonates for AoE damage once he commits to melee."
+   },
+   {
+    "title": "Trade only inside 550 range",
+    "detail": "Parrrley reaches 625, 75 units past Cryptic Gaze's 550 range. Stepping up without a stun ready just hands him free pokes — only commit once you can actually threaten Q."
+   },
+   {
+    "title": "Hold Q for his W cooldown",
+    "detail": "Remove Scurvy (22/21/20/19/18s CD) clears your stun and heals him, so don't waste Cryptic Gaze into it. Wait for the window right after he's used it."
+   },
+   {
+    "title": "Toggle E for trades, not travel",
+    "detail": "Enrage converts your health into AD on every auto, so only flip it on when you're actually swinging — walking around with it active just bleeds health into his poison stacks."
+   },
+   {
+    "title": "Respect the global ult timer",
+    "detail": "Cannon Barrage has no lane counterplay and can land on your push. Track his ultimate's 120/115/110/120/120s cooldown during extended skirmishes so you're not caught overextended when it lands."
+   },
+   {
+    "title": "Scale through items, not all-ins",
+    "detail": "His solo-kill edge is real early — trade evenly through laning phase rather than forcing fights, and let Sunfire Aegis and Unending Despair take over by mid-game."
+   },
+   {
+    "title": "Save R for sustained fights",
+    "detail": "Cannibalism (90s CD) leeches health per attack and buffs attack speed, so it rewards prolonged contact. Use it in extended skirmishes, not opening bursts."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, summoner spells, and all win-rate/pick-rate figures above are measured from live games on the current patch via OP.GG; the ability readings, timing windows, and tactical reasoning are my own analysis of the kit interactions."
+ },
+ "generatedAt": 1791526003735,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791525911946,
+  "overall": {
+   "winRate": 49.7,
+   "play": 8503,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 207,
+   "wins": 115,
+   "winRate": 55.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with (E) and (P) basic attacks. Use [Q] whenever possible to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.6,
+    "play": 240,
+    "pickRate": 87.6
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 4.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 3.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.2,
+    "play": 87,
+    "pickRate": 31.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 13.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 57.2,
+    "play": 187,
+    "pickRate": 68.3
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 53.7,
+    "play": 41,
+    "pickRate": 15
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53,
+    "play": 183,
+    "pickRate": 70.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.8,
+    "play": 53,
+    "pickRate": 20.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 88.9,
+    "play": 9,
+    "pickRate": 4.7
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 3.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 3.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 58.6,
+    "play": 152,
+    "pickRate": 53.7
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 58.4,
+    "play": 125,
+    "pickRate": 44.2
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.5,
+    "play": 103,
+    "pickRate": 36.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 46.1,
+    "play": 76,
+    "pickRate": 26.9
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 74.7,
+    "play": 75,
+    "pickRate": 26.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.3,
+    "play": 60,
+    "pickRate": 21.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 61.4,
+    "play": 88
+   }
+  ]
+ }
+}

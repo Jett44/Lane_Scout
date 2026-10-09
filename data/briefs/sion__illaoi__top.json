@@ -1,0 +1,379 @@
+{
+ "you": "Sion",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly unfavored",
+   "line": "You lose extended trades where she lands her E (Test of Spirit) and the Vessel tentacles chew through you while she heals; you win short trades where you stun her W (Harsh Lesson) engage with Q and pull out before her E resets."
+  },
+  "thesis": "Illaoi's E (Test of Spirit) is the whole matchup: if it lands and you can't kill the spirit or get out of range, you become a Vessel and nearby tentacles start swinging at you while healing her on every champion hit. Sion has no dash and only one single-target stun (Q, 550 range) to stop her from setting that up, which is exactly why the measured numbers lean her way — 47.1% over 70 games with lane and solo-kill advantage to Illaoi. The fix isn't to out-duel her, it's to deny the setup: short trades, clear the wave fast, and don't let minions pile up into E range.",
+  "tell": {
+   "watch": "Illaoi's Test of Spirit cooldown",
+   "theirWindow": {
+    "when": "After her E lands on you",
+    "what": "You're either going to free yourself or become a Vessel. Kill the spirit immediately or walk out of range — if tentacles start tagging you, disengage now, don't keep trading autos while Vessel'd."
+   },
+   "yourWindow": {
+    "when": "When her W and E are both down",
+    "what": "This is your only safe all-in window. Walk up, bait her last-second W (Harsh Lesson) leap, Q-stun her on the approach, and burst with Enrage toggled — she has no escape and no spirit-rip to punish you with."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Her W leap wins early trades"
+   },
+   {
+    "levels": "4-7",
+    "edge": "them",
+    "note": "E vessel stacks punish wave extensions"
+   },
+   {
+    "levels": "8-12",
+    "edge": "even",
+    "note": "Itemized health lets you brawl evenly"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Health stacking and build outscale tentacles"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Doran's Shield (43.1% win rate, 56% pick over 51 games) blunts her auto-attacks and tentacle procs during the trades she's forcing, and the regen matters since you can't out-sustain her once you're Vessel'd."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Plated Steelcaps (39.3% win rate, 71.8% pick over 61 games) cut down the physical damage from her W leap, tentacle swings, and autos — the three sources that stack up fastest once you're marked."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Scales your max health for free, which is the stat that decides whether you survive a full Vessel tentacle beating."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Converts that health into wave clear so you can shove minions out of her E range before she can convert the push."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Adds more health plus damage amp for when you finally get your all-in window with both her cooldowns down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she's leaning on tentacle procs and autos to heal through every trade"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you need the extra shield and regen to survive her forcing extended fights near tentacle terrain"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "you want burn damage to punish her for standing in Vessel range while clearing wave"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "her Harsh Lesson leaps and tentacle autos are shredding you before level 6"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp punishes her for walking up to auto you or land Harsh Lesson, and the permanent health growth directly counters the sustained poke a Vessel state inflicts on you.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport (48.1% win rate, 89.8% pick) is the standard setup here — Flash lets you dodge or follow up on her W leap, and Teleport resets you onto the wave after she's forced you off it, which matters since she wins the push fight if you just sit and farm passively."
+  },
+  "playing": [
+   {
+    "title": "Clear the wave before she converts it",
+    "detail": "Illaoi wants minions stacked so Test of Spirit and tentacle procs do maximum work. Push and reset waves early rather than letting them bunch up near her E range."
+   },
+   {
+    "title": "Hold Q for her W engage",
+    "detail": "Save Cryptic Gaze's stun to interrupt her Harsh Lesson leap or punish her approach, not as a poke tool — the 12-8s cooldown is too valuable to waste."
+   },
+   {
+    "title": "Pop W early when you're about to die",
+    "detail": "Death's Caress's shield explodes on its own or on reactivation — detonate it early for guaranteed damage rather than letting her burst you down before it pops."
+   },
+   {
+    "title": "Fight away from walls and jungle edges",
+    "detail": "Her passive spawns tentacles on nearby impassible terrain. Pulling fights into open lane denies her the extra damage and healing those tentacles provide."
+   },
+   {
+    "title": "Disengage the moment you're marked",
+    "detail": "If her E lands and you can't kill the spirit immediately, walk out of range instead of trading — staying in a Vessel state is how 1-for-1 trades turn into dead Sions."
+   },
+   {
+    "title": "Save Enrage for her all-in, not pokes",
+    "detail": "Toggling E burns your health for AD. Don't do it into her poke — only flip it on once she's committed her W leap and you're fighting to kill."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are pulled directly from measured games on the current patch (16.20.1); the mechanical reasoning and trade-pattern advice are my own read of the kit."
+ },
+ "generatedAt": 1791525827977,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791525734336,
+  "overall": {
+   "winRate": 49.7,
+   "play": 8503,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 70,
+   "wins": 33,
+   "winRate": 47.1
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with her (E). Do not let her push lane by using your skills to contest and farm lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 79,
+    "pickRate": 89.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 5.7
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 4.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 36.4,
+    "play": 33,
+    "pickRate": 37.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 13.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.1,
+    "play": 51,
+    "pickRate": 56
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 39.1,
+    "play": 23,
+    "pickRate": 25.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 39.3,
+    "play": 61,
+    "pickRate": 71.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 20
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 3.9
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Voltaic Cyclosword",
+     "Mortal Reminder"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 3.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 44.7,
+    "play": 47,
+    "pickRate": 46.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 43.6,
+    "play": 39,
+    "pickRate": 38.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 56.8,
+    "play": 37,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 31.4,
+    "play": 35,
+    "pickRate": 34.7
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 37.9,
+    "play": 29,
+    "pickRate": 28.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 36,
+    "play": 25,
+    "pickRate": 24.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52.2,
+    "play": 23
+   }
+  ]
+ }
+}
