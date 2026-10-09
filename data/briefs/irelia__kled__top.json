@@ -1,0 +1,385 @@
+{
+ "you": "Irelia",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Kled lands Q (Bear Trap on a Rope) into a double Jousting dash before level 6; you win if you survive to Blade of the Ruined King and punish him the moment Skaarl dismounts."
+  },
+  "thesis": "Kled's entire kit is built around an early burst all-in — hook with Q (Bear Trap on a Rope), then dash in and back out with E (Jousting) — that outpaces Irelia before she has passive stacks or items, which is why Kled holds both the lane edge and the solo-kill edge at a 44.2% Irelia win rate over 77 games. That burst collapses the instant Skaarl's mount health empties, because Kled's abilities change and he deals less damage to champions while dismounted — that is the one moment your stacked Ionian Fervor and Q (Bladesurge) resets actually win the fight.",
+  "tell": {
+   "watch": "Skaarl's mount health bar",
+   "theirWindow": {
+    "when": "Kled mounted, Q and E both up",
+    "what": "He can hook you with Q (Bear Trap on a Rope) and chain into E (Jousting) and its recast dash-back for a full burst combo. Do not contest trades here — hold position outside his 800-range Q."
+   },
+   "yourWindow": {
+    "when": "Skaarl's bar breaks, Kled dismounts",
+    "what": "Dismounted Kled deals less damage to champions and his Q becomes the knockback Pocket Pistol. Commit everything now — Bladesurge resets off a Marked target so you can double-tap Q through the kill window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q hook all-in beats you before W exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Double Jousting dash adds burst you can't match"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R and Conqueror sustain close the trade gap"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Blade of Ruined King lets you duel dismounts"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build sustain wins extended skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "48.9% win rate over 90 games at 91.8% pick — the extra early trade damage and sustain matter against a lane where you're losing short trades by default."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.4% win rate over 82 games at 89.1% pick — flattens the burst from his W (Violent Tendencies) empowered autos and the physical hits from Jousting."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Sustain and attack speed to fight through his trades and punish him the instant he dismounts."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "52.9% win rate over 17 games on this path — scales your dueling and siege power once lane stabilizes."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts his burst into damage-over-time you can heal through, which matters since he holds the all-in advantage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "you want more attack speed and resistances instead of lifesteal (66.7% win rate over 15 games on this path)"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "the game turns into repeated skirmishes and you need single-target burst (44.4% win rate over 9 games on this path)"
+    },
+    {
+     "item": "Guardian Angel",
+     "when": "he's consistently all-killing you and you need a safety net to keep contesting objectives"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive force and healing offset his early burst advantage and let you win the extended fights that start once he dismounts.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "47.5% win rate at 81.6% pick — Ignite punishes his all-in trades and cuts into the health he needs to restore Skaarl's courage, while Flash gets you out of Q (Bear Trap on a Rope) range."
+  },
+  "playing": [
+   {
+    "title": "Track Skaarl's health bar",
+    "detail": "Dismounting removes his damage bonus to champions. That's your signal to commit, not level or cooldowns."
+   },
+   {
+    "title": "Respect Q range at 800",
+    "detail": "Don't walk into Bear Trap on a Rope range when his Q and E are both up — being shackled and yanked in is how you lose the trade outright."
+   },
+   {
+    "title": "Trade after double Jousting",
+    "detail": "Once he's used E (Jousting) and its recast to dash back, both charges are down for 13/12/11/10/9s. He has no reposition tool — step in now."
+   },
+   {
+    "title": "Bank 4 passive stacks first",
+    "detail": "Only engage once Ionian Fervor is at max stacks for the bonus on-hit damage. Don't throw E (Flawless Duet) just to proc it if the mark will whiff."
+   },
+   {
+    "title": "Eat his W with your W",
+    "detail": "Violent Tendencies gives him four empowered attacks with a harder fourth hit. Time Defiant Dance's damage reduction into that window specifically."
+   },
+   {
+    "title": "Mark, then double-reset Q",
+    "detail": "Land E to Mark him, which refreshes Bladesurge's cooldown on hit — chain two Q casts back to back once he's dismounted and low."
+   },
+   {
+    "title": "Don't contest levels 1-3",
+    "detail": "His hook-into-dash all-in wins those trades outright. Wait for Blade of the Ruined King and Hullbreaker before forcing skirmishes."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch (77-game sample for this specific matchup); the mechanical reasoning and timing calls are my own read of the kits."
+ },
+ "generatedAt": 1791507200261,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791507124903,
+  "overall": {
+   "winRate": 49.8,
+   "play": 13896,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 77,
+   "wins": 34,
+   "winRate": 44.2
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being hit with Kled’s (Q). Engage Kled whenever Irelia has 4 stacks [P] prepared. Try to nuke Kled completely once he dismounts Skaarl.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.5,
+    "play": 80,
+    "pickRate": 81.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 16.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 52.8,
+    "play": 36,
+    "pickRate": 36.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 20,
+    "pickRate": 20.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 90,
+    "pickRate": 91.8
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 5.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 82,
+    "pickRate": 89.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 0,
+    "play": 7,
+    "pickRate": 7.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Kraken Slayer"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 13.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 50.5,
+    "play": 97,
+    "pickRate": 99
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 54,
+    "play": 63,
+    "pickRate": 64.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.5,
+    "play": 42,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 62.5,
+    "play": 24,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Guardian Angel"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 7.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 60,
+    "play": 20
+   }
+  ]
+ }
+}

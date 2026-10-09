@@ -1,0 +1,384 @@
+{
+ "you": "Sion",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you let Darius stack Hemorrhage to five before level 6; you win if you survive to Cannibalism and outscale off Enrage kills."
+  },
+  "thesis": "Darius's Passive (Hemorrhage) turns every extended trade into a race to five stacks, and his Enrage bonus at max stacks is what gives him the 42.9% head-to-head edge over 163 games despite Sion sitting at 49.6% in the role overall. Sion has no way to interrupt that stack-up directly, so the matchup is decided by whether you can keep trades short with Q (Cryptic Gaze) and E (Enrage) rather than letting Darius get free autos in.",
+  "tell": {
+   "watch": "Darius's Hemorrhage stack count on you",
+   "theirWindow": {
+    "when": "you're near 3+ Hemorrhage stacks",
+    "what": "Disengage immediately — a fifth stack triggers his Enrage attack damage spike, and he will chain Q (Decimate) and W (Crippling Strike) to finish the trade and heal off your minions."
+   },
+   "yourWindow": {
+    "when": "his E (Apprehend) is on cooldown (16-26.5s)",
+    "what": "Walk up and force a trade using Q (Cryptic Gaze) to stun him for free damage, since without the pull he has no way to punish you for engaging from range."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Hemorrhage stacks punish any early auto exchange"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Apprehend) pull threatens every cannon wave"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R (Cannibalism) sustain offsets his R threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Core items online, Enrage health-to-damage scales up"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sunfire/Thornmail tank checks his all-in damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The passive block and regen directly counter the chip damage from his autos and Q (Decimate) handle hits while Hemorrhage ticks, letting you hold cannon waves."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Reduces the physical damage from his auto-attack-heavy trade pattern, which matters most since nearly all his damage before level 6 comes from basic attacks and Decimate."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Builds health and armor while adding a damage aura, which punishes him for standing in melee range to stack Hemorrhage."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "The omnivamp and tenacity-style resolve kit sustains you through extended trades where he's trying to force max Hemorrhage stacks."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Directly answers his attack-speed reliant Enrage state by punishing every auto he lands on you once stacks are up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "he is rushing lethality or crit items to burst through your health pool"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you are ahead on kills off Enrage health stacking and want to push the wave advantage"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game is going long and you need a scaling health stat-check item"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp heals and grows your max health on proc, which stacks with your E (Enrage) health-to-damage conversion to make every short trade net you more sustain than Darius's Hemorrhage ticks take away.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 84.8% of games at this matchup's win rate because Teleport lets you reset after losing early trades to his Hemorrhage stacking without forfeiting the wave, which matters since you're behind on solo-kill potential."
+  },
+  "playing": [
+   {
+    "title": "Count stacks before trading",
+    "detail": "Never commit to a second auto exchange once you're at 3+ Hemorrhage stacks — disengage and let them decay rather than risking his Enrage-boosted finisher."
+   },
+   {
+    "title": "Stun on cooldown, not on cooldown reset",
+    "detail": "Use Q (Cryptic Gaze) the moment it's up (8-12s depending on rank) to interrupt his Decimate wind-up or punish an overextension, since it's your only hard engage tool."
+   },
+   {
+    "title": "Track his E (Apprehend) before wave contests",
+    "detail": "Don't stand in his 535-range pull window near cannon waves; its 16-26.5s cooldown means there are long stretches where he can't threaten you at all."
+   },
+   {
+    "title": "Enrage only in winning trades",
+    "detail": "Turn on E (Enrage) when you're ahead in a trade to convert health into AD, but toggle it off if the fight turns since it accelerates your own health loss."
+   },
+   {
+    "title": "Save R for all-in windows",
+    "detail": "Cannibalism's 90s cooldown and attack-speed buff mean it's best saved for when you're forcing a kill, not a defensive panic button."
+   },
+   {
+    "title": "Respect his R near 500 HP",
+    "detail": "Noxian Guillotine deals true damage scaled by your Hemorrhage stacks — if you're under five stacks it's far less threatening, so track stacks, not just his ultimate cooldown."
+   },
+   {
+    "title": "Play for scaling, not lane dominance",
+    "detail": "You're not expected to win early trades at 42.9% head-to-head; prioritize surviving to your level 9-13 item spike where Sunfire and Thornmail swing fights your way."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and trade-pattern advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791513055593,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513015107,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 163,
+   "wins": 70,
+   "winRate": 42.9
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by (E). Be careful of (P) when fighting him. Try to contest lane whenever your skills come off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42.9,
+    "play": 184,
+    "pickRate": 84.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 5.5
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 5.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.7,
+    "play": 75,
+    "pickRate": 34.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 9.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.6,
+    "play": 111,
+    "pickRate": 53.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 37.3,
+    "play": 51,
+    "pickRate": 24.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.9,
+    "play": 128,
+    "pickRate": 65.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 36.4,
+    "play": 55,
+    "pickRate": 28.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 6.7
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 2.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 51.4,
+    "play": 111,
+    "pickRate": 53.1
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 45.6,
+    "play": 68,
+    "pickRate": 32.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 43.3,
+    "play": 67,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.7,
+    "play": 67,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 42.2,
+    "play": 45,
+    "pickRate": 21.5
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 52.5,
+    "play": 40,
+    "pickRate": 19.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 49.2,
+    "play": 65
+   }
+  ]
+ }
+}

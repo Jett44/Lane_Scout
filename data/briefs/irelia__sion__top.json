@@ -1,0 +1,380 @@
+{
+ "you": "Irelia",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, winnable",
+   "line": "You lose if you all-in into an unpopped Death's Caress shield or walk into a brush-cast Cryptic Gaze; you win if you interrupt his Q with E and burst him down in the gap before his shield resets."
+  },
+  "thesis": "Irelia holds lane advantage and the solo-kill edge here, but the 43% head-to-head win rate over 100 games (against her 49.9% baseline) says that edge is fragile early: Sion's Death's Caress shield and Cryptic Gaze stun can stonewall an all-in before Irelia's own tools — passive stacks, E as an interrupt — come online. Once E is reliably up around level 3, the trade math flips hard in her favor.",
+  "tell": {
+   "watch": "Your Ionian Fervor stack count",
+   "theirWindow": {
+    "when": "Sion sitting in brush with Q ready",
+    "what": "Cryptic Gaze is 550 range and single-target — don't walk forward blind. Clear the brush or hold minions between you until you've confirmed his Q is down (12/11/10/9/8s cooldown by rank)."
+   },
+   "yourWindow": {
+    "when": "You're sitting at 4 passive stacks",
+    "what": "Engage immediately — at max stacks you gain bonus on-hit damage plus the attack speed, and OP.GG's own read on this matchup is to take lane control exactly here. Open with E (Flawless Duet) for the stun+Mark, then Q (Bladesurge) resets off the Mark."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Shield + stun punish early all-ins, no E yet"
+   },
+   {
+    "levels": "3-6",
+    "edge": "you",
+    "note": "E online to interrupt his Q cast"
+   },
+   {
+    "levels": "7-11",
+    "edge": "you",
+    "note": "Full combo + BORK outscales his health stacking"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "His R sustain matters again in fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The run-away pick at 46.6% win rate over 118 games and 92.9% pick rate — the extra sustain and early AD help you survive Sion's Enrage-boosted trades before you have items."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "46.8% win rate, 67% pick rate — Sion's damage is almost entirely auto-attacks powered by Enrage, so flat armor reduction hits harder than magic resist here."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "On-hit damage scales off his current health, which only grows as his passive stacks max HP from kills — BORK keeps shredding him no matter how tanky he gets."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Rewards dueling and split-pushing, which is exactly how you want to spend side-lane time against a champion whose real power is teamfight sustain."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "This path hit 56.3% win rate over 16 games — the damage delay and physical reduction let you tank an Enrage-boosted auto exchange and still come out ahead."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "their team has multiple magic damage threats to punish with the added magic resist"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you need faster wave clear and splitpush pressure over straight sustain"
+    },
+    {
+     "item": "Terminus",
+     "when": "the enemy team is diving you and you need the extra damage-shield survivability"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "47.5% win rate at 45.4% pick — the stacking adaptive force and sustain reward exactly the kind of extended, repeated-trade duel this matchup turns into once you can interrupt his Q.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "48.5% win rate at 76.2% pick — with the measured solo-kill advantage already in your favor, Ignite converts your 4-stack all-in windows into actual kills instead of just pushed-out trades."
+  },
+  "playing": [
+   {
+    "title": "Bank stacks before committing",
+    "detail": "Land E or Q on a minion or on Sion in a safe trade first so you're entering the real all-in already near 4 Ionian Fervor stacks, not starting from zero."
+   },
+   {
+    "title": "Interrupt Q with E",
+    "detail": "Cryptic Gaze is a single-target stun on a 12/11/10/9/8s cooldown — firing E (Flawless Duet) while he's casting it stuns and Marks him first, voiding his attempt."
+   },
+   {
+    "title": "Punish the shield's downtime",
+    "detail": "Death's Caress is only an 8s cooldown, but once it's popped or expired Sion has zero damage mitigation for that window — dash in with Q (Bladesurge) the instant it drops."
+   },
+   {
+    "title": "Respect brush-cast range",
+    "detail": "550 range covers more brush than it looks like — don't walk up without vision or a minion wave between you."
+   },
+   {
+    "title": "Charge W into his all-in",
+    "detail": "Defiant Dance takes reduced physical damage while charging — hold the charge through his Enrage-boosted auto, then release the full-value strike back into him."
+   },
+   {
+    "title": "Chain Marks into free Q resets",
+    "detail": "Bladesurge refreshes its cooldown on a Marked or dying target — landing E or R first turns every follow-up Q into a free extra dash."
+   },
+   {
+    "title": "Split-push after 6",
+    "detail": "His real power spike is Cannibalism's teamfight healing, not a 1v1 spike — pulling him into side-lane duels denies him the stage where that ultimate matters."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells and all win-rate/sample figures above are measured from live games on the current patch via OP.GG; the ability breakdowns, cooldown numbers, and the tactical read on when to trade or all-in are this brief's own analysis."
+ },
+ "generatedAt": 1791511635763,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791511534355,
+  "overall": {
+   "winRate": 49.9,
+   "play": 14202,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 100,
+   "wins": 43,
+   "winRate": 43
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being hit with Sion’s (Q) used from a brush. Use [E] to interrupt Sion while he is charging his (Q). Engage whenever Irelia has 4 stacks [P] prepared to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.5,
+    "play": 99,
+    "pickRate": 76.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 35.7,
+    "play": 28,
+    "pickRate": 21.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 2.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 47.5,
+    "play": 59,
+    "pickRate": 45.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 20
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 118,
+    "pickRate": 92.9
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 7.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.8,
+    "play": 79,
+    "pickRate": 67
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.7,
+    "play": 35,
+    "pickRate": 29.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 52.2,
+    "play": 23,
+    "pickRate": 27.7
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 56.3,
+    "play": 16,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 18.2,
+    "play": 11,
+    "pickRate": 13.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 48.1,
+    "play": 129,
+    "pickRate": 99.2
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 48.7,
+    "play": 76,
+    "pickRate": 58.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 48.2,
+    "play": 56,
+    "pickRate": 43.1
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 55.3,
+    "play": 47,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 35.9,
+    "play": 39,
+    "pickRate": 30
+   },
+   {
+    "items": [
+     "Terminus"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 10
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.6,
+    "play": 45
+   }
+  ]
+ }
+}

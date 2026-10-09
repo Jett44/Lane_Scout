@@ -1,0 +1,384 @@
+{
+ "you": "Urgot",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, skill matchup",
+   "line": "You lose extended trades once Sion's W shield and the permanent max HP he banks from E kills outscale you, but you win isolated fights and executions where your range and R land clean."
+  },
+  "thesis": "Sion's W (Death's Caress) absorbs and punishes prolonged trading while E (Enrage) permanently stacks his max HP on every kill, letting him out-scale a standing fight. Urgot's longer reach and E (Disdain) interrupt flip that script in isolated skirmishes, which is why the data splits: lane edge to Sion, solo-kill edge to Urgot, netting 46.4% for Urgot over 84 games against a 52.3% baseline across 7,414 Urgot top games overall.",
+  "tell": {
+   "watch": "Sion's W shield status",
+   "theirWindow": {
+    "when": "W shield up and E toggled on",
+    "what": "Stop feeding autos into the shield and disengage — it absorbs damage then detonates in an AoE burst, so trading into it just arms his bomb."
+   },
+   "yourWindow": {
+    "when": "his Q (Cryptic Gaze) is on cooldown",
+    "what": "Walk up and poke freely with Q (Corrosive Charge, 800 range) or land autos; without the 550-range stun ready he has no tool to lock you down before you kite away."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Trade from max range, respect his 550-range stun"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E stacks and W shield blunt your poke"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R plus E-interrupt turns duels decisive"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Both itemized, trades stay roughly fair"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Kiting range and execute threaten isolated picks"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Sits at 52.2% over 90 games and 78.3% pick rate; the extra sustain and AD matter because Sion's melee range and Q stun threat punish you for standing still to farm."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.5% pick rate at 38.9% win over 54 games; flat physical damage reduction directly answers Sion's auto-attacks and Q, which are both physical."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred rewards the repeated hits your W (Purge) and Echoing Flames passive already want to land, and it's the top-picked first item at 84.6% in its build path."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The damage amp and health shield matter directly against Sion's E (Enrage), which trades his own HP for AD and can swing all-ins fast."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Bonus health and scaling damage help you out-tank the permanent max HP Sion is banking every time his E lets him finish off a unit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "sion tries to kite or disengage after shoving a wave"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the enemy team shifts toward heavier magic damage later"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you want faster wave clear to punish sion's slower farm pattern"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards the rapid consecutive hits Purge (W) and your autos already deliver, and the extra damage on a marked target pays off hardest during the all-in windows you create after an E interrupt.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run at 55.2% pick and 48.4% win; Ignite converts Urgot's measured solo-kill advantage into actual kills and offsets the sustain Sion gets from R (Cannibalism) and his growing HP pool."
+  },
+  "playing": [
+   {
+    "title": "Poke before he closes",
+    "detail": "Use Q (Corrosive Charge, 800 range, 10/9.5/9/8.5/8s cooldown) to chip Sion and slow him before he's inside his own Q (Cryptic Gaze, 550 range) threat range."
+   },
+   {
+    "title": "Save E for his Q",
+    "detail": "Charge E (Disdain, 475 range, 16/15.5/15/14.5/14s cooldown) the instant Sion winds up Cryptic Gaze — catching him stops your dash and hurls him out of position, interrupting the cast entirely."
+   },
+   {
+    "title": "Don't trade into his shield",
+    "detail": "Death's Caress (W, 8s cooldown, 100 range) absorbs your hits then explodes outward; stop attacking once it's up and wait it out instead of feeding it damage."
+   },
+   {
+    "title": "Track his E stacks",
+    "detail": "Enrage (E) has no cooldown and permanently raises his max HP on every unit kill, so punish his free wave-clear windows at levels 3-5 before those stacks pile up."
+   },
+   {
+    "title": "Sequence into Purge",
+    "detail": "W (Purge) prioritizes champions you've already struck and triggers Echoing Flames blasts, so land a Q or auto first, then unload once he's committed to the trade."
+   },
+   {
+    "title": "Hunt isolated picks with R",
+    "detail": "Fear Beyond Death reaches 2500 range and executes low-health targets — since the data favors Urgot in solo kills, look to snipe Sion whenever he's split from his team."
+   },
+   {
+    "title": "Respect his committed all-ins",
+    "detail": "Once his W shield and E toggle are both active and his R (Cannibalism) is up, he can trade hard and sustain through it — hold spacing until you've landed your own poke first."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner spells above are pulled directly from measured games on the current patch via OP.GG; the mechanical reasoning tying them to Sion's kit and timings is my own read."
+ },
+ "generatedAt": 1791512644721,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791512548578,
+  "overall": {
+   "winRate": 52.3,
+   "play": 7414,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 84,
+   "wins": 39,
+   "winRate": 46.4
+  },
+  "laneAdvantage": "Sion",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Use [E] to interrupt Sion’s (Q) when fighting him. Use [P] to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.4,
+    "play": 64,
+    "pickRate": 55.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42,
+    "play": 50,
+    "pickRate": 43.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 19.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 36.8,
+    "play": 19,
+    "pickRate": 16.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.2,
+    "play": 90,
+    "pickRate": 78.3
+   },
+   {
+    "items": [
+     "Cull",
+     "Health Potion"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 10.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 38.9,
+    "play": 54,
+    "pickRate": 49.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 60.5,
+    "play": 38,
+    "pickRate": 34.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 84.6,
+    "play": 13,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 15.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.4,
+    "play": 116,
+    "pickRate": 98.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50.6,
+    "play": 85,
+    "pickRate": 72
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 70.8,
+    "play": 24,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 40.9,
+    "play": 22,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 9.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 36.8,
+    "play": 19
+   }
+  ]
+ }
+}

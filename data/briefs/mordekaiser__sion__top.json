@@ -1,0 +1,376 @@
+{
+ "you": "Mordekaiser",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Sion free-hit you with Cryptic Gaze before level 3; you win if you stack Darkness Rise and pull him with Death's Grasp into isolated trades."
+  },
+  "thesis": "Mordekaiser holds the lane edge (52.4% over 143 games, solo-kill advantage) because Death's Grasp both interrupts Sion's Cryptic Gaze and sets up Obliterate's single-target bonus damage, while Indestructible's stored shield absorbs the burst Sion needs to win a trade. Sion's counter-play is time: Enrage has no cooldown and grows his max HP on every kill, so if the lane drags into late game without Mordekaiser closing fights fast, Sion's stacked health starts to out-tank the burn.",
+  "tell": {
+   "watch": "Sion's Death's Caress (W) shield",
+   "theirWindow": {
+    "when": "Cryptic Gaze (Q) is off cooldown, you're overextended",
+    "what": "At levels 1-2 his Q stuns and deals damage before you have Indestructible online. Don't commit to extended trades near his stun range until your W is up to shield the follow-up damage."
+   },
+   "yourWindow": {
+    "when": "your passive (P) is stacked and E is up",
+    "what": "Land three spells or autos to trigger Darkness Rise's aura and move speed, then fire Death's Grasp to pull Sion in — this interrupts his Cryptic Gaze cast and chains straight into Obliterate's single-target bonus damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cryptic Gaze stun punishes early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Indestructible shield plus E interrupt swing lane"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Realm of Death isolates and snowballs kills"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Stacked HP and Cannibalism sustain his fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The 80.9%-pick, 54.1%-win start — the extra sustain and mana let you spam Obliterate in trades without running dry before your first back."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "59.8% pick, 52.7% win — cuts the physical damage from Sion's auto-reliant Enrage trades harder than the magic resist option."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow on Obliterate and Death's Grasp keeps Sion inside pull range instead of letting him walk off after the stun."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained damage and the omnivamp scale directly against Sion's growing HP pool in extended fights."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Highest-win build path (68.8% over 16 games) — the burn eats through the max HP Sion stacks from kills."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "sion's team leans on heals or lifesteal to outlast your burn"
+    },
+    {
+     "item": "Thornmail",
+     "when": "sion is building into a heavy auto-attack or lifesteal carry setup"
+    },
+    {
+     "item": "Experimental Hexplate",
+     "when": "you need more engage utility to force fights before he out-scales"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Ramping adaptive force rewards the melee-range trading pattern Obliterate and auto resets create against Sion.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick (70.4% pick rate, 55.8% win) — Ignite denies the healing Sion gets from Death's Caress and Cannibalism and turns your E-pull punishes into kills."
+  },
+  "playing": [
+   {
+    "title": "Pull through his Cryptic Gaze cast",
+    "detail": "OP.GG's own read confirms Death's Grasp interrupts Sion's Q — use E the moment he commits to the cast rather than waiting for the stun to land."
+   },
+   {
+    "title": "Stack passive before you engage",
+    "detail": "Land three hits to trigger Darkness Rise's aura and move speed before you extend; fighting without it active lets Sion walk away from your pull."
+   },
+   {
+    "title": "Bank Indestructible for his all-in",
+    "detail": "Let the shield charge off damage dealt and taken, then consume it to heal right as he commits his Enrage-boosted autos."
+   },
+   {
+    "title": "Punish him while Enrage is active",
+    "detail": "Enrage costs him health per auto with no cooldown gate — trade hardest while he's actively autoing, since that's when his effective HP is lowest."
+   },
+   {
+    "title": "Use Realm of Death to isolate, not just burst",
+    "detail": "At level 6+, drag Sion away from minions and allies before committing — the stolen stats and forced 1v1 matter more than the raw damage."
+   },
+   {
+    "title": "End fights fast past level 12",
+    "detail": "His max HP grows with every kill and Cannibalism heals him and nearby allies — avoid dragging trades out once he's stacked several kills."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells are pulled from measured games on the current patch; the mechanical reasoning behind the trade timing and power spikes is my own read of the matchup."
+ },
+ "generatedAt": 1791511002252,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791510918119,
+  "overall": {
+   "winRate": 50.7,
+   "play": 16550,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 143,
+   "wins": 75,
+   "winRate": 52.4
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Keep in mind that you can interrupt Sion’s (Q) with [E]. Keep your [P] active while fighting him to gain the upper hand in lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.8,
+    "play": 138,
+    "pickRate": 70.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 18.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 5.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.6,
+    "play": 81,
+    "pickRate": 41.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 59.4,
+    "play": 32,
+    "pickRate": 16.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 54.1,
+    "play": 157,
+    "pickRate": 80.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 11.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.7,
+    "play": 110,
+    "pickRate": 59.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.3,
+    "play": 46,
+    "pickRate": 25
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 68.8,
+    "play": 16,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Riftmaker"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 8.4
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 60.6,
+    "play": 155,
+    "pickRate": 77.9
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 56,
+    "play": 141,
+    "pickRate": 70.9
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 58.8,
+    "play": 97,
+    "pickRate": 48.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 69.4,
+    "play": 36,
+    "pickRate": 18.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 71,
+    "play": 31,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Experimental Hexplate"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 11.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 59,
+    "play": 100
+   }
+  ]
+ }
+}

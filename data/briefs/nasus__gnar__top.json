@@ -1,0 +1,380 @@
+{
+ "you": "Nasus",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, favored",
+   "line": "You lose the laning phase to kiting and solo-kill pressure before level 6, but the matchup is a measured 55% win rate because Fury of the Sands and stacked Siphoning Strike flip it late."
+  },
+  "thesis": "Gnar's ranged Q (Boomerang Throw) and E (Hop) bounce give Mini Gnar a kiting shell that wins trades and solo kills before you have tools to close distance. Nasus has no way to answer that range until R (Fury of the Sands) comes online at 6, after which stacked Q and Wither let you force fights on your terms instead of his.",
+  "tell": {
+   "watch": "Gnar's Rage Gene bar",
+   "theirWindow": {
+    "when": "Mini Gnar, Rage bar near max",
+    "what": "He's about to transform into Mega Gnar, trading his long-range Boomerang Throw and Hop bounce for a point-blank Wallop stun and an AoE Crunch landing. Don't walk up for a trade right as the bar fills, the damage profile flips instantly."
+   },
+   "yourWindow": {
+    "when": "R (Fury of the Sands) is up, post-6",
+    "what": "Go in. The bonus Health, Attack Range, and cast range from R let you stick to his kite pattern that normally wins the exchange, and the Max Health drain punishes any extended fight."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Boomerang Throw range outpokes your melee Q"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R and Wither let you start sticking"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Q stacks and Trinity Force close the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build and R uptime overwhelm his kite"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "56.4% win rate over 140 games as the top start. The sustain and poke reduction matter against a lane where Boomerang Throw and autos are chipping you down before you can trade back."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.4% win rate over 63 games, the stronger of the two boot options here. Gnar's damage is almost entirely physical autos and Boomerang Throw hits, so the flat auto-attack reduction outvalues the haste from Ionian Boots in this specific matchup."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Leads the highest win-rate path (58.3% over 12 games) and gives you the move speed and damage spike needed to stop getting kited once R is online."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Second item on both top-performing paths. The attack speed slow helps you actually land stacks on a kiting target, and the armor covers his auto-reliant damage."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Closes out the top path at 58.3% win rate. Stacks your Soul Eater lifesteal and R's health drain into sustained healing through extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you need the slow online earlier to catch his transform windows (85.7% win rate over 7 games on this path, small sample)"
+    },
+    {
+     "item": "Thornmail",
+     "when": "the enemy team is building around sustained auto-attack damage rather than burst (62.5% win rate on this alternate path)"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you're still getting kited in the midgame and need raw move speed to close gaps"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Top performing page at 55.4% win rate. The healing and move speed burst offset Gnar's poke damage during the levels 1-5 window where you can't fight back, and it's the only keystone here that doesn't require you to already be winning trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost posts the highest win rate of the three measured combos (62% over a 26.3% pick rate). Ghost closes the range gap on a kiting Mini Gnar during farm phases, and Flash answers Mega Gnar's Wallop stun or an R (GNAR!) knockback into a wall."
+  },
+  "playing": [
+   {
+    "title": "Farm from max range early",
+    "detail": "Stay at the edge of his 1100-range Boomerang Throw through levels 1-5. Don't step into melee range to stack Siphoning Strike until Wither is off cooldown to slow him first."
+   },
+   {
+    "title": "Track the Rage Gene bar constantly",
+    "detail": "At max Rage his next ability turns him into Mega Gnar, swapping his kiting Q and bouncing E for a close-range Wallop stun and an AoE Crunch landing. Reposition before that bar fills, not after."
+   },
+   {
+    "title": "Open trades with Wither, not Q",
+    "detail": "Cast W (Wither, 700 range) to decelerate his Movement and Attack Speed before closing into your 255-range Siphoning Strike. Going in Q-first just lets him kite you at full speed."
+   },
+   {
+    "title": "Save all-ins for R availability",
+    "detail": "Fury of the Sands (120s cooldown) gives you bonus Health, Attack Range, and cast range plus Max Health drain on nearby enemies. Don't force extended fights before 6 or before R is off cooldown."
+   },
+   {
+    "title": "Punish his Boomerang Throw cooldown",
+    "detail": "Early ranks on Q are 16/14.5/13s unless he catches the boomerang. When it's down and uncaught, that's your window to shove the wave or step up safely for a stack."
+   },
+   {
+    "title": "Shred with Spirit Fire on full waves",
+    "detail": "E (Spirit Fire, 650 range, 12s cooldown flat) reduces Armor on anyone standing in it. Use it on cannon waves to snowball your Siphoning Strike stack growth faster."
+   },
+   {
+    "title": "Respect Mega Gnar's Crunch landing",
+    "detail": "Unlike Mini Gnar's bouncing Hop, Mega Gnar's E deals area damage on landing with no bounce. Don't facecheck a trade right as his Rage bar approaches max."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner spells above are pulled directly from OP.GG's measured games on the current patch (16.20.1); the win rates and sample sizes are real. The lane-by-lane tactical reading, timing windows, and ability interactions are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791504086904,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791504002901,
+  "overall": {
+   "winRate": 50.8,
+   "play": 13058,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 149,
+   "wins": 82,
+   "winRate": 55
+  },
+  "laneAdvantage": "Gnar",
+  "soloKillAdvantage": "Gnar",
+  "playStyle": "even",
+  "opponentTip": "Keep some distance to avoid being kited by Mini Gnar while you farm. Keep your [Q] stacks up and wait for an opportunity to go in post-level 6.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 54.9,
+    "play": 91,
+    "pickRate": 47.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 62,
+    "play": 50,
+    "pickRate": 26.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.2,
+    "play": 39,
+    "pickRate": 20.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 55.4,
+    "play": 92,
+    "pickRate": 48.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 5.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 56.4,
+    "play": 140,
+    "pickRate": 73.3
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 55.9,
+    "play": 34,
+    "pickRate": 17.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48.1,
+    "play": 81,
+    "pickRate": 43.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 63,
+    "pickRate": 33.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 10.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 7.3
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 53.9,
+    "play": 115,
+    "pickRate": 59.3
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 59.6,
+    "play": 114,
+    "pickRate": 58.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 57.5,
+    "play": 73,
+    "pickRate": 37.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 58.9,
+    "play": 56,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 16.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 60.7,
+    "play": 28,
+    "pickRate": 14.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 70.4,
+    "play": 27
+   }
+  ]
+ }
+}

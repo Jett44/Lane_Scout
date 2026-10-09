@@ -1,0 +1,384 @@
+{
+ "you": "Camille",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you trade into a mounted Kled with his Q up before level 6; you win if you survive to the Trinity/Hydra power spike and punish him every time Skaarl dies."
+  },
+  "thesis": "Kled's mount is a second health bar that has to be burned down before his real damage to champions turns on, and his Q (Bear Trap on a Rope, 800 range) outranges every Camille tool except Hookshot, letting him poke for free before she can close distance. That structural range and HP-buffer edge is why Kled holds both lane and solo-kill advantage here (42.7% Camille win rate over 89 games) despite Camille's strong overall top-lane record (51.4% across 12,226 games).",
+  "tell": {
+   "watch": "Skaarl's mount health bar",
+   "theirWindow": {
+    "when": "Mounted, Q off cooldown",
+    "what": "He can land Q to yank you in, follow with E (Jousting) for a dash-and-recast hit, then pop W (Violent Tendencies) for four fast attacks while Skaarl's HP soaks your return damage. Do not stand in his 800-range Q threat zone to bait this."
+   },
+   "yourWindow": {
+    "when": "Skaarl's bar hits empty",
+    "what": "Once dismounted, Kled deals less damage to champions and his Q becomes the short-range Pocket Pistol (no more 800-range hook). Step in immediately with Q (Precision Protocol) and E (Hookshot) before he rebuilds courage and remounts."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "800-range Q pokes you for free"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q-yank into E-W combo outburns you"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R gives you a wall-pick threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity/Hydra sustain overtakes his damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Death's Dance survives his all-in burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "The sustain and bonus damage help you stomach his Q pokes and let you punish every auto trade once Skaarl's health is gone (76.5% pick, 44% win rate over 75 games)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Flat damage reduction on autos directly counters his W (Violent Tendencies) four-hit attack speed burst, the main source of his trade damage (82.6% pick)."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Gives you the move speed and burst to actually close the gap on his longer-range Q and E before he resets."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "The sustain from on-hit healing is what lets you win extended trades after Skaarl is dead, when his personal damage output drops."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Delayed damage lets your passive shield and Hydra healing out-heal his Q-yank-into-E-W all-in instead of dying to the burst instantly."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Tiamat",
+     "when": "the game is still in its early laning phase and you need the cheap AoE damage piece before finishing Ravenous Hydra"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the game runs past 25 minutes and you need faster Q/W/E uptime to out-trade his Jousting resets"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "his full all-in (Q yank into E joust into W attack speed burst) is consistently threatening to kill you through your passive shield"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The sustained health growth and proc damage are built for exactly this matchup: long, grindy trades where Skaarl is soaking your hits and you need to out-sustain him rather than win a single burst exchange.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite punishes his all-in trades and finishes him off once he's low and dismounted; Flash lets you dodge or reposition around his 800-range Q hook (45.6% win rate, 66.7% pick)."
+  },
+  "playing": [
+   {
+    "title": "Track Skaarl's health bar",
+    "detail": "Watch the mount health under his portrait all lane. Once it empties he dismounts, deals less damage to champions, and loses the long-range Q hook — that's your window to step in."
+   },
+   {
+    "title": "Respect the 800-range Q",
+    "detail": "Bear Trap on a Rope outranges your entire kit except Hookshot. Don't stand in that zone when his Q is up, especially levels 1-5 before your E has a wall to work with."
+   },
+   {
+    "title": "Trade right after his Q whiffs",
+    "detail": "Q is down for 11/10/9/8/7 seconds after use. The moment it's on cooldown, close the distance and land your own Q (Precision Protocol) for the empowered auto."
+   },
+   {
+    "title": "Delay your Q recast",
+    "detail": "Precision Protocol's second hit does significantly more damage if you wait between casts. Bait his W (Violent Tendencies) burst first, then land the delayed recast once he's committed to the attack-speed window."
+   },
+   {
+    "title": "Position near walls",
+    "detail": "Hookshot needs terrain to pull to and knock up on landing. Fight near walls so you can interrupt his Q-yank-into-E-joust chain with a knock-up instead of eating it clean."
+   },
+   {
+    "title": "Save R for post-dismount",
+    "detail": "The Hextech Ultimatum anchors him to you, but his damage to champions is already reduced once Skaarl dies. Time the dash for right after he dismounts to close out the kill safely."
+   },
+   {
+    "title": "Don't contest before level 9",
+    "detail": "His lane and solo-kill advantage are real in the early game. Play for sustain and wait on extended trades until Trinity Force and Ravenous Hydra are online, unless he's already dismounted."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, and win rates are measured from real games on the current patch (16.20.1); the mechanical reasoning behind the trade windows and timings is my own tactical read."
+ },
+ "generatedAt": 1791506859346,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506782762,
+  "overall": {
+   "winRate": 51.4,
+   "play": 12226,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 89,
+   "wins": 38,
+   "winRate": 42.7
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with Kled’s (Q). If his (Q) is on cooldown, use your passive ability to engage aggressively! Try to gain the upper hand when he dismounts Skaal!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.6,
+    "play": 68,
+    "pickRate": 66.7
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 15.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.5,
+    "play": 11,
+    "pickRate": 10.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 26.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 10.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 44,
+    "play": 75,
+    "pickRate": 76.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 35.3,
+    "play": 17,
+    "pickRate": 17.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 42.3,
+    "play": 71,
+    "pickRate": 82.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 12.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 63.6,
+    "play": 22,
+    "pickRate": 55
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 10
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 45.7,
+    "play": 105,
+    "pickRate": 99.1
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 49.4,
+    "play": 89,
+    "pickRate": 84
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 11.1,
+    "play": 9,
+    "pickRate": 8.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.8,
+    "play": 37
+   }
+  ]
+ }
+}

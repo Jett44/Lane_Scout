@@ -1,0 +1,384 @@
+{
+ "you": "Nasus",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Scaling favourite",
+   "line": "You lose level 1-5 trades where Sion lands Q (Cryptic Gaze) into Enrage-boosted autos, but you win from level 6 onward once R (Fury of the Sands) and stacked Q (Siphoning Strike) take over, matching the 54.2% win rate over 153 games."
+  },
+  "thesis": "Sion's only hard punish tool is Q (Cryptic Gaze), a 550-range single-target stun on a 12/11/10/9/8s cooldown, backed by Enrage trading HP for AD; he has no dash, no second CC, and nothing to stop a scaling stack-and-survive plan. Nasus just has to not get stunned-and-chained before level 6, farm Q stacks and Soul Eater lifesteal through the poke, then let Fury of the Sands flip the lane the moment it's up, which is exactly what the 153-game head-to-head rewards.",
+  "tell": {
+   "watch": "Sion's Q (Cryptic Gaze) cooldown",
+   "theirWindow": {
+    "when": "Q up, you're overextended past minions",
+    "what": "Sion can stun you from 550 range then free-swing with Enrage active, burning his own HP for AD to shred yours fast; stay behind your wave so the stun can't chain into a kill."
+   },
+   "yourWindow": {
+    "when": "His Q down, post-level 6 with R up",
+    "what": "Without Cryptic Gaze he has no engage or peel, so walk up and land Siphoning Strike (Q) freely; threaten Fury of the Sands (R) to force him off farm, since his only answer is popping Death's Caress (W) early and eating the trade anyway."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cryptic Gaze stun threat punishes early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Enrage health-to-damage outtrades low Q stacks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Fury of the Sands flips fights your way"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Q stacks plus Trinity Force widen the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Cannibalism sustain keeps Sion relevant in fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Taken in 66.9% of games (56.9% win rate over 123) because the flat damage reduction on the first attack from a unit each few seconds blunts both Sion's poke autos and his Enrage-boosted trades."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Picked 59.8% of the time (48.6% win rate over 107 games); the cooldown reduction tightens your Q-W-E loop so you're stacking Siphoning Strike and threatening Wither more often per minute."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First item in the highest-sample core path (51.5% win rate over 33 games); the damage and tempo let you punish Sion whenever his Q is down."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Caps Sion's attack speed from Cannibalism and Enrage auto-resets, directly countering his all-in pattern."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Stacks with Soul Eater's lifesteal to win extended trades and outlast his HP-burning Enrage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "sion rushes lifesteal or leans hard on cannibalism healing in fights"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he stacks attack speed and extends all-ins with enrage autos"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you want the wave-clear and poke trade instead of trinity force's burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The sustain and move speed from auto-attacking minions lets you heal through Sion's poke and Enrage trades while farming Q stacks, and gives you the speed to disengage after a Cryptic Gaze stun.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "The highest-pick, highest-win combo (47.9% pick, 52.7% win rate); Teleport lets you reset waves and keep stacking Q without losing tempo, while Ghost closes distance or escapes since Nasus has no dash to answer a Cryptic Gaze stun chain."
+  },
+  "playing": [
+   {
+    "title": "Farm every Q stack safely",
+    "detail": "Prioritize landing Siphoning Strike on cannon and melee minions whenever it's safe; Soul Eater lifesteal keeps you topped off against Sion's poke, and every stack scales your level 6+ trades."
+   },
+   {
+    "title": "Respect Cryptic Gaze range",
+    "detail": "Stay outside 550 range or behind minions whenever Sion's Q is off cooldown; getting stunned into his Enrage-boosted autos is the main way you lose HP before you can fight back."
+   },
+   {
+    "title": "Don't swing into a live shield",
+    "detail": "Death's Caress (W, 8s cooldown) absorbs damage and explodes on expiry or reactivation; don't dump your full Q rotation into it, wait it out or burn it early with Spirit Fire pressure."
+   },
+   {
+    "title": "Flip the lane with Fury of the Sands",
+    "detail": "From level 6, use R's 120s window to engage: the health, range, and max-health-drain bonuses swing fights in your favor, matching the pattern of regaining lane control post-6."
+   },
+   {
+    "title": "Drop Spirit Fire before committing",
+    "detail": "E, on a 12s cooldown at 650 range, reduces armor in its zone; place it under Sion before trading to multiply your Q and auto damage."
+   },
+   {
+    "title": "Hold Wither for his escape",
+    "detail": "Save W (15/14/13/12/11s cooldown, 700 range) to slow Sion's movement and attack speed once his Enrage is spent and he tries to walk away from a losing trade."
+   },
+   {
+    "title": "Play the stats, not the panic",
+    "detail": "Despite his early stun pressure, the 153-game head-to-head sits at 54.2% in your favor; don't force all-ins at level 1-2, just survive to stack and let R carry you mid-lane."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and win rates are pulled from measured Nasus vs Sion games on the current patch via OP.GG; the ability timings and trade-window reading are our own tactical analysis."
+ },
+ "generatedAt": 1791512408172,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791512329120,
+  "overall": {
+   "winRate": 50.7,
+   "play": 13676,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 153,
+   "wins": 83,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "Sion",
+  "soloKillAdvantage": "Nasus",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Sion’s (Q) and ranged abilities used inside brushes. Farm and heal with [Q] to gain stacks, while looking for an opportunity post-level 6 by using [R] to slowly regain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 52.7,
+    "play": 91,
+    "pickRate": 47.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 54,
+    "pickRate": 28.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.2,
+    "play": 39,
+    "pickRate": 20.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50.5,
+    "play": 101,
+    "pickRate": 52.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 8.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 56.9,
+    "play": 123,
+    "pickRate": 66.9
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 40,
+    "play": 30,
+    "pickRate": 16.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48.6,
+    "play": 107,
+    "pickRate": 59.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 20.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 5.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 47.2,
+    "play": 127,
+    "pickRate": 67.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 52.6,
+    "play": 114,
+    "pickRate": 61
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 56.8,
+    "play": 88,
+    "pickRate": 47.1
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 58.3,
+    "play": 36,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 17.1
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 65,
+    "play": 20,
+    "pickRate": 10.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.3,
+    "play": 30
+   }
+  ]
+ }
+}

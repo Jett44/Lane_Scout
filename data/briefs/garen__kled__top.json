@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, play reactive",
+   "line": "You lose the lane if you walk into Bear Trap and Jousting range before level 6 and get poked down for free; you win it once Skaarl's bar breaks and you burst Kled before he can remount."
+  },
+  "thesis": "This matchup is built around Skaarl's separate health bar. While mounted, Kled pokes from 800 range with Q (Bear Trap on a Rope) and repositions with 550-range E (Jousting), both well outside Garen's 300-range Q and 325-range E, which is why the data gives him the early solo-kill edge. The moment Skaarl's bar empties, Kled dismounts, deals less damage to champions, and loses Bear Trap entirely (replaced by the self-knockback Pocket Pistol), so Garen's shorter cooldowns and all-in burst swing the fight back to the measured 51.7% in his favor.",
+  "tell": {
+   "watch": "Skaarl's secondary health bar",
+   "theirWindow": {
+    "when": "Kled mounted with Q and E up",
+    "what": "He can land Bear Trap (800 range, 11-7s CD) or dash in with Jousting (550 range, 13-9s CD) and reset out, chipping you from range you can't answer. Don't feed him free pokes — hold W (Courage) and wait for him to spend one of these before you close."
+   },
+   "yourWindow": {
+    "when": "Skaarl's bar hits zero, Kled dismounts",
+    "what": "Dismounted Kled deals less damage to champions and trades Bear Trap for Pocket Pistol, a knockback that pushes himself away rather than hooking you. Chain Q (Decisive Strike) silence into E (Judgment) and W (Courage) immediately — he has no gap-close left if you commit now."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a dangerous cooldown rotation yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Jousting dash combo and Violent Tendencies punish melee trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R unlocks but save it for his dismount"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Judgment's 9s cooldown outpaces his sustained pressure"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build and Conqueror close out extended duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The lane's defensive shape and Kled's ranged mounted poke reward the flat damage reduction and sustain over raw damage early."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "Attack speed accelerates your Q-silence-into-auto burst and helps you keep pace when he tries to kite with Jousting resets."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The active gives you the gap-close you're missing against his 550-range dash, letting you close before he can reset courage."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Attack speed and slow resistance keep you attached through his Jousting dashes and Violent Tendencies windows."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Grievous wounds shuts down any healing he gets back from courage restoration once you've committed to the all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "he keeps disengaging with jousting resets and you need more sustained chase speed"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "you're already ahead and want to shorten the time it takes to execute through his mounted HP pool"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you need an extra burst of mobility to catch him before he remounts"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking damage and healing reward you for staying in extended skirmishes, which is exactly the fight you're trying to force once Skaarl's bar is low.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite punishes the all-in the moment Skaarl dismounts, securing the kill before Kled can regenerate courage through fighting or escape with a Jousting reset."
+  },
+  "playing": [
+   {
+    "title": "Don't walk into his cooldowns",
+    "detail": "If Bear Trap (800 range) and Jousting (550 range) are both up, stay out of range rather than trading — wait for him to spend one first."
+   },
+   {
+    "title": "Burst Skaarl, not Kled",
+    "detail": "W (Courage) and E (Judgment) damage hits Skaarl's bar the same as Kled's — rotate both to force the dismount rather than poking at his own HP."
+   },
+   {
+    "title": "Save R for after dismount",
+    "detail": "Mounted Kled has far more effective HP and keeps an escape tool. Only commit Demacian Justice once Skaarl's bar is empty."
+   },
+   {
+    "title": "Punish the Jousting recast window",
+    "detail": "After his first E dash, he either recasts to dash back through you or is stuck on cooldown — that's your moment to close with Q's silence."
+   },
+   {
+    "title": "Silence his escape, not his engage",
+    "detail": "Decisive Strike's silence is most valuable stopping Pocket Pistol's knockback or a Bear Trap re-throw once he's trying to disengage dismounted."
+   },
+   {
+    "title": "Finish fast once he's low",
+    "detail": "Kled restores courage by fighting, so a prolonged trade with his mount near empty risks him stabilizing — commit your burst in one rotation instead of poking it out."
+   },
+   {
+    "title": "Play safe for XP before 6",
+    "detail": "The data shows Kled holds the early solo-kill edge — don't overextend for CS while his Jousting-into-Bear Trap combo is live."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, and win rates come from measured Garen vs Kled games on the current patch (16.20.1) via OP.GG; the tactical reasoning — poke windows, dismount timing, and cooldown tracking — is my own read, not part of OP.GG's data."
+ },
+ "generatedAt": 1791506475798,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506392118,
+  "overall": {
+   "winRate": 50.6,
+   "play": 17541,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 118,
+   "wins": 61,
+   "winRate": 51.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Kled’s (Q) when fighting him. Close in to deal damage whenever your skills come off cooldown. After reaching level 6, use your ultimate only after he dismounts Skaal.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.3,
+    "play": 140,
+    "pickRate": 95.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 3.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 0.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 67,
+    "pickRate": 45
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.3,
+    "play": 16,
+    "pickRate": 10.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.8,
+    "play": 78,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 53.5,
+    "play": 43,
+    "pickRate": 30.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 51,
+    "play": 100,
+    "pickRate": 74.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 16.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 70,
+    "play": 30,
+    "pickRate": 30.9
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 7.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Infinity Edge"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 6.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 51.4,
+    "play": 142,
+    "pickRate": 97.3
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 57.1,
+    "play": 98,
+    "pickRate": 67.1
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 55.2,
+    "play": 58,
+    "pickRate": 39.7
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 74.3,
+    "play": 35,
+    "pickRate": 24
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 48.4,
+    "play": 31,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 10.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 58.2,
+    "play": 55
+   }
+  ]
+ }
+}

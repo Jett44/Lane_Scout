@@ -1,0 +1,385 @@
+{
+ "you": "K'Sante",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk forward into Shock Blast poke with W down; you win if you force the fight the moment E and W are both up."
+  },
+  "thesis": "Jayce's entire combo — stance-specific Q, W, and E — is gated behind R (Mercury Cannon/Mercury Hammer), which only exists from level 6 on a 6s cooldown. Before that, he is locked into whatever stance he picked at level 1, so you already know his full toolkit for the first five levels. K'Sante holds the solo-kill edge in this matchup (386 games, 47.4% overall win rate), which means the lane is close on paper but swings hard toward you once you dictate when the fight happens.",
+  "tell": {
+   "watch": "Jayce's stance (Hammer vs Cannon)",
+   "theirWindow": {
+    "when": "Jayce in Cannon stance, your W down",
+    "what": "He free-pokes with Shock Blast (600 range, detonates on first enemy hit) and can burst his own attack speed with Hyper Charge; just eat it behind Doran's sustain and don't advance into a second cast, since without R he has no way to disengage once you actually close."
+   },
+   "yourWindow": {
+    "when": "your E and W both off cooldown",
+    "what": "Dash with E (Footwork) to close the 525-range gap, then charge and release W (Path Maker) for the stun; land two Q (Ntofo Strikes) hits before or during the stun so the second stack fires its pull and your passive mark boosts the follow-up hit."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "No R for either side; Jayce pokes free from range"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W+E online, forced trades favor your all-in"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates live; stance-swap vs wall all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Iceborn CDR keeps your combo cycling as often as his"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "His full burst build outscales your tank itemization"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm + Health Potion",
+    "why": "Highest win rate (47.2%) and overwhelmingly the preferred start (72.1% pick) in this matchup, giving the sustain to shrug off repeated Shock Blast and Lightning Field chip before you can force a fight."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Dominant pick (84.9%) and the better win rate (47% vs 50% on a tiny sample for Mercury's Treads); Jayce leans on autos in Cannon stance and during Hyper Charge, and Steelcaps blunts that directly."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Highest-winning core path (54.3% over 35 games); the cooldown reduction keeps Footwork and Path Maker available more often, which is the actual lever in this lane."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Next step in the top-performing build order; sustains you through Jayce's poke-heavy pre-6 phase so you reach your all-in windows at full health."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Completes the 54.3%-winrate core; stacking resistances lets you tank the stance-swap burst Jayce gets once his R comes online at 6."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "jayce is building into attack speed and leaning on Hyper Charge auto resets"
+    },
+    {
+     "item": "Thornmail",
+     "when": "jayce commits to a straight physical damage build with no magic damage items"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "jayce's Lightning Field and first-hit R procs are doing meaningful magic damage to you"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Aftershock",
+   "keystoneWhy": "The higher-pick-rate Resolve page (15.4% pick) built around forcing a stun-into-burst trade, which matches your E-into-W all-in pattern. Master-tier K'Sante players instead run Grasp of the Undying (52.4% win rate over 2,422 games) — that page suits a more patient, scaling approach to the lane rather than the early forced trades Aftershock is built for.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite posts the best measured win rate in this matchup (56.5%) and matches your solo-kill advantage — it turns your forced all-in window into an actual kill. Flash+Teleport remains the dominant pick (84.8%) if you'd rather play for wave control and scale into your tank items instead."
+  },
+  "playing": [
+   {
+    "title": "Track Jayce's stance",
+    "detail": "Cannon stance means he's a ranged poke threat with Shock Blast and Hyper Charge; Hammer stance means he's already committed to melee range, which is exactly where your Q and W want him."
+   },
+   {
+    "title": "Save E for his poke, not his leap",
+    "detail": "Footwork's shield is best spent soaking a Shock Blast or Lightning Field tick — the dash itself is what you use to close range for your own all-in, not to dodge his."
+   },
+   {
+    "title": "Exploit his missing R pre-6",
+    "detail": "Before level 6 Jayce cannot weapon-swap at all, so he is fighting entirely with whichever stance he picked at level 1. Force trades in that window since he has no way to add the other stance's tools."
+   },
+   {
+    "title": "Stack Q before committing W",
+    "detail": "Ntofo Strikes only pulls enemies in at 2 stacks, so landing two Q hits before or during your W stun maximizes the extra damage from your passive mark."
+   },
+   {
+    "title": "All-in near walls once R is up",
+    "detail": "All Out knocks Jayce through terrain, so look for fights near a wall between levels 6-8 to deny his stance-swap kite entirely."
+   },
+   {
+    "title": "Build cooldowns, not damage",
+    "detail": "Iceborn Gauntlet's CDR keeps Footwork and Path Maker available more often than Jayce can reliably cycle his own combo, which matters more here than raw damage since he already loses extended trades."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are pulled from measured K'Sante vs Jayce games on the current patch (386 games, 47.4% win rate); the stance-lock timing and trade-window reasoning are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791502766666,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502654568,
+  "overall": {
+   "winRate": 47,
+   "play": 10993,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 386,
+   "wins": 183,
+   "winRate": 47.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.9,
+    "play": 362,
+    "pickRate": 84.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.5,
+    "play": 46,
+    "pickRate": 10.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Aftershock",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 39.4,
+    "play": 66,
+    "pickRate": 15.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 63,
+    "pickRate": 14.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 47.2,
+    "play": 305,
+    "pickRate": 72.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 116,
+    "pickRate": 27.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47,
+    "play": 349,
+    "pickRate": 84.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 56,
+    "pickRate": 13.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 54.3,
+    "play": 35,
+    "pickRate": 17.2
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Randuin's Omen"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Unending Despair"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 46.6,
+    "play": 388,
+    "pickRate": 91.7
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 47.7,
+    "play": 197,
+    "pickRate": 46.6
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 55.8,
+    "play": 129,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 52.9,
+    "play": 68,
+    "pickRate": 16.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.5,
+    "play": 66,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 56.3,
+    "play": 48,
+    "pickRate": 11.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 44.2,
+    "play": 77
+   }
+  ],
+  "highElo": {
+   "keystone": "Grasp of the Undying",
+   "tree": "Resolve",
+   "play": 2422
+  }
+ }
+}

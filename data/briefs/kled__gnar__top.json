@@ -1,0 +1,384 @@
+{
+ "you": "Kled",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Gnar poke you to half HP before level 6 engages land; you win if you force all-ins while his E (Hop/Crunch) is down."
+  },
+  "thesis": "This is a 44.1% matchup over 68 games despite Kled's 49.7% baseline in lane, because Gnar's ranged Q (Boomerang Throw) and Rage meter dictate when trades happen. Kled has no way to close the gap before level 3 jousts come online, so the first 0-2 levels are about minimizing poke, not fighting for it.",
+  "tell": {
+   "watch": "Gnar's Rage meter fill",
+   "theirWindow": {
+    "when": "Rage bar is near max, E up",
+    "what": "He's about to transform into Mega Gnar and get Wallop's stun plus a bigger Hop/Crunch landing. Back off cooldown walls and don't commit E (Jousting) into a stun you can't see coming."
+   },
+   "yourWindow": {
+    "when": "His E (Hop/Crunch) is on cooldown",
+    "what": "OP.GG's own read confirms it: close the gap and dump W (Violent Tendencies) auto-resets now, since he has no escape to disengage your dash chain."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Boomerang Throw pokes for free, you have no gap-closer"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E (Jousting) online, trade windows open"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Mega Gnar transform adds Wallop stun threat"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Titanic Hydra wave clear and all-in power online"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "R (GNAR!) wall-stuns punish overextension both ways"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "76% pick rate and 49.1% win over 57 games; the extra sustain and damage keep you alive through early Boomerang Throw poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "83.6% pick rate; Gnar's autos and Boomerang Throw are physical, and Steelcaps' auto-attack reduction cuts the poke that defines his early lead."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the top two build paths (14.9% and 10.6% pick); the wave-clear and bonus HP let you shove and punish Hop/Crunch cooldowns."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Core second item in the top build path; armor shred matters since Mega Gnar stacks tankiness."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Third item in the 14.9% pick path; the HP and bonus damage scale your all-in once Mega Gnar is online."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead on waves and want to push structures instead of Black Cleaver"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you need burst-damage survivability against his Mega Gnar all-in"
+    },
+    {
+     "item": "Mercury's Treads",
+     "when": "he lands GNAR! wall-stuns consistently and you need tenacity over armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Sustained stacking damage rewards the extended trades Kled wants once E (Jousting) is online, and the healing offsets Boomerang Throw chip damage.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "67.5% pick rate at 51.8% win; Ignite punishes his low early HP pool when you land a jousting trade before he can disengage."
+  },
+  "playing": [
+   {
+    "title": "Hold E until level 3",
+    "detail": "Jousting is your only gap-closer against his 1100-range Boomerang Throw; don't waste it approaching before it's live."
+   },
+   {
+    "title": "Track his Rage bar, not just HP",
+    "detail": "A near-full Rage meter means his next ability triggers Mega Gnar, adding Wallop's stun. Disengage before that threshold instead of after."
+   },
+   {
+    "title": "All-in only when E is down",
+    "detail": "Hop/Crunch is his only escape pre-6; once it's on cooldown (22/19.5/17/14.5/12s), commit W (Violent Tendencies) and E (Jousting) together."
+   },
+   {
+    "title": "Save Pocket Pistol for dismount",
+    "detail": "When Skaarl dies, Q becomes Pocket Pistol — a ranged knockback blast that restores courage. Use it to disengage, not chase, since it knocks you backward."
+   },
+   {
+    "title": "Respect GNAR! near walls",
+    "detail": "At level 6+, his R throws you in a direction and stuns if you hit a wall. Don't fight with your back to terrain once he's transformed."
+   },
+   {
+    "title": "Use R (Chaaaaaaaarge!!!) to punish backline poke",
+    "detail": "At 3500 range, your ultimate closes gaps he can't escape once his E is down — align it with teamfights, not lane skirmishes."
+   },
+   {
+    "title": "Shove waves after level 11",
+    "detail": "Titanic Hydra's wave clear lets you force tempo; a shoved wave limits his Boomerang Throw poke angles and sets up jungle ganks."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win-rate figures are measured from live games on the current patch via OP.GG; the lane-timing and mechanical reasoning are my own tactical read, not sourced from that data."
+ },
+ "generatedAt": 1791510628062,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791510590561,
+  "overall": {
+   "winRate": 49.7,
+   "play": 5093,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 68,
+   "wins": 30,
+   "winRate": 44.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Mega Gnar’s GNAR! (R) – Wallop (W) stun combo. Close in to deal damage once Hop/Crunch (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 56,
+    "pickRate": 67.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 12.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 20.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Demolish"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 57,
+    "pickRate": 76
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 18.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.4,
+    "play": 56,
+    "pickRate": 83.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 13.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 100,
+    "play": 5,
+    "pickRate": 10.6
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 8.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 47.6,
+    "play": 63,
+    "pickRate": 76.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 43.3,
+    "play": 30,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 63.6,
+    "play": 22,
+    "pickRate": 26.8
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 76.5,
+    "play": 17,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Profane Hydra"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 13.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.5,
+    "play": 22
+   }
+  ]
+ }
+}

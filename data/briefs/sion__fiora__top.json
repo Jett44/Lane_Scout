@@ -1,0 +1,386 @@
+{
+ "you": "Sion",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slight underdog",
+   "line": "You lose if she opens with double Lunge while Riposte is up and you throw your stun into it; you win if you bait that Riposte down first and then land Cryptic Gaze clean."
+  },
+  "thesis": "Fiora's Q (Lunge) can be thrown twice in one window and her W (Riposte) punishes the exact kind of all-in Sion wants to make, so the entire lane is about sequencing, not raw stats — the 47.3% win rate over 148 games and Fiora's solo-kill edge both come from Sion players walking into a parry. Sion's W (Death's Caress) shield is strong enough to eat the poke if you don't get baited into trading auto-for-auto.",
+  "tell": {
+   "watch": "Her W (Riposte) cooldown icon",
+   "theirWindow": {
+    "when": "Her W (Riposte) is off cooldown",
+    "what": "She will bait you with a Lunge or an auto to tempt a response. Do not throw Q (Cryptic Gaze) or extend with autos here — if she parries, she gets bonus AD and you've lost the exchange for nothing."
+   },
+   "yourWindow": {
+    "when": "Her W (Riposte) just went on cooldown (6-10s depending on rank)",
+    "what": "This is your all-in window. Land Q (Cryptic Gaze) for the stun, pop W (Death's Caress) on top of her, and toggle E (Enrage) to trade autos — nothing she does here can parry it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Doran's Shield sustain cancels her early poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Lunge cooldown drops, double-dash burst spikes"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Riposte cheap again, solo-kill risk highest"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "E health stacking and R sustain close the gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Tank items, R Cannibalism outlast her burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "52.8% win rate over 106 games and the highest pick rate (57.3%) because the passive sustain directly answers Fiora's poke-heavy Lunge trades."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.6% win rate over 131 games, 73.2% pick — flattens her auto-attack and Lunge physical damage during the all-in windows."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Applies Grievous Wounds early to blunt her Duelist passive, which stacks and heals her the longer the fight runs."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Converts your E-stacked health into pressure so she can't just farm safely while you scale."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "More Grievous Wounds uptime plus a shield that buys time for your own W (Death's Caress) to come back up."
+    },
+    {
+     "item": "Thornmail",
+     "why": "This full path hits 80% win rate (small sample, 5 games) and caps her sustain for good once it's complete."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the enemy team adds real magic damage alongside her physical pressure"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you're stacking health safely in side lane"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you want to turn your stacked max health into wave clear and poke instead of pure tank stats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "54% win rate at 26.2% pick — the per-tick heal and permanent health growth directly offset Fiora's poke-and-heal lane pattern.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "51.9% win rate at 81.7% pick — Teleport lets you play the lane patient (per the power curve, levels 3-10 favor her) and still reset top in time."
+  },
+  "playing": [
+   {
+    "title": "Never Q into open Riposte",
+    "detail": "If her W (Riposte) is off cooldown, holding Cryptic Gaze is correct even if she's in range — a parried follow-up auto hands her free AD for the rest of the exchange."
+   },
+   {
+    "title": "All-in only after her W is spent",
+    "detail": "Once Riposte is on cooldown, stun with Q, drop W (Death's Caress) on top of her, and toggle E (Enrage) to trade — this is the one window her kit has no answer for."
+   },
+   {
+    "title": "Play passive before level 6",
+    "detail": "Her double-Lunge burst and lower Q cooldown make this her strongest solo-kill window; farm under turret range rather than contest trades."
+   },
+   {
+    "title": "Don't duel into her E",
+    "detail": "Burst of Speed stacks move speed and attack speed every time she lands a hit or Lunge — disengage early rather than letting the fight run long under it."
+   },
+   {
+    "title": "Rush Grievous Wounds",
+    "detail": "Bramble Vest into Thornmail directly cuts her Duelist passive heal, which is the stat that lets her win marginal trades."
+   },
+   {
+    "title": "Group once you're ahead on items",
+    "detail": "Her R (Blade Waltz) deals less on repeat hits to the same target, so your stacked health matters more in teamfights than in the 1v1 lane."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner choices are pulled from measured OP.GG data on the current patch (148 games for this matchup); the sequencing and trade-window analysis is my own read of the kit."
+ },
+ "generatedAt": 1791513357666,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513287423,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 148,
+   "wins": 70,
+   "winRate": 47.3
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "even",
+  "opponentTip": "Do not use [Q] when she has (W) off cooldown. Be careful of your Vitals when she has (Q) off cooldown while focusing on farming lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.9,
+    "play": 156,
+    "pickRate": 81.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 8.9
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 3.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54,
+    "play": 50,
+    "pickRate": 26.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 14.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.8,
+    "play": 106,
+    "pickRate": 57.3
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 39,
+    "pickRate": 21.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.6,
+    "play": 131,
+    "pickRate": 73.2
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 20.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 5.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Voltaic Cyclosword",
+     "The Collector"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 4.1
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 3.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52.5,
+    "play": 80,
+    "pickRate": 42.6
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 60,
+    "play": 75,
+    "pickRate": 39.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 50,
+    "play": 58,
+    "pickRate": 30.9
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.4,
+    "play": 57,
+    "pickRate": 30.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 45.5,
+    "play": 55,
+    "pickRate": 29.3
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 71.1,
+    "play": 38,
+    "pickRate": 20.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50,
+    "play": 52
+   }
+  ]
+ }
+}

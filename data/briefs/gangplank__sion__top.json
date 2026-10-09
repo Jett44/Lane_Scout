@@ -1,0 +1,385 @@
+{
+ "you": "Gangplank",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, punish-reliant",
+   "line": "You lose if you facecheck a brush or trade in close when his Cryptic Gaze is up; you win if you poke from outside 550 range and all-in the moment that stun is on cooldown."
+  },
+  "thesis": "Sion's E (Enrage) has no cooldown and lets him trade AD for health freely while permanently growing his max HP on every kill, so an unpunished Sion snowballs into a bigger threat purely off CS and takedowns. Gangplank's whole kit outranges that pattern — Parrrley hits at 625 against Cryptic Gaze's 550 — but only if you respect the stun instead of walking into it, which is exactly where OP.GG's 43.1% head-to-head (versus Gangplank's 50.2% overall baseline) says most games are actually lost.",
+  "tell": {
+   "watch": "Sion's Cryptic Gaze (Q) cooldown",
+   "theirWindow": {
+    "when": "His Q is up, you're near a brush",
+    "what": "Cryptic Gaze stuns and deals damage at 550 range, and a fully charged version from inside brush catches people who poke on autopilot. Back off to 625 range and only auto/Parrrley when you can see he's committed Q elsewhere or it's already down."
+   },
+   "yourWindow": {
+    "when": "He just landed or whiffed his Q",
+    "what": "Cryptic Gaze is locked out for 12/11/10/9/8s by rank, so this is your all-in window. Pop E (Raise Morale) for the AD/MS buff and chain Parrrley into autos — he has no stun to punish you back with."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has a reason to all-in yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown drops to 10-9s, stun punishes overextension"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults online; his R sustain offsets your poke"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Essence Reaver burst outpaces his HP stacking"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight zoning vs his unkillable-tank threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "49.4% win rate over 166 games and the standard 67.8% pick — the extra AD and sustain let you trade autos into his poison stacks without losing the lane to attrition."
+   },
+   "boots": {
+    "item": "Gluttonous Greaves",
+    "why": "55.7% win rate over 70 games — the lifesteal directly offsets the health he burns off you with empowered Enrage autos during extended trades."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain to spam Parrrley (5s cooldown) every wave without running dry, which is the entire basis of your poke advantage over his 550-range Q."
+    },
+    {
+     "item": "The Collector",
+     "why": "Part of the 50% win rate, 30-game core path — the execute threshold closes out trades he tries to sustain through with his E health-for-AD toggle."
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "why": "Armor penetration cuts through the max HP he's been stacking for free off every kill, keeping your Parrrley poke relevant into the late game."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "he leans on detonating Death's Caress (W) as a damage shield every trade"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "you need a lifeline against his Cannibalism (R) lifesteal in prolonged skirmishes"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "the game goes long and you need raw crit damage to break through his stacked HP"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The 26.2% pick rate page at 45.3% win rate — the added DoT stacks on top of your Grog-Soaked Blade poison every time you land a Parrrley, which is how you out-damage his free health-for-AD trades.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "78.2% pick rate at 46.8% win rate — Ignite punishes the moment you catch him over-extended on Enrage health loss, and since his Q stun is his only real engage, Flash lets you either dodge it or close distance to force your all-in window."
+  },
+  "playing": [
+   {
+    "title": "Poke from 625, not 550",
+    "detail": "Parrrley outranges Cryptic Gaze by 75 units. Land it and walk the auto back out instead of standing in his stun range to confirm the hit."
+   },
+   {
+    "title": "Never facecheck his brush",
+    "detail": "OP.GG's own read on this matchup is to respect a fully charged Q from inside a bush — treat every brush near his stun range as a live threat, especially once his Q cooldown drops to 10s at level 3."
+   },
+   {
+    "title": "All-in only when his Q is down",
+    "detail": "After he lands or whiffs Cryptic Gaze it's locked out for 12-8s by rank. That's your window to commit — pop Raise Morale (E) for the AD/MS buff and chain autos."
+   },
+   {
+    "title": "Punish his Enrage health loss",
+    "detail": "Enrage has no cooldown but drains his own HP per empowered auto. If he's been toggling it to trade, your poke finishes what he already started on himself."
+   },
+   {
+    "title": "Hold Remove Scurvy for his stun",
+    "detail": "W clears Cryptic Gaze's stun and heals you. Don't burn it on chip damage — save it for the moment he commits the engage."
+   },
+   {
+    "title": "Freeze waves to deny his HP stacking",
+    "detail": "Sion gains permanent max HP from every kill, minions included, while Enraged. Tighten the wave so he can't farm free stats off cannon minions."
+   },
+   {
+    "title": "Use Cannon Barrage to zone, not just burst",
+    "detail": "R's global range is better spent denying his farm or split-push than as a finishing tool — he can tank the DoT, but losing CS to it compounds his lack of HP growth."
+   }
+  ],
+  "patchCaveat": "Every item, rune, and summoner spell above comes from OP.GG's measured Gangplank-vs-Sion games on the current patch (16.20.1) — the win rates and pick rates are real sample data, not estimates. The matchup reading — why the stun range matters, when to all-in, how his E snowballs — is coaching judgment built on top of those numbers."
+ },
+ "generatedAt": 1791512733233,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791512650777,
+  "overall": {
+   "winRate": 50.2,
+   "play": 15810,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 197,
+   "wins": 85,
+   "winRate": 43.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Pressure lane during early game for control but always be wary of (Q). Always be careful of his fully charged (Q) used from inside a brush.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.8,
+    "play": 190,
+    "pickRate": 78.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49,
+    "play": 51,
+    "pickRate": 21
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 0,
+    "play": 1,
+    "pickRate": 0.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 45.3,
+    "play": 64,
+    "pickRate": 26.2
+   },
+   {
+    "primaryTree": "Inspiration",
+    "primary": [
+     "First Strike",
+     "Cash Back",
+     "Triple Tonic",
+     "Cosmic Insight"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 48.5,
+    "play": 33,
+    "pickRate": 13.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 166,
+    "pickRate": 67.8
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 60.6,
+    "play": 33,
+    "pickRate": 13.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 55.7,
+    "play": 70,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 39.4,
+    "play": 66,
+    "pickRate": 31.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 47.2,
+    "play": 36,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 11.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 46.9,
+    "play": 239,
+    "pickRate": 93.7
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 49.4,
+    "play": 174,
+    "pickRate": 68.2
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 46.3,
+    "play": 108,
+    "pickRate": 42.4
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 53.8,
+    "play": 106,
+    "pickRate": 41.6
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 55.3,
+    "play": 47,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 41.7,
+    "play": 36,
+    "pickRate": 14.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50.6,
+    "play": 77
+   }
+  ]
+ }
+}

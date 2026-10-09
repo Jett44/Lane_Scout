@@ -1,0 +1,381 @@
+{
+ "you": "Volibear",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Q-E poke chains at range; you win once you force him into melee Cannon Stance and land a stun."
+  },
+  "thesis": "Jayce wants to fight you from 600-1200 range in Hammer Stance, poke with Q (To the Skies!) and E (Thundering Blow) without ever entering your W (Frenzied Maul) threat range. Volibear's actual win condition is closing that gap with Q (Thundering Smash) and using E (Sky Splitter) at 1200 range to punish his melee Cannon Stance form instead of trying to out-poke him. The 52.7% win rate over 146 games says this favors you slightly once you play the gap-close correctly, despite Jayce holding the raw lane and solo-kill edge.",
+  "tell": {
+   "watch": "Jayce's stance (Hammer vs Cannon)",
+   "theirWindow": {
+    "when": "He's in Hammer Stance at range",
+    "what": "He can land Q (To the Skies!) leap-slow and E (Thundering Blow) knockback from well outside your W threat range. Do not walk forward to trade here; let him burn Q's 16/14/12/10/8s cooldown on a poke rather than a stun setup."
+   },
+   "yourWindow": {
+    "when": "He's in Cannon Stance or just used Q",
+    "what": "Cannon Stance is his melee-less ranged form but it also means his Hammer-side mobility (the Q leap) is down for 16-8s. Use Q (Thundering Smash) to close instantly and chain into W (Frenzied Maul) twice for the heal."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "His Q-E poke outranges your entire kit"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "Your E (Sky Splitter) starts punishing his dives"
+   },
+   {
+    "levels": "7-10",
+    "edge": "you",
+    "note": "Q cooldown hits 11-10.5s, gap-close improves"
+   },
+   {
+    "levels": "11-13",
+    "edge": "you",
+    "note": "R (Stormbringer) online, forces disengage or death"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight items swing this to skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "Picked in 59.6% of games (53.2% win rate over 109 games) because sustain and mana regen let you tank Jayce's early poke without backing off lane."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "62.4% pick rate at 52.3% win rate over 111 games; the attack-speed reduction on his Q-E auto-poke chain directly offsets his damage profile."
+   },
+   "core": [
+    {
+     "item": "Statikk Shiv",
+     "why": "Appears in both top core paths; the on-hit proc plus W (Frenzied Maul) mark gives you a reason to actually land autos through his kiting."
+    },
+    {
+     "item": "Hextech Gunblade",
+     "why": "Shows up in the top two core paths (50% and 7.8%/5.8% pick); the active-use sustain keeps you alive through extended Q-E poke exchanges."
+    },
+    {
+     "item": "Navori Flickerblade",
+     "why": "Part of the second core path; stacks with Lethal Tempo to shrink your Q (Thundering Smash) and W cooldowns for more gap-close attempts per fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he is out-sustaining your trades with ranged poke and you need the magic damage reduction plus healing amp from W"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his attack speed from Cannon Stance W (Hyper Charge) is shredding you in extended fights"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game stalls into a split-push or skirmish-heavy mid game and you need the stat flexibility"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Run in both listed rune pages (15% and 9.1% pick) because it rewards landing autos during your W (Frenzied Maul) double-cast window, scaling your DPS once you close the gap.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust+Flash is the highest win rate pairing in this matchup (62.5% over a 21.4% pick rate); Exhaust directly cuts Jayce's poke damage and kiting speed during your Q (Thundering Smash) all-in."
+  },
+  "playing": [
+   {
+    "title": "Hold position in Hammer Stance",
+    "detail": "Do not approach while he's at range in Hammer Stance; his Q (To the Skies!) and E (Thundering Blow) both outrange your Q (300) and W (325). Wait for him to commit or swap stance."
+   },
+   {
+    "title": "Punish Cannon Stance commitment",
+    "detail": "When he swaps to Cannon Stance to poke or farm, his mobility tool (Hammer Q leap) is gone. This is your window to close with Q (Thundering Smash) and land the stun."
+   },
+   {
+    "title": "Save E for his dive, not for poke trades",
+    "detail": "E (Sky Splitter) has a 16s cooldown and 1200 range; hold it to slow him mid-leap or mid-retreat rather than throwing it into empty space for chip damage."
+   },
+   {
+    "title": "Double-tap W for sustain",
+    "detail": "W (Frenzied Maul) heals you on the second cast against the same marked target. Always follow up your first W with a second before he can kite away."
+   },
+   {
+    "title": "Time R around his Cannon-form burst window",
+    "detail": "R (Stormbringer) disables nearby towers temporarily on landing; use it to force a trade under his tower once you're ahead, since his Cannon Stance lacks the Hammer E knockback to peel you off."
+   },
+   {
+    "title": "Track his Q cooldown after every poke",
+    "detail": "His Q (To the Skies!) drops from 16s to 8s by level 5-9; count it down after each cast so you know exactly when he loses his disengage/leap tool and can be cornered."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner spells above are pulled directly from measured games on the current patch (16.20.1); the win-condition reading and timing calls are my own tactical judgment, not measured data."
+ },
+ "generatedAt": 1791502952761,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502912613,
+  "overall": {
+   "winRate": 48.5,
+   "play": 12254,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 146,
+   "wins": 77,
+   "winRate": 52.7
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Jayce’s (Q)-(E) pokes. Use [E] to contest lane while using [Q] to close in to gain the upper hand in combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.9,
+    "play": 109,
+    "pickRate": 58.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 40,
+    "pickRate": 21.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 75,
+    "play": 24,
+    "pickRate": 12.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 28,
+    "pickRate": 15
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 9.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 53.2,
+    "play": 109,
+    "pickRate": 59.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.3,
+    "play": 39,
+    "pickRate": 21.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.3,
+    "play": 111,
+    "pickRate": 62.4
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 62.1,
+    "play": 29,
+    "pickRate": 16.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 5.8
+   },
+   {
+    "items": [
+     "Statikk Shiv",
+     "Hextech Gunblade",
+     "Shadowflame"
+    ],
+    "winRate": 0,
+    "play": 4,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 58.8,
+    "play": 85,
+    "pickRate": 46.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 55.4,
+    "play": 74,
+    "pickRate": 40.7
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 63.6,
+    "play": 55,
+    "pickRate": 30.2
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 52.9,
+    "play": 34,
+    "pickRate": 18.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 27,
+    "pickRate": 14.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 9.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 54.3,
+    "play": 46
+   }
+  ]
+ }
+}

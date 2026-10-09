@@ -1,0 +1,379 @@
+{
+ "you": "Sion",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close lane",
+   "line": "You lose if she lands a full Q-W-auto combo before level 6; you win if the lane reaches full build, where Sion's health stacking out-trades her burst."
+  },
+  "thesis": "Riven's damage is a burst chain built from Runic Blade-empowered autos threaded between Broken Wings dashes and a Ki Burst stun, and that chain is strongest exactly when Sion has no sustain tools online. Sion's Cryptic Gaze reaches 550 range against her 275 (Q) and 250 (E, R), so he can stun her before she ever closes the gap, and Death's Caress gives him a shield to eat the first hits of any combo she does land. The matchups measures as even overall (50.7% over 75 games) because Riven's early edge gets canceled out by Sion's late-game health-stacking.",
+  "tell": {
+   "watch": "Riven's Broken Wings charge count",
+   "theirWindow": {
+    "when": "Levels 2-6, all 3 Q charges ready",
+    "what": "This is when she can chain Broken Wings into Ki Burst into empowered autos for a full burst combo. Hold Death's Caress until she commits the dash-in so the shield is up before the stun lands, and don't trade autos back until her charges are spent."
+   },
+   "yourWindow": {
+    "when": "After she dashes and Valor is on cooldown",
+    "what": "Once she's used Broken Wings to close and Valor is down, she has no dash to disengage or block damage. Land Cryptic Gaze immediately to lock her in place, then toggle Enrage and commit autos — she can't trade back cleanly here."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ki Burst stun plus auto combos punish early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full Q-W-E combo online before your items"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Cannibalism and Grasp sustain close the gap"
+   },
+   {
+    "levels": "11-18",
+    "edge": "you",
+    "note": "Health stacking outscales her burst-reliant kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Riven's early damage comes from auto-attack trades chained around her dashes, and the regen plus block-on-hit from Doran's Shield directly undercuts that poke pattern (59.1% WR, 44 games)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Her damage profile is almost entirely auto-attacks empowered by Runic Blade, and flat armor plus the auto-attack reduction is the direct counter (51.5% WR, 80% pick)."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Builds the health pool Enrage needs to spend and adds passive AoE damage that punishes her for staying in trades."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Converts the health from Sunfire Aegis into bonus damage on every auto, scaling Sion's trade damage as his max HP climbs."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Adds a second damage-reduction shield layer so her burst windows do less per combo even if she lands them clean."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she builds into crit or lifesteal and starts winning extended fights"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "her early auto-attack harass is outpacing your sustain before Sunfire Aegis finishes"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you need a second scaling health item to keep outgrowing her"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs off the exact auto-attack trades this lane is built around, turning her chase-and-poke pattern into free sustain for you every time she commits to a short trade.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This is the dominant pick by a wide margin (82.6% pick, 47.9% WR) because the matchup is a slow scaling race rather than a kill lane — Teleport lets you reset waves and contest objectives instead of forcing all-ins you don't need."
+  },
+  "playing": [
+   {
+    "title": "Stun before her third Broken Wings hit",
+    "detail": "Her Q's third reactivation knocks back nearby enemies. Land Cryptic Gaze as soon as she commits to the dash chain, before the third hit resolves, to deny the knockback and the follow-up autos entirely."
+   },
+   {
+    "title": "Toggle Enrage only mid-trade",
+    "detail": "Enrage costs health per attack with no cooldown gate, so flipping it on outside of an actual trade just bleeds you for nothing. Turn it on the moment you're committed to exchanging damage."
+   },
+   {
+    "title": "Pre-shield before she closes",
+    "detail": "Pop Death's Caress just before she dashes in range so the absorb shield is already up when her burst lands, and let it detonate on her if she stays in range for the bonus damage."
+   },
+   {
+    "title": "Count her Runic Blade charges",
+    "detail": "Her real damage is in empowered autos, not raw ability numbers. If she's thrown out abilities without landing a charged auto, her current combo is weaker than it looks."
+   },
+   {
+    "title": "Bait Valor before you commit Q",
+    "detail": "Valor blocks incoming damage for a short window. Throw an auto or wait out the block before using Cryptic Gaze so the stun isn't wasted on a damage-immune dash."
+   },
+   {
+    "title": "Save Cannibalism for extended fights",
+    "detail": "Cannibalism's attack speed and leech are built for a longer exchange, not a burst trade. Use it when you can commit to several seconds of sustained autos, not as an opener."
+   },
+   {
+    "title": "Use Teleport to pressure side lanes",
+    "detail": "Since this lane is even rather than losing, spend wins on tempo — teleport back in after resetting to contest plates or objectives instead of forcing more trades than the matchup rewards."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner picks are pulled from measured games on the current patch (16.20.1); the matchup reading — power windows, combo timing, and trade patterns — is our own analysis of the ability kits, not something OP.GG's numbers state directly."
+ },
+ "generatedAt": 1791513921355,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513830218,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 75,
+   "wins": 38,
+   "winRate": 50.7
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": "Engage damage while keeping an eye on her Conqueror stacks and the cooldown on (Q). Her cooldown starts after her first (Q).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.9,
+    "play": 71,
+    "pickRate": 82.6
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 5.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 27,
+    "pickRate": 30.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 59.1,
+    "play": 44,
+    "pickRate": 49.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 30.3,
+    "play": 33,
+    "pickRate": 37.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.5,
+    "play": 68,
+    "pickRate": 80
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 14.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Titanic Hydra",
+     "Unending Despair"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 48.3,
+    "play": 60,
+    "pickRate": 65.9
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 43.6,
+    "play": 39,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 44.7,
+    "play": 38,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 35,
+    "play": 20,
+    "pickRate": 22
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 33.3,
+    "play": 18,
+    "pickRate": 19.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 41.7,
+    "play": 24
+   }
+  ]
+ }
+}

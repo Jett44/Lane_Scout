@@ -1,0 +1,385 @@
+{
+ "you": "Darius",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, skill-check",
+   "line": "You lose if you let Sion's Q (Cryptic Gaze) stun land and he strings an Enrage auto chain on you before level 3; you win if you hook him out of that Q wind-up and snowball the bleed before his Cannibalism sustain comes online."
+  },
+  "thesis": "This matchup lives and dies on interrupting Sion's Q (Cryptic Gaze) wind-up. Darius has the lane and solo-kill edge (56.3% over 160 games) because E (Apprehend, range 535) can yank Sion out of that cast before the stun resolves, and once he's hooked he's standing in bleed range with no disengage. The overall shape reads even because Sion's kit is a late-game HP-stacking snowball, so the matchup is Darius-favoured in lane but Sion's E (Enrage) scaling claws the gap back if the game goes long.",
+  "tell": {
+   "watch": "Sion's E (Enrage) toggle",
+   "theirWindow": {
+    "when": "Sion lands Q stun pre-level 3",
+    "what": "Before your E is online you have no way to punish or escape a landed Cryptic Gaze stun; respect his 550 range and don't facecheck free autos into his Enrage toggle while you're rooted."
+   },
+   "yourWindow": {
+    "when": "Sion channels Q within 535 range",
+    "what": "Fire E (Apprehend) the instant you see the Cryptic Gaze wind-up start - the pull interrupts the cast and drags him into your bleed stacks, exactly the tech this matchup is built around."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Trading autos, no E yet to punish Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Apprehend online, punishes his Q windup"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Guillotine execute beats his early Cannibalism"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Cannibalism leech sustains his HP trades"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "Permanent max-HP stacking wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Runs 56.9% winrate over 188 games at 90.4% pick - the extra sustain and on-hit damage keeps you even in early auto trades while you wait for E."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49% winrate over 96 games at 47.8% pick - Sion's Enrage toggle turns his autos into real physical burst, and Steelcaps blunts exactly that."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Core path running 67.7% winrate over 31 games - the active haste closes the gap after you've hooked him with E so he can't walk the hook off."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Second item in the same 67.7%-winrate path - the HP and move speed let you stick through his W shield window instead of bouncing off it."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Closes the 67.7% path - bleeds through his Enrage self-damage trades and converts the physical damage he does land into delayed, healable damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "sion out-scales you into the late-game HP-stacking phase and you need to survive his all-in"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team has heavy magic damage poking you off the bleed stacks"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want to run down a kiting Sion yourself instead of relying on E's 26-16s cooldown"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through the exact auto-trade loop this lane forces once you've hooked Sion with E. Master-tier Darius players instead run Stormraider's Surge (Sorcery, 2,344 games) for the burst of movement speed - better if you plan to all-in off E and leave rather than grind out a stacked trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "56.1% winrate at 80.3% pick - Ghost closes the distance faster than Sion can walk away after a landed Apprehend pull and backs up his already-favoured solo-kill rate."
+  },
+  "playing": [
+   {
+    "title": "Interrupt Cryptic Gaze with E",
+    "detail": "Sion's Q has a visible wind-up before the stun resolves. From level 3 on, hook him mid-channel with E (Apprehend, 535 range) to cancel the cast entirely and drag him into bleed range."
+   },
+   {
+    "title": "Track the Enrage toggle",
+    "detail": "Once Sion flips E on he's trading his own HP for AD on every auto. Commit to the trade - your Hemorrhage stacks and W (Crippling Strike) slow punish him for standing in it longer than you do."
+   },
+   {
+    "title": "Threaten R at max Hemorrhage",
+    "detail": "At 5 stacks of Hemorrhage, Noxian Guillotine's true damage spikes hard. Slow him with W first so he can't walk out of your 460-range leap before the execute lands."
+   },
+   {
+    "title": "Abuse the solo-kill edge pre-6",
+    "detail": "Data confirms a solo-kill advantage for Darius. Look to force all-ins before Sion hits level 6, since his Cannibalism sustain and attack-speed leech aren't live yet to bail him out."
+   },
+   {
+    "title": "Don't dump your combo into his W shield",
+    "detail": "Death's Caress (8s cooldown) absorbs damage and can be detonated early by Sion. Bait the shield down with autos before committing your full E-into-R combo."
+   },
+   {
+    "title": "Deny him kills after level 11",
+    "detail": "Sion's E permanently raises his max HP on every kill, including minions and jungle camps. Don't let him freefarm uncontested waves once Cannibalism is up - every stack he banks makes him harder to burst later."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample-size figures are measured OP.GG data from live games on the current patch (16.20.1); the mechanical reasoning - the Q-interrupt tech, the Enrage trade windows, the stack timing - is this brief's own tactical read, not sourced data."
+ },
+ "generatedAt": 1791510717469,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791510633526,
+  "overall": {
+   "winRate": 49.7,
+   "play": 18178,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 160,
+   "wins": 90,
+   "winRate": 56.3
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "even",
+  "opponentTip": "Pull Sion with [E] when he is charging up his (Q) to interrupt it. Avoid his (E)-(Q) combo while gaining lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 56.1,
+    "play": 171,
+    "pickRate": 80.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 15.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 2.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.9,
+    "play": 68,
+    "pickRate": 31.9
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.6,
+    "play": 44,
+    "pickRate": 20.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 56.9,
+    "play": 188,
+    "pickRate": 90.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 7.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49,
+    "play": 96,
+    "pickRate": 47.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 67.2,
+    "play": 58,
+    "pickRate": 28.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 67.7,
+    "play": 31,
+    "pickRate": 22.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Force of Nature"
+    ],
+    "winRate": 71.4,
+    "play": 14,
+    "pickRate": 10.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 57.5,
+    "play": 113,
+    "pickRate": 53.8
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 55,
+    "play": 111,
+    "pickRate": 52.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 64.5,
+    "play": 76,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 61.8,
+    "play": 68,
+    "pickRate": 32.4
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 57.8,
+    "play": 64,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.9,
+    "play": 57,
+    "pickRate": 27.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 61.3,
+    "play": 62
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 2344
+  }
+ }
+}

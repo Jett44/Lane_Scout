@@ -1,0 +1,389 @@
+{
+ "you": "Fiora",
+ "them": "Cho'Gath",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane edge, close game",
+   "line": "You win if you abuse levels 3-5 and the gaps between his Rupture casts to force early kills; you lose if the game drags past level 6 and his Feast stacks turn him into a true-damage wall."
+  },
+  "thesis": "Fiora holds the structural lane edge and the solo-kill edge here, which lines up with the 50.7% baseline she posts in this lane overall. But against this specific opponent that edge shrinks to a 45.9% win rate over 148 games, because Cho'Gath's Q (Rupture) punishes the exact dash range Fiora needs for Q (Lunge), and once he hits 6 his R (Feast) is a point-and-click true-damage check on any extended trade. The matchup is won in the levels-3-to-5 window before Feast exists, not by grinding it out late.",
+  "tell": {
+   "watch": "Cho'Gath's Rupture (Q) cooldown",
+   "theirWindow": {
+    "when": "His Q (Rupture) is off cooldown",
+    "what": "Stay outside the 950-range telegraph and don't extend into melee; if he also lands W (Feral Scream, 300 range) the silence stops you from reactively casting W (Riposte) or Q (Lunge), so disengage rather than trade through it."
+   },
+   "yourWindow": {
+    "when": "Right after his Rupture (Q) whiffs or lands",
+    "what": "Close the gap immediately with Q (Lunge), chain the free second dash, and pop E (Burst of Speed) to snowball move speed off each landed hit. You have roughly 9 seconds before Rupture is back up, so force the full combo in that window rather than trickle damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Rupture outranges your lone Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Full kit online, your data-backed edge"
+   },
+   {
+    "levels": "6",
+    "edge": "even",
+    "note": "Feast true damage swings the all-in"
+   },
+   {
+    "levels": "7-12",
+    "edge": "even",
+    "note": "Itemization races his HP stacking"
+   },
+   {
+    "levels": "13-18",
+    "edge": "them",
+    "note": "Max HP stacks outscale your duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "92.4% pick rate and the AD/sustain lets you trade autos into his Vorpal Spikes chip without losing the HP race before level 3."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "69.6% pick rate; cuts the Feral Scream silence duration and softens the magic damage from Scream plus his passive Spikes proc, which is the actual damage source bleeding you in melee range."
+   },
+   "core": [
+    {
+     "item": "Ravenous Hydra",
+     "why": "Sustain and AoE-free single-target damage to win the extended duel before Feast comes online."
+    },
+    {
+     "item": "Trinity Force",
+     "why": "Move speed and burst damage to capitalize on the E (Burst of Speed) snowball window while he's still catchable."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts Feast's true damage and Rupture poke into delayed damage so a single burst from him doesn't end the fight outright."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're already ahead early and want to force a kill through his shield-adjacent burst before level 6"
+    },
+    {
+     "item": "Endless Hunger",
+     "when": "he's building HP and you need sustained damage through sheer max-health stacking"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "his magic damage from Feral Scream and Vorpal Spikes is adding up and you need the shield plus AD"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive damage and healing rewards the extended auto-trades you want to force before his Feast exists at 6. Master-tier Fiora players instead run Press the Attack across 2,792 games, which suits a more all-in, burst-then-reset playstyle rather than grinding stacks in a drawn-out duel — take it if you plan to one-shot off level-3 all-ins instead of out-sustaining him.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "84.7% pick rate and it directly converts your levels-3-5 solo-kill advantage into an actual kill before Feast comes online at 6. Flash+Teleport posts a higher 54.5% win rate if you'd rather play the split-push macro and avoid committing to early all-ins."
+  },
+  "playing": [
+   {
+    "title": "Force all-ins at level 3-5",
+    "detail": "This is your real window per the data; W (Riposte) and E (Burst of Speed) are both online and his R (Feast) isn't, so a clean parry into a double Q (Lunge) should kill or force a flash."
+   },
+   {
+    "title": "Hold Riposte, don't preemptively cast it",
+    "detail": "W (Riposte) only pays off if it actually parries his auto or a targeted hit; throw it early and the AD buff is the only thing you get, which isn't enough to win the trade alone."
+   },
+   {
+    "title": "Respect the 300-range Scream silence",
+    "detail": "Feral Scream silences for a few seconds on a 13s cooldown; if you're silenced mid-combo you can't cast W or Q to finish, so commit your cooldowns before you're inside that range, not after."
+   },
+   {
+    "title": "Treat level 6 as a reset, not a loss",
+    "detail": "Once Feast (175 range, 60s cooldown) is live, don't sit below 50% HP near him; the true damage ignores your armor stacking from Death's Dance's mitigation entirely."
+   },
+   {
+    "title": "Punish Rupture whiffs immediately",
+    "detail": "A missed Q (Rupture) is a 9-second window with no poke or knockup threat; that's when your double-Lunge all-in is safest."
+   },
+   {
+    "title": "Don't let the game drag past 12",
+    "detail": "Each Feast kill grows his max HP (up to 6 stacks), and the overall 45.9% win rate reflects exactly this late-game HP scaling outpacing your duel power. Close the lane or push your split advantage before that compounds."
+   },
+   {
+    "title": "Track his mana for Rupture spam",
+    "detail": "Rupture is mana-gated early; a few failed casts in a row means he's low and can't zone you off CS, which is your cue to walk up and farm freely."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample-size numbers above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and timing windows are my own read of the matchup, not measured data."
+ },
+ "generatedAt": 1791515404493,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791515279486,
+  "overall": {
+   "winRate": 50.7,
+   "play": 14221,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 148,
+   "wins": 68,
+   "winRate": 45.9
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "even",
+  "opponentTip": "Use [Q] to strike [P] while dodging Cho’Gath’s (Q). You will have the upper hand if you manage to hit him with [W], allowing you to close in and deal damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.2,
+    "play": 161,
+    "pickRate": 84.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 11.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 2.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.2,
+    "play": 29,
+    "pickRate": 15.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Manaflow Band",
+     "Scorch"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 31.3,
+    "play": 16,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.8,
+    "play": 170,
+    "pickRate": 92.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 6.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.6,
+    "play": 117,
+    "pickRate": 69.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.2,
+    "play": 29,
+    "pickRate": 17.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Trinity Force",
+     "Death's Dance"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 29.9
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Endless Hunger"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 13.1
+   },
+   {
+    "items": [
+     "Ravenous Hydra",
+     "Eclipse",
+     "Death's Dance"
+    ],
+    "winRate": 45.5,
+    "play": 11,
+    "pickRate": 10.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 47.8,
+    "play": 182,
+    "pickRate": 95.3
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50,
+    "play": 98,
+    "pickRate": 51.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 47.9,
+    "play": 71,
+    "pickRate": 37.2
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 43.8,
+    "play": 48,
+    "pickRate": 25.1
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 63.8,
+    "play": 47,
+    "pickRate": 24.6
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 50,
+    "play": 24,
+    "pickRate": 12.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.7,
+    "play": 89
+   }
+  ],
+  "highElo": {
+   "keystone": "Press the Attack",
+   "tree": "Precision",
+   "play": 2792
+  }
+ }
+}

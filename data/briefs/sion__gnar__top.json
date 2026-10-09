@@ -1,0 +1,384 @@
+{
+ "you": "Sion",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him poke you down with Boomerang resets before level 6; you win any all-in you land once Grasp has stacked a shield advantage."
+  },
+  "thesis": "Sion has zero mana costs and a point-blank kit, so Gnar's entire plan is to whittle him with 1100-range Q (Boomerang Throw) from outside Cryptic Gaze's 550 range while never letting Mini Gnar get caught at melee. The matchup is a dead-even 50% over 96 games because Sion's Grasp sustain and W (Death's Caress) shield can out-heal the poke if he plays the wave patiently instead of chasing it.",
+  "tell": {
+   "watch": "Gnar's Rage bar (Mega Gnar threshold)",
+   "theirWindow": {
+    "when": "Rage bar near full, Mini Gnar",
+    "what": "He is one Q/W/E cast from transforming into Mega Gnar, which brings a stun (W - Wallop) and an AoE slam (E - Crunch). Back off from any trade that would push his Rage to max while you're already low, since the transform itself can swing the fight."
+   },
+   "yourWindow": {
+    "when": "His Boomerang Throw on cooldown (10-16s)",
+    "what": "The instant he throws Q and whiffs the catch, he has no slow and no poke for up to 16 seconds at rank 1. Walk up, land auto-attacks with E (Enrage) active, and use Q (Cryptic Gaze) to stun him in place if he tries to disengage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Boomerang Throw outranges your stun by 550 units"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Grasp procs offset his poke damage"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "R (Cannibalism) sustain matches his burst windows"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Sunfire Aegis tankiness beats his scaling"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Titanic Hydra waveclear and HP stacking dominate"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Picked in 76.9% of these games and winning 54.4% of the time — the flat damage reduction on autos directly answers Gnar's poke-auto-poke pattern, since every Boomerang Throw and basic attack he lands does less."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "79.1% pick rate at 51.6% win rate; the attack-speed-based damage reduction specifically cuts down the repeated poke-autos Gnar uses to farm Hyper (W) stacks on you."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Core first item in the top build path (80% WR over 5 games) — the burn aura punishes him for standing in melee range after any failed all-in."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Second item in both top build paths; the grievous wounds and shield synergize with E (Enrage) trades where you're spending HP for AD."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Closes out the most common build path; the HP-scaling nuke on your abilities turns your passive max-HP growth from kills into real burst in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you need more raw HP to tank his late-game GNAR! (R) slow-and-stun combo"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he builds into on-hit or crit items and his autos start outpacing your shield uptime"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "their team stacks magic damage alongside his physical poke"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 55.9% page's keystone heals you off every proc, directly countering Gnar's win condition of slowly poking you down with ranged Q before he's forced to commit at melee range.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Run in 90.2% of these games at 53.6% win rate; Teleport lets you reset top after shoving the wave with Enrage (E) autos without surrendering tempo to his ranged poke, and Flash covers your lack of a gap-closer against his 475-range Hop (E)."
+  },
+  "playing": [
+   {
+    "title": "Trade only when Boomerang is down",
+    "detail": "Gnar's Q (Boomerang Throw) is on a 16/14.5/13/11.5/10s cooldown and his only ranged tool pre-6. Engage with Q (Cryptic Gaze) and auto-attacks in that window, not while he's holding it ready."
+   },
+   {
+    "title": "Hold Cryptic Gaze for the stun, not poke",
+    "detail": "Q has a 12/11/10/9/8s cooldown and 550 range — save it to lock him down for a full trade rather than spending it to chip damage from range you don't have."
+   },
+   {
+    "title": "Shield before he commits, not after",
+    "detail": "W (Death's Caress) absorbs damage and explodes on a timer or on reactivation; pop it the moment he starts a trade so the shield is live for his burst instead of wasted on empty space."
+   },
+   {
+    "title": "Respect the Mega Gnar transform threshold",
+    "detail": "Watch his Rage bar — at max Rage his next ability flips him into Mega Gnar with a stun (W - Wallop) and an AoE slam (E - Crunch). Don't initiate a close fight right as he's about to cross that threshold."
+   },
+   {
+    "title": "Enrage only when you're committing",
+    "detail": "E (Enrage) trades your HP for AD on every auto with no cooldown — toggle it on right before you all-in, not while poking at range, since Gnar wins the HP-trade war if you self-damage without landing attacks."
+   },
+   {
+    "title": "Cannibalism for extended skirmishes",
+    "detail": "R (Cannibalism) leeches HP to you and nearby allies for the duration and boosts attack speed. Save its 90s cooldown for drawn-out fights near your team, not solo duels, since the AoE heal is wasted 1v1."
+   },
+   {
+    "title": "Punish his Mega Gnar landing spot",
+    "detail": "Mini Gnar's E (Hop) bounces off units to extend his escape; Mega Gnar's E (Crunch) instead slams down in place with no reposition. If he's forced to transform mid-engage, he loses his escape tool — follow in immediately."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and trade-pattern advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791514929835,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791514885860,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 96,
+   "wins": 48,
+   "winRate": 50
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with his third (W). Try to gain the upper hand after a couple of pokes.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.6,
+    "play": 110,
+    "pickRate": 90.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 4.9
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.9,
+    "play": 34,
+    "pickRate": 27.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 37.5,
+    "play": 16,
+    "pickRate": 13.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.4,
+    "play": 90,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 12.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.6,
+    "play": 91,
+    "pickRate": 79.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 12.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Titanic Hydra"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Heartsteel",
+     "Unending Despair"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 4.6
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 57.7,
+    "play": 71,
+    "pickRate": 55.5
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 57.1,
+    "play": 49,
+    "pickRate": 38.3
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 34.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 38,
+    "pickRate": 29.7
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 62.5,
+    "play": 24,
+    "pickRate": 18.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 64.7,
+    "play": 34
+   }
+  ]
+ }
+}

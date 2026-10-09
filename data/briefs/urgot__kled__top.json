@@ -1,0 +1,380 @@
+{
+ "you": "Urgot",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if you let Kled auto-trade you into his Bear Trap range while Skaarl is still mounted; you win once Skaarl dies and his all-in damage craters."
+  },
+  "thesis": "Kled's Bear Trap on a Rope shares your Corrosive Charge's exact 800 range, so this lane is a Q-contest where whoever lands first dictates every engagement. Skaarl absorbs a huge buffer of damage before Kled dismounts into a far weaker champion, which is why the measured 48.4% win rate over 64 games sits below your overall 52.3% top-lane average — you're paying a tax for every game he stays mounted.",
+  "tell": {
+   "watch": "Skaarl's HP bar / courage",
+   "theirWindow": {
+    "when": "Kled mounted, Q and E both ready",
+    "what": "He can hook you at 800 range with Bear Trap, dash in with Jousting, then burn four empowered hits with Violent Tendencies. Don't stand still at max range doing extended auto-attacks here — that's the exact window OP.GG flags you getting caught in."
+   },
+   "yourWindow": {
+    "when": "Skaarl's health depletes, Kled dismounts",
+    "what": "Dismounted Kled deals less damage to champions and his Q becomes Pocket Pistol, a self-knockback poke instead of a hook. Commit your all-in immediately, before he rebuilds enough courage to remount with bonus HP."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "hook plus joust plus Skaarl's buffer wins skirmishes"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "still favors his all-in, R adds your execute threat"
+   },
+   {
+    "levels": "7-9",
+    "edge": "even",
+    "note": "Purge cooldown drops hard, trades get safer"
+   },
+   {
+    "levels": "10-14",
+    "edge": "you",
+    "note": "Black Cleaver/Sterak's online, you outlast all-ins"
+   },
+   {
+    "levels": "15-18",
+    "edge": "you",
+    "note": "full build ranged pressure overwhelms his melee kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "87.1% pick rate and the sustain you need to survive early joust/hook trades without backing off wave."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "75% pick rate; the flat physical damage reduction directly undercuts Violent Tendencies' four-hit attack-speed burst."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred lets your Echoing Flames procs and autos scale up through his Skaarl HP buffer faster."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Bonus health and the damage-reduction shield keep you alive through his all-in window before you can disengage."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Most-picked third item in the measured build path; stacking resistances outlasts his burst in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "kled is building into pure AD and snowballing kills off you"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "violent tendencies' attack-speed burst is the thing deleting you in single trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Purge's rapid-fire hits stack the armor shred fast, which punishes Kled's lack of mobility once Skaarl's buffer is stripped away.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "76.4% pick rate at 49.1% win rate; Ignite secures kill pressure on his all-ins and burns through Skaarl's effective HP so he can't remount off the fight."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't auto-trade",
+    "detail": "Kled's hook shares your Q's exact 800 range, so fire Corrosive Charge from max distance and step back rather than walking in to auto-attack, which is the window he's built to punish."
+   },
+   {
+    "title": "Save E for the dash-in",
+    "detail": "Hold Disdain to shield through or reposition out of his Jousting dash before he can recast it to dash back through you — don't burn it on wave clear."
+   },
+   {
+    "title": "Track Skaarl's HP",
+    "detail": "The moment Skaarl's health depletes and Kled dismounts, his champion damage drops and his Q turns into the ranged Pocket Pistol — that's your signal to commit."
+   },
+   {
+    "title": "Disengage during his W",
+    "detail": "Violent Tendencies gives him four empowered attacks with a bigger fourth hit; back off rather than trading face-to-face while it's active."
+   },
+   {
+    "title": "Short trades until rank 4 W",
+    "detail": "The EWQWWRWEWEREEQQ order pushes Purge toward a 3-second cooldown fast, so walk in, Purge, and walk out before he can close with Jousting."
+   },
+   {
+    "title": "Respect levels 1-3",
+    "detail": "His hook-joust combo plus Skaarl's HP buffer wins early skirmishes outright — play for wave control, not kills, until your cooldowns come online."
+   },
+   {
+    "title": "All-in only when dismounted",
+    "detail": "Chasing a mounted Kled into his own all-in is how the solo-kill deficit happens; wait for the dismount window every time."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled from measured Urgot-vs-Kled games on the current patch (16.20.1); the mechanical reasoning — Skaarl's dismount window and the shared 800-range Q/hook contest — is my own tactical read."
+ },
+ "generatedAt": 1791508240319,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791508158308,
+  "overall": {
+   "winRate": 52.3,
+   "play": 7246,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 64,
+   "wins": 31,
+   "winRate": 48.4
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Bring Cut Down when facing Kled. Avoid being hit with his (Q) while using your basic attacks – [Q] contest lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 55,
+    "pickRate": 76.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 19.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 4.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 29.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 11.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.9,
+    "play": 61,
+    "pickRate": 87.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 4.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.1,
+    "play": 51,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 16.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Thornmail"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Randuin's Omen"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 10.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 45.5,
+    "play": 66,
+    "pickRate": 90.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 48.1,
+    "play": 54,
+    "pickRate": 74
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 24.7
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 11
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 63.6,
+    "play": 11
+   }
+  ]
+ }
+}

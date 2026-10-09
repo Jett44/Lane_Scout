@@ -1,0 +1,380 @@
+{
+ "you": "Illaoi",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard matchup",
+   "line": "You lose if Gnar kites you as Mini while poking with Q and W stacks; you win if you force him into Mega form and Test of Spirit chains punish his dash cooldowns."
+  },
+  "thesis": "Gnar's ranged Q (Boomerang Throw) and empowered W (Hyper) autos poke you down for free while he's Mini, and his E (Hop) resets on champion hits let him disengage before your E (Test of Spirit) spirit can connect. The 42.2% win rate over 64 games reflects how much of this lane is decided by range, not raw stats: Illaoi has no gap-closer except W (Harsh Lesson) at 400 range, so every trade starts with you eating poke just to get in.",
+  "tell": {
+   "watch": "Gnar's Rage bar (Mega threshold)",
+   "theirWindow": {
+    "when": "Mini Gnar, Rage bar low-to-mid",
+    "what": "He will sit at max range and chip you with Q (Boomerang Throw, 16/14.5/13/11.5/10s cooldown) and hyped autos from W. Don't walk up for CS under his Q threat window; wait for it to be thrown and on cooldown before committing."
+   },
+   "yourWindow": {
+    "when": "Rage bar full or Gnar forced Mega",
+    "what": "Mega Gnar loses his poke tools (no Hyper, no bounce E) and fights at melee range where your passive Tentacles and W (Harsh Lesson) dominate. Land E (Test of Spirit, 900 range) the instant he transforms to start the spirit-damage clock while he's stuck in a worse form."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Q poke range beats your lack of gap-closer"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Hyper autos plus Rage-forced Mega stun threat"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Tentacles stack, E spirit damage starts punishing"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Black Cleaver shred plus Sterak's wins extended trades"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "His 0s cooldown R resets neutralize your pressure"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Taken in 35.9% of wins over 39 games; the extra sustain against autos matters more here since Gnar's poke is auto-attack and Q based, not burst, so the regen and damage reduction on hit offsets his ranged chip."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "79.3% pick rate and the higher win rate (38.5% over 65 games); the flat auto-attack reduction directly cuts into Gnar's main poke source, his hyped autos."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Core in the top win-rate path (25% over 12 games); the armor shred lets your Q and W trades actually hurt through his bruiser stats once he's forced to fight at melee."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Paired right after Cleaver in the same build path; the slow on proc helps you stick to him in Mega form when he can't kite anymore."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Completes the top three core items in both listed build orders; the shield and tenacity-adjacent survivability covers you through his W stun and R slow."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he builds ability power or you're taking repeated R (GNAR!) poke damage over multiple fights"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "you're ahead and need to no-sell burst from his wall-stun R combo"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you're snowballing and want more one-shot pressure on isolated trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 36.1% pick rate page; Grasp's proc-on-hit sustain rewards you for walking up and tanking autos to land your own trade, which is the exact exchange this matchup forces on you.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Exhaust"
+   ],
+   "why": "Exhaust+Flash is the highest-pick combo (32.9% pick, 39.3% win rate); Exhaust directly neutralizes his hyped auto damage and his R slow when he tries to disengage after a bad trade."
+  },
+  "playing": [
+   {
+    "title": "Hold E for Mega transform",
+    "detail": "Don't waste Test of Spirit's 16/15/14/13/12s cooldown on Mini Gnar when he can just walk away. Save it to punish the moment his Rage bar fills and he's locked into the worse matchup form."
+   },
+   {
+    "title": "Trade only when his Q is down",
+    "detail": "Boomerang Throw is his main poke at 16-10s cooldown depending on rank. Track when he throws it and only step up to CS or trade in that window, since the return trip adds extra reaction time for him."
+   },
+   {
+    "title": "Use passive Tentacles as a zone",
+    "detail": "Illaoi's passive spawns Tentacles on nearby impassible terrain that swing at anyone hit by Test of Spirit's spirit. Fight near walls so your Tentacles punish him for standing in spirit range."
+   },
+   {
+    "title": "Don't engage into full Rage Mini Gnar",
+    "detail": "OP.GG's own read holds: a maxed Rage bar means his next ability triggers Mega, but until then his W (Hyper) hits hard enough to kill off a bad all-in. Back off if he's near full Rage and you don't have a clean W (Harsh Lesson) angle."
+   },
+   {
+    "title": "Punish Mega Gnar's E cooldown",
+    "detail": "Mega's E (Crunch) is a ground-slam with no bounce reset, unlike Mini's mobile Hop. Once he's Mega and uses E, that's your window to walk up and land Q (Tentacle Smash) plus W freely."
+   },
+   {
+    "title": "Respect R only near walls",
+    "detail": "GNAR! only stuns on wall contact. Fight him away from walls so a bad trade doesn't turn into a free stun-and-burst for him."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate figures are measured from live games on the current patch via OP.GG; the tactical reasoning connecting them to specific ability cooldowns and timings is my own read, not sourced data."
+ },
+ "generatedAt": 1791503810863,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791503766797,
+  "overall": {
+   "winRate": 50.3,
+   "play": 6963,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 64,
+   "wins": 27,
+   "winRate": 42.2
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "Mini Gnar’s 3 stacked (W) and his ranged attacks deal a lot of damage, making Mini Gnar more difficult to deal with than Mega Gnar. Constantly use [E] to deal damage to prevent Gnar from being Mini Gnar, but fall back when [E] misses as Mini Gnar can get a kill with (W).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 38.3,
+    "play": 47,
+    "pickRate": 55.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 39.3,
+    "play": 28,
+    "pickRate": 32.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 9.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 35.5,
+    "play": 31,
+    "pickRate": 36.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 14
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 35.9,
+    "play": 39,
+    "pickRate": 44.8
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 41.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 38.5,
+    "play": 65,
+    "pickRate": 79.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 18.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 25,
+    "play": 12,
+    "pickRate": 24
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 14
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 37.9,
+    "play": 66,
+    "pickRate": 78.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 31.6,
+    "play": 57,
+    "pickRate": 67.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 35.1,
+    "play": 37,
+    "pickRate": 44.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 36.4,
+    "play": 22,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 20.2
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 15.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 10
+   }
+  ]
+ }
+}

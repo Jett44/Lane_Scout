@@ -1,0 +1,388 @@
+{
+ "you": "Sion",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk Snip Snip! poke down to zero before level 6; you win if you survive to Hollow Radiance, since her kit has no way to kill through stacked HP."
+  },
+  "thesis": "Gwen wins the lane through range, not burst: Q (Snip Snip!, 450 range) pokes safely and W (Hallowed Mist) lets her vanish from your Q (Cryptic Gaze, 550 range) and autos whenever it's up. Sion has no way to force damage onto her while the mist is active, so the entire lane is about catching her in the windows where it isn't.",
+  "tell": {
+   "watch": "Gwen's Hallowed Mist cooldown",
+   "theirWindow": {
+    "when": "Gwen's E (Skip 'n Slash) is up",
+    "what": "She dashes 400 range into attack-speed/range/damage mode and can refund the cooldown on hit. Don't let her sit in that window free; trade back immediately or back off so she whiffs and eats the full 13-11s cooldown."
+   },
+   "yourWindow": {
+    "when": "Hallowed Mist is on cooldown and you're in range",
+    "what": "With W down she can be targeted normally. Land Q (Cryptic Gaze) for the stun and commit E (Enrage) autos before she can reset the fight behind the mist again."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Snip Snip! center poke chips you safely"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Skip 'n Slash online, kites your engages"
+   },
+   {
+    "levels": "7-9",
+    "edge": "even",
+    "note": "Cannibalism sustain offsets her passive healing"
+   },
+   {
+    "levels": "10-14",
+    "edge": "you",
+    "note": "Hollow Radiance core tanks her burst"
+   },
+   {
+    "levels": "15-18",
+    "edge": "even",
+    "note": "Needlework poke strong, but you're unkillable"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Blocks the poke from the true-damage center of Snip Snip! and lets you sit in trade range without bleeding out before 6."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Gwen's entire kit is magic damage with no physical component, so the MR and tenacity against her stun-adjacent pressure outvalue Swiftness here."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "Highest-winning path into Gwen (66.7% over 9 games) — the magic resist directly answers her all-magic damage profile."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Shield-on-trade stacks with Death's Caress to blunt her Q volleys and A Thousand Cuts procs."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances scale as fights go long, which is exactly the matchup Sion wants against her burstless kit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "she's leaning on A Thousand Cuts healing to sustain through your trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "she's building on-hit magic damage and out-trading your autos"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you're ahead and want to force shorter trades before her mist comes back up"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "she's grouping with other magic burst for a dive onto you"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The per-attack heal and permanent max-health growth directly counters her passive healing and keeps you ahead in the extended trades this matchup forces.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 84.8% of games at 47.7% win rate — Teleport lets you reset after losing the early trades and still scale into your Hollow Radiance power spike without giving up lane presence."
+  },
+  "playing": [
+   {
+    "title": "Sidestep the Snip Snip! center",
+    "detail": "Gwen's Q deals true damage and applies A Thousand Cuts only to the unit in the cone's center. Stand off-center so you only eat the magic damage from the outer snips, not the true damage."
+   },
+   {
+    "title": "Track Hallowed Mist, not her HP bar",
+    "detail": "Her W (22/21/20/19/18s cooldown) is the real timer. Punish the moment it's down with Q (Cryptic Gaze)."
+   },
+   {
+    "title": "Don't trade into her E dash",
+    "detail": "Skip 'n Slash gives her attack speed, range, and bonus magic damage on-hit for a few seconds after the dash. Either commit hard the instant she lands it or disengage so she whiffs and loses the cooldown refund."
+   },
+   {
+    "title": "Hold your shield, don't reflex it",
+    "detail": "W (Death's Caress) absorbs damage — let it eat a Snip Snip! volley before detonating it manually for the AoE payoff instead of popping it on reaction."
+   },
+   {
+    "title": "Weigh Enrage health cost against her sustain",
+    "detail": "E's HP-for-AD trade is expensive into a champion healing off A Thousand Cuts. Only lean on it once you're ahead on items, not as your default poke tool."
+   },
+   {
+    "title": "Respect Needlework past level 6",
+    "detail": "Her R is a long-range poke/execute that applies A Thousand Cuts on hit. Don't walk down open lanes once she has even one charge up."
+   },
+   {
+    "title": "Play for the midgame spike",
+    "detail": "The matchup is even overall (50.3% over 153 games) despite her lane and solo-kill edge — your job early is survive, not win trades, until Hollow Radiance comes online."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live games on the current patch (16.20.1); the mechanical reasoning and trade timing are my own read of the kits, not measured data."
+ },
+ "generatedAt": 1791514001837,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513927004,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 153,
+   "wins": 77,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "Gwen",
+  "soloKillAdvantage": "Gwen",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.7,
+    "play": 151,
+    "pickRate": 84.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 77.8,
+    "play": 9,
+    "pickRate": 5.1
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 28.6,
+    "play": 7,
+    "pickRate": 3.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.5,
+    "play": 61,
+    "pickRate": 34.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.1,
+    "play": 19,
+    "pickRate": 10.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.9,
+    "play": 81,
+    "pickRate": 46.3
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 51.7,
+    "play": 58,
+    "pickRate": 33.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.2,
+    "play": 69,
+    "pickRate": 41.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 60,
+    "play": 50,
+    "pickRate": 30.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 9.3
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Titanic Hydra",
+     "Unending Despair"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 49.6,
+    "play": 119,
+    "pickRate": 66.1
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 55.1,
+    "play": 69,
+    "pickRate": 38.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 37.8,
+    "play": 37,
+    "pickRate": 20.6
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 40,
+    "play": 35,
+    "pickRate": 19.4
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 44.1,
+    "play": 34,
+    "pickRate": 18.9
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 45.5,
+    "play": 33,
+    "pickRate": 18.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52.1,
+    "play": 48
+   }
+  ]
+ }
+}

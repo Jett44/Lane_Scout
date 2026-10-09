@@ -1,0 +1,380 @@
+{
+ "you": "Sion",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him poke you to half HP before level 6; you win if you force stand-still trades and shove him off turret plates."
+  },
+  "thesis": "Teemo has no hard CC and no escape besides Move Quick's passive speed, so Sion's all-in is never blocked by anything except range and Blind. The whole lane is Sion closing a 680-range gap while eating free Toxic Shot poke, which matches the close 46.3% win rate over 164 games despite Sion otherwise sitting at 49.6% overall in this lane.",
+  "tell": {
+   "watch": "W (Death's Caress) shield HP",
+   "theirWindow": {
+    "when": "you're walking up to minions or towers",
+    "what": "Teemo auto-attacks apply Toxic Shot for free poke damage over time with zero cooldown, so every CS attempt or trade approach costs you a stacking DOT tick before you even reach him."
+   },
+   "yourWindow": {
+    "when": "W shield is up and he's in auto range",
+    "what": "Pop W (Death's Caress) before closing the gap so the absorb shield eats his first 1-2 Toxic Shot hits, then land Q (Cryptic Gaze) for the stun the instant you're in his 550 range — he has nothing to punish the stun with."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Toxic Shot pokes free, Q has no stun"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q (Cryptic Gaze) stun lets you punish approaches"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Cannibalism) sustain wins extended trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Core items let you tank through Blinding Dart"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Mushrooms control zones, you still split"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The flat damage reduction on the first attack from each unit directly cuts into Teemo's low-damage, high-frequency Toxic Shot poke, which is the only thing he has before level 6."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The magic resist and tenacity shortens how long Blinding Dart's blind lingers and softens every poison tick from Toxic Shot and Noxious Trap."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "Builds straight into the magic resist and health you need against a pure magic-damage poke champion, while keeping your wave-clear strong."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "More magic resist plus the damage-reduction proc turns his poison ticks into near-nothing once you're stacked up."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "The resistance-stacking passive scales directly against a champion whose entire kit is small, repeated magic ticks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds any attack speed items to try to out-poke you with autos"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you're ahead and need to clear mushroom fields and push waves faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp heals you back from every Toxic Shot tick you eat while farming, directly countering the chip damage that defines this matchup pre-6.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is run in 85.6% of games here because Teemo has no kill pressure to punish your base-and-return, and you want to answer his mushroom-controlled side lanes without losing tempo."
+  },
+  "playing": [
+   {
+    "title": "Shield before you approach",
+    "detail": "Pop W (Death's Caress) a step before walking into his auto range so the absorb shield tanks the first Toxic Shot hits instead of your health bar."
+   },
+   {
+    "title": "Save Q for the stun window",
+    "detail": "Q (Cryptic Gaze) has an 8-12s cooldown depending on rank and only 550 range, so hold it until you're actually in cast range rather than throwing it on cooldown for poke."
+   },
+   {
+    "title": "Trade on cooldowns, not on sight",
+    "detail": "His E (Toxic Shot) has zero cooldown but his Q (Blinding Dart) is 8s — track when he's used Blinding Dart and all-in in that window since he can't blind your stun or auto-lock."
+   },
+   {
+    "title": "Ult for sustain, not burst",
+    "detail": "R (Cannibalism) has a 90s cooldown and heals off every attack, so use it in extended skirmishes or dives, not as a reactive panic button in a short poke trade."
+   },
+   {
+    "title": "Clear mushrooms before pathing",
+    "detail": "Noxious Trap has only a 1s cooldown so he can carpet jungle entrances; walk wide or clear visible mushrooms before committing to a gank path or back line."
+   },
+   {
+    "title": "Respect Move Quick resets",
+    "detail": "W (Move Quick) gives him passive speed that resets if he's hit by you or a turret, so land your first stick (auto or Q) early in the chase or he'll kite forever."
+   },
+   {
+    "title": "Push waves into his tower",
+    "detail": "He has no wave-clear tool beyond autos, so use E (Enrage) trades on minions to shove and force him to either lose CS or take poke from your tower."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from live games on the current patch via OP.GG; the matchup mechanics and trade-pattern reasoning are my own analysis of the kits."
+ },
+ "generatedAt": 1791514447555,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791514408451,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 164,
+   "wins": 76,
+   "winRate": 46.3
+  },
+  "laneAdvantage": "Sion",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being punished before reaching level 3 by keeping your distance. Use your skills off cooldown to poke and gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.8,
+    "play": 178,
+    "pickRate": 85.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 6.7
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.3,
+    "play": 63,
+    "pickRate": 30.1
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Conditioning",
+     "Demolish"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 10.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 151,
+    "pickRate": 74.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 34.5,
+    "play": 29,
+    "pickRate": 14.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.5,
+    "play": 103,
+    "pickRate": 52.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 44.2,
+    "play": 52,
+    "pickRate": 26.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 10.1
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Voltaic Cyclosword",
+     "The Collector"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 3.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 45.1,
+    "play": 153,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 49.5,
+    "play": 109,
+    "pickRate": 50.9
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 50,
+    "play": 58,
+    "pickRate": 27.1
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 43.8,
+    "play": 48,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 44,
+    "pickRate": 20.6
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 45.2,
+    "play": 42,
+    "pickRate": 19.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 39.6,
+    "play": 53
+   }
+  ]
+ }
+}

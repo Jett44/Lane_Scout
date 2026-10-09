@@ -1,0 +1,384 @@
+{
+ "you": "Illaoi",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, patient",
+   "line": "You lose if you trade autos into his Cannon-stance poke all lane; you win if you force every fight into melee range."
+  },
+  "thesis": "Jayce's real threat is Cannon-stance Shock Blast poke plus an Acceleration Gate boosting its speed and damage — he has no hard escape beyond Thundering Blow's 240-range knockback and Q's own leap in Hammer stance. Once Illaoi closes with W (Harsh Lesson, 400 range, 4s cooldown) and lands E (Test of Spirit, 900 range), the fight happens in melee where tentacles and passive healing overwhelm him. That's why this sits at an even 50% win rate over 114 games despite Illaoi holding lane and solo-kill advantage: she wins by surviving to melee, not by winning the poke war.",
+  "tell": {
+   "watch": "Jayce's current weapon stance",
+   "theirWindow": {
+    "when": "Jayce in Cannon stance, Acceleration Gate placed",
+    "what": "He can fire a boosted Shock Blast through the gate for extra range, speed, and damage while staying safe — don't stand in its line, farm from max range, and let Doran's Shield sustain absorb the chip."
+   },
+   "yourWindow": {
+    "when": "Jayce swaps to Hammer and leaps in with Q",
+    "what": "Immediately E (Test of Spirit, 900 range) to rip his spirit and start the echo damage, then follow with W (Harsh Lesson, 4s cooldown) to close the gap and stack tentacle swings on him before he can disengage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cannon-stance Shock Blast and gate poke freely"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online punishes overextensions, Q still kites"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R lands point-blank, spawns tentacle per hit"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Iceborn/Cleaver rotations shred through his HP"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sterak's/Death's Dance let you close every fight"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield > Health Potion",
+    "why": "56.9% win rate over 72 games — the sustain and damage reduction on autos directly answers Shock Blast chip while you farm through the poke phase."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51% win rate, 81.7% pick — Jayce's damage is physical (Shock Blast, Thundering Blow autos), so the flat reduction cuts his poke harder than Mercury's Treads."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "First item on the highest-pick path (15.2%) — the slow on-hit and extra armor help you actually catch him once you've closed with W."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second on the same build path — armor shred compounds the melee advantage once Test of Spirit forces the fight close."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Caps the core build (50% win rate, 12 games) — the shield and tenacity let you survive Thundering Blow's knockback and finish the engage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "he starts building to burst you down before your tentacles can heal you back"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "his magic damage from Hammer form Lightning Field and R transform bonus damage starts adding up"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want faster healing off landed crits to win extended melee trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest-pick page for this matchup (54.5% win rate, 33.9% pick) — the sustain lets you farm through his poke range exactly as OP.GG's own read on this matchup recommends, instead of forcing bad trades at range.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Teleport carries the best win rate in this matchup (55% over the sample) — it lets you reset after winning a melee exchange and get back to lane or siege, which suits Illaoi's win condition of out-lasting the poke phase rather than all-inning early."
+  },
+  "playing": [
+   {
+    "title": "Dodge the gate poke",
+    "detail": "Stay off the line of any placed Acceleration Gate — a Shock Blast fired through it gains extra range, speed, and damage. Farm from max range and let Doran's Shield absorb the rest."
+   },
+   {
+    "title": "Punish Hammer-stance engages",
+    "detail": "The instant Jayce swaps to Hammer and jumps in with Q (To the Skies!), E him immediately to start the spirit echo, then W in to stack tentacle swings before he can reset."
+   },
+   {
+    "title": "Force the Vessel",
+    "detail": "Once E has ripped his spirit, stay close enough that he can't outrun it — killing the spirit or keeping him tethered turns him into a Vessel spawning extra tentacles against him."
+   },
+   {
+    "title": "Read the stance, not the cooldown",
+    "detail": "Hammer stance means a short-range leap and knockback are live; Cannon stance means pure poke and an attack-speed burst from Hyper Charge. Every swap resets what he can actually do to you."
+   },
+   {
+    "title": "All-in the moment R is up",
+    "detail": "From level 6, R (Leap of Faith, 450 range) spawns a tentacle for every champion hit on landing — look to use it the instant he's inside your W leap range."
+   },
+   {
+    "title": "Itemize to end fights fast",
+    "detail": "Plated Steelcaps into Iceborn Gauntlet, Black Cleaver, Sterak's Gage adds the armor and shred needed to close out melee trades before his knockback can create distance."
+   },
+   {
+    "title": "Pull and farm, don't trade at range",
+    "detail": "Grasp sustain plus Doran's Shield is built to let you absorb his poke while farming — match OP.GG's own read on this matchup and avoid auto-trading him at max range."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above come from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning, timings, and trade patterns are this brief's own tactical analysis."
+ },
+ "generatedAt": 1791502862369,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502771950,
+  "overall": {
+   "winRate": 50.3,
+   "play": 6963,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 114,
+   "wins": 57,
+   "winRate": 50
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "aggressive",
+  "opponentTip": "Pull and farm lane in order to prevent being poked at, while keeping his (E)-(Q) in check by positioning yourself properly. When Jayce closes in with (Q), counterplay by using [E] immediately and deal damage. Although it is difficult to deal with ranged attacks, keep in mind that Illaoi is stronger in melee fights.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55,
+    "play": 60,
+    "pickRate": 46.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 52,
+    "pickRate": 40.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 33.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 21,
+    "pickRate": 16.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 56.9,
+    "play": 72,
+    "pickRate": 56.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 45,
+    "pickRate": 35.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51,
+    "play": 98,
+    "pickRate": 81.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 16.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 47.8,
+    "play": 92,
+    "pickRate": 73
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.4,
+    "play": 78,
+    "pickRate": 61.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 45.6,
+    "play": 57,
+    "pickRate": 45.2
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 25.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 56,
+    "play": 25,
+    "pickRate": 19.8
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 10.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 41.7,
+    "play": 12
+   }
+  ]
+ }
+}

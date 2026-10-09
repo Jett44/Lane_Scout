@@ -1,0 +1,390 @@
+{
+ "you": "Gnar",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly favoured",
+   "line": "You lose if you let Kled stick with E (Jousting) and burn you down with W (Violent Tendencies) while Skaarl's HP buffer is full; you win if you poke that buffer down and cash in Mega Gnar's stun once Kled dismounts."
+  },
+  "thesis": "Kled's entire threat level is gated by Skaarl's separate health bar — mounted, he trades evenly or better using E (Jousting) dash resets and W (Violent Tendencies) attack speed bursts because Skaarl absorbs the damage instead of Kled's own HP. Gnar's long-range Q (Boomerang Throw, 1100 range) and bouncing E (Hop) let him chip that bar from outside Kled's Q (Bear Trap on a Rope, 800 range) without ever entering melee. Once Skaarl's bar empties, Kled dismounts into a champion that deals less damage and loses his hook for the far weaker Pocket Pistol — and if you've banked max Rage by then, Mega Gnar's W (Wallop) stun turns that moment into a kill.",
+  "tell": {
+   "watch": "Skaarl's mount health bar",
+   "theirWindow": {
+    "when": "Kled mounted, Skaarl's HP still full",
+    "what": "He can freely threaten E (Jousting) dash-resets and W (Violent Tendencies) attack speed bursts because Skaarl eats the damage instead of Kled. Stay outside his 550-range E and 800-range Q and only trade with Q (Boomerang Throw) pokes."
+   },
+   "yourWindow": {
+    "when": "Skaarl dismounted, or you're Mega Gnar",
+    "what": "Dismounted Kled deals less damage to champions and swaps his hook for the weaker Pocket Pistol — this is the all-in window. If you've also hit max Rage, Mega Gnar's W (Wallop) stun locks him down for E (Crunch) and R (GNAR!) to finish the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Skaarl's buffer wins early melee trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Dodge Q, poke Boomerang from range"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Mega Gnar threatens dismount burst window"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force spike widens your lead"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfights neutralize your laning advantage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Sustain and a bit of early trade damage let you answer Kled's Skaarl-buffered all-ins without losing the sustain war; it's the stronger measured start here (52.1% win rate, 57.1% pick rate)."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Flat physical damage reduction directly blunts Kled's W (Violent Tendencies) attack speed burst and his sustained auto-attack damage once he commits to melee range (53.3% win rate, 90.4% pick rate)."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The move-speed and on-hit damage spike lets you kite Kled's E (Jousting) range while still punishing any stray stick with empowered Q (Boomerang Throw) pokes."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shred armor to make your poke and Mega Gnar burst actually kill Skaarl's HP buffer faster instead of just chipping it."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The bonus health and tenacity-adjacent survivability matter once Kled lands his Q (Bear Trap on a Rope) yank or lines up a Jousting double-dash all-in."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "kled keeps resetting fights with jousting dashes and chunking you with crit-style burst"
+    },
+    {
+     "item": "Thornmail",
+     "when": "kled or his team builds lifesteal and you need to shut down sustain through fights"
+    },
+    {
+     "item": "Wit's End",
+     "when": "kled's team adds ap damage and you need magic resist alongside more attack speed"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The heal-on-move procs reward kiting Kled's melee range while Q (Boomerang Throw) poke chips Skaarl's HP bar, matching this page's 48.3% win rate and 34.5% pick rate in the matchup.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport lets you reset after shoving Skaarl's HP down with poke and still make it back for objectives (65.5% pick, 54.5% win rate); Flash is mandatory to dodge Q (Bear Trap on a Rope) or cut off an E (Jousting) all-in. Flash+Ignite is the sharper alternative (66.7% win rate) if you're playing to force an early dismount rather than scale the lane out."
+  },
+  "playing": [
+   {
+    "title": "Stay Outside 800 Range",
+    "detail": "Kled's Q (Bear Trap on a Rope) only reaches 800 — hover past that line and only step in to land a Q (Boomerang Throw) from your own 1100 range."
+   },
+   {
+    "title": "Poke, Don't Melee",
+    "detail": "Throw and retreat. Dueling in melee lets Skaarl's buffer and his W (Violent Tendencies) attack speed burst win the exchange for him."
+   },
+   {
+    "title": "Track Skaarl's HP Bar",
+    "detail": "Every trade should specifically target the mount bar, not Kled's champion HP — once Skaarl's bar hits zero, his damage to champions drops and his kit weakens."
+   },
+   {
+    "title": "Bank Rage Before Committing",
+    "detail": "Fight through poke exchanges so you hit max Rage and transform mid-trade — turning a simple poke exchange into a Mega Gnar W (Wallop) stun window."
+   },
+   {
+    "title": "Respect the Double Dash",
+    "detail": "Kled's E (Jousting) can recast to dash back through you, so don't commit your own E (Hop) into him expecting a free follow-up — he can escape or re-engage on the return pass."
+   },
+   {
+    "title": "Punish Remount Attempts",
+    "detail": "Kled rebuilds courage by fighting, so don't tunnel one dismounted trade and walk away — full disengage lets him remount with HP back for free."
+   },
+   {
+    "title": "Consider Lethal Tempo",
+    "detail": "Master-tier Gnar players run Lethal Tempo over Fleet Footwork (60.9% win rate across 1,842 games) — it suits players who want to force early all-ins and burst Skaarl down rather than win a long poke war."
+   }
+  ],
+  "patchCaveat": "The build paths, rune pages, and summoner spells above are pulled from measured Gnar vs Kled games on the current patch; the mechanical reasoning — why the Skaarl HP bar and the Rage transform are the levers that decide this lane — is my own read of the kit, not scraped data."
+ },
+ "generatedAt": 1791508645760,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791508504656,
+  "overall": {
+   "winRate": 49.4,
+   "play": 10368,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 65,
+   "wins": 35,
+   "winRate": 53.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use Cut Down while avoiding his (Q). Kite him often to force him to dismount Skaal. You have the upper hand if he does not have Skaal.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.5,
+    "play": 55,
+    "pickRate": 65.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 14.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 9.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 34.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 27.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 57.1
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 15.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.3,
+    "play": 75,
+    "pickRate": 90.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 7.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 27.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sterak's Gage",
+     "Randuin's Omen"
+    ],
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 14
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 14
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 56.3,
+    "play": 80,
+    "pickRate": 94.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.7,
+    "play": 53,
+    "pickRate": 62.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 64.5,
+    "play": 31,
+    "pickRate": 36.5
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 72.2,
+    "play": 18,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 8.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 59.3,
+    "play": 27
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1842
+  }
+ }
+}

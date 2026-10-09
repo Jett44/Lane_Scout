@@ -1,0 +1,392 @@
+{
+ "you": "Sion",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Rough early, favoured overall",
+   "line": "You lose if Irelia dives off minion-assisted Q resets and snowballs kills before level 6; you win the 55.9% matchup (102 games) once Thornmail and Enrage's health stacking take over from level 9 on."
+  },
+  "thesis": "Irelia's whole early game runs on Q (Bladesurge) resets and stacking Passive (Ionian Fervor) for bonus on-hit damage — she wins trades by chaining dashes off minions and autos. Sion has zero tools to punish a dash before level 6, so the lane is genuinely dangerous early, but his Passive (Feel No Pain) and E's permanent max-health growth on kills mean every minion and skirmish he survives makes the next trade safer, flipping the matchup once his core items land.",
+  "tell": {
+   "watch": "Irelia's Passive stack count",
+   "theirWindow": {
+    "when": "she's near minions at level 2-3",
+    "what": "She can chain Q (Bladesurge) off a minion to dash onto you for free damage and a reset if it kills the minion. Per OP.GG's own read on this matchup, give up the minion and back off rather than contest it — a solo kill here is her biggest lane swing."
+   },
+   "yourWindow": {
+    "when": "her Q (Bladesurge) is on cooldown",
+    "what": "Bladesurge is 10/9/8/7/6s and only refreshes on a Marked or killed target, so if she's just used it on a minion with no mark up, she has no gap-close or escape for several seconds. Walk up and land Q (Cryptic Gaze) for the stun into W (Death's Caress), then detonate the shield early for the burst."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "early Q resets outdamage you"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "solo-kill risk peaks per OP.GG tip"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Cannibalism) adds sustain, trades level out"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Sunfire/Thornmail online, E stacking HP"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Unending Despair sustain wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "57.6% win rate over 66 games (54.1% pick) — the passive damage reduction on harass directly counters her poking you down with Q resets while you can't yet fight back."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "54.6% win rate over 108 games (90% pick) — Irelia's damage is almost entirely basic attacks once Passive is stacked, and flat physical reduction per hit undercuts her on-hit scaling directly."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "early anti-heal and armor blunts her Q (Bladesurge) self-heal on every dash, so her resets stop paying for themselves"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "gives you the HP and passive burn to win extended trades where her stacking Passive used to win the fight"
+    },
+    {
+     "item": "Thornmail",
+     "why": "punishes her at max Passive stacks — the moment her on-hit damage bonus kicks in, Thornmail reflects it straight back"
+    },
+    {
+     "item": "Unending Despair",
+     "why": "stacks more HP and anti-heal on top, cutting further into her Q sustain in long games — 71.4% win rate over this build path (10.5% pick)"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the game goes long and you need the extra magic resist and tenacity on top of your armor stack"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "you're ahead and want your E (Enrage) max-health growth to scale into even more raw stats"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you want stronger wave clear and a bigger all-in once you're past the early solo-kill window"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "procs off autos for bonus damage, healing, and permanent max-health growth — it directly offsets the health you lose to E (Enrage) and keeps you ahead of her Q (Bladesurge) self-heal in sustained trades.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport",
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash + Teleport is run in 87.4% of games at 56.7% win rate — Teleport lets you reset with full Doran's Shield sustain after an early loss instead of conceding the wave, while Flash dodges her Q dash-in or an E (Flawless Duet) stun angle."
+  },
+  "playing": [
+   {
+    "title": "Give up contested minions early",
+    "detail": "At levels 2-3, don't fight her for a minion she can Q (Bladesurge) through — a kill refreshes her dash onto you for free. This is the exact scenario OP.GG flags as her biggest lane-winning window."
+   },
+   {
+    "title": "Trade only when her Q is down",
+    "detail": "Bladesurge is 10/9/8/7/6s with no refresh unless it marks or kills something. If she's just burned it on a minion with nothing marked, step up and land Q (Cryptic Gaze) into W (Death's Caress)."
+   },
+   {
+    "title": "Don't auto-trade into her healing Q",
+    "detail": "E (Enrage) trades your health for AD on every auto, but her Q heals her back on hit — prolonged auto wars favor her early. Wait for a Grasp proc or your shield before committing."
+   },
+   {
+    "title": "Shield-tank her E mark",
+    "detail": "W (Death's Caress) absorbs damage before it explodes, so pop it before she can land E (Flawless Duet) for the stun and Mark rather than eating it raw."
+   },
+   {
+    "title": "Hold all-ins until level 6",
+    "detail": "R (Cannibalism) gives you lifesteal-on-attack and bonus attack speed for 90s — don't commit to a full all-in before it's up."
+   },
+   {
+    "title": "Lean on Thornmail once she's stacked",
+    "detail": "Ionian Fervor's bonus on-hit damage at max stacks is exactly what Thornmail punishes — once it's built, invite the extended trade instead of avoiding it."
+   },
+   {
+    "title": "Use Teleport to erase early losses",
+    "detail": "Doran's Shield sustain plus Teleport lets you return to lane at full health after a bad level 2-5 stretch, keeping the long-game advantage intact."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win-rate figures are measured from live games on the current patch via OP.GG; the ability breakdowns, timing windows, and tactical reasoning are this brief's own analysis."
+ },
+ "generatedAt": 1791513824373,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513750076,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 102,
+   "wins": 57,
+   "winRate": 55.9
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "even",
+  "opponentTip": "Be careful when she closes in using minions when she is level 2~3. Do not let he close in when she has 5 (P) stacks by keeping your distance.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.7,
+    "play": 104,
+    "pickRate": 87.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 4.2
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.5,
+    "play": 41,
+    "pickRate": 34.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 16.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 57.6,
+    "play": 66,
+    "pickRate": 54.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55,
+    "play": 40,
+    "pickRate": 32.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.6,
+    "play": 108,
+    "pickRate": 90
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 10.5
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 4.5
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 4.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 58.7,
+    "play": 63,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 58.9,
+    "play": 56,
+    "pickRate": 44.4
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 65.5,
+    "play": 55,
+    "pickRate": 43.7
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 48.8,
+    "play": 41,
+    "pickRate": 32.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.3,
+    "play": 39,
+    "pickRate": 31
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 19.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.5,
+    "play": 33
+   }
+  ]
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "you": "Sett",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you eat a charged Q alone in brush range with no minions to back up your E; you win if you catch his Q wind-up with E and dump W into his face."
+  },
+  "thesis": "This is a 51.6% matchup over 190 games because both champions win through forced short trades rather than sustained poke: Sion's whole kit revolves around landing one charged Q (Cryptic Gaze, 550 range, 12/11/10/9/8s cooldown) to set up a kill, while Sett's whole kit revolves around punishing exactly that commitment with E (Facebreaker) into W (Haymaker). Whoever lands their engage first usually wins the exchange. Sett also holds the recorded solo-kill edge, which matches his earlier spike item timing against Sion's slower max-HP scaling.",
+  "tell": {
+   "watch": "Sion's Q charge-up stance",
+   "theirWindow": {
+    "when": "he fully charges Q from brush",
+    "what": "If it lands clean you're stunned and he follows with Enrage (E) autos, trading his health for AD to burst you down before Second Wind can heal it off."
+   },
+   "yourWindow": {
+    "when": "he commits to charging Q in melee range",
+    "what": "Walk so a minion sits on the opposite side of Sett from Sion, then E (Facebreaker) to pull both in — with only Sion on one side the pull just slows him, but with a minion on the far side it stuns and cancels his charge. Follow with W (Haymaker) aimed so he's in the true-damage center, then Q (Knuckle Down) for bonus damage off his max health."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q stun threat live, your E not yet learned"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E online, punishes every Q charge attempt"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ults live, trades decide skirmishes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stridebreaker burst outpaces his HP stacking"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Cannibalism sustain offsets your damage lead"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "87.1% pick rate at 49.5% win rate — the sustained-damage start matches the short-trade nature of this lane better than the shield start."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51% win rate over 102 games; Sion leans on Enrage autos and Cannibalism attack speed, so flat physical damage reduction blunts both."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The slow-on-hit lets you actually stick Q's bonus damage and W's true-damage center on him instead of watching him walk out after a stun."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Sion's base armor and Steelcaps will wall you off without the shred — this is what keeps your late trades relevant."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "66.7% win rate over 39 games on this exact path; the max-HP and heal-on-damage keep you winning extended fights once Cannibalism is up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he's building toward a full all-in with Cannibalism up and you need to survive the burst window"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he's stacked a lot of max HP off minion and champion kills with Enrage and you need the current-health damage to cut through it"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "he's kiting your engages or you keep getting caught by his Q range before you can close"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "the lane is stable and you want to shorten Q and E cooldowns to punish every charge attempt he makes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run on both top rune pages for this matchup (55.6% and 45.2% win rate) — the sustained stacks reward you for staying in extended trades rather than poking and backing off.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant pick at 74.6% and backs up the recorded solo-kill advantage you already hold in this matchup; Flash+Teleport (55.6% win rate, 22.5% pick) is the alternative if you expect the lane to be decided by sidelane pressure instead."
+  },
+  "playing": [
+   {
+    "title": "Bait the Q, don't block it",
+    "detail": "Stand just outside 550 range near brush so he's tempted to charge Q at you. The charge-up stance is your cue to walk in with E rather than retreat."
+   },
+   {
+    "title": "Pull with a minion on the far side",
+    "detail": "Facebreaker (E) only stuns when enemies are on opposite sides of Sett — if Sion is alone on one side it's just a slow. Position with a minion behind him before you commit E."
+   },
+   {
+    "title": "Center your W on him",
+    "detail": "Haymaker's true damage only lands in the center of the punch; the sides are weaker physical damage. Aim the cast so Sion eats the center, not the edge."
+   },
+   {
+    "title": "Punish his E toggle on minions",
+    "detail": "Enrage drains his own health while he's using it to farm, even though it also grows his max HP permanently on kills. Walk up and trade while he's mid-wave with E on and low from the self-damage."
+   },
+   {
+    "title": "Save E for his W shield windows",
+    "detail": "Death's Caress absorbs damage until it explodes; don't dump your stun into a full shield. Wait for it to pop or bait him into detonating it early before you engage."
+   },
+   {
+    "title": "Respect Cannibalism after level 6",
+    "detail": "Once his ultimate is up, prolonged trades heal him and buff his attack speed. Front-load damage with Q plus a centered W rather than extending the fight."
+   },
+   {
+    "title": "Look for the R pick near brush edges",
+    "detail": "The Show Stopper has a 120/100/80/80/80s cooldown and 400 range — use it to catch him overextending after a missed Q, not as a follow-up to your own E stun."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample-size figures above are measured from live games on the current patch via OP.GG; the matchup read — why the trades play out this way, the E-stun positioning requirement, and the timing windows — is my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1791510912344,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791510822763,
+  "overall": {
+   "winRate": 50.5,
+   "play": 17099,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 190,
+   "wins": 98,
+   "winRate": 51.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Sion’s fully charged (Q) used from inside a brush. Interrupt his (Q) charge with [E] while hitting him at the center of [W].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.6,
+    "play": 179,
+    "pickRate": 74.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.6,
+    "play": 54,
+    "pickRate": 22.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 2.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.6,
+    "play": 90,
+    "pickRate": 37.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 45.2,
+    "play": 42,
+    "pickRate": 17.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.5,
+    "play": 202,
+    "pickRate": 87.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 77.8,
+    "play": 18,
+    "pickRate": 7.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51,
+    "play": 102,
+    "pickRate": 49.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.7,
+    "play": 52,
+    "pickRate": 25.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 66.7,
+    "play": 39,
+    "pickRate": 30.7
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Stridebreaker",
+     "Black Cleaver"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 6.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 55.7,
+    "play": 203,
+    "pickRate": 85.3
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 63.3,
+    "play": 139,
+    "pickRate": 58.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 60.2,
+    "play": 128,
+    "pickRate": 53.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 64.4,
+    "play": 59,
+    "pickRate": 24.8
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 43.6,
+    "play": 55,
+    "pickRate": 23.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 9.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 58.9,
+    "play": 73
+   }
+  ]
+ }
+}

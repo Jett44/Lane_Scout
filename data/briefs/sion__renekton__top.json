@@ -1,0 +1,393 @@
+{
+ "you": "Sion",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him hit three-slash W procs on shield-less trades; you win if you survive to the W2/R-charge spike and out-scale him."
+  },
+  "thesis": "Renekton's whole kit runs on Fury, and his W (Ruthless Predator) becomes a different ability above 50 Fury: it goes from a 2-hit stun to a 3-hit stun that rips your W shield off before it can absorb anything. The matchup is decided by whether you let him sit at full Fury and farm you with empowered trades, or force him to spend Fury on CS/poke so his all-in is the weaker 2-hit version.",
+  "tell": {
+   "watch": "His Fury bar (50+ threshold)",
+   "theirWindow": {
+    "when": "Fury bar above 50 and E up",
+    "what": "He can E (Slice and Dice) in, land a 3-hit W that shreds your shield and stuns 1.5s, then Q (Cull the Meek) for the empowered heal. Do not stand still and trade through this — walk out of E range (450) the moment his Fury crosses half."
+   },
+   "yourWindow": {
+    "when": "His Fury under 50 or E on cooldown (16/14.5/13/11.5/10s)",
+    "what": "His W is only a 2-hit, 0.75s stun with no shield-shred. This is when your W (Death's Caress) actually survives and you can flip the trade by holding E (Enrage) through the exchange for the AD and health-cost burst."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "His Q/W poke hits before your W absorbs enough."
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "3-hit W online, all-in window opens hard."
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R threatens kills if he overextends."
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Core items online, Enrage trades win fights."
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Teamfight shield/sustain outscales his duels."
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The passive block-per-hit directly eats into his auto-reset poke and the early Q pokes he uses to farm Fury off you."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "His damage is almost entirely basic-attack and auto-reset based once Fury is empowered; flat physical reduction per hit is stronger than movement speed here."
+   },
+   "core": [
+    {
+     "item": "Bramble Vest",
+     "why": "Grievous Wounds-style cut removes the Q heal and empowered-Q lifesteal he relies on to win extended trades."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Immolate damage punishes him for standing in melee range during his all-in window."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Reflects damage back on every auto he lands on you, which matters since his offense is auto/ability-chain heavy."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Shield-on-ability-use layers on top of your own W, giving you a second buffer after his 3-hit W shreds the first."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Heartsteel",
+     "when": "the game goes long and you want a scaling health stat-check item instead of pure armor"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you are ahead and want to add wave clear and trade damage on top of your tank stats"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "the enemy team has healing or shields you need to cut through in teamfights"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "you built Heartsteel and need the damage-to-shield conversion for extended skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustain-per-auto on cooldown cycle outlasts his burst trade pattern and offsets the health cost of running Enrage.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 90.7% of games at a 47.6% win rate here, letting you reset after his all-in windows and still return to scale into your stronger late game."
+  },
+  "playing": [
+   {
+    "title": "Track Fury, not just health",
+    "detail": "His damage profile doubles once Fury crosses 50. Check his Fury bar before every extended trade, not just his HP."
+   },
+   {
+    "title": "Don't shield into his 3-hit W",
+    "detail": "If his Fury is high, delay W (Death's Caress) until after he commits W, since a full-Fury W will pop your shield for free before it can absorb anything."
+   },
+   {
+    "title": "Hold E for his all-in, not your poke",
+    "detail": "Enrage's health cost is only worth paying when you're actually trading; don't flip it on to poke from range since you'll just bleed health into his stronger window."
+   },
+   {
+    "title": "Punish his E cooldown",
+    "detail": "Slice and Dice is 16/14.5/13/11.5/10s. The moment he uses it to engage or reposition, that's your 10+ second window to shove the wave or set up your own all-in without a dash escape threat."
+   },
+   {
+    "title": "Play around the 108-game even matchup",
+    "detail": "At 50.9% over 108 games this is not a lane you need to play scared in; play for the level 9-13 item spike rather than forcing early kills."
+   },
+   {
+    "title": "Use R to punish greedy all-ins",
+    "detail": "Cannibalism's life leech and attack speed turn a close fight in your favor once he's already spent Q/W/E; save the 90s cooldown for when he's committed, not as an opener."
+   },
+   {
+    "title": "Respect his Q sustain pre-Bramble",
+    "detail": "Cull the Meek's heal scales with his Fury, so until Bramble Vest is online, don't try to out-sustain him in a long trade — disengage and reset instead."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and the 50.9% over 108 games head-to-head figure are measured from live games on the current patch; the Fury-threshold reasoning and trade-window calls are my own tactical read on top of that data."
+ },
+ "generatedAt": 1791513744633,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513702177,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 108,
+   "wins": 55,
+   "winRate": 50.9
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance from him while checking his Fury. Be careful of his reinforced (W) shattering your shield while using [Q] and [E] to contest lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 126,
+    "pickRate": 90.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 3.6
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40.9,
+    "play": 44,
+    "pickRate": 31.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.9,
+    "play": 18,
+    "pickRate": 13
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 73,
+    "pickRate": 53.3
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 43.1,
+    "play": 51,
+    "pickRate": 37.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 42.7,
+    "play": 103,
+    "pickRate": 79.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 10.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Bramble Vest",
+     "Sunfire Aegis",
+     "Thornmail",
+     "Unending Despair"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Hollow Radiance"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 5.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 47.1,
+    "play": 70,
+    "pickRate": 48.3
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 43.1,
+    "play": 65,
+    "pickRate": 44.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 43.4,
+    "play": 53,
+    "pickRate": 36.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 43.1,
+    "play": 51,
+    "pickRate": 35.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 40,
+    "play": 40,
+    "pickRate": 27.6
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 17.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.4,
+    "play": 37
+   }
+  ]
+ }
+}

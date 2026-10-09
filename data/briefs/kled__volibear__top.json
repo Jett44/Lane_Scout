@@ -1,0 +1,380 @@
+{
+ "you": "Kled",
+ "them": "Volibear",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you stand in Frenzied Maul range for the second cast; you win if you force Volibear to burn Thundering Smash early and punish with Jousting resets."
+  },
+  "thesis": "Volibear's entire trade pattern is W (Frenzied Maul) stacking into a second cast that heals him, so the matchup is decided by whether you can hit-and-run with E (Jousting) before he lands that second W. The 50% win rate over 78 games reflects an even lane where both sides have kill pressure but Kled's dash threat lets him dictate when trades happen.",
+  "tell": {
+   "watch": "Volibear's W mark duration on you",
+   "theirWindow": {
+    "when": "after he lands first Frenzied Maul mark",
+    "what": "He has roughly 1-2 seconds to re-cast W for bonus damage and healing. If you stay in his 325 range during this window you eat the full combo."
+   },
+   "yourWindow": {
+    "when": "right after his Q or E lands on cooldown",
+    "what": "Thundering Smash (12-10s) and Sky Splitter (16s) are his only engage/poke tools. The instant either whiffs or lands, jump in with Q (Bear Trap) to hook and yank him, then E (Jousting) through for the double-hit before he can reset W."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both melee, trading depends on who lands first stun"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Volibear's Q stun plus W mark burst is strong"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Violent Tendencies attack speed wins extended trades"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Both ultimates swing skirmishes, trades stay close"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Titanic Hydra waveclear and dive threat scale harder"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Picked in 81.4% of games (49.4% win rate over 83 games) because the lane is a constant poke-and-stick fight; the extra sustain and damage let you match Volibear's W procs without losing the trade."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Taken in 50.6% of games at 60% win rate; the tenacity shortens how long Thundering Smash's stun locks you in Frenzied Maul range."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Core first item in every listed build path; the wave-clear and bonus health let Skaarl soak Volibear's on-hit W damage longer."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second item in all three top build paths; armor shred speeds up trades before Volibear's passive attack speed stacking spirals."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Most common third item (11.3% pick, 50% win rate with this path); the health and burn trade favorably into Volibear's healing from his second W cast."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "if you are getting burst down in skirmishes instead of winning extended fights"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "if the lane is going even and you want to push waves and split faster than Volibear can punish"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "if Volibear's W healing from the second cast is keeping him alive in trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Run in both top rune pages (24.3% and 10.7% pick); the stacking adaptive force and healing on fully stacked keeps you ahead in the extended trades this matchup demands.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 77.7% of games at 48.8% win rate; Ignite punishes Volibear's W healing by cutting it, which directly answers his main sustain tool in this lane."
+  },
+  "playing": [
+   {
+    "title": "Hook before he stacks W",
+    "detail": "Throw Q (Bear Trap) the moment he's in range rather than waiting. Yanking him in early denies the setup for his second Frenzied Maul cast."
+   },
+   {
+    "title": "Joust out after his Q lands",
+    "detail": "The instant Thundering Smash connects and he's used his stun, E (Jousting) away. His only other gap-closer is a 300-range Q on a 10-12s cooldown, so you're safe to disengage."
+   },
+   {
+    "title": "Pop W during his W mark window",
+    "detail": "If he marks you with Frenzied Maul and you can't retreat, trigger Violent Tendencies immediately. The attack speed burst outraces his bonus-damage second cast in raw DPS."
+   },
+   {
+    "title": "Track Sky Splitter cooldown for all-ins",
+    "detail": "Sky Splitter is 16s and the only ranged poke he has. Once it's down, close distance and all-in; he has no way to re-create range before your Q and E land."
+   },
+   {
+    "title": "Save Jousting for his R landing",
+    "detail": "Stormbringer disables towers near his landing spot and gives him bonus health, so don't contest him directly. Instead dash in with E once his shield from Sky Splitter is gone to punish the health bonus before it matters."
+   },
+   {
+    "title": "Trade off cooldown, not on sight",
+    "detail": "Because this is a near-even 50% matchup, avoid trading on his terms when his W is off cooldown (5s base). Wait for a window where his Q, E, and W are all down before committing."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners and win rates are measured from live games on the current patch (16.20.1); the mechanical reasoning and trade-pattern advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791510329087,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791510288269,
+  "overall": {
+   "winRate": 49.7,
+   "play": 5093,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 78,
+   "wins": 39,
+   "winRate": 50
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "aggressive",
+  "opponentTip": "Keep some distance from Volibear to avoid his Sky Splitter (E) and Thundering Smash (Q). Use Jousting [E], Bear Trap on a Rope [Q], and Violent Tendencies [W] to deal damage while avoiding the second strike on Frenzied Maul (W) by retreating using Jousting [E].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.8,
+    "play": 80,
+    "pickRate": 77.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 6.8
+   },
+   {
+    "names": [
+     "Ignite",
+     "Barrier"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 5.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44,
+    "play": 25,
+    "pickRate": 24.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Demolish"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 10.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 83,
+    "pickRate": 81.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 77.8,
+    "play": 9,
+    "pickRate": 8.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60,
+    "play": 45,
+    "pickRate": 50.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 38.5,
+    "play": 39,
+    "pickRate": 43.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 11.3
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 57,
+    "play": 79,
+    "pickRate": 78.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.1,
+    "play": 45,
+    "pickRate": 44.6
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 38.5,
+    "play": 26,
+    "pickRate": 25.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 57.7,
+    "play": 26,
+    "pickRate": 25.7
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 65,
+    "play": 20,
+    "pickRate": 19.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 76.5,
+    "play": 17,
+    "pickRate": 16.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 57.6,
+    "play": 33
+   }
+  ]
+ }
+}

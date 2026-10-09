@@ -1,0 +1,379 @@
+{
+ "you": "Jax",
+ "them": "Cho'Gath",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even lane",
+   "line": "You lose if you eat free Rupture poke on the wave and let Cho'Gath stack Feast kills; you win if you cash in the pre-6 solo-kill window and scale into Trinity Force."
+  },
+  "thesis": "Cho'Gath has no dash and wins the lane purely through Q (Rupture) poke at 950 range and W (Feral Scream) silence up close; Jax has no way to avoid Rupture's slow but can shrug its area damage with E (Counter Strike) and then close the gap for free with Q (Leap Strike). The 48% head-to-head over 177 games with Jax holding the solo-kill edge means this is a lane about picking the right window to engage, not about raw stats.",
+  "tell": {
+   "watch": "Cho'Gath's Rupture (Q) cooldown",
+   "theirWindow": {
+    "when": "Q (Rupture) is up, you're near wave",
+    "what": "Rupture has a 9s cooldown at range 950 and pops/slows anything near the minions, so don't stand in the wave to trade CS when it's available — you'll eat the slow and the follow-up Vorpal Spikes for free."
+   },
+   "yourWindow": {
+    "when": "Right after Cho'Gath lands or whiffs Q",
+    "what": "The instant Rupture goes on cooldown, use Q (Leap Strike) to close the 950-range gap he can no longer threaten, then trigger E (Counter Strike) to dodge his basic attacks and stun him for the trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Rupture zones the wave, you have no stun yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, use solo-kill edge"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Feast burst vs your attack-speed ult"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Trinity Force spike outscales him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Measured at 55.6% win rate over 45 games — the regen and damage-reduction proc directly offsets getting chipped by Rupture and Vorpal Spikes while you wait out cooldowns to engage."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "68.1% pick rate and the highest measured win rate (46% over 139 games); the magic resist blunts Rupture, Feral Scream and Vorpal Spikes, and the tenacity shortens how long Feral Scream's silence locks you out of E."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The proc damage on your empowered Leap Strike auto is what turns the post-Rupture engage window into a real trade instead of a poke exchange."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Extra burst and healing on the E stun payload lets you win the all-in even if Cho'Gath lands Feral Scream first."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Survives the 175-range true-damage Feast once he's banked a few stacks, so a bad all-in doesn't end in an execute."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Blade of The Ruined King",
+     "when": "cho'gath has stacked several feast kills and is sitting on a large max-health pool"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "he's landing feral scream into feast and you need to survive the follow-up burst to win the fight"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're getting bursted down in the all-in before your attack speed stacks from relentless assault can kick in"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "This page measures 60% win rate over 15.7% pick; Grasp punishes Cho'Gath for poking you with Rupture and Vorpal Spikes by healing and growing your health every time he lands a hit, which matches a lane you win by outlasting his pokes until Trinity Force comes online.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest measured win rate of the three pages (49.3%) and the most-picked combo (67.3%); Ignite lets you convert your solo-kill advantage into an actual kill in the pre-6 window before Cho'Gath has Feast to punish an all-in."
+  },
+  "playing": [
+   {
+    "title": "Engage only after Rupture is spent",
+    "detail": "Rupture is on a 9s cooldown at 950 range — walking up while it's available just eats the slow. Wait for him to use it on the wave or whiff it, then Leap Strike in."
+   },
+   {
+    "title": "Hold E through Feral Scream, not just autos",
+    "detail": "E (Counter Strike) dodges basic attacks and reduces area-of-effect damage, so timing it to be active when Feral Scream or Rupture lands reduces the burst, not only his auto-attacks."
+   },
+   {
+    "title": "Respect Feast at level 6+",
+    "detail": "Feast is a 175-range true-damage nuke on a 60s cooldown. Don't stand point-blank under meaningful HP once he hits 6, especially if he's already banked stacks from earlier kills."
+   },
+   {
+    "title": "Push the pre-6 solo-kill window",
+    "detail": "The data confirms you hold the solo-kill edge in this matchup before Cho'Gath has Feast online — commit to all-ins in levels 3-5 rather than passively farming."
+   },
+   {
+    "title": "Time the real all-in around Trinity Force",
+    "detail": "The empowered proc from Trinity Force (core item #1) is what converts an even trade into a kill — hold your biggest commitment for roughly levels 9-11 when it completes."
+   },
+   {
+    "title": "Don't facecheck the wave",
+    "detail": "Vorpal Spikes punishes you for standing in his attack range while last-hitting, and Rupture's 950 range means he can zone the minions from safety — trade in bursts, not standing exchanges."
+   },
+   {
+    "title": "Bait the silence before committing E",
+    "detail": "Feral Scream has a 13s cooldown and silences — if he's already thrown it on cooldown, your E stun is uncontested; if it's up, bait it out before you commit your own cooldowns."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners and win rates above are measured from real Jax-vs-Cho'Gath games on the current patch (16.20.1) via OP.GG; the ability readings, timing windows, and trade patterns are my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1791515715367,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791515612008,
+  "overall": {
+   "winRate": 49.4,
+   "play": 17854,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 177,
+   "wins": 85,
+   "winRate": 48
+  },
+  "laneAdvantage": "Jax",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Rupture (Q)! Fight Cho’Gath while being wary of Rupture(Q)!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 150,
+    "pickRate": 67.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.3,
+    "play": 60,
+    "pickRate": 26.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 5.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.8,
+    "play": 69,
+    "pickRate": 30.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 35,
+    "pickRate": 15.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 41.3,
+    "play": 121,
+    "pickRate": 54.5
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55.6,
+    "play": 45,
+    "pickRate": 20.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46,
+    "play": 139,
+    "pickRate": 68.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.4,
+    "play": 36,
+    "pickRate": 17.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 30.8,
+    "play": 13,
+    "pickRate": 11.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Sundered Sky"
+    ],
+    "winRate": 28.6,
+    "play": 7,
+    "pickRate": 6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 4.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.1,
+    "play": 160,
+    "pickRate": 71.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 51.8,
+    "play": 85,
+    "pickRate": 37.8
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 47.7,
+    "play": 65,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 59.2,
+    "play": 49,
+    "pickRate": 21.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 45.7,
+    "play": 46,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 55.2,
+    "play": 29,
+    "pickRate": 12.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 52.7,
+    "play": 74
+   }
+  ]
+ }
+}

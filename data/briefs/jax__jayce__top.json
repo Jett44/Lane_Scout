@@ -1,0 +1,389 @@
+{
+ "you": "Jax",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you let Jayce freely poke in Cannon stance before level 6; you win by forcing stance-locked melee trades where Counter Strike punishes his commitment."
+  },
+  "thesis": "Jayce's stance swap controls engagement range — Hammer stance is his melee gap-close/knockback form, Cannon stance is his ranged poke/attack-speed form — while Jax has zero ranged threat and wins only when he forces a stance-locked melee exchange. The 53.4% win rate over 337 games reflects that this is decided by who dictates range, not by either champion's raw damage.",
+  "tell": {
+   "watch": "Jayce's weapon stance",
+   "theirWindow": {
+    "when": "Jayce in Cannon stance at range",
+    "what": "His Cannon Q (Shock Blast) detonates for physical damage on anyone it hits or at max range, and Cannon W (Hyper Charge) gives him maximum attack speed for several attacks. Don't walk into that without minion cover, especially before level 6."
+   },
+   "yourWindow": {
+    "when": "Jayce commits to melee with Q",
+    "what": "The instant he leaps in with Hammer Q (To the Skies!) or starts autoing, pop E (Counter Strike): it dodges incoming basic attacks, then stuns everyone around you on an 18/16/14/12/10s cooldown, giving you a free W (Empower)-boosted follow-up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Jayce pokes freely before your E"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Melee trades even once E unlocks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ults online, skirmishes stay even"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force spikes burst, favors you"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Itemization and R scaling favor you"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Mitigates the chip damage from Jayce's Cannon-stance Q (Shock Blast) and Hammer-stance W (Lightning Field) that you'll eat every time you have to walk up through his poke range."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Jayce's Cannon-stance W (Hyper Charge) and his R-transform first-attack both lean on auto-attack damage; the flat reduction blunts both his poke autos and his all-in."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The proc damage makes your W (Empower)-enhanced autos and Leap Strikes hit far harder once you actually land a stance-locked trade."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Extra sustain on your short-cooldown abilities lets you out-heal Jayce's poke chip in extended skirmishes once you've closed the range gap."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "Survives Jayce's R-transform burst combo (armor/MR shred on the first hit) so you don't get deleted the moment he commits his ultimate."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "the enemy team adds more burst and you need to sustain through extended fights rather than just survive one"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "jayce keeps kiting you in cannon stance and you need the slow to stick onto him long enough to force a melee trade"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "the game goes long and you need the extra utility to close out skirmishes rather than more raw damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The HP scaling and sustain from proc'ing Grasp every time you land a stance-locked trade offsets Jayce's early poke damage (59% win rate, 20.8% pick). Master-tier Jax players instead run Lethal Tempo from Precision for the stacking attack speed that pairs with R's own attack-speed stacking — better suited to a player confident forcing early all-ins rather than sustaining through a longer lane.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Cosmic Insight"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best measured result in this matchup (56.3% over 337 games' sample pool) — Teleport resets you after poke-heavy trades and lets you scale into split-pushing once items come online, while Flash is your answer to dodging a Hammer E (Thundering Blow) knockback mid-engage. Exhaust+Flash is a reasonable alternative if you'd rather have a defensive tool against his all-in."
+  },
+  "playing": [
+   {
+    "title": "Respect Cannon-stance poke",
+    "detail": "When Jayce is in Cannon stance, his Q (Shock Blast) detonates for physical damage on hit or at max range, and his W (Hyper Charge) grants him maximum attack speed for several attacks. Don't step into that range without minion cover before level 6."
+   },
+   {
+    "title": "Trade only in Hammer stance",
+    "detail": "Jayce's Hammer Q (To the Skies!) is a leap that slows, and Hammer E (Thundering Blow) knocks back — wait until he's committed to a leap or an auto string before engaging, since that's when he's actually locked into melee range."
+   },
+   {
+    "title": "Hold Q, don't waste it",
+    "detail": "Jax's Q (Leap Strike) sits on a long 17/14/11/8/5s cooldown early. If you leap in and he answers with Hammer E (Thundering Blow), you get knocked back and your only gap-closer is down for the rest of the trade."
+   },
+   {
+    "title": "Time E to his engage",
+    "detail": "Pop E (Counter Strike) the moment Jayce leaps in or starts autoing — it dodges incoming basic attacks, then stuns everyone around you on an 18/16/14/12/10s cooldown, locking him down for your full combo."
+   },
+   {
+    "title": "Stack W before trading",
+    "detail": "W (Empower) refreshes every 7/6/5/4/3s. Pre-load it before every extended trade so your next Leap Strike or auto carries the bonus damage and hits nearby enemies."
+   },
+   {
+    "title": "Use R to stay in the fight",
+    "detail": "R (Relentless Assault) gives attack speed per strike with bonus damage every third hit — once you're in melee range, keep attacking rather than disengaging; Jayce's kit punishes you for leaving, not for staying."
+   },
+   {
+    "title": "Scale through items, not an early kill",
+    "detail": "The matchup's 53.4% win rate over 337 games comes from itemization, not lane dominance. Trinity Force and Sundered Sky let you win extended fights that were only even at levels 1-5, so play for stable trades rather than forcing a premature all-in."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoner spells, and every win-rate/pick-rate figure here are measured from live OP.GG games on the current patch (16.20.1); the stance-timing, cooldown windows, and trade-sequencing reasoning is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791502649216,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502535800,
+  "overall": {
+   "winRate": 49.5,
+   "play": 16683,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 337,
+   "wins": 180,
+   "winRate": 53.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Use Counter Strike [E] when Jayce uses To the Skies! (Q). Be careful of using Leap Strike [Q] as he can simply push you back with Thundering Blow(E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.6,
+    "play": 226,
+    "pickRate": 57.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.3,
+    "play": 128,
+    "pickRate": 32.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.5,
+    "play": 40,
+    "pickRate": 10.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 59,
+    "play": 83,
+    "pickRate": 20.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 36,
+    "play": 75,
+    "pickRate": 18.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.3,
+    "play": 201,
+    "pickRate": 52.6
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 93,
+    "pickRate": 24.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.9,
+    "play": 291,
+    "pickRate": 79.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60.5,
+    "play": 43,
+    "pickRate": 11.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 57.1,
+    "play": 35,
+    "pickRate": 21
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 30.8,
+    "play": 13,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Stridebreaker",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 70,
+    "play": 10,
+    "pickRate": 6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52.5,
+    "play": 324,
+    "pickRate": 84.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 54.7,
+    "play": 137,
+    "pickRate": 35.8
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 56.6,
+    "play": 76,
+    "pickRate": 19.8
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 48.3,
+    "play": 60,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 61.4,
+    "play": 44,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 54.3,
+    "play": 105
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 2795
+  }
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "you": "Sion",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Sett stack Grit and land Facebreaker stuns; you win if you shield-poke and kite his engage range."
+  },
+  "thesis": "Sett has no dash or gap-closer, only Q (Knuckle Down) move speed toward you and E (Facebreaker) at 490 range, so Sion's W (Death's Caress) shield and basic attack range let you poke his Grit generation down before he ever gets a stun off. The 47.9% head-to-head over 194 games and Sett's lane/solo-kill advantage come from early trades where he lands auto-attacks for free and banks the health regen from his passive (Pit Grit).",
+  "tell": {
+   "watch": "Sett's Grit bar (W)",
+   "theirWindow": {
+    "when": "Grit bar full, you're both-side of him",
+    "what": "If his W Grit meter is maxed and you're standing where he can pull enemies on opposite sides with E, back off — a full Haymaker shield plus a landed Facebreaker stun is how he deletes half your HP bar in one trade."
+   },
+   "yourWindow": {
+    "when": "His Q and E both on cooldown",
+    "what": "Walk up and poke with W (Death's Caress) shield-attacks or Q (Cryptic Gaze) for the stun; with no gap closer besides Q's move speed buff, he cannot punish you for closing distance when his CC is down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Sett autos hurt more, Pit Grit sustains him"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Facebreaker) stun threat punishes bad positioning"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Cannibalism) sustain lets you match his trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "E (Enrage) stacking HP wins extended fights"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his R (Show Stopper) burst offsets your tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The 46.9% win rate over 130 games with 57.8% pick rate reflects how Doran's Shield's damage reduction on taking damage from champions directly counters Sett's auto-attack trading pattern and his Pit Grit missing-health regen race."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "73% pick rate and 45.7% win rate — the flat physical damage reduction on basic attacks directly weakens every Sett auto-attack trade, which is where he currently wins lane."
+   },
+   "core": [
+    {
+     "item": "Sunfire Aegis",
+     "why": "Core first item in the 50%-win 4-game sample; the HP and burn pressure pairs with E (Enrage) stacking to out-scale Sett's early auto-attack advantage."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Appears in every top build path; the damage shield on taking damage from champions directly answers Sett's Q (Knuckle Down) max-health-based bonus damage."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Shows up in both 2.9%-pick top paths at 50-75% win rate; the stacking resistances scale Sion's late trades against Sett's physical-heavy kit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "sett is building into attack speed or healing off his passive heavily"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he is overcommitting to early auto-attack trades before you have core items"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you want wave-clear and poke damage to punish his lack of a gap closer"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game is going long and you want to scale HP for both trading and R (Cannibalism) sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "51.2% win rate over the higher-sample page (17.9% pick) — the sustain-per-cast matches a long poke war where Sett has no dash to force you off minions.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Legend: Haste",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "83.6% pick rate at 46% win — Teleport lets you reset after poke trades and still answer side-lane pressure, since Sett has no way to punish your TP cooldown with a gap close."
+  },
+  "playing": [
+   {
+    "title": "Poke his Grit before he fills it",
+    "detail": "Use W (Death's Caress) shield-trades and Q (Cryptic Gaze) when his Grit meter is low; a full Grit bar feeds his W (Haymaker) shield and true-damage punch, so keep hitting him before it banks."
+   },
+   {
+    "title": "Respect Facebreaker positioning",
+    "detail": "Never stand directly opposite a minion or ally from Sett — his E (Facebreaker) only stuns when he pulls enemies from both sides; staying on one side only gets you slowed, which you can walk off."
+   },
+   {
+    "title": "Trade when his CC is down",
+    "detail": "Track his E (Facebreaker, 16/14.5/13/11.5/10s) and Q (Knuckle Down, 9/8/7/6/5s) cooldowns; with both on cooldown he has zero stun or gap-close tools, so this is your window to walk up and land free Q stuns."
+   },
+   {
+    "title": "Stack Enrage kills for max HP",
+    "detail": "Last-hit with E (Enrage) active whenever safe — each kill permanently raises your max HP, which is how you flip the late-game trade in your favor despite his early lane advantage."
+   },
+   {
+    "title": "Save R for extended skirmishes",
+    "detail": "Cannibalism's 90s cooldown and health leech reward using it in prolonged trades, not burst picks — it heals you and nearby allies while raising attack speed, swinging close fights after level 6."
+   },
+   {
+    "title": "Don't contest his all-in at low Grit",
+    "detail": "If his health is low and Pit Grit regen is ticking hard, finish the trade quickly or disengage — the passive's missing-health regen can let him stabilize and flip low-HP fights."
+   },
+   {
+    "title": "Use Teleport to deny his split pressure",
+    "detail": "Since Sett has no gap closer beyond his Q move speed, a well-timed Teleport back to lane after recalling lets you match his tempo without losing CS or tower plates."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from live games on the current patch via OP.GG; the ability readings, trade windows, and tactical advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791513214235,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513169915,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 194,
+   "wins": 93,
+   "winRate": 47.9
+  },
+  "laneAdvantage": "Sett",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance to prevent him from closing in. Use your skills off cooldown to clear lane first.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46,
+    "play": 189,
+    "pickRate": 83.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 70.6,
+    "play": 17,
+    "pickRate": 7.5
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 5.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.4,
+    "play": 73,
+    "pickRate": 31.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 17.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.9,
+    "play": 130,
+    "pickRate": 57.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 53.7,
+    "play": 54,
+    "pickRate": 24
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.7,
+    "play": 162,
+    "pickRate": 73
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.9,
+    "play": 38,
+    "pickRate": 17.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 2.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 2.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 2.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 49.2,
+    "play": 122,
+    "pickRate": 53.3
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 44.9,
+    "play": 89,
+    "pickRate": 38.9
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 52.4,
+    "play": 63,
+    "pickRate": 27.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 50,
+    "pickRate": 21.8
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 44.7,
+    "play": 47,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 39,
+    "play": 41,
+    "pickRate": 17.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 40.7,
+    "play": 59
+   }
+  ]
+ }
+}

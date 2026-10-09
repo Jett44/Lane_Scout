@@ -1,0 +1,388 @@
+{
+ "you": "K'Sante",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose isolated trades into Kled's Q-into-W burst before level 6, but you win the matchup overall (61% over 82 games) once Skaarl dismounts and your tank build outscales his damage."
+  },
+  "thesis": "Kled's entire kit is built around a second health bar: Skaarl absorbs damage and powers his trades until it empties, at which point his damage to champions drops and his Q becomes a weak self-knockback. K'Sante doesn't need to win early poke — he needs to survive it, stack tank items, and punish the exact moment Skaarl dies. That's why the lane-advantage data favors Kled early while the head-to-head win rate (61%) favors K'Sante overall.",
+  "tell": {
+   "watch": "Kled's mount (Skaarl) health bar",
+   "theirWindow": {
+    "when": "Skaarl's HP is high and Q is up",
+    "what": "He can land Q (Bear Trap on a Rope, 800 range, 11-7s cooldown) to yank you in for bonus damage, then chain W (Violent Tendencies) for four empowered autos. Don't give him a straight-line hook and play around his Q cooldown rather than contesting every CS."
+   },
+   "yourWindow": {
+    "when": "Skaarl's bar is near empty or he's dismounted",
+    "what": "Dismounted Kled deals less damage to champions and his Q is replaced by Pocket Pistol, a ranged self-knockback with no hook. All-in immediately with E (Footwork) to close distance and R (All Out) to knock him through terrain — this is the trade you're built to win."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q hook poke beats your short-range Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W attack-speed burst plus E dash wins all-ins"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "R (All Out) online evens his all-in threat"
+   },
+   {
+    "levels": "10-14",
+    "edge": "you",
+    "note": "Iceborn/tank stacking outpaces his AD scaling"
+   },
+   {
+    "levels": "15-18",
+    "edge": "you",
+    "note": "Full build survives dives, R deletes dismounts"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Helm + Health Potion",
+    "why": "Flat health plus the potion buys the HP buffer you need to eat Q hooks and auto trades while you wait out his cooldowns; it's the 87.6%-picked start for a reason."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Kled's damage is almost entirely basic attacks — his empowered W autos and Q-into-auto trades — so flat physical reduction on autos is the correct boot over Mercury's Treads here."
+   },
+   "core": [
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The Q proc slow punishes his E (Jousting) dash-back pattern and extends your window to land follow-up stuns after W (Path Maker)."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Stacking resistances directly counters his flat AD trading pattern and scales every fight you survive into."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Omnivamp and extra health let you win extended trades once he's out of cooldowns, matching the measured Iceborn-into-Unending-Despair path."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "he rushes crit or attack speed and his W (Violent Tendencies) trades start winning fights outright"
+    },
+    {
+     "item": "Frozen Heart",
+     "when": "his auto-attack speed in extended trades is the main source of his damage"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "lane goes long and you need more sustain to out-heal his poke"
+    },
+    {
+     "item": "Kaenic Rookern",
+     "when": "their team shifts to magic damage after laning phase"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp sustain directly answers Kled's early poke pattern — every proc heals you back against his Q hook and auto trades while building the bonus health that blunts his burst.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport (58.9% win rate, 80.2% pick) lets you reset the wave instead of forcing early trades you're mechanically disadvantaged in, buying time to reach the itemization window where you win. Flash+Ignite is the alternative if you want to punish his all-ins directly instead of scaling."
+  },
+  "playing": [
+   {
+    "title": "Track Skaarl's HP bar",
+    "detail": "Watch the mount health bar under Kled's portrait all lane. Once it's critically low he's about to dismount, where he deals less damage to champions — that's your signal to commit."
+   },
+   {
+    "title": "Respect Q range before 6",
+    "detail": "Bear Trap on a Rope has 800 range and an 11-7s cooldown. Don't stand in a straight line to him when it's up; make him walk up and miss it before you trade."
+   },
+   {
+    "title": "Stack Q before committing",
+    "detail": "Your Q (3.5s cooldown) builds a stack per hit; at 2 stacks it fires a pulling shockwave. Land two hits first so the pull — not a raw trade — starts the fight on your terms."
+   },
+   {
+    "title": "Hold E through his W window",
+    "detail": "Footwork's shield absorbs the burst from his four empowered W autos. Save it specifically for when his attack speed is visibly spiked, not as a poke-dodge tool."
+   },
+   {
+    "title": "Save R for the dismount",
+    "detail": "All Out knocks him through walls and then transforms your kit with more damage and healing. Landing it right as Skaarl dies guarantees the kill instead of just resetting the fight."
+   },
+   {
+    "title": "Don't contest early all-ins",
+    "detail": "Levels 3-5 he has E dash plus W attack speed online before your R exists. Trade passively and let Doran's Helm sustain you rather than matching his aggression."
+   },
+   {
+    "title": "Scale through Iceborn into Jak'Sho",
+    "detail": "Your tank itemization outpaces his flat AD scaling by mid-game. Play for farm and short trades from 10+ rather than forcing fights — the matchup wins itself if you reach full build."
+   }
+  ],
+  "patchCaveat": "The build paths, boots, runes, summoner spells, and win rates above are pulled directly from measured games on the current patch; the trade timing, power spikes, and mechanical reads are our own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1791507007942,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506908674,
+  "overall": {
+   "winRate": 47.1,
+   "play": 11214,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 82,
+   "wins": 50,
+   "winRate": 61
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 58.9,
+    "play": 73,
+    "pickRate": 80.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 14.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 3,
+    "pickRate": 3.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 61.5,
+    "play": 26,
+    "pickRate": 28.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 16.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 62.8,
+    "play": 78,
+    "pickRate": 87.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 25,
+    "play": 8,
+    "pickRate": 9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 61.1,
+    "play": 72,
+    "pickRate": 84.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 11.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 8.7
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Jak'Sho, The Protean",
+     "Randuin's Omen"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 6.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 59.7,
+    "play": 77,
+    "pickRate": 85.6
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 72.7,
+    "play": 33,
+    "pickRate": 36.7
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 63.3,
+    "play": 30,
+    "pickRate": 33.3
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 70.6,
+    "play": 17,
+    "pickRate": 18.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 73.3,
+    "play": 15,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 73.3,
+    "play": 15,
+    "pickRate": 16.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.3,
+    "play": 15
+   }
+  ]
+ }
+}

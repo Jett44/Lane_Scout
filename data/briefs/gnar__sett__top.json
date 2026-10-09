@@ -1,0 +1,390 @@
+{
+ "you": "Gnar",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Sett stack Grit and land Facebreaker with you boxed in; you win if you kite with Q and E and starve his Haymaker shield."
+  },
+  "thesis": "Sett has no dash and no ranged poke, so his entire game plan is forcing you into melee range with E (Facebreaker) and chip damage to fuel W (Haymaker). Gnar's Q (Boomerang Throw) and E (Hop) exist to deny exactly that, and the 52.6% win rate over 247 games reflects a lane where spacing, not all-in power, decides trades.",
+  "tell": {
+   "watch": "Sett's W Grit meter",
+   "theirWindow": {
+    "when": "Grit bar full and E off cooldown",
+    "what": "He will walk up for E (Facebreaker) to stun and dump a shielded Haymaker. Back off wave or trade cooldowns before his E (16/14.5/13/11.5/10s) comes off cooldown rather than standing in range when his Grit bar peaks."
+   },
+   "yourWindow": {
+    "when": "his E (Facebreaker) on cooldown",
+    "what": "Walk up and poke with Q (Boomerang Throw) or autos empowered by W (Hyper). With no dash to punish you, this is a free damage window until his E resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has a dash yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q and E let you kite freely"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R threatens all-in near walls"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "ranged poke outscales his Grit sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Trinity Force burst trades with his shield"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "54.5% win rate over 213 games and the higher pick rate; the extra sustain and early auto damage matter since you'll be trading autos at range before he closes in."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "86.8% pick rate and the stronger win rate (52.4% over 250 games); Sett's autos and Q (Knuckle Down) bonus are both physical, and the flat reduction blunts his poke."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Core item in both top build paths; the move speed and damage proc both help you kite and punish his lack of gap close."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Follows Trinity in all three listed build paths; shred helps you win extended trades once he commits to melee range."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Best-performing third item (57.9% over 57 games); the health and tenacity cushion his Facebreaker stun-into-Haymaker combo."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "he is snowballing and his Haymaker shield is doing too much in extended fights"
+    },
+    {
+     "item": "Wit's End",
+     "when": "he is building tanky and you need sustained DPS instead of burst"
+    },
+    {
+     "item": "Thornmail",
+     "when": "his healing from missing-health regen or lifesteal is keeping him in lane too long"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Pairs with the 55.1% win-rate page and rewards the poke-and-reposition pattern this lane demands; master-tier Gnar players instead run Lethal Tempo (60.3% over 1,803 games) if you plan to stand and trade autos through his Grit regen rather than kite.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "68.4% pick rate and the highest win rate (52.7%) of the three listed options; Teleport lets you reset after kiting a Facebreaker all-in without losing wave presence, which matters since Sett has no way to punish a Teleport recall himself."
+  },
+  "playing": [
+   {
+    "title": "Track his Grit bar, not his HP",
+    "detail": "W (Haymaker) autocasts Grit from damage taken; a full bar means a shield is coming. Back off before he hits 100% rather than reacting after the punch lands."
+   },
+   {
+    "title": "Punish empty-handed Sett",
+    "detail": "With his E (Facebreaker) on its 16-10s cooldown, he has no stun and no gap close. Walk up and land Q (Boomerang Throw) or trade autos freely in that window."
+   },
+   {
+    "title": "Never stand between two walls",
+    "detail": "His E (Facebreaker) pulls enemies from opposite sides into the middle, stunning only if you're pinned between himself and something else like a wave or wall. Stand on open ground so it only slows you."
+   },
+   {
+    "title": "Catch your boomerang",
+    "detail": "Q's cooldown drops when you catch the returning boomerang; position so it flies back through you after every cast to keep up constant poke pressure."
+   },
+   {
+    "title": "Save E for his all-in, not for chasing",
+    "detail": "Hop's cooldown (22 down to 12s) is too long to waste on minor repositioning. Hold it to disengage the moment he commits Facebreaker or ults."
+   },
+   {
+    "title": "Respect R only near walls",
+    "detail": "His ult slams you down and deals bonus damage if you hit a wall, but he's stuck without it until level 6 and it's 120-80s cooldown. Fight away from lane walls after he's used it once."
+   },
+   {
+    "title": "Transform timing wins trades",
+    "detail": "Once you're near max Rage, bait his next engage so you transform into Mega Gnar mid-fight; the free stun from W (Wallop) swings an even trade into a kill."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are pulled from measured OP.GG games on the current patch (16.20.1); the mechanical reasoning and trade-pattern advice are my own analysis layered on top."
+ },
+ "generatedAt": 1791504245648,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791504205976,
+  "overall": {
+   "winRate": 49.4,
+   "play": 10097,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 247,
+   "wins": 130,
+   "winRate": 52.6
+  },
+  "laneAdvantage": "Gnar",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of having [E] interrupted with (E). Manage your distance well to kite him and gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52.7,
+    "play": 201,
+    "pickRate": 68.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.6,
+    "play": 54,
+    "pickRate": 18.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 7.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.1,
+    "play": 107,
+    "pickRate": 36.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60.3,
+    "play": 73,
+    "pickRate": 24.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 54.5,
+    "play": 213,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 41.3,
+    "play": 46,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.4,
+    "play": 250,
+    "pickRate": 86.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.9,
+    "play": 57,
+    "pickRate": 34.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 12.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 52.3,
+    "play": 279,
+    "pickRate": 94.3
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.2,
+    "play": 209,
+    "pickRate": 70.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50.4,
+    "play": 119,
+    "pickRate": 40.2
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 50.8,
+    "play": 59,
+    "pickRate": 19.9
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 60,
+    "play": 55,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 5.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 49,
+    "play": 96
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1803
+  }
+ }
+}

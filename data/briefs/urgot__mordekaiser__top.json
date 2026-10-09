@@ -1,0 +1,384 @@
+{
+ "you": "Urgot",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You concede the laning phase to Mordekaiser's melee all-ins, but Urgot pulls ahead once Black Cleaver stacks and Sterak's Gage land, backing a 57.4% head-to-head win rate over 136 games."
+  },
+  "thesis": "Mordekaiser holds the raw lane and solo-kill edge because he out-trades you in melee range and threatens a forced 1v1 with R (Realm of Death), but Urgot's kit is built to poke from outside that range and out-scale him with items. That structural mismatch between early lane shape and late-game power is why Urgot still wins 57.4% of recorded games despite the matchup being labeled defensive.",
+  "tell": {
+   "watch": "Mordekaiser's W (Indestructible) cooldown",
+   "theirWindow": {
+    "when": "His E (Death's Grasp) up, passive stacked",
+    "what": "Back off immediately. E pulls you in from 700 range and chains into Q (8/7/6/5/4s cd); his passive (Darkness Rise) triggers after 3 landed attacks or spells and buffs his damage and move speed once it's up."
+   },
+   "yourWindow": {
+    "when": "His W (Indestructible) is on cooldown",
+    "what": "Close with E (Disdain, 475 range) to trample in and stop him, then unload Q and autos. Without his W shield he has nothing to offset the trade, so this is when you force damage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Melee Q trades outpace your early poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E pull + Q all-in window is live"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R threatens a forced isolated duel"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Black Cleaver stacks start tipping trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sterak's and tenacity win extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade > Health Potion",
+    "why": "Most-picked start (81.1% pick, 61% WR over 146 games) — the extra sustain matters because you're absorbing Q and auto trades while waiting to poke back at range."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Highest-pick boots (64.5% pick, 55.9% WR over 111 games); the magic resist directly blunts his Q/E magic damage and the tenacity shortens any CC chain after an E pull."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred turns your Q and auto trades lethal once stacked — this is the item that flips the matchup from 'even' to 'yours' around levels 9-13."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Health and tenacity let you survive his all-in windows and keep trading instead of losing extended fights."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Top build path (18.6% pick, 77.3% WR over 22 games) — stacking resistances lets you tank his Q/E magic damage while you out-trade him in melee range."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he's hitting hard enough with Q/E magic damage that you need more flat magic resist plus a burst shield"
+    },
+    {
+     "item": "Serpent's Fang",
+     "when": "his W (Indestructible) shield is consistently blunting your damage in fights"
+    },
+    {
+     "item": "Thornmail",
+     "when": "you need to cut the healing he gets from consuming his W shield"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Your Q and auto-attacks land from range before he closes, so you can stack PTA's three hits and punish the trade the moment he enters melee — important since you're playing from a lane deficit and need every trade to count.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest-performing combo (58.7% WR, 84.7% pick). Ignite's grievous wounds cuts the healing he gets from consuming his W shield, and Flash lets you dodge his E (Death's Grasp) pull or extend your own E engage."
+  },
+  "playing": [
+   {
+    "title": "Hold max range",
+    "detail": "Stay at Q's 800 range and auto range rather than trading in melee. His passive (Darkness Rise) needs 3 landed attacks or spells on champions or monsters to trigger, so staying out of range denies it."
+   },
+   {
+    "title": "Track his E cooldown",
+    "detail": "Death's Grasp (16/14/12/10/8s, 700 range) pulls you in and chains into his Q. If it's up, don't hover at the edge of lane."
+   },
+   {
+    "title": "Punish W downtime",
+    "detail": "Close with E (Disdain, 16/15.5/15/14.5/14s cd, 475 range) when his W (Indestructible, 12/11/10/9/8s cd) is on cooldown — he has no shield to offset the trade."
+   },
+   {
+    "title": "Respect level 6 onward",
+    "detail": "Once he has R (Realm of Death, 100/85/70/70/70s cd, 650 range) he can drag you into an isolated fight. Don't overextend near that range when you're low."
+   },
+   {
+    "title": "Zone with Q, not melee",
+    "detail": "Corrosive Charge (10/9.5/9/8.5/8s cd, 800 range) slows and chips wave state without exposing you to his melee combo."
+   },
+   {
+    "title": "Play for farm, not kills",
+    "detail": "Your win rate climbs once Black Cleaver and Sterak's Gage complete. Take short trades and even CS until then rather than forcing all-ins."
+   },
+   {
+    "title": "Finish fights with E into W",
+    "detail": "Once items are online, engage with E (Disdain) to stop and displace him, then unload W (Purge, cooldown drops to 0s at rank 5), which prioritizes him and triggers Echoing Flames."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample numbers above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and timing calls are my own read of the ability kits, not measured data."
+ },
+ "generatedAt": 1791500712117,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791500609275,
+  "overall": {
+   "winRate": 52.4,
+   "play": 6827,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 136,
+   "wins": 78,
+   "winRate": 57.4
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Keep some distance to deactivate Mordekaiser’s (P). Close in with [E] when his (W) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 58.7,
+    "play": 155,
+    "pickRate": 84.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 10.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 2.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 54,
+    "pickRate": 29.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 68,
+    "play": 25,
+    "pickRate": 13.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 61,
+    "play": 146,
+    "pickRate": 81.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 27.8,
+    "play": 18,
+    "pickRate": 10
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.9,
+    "play": 111,
+    "pickRate": 64.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 66.7,
+    "play": 27,
+    "pickRate": 15.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 77.3,
+    "play": 22,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Kaenic Rookern"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 11
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 58.5,
+    "play": 176,
+    "pickRate": 94.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 64.9,
+    "play": 114,
+    "pickRate": 61.3
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 68.2,
+    "play": 44,
+    "pickRate": 23.7
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 76.5,
+    "play": 34,
+    "pickRate": 18.3
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 12.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 10.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 58.3,
+    "play": 36
+   }
+  ]
+ }
+}

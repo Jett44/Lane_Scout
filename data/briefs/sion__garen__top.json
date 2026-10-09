@@ -1,0 +1,384 @@
+{
+ "you": "Sion",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close, edge them",
+   "line": "You lose if you trade into Garen's E (Judgment) spins without your own Q up and sit low near his level-6 Ignite+R window; you win if you shield-soak and drag the fight long enough for Enrage and Cannibalism to outlast his burst."
+  },
+  "thesis": "Garen's trade tools are all short-cooldown and self-contained: E (Judgment) resets every 13/12/11/10/9s and Q (Decisive Strike) resets every 8s, giving him a silence+bonus-damage proc on nearly every engage. Sion's Feel No Pain passive and W shield can absorb that, but only if Sion isn't also low near Garen's level-6 Demacian Justice execute window. The measured numbers back this up: Garen holds the lane and solo-kill advantage, and Sion sits at 49% over 149 games even though the overall shape is close.",
+  "tell": {
+   "watch": "Garen's R availability post-6",
+   "theirWindow": {
+    "when": "Garen hits level 6 with Ignite up",
+    "what": "His R (Demacian Justice) attempts to execute at 400 range on a 140/110/80/50/20s cooldown. Combined with Ignite this is the real kill threat OP.GG flags for this matchup, so hold a health buffer and don't greed trades below roughly 40% HP near this level."
+   },
+   "yourWindow": {
+    "when": "right after Garen's Q lands",
+    "what": "Garen's Q (Decisive Strike) is his only gap-close/escape and it's now on an 8s cooldown with nothing to back it up. Step in immediately, land your own Q (Cryptic Gaze) stun, and toggle E (Enrage) to win the follow-up exchange before his Q resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Perseverance regen plus Judgment poke win early trades"
+   },
+   {
+    "levels": "4-5",
+    "edge": "even",
+    "note": "Your Q (10-9s CD) starts contesting his trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Demacian Justice plus Ignite threat peaks"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Enrage's permanent max-HP growth closes the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Tank build and R sustain outscale his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "50.5% win rate over 105 games and the majority pick (54.7%); it blunts Garen's early auto-attack and Judgment poke while you farm up to your first stun window."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.4% win rate over 111 games and the clear majority pick (63.1%) — Garen's trade pattern leans on autos plus Judgment's physical damage, which Steelcaps directly cuts into."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Core first item on every listed path; stacking max HP feeds directly into Enrage's attack damage scaling."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Part of the 80% win rate path (5 games) into Thornmail; adds sustained AoE pressure while you tank Judgment's spin."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Caps both listed core paths; punishes Garen's auto-attack-reliant trading and Judgment uptime directly."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "you need more sustain through his poke before committing to Thornmail"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "you're ahead and want faster wave clear to threaten dives off your Q stun"
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the game goes long and their team adds magic damage on top of Garen"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Heals you on trades and scales bonus health, which stacks with Enrage's permanent max-HP growth to win extended fights against Garen's Perseverance regen.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Legend: Haste",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The overwhelming pick at 83.7% with a 49.1% win rate, and Teleport lets you reset waves safely around Garen's E (Judgment) poke. Flash+Ignite posts a higher 60% win rate but only over a 7.9%-pick sample — worth trying if you want to punish his level-6 R window with your own kill threat instead."
+  },
+  "playing": [
+   {
+    "title": "Hold Q for engage, not poke",
+    "detail": "Sion's Q (Cryptic Gaze) stuns at 550 range on a 12/11/10/9/8s cooldown. Save it to lock Garen down for a full trade rather than poking with it, since whiffing it leaves you open to his free Q (Decisive Strike) silence and bonus damage."
+   },
+   {
+    "title": "Shield before he resets regen",
+    "detail": "Sion's W (Death's Caress) absorbs damage and explodes if it survives its duration, on an 8s cooldown. Pop it to soak Garen's Judgment damage and force him to spend time breaking it, denying the quiet window his Perseverance passive needs to start regenerating."
+   },
+   {
+    "title": "Trade right after his Q lands",
+    "detail": "Garen's Q is his only gap-close and it's now on an 8s cooldown with nothing else to back it up. Step in with your own Q and toggle E (Enrage) to win the follow-up exchange before his Q is back."
+   },
+   {
+    "title": "Toggle Enrage only when safe",
+    "detail": "E (Enrage) grants attack damage at the cost of health on every auto with no cooldown. Turning it on while Garen's Judgment is actively spinning just accelerates his trade math — toggle it on when you're committing to a hit, not while standing in his spin."
+   },
+   {
+    "title": "Play around the level-6 execute",
+    "detail": "Once Garen hits 6, his R (Demacian Justice) attempts to execute at 400 range on a 140/110/80/50/20s cooldown. This paired with Ignite is the matchup's named kill threat, so keep a health buffer and don't stand in extended trades below roughly 40% HP."
+   },
+   {
+    "title": "Save R for sustained skirmishes",
+    "detail": "Sion's R (Cannibalism) leeches health to you and nearby allies on each attack and grants attack speed for its duration, on a 90s cooldown. Save it for a prolonged fight rather than a quick poke exchange — Garen's W also deals damage over its duration, so whoever sustains longer wins."
+   },
+   {
+    "title": "Farm through early poke, don't force it",
+    "detail": "OP.GG's own read on this matchup is to contest and farm rather than force fights before 6 — Garen's early regen and Judgment uptime win short trades, so prioritize safe CS over forcing all-ins you can't back up with your Q."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates/sample sizes are pulled from measured games on the current patch via OP.GG; the ability timings and trade-pattern reasoning are my own read of the kit."
+ },
+ "generatedAt": 1791513164232,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513060975,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 149,
+   "wins": 73,
+   "winRate": 49
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "even",
+  "opponentTip": "Avoid being killed by his Ignited – (R) combo after he reaches level 6. Use your skills to contest and farm lane instead of fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.1,
+    "play": 159,
+    "pickRate": 83.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 7.9
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.2,
+    "play": 65,
+    "pickRate": 34
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.9,
+    "play": 34,
+    "pickRate": 17.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.5,
+    "play": 105,
+    "pickRate": 54.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 58.7,
+    "play": 46,
+    "pickRate": 24
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.4,
+    "play": 111,
+    "pickRate": 63.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.8,
+    "play": 46,
+    "pickRate": 26.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Sunfire Aegis",
+     "Thornmail"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 4.7
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Sunfire Aegis",
+     "Unending Despair"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 43.9,
+    "play": 98,
+    "pickRate": 51.9
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 52.2,
+    "play": 90,
+    "pickRate": 47.6
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 60.3,
+    "play": 73,
+    "pickRate": 38.6
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 23.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.2,
+    "play": 41,
+    "pickRate": 21.7
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 74.2,
+    "play": 31,
+    "pickRate": 16.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.2,
+    "play": 58
+   }
+  ]
+ }
+}

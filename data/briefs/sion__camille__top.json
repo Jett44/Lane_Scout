@@ -1,0 +1,388 @@
+{
+ "you": "Sion",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane disadvantage",
+   "line": "You lose if you trade autos into a fresh Q or get caught alone with her E and R both up; you win if you force every fight with her E on cooldown and your W shield already absorbing, stacking health until Heartsteel comes online."
+  },
+  "thesis": "Camille's kit is built to dictate when fights happen — Hookshot (E) gives her a gap-close and an escape, Precision Protocol (Q) lets her poke with an empowered auto and walk away on bonus move speed — while Sion has zero mobility and wins only by standing, absorbing with W, and forcing trades on a timer she can't dodge. The 51.1% head-to-head win rate over 88 games sits above Sion's overall 49.6%, but the lane and solo-kill edge both go to her, so the matchup is winnable only if you refuse her terms and wait for yours.",
+  "tell": {
+   "watch": "Camille's E cooldown",
+   "theirWindow": {
+    "when": "her E and Q are both up",
+    "what": "She can poke with Q's empowered auto for bonus damage and move speed, then dash away with Hookshot if you step up, or combo the E knockup into point-blank autos. Do not engage into this — back off and wait."
+   },
+   "yourWindow": {
+    "when": "her E is on cooldown",
+    "what": "She has no dash to leave the fight, so this is when Cryptic Gaze (Q) actually lands — toggle Enrage (E) for the attack damage, land the stun, and trade autos under your W shield since she's stuck standing there with you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her Q poke wins neutral auto trades"
+   },
+   {
+    "levels": "3-6",
+    "edge": "them",
+    "note": "E dash plus level 6 R all-in lands clean"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Enrage health stacking starts closing the gap"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Heartsteel/Titanic Hydra bruiser threat comes online"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "Her pick power still answers your sustain"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Measured as the 62% pick at 50% win rate here — you have no way to punish her Q poke early, so the flat damage reduction and sustain keep you from bleeding HP you'll need for later all-ins."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "67% pick, 47.5% win rate — her entire trade pattern is auto-attack based (empowered Q auto, passive attack shield), and flat auto-attack reduction blunts that harder than magic resist does."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Pairs directly with Enrage's permanent max-health gain on kills, turning your farm into both a tankier body and more stacked damage."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Scales off the health Heartsteel and Enrage are stacking, giving your autos real cleave damage once you're no longer losing the all-in race."
+    },
+    {
+     "item": "Thornmail",
+     "why": "She lives on autos and her passive attack shield — grievous wounds and reflected damage directly punish an auto-attack-reliant kit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "she's building lifesteal or heavy sustain to out-trade your health pool"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you need more anti-heal and raw tankiness against her sustained auto trades"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "the enemy team has multiple auto-attackers and you need wave clear on top of it"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "you're ahead on health and want to convert your stacked max HP into more burst"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's proc damage and heal scale with max health, which is exactly what Enrage is stacking every time you kill a minion — it keeps you winning the sustain war against her poke lane.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "The 88.6% pick rate at 47.3% win rate reflects the matchup: Flash is your only tool to avoid getting caught by her E knockup into R anchor, and Teleport lets you reset tempo after a bad trade instead of contesting a lane where she holds the solo-kill edge."
+  },
+  "playing": [
+   {
+    "title": "Fight only when her E is down",
+    "detail": "Hookshot (E) is her gap-close and her escape — once it's on cooldown (16 to 12 seconds by rank) she can't disengage or dive you, so that's when you toggle Enrage and commit."
+   },
+   {
+    "title": "Land Q from brush",
+    "detail": "Cryptic Gaze's 550-range stun is easy to walk out of if she sees the cast coming — using it from inside brush removes her reaction window entirely."
+   },
+   {
+    "title": "Don't trade into a fresh Q",
+    "detail": "Precision Protocol grants her next attack bonus damage and move speed, with a bigger recast payoff if she delays it — walking into an auto trade right after she casts it is a losing exchange."
+   },
+   {
+    "title": "Hold your W shield for her commitment",
+    "detail": "Death's Caress's absorb shield is worth more unpopped — let it soak her all-in rather than detonating it early, since the explosion only matters once she's actually in range."
+   },
+   {
+    "title": "Respect level 6 hard",
+    "detail": "The Hextech Ultimatum lets her dash onto you from 475 range and anchor you in place while her autos deal bonus magic damage — never stand past the minion wave without Flash up once she hits 6."
+   },
+   {
+    "title": "Farm safely to stack health",
+    "detail": "Enrage permanently raises your max health on every kill — prioritize safe csing under tower over contesting trades until that health lead plus Heartsteel stacks start outscaling her burst."
+   },
+   {
+    "title": "Use Teleport to skip bad fights",
+    "detail": "Since she holds both the lane and solo-kill edge here, Teleport is there to let you disengage a losing trade and show up to sidelane skirmishes instead, rather than forcing even exchanges she's favored to win."
+   }
+  ],
+  "patchCaveat": "The build order, boots, runes, summoner spells, and all win-rate/pick-rate numbers above are measured from live games on the current patch via OP.GG — the tactical reading of why those numbers happen (cooldown timing, shield usage, E-dodge windows) is my own analysis layered on top."
+ },
+ "generatedAt": 1791513556105,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791513441541,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 88,
+   "wins": 45,
+   "winRate": 51.1
+  },
+  "laneAdvantage": "Camille",
+  "soloKillAdvantage": "Camille",
+  "playStyle": "even",
+  "opponentTip": "Do not let her interrupt [Q] using (E). Fight her whenever your skills come off cooldown. Try to hit her with [Q] by using it from inside a brush.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.3,
+    "play": 93,
+    "pickRate": 88.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 16.7,
+    "play": 6,
+    "pickRate": 5.7
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 3.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.2,
+    "play": 43,
+    "pickRate": 41
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 11.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 62,
+    "pickRate": 62
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 23
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.5,
+    "play": 61,
+    "pickRate": 67
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 16.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Titanic Hydra",
+     "Unending Despair"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 4.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 45.5,
+    "play": 55,
+    "pickRate": 52.9
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 51,
+    "play": 49,
+    "pickRate": 47.1
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 30.8
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 51.7,
+    "play": 29,
+    "pickRate": 27.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 34.6,
+    "play": 26,
+    "pickRate": 25
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 43.5,
+    "play": 23,
+    "pickRate": 22.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 46.4,
+    "play": 28
+   }
+  ]
+ }
+}

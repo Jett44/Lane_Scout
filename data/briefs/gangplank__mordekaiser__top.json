@@ -1,0 +1,380 @@
+{
+ "you": "Gangplank",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Close but disadvantaged",
+   "line": "You lose this if you stand and melee-trade into his Obliterate stacks or get isolated by Realm of Death; you win it by poking at max Parrrley range and refusing to fight once his Indestructible shield is up."
+  },
+  "thesis": "Mordekaiser wins extended fights because Indestructible (W) banks every point of damage you land into a shield he can pop to heal, and Darkness Rise makes him hit harder and move faster the longer a trade drags on. He has no dash or gap-closer, so your actual edge is tempo — hit with Q (Parrrley) from 625 range and leave, don't stand in auto range and let a skirmish become a siege.",
+  "tell": {
+   "watch": "Mordekaiser's Indestructible (W) cooldown",
+   "theirWindow": {
+    "when": "When his W (Indestructible) is up",
+    "what": "He can tank your poison and Q poke and bank it into a shield to heal straight back. Don't commit past one Q here — back off and let Grog-Soaked Blade's poison do the work instead of your melee range."
+   },
+   "yourWindow": {
+    "when": "Right after he burns Indestructible (W)",
+    "what": "His shield is down for 8-12s depending on rank, so this is when a real trade pays off. Walk up, land Q and autos, and leave before he can land three hits and trigger Darkness Rise."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Obliterate's low cooldown wins early pokes"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R isolates you for solo kills"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Essence Reaver sustains your poke pattern"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Near-even per data; kite, don't duel"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The highest-volume start here (74.9% pick, 47.3% WR over 262 games) — the extra AD and health sustain let you absorb Obliterate pokes while you wait for Q poke windows instead of recalling early."
+   },
+   "boots": {
+    "item": "Gluttonous Greaves",
+    "why": "Best measured result of the two boot options (53.2% WR over 77 games) and the omnivamp directly offsets a melee champ eating magic damage from Obliterate and the Darkness Rise aura in close trades."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain plus AD lets you spam Parrrley (Q, 5s cooldown) all game without running dry, which is the whole poke plan against someone with no mana cost of their own."
+    },
+    {
+     "item": "The Collector",
+     "why": "The execute threshold turns your Grog-Soaked Blade poison ticks into real kills once you've whittled him down from range rather than needing to land the finishing blow in melee."
+    },
+    {
+     "item": "Infinity Edge",
+     "why": "Converts your poke into real burst damage once it crits, which matters because Indestructible's shield scales with the damage you deal — you need to overkill it, not chip it."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "he's leaning on Indestructible's shield to tank every one of your trades"
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "when": "he builds health or resistances and your Q damage starts falling off"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "he's pathing for solo Realm of Death duels on you and you need to survive the isolation"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "Its burn stacks on top of Grog-Soaked Blade's poison, so every poke auto or Q adds a second damage-over-time effect that rewards hit-and-run trading instead of standing in melee range.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick here (90.8% pick, 49.1% WR) — Ignite finishes kills off your poison ticks and punishes his all-in, while Flash lets you reposition the instant you see Death's Grasp or Realm of Death coming rather than getting locked into a duel."
+  },
+  "playing": [
+   {
+    "title": "Trade at max Q range",
+    "detail": "Poke with Parrrley (625 range, 5s cooldown) and step back immediately — standing in auto range just feeds Obliterate's short cooldown and Darkness Rise stacks."
+   },
+   {
+    "title": "Never fight through Indestructible",
+    "detail": "Once his W shield is up, your damage just becomes his heal. Disengage and wait for the cooldown tell before committing to anything beyond a single Q."
+   },
+   {
+    "title": "Respect Death's Grasp zoning",
+    "detail": "His E pulls everything in an area toward him on a cooldown as low as 8s at max rank — don't hover near brush or jungle entrances where that pull drags you into Obliterate range."
+   },
+   {
+    "title": "Track his first R timer",
+    "detail": "Realm of Death is 140s on first cast and drops to 90-80s by rank 5 — know when it's up after level 6 and avoid solo duels in brush until you can survive a forced isolation."
+   },
+   {
+    "title": "Hold W for the pull, not the poke",
+    "detail": "Remove Scurvy clears CC and heals — save it to answer a Death's Grasp pull or stabilize HP mid-trade rather than burning it just to top off chip damage."
+   },
+   {
+    "title": "Bank R for sieges, not duels",
+    "detail": "Cannon Barrage's global range is wasted trying to solo him — use it to zone him off objectives or punish his total lack of mobility across the map."
+   },
+   {
+    "title": "Reset before 60% HP",
+    "detail": "Given his solo-kill edge and snowballing passive, back out of lane once you're under roughly 60% HP instead of trying to out-sustain him into a losing all-in."
+   }
+  ],
+  "patchCaveat": "Build order, win rates, and pick rates above come from measured OP.GG games on the current patch (16.20.1); the tactical reasoning — timings, trade windows, and cooldown reads — is my own analysis of the kit, not sourced data."
+ },
+ "generatedAt": 1791502033141,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791501880172,
+  "overall": {
+   "winRate": 50.4,
+   "play": 15059,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 268,
+   "wins": 133,
+   "winRate": 49.6
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Get rid of Mordekaiser’s (R) with [W]. Gain stacks of Grasp of the Undying while avoid fighting in prolonged combat.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 324,
+    "pickRate": 90.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 60,
+    "play": 30,
+    "pickRate": 8.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 1,
+    "pickRate": 0.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 49.3,
+    "play": 136,
+    "pickRate": 38.1
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 50,
+    "play": 42,
+    "pickRate": 11.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.3,
+    "play": 262,
+    "pickRate": 74.9
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 60.5,
+    "play": 43,
+    "pickRate": 12.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 46.5,
+    "play": 86,
+    "pickRate": 29.1
+   },
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 53.2,
+    "play": 77,
+    "pickRate": 26
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 58.1,
+    "play": 43,
+    "pickRate": 18.5
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 12.1
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 55.6,
+    "play": 27,
+    "pickRate": 11.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 49.6,
+    "play": 347,
+    "pickRate": 95.3
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 54.8,
+    "play": 166,
+    "pickRate": 45.6
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 54.7,
+    "play": 161,
+    "pickRate": 44.2
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 56.1,
+    "play": 139,
+    "pickRate": 38.2
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 48,
+    "play": 100,
+    "pickRate": 27.5
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 46.5,
+    "play": 86,
+    "pickRate": 23.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.8,
+    "play": 116
+   }
+  ]
+ }
+}

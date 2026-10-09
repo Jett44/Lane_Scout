@@ -1,0 +1,390 @@
+{
+ "you": "Kled",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early favored",
+   "line": "You win by abusing the pre-6 all-in window and punishing every whiffed Death's Grasp; you lose if the lane drags past level 9-10 and Mordekaiser's Indestructible sustain plus his stat-stealing ultimate let him out-scale the trades he was losing."
+  },
+  "thesis": "Kled's Joust-W-Joust combo (full E, then W, then the E dash-back) lands faster and hits harder than anything Mordekaiser can answer with before level 6, which is why both the lane and solo-kill edge sit with Kled in this data. That edge erodes once Mordekaiser's W (Indestructible) has enough banked damage to heal off trades and his R (Realm of Death) threatens to steal your stats on a kill — the 46.3% win rate over 108 games says this matchup is won early and defended late, not scaled into.",
+  "tell": {
+   "watch": "Morde's Death's Grasp (E) cooldown",
+   "theirWindow": {
+    "when": "Right after Death's Grasp lands on you",
+    "what": "You're pulled into Obliterate range while his passive (Darkness Rise) racks up its third proc for free damage and move speed — disengage with a remaining Joust charge the instant the pull ends rather than fighting it out."
+   },
+   "yourWindow": {
+    "when": "Death's Grasp is down or just whiffed",
+    "what": "Joust (E) in immediately, pop Violent Tendencies (W) for the four empowered autos, then re-cast E to dash back out before his Obliterate (8-4s cooldown) can land a second time."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Joust burst beats his lone Q poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "full E-W-E combo, all-in window open"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Realm of Death adds lockdown threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Indestructible heal-off-shield starts winning trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "stat-steal snowball, split-push instead of dueling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "46.4% win rate over 110 games and 82.1% pick rate — the sustain and early AD keep you winning repeated dismount/remount skirmishes before Morde's shield comes online."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "52.8% win rate over 72 games, 66.1% pick rate — Mordekaiser's entire kit (Obliterate, Death's Grasp, Realm of Death) is magic damage, so the magic resist directly blunts every trade."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Wave-clear and bonus HP scale your all-in combo and let you threaten a split-push the moment the lane stabilizes."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks off your Joust dashes and W auto-attacks, pushing damage through before his Indestructible shield can bank enough to heal."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "50% win rate in the measured 6-game sample for this path — the bonus health and damage reduction keep you alive through his Realm of Death burst window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "his Indestructible shield is consistently eating your burst damage in trades"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you want a harder execute threshold on your Joust-W-Joust all-in combo"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "fights are running long and you need omnivamp to outlast his sustain"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the lane is stable and you're shifting to side-lane sieges past level 13"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive damage and healing scale with the extended E-W-E trades this matchup is built around, and it keeps paying off even if a fight runs longer than planned against his Indestructible sustain.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Exhaust",
+    "Flash"
+   ],
+   "why": "Flash+Ignite is the standard pick (76.8% pick rate) and converts your solo-kill advantage into actual kills before he can sustain off Indestructible. Exhaust+Flash posts a 60% win rate in its smaller sample and directly cuts the healing he'd otherwise bank off that same shield during a drawn-out trade."
+  },
+  "playing": [
+   {
+    "title": "Abuse the pre-6 all-in",
+    "detail": "Before Mordekaiser hits level 6, his only answers to an all-in are Obliterate (8-4s cooldown) and Death's Grasp (16-8s cooldown); chain Q (Bear Trap) into E (Jousting), fire W (Violent Tendencies), then E back before he can reset with another Q."
+   },
+   {
+    "title": "Only dash in when his E is down",
+    "detail": "Track whether Death's Grasp has been cast or whiffed — its cooldown is your green light to Joust in without getting pulled into his Obliterate range."
+   },
+   {
+    "title": "Watch for his third landed hit",
+    "detail": "Darkness Rise triggers after Mordekaiser lands 3 attacks or spells on you, giving him a damage aura and move speed — don't commit your Joust dash-back into a trade where he's about to proc it."
+   },
+   {
+    "title": "Front-load before his shield banks",
+    "detail": "Indestructible stores damage he can later consume to heal, so land your full Q-E-W-E combo in one burst instead of poking, denying him time to bank shield value."
+   },
+   {
+    "title": "Finish duels fast, don't poke",
+    "detail": "Obliterate deals more damage to a single target, so a drawn-out 1v1 lets his Q ramp and his passive aura tip the trade back his way — use your solo-kill advantage decisively, not slowly."
+   },
+   {
+    "title": "Respect Realm of Death's cooldown",
+    "detail": "His ultimate is 140/125/110/110/110s and steals your stats on a kill — play safer around his ult timer once he hits level 6 rather than forcing all-ins blind."
+   },
+   {
+    "title": "Split-push if the lane stalls",
+    "detail": "Past level 13, his sustain and stat-steal snowball start outscaling extended trades — use Titanic Hydra/Hullbreaker wave clear to pressure side lanes instead of forcing more 1v1s."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and all win-rate/sample numbers are measured from live Kled vs Mordekaiser games on the current patch (108-game head-to-head sample); the timing windows, trade sequencing, and power-curve reads are my own analysis of how the two kits interact."
+ },
+ "generatedAt": 1791508989585,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791508888598,
+  "overall": {
+   "winRate": 49.8,
+   "play": 4985,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 108,
+   "wins": 50,
+   "winRate": 46.3
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "aggressive",
+  "opponentTip": "Try to use Jousting [E] and Violent Tendencies [W] to deal damage and retreat safely afterwards with Jousting [E]. Do not get pulled in by Mordekaiser’s Death’s Grasp (E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.1,
+    "play": 109,
+    "pickRate": 76.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 5.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 29.5,
+    "play": 44,
+    "pickRate": 31
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Sudden Impact"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 27.3,
+    "play": 11,
+    "pickRate": 7.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.4,
+    "play": 110,
+    "pickRate": 82.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.8,
+    "play": 72,
+    "pickRate": 66.1
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.2,
+    "play": 24,
+    "pickRate": 22
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 8.2
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Black Cleaver"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 49.5,
+    "play": 107,
+    "pickRate": 72.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54,
+    "play": 63,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Profane Hydra"
+    ],
+    "winRate": 28.6,
+    "play": 28,
+    "pickRate": 19.1
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 57.7,
+    "play": 26,
+    "pickRate": 17.7
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 33.3,
+    "play": 24,
+    "pickRate": 16.3
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 27.3,
+    "play": 22,
+    "pickRate": 15
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52.9,
+    "play": 34
+   }
+  ]
+ }
+}

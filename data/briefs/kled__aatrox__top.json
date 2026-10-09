@@ -1,0 +1,384 @@
+{
+ "you": "Kled",
+ "them": "Aatrox",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you grind extended trades where his passive and E sustain him through it; you win if you close the kill fast with E and W before he stabilizes."
+  },
+  "thesis": "Kled gets first-strike advantage because Skaarl's extra health pool and the Jousting (E) + Violent Tendencies (W) burst combo threaten a kill before Aatrox has leveled his Q stacks or built up Deathbringer Stance sustain. But Aatrox's kit is built to punish the follow-through: his Q (The Darkin Blade) can interrupt your E return dash if you path back through him, and his passive plus Umbral Dash (E) healing let him win fights that go long. That's why the raw head-to-head sits at 48.3% over 143 games, slightly under Kled's 49.7% baseline, even though the lane and solo-kill stats favor you — the advantage is real but only if you cash it in early.",
+  "tell": {
+   "watch": "Aatrox's Q swing count",
+   "theirWindow": {
+    "when": "when his Q and W are both ready",
+    "what": "Do not commit to an extended trade or chase with your E return dash through him — his Q can interrupt that second Jousting hit, and his W (Infernal Chains, 20/18/16/14/12s cooldown) drags you back into it if you linger in the impact zone."
+   },
+   "yourWindow": {
+    "when": "when Aatrox's Q and W are both down",
+    "what": "All-in immediately: Jousting (E) in, pop Violent Tendencies (W) for the four-attack burst, and commit to the kill. This is when his interrupt and his engage tool are both gone, so your solo-kill advantage actually lands."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Skaarl's bonus health wins early poke trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E+W burst threatens kill before his stacks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "World Ender sustain starts stabilizing his trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Umbral Dash healing punishes drawn-out skirmishes"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight value swings on your dismount timing"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "90.7% pick rate at 48.7% winrate over 156 games — the sustained damage and extra HP let you force the early all-in trades this matchup rewards."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "80.3% pick at 44.1% winrate — Aatrox's whole kit is physical autos and sword slams, so flat armor blunts both his trades and his Deathbringer Stance procs."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Scales your Skaarl health pool into more damage and gives wave clear so you can push a lane advantage into tempo."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks from your W-empowered autos, which matters directly against Aatrox's physical damage profile."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "83.3% winrate in the sample as the third core piece — the bonus health and proc damage keep you durable through Aatrox's sustain windows."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're getting burst down before you can land your own combo"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead and want to split-push off the lane advantage"
+    },
+    {
+     "item": "Mortal Reminder",
+     "when": "aatrox's passive and E healing are keeping him alive through your trades"
+    },
+    {
+     "item": "Executioner's Calling",
+     "when": "you need the grievous wounds earlier than a full mythic-tier item allows"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Conqueror's stacking adaptive force rewards exactly the extended skirmishes your W burst sets up, and the healing on takedown helps offset Aatrox's own sustain if the fight runs long.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "84.3% pick rate at 48.7% winrate — Ignite denies Aatrox's Deathbringer Stance and Umbral Dash healing during your all-in window, which is the difference between a trade and the solo kill you're favored for."
+  },
+  "playing": [
+   {
+    "title": "Force fights before level 6",
+    "detail": "Your W+E burst combo threatens a kill while Aatrox still lacks full Q stacks and World Ender; this is your highest-leverage window before the matchup evens out."
+   },
+   {
+    "title": "Never chase through him with E",
+    "detail": "The second half of Jousting dashes back through your original target — if that path crosses Aatrox while his Q is up, he interrupts it. Bait his Q first or don't return through him."
+   },
+   {
+    "title": "Punish Infernal Chains whiffs hard",
+    "detail": "His W is on a 20/18/16/14/12s cooldown — if it misses, he has no engage tool for a long window. That's when your solo-kill advantage is safest to execute."
+   },
+   {
+    "title": "Track your own dismount state",
+    "detail": "Once Skaarl's health depletes, your Q swaps from a hook to Pocket Pistol and you deal less to champions — plan trades around staying mounted, not around winning while dismounted."
+   },
+   {
+    "title": "Build Grievous Wounds if sustain stalls you",
+    "detail": "If Deathbringer Stance procs and Umbral Dash healing are keeping Aatrox topped off through your trades, prioritize Executioner's Calling or Mortal Reminder to cut that back."
+   },
+   {
+    "title": "Close the lane, don't grind it",
+    "detail": "The 48.3% head-to-head sits below your 49.7% baseline despite your stated lane and solo-kill edge — that gap is Aatrox's late-trade sustain clawing it back, so end the lane early rather than let it go long."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample figures above are measured OP.GG data from live games on the current patch; the mechanical reasoning — why the Q-interrupt matters, when to all-in, how dismounting changes your trades — is my own tactical read on top of that data."
+ },
+ "generatedAt": 1791509132449,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791509036741,
+  "overall": {
+   "winRate": 49.7,
+   "play": 5093,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 143,
+   "wins": 69,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "aggressive",
+  "opponentTip": "Always be wary of Aatrox’s abilities’ range. His The Darkin Blade (Q) can interrupt Jousting [E] so try to keep your distance while contesting lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.7,
+    "play": 150,
+    "pickRate": 84.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 5.6
+   },
+   {
+    "names": [
+     "Ignite",
+     "Barrier"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 3.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 57,
+    "pickRate": 32
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 48.7,
+    "play": 156,
+    "pickRate": 90.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 4.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.1,
+    "play": 118,
+    "pickRate": 80.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 57.1,
+    "play": 21,
+    "pickRate": 14.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Hullbreaker"
+    ],
+    "winRate": 28.6,
+    "play": 7,
+    "pickRate": 9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 53,
+    "play": 132,
+    "pickRate": 73.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.3,
+    "play": 60,
+    "pickRate": 33.5
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 54.9,
+    "play": 51,
+    "pickRate": 28.5
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 47.5,
+    "play": 40,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 48,
+    "play": 25,
+    "pickRate": 14
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 41.9,
+    "play": 43
+   }
+  ]
+ }
+}

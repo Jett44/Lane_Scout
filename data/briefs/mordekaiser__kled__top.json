@@ -1,0 +1,381 @@
+{
+ "you": "Mordekaiser",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose the lane if Kled hooks you with Q and burns Jousting before level 6, but you win the siege once Realm of Death comes online and Skaarl stays dead."
+  },
+  "thesis": "Kled's entire kit is built around his Skaarl health bar: while mounted he hits far harder and controls range with Q (Bear Trap on a Rope) and E (Jousting), but once Skaarl drops Kled dismounts into a much weaker form until he rebuilds courage. Mordekaiser has no way to punish the mounted burst directly, so the matchup is measured in whether you survive the mounted phase long enough to force dismounts and eventually drag him into R (Realm of Death) where Skaarl can't follow.",
+  "tell": {
+   "watch": "Skaarl's health bar / dismount state",
+   "theirWindow": {
+    "when": "Skaarl mounted and Q, E both up",
+    "what": "Kled can hook you with Q (Bear Trap on a Rope) to yank you in, then follow with E (Jousting) and W (Violent Tendencies) attacks for a full burst combo. Don't stand in Q range (800) when both cooldowns are ready."
+   },
+   "yourWindow": {
+    "when": "Skaarl dismounted, courage low",
+    "what": "Dismounted Kled deals less damage to champions and trades Q for the weaker Pocket Pistol. This is when you walk up and freely land Q (Obliterate) and E (Death's Grasp) without fear of the mounted burst combo."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Mounted Kled hits harder, Q threatens trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Jousting dash spam punishes your melee range"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R lets you isolate him off Skaarl's help"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Rylai's slow locks him out of range"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full burst plus tankiness overwhelms sieges"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The 50.6% win rate pick over 83 games; the extra potion charges are necessary because Kled's Q-E combo punishes any all-in before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "87.7% pick rate (55.1% win rate) — the flat damage reduction blunts Kled's stacked mounted autos from W (Violent Tendencies) and his empowered fourth hit."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow from your Q and E denies Kled the mobility he needs from Jousting to re-engage after a dismount."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Core second item in both top paths (66.7% and 50% win rates) — omnivamp sustains you through his early poke phase."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "Burn damage punishes him for staying in melee range to land Q hooks and auto resets."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is building full AD lifesteal or out-trading you on autos"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "his sustained physical damage from mounted autos is wearing you down"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The dominant page at 62.1% win rate over 43.3% pick — stacking Conqueror in extended trades outlasts his mounted burst and snowballs once he dismounts.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 79.7% of games at a 53.8% win rate — Ignite punishes his low-courage dismount window where he can't retreat fast enough."
+  },
+  "playing": [
+   {
+    "title": "Never stand in Q range when mounted",
+    "detail": "Kled's Q (Bear Trap on a Rope) has 800 range and yanks you toward him if shackled. Hold outside 800 range whenever Skaarl is healthy and Q is off cooldown."
+   },
+   {
+    "title": "Hold W for his all-in, not pre-emptively",
+    "detail": "W (Indestructible) stores damage dealt and taken to build a shield you can consume to heal. Trigger it right as he commits Q-E-W so you capture the mounted burst before healing off it."
+   },
+   {
+    "title": "Punish every dismount immediately",
+    "detail": "The moment Skaarl's bar empties, dismounted Kled deals less damage to champions and loses real Q. Walk up and land Q (Obliterate) and E (Death's Grasp) while he's stuck on Pocket Pistol."
+   },
+   {
+    "title": "Save R for isolating him from backup",
+    "detail": "R (Realm of Death) drags him into a separate dimension and steals his stats — use it the moment he overextends past his minion wave, since Skaarl can't be peeled off him there."
+   },
+   {
+    "title": "Track his E charge for the return dash",
+    "detail": "E (Jousting) can be recast to dash back through the same target. If he jousts in, expect the return dash immediately after — don't chase through it, let him come back to you."
+   },
+   {
+    "title": "Keep passive stacks live in every trade",
+    "detail": "Darkness Rise triggers after 3 hits on champions or monsters, granting a damage aura and move speed. Weave Q and autos on cooldown so the aura is always active when he commits."
+   },
+   {
+    "title": "Don't contest early skirmishes level 1-5",
+    "detail": "Mounted Kled's stacked damage output and Jousting resets win short trades. Play passive and farm until Rylai's lets you punish his approach with the slow."
+   }
+  ],
+  "patchCaveat": "Build order, runes, summoners, and win rates are measured from live games on the current patch (16.20.1) via OP.GG; the ability breakdowns and tactical reasoning on how to exploit the mount/dismount cycle are my own read of the matchup."
+ },
+ "generatedAt": 1791506617140,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506578917,
+  "overall": {
+   "winRate": 50.8,
+   "play": 16163,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 109,
+   "wins": 59,
+   "winRate": 54.1
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Keld’s (Q) when fighting him. Keep your [P] active while fighting him to gain the upper hand in lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.8,
+    "play": 106,
+    "pickRate": 79.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 10.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 62.1,
+    "play": 58,
+    "pickRate": 43.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Gathering Storm"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 30,
+    "play": 10,
+    "pickRate": 7.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 83,
+    "pickRate": 63.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 20.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55.1,
+    "play": 107,
+    "pickRate": 87.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 30,
+    "play": 10,
+    "pickRate": 8.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 8.1
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Riftmaker"
+    ],
+    "winRate": 33.3,
+    "play": 3,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 55.1,
+    "play": 107,
+    "pickRate": 79.3
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 58.1,
+    "play": 86,
+    "pickRate": 63.7
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 55.3,
+    "play": 47,
+    "pickRate": 34.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 17.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 63.6,
+    "play": 22,
+    "pickRate": 16.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 46
+   }
+  ]
+ }
+}

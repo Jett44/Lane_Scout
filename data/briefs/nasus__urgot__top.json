@@ -1,0 +1,384 @@
+{
+ "you": "Nasus",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, scales even",
+   "line": "You lose almost every trade and all-in from levels 1 to 5 because Urgot outranges your Q, but you claw the lane back to even once R (Fury of the Sands) is up and his E (Disdain) is on cooldown."
+  },
+  "thesis": "Your only damage tool, Q (Siphoning Strike), only reaches 255 range, while Urgot threatens you from 800 range with Q (Corrosive Charge), his autos, and the periodic Echoing Flames blasts they trigger — so every CS attempt forces you into his kill zone first. The matchup only flips in your favor in the short windows where your R (Fury of the Sands) is up and his E (Disdain) is down, since that's the one moment he can't disengage or punish your engage.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "Disdain is up and you're in melee range",
+    "what": "He can Corrosive Charge you to slow, unload Purge, and then Disdain you into his tower or away from yours. Do not walk up for a Q stack if his E is available — let the minion die."
+   },
+   "yourWindow": {
+    "when": "R is up and his Disdain is on cooldown",
+    "what": "This is the OP.GG-confirmed engage window: pop Fury of the Sands and commit. He has no dash to escape the sandstorm's max-health drain, and your bonus range lets your Q connect without eating a full poke rotation first."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "outranged, poked by Q and autos"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "R unlocks, punish his E cooldowns"
+   },
+   {
+    "levels": "10-15",
+    "edge": "even",
+    "note": "Q stacks and Wither close the gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "stacked Q, Fury of the Sands win fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "41.8% win rate over 91 games and the 65.5% pick for this spot — the regen and poke-reduction passive are what let you survive standing in Corrosive Charge and Echoing Flames chip damage long enough to get Q stacks."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.2% win rate over 63 games, 46.7% pick — his damage is almost entirely basic-attack and Echoing Flames physical procs, so the flat reduction matters more than the cooldown haste from Ionian Boots here."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "18% pick path into Frozen Heart/Spirit Visage, 42.9% win rate over 14 games — gives you the stats to actually stick a Q once you've closed the range gap."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Slows his attack speed, directly cutting the rate he triggers Echoing Flames and channels Purge."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Stacks with Soul Eater lifesteal to win extended trades once Wither is down and he's forced to stand and fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he is building into crit or you are ahead and want to punish his auto-reliant trading"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "you need more flat tankiness and slow uptime to survive his Purge channel in extended fights"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you are behind in lane and need an early spike to blunt his poke before Frozen Heart completes"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you want more consistent cooldown uptime on Wither and Spirit Fire instead of the Trinity Force burst pattern"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The sustain-on-movement healing is what lets you survive standing in his poke range long enough to farm with Q, matching the OP.GG read of this lane: live off Q sustain, not trades.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This pairing posts the best measured win rate for the matchup at 48.4%. Flash lets you dodge a committed Corrosive Charge or escape after he lands Disdain on you, while Teleport resets you to full HP after a poke-heavy recall so you aren't walking back in at a health deficit."
+  },
+  "playing": [
+   {
+    "title": "Farm from max Q range only",
+    "detail": "Only take a Siphoning Strike stack when you aren't also standing in his Corrosive Charge or auto-attack range. A missed stack costs less than the poke damage you'd eat walking up."
+   },
+   {
+    "title": "Track his Disdain cooldown all lane",
+    "detail": "At rank 1 it's 16s and only drops to 14s at max rank, so there are real, repeatable windows where he has zero escape or engage tool — that's when you're allowed to step up."
+   },
+   {
+    "title": "Use Spirit Fire to poke, not just farm",
+    "detail": "At 650 range and a 12s cooldown, drop E on contested waves to shred his armor and force him to either eat the DoT or give up CS, since you can't match his ranged pressure otherwise."
+   },
+   {
+    "title": "Hold Wither for his commitment, not as a poke tool",
+    "detail": "Wither decelerates his Movement and Attack Speed, so saving it for the moment he Disdains in or tries to kite with Purge turns his all-in into a bad trade for him."
+   },
+   {
+    "title": "All-in only with R up and Disdain down",
+    "detail": "This is your one clean engage window per rotation. Fury of the Sands gives you the range and health pool to close the distance before he can punish you for walking up."
+   },
+   {
+    "title": "Don't contest early skirmishes 1-for-1",
+    "detail": "Solo-kill advantage sits with him through the early levels — play for CS and stacks, not kill pressure, until R is online at 6."
+   },
+   {
+    "title": "Split-push once stacked",
+    "detail": "Your Q damage and Fury of the Sands scale harder into the late game than his kit does 1v1; by 14+ you want to be a side-lane threat he has to answer rather than a lane he's still winning."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and win rates above are measured from live games on the current patch via OP.GG; the mechanical reasoning — why the trades, cooldown windows, and item choices work the way they do — is my own read of the matchup."
+ },
+ "generatedAt": 1791500497482,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791500405310,
+  "overall": {
+   "winRate": 50.9,
+   "play": 12723,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 108,
+   "wins": 46,
+   "winRate": 42.6
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Keep some distance to avoid being hit with Urgot’s (P). Focus on farming and healing with [Q], while going in with [R] + Unsealend Spellbook when Urgot’s (E) is on cooldown to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 37,
+    "play": 54,
+    "pickRate": 37.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 42,
+    "play": 50,
+    "pickRate": 34.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.4,
+    "play": 31,
+    "pickRate": 21.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 40.8,
+    "play": 76,
+    "pickRate": 52.1
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 16.7,
+    "play": 6,
+    "pickRate": 4.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.8,
+    "play": 91,
+    "pickRate": 65.5
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 35,
+    "pickRate": 25.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.2,
+    "play": 63,
+    "pickRate": 46.7
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 41.2,
+    "play": 51,
+    "pickRate": 37.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 41.1,
+    "play": 90,
+    "pickRate": 62.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 41.2,
+    "play": 85,
+    "pickRate": 59.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 48.8,
+    "play": 43,
+    "pickRate": 30.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.4,
+    "play": 37,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 34.6,
+    "play": 26,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 38.1,
+    "play": 21,
+    "pickRate": 14.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 61.9,
+    "play": 21
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Illaoi",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, careful early",
+   "line": "You lose if Kled catches you with Jousting plus Bear Trap before level 3; you win almost two-thirds of the time once you reach level 3 and start punishing his dismounts."
+  },
+  "thesis": "The whole lane hinges on Kled's E (Jousting): he dashes in, can recast it to dash back through you, and that double-dash is where his solo-kill threat lives before Illaoi has W or E online. Once you hit level 3 and can force Test of Spirit the instant he commits his dash, the fight flips hard in your favor, which is why Illaoi sits at 64.4% over 45 games here despite OP.GG calling the lane even on paper.",
+  "tell": {
+   "watch": "Skaarl's health bar (mount state)",
+   "theirWindow": {
+    "when": "levels 1-2, before you have E",
+    "what": "Kled can Q (Bear Trap) to hook and yank you, then Joust (E) in and back out again. Don't stand in hook range on cooldown and don't trade face-to-face until you have Test of Spirit to punish the second dash."
+   },
+   "yourWindow": {
+    "when": "Skaarl's HP hits zero and Kled dismounts",
+    "what": "Dismounted Kled deals less damage to champions and loses his hook for a knockback Pocket Pistol. Jump in with W (Harsh Lesson) immediately and follow with E (Test of Spirit) to turn him into a Vessel while he's weak."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Bear Trap plus Jousting combo threatens solo kills"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Test of Spirit online, trades stabilize"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "Leap of Faith plus Black Cleaver snowball tentacles"
+   },
+   {
+    "levels": "12-17",
+    "edge": "you",
+    "note": "Iceborn Gauntlet, Sterak's Gage win extended duels"
+   },
+   {
+    "levels": "18",
+    "edge": "you",
+    "note": "Full build overwhelms any dismounted all-in"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "57.1% win rate over the largest sample (35 games, 55.6% pick) — the extra sustain and damage offset Kled's early Bear Trap poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "63.8% win rate over 47 games and the clear majority pick (79.7%) — blunts the four empowered autos from Kled's W (Violent Tendencies)."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "66.7% win rate in the measured 9-game core path; shreds Skaarl's armor so your W/Q trades scale faster."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "Same measured core path; adds the mitigation you need to survive Kled's dash-in dash-out windows."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Closes out the 66.7% win-rate path with a damage-reduction buffer against his burst attack-speed window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "kled is snowballing and you need to survive his all-in windows to get your damage back"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "he starts building sustain or you need more healing off your tentacle passive"
+    },
+    {
+     "item": "Thornmail",
+     "when": "his w (violent tendencies) auto-attack windows are doing the bulk of his damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest-measured page (69.2% win rate, 38.2% pick) — the proc sustain keeps you healthy through early Bear Trap poke before you have E online.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Presence of Mind",
+    "Last Stand"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Highest-measured combo here at 72.7% win rate and the top pick rate (48.5%) — Teleport resets the wave after you get poked off it early, Flash answers the Jousting return dash."
+  },
+  "playing": [
+   {
+    "title": "Don't trade before level 3",
+    "detail": "Before Test of Spirit is up you have no answer to the Bear Trap into Jousting combo; let passive Tentacles do the chipping and avoid standing in hook range."
+   },
+   {
+    "title": "Watch Skaarl's HP bar",
+    "detail": "Once Skaarl's health depletes Kled dismounts, deals less damage to champions, and swaps his Q for a knockback Pocket Pistol. That's your all-in window — go in with W then E."
+   },
+   {
+    "title": "Time your E to his dash",
+    "detail": "Don't fire Test of Spirit on cooldown. Wait until he commits Jousting to close distance, then rip his spirit so the echoed damage punishes the dash back through you."
+   },
+   {
+    "title": "Fight near impassable terrain",
+    "detail": "Your passive spawns Tentacles on nearby walls — pick trade spots next to them so they swing on him for free while he's forced to path around."
+   },
+   {
+    "title": "Build Black Cleaver into Iceborn Gauntlet",
+    "detail": "This is the measured 66.7% win-rate core order; it shreds Skaarl's armor so your W and Q trades scale through the 6-11 window."
+   },
+   {
+    "title": "Save R for his dives",
+    "detail": "Leap of Faith spawns a Tentacle for every champion it hits, so baiting his all-in into your ult around level 6 turns his dive into a lost fight."
+   },
+   {
+    "title": "Punish Violent Tendencies with armor",
+    "detail": "His W is a four-hit attack-speed burst with a heavier fourth attack — Plated Steelcaps and later Thornmail blunt it directly."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are pulled from measured OP.GG games on the current patch (16.20.1); the tactical reasoning — when to hold E, how to play the dismount window, where to stand for Tentacles — is this brief's own analysis layered on top."
+ },
+ "generatedAt": 1791507516925,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791507446140,
+  "overall": {
+   "winRate": 50.3,
+   "play": 7191,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 45,
+   "wins": 29,
+   "winRate": 64.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Illaoi can contest with Kled only if she is careful before reaching level 3. Do not use [E] recklessly as Kled can use (E) once again if (E) landed on Illaoi; rather, we recommend using [E] the moment Kled uses (E) to close in.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 72.7,
+    "play": 33,
+    "pickRate": 48.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 30.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 17.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 69.2,
+    "play": 26,
+    "pickRate": 38.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 27.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 57.1,
+    "play": 35,
+    "pickRate": 55.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 71.4,
+    "play": 21,
+    "pickRate": 33.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 63.8,
+    "play": 47,
+    "pickRate": 79.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 15.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 100,
+    "play": 4,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 7.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 64.8,
+    "play": 54,
+    "pickRate": 76.1
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 66,
+    "play": 47,
+    "pickRate": 66.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 71.4,
+    "play": 35,
+    "pickRate": 49.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 68.8,
+    "play": 16,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 71.4,
+    "play": 14,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 77.8,
+    "play": 9
+   }
+  ]
+ }
+}

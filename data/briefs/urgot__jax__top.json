@@ -1,0 +1,388 @@
+{
+ "you": "Urgot",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane favoured",
+   "line": "You lose if you let Jax dodge your autos and stun you out of a trade with his Counter Strike; you win if you poke with Q from range and only commit W once that Counter Strike is on cooldown."
+  },
+  "thesis": "Urgot's Q (Corrosive Charge, 800 range) outranges everything Jax has until he closes the gap with Leap Strike, so the early lane is decided by who controls that poke window. Jax's only real answer to Urgot's auto-heavy W (Purge) is baiting it into his E (Counter Strike), which dodges all incoming basic attacks for its duration and then stuns and damages everyone around him — respecting that cooldown is the entire skill matchup. The numbers back the read: Urgot sits at 54.3% over 138 games with a clear solo-kill edge, though the overall shape still grades even once both scale into items.",
+  "tell": {
+   "watch": "Jax's E (Counter Strike) cooldown",
+   "theirWindow": {
+    "when": "Jax leaps in with Q up",
+    "what": "This is his engage, and he's almost certainly queued an Empower (W) auto behind the leap for bonus damage. Slow him with Q (Corrosive Charge) and back off rather than trading autos face to face."
+   },
+   "yourWindow": {
+    "when": "Jax's E (Counter Strike) was just used",
+    "what": "His dodge/stun is down for 18/16/14/12/10 seconds depending on rank, so close in and unload W (Purge) — he can't dodge your autos or flip the trade with a stun right now."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q poke outranges his melee kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Counter Strike online, respect its cooldown"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R execute threat forces bad trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Jax's passive HP scaling catches up"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight shape even, peel vs duel"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "56.8% win rate over 148 games and 86.1% pick for this matchup — the raw damage and sustain let you win the early auto trades Jax forces at level 1-2 before his Q is low cooldown."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "55% win rate over 111 games and the top pick at 66.9% — Jax's whole kit is autos (empowered W hits, Relentless Assault stacking), and flat reduced auto damage directly counters that."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Stacks armor shred onto a target that gets tankier every item thanks to his passive bonus HP, keeping your W (Purge) autos relevant into the mid game."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Survivability for standing in melee range to land W stacks, and the tenacity/health help you outlast his Counter Strike stun."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Highest pick rate third item (21.6%) in this matchup — stacking resistances lets you keep brawling him at range without getting deleted by his scaling autos."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "he's kiting with Leap Strike resets and you need the chase speed to stick Q and E"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "fights are going long and you need sustain to outlast his attack-speed ramp"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he's building into crit or heavy attack speed to abuse Relentless Assault"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he or his team is stacking lifesteal to heal through your W damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "Rewards landing three consecutive hits, which lines up directly with how W (Purge) unloads autos, and the exposed-damage mark punishes Jax for standing still to trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 79.3% of games at a 55.1% win rate — Ignite converts your solo-kill advantage into actual kills and pairs with the burn threshold your R (Fear Beyond Death) is already looking for."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q before he can close",
+    "detail": "Chip Jax with Q (Corrosive Charge) from its full 800 range while he's still on cooldown from Leap Strike. This builds Echoing Flames procs for free without exposing you to his autos."
+   },
+   {
+    "title": "Hold W until his E is down",
+    "detail": "Don't commit to a full Purge trade while Jax's Counter Strike is up — he'll dodge every auto and stun you for it. Wait for the 18/16/14/12/10s cooldown to actually expire first."
+   },
+   {
+    "title": "Use E to punish his Q engage",
+    "detail": "When Jax leaps at you with Q (Leap Strike), Disdain either knocks him off his path or lets you reposition out of his Empower follow-up — this is the exact read OP.GG's own data flags for this matchup."
+   },
+   {
+    "title": "Don't facetank empowered autos",
+    "detail": "Empower (W) recharges every 7/6/5/4/3s, so assume it's always close to ready. Stay at Q range instead of letting him land a buffed auto for free."
+   },
+   {
+    "title": "Threaten kills from level 6 on",
+    "detail": "R (Fear Beyond Death) reaches 2500 range and executes low-health targets, but the cooldown is a brutal 100s at rank 1 — only fire it when the kill is close to guaranteed."
+   },
+   {
+    "title": "Shred him with Black Cleaver stacks",
+    "detail": "His passive turns item HP into bonus health, so armor shred from Black Cleaver is what keeps your W damage from falling off as he builds."
+   },
+   {
+    "title": "Make him commit first",
+    "detail": "The lane is yours on paper (54.3% over 138 games) but the overall shape is even, so don't force all-ins — bait his Q or E, then punish the cooldown."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner picks above are pulled directly from measured OP.GG games on the current patch (16.20.1); the cooldown-timing and trade-pattern reasoning is my own tactical read, not measured data."
+ },
+ "generatedAt": 1791500813809,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791500717555,
+  "overall": {
+   "winRate": 52.4,
+   "play": 6827,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 138,
+   "wins": 75,
+   "winRate": 54.3
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Use [E] when Jax closes in with (Q). Try to close in and fight him once (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.1,
+    "play": 138,
+    "pickRate": 79.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 63,
+    "play": 27,
+    "pickRate": 15.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 2.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 48,
+    "pickRate": 27.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 70.6,
+    "play": 17,
+    "pickRate": 9.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 56.8,
+    "play": 148,
+    "pickRate": 86.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 35.7,
+    "play": 14,
+    "pickRate": 8.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 55,
+    "play": 111,
+    "pickRate": 66.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.3,
+    "play": 35,
+    "pickRate": 21.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 10.8
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 7.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53,
+    "play": 164,
+    "pickRate": 96.5
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 51.7,
+    "play": 118,
+    "pickRate": 69.4
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 47.7,
+    "play": 44,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 39.1,
+    "play": 23,
+    "pickRate": 13.5
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 30,
+    "play": 20,
+    "pickRate": 11.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 31.6,
+    "play": 19,
+    "pickRate": 11.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 62.1,
+    "play": 29
+   }
+  ]
+ }
+}

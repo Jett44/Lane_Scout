@@ -1,0 +1,384 @@
+{
+ "you": "Kled",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into a fresh Blinding Dart or let Teemo poke you from range uncontested; you win every time you land Q (Bear Trap on a Rope) or E (Jousting) to force a trade right after his Q goes on cooldown."
+  },
+  "thesis": "Teemo has no escape tool besides passive movement speed from W (Move Quick), so once Kled closes distance with Q's 800-range hook or E's 550-range dash, Teemo is stuck trading at melee range where he loses. The entire lane is gated by Teemo's Q (Blinding Dart) on its 8s cooldown — while it's up he can blind your autos mid-trade and walk away; while it's down, your Violent Tendencies burst wins the fight outright.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Teemo just landed Q on you",
+    "what": "Your autos are blinded for its duration — don't commit a W (Violent Tendencies) burst into this, it will whiff. Back off or use E (Jousting) to dash past him instead of trading autos."
+   },
+   "yourWindow": {
+    "when": "Teemo's Q is on its 8s cooldown",
+    "what": "Hook him with Q (Bear Trap on a Rope) to yank him in, then pop W (Violent Tendencies) immediately — he has nothing to stop four empowered attacks until his blind comes back up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Teemo pokes free before your E unlocks"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q+E+W online, hook-and-burst wins trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Teemo's R mushrooms zone your all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "shorter cooldowns, solo-kill advantage compounds"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "teamfights dilute the 1v1 edge"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Teemo's entire laning pattern is ranged poke with Toxic Shot autos and Blinding Dart chip damage — Doran's Shield posts the higher measured win rate (52% over 25 games) because the regen directly answers that harass pattern, where Doran's Blade (45.7% over 35 games) doesn't."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "54.5% win rate over 55 games and 78.6% pick rate — the magic resist blunts Toxic Shot's poison-over-time and Noxious Trap's cloud damage, both magic sources."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the highest-performing measured path (62.5% over 8 games); the bonus health and wave-clear let you force fights without caring about poison chip damage."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Second item in that same 62.5% path — scales your side-lane pressure once you've established the solo-kill lead."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Closes out the 62.5%-win-rate path with sustain and damage that offsets Teemo's poison DOT in extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "fights are dragging out and you need the armor shred to finish him before he kites to a wall"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "you're getting burst down in all-ins before your damage lands"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're ahead on kills and want to snowball the early solo-kill advantage into a pick-off item"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "59.1% win rate at 27.9% pick — Conqueror's stacking adaptive damage rewards exactly the extended, forced melee fights you're trying to create by hooking Teemo in with Q.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "51.8% win rate at 71.8% pick — Ignite converts your Q-hook all-ins into kills against a squishy ranged target, locking in the solo-kill advantage the data already shows you have."
+  },
+  "playing": [
+   {
+    "title": "All-in right after his Q lands",
+    "detail": "Once Teemo uses Blinding Dart, it's down for 8 seconds with no replacement escape besides passive movement speed. Hook with Q and dump W (Violent Tendencies) in that window."
+   },
+   {
+    "title": "Never auto-trade while blinded",
+    "detail": "Blind nullifies your attacks outright. If you're blinded mid-fight, disengage with E (Jousting)'s dash-back instead of standing in autos that will miss."
+   },
+   {
+    "title": "Close distance with Q, not autos",
+    "detail": "Bear Trap on a Rope has 800 range and yanks him to you — use it to open every trade rather than walking up, since Teemo's 680-range poke punishes a slow approach."
+   },
+   {
+    "title": "Check bushes for mushrooms before diving",
+    "detail": "From level 6 on, Teemo's R (Noxious Trap) can be pre-placed in jungle entrances and bushes on a 1s cooldown. Stepping on one slows you and telegraphs your all-in."
+   },
+   {
+    "title": "Keep trades short",
+    "detail": "Toxic Shot poisons on every Teemo auto and stacks damage over time. A quick hook-W-burst kill beats a drawn-out fight where his poison outlasts your damage window."
+   },
+   {
+    "title": "Reset with E's return dash",
+    "detail": "Jousting can be recast to dash back through your target — use it to exit a fight the instant your W burst ends instead of lingering in poison DOT range."
+   },
+   {
+    "title": "Don't force R (Chaaaaaaaarge) for a lane kill",
+    "detail": "At 110-140s cooldown, your ultimate is a map-wide engage tool, not a lane finisher — save it for picking off Teemo elsewhere once he's isolated."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live games on the current patch (16.20.1); the trade-timing and cooldown-window reasoning above is my own tactical read of the ability kits, not sourced from the data."
+ },
+ "generatedAt": 1791510115203,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791510028142,
+  "overall": {
+   "winRate": 49.7,
+   "play": 5093,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 59,
+   "wins": 29,
+   "winRate": 49.2
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "aggressive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 56,
+    "pickRate": 71.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 10.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 20,
+    "play": 5,
+    "pickRate": 6.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 27.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 70,
+    "play": 10,
+    "pickRate": 12.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 35,
+    "pickRate": 46.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52,
+    "play": 25,
+    "pickRate": 32.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 54.5,
+    "play": 55,
+    "pickRate": 78.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.5,
+    "play": 11,
+    "pickRate": 15.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 16.3
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 8.2
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 100,
+    "play": 3,
+    "pickRate": 6.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 52.6,
+    "play": 57,
+    "pickRate": 73.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 41
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 57.9,
+    "play": 19,
+    "pickRate": 24.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 15.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50,
+    "play": 24
+   }
+  ]
+ }
+}

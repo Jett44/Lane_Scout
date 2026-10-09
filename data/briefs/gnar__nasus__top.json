@@ -1,0 +1,381 @@
+{
+ "you": "Gnar",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable, scales away",
+   "line": "You win the early trades and the all-in race before 6, but the 45.4% head-to-head win rate over 152 games says stacked Siphoning Strike and Fury of the Sands take the game back from you if it goes long."
+  },
+  "thesis": "Nasus has no gap closer and a 255-range Q (Siphoning Strike), so mini Gnar's ranged Q (Boomerang Throw) and kiting win nearly every trade before level 6. The problem is Siphoning Strike's bonus damage is permanent per minion kill, and R (Fury of the Sands) at 6 gives him health, range, and health drain on demand — so lane advantage and solo-kill advantage are real, but they don't erase the long-game scaling that explains the sub-50% win rate.",
+  "tell": {
+   "watch": "Siphoning Strike stack count",
+   "theirWindow": {
+    "when": "After he hits level 6",
+    "what": "Fury of the Sands gives him bonus health, attack range, cast range, and max-health drain for its duration — don't commit to extended trades here, and keep Hop (E) ready to disengage rather than stand and fight."
+   },
+   "yourWindow": {
+    "when": "Levels 1-5, before his R",
+    "what": "Poke with Q (Boomerang Throw) at its 1100 range and proc Hyper (W) on autos; Nasus has nothing to punish you at range, so force him to either farm passively or walk into bad trades."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "you",
+    "note": "ranged poke beats his 255-range melee Q"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Fury of the Sands enables a scary all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Mega Gnar timing offsets his growing stacks"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "stacked Q plus R scaling outpaces your build"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "50.8% win rate over 126 games as the clear preferred start — the extra sustain lets you keep landing Q pokes in extended trades without backing off."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50% win rate over 62 games; flat physical damage reduction blunts both his auto-attacks and Siphoning Strike as his stacks grow."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Movement speed and on-hit damage reinforce the kiting pattern that wins this lane before 6."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred keeps your poke relevant once he starts stacking health and resistances off his own kit."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "69.2% win rate over 26 games on this exact path — the bonus health and tenacity matter once Fury of the Sands turns him into a threat in skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "soul eater lifesteal is keeping him alive through your trades"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his stacked siphoning strike is starting to out-damage you in extended fights"
+    },
+    {
+     "item": "Wit's End",
+     "when": "you need sustained attack speed and tenacity to fight through his wither slows"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "48% win rate and the higher-pick page of the two viable keystones — the move speed and heal on hit-and-run attacks directly reward kiting a melee champion with no gap closer. Master-tier players instead run Lethal Tempo (1,803 games); that suits a more aggressive, attack-speed-stacking playstyle that commits to prolonged trades rather than poke-and-disengage.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "51.4% win rate, the best of the three recorded pages — it converts your early solo-kill advantage into an actual kill before his stacks and R come online. Flash+Teleport (67.2% pick rate) is the more popular choice if you'd rather play for scaling and side-lane pressure instead."
+  },
+  "playing": [
+   {
+    "title": "Poke at max Q range",
+    "detail": "Boomerang Throw (Q) reaches 1100 range and slows on hit; throw it before he's in his own Q range so every trade before 6 is free damage."
+   },
+   {
+    "title": "Contest his Siphoning Strike farm",
+    "detail": "Each minion Siphoning Strike kills permanently increases its damage, so pushing him off last hits or trading when he goes for a cannon minion directly slows his scaling."
+   },
+   {
+    "title": "Disengage once R is up",
+    "detail": "From level 6 on, Fury of the Sands gives him bonus health, range, and max-health drain for its duration; use Hop (E) to leave rather than trade through it."
+   },
+   {
+    "title": "Track his Wither cooldown",
+    "detail": "Wither (W) is 15/14/13/12/11s and cuts your move and attack speed; once he burns it, you have a clean window to all-in or disengage before it's back up."
+   },
+   {
+    "title": "Save Mega Gnar transform for his all-in",
+    "detail": "Transforming at max Rage gives you Wallop (W), a stun — time it for when he commits Wither or R so you punish the engage instead of eating it."
+   },
+   {
+    "title": "Step off Spirit Fire",
+    "detail": "Spirit Fire (E) reduces armor in its area; standing in it lets his Q and autos hit harder than the trade should allow, so back out of the zone before continuing to fight."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates/sample sizes above are measured from current-patch games on OP.GG; the matchup reasoning, timing windows, and ability interactions are my own tactical read."
+ },
+ "generatedAt": 1791505789255,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791505707402,
+  "overall": {
+   "winRate": 49.4,
+   "play": 10368,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 152,
+   "wins": 69,
+   "winRate": 45.4
+  },
+  "laneAdvantage": "Gnar",
+  "soloKillAdvantage": "Gnar",
+  "playStyle": "even",
+  "opponentTip": "Use Unflinching or Mercury’s Treads to deal with (W) while kiting him often to gain control over lane. Be careful of being killed when he reaches level 6.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 125,
+    "pickRate": 67.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.4,
+    "play": 35,
+    "pickRate": 18.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 7.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48,
+    "play": 50,
+    "pickRate": 26.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.8,
+    "play": 46,
+    "pickRate": 24.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 126,
+    "pickRate": 69.2
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 30.8,
+    "play": 39,
+    "pickRate": 21.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 62,
+    "pickRate": 35.2
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 44.8,
+    "play": 58,
+    "pickRate": 33
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 69.2,
+    "play": 26,
+    "pickRate": 30.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 11.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 10.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 48.3,
+    "play": 174,
+    "pickRate": 91.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 50.4,
+    "play": 131,
+    "pickRate": 68.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 61.8,
+    "play": 55,
+    "pickRate": 28.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 63.3,
+    "play": 30,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 34.8,
+    "play": 23,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 57.1,
+    "play": 84
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1803
+  }
+ }
+}

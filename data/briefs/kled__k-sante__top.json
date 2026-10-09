@@ -1,0 +1,384 @@
+{
+ "you": "Kled",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Winnable lane, losing record",
+   "line": "You should win the early trades and the solo-kill race is even, but the data says you lose the game 38.1% of the time over 84 games once K'Sante's kit comes online."
+  },
+  "thesis": "Kled's E (Jousting) double-dash and W (Violent Tendencies) burst let him win short trades before K'Sante has stacked Q (Ntofo Strikes) or hit level 6, which is why the lane itself favors Kled. But K'Sante's passive-marked autos, his W (Path Maker) stun/knockback, and especially his R (All Out) transformation at 6 punish extended fights, which is why the overall matchup win rate collapses despite the early edge.",
+  "tell": {
+   "watch": "Skaarl's horse health bar",
+   "theirWindow": {
+    "when": "K'Sante has 2 stacks of Q",
+    "what": "His next Q (Ntofo Strikes) hit fires a shockwave that pulls you in for free — stay outside his 450 range or break the stack by not letting him land the first two hits, since you cannot fight your way out of the pull once it lands."
+   },
+   "yourWindow": {
+    "when": "K'Sante's W (Path Maker) is on cooldown",
+    "what": "Path Maker is his only stun/knockback and his best escape tool (14/13/12/11/10s). With it down, hook him with Q (Bear Trap on a Rope) to yank him in, then unload W (Violent Tendencies) — he has no way to disengage until it resets."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "you",
+    "note": "E dash burst beats him before Q stacks or shields"
+   },
+   {
+    "levels": "4-5",
+    "edge": "even",
+    "note": "Footwork (E) shield stabilizes his trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R (All Out) knockback-through-wall kill threat opens"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Both scaling, Skaarl remounts restore your trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Full tank build shrugs your single-target damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "77 games show this as the dominant start (79.4% pick) — the extra sustain and early damage matter since you want to win trades before K'Sante's Q stacks come online."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "71.8% pick rate and the right call here — K'Sante's damage is almost entirely auto-attacks (passive-marked hits, Q strikes), so flat armor directly cuts his trade damage."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the top performing path (50% WR over 8 games); the proc damage scales your trades and wave clear while you're still mounted."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds armor on an opponent who typically itemizes defensively, and the attack speed feeds your W (Violent Tendencies) burst window."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Completes the measured 3-item core; the bonus health and damage reflection help you survive his R (All Out) all-in once he commits."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hullbreaker",
+     "when": "the lane stalemates and you need to split-push side lanes instead of grouping"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "K'Sante is landing his All Out combo on you reliably and you need the shield to survive it"
+    },
+    {
+     "item": "Eclipse",
+     "when": "you're ahead and want to close out kills faster with the burst-damage passive"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The 46.2% win rate page outperforms the Conqueror page here — Grasp's sustain damage and max-health scaling let you outlast K'Sante's poke trades and effectively thicken Skaarl's health pool, which is the resource you're protecting all lane.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Last Stand",
+    "Legend: Alacrity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Most-run combo at 73.1% pick. Since your real advantage is early all-in pressure before his R (All Out) exists, Ignite converts the levels 1-3 trading edge into kills instead of just chip damage."
+  },
+  "playing": [
+   {
+    "title": "All-in before level 6",
+    "detail": "Use E (Jousting)'s dash-and-return combined with W (Violent Tendencies) to force fights while K'Sante lacks R (All Out) and hasn't built Q (Ntofo Strikes) stacks yet — this is your best win window on the curve."
+   },
+   {
+    "title": "Watch Skaarl's health, not just yours",
+    "detail": "Dismounted Kled deals less damage to champions and loses Q (Bear Trap) for Pocket Pistol — don't commit to a long trade if Skaarl is low, since you'll lose the fight the moment you dismount mid-exchange."
+   },
+   {
+    "title": "Punish his W cooldown",
+    "detail": "Path Maker is on a 14/13/12/11/10s cooldown and is his only stun/knockback. The moment he burns it to engage or escape, follow with Q (Bear Trap) to yank him into your W (Violent Tendencies) window."
+   },
+   {
+    "title": "Respect 2-stack Q pulls",
+    "detail": "At 2 stacks of Q (Ntofo Strikes), his next hit fires a shockwave that pulls you in. Stay outside 450 range or disengage before he lands the second stack."
+   },
+   {
+    "title": "Play R (All Out) as a timer, not a surprise",
+    "detail": "His ultimate (120/100/80/80/80s) removes his W's stun/knockback but adds major damage and healing. Once it's down, either fully disengage or commit with your own cooldowns up — passive trading into All Out K'Sante loses."
+   },
+   {
+    "title": "Rush Cleaver into his likely tank build",
+    "detail": "K'Sante's typical itemization leans defensive — Black Cleaver's armor shred keeps your Titanic Hydra and Overlord's Bloodmail damage relevant into the late game where he otherwise outscales you."
+   },
+   {
+    "title": "Win through side-lane pressure, not teamfights",
+    "detail": "The 38.1% overall win rate over 84 games suggests extended games trend his way — use Hullbreaker/Titanic Hydra to split-push and end the game before full 5v5s become the deciding factor."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates/sample sizes above are measured from live games on the current patch (16.20.1). The lane-phase reasoning, cooldown-window calls, and trade pattern advice are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791509383006,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791509276887,
+  "overall": {
+   "winRate": 49.7,
+   "play": 5093,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 84,
+   "wins": 32,
+   "winRate": 38.1
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 33.8,
+    "play": 68,
+    "pickRate": 73.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 16.1
+   },
+   {
+    "names": [
+     "Ignite",
+     "Barrier"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 5.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 25,
+    "play": 20,
+    "pickRate": 21.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 14
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 37.7,
+    "play": 77,
+    "pickRate": 79.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 11.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.6,
+    "play": 56,
+    "pickRate": 71.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 23.8,
+    "play": 21,
+    "pickRate": 26.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 15.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Black Cleaver"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 39.1,
+    "play": 69,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 39.1,
+    "play": 64,
+    "pickRate": 69.6
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 33.3,
+    "play": 21,
+    "pickRate": 22.8
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 20,
+    "play": 10,
+    "pickRate": 10.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 37,
+    "play": 27
+   }
+  ]
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "you": "Renekton",
+ "them": "Cho'Gath",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured but tight",
+   "line": "You win if you force fights the instant his Q (Rupture) goes on cooldown and you're past level 3; you lose if you walk up on an up Rupture and eat repeated 950-range pokes before you're ever close enough to use your own kit."
+  },
+  "thesis": "Cho'Gath's Q (Rupture) reaches 950 range while your longest tool, E (Slice and Dice), only reaches 450 — this lane is a fight over that 500-unit gap, not a fight about who's stronger once engaged. Once you're actually on him, your stun chain and healing Q win the trade clean, which is why the data hands Renekton the lane-state and solo-kill edge. The 42.2% win rate over 187 games exists because closing that gap safely, over and over, is harder than winning the fight once you get there.",
+  "tell": {
+   "watch": "Cho's Q (Rupture) cooldown",
+   "theirWindow": {
+    "when": "whenever his Q (Rupture) is up",
+    "what": "He can drop Rupture on your approach path from 950 range to pop you airborne and slow you before you're anywhere near E range, then walk or auto freely while you're still closing — don't cross open ground into an up Rupture."
+   },
+   "yourWindow": {
+    "when": "the instant he throws Rupture, hit or miss",
+    "what": "Rupture is on a 9s cooldown, so the moment it's cast he has no way to zone you for a full 9 seconds — dash in immediately with E (Slice and Dice, 450 range) and chain into W (Ruthless Predator) before he can reset distance."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no stun yet, Rupture zones freely"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W online, stun all-in available"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "both ultimates live, trading all-ins"
+   },
+   {
+    "levels": "11-14",
+    "edge": "you",
+    "note": "E near-max, armor shred stacks hard"
+   },
+   {
+    "levels": "15-18",
+    "edge": "even",
+    "note": "his Feast stacks can swing it"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "45.9% win rate over 37 games — the regen and reduced poke damage directly offset a lane built around Cho chipping you down with 950-range Q pokes rather than all-inning you early."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "71.3% pick, 43.8% win rate — the tenacity shortens how long Feral Scream's silence locks you out of your stun chain, and the magic resist eats into his Q/W/R magic damage."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Its proc shield absorbs part of a Rupture or Feral Scream hit right as you commit to the all-in, and the burst punishes the exact engage-then-double-hit pattern your empowered W and E already create."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Cho permanently gains max HP every time Feast kills something (up to 6 stacks), so the stacking armor shred — on top of E's own empowered armor reduction — is what keeps your damage from bouncing off him late."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "68.4% win rate on this exact path over 19 games — the bonus HP and emergency shield cover you against Feast's 175-range true-damage execute during the all-in you're forcing."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "he's banked several Feast kills and his true-damage burst threatens to delete you in one all-in"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he's stacked up toward 6 Feast kills and is sitting on a much larger HP bar than you"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you want your empowered W and E chain to come back faster to keep stun uptime in long trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This lane is a grind over who controls the gap, not a single burst window — Conqueror's stacking adaptive force and healing build up across the repeated Q trades and E dash-ins this matchup forces, then pay off as sustain once you're finally fighting at range zero.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "83.6% pick rate — Ignite seals the kills your solo-kill edge is supposed to convert once you close the gap and land a stun chain. Flash+Teleport (15% pick) is the alternative if you're playing this lane for scaling and side-wave pressure instead of forcing early kills."
+  },
+  "playing": [
+   {
+    "title": "Bank Fury before engaging",
+    "detail": "Only all-in once Fury sits above 50 — it turns W (Ruthless Predator) from a 2-hit 0.75s stun into a 3-hit 1.5s stun that strips any shield, and boosts Q's damage and heal."
+   },
+   {
+    "title": "Engage in the 9s dead zone",
+    "detail": "The instant Rupture is thrown, hit or miss, he has no ranged poke for 9 full seconds — dash in with E during that window instead of walking into a loaded Q."
+   },
+   {
+    "title": "Don't commit into an up Feral Scream",
+    "detail": "Feral Scream silences and can shut down your W/E chain mid-combo; bait it on cooldown (13s) with a short poke rather than starting your full stun sequence into it."
+   },
+   {
+    "title": "Track Feast once he's stacking",
+    "detail": "Feast is a 60s-cooldown true-damage execute at 175 range that permanently grows him on a kill — don't all-in at HP where one Feast finishes you, and look to fight right after he's used it."
+   },
+   {
+    "title": "Shred his stacking HP with Cleaver",
+    "detail": "Every Feast kill makes him permanently tankier, so your armor shred from Cleaver and empowered E is what keeps your damage relevant into the mid-late game."
+   },
+   {
+    "title": "Force fights at 3 and 6, not later",
+    "detail": "The data gives you lane and solo-kill advantage early; the longer the lane goes even, the more his poke and stacking close that gap, so use the level 3 stun and level 6 ultimate to fight on your terms."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above are measured from live games on the current patch (16.20.1); the mechanical reasoning and timing advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791516000150,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791515844395,
+  "overall": {
+   "winRate": 49.4,
+   "play": 16579,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 187,
+   "wins": 79,
+   "winRate": 42.2
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being hit with Cho’Gath’s (Q). Slowly build up Fury and wait for an opportunity to close in on him to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.9,
+    "play": 189,
+    "pickRate": 83.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 38.2,
+    "play": 34,
+    "pickRate": 15
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 0.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.2,
+    "play": 95,
+    "pickRate": 42
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 9.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.3,
+    "play": 175,
+    "pickRate": 79.6
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.9,
+    "play": 37,
+    "pickRate": 16.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.8,
+    "play": 144,
+    "pickRate": 71.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.4,
+    "play": 54,
+    "pickRate": 26.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 17.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 68.4,
+    "play": 19,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 5.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.9,
+    "play": 188,
+    "pickRate": 82.5
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 44,
+    "play": 150,
+    "pickRate": 65.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 52.1,
+    "play": 71,
+    "pickRate": 31.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 47.1,
+    "play": 68,
+    "pickRate": 29.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 30.8,
+    "play": 39,
+    "pickRate": 17.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 40,
+    "play": 20,
+    "pickRate": 8.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 44.4,
+    "play": 63
+   }
+  ]
+ }
+}

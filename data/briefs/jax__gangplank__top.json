@@ -1,0 +1,380 @@
+{
+ "you": "Jax",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill, winnable",
+   "line": "You lose if you trade autos into his poison stacks or all-in while Remove Scurvy (W) is up; you win if you leap the moment he fires Parrrley (Q) and finish the stun exactly when his cleanse is on cooldown."
+  },
+  "thesis": "Gangplank's whole kit is built to answer Jax's engage: Parrrley (Q, range 625) pokes from outside most of Jax's threat range, and Remove Scurvy (W) cleanses the Counter Strike (E) stun that makes Jax's all-in actually lethal. The one exploit is that Jax's Leap Strike (Q, range 700) outranges Parrrley — if Gangplank is close enough to shoot you, he's close enough for you to leap onto him immediately after.",
+  "tell": {
+   "watch": "Gangplank's Remove Scurvy (W) cooldown",
+   "theirWindow": {
+    "when": "Remove Scurvy (W) is up",
+    "what": "Don't commit the full Leap Strike into Counter Strike combo now — he cleanses the stun and heals off the trade, so you just eat autos and stacking poison for nothing."
+   },
+   "yourWindow": {
+    "when": "Remove Scurvy (W) is on cooldown (18-22s)",
+    "what": "Leap Strike (Q) onto him the instant he lands a Parrrley, Empower (W) the follow-up hit, then land Counter Strike (E) — he can't cleanse the stun, and Relentless Assault (R) attack speed stacking lets you close out the trade before Grog-Soaked Blade poison outpaces you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley pokes free before you have a leap target"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full Q-W-E combo plus cleanse online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Relentless Assault (R) lets you punish W cooldowns"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force closes the gap he can't kite"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Cannon Barrage (R) and poke matter again in sieges"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "Measured 52.3% win rate over 128 games versus Doran's Shield's 42.6% — the raw damage matters more here than the regen, since you need to actually kill the trade windows when Remove Scurvy is down rather than just survive poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "71.7% pick rate at 48.5% win rate — Gangplank's damage is mostly auto-attacks plus Grog-Soaked Blade poison ticks, so flat reduction on the auto component matters more than the cooldowns Ionian Boots would save."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The highest-measured core path (Trinity Force > Sundered Sky > Death's Dance, 50% win rate over 12 games) starts here because the movement speed and burst proc let Leap Strike actually close distance instead of eating a free Parrrley on the approach."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Stacks with your on-hit pattern from Empower and Relentless Assault, converting the attack-speed ramp into real burst once you're in melee range."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Turns Grog-Soaked Blade's stacking poison and Parrrley pokes into damage you heal back through during the all-in, which is the single biggest lever against his sustained-damage advantage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "they're grouping for a Cannon Barrage (R) siege or you need to survive a follow-up after your all-in"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "he's building armor or kiting with movement speed items and you need the slow plus percent-health damage to stick onto him"
+    },
+    {
+     "item": "Dusk and Dawn",
+     "when": "you're already ahead and want more raw stats to close games out faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The 46.7% win rate page beats the Grasp page's 43.2%, and Lethal Tempo's ramping attack speed is exactly what turns a successful Leap Strike-into-stun into a trade you actually win, since Relentless Assault already wants you striking as fast as possible.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best balance of sample size and win rate (48.6% over the largest pool after Ignite) and lets you reset after losing a poke exchange in a lane the data says you're behind in; Exhaust+Flash shows a higher 58.3% win rate on a much smaller sample and is worth trying if you want to directly cut his Parrrley damage and poison during your all-in window instead."
+  },
+  "playing": [
+   {
+    "title": "Bait a Parrrley, then leap",
+    "detail": "Leap Strike's 700 range outranges Parrrley's 625, so if he's close enough to shoot you he's close enough for you to jump on him immediately after the cast — don't back off, close instantly."
+   },
+   {
+    "title": "Rank E first, not Q",
+    "detail": "Taking Counter Strike at level 1 gives you the auto-dodge and stun for safety in early trades, even though it means a slower Leap Strike cooldown (17s at rank 1)."
+   },
+   {
+    "title": "Never all-in into open Remove Scurvy",
+    "detail": "If his W is up, Counter Strike's stun gets cleansed and he heals off the exchange — walk away and reset the wave instead of forcing it."
+   },
+   {
+    "title": "Empower before you commit",
+    "detail": "Cast Empower (W) before the Leap Strike or the following auto so the bonus damage lands on the stunned target, not on a wasted poke."
+   },
+   {
+    "title": "Don't facetank poison for free",
+    "detail": "Grog-Soaked Blade ticks magic damage per second that scales with his level — trading autos without a plan to finish bleeds you slowly even when you're not losing the exchange outright."
+   },
+   {
+    "title": "Ramp Relentless Assault before disengaging",
+    "detail": "Every third consecutive strike hits harder, so once you're in melee range keep attacking through Remove Scurvy's cleanse rather than resetting the stack by backing off."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate numbers above are pulled from measured games on the current patch (285-game sample for this matchup); the mechanical reading of why those numbers happen — the leap-range exploit, the Remove Scurvy timing, the poison attrition — is this brief's own analysis, not something OP.GG reports directly."
+ },
+ "generatedAt": 1791501439393,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791501310830,
+  "overall": {
+   "winRate": 49.5,
+   "play": 16236,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 285,
+   "wins": 132,
+   "winRate": 46.3
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Gangplank’s Powder Keg(E) placed inside brushes! Close in to deal damage when Powder Keg (E) is on cooldown!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.7,
+    "play": 253,
+    "pickRate": 71.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.6,
+    "play": 70,
+    "pickRate": 19.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 6.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.7,
+    "play": 90,
+    "pickRate": 25.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.2,
+    "play": 37,
+    "pickRate": 10.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.6,
+    "play": 136,
+    "pickRate": 38.8
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 128,
+    "pickRate": 36.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.5,
+    "play": 233,
+    "pickRate": 71.7
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 51.3,
+    "play": 39,
+    "pickRate": 12
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 44,
+    "play": 25,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 6.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Blade of The Ruined King",
+     "Death's Dance"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 5.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 44.2,
+    "play": 267,
+    "pickRate": 77.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 44.3,
+    "play": 88,
+    "pickRate": 25.6
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 49.4,
+    "play": 77,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 49.3,
+    "play": 69,
+    "pickRate": 20.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 47.4,
+    "play": 57,
+    "pickRate": 16.6
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 48.1,
+    "play": 52,
+    "pickRate": 15.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 48.8,
+    "play": 123
+   }
+  ]
+ }
+}

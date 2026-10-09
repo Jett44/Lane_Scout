@@ -1,0 +1,384 @@
+{
+ "you": "Sett",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Patience check",
+   "line": "You lose if you chase Gnar's pokes on cooldown; you win if you force Mega Gnar to fight you at point-blank range."
+  },
+  "thesis": "Gnar wins at range with Boomerang Throw poke and Hop mobility, but Sett's E (Facebreaker) only needs enemies on opposite sides to stun — meaning once Mega Gnar triggers and Hyper/Wallop ends, Sett can pull him in through minions and remove his kiting advantage entirely. The 47.2% win rate over 248 games reflects how often Sett players get worn down before that window opens, not an unwinnable lane.",
+  "tell": {
+   "watch": "Gnar's Rage bar (Mega Gnar transform)",
+   "theirWindow": {
+    "when": "Mini Gnar, Boomerang Throw off cooldown",
+    "what": "Gnar will throw Boomerang Throw (16/14.5/13/11.5/10s cooldown) to poke and slow from 1100 range, then disengage with Hop. Do not walk forward to trade here; W (Haymaker) stores the damage you take as Grit, so eating one boomerang isn't free damage lost, it's shield banked for later."
+   },
+   "yourWindow": {
+    "when": "Mega Gnar transforms, Wallop on cooldown",
+    "what": "The moment Rage maxes and Gnar transforms, his W becomes Wallop (a ground-smash stun with its own cooldown) instead of ranged Hyper. Walk him down immediately after he uses Wallop and land E (Facebreaker) by catching him between you and a minion wave or jungle wall to force the stun, then dump stored Grit with W."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Boomerang Throw range punishes early trades"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Mega Gnar transforms more, kiting worsens"
+   },
+   {
+    "levels": "7-10",
+    "edge": "even",
+    "note": "Stridebreaker lets you close gaps"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Full combo burst beats his sustained poke"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "GNAR! off cooldown, punishes bad E"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "52.3% win rate over 193 games; the flat damage reduction on the first attack from each enemy directly blunts Gnar's auto-poke while you're stuck walking into Boomerang Throw range."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "48.7% win rate over 197 games at 70.1% pick rate; the attack-damage reduction on basic attacks matters most against Gnar's auto-reset harass pattern once he's Hyper."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "Closes the gap Gnar opens with Hop; the slow-on-hit is how you actually catch a kiting target before your W Grit shield wears off."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "60% win rate over 40 games on this path; shred helps you kill through Mega Gnar's added survivability before his transform runs out."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "The missing-health regen on Sett's passive stacks with this item's sustain, letting you re-engage Gnar's poke lane after a bad trade instead of backing off."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he is landing Boomerang Throw consistently and you need burst-damage survivability to close distance without dying first"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the lane stabilizes and you are winning side-lane 1v1s, since it rewards split-pushing a lane Gnar can't contest in melee"
+    },
+    {
+     "item": "Warmog's Armor",
+     "when": "he is building into sustained poke damage over burst and you need raw HP to out-sustain his Rage-building autos"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "You are forced into extended skirmishes to catch a kiting target, not quick burst trades; Conqueror's stacking adaptive damage and healing rewards staying on top of Gnar once your E lands instead of a one-shot window you won't get.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ghost"
+   ],
+   "why": "Flash+Ghost is run in 40.4% of games (18.7% pick rate) and is the better fit here over the Ignite line: Ghost closes the gap on a kiting ranged champion that Ignite alone won't let you catch, and Flash covers your E engage or lets you dodge a point-blank Hop bounce."
+  },
+  "playing": [
+   {
+    "title": "Never auto-trade into Boomerang Throw range",
+    "detail": "Gnar's Q is 1100 range with a 16/14.5/13/11.5/10s cooldown; standing in that threat range to farm invites free pokes you cannot return. Hold minion-wave position just outside it instead."
+   },
+   {
+    "title": "Bank Grit before engaging",
+    "detail": "W (Haymaker) stores all damage you take as Grit passively; let a boomerang or two land on you before you commit, so your shield-and-punch is actually large when you cast it."
+   },
+   {
+    "title": "E through the wave, not around it",
+    "detail": "Facebreaker stuns only if Gnar is sandwiched between you and something else on the opposite side; walking minions into position before you commit the engage turns a slow into a stun."
+   },
+   {
+    "title": "Punish post-Wallop, not pre-transform",
+    "detail": "Mega Gnar's W becomes a ground-smash stun on its own cooldown; baiting that stun out and whiffing it, then closing immediately, is your clean engage window since he has no ranged poke left until Rage resets."
+   },
+   {
+    "title": "Respect GNAR! near walls at level 6+",
+    "detail": "R throws everyone in a chosen direction and stuns anyone who hits a wall for bonus damage; don't extend fights near jungle walls once he has ultimate up, even off-cooldown late (it drops to 0s cooldown at rank 4-5)."
+   },
+   {
+    "title": "Use Ghost to force fights, not just to flee",
+    "detail": "Since Gnar's whole kit survives on kiting space, Ghost is for closing distance proactively when his Hop is down, not only for disengaging a losing trade."
+   },
+   {
+    "title": "Side-push once Stridebreaker is online",
+    "detail": "Gnar has no answer to a melee duelist in a side lane without minion cover to bounce off of; if the lane is even by level 10-ish, shift pressure to split-push with Hullbreaker rather than forcing more river trades."
+   }
+  ],
+  "patchCaveat": "The build path, runes, summoner spells, and all win-rate figures above are measured from real games on the current patch (16.20.1) via OP.GG; the tactical reading of cooldown windows and engage timing is our own analysis layered on top of that data."
+ },
+ "generatedAt": 1791503431508,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791503387343,
+  "overall": {
+   "winRate": 50.4,
+   "play": 16154,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 248,
+   "wins": 117,
+   "winRate": 47.2
+  },
+  "laneAdvantage": "Gnar",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Keep your distance to avoid being kited by Gnar. Keep Mega Gnar’s (R) in mind while fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49,
+    "play": 192,
+    "pickRate": 63
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 40.4,
+    "play": 57,
+    "pickRate": 18.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.5,
+    "play": 46,
+    "pickRate": 15.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 70,
+    "pickRate": 23
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 12.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 193,
+    "pickRate": 63.7
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.1,
+    "play": 91,
+    "pickRate": 30
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.7,
+    "play": 197,
+    "pickRate": 70.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.6,
+    "play": 57,
+    "pickRate": 20.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 60,
+    "play": 40,
+    "pickRate": 31.5
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 13.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 7.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 49.8,
+    "play": 289,
+    "pickRate": 94.4
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 58.7,
+    "play": 155,
+    "pickRate": 50.6
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.7,
+    "play": 115,
+    "pickRate": 37.6
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50.7,
+    "play": 75,
+    "pickRate": 24.5
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 8.5
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 66.7,
+    "play": 18,
+    "pickRate": 5.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54,
+    "play": 63
+   }
+  ]
+ }
+}

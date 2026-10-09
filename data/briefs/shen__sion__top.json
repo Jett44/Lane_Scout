@@ -1,0 +1,380 @@
+{
+ "you": "Shen",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured matchup",
+   "line": "You lose if you let Sion freely stack Death's Caress shield damage on CS; you win by taunting him off caster minions and bullying with Vorpal Blade sustain."
+  },
+  "thesis": "Shen's 67.7% win rate over 96 games against Sion comes from E (Shadow Dash) directly countering Sion's main threat: a taunt interrupts his Q (Cryptic Gaze) charge or his W (Death's Caress) shield before it can detonate, and Shen's own W (Feint) shield absorbs the burst Sion needs to win a trade. This is listed as an even lane overall, but Shen holds the solo-kill edge because Sion has no way to escape or punish the taunt lock.",
+  "tell": {
+   "watch": "Sion's W shield timer",
+   "theirWindow": {
+    "when": "W shield fully charged, unengaged",
+    "what": "If Sion lets Death's Caress sit at max charge near you, he can detonate it on-demand for a big AoE hit — back off minions until it either pops or runs out."
+   },
+   "yourWindow": {
+    "when": "Sion channels Q or extends W shield",
+    "what": "Dash in with E (Shadow Dash) the instant he commits to charging Q or holding W out — the taunt interrupts his channel and locks him in place for your Q (Vorpal Blade) and autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Trades are even; Sion has no stun until level 2 Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E taunt interrupts his Q and W windows"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Shadow Dash cooldown drops to 12s, more punishes"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Sion's R sustain and AS catch up in skirmishes"
+   },
+   {
+    "levels": "16-18",
+    "edge": "them",
+    "note": "Sion's permanent HP stacking outscales in extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "69.3% win rate over 75 games — the passive block blunts Sion's early auto-poke and Enrage trades while you wait for E timings."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "66.7% win rate over 66 games — Sion is entirely physical damage, so the auto-attack reduction directly dampens Enrage-boosted trades."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "First item in the 85.7%-winrate path; the wave-clear and bonus HP scale your trading pattern around CS without needing to walk up for extra pokes."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item on all three measured build paths; keeps your tankiness and sustain climbing alongside Sion's HP stacking."
+    },
+    {
+     "item": "Randuin's Omen",
+     "why": "85.7% win rate over 7 games as the third item; the active and armor directly answer Sion's Enrage-fueled attack speed late."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "sion is building into an AD-heavy team or you need the grievous wounds to cut his R leech sustain"
+    },
+    {
+     "item": "Bandlepipes",
+     "when": "you want more teamwide utility over pure defensive stats and the lane is already comfortably won"
+    },
+    {
+     "item": "Sunfire Aegis",
+     "when": "the enemy team has heavy wave-clear or multiple extended skirmishes around objectives"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "69% win rate over the largest sample (35.9% pick) — the proc punishes Sion for walking up to trade autos and heals you back through his poke.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs a 67.9% win rate at 66.7% pick rate — Ignite punishes Sion's lack of sustain in the early trades your E lets you force."
+  },
+  "playing": [
+   {
+    "title": "Hold E for his Q charge",
+    "detail": "Sion's Q (Cryptic Gaze, 12/11/10/9/8s cooldown) needs a visible channel to stun — dash in with E (Shadow Dash, 16/14/12/10/8s cooldown) the moment he starts charging to taunt him out of it."
+   },
+   {
+    "title": "Punish empty W shield",
+    "detail": "Death's Caress (W, 8s cooldown) only hurts you if it detonates near you — step away while it's active and only re-engage once it's down or expired."
+   },
+   {
+    "title": "Save Feint for his all-in",
+    "detail": "W (Feint, 9/8/7/6/5s cooldown) absorbs incoming damage for a few seconds — hold it for the moment Sion commits to Enrage autos rather than using it preemptively."
+   },
+   {
+    "title": "Life-tap with Q on cooldown",
+    "detail": "Vorpal Blade (Q, 6/5.5/5/4.5/4s cooldown) heals you on hit — weave it into every trade window your E opens to win the extended exchange."
+   },
+   {
+    "title": "Track his permanent HP growth",
+    "detail": "Sion's E (Enrage) permanently increases his max HP on kills — deny him canon minion and jungle camp kills whenever you can contest to slow his late-game scaling."
+   },
+   {
+    "title": "Don't duel him after level 11",
+    "detail": "Once Sion has R (Cannibalism, 90s cooldown) online, his sustain in extended fights evens out the lane — look to end skirmishes fast with E taunt chains rather than grinding it out."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from real games on the current patch (16.20.1) via OP.GG; the ability readings and tactical advice on when to use E, W, and Q are my own analysis of the live game text."
+ },
+ "generatedAt": 1791512157353,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791512119040,
+  "overall": {
+   "winRate": 51.3,
+   "play": 10235,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 96,
+   "wins": 65,
+   "winRate": 67.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Shen",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Sion’s fully charged (Q) used inside a brush. Use [E] to interrupt the charge on (Q) when engaging to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 67.9,
+    "play": 78,
+    "pickRate": 66.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 63.9,
+    "play": 36,
+    "pickRate": 30.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 1.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 69,
+    "play": 42,
+    "pickRate": 35.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.6,
+    "play": 29,
+    "pickRate": 24.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 69.3,
+    "play": 75,
+    "pickRate": 65.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 69.4,
+    "play": 36,
+    "pickRate": 31.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 66.7,
+    "play": 66,
+    "pickRate": 62.3
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 70.6,
+    "play": 34,
+    "pickRate": 32.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Bandlepipes"
+    ],
+    "winRate": 100,
+    "play": 6,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 10.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 63.9,
+    "play": 97,
+    "pickRate": 81.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 73.5,
+    "play": 49,
+    "pickRate": 41.2
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 82.4,
+    "play": 34,
+    "pickRate": 28.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55,
+    "play": 20,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 14.3
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 14.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 76.7,
+    "play": 60
+   }
+  ]
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "you": "Sett",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Kled lands Q and chains Jousting before level 6; you win once you've forced him off Skaarl two or three times and out-sustained the burst."
+  },
+  "thesis": "Kled's mounted kit front-loads burst — Q (Bear Trap on a Rope) hooks and yanks from 800 range, then W (Violent Tendencies) and E (Jousting) stack on top — well beyond what Sett's 490-range E can answer in the first few trades. The 39.7% win rate over 116 games and Kled's measured solo-kill advantage both come from this gap; Sett closes it by grinding Skaarl's health down in extended fights, since a dismounted Kled loses his hook and deals less damage to champions.",
+  "tell": {
+   "watch": "Skaarl's mount HP bar",
+   "theirWindow": {
+    "when": "Kled mounted with Q and E both up",
+    "what": "He can hook you from 800 range, yank you in, then Joust (dash, 550 range, re-castable to dash back) through you while Violent Tendencies' attack-speed burst is live. Don't stand in his Q arc at the wave's edge during this window — let minions eat the hook."
+   },
+   "yourWindow": {
+    "when": "Kled dismounted after Skaarl's HP breaks",
+    "what": "His Q becomes Pocket Pistol — a knockback with no hook or yank — and his champion damage drops. This is when you commit: stack your passive's missing-health regen, cash in W (Haymaker)'s stored Grit for the shield and true-damage burst, and look for E (Facebreaker) if you can line him up against minions or terrain."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Q hook + Jousting burst outdamages your short trades"
+   },
+   {
+    "levels": "4-5",
+    "edge": "them",
+    "note": "Violent Tendencies attack-speed window still wins extended fights"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Show Stopper) and Grit sustain start equalizing trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stridebreaker/Cleaver online, sustain forces repeated dismounts"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Jousting mobility still lets him disengage or split"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "42.7% win rate over 103 games and the most-picked start (74.1%) — the lifesteal and extra HP directly feed the sustain-trade plan OP.GG's own note calls for against Kled."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "79.1% pick rate and the stronger of the two measured boot choices — Kled's damage is almost entirely stacked physical autos (Violent Tendencies, Jousting), so the flat reduction blunts every one of his burst windows."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The most-picked rush (part of the 58.3% WR path) — its active gives you the stick-and-slow to actually land E (Facebreaker) instead of getting kited by Jousting."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Second item in the top build path; the armor shred compounds with Steelcaps to keep shrinking Kled's auto-attack burst as fights go long."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Closes out the 58.3% WR core — the max-health and omnivamp scaling is exactly the sustain stat you need to win the extended trades that force Kled off Skaarl."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "kled is landing his full hook-into-joust combo and you need the shield to survive the burst instead of just outlasting it"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "kled is building tanky or stacking max-health and you need the percent-health damage and slow to keep up in sustained fights"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you are ahead and want your short cooldowns (Q, E) back faster to chain dismount pressure every time Skaarl is low"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacking adaptive force over an extended fight is the direct tool for the sustained-trade plan — it rewards staying in range long enough to grind Skaarl down rather than trading once and resetting.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Shield Bash",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best measured win rate in this matchup (41.7% over Flash+Ignite's 39.5% and Exhaust+Flash's 37.5%) — in a lane you're statistically behind in, Teleport lets you reset after bad all-in windows and still arrive relevant to the map instead of bleeding more solo kills to Kled's early burst."
+  },
+  "playing": [
+   {
+    "title": "Stay out of Q's 800-range arc",
+    "detail": "Kled's Q (Bear Trap on a Rope) hooks and yanks you in for bonus damage if it holds — stand behind a minion or outside that range until you've decided to commit to the trade."
+   },
+   {
+    "title": "Punish after he Jousts",
+    "detail": "E (Jousting) is a 550-range dash on an 13/12/11/10/9s cooldown that can be re-cast once to dash back through you — once he's spent both charges he's committed and slower; that's your window to step in."
+   },
+   {
+    "title": "Bank Grit before you cash in W",
+    "detail": "W (Haymaker) stores all damage you take as Grit and only pays it out as a shield plus true/physical damage when you cast it — eat a hit or two first, then pop it to swing the trade."
+   },
+   {
+    "title": "Grind for the dismount, every fight",
+    "detail": "Skaarl absorbs Kled's damage until it breaks; a dismounted Kled loses the Q hook (it becomes the weaker Pocket Pistol) and deals less champion damage. Treat every extended trade as progress toward that break, per OP.GG's own read on this matchup."
+   },
+   {
+    "title": "Only use E for the stun with backup",
+    "detail": "E (Facebreaker) only stuns if Kled has enemies on both sides of him; if he's alone on one side it just slows. Line him up against minions or a wall before you commit it."
+   },
+   {
+    "title": "Respect Violent Tendencies before all-inning",
+    "detail": "W (Violent Tendencies) gives Kled four empowered attacks (the fourth hits hardest) on a 13-9s cooldown — if you see the attack-speed spike start, back off rather than trading through all four hits."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers above are measured from live OP.GG games on the current patch; the mechanical reasoning tying them together — hook range, dismount thresholds, stun conditions — is this brief's own tactical read, not sourced from OP.GG."
+ },
+ "generatedAt": 1791506573989,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506480748,
+  "overall": {
+   "winRate": 50.5,
+   "play": 16654,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 116,
+   "wins": 46,
+   "winRate": 39.7
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Kled’s (Q) when fighting him. Use your lane sustain to your advantage to fight him and force him off Skaal. Maintain control over lane by forcing him to dismount often.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 39.5,
+    "play": 124,
+    "pickRate": 84.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 41.7,
+    "play": 12,
+    "pickRate": 8.2
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 5.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41.7,
+    "play": 48,
+    "pickRate": 32.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.8,
+    "play": 26,
+    "pickRate": 17.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.7,
+    "play": 103,
+    "pickRate": 74.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 41.4,
+    "play": 29,
+    "pickRate": 20.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 39.6,
+    "play": 106,
+    "pickRate": 79.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 68.8,
+    "play": 16,
+    "pickRate": 11.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 40
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Spear of Shojin"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 42.7,
+    "play": 131,
+    "pickRate": 86.8
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 48.8,
+    "play": 80,
+    "pickRate": 53
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.9,
+    "play": 52,
+    "pickRate": 34.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 38.9,
+    "play": 36,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 9.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 8.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.3,
+    "play": 38
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Jax",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Mild lane deficit",
+   "line": "You lose if you facetank Boomerang Throw poke before level 6 and get caught scaling into a Mega Gnar all-in; you win if you survive to Trinity Force and turn it into a straight duel."
+  },
+  "thesis": "Gnar vs Jax win rate sits at 47.6% over 166 games with lane advantage to Gnar but an even solo-kill rate, meaning the deficit is a poke-phase problem, not a dueling one. Gnar is ranged and safe until his Rage bar maxes and forces a transform into Mega Gnar; everything before that point is Gnar poking with Boomerang Throw from range Jax can't answer without E (Counter Strike) or a leap. Once Jax has Trinity Force and R (Relentless Assault) online, the extended-fight math flips back in his favor.",
+  "tell": {
+   "watch": "Gnar's Rage/Fury bar",
+   "theirWindow": {
+    "when": "Fury bar reads full",
+    "what": "OP.GG itself flags this: at max Rage his next ability transforms him into Mega Gnar and he will try to close the gap immediately. Have E (Counter Strike) or Flash ready the moment that bar tops out, don't be mid-animation on a long trade."
+   },
+   "yourWindow": {
+    "when": "his Q is thrown and not caught",
+    "what": "Boomerang Throw returns to him for a cooldown refund if he catches it; if he doesn't, Q is down for its full 16/14.5/13/11.5/10s. That's your Leap Strike (Q) window to close and Empower (W) a trade before he has an answer."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "ranged Q poke, no Counter Strike yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online dodges his auto harass"
+   },
+   {
+    "levels": "6-9",
+    "edge": "them",
+    "note": "Mega Gnar transform plus R burst"
+   },
+   {
+    "levels": "10-13",
+    "edge": "even",
+    "note": "Trinity Force, R attack speed stacking"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build wins extended duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "51.9% win rate over 104 games, the higher-sample start. You're taking repeated Boomerang Throw chip damage as a melee laner against a ranged threat, and the flat damage reduction on autos plus regen offsets exactly that poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "71.5% pick rate and the larger sample (133 games at 48.9%). Mercury's Treads shows a better rate (57.7%) but on only 26 games — treat Steelcaps as the default and switch to Treads if their CC chain off a Mega Gnar transform is the bigger problem."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The first item in both measured build paths. It's what turns your Empower (W) procs and R attack speed stacking into real sustained damage once lane stabilizes."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Second item in both listed paths — the on-hit proc and healing let you win the extended trades your R rewards, right as Gnar's early poke advantage expires."
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "why": "The higher-sample third-item path (14.3% pick over 11 games) after Trinity Force into Sundered Sky — buys you out of a Mega Gnar R stun-into-wall combo once he's transformed."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you're taking constant poke damage through the laning phase and need the damage-over-time conversion to survive to your power spike"
+    },
+    {
+     "item": "Blade of the Ruined King",
+     "when": "they're building health to tank your Empower procs or kiting with Hyper move speed"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want earlier kill pressure and a slow to shut down his Hop (E) escape instead of waiting on Trinity's scaling"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "The highest pick rate page (19.4%) and best measured win rate (47.4%). It directly supports the plan of winning once R (Relentless Assault) is up by stacking attack speed on top of attack speed for longer fights, which is exactly where Jax's curve turns in his favor.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "52.5% win rate and 60.2% pick rate, the clear default. Gnar's poke-heavy pattern keeps him at partial health often; Ignite converts that chip damage into kill pressure before his level-6 Mega Gnar power spike arrives."
+  },
+  "playing": [
+   {
+    "title": "Time Counter Strike on his autos",
+    "detail": "E (Counter Strike) dodges all incoming basic attacks, so use it right as Gnar swings to deny his auto-reset harass and the stun lands on him when he's in range to be punished."
+   },
+   {
+    "title": "Trade only when his Q is dead",
+    "detail": "If Boomerang Throw misses or isn't caught on return, it's down for its full cooldown. That's your window to Leap Strike (Q) in and Empower (W) a trade before he can poke you again."
+   },
+   {
+    "title": "Respect a full Fury bar",
+    "detail": "At max Rage his next ability transforms him and he closes distance immediately. Don't be committed to a long trade when that bar tops out — have E or Flash free."
+   },
+   {
+    "title": "Keep trades short before level 6",
+    "detail": "Lane favors Gnar through this stretch (47.6% head-to-head). Poke back when you land Empower, then disengage rather than standing in his auto range."
+   },
+   {
+    "title": "Commit once R is up",
+    "detail": "Relentless Assault has 0 cooldown and every third consecutive attack hits harder — extended fights reward you more than short pokes once you have it."
+   },
+   {
+    "title": "Don't walk into Mega Gnar's W",
+    "detail": "Transformed, his W becomes Wallop, a frontal stun, not the Hyper speed buff. Bait it with your Leap Strike positioning instead of approaching head-on."
+   },
+   {
+    "title": "Save Ignite for the mid-health window",
+    "detail": "His own poke keeps him at partial health often — Ignite plus an Empowered auto closes kills before he can disengage with Hop (E)."
+   }
+  ],
+  "patchCaveat": "All win rates, item paths, runes and summoner splits above are measured from real games on the current patch; the mechanical reasoning tying them together — the trade windows, the Fury-bar read, the power-curve timing — is this brief's own analysis, not OP.GG's."
+ },
+ "generatedAt": 1791503638766,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791503530319,
+  "overall": {
+   "winRate": 49.5,
+   "play": 16683,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 166,
+   "wins": 79,
+   "winRate": 47.6
+  },
+  "laneAdvantage": "Gnar",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Check Gnar’s Fury. Be careful when he has full Fury as he will try to close in!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.5,
+    "play": 118,
+    "pickRate": 60.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.6,
+    "play": 68,
+    "pickRate": 34.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 4.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.4,
+    "play": 38,
+    "pickRate": 19.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Cosmic Insight"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 34,
+    "pickRate": 17.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.9,
+    "play": 104,
+    "pickRate": 52.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.9,
+    "play": 56,
+    "pickRate": 28.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.9,
+    "play": 133,
+    "pickRate": 71.5
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 57.7,
+    "play": 26,
+    "pickRate": 14
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 45.5,
+    "play": 11,
+    "pickRate": 14.3
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 7.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Stridebreaker",
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 0,
+    "play": 3,
+    "pickRate": 3.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.3,
+    "play": 161,
+    "pickRate": 79.7
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 50,
+    "play": 56,
+    "pickRate": 27.7
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 60.5,
+    "play": 43,
+    "pickRate": 21.3
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 55.6,
+    "play": 36,
+    "pickRate": 17.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 15.8
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 41.9,
+    "play": 31,
+    "pickRate": 15.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 48.2,
+    "play": 56
+   }
+  ]
+ }
+}

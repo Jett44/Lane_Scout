@@ -1,0 +1,389 @@
+{
+ "you": "Gnar",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you walk into Cannon-stance pokes before level 6; you win once Trinity Force and a full-rage Mega Gnar let you close the gap he can no longer escape."
+  },
+  "thesis": "Jayce's entire kit is built around weapon-stance swaps — Hammer for melee leap-and-knockback, Cannon for ranged poke-and-kite — so this lane is decided by whether you can read which stance he's in and punish the long cooldowns that stance leaves exposed. Measured data backs this as close to even (49.2% over 252 games) despite Jayce holding lane and solo-kill advantage, meaning the early poke is real but not decisive if you play around his cooldowns and scale into Mega Gnar.",
+  "tell": {
+   "watch": "Jayce's stance icon",
+   "theirWindow": {
+    "when": "He's in Cannon stance, Q up",
+    "what": "Shock Blast (Q, 16/14/12/10/8s CD) detonates on the first thing it hits and gets extended range/damage if fired through his Acceleration Gate (E, Cannon). Stay out of minion-poke range and never stand in his gate."
+   },
+   "yourWindow": {
+    "when": "He just leapt with Hammer-stance Q",
+    "what": "To the Skies! (Q, same 16-8s CD) has no escape built in — his only peel is Thundering Blow (E, 20/18/16/14/12s CD). While his Q is down, Hop (E) in to trade or boomerang him before he can reset the spacing."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cannon-stance Q poke outranges mini Gnar"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Shock Blast plus Gate chips you freely"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Your R threatens his overextensions"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force Mega Gnar wins extended trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Near-permanent Mega Gnar overwhelms his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "49.1% win rate over 106 games — the flat damage reduction on his Cannon-stance autos and Shock Blast chip matters more than the lifesteal of Doran's Blade while you're stuck in mini form and can't trade freely."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "94.4% pick rate at 48.9% win — flattens the repeated autos from his Hyper Charge (W, Cannon) attack-speed burst and the chip autos he lands while kiting."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The proc damage and move speed power both mini Gnar's Hyper (W) and Mega Gnar's Wallop/Crunch combo, letting you actually close distance on a kiting Cannon stance."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred turns your melee trade window — once you're in range — into a real damage race instead of a slow grind."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "63.6% win rate over 33 games on this exact path; the shield and tenacity let you survive his Q leap into E knockback combo while you commit to the fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "his lightning field (w, hammer) and cannon-stance autos are chipping you down over the lane phase"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "you're behind and need to survive his q leap plus e knockback burst before you can threaten an all-in"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he or his team stacks healing that's letting him sustain through your mega gnar all-ins"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "51.9% win rate, 33.9% pick — the sustain from the heal and the burst of move speed are what let mini Gnar survive his ranged poke phase and actually close distance when he misplaces a Shock Blast. Master-tier players lean Lethal Tempo (43.4% win, 1,842 games) instead if you're confident winning extended melee trades once your items are online — it rewards staying in his face rather than dodging in and out.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the standard pick (45.5% win, 62.7% pick) since it lets you reset after losing the early poke exchanges without giving up CS and scales you into your level 9-13 power spike. Take Flash+Barrier instead (56.3% win, 15.1% pick) if you expect to get all-in'd by his Q leap into E knockback before level 6 and need to survive the burst rather than scale past it."
+  },
+  "playing": [
+   {
+    "title": "Track his stance before every trade",
+    "detail": "Hammer stance means melee leap (Q, range 600) and knockback (E, range 240) threat up close; Cannon stance means Shock Blast poke (Q, range 600) and an attack-speed burst (W). Decide whether to engage or hold based on which one he's in, not just distance."
+   },
+   {
+    "title": "Dodge the Acceleration Gate",
+    "detail": "His Cannon-stance E deploys a gate that boosts move speed and, if his Q is fired through it, increases its range and damage. Never stand in or walk through a gate he's placed."
+   },
+   {
+    "title": "Punish his Q cooldown, not his W",
+    "detail": "After he leaps or fires Shock Blast, that 16-8s cooldown (by rank) is his real commitment window. Hop (E) in during that window since his only remaining peel is the 20-12s Thundering Blow."
+   },
+   {
+    "title": "Bank rage for a forced fight, not for CS",
+    "detail": "Don't burn Rage casually clearing waves. Time your transform so Mega Gnar's Wallop (W) stun lands right as he's mid stance-swap (R, 6s CD) or just after his E knockback, when he can't react."
+   },
+   {
+    "title": "Use R to finish, not to open",
+    "detail": "GNAR! throws enemies in a direction and stuns them into bonus damage if they hit a wall. Save it to displace him into terrain after he's already committed his knockback, rather than opening with it and wasting the window."
+   },
+   {
+    "title": "Walk back through your own boomerang",
+    "detail": "Catching Q (Boomerang Throw) cuts its cooldown. In mini form, reposition to intercept the return boomerang so you can keep matching his ranged poke tempo instead of falling behind on trades."
+   },
+   {
+    "title": "Don't overextend before two items",
+    "detail": "Black Cleaver speeds up your kill potential once you're in range, but until Sterak's Gage is online you're still vulnerable to his full Q-into-E combo — hold position rather than forcing fights at level 6-8."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample figures are measured OP.GG data from live games on the current patch (16.20.1); the stance-reading and timing calls are our own tactical judgment."
+ },
+ "generatedAt": 1791506261488,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506154870,
+  "overall": {
+   "winRate": 49.4,
+   "play": 10368,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 252,
+   "wins": 124,
+   "winRate": 49.2
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "He is difficult to defeat in melee combat. Be careful when he closes in using nearby minions and his ranged pokes. Contest lane and use [R] to try to kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.5,
+    "play": 200,
+    "pickRate": 62.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 56.3,
+    "play": 48,
+    "pickRate": 15.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 36,
+    "pickRate": 11.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.9,
+    "play": 108,
+    "pickRate": 33.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.4,
+    "play": 53,
+    "pickRate": 16.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.6,
+    "play": 148,
+    "pickRate": 47.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.1,
+    "play": 106,
+    "pickRate": 34
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.9,
+    "play": 284,
+    "pickRate": 94.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 4.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 63.6,
+    "play": 33,
+    "pickRate": 22.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 13.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50.7,
+    "play": 290,
+    "pickRate": 92.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.4,
+    "play": 180,
+    "pickRate": 57.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.6,
+    "play": 125,
+    "pickRate": 39.7
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 57.7,
+    "play": 71,
+    "pickRate": 22.5
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 60.8,
+    "play": 51,
+    "pickRate": 16.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 18,
+    "pickRate": 5.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 57.8,
+    "play": 83
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1842
+  }
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "you": "Gnar",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane",
+   "line": "You lose consistently if you trade autos into Granite Shield and eat Seismic Shard slows, but you claw back to even once Trinity Force comes online and he whiffs his long-cooldown Ultimate."
+  },
+  "thesis": "Malphite's Granite Shield recharges whenever he hasn't been hit recently, so Gnar's single-hit poke pattern gets absorbed for free unless it's followed up immediately. Meanwhile Malphite's Seismic Shard steals the move speed Gnar depends on to kite, which is why Malphite holds both the lane and solo-kill edge here (361 games, 41.6% Gnar win rate). Gnar needs to land compound damage, not chip damage, and must never eat a Q while low.",
+  "tell": {
+   "watch": "Granite Shield recharge state",
+   "theirWindow": {
+    "when": "Levels 1-5, before you reach Mega threshold",
+    "what": "Short poke exchanges just get soaked by Granite Shield recharging between trades, so single-target harass before level 6 trades badly. Hold back and wait for a moment you can land a full combo instead of chip damage."
+   },
+   "yourWindow": {
+    "when": "Right after he whiffs his Ultimate",
+    "what": "Unstoppable Force sits on a 130s cooldown at rank 1 (80s at rank 5), so a missed or wasted ult leaves him with no engage or escape for a long stretch. Push tempo, contest resets, and look to all-in before he can threaten you again."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Granite Shield and Q poke dominate"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Max-rank Q slow enables early all-ins"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Malphite's Ultimate unlocks lane-ending engage threat"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Mega Gnar and Trinity Force close gap"
+   },
+   {
+    "levels": "13-18",
+    "edge": "even",
+    "note": "Scaling kite damage offsets his tank stats"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield > Health Potion",
+    "why": "Doran's Shield's block-on-hit and regen counter Malphite's poke-heavy autos and Seismic Shard chip, letting you hold the lane without forcing all-in trades early."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The magic resist and tenacity cut into Seismic Shard's slow and Ground Slam's armor-scaled magic burst, protecting the kiting lane your kit depends on."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Spellblade's proc plus the bonus move speed fits Gnar's poke-and-reposition pattern, giving him the burst to punish any window Malphite leaves open."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Its armor shred directly lowers the magic damage Ground Slam deals, since that ability scales off Malphite's own Armor, while also letting your autos chew through his tank stats faster."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The bonus health and damage reduction let you survive the all-in windows Malphite forces, especially around his Unstoppable Force engage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Wit's End",
+     "when": "he itemizes into ability power or magic damage instead of pure tank stats"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he builds crit or heavy basic-attack damage to punish your melee windows"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he stacks pure tank items and you need to shred his healing or punish his autos"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Fleet Footwork's move speed and on-hit sustain reward the poke-and-reposition pattern you need around Malphite's shield recharge windows. Master-tier Gnar players instead run Lethal Tempo across 1,803 games for its attack-speed scaling in prolonged skirmishes, which suits players willing to commit to extended trades rather than poke and disengage.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 76.6% of games (43.2% win rate) because Gnar is behind in the solo-kill matchup. Teleport lets you reset the wave or rejoin skirmishes elsewhere instead of being forced into extended 1v1s before your Trinity Force timing comes online. Flash+Ignite (14.5% pick) is the alternative if you're confident punishing his early trades for kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't duel",
+    "detail": "Use Boomerang Throw's 1100 range to harass without closing distance; short single hits just feed Granite Shield's recharge. Only commit when you can land Q, an auto, and a catch-reset follow-up together."
+   },
+   {
+    "title": "Track his Q for kite denial",
+    "detail": "Seismic Shard (8s cooldown, 625 range) steals your move speed on hit. If he lands it mid-chase you lose your main defensive tool, so juke sideways or break line of sight rather than running straight."
+   },
+   {
+    "title": "Punish a whiffed Ultimate",
+    "detail": "Unstoppable Force has a brutal 130s cooldown at rank 1, down to 80s at max rank. Every time he misses it or burns it without a kill, push tempo immediately since he has no engage or escape for a long stretch."
+   },
+   {
+    "title": "Don't trigger Mega Gnar to poke",
+    "detail": "Transforming trades away W's Hyper speed buff and E's bounce mobility for a frontal stun (Wallop) and an AoE slam (Crunch). Save the transformation to land Crunch and Wallop together in one trade, not as filler harass."
+   },
+   {
+    "title": "Respect the attack-speed cut",
+    "detail": "Ground Slam (7s cooldown) deals magic damage scaled to his Armor and slows your attack speed, which cripples your W (Hyper) proc uptime. Back off after taking it instead of trying to keep hyper stacks rolling in his melee range."
+   },
+   {
+    "title": "Finish Black Cleaver before skirmishing",
+    "detail": "Because Ground Slam's damage scales off Malphite's own Armor, Black Cleaver's shred both lets your autos hit harder and directly lowers the magic damage his E deals back. Prioritize it over extended trades."
+   },
+   {
+    "title": "Play for scaling, not lane kills",
+    "detail": "With Malphite favoured in solo kills, don't feed him free picks. Hold Teleport to reset waves or help elsewhere, and look to scale into the Trinity Force and Black Cleaver timing before forcing side-lane 1v1s again."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and item pick rates are pulled from measured Gnar vs. Malphite games on the current patch via OP.GG; the mechanical reasoning and trade/timing advice above is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791505262297,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791505098565,
+  "overall": {
+   "winRate": 49.4,
+   "play": 10097,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 361,
+   "wins": 150,
+   "winRate": 41.6
+  },
+  "laneAdvantage": "Malphite",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Although you have the upper hand through your kiting, be careful of his (E) and (R). Purchase Hexdrinker if he goes for an AP build.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.2,
+    "play": 338,
+    "pickRate": 76.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40.6,
+    "play": 64,
+    "pickRate": 14.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 4.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 112,
+    "pickRate": 25.4
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.7,
+    "play": 87,
+    "pickRate": 19.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 193,
+    "pickRate": 44.4
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 39.6,
+    "play": 169,
+    "pickRate": 38.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.2,
+    "play": 305,
+    "pickRate": 73.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 42.3,
+    "play": 78,
+    "pickRate": 18.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 56.8,
+    "play": 37,
+    "pickRate": 22.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 9.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 44.7,
+    "play": 331,
+    "pickRate": 76.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.8,
+    "play": 297,
+    "pickRate": 68.9
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 48.5,
+    "play": 103,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 52,
+    "play": 100,
+    "pickRate": 23.2
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 45.2,
+    "play": 62,
+    "pickRate": 14.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 41.7,
+    "play": 24,
+    "pickRate": 5.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 50.8,
+    "play": 187
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1803
+  }
+ }
+}

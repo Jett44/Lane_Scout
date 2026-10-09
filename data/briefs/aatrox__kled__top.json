@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Disciplined fight",
+   "line": "You lose if you let Kled stack Violent Tendencies autos on you for free; you win if you punish him the moment Skaarl dies and he's forced into Pocket Pistol."
+  },
+  "thesis": "This is a dismount-timing matchup: Kled's damage and all-in threat collapse the instant Skaarl's health bar empties, so your entire job is tracking that bar and detonating Q (The Darkin Blade) and Deathbringer Stance only after he's grounded. The 50.4% win rate over 139 games with Kled holding lane and solo-kill advantage says he wins the mounted trades — you win the dismounted ones.",
+  "tell": {
+   "watch": "Skaarl's health bar",
+   "theirWindow": {
+    "when": "Skaarl mounted, W active",
+    "what": "He's hunting 4 empowered attacks from W (Violent Tendencies) with the 4th hitting hardest, backed by Q (Bear Trap on a Rope) yanking you in. Don't stand still in his 800-range hook threat during this window — circle minions so the Q skillshot has to travel and can be avoided per OP.GG's own read on this matchup."
+   },
+   "yourWindow": {
+    "when": "Skaarl dismounts",
+    "what": "He deals less damage to champions while dismounted and his Q becomes the short-range Pocket Pistol knockback. This is when you dash in with E (Umbral Dash), land Q (The Darkin Blade) swings back to back, and pop Deathbringer Stance — his courage regen punishes slow trades, so burst it before he remounts."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q hook range and courage sustain win early pokes"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Your Q/E combo matches his dismount windows"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "His all-in burst still outpaces your R timer"
+   },
+   {
+    "levels": "9-11",
+    "edge": "you",
+    "note": "Eclipse/Shojin spike wins dismounted trades"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Death's Dance sustain outlasts his cooldowns"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "49% win rate over 98 games and the 58.7% pick rate — the raw AD and sustain help you survive his Q yank-ins while you wait for a dismount window."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "52.5% win rate over 139 games at 85.8% pick — the auto-attack damage reduction directly counters his Violent Tendencies 4-hit burst."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield and burst proc punish him the exact moment he dismounts, matching the highest-sampled build path (60% win rate over 10 games)."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Cooldown reduction lets your Q (The Darkin Blade) and E (Umbral Dash) cycle faster than his 13/12/11/10/9s W and E cooldowns."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Appears in every top build path here — the damage-over-time conversion keeps you alive through his dismounted all-in while you out-sustain with Deathbringer Stance heals."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sundered Sky",
+     "when": "you're ahead and want to snowball burst trades on his dismount windows"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's building tanky resists to survive your Eclipse burst"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need more one-shot burst to punish Skaarl's death on sight"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "51.4% win rate at 42.1% pick — the stacking adaptive force rewards drawn-out trades, which is exactly what you want once Skaarl dies and the fight turns into a straight DPS race.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "56.5% win rate at 26.9% pick — the highest win rate of the three listed options, and Teleport lets you reset after losing the early trades without giving up tempo."
+  },
+  "playing": [
+   {
+    "title": "Track Skaarl's bar, not Kled's",
+    "detail": "His champion health is irrelevant while mounted — Skaarl absorbs it. Only commit to all-ins when Skaarl's bar is near empty."
+   },
+   {
+    "title": "Dodge his Q skillshot on cooldown",
+    "detail": "Bear Trap on a Rope is 800 range on an 11/10/9/8/7s cooldown — sidestep it near minions so he wastes the cast instead of yanking you into his W burst."
+   },
+   {
+    "title": "Punish the dismount instantly",
+    "detail": "The moment Skaarl dies, his kit downgrades and Pocket Pistol only knocks him back — dash in with E (Umbral Dash) and unload Q swings before he can fight for courage to remount."
+   },
+   {
+    "title": "Save Deathbringer Stance for the dismount",
+    "detail": "Your passive's bonus magic damage and heal scale off max health — landing it on dismounted Kled during his weak window maximizes the heal when you need it most."
+   },
+   {
+    "title": "Play around his W windup",
+    "detail": "Violent Tendencies gives him 4 empowered attacks with the 4th hardest-hitting — back off or trade through armor (Plated Steelcaps) rather than standing still in it."
+   },
+   {
+    "title": "Use R (World Ender) to close, not open",
+    "detail": "With a 120/100/80/80/80s cooldown, save World Ender for when Skaarl is already down — the attack speed and healing let you finish the dismounted fight outright."
+   },
+   {
+    "title": "Don't force fights before level 9",
+    "detail": "His solo-kill advantage is real in the early trades — wait for Eclipse's power spike around level 9-11 before initiating off cooldowns."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates above are measured from live games on the current patch (16.20.1) via OP.GG; the mechanical reasoning — why these choices work, the dismount timing, the trade windows — is my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791506777061,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506737229,
+  "overall": {
+   "winRate": 49.7,
+   "play": 18013,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 139,
+   "wins": 70,
+   "winRate": 50.4
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Kled’s (Q) when facing him. Deal burst damage repeatedly by using your skills whenever they come off cooldown to gain lane control once he dismounts Skaal.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.8,
+    "play": 112,
+    "pickRate": 65.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.5,
+    "play": 46,
+    "pickRate": 26.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 6.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 72,
+    "pickRate": 42.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 6.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 98,
+    "pickRate": 58.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 57.8,
+    "play": 45,
+    "pickRate": 27
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.5,
+    "play": 139,
+    "pickRate": 85.8
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.4,
+    "play": 19,
+    "pickRate": 11.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 12.5
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 100,
+    "play": 7,
+    "pickRate": 8.8
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 7.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 56.1,
+    "play": 82,
+    "pickRate": 48.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 48.1,
+    "play": 81,
+    "pickRate": 48.2
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 54.4,
+    "play": 68,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 63.3,
+    "play": 60,
+    "pickRate": 35.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 61.1,
+    "play": 36,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 59.1,
+    "play": 22,
+    "pickRate": 13.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 64.9,
+    "play": 94
+   }
+  ]
+ }
+}

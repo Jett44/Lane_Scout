@@ -1,0 +1,379 @@
+{
+ "you": "Garen",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you eat a brush Cryptic Gaze into a full Death's Caress shield; you win every extended trade once his Q is down."
+  },
+  "thesis": "Sion's only hard CC is Cryptic Gaze (550 range, 12/11/10/9/8s cooldown) — once it's spent he has no way to stop your E (Judgment) spin or your Q's silence. Your Decisive Strike silence directly denies his W (Death's Caress) shield cast, so the fight is decided by whether you engage before or after his Q is on cooldown.",
+  "tell": {
+   "watch": "Sion's Cryptic Gaze cooldown",
+   "theirWindow": {
+    "when": "Sion's Q is up and you're near brush",
+    "what": "Cryptic Gaze has 550 range and OP.GG flags brush casts specifically — don't walk into unwarded bushes while his Q is available, since the stun lets him land Death's Caress and a full Enrage-boosted auto chain for free."
+   },
+   "yourWindow": {
+    "when": "Right after Sion uses or whiffs Q",
+    "what": "Close immediately with Q (Decisive Strike) to silence him before he can cast W (Death's Caress), then unload E (Judgment) autos — for 8-12s he has zero CC and is only hitting you with Enrage autos that cost him his own health."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both have one trading tool, Q stun vs auto trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E online, Conqueror stacks outlast Enrage self-damage"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Your R threatens execute before his ult heals him"
+   },
+   {
+    "levels": "11-18",
+    "edge": "even",
+    "note": "Cannibalism sustain and stacked max HP catch him up"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Sion's lane plan is forcing autos through Enrage and landing Cryptic Gaze — the flat damage reduction and regen on Doran's Shield blunts both while your Perseverance passive ticks in behind it."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "69.4% pick, 57.4% win rate — the attack speed lets you land more E/Conqueror-stacking autos in the trade windows after his Q is down."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "First item in the 60% win rate, 15% pick path — the slow on proc lets you stick to Sion through his Enrage kiting."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "Second item on the same path — attack speed scales your Judgment and Decisive Strike autos through extended Enrage trades."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Closes out the 60% win rate path — grievous wounds directly cuts the lifesteal from Sion's Cannibalism ult, which is otherwise his best tool to undo a losing fight."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "if he's kiting you with Enrage and you need to close the gap instead of just slow him"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "if he's stacked enough max HP from E kills that your autos are bouncing off armor"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "if you're ahead and want faster cooldowns to chain all-ins before his Q resets"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "41.4% pick, 57% win rate — OP.GG's own tip is to maintain Conqueror stacks, since extended trades are where your sustain beats his self-inflicted Enrage damage.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "91.1% pick rate at 56.3% win rate — Ignite closes out the solo kills this matchup already favors you for, punishing Sion before his 90s Cannibalism cooldown is back up to save him."
+  },
+  "playing": [
+   {
+    "title": "Trade only when his Q is down",
+    "detail": "Cryptic Gaze is his one piece of CC at 12/11/10/9/8s cooldown. Track it and only commit your all-in once it's spent or whiffed."
+   },
+   {
+    "title": "Silence before he shields",
+    "detail": "Open your all-in with Q (Decisive Strike) — the silence stops him from casting W (Death's Caress), removing his main damage-absorption tool for that fight."
+   },
+   {
+    "title": "Avoid brush when his Q is up",
+    "detail": "OP.GG specifically flags Cryptic Gaze cast from brush at 550 range — hold position outside unwarded bushes until it's confirmed used."
+   },
+   {
+    "title": "Let Perseverance reset the trade",
+    "detail": "After an exchange, disengage rather than chain-trading — your passive health regen outpaces the health Sion burns himself via Enrage."
+   },
+   {
+    "title": "Respect level 6 Cannibalism",
+    "detail": "Once his R is up, extended fights heal him and nearby allies and grant him attack speed — commit only if you can burst him down before the leech outpaces your damage."
+   },
+   {
+    "title": "Press your solo-kill edge",
+    "detail": "The data shows a clear solo-kill advantage for you — look to end 1v1s outright with E (Judgment) sustained damage plus R (Demacian Justice) once he's under execute threshold."
+   },
+   {
+    "title": "Don't fear his E toggle alone",
+    "detail": "Enrage has no cooldown but costs him health per attack — if he's spamming it to win a trade, let him burn his own HP and finish the exchange in your favor."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from live OP.GG games on the current patch (148-game Garen vs Sion sample); the mechanical reasoning and trade timing are my own read of the ability kits, not scraped data."
+ },
+ "generatedAt": 1791510817207,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791510722709,
+  "overall": {
+   "winRate": 50.6,
+   "play": 17933,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 148,
+   "wins": 76,
+   "winRate": 51.4
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "even",
+  "opponentTip": "Be careful of Sion’s (Q) used from inside a brush. Close in and fight him when his skills are on cooldown. Focus on maintaining your Conqueror stacks.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.3,
+    "play": 174,
+    "pickRate": 91.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 5.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 3.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57,
+    "play": 79,
+    "pickRate": 41.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60,
+    "play": 25,
+    "pickRate": 13.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 80,
+    "pickRate": 42.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 58.2,
+    "play": 79,
+    "pickRate": 41.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 57.4,
+    "play": 129,
+    "pickRate": 69.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 48.5,
+    "play": 33,
+    "pickRate": 17.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 60,
+    "play": 20,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 36.4,
+    "play": 11,
+    "pickRate": 8.3
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 6.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 56.1,
+    "play": 180,
+    "pickRate": 90.9
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 61.3,
+    "play": 106,
+    "pickRate": 53.5
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 53.8,
+    "play": 52,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 60.9,
+    "play": 46,
+    "pickRate": 23.2
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 54.8,
+    "play": 42,
+    "pickRate": 21.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.6,
+    "play": 36,
+    "pickRate": 18.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 59.1,
+    "play": 88
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Darius",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Rough early, favoured",
+   "line": "You lose trades and all-ins before level 6 while Kled is mounted with Q and E both up, but Darius still wins this matchup 57.5% of the time because the fight only gets worse for Kled the longer it runs."
+  },
+  "thesis": "Kled holds the laning-phase and solo-kill edge — Skaarl absorbs your pre-6 all-ins while his Q hook and E Jousting dash let him out-trade you at range you can't match. But across 106 recorded games Darius wins 57.5% of them, because every extra second in a fight favors you: Hemorrhage stacking, the E pull, and a rank-4 Noxian Guillotine sitting on a 6-second cooldown turn drawn-out skirmishes and dismounted windows into kills that the early lane numbers don't capture.",
+  "tell": {
+   "watch": "Kled's mount state (Skaarl HP)",
+   "theirWindow": {
+    "when": "Kled mounted, Q and E both up",
+    "what": "He can land Q (Bear Trap on a Rope, cooldown 11/10/9/8/7s, range 800) to hook and yank you in, then recast E (Jousting, cooldown 13/12/11/10/9s, range 550) to dash back through for a second hit and a speed burst. Don't stand in either threat range without your own E (Apprehend) or W (Crippling Strike) ready."
+   },
+   "yourWindow": {
+    "when": "Skaarl's HP bar empty, Kled dismounted",
+    "what": "While dismounted he deals less damage to champions and his Q becomes Pocket Pistol, a ranged knockback rather than a hook. This is your free window to land Q (Decimate) and W (Crippling Strike), build Hemorrhage, and trade without fear of being pulled in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Kled's Q hook wins early trades"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "R unlocks his global gank pressure"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "Hemorrhage stacking and E pull even fights"
+   },
+   {
+    "levels": "12-15",
+    "edge": "you",
+    "note": "Youmuu's and Dead Man's Plate close gap"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "R drops to 6s, double execute threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "57.1% win rate over 105 games and the 82% pick for this matchup — the extra AD and sustain let you hold trades long enough to land Hemorrhage stacks before Kled's Q/E combo resets."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "57.3% win rate over 103 games (81.8% pick) — the attack damage reduction blunts Kled's Violent Tendencies attack-speed burst and his repeated Q/E poke."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Best win rate build path (61.9% over 21 games) — the active haste is the closest thing you have to matching Kled's E dash mobility so you can actually stick to him."
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Same 61.9% path — the move speed buildup and slam slow help you close the gap when he tries to Joust away or kite you after a hook."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Completes the top win-rate path — bleeds back incoming burst damage into a DoT, which pairs with your own Hemorrhage stacking in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "fights are going long and you need to survive his dismounted all-in before your R comes back up"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you want built-in slow lockdown instead of Youmuu's burst haste to stop him from disengaging after a trade"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "their team stacks magic damage around Kled and you need the extra resist and tenacity to keep sticking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Highest win rate page for this matchup (61.5% over 106 games) — the stacking adaptive force and healing reward you for drawing fights out, which is exactly how Darius turns Kled's early lead around.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest win rate combo at 59.4% — Ignite seals kills once you land E (Apprehend) and stack Hemorrhage, since Kled has no reliable way to heal off true damage and DoT."
+  },
+  "playing": [
+   {
+    "title": "Respect his hook range",
+    "detail": "Q (Bear Trap on a Rope) reaches 800 range and refreshes as fast as 7 seconds at max rank. Don't walk up for CS or trades inside that threat range before you have E (Apprehend) ready to answer the pull."
+   },
+   {
+    "title": "Punish after his E dash",
+    "detail": "Jousting (E) can be recast to dash back through his first target. If he commits the initial dash in, wait for the return trip or use your own E to pull him before he recasts rather than all-inning on the first hit."
+   },
+   {
+    "title": "Stack Hemorrhage before committing R",
+    "detail": "Build Hemorrhage to five stacks with Q (Decimate) and W (Crippling Strike) auto-attacks before using R (Noxian Guillotine) — the true damage scales per stack, and at max stacks you enrage into bonus attack damage."
+   },
+   {
+    "title": "Fight him while dismounted",
+    "detail": "Watch Skaarl's health bar under his portrait. Once it empties, he deals less damage to champions and loses his hook entirely — force the fight in that window instead of when he's freshly remounted."
+   },
+   {
+    "title": "Hold E for his dash-ins",
+    "detail": "Kled has no hard CC outside the Q yank. Save E (Apprehend, range 535) to pull him out of a Jousting dash rather than spending it to initiate — this also catches him before he second-casts E back out."
+   },
+   {
+    "title": "Itemize for sticking, not raw burst",
+    "detail": "Youmuu's Ghostblade into Dead Man's Plate (the 61.9% win-rate path) gives you the mobility and slow stacking to actually run down a dashing Kled instead of watching him Joust away clean."
+   },
+   {
+    "title": "Play for the level-16 double-execute",
+    "detail": "Rank 4 Noxian Guillotine drops its cooldown to 6 seconds. After landing a kill with it, look to immediately force a second skirmish — your ult is back up almost instantly and any lingering Hemorrhage stacks make the follow-up free."
+   }
+  ],
+  "patchCaveat": "The build, runes, and summoner picks above are pulled directly from measured games on the current patch (106-game Darius-vs-Kled sample); the ability mechanics, trade windows, and timing calls are my own tactical read laid on top of that data."
+ },
+ "generatedAt": 1791506385810,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791506266583,
+  "overall": {
+   "winRate": 49.7,
+   "play": 17749,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 106,
+   "wins": 61,
+   "winRate": 57.5
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with Kled’s (Q) while keeping your passive stacks up when fighting him. He can deal burst damage when he dismounts from Skaal, so retreat temporarily to wait for your abilities to come off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 54.4,
+    "play": 79,
+    "pickRate": 61.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 59.4,
+    "play": 32,
+    "pickRate": 25
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 11.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 23.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 61.5,
+    "play": 26,
+    "pickRate": 20.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 57.1,
+    "play": 105,
+    "pickRate": 82
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 57.9,
+    "play": 19,
+    "pickRate": 14.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 57.3,
+    "play": 103,
+    "pickRate": 81.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 10.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 25.6
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 7.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 7.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 63.9,
+    "play": 83,
+    "pickRate": 62.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 59.7,
+    "play": 67,
+    "pickRate": 50.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 69.4,
+    "play": 49,
+    "pickRate": 36.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.4,
+    "play": 47,
+    "pickRate": 35.3
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 48.8,
+    "play": 43,
+    "pickRate": 32.3
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 66.7,
+    "play": 24,
+    "pickRate": 18.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 65.8,
+    "play": 38
+   }
+  ]
+ }
+}

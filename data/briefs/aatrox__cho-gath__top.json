@@ -1,0 +1,380 @@
+{
+ "you": "Aatrox",
+ "them": "Cho'Gath",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Early lead, late trap",
+   "line": "You lose this if it turns into a long skirmish or he stacks Feast; you win it if you close him down before level 6 or catch him off his 9s Rupture cooldown."
+  },
+  "thesis": "Aatrox owns the opening trades and solo-kill race because his W (Infernal Chains) threatens 825 range and his E (Umbral Dash) heal keeps him topped up through short fights, which is exactly why he holds the lane and solo-kill edge. But Cho'Gath's W (Feral Scream) silence and R (Feast) permanently inflate his health, so every extended skirmish past mid-lane shifts value toward him — that tension is why the head-to-head sits at only 42.8% over 201 games despite the lane edge.",
+  "tell": {
+   "watch": "Cho'Gath's Feast (R) stack count",
+   "theirWindow": {
+    "when": "W (Feral Scream) is off cooldown and you're close",
+    "what": "If you're inside his 300 range and commit to a long trade, Feral Scream silences you and cancels your R activation or follow-up Q swings — disengage to range instead of grinding it out once the silence is up."
+   },
+   "yourWindow": {
+    "when": "His Q (Rupture) just missed or is on cooldown",
+    "what": "Rupture is a 9s cooldown ground-targeted zone with no other ranged tool behind it, so the moment it's down, dash in with E and chain W immediately — he has nothing to punish the engage or create space with."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "W-engage into Q swings wins all-ins"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Lane and solo-kill advantage peak here"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates online, trades swing"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Feast stacks and silence blunt your sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "True damage R plus bulk overwhelm late"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 42.5% win rate pick at 76.9% pick rate — the extra sustain outlasts Cho'Gath's Vorpal Spikes poke on every auto-trade exchange."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "76.2% pick at 47.6% win rate, and the magic resist plus tenacity directly shortens how long Feral Scream's silence locks you out of your own cooldowns."
+   },
+   "core": [
+    {
+     "item": "Spear of Shojin",
+     "why": "Highest-winrate core path listed (46.2% over 13 games) — the ability haste keeps your W/Q cycling faster than his 9s Rupture and 13s Feral Scream cooldowns."
+    },
+    {
+     "item": "Sundered Sky",
+     "why": "Converts your empowered Q swings into healing on crit, which matters more as his health pool grows from Feast stacks."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Delays the true damage tick from Feast, turning his all-in-or-nothing R into a trade you can actually survive."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Eclipse",
+     "when": "you're ahead in solo kills and want to close out all-ins before level 6"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's stacked 3+ Feast charges and his base health is starting to tank your sustained DPS"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you need the dash-reset to stay on top of him through his E spike procs"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The 46.3%-picked page (43.8% win rate) stacks adaptive force through exactly the kind of grindy short trades this matchup produces before Feral Scream can punish you for staying too long.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 75.2% of games and converts your early solo-kill advantage into a secured kill before he can out-scale; Flash+Teleport (48.2% win rate, 23.1% pick) is the fallback if you expect the lane to stall into a scaling fight."
+  },
+  "playing": [
+   {
+    "title": "Open fights with W, not Q",
+    "detail": "Infernal Chains at 825 range forces him to run or eat the damage twice — land it before he's in Vorpal Spikes auto-range so you dictate the trade distance."
+   },
+   {
+    "title": "Hold range after his W is down",
+    "detail": "Feral Scream is only 300 range; once he's used it, you have 13 seconds to fight freely without fear of the silence cutting off your R or Q sequence."
+   },
+   {
+    "title": "Count his Rupture cooldown",
+    "detail": "9 seconds between casts — if he whiffs or lands it on you, that's your window to dash in with E and commit, since he has nothing else to zone you."
+   },
+   {
+    "title": "Never skip a Deathbringer Stance proc",
+    "detail": "The empowered auto's heal scales off his max health, which only gets more valuable as his Feast stacks grow — take every free instance of it."
+   },
+   {
+    "title": "Stop extending fights past 4 Feast stacks",
+    "detail": "Once he's grown enough that the true damage tick threatens a kill, shorten your trades to poke-and-reset instead of full commits."
+   },
+   {
+    "title": "Save R for the kill, not the engage",
+    "detail": "World Ender fears nearby minions but does nothing to his Rupture range, so pop it to finish a fight you're already winning, not to force one open."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are pulled directly from measured OP.GG games on the current patch; the mechanical reasoning and trade-pattern advice are this brief's own analysis, not sourced data."
+ },
+ "generatedAt": 1791515501505,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791515410337,
+  "overall": {
+   "winRate": 49.7,
+   "play": 18805,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 201,
+   "wins": 86,
+   "winRate": 42.8
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "even",
+  "opponentTip": "Use [E] carefully to avoid being hit with Cho’Gath’s (Q) when in combat. Use your [P] basic attack whenever he is in range. Use your skills whenever they come off cooldown to fight him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 40.7,
+    "play": 182,
+    "pickRate": 75.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.2,
+    "play": 56,
+    "pickRate": 23.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 1.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.8,
+    "play": 112,
+    "pickRate": 46.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 28,
+    "pickRate": 11.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.5,
+    "play": 186,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42,
+    "play": 50,
+    "pickRate": 20.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.6,
+    "play": 170,
+    "pickRate": 76.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 39.5,
+    "play": 43,
+    "pickRate": 19.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 10.5
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 4.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 47.7,
+    "play": 128,
+    "pickRate": 52
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 45.3,
+    "play": 117,
+    "pickRate": 47.6
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 42.5,
+    "play": 106,
+    "pickRate": 43.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.4,
+    "play": 84,
+    "pickRate": 34.2
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 47.1,
+    "play": 70,
+    "pickRate": 28.5
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50,
+    "play": 24,
+    "pickRate": 9.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.3,
+    "play": 151
+   }
+  ]
+ }
+}

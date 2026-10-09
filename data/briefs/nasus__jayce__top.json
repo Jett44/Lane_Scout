@@ -1,0 +1,385 @@
+{
+ "you": "Nasus",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive to scale",
+   "line": "You lose trades level 1-5 if Jayce forces all-ins with Hammer Q-E; you win the lane if you hit level 6 with Q stacks banked and he's out of mana."
+  },
+  "thesis": "Jayce's Hammer Stance owns short trades with To the Skies! (16/14/12/10/8s cooldown, melee leap) into Thundering Blow knockback, but neither tool touches you from outside 240-600 range if you respect his cooldowns. Nasus wins this matchup on the clock: the 55.8% win rate over 274 games says that once Wither and Fury of the Sands come online, Jayce's burst stops being lethal and your Q stacks start being a second health bar.",
+  "tell": {
+   "watch": "Jayce's weapon stance (Hammer vs Cannon)",
+   "theirWindow": {
+    "when": "Hammer Stance, Q and E both up",
+    "what": "He can leap in with Q (To the Skies!) then knock you back with E (Thundering Blow) for a full trade. Don't stand still at max range when both show no charge-depleted animation; back off until one is on cooldown."
+   },
+   "yourWindow": {
+    "when": "He's in Cannon Stance or just leapt",
+    "what": "Cannon Stance has no gap closer, so walk up and land Q (Siphoning Strike, 8-4s cooldown) for free. If he just used Hammer Q to leap in, his E knockback is his only follow-up — eat it and keep swinging, since he can't re-engage until Q comes off cooldown."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Jayce's ranged Hammer poke outranges your 255-range Q"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full combo burst, Thundering Blow knockback punishes approaches"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Wither cuts his kiting; your Q stacks start mattering"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Fury of the Sands lets you force fights he can't escape"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Stacked Q plus Trinity Force duels him outright"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "60% win rate over 185 games; the flat damage reduction on the first attack from Jayce's Hammer poke matters more than the ring's mana you don't need as Nasus."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "60.8% win rate over 130 games; the autoattack damage reduction directly cuts Jayce's basic-attack poke and his Cannon Stance Hyper Charge bursts."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "62.5% win rate over 32 games on this build path; the damage proc rewards landing stacked Q's on him once he's in range."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Ability Haste shortens your Wither and Spirit Fire cooldowns, letting you reapply the Attack Speed slow before he can reposition."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Stacks with Soul Eater lifesteal to win extended trades once Wither is on him and he can't kite."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's building full lethality and out-damaging your sustain in trades"
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "when": "you need the Spirit Fire-adjacent slow uptime for a tankier frontline role"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need to close the gap on a kiting Jayce in Cannon Stance"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "56.2% win rate on this page; the heal and Move Speed proc covers the exact window where you're walking into Hammer Q range and need to survive the return trade.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "56.6% win rate, the highest of the three spell pairs on record; Ghost closes the gap on a kiting Jayce in Cannon Stance and Teleport lets you keep farming jungle camps for Q stacks without giving up lane presence."
+  },
+  "playing": [
+   {
+    "title": "Farm Q stacks on jungle camps early",
+    "detail": "Siphoning Strike's stack bonus is permanent once it kills, so use the 8-4s cooldown on wolves and raptors between waves whenever Jayce has poke range on you in lane."
+   },
+   {
+    "title": "Never approach with both his skills up",
+    "detail": "If Hammer Stance Q and E both show no cooldown overlay, stay outside 600 range; walking in invites the leap-knockback combo for free damage."
+   },
+   {
+    "title": "Punish Cannon Stance commitments",
+    "detail": "Cannon Stance has zero gap-closing tools, so any time he swaps to it to poke with Shock Blast, close the distance and land Q before he can swap back."
+   },
+   {
+    "title": "Wither the instant he commits to a fight",
+    "detail": "W (Wither)'s Attack and Move Speed decay (15-11s cooldown) is your only tool to stop him kiting once he's chosen to trade; fire it the moment he's inside your melee range."
+   },
+   {
+    "title": "Hold Fury of the Sands for forced fights, not pokes",
+    "detail": "R's 120s cooldown is too long to waste on a skirmish you can walk away from; save it for the all-in post-level 6 that OP.GG's own data flags as your kill window."
+   },
+   {
+    "title": "Drop Spirit Fire under him before committing",
+    "detail": "E's Armor reduction on the zone turns your subsequent Q's and autos into real damage output, so place it before, not during, an all-in."
+   },
+   {
+    "title": "Trade through Thundering Blow, don't avoid it",
+    "detail": "The knockback only displaces you a short distance and deals magic damage; it doesn't end the fight, so keep walking back in and swinging rather than disengaging."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured from live games on the current patch via OP.GG; the mechanical reasoning and trade-timing advice are this coach's own read of the ability kit."
+ },
+ "generatedAt": 1791502907355,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502867307,
+  "overall": {
+   "winRate": 50.8,
+   "play": 13058,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 274,
+   "wins": 153,
+   "winRate": 55.8
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Always keep some distance to avoid being punished by Jayce. Focus foremost on raising your [Q] stacks, and try go in for the kill post-level 6 with Unsealed Spellbook + Fury of the Sands [R] when enemy skills are on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 56.6,
+    "play": 152,
+    "pickRate": 46.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.6,
+    "play": 85,
+    "pickRate": 25.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 60.5,
+    "play": 76,
+    "pickRate": 23
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 56.2,
+    "play": 130,
+    "pickRate": 38.9
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.9,
+    "play": 27,
+    "pickRate": 8.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60,
+    "play": 185,
+    "pickRate": 58
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 107,
+    "pickRate": 33.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 60.8,
+    "play": 130,
+    "pickRate": 42.2
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 48,
+    "play": 127,
+    "pickRate": 41.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 18.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 4.5
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 83.3,
+    "play": 6,
+    "pickRate": 3.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 59.7,
+    "play": 206,
+    "pickRate": 65.4
+   },
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 55.4,
+    "play": 195,
+    "pickRate": 61.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 55.1,
+    "play": 107,
+    "pickRate": 34
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 58.4,
+    "play": 77,
+    "pickRate": 24.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 52,
+    "play": 50,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 64.1,
+    "play": 39,
+    "pickRate": 12.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 60,
+    "play": 35
+   }
+  ]
+ }
+}

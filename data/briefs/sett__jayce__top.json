@@ -1,0 +1,380 @@
+{
+ "you": "Sett",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you contest his Cannon-stance poke at range, and you win if you force fights in Hammer stance where his only disengage is a short knockback."
+  },
+  "thesis": "Jayce's R (Mercury Cannon/Hammer) swaps stance on a flat 6s cooldown, so his whole kit — ranged poke or melee burst-and-knockback — can flip mid-trade. Sett has no gap-closer besides Q's move speed toward champions, so the lane is decided by whether you can force the fight while he's stuck in Hammer form. That structural coin-flip is exactly why this sits at an even 51.2% win rate over 209 games with Sett holding the solo-kill edge.",
+  "tell": {
+   "watch": "Jayce's current weapon stance",
+   "theirWindow": {
+    "when": "Jayce in Cannon stance, Q+E both up",
+    "what": "He can fire Shock Blast through an Acceleration Gate for extra missile speed, range, and damage, hitting everyone in the line. Don't contest CS or walk the gate's path until both are on cooldown."
+   },
+   "yourWindow": {
+    "when": "Jayce swaps to Hammer stance to trade",
+    "what": "His only disengage in this form is Thundering Blow's short knockback at 240 range. Close with Q (Knuckle Down)'s move speed toward champions, then stun him with E (Facebreaker) before he can knock you off and swap back to Cannon."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Cannon-stance Shock Blast outranges your approach"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Facebreaker lands but its 14.5s cooldown limits resets"
+   },
+   {
+    "levels": "6-9",
+    "edge": "you",
+    "note": "R ignores his stance-swap kiting entirely"
+   },
+   {
+    "levels": "10-13",
+    "edge": "you",
+    "note": "Stridebreaker plus 5s Q, 12s W win extended trades"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full build bruiser overwhelms his falling-off poke"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Doran's Shield's sustain is the measured pick here (53.9% WR, 67.1% pick) and directly answers OP.GG's own read: use lane sustain to out-trade his Q-E poke."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Cuts down both his basic attacks and his empowered post-R-swap auto, which is what actually chips you down across a long poke war (51.8% WR, 70.8% pick)."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The sheen proc plus slow on activation is what finally lets you stick to him once he's forced into melee range."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shred stacks from your alternating Pit Grit punches compound through the extended fights this matchup turns into once you're ahead."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "This exact order (Stridebreaker into Black Cleaver into Overlord's Bloodmail) is the top measured path at 56% over 25 games, and the bonus health scales your Q and E damage against him."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and need to survive being focused once teamfights start"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "the game runs long and you want to split-push away from his poke range"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you want the ability haste to shorten Facebreaker's 16-10s cooldown and Show Stopper's 120-80s cooldown faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through the sustained trades this lane demands and heals back poke damage, matching OP.GG's note to fight him whenever your skills come off cooldown.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the most-picked (73.2%) and highest win-rate (52.2%) combo in this matchup; Ignite closes out the kills your measured solo-kill advantage sets up after a Facebreaker stun or Show Stopper slam."
+  },
+  "playing": [
+   {
+    "title": "Track his weapon stance",
+    "detail": "His whole kit flips between Hammer and Cannon on a 6s R cooldown. Know which form he's in before deciding whether to step up or hold."
+   },
+   {
+    "title": "Hold during Cannon poke windows",
+    "detail": "When he's in Cannon stance with Q and E both up, don't contest the wave or walk through his Acceleration Gate line — that's when Shock Blast hits hardest."
+   },
+   {
+    "title": "Punish Hammer-stance trades",
+    "detail": "In Hammer form his only escape is Thundering Blow's short 240-range knockback. Use Q's move speed toward champions to close, then E to stun before he can swap back."
+   },
+   {
+    "title": "Bank Haymaker's Grit on purpose",
+    "detail": "W passively stores all damage you take as Grit. Eat a poke trade when you intend to fight soon after, then release W for the shield and center true damage."
+   },
+   {
+    "title": "Use R to erase his kiting",
+    "detail": "Show Stopper carries him through the air regardless of stance, denying both Thundering Blow's knockback and Shock Blast's slow as an escape."
+   },
+   {
+    "title": "Lean on cheap Q early",
+    "detail": "Despite the WEQQQR skill order, Q reaches rank 5 (5s cooldown) by level 9, giving near-permanent bonus max-health damage on trades well before your other abilities are maxed."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled directly from measured games on the current patch via OP.GG; the ability mechanics and trade-pattern reasoning are our own tactical read."
+ },
+ "generatedAt": 1791502447047,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502352709,
+  "overall": {
+   "winRate": 50.4,
+   "play": 16154,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 209,
+   "wins": 107,
+   "winRate": 51.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not let Jayce punish you during early game by keeping your distance. Be careful of his (Q)-(E) pokes while using your lane sustain to fight him whenever your skills come off cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.2,
+    "play": 186,
+    "pickRate": 73.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.1,
+    "play": 32,
+    "pickRate": 12.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 44,
+    "play": 25,
+    "pickRate": 9.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 57.1,
+    "play": 70,
+    "pickRate": 27.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 11
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53.9,
+    "play": 167,
+    "pickRate": 67.1
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 42.9,
+    "play": 77,
+    "pickRate": 30.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.8,
+    "play": 170,
+    "pickRate": 70.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 46.5,
+    "play": 43,
+    "pickRate": 17.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 56,
+    "play": 25,
+    "pickRate": 20.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 43.5,
+    "play": 23,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Sterak's Gage",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 75,
+    "play": 12,
+    "pickRate": 9.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50.4,
+    "play": 244,
+    "pickRate": 96.4
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 55.1,
+    "play": 147,
+    "pickRate": 58.1
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 53.9,
+    "play": 76,
+    "pickRate": 30
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.3,
+    "play": 70,
+    "pickRate": 27.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 51.7,
+    "play": 29,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.2,
+    "play": 47
+   }
+  ]
+ }
+}

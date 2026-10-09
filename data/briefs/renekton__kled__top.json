@@ -1,0 +1,384 @@
+{
+ "you": "Renekton",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Kled lands repeated Q hooks and Jousting poke before you ever reach 50+ Fury; you win once you've ground Skaarl's health down and he dismounts into a weaker, un-hooked state."
+  },
+  "thesis": "Kled mounted on Skaarl has a longer effective threat range than Renekton everywhere in his kit — an 800-range Q hook and a 550-range Jousting dash against Renekton's 325/300/450-range tools — so early trades favor Kled and explain his measured solo-kill edge. Renekton's counter is structural rather than positional: every point of Fury past 50 upgrades Cull the Meek's damage and heal and turns Ruthless Predator into a 3-hit, shield-destroying, 1.5-second stun, so the fight inverts once you can stack Fury and grind Skaarl's bar down to force a dismount, after which Kled deals less damage to champions outright.",
+  "tell": {
+   "watch": "Skaarl's health bar (mounted vs dismounted)",
+   "theirWindow": {
+    "when": "Kled's Q off cooldown, you're in range",
+    "what": "Bear Trap on a Rope (Q, 800 range, 11/10/9/8/7s cooldown) can hook and yank you in from well outside your kit before he follows with Jousting (E) and the four-attack speed burst of Violent Tendencies (W); don't stand where that hook lands clean."
+   },
+   "yourWindow": {
+    "when": "Fury above 50 and Kled still mounted",
+    "what": "Commit now: Cull the Meek (Q) hits harder and heals more, and Ruthless Predator (W) becomes a 3-hit sequence that strips shields and stuns for 1.5 seconds — long enough to land your full combo and chunk Skaarl's health toward a dismount."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q hook outranges your whole kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Kled's Q+E+W combo snowballs faster"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R adds HP and Fury generation"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Eclipse/Cleaver let you burst Skaarl"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "sustain items outlast dismounted Kled"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Kled's Q hook and early all-ins are built to chip health before you can swing back; the extra base HP and regen smooths through that poke, and it's the measured 66.7% win rate start in this matchup (21 games) versus Doran's Blade's 41.4%."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Dulls the four-attack burst from Violent Tendencies (W) and general auto-trades, which is the main way Kled punishes you before you reach Fury breakpoints."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Its shield-break effect lines up with your own W (Ruthless Predator) shredding shields at 50+ Fury, guaranteeing real damage through any defensive tech during the all-in."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "The armor shred stacks with Slice and Dice's (E) empowered armor reduction, so your autos and W chunk Skaarl's bar down faster toward the dismount."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Highest-sample completed path (33.3% win rate, 29.4% pick); the bleed-and-heal-back sustain offsets Kled's ranged poke over the repeated short trades this lane requires."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "kled's poke is outpacing your sustain and you need raw survivability to keep forcing fights"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're already ahead and want to shorten W's cooldown to chain stuns across skirmishes"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "kled keeps disengaging mounted or you need to run down a dismounted, fleeing target"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive force and healing reward the long, repeated trades this matchup demands — Skaarl doesn't go down in one exchange, and Conqueror's sustain keeps you winning the war of attrition toward the dismount.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This is the measured best-performing combo here (50% win rate, 13.5% pick) and fits the matchup's defensive shape: freeze under tower through Kled's hook poke, then teleport back in once Eclipse and Black Cleaver are online."
+  },
+  "playing": [
+   {
+    "title": "Respect the 800-range hook",
+    "detail": "Kled's Q (Bear Trap on a Rope) outranges every tool you have; don't trade at a distance where he can land it clean, especially while both his Q and E are up."
+   },
+   {
+    "title": "Farm Fury before committing",
+    "detail": "Push Fury past 50 on minions or safe pokes before you engage — under 50, Cull the Meek and Ruthless Predator are both at their weak breakpoint and you're trading at a mechanical disadvantage."
+   },
+   {
+    "title": "All-in only with the 1.5s W stun ready",
+    "detail": "Only commit your full combo when Ruthless Predator (W) is empowered; its 1.5-second, shield-destroying 3-hit stun is long enough to land Q and E behind it, while the base 0.75-second stun just gives Kled time to Jousting away."
+   },
+   {
+    "title": "Track Skaarl's bar, not Kled's",
+    "detail": "Kled deals less damage to champions once dismounted and loses the Q hook for the far weaker Pocket Pistol — sustained damage onto Skaarl's health, not Kled's own HP, is what actually disarms him."
+   },
+   {
+    "title": "Don't walk into the return Jousting pass",
+    "detail": "Kled's E (Jousting) can be recast to dash back through his original target for a second hit of the same damage; stepping forward after the first dash eats that return pass for free."
+   },
+   {
+    "title": "Save E to close, not to poke",
+    "detail": "Slice and Dice (450 range) is your only tool that matches Kled's reach — hold it to close distance after he commits Q or E rather than burning your one gap-closer early on its 16-to-10s cooldown."
+   },
+   {
+    "title": "Grind for the dismount, not first blood",
+    "detail": "Kled holds the measured solo-kill advantage here, so don't force all-ins to win exchanges outright; chip Skaarl's health down over repeated short trades and only go all-in once he's dismounted or your Fury and W stun are both ready."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and the Renekton vs. Kled win-rate figures above come from measured games on the current patch (16.20.1) via OP.GG; the Fury-threshold and forced-dismount timing read is my own tactical judgment, not a measured stat."
+ },
+ "generatedAt": 1791507119625,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791507013584,
+  "overall": {
+   "winRate": 49.2,
+   "play": 15859,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 86,
+   "wins": 41,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being hit with Kled’s (Q). Engage aggressively repeatedly after building up Fury to force Kled to dismount Skaarl.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.9,
+    "play": 98,
+    "pickRate": 82.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 13.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 4.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.3,
+    "play": 47,
+    "pickRate": 39.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.5,
+    "play": 13,
+    "pickRate": 10.9
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 41.4,
+    "play": 87,
+    "pickRate": 79.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 66.7,
+    "play": 21,
+    "pickRate": 19.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.2,
+    "play": 93,
+    "pickRate": 88.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.5,
+    "play": 11,
+    "pickRate": 10.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 41.1,
+    "play": 95,
+    "pickRate": 80.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.8,
+    "play": 82,
+    "pickRate": 69.5
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 42.2,
+    "play": 45,
+    "pickRate": 38.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 10.2
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 5.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 39.3,
+    "play": 28
+   }
+  ]
+ }
+}

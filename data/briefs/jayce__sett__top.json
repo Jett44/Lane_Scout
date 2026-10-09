@@ -1,0 +1,383 @@
+{
+ "you": "Jayce",
+ "them": "Sett",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even poke check",
+   "line": "You lose if you let Sett close distance and trade autos into his Q (Knuckle Down) stacks; you win if you hold Cannon form and poke him down before he's forced to commit."
+  },
+  "thesis": "Jayce in Cannon stance outranges Sett's entire kit (his longest engage, E (Facebreaker), only reaches 490), so this matchup is a straightforward kiting check that measures at 49.3% over 209 games. The catch is Sett's passive, Pit Grit, regenerates health the lower he drops, so single pokes don't close him out — you need sustained Q (Shock Blast) chip, not one big burst, or he just sustains back to even.",
+  "tell": {
+   "watch": "Sett's stored Grit / W bar",
+   "theirWindow": {
+    "when": "He lands first Q (Knuckle Down) hit",
+    "what": "Knuckle Down empowers his next two attacks with bonus max-health damage on cooldown 9/8/7/6/5s — back off immediately after the first empowered hit lands instead of trading into the second."
+   },
+   "yourWindow": {
+    "when": "E (Acceleration Gate) is up and he's not in melee range",
+    "what": "Fire Q (Shock Blast) through your own E (Acceleration Gate) to get the boosted missile speed, range, and damage, then follow with W (Lightning Field) procs while kiting — this is your highest-value poke window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Knuckle Down empowered autos punish early melee trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Shock Blast range starts winning poke exchanges"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R online lets you poke from Cannon form safely"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Facebreaker rank-ups raise his all-in threat level"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Muramana burst trades with his R (The Show Stopper) kill threat"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "92.7% pick rate at 49.6% win rate over 252 games — the sustain and early AD let you trade autos in Cannon stance without losing the lane-sustain war to his passive regen."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "53.1% win rate over 96 games — Sett's entire kit is auto-attack and physical-damage based, so the flat reduction blunts his empowered Knuckle Down hits more than Lucidity's cooldowns do here."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Starts the Muramana scaling early so your poke damage keeps pace with his passive sustain."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Most-picked second item in this matchup (39.1-60% win rate across the recorded paths) — the active gives you the gap-close-or-disengage speed to dictate when fights happen."
+    },
+    {
+     "item": "Muramana",
+     "why": "Core mana-to-damage spike that turns your Shock Blast poke into real health-bar pressure instead of chip damage he out-regens."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "he is using W (Haymaker)'s shield to tank your poke before engaging"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you are ahead and want to burst him down before his passive sustain kicks in"
+    },
+    {
+     "item": "Serylda's Grudge",
+     "when": "he is building tenacity or you need the slow to keep kiting after he closes distance"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "51.4% win rate over the recorded sample — Conqueror's healing directly counters the sustain-check nature of this lane (OP.GG's own tip is to damage him often), letting your stacked poke out-heal his passive Grit regen.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Highest measured win rate at 55.4% and the most-picked combo (49.6%) — Teleport lets you reset after poke-only exchanges without losing wave or tower pressure, which fits a lane where you aren't forced to all-in."
+  },
+  "playing": [
+   {
+    "title": "Default to Cannon stance",
+    "detail": "Stay in Cannon form and poke with Q (Shock Blast) at its 600 range rather than swapping to Hammer form to melee trade — his entire kit requires him to close distance first."
+   },
+   {
+    "title": "Punish the first Knuckle Down hit",
+    "detail": "His Q (Knuckle Down) empowers his next two attacks with max-health damage on a 9/8/7/6/5s cooldown — disengage after the first empowered hit connects instead of eating the second."
+   },
+   {
+    "title": "Remember Facebreaker needs two sides",
+    "detail": "E (Facebreaker) only stuns if enemies are on opposite sides of him; alone in a 1v1 you'll just be slowed, not stunned, unless an ally is on his far side."
+   },
+   {
+    "title": "Don't duel through his W shield",
+    "detail": "Haymaker converts stored damage-taken into a shield plus true damage at center / physical damage on the sides — if he casts it while you're fighting, step off-center to eat the lesser physical split, not the true damage."
+   },
+   {
+    "title": "Chain Shock Blast through Acceleration Gate",
+    "detail": "Deploy E (Acceleration Gate) and fire Q (Shock Blast) through it for boosted missile speed, range, and damage — this is your safest way to apply the sustained chip his passive sustain requires."
+   },
+   {
+    "title": "Respect his ultimate from level 6",
+    "detail": "R (The Show Stopper) has a long 120/100/80/80/80s cooldown but only needs 400 range to drag and slam you — don't overextend on a poke read right after he's used Q or E to close distance."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are pulled directly from measured OP.GG games on the current patch; the ability mechanics, trade timings, and tactical reasoning are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791503039936,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502957635,
+  "overall": {
+   "winRate": 47.8,
+   "play": 16564,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 209,
+   "wins": 103,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "defensive",
+  "opponentTip": "Sett excels in lane sustain so deal damage to him often. Avoid being hit at the center of (W).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.4,
+    "play": 139,
+    "pickRate": 49.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.6,
+    "play": 129,
+    "pickRate": 46.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 3.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 81,
+    "pickRate": 28.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 37,
+    "pickRate": 13.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.6,
+    "play": 252,
+    "pickRate": 92.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 2.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.1,
+    "play": 96,
+    "pickRate": 38.7
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 46.2,
+    "play": 91,
+    "pickRate": 36.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 39.1,
+    "play": 23,
+    "pickRate": 11.8
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 7.2
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 5.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 53.4,
+    "play": 189,
+    "pickRate": 66.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 47.9,
+    "play": 169,
+    "pickRate": 59.3
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 48.7,
+    "play": 117,
+    "pickRate": 41.1
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 51.5,
+    "play": 103,
+    "pickRate": 36.1
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 59.4,
+    "play": 96,
+    "pickRate": 33.7
+   },
+   {
+    "items": [
+     "Serylda's Grudge"
+    ],
+    "winRate": 63.2,
+    "play": 57,
+    "pickRate": 20
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 65.1,
+    "play": 43
+   }
+  ]
+ }
+}

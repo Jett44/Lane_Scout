@@ -1,0 +1,390 @@
+{
+ "you": "Gnar",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, kite-reliant",
+   "line": "You lose if you ever let him pull you into a stand-still trade or get caught by his level 6+ Realm of Death; you win if you poke from outside 700 range and never give him three free hits to pop Darkness Rise."
+  },
+  "thesis": "Mordekaiser has nothing that reaches past 700 range — Q (Obliterate, 675 range) and E (Death's Grasp, 700 range) both require him to close the gap, while your Q (Boomerang Throw, 1100 range) does not. The 50.3% win rate over 187 games reflects that even poke war, offset by his real edge: once he lands the pull or gets three hits to trigger Darkness Rise, his duel and R (Realm of Death) threat outscales anything you can trade back in melee range.",
+  "tell": {
+   "watch": "His E (Death's Grasp) cooldown",
+   "theirWindow": {
+    "when": "E up and you're inside 700 range",
+    "what": "He can pull you point-blank and follow with Obliterate plus autos to trigger Darkness Rise. Back off to 1100 range or past 700 the moment you see his E come off cooldown."
+   },
+   "yourWindow": {
+    "when": "His E (Death's Grasp) is on cooldown",
+    "what": "Walk up to the 700-1100 band and throw Q (Boomerang Throw) freely — he has no other way to close the distance, so this is your free poke window."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both poking, Q ranges don't overlap"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Death's Grasp online, pull threat starts"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "Realm of Death duel threat peaks"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Mega Gnar burst and kite tools online"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Trinity Force kite outpaces his stickiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run by 45.5% of players at 66.7% pick rate — the sustain and early AD lets you trade Q pokes and tank a stray Obliterate without losing lane state."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "68.8% pick rate at 55.3% win rate — Mordekaiser's entire kit is magic damage, and the tenacity matters if his E pull connects."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "Highest-winrate path (60.9% over 23 games) — the move speed proc keeps you at Q range and off his Obliterate/Death's Grasp distance."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds his armor so your poke damage scales as the lane goes long, and the slow stacks help you disengage after a Q."
+    },
+    {
+     "item": "Wit's End",
+     "why": "17.8% pick on the top path — magic resist plus on-hit damage punishes him if he ever walks up to auto-trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and want to survive the all-in if he lands Realm of Death on you"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "you're behind and need to survive extended fights rather than win the duel"
+    },
+    {
+     "item": "Thornmail",
+     "when": "his Indestructible shield-heal is letting him sustain through your poke damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Highest-winrate page (50.7% over this sample at 31.8% pick) — the move speed and sustain on hit directly supports the poke-and-retreat pattern this matchup demands. Master-tier Gnar players instead run Lethal Tempo (1,803 games) — better suited if you plan to stand and trade autos rather than kite, which is riskier into his pull.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "61.9% pick rate — this is a defensive-shaped lane where you're often shoved off wave, and Teleport lets you reset without losing tempo. Flash+Ignite (56.1% win rate, 17.4% pick) is the better pick if you're ahead and want to punish a bad Death's Grasp with a kill."
+  },
+  "playing": [
+   {
+    "title": "Never melee-trade him",
+    "detail": "He has no gap-closer besides Death's Grasp (E, 700 range). If you're outside that range and he hasn't pulled you, he physically cannot force a fight — stay on Q cooldown at 1100 range instead of walking up."
+   },
+   {
+    "title": "Dodge his E with your E",
+    "detail": "Use Hop (E) reactively to reposition out of Death's Grasp's area before it resolves — this is the single highest-value defensive play in the matchup."
+   },
+   {
+    "title": "Count his Darkness Rise stacks",
+    "detail": "After 3 landed attacks or spells on you he gets a damage aura and move speed. Break off the trade before he reaches that third hit, don't let him farm it for free."
+   },
+   {
+    "title": "Respect level 6-10 hard",
+    "detail": "Realm of Death (R, 650 range) is his kill button and the data's solo-kill edge comes from exactly this window. Don't extend trades or overstay a wave once he's level 6."
+   },
+   {
+    "title": "Manage your Rage bar on purpose",
+    "detail": "Transforming into Mega Gnar mid-trade trades your 1100-range Q for a point-blank boulder throw — don't let Rage fill passively into his pull range, time the transform for when you're initiating, not defending."
+   },
+   {
+    "title": "Punish his shield consumption",
+    "detail": "Indestructible (W) stores damage to heal later — if he consumes it to top off, that's your window to re-engage with Q before the shield rebuilds."
+   },
+   {
+    "title": "Group around level 6 if behind",
+    "detail": "Since the data shows he wins the 1v1 duel more often, look to draw a gank rather than force a solo kill once his ultimate is up."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win rates above are measured OP.GG data from live games on the current patch; the mechanical reasoning (range bands, Darkness Rise timing, Rage bar management) is this brief's own tactical read, not OP.GG's."
+ },
+ "generatedAt": 1791504340845,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791504251357,
+  "overall": {
+   "winRate": 49.4,
+   "play": 10097,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 187,
+   "wins": 94,
+   "winRate": 50.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid fighting him head on, while using [E] to dodge his (E). Kite him while keeping your distance to gain the upper hand.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.6,
+    "play": 146,
+    "pickRate": 61.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.1,
+    "play": 41,
+    "pickRate": 17.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 13.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.7,
+    "play": 75,
+    "pickRate": 31.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.9,
+    "play": 66,
+    "pickRate": 28
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.5,
+    "play": 154,
+    "pickRate": 66.7
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 61.5,
+    "play": 39,
+    "pickRate": 16.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.3,
+    "play": 152,
+    "pickRate": 68.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 32.6,
+    "play": 43,
+    "pickRate": 19.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 17.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 17.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 33.3,
+    "play": 12,
+    "pickRate": 9.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 49.8,
+    "play": 209,
+    "pickRate": 87.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 55.6,
+    "play": 142,
+    "pickRate": 59.7
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 57,
+    "play": 86,
+    "pickRate": 36.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 57.1,
+    "play": 70,
+    "pickRate": 29.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 48.7,
+    "play": 39,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 7.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.4,
+    "play": 90
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1803
+  }
+ }
+}

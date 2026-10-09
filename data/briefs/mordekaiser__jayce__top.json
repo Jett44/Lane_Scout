@@ -1,0 +1,380 @@
+{
+ "you": "Mordekaiser",
+ "them": "Jayce",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade Q poke into his Cannon stance with no shield banked; you win if you force Hammer-stance brawls or isolate him with R after level 6."
+  },
+  "thesis": "Jayce's kit is two different lanes stapled together: Cannon stance pokes you down with Shock Blast and an Acceleration Gate from range, while Hammer stance is a melee duel form with a leap and a knockback. Mordekaiser has no dash to close that gap, so the matchup is decided by whether you survive the ranged phase with W (Indestructible) banked and then drag the fight into the Hammer-stance range where your sustain and E (Death's Grasp) pull take over. The 51.4% win rate over 216 games reflects an even lane that swings hard on solo-kill windows, which the data says favor you.",
+  "tell": {
+   "watch": "Jayce's weapon stance (Hammer/Cannon)",
+   "theirWindow": {
+    "when": "Cannon stance, your W shield consumed",
+    "what": "He's free to fire Shock Blast and drop an Acceleration Gate to poke you with zero return damage. Back off wave, don't walk forward to trade without W (Indestructible) banked, since you have no way to close the gap and just eat free magic-less physical poke."
+   },
+   "yourWindow": {
+    "when": "He swaps to Hammer stance to engage",
+    "what": "Hammer stance means he's committing to melee range with only a leap and a knockback, not a disengage tool. Land E (Death's Grasp) to pull him in before he can knock you back with Thundering Blow, then unload Q (Obliterate) and consume W's shield for the heal."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "Cannon poke punishes your lack of gap closer"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R isolates him for close-quarters duels"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Rylai's slow lets E/Q actually connect"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his scaling catches up in skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "52.8% win rate over 142 games. The passive damage reduction on consecutive hits directly blunts his auto-reset poke from Cannon stance while you wait out levels 1-5."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "51.9% win rate over 214 games and 81.7% pick rate. Jayce's damage is physical in both stances (Shock Blast, Thundering Blow, auto-resets), so the flat reduction on basic attacks matters more than magic resist here."
+   },
+   "core": [
+    {
+     "item": "Rylai's Crystal Scepter",
+     "why": "The slow on Q (Obliterate) and E (Death's Grasp) is the single biggest answer to his kiting between stances — it's what turns your lack of dash into an actual catch."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Sustained omnivamp and the % max-health burn on your toggled passive aura keep you alive through extended Cannon-stance poke exchanges."
+    },
+    {
+     "item": "Liandry's Torment",
+     "why": "44.4% win rate over 18 games on this exact path. Burn damage punishes him for standing in E (Death's Grasp) or W (Indestructible) range instead of kiting."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's building crit or attack speed and leaning on auto-resets in Cannon stance"
+    },
+    {
+     "item": "Hextech Rocketbelt",
+     "when": "you keep losing the engage because he kites you to his Acceleration Gate before you can land E"
+    },
+    {
+     "item": "Experimental Hexplate",
+     "when": "you want a second forced engage tool on top of E for isolate fights after level 6"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks through the extended trades his poke forces and converts to healing, which is exactly the war of attrition this lane becomes before you can close distance.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "56.1% win rate at 69% pick rate, the standard and highest-usage combo. Ignite closes out the solo-kill windows the data says you already favor once you catch him in Hammer stance or inside R."
+  },
+  "playing": [
+   {
+    "title": "Bank W before every trade",
+    "detail": "Never walk up to contest Cannon-stance poke with Indestructible on cooldown — you have no answer to Shock Blast and Lightning Field damage without the shield stored."
+   },
+   {
+    "title": "Punish every Hammer-stance leap",
+    "detail": "The moment he commits To the Skies! to engage, he's lost his ranged kit for 16/14/12/10/8 seconds. Pull him with E and don't let him disengage back to Cannon stance."
+   },
+   {
+    "title": "Save R for an isolate, not a save",
+    "detail": "Realm of Death removes his jungler and support from the fight for its duration. Use it to force a true 1v1 after level 6, where your solo-kill edge shows up in the numbers."
+   },
+   {
+    "title": "Track his R (Mercury Cannon/Hammer) cooldown",
+    "detail": "It's only 6 seconds, so he can flex stances mid-fight. Don't assume a Hammer-stance engage locks him there — watch for a mid-fight swap back to Cannon to disengage."
+   },
+   {
+    "title": "Pull through the Acceleration Gate",
+    "detail": "If he drops an Acceleration Gate to kite, step through it yourself when chasing — the move speed buff applies to any ally champion who crosses it, including you."
+   },
+   {
+    "title": "Use Q's single-target bonus to end trades",
+    "detail": "Obliterate's damage is increased against a single enemy, so focus him alone in skirmishes rather than cleaving minions when you want to close out a duel fast."
+   },
+   {
+    "title": "Don't contest early waves at range",
+    "detail": "Levels 1-5 you're losing the poke war outright per the data's lane-advantage read. Farm safe, let Doran's Shield absorb chip damage, and wait for level 6."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are measured from live games on the current patch via OP.GG; the stance-by-stance tactical reading and timing calls are my own analysis layered on top."
+ },
+ "generatedAt": 1791502530551,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791502452017,
+  "overall": {
+   "winRate": 50.9,
+   "play": 15676,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 216,
+   "wins": 111,
+   "winRate": 51.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not fight Jayce when your [W] is on cooldown. Try to fight him in close quarters after reaching level 6 to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.1,
+    "play": 189,
+    "pickRate": 69
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.1,
+    "play": 41,
+    "pickRate": 15
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 38.9,
+    "play": 36,
+    "pickRate": 13.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.7,
+    "play": 113,
+    "pickRate": 41.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.2,
+    "play": 23,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.8,
+    "play": 142,
+    "pickRate": 52.4
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 116,
+    "pickRate": 42.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 51.9,
+    "play": 214,
+    "pickRate": 81.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 67.9,
+    "play": 28,
+    "pickRate": 10.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Liandry's Torment"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 11.2
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Riftmaker",
+     "Thornmail"
+    ],
+    "winRate": 22.2,
+    "play": 9,
+    "pickRate": 5.6
+   },
+   {
+    "items": [
+     "Rylai's Crystal Scepter",
+     "Liandry's Torment",
+     "Riftmaker"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Rylai's Crystal Scepter"
+    ],
+    "winRate": 53.7,
+    "play": 205,
+    "pickRate": 74.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 57.6,
+    "play": 172,
+    "pickRate": 62.3
+   },
+   {
+    "items": [
+     "Hextech Rocketbelt"
+    ],
+    "winRate": 57.5,
+    "play": 80,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Liandry's Torment"
+    ],
+    "winRate": 55.4,
+    "play": 56,
+    "pickRate": 20.3
+   },
+   {
+    "items": [
+     "Experimental Hexplate"
+    ],
+    "winRate": 57.4,
+    "play": 54,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 47.5,
+    "play": 40,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 62.4,
+    "play": 109
+   }
+  ]
+ }
+}

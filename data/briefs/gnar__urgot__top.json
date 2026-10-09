@@ -1,0 +1,382 @@
+{
+ "you": "Gnar",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You lose if you let Urgot's E (Disdain) catch you and chain into his Purge/Echoing Flames burst; you win if you out-poke him with mini Gnar's longer Q and punish his 14-16s E cooldown with Mega Gnar bursts."
+  },
+  "thesis": "Both champions are ranged poke duelists, but only Urgot has a hard engage: E (Disdain) dashes 475 range, tramples minions, and stops to throw you out of position if it connects a champion. Gnar's mini form outranges him with Q (Boomerang Throw) at 1100 vs Urgot's 800-range Q and 490-range W, so the lane is won or lost on whether you stay outside 475-490 range until Rage builds. Once Mega Gnar is online, his E (Crunch) and W (Wallop) give you the only hard engage in the lane, which is the counter to Urgot's lack of an escape dash.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) cooldown",
+   "theirWindow": {
+    "when": "His E is off cooldown and you're in range",
+    "what": "Once Disdain (16/15.5/15/14.5/14s cooldown) is up, Urgot can charge 475 units, trample minions, and if he connects he stops and throws you out of position directly into his Q (Corrosive Charge) and W (Purge) follow-up. Hold Q pokes from max range rather than walking up to trade autos while this is live."
+   },
+   "yourWindow": {
+    "when": "Rage is near max and his E is down",
+    "what": "Transform into Mega Gnar and commit with E (Crunch)'s ground slam or W (Wallop)'s stun — Urgot has no dash to escape it once Disdain is on cooldown, so this is the one window you can force a real fight instead of trading pokes."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Urgot's Q/E poke-and-engage beats low-Rage mini Gnar"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Mini Gnar's Q range starts winning poke exchanges"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Urgot's R execute threat punishes overextension"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Trinity Force online, Mega Gnar bursts punish his E cooldown"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Full kite build outscales his lack of an escape dash"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Highest-performing start in the data (49.2% over 63 games, 53.9% pick); the extra sustain and damage let mini Gnar win the early auto/Q poke exchanges before Rage builds."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "By far the most picked boot (91.1% pick, 46.1% WR over 102 games); Urgot's damage leans on basic attacks and his Echoing Flames passive triggers off autos and Purge, so flat reduction blunts both."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The Spellblade proc and move speed spike let Mega Gnar stick to Urgot the moment his E (Disdain) is down, turning your one engage window into a real punish."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shreds the armor Urgot builds against you (Randuin's/Thornmail) and its stacking move speed passive helps mini Gnar kite between pokes."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Health and tenacity keep you alive through his Q slow chains and buy survival margin against the R (Fear Beyond Death) execute threshold."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "if urgot is building toward an all-in burst and you need the attack speed slow and extra health to survive it"
+    },
+    {
+     "item": "Thornmail",
+     "when": "if urgot is stacking heavy physical damage or lifesteal and you need the grievous wounds to shut down his sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The move speed burst and heal on landed abilities fit a lane about repositioning — you're constantly weaving Q pokes and E hops while staying outside his 475-490 range. Master-tier Gnar players (1,803 games) favor Lethal Tempo instead, which rewards committing to extended attack-speed trades once ahead; that's fine if you're confident out-dueling his Purge channel, but Fleet Footwork is the safer pick into his Echoing Flames poke.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the dominant pick (61.5% pick rate) and lets you reset waves safely in a lane that's won through poke attrition rather than all-ins. Exhaust+Flash (17.1% pick) is a reasonable alternative if you want a direct answer to his E (Disdain) engage window."
+  },
+  "playing": [
+   {
+    "title": "Poke from max Q range",
+    "detail": "Throw Boomerang Throw from near its 1100 range rather than walking into his 475-490 range; catching the return cuts the cooldown and keeps the poke war one-sided."
+   },
+   {
+    "title": "Respect the E window",
+    "detail": "Track his E (Disdain) cooldown (16-14.5s) and don't stand in 475 range while it's up — getting caught is how he displaces you into Purge and Echoing Flames."
+   },
+   {
+    "title": "Build Rage without committing",
+    "detail": "Fight at range to stack Rage safely; save the Mega Gnar transform for a moment when his E is down so he can't dash away from your E (Crunch) or W (Wallop)."
+   },
+   {
+    "title": "Play around his R from level 6",
+    "detail": "Fear Beyond Death can execute you under its HP threshold at 2500 range — don't sit below half HP near level 6+ once he has it up."
+   },
+   {
+    "title": "Punish the Purge channel",
+    "detail": "Urgot slows himself while using W (Purge); if he opens it at bad range, walk out of 490 range or burst him while his move speed is reduced."
+   },
+   {
+    "title": "Don't force all-ins",
+    "detail": "The head-to-head sits at 46.7% over 105 games with a solo-kill edge to Urgot — let poke decide skirmishes and only commit Mega Gnar when his engage is down."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the win-rate figures above come from measured games on the current patch (16.20.1) via OP.GG; the ability interactions and trade timing are my own read of the kit."
+ },
+ "generatedAt": 1791506010418,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791505907550,
+  "overall": {
+   "winRate": 49.4,
+   "play": 10368,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 105,
+   "wins": 49,
+   "winRate": 46.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being hit with (E). Maintain your distance while focusing on kiting.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.8,
+    "play": 72,
+    "pickRate": 61.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 20,
+    "pickRate": 17.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 12
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.4,
+    "play": 31,
+    "pickRate": 26.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 25.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.2,
+    "play": 63,
+    "pickRate": 53.9
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 36.4,
+    "play": 22,
+    "pickRate": 18.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.1,
+    "play": 102,
+    "pickRate": 91.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 3.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 60,
+    "play": 15,
+    "pickRate": 25.4
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Sterak's Gage",
+     "Randuin's Omen"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 11.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 50,
+    "play": 108,
+    "pickRate": 85.7
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.9,
+    "play": 77,
+    "pickRate": 61.1
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 46.2,
+    "play": 52,
+    "pickRate": 41.3
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 45,
+    "play": 20,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 40,
+    "play": 15,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 42.9,
+    "play": 7,
+    "pickRate": 5.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.1,
+    "play": 37
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 1803
+  }
+ }
+}

@@ -1,0 +1,388 @@
+{
+ "you": "Sion",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Kled hook-and-dash you down before level 6 or fight him while mounted with full courage; you win if you survive to Cannibalism and farm through his jousts."
+  },
+  "thesis": "Kled's entire kill pattern depends on landing Q (Bear Trap on a Rope) to yank you in, then chaining E (Jousting) twice; if you respect that hook range at 800 and the E dash range at 550, he has almost no way to force a trade. The 48% head-to-head over 50 games reflects a lane where his engage is scary but conditional, not a hard counter.",
+  "tell": {
+   "watch": "Skaarl's mount health bar",
+   "theirWindow": {
+    "when": "Q lands and he's still mounted",
+    "what": "Once Bear Trap hooks you, he will immediately follow with E (Jousting) for the dash damage and speed burst, then W (Violent Tendencies) autos. Expect to eat Q+E+part of a W string before you can walk out of his 550 range."
+   },
+   "yourWindow": {
+    "when": "He dismounts or whiffs Q/E",
+    "what": "Dismounted Kled loses his hook (replaced by the weaker Pocket Pistol knockback) and deals less damage to champions. Walk up and use your own Q (Cryptic Gaze) to stun him for free damage while his cooldowns (Q 11-7s, E 13-9s) are down."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "his Q threat range outpaces your trade tools"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q+E dash combo punishes any overextension"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "your R sustain offsets his burst"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Heartsteel health stacking outscales his damage"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "full build tank-deletes his auto resets"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The 55.9% pick rate option directly answers his early auto-attack and Q poke, since the shield's regen and block effect blunts exactly the harass pattern he relies on before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "87.5% pick rate for a reason — his W (Violent Tendencies) is a four-hit auto-attack speed burst, and flat physical damage reduction directly cuts that window down."
+   },
+   "core": [
+    {
+     "item": "Unending Despair",
+     "why": "Builds raw health and damage reduction that scales directly against his sustained auto-attack damage profile."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Stacks bonus health from every auto you land, which synergizes with E (Enrage) converting that health into attack damage."
+    },
+    {
+     "item": "Sunfire Aegis",
+     "why": "Immolate aura punishes him for staying in auto range during W (Violent Tendencies) windows."
+    }
+   ],
+   "situational": [
+    {
+     "item": "thornmail",
+     "when": "he is building into heavy attack speed and autos are your main source of incoming damage"
+    },
+    {
+     "item": "bramble vest",
+     "when": "you need an earlier antiheal/armor spike before his first back"
+    },
+    {
+     "item": "titanic hydra",
+     "when": "you want more waveclear and poke to punish his dismounted state"
+    },
+    {
+     "item": "jak'sho, the protean",
+     "when": "the game goes long and you need magic resist alongside your health stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustained health growth from auto-attacking him in extended trades directly counters his short burst-and-reset Q/E pattern — you want longer fights, not short ones.",
+   "primary": [
+    "Demolish",
+    "Conditioning",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Cash Back",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "91.5% pick rate at a near-breakeven 51.9% win rate — Flash lets you dodge the Q hook at the exact moment he commits it, and Teleport resets you into lane after Grasp-stacking trades without losing tempo."
+  },
+  "playing": [
+   {
+    "title": "Hold position outside 800 range",
+    "detail": "Bear Trap on a Rope has 800 range and an 11-7s cooldown depending on rank. Never stand at that exact distance without a wall or minion between you — once hooked, the follow-up E (Jousting) is nearly guaranteed."
+   },
+   {
+    "title": "Punish after he jousts past you",
+    "detail": "E (Jousting) can be recast to dash back through the same target, but between the first dash and the recast he's briefly beyond melee range of you. Use that gap to reset distance rather than chase."
+   },
+   {
+    "title": "Save Q for his dismount",
+    "detail": "When Skaarl's mount bar hits zero, Kled loses his Q entirely (replaced by Pocket Pistol) and deals reduced champion damage. Walk him down and land your own Q (Cryptic Gaze, 550 range) for a free stun during this window."
+   },
+   {
+    "title": "Track his courage meter",
+    "detail": "Kled restores Skaarl's courage by fighting; at max courage he remounts with partial health. Don't let a 'dismounted and losing' fight go long enough for him to earn that free sustain back."
+   },
+   {
+    "title": "Use E (Enrage) only when you're committing",
+    "detail": "Enrage trades your own health for attack damage on every auto. Only toggle it on when you're already in a fight you intend to finish, since bleeding health into a Kled who can hook you again is how you lose trades you were winning."
+   },
+   {
+    "title": "Hold R for extended skirmishes",
+    "detail": "Cannibalism has a 90s cooldown and heals you plus nearby allies on hit. Save it for the moment he commits Q+E rather than popping it on cooldown, since the sustain swings exactly the burst trades he's built around."
+   },
+   {
+    "title": "Don't contest early all-ins alone",
+    "detail": "Levels 1-5 favor his engage tools outright. Farm under tower pressure, let Grasp stacks build passively off any poke he throws, and wait for level 6 Cannibalism to start initiating yourself."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate numbers are measured from live games on the current patch (16.20.1) via OP.GG; the ability mechanics, timing windows, and tactical reasoning are our own analysis layered on top of that data."
+ },
+ "generatedAt": 1791514977701,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791514935820,
+  "overall": {
+   "winRate": 49.6,
+   "play": 8195,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 50,
+   "wins": 24,
+   "winRate": 48
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "even",
+  "opponentTip": "Avoid his (Q) when he charges in. Focus on farming lane and keep an eye out on his Conqueror stacks while managing your distance properly.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.9,
+    "play": 54,
+    "pickRate": 91.5
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 5.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 3.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Cash Back",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 37.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 10.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42.4,
+    "play": 33,
+    "pickRate": 55.9
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 70,
+    "play": 20,
+    "pickRate": 33.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 59.2,
+    "play": 49,
+    "pickRate": 87.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 7.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Unending Despair",
+     "Heartsteel",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Sunfire Aegis",
+     "Heartsteel",
+     "Unending Despair"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 7.7
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Sunfire Aegis",
+     "Thornmail"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 7.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 59.4,
+    "play": 32,
+    "pickRate": 51.6
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 57.1,
+    "play": 28,
+    "pickRate": 45.2
+   },
+   {
+    "items": [
+     "Sunfire Aegis"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 33.9
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 27.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 24.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 58.8,
+    "play": 17
+   }
+  ]
+ }
+}

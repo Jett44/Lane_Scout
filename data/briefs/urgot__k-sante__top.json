@@ -1,0 +1,384 @@
+{
+ "you": "Urgot",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, favoured",
+   "line": "You lose if K'Sante lands his Q (Ntofo Strikes) stack into a W (Path Maker) stun before level 6; you win if you survive to mid game where your cooldowns and build take over."
+  },
+  "thesis": "K'Sante owns the early all-in because his Q (Ntofo Strikes) stacks into a pull and his W (Path Maker) adds a stun+knockback on a 14-10s cooldown, matching the measured lane and solo-kill advantage in his favor. Urgot's structural answer is that his W (Purge) cooldown collapses from 12s to 0s as it ranks up, turning him into a near-permanent DPS threat by mid game, and his build (Black Cleaver, Sterak's Gage) directly undercuts the tank stats K'Sante relies on. That's why the raw win rate (58.9% over 95 games) favors Urgot despite losing the early lane shape.",
+  "tell": {
+   "watch": "K'Sante's Ntofo Strikes stack count",
+   "theirWindow": {
+    "when": "he already has 1 Q stack",
+    "what": "The next Q (Ntofo Strikes) fires a shockwave that pulls you in, which chains straight into his W (Path Maker) stun. Back off the moment you see that first stack land instead of trading through it."
+   },
+   "yourWindow": {
+    "when": "after he commits R (All Out) to engage",
+    "what": "Going All Out reduces his own defenses in exchange for damage and healing, so this is when to commit your Black Cleaver stacks and autos rather than disengage. If he drops below the health threshold, your R (Fear Beyond Death) can finish him outright."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q stack-and-slow spam wins short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W unlocks stun+knockback all-in"
+   },
+   {
+    "levels": "6-9",
+    "edge": "even",
+    "note": "both execute/all-in threats come online"
+   },
+   {
+    "levels": "10-13",
+    "edge": "you",
+    "note": "Purge near-0s CD, Cleaver shredding armor"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build outlasts his all-in kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "86.2% pick rate at 57.4% win rate over 94 games — the sustain and early AD help you survive the trades you can't avoid before E (Disdain) and R (Fear Beyond Death) come online."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "54.9% pick at 58.9% win rate over 56 games — K'Sante's pressure is almost entirely physical autos and Q (Ntofo Strikes) procs, so flat physical reduction blunts his trading pattern directly."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred directly undercuts the tank stats K'Sante needs to survive your Q (Corrosive Charge) poke and sustained Purge autos."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "Bonus health and the damage-reduction shield blunt the burst from his W (Path Maker) stun combo once he closes the gap."
+    },
+    {
+     "item": "Jak'Sho, The Protean",
+     "why": "Most-picked third item in this matchup (27.9% pick, 47.1% win rate over 17 games) for stacking resistances into extended skirmishes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "you need to close the gap on his Footwork (E) retreats or dives"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he itemizes attack speed or crit to maximize Q (Ntofo Strikes) stacking"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "the game runs long and you need extra sustain in extended fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Press the Attack",
+   "keystoneWhy": "65.2% win rate at 20.5% pick — rewards the sustained auto-weaving Purge (W) gives you once its cooldown drops, and punishes K'Sante for standing in range after he commits to a dash.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the higher win rate pick (59.4% over 28.6% of games) and lets you play the early all-in threat safely while still scaling into the mid game where you're favored. Swap Teleport for Ignite (57.9% win rate, 67.9% pick) if you want extra kill pressure once he's forced to use R (All Out) early."
+  },
+  "playing": [
+   {
+    "title": "Bait the W charge-up",
+    "detail": "Path Maker telegraphs with a charge-up phase before the dash lands. Walk out of the 600-range dash window instead of trading through it."
+   },
+   {
+    "title": "Disengage at 1 Q stack",
+    "detail": "If he already has a Ntofo Strikes stack up, his next Q pulls you in and chains into the W stun. Back off rather than contest the trade."
+   },
+   {
+    "title": "Poke at max Q range",
+    "detail": "Throw Corrosive Charge from its full 800 range before level 6 rather than closing to Purge range, since Purge (W) slows you and leaves you stationary against his dash kit."
+   },
+   {
+    "title": "Use Disdain to escape, not just engage",
+    "detail": "E's shield and the forced displacement on hitting a champion both work to create distance when he closes with Q or W, not only to initiate."
+   },
+   {
+    "title": "Hold R for the follow-up",
+    "detail": "Fear Beyond Death has 2500 range and only executes below a health threshold — save it to finish a trade rather than opening with it."
+   },
+   {
+    "title": "Punish the All Out window",
+    "detail": "Once he goes All Out, his defenses are reduced in exchange for damage and healing. Commit your stacked Black Cleaver damage instead of backing off."
+   },
+   {
+    "title": "Rush Black Cleaver for the shred",
+    "detail": "The armor reduction undercuts his tank stats directly, making every subsequent Purge auto and the R execute threshold easier to reach."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/sample numbers are measured from live games on the current patch (16.20.1) via OP.GG; the mechanical reasoning and trade-pattern analysis are my own read of the ability kits."
+ },
+ "generatedAt": 1791500941029,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791500819789,
+  "overall": {
+   "winRate": 52.4,
+   "play": 6827,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 95,
+   "wins": 56,
+   "winRate": 58.9
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "defensive",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 57.9,
+    "play": 76,
+    "pickRate": 67.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 59.4,
+    "play": 32,
+    "pickRate": 28.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 100,
+    "play": 2,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 65.2,
+    "play": 23,
+    "pickRate": 20.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Bloodline",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.6,
+    "play": 18,
+    "pickRate": 16.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 57.4,
+    "play": 94,
+    "pickRate": 86.2
+   },
+   {
+    "items": [
+     "Cull",
+     "Health Potion"
+    ],
+    "winRate": 77.8,
+    "play": 9,
+    "pickRate": 8.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 58.9,
+    "play": 56,
+    "pickRate": 54.9
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.2,
+    "play": 23,
+    "pickRate": 22.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 27.9
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Dead Man's Plate"
+    ],
+    "winRate": 83.3,
+    "play": 12,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 9.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 58.5,
+    "play": 106,
+    "pickRate": 97.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 61.8,
+    "play": 76,
+    "pickRate": 69.7
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 23.9
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 80,
+    "play": 15,
+    "pickRate": 13.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 11.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 11
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "R",
+     "W",
+     "E",
+     "W",
+     "E",
+     "R",
+     "E",
+     "E",
+     "Q",
+     "Q"
+    ],
+    "winRate": 76.5,
+    "play": 17
+   }
+  ]
+ }
+}

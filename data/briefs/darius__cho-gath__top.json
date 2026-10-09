@@ -1,0 +1,380 @@
+{
+ "you": "Darius",
+ "them": "Cho'Gath",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured lane",
+   "line": "You lose if you walk into Q (Rupture) on approach and eat Feral Scream on the slow; you win almost every trade you force once you close the gap."
+  },
+  "thesis": "Cho'Gath's entire kit is built to punish you at range and fall apart in your face: Q (Rupture) and W (Feral Scream) both have a 300-950 range window where he controls the fight, but once you're inside 300 range his only damage is Vorpal Spikes stacking off his own autos. This is why Darius sits at 53.1% over 192 games here despite the raw matchup win rate being 49.7% across 18,600 games — the gap is almost entirely about who closes distance correctly.",
+  "tell": {
+   "watch": "Cho'Gath's Q (Rupture) cooldown",
+   "theirWindow": {
+    "when": "Rupture and Feral Scream both up",
+    "what": "He can knock you up with Q, then silence and damage you with W (Feral Scream) before you ever reach him — do not walk a straight line into him when both are available, go wide or bait the Q on a minion wave first."
+   },
+   "yourWindow": {
+    "when": "Rupture is on cooldown (9s)",
+    "what": "This is your window to close. Walk him down, land E (Apprehend) at 535 range to yank him in before he can reset distance, then unload Q (Decimate) and W (Crippling Strike) for the slow."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither has reliable kill pressure yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E (Apprehend) hook punishes his short range"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R (Noxian Guillotine) threatens stacked Hemorrhage kills"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "His Feast stacks start growing his HP pool"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Stacked Feast health cushions all-ins"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Picked in 80.2% of games (58.9% win over 190) because the lane is won on short trades after you close — the extra AD and sustain let you win those exchanges without recalling early."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "50.4% pick rate, 49.1% win — the magic resist and tenacity directly counter Feral Scream's silence and Rupture's slow, both of which are his only way to keep you at range."
+   },
+   "core": [
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste closes the gap through his Rupture range faster, which is the entire win condition in this matchup"
+    },
+    {
+     "item": "Dead Man's Plate",
+     "why": "Builds speed while you walk him down and the move speed converts to burst damage on the engage auto"
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Taken in the highest-win-rate core path (66.7% over 15 games) — the bleed-over-time from stored damage covers his Vorpal Spikes chip while you're locked in melee range"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he builds enough HP from Feast stacks that you need burst survivability to finish the all-in"
+    },
+    {
+     "item": "Force of Nature",
+     "when": "his magic damage from Feral Scream and Feast starts outpacing your healing"
+    },
+    {
+     "item": "Stridebreaker",
+     "when": "you need the slow-on-hit to stop him kiting with Rupture resets"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Taken in the 37.5%-win page — Conqueror's stacking adaptive force rewards exactly the extended melee trades this matchup is decided by once you're past his Rupture range.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The Flash+Ignite page runs a 56.9% win rate at 20.5% pick — Ignite's burn finishes him before he can trigger Feast's true-damage execute heal-back on himself."
+  },
+  "playing": [
+   {
+    "title": "Bait the Rupture on minions",
+    "detail": "Stand near a wave so if he throws Q (Rupture) at you, it also hits minions and you can walk through the small window while he's on his 9s cooldown."
+   },
+   {
+    "title": "Hook the instant he's close",
+    "detail": "E (Apprehend) has 535 range — use it the moment he's inside that distance to guarantee the pull lands before he can kite back with Rupture."
+   },
+   {
+    "title": "Stack Hemorrhage before R",
+    "detail": "Noxian Guillotine's true damage scales with Hemorrhage stacks, so land Q (Decimate) and auto attacks first to maximize the execute threshold."
+   },
+   {
+    "title": "Track his Feast charges",
+    "detail": "R (Feast) is a 60s cooldown true-damage nuke that grows his max HP on kill — don't greed a low-HP trade if his Feast is up, it can outright kill you or him depending on the stack count."
+   },
+   {
+    "title": "Punish post-Feral-Scream",
+    "detail": "Feral Scream has a 13s cooldown and silences — once he's used it on you, he has no way to disengage, so commit to the extended fight immediately."
+   },
+   {
+    "title": "Use Crippling Strike to deny the kite",
+    "detail": "W (Crippling Strike)'s slow prevents him from resetting Rupture range after he's already engaged, keeping him locked in Vorpal Spikes range where you win the damage race."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners and the 53.1%-over-192-games head-to-head number are measured from live games on the current patch; the mechanical reasoning about Rupture range and closing distance is this brief's own tactical read."
+ },
+ "generatedAt": 1791515020874,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791514983642,
+  "overall": {
+   "winRate": 49.7,
+   "play": 18600,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 192,
+   "wins": 102,
+   "winRate": 53.1
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "even",
+  "opponentTip": "Avoid Cho’Gath’s (Q) while closing in on him. You will gain lane control if you manage to close in on him successfully.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 184,
+    "pickRate": 73.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.9,
+    "play": 51,
+    "pickRate": 20.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 80,
+    "play": 10,
+    "pickRate": 4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Nimbus Cloak",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.1,
+    "play": 57,
+    "pickRate": 22.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 37.5,
+    "play": 56,
+    "pickRate": 22.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 58.9,
+    "play": 190,
+    "pickRate": 80.2
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 31.6,
+    "play": 38,
+    "pickRate": 16
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.1,
+    "play": 114,
+    "pickRate": 50.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 56.7,
+    "play": 67,
+    "pickRate": 29.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 10
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Dead Man's Plate",
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 6.7
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Force of Nature",
+     "Dead Man's Plate"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 5.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 54.4,
+    "play": 114,
+    "pickRate": 46.5
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 58.9,
+    "play": 112,
+    "pickRate": 45.7
+   },
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 50,
+    "play": 94,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.3,
+    "play": 92,
+    "pickRate": 37.6
+   },
+   {
+    "items": [
+     "Force of Nature"
+    ],
+    "winRate": 55.1,
+    "play": 89,
+    "pickRate": 36.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 59.1,
+    "play": 66,
+    "pickRate": 26.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 50,
+    "play": 68
+   }
+  ]
+ }
+}

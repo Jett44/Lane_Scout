@@ -1,0 +1,381 @@
+{
+ "you": "Volibear",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Lane disadvantage",
+   "line": "You lose extended trades before level 6 while his Parrrley poke outranges your whole kit, but you win the fight once Remove Scurvy and Raise Morale are both down."
+  },
+  "thesis": "Gangplank's Grog-Soaked Blade poison plus the 625-range Parrrley let him win short trades from outside your 300-range Q and 325-range W, forcing you to close distance before your kit does anything. The 46% win rate over 189 games and Gangplank's lane-advantage rating both come from this one gap: he decides when the trade starts, you decide when it ends.",
+  "tell": {
+   "watch": "His Remove Scurvy (W) cooldown",
+   "theirWindow": {
+    "when": "His W and E are both up",
+    "what": "If you engage here he can cleanse your Q (Thundering Smash) stun mid-animation with Remove Scurvy and buff his own AD/move speed with Raise Morale first. Don't commit Q into this window - poke with E (Sky Splitter) instead and back off."
+   },
+   "yourWindow": {
+    "when": "Remove Scurvy (W) is on cooldown",
+    "what": "This is the only window your Q stun actually sticks for its full duration. Walk him down, land Q, then chain W (Frenzied Maul) twice on the same target for the recast's bonus damage and heal before he can cleanse anything."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley range and passive poison win poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Remove Scurvy online, cleanses your Q stun"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Ults live, E poke evens out trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Gunblade/Shiv online, sustained trades favor you"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Tankier, outlasts his burst in extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "48.5% win rate over 171 games as the top pick (69.5%). The regen and mana sustain let you spam E (Sky Splitter) to answer his poke from range instead of eating free poison stacks in melee."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "44.8% win rate, 58.3% pick rate. Gangplank's damage is almost entirely basic-attack-and-poison based, so flat auto-attack mitigation directly counters his main source of lane damage."
+   },
+   "core": [
+    {
+     "item": "Hextech Gunblade",
+     "why": "Best-performing core path (46.2% over 13 games). The active heal/slow helps you close his range advantage and sustain through poison stacks."
+    },
+    {
+     "item": "Statikk Shiv",
+     "why": "Attack speed scales your Frenzied Maul recast pattern and Relentless Storm passive, letting your on-hits punish him once you're in range."
+    },
+    {
+     "item": "Terminus",
+     "why": "Completes the highest-sample core build; the on-hit damage profile keeps rewarding your W-recast trading pattern into extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "his poison and Parrrley poke are draining your HP bar before you hit level 6"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he's stacking crit or lethality and his autos are swinging the trade too hard"
+    },
+    {
+     "item": "Navori Flickerblade",
+     "when": "you're ahead on the powercurve by level 9-13 and want to snowball the attack-speed spike"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Lethal Tempo",
+   "keystoneWhy": "Ramping attack speed rewards exactly the trade pattern this matchup forces on you: stack autos and W recasts once you're inside his range, rather than relying on a single burst window.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Revitalize"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is run in 70% of games and sits at 47.1% win rate - the dominant pick. Ignite punishes his all-in windows and offsets the sustain race against his passive poison, which matters since solo-kill odds here are rated even."
+  },
+  "playing": [
+   {
+    "title": "Track his Remove Scurvy cooldown",
+    "detail": "It's 22/21/20/19/18s and clears CC - if it's up, your Q (Thundering Smash) stun can be cleansed mid-fight. Only commit your all-in when it's down."
+   },
+   {
+    "title": "Don't walk up into Parrrley range",
+    "detail": "His Q outranges your entire kit at 625 vs your Q's 300 and W's 325. Use E (Sky Splitter, 1200 range) to contest waves and poke instead of approaching on even terms."
+   },
+   {
+    "title": "Double-tap W for the heal",
+    "detail": "Recasting Frenzied Maul on the same target deals bonus damage and heals you - use this every trade to win the sustain race against his poison stacks."
+   },
+   {
+    "title": "Stand in your own E blast",
+    "detail": "Sky Splitter grants you a shield if you're inside the radius when it lands. Use it as your engage tool, not just as poke, when you commit to a fight."
+   },
+   {
+    "title": "Respect Raise Morale timing",
+    "detail": "It's a 20s cooldown that buffs his AD and move speed. If it's up alongside Remove Scurvy, he can both cleanse and out-damage you - wait for one or both to be down."
+   },
+   {
+    "title": "Power spike at Gunblade/Shiv completion",
+    "detail": "Levels 9-13 is where your core items flip the sustained trade in your favor. Play passive before this, aggressive after."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner picks above come from measured games on the current patch via OP.GG; the cooldown numbers and ability behavior are from the live game files. The timing windows and trade sequencing are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791501753288,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791501667189,
+  "overall": {
+   "winRate": 48.5,
+   "play": 12254,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 189,
+   "wins": 87,
+   "winRate": 46
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Be careful of his Grasp of the Undying + (Q) combo. Use [E] to contest lane while waiting for when his (E) is on cooldown to close in and fight him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.1,
+    "play": 170,
+    "pickRate": 70
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 54.5,
+    "play": 33,
+    "pickRate": 13.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 11.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Revitalize"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 44,
+    "pickRate": 18
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Waterwalking",
+     "Celerity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 60.9,
+    "play": 23,
+    "pickRate": 9.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.5,
+    "play": 171,
+    "pickRate": 69.5
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 32.1,
+    "play": 28,
+    "pickRate": 11.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.8,
+    "play": 134,
+    "pickRate": 58.3
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 36.1,
+    "play": 36,
+    "pickRate": 15.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hextech Gunblade",
+     "Statikk Shiv",
+     "Terminus"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 7.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Spirit Visage"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 5.9
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Navori Flickerblade",
+     "Randuin's Omen"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Statikk Shiv"
+    ],
+    "winRate": 48.8,
+    "play": 125,
+    "pickRate": 51.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 46.8,
+    "play": 111,
+    "pickRate": 45.9
+   },
+   {
+    "items": [
+     "Hextech Gunblade"
+    ],
+    "winRate": 53.4,
+    "play": 73,
+    "pickRate": 30.2
+   },
+   {
+    "items": [
+     "Navori Flickerblade"
+    ],
+    "winRate": 50,
+    "play": 64,
+    "pickRate": 26.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 39.6,
+    "play": 53,
+    "pickRate": 21.9
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 43.6,
+    "play": 39,
+    "pickRate": 16.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 47.8,
+    "play": 67
+   }
+  ]
+ }
+}

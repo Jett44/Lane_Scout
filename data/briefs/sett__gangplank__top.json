@@ -1,0 +1,375 @@
+{
+ "you": "Sett",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Parrrley and poison chip you down from range all lane; you win if you force stationary all-ins while Remove Scurvy is on cooldown."
+  },
+  "thesis": "Gangplank's threat is entirely ranged: Parrrley at 625 range plus poison-stacking autos let him zone Sett without ever entering punch range. Sett has no dash or gap closer, so this matchup is decided by whether he can convert E (Facebreaker) pulls into committed trades before chip damage adds up, not by trying to out-poke him. The data backs an even read — 49.3% over 272 games — with Sett carrying the solo-kill edge once he closes the distance.",
+  "tell": {
+   "watch": "Gangplank's W (Remove Scurvy) cooldown",
+   "theirWindow": {
+    "when": "Parrrley up, you're in his 625 range",
+    "what": "He free-pokes with Q and lets poison tick on any auto trade. Don't walk forward to contest cs or stand in open range without a minion wave to break his line."
+   },
+   "yourWindow": {
+    "when": "Remove Scurvy down (22-18s window)",
+    "what": "This is your all-in. Commit E (Facebreaker) for the stun — it can't be cleansed right now — and follow with R (The Show Stopper) if he's isolated from his wave."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "no gap closer, eats free poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "E online, can punish overextension"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R unlocks, solo-kill edge shows"
+   },
+   {
+    "levels": "9-18",
+    "edge": "even",
+    "note": "Stridebreaker closes gaps, trades stay close"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat HP and regen offset poison ticks and Parrrley chip so you can stay in lane range instead of being zoned off minions."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Cuts the physical damage from his autos and Parrrley, which is most of his early harass since his poison is the only magic component."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The active gives you the closing speed you otherwise lack against a champion with no reason to stand still."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Shred helps your all-in windows do real damage once you've forced the stun."
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "why": "Tankiness to survive extended poison stacking while you close distance repeatedly."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "fights are turning into prolonged skirmishes and you need burst mitigation on the way in"
+    },
+    {
+     "item": "Warmog's Armor",
+     "when": "the lane stalemates and poison/poke chip damage is wearing down your sustain over time"
+    },
+    {
+     "item": "Hullbreaker",
+     "when": "you're ahead and want to siege, since his poke is strong defensively but weak against a split push"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Stacks build through the poke you're forced to eat and through your committed trades, giving sustain against the poison DoT and eventual true damage once you're locked into an all-in.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite is the real tech here: Remove Scurvy heals him out of your all-in, but Ignite's damage can't be cleansed and the grievous wounds cuts that heal down when it matters most."
+  },
+  "playing": [
+   {
+    "title": "Track Remove Scurvy, not his HP",
+    "detail": "His W clears CC and heals on an 18-22s cooldown depending on rank. Committing E or R while it's up just wastes your engage — wait for it to be down."
+   },
+   {
+    "title": "Don't facecheck Parrrley range",
+    "detail": "625 range plus poison stacking on any auto means walking up without wave cover is a free loss. Stay behind or beside minions until you're ready to commit."
+   },
+   {
+    "title": "Pop Q while closing, not after",
+    "detail": "Knuckle Down's move speed bonus only triggers while moving toward champions, so cast it as you're approaching through his poke, not once you're already in range."
+   },
+   {
+    "title": "Save R for isolated picks",
+    "detail": "The Show Stopper is 120/100/80/80/80s — don't burn it mid-trade. Reserve it for moments he's pushed away from his wave, since dragging him off minions denies his Parrrley gold refund entirely."
+   },
+   {
+    "title": "Commit through the stun, not around it",
+    "detail": "Facebreaker only stuns if he's pulled from both sides — if he's alone on one side it's just a slow. Position so you catch him between you and a minion or wall before casting."
+   },
+   {
+    "title": "Finish trades once Ignite is on",
+    "detail": "After E lands, drop Ignite immediately — it denies the Remove Scurvy heal that's his only way out of your all-in."
+   }
+  ],
+  "patchCaveat": "Build order, win rates, and rune/summoner pick rates are measured from live games on the current patch (16.20.1); the cooldown-window reasoning and trade pattern calls are my own read on the ability kit."
+ },
+ "generatedAt": 1791501151590,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791501057609,
+  "overall": {
+   "winRate": 50.4,
+   "play": 15581,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 272,
+   "wins": 134,
+   "winRate": 49.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Sett",
+  "playStyle": "aggressive",
+  "opponentTip": "Do not get hit by Gangplank’s Grasp of the Undying – (Q) combo. Use [E] when his (W) is on cooldown to follow up with [R] when dealing damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.6,
+    "play": 270,
+    "pickRate": 81.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 35.5,
+    "play": 31,
+    "pickRate": 9.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 4.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 56.3,
+    "play": 80,
+    "pickRate": 23.9
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Shield Bash",
+     "Second Wind"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.9,
+    "play": 55,
+    "pickRate": 16.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.2,
+    "play": 162,
+    "pickRate": 49.1
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 60.4,
+    "play": 154,
+    "pickRate": 46.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52,
+    "play": 198,
+    "pickRate": 62.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.6,
+    "play": 85,
+    "pickRate": 26.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Black Cleaver",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50.9,
+    "play": 53,
+    "pickRate": 28.8
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Sterak's Gage"
+    ],
+    "winRate": 43.8,
+    "play": 32,
+    "pickRate": 17.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Overlord's Bloodmail",
+     "Warmog's Armor"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 51.4,
+    "play": 327,
+    "pickRate": 97
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 50.5,
+    "play": 202,
+    "pickRate": 59.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.1,
+    "play": 122,
+    "pickRate": 36.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.1,
+    "play": 98,
+    "pickRate": 29.1
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 58.7,
+    "play": 46,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 69.4,
+    "play": 36,
+    "pickRate": 10.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 49.2,
+    "play": 65
+   }
+  ]
+ }
+}

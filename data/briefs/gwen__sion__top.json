@@ -1,0 +1,389 @@
+{
+ "you": "Gwen",
+ "them": "Sion",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, skill-based",
+   "line": "You lose if you facetank his Q stun before level 3 and eat a free Enrage all-in; you win if you force him to walk into Hallowed Mist or burn Q on nothing while you poke his growing health pool."
+  },
+  "thesis": "Sion has no ability that reaches you unless he either lands the single-target stun from Q (Cryptic Gaze, 550 range) or physically walks into your W (Hallowed Mist), which only lets enemies who enter it target you. Outside those two windows he cannot force a fight. Meanwhile his own E (Enrage) is permanently growing his max health by trading it for AD and by killing minions and champions, which is exactly the stat your passive (A Thousand Cuts) scales bonus magic damage off of. That symmetry is why the sample sits at 49.7% over 145 games despite Gwen holding the lane and solo-kill edge — both champions are feeding off the same number, just in opposite directions.",
+  "tell": {
+   "watch": "Sion's Q (Cryptic Gaze) cooldown",
+   "theirWindow": {
+    "when": "Q is up and you're inside 550 range",
+    "what": "He can stun you and chain Enrage autos into free damage while you can't flash the stun itself. Hold position just outside 550 range whenever his Q timer is close to zero, especially before level 3 when your W isn't up yet to give you an out."
+   },
+   "yourWindow": {
+    "when": "his Q is on cooldown or he's visibly low from Enrage",
+    "what": "Dash in with E (Skip 'n Slash) to pick up attack speed, range, and magic damage on-hit, land the follow-up hit to refund part of E's cooldown, then disengage before he can threaten a stun-locked trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q stun + Enrage all-in before your W exists"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "W denies his Q unless he walks in"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R poke from 1200 range punishes his HP"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Shadowflame/Rabadon's shred his stacked health"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his R sustain levels teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion",
+    "why": "94.8% pick rate at 49.4% over 164 games — the sustain from two potions covers the chip damage from his autos while you wait out Q cooldowns before W comes online."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "45.8% pick at 49.3% win rate — his E permanently inflates his max health from kills, so you need the flat magic pen to keep your passive and Q relevant into a growing health pool."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item on the top core path (28.2% pick, 37.9% win rate in that path) — ramps your burst window for trades right as R comes online."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second item on the same path — bonus damage against the shielded/bursted targets Sion's W (Death's Caress) creates when he pops it late."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Closes out the path — scales your passive's bonus-magic-damage-per-max-health formula against his inflated HP total."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "fights are running long and you need the omnivamp to out-sustain his E health trading"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you're landing E resets consistently and want more attack speed to proc your passive faster"
+    },
+    {
+     "item": "Dark Seal",
+     "when": "you're ahead on kills early and want to snowball before he can stack max health off minions"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "his autoattacks plus Enrage are chunking you harder than expected in extended trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "52.8% of games at 29% pick — stacks from the extended melee trades this matchup forces, and the adaptive heal keeps you alive through the long poke-and-retreat pattern you're using against his Enrage.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest measured win rate at 50% (45.1% pick) — Ignite threatens to finish Sion before he can safely disengage out of an Enrage trade, and Flash gives you an answer to a landed Q stun. Flash+Teleport (48.1% win rate, 29.7% pick) is the viable alternative if you want to scale through side-lane pressure instead."
+  },
+  "playing": [
+   {
+    "title": "Hold W until Q is live",
+    "detail": "W (Hallowed Mist) only lets enemies who enter it target you, so save it for the moment his Q (Cryptic Gaze) is off cooldown and he's approaching — forcing him to either walk in or lose the stun window entirely."
+   },
+   {
+    "title": "Respect pre-level-3 Q range",
+    "detail": "Your skill order delays W to level 3, so from levels 1-2 you have no answer to his 550-range stun. Stay just outside that range until W is up."
+   },
+   {
+    "title": "Weave E, don't park in it",
+    "detail": "Dash in with E (Skip 'n Slash) for the attack speed and on-hit magic damage window, land the extra hit to refund cooldown, then leave before his autos stack back up."
+   },
+   {
+    "title": "Wave-clear with Q, not autos",
+    "detail": "Q (Snip Snip!) hits in a cone for up to 6 snips with true damage in the center, letting you clear minions without walking into his attack range to last-hit."
+   },
+   {
+    "title": "Save R casts for the all-in",
+    "detail": "R (Needlework) can be cast up to two more times after the first; use one cast to poke pre-6 and hold the rest for a committed fight once its cooldown drops to 8.5-8s at rank 4-5."
+   },
+   {
+    "title": "Track his HP, not just his bar color",
+    "detail": "Enrage has no cooldown and is permanently trading his health for AD, so a Sion who's been autoing a lot is closer to your execute threshold than his max HP suggests."
+   },
+   {
+    "title": "Don't contest his W shield for free",
+    "detail": "Death's Caress absorbs damage and explodes on expiry or early detonation — don't dump your cone Q into it while it's up; wait for it to drop or bait the early pop."
+   }
+  ],
+  "patchCaveat": "Build, boots, runes, and summoner spells above are the actual pick/win rates from measured Gwen vs Sion top lane games on the current patch; the mechanical reasoning for why those choices work is this coach's own read of both kits."
+ },
+ "generatedAt": 1791511848749,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791511737260,
+  "overall": {
+   "winRate": 49.9,
+   "play": 7220,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 145,
+   "wins": 72,
+   "winRate": 49.7
+  },
+  "laneAdvantage": "Gwen",
+  "soloKillAdvantage": "Gwen",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 82,
+    "pickRate": 45.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 54,
+    "pickRate": 29.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 56.3,
+    "play": 16,
+    "pickRate": 8.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.8,
+    "play": 53,
+    "pickRate": 29
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 7.7
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 164,
+    "pickRate": 94.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 2.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 49.3,
+    "play": 71,
+    "pickRate": 45.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.7,
+    "play": 41,
+    "pickRate": 26.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 37.9,
+    "play": 29,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Riftmaker",
+     "Nashor's Tooth",
+     "Shadowflame"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 9.7
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Shadowflame"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 7.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.1,
+    "play": 128,
+    "pickRate": 71.1
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 52.6,
+    "play": 95,
+    "pickRate": 52.8
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 53.7,
+    "play": 95,
+    "pickRate": 52.8
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 53.7,
+    "play": 67,
+    "pickRate": 37.2
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 50.8,
+    "play": 63,
+    "pickRate": 35
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 13.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.8,
+    "play": 78
+   }
+  ]
+ }
+}
