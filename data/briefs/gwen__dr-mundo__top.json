@@ -1,0 +1,385 @@
+{
+ "you": "Gwen",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured matchup",
+   "line": "You lose if you facecheck a low-health Mundo and eat his missing-health AD spike from E (Masochism); you win if you bait his melee W (Burning Agony) into your W (Hallowed Mist) and burst him with Q's true damage before Adrenaline Rush can regen it back."
+  },
+  "thesis": "Mundo's only ranged threat is Q (Infected Cleaver), a skillshot, and Gwen's W (Hallowed Mist) makes her untargetable to anything thrown from outside the mist, so once W is up at level 3 his poke tool is neutralized. From there Gwen's Q (Snip Snip!) deals true damage to the center target, which cuts straight through his passive (Adrenaline Rush) percent-health regen — the structural reason Gwen sits at 57.1% over 254 games here.",
+  "tell": {
+   "watch": "Mundo's W (Burning Agony) toggle",
+   "theirWindow": {
+    "when": "levels 1-2, before your W is up",
+    "what": "Mundo's Q (Infected Cleaver) is a 975-range skillshot dealing damage based on your max health, on a 4s cooldown — stay behind minions and off cooldown-timing predictable angles until you hit level 3."
+   },
+   "yourWindow": {
+    "when": "W is up and he walks into the mist",
+    "what": "Hallowed Mist only lets enemies who enter it target you, so plant it on a minion wave and when Mundo steps in to use his melee-range W (Burning Agony), dash in with E (Skip 'n Slash) and chain Q snips — the true damage component ignores his passive regen."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "No mist yet, Cleaver poke goes unanswered"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Mist denies poke, true damage outpaces regen"
+   },
+   {
+    "levels": "6-10",
+    "edge": "you",
+    "note": "Ults live, core items start snowballing"
+   },
+   {
+    "levels": "11-17",
+    "edge": "you",
+    "note": "Burst spikes, his R only buys survival"
+   },
+   {
+    "levels": "18",
+    "edge": "even",
+    "note": "Raw tankiness finally caps your burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "95% pick rate and 58.7% WR over 303 games — the extra potion buys you sustain through his early Cleaver pokes before your W comes online."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "60.8% WR over 158 games — magic pen scales your Q true-damage trades and your on-hit E burst better than armor vs a matchup where his real threat is a dodgeable skillshot, not sustained auto damage."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "First item on the 68.2% WR path over 66 games, builds your early burst spike into his sustain."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Second on the same path, adds magic pen and burst vs a target you're already true-damaging down."
+    },
+    {
+     "item": "Rabadon's Deathcap",
+     "why": "Caps the highest-sample build path (68.2% WR) — by the time this finishes you should already be ahead from lane."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Oblivion Orb",
+     "when": "he starts stacking regen or healing items and your true damage trades stop feeling decisive"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need your own sustain to keep all-inning a Sadism-buffed Mundo"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you're snowballing and want the attack speed to chain E resets faster"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "his team adds heavy auto-attack damage and Sorcerer's Shoes stops paying off"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended trades are the norm against a regenerating target — Conqueror's ramping adaptive force and takedown healing reward you for staying in prolonged skirmishes rather than one burst and disengage.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest-run combo at 58.7% WR and 67.2% pick rate — Ignite converts your measured solo-kill advantage into actual kills by denying his Adrenaline Rush regen during all-ins."
+  },
+  "playing": [
+   {
+    "title": "Hide behind minions pre-level 3",
+    "detail": "Before W is unlocked you have no answer to Q (Infected Cleaver), a 975-range skillshot — use the wave as cover rather than trading position for CS."
+   },
+   {
+    "title": "Bait his W into your W",
+    "detail": "Burning Agony is melee range (325) and drains his own health to use — plant Hallowed Mist on the wave so he has to walk in to trade, at which point he's targetable and bleeding resource."
+   },
+   {
+    "title": "Trade with Q's true damage, not raw magic damage",
+    "detail": "Snip Snip!'s true damage to the center target is what actually cuts through Adrenaline Rush — land the center hit in every trade instead of just clipping him with the cone edges."
+   },
+   {
+    "title": "Don't tunnel a low-health Mundo",
+    "detail": "Masochism (E) gives him AD scaling with missing health on a 7s cooldown — a 'dying' Mundo can still out-trade a greedy auto-attack, so finish him with Q/E burst from range, not extra autos."
+   },
+   {
+    "title": "Respect Sadism before committing deep",
+    "detail": "His R sacrifices health for movement speed and heavy regen — don't chase past your mist's edge expecting a kill right as he pops it."
+   },
+   {
+    "title": "Chain E into Q to keep resetting your dash",
+    "detail": "Skip 'n Slash refunds part of its cooldown if you hit something during its attack-speed window — land an auto or Q immediately after the dash to keep the mobility loop alive."
+   }
+  ],
+  "patchCaveat": "Build paths, boots, runes, summoners and the 57.1%-over-254-games head-to-head are measured OP.GG data from the current patch; the mechanical reasoning behind each call — why the mist denies his poke, why true damage matters here — is my own read."
+ },
+ "generatedAt": 1791596504379,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791596406367,
+  "overall": {
+   "winRate": 50.2,
+   "play": 11495,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 254,
+   "wins": 145,
+   "winRate": 57.1
+  },
+  "laneAdvantage": "Gwen",
+  "soloKillAdvantage": "Gwen",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 58.7,
+    "play": 225,
+    "pickRate": 67.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 8.1
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 45.5,
+    "play": 22,
+    "pickRate": 6.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55,
+    "play": 100,
+    "pickRate": 29.7
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 63,
+    "play": 54,
+    "pickRate": 16
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 58.7,
+    "play": 303,
+    "pickRate": 95
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 1.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 60.8,
+    "play": 158,
+    "pickRate": 52.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48,
+    "play": 50,
+    "pickRate": 16.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 68.2,
+    "play": 66,
+    "pickRate": 32.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Riftmaker",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 7.4
+   },
+   {
+    "items": [
+     "Riftmaker",
+     "Nashor's Tooth",
+     "Shadowflame"
+    ],
+    "winRate": 33.3,
+    "play": 9,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 62.4,
+    "play": 255,
+    "pickRate": 75.2
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 59.1,
+    "play": 193,
+    "pickRate": 56.9
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 57.1,
+    "play": 156,
+    "pickRate": 46
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 65.4,
+    "play": 136,
+    "pickRate": 40.1
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 54.6,
+    "play": 108,
+    "pickRate": 31.9
+   },
+   {
+    "items": [
+     "Oblivion Orb"
+    ],
+    "winRate": 48.3,
+    "play": 58,
+    "pickRate": 17.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.7,
+    "play": 149
+   }
+  ]
+ }
+}

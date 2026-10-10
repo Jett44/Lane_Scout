@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even skill matchup",
+   "line": "You're behind if he lands Q-silence all-ins before level 6, but the 50% win rate over 262 games holds because your health-stacking build claws it back."
+  },
+  "thesis": "Garen's Perseverance passive heals him back to full if he goes a few seconds untouched, so your entire early lane is about denying that window with constant Q chip damage rather than trying to out-trade his autos directly. Once your R (Sadism) comes online at 6, the matchup flips from his all-in timers to your sustained health pool, which is why the data reads as lane advantage Garen but an even overall result.",
+  "tell": {
+   "watch": "Garen's Q cooldown",
+   "theirWindow": {
+    "when": "His Q (Decisive Strike) is up",
+    "what": "Decisive Strike breaks any slow on him and the empowered auto silences you, so he can close distance and lock you out of Q (Infected Cleaver) right before he commits to E (Judgment) damage. Don't stand in his dash range when his Q bar is full, especially before you have level 6."
+   },
+   "yourWindow": {
+    "when": "His Q (Decisive Strike) is down",
+    "what": "With Decisive Strike on its 8s cooldown he can't silence your response, so this is when you freely land Infected Cleaver (Q, 4s CD, 975 range) to chip his max-health and keep interrupting Perseverance regen ticks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Judgment already clears waves and trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q-silence all-ins before your R exists"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Sadism gives you sustain to answer his all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Warmog's/Heartsteel HP pool outscales his burst"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "matches measured 50% overall result"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Picked in 67.2% of games for a reason — the passive block and regen directly answer Garen's auto-attack-heavy early trades and Judgment poke."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "The slightly higher win rate (52.6% vs Plated Steelcaps' 50.8%) tracks with needing to reposition out of his Decisive Strike dash range rather than trying to out-armor his physical damage."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Raw max-health first both powers your Q damage and buys time before his R can execute you."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Converts that health total into stacking damage, so your trades keep scaling the longer the game runs."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Max-health scaling on autos turns your now-massive HP pool into sustained poke to match his melee pressure."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he's building ahead on damage and you need your Adrenaline Rush and W drain to heal for more"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's stacking lifesteal or crit and you need to shred his Perseverance-fueled sustain"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he's building attack speed and his autos between Judgment casts are doing the real damage"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Every proc converts into permanent max health, which compounds with your Q's max-health damage and keeps your sustain ahead of his auto-attack trades.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "This combo has the highest measured win rate at 54.3% in this matchup — Flash gives you the dodge Garen's Q-silence all-in otherwise punishes, and Teleport lets you reset onto full-health wave states instead of fighting from behind."
+  },
+  "playing": [
+   {
+    "title": "Spam Q off cooldown",
+    "detail": "Throw Infected Cleaver (4s CD, 975 range) on Garen whenever he's in range and safe to hit. This both chips his max health and keeps him recently damaged so Perseverance never ticks — exactly what the matchup data calls out."
+   },
+   {
+    "title": "Don't force fights before level 6",
+    "detail": "Before Sadism is up, your only sustain is passive Adrenaline Rush regen, and Garen's Q-silence into E all-in during levels 3-5 is where he wins the lane. Poke and disengage rather than facetank his spin."
+   },
+   {
+    "title": "Hold damage through his W",
+    "detail": "The lane data flags this directly: stop trading into Garen while his W (Courage) is active, then resume your Q poke and melee once its window ends."
+   },
+   {
+    "title": "Toggle W freely after level 6",
+    "detail": "Once Sadism is up, Burning Agony (1s CD, drains your own health for continual nearby damage) becomes safe to run longer in extended trades since you can top your health back off afterward."
+   },
+   {
+    "title": "Trade hardest when you're low",
+    "detail": "Masochism (7s CD) scales your bonus AD with missing health, so don't play scared below 50% — that's your highest damage window, not your weakest."
+   },
+   {
+    "title": "Respect his execute once R is up",
+    "detail": "From level 6 on, Demacian Justice (400 range) executes off missing health. Don't sit below roughly a third health near him if he's carrying Ignite and his summoners are up."
+   },
+   {
+    "title": "Rush the health-stacking core",
+    "detail": "Warmog's into Heartsteel into Titanic Hydra is the highest-winrate path (63.4% over 41 games) — the bigger your HP pool gets, the more your Q and Hydra procs out-damage his flat physical kit."
+   }
+  ],
+  "patchCaveat": "Win rates, build order, runes, and summoner spells above are measured from live games on the current patch via OP.GG; the ability breakdowns, timing windows, and trade reasoning are my own tactical read, not sourced data."
+ },
+ "generatedAt": 1791597015411,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791596925536,
+  "overall": {
+   "winRate": 50.6,
+   "play": 14714,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 262,
+   "wins": 131,
+   "winRate": 50
+  },
+  "laneAdvantage": "Garen",
+  "soloKillAdvantage": "Garen",
+  "playStyle": "even",
+  "opponentTip": "Avoid dealing damage when Garen activates (W). Use [Q] often to prevent (P) from activating. Manage your health properly to avoid being killed by his Ignite - (R) combo.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 45.9,
+    "play": 185,
+    "pickRate": 51.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.3,
+    "play": 116,
+    "pickRate": 32.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 52.9,
+    "play": 34,
+    "pickRate": 9.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.4,
+    "play": 168,
+    "pickRate": 46.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.3,
+    "play": 46,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 238,
+    "pickRate": 67.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.1,
+    "play": 106,
+    "pickRate": 29.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.6,
+    "play": 173,
+    "pickRate": 53.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.8,
+    "play": 132,
+    "pickRate": 40.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 63.4,
+    "play": 41,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 83.3,
+    "play": 24,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 68.2,
+    "play": 22,
+    "pickRate": 11.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 52.3,
+    "play": 333,
+    "pickRate": 93.5
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 53.9,
+    "play": 284,
+    "pickRate": 79.8
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 68.1,
+    "play": 94,
+    "pickRate": 26.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 60.7,
+    "play": 84,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 56.6,
+    "play": 53,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 48,
+    "pickRate": 13.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 47.5,
+    "play": 139
+   }
+  ]
+ }
+}

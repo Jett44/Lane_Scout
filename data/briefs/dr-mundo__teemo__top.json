@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose trades before level 6 to poke and blind; you win the lane if you survive to 6 and start landing Q on cooldown."
+  },
+  "thesis": "Teemo wins the lane with zero-risk ranged poke and a hard blind, so Mundo's job before level 6 is just not dying while shields absorb Toxic Shot stacks. The data backs this up directly — Teemo has the lane edge and the solo-kill edge, and the 47.6% head-to-head over 227 games is worse than Mundo's 50.3% overall top-lane win rate.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart (Q) is up, levels 1-5",
+    "what": "He can blind you on cooldown (8s) and auto freely while you're blinded, stacking Toxic Shot (E) for free poison damage. Don't commit to a trade or last-hit contest when his Q is available — back off and let Adrenaline Rush regen the chip damage instead."
+   },
+   "yourWindow": {
+    "when": "level 6+, his Blinding Dart just used",
+    "what": "Once you have Sadism (R) for the sustain/MS burst and his Q is on its 8s cooldown, step in and land Infected Cleaver (Q, 4s cooldown, 975 range) point-blank, then stick on him — he has no disengage besides Move Quick (W), which stops boosting the instant you hit him."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Blind + poke outranges your melee kit"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Toxic Shot stacking punishes any auto trade"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Sadism lets you force fights on cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Warmog's/Heartsteel HP outscales his damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Tankiness and Masochism AD dominate teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat 8 damage block on autos directly negates Toxic Shot's on-hit tick, the single most important stat check vs Teemo's poke; it's the pick in 79.7% of these games for a reason."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Taken 61.1% of the time here — the flat move speed closes the gap on a kiting ranged champion and makes your Sadism (R) all-ins actually land instead of whiffing on a backpedaling Teemo."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Massive HP pool synergizes with Adrenaline Rush and Masochism's missing-health AD scaling, turning Teemo's poke into free stats for you"
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Converts the HP stacking into a damage source, letting you punish him once you've closed the gap"
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Amplifies your passive regen and Burning Agony (W) healthloss-sustain against a damage profile that's almost entirely magic"
+    }
+   ],
+   "situational": [
+    {
+     "item": "Titanic Hydra",
+     "when": "he's grouping with his team and you need wave clear plus a sticking tool on tanky frontline targets"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his team has multiple auto-attack or on-hit carries stacking slows/damage on you"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he rushes lethality or crit items and his autos start actually hurting through your HP stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp procs on autos he's forcing you to avoid anyway, so the sustain and max-HP scaling fit a lane where you're playing defensively, not trading autos",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is run in 28.6% of games at 54.7% win rate, the highest of the three combos — Teleport lets you reset after shoving with Burning Agony (W) wave clear while skipping the early losing trades, and Flash covers the gap-close Teemo's kiting otherwise denies."
+  },
+  "playing": [
+   {
+    "title": "Never auto-trade into open Q",
+    "detail": "If Blinding Dart (8s cooldown) is up, any trade risks a free blind + unanswered Toxic Shot stacks. Wait him out."
+   },
+   {
+    "title": "Track Camouflage idle timer",
+    "detail": "If he stops moving for a moment near a bush or trap line, he's about to go invisible — back off from likely Noxious Trap (R) zones rather than walking blind into a slow field."
+   },
+   {
+    "title": "Use Burning Agony to clear waves fast",
+    "detail": "W's AoE drain lets you shove minion waves even while playing passive in trades, denying him easy farm under your tower pressure."
+   },
+   {
+    "title": "Save Sadism for forced all-ins, not pokes",
+    "detail": "R's 75s cooldown is too long to waste on a half-health skirmish — hold it for the level 6+ window when you can actually close the gap and kill him before his kit resets."
+   },
+   {
+    "title": "Respect the trap minefield near objectives",
+    "detail": "Noxious Trap has a 1s cooldown, meaning he can blanket chokepoints before drakes/herald. Walk wide or send a ward first instead of face-checking."
+   },
+   {
+    "title": "Itemize Spirit Visage over pure HP if poisoned hard",
+    "detail": "If his E stacks are constantly ticking you down between fights, prioritize the healing amp — it directly counters sustained magic DoT better than raw Warmog's HP."
+   },
+   {
+    "title": "Play around Teleport resets, not lane kills",
+    "detail": "Given the sub-50% head-to-head win rate, don't force level 1-5 kills — use Teleport to skip losing trades and let your level 6+ power spike decide the lane instead."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG data on the current patch (16.20.1); the trade-pattern and timing analysis is my own read of the ability kits."
+ },
+ "generatedAt": 1791633341280,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791633298510,
+  "overall": {
+   "winRate": 50.3,
+   "play": 17063,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 227,
+   "wins": 108,
+   "winRate": 47.6
+  },
+  "laneAdvantage": "Teemo",
+  "soloKillAdvantage": "Teemo",
+  "playStyle": "even",
+  "opponentTip": "Although Teemo will have control over lane during early game, try to kill him after reaching level 6 when [Q] lands! Manage your health well while poking with [Q].",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 44.8,
+    "play": 174,
+    "pickRate": 57.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 54.7,
+    "play": 86,
+    "pickRate": 28.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 26,
+    "pickRate": 8.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.2,
+    "play": 137,
+    "pickRate": 45.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.4,
+    "play": 35,
+    "pickRate": 11.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.8,
+    "play": 231,
+    "pickRate": 79.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 42,
+    "play": 50,
+    "pickRate": 17.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 52.8,
+    "play": 163,
+    "pickRate": 61.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 50,
+    "play": 68,
+    "pickRate": 25.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 42.9,
+    "play": 49,
+    "pickRate": 26.5
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 70.6,
+    "play": 34,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 8.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 50,
+    "play": 254,
+    "pickRate": 85
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 52.9,
+    "play": 242,
+    "pickRate": 80.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 53.7,
+    "play": 149,
+    "pickRate": 49.8
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 67.6,
+    "play": 71,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 52.9,
+    "play": 34,
+    "pickRate": 11.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 44,
+    "play": 25,
+    "pickRate": 8.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.7,
+    "play": 121
+   }
+  ]
+ }
+}

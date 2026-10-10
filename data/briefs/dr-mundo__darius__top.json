@@ -1,0 +1,380 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Darius stacks Hemorrhage to 5 and chains Apprehend into Noxian Guillotine before your sustain kicks in; you win every post-6 trade once Warmog's comes online."
+  },
+  "thesis": "This matchup is a sustain race decided by whether you can out-regenerate Darius' Hemorrhage bleed with Passive (Adrenaline Rush) while he tries to finish fights with true damage from R (Noxian Guillotine). Darius has the lane-phase edge and the solo-kill edge, but Dr. Mundo still wins the matchup 53.1% over 420 games because the trades flip hard once your health pool scales.",
+  "tell": {
+   "watch": "Darius' Hemorrhage stack count on you",
+   "theirWindow": {
+    "when": "you're near 5 bleed stacks",
+    "what": "Darius' Passive (Hemorrhage) enrages him with massive bonus AD at max stacks on you, and his R (Noxian Guillotine) deals true damage that scales harder the more stacks you're carrying. Back off and let the bleed tick down instead of taking another auto."
+   },
+   "yourWindow": {
+    "when": "his E (Apprehend) is on cooldown",
+    "what": "E (Apprehend) is a 26 to 16.5 second cooldown pull with 535 range — once he's used it, he has no way to force you back into melee range. Walk up and chuck Q (Infected Cleaver) freely or trade autos without fear of being yanked in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q (Decimate) blade-hits punish early trades hard"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E (Apprehend) pull threat limits your wave contest"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "his R true damage threatens, but your Passive scales"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Warmog's/Heartsteel health pool outlasts his bleed"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Titanic Hydra/Thornmail make you unkillable in trades"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The passive block-and-regen on Doran's Shield directly counters Darius' auto-attack and Q (Decimate) handle pokes during the levels where he has lane advantage, and it pairs with Passive (Adrenaline Rush) to make early all-ins whiff."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Swiftness boots let you reposition out of E (Apprehend) range and reset neutral footing after a bleed trade, which matters more than armor since Darius' E passively ignores a percentage of your Armor anyway."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "A massive flat health pool directly inflates both your Q (Infected Cleaver) max-health damage and your Passive regen, letting you out-sustain the Hemorrhage bleed stacks that are built to kill squishier laners."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Stacking max health from auto-attacks during farming phase builds toward the same health-scaling payoff as Warmog's, and it's live in the top build path (68.8% win rate over 80 games) right alongside it."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "The health-scaling damage closes out trades once your health pool is large, turning every auto into a real threat against a champion who has no ranged poke to answer from."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he's building into sustained bleed/true-damage pressure and you need more healing amplification"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's grouped autos and Crippling Strike (W) slows are chunking you down"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need the grievous wounds and early armor spike against his auto-reliant trade pattern"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp procs on every trade you take and converts directly into permanent max health, compounding with your Passive (Adrenaline Rush) regen to win the sustain war that decides this matchup.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash/Teleport is run on 25.8% of games with a 47.6% win rate, but Ghost/Teleport is the highest-win pairing at 52.5% over the larger 56.6% pick share — Teleport in both cases resets your wave after being pulled in by E (Apprehend), while Ghost lets you disengage a losing all-in without burning Flash."
+  },
+  "playing": [
+   {
+    "title": "Farm with Q only, don't trade into Apprehend range",
+    "detail": "OP.GG's own read on this matchup is to be careful of Darius' E (Apprehend) pull and contest the wave with Q (Infected Cleaver) at 975 range instead of melee autos. Stay outside 535 range whenever his E is up."
+   },
+   {
+    "title": "Track his Q (Decimate) cooldown before trading",
+    "detail": "Decimate drops from 9 seconds at rank 1 to 6 at rank 4, and the blade side does far more damage than the handle. If you see him wind up, step to the opposite side of his swing to eat handle damage, not blade."
+   },
+   {
+    "title": "Hold W (Burning Agony) for disable reduction, not poke",
+    "detail": "W costs health to use and only has a 1 second cooldown, so it's cheap to flick on, but its real value is cutting the duration of any slow or disable he lands with Crippling Strike (W) — don't drain your health pool spamming it when you're not under CC."
+   },
+   {
+    "title": "Pop E (Masochism) the moment you're below 50% health",
+    "detail": "Masochism's AD bonus scales with missing health, so the lower you are, the harder you hit back — this is why Dr. Mundo wins trades late even while bleeding, as long as you don't disengage too early."
+   },
+   {
+    "title": "Save R (Sadism) to survive his Guillotine window, not to all-in",
+    "detail": "Sadism is a 75 second cooldown health-for-regen cycle with only 20 range, meaning it's a self-sustain tool, not a gap-closer. Pop it the instant he commits R (Noxian Guillotine) so the true damage lands on a topped-up health bar."
+   },
+   {
+    "title": "Punish his dead E window to force the solo kill back your way",
+    "detail": "Since Darius holds the solo-kill advantage, flip it by forcing fights only after he's spent E (Apprehend) — without the pull he has no way to stop you from walking away once Masochism and your health pool take over."
+   }
+  ],
+  "patchCaveat": "Build order, runes, summoners, and all win rates above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning for why each choice works is my own read of the ability interactions."
+ },
+ "generatedAt": 1791596919118,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791596873901,
+  "overall": {
+   "winRate": 50.6,
+   "play": 14714,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 420,
+   "wins": 223,
+   "winRate": 53.1
+  },
+  "laneAdvantage": "Darius",
+  "soloKillAdvantage": "Darius",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being pulled by (E) by using only [Q] to farm and contest lane. Farm lane without being killed until you purchase your first core item!",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 52.5,
+    "play": 318,
+    "pickRate": 56.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 145,
+    "pickRate": 25.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 58,
+    "play": 69,
+    "pickRate": 12.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50.3,
+    "play": 288,
+    "pickRate": 50.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 63.6,
+    "play": 77,
+    "pickRate": 13.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 373,
+    "pickRate": 67.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50.9,
+    "play": 165,
+    "pickRate": 30
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.1,
+    "play": 342,
+    "pickRate": 65.8
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.8,
+    "play": 158,
+    "pickRate": 30.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 68.8,
+    "play": 80,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 57.1,
+    "play": 42,
+    "pickRate": 12
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 63.2,
+    "play": 38,
+    "pickRate": 10.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 54.1,
+    "play": 538,
+    "pickRate": 93.2
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 53.5,
+    "play": 501,
+    "pickRate": 86.8
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 66.9,
+    "play": 166,
+    "pickRate": 28.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 55.3,
+    "play": 161,
+    "pickRate": 27.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.7,
+    "play": 104,
+    "pickRate": 18
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 44.2,
+    "play": 95,
+    "pickRate": 16.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.2,
+    "play": 252
+   }
+  ]
+ }
+}

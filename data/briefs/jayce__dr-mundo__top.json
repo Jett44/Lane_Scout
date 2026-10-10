@@ -1,0 +1,397 @@
+{
+ "you": "Jayce",
+ "them": "Dr. Mundo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured early",
+   "line": "You win this if you convert the early poke and solo-kill edge into a lead before level 6, and you lose it if the lane stalls because Mundo's passive and missing-health AD claw the 47.4% win rate back to even."
+  },
+  "thesis": "Jayce out-ranges and out-trades Mundo one-on-one because Mundo has no gap closer or hard CC: Q is a single thrown cleaver with no slow, W is a self-damaging melee-range aura, and E is just a stat buff, not an engage tool. The reason the raw number still sits at 47.4% is Adrenaline Rush and Masochism — every half-finished trade heals Mundo back and then lets him hit harder the lower he gets, so the lane and kill advantage only matter if you close it out before he scales.",
+  "tell": {
+   "watch": "Mundo's missing-health AD stacks",
+   "theirWindow": {
+    "when": "when Mundo is low and E is up",
+    "what": "Masochism gives him Attack Damage for a few seconds scaled to missing health on a 7s cooldown, so a Mundo who looks finished can out-damage a committed melee trade. If he's already baiting at low HP, disengage to Cannon stance and poke instead of finishing the combo in melee."
+   },
+   "yourWindow": {
+    "when": "pre-level 6, before his Sadism",
+    "what": "Before level 6 Mundo has no answer to a full E (Thundering Blow) into Q combo — no dash, no slow, and Burning Agony is actively draining his own health if he's used it to sustain. This is the highest-value window to force the solo kill the data says you're favored to win."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Clean ranged poke, his melee W too costly yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E unlocks, biggest pre-6 kill window"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Sadism gives him sustain and an escape"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Max-health Q and passive sustain start scaling"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Stance utility vs his stacked HP in fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run with the 47.3% win rate, 95.5% pick-rate start — the extra sustain and early AD trade favorably against Mundo's melee-range W before he has enough health to tank through poke."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "Highest-performing boots at 57.8% over 128 games; the cooldown reduction directly raises how often you can throw Shock Blast and Thundering Blow at a champion with no gap closer to punish the tempo."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "Mana scaling for sustained poke across the laning phase, matching every top-performing build path for this matchup."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "Active haste lets you close distance for the all-in or disengage from Burning Agony's range once he commits."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts the mana investment into the burst damage needed to punish Mundo before Adrenaline Rush ticks him back up."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Executioner's Calling",
+     "when": "you are farming out the lane rather than forcing fights, per the matchup's own guidance to deny his passive and R sustain with Grievous Wounds early"
+    },
+    {
+     "item": "Mortal Reminder",
+     "when": "the game is dragging and his health-regen and Sadism sustain are keeping him alive through your damage"
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "when": "you are already ahead and want more burst to finish kills before Masochism's AD spike or his passive regen can save him"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he is stacking armor and extended fights are the norm, so you need the shred to keep your burst relevant"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Jayce wins extended skirmishes against Mundo (solo-kill advantage), and Conqueror's stacking adaptive force plus healing is what lets you outlast his passive regen and Masochism spikes in those fights rather than losing the war of attrition.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is the top-performing pair (47.5%) and Ignite's Grievous Wounds is the cleanest direct counter to Adrenaline Rush and Sadism's healing during your pre-6 kill window; Flash + Teleport is the fallback if you're prioritizing scaling and side-lane pressure over an early solo kill."
+  },
+  "playing": [
+   {
+    "title": "Poke from Cannon stance",
+    "detail": "Stay in Cannon stance and throw Shock Blast and autos from range — Mundo's Q has no slow and his W only threatens inside 325 range, so he physically cannot punish you for kiting."
+   },
+   {
+    "title": "All-in before level 6",
+    "detail": "Go for Thundering Blow into Q while he has no Sadism yet; before level 6 he has no tool to answer a committed Hammer-stance combo without burning his own HP on Burning Agony."
+   },
+   {
+    "title": "Don't chase a low Mundo",
+    "detail": "A Mundo near death can still pop Masochism for a few seconds of bonus AD scaled to missing health — if he's already E'd, break off and poke instead of finishing in melee range."
+   },
+   {
+    "title": "Track his W uptime",
+    "detail": "Burning Agony drains his own health every second it's active at only a 1s cooldown — if he's been holding it on in lane he's already below full even without taking Q damage, so press the window."
+   },
+   {
+    "title": "Shred before you burst",
+    "detail": "Swap R from Hammer to Cannon right before committing; the first attack in that form cuts Armor and Magic Resist, maximizing the damage of your follow-up Q and autos in the kill window."
+   },
+   {
+    "title": "Gate your pokes",
+    "detail": "Drop the Acceleration Gate (Cannon E) and fire Shock Blast through it for extra range, speed, and damage so you can poke without ever entering his 325-range W threat."
+   },
+   {
+    "title": "Farm toward Grievous Wounds",
+    "detail": "If the all-in isn't clean, prioritize completing Executioner's Calling — the lane data's own guidance — so his passive sustain and Sadism regen stop neutralizing your poke."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and the win-rate/sample figures above are measured from live games on the current patch; the tactical reasoning — why Jayce wins skirmishes yet the overall win rate still trails — is my own read of how the two kits interact."
+ },
+ "generatedAt": 1791596868300,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791596724612,
+  "overall": {
+   "winRate": 48,
+   "play": 27366,
+   "tier": 4
+  },
+  "headToHead": {
+   "play": 287,
+   "wins": 136,
+   "winRate": 47.4
+  },
+  "laneAdvantage": "Jayce",
+  "soloKillAdvantage": "Jayce",
+  "playStyle": "even",
+  "opponentTip": "Use Phase Rush to avoid being killed in one burst. Focus on farming lane until you purchase Executioner’s Calling. Deal damage often to gain lane control.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.5,
+    "play": 183,
+    "pickRate": 50.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.2,
+    "play": 180,
+    "pickRate": 49.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 0.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.9,
+    "play": 48,
+    "pickRate": 13
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 25.6,
+    "play": 39,
+    "pickRate": 10.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.3,
+    "play": 338,
+    "pickRate": 95.5
+   },
+   {
+    "items": [
+     "Cull",
+     "Health Potion"
+    ],
+    "winRate": 33.3,
+    "play": 6,
+    "pickRate": 1.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 57.8,
+    "play": 128,
+    "pickRate": 40.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 48.1,
+    "play": 77,
+    "pickRate": 24.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 7.1
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 54.5,
+    "play": 11,
+    "pickRate": 4.9
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Mortal Reminder"
+    ],
+    "winRate": 70,
+    "play": 10,
+    "pickRate": 4.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 49.8,
+    "play": 261,
+    "pickRate": 71.3
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 46.7,
+    "play": 180,
+    "pickRate": 49.2
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 56.2,
+    "play": 146,
+    "pickRate": 39.9
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 53.2,
+    "play": 126,
+    "pickRate": 34.4
+   },
+   {
+    "items": [
+     "Executioner's Calling"
+    ],
+    "winRate": 43,
+    "play": 93,
+    "pickRate": 25.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 36.1,
+    "play": 61,
+    "pickRate": 16.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 36.2,
+    "play": 58
+   }
+  ],
+  "highElo": {
+   "keystone": "Stormraider's Surge",
+   "tree": "Sorcery",
+   "play": 5712
+  }
+ }
+}

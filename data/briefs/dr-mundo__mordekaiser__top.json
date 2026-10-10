@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose the 1v1 from level 3 through his level-6 all-in at a measured 42.2% win rate over 294 games, but you claw it back once Warmog's and Heartsteel start stacking your max health in the mid game."
+  },
+  "thesis": "Mordekaiser's Q (Obliterate) deals increased damage to a single target and his E (Death's Grasp) drags you into range of it, so this lane is decided by whether you let yourself get pulled. Your own kit has no way to punish that pull directly — you have to deny the setup, not fight through it, and let your health-stacking items do the winning later.",
+  "tell": {
+   "watch": "Mordekaiser's E (Death's Grasp) cooldown",
+   "theirWindow": {
+    "when": "Death's Grasp (E) is off cooldown",
+    "what": "He will walk up to drag you into Obliterate (Q) range for the bonus single-target damage. Stay off the minion wave's front edge and don't contest for cs until you've watched him burn E on a creep or whiff it on you."
+   },
+   "yourWindow": {
+    "when": "His E (Death's Grasp) is down",
+    "what": "Throw Infected Cleaver (Q) freely — 4s cooldown, 975 range, and it scales off his max health, so it's free poke he can't punish without his pull up. Walk up and auto if he's also used Obliterate (Q) recently."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither spike has landed yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q/E combo and poke come online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Realm of Death (R) threatens solo kills"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Warmog's/Heartsteel stacking closes the gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Max-health scaling wins extended fights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Doran's Shield + Health Potion is run in 61.9% of games here for a reason — it blunts his Obliterate (Q) poke damage directly and the regen keeps you from bleeding out to constant E-into-Q trades."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Mercury's Treads post the higher win rate in this matchup (55.3% over 85 games) and the magic resist directly answers Obliterate (Q) and Realm of Death (R), both magic damage."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Raw max health both inflates your passive regen (Adrenaline Rush) and inflates the damage your own Infected Cleaver (Q) deals back to him."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Converts your bonus health into stacking damage, which is what actually lets Mundo start winning fights once the laning phase is over."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "This third item posts a 60% win rate over 35 games — the AoE auto-damage scales off your (now huge) max health and gives you a wave-clear/poke tool that doesn't cost a cooldown."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "the game runs long and his magic burst from Obliterate (Q) and Realm of Death (R) is outpacing your sustain"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he's building into auto-attack pressure alongside his spell rotation and you need the grievous wounds and armor"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "you need pure movement speed to kite and reposition more than the flat magic resist"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp procs on autos for percent-max-health damage and healing, which directly offsets his Q/E poke pattern and scales with every health item you buy.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Ghost+Teleport is the most-run pairing in this matchup (49.9% pick) — Ghost lets you walk out of Death's Grasp (E) range before the pull lands, and Teleport resets you to lane after trades without losing plates."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q when his E is down",
+    "detail": "Infected Cleaver (Q) is a 4-second cooldown, 975-range max-health nuke. Spam it the moment Death's Grasp (E) is spent and he can't punish you for standing in range."
+   },
+   {
+    "title": "Never stand in E range when it's up",
+    "detail": "Death's Grasp (E) pulls you into Obliterate (Q) range, and Q deals increased damage to a single target. Treat his E cooldown as the single gate on whether you can trade."
+   },
+   {
+    "title": "Use W to blunt disables, not to win trades",
+    "detail": "Burning Agony (W) drains your own health to reduce disable duration and chip nearby enemies — it's for surviving a gank or CC chain, not for forcing damage onto him."
+   },
+   {
+    "title": "Save R for his R",
+    "detail": "Realm of Death (R) traps you in a dimension and steals your stats if he kills you. Pop Sadism (R) the moment he ults you — the health sacrifice into regen and movement speed is how you outlast the duel."
+   },
+   {
+    "title": "Don't skirmish levels 6-8",
+    "detail": "His Realm of Death (R) comes online with a 140-second cooldown at rank 1 and is at its most threatening before your health stacking has scaled. Play for cs, not kills, in this window."
+   },
+   {
+    "title": "Look for freezes, not extended trades",
+    "detail": "You lose straight damage races early. Freeze the wave near your tower and let him overextend for cs instead of matching him auto for auto."
+   },
+   {
+    "title": "Flip the lane once Warmog's/Heartsteel land",
+    "detail": "Levels 9-13 is where your max-health stacking catches up. Start initiating extended trades once you've got two of your three core items instead of waiting for him to engage."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/pick-rate figures are measured from current-patch games on OP.GG; the matchup reasoning and timing calls are my own read of the kits."
+ },
+ "generatedAt": 1791597229462,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791597138664,
+  "overall": {
+   "winRate": 50.6,
+   "play": 14714,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 294,
+   "wins": 124,
+   "winRate": 42.2
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by (E)! Avoid being hit with (Q) by using [Q] to contest lane. Use [R] when he uses (R) to recover health.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 47,
+    "play": 200,
+    "pickRate": 49.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 42,
+    "play": 143,
+    "pickRate": 35.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 58.1,
+    "play": 31,
+    "pickRate": 7.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.3,
+    "play": 201,
+    "pickRate": 50
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.6,
+    "play": 62,
+    "pickRate": 15.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 242,
+    "pickRate": 61.9
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 42.3,
+    "play": 137,
+    "pickRate": 35
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 46.3,
+    "play": 203,
+    "pickRate": 59.2
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 55.3,
+    "play": 85,
+    "pickRate": 24.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 45.1,
+    "play": 51,
+    "pickRate": 26
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 60,
+    "play": 35,
+    "pickRate": 17.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 11.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.4,
+    "play": 363,
+    "pickRate": 90.5
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 48.2,
+    "play": 305,
+    "pickRate": 76.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 53.8,
+    "play": 160,
+    "pickRate": 39.9
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 60.9,
+    "play": 92,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46,
+    "play": 50,
+    "pickRate": 12.5
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 40.5,
+    "play": 37,
+    "pickRate": 9.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.7,
+    "play": 175
+   }
+  ]
+ }
+}

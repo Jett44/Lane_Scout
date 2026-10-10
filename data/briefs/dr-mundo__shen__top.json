@@ -1,0 +1,379 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you facecheck or stand in Shadow Dash's path and eat a taunt-all-in; you win if you poke with Q and stack health into the late game, where 57.3% of these games over 232 samples go Mundo's way."
+  },
+  "thesis": "This lane is a tempo mismatch dressed up as even: Shen's only hard engage is Shadow Dash (E), a dash that taunts champions it passes through, and his only hard mitigation is Feint (W), a self-shield on a 9-to-5s cooldown. Dr. Mundo's Infected Cleaver (Q) recharges every 4 seconds and hits for a percentage of the target's max health regardless of armor, so as long as you throw it on cooldown instead of trading in melee, you out-tempo both of Shen's tools without ever entering taunt range.",
+  "tell": {
+   "watch": "Shen's E (Shadow Dash) cooldown",
+   "theirWindow": {
+    "when": "Shadow Dash (E) is up and you're in range",
+    "what": "Shen can dash up to 575 range and taunt you on contact, locking your attacks onto him while his allies or jungler close in. Don't stand where a dash can reach you through minions when his E is available, especially once it's down to 10-8s cooldown at ranks 3-5."
+   },
+   "yourWindow": {
+    "when": "Feint (W) was just used or is on cooldown",
+    "what": "Feint's shield only lasts a few seconds and its cooldown (9/8/7/6/5s) is longer than your Q's 4s cooldown, so chain Infected Cleaver throws back to back — he can't block every instance and you're dealing max-health damage he can't itemize around."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "early Shadow Dash taunt threatens all-in before you stack HP"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q poke (4s CD) keeps farm and trades level"
+   },
+   {
+    "levels": "6-11",
+    "edge": "them",
+    "note": "Stand United unlocks, Shadow Dash CD drops to 10s"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "stacked health plus Sadism makes you unkillable"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Doran's Shield into Health Potion wins 52.9% over 155 games here because it blunts Shen's Vorpal Blade poke and the passive block reduces the chip damage from his autos while you stand and farm with Q."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Swiftness wins 55.9% over 145 games and lets you dictate the spacing where Shadow Dash can't reach you, since you have no hard CC of your own to punish him for over-extending — positioning is your only defense."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Builds your max health pool directly, which scales both your Q's damage output and your overall survivability in the stat-check this lane becomes."
+    },
+    {
+     "item": "Warmog's Armor",
+     "why": "Stacks on top of Heartsteel's health and, combined with Adrenaline Rush, lets you shrug off Shen's low burst entirely by mid-game."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "This path hits 70.4% over 27 games — the bonus health and AoE autos give you wave clear to keep pushing lane and denying the roams OP.GG flags as his win condition."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "the enemy team has healing-reliant sustain or you need more regen amplification instead of raw damage"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "the enemy has a crit-heavy or attack-speed carry you need to reduce burst from"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "shen or an enemy auto-attacker is stacking heal-reduction-vulnerable sustain against your lane"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp heals you and permanently grows your max health on landed attacks, which directly scales your Q's percent-max-health damage — the exact stat Shen can't itemize away from in a long, drawn-out poke lane.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport wins 56.9% over the highest sample of the three spell pairs — Flash lets you sidestep a committed Shadow Dash, and Teleport directly answers OP.GG's own read on this matchup: push the wave and use Teleport to punish or prevent Shen's Stand United roams."
+  },
+  "playing": [
+   {
+    "title": "Throw Q on cooldown, always",
+    "detail": "Infected Cleaver recharges every 4 seconds and hits for max-health damage at 975 range — there is almost never a reason to hold it, since every missed cast is free damage left on the table."
+   },
+   {
+    "title": "Trade only after Feint drops",
+    "detail": "Shen's W shield only lasts a few seconds and its cooldown ranges from 9s down to 5s at max rank — wait for it to be down before committing E (Masochism) damage or autos."
+   },
+   {
+    "title": "Respect Shadow Dash's taunt",
+    "detail": "Shen's E taunts any champion it passes through on the way to its target location — don't stand in a line he can dash through below 50% health, since the taunt forces you to fight on his terms."
+   },
+   {
+    "title": "Push the wave to kill his roams",
+    "detail": "OP.GG's own read on this lane is to prevent Shen from using Stand United to roam by keeping the wave pushed into his turret, since that pins him to defend instead of teleporting across the map."
+   },
+   {
+    "title": "Rush health items, not damage",
+    "detail": "Heartsteel into Warmog's Armor turns your Adrenaline Rush passive and Sadism sustain into a wall Shen's kit has no tools to break by the mid-game."
+   },
+   {
+    "title": "Use R to close or disengage",
+    "detail": "Sadism's movement speed and regen spike after level 6 either lets you run down a low Shen or escape a bad Shadow Dash all-in — use it proactively, not as a panic button."
+   },
+   {
+    "title": "Assume E is up unless proven otherwise",
+    "detail": "Shadow Dash's cooldown falls as low as 8 seconds at rank 5 — never facecheck a brush or overextend assuming it's down just because he used it recently."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, and summoner spell numbers above are pulled directly from measured Dr. Mundo vs Shen games on the current patch (16.20.1); the tactical reading of ability tells, trade windows, and power-curve shifts is my own analysis built on top of that data."
+ },
+ "generatedAt": 1791633292262,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791633208919,
+  "overall": {
+   "winRate": 50.3,
+   "play": 17063,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 232,
+   "wins": 133,
+   "winRate": 57.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Shen",
+  "playStyle": "even",
+  "opponentTip": "Do not fight Shen head on. Use [Q] to contest and farm lane. Prevent him from roaming using (R) by pushing lane.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 51.1,
+    "play": 137,
+    "pickRate": 46.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.9,
+    "play": 116,
+    "pickRate": 39.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 11.1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 154,
+    "pickRate": 51.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 55.6,
+    "play": 36,
+    "pickRate": 12
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.9,
+    "play": 155,
+    "pickRate": 54.4
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52,
+    "play": 125,
+    "pickRate": 43.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 55.9,
+    "play": 145,
+    "pickRate": 55.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.3,
+    "play": 87,
+    "pickRate": 33.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 55.6,
+    "play": 36,
+    "pickRate": 20.2
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 70.4,
+    "play": 27,
+    "pickRate": 15.2
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 14.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53,
+    "play": 285,
+    "pickRate": 97.3
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 51.8,
+    "play": 245,
+    "pickRate": 83.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 63.3,
+    "play": 98,
+    "pickRate": 33.5
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 56.2,
+    "play": 73,
+    "pickRate": 24.9
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 54.8,
+    "play": 31,
+    "pickRate": 10.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 42.3,
+    "play": 26,
+    "pickRate": 8.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.3,
+    "play": 127
+   }
+  ]
+ }
+}

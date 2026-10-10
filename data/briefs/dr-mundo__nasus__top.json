@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Nasus",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Nasus stack Siphoning Strike uncontested through level 6; you win post-6 by outscaling his early all-in with sustain."
+  },
+  "thesis": "Nasus wins this lane by farming Q (Siphoning Strike) stacks and winning all-ins once W (Wither) comes online at level 2, while Mundo's Adrenaline Rush and E (Masochism) only start outscaling trades once his health pool and AD-from-missing-health scaling catch up. The 45.6% head-to-head over 320 games confirms Nasus's early edge, but OP.GG's own tip — you have no way to stop his farm, so use Q and ganks instead — is the entire game plan.",
+  "tell": {
+   "watch": "Nasus's Siphoning Strike stack counter",
+   "theirWindow": {
+    "when": "Level 2-6, Wither on cooldown refresh",
+    "what": "Once Nasus hits level 2 he can land W (Wither) before extending, slowing your Move and Attack Speed so he out-trades you with free Q stacks. Do not stand still and auto him through a Wither; disengage and let him take the Q stack rather than eat a long trade."
+   },
+   "yourWindow": {
+    "when": "Low health below 30%, E up",
+    "what": "E (Masochism) scales its bonus AD off your missing health, so the lower you are the harder you hit. Combined with Adrenaline Rush healing you back up between trades, fight when you're already hurt rather than topped off — that's when your trades flip positive."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither has a cooldown edge yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Wither lands, stacking Q punishes trades"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Sadism sustain offsets his stack snowball"
+   },
+   {
+    "levels": "12-15",
+    "edge": "you",
+    "note": "max health and Masochism AD overwhelm"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Heartsteel/Warmog's bulk dwarfs his stacks"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Picked in 56.5% of games and the higher-winrate start (47.8% over 226 games) — the flat damage reduction on hit blunts every Siphoning Strike poke he throws at you while you farm."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "75.5% pick rate and the higher win rate of the two options (47.5%) — the slow resistance matters directly against Wither, letting you walk out of its slow instead of getting kited or chain-Q'd."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "58.1% win rate when rushed first in the Heartsteel-into-Warmog's path — stacking health directly counters his scaling Q threat by making every point of missing-health AD bigger."
+    },
+    {
+     "item": "Warmog's Armor",
+     "why": "Core in every top build path here — the health pool synergizes with Adrenaline Rush regen and Masochism's missing-health AD scaling."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Appears in all three listed core paths — converts your stacked health into bonus damage and wave clear, which matters since you can't contest his Q farm directly."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he builds into sustain-heavy fights or you need more healing amp from Adrenaline Rush"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "his Soul Eater lifesteal and Fury of the Sands sustain are keeping him alive in extended fights"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's stacked enough Q to be auto-attacking you down in prolonged trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Taken in both listed rune pages (51.1% and 10.5% pick) — the per-tick health proc and max-health growth directly fuel your scaling AD from Masochism while you farm through his early Q pressure.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Ghost+Teleport is the most-run pairing (50.4% pick, 47.1% win) — Ghost lets you close distance or disengage around Wither's slow since you have no other gap tool, and Teleport keeps you relevant for sidelane split pressure once you outscale."
+  },
+  "playing": [
+   {
+    "title": "Don't contest his Q farm directly",
+    "detail": "You cannot out-trade a stacking Siphoning Strike early. Let him take jungle camp overlap and minion kills rather than forcing trades you lose."
+   },
+   {
+    "title": "Hold E for low-health windows",
+    "detail": "Masochism's AD bonus scales off missing health, so trade when you're already damaged, not topped off. Use Adrenaline Rush's passive regen between skirmishes to reset."
+   },
+   {
+    "title": "Respect Wither on cooldown",
+    "detail": "Wither has an 11-15s cooldown depending on rank. Track when he last used it — if it's up, don't extend trades where getting slowed lets him land free autos."
+   },
+   {
+    "title": "Call ganks instead of soloing him down",
+    "detail": "OP.GG's own read is correct: you can't stop his farm alone, so your jungler's ganks are the actual answer to a snowballing Nasus."
+   },
+   {
+    "title": "Use Sadism to reset fights, not just chase",
+    "detail": "Sadism's health-for-movement-speed trade is on a 75s cooldown — use it to disengage from a bad trade around his Wither as much as to close distance for a kill."
+   },
+   {
+    "title": "Play for the level 12+ spike",
+    "detail": "Once Heartsteel and Warmog's are online, your health pool and Masochism AD start overwhelming his flat Q damage. Shift from surviving to initiating trades around this point."
+   },
+   {
+    "title": "Watch for his Ultimate timer in late fights",
+    "detail": "Fury of the Sands has a 120s cooldown and drains your max health into his damage while active. If he's near it, back off rather than soaking damage into his ult window."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live OP.GG games on the current patch (16.20.1); the tells, timing windows, and trade logic are my own tactical read, not sourced from OP.GG."
+ },
+ "generatedAt": 1791633496841,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791633453279,
+  "overall": {
+   "winRate": 50.3,
+   "play": 17063,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 320,
+   "wins": 146,
+   "winRate": 45.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Nasus",
+  "playStyle": "even",
+  "opponentTip": "You have no way to stop Nasus from farming. Use [Q] and ganks to stop him.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 47.1,
+    "play": 206,
+    "pickRate": 50.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.3,
+    "play": 136,
+    "pickRate": 33.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 40.5,
+    "play": 42,
+    "pickRate": 10.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 43,
+    "play": 214,
+    "pickRate": 51.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 34.1,
+    "play": 44,
+    "pickRate": 10.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 226,
+    "pickRate": 56.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 41.3,
+    "play": 155,
+    "pickRate": 38.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.5,
+    "play": 284,
+    "pickRate": 75.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.4,
+    "play": 78,
+    "pickRate": 20.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 38.2,
+    "play": 34,
+    "pickRate": 14.1
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 58.1,
+    "play": 31,
+    "pickRate": 12.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 11.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 46.8,
+    "play": 395,
+    "pickRate": 93.8
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 48.8,
+    "play": 322,
+    "pickRate": 76.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 52.3,
+    "play": 111,
+    "pickRate": 26.4
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 52,
+    "play": 100,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 47.5,
+    "play": 99,
+    "pickRate": 23.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 37.8,
+    "play": 90,
+    "pickRate": 21.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 48.3,
+    "play": 178
+   }
+  ]
+ }
+}

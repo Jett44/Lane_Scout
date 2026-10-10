@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slightly unfavored",
+   "line": "You fall behind if you trade autos into an open Riposte or eat a double Lunge before level 6, but you win the lane if you poke exclusively with Cleaver and scale into Warmog's/Titanic Hydra."
+  },
+  "thesis": "Fiora's whole kit is a melee dash-and-parry package that punishes you for walking into auto-attack range, while Infected Cleaver is a 975-range, %max-health throw that is not a basic attack and so cannot be caught by Riposte. The lane is a fight over that range gap: the 48.3% win rate over 178 games shows Fiora currently wins it more often because her dash resets and kill-refreshed Burst of Speed let her force the engage before you stack enough health to make Adrenaline Rush and Cleaver actually hurt.",
+  "tell": {
+   "watch": "Fiora's Riposte (W) cooldown",
+   "theirWindow": {
+    "when": "Q, W, E all off cooldown",
+    "what": "With Lunge, Riposte, and Burst of Speed all up she can double-dash in, bait a parry, and chain attack speed into a kill attempt — hold your ground, don't auto, and be ready to burn Sadism (R) to run rather than stand and trade."
+   },
+   "yourWindow": {
+    "when": "after she burns both Lunge dashes",
+    "what": "Lunge can be cast a second time for free within a couple seconds, but once both charges and her Riposte parry are spent she has no insurance left — step in with Q and autos freely until her Q cooldown (16s at rank 1, down to 8s at rank 5) comes back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-5",
+    "edge": "them",
+    "note": "dash-and-parry kit outtrades early melee"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Blade Waltz adds a burst kill-threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Warmog's/Heartsteel close the health gap"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Titanic Hydra scaling outlasts her damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The regen and damage reduction on hit (49.7% WR, 69.6% pick) blunt both her auto-attack poke and the Duelist passive stacking off those same autos."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Her kill pressure is entirely basic-attack and Lunge-strike based (51.5% pick), so flat physical damage reduction does more for you than movement speed in the early trades."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Raw HP makes Adrenaline Rush's per-second regen and Infected Cleaver's max-health scaling both hit harder (73.3% WR path)."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Stacks even more max health on top of Warmog's, directly inflating Cleaver damage and your effective HP in extended fights."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Current-health nuke on hit gives you real damage output once your HP pool is big, closing the gap with her Duelist sustain."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "she's stacking Duelist healing fast and winning early skirmishes on sustain alone"
+    },
+    {
+     "item": "Thornmail",
+     "when": "her on-hit healing is keeping her alive through full trades late game"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you need more raw regen to out-sustain repeated poke before her all-in windows"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "her Burst of Speed stacking move speed is letting her stick to you and dictate every chase"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on an auto every few seconds, permanently grows your max health, and heals you — exactly the kind of low-intensity, HP-scaling sustain that lets you out-regen her poke instead of needing to win trades outright.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Ghost's measured 56.2% win rate (45.3% pick) is the highest of the three combos — the flat move speed directly counters her Burst of Speed chase stacking, while Teleport lets you reset at base and come back with your sustain items online."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't melee trade",
+    "detail": "Spam Q (Infected Cleaver, 4s cooldown, 975 range) from max range — it is a projectile, not a basic attack, so it walks straight through her Riposte (W) parry."
+   },
+   {
+    "title": "Track her W parry window",
+    "detail": "Riposte's cooldown runs 10s down to 6s by rank 5; if it's up, don't walk into auto-attack range and let her bait you into the reflect."
+   },
+   {
+    "title": "Respect the double Lunge",
+    "detail": "Q (Lunge) can be cast a second time within a couple seconds for free — assume she has two dashes loaded, not one, before you commit to a trade."
+   },
+   {
+    "title": "Bank R for chase, not combat",
+    "detail": "Sadism (R, 75s cooldown) trades health for heavy move speed and regen — save it to break off from her E-fueled chase speed rather than to force an all-in."
+   },
+   {
+    "title": "Watch her ult timer after 6",
+    "detail": "Blade Waltz (R, 130s cooldown at rank 1) is a multi-hit finisher with diminishing damage on repeat strikes to the same target — track roughly when she last could have used it before you extend a trade."
+   },
+   {
+    "title": "Hold E for when you're already low",
+    "detail": "Masochism (E, 7s cooldown) scales your AD with missing health, so it's strongest in the second half of a fight, not the opener."
+   },
+   {
+    "title": "Scale through items, not skirmishes",
+    "detail": "Warmog's into Heartsteel into Titanic Hydra (73.3% WR sample) turns your %max-health Cleaver into real damage and gives Adrenaline Rush enough HP to out-race her Duelist sustain."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates above are pulled from measured OP.GG games on the current patch; the trade logic and timing reads are my own analysis of the ability kits."
+ },
+ "generatedAt": 1791597344219,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791597236995,
+  "overall": {
+   "winRate": 50.6,
+   "play": 14714,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 178,
+   "wins": 86,
+   "winRate": 48.3
+  },
+  "laneAdvantage": "Fiora",
+  "soloKillAdvantage": "Fiora",
+  "playStyle": "even",
+  "opponentTip": "Be careful of having (P) exposed! Retreat out of Fiora’s sight to change the location of your Vitals. Stick by a wall when she uses (R) while fighting her.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 56.2,
+    "play": 105,
+    "pickRate": 45.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43,
+    "play": 79,
+    "pickRate": 34.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 52.2,
+    "play": 23,
+    "pickRate": 9.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.1,
+    "play": 110,
+    "pickRate": 46.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.9,
+    "play": 34,
+    "pickRate": 14.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 49.7,
+    "play": 153,
+    "pickRate": 69.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 60,
+    "pickRate": 27.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.1,
+    "play": 102,
+    "pickRate": 51.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57,
+    "play": 86,
+    "pickRate": 43.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 73.3,
+    "play": 15,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 7.9
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 49.8,
+    "play": 201,
+    "pickRate": 87.8
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 49.3,
+    "play": 150,
+    "pickRate": 65.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 44.2,
+    "play": 95,
+    "pickRate": 41.5
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 60.6,
+    "play": 71,
+    "pickRate": 31
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.2,
+    "play": 59,
+    "pickRate": 25.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 56.8,
+    "play": 44,
+    "pickRate": 19.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 56.5,
+    "play": 92
+   }
+  ]
+ }
+}

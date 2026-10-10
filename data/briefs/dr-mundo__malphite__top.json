@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if Malphite banks Q poke and dives in with R once he's 6; you win every extended trade and the late game."
+  },
+  "thesis": "Malphite's Passive (Granite Shield) absorbs your first auto in every trade, so short poke exchanges favor him, but Dr. Mundo's Passive (Adrenaline Rush) and W (Burning Agony) make this lane about who can sustain a long fight — and you always can. The 54.4% win rate over 643 games confirms this is close but tilted your way once you refuse to short-trade.",
+  "tell": {
+   "watch": "Malphite's Granite Shield recharge state",
+   "theirWindow": {
+    "when": "Shield is up and Q (Seismic Shard) off cooldown",
+    "what": "He'll poke you with Q then auto behind the shield for free value. Don't trade back into a fresh shield — walk up only after he's used an auto or taken damage recently to strip it."
+   },
+   "yourWindow": {
+    "when": "Shield is down, you're sub-50% HP",
+    "what": "Pop E (Masochism) for the missing-health AD bonus and chain Q (Infected Cleaver) into extended auto trades. Burning Agony's drain-damage adds up over a long fight he can't match without his shield."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke plus shield wins short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Sustain and Masochism start closing the gap"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R (Unstoppable Force) threatens gank setups"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Heartsteel stacks, Adrenaline Rush outsustains him"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Warmog's/Spirit Visage make you unkillable"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The passive block and sustain blunt his auto-heavy Q-into-auto poke pattern while his Granite Shield is up."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Taken in 62.9% of games at 58.3% win rate — the extra move speed lets you dodge his E (Ground Slam) shockwave and close distance once he's out of Q range."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacks fastest when you're trading often, and the bonus health directly fuels Adrenaline Rush sustain."
+    },
+    {
+     "item": "Warmog's Armor",
+     "why": "Taken alongside Heartsteel in the top two build paths (64% and 57.7% win rate) — turns every long trade into one you win on raw HP."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Boosts your healing from Adrenaline Rush and Burning Agony specifically against his magic damage kit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Titanic Hydra",
+     "when": "the game is dragging and you want more wave clear and poke damage"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "he's building into auto-attack reliant brawling with Brutal Strikes"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's stacking armor and you need the grievous wounds to cut his sustain"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on every extended trade and scales your max health, directly answering his short-trade poke pattern with long-fight sustain.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Ghost is run in 53.1% of games — it closes the gap on his Q-slow poke and helps you stick on him once his Granite Shield is down, while Teleport keeps you relevant for his level 6 R gank setups elsewhere on the map."
+  },
+  "playing": [
+   {
+    "title": "Never trade into a fresh shield",
+    "detail": "Granite Shield blocks your first hit when it's charged. Wait for him to auto or take poke damage before you commit autos."
+   },
+   {
+    "title": "Save E for the long trade",
+    "detail": "Masochism's AD scales off missing health — don't pop it early, use it once you're already deep in a sustained fight so the bonus AD lands on more swings."
+   },
+   {
+    "title": "Respect R at level 6",
+    "detail": "Unstoppable Force can charge in from 1000 range to knock you up and set a gank. Ward your flanks and don't overextend past minion wave once he hits 6."
+   },
+   {
+    "title": "Use Q to contest farm, not to all-in",
+    "detail": "Infected Cleaver's max-health damage is great for poke and farm pressure, but it's on a 4s cooldown — spam it to contest CS rather than committing to all-ins off a single cast."
+   },
+   {
+    "title": "Burning Agony wins extended skirmishes",
+    "detail": "The continual drain damage from W adds up over 3+ seconds of close-range fighting, which is exactly the fight length Malphite struggles to win against your sustain."
+   },
+   {
+    "title": "Use Sadism to disengage or re-engage sustain fights",
+    "detail": "R's health regen and move speed buff let you either chase down a losing Malphite or reset mid-fight — use it once you're both committed to a long trade."
+   },
+   {
+    "title": "Itemize through Spirit Visage against his magic damage",
+    "detail": "All of his damage (Q, W bonus AD aside, E) is magic — Spirit Visage's healing amp compounds with both your Passive and W to out-sustain him late."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and win rates above are measured from live games on the current patch (16.20.1); the trade-pattern and timing analysis is my own read of the ability kits."
+ },
+ "generatedAt": 1791633128144,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791633090110,
+  "overall": {
+   "winRate": 50.3,
+   "play": 17063,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 643,
+   "wins": 350,
+   "winRate": 54.4
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Malphite",
+  "playStyle": "even",
+  "opponentTip": "Both champions have a hard time killing each other. Use [Q] to contest and farm lane. After reaching level 6, be careful of (R) setting up a gank!",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 50.9,
+    "play": 444,
+    "pickRate": 53.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 55.3,
+    "play": 275,
+    "pickRate": 32.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 61.7,
+    "play": 81,
+    "pickRate": 9.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.1,
+    "play": 470,
+    "pickRate": 55.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.1,
+    "play": 108,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.3,
+    "play": 558,
+    "pickRate": 69.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 58.4,
+    "play": 231,
+    "pickRate": 28.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 58.3,
+    "play": 472,
+    "pickRate": 62.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.6,
+    "play": 146,
+    "pickRate": 19.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 64,
+    "play": 89,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 57.7,
+    "play": 78,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 60,
+    "play": 70,
+    "pickRate": 13.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 55,
+    "play": 816,
+    "pickRate": 96.2
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 56.1,
+    "play": 672,
+    "pickRate": 79.3
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 60.3,
+    "play": 325,
+    "pickRate": 38.3
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 63.5,
+    "play": 230,
+    "pickRate": 27.1
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 55.2,
+    "play": 116,
+    "pickRate": 13.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.7,
+    "play": 95,
+    "pickRate": 11.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 53.9,
+    "play": 399
+   }
+  ]
+ }
+}

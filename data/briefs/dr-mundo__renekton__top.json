@@ -1,0 +1,380 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Renekton",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if Renekton snowballs a solo kill before level 6; you win the 56.2% matchup (436 games) by surviving his Fury spikes and out-scaling him with health stacking."
+  },
+  "thesis": "Renekton holds lane and solo-kill advantage because his Fury bar turns his W into a triple-slash 1.5s stun and his E into an armor-shredding dash once he's above 50 Fury — but none of that scales, while Mundo's max-health Q poke and regen do. Stay out of his W (300 range) and E (450 range) windows early and this flips hard by the 11-15 mark.",
+  "tell": {
+   "watch": "Renekton's Fury bar (50+)",
+   "theirWindow": {
+    "when": "Renekton above 50 Fury, levels 3-6",
+    "what": "His W (Ruthless Predator) becomes a 1.5s triple-stun that destroys shields and his E gains bonus damage plus Armor reduction. Do not contest melee trades here — stay at Q range and let him burn Fury on minions."
+   },
+   "yourWindow": {
+    "when": "His E (Slice and Dice) just went on cooldown",
+    "what": "He has no gap-closer for 16 down to 10 seconds depending on rank. Step in, pop E (Masochism) for the missing-health AD boost, and trade — he can't escape or re-engage until it's back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "W stun lands before your E/W are ranked up"
+   },
+   {
+    "levels": "3-6",
+    "edge": "them",
+    "note": "50+ Fury empowers W and E, enables solo kills"
+   },
+   {
+    "levels": "7-11",
+    "edge": "even",
+    "note": "Q poke range and passive regen stabilize the lane"
+   },
+   {
+    "levels": "12-15",
+    "edge": "you",
+    "note": "Health-stacking items outscale his Fury burst"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Near-unkillable; he has no late-game reset"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Mitigates his auto-attack harass and the Q poke he throws while farming Fury, which is where most of his early lane pressure comes from."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "Lets you reposition out of his 300-range W and 450-range E threat windows instead of getting caught standing in them."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "First in the 65.2% win-rate path (46 games) — stacks health passively while you're farming safely at Q range."
+    },
+    {
+     "item": "Warmog's Armor",
+     "why": "Converts the health you're stacking into regen, which is exactly what outlasts his all-in Fury windows."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Scales your Q damage off max health and gives you the wave-clear to shove him off plates once lane stabilizes."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "he's snowballing kills and his 50+ Fury Q heal is keeping him topped off in trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he or his team builds into crit or lifesteal to try to out-damage your sustain"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you need more healing amp on your passive and R for extended skirmishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the passive trading pattern this matchup demands — poke with Q, soak autos, heal back up, repeat without ever needing to stand in his stun range.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport runs the highest win rate of the three common pages (59.8% over Ghost+Teleport's 51.9%) — Flash is the better dodge tool against his W stun chain, and Teleport lets you reset after Q-poking a wave instead of staying in his threat range to last-hit."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't melee",
+    "detail": "Farm with Q (Infected Cleaver, 975 range) and avoid trading inside his W (300 range) or E (450 range) — his damage output there is designed to punish exactly that."
+   },
+   {
+    "title": "Track the Fury threshold",
+    "detail": "At 50+ Fury his W becomes a triple-slash 1.5s stun that shreds shields and his E gets bonus damage and Armor reduction. Disengage around levels 3-6 when he's near that number."
+   },
+   {
+    "title": "Use W to cut his stun",
+    "detail": "Burning Agony reduces the duration of any disable on you, including his W stun — have it active before he commits to an engage, not after."
+   },
+   {
+    "title": "Punish dead E cooldown",
+    "detail": "Slice and Dice is down for 16 to 10 seconds depending on rank. Once he's used it to engage or farm, that's your window to step in with E (Masochism)'s AD boost."
+   },
+   {
+    "title": "Save R for sustain, not panic",
+    "detail": "Sadism's value is the extended health regen and movement speed over its 75s cooldown — use it to win a skirmish that's dragging on, not as a reflex button."
+   },
+   {
+    "title": "Play the long game",
+    "detail": "He holds lane and solo-kill advantage early; your job is to not die to a Fury spike before 6. The 56.2% win rate over 436 games is earned in the mid-to-late game, not lane phase."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/pick-rate figures are measured from live games on the current patch (16.20.1) via OP.GG; the tactical reasoning — Fury thresholds, cooldown windows, and trade timing — is my own read on top of that data."
+ },
+ "generatedAt": 1791632802986,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791632714848,
+  "overall": {
+   "winRate": 50.3,
+   "play": 17063,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 436,
+   "wins": 245,
+   "winRate": 56.2
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Do not stand in range of Renekton’s (E)! Use [Q] to farm lane to avoid being punished. You will have the advantage as the game progresses!",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 51.9,
+    "play": 262,
+    "pickRate": 48.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 59.8,
+    "play": 209,
+    "pickRate": 38.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 53.5,
+    "play": 43,
+    "pickRate": 7.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.3,
+    "play": 254,
+    "pickRate": 46.2
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 52.9,
+    "play": 68,
+    "pickRate": 12.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54,
+    "play": 298,
+    "pickRate": 56.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.7,
+    "play": 219,
+    "pickRate": 41.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 58.5,
+    "play": 258,
+    "pickRate": 53.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.7,
+    "play": 187,
+    "pickRate": 39
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 61.8,
+    "play": 55,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 65.2,
+    "play": 46,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 63.9,
+    "play": 36,
+    "pickRate": 12.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 56.8,
+    "play": 511,
+    "pickRate": 95.7
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 54.6,
+    "play": 416,
+    "pickRate": 77.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 64.1,
+    "play": 145,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 60.7,
+    "play": 140,
+    "pickRate": 26.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.3,
+    "play": 119,
+    "pickRate": 22.3
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.8,
+    "play": 81,
+    "pickRate": 15.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57,
+    "play": 230
+   }
+  ]
+ }
+}
