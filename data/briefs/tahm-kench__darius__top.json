@@ -1,0 +1,384 @@
+{
+ "you": "Tahm Kench",
+ "them": "Darius",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, patient",
+   "line": "You lose if you trade into his stacked Hemorrhage before level 6; you win if you survive to full HP itemization and punish his long E and R cooldowns with Devour."
+  },
+  "thesis": "Darius's threat is proportional to Hemorrhage stacks on you: at 5 stacks he enrages with massive bonus AD, and his ultimate Noxian Guillotine deals true damage scaled by those same stacks, so raw armor never fully answers it. Tahm Kench can't strip stacks once applied, but his passive bonus damage scales off his own total health and his E (Thick Skin) banks incoming damage into a shield, letting him out-sustain poke if he refuses to trade through a stacking bleed. At 46.9% win rate over 309 games this is a real coinflip decided almost entirely by who controls the first all-in window.",
+  "tell": {
+   "watch": "Darius's Hemorrhage stack count",
+   "theirWindow": {
+    "when": "Levels 1-5, before your R is up",
+    "what": "Darius's Q (Decimate) and auto-stacked bleed punish greedy trades hard here. Hug minions so his E (Apprehend, range 535) can't isolate you for a pull, and disengage once he's past 2-3 stacks on you rather than fighting through it."
+   },
+   "yourWindow": {
+    "when": "Level 6+, once you have 3 passive stacks",
+    "what": "Land Q (Tongue Lash) or autos to build 3 stacks of An Acquired Taste, then commit — you can Devour him for burst magic damage and the next landed Q stuns off a fresh stack cycle. His E (Apprehend) sits at 26-16s cooldown, so once it's spent you're safe to extend."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Decimate punishes greedy early solo trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Crippling Strike slow locks you into bleed"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Devour (R) online lets you burst back"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Heartsteel HP makes you harder to burst"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Tankiness and peel outvalue his split push"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "50.7% win rate over 306 games and the 75% pick-rate start — the passive damage block and regen directly answer Darius's auto-and-bleed poke before you have any sustain items online."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.4% win rate over 245 games and the clear pick-rate favorite — Darius's whole kit is auto-attacks and physical bleed stacks, which Steelcaps flatly reduces."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacking max HP both increases your passive's bonus damage (which scales off total health) and raises the flat health pool that Darius's true-damage ult has to chew through."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in the highest-sample build paths (50-75% win rate across listed lines) and keeps your HP scaling going into mid game."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Core third item in the top build path — punishes an auto-attack-reliant champion stacking bleed on you with reflect and grievous wounds on the physical portion of his damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need sustained omnivamp/magic damage to outlast his split push rather than pure tank stats"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you need more healing amp to get full value out of E (Thick Skin)'s passive sustain and your passive damage heal from Q"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he rushes lifesteal or crit to try to win extended early trades before you have Thornmail up"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest-pick rune page (49.6% pick, 50.2% win rate) for this lane — Grasp's permanent HP and periodic poke damage directly supports the max-HP scaling your passive and Heartsteel are both built around.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best measured win rate of the three listed combos (57.1% over a meaningful pick rate) — this matchup rewards scaling into your item spikes and resetting to lane rather than forcing early kill pressure with Ignite."
+  },
+  "playing": [
+   {
+    "title": "Hug minions before level 6",
+    "detail": "Stay inside minion range so Darius's E (Apprehend, range 535) can't pull you out alone — OP.GG's own tip flags this pull as the single thing to avoid in this matchup."
+   },
+   {
+    "title": "Track bleed stacks, not your HP bar",
+    "detail": "Watch Hemorrhage stacks on yourself specifically — at 5 stacks Darius enrages with massive bonus AD. Disengage once he's at 3+ stacks instead of trading through to the cap."
+   },
+   {
+    "title": "Stack passive before committing R",
+    "detail": "You need 3 stacks of An Acquired Taste (from Q hits or autos on him) before Devour is usable on him — don't waste the all-in window waiting on stacks that aren't there yet."
+   },
+   {
+    "title": "Bank E, don't panic-shield",
+    "detail": "Thick Skin's passive stores a percent of damage taken while out of combat; time the active shield to pop right as a trade peaks, not after you've already dropped low."
+   },
+   {
+    "title": "Refuse pre-6 all-ins",
+    "detail": "This is a near-even lane (46.9% Tahm win rate) but his early Decimate and bleed snowball punish greedy level 1-5 commitments. Wait for R and your first HP item spike."
+   },
+   {
+    "title": "Punish his long E cooldown",
+    "detail": "Apprehend sits at 26/23.5/21/18.5/16s. Once he's thrown it and missed or used it defensively, you have a long window to shove the wave or extend a trade without fear of the pull."
+   },
+   {
+    "title": "Build HP against his true damage",
+    "detail": "Noxian Guillotine deals true damage scaled by stacks on you, so armor doesn't solve it. Prioritize raw max HP from Heartsteel; Thornmail only answers the physical half of his kit."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample numbers above are pulled directly from measured games on the current patch via OP.GG; the cooldown references, stack mechanics, and trade-window reasoning are my own tactical analysis layered on top of that data."
+ },
+ "generatedAt": 1791670256412,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791670155533,
+  "overall": {
+   "winRate": 50.7,
+   "play": 16877,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 309,
+   "wins": 145,
+   "winRate": 46.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Avoid being pulled by (E). Although you can try to avoid (Q) when Darius is level 2 and use minions to deal favorably, this strategy relies heavily on luck so avoid fighting him during early game altogether. Try to fight him afterwards when you can tank his damage sufficiently.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47,
+    "play": 230,
+    "pickRate": 56
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 57.1,
+    "play": 77,
+    "pickRate": 18.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.6,
+    "play": 28,
+    "pickRate": 6.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50.2,
+    "play": 207,
+    "pickRate": 49.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.7,
+    "play": 39,
+    "pickRate": 9.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50.7,
+    "play": 306,
+    "pickRate": 75
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 35.3,
+    "play": 51,
+    "pickRate": 12.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.4,
+    "play": 245,
+    "pickRate": 64.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.8,
+    "play": 90,
+    "pickRate": 23.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 26,
+    "pickRate": 12.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 75,
+    "play": 20,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 6.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 52.1,
+    "play": 355,
+    "pickRate": 85.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.4,
+    "play": 250,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 46.7,
+    "play": 120,
+    "pickRate": 28.8
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 53.1,
+    "play": 98,
+    "pickRate": 23.5
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 57.6,
+    "play": 59,
+    "pickRate": 14.2
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 68,
+    "play": 50,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 57.8,
+    "play": 102
+   }
+  ]
+ }
+}

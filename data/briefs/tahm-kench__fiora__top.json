@@ -1,0 +1,381 @@
+{
+ "you": "Tahm Kench",
+ "them": "Fiora",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you tongue-lash into her up Riposte and eat a free parry reset; you win by hitting level 6 Devour before her Blade Waltz comes online."
+  },
+  "thesis": "This is a stack-and-swallow matchup: Tahm Kench's entire kill pattern runs through landing Q (Tongue Lash) to build An Acquired Taste stacks and then R (Devour) her for burst, but Fiora's W (Riposte) punishes exactly that Q poke if she times it. The 53.2% win rate over 205 games says Tahm wins the patient version of this lane, not the impatient one.",
+  "tell": {
+   "watch": "Fiora's W (Riposte) cooldown/glow",
+   "theirWindow": {
+    "when": "Riposte is up and glowing",
+    "what": "Do not throw Q (Tongue Lash) into her — if she pops W she parries the auto/Q-adjacent trade and reflects magic damage back, deleting your stack progress and chunking you for free."
+   },
+   "yourWindow": {
+    "when": "Riposte is on cooldown (10-6s) or she just used it",
+    "what": "This is your window to land Q (Tongue Lash) for the slow, heal, and stack, then follow with autos and W (Abyssal Dive) if she's out of position — she has no parry to punish the engage."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Lunge poke outranges your early trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Second Wind sustain offsets her Duelist healing"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Devour online, she lacks Riposte uptime to cover both"
+   },
+   {
+    "levels": "9-11",
+    "edge": "them",
+    "note": "Blade Waltz threatens all-in burst"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Heartsteel/Thornmail tankiness outscales her duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction on autos directly dampens Fiora's Lunge pokes and stacking Duelist sustain, and it's the 52.6% winrate, 79% pick start in this matchup for a reason."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "56.1% win rate over 171 games — the auto-attack damage reduction is built for a lane defined by her landing repeated Lunge/auto trades on you."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacking health directly scales your passive's bonus damage and your E (Thick Skin) shield pool, which is what wins the stat-check once Devour is live."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Core second item in both top build paths (92.9% and 52.9% sample win rates) — keeps your health scaling and sustain climbing before her damage spikes at 9-11."
+    },
+    {
+     "item": "Thornmail",
+     "why": "80% win rate in the Bramble Vest into Thornmail line — grievous wounds directly cuts the Duelist healing stacks she's building off you all lane."
+    }
+   ],
+   "situational": [
+    {
+     "item": "spirit visage",
+     "when": "she builds lifesteal/grievous-wounds-immune items and you need more raw healing amplification on your own sustain"
+    },
+    {
+     "item": "bramble vest",
+     "when": "you're getting outpaced in lane by her auto-reset pattern and need the early grievous wounds proc sooner than core Thornmail timing"
+    },
+    {
+     "item": "dark seal",
+     "when": "you're comfortably ahead and want to snowball stacks into an early power spike before finishing Heartsteel"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp triggers on landed autos and scales off your max health, which is the exact stat Heartsteel and Dusk and Dawn are building toward — it's the 53.7%, 44.9%-pick page for this matchup.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport sits at 51% win rate with 18.3% pick — Teleport lets you reset top after short-trading rather than all-inning into her Riposte window, which matches the patient, stack-first game plan this matchup rewards."
+  },
+  "playing": [
+   {
+    "title": "Bait Riposte before committing Q",
+    "detail": "Throw an auto or minion-focused trade first to see if she pops W (Riposte); once it's down, land Q (Tongue Lash) freely for the slow and stack without fear of the parry."
+   },
+   {
+    "title": "Track stacks to three",
+    "detail": "An Acquired Taste caps at 3 stacks — your third landed Q stuns her and consumes the stacks, so time that stun to line up with your all-in, not a random poke."
+   },
+   {
+    "title": "Devour the instant it's live",
+    "detail": "R (Devour) has 0 base cooldown once she's at 3 stacks — swallow immediately rather than waiting, since OP.GG's own read on this matchup is to use W before her Riposte and follow with Q into the swallow."
+   },
+   {
+    "title": "Respect Blade Waltz from level 9",
+    "detail": "Her R (Blade Waltz) dashes to every nearby enemy champion dealing physical damage with diminishing returns per hit — don't overextend alone once she's 9+ even if you're ahead on stacks."
+   },
+   {
+    "title": "Use E proactively, not reactively",
+    "detail": "E (Thick Skin) stores damage passively while out of combat and converts it to a shield on activation — pop it before trades to bank the shield rather than waiting until you're already low."
+   },
+   {
+    "title": "Punish her E engage timing",
+    "detail": "Her E (Burst of Speed) only grants bonus move speed on landed attacks/Lunges — if she whiffs the engage, that's your cue to Q and start your own stack-building trade."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win-rate figures are measured from live OP.GG data on the current patch (16.20.1); the mechanical reasoning on ability timings and trade windows is this coach's own read."
+ },
+ "generatedAt": 1791670581231,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791670539540,
+  "overall": {
+   "winRate": 50.7,
+   "play": 16877,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 205,
+   "wins": 109,
+   "winRate": 53.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "aggressive",
+  "opponentTip": "Use [Q] and [W] carefully due to Fiora’s (W). After stacking up 3 (P) stacks, it’s a matter of skills due to her (W). Try to use [W] before she uses (W) or when (W) is on cooldown to swallow her, and follow up with [Q].",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.1,
+    "play": 159,
+    "pickRate": 57
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51,
+    "play": 51,
+    "pickRate": 18.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 53.3,
+    "play": 15,
+    "pickRate": 5.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.7,
+    "play": 123,
+    "pickRate": 44.9
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 34,
+    "pickRate": 12.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 52.6,
+    "play": 211,
+    "pickRate": 79
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 54.3,
+    "play": 35,
+    "pickRate": 13.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 56.1,
+    "play": 171,
+    "pickRate": 68.7
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 57.9,
+    "play": 38,
+    "pickRate": 15.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 52.9,
+    "play": 17,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 92.9,
+    "play": 14,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Bramble Vest",
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 56.8,
+    "play": 222,
+    "pickRate": 82.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 61.4,
+    "play": 158,
+    "pickRate": 58.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 55.4,
+    "play": 101,
+    "pickRate": 37.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.8,
+    "play": 85,
+    "pickRate": 31.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 58.3,
+    "play": 36,
+    "pickRate": 13.4
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 67.6,
+    "play": 34,
+    "pickRate": 12.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.4,
+    "play": 56
+   }
+  ]
+ }
+}

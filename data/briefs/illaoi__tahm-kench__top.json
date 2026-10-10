@@ -1,0 +1,380 @@
+{
+ "you": "Illaoi",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose when you feed him three stacks of An Acquired Taste and let him Devour you off a bad all-in; you win when you land E (Test of Spirit) and convert the spirit-rip into a tentacle burst before he can reset."
+  },
+  "thesis": "This is close and data-even: Illaoi holds the lane and solo-kill edge (51.2% over 127 games), but the whole fight hinges on whether Tahm Kench reaches 3 stacks of An Acquired Taste before you land a clean E. His passive scales his damage off total health, so the longer the trade drags on, the more his raw stats start winning it for him — Illaoi needs to front-load damage through E and tentacles, not grind it out.",
+  "tell": {
+   "watch": "His An Acquired Taste stack count",
+   "theirWindow": {
+    "when": "he hits 3 stacks of his passive",
+    "what": "At 3 stacks of An Acquired Taste he can Devour (R) you outright. Do not commit to a full all-in past this point unless you can kill through the Devour window — back off and reset instead of feeding him a free swallow."
+   },
+   "yourWindow": {
+    "when": "your E (Test of Spirit) just landed",
+    "what": "The ripped spirit echoes a percentage of damage back to the real target, and your tentacles swing at both the spirit and the victim. Immediately follow with Q (Tentacle Smash) and W (Harsh Lesson) while the spirit is still out — this is your highest-damage window in the entire trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "neither side has a real burst tool yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E unlocks, spirit-rip trades favor you"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "R (Devour) threatens kills on cooldown 0"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Cleaver/Iceborn shred punishes his HP scaling"
+   },
+   {
+    "levels": "16-18",
+    "edge": "even",
+    "note": "teamfight peel vs. vessel zoning trade-off"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "The lifesteal and damage proc let you win extended auto-trades before E is online at level 3, which matters since his Q (Tongue Lash) outranges your early kit."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "His full kit (Q, W, R) deals magic damage, and the tenacity shortens how long his Q slow pins you for a follow-up stack."
+   },
+   "core": [
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred directly counters a passive that scales off his total health — the tankier he builds, the more this matters."
+    },
+    {
+     "item": "Iceborn Gauntlet",
+     "why": "The slow-on-proc keeps him inside E (Test of Spirit) range and inside tentacle swing range during your burst window."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Highest measured win rate on this exact path (75% over 12 games) — the extra healing from tentacle procs and passive sustain offsets his poke."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and want to amplify the all-in once your tentacle burst lands"
+    },
+    {
+     "item": "Death's Dance",
+     "when": "he out-trades you with Q poke before your E-spirit combo comes online"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you're snowballing early kills and want to close the game out faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "This is an extended-trade matchup built around landing and following up on E — Conqueror's stacking adaptive force and healing keep you ahead in the prolonged spirit-rip fight rather than a single burst window.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the most-picked spell here (55.6% pick rate) because Illaoi's split-push and vessel pressure reward being able to return to a side lane after pushing it. If you want to deny his kill setup directly, Exhaust+Flash posted the highest measured win rate (62.5%) by neutralizing a Devour all-in."
+  },
+  "playing": [
+   {
+    "title": "Poke with E, not autos, pre-6",
+    "detail": "E (Test of Spirit, range 900) matches his Q (Tongue Lash, range 900) in reach, so use it to start every trade rather than walking into auto range where he out-trades you."
+   },
+   {
+    "title": "Combo off every landed E",
+    "detail": "The moment the spirit is ripped, follow with Q (Tentacle Smash) and W (Harsh Lesson) — tentacles swing at the spirit and the victim both, so this is where your damage actually comes from."
+   },
+   {
+    "title": "Never all-in past 3 stacks",
+    "detail": "Track his An Acquired Taste count on his portrait. At 3 stacks he can Devour you for free; disengage or make sure you can kill through the swallow before committing further."
+   },
+   {
+    "title": "Respect point-blank Q",
+    "detail": "His Q slows, heals him on champion hit, and stacks his passive. Don't stand still in his 900-range Q line while he's farming stacks for a Devour setup."
+   },
+   {
+    "title": "Punish Abyssal Dive cooldown",
+    "detail": "W is on a 21/20/19/18/17s cooldown with no other escape in his kit. Once you see him use it, that's your window to press a trade or roam without fear of a dive-away or dive-engage."
+   },
+   {
+    "title": "Build through his HP, not around it",
+    "detail": "His passive damage scales off total health, so Black Cleaver's armor shred specifically undercuts the stat he's stacking for — prioritize it over flat damage items."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample numbers above are measured from live OP.GG data on the current patch; the mechanical reasoning (E-spirit burst windows, stack-count tracking, Cleaver countering his HP scaling) is this brief's own tactical read."
+ },
+ "generatedAt": 1791668675117,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791668590206,
+  "overall": {
+   "winRate": 50.3,
+   "play": 15841,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 127,
+   "wins": 65,
+   "winRate": 51.2
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "even",
+  "opponentTip": "Even after [E] land successfully, Tahm Kench can have the upper hand if he swallows with (W) when there are 4 stacks (P) to prevent being damaged further. Tahm Kench often gets his kills when he has a chance to swallow his enemies. Try not to be hit with (Q) in close range. Engage and aim for a kill only after purchasing items adequately to tank Tahm Kench’s damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49,
+    "play": 100,
+    "pickRate": 55.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.1,
+    "play": 38,
+    "pickRate": 21.1
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 17.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Presence of Mind",
+     "Last Stand"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 76,
+    "pickRate": 41.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.1,
+    "play": 48,
+    "pickRate": 26.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 51,
+    "play": 100,
+    "pickRate": 56.8
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.2,
+    "play": 42,
+    "pickRate": 23.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 53.2,
+    "play": 111,
+    "pickRate": 67.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 41.5,
+    "play": 41,
+    "pickRate": 25
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Sterak's Gage"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Iceborn Gauntlet",
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 12,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Black Cleaver",
+     "Sterak's Gage",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 8.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51.5,
+    "play": 167,
+    "pickRate": 91.8
+   },
+   {
+    "items": [
+     "Iceborn Gauntlet"
+    ],
+    "winRate": 53.7,
+    "play": 95,
+    "pickRate": 52.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 54.5,
+    "play": 77,
+    "pickRate": 42.3
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 57,
+    "pickRate": 31.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.6,
+    "play": 38,
+    "pickRate": 20.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 47.1,
+    "play": 34,
+    "pickRate": 18.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "E",
+     "Q",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 46.4,
+    "play": 28
+   }
+  ]
+ }
+}

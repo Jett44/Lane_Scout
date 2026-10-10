@@ -1,0 +1,380 @@
+{
+ "you": "Tahm Kench",
+ "them": "Garen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, play patient",
+   "line": "You lose if you trade autos into Garen's spin cooldowns without stacks; you win the moment you hold 3 stacks of An Acquired Taste on him."
+  },
+  "thesis": "Lane trading itself is rated even, but Tahm Kench owns the kill threat: Q (Tongue Lash) builds stacks of An Acquired Taste on Garen, and at 3 stacks a 4th Q stuns him or R (Devour, 0s cooldown) removes him from the fight outright. That stack-and-remove combo is why Tahm sits at 56.6% over 286 games here despite even trades, and why OP.GG calls the matchup's shape aggressive.",
+  "tell": {
+   "watch": "Your stacks on Garen",
+   "theirWindow": {
+    "when": "Garen's Q (Decisive Strike) is up",
+    "what": "Decisive Strike breaks all slows on him and silences you on hit, so don't commit your full stack combo into it — bait the 8s cooldown first or he cleanses your Tongue Lash slow and shuts down your follow-up."
+   },
+   "yourWindow": {
+    "when": "You hold 3 stacks of An Acquired Taste",
+    "what": "Land the 4th Tongue Lash for a free stun, or cast Devour (R, 0s cooldown) immediately to burst him with magic damage and pull him out of the fight before he can react."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Perseverance sustain and E Judgment trade harder"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q stacks building, Thick Skin offsets his pokes"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Stack-stun-Devour combo threatens kills"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Heartsteel HP outscales his sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight dependent on peel, not duel"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Takes the measured 75.8% pick rate at 55.5% WR; the health regen and damage block absorb his E (Judgment) spin and auto trades while you build toward stacking Q."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Measured 64.5% pick at 53.8% WR; flat physical damage reduction directly blunts Garen's auto-reliant Judgment and Decisive Strike trades."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacks raw HP, which scales both your passive (An Acquired Taste) auto damage and your overall tankiness in extended trades."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Core second item on the highest-sample build paths (35 and 21-game samples both route through it)."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Highest-sample third item (65.7% WR, 35 games) for sustained damage once you're tanky enough to stay in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "garen or his team is building crit or heavy AD and you need the reflect and grievous wounds"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you need more frontline sustain and damage reduction against extended poke"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "the enemy team adds real magic damage threats alongside garen"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on the autos you land between Q stacks, healing you and permanently growing your max health, which feeds back into your passive's bonus auto damage.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest pick rate in the data (62%) at 56% WR; Ignite closes out the kill window the stack-stun-Devour combo opens, converting your measured solo-kill advantage into actual kills."
+  },
+  "playing": [
+   {
+    "title": "Stack Q before committing",
+    "detail": "Land Tongue Lash (Q, 7s cooldown at rank 1 scaling to 5s) repeatedly to build stacks of An Acquired Taste. At 3 stacks, a 4th Q stuns and consumes them, or cast Devour (R, 0s cooldown) for an instant magic-damage burst and removal."
+   },
+   {
+    "title": "Bait Decisive Strike first",
+    "detail": "Garen's Q (Decisive Strike, 8s cooldown) breaks all slows on him and silences you on its next attack. Don't throw your stun-stack combo into an active Decisive Strike — wait for it to be down."
+   },
+   {
+    "title": "Pre-shield his execute",
+    "detail": "Before Garen can threaten Demacian Justice (R, cooldown 140/110/80/50/20s), proactively trigger E (Thick Skin) to convert stored damage into a shield that blunts the execute, as OP.GG's own tip recommends."
+   },
+   {
+    "title": "Poke to deny his passive",
+    "detail": "Garen's Perseverance regenerates a percentage of his max health per second if he hasn't recently taken damage. Keep landing Q on cooldown to keep that passive shut off."
+   },
+   {
+    "title": "Use W to reposition, not just engage",
+    "detail": "Abyssal Dive (W, cooldown 21-17s, range 1000) damages and knocks up everything in the landing area — use it to reset a bad trade or follow a stack combo, not just as a flashy all-in opener."
+   },
+   {
+    "title": "Swap Ignite for Teleport on long splits",
+    "detail": "Flash+Teleport runs at 50.7% WR and 16.4% pick; take it instead of Ignite if you expect a slower, wave-management-heavy lane rather than an early-kill lane."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win rates are pulled from measured OP.GG games on the current patch; the stack-stun-Devour read on why Tahm wins the exchange despite even trading is our own tactical analysis."
+ },
+ "generatedAt": 1791670351169,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791670263128,
+  "overall": {
+   "winRate": 50.7,
+   "play": 16877,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 286,
+   "wins": 162,
+   "winRate": 56.6
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "aggressive",
+  "opponentTip": "Use [Q] repeatedly to poke while using basic attacks when hit with his (Q) to stack up on [P] to use [W] to swallow him or [Q] to stun him. Try to use [E] beforehand when Garen tries to kill you using (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56,
+    "play": 268,
+    "pickRate": 62
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.7,
+    "play": 71,
+    "pickRate": 16.4
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 65.4,
+    "play": 26,
+    "pickRate": 6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.5,
+    "play": 231,
+    "pickRate": 53
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.4,
+    "play": 57,
+    "pickRate": 13.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 55.5,
+    "play": 310,
+    "pickRate": 75.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52.5,
+    "play": 59,
+    "pickRate": 14.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 53.8,
+    "play": 251,
+    "pickRate": 64.5
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 62.2,
+    "play": 74,
+    "pickRate": 19
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 65.7,
+    "play": 35,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 12.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Unending Despair"
+    ],
+    "winRate": 71.4,
+    "play": 21,
+    "pickRate": 9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 58.2,
+    "play": 388,
+    "pickRate": 89.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 59.7,
+    "play": 303,
+    "pickRate": 69.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.6,
+    "play": 93,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 71.1,
+    "play": 76,
+    "pickRate": 17.5
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 65.7,
+    "play": 67,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 65.7,
+    "play": 67,
+    "pickRate": 15.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 66.7,
+    "play": 117
+   }
+  ]
+ }
+}

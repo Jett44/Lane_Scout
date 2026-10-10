@@ -1,0 +1,375 @@
+{
+ "you": "Renekton",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured skill matchup",
+   "line": "You lose if you walk into three stacks of Acquired Taste and eat the follow-up stun at range; you win if you land your level 2-5 all-in before Tahm's Q poke chips you down."
+  },
+  "thesis": "Renekton's Fury passive turns his W (Ruthless Predator) into a 1.5s triple-slash stun once he's above 50 Fury, and his E (Slice and Dice) dash lets him close the gap on a champion with zero mobility tools of his own. Tahm Kench's only answers are a 900-range Q (Tongue Lash) poke and a reactive W (Abyssal Dive) knockup, neither of which stop a committed all-in once Renekton is in his face. The 56% head-to-head win rate over 216 games and the solo-kill advantage both point to Renekton's burst windows outpacing Tahm's poke-and-shield plan.",
+  "tell": {
+   "watch": "Tahm's Acquired Taste stack count",
+   "theirWindow": {
+    "when": "you've taken 3 Q hits (3 stacks)",
+    "what": "The next Tongue Lash stuns you and consumes the stacks, so back out of his 900-range Q window before he lands the third hit, or he gets a free follow-up trade."
+   },
+   "yourWindow": {
+    "when": "Fury above 50 and E/W off cooldown",
+    "what": "Dash in with E (Slice and Dice) for the armor-shred, then W for the empowered triple-slash and 1.5s stun — this chain does high damage and shield-destroys before his E (Thick Skin) can convert banked damage into a shield."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Tahm's Q range wins pre-level-2 pokes"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "W+E all-in spikes, Fury online"
+   },
+   {
+    "levels": "6-11",
+    "edge": "you",
+    "note": "R adds sustained Fury and damage"
+   },
+   {
+    "levels": "12-18",
+    "edge": "even",
+    "note": "Tahm's health scaling closes the gap"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The sustained auto-attack damage and healing let you trade into Tahm's early Q pokes without losing the lane-sustain war (58.1% WR, 83.4% pick)."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tahm deals magic damage on his Q, passive, and ultimate — the magic resist directly blunts every source of his damage (58.4% WR, 71.7% pick)."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield and burst proc reward the all-in pattern this matchup is built around."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred stacks with your empowered E's own armor reduction, letting your autos and W chunk through Tahm's tanky build faster (59.3% WR on this path over 27 games)."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Converts the damage you take trading into Tahm's Q and autos into delayed damage you can heal through, keeping you alive for repeat all-ins."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "you're ahead and want to survive his Abyssal Dive knockup engages in extended fights"
+    },
+    {
+     "item": "Spear of Shojin",
+     "when": "you're stacking Fury through repeated W/E resets and want the cooldown reduction to chain all-ins faster"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Tahm fights you in extended trades thanks to his Thick Skin sustain, so the stacking adaptive damage from Conqueror rewards staying in the fight rather than a single burst window.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite's burn cuts through Tahm's Thick Skin heal and his Q self-heal, denying the sustain that would otherwise let him out-trade your all-in (56.1% WR, 85.5% pick)."
+  },
+  "playing": [
+   {
+    "title": "Hold the all-in until level 2",
+    "detail": "OP.GG's own data flags this: don't engage Tahm before level 2, since his Q range and slow punish a premature trade while you're still farming."
+   },
+   {
+    "title": "Track your Fury bar constantly",
+    "detail": "Above 50 Fury, W becomes a three-hit, 1.5s stun that destroys shields — time your all-ins to land after you cross that threshold, not before."
+   },
+   {
+    "title": "Use E to close, not just to poke",
+    "detail": "Slice and Dice's dash is your only way to force a fight on a champion with no mobility; save it for the engage rather than farming resets."
+   },
+   {
+    "title": "Back off at 3 Acquired Taste stacks",
+    "detail": "Three Tongue Lash hits set up a stun on the fourth — disengage from his 900-range Q window before he can land it for free."
+   },
+   {
+    "title": "Chain W into E for the stun-lock",
+    "detail": "Lead with the empowered W stun, then E in to maximize armor-shred uptime before his E (Thick Skin) shield absorbs the follow-up."
+   },
+   {
+    "title": "Use R to extend trades after level 6",
+    "detail": "Dominus's periodic Fury gain keeps your W empowered through a longer fight, which matters since Tahm's Thick Skin rewards him for surviving short trades."
+   },
+   {
+    "title": "Don't facetank Q poke on cooldown",
+    "detail": "Each Tongue Lash heals Tahm if it connects — dodge or trade back immediately rather than absorbing repeated pokes while waiting on your own cooldowns."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate figures above are measured from live games on the current patch via OP.GG; the matchup reasoning, timing windows, and trade patterns are my own tactical read built on top of that data."
+ },
+ "generatedAt": 1791668582996,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791668521577,
+  "overall": {
+   "winRate": 49.9,
+   "play": 35142,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 216,
+   "wins": 121,
+   "winRate": 56
+  },
+  "laneAdvantage": "Renekton",
+  "soloKillAdvantage": "Renekton",
+  "playStyle": "even",
+  "opponentTip": "Do not engage Tahm Kench before reaching level 2. Be careful of being chased after by (Q) while focusing on farming lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56.1,
+    "play": 253,
+    "pickRate": 85.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.4,
+    "play": 38,
+    "pickRate": 12.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.9,
+    "play": 121,
+    "pickRate": 40.2
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Press the Attack",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.3,
+    "play": 39,
+    "pickRate": 13
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 58.1,
+    "play": 236,
+    "pickRate": 83.4
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 38.5,
+    "play": 39,
+    "pickRate": 13.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 58.4,
+    "play": 190,
+    "pickRate": 71.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.6,
+    "play": 65,
+    "pickRate": 24.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 16.2
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Spear of Shojin"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 9
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 71.4,
+    "play": 14,
+    "pickRate": 8.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 57,
+    "play": 242,
+    "pickRate": 82.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 55.9,
+    "play": 202,
+    "pickRate": 68.7
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 61.3,
+    "play": 93,
+    "pickRate": 31.6
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 67.2,
+    "play": 67,
+    "pickRate": 22.8
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 63.2,
+    "play": 57,
+    "pickRate": 19.4
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 51.6,
+    "play": 31,
+    "pickRate": 10.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.6,
+    "play": 92
+   }
+  ]
+ }
+}

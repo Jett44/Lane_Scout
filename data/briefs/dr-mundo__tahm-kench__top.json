@@ -1,0 +1,380 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive then scale",
+   "line": "You lose if Tahm chains three Q stacks into a stun-Devour solo kill around level 6-8; you win from the midgame onward once Heartsteel/Warmog's bulk outpaces his percent-health damage, which is why the head-to-head sits at 52.3% over 153 games even though he owns the lane and solo-kill stats."
+  },
+  "thesis": "Tahm Kench's entire kill threat is Q (Tongue Lash) stacking An Acquired Taste to three, stunning you, then cashing it in with R (Devour) — a combo that doesn't exist until he hits level 6 and unlocks Devour. Outside of that window, and whenever his Q is on cooldown, your only job is denying stacks and soaking the poke with sustain. Mundo's passive (Adrenaline Rush) and an HP-stacking build eventually out-grow Tahm's passive, which scales off his own total health rather than yours, so the lane flips in your favor once items come online.",
+  "tell": {
+   "watch": "Tahm's Acquired Taste stack count",
+   "theirWindow": {
+    "when": "He's at 2 stacks, level 6+",
+    "what": "He's one landed Q away from a free stun into Devour that can solo-kill you under tower. Back off to half-screen or let the Q catch a minion instead of you until his stacks reset."
+   },
+   "yourWindow": {
+    "when": "Right after his Q lands or misses",
+    "what": "Tongue Lash is down for 5-7 seconds depending on rank, and he has no other poke or escape tool in that window. Walk up and chain autos with W (Burning Agony) since it only costs you health you're already regenerating back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke harasses freely, no kill threat yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q cooldown shrinks, stacks build faster"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Devour live, stun combo can solo-kill"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Heartsteel/Grasp sustain starts offsetting damage"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Warmog's/Spirit Visage bulk outscales his percent-health hits"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "The flat damage reduction and extra regen directly answer Tahm's Q poke and auto harass, which is the only damage he has before level 6."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "You have zero gap close or peel, so the flat move speed is what lets you disengage before a stun-Devour combo lands or close distance once his Q is down."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Converts the damage you tank from his poke into permanent bonus HP, which is exactly the resource that wins this matchup by midgame."
+    },
+    {
+     "item": "Warmog's Armor",
+     "why": "Massive HP pool plus the regen passive makes trading into Tahm's percent-health passive damage a losing proposition for him."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "His kit is entirely magic damage, so the magic resist plus the healing amp on your passive and Grasp sustain compound hard."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Tiamat",
+     "when": "you need an early AoE waveclear spike to punish his weaker clear before your core items finish"
+    },
+    {
+     "item": "Titanic Hydra",
+     "when": "the game is turning into a split-push race and you want wave clear and siege damage over pure bulk"
+    },
+    {
+     "item": "Thornmail",
+     "when": "their jungler or another laner builds heavy sustained auto-attack damage onto you later in the game"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Heals you and grows permanent bonus HP on proc, directly countering his Q poke and feeding the same stacking-health gameplan as Heartsteel.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Teleport lets you reset and scale through the dangerous 6-8 all-in window instead of forcing a fight, and Ghost is your only way to disengage or stick to him since you have no dash."
+  },
+  "playing": [
+   {
+    "title": "Never be the third stack",
+    "detail": "Track his Acquired Taste count on your buff bar and disengage at two stacks rather than risk eating a free stun into Devour."
+   },
+   {
+    "title": "Trade only after his Q is down",
+    "detail": "His Tongue Lash is 5-7 seconds depending on rank with no other poke tool, so that's your window to walk in and chain autos plus W (Burning Agony)."
+   },
+   {
+    "title": "Respect Abyssal Dive from level 6",
+    "detail": "He can dive onto you from 1000 range for damage and a knockup, so don't overextend near brush once his W is ranked."
+   },
+   {
+    "title": "Don't fear low HP alone",
+    "detail": "E (Masochism) scales your AD off missing health, so trading while low is fine as long as his stun-Devour combo isn't actually up."
+   },
+   {
+    "title": "Deny his stacking on minions",
+    "detail": "His clear is weaker than yours, so slow-push or freeze to limit the number of times he can throw Q into the wave to pad stacks for free."
+   },
+   {
+    "title": "Play for the midgame, not skirmishes",
+    "detail": "The 52.3% win rate comes from outscaling him, not out-trading him early, so avoid forcing all-ins before your Heartsteel stacks and Warmog's are online."
+   }
+  ],
+  "patchCaveat": "Builds, runes, summoners, and all win-rate/pick-rate numbers are measured from live games on the current patch via OP.GG; the mechanical reasoning and timing calls are my own analysis layered on top."
+ },
+ "generatedAt": 1791670149054,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791670055686,
+  "overall": {
+   "winRate": 50.2,
+   "play": 20133,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 153,
+   "wins": 80,
+   "winRate": 52.3
+  },
+  "laneAdvantage": "Tahm Kench",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with his (Q)! Avoid his third stack to avoid being swallowed. Use [Q] to slow him down to prevent him from gaining stacks.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 50.9,
+    "play": 114,
+    "pickRate": 57.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 37.7,
+    "play": 53,
+    "pickRate": 26.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 42.1,
+    "play": 19,
+    "pickRate": 9.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50.4,
+    "play": 117,
+    "pickRate": 57.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 32,
+    "play": 25,
+    "pickRate": 12.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 48.9,
+    "play": 131,
+    "pickRate": 66.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 43.5,
+    "play": 62,
+    "pickRate": 31.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.6,
+    "play": 124,
+    "pickRate": 67
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 32.4,
+    "play": 34,
+    "pickRate": 18.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 55.2,
+    "play": 29,
+    "pickRate": 25.9
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 36.8,
+    "play": 19,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 72.2,
+    "play": 18,
+    "pickRate": 16.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.7,
+    "play": 195,
+    "pickRate": 96.5
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 46.7,
+    "play": 167,
+    "pickRate": 82.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 66,
+    "pickRate": 32.7
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 67.4,
+    "play": 46,
+    "pickRate": 22.8
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 13.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 39.1,
+    "play": 23,
+    "pickRate": 11.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58,
+    "play": 88
+   }
+  ]
+ }
+}

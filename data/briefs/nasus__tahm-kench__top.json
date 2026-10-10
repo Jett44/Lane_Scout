@@ -1,0 +1,385 @@
+{
+ "you": "Nasus",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane",
+   "line": "You lose this if you walk up into Tongue Lash poke and let him stack Acquired Taste toward a stun before you hit 6; you win it if you farm behind minions, survive to Fury of the Sands, and punish him while Abyssal Dive is down."
+  },
+  "thesis": "Tahm Kench's Q (Tongue Lash, 900 range) outranges everything Nasus has — Siphoning Strike and his auto attack both cap at melee range — so Tahm can poke, slow, and build stun stacks for free while Nasus has no answer until he closes the gap. That range mismatch is why Nasus sits at 43.3% over 268 games here against a 50.2% baseline: this is a lane you survive, not one you win early.",
+  "tell": {
+   "watch": "Tahm's Acquired Taste stack count",
+   "theirWindow": {
+    "when": "he's landed 2 stacks of Tongue Lash on you",
+    "what": "The next Tongue Lash hit stuns you and consumes the stacks, opening a free combo. Back off or trade through minions once you're at 2 stacks instead of walking forward to contest CS."
+   },
+   "yourWindow": {
+    "when": "level 6+ and his Abyssal Dive is on cooldown",
+    "what": "Fury of the Sands gives you bonus health, attack range, and cast range while draining nearby enemies' max health into bonus damage. Commit to the all-in only when his Abyssal Dive (18-21s cooldown) is down so he can't knock you up and reposition out of the drain."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Tongue Lash outranges your only tool"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Chip poke plus Thick Skin sustain stacks up"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Fury of the Sands spike, no stacks needed"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Trinity Force timing offsets his peel"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Stacked Q scales, but Devour still protects him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Flat damage reduction and the passive regen blunt his free-range Tongue Lash chip, letting you stay on the wave instead of conceding CS to his poke."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "The cooldown reduction brings Wither and Spirit Fire back faster, which matters more here than raw tankiness since you need Wither up every time he tries to chase after a landed Q."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The damage, attack speed, and movement speed spike lets you actually stick to him once Fury of the Sands is up, instead of watching him kite you with Tongue Lash slows."
+    },
+    {
+     "item": "Frozen Heart",
+     "why": "Armor and the attack speed slow on nearby enemies dull his auto-attack damage, which matters since his passive scales extra damage off his own total health."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Healing amp stacks with Soul Eater lifesteal and counters the sustain loop he gets from Thick Skin's passive heal-while-out-of-combat."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he builds health and leans on his passive and Thick Skin sustain to out-trade you in extended fights"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you fall behind early and need cheap armor plus grievous wounds to survive his poke-heal loop"
+    },
+    {
+     "item": "Essence Reaver",
+     "when": "you're ahead and already have high Q stacks, so raw sustained damage closes games faster than more tank stats"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "The heal and movement speed proc off trading hits with him gives you sustain you otherwise lack, since Soul Eater lifesteal alone doesn't offset his 900-range poke.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Second Wind"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Ghost closes the gap on a champion who can Abyssal Dive away from a bad trade, and Teleport resets you onto the lane or a side wave after losing CS to his poke, which is the most common way this matchup bleeds out."
+  },
+  "playing": [
+   {
+    "title": "Farm from max range, don't extend",
+    "detail": "His Q beats your Q and auto by nearly 650 range, so walking forward to last-hit just feeds him free poke. Let him come to you or take CS off cannon minions where he has to commit."
+   },
+   {
+    "title": "Track his stack count, disengage at 2",
+    "detail": "Once he has landed two Tongue Lash stacks on you, the next one stuns and chains into free damage. Back off or break line of sight instead of trading through it."
+   },
+   {
+    "title": "Wither the moment he commits to chasing",
+    "detail": "If he lands a Q and starts walking you down, Wither decelerates his movement and attack speed immediately, buying the distance to walk away clean."
+   },
+   {
+    "title": "Zone contested waves with Spirit Fire",
+    "detail": "Dropping E on the minion wave shreds his armor and forces him to either eat poke to contest or give up CS, while also speeding up your own Q stacks from kills."
+   },
+   {
+    "title": "All-in only with his Dive down",
+    "detail": "Fury of the Sands only pays off if he can't Abyssal Dive away mid-drain. Check his W cooldown before committing to the fight."
+   },
+   {
+    "title": "Respect Devour once you're marked",
+    "detail": "At three Acquired Taste stacks he can Devour you for burst magic damage with no cooldown. Don't facecheck bushes alone if he's close to that threshold."
+   },
+   {
+    "title": "Prioritize side-wave splitpush over contesting lane",
+    "detail": "This is a defensive, poke-heavy matchup where he wins extended lane trades. Use Teleport to recover tempo on side waves instead of fighting for every CS in lane."
+   }
+  ],
+  "patchCaveat": "Win rates, item paths, runes, and summoner picks above come from measured games on the current patch (268 Nasus-vs-Tahm Kench games specifically); the trade-pattern and timing analysis is my own reading of the kit interactions."
+ },
+ "generatedAt": 1791669366933,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791669268824,
+  "overall": {
+   "winRate": 50.2,
+   "play": 29380,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 268,
+   "wins": 116,
+   "winRate": 43.3
+  },
+  "laneAdvantage": "Tahm Kench",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful of being chased by Tahm Kench early game after being hit with (Q). Use Wither [W] to create some distance and [Q] to raise stacks. Try to look for an opportunity after reaching 6.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 45.7,
+    "play": 188,
+    "pickRate": 51.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 42.9,
+    "play": 98,
+    "pickRate": 27.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.6,
+    "play": 64,
+    "pickRate": 17.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Second Wind"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 43.1,
+    "play": 204,
+    "pickRate": 55.3
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 4.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.7,
+    "play": 245,
+    "pickRate": 65.7
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 50.8,
+    "play": 61,
+    "pickRate": 16.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 46.5,
+    "play": 185,
+    "pickRate": 51
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.6,
+    "play": 115,
+    "pickRate": 31.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Spirit Visage"
+    ],
+    "winRate": 51.1,
+    "play": 45,
+    "pickRate": 21.1
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Spirit Visage",
+     "Frozen Heart"
+    ],
+    "winRate": 44.4,
+    "play": 27,
+    "pickRate": 12.7
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Frozen Heart",
+     "Thornmail"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 45.9,
+    "play": 266,
+    "pickRate": 71.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 44.5,
+    "play": 211,
+    "pickRate": 56.9
+   },
+   {
+    "items": [
+     "Frozen Heart"
+    ],
+    "winRate": 50.6,
+    "play": 170,
+    "pickRate": 45.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.3,
+    "play": 73,
+    "pickRate": 19.7
+   },
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 44.2,
+    "play": 52,
+    "pickRate": 14
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 27.7,
+    "play": 47,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 40.3,
+    "play": 72
+   }
+  ]
+ }
+}

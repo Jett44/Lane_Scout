@@ -1,0 +1,388 @@
+{
+ "you": "Shen",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Disadvantaged lane",
+   "line": "You lose the extended trades and the all-in the moment Tahm Kench stacks three charges of An Acquired Taste on you, but you win the matchup long-term by farming safely behind W (Feint) and spending R (Stand United) on the rest of the map, which is why Shen sits at only 47.5% over 177 games against him versus his 51.5% baseline."
+  },
+  "thesis": "Tahm Kench's Q (Tongue Lash) reaches 900 range against Shen's 475 on Vorpal Blade, so he pokes and stacks An Acquired Taste on you without ever stepping into your attack range, and E (Thick Skin) quietly banks a shield off every point of damage he takes whenever he's out of combat. That means long trades heal him more than they hurt him, and once he hits 3 stacks he can either stun you with Q or swallow you outright with R (Devour). Shen has no tool that out-ranges or out-sustains that loop, which is exactly why the measured win rate sits below baseline — this is a lane to survive and convert into map pressure, not win in a straight fight.",
+  "tell": {
+   "watch": "Tahm's passive stack count",
+   "theirWindow": {
+    "when": "you're sitting at 2-3 stacks near his wave",
+    "what": "He can instantly stun you by landing Q (Tongue Lash) at 3 stacks, or just swallow you with R (Devour) for free magic damage. Back off the moment you take the second stack instead of waiting to see if he commits."
+   },
+   "yourWindow": {
+    "when": "after Tahm uses or whiffs Abyssal Dive",
+    "what": "Shadow Dash (E) in immediately to taunt him, then follow with Vorpal Blade (Q) for the lifetap heal. He has no dash or knockup up for the next 17 to 21 seconds, so he can't escape the taunt or reset the exchange."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Tongue Lash outranges your Vorpal Blade"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Abyssal Dive adds a dive-and-knockup threat"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Devour rank spike sharply raises kill threat"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Shadow Dash uptime lets you peel and punish"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Stand United shifts your value off the lane"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Paired with a Health Potion, this is the 72.6%-pick, 50%-win start over 164 games — the passive block and sustain blunt the auto-attack chip Tahm uses to build early stacks without you ever being able to punish him for throwing it out."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "The 63.6%-pick, 51.6%-win choice over 124 games. Tenacity shortens the slow on Tongue Lash (Q) and cuts the lockup on his 3-stack stun, giving you the extra half-second you need to walk out of Devour range."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Gives you the health stacking to blunt his health-scaled passive damage plus the slam burst Vorpal Blade alone can't provide — this is part of the top build path, 57.1% win rate over 14 games."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Bridges real damage and durability so a landed Shadow Dash taunt actually threatens him instead of just tickling his banked E (Thick Skin) shield."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Punishes his health-scaled auto damage directly and the grievous wounds cuts into both his Q sustain and his E (Thick Skin) heal — the strongest third item in the sample at 57.1% over 14 games."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Kaenic Rookern",
+     "when": "he's snowballed ahead and you need a burst-negating shield to survive his all-in"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his autos and health-scaled passive damage are the main threat and you need attack speed slow plus tenacity"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he's leaning hard on E (Thick Skin) and Q sustain early and you want to cut his healing before a full Thornmail"
+    },
+    {
+     "item": "Heartsteel",
+     "when": "the game runs long and you want more health scaling for extended duels and split-pushing"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's on-hit heal scales off your max health and triggers for free every time you poke the wave, which is the sustain Shen needs just to keep pace with a lane he can't out-heal in a straight fight.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Biscuit Delivery",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Teleport runs at 51.4% win over a 31.6% pick rate, ahead of Flash + Ignite's 49%. Since this lane is built around surviving to the midgame rather than winning a 1v1, Teleport doubles with Stand United (R) to let you cede tempo in lane and still show up for other fights."
+  },
+  "playing": [
+   {
+    "title": "Never take a third stack",
+    "detail": "Watch your buff bar for An Acquired Taste. Once you're at 2 stacks, disengage rather than taking another Tongue Lash (Q) hit or auto, since the third stack lets him stun you with Q or swallow you outright with R (Devour) for free."
+   },
+   {
+    "title": "Punish missed Abyssal Dive",
+    "detail": "W (Abyssal Dive) sits on a 21/20/19/18/17s cooldown. If he dives and misses or just uses it to reposition, Shadow Dash (E) onto him immediately — he has nothing to escape the taunt with for the next several seconds."
+   },
+   {
+    "title": "Don't out-trade his sustain",
+    "detail": "His passive scales bonus damage off his total health, and E (Thick Skin) banks a percent of all damage he takes into a shield the moment he's out of combat. Long auto exchanges just refill him — look for a single burst window instead."
+   },
+   {
+    "title": "Shield the poke, not the all-in",
+    "detail": "Use W (Feint) to absorb a Tongue Lash (Q) hit rather than hoarding it for a fight you likely can't close out. Over a long lane, blocking his constant poke is worth more than saving it for one engage."
+   },
+   {
+    "title": "Give ground once he hits 3 stacks",
+    "detail": "The instant you're at 3 stacks near his wave, walk back toward your turret rather than contesting minions — both his follow-up options (Q stun, R Devour) are live and free."
+   },
+   {
+    "title": "Save Shadow Dash for your jungler's gank",
+    "detail": "E (Shadow Dash)'s taunt forces Tahm onto you instead of your jungler. Time it to land the moment your jungler arrives rather than firing it off purely to start your own trade."
+   },
+   {
+    "title": "Bank R for map tempo, not the duel",
+    "detail": "Given his lane and solo-kill advantage across the 177-game sample, don't force Stand United (R) into winning the lane — hold it for Teleport-style plays onto side lanes and objectives where Shen actually swings games."
+   }
+  ],
+  "patchCaveat": "Build order, boots, rune pages, and summoner spell rates above come straight from the measured OP.GG sample for Shen vs Tahm Kench on the current patch (177 games); the stack-tracking, trade-window, and taunt-timing reasoning around them is my own read of the kit, not sourced data."
+ },
+ "generatedAt": 1791669071675,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791668924018,
+  "overall": {
+   "winRate": 51.5,
+   "play": 22021,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 177,
+   "wins": 84,
+   "winRate": 47.5
+  },
+  "laneAdvantage": "Tahm Kench",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid Tahm Kench’s (Q) skill. Fall back before you are swallowed or stunned by (W) or (Q) respectively when you have 3 stacks of (P). Think of it as dealing with Darius: just keep an eye out on the stacks.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49,
+    "play": 149,
+    "pickRate": 65.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 51.4,
+    "play": 72,
+    "pickRate": 31.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 1.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Biscuit Delivery",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 46.1,
+    "play": 89,
+    "pickRate": 38.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.6,
+    "play": 58,
+    "pickRate": 25
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 164,
+    "pickRate": 72.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 58,
+    "pickRate": 25.7
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.6,
+    "play": 124,
+    "pickRate": 63.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 45.5,
+    "play": 55,
+    "pickRate": 28.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 15.9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Kaenic Rookern"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 9.1
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Dusk and Dawn",
+     "Randuin's Omen"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 6.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 51.9,
+    "play": 181,
+    "pickRate": 78.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.7,
+    "play": 95,
+    "pickRate": 41.1
+   },
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 49.3,
+    "play": 67,
+    "pickRate": 29
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 53.2,
+    "play": 47,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51.2,
+    "play": 43,
+    "pickRate": 18.6
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 50,
+    "play": 28,
+    "pickRate": 12.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.8,
+    "play": 129
+   }
+  ]
+ }
+}

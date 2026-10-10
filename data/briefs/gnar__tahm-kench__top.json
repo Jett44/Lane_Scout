@@ -1,0 +1,386 @@
+{
+ "you": "Gnar",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, high-skill",
+   "line": "You lose when you transform into Mega Gnar in his face and get Q-stunned into a Devour; you win when you poke from Q range and only all-in on your own terms."
+  },
+  "thesis": "Tahm Kench's Q (Tongue Lash) stacks An Acquired Taste and stuns at 3 stacks, and his E (Thick Skin) turns chip damage into a shield, so he punishes melee auto-trading and outlasts poke unless you burst him in one window. Gnar's ranged Q (Boomerang Throw, 1100 range) outranges his Q (900 range) and his only gap-closer, W (Abyssal Dive), has a real cooldown you can play around.",
+  "tell": {
+   "watch": "Tahm's An Acquired Taste stack count",
+   "theirWindow": {
+    "when": "he reaches 3 Acquired Taste stacks on you",
+    "what": "His next Q (Tongue Lash) stuns and consumes the stacks, and he'll follow with W (Abyssal Dive) or an auto-chain into R (Devour). Back off or pre-commit E (Hop) the moment he's at 2 stacks."
+   },
+   "yourWindow": {
+    "when": "right after he uses W (Abyssal Dive)",
+    "what": "Abyssal Dive is his only dash, on a 21/20/19/18/17s cooldown, so once it's used (hit or whiffed) he has zero gap-close for that window. Walk up and poke freely with Q (Boomerang Throw) during it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "you",
+    "note": "Q (1100) outranges his Q (900) in poke"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W (Abyssal Dive) unlocks forced all-in threat"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "R (Devour) threatens kills off stacks"
+   },
+   {
+    "levels": "11-13",
+    "edge": "you",
+    "note": "R (GNAR!) cooldown drops to 30s, wall-stuns"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "full builds, his shield matches your burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Matches his Q sustain (heals him on hit) early so you aren't losing the poke war on HP alone."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Magic resist blunts his Q/W/Devour magic damage and the tenacity shortens his Q slow and stun duration."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "The damage and move speed proc off W (Hyper) lets you poke-and-kite instead of standing in his range."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred keeps your Q/auto poke relevant as he stacks health for his passive's bonus damage."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The shield and tenacity cover you through his W knockup into a Q stun, and the AD scales as Mega Gnar loses health."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "he builds tanky and starts snowballing picks off Devour with his jungler"
+    },
+    {
+     "item": "Wit's End",
+     "when": "you need more magic resist against his dive-into-Devour burst"
+    },
+    {
+     "item": "Blade of The Ruined King",
+     "when": "the game goes long and his passive health-scaling sustain starts outpacing your poke"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Fleet Footwork",
+   "keystoneWhy": "Sustain and move speed on poke trades fit the kite-don't-melee plan directly. Master-tier Gnar players instead run Lethal Tempo across 3,885 games — that suits players who'd rather commit to extended all-in skirmishes once transformed rather than poke-kite.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Overgrowth",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the standard pick (73.2% pick rate) for scaling into side-lane pressure once your build spikes. Flash+Ignite is worth running instead if you want kill pressure, since Ignite directly cuts his Q heal and E passive sustain, denying his main recovery tools."
+  },
+  "playing": [
+   {
+    "title": "Poke with Q, never auto-trade",
+    "detail": "Boomerang Throw's 1100 range beats his 900-range Q, so throw it and walk into the boomerang's return path to cut its cooldown instead of standing in auto range."
+   },
+   {
+    "title": "Hold E once he's at 2 stacks",
+    "detail": "His passive stacks from Q and autos; at 3 stacks his Q stuns and resets. Keep E (Hop, 22-12s cooldown by rank) free to escape the instant he's one stack from the stun."
+   },
+   {
+    "title": "Attack after his W whiffs or lands",
+    "detail": "Abyssal Dive is his only dash on a 21-17s cooldown. Once it's spent, he has no way to close distance again for that window — poke freely."
+   },
+   {
+    "title": "Delay your Mega Gnar transform",
+    "detail": "Rage only builds in combat, so choose when to pop it. Transforming into melee range hands Mega Gnar's E (ground slam) and W (melee stun) to a champion built to punish exactly that."
+   },
+   {
+    "title": "Wall-stun with R once it's online",
+    "detail": "At rank 3 (level 11) R's cooldown drops to 30s and to 0s at rank 4-5. Throw him into a wall for the bonus stun and damage before he can set up a Devour pick."
+   },
+   {
+    "title": "Save burst for one big window",
+    "detail": "E (Thick Skin) is on a 3s cooldown and converts stored damage into a shield, so small repeated pokes just feed his shield. Wait for your Trinity Force spike and burst him in one combo instead."
+   }
+  ],
+  "patchCaveat": "The build order, win rates, and pick rates above come from measured games on the current patch (16.20.1); the mechanical reasoning connecting them to specific ability timings and cooldowns is my own tactical read."
+ },
+ "generatedAt": 1791669766234,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791669657338,
+  "overall": {
+   "winRate": 48.8,
+   "play": 22967,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 177,
+   "wins": 90,
+   "winRate": 50.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid fighting Tahm Kench in melee combat. Use [E] to avoid his (Q) and to create some distance to kite him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.8,
+    "play": 172,
+    "pickRate": 73.2
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.7,
+    "play": 41,
+    "pickRate": 17.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Barrier"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 4.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Fleet Footwork",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 72,
+    "pickRate": 30.1
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Lethal Tempo",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Overgrowth",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 43.1,
+    "play": 58,
+    "pickRate": 24.3
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 49.4,
+    "play": 158,
+    "pickRate": 67.5
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 51,
+    "pickRate": 21.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 49.2,
+    "play": 124,
+    "pickRate": 56.4
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 54.5,
+    "play": 66,
+    "pickRate": 30
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 65.5,
+    "play": 29,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Randuin's Omen"
+    ],
+    "winRate": 64.7,
+    "play": 17,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Black Cleaver",
+     "Wit's End"
+    ],
+    "winRate": 70,
+    "play": 10,
+    "pickRate": 8.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 51.2,
+    "play": 205,
+    "pickRate": 86.9
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54.2,
+    "play": 168,
+    "pickRate": 71.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 51.6,
+    "play": 64,
+    "pickRate": 27.1
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 53.7,
+    "play": 54,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 57.5,
+    "play": 40,
+    "pickRate": 17
+   },
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 35.7,
+    "play": 28,
+    "pickRate": 11.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52,
+    "play": 98
+   }
+  ],
+  "highElo": {
+   "keystone": "Lethal Tempo",
+   "tree": "Precision",
+   "play": 3885
+  }
+ }
+}

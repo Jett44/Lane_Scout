@@ -1,0 +1,380 @@
+{
+ "you": "Tahm Kench",
+ "them": "Camille",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you contest trades in the first two levels before your sustain comes online; you win if you survive to Heartsteel and start forcing fights she can't escape."
+  },
+  "thesis": "Camille's damage is front-loaded into two commitment windows — the empowered Q auto and the delayed W cone — both of which land hardest while her passive shield is up and before you have any tank items. Tahm Kench's answer is a slow-burn rhythm: Q chip damage builds stun stacks and heals him, E banks damage into a shield, and none of it matters until item timings catch up. The 54.2% win rate over 179 games and Tahm's solo-kill edge both say this resolves in your favor once you reach that point — the lane is even, not hard.",
+  "tell": {
+   "watch": "Her Adaptive Defenses shield status",
+   "theirWindow": {
+    "when": "Right after she lands a basic attack",
+    "what": "That auto just granted her Passive (Adaptive Defenses), a shield vs your damage type. Don't trade into it — back off a beat and let the shield window expire before you commit Q."
+   },
+   "yourWindow": {
+    "when": "You're one Q away from 3 stacks",
+    "what": "Q (Tongue Lash) applies a stack of An Acquired Taste on hit; at 3 stacks it stuns and consumes them instead of just slowing. Land that fourth Q to lock her down, then follow with your own autos or R (Devour) on yourself to no-sell whatever she throws back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "empowered Q plus W cone outdamages you"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q heal and E shield offset her poke"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates live, cagey all-in windows"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Heartsteel health scaling flips every trade"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "full build makes you nearly unkillable"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Runs 54.9% WR over 175 games and is the 74.8% pick here — the passive attack-damage block directly dulls her poke-heavy early autos while you wait out her shield windows."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50% WR, 65.8% pick, and the flat physical damage reduction per hit cuts directly into a kit built entirely around landing basic attacks (Q empowered auto, passive triggers)."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "The core health-stacking item that turns your passive's max-health damage scaling and your raw tankiness into the thing that wins this matchup after level 9."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Standard second component on the 54.5% WR path — keeps your stats scaling alongside Heartsteel's health gain."
+    },
+    {
+     "item": "Thornmail",
+     "why": "54.5% WR over 22 games on this exact path — grievous wounds and reflect damage punish an auto-attack-reliant kit directly."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "she's landing her R (The Hextech Ultimatum) consistently, since that ultimate adds bonus magic damage to her autos while anchored"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the games is going long and you want the omnivamp to out-sustain extended trades instead of pure armor"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs off your Q-heavy trade pattern, adds max-health damage on top of your passive, and heals you every time you land a poke — exactly the war of attrition this matchup turns into.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "56.1% pick rate and 56% WR — Ignite converts your solo-kill advantage into actual kills once you land a 3-stack Q stun, since Camille has no self-heal to outlast the burn."
+  },
+  "playing": [
+   {
+    "title": "Throw Q on cooldown, not for damage",
+    "detail": "Q (Tongue Lash) comes back every 7-5.5s as you rank it. Use it to chip stacks of An Acquired Taste even in neutral trades — the stun at 3 stacks is the real payoff, not the initial hit."
+   },
+   {
+    "title": "Never trade into her fresh passive shield",
+    "detail": "If she just auto'd you, Adaptive Defenses is up and blunting your damage type. Wait one GCD before committing your own trade."
+   },
+   {
+    "title": "Bank E before her burst windows",
+    "detail": "Thick Skin passively stores damage taken while you're out of combat; pop the active right as her empowered Q or W cone lands so the stored damage converts into a shield at the moment it matters most."
+   },
+   {
+    "title": "Punish her E cooldown",
+    "detail": "Hookshot is her only gap-close and reset tool at 16-12s cooldown. If she's just used it to engage, she has no escape — this is when you commit your own W (Abyssal Dive) to knock her up and extend the fight toward your stun."
+   },
+   {
+    "title": "Use R reactively, not offensively",
+    "detail": "Devour has no base cooldown and can target yourself for a shield — hold it in reserve to swallow her all-in burst rather than spending it early for chip damage."
+   },
+   {
+    "title": "Don't contest level 1-2 all-ins",
+    "detail": "Her empowered Q plus the outer half of her W cone outdamages anything you have before your sustain runes and items kick in. Play passive, take the Doran's Shield block damage, and wait."
+   },
+   {
+    "title": "Force fights once Heartsteel completes",
+    "detail": "This is your real power spike — your health total makes every subsequent trade disproportionately favor you. Start initiating instead of waiting for her to commit."
+   }
+  ],
+  "patchCaveat": "Build, runes, and the win-rate figures above are measured from real games on the current patch (16.20.1) via OP.GG; the tactical reasoning — when to trade, what to watch, how the cooldowns interact — is this brief's own analysis layered on top of that data."
+ },
+ "generatedAt": 1791670764343,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791670690306,
+  "overall": {
+   "winRate": 50.7,
+   "play": 16877,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 179,
+   "wins": 97,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "aggressive",
+  "opponentTip": "Avoid fighting Camille when she has (P) active, while using [Q] before she closes in to deal damage. She is strong during early game, so try to fight her after purchasing items to tank her damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 56,
+    "play": 134,
+    "pickRate": 56.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52,
+    "play": 50,
+    "pickRate": 20.9
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 5.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 58.6,
+    "play": 128,
+    "pickRate": 53.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 36,
+    "play": 25,
+    "pickRate": 10.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.9,
+    "play": 175,
+    "pickRate": 74.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.8,
+    "play": 41,
+    "pickRate": 17.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50,
+    "play": 146,
+    "pickRate": 65.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 63.4,
+    "play": 41,
+    "pickRate": 18.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 17.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 84.6,
+    "play": 13,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 84.6,
+    "play": 13,
+    "pickRate": 10.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 55.7,
+    "play": 219,
+    "pickRate": 87.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 59.1,
+    "play": 164,
+    "pickRate": 65.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.9,
+    "play": 52,
+    "pickRate": 20.8
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 56.5,
+    "play": 46,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 76.2,
+    "play": 42,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 68.6,
+    "play": 35,
+    "pickRate": 14
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 62.5,
+    "play": 64
+   }
+  ]
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "you": "Tahm Kench",
+ "them": "Mordekaiser",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you let Mordekaiser land free Q poke before you get stacks on him; you win once Devour turns on and he has nothing to punish your all-in."
+  },
+  "thesis": "This is 344 games at 44.2% for Tahm versus a champion who solo-kills better here, because Mordekaiser's Q (Obliterate) outpokes your Q (Tongue Lash) at equal range with a shorter cooldown at every rank, and his passive (Darkness Rise) rewards him for the exact short trades you're forced into while stacking An Acquired Taste. The fight only turns once you've landed 3 stacks and can Devour him — at that point his W (Indestructible) shield is the only thing between him and a dead lane.",
+  "tell": {
+   "watch": "Your Acquired Taste stack count on him",
+   "theirWindow": {
+    "when": "He's already landed Q, you're at 0-2 stacks",
+    "what": "Do not extend the trade. His Q (8/7/6/5/4s cooldown) resets faster than your Q (7/6.5/6/5.5/5s) at low levels, so trading Q-for-Q into him lets him re-poke before you can. Back off and reset to minion range instead of trading a second time."
+   },
+   "yourWindow": {
+    "when": "You have 3 stacks on him and E (Thick Skin) is charged",
+    "what": "Pop E for the shield, walk in, and Q to stun him on the stack-consume, then R (Devour) immediately. His W shield only holds what he's already stored, so if he hasn't been fighting he has nothing to pop."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "His Q outranges your trade pattern, no stacks yet"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Darkness Rise snowballs short trades before Devour unlocks"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R online, stacks force real decisions from him"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Heartsteel health + Devour threat outscale his shield"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His R negates your health stacking briefly in skirmishes"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Picked in 65.2% of games at 42% win over 305 games — the early damage block blunts exactly the Q pokes you can't avoid while stacking him."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "62.6% pick, 47.1% win over 274 games — the magic resist directly answers his all-magic kit (Q, passive aura, R)."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "First item in the top build path (56.7% win over 30 games) — stacking health scales both your passive damage and your Devour threat."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in all three measured paths — sustains you through his poke window before Devour is live."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Highest-winning third item at 56.7% over 30 games — magic resist plus healing amp against his all-magic damage."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "he's building into your health stacking and you need the grievous wounds and armor presence"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "your team needs more sustained AoE pressure in extended skirmishes"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "you want true damage scaling to close out fights he tries to shield through"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "47.5% pick rate, 44.1% win — the per-trade heal and health scaling is what lets you survive repeated Q pokes long enough to stack him.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest win rate combo at 47.1% over 60.5% pick — Ignite punishes his low-mobility all-ins once you've landed Devour threat."
+  },
+  "playing": [
+   {
+    "title": "Hold Q for stack windows only",
+    "detail": "Don't throw Q as poke damage alone — every land is a stack toward the stun-and-Devour combo, so time it for moments you can follow up, not just for chip damage."
+   },
+   {
+    "title": "Never trade Q into his cooling Q",
+    "detail": "His Q is 8/7/6/5/4s versus your 7/6.5/6/5.5/5s — at low levels he recovers faster, so a second trade before his Q is back up is free damage for you; after it's back up, back off."
+   },
+   {
+    "title": "Save E for the all-in, not chip damage",
+    "detail": "Thick Skin stores damage passively while out of combat — let it build during his pokes, then pop the shield right before you commit to the 3-stack stun so you're not vulnerable mid-combo."
+   },
+   {
+    "title": "Devour the instant he's stacked",
+    "detail": "R has 0 cooldown on cast but only works at 3 stacks — the moment Q lands the third stack and stuns him, Devour immediately so his W shield has no time to pop in response."
+   },
+   {
+    "title": "Respect his R before all-inning low",
+    "detail": "Realm of Death steals your stats and can swing a fight you think you're winning — don't commit to a long trade below 50% HP if his R is up."
+   },
+   {
+    "title": "Freeze waves early, don't skirmish",
+    "detail": "Until Devour is online at level 6, you have no punish for his poke — play the wave, not the trade, and let Second Wind and Grasp close the HP gap passively."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win rates above are measured from live OP.GG games on the current patch (16.20.1); the mechanical reasoning and trade timing are my own analysis layered on top."
+ },
+ "generatedAt": 1791670533277,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791670495458,
+  "overall": {
+   "winRate": 50.7,
+   "play": 16877,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 344,
+   "wins": 152,
+   "winRate": 44.2
+  },
+  "laneAdvantage": "Mordekaiser",
+  "soloKillAdvantage": "Mordekaiser",
+  "playStyle": "even",
+  "opponentTip": "Although he can be killed after a couple of pokes, Mordekaiser can also turn the tables if you closed in without hitting him with [Q] first. If he does not die easily, purchase items with magic resistance before fighting him again. Close in to fight to kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.1,
+    "play": 291,
+    "pickRate": 60.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 29.1,
+    "play": 86,
+    "pickRate": 17.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 5.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 44.1,
+    "play": 227,
+    "pickRate": 47.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.1,
+    "play": 55,
+    "pickRate": 11.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 42,
+    "play": 305,
+    "pickRate": 65.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 48.2,
+    "play": 112,
+    "pickRate": 23.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47.1,
+    "play": 274,
+    "pickRate": 62.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 46.9,
+    "play": 81,
+    "pickRate": 18.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 56.7,
+    "play": 30,
+    "pickRate": 14.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 11
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 16,
+    "pickRate": 7.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 47.1,
+    "play": 391,
+    "pickRate": 83.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 48.2,
+    "play": 257,
+    "pickRate": 54.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 54.5,
+    "play": 123,
+    "pickRate": 26.3
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 45.9,
+    "play": 85,
+    "pickRate": 18.2
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 49.3,
+    "play": 69,
+    "pickRate": 14.7
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 48.4,
+    "play": 62,
+    "pickRate": 13.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 52.3,
+    "play": 111
+   }
+  ]
+ }
+}

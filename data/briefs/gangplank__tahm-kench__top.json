@@ -1,0 +1,385 @@
+{
+ "you": "Gangplank",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let his Tongue Lash stacks hit three and your Remove Scurvy is down when the stun lands; you win if you poke him down while his Abyssal Dive is on cooldown and deny the stack-stun-Devour combo."
+  },
+  "thesis": "This matchup is decided by a stack counter, not a stat check: every landed Q (Tongue Lash) gives Tahm Kench a stack of An Acquired Taste, and at three stacks his next Q stuns you and lets him follow with R (Devour) for a burst kill. Your W (Remove Scurvy) clears that stun outright, so the lane is a race between his stack timer and your W cooldown. Overall this sits at 51% across 204 games — genuinely even, with the only real risk being a mistimed all-in window.",
+  "tell": {
+   "watch": "Tahm's stack count on you",
+   "theirWindow": {
+    "when": "He's landed 2-3 Tongue Lash hits on you",
+    "what": "His next Q (Tongue Lash) stuns and consumes the stacks, opening a follow-up R (Devour) for a burst kill. If your W (Remove Scurvy) is down, disengage past 900 range until the stacks decay or your W is back up."
+   },
+   "yourWindow": {
+    "when": "His W (Abyssal Dive) is on cooldown",
+    "what": "He has no dash to escape or engage from range, so step in and trade with Q (Parrrley) at 625 range plus the Grog-Soaked Blade poison. He can't reset the fight, and any Q stacks he's built are wasted if he can't follow through."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither all-in tool is live yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Faster Tongue Lash cooldown builds stacks quicker"
+   },
+   {
+    "levels": "6-10",
+    "edge": "them",
+    "note": "R (Devour) online, full stun-burst combo live"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "Essence Reaver online, poke trades even out"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full crit build outscales his HP-scaling passive"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Sustains you through early Tongue Lash pokes while you look for Parrrley trades; this start is run in 68.9% of games for a reason — it's the highest-sample path by far."
+   },
+   "boots": {
+    "item": "Gluttonous Greaves",
+    "why": "Lifesteal keeps you even in extended trades against his Q heal and Thick Skin regen, and the magic resist softens Devour's burst if he lands the stun combo."
+   },
+   "core": [
+    {
+     "item": "Essence Reaver",
+     "why": "Mana sustain lets you spam Parrrley to poke and build stacks of Grog-Soaked Blade without running dry."
+    },
+    {
+     "item": "The Collector",
+     "why": "The execute threshold turns your poke damage into kills once he's low from Q trades."
+    },
+    {
+     "item": "Lord Dominik's Regards",
+     "why": "An Acquired Taste scales off his total health, meaning he's building HP to tank you — armor pen cuts straight through that stacking."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Serpent's Fang",
+     "when": "he's popping thick skin's shield to survive your all-ins, since it shreds the shield he's converting from stored damage"
+    },
+    {
+     "item": "Immortal Shieldbow",
+     "when": "he's consistently landing the three-stack stun and you need a lifeline through the follow-up devour"
+    },
+    {
+     "item": "Infinity Edge",
+     "when": "you're ahead and snowballing, since the crit scaling closes out fights faster than armor shred alone"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Deathfire Touch",
+   "keystoneWhy": "The burn ticks through his Thick Skin regen and Tongue Lash heal, so your poke damage doesn't get fully undone between trades.",
+   "primary": [
+    "Nimbus Cloak",
+    "Transcendence",
+    "Scorch"
+   ],
+   "secondary": [
+    "Cut Down",
+    "Legend: Haste"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite is run in 85.3% of games here for a reason: it punishes his Q heal and Thick Skin sustain directly and secures kills on poke trades before he can stabilize."
+  },
+  "playing": [
+   {
+    "title": "Count stacks before every trade",
+    "detail": "Never walk up for a free Parrrley once he's at 2+ stacks of An Acquired Taste — the next Tongue Lash that lands stuns you and opens the door for R (Devour)."
+   },
+   {
+    "title": "Hold W for the stun, not chip damage",
+    "detail": "Remove Scurvy clears the stun outright. Don't burn it for a small heal early if his stacks are building — save it for the exact moment the stun would land."
+   },
+   {
+    "title": "Poke hard when Abyssal Dive is down",
+    "detail": "Without W he has no dash to engage or escape, so this is your window to walk up and trade freely with Parrrley and auto-attacks."
+   },
+   {
+    "title": "Respect his longer Tongue Lash range",
+    "detail": "His Q reaches 900 range versus your Q's 625 — don't stand at the edge of your range thinking you're safe, you're still inside his."
+   },
+   {
+    "title": "Watch for the shield pop before all-inning",
+    "detail": "Thick Skin's active converts stored damage into a shield. If he's been tanking hits without using it, expect a shield the moment you commit — bait it out first if you can."
+   },
+   {
+    "title": "Buy Lord Dominik's Regards on curve",
+    "detail": "His passive damage and tankiness both scale off total health, so armor penetration is disproportionately valuable here compared to flat damage items."
+   },
+   {
+    "title": "Don't panic at even trades",
+    "detail": "This matchup sits at 51% over 204 games — it's not lost if he gets a stack or two on you. Just don't let three stacks go unanswered."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and win rates above are measured from live games on the current patch via OP.GG; the stack-timing, cooldown-tracking, and trade-pattern reasoning connecting them to the ability text is my own tactical read."
+ },
+ "generatedAt": 1791669602896,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791669508324,
+  "overall": {
+   "winRate": 50.4,
+   "play": 33968,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 204,
+   "wins": 104,
+   "winRate": 51
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "Although Tahm Kench is an easy target to stack up on Grasp of the Undying, be careful of his (Q) when [W] is on cooldown as he will try to kill you then.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.8,
+    "play": 237,
+    "pickRate": 85.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.2,
+    "play": 36,
+    "pickRate": 13
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 25,
+    "play": 4,
+    "pickRate": 1.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Cut Down",
+     "Legend: Haste"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 45.2,
+    "play": 115,
+    "pickRate": 40.4
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Deathfire Touch",
+     "Nimbus Cloak",
+     "Transcendence",
+     "Scorch"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 9.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 47.3,
+    "play": 184,
+    "pickRate": 68.9
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 51.5,
+    "play": 33,
+    "pickRate": 12.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Gluttonous Greaves"
+    ],
+    "winRate": 52.7,
+    "play": 74,
+    "pickRate": 33.9
+   },
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 50.9,
+    "play": 53,
+    "pickRate": 24.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Essence Reaver",
+     "Lord Dominik's Regards",
+     "Infinity Edge"
+    ],
+    "winRate": 46.7,
+    "play": 30,
+    "pickRate": 17.3
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 58.6,
+    "play": 29,
+    "pickRate": 16.8
+   },
+   {
+    "items": [
+     "Essence Reaver",
+     "The Collector",
+     "Infinity Edge"
+    ],
+    "winRate": 43.8,
+    "play": 16,
+    "pickRate": 9.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Essence Reaver"
+    ],
+    "winRate": 46.9,
+    "play": 262,
+    "pickRate": 94.9
+   },
+   {
+    "items": [
+     "Lord Dominik's Regards"
+    ],
+    "winRate": 50.6,
+    "play": 156,
+    "pickRate": 56.5
+   },
+   {
+    "items": [
+     "The Collector"
+    ],
+    "winRate": 52.8,
+    "play": 108,
+    "pickRate": 39.1
+   },
+   {
+    "items": [
+     "Infinity Edge"
+    ],
+    "winRate": 53.1,
+    "play": 98,
+    "pickRate": 35.5
+   },
+   {
+    "items": [
+     "Immortal Shieldbow"
+    ],
+    "winRate": 61.4,
+    "play": 57,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 57.1,
+    "play": 35,
+    "pickRate": 12.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.3,
+    "play": 94
+   }
+  ]
+ }
+}

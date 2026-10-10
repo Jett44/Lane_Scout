@@ -1,0 +1,384 @@
+{
+ "you": "Ornn",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Scales past lane",
+   "line": "You lose the lane phase to Tahm's Q (Tongue Lash) poke-and-heal and his Devour (R) all-in threat, but Ornn's 52% win rate over 173 games shows the matchup evens out once your mid-game item spikes land."
+  },
+  "thesis": "Tahm Kench's entire lane plan is Q (Tongue Lash) stacking An Acquired Taste toward a free stun or Devour (R), and Ornn has nothing in his kit that out-pokes or out-heals that pattern. OP.GG gives Tahm both the lane and solo-kill edge here, which matches the tools: he trades safely at 900 range and sustains off every hit while Ornn has to walk in to do anything. The 52% Ornn win rate over 173 games is a mid-game number — it comes from Living Forge's bonus resistances and the Hollow Radiance into Unending Despair core out-tanking him once items are online, not from winning lane.",
+  "tell": {
+   "watch": "His Acquired Taste stack count",
+   "theirWindow": {
+    "when": "Tahm reaches 3 Acquired Taste stacks",
+    "what": "His next Q (Tongue Lash) stuns and consumes the stacks, or he can Devour (R) you outright for magic damage and remove you from the fight for several seconds. Back off the wave the moment he's at 2 stacks rather than risk the third hit."
+   },
+   "yourWindow": {
+    "when": "His W (Abyssal Dive) is on cooldown",
+    "what": "Abyssal Dive is Tahm's only repositioning tool, on a 21/20/19/18/17s cooldown — with it down he cannot disengage or reset distance. This is when your jungler's gank lands clean and when your E (Searing Charge) into terrain actually sticks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Safe Q poke, no Ornn trade tools yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Stacks build toward stun, you lack reach"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Devour (R) online, overextends get punished"
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Lower cooldowns, Hollow Radiance online"
+   },
+   {
+    "levels": "13-18",
+    "edge": "you",
+    "note": "Living Forge resistances outscale his damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Blocks a flat chunk of his autos and Q (Tongue Lash) poke and heals you back on minion hits, which is the only way to not slowly bleed out to his sustain before level 6."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tahm's Q-to-3-stacks line ends in a stun, and Mercury's Treads cuts that duration — the single biggest reason to take them over Plated Steelcaps in this specific matchup."
+   },
+   "core": [
+    {
+     "item": "Hollow Radiance",
+     "why": "Rushing this closes the gap on his magic damage output fastest and lets you stop losing the all-in math once he's forced to commit."
+    },
+    {
+     "item": "Unending Despair",
+     "why": "Stacks more flat damage reduction on top of Living Forge's bonus resistances, which is where the 52% win rate actually comes from."
+    },
+    {
+     "item": "Kaenic Rookern",
+     "why": "The shield plus magic resist spike answers his all-magic kit directly and lets you walk into Devour (R) range without fearing the burst."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Jak'Sho, The Protean",
+     "when": "the game goes long and you need both resistances stacking against a mixed enemy comp"
+    },
+    {
+     "item": "Thornmail",
+     "when": "Tahm or another enemy laner builds into sustained auto-attack damage or lifesteal you need to cut"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early armor and anti-heal piece before Hollow Radiance finishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Triggers on your autos every few seconds for sustain and permanent health growth — directly answers Tahm's poke-and-heal pattern by letting you out-sustain him in longer trades instead of losing the war of attrition.",
+   "primary": [
+    "Demolish",
+    "Bone Plating",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Teleport is the highest pick rate by far in this matchup and lets you recall and spend gold through Living Forge without surrendering tempo, since you're building through a losing lane toward item power spikes rather than fighting for lane kills."
+  },
+  "playing": [
+   {
+    "title": "Hug minions vs Q",
+    "detail": "Stay behind your wave so Tongue Lash (900 range) has to hit a minion first — this is the single biggest lever on whether he ever gets to 3 stacks."
+   },
+   {
+    "title": "Disengage at 2 stacks",
+    "detail": "Don't wait for the third Acquired Taste stack. At 2, assume the next poke either stuns you or sets up Devour (R), and back out of range first."
+   },
+   {
+    "title": "Trade only after his W is down",
+    "detail": "Abyssal Dive is his only mobility tool on a 21/20/19/18/17s cooldown. Engage or call for a gank right after he burns it, not before."
+   },
+   {
+    "title": "Wall him with E",
+    "detail": "Searing Charge only knocks up and deals its shockwave damage if you collide with terrain mid-charge — line up lane walls before committing your all-in."
+   },
+   {
+    "title": "Forge every back",
+    "detail": "Spend gold through Living Forge on every recall so Hollow Radiance and Unending Despair finish on schedule; this patch's build wants you ahead on item timers to out-scale his lane edge."
+   },
+   {
+    "title": "Call jungler after level 6",
+    "detail": "OP.GG flags this directly — Tahm has no escape besides Abyssal Dive, so he cannot get away from a 2v1. Hold position and ping instead of forcing the kill yourself."
+   },
+   {
+    "title": "Play for the mid-game",
+    "detail": "The 52% win rate over 173 games is a scaling number, not a lane number. Concede trades through level 8 and look for relevance once your second and third items complete."
+   }
+  ],
+  "patchCaveat": "Build order, boots, runes, and summoner picks are pulled from measured games on the current patch (16.20.1) via OP.GG; the lane-phase reasoning, cooldown references, and trade windows are my own tactical read, not measured data."
+ },
+ "generatedAt": 1791668917505,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791668818577,
+  "overall": {
+   "winRate": 51.8,
+   "play": 23020,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 173,
+   "wins": 90,
+   "winRate": 52
+  },
+  "laneAdvantage": "Tahm Kench",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "There are only a handful of champions that can defeat Tahm Kench in melee combat. However, he is weak to ganks as he lacks movement skills so call your jungler often after pulling lane. Avoid his (Q) by staying behind minions, and retreat with [E] when he tries to close in.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.3,
+    "play": 167,
+    "pickRate": 77.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 42,
+    "pickRate": 19.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 4,
+    "pickRate": 1.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Bone Plating",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.7,
+    "play": 64,
+    "pickRate": 29.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Conditioning",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Haste",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.5,
+    "play": 40,
+    "pickRate": 18.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 113,
+    "pickRate": 51.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 51.6,
+    "play": 64,
+    "pickRate": 29.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.2,
+    "play": 129,
+    "pickRate": 65.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 42.2,
+    "play": 64,
+    "pickRate": 32.3
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 8.4
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Kaenic Rookern"
+    ],
+    "winRate": 80,
+    "play": 5,
+    "pickRate": 4.7
+   },
+   {
+    "items": [
+     "Hollow Radiance",
+     "Unending Despair",
+     "Thornmail"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 50.9,
+    "play": 114,
+    "pickRate": 49.1
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 55.1,
+    "play": 98,
+    "pickRate": 42.2
+   },
+   {
+    "items": [
+     "Kaenic Rookern"
+    ],
+    "winRate": 48.3,
+    "play": 89,
+    "pickRate": 38.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 56.9,
+    "play": 58,
+    "pickRate": 25
+   },
+   {
+    "items": [
+     "Jak'Sho, The Protean"
+    ],
+    "winRate": 55.4,
+    "play": 56,
+    "pickRate": 24.1
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 47.3,
+    "play": 55,
+    "pickRate": 23.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "W",
+     "W",
+     "R",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "E",
+     "E"
+    ],
+    "winRate": 50,
+    "play": 68
+   }
+  ]
+ }
+}

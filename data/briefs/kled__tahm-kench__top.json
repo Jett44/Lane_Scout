@@ -1,0 +1,386 @@
+{
+ "you": "Kled",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured, respect stacks",
+   "line": "You lose if you stand in melee letting Tahm Kench land repeated hits until An Acquired Taste hits three stacks for a stun or Devour kill; you win if you dash in with E, burst, and leave before that third hit lands."
+  },
+  "thesis": "Kled's E (Jousting) lets him pick exactly when a trade starts and ends, which denies Tahm Kench the repeated hits he needs to stack An Acquired Taste to three and threaten a Q stun or an outright R (Devour). That threat only materializes if Kled stays in prolonged melee range, which is precisely the mistake OP.GG flags for this matchup. A 52.8% win rate over 72 games with a clear solo-kill edge confirms this is Kled's lane to dictate, not Tahm's.",
+  "tell": {
+   "watch": "Tahm's Acquired Taste stack count",
+   "theirWindow": {
+    "when": "He's landed two hits on you",
+    "what": "He's one hit from three stacks, meaning his next Q (Tongue Lash) stuns you or he can R (Devour) you outright for magic damage based on his total health. Disengage immediately instead of trading a third time."
+   },
+   "yourWindow": {
+    "when": "Skaarl's HP is full, E ready",
+    "what": "Dash in with E (Jousting), land Q (Bear Trap on a Rope) for the hook and yank bonus damage, pop W (Violent Tendencies) for the attack speed burst, then recast E to dash back out before he's landed enough hits to stack three."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither combo threatens an all-in yet."
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Joust bursts outrun Tahm's single-target poke."
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "R adds burst before Devour stacks threaten."
+   },
+   {
+    "levels": "9-12",
+    "edge": "even",
+    "note": "Tahm's Q sustain starts evening out dueling."
+   },
+   {
+    "levels": "13-18",
+    "edge": "them",
+    "note": "Caught alone, stacked Devour burst kills fast."
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 81.1% pick rate reflects the matchup plan: short, decisive E trades need raw AD and sustain, not passive scaling, since you're looking to win exchanges before Tahm can stack his passive."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tahm's entire kit — Q, W, and R — deals magic damage, and the tenacity shortens the stun window if he lands a third stack of An Acquired Taste off Q."
+   },
+   "core": [
+    {
+     "item": "Titanic Hydra",
+     "why": "Health and AD scaling keep Skaarl's HP bar high, which is exactly the resource you need full before committing to a Joust trade."
+    },
+    {
+     "item": "Black Cleaver",
+     "why": "Armor shred and health help you push through Tahm's passive, which gives him extra damage based on his total health — he gets tankier and harder-hitting the longer a fight runs."
+    },
+    {
+     "item": "Sterak's Gage",
+     "why": "The health and shield proc cover you if Tahm lands his Devour combo, turning a potential kill into a survived trade."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Hullbreaker",
+     "when": "you're sieging or split-pushing away from Tahm's melee range"
+    },
+    {
+     "item": "Overlord's Bloodmail",
+     "when": "fights are running long and you need sustained damage against his health-scaled tankiness"
+    },
+    {
+     "item": "Profane Hydra",
+     "when": "you need more AoE and mobility for skirmishes beyond the 1v1"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The measured 58.3% win rate page builds around sustained duels — Conqueror's stacking adaptive force rewards exactly the extended Joust-in, auto, Joust-out pattern you need to win before Tahm stacks his passive.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Demolish",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is the standard pick (78% of games) and backs up your measured solo-kill advantage with real kill pressure during the level 3-5 window. Flash + Teleport is run less often but shows a notably higher 72.7% win rate in the sample — worth taking if you expect this to be a slower, split-push-oriented game rather than an early kill lane."
+  },
+  "playing": [
+   {
+    "title": "Trade with E, not your face",
+    "detail": "OP.GG's own warning is specific: avoid prolonged melee combat with Tahm Kench. Dash in with E (Jousting), land your damage, and recast E to leave rather than standing in auto-attack range."
+   },
+   {
+    "title": "Count his stacks before every trade",
+    "detail": "An Acquired Taste builds from any damage Tahm lands on you. At three stacks his Q (Tongue Lash) stuns instead of slows, and he becomes able to R (Devour) you for magic damage. Never trade through two stacks."
+   },
+   {
+    "title": "Only commit with Skaarl topped up",
+    "detail": "Kled deals full damage to champions while mounted; once Skaarl's HP bar empties and you dismount, your Q becomes the weaker Pocket Pistol and your champion damage drops. Reset before forcing anything."
+   },
+   {
+    "title": "Hunt the level 3-5 kill window",
+    "detail": "Jousting and Violent Tendencies both come online by level 3-5, giving you burst that outpaces Tahm's single-target Q poke on its 7-5s cooldown. This is where your measured solo-kill advantage comes from — use it."
+   },
+   {
+    "title": "Bank R for a forced skirmish",
+    "detail": "Chaaaaaaaarge!!! is on a 140/125/110/110/110s cooldown, so don't throw it carelessly. Hold it to collapse a fight in your favor or to punish Tahm's Abyssal Dive (W) if he overcommits with it."
+   },
+   {
+    "title": "Don't feed stacks while dismounted",
+    "detail": "When Skaarl is down, you hit champions for less and trade from a weaker position. Back off and farm with Pocket Pistol until courage remounts you instead of feeding Tahm free damage toward his passive."
+   },
+   {
+    "title": "Keep the wave contested",
+    "detail": "Tahm Q heals him on champion hits and lets him shove safely if left unchecked. Stay on the wave so he can't push freely and set up a safe Abyssal Dive engage or freely stack sustain."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner spell choices are pulled directly from measured Kled vs Tahm Kench games on the current patch (16.20.1); the stack-count tells, power-curve timing, and trade-pattern reasoning are my own read of how the two kits interact."
+ },
+ "generatedAt": 1791669877651,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791669773171,
+  "overall": {
+   "winRate": 50.4,
+   "play": 11028,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 72,
+   "wins": 38,
+   "winRate": 52.8
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "even",
+  "opponentTip": "Avoid fighting Tahm Kench in melee combat as he can easily get a kill. Do not let him push lane by focusing on contesting and farming lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 43.6,
+    "play": 78,
+    "pickRate": 78
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 72.7,
+    "play": 11,
+    "pickRate": 11
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Demolish",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.3,
+    "play": 24,
+    "pickRate": 23.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Legend: Alacrity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 23.1,
+    "play": 13,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 50.6,
+    "play": 77,
+    "pickRate": 81.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 10.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52,
+    "play": 50,
+    "pickRate": 61
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 57.1,
+    "play": 28,
+    "pickRate": 34.2
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Sterak's Gage"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 17.4
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Black Cleaver",
+     "Hullbreaker"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 10.9
+   },
+   {
+    "items": [
+     "Titanic Hydra",
+     "Hullbreaker",
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 40,
+    "play": 5,
+    "pickRate": 10.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 48.8,
+    "play": 84,
+    "pickRate": 80.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 51,
+    "play": 51,
+    "pickRate": 49
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 50,
+    "play": 30,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Overlord's Bloodmail"
+    ],
+    "winRate": 42.9,
+    "play": 21,
+    "pickRate": 20.2
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 17.3
+   },
+   {
+    "items": [
+     "Profane Hydra"
+    ],
+    "winRate": 30,
+    "play": 10,
+    "pickRate": 9.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 37.1,
+    "play": 35
+   }
+  ]
+ }
+}
