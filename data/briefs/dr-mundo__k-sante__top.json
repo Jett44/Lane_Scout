@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you feed K'Sante free Q stacks and eat his W stun into an all-in before level 6; you win if you survive to the health-stacking items and turn skirmishes into sustain fights."
+  },
+  "thesis": "K'Sante holds lane priority and the solo-kill edge because his Q (Ntofo Strikes) builds stacks into a pull and his W (Path Maker) stun chains directly into damage, while Mundo's own tools are trade-and-sustain tools that only pay off once he's already stacked health. The measured 47.7% win rate over 199 games reflects a lane that's lost early and clawed back mid-game: Adrenaline Rush's passive regen and E (Masochism)'s missing-health AD scaling mean Mundo starts winning extended skirmishes once tank items come online, which is also why the overall matchup shape is rated even despite the lane deficit.",
+  "tell": {
+   "watch": "K'Sante's Ntofo Strikes stack count",
+   "theirWindow": {
+    "when": "W (Path Maker) off cooldown, charging",
+    "what": "He takes reduced damage while charging up, then dashes to knock back and stun. Step out of the dash arc or call for help before the charge finishes — the window right after is when his all-in actually lands."
+   },
+   "yourWindow": {
+    "when": "your health below 50%, W active",
+    "what": "E (Masochism) scales bonus AD off your missing health, and Adrenaline Rush is already regenerating a percentage of your max health every second, so this is when you commit to trades — your sustain outlasts his burst in extended exchanges, not single pokes."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "His Q poke outtrades you before your sustain scales"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W (Path Maker) stun comes fully online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Both ultimates live, skirmishes decide trades"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Health-stacking items make you the tankier threat"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Teamfight dependent, your sustain still carries weight"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Absorbs K'Sante's Q (Ntofo Strikes) poke at 450 range and keeps you from getting zoned out before level 3."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "The extra move speed lets you step out of W (Path Maker)'s dash arc and close distance for Q (Infected Cleaver) poke without trading into his stun range."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Raw health pool compounds with Adrenaline Rush's percentage regen, which is the single biggest lever you have in this matchup."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Converts the health you're already stacking into stat gains and gives you a reason to keep building tanky instead of forcing damage items."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Amplifies both Adrenaline Rush and E (Masochism)'s sustain-heavy trade pattern once skirmishes start running long."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Titanic Hydra",
+     "when": "you're ahead on health stacking and need more dueling damage to close out skirmishes"
+    },
+    {
+     "item": "Thornmail",
+     "when": "K'Sante or another enemy carry is building around sustained auto-attacks"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "their team has a crit or attack-speed carry punishing your sustain fights"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the exact trade pattern this matchup wants — standing in melee range while K'Sante pokes you with Q, since Grasp heals you back and grows your max health off the same trades he's trying to win.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport is the higher-win-rate pairing here (47.6% over the two most-run options): Flash gives you an out from W (Path Maker)'s stun/knockback, and Teleport lets you reset for health-stacking items and still make the lane relevant after falling behind early."
+  },
+  "playing": [
+   {
+    "title": "Deny the second Q stack",
+    "detail": "Don't stand still for a second hit of Ntofo Strikes — at 2 stacks it fires a shockwave that pulls you in, which is how he opens most of his all-ins."
+   },
+   {
+    "title": "Back off during his W charge",
+    "detail": "Path Maker's charge-up reduces the damage he takes, then dashes into a knockback and stun. Step out of the dash line before it fires instead of trying to trade through it."
+   },
+   {
+    "title": "Commit low, not full health",
+    "detail": "E (Masochism) scales AD off missing health and your passive is already regenerating percent max health every second, so your best trades happen when you're already hurt, not when you're topped off."
+   },
+   {
+    "title": "Toggle W before he stuns you",
+    "detail": "Burning Agony reduces the duration of disables, so turning it on before his W connects shortens the stun window he's trying to lock you down with."
+   },
+   {
+    "title": "Poke at 975, not 525",
+    "detail": "Q (Infected Cleaver) outranges his E (Footwork) dash-and-shield by a wide margin — force him to walk up into your cleaver range instead of letting him dictate when trades start."
+   },
+   {
+    "title": "Save Sadism for skirmishes",
+    "detail": "R's move speed and regen burst are wasted in a straight duel — hold it for extended 2v2s or objective fights where the sustain actually outlasts his cooldowns."
+   },
+   {
+    "title": "Rush the health-stacking core",
+    "detail": "Warmog's into Heartsteel is what flips this matchup from a losing lane into an even one — prioritize it over damage items even if you're slightly behind."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and win rates above are measured from real games on the current patch (16.20.1) via OP.GG; the mechanical reasoning — why each cooldown, stack, and trade window matters — is my own tactical read, not scraped data."
+ },
+ "generatedAt": 1791650703524,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791650611667,
+  "overall": {
+   "winRate": 50.4,
+   "play": 18234,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 199,
+   "wins": 95,
+   "winRate": 47.7
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 45.6,
+    "play": 114,
+    "pickRate": 46
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.6,
+    "play": 105,
+    "pickRate": 42.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 42.9,
+    "play": 14,
+    "pickRate": 5.7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 48.6,
+    "play": 109,
+    "pickRate": 43.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 36.7,
+    "play": 30,
+    "pickRate": 12.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.1,
+    "play": 138,
+    "pickRate": 56.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 43.8,
+    "play": 96,
+    "pickRate": 39
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 47.9,
+    "play": 142,
+    "pickRate": 64.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.5,
+    "play": 68,
+    "pickRate": 30.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 73.3,
+    "play": 15,
+    "pickRate": 11
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 46.9,
+    "play": 241,
+    "pickRate": 96.4
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 46.8,
+    "play": 186,
+    "pickRate": 74.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 52.4,
+    "play": 84,
+    "pickRate": 33.6
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 54.5,
+    "play": 44,
+    "pickRate": 17.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 41.2,
+    "play": 34,
+    "pickRate": 13.6
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 46.7,
+    "play": 30,
+    "pickRate": 12
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 46.3,
+    "play": 95
+   }
+  ]
+ }
+}

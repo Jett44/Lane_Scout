@@ -1,0 +1,375 @@
+{
+ "you": "Riven",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you fight into a full Devour stack or shove into his E sustain; you win if you snowball a kill before level 6 Abyssal Dive."
+  },
+  "thesis": "This is an even lane on paper (49.4% over 87 games) but the power distribution is lopsided: Tahm Kench is nearly unkillable once his passive stacks and E shield are up, so Riven's entire plan is to burst him down with cooldowns stacked before he can reactively shield, not to out-sustain him.",
+  "tell": {
+   "watch": "Tahm Kench's An Acquired Taste stacks",
+   "theirWindow": {
+    "when": "he has 3 stacks of An Acquired Taste",
+    "what": "His next Q (Tongue Lash) stuns you on hit and consumes the stacks, and at 6 he can follow a stun with Devour for a near-unanswerable burst. Do not let him land three free pokes on you."
+   },
+   "yourWindow": {
+    "when": "his E (Thick Skin) is on cooldown and stored damage is low",
+    "what": "Thick Skin has only a 3s cooldown but its shield value depends on stored damage from being out of combat — if you've been trading constantly he has nothing banked to convert. Dive with Q (Broken Wings) into W (Ki Burst) right after he's taken poke damage and hasn't had a window to passively store it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Tongue Lash range 900 pokes and slows for free"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q-W combo burst outpaces his early damage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Abyssal Dive knock-up vs your Blade of the Exile burst"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Conqueror + items push your all-in tempo"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "his health-scaling passive damage scales into tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "87.9% pick rate and the highest winrate start (52.9% over 102 games) — the extra sustain and AD let you contest his Tongue Lash pokes without losing the trade war."
+   },
+   "boots": {
+    "item": "Ionian Boots of Lucidity",
+    "why": "57.7% pick rate and the higher winrate option (45.3%) — the cooldown reduction tightens your Q/W/E loop so you can chain abilities before his Thick Skin shield comes back up."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "Most common first core item; the shield-on-hit procs reward the burst-then-disengage pattern you need against his E sustain."
+    },
+    {
+     "item": "Endless Hunger",
+     "why": "Second most common buy in both top build paths, adds sustained damage to break through his passive-scaling health pool."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Appears in every top build path (12.7%, 9.5%, 9.5% pick) — the damage-over-time conversion keeps you alive through his magic burst on Devour."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "he's building any resistances and you need the shred to keep bursting through his tankiness"
+    },
+    {
+     "item": "Axiom Arc",
+     "when": "the game is going long and you need the cooldown refresh on Blade of the Exile to re-engage before his Devour window"
+    },
+    {
+     "item": "Maw of Malmortius",
+     "when": "his magic damage from Tongue Lash and Devour is adding up and you need the spell shield"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive force and healing on extended trades matches how this lane is actually won — repeated short trades, not one clean burst, since his E negates burst damage if mistimed.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Jack Of All Trades",
+    "Cash Back"
+   ],
+   "shards": [
+    "Ability Haste",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Run at 98.4% pick rate and the only summoner set with a positive sample (54.8% winrate) — Ignite denies his Thick Skin passive healing and punishes his low early kill pressure."
+  },
+  "playing": [
+   {
+    "title": "Don't engage before level 3",
+    "detail": "OP.GG's own data confirms it: avoid trading until you have Q, W, and E online, since a 1-2 ability trade loses to his Tongue Lash poke and E block value."
+   },
+   {
+    "title": "Learn E first, not Q",
+    "detail": "The 55.6% skill order opens Q but puts E second — take Valor by level 2 so you can block the Tongue Lash damage that builds his stacks and heals him."
+   },
+   {
+    "title": "Burst before he banks E charge",
+    "detail": "Thick Skin's 3s cooldown means he can shield constantly, but the shield size depends on stored damage — open fights immediately after he's already taken poke damage, not after a quiet period."
+   },
+   {
+    "title": "Track stacks, dodge the stun",
+    "detail": "At 3 stacks of An Acquired Taste his next Tongue Lash stuns and resets the counter — back off or interrupt with your own trade before he reaches 3."
+   },
+   {
+    "title": "Use R timing around his dive",
+    "detail": "Blade of the Exile's Wind Slash threat should come right as or just after his Abyssal Dive lands, since the knockup leaves him stationary and unable to immediately re-shield."
+   },
+   {
+    "title": "Respect level 6 Devour all-in",
+    "detail": "Once he hits 6, a landed stun into Devour can delete you in one rotation — only commit to extended trades near his tower range if you have Flash up."
+   },
+   {
+    "title": "Shove waves, don't dive",
+    "detail": "His kit rewards you walking into range; punish with ranged poke from Tongue Lash's threat zone avoidance and force him to initiate instead."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and win rates are pulled directly from measured Riven vs Tahm Kench games on the current patch (16.20.1) via OP.GG; the mechanical reasoning and trade-pattern advice are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791652435188,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791652394132,
+  "overall": {
+   "winRate": 49.5,
+   "play": 13112,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 87,
+   "wins": 43,
+   "winRate": 49.4
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": "Do not engage Tahm Kench early game. Learn [E] first to absorb the damage on (Q), and try to engage after reaching level 3.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.8,
+    "play": 124,
+    "pickRate": 98.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 0,
+    "play": 2,
+    "pickRate": 1.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Jack Of All Trades",
+     "Cash Back"
+    ],
+    "shards": [
+     "Ability Haste",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55,
+    "play": 60,
+    "pickRate": 46.5
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Transcendence",
+     "Nimbus Cloak"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 58.8,
+    "play": 17,
+    "pickRate": 13.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 52.9,
+    "play": 102,
+    "pickRate": 87.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 7.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 45.3,
+    "play": 64,
+    "pickRate": 57.7
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 20.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 50,
+    "play": 8,
+    "pickRate": 12.7
+   },
+   {
+    "items": [
+     "Axiom Arc",
+     "Endless Hunger",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 9.5
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Black Cleaver",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 6,
+    "pickRate": 9.5
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 56.3,
+    "play": 71,
+    "pickRate": 56.8
+   },
+   {
+    "items": [
+     "Endless Hunger"
+    ],
+    "winRate": 55.9,
+    "play": 68,
+    "pickRate": 54.4
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 63.6,
+    "play": 66,
+    "pickRate": 52.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 40,
+    "play": 40,
+    "pickRate": 32
+   },
+   {
+    "items": [
+     "Axiom Arc"
+    ],
+    "winRate": 48.4,
+    "play": 31,
+    "pickRate": 24.8
+   },
+   {
+    "items": [
+     "Maw of Malmortius"
+    ],
+    "winRate": 57.7,
+    "play": 26,
+    "pickRate": 20.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.6,
+    "play": 36
+   }
+  ]
+ }
+}

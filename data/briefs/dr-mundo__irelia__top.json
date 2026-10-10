@@ -1,0 +1,388 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Irelia",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard lane",
+   "line": "You lose extended trades into her E-into-Q reset chain through the laning phase, but the matchup turns once your core items give you a health pool her burst can't punch through."
+  },
+  "thesis": "Irelia's E (Flawless Duet) stun plus mark lets her chain straight into Bladesurge (Q) for a free reset and heal, so she repeatedly engages and disengages safely while Mundo has no CC to punish the dash. That structural gap is why Mundo only wins 43% of 193 recorded games here against a 50.4% average top-lane rate — the lane is hers, the matchup overall is not.",
+  "tell": {
+   "watch": "Irelia's E (Flawless Duet) cooldown",
+   "theirWindow": {
+    "when": "Her E and Q are both up",
+    "what": "She stuns and marks you with Flawless Duet, then Bladesurge resets off the mark for a second free hit and heal. Don't stand near a low-health minion when she has both up — that's the engage OP.GG is warning about."
+   },
+   "yourWindow": {
+    "when": "Her E (Flawless Duet) is down",
+    "what": "Walk up and throw Infected Cleaver (Q) freely, then lean on Burning Agony (W) in prolonged trades — without the stun she has no way to lock you down while it ticks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her E stun wins early skirmishes"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Q resets punish any minion overextension"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "Sadism unlocks sustain to hold lane"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Heartsteel/Warmog's HP pool blunts her burst"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Thornmail counters her on-hit passive scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Highest pick rate start (55.7% pick) — the extra early HP and sustain blunt her Bladesurge chip damage while you farm instead of trade."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "Best winrate boots (46.2% over 143 games) — flat damage reduction per hit directly undercuts her stacking Ionian Fervor on-hit damage."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacking HP scales your Infected Cleaver's max-health damage and starts building the health pool her dash poke can't punch through."
+    },
+    {
+     "item": "Warmog's Armor",
+     "why": "Matches the highest-winrate measured core path (57.1% over 7 games) — the regen threshold keeps you topped off between her engages."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Completes the measured core build, adding sustained wave damage and more max-health scaling for extended trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "she is stacking on-hit or crit items off Ionian Fervor stacks"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "she is auto-attacking you down early before your core items finish"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "their team shifts toward magic damage threats"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "you need to dodge her E/Q engage range instead of trading hits"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Periodic healing and permanent HP stacking reward you for soaking her pokes and dash hits instead of needing to win the trade outright.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash+Teleport posts the best measured winrate of the three combos (47.7%) — Flash dodges the Flawless Duet convergence, Teleport recovers any CS lost to her dash resets."
+  },
+  "playing": [
+   {
+    "title": "Farm, don't trade",
+    "detail": "Infected Cleaver (Q, 4s cooldown, 975 range) scales off her max health and chips her for free from outside Flawless Duet's 850 range — prioritize CS over forcing fights."
+   },
+   {
+    "title": "Track her E cooldown",
+    "detail": "Flawless Duet is 16/14.5/13/11.5/10s depending on rank — once she lands or whiffs it, that stun/mark window is gone for the full duration, and that's your cue to step in."
+   },
+   {
+    "title": "Respect low-HP minions near her",
+    "detail": "Bladesurge instantly refreshes its cooldown if it kills a Marked or near-dead target, so never leave a dying minion next to you while her Q is up."
+   },
+   {
+    "title": "Toggle W into her stun",
+    "detail": "Burning Agony (W, 1s cooldown, 325 range) drains your own health but shortens disable duration — turn it on as her E lands to cut the stun short and punish the follow-up."
+   },
+   {
+    "title": "Trade when already hurt",
+    "detail": "Masochism (E, 7s cooldown) scales your bonus AD off missing health, so a fight at 60% HP hits harder than one at full — don't play passive just because your bar is low."
+   },
+   {
+    "title": "Save R for all-ins, not poke",
+    "detail": "Sadism (R, 75s cooldown) only trades health for move speed and regen — hold it for committed skirmishes or to run down/escape a dive, not routine lane cooldowns."
+   },
+   {
+    "title": "Build into her passive",
+    "detail": "Ionian Fervor stacks attack speed and adds bonus on-hit damage at max stacks — Thornmail and Bramble Vest directly punish her once she leans on auto-attacks."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and win rates above are measured from live OP.GG games on the current patch (16.20.1); the cooldown-window and trade-pattern reasoning is my own analysis, not sourced data."
+ },
+ "generatedAt": 1791650811892,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791650709660,
+  "overall": {
+   "winRate": 50.4,
+   "play": 18234,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 193,
+   "wins": 83,
+   "winRate": 43
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "even",
+  "opponentTip": "Be careful when Irelia uses (Q) on minions low on health to close in! Avoid her (E). Try to focuso on farming lane instead of initiating combat.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 36.9,
+    "play": 111,
+    "pickRate": 46.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.7,
+    "play": 86,
+    "pickRate": 35.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 35,
+    "play": 20,
+    "pickRate": 8.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 39.8,
+    "play": 103,
+    "pickRate": 42.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 40,
+    "play": 35,
+    "pickRate": 14.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 38.3,
+    "play": 128,
+    "pickRate": 55.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 49,
+    "play": 98,
+    "pickRate": 42.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.2,
+    "play": 143,
+    "pickRate": 69.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 40.3,
+    "play": 62,
+    "pickRate": 30
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 6.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 44.2,
+    "play": 215,
+    "pickRate": 88.5
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 45.6,
+    "play": 147,
+    "pickRate": 60.5
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 36.4,
+    "play": 99,
+    "pickRate": 40.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 44.9,
+    "play": 78,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 51,
+    "play": 49,
+    "pickRate": 20.2
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 63.9,
+    "play": 36,
+    "pickRate": 14.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 51.4,
+    "play": 105
+   }
+  ]
+ }
+}

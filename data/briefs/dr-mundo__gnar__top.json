@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Gnar",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured scrap",
+   "line": "You lose if you walk into point-blank poke before level 6; you win every all-in once Masochism and Sadism are both up."
+  },
+  "thesis": "Gnar's entire early lane is built on a resource bar you can watch tick up on his portrait — once Rage caps he transforms and the fight changes completely. Dr. Mundo's job before that transformation is to eat poke with Adrenaline Rush sustain and punish every Boomerang Throw miss or E (Hop) cooldown with a full trade, because Mini Gnar cannot survive extended melee contact.",
+  "tell": {
+   "watch": "Gnar's Rage meter",
+   "theirWindow": {
+    "when": "Rage bar full, Mega Gnar active",
+    "what": "Back off and reset to sustained poke range, don't melee into Wallop (now a knock-up stun) or take a free GNAR! (R) once he's 6+. If he's stuck in Mega form near a wall, respect that his R stuns and deals bonus damage there."
+   },
+   "yourWindow": {
+    "when": "He throws Q (Boomerang) and whiffs, or E (Hop/Crunch) is down",
+    "what": "Cleaver (Q) him then walk up and fight — Mini Gnar has no escape for 16/14.5/13/11.5/10s on Q or 22-12s on E, and your Burning Agony (W) plus autos will outdamage his trade."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Boomerang Throw poke, you have no answer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Masochism online, trades get even"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Sadism lets you commit to all-ins"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Warmog's/Heartsteel HP pool buries his poke"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Mega Gnar + R threatens your engages near walls"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Taken in 78.8% of games at 54.9% win rate — the passive block blunts every poke auto and Boomerang tick so you aren't shoved off wave before level 3."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "51.6% pick, 61.6% win rate — closing the gap on a kiting ranged laner matters more here than the armor from Plated Steelcaps."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Massive HP pool turns Adrenaline Rush and Masochism's missing-health AD scaling into a permanent damage and sustain engine against his poke."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Stacks off the HP you're already building, converts the raw bulk into threatening burst for your all-in windows."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Adds flat HP-scaling damage to autos and a wave-clearing slam, so your trades hit harder once he's stuck in melee range."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he builds magic damage or you want faster Sadism/Adrenaline Rush healing"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's rushing on-hit crit items alongside his base kit"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "his attack speed and crit chunks are outpacing your regen"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Taken in every top page at 51.6%/53.3% pick — proc it on cannon minions and his pokes to out-sustain Boomerang chip damage for free.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Highest win rate combo at 55.6% over half of games — Ghost closes the distance on a kiting Gnar during your all-in windows, Teleport lets you reset HP off potions after tanking poke."
+  },
+  "playing": [
+   {
+    "title": "Track Rage, not just HP",
+    "detail": "Gnar's Rage bar tells you exactly when Mega Gnar is coming. Never initiate a trade with the bar near full."
+   },
+   {
+    "title": "Punish Q whiffs immediately",
+    "detail": "A missed Boomerang Throw leaves him with no slow and a long cooldown (16s down to 10s at max rank) — close the gap and land Cleaver (Q) plus autos."
+   },
+   {
+    "title": "Hold Sadism for commit, not escape",
+    "detail": "Sadism sacrifices health for movement speed and regen — use it to close the distance during an all-in window, not as a panic button."
+   },
+   {
+    "title": "Don't melee-trade into Mega Gnar's Wallop",
+    "detail": "Mega form's W is a ground-smash stun in front of him, not the Mini-form hype buff. Walking into range to trade can get you locked down for free damage."
+   },
+   {
+    "title": "Respect R near walls after level 6",
+    "detail": "GNAR! only stuns and adds bonus damage if you're thrown into a wall — stay off the lane edges when he's in Mega form and has ult up."
+   },
+   {
+    "title": "Use E (Masochism) proactively before trades",
+    "detail": "The AD bonus scales off missing health and has only a 7s cooldown — pop it right before you commit so the extra damage lands during the trade, not after."
+   },
+   {
+    "title": "Soak poke with W, don't ignore it",
+    "detail": "Burning Agony's 1s cooldown lets you toggle it on whenever he's in range, converting his chip damage phase into free reduction on any disables he lands."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, runes, and summoner spells above are measured from live games on the current patch (188 Dr. Mundo vs Gnar games); the tactical reasoning about Rage timing, trade windows, and item justification is our own read on top of that data."
+ },
+ "generatedAt": 1791651083445,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791651043907,
+  "overall": {
+   "winRate": 50.4,
+   "play": 18234,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 188,
+   "wins": 98,
+   "winRate": 52.1
+  },
+  "laneAdvantage": "Gnar",
+  "soloKillAdvantage": "Gnar",
+  "playStyle": "even",
+  "opponentTip": "Avoid being punished by Gnar’s (Q) and third basic attack. Use [Q] to chase after him when (E) is on cooldown to engage him!",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 55.6,
+    "play": 124,
+    "pickRate": 50.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.1,
+    "play": 87,
+    "pickRate": 35.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 8.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.6,
+    "play": 126,
+    "pickRate": 50.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.3,
+    "play": 30,
+    "pickRate": 12
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.9,
+    "play": 182,
+    "pickRate": 78.8
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 46,
+    "pickRate": 19.9
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 61.6,
+    "play": 112,
+    "pickRate": 51.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.2,
+    "play": 92,
+    "pickRate": 42.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 72.4,
+    "play": 29,
+    "pickRate": 20.7
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 81,
+    "play": 21,
+    "pickRate": 15
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 50,
+    "play": 12,
+    "pickRate": 8.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 55.4,
+    "play": 224,
+    "pickRate": 93
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 56.1,
+    "play": 187,
+    "pickRate": 77.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 68.4,
+    "play": 76,
+    "pickRate": 31.5
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 71,
+    "play": 62,
+    "pickRate": 25.7
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 54.1,
+    "play": 37,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 63.3,
+    "play": 30,
+    "pickRate": 12.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 60.4,
+    "play": 101
+   }
+  ]
+ }
+}

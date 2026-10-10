@@ -1,0 +1,381 @@
+{
+ "you": "Gwen",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let Tahm stack three tongues and stand in his engage range after level 6; you win if you poke with Q and E and never let him close the gap for free."
+  },
+  "thesis": "This matchup is a disengage check: Tahm Kench has no way to force a fight on you if you respect Hallowed Mist and his Q (Tongue Lash) cooldown, since he has zero gap-close outside of his 7-5s tongue range and his all-in requires three stacks of An Acquired Taste to land a stun. The data backs this up at 59.1% over 137 games, well above Gwen's 50.3% baseline into the role.",
+  "tell": {
+   "watch": "Tahm's Q cooldown and stack count",
+   "theirWindow": {
+    "when": "You're in Tongue Lash range with 3 stacks up",
+    "what": "If he lands Q (Tongue Lash) while you're already carrying 2 stacks of An Acquired Taste, the third stack stuns you and he can walk in freely; back off the moment you see 2 stacks rather than waiting for the stun to confirm it."
+   },
+   "yourWindow": {
+    "when": "His Q (Tongue Lash) is on cooldown",
+    "what": "Tahm has no other poke or gap-close, so every 5-7s window after he whiffs or lands Q is a window to walk up and snip with Q (Snip Snip!) for free trades, since he can't punish you without that tongue."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "even",
+    "note": "Trade Q pokes, respect his tongue range"
+   },
+   {
+    "levels": "4-5",
+    "edge": "you",
+    "note": "W (Hallowed Mist) denies his only engage tool"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His R (Devour) threatens all-in near turret"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "E refund loop outscales his flat stats"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Burst items punish his low mobility"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Ring + Health Potion + Health Potion",
+    "why": "The sustain from two potions lets you tank chip damage from his Q while you wait out cooldowns to poke back, and the extra mana keeps your Q cycling every 6.5s at level 1 without going dry."
+   },
+   "boots": {
+    "item": "Sorcerer's Shoes",
+    "why": "Tahm's kit has no hard CC outside the 3-stack stun, so the magic penetration matters more than tenacity for racing down his stacked passive HP damage reduction."
+   },
+   "core": [
+    {
+     "item": "Dusk and Dawn",
+     "why": "Builds your early tempo so you can threaten trades the instant his Q is down."
+    },
+    {
+     "item": "Shadowflame",
+     "why": "Tahm stacks a lot of health off his passive, and this punishes high-HP targets directly."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "The omnivamp sustains you through the poke war while his Q keeps chipping your HP bar."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Rabadon's Deathcap",
+     "when": "the game goes long and you're ahead on tempo"
+    },
+    {
+     "item": "Zhonya's Hourglass",
+     "when": "he lands his Devour stun combo and you need to survive the follow-up"
+    },
+    {
+     "item": "Nashor's Tooth",
+     "when": "you want faster Q resets for the extended poke war"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended trades are the whole matchup here, since he has no dash and you can kite with E (Skip 'n Slash) while stacking Conqueror for the sustained damage and heal.",
+   "primary": [
+    "Presence of Mind",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Unflinching",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite punishes his Thick Skin shield-heal loop directly and secures kills once you've worn his stacks down, which is why it sits at 68.1% pick rate and the higher win rate of the two options."
+  },
+  "playing": [
+   {
+    "title": "Poke only when his Q is down",
+    "detail": "Tahm has no way to close distance outside Tongue Lash's 900 range, so walk up and land Q (Snip Snip!) the moment his tongue is on cooldown and back off before it's back up."
+   },
+   {
+    "title": "Track his Acquired Taste stacks",
+    "detail": "He needs 3 stacks to stun you off Q; disengage the instant you're sitting on 2 stacks rather than risking the third landing."
+   },
+   {
+    "title": "Use W to deny his engage",
+    "detail": "Hallowed Mist means only enemies who enter the mist can target you, so drop it the moment he closes in and he has nothing left to punish you with."
+   },
+   {
+    "title": "Respect level 6 Devour threat",
+    "detail": "His R has no cooldown listed but requires him to be in melee range already; don't overextend near his turret or jungle entrances once he hits 6."
+   },
+   {
+    "title": "Abuse E's attack speed window",
+    "detail": "Skip 'n Slash grants attack speed and range on-hit after the dash, and lands a cooldown refund if you connect, so chain it immediately after a Q poke to extend the trade."
+   },
+   {
+    "title": "Save R for a two-champion read",
+    "detail": "Needlework can be cast up to two more times for more damage, so hold it for moments he commits past his Thick Skin shield rather than poking it away early."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and the 59.1% over 137 games figure are measured from live games on the current patch; the mechanical reasoning about tongue range, stack timing, and mist usage is tactical analysis, not measured data."
+ },
+ "generatedAt": 1791652479296,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791652441493,
+  "overall": {
+   "winRate": 50.3,
+   "play": 14224,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 137,
+   "wins": 81,
+   "winRate": 59.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 58.7,
+    "play": 126,
+    "pickRate": 68.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 45.8,
+    "play": 24,
+    "pickRate": 13
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 7
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 50.7,
+    "play": 75,
+    "pickRate": 40.3
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Presence of Mind",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 52.6,
+    "play": 19,
+    "pickRate": 10.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 56.1,
+    "play": 164,
+    "pickRate": 91.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Sorcerer's Shoes"
+    ],
+    "winRate": 55.4,
+    "play": 74,
+    "pickRate": 44.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 56.3,
+    "play": 48,
+    "pickRate": 28.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 65.4,
+    "play": 26,
+    "pickRate": 24.3
+   },
+   {
+    "items": [
+     "Dusk and Dawn",
+     "Shadowflame",
+     "Riftmaker"
+    ],
+    "winRate": 75,
+    "play": 8,
+    "pickRate": 7.5
+   },
+   {
+    "items": [
+     "Nashor's Tooth",
+     "Riftmaker",
+     "Dusk and Dawn"
+    ],
+    "winRate": 75,
+    "play": 4,
+    "pickRate": 3.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54.3,
+    "play": 151,
+    "pickRate": 80.8
+   },
+   {
+    "items": [
+     "Shadowflame"
+    ],
+    "winRate": 58.3,
+    "play": 96,
+    "pickRate": 51.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 56.4,
+    "play": 94,
+    "pickRate": 50.3
+   },
+   {
+    "items": [
+     "Nashor's Tooth"
+    ],
+    "winRate": 54.1,
+    "play": 61,
+    "pickRate": 32.6
+   },
+   {
+    "items": [
+     "Rabadon's Deathcap"
+    ],
+    "winRate": 66.7,
+    "play": 60,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Zhonya's Hourglass"
+    ],
+    "winRate": 40.9,
+    "play": 22,
+    "pickRate": 11.8
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 60,
+    "play": 100
+   }
+  ]
+ }
+}

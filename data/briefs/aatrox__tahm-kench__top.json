@@ -1,0 +1,384 @@
+{
+ "you": "Aatrox",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you feed Tahm Kench three stacks of An Acquired Taste for free and let him stun or swallow you solo; you win if you pin him with W and force trades before he can stack you up."
+  },
+  "thesis": "Tahm Kench's entire threat is the stack counter on An Acquired Taste — every Q (Tongue Lash) that hits you adds a stack, and at three stacks he can stun you with another Q or remove you from the fight with R (Devour). Aatrox has the tools to win the lane going by the numbers (53.5% win rate over 213 games, lane and solo-kill advantage both yours) because Infernal Chains (W) punishes his lack of a hard engage and Umbral Dash (E) lets you close the gap and heal through his Q poke. The matchup is even by shape, but it tilts toward whoever manages the stack counter — you want to break line of sight or disengage before stack three, not after.",
+  "tell": {
+   "watch": "Your An Acquired Taste stack count (0-3)",
+   "theirWindow": {
+    "when": "you're sitting at 3 stacks near him",
+    "what": "Tahm can land another Tongue Lash to stun you outright, or use R (Devour) to swallow you for several seconds — either removes you from the fight and can flip the trade or let him dive. Back off or clear the stack by avoiding his Q before you reach three."
+   },
+   "yourWindow": {
+    "when": "his Tongue Lash (Q) is on cooldown",
+    "what": "Tongue Lash is only 7/6.5/6/5.5/5s and his only ranged tool, so the moment it's down he has no way to slow or stack you from range. Activate Umbral Dash (E) to close the gap, land Darkin Blade (Q) swings and your empowered Deathbringer Stance auto, and trade freely since he can't punish the dash in."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Both poking with Q, no burst yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Umbral Dash heal wins extended trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His R Devour online, stacks matter"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Darkin Blade ranks up, faster Deathbringer procs"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His health scaling catches up in teamfights"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The 56% win rate pick over 234 games — the extra sustain and AD let you keep trading through his Tongue Lash poke without losing the lane-advantage window."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "59.2% win rate over 76 games, and OP.GG's own tip for this matchup explicitly calls for Plated Steelcaps — the auto-attack damage reduction blunts his passive health-based attack damage during extended trades."
+   },
+   "core": [
+    {
+     "item": "Eclipse",
+     "why": "The shield-and-slow proc rewards you for landing a full combo after Infernal Chains pins him, since he has no dash to escape it."
+    },
+    {
+     "item": "Spear of Shojin",
+     "why": "Ability haste lets Q, W, and E cycle faster than his cooldowns, so you out-pace his health-stack scaling instead of grinding even."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "Damage-over-time conversion and the heal let you survive his Q poke and R Devour burst while Umbral Dash and Deathbringer Stance top you back up. Core path hits 61.5% win rate over 13 games."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Sterak's Gage",
+     "when": "he is threatening to all-in with Devour at three stacks and you need the tenacity and shield to survive the removal window"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he builds into tank items and you need the armor shred to keep killing him through extended teamfights"
+    },
+    {
+     "item": "Sundered Sky",
+     "when": "you want more proc-based healing on your first trade instead of the pure burst Eclipse line"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "The stacking adaptive damage and healing keeps you ahead in the extended trades his Q poke and passive sustain are built for, and ramps perfectly into an all-in once Umbral Dash is up.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Revitalize",
+    "Bone Plating"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite runs a 55.2% win rate at 75.3% pick rate here — Ignite denies his Thick Skin out-of-combat heal and his Tongue Lash healing on hit, which is what lets him win extended trades if left unchecked."
+  },
+  "playing": [
+   {
+    "title": "Track your stack counter",
+    "detail": "Watch the An Acquired Taste debuff on your buff bar every time his Tongue Lash connects. Disengage before it reaches three — that's the stun-or-swallow threshold."
+   },
+   {
+    "title": "Dash in when his Q is down",
+    "detail": "Tongue Lash is his only ranged threat at 7-5s cooldown depending on rank. The instant it's on cooldown, use Umbral Dash to close and start your combo."
+   },
+   {
+    "title": "Pin before you commit",
+    "detail": "Land Infernal Chains first — he has to leave the impact area quickly or get dragged back and take the damage again, and he has no dash to avoid it."
+   },
+   {
+    "title": "Never duel him alone at full stacks",
+    "detail": "If you're at three stacks and isolated, he can stun-lock you with Q or Devour you outright. Walk back to minions or your tower first."
+   },
+   {
+    "title": "Punish Thick Skin's downtime",
+    "detail": "His E only heals while out of combat. Keep poking with Q and auto-attacks between trades so that stored damage never converts into a shield or heal."
+   },
+   {
+    "title": "Save Ignite for the kill window",
+    "detail": "Pop Ignite when you commit to a solo kill attempt — it cancels his Q heal-on-hit and Thick Skin regen, which is what usually lets him survive a losing trade."
+   },
+   {
+    "title": "Use World Ender to force the all-in",
+    "detail": "Once your R is up at level 6+, use the AD, healing, and move speed boost to chase down a fight he can't just Devour his way out of — he only gets one swallow and it's conditional on three stacks."
+   }
+  ],
+  "patchCaveat": "The build order, boots, runes, summoners, and win-rate numbers above are measured from real games on the current patch via OP.GG; the stack-counter reasoning, trade timing, and power curve are our own tactical read based on the live ability text."
+ },
+ "generatedAt": 1791651883830,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791651797424,
+  "overall": {
+   "winRate": 49.9,
+   "play": 37069,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 213,
+   "wins": 114,
+   "winRate": 53.5
+  },
+  "laneAdvantage": "Aatrox",
+  "soloKillAdvantage": "Aatrox",
+  "playStyle": "even",
+  "opponentTip": "Do not get chased by Tahm Kench’s (Q) during early game. Use your skills whenever they come off cooldown to deal burst damage. Purchase Plated Steelcaps.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 55.2,
+    "play": 223,
+    "pickRate": 75.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48.5,
+    "play": 68,
+    "pickRate": 23
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 1
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Revitalize",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 53.3,
+    "play": 122,
+    "pickRate": 40.8
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Treasure Hunter",
+     "Taste of Blood"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 32,
+    "play": 25,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 56,
+    "play": 234,
+    "pickRate": 80.1
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.4,
+    "play": 45,
+    "pickRate": 15.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52.1,
+    "play": 167,
+    "pickRate": 63.5
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 59.2,
+    "play": 76,
+    "pickRate": 28.9
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Eclipse",
+     "Spear of Shojin",
+     "Death's Dance"
+    ],
+    "winRate": 61.5,
+    "play": 13,
+    "pickRate": 8.5
+   },
+   {
+    "items": [
+     "Spear of Shojin",
+     "Sundered Sky",
+     "Death's Dance"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 6.5
+   },
+   {
+    "items": [
+     "Eclipse",
+     "Sundered Sky",
+     "Spear of Shojin"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 57.8,
+    "play": 161,
+    "pickRate": 53.9
+   },
+   {
+    "items": [
+     "Sundered Sky"
+    ],
+    "winRate": 56.3,
+    "play": 128,
+    "pickRate": 42.8
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 54.2,
+    "play": 118,
+    "pickRate": 39.5
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 48.2,
+    "play": 114,
+    "pickRate": 38.1
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 56.5,
+    "play": 85,
+    "pickRate": 28.4
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 42.9,
+    "play": 28,
+    "pickRate": 9.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 57.7,
+    "play": 156
+   }
+  ]
+ }
+}

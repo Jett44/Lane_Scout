@@ -1,0 +1,384 @@
+{
+ "you": "Garen",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Tough sustain check",
+   "line": "You lose if you eat poke before level 3 or stand still once he hits 3 stacks of An Acquired Taste; you win by forcing short trades the instant his Q resets and cutting his healing."
+  },
+  "thesis": "Tahm Kench's passive, An Acquired Taste, turns every Q hit and auto into a stacking threat - at 3 stacks his Q stuns instead of just slowing, and from level 6 he can Devour you outright for magic damage. Garen has no ranged answer to that stacking, so the lane isn't actually even: it rewards Tahm for patient poke and punishes Garen for standing in Q range, which is exactly why Garen sits at 43.7% here against his 50.2% baseline in the role. Your only lever is timing - trade when his stacks and Q are both down, not when they're up.",
+  "tell": {
+   "watch": "Tahm's An Acquired Taste stacks",
+   "theirWindow": {
+    "when": "he reaches 3 taste stacks",
+    "what": "His next Q stuns and consumes the stacks, or at level 6+ he can Devour you for magic damage over the duration and pull you out of the fight. Back off and let the stacks fall off rather than feeding him the 3rd hit."
+   },
+   "yourWindow": {
+    "when": "right after his Q (5-7s CD) whiffs",
+    "what": "Step in with E (Judgment) and autos while Tongue Lash is down and his stacks are low, since he has no other ranged tool to punish you. Hold Q (Decisive Strike) for the moment he tries to stack you up or dive for Devour - the silence shuts down his follow-up cast."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "His Q pokes and stacks taste; you lack sustain"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Full Q/W/E online, trade on cooldowns"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Devour unlocks, all-in kill threat spikes"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Stridebreaker/PD online, duels tighten up"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Mortal Reminder and R execute outscale his tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Blocks the chip from his auto-attacks and Q hits so he can't stack taste for free while you're just walking up to farm."
+   },
+   "boots": {
+    "item": "Berserker's Greaves",
+    "why": "Attack speed lets you land more autos inside his short trade windows, which also builds your own damage output faster than his stacking."
+   },
+   "core": [
+    {
+     "item": "Stridebreaker",
+     "why": "The slow-on-hit active lets you actually stick to him once he tries to disengage, and the burst procs hit hard in the short window before he reaches 3 stacks."
+    },
+    {
+     "item": "Phantom Dancer",
+     "why": "More attack speed and move speed to keep trading autos and chasing down his retreats."
+    },
+    {
+     "item": "Mortal Reminder",
+     "why": "Grievous Wounds directly answers his Q self-heal and passive sustain, which is the whole reason he can afford to stand and poke."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Dead Man's Plate",
+     "when": "he's building tank and you need more durability to stand in extended trades"
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "when": "you want a faster burst window to punish him before his stacks reach 3"
+    },
+    {
+     "item": "Black Cleaver",
+     "when": "he's stacking armor and sustained fights are dragging on"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Extended trades favor whoever out-sustains, and Conqueror's healing and ramping damage directly counteracts his Q and passive sustain over a long fight.",
+   "primary": [
+    "Triumph",
+    "Legend: Haste",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Axiom Arcanist",
+    "Celerity"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite removes his main advantage in this lane - the self-healing off Q and passive - turning close trades and all-in attempts decisively in your favor."
+  },
+  "playing": [
+   {
+    "title": "Track his taste stacks all lane",
+    "detail": "His stack count is the single most important thing on screen - it tells you exactly when his Q stops being a slow and starts being a stun, or when Devour becomes live."
+   },
+   {
+    "title": "Don't chase before level 3",
+    "detail": "You have no sustain tools yet and his Q (7s CD at rank 1) will stack taste on you for free if you walk into range repeatedly."
+   },
+   {
+    "title": "Trade the instant abilities come off cooldown",
+    "detail": "From level 3 on, step in with E (Judgment) and autos the moment his Q is down - this is how you wrestle lane control away from his poke."
+   },
+   {
+    "title": "Save Q's silence for his Devour attempt",
+    "detail": "Decisive Strike's silence shuts down his R (Devour) cast or a 3rd Q stack attempt - hold it rather than burning it on a random trade."
+   },
+   {
+    "title": "Respect level 6-8 all-ins",
+    "detail": "Once he has Devour, a 3-stack setup plus his jungler can remove you from the fight outright - don't stand in range near turret or vision gaps in this window."
+   },
+   {
+    "title": "Rush Grievous Wounds timing",
+    "detail": "Mortal Reminder's healing cut is what actually breaks his sustain advantage late - prioritize it in the build order once trades start dragging."
+   },
+   {
+    "title": "Execute with R once he's below ~30%",
+    "detail": "Demacian Justice's execute scales down in cooldown as you rank it (140/110/80/50/20s) - use it to close out trades he thinks he's won on sustain."
+   }
+  ],
+  "patchCaveat": "Build order, runes, boots, and summoner spells above are pulled directly from measured games on the current patch; the stack timing, trade windows, and level breakpoints are my own read of the mechanics, not measured data."
+ },
+ "generatedAt": 1791651486248,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791651399614,
+  "overall": {
+   "winRate": 50.2,
+   "play": 34709,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 254,
+   "wins": 111,
+   "winRate": 43.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "Avoid being chased by Tahm Kench’s (Q) before reaching level 3. Aterwards, try to fight him whenever your abilities come off cooldown repeatedly to gain control over lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 44.8,
+    "play": 362,
+    "pickRate": 92.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 4.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Haste",
+     "Last Stand"
+    ],
+    "secondaryTree": "Sorcery",
+    "secondary": [
+     "Axiom Arcanist",
+     "Celerity"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 44.6,
+    "play": 166,
+    "pickRate": 41.6
+   },
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Axiom Arcanist",
+     "Celerity",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 46.9,
+    "play": 64,
+    "pickRate": 16
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.5,
+    "play": 202,
+    "pickRate": 53.3
+   },
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 44.8,
+    "play": 116,
+    "pickRate": 30.6
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Berserker's Greaves"
+    ],
+    "winRate": 47,
+    "play": 247,
+    "pickRate": 67.9
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 50,
+    "play": 62,
+    "pickRate": 17
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Mortal Reminder"
+    ],
+    "winRate": 46.2,
+    "play": 52,
+    "pickRate": 20.4
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Mortal Reminder",
+     "Phantom Dancer"
+    ],
+    "winRate": 50,
+    "play": 26,
+    "pickRate": 10.2
+   },
+   {
+    "items": [
+     "Stridebreaker",
+     "Phantom Dancer",
+     "Dead Man's Plate"
+    ],
+    "winRate": 20,
+    "play": 15,
+    "pickRate": 5.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Stridebreaker"
+    ],
+    "winRate": 46.6,
+    "play": 371,
+    "pickRate": 92.3
+   },
+   {
+    "items": [
+     "Phantom Dancer"
+    ],
+    "winRate": 50.7,
+    "play": 213,
+    "pickRate": 53
+   },
+   {
+    "items": [
+     "Mortal Reminder"
+    ],
+    "winRate": 49.7,
+    "play": 155,
+    "pickRate": 38.6
+   },
+   {
+    "items": [
+     "Dead Man's Plate"
+    ],
+    "winRate": 43.2,
+    "play": 74,
+    "pickRate": 18.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 53,
+    "play": 66,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 54,
+    "play": 63,
+    "pickRate": 15.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "E",
+     "Q",
+     "W",
+     "E",
+     "E",
+     "R",
+     "E",
+     "Q",
+     "E",
+     "Q",
+     "R",
+     "Q",
+     "Q",
+     "W",
+     "W"
+    ],
+    "winRate": 44.7,
+    "play": 159
+   }
+  ]
+ }
+}

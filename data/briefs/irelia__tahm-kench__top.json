@@ -1,0 +1,385 @@
+{
+ "you": "Irelia",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you let him stack 3 charges of An Acquired Taste and Devour you after a dive; you win if you stun and all-in before his kit is online."
+  },
+  "thesis": "Tahm Kench's Q (Tongue Lash) has a 7-5s cooldown depending on rank and stacks An Acquired Taste on hit, consuming three stacks for a stun and unlocking Devour (R, 0s cooldown) — that's his only real lane threat, and it's slow to build. Irelia wins short trades with E (Flawless Duet) stun into Q (Bladesurge) reset and Ionian Fervor attack-speed stacks before he can land three Q's. The 47.3% head-to-head over 131 games against a 50% baseline says the lane lead doesn't carry — his health-scaling passive damage and R peel for teammates let him matter late even after losing early exchanges.",
+  "tell": {
+   "watch": "His Acquired Taste stacks on you",
+   "theirWindow": {
+    "when": "Q lands at 3 stacks on you",
+    "what": "The third stack of An Acquired Taste turns his next Tongue Lash hit into a stun instead of a slow, and at level 6+ he can immediately Devour (R) you for magic damage with zero cooldown. Back off and let a stack fall rather than trading face-to-face once you're at two."
+   },
+   "yourWindow": {
+    "when": "His Q (Tongue Lash) is on cooldown",
+    "what": "With his only poke/sustain tool down, step in with E (Flawless Duet) to stun and Mark him, then Q (Bladesurge) onto the Mark to refresh its cooldown and chain autos while Ionian Fervor stacks give you bonus attack speed. He has no slow or shield up to answer it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "No E stun yet; trade autos carefully"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "E stun + Q reset wins short trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "His Devour makes all-ins riskier"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "BotRK spike outduels his sustain"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "His scaling health/R peel outweighs your lead"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "The highest-pick-rate start (89.8% pick, 46.2% WR over 158 games) — the extra HP and lifesteal buy you trades into his Q poke and keep you healthy through the levels before E comes online."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "47% WR over 100 games at 60.6% pick — tenacity cuts the duration of his Q-stack stun and the knockup from his W (Abyssal Dive), and magic resist blunts his magic-damage kit."
+   },
+   "core": [
+    {
+     "item": "Blade of The Ruined King",
+     "why": "Current-HP damage and the slow punish his high-health passive (An Acquired Taste scales off his total health) directly."
+    },
+    {
+     "item": "Hullbreaker",
+     "why": "Matches the top measured path (50% WR over 32 games, 24.1% pick) and adds the sustained-fight pressure you need since he out-scales raw stat checks late."
+    },
+    {
+     "item": "Wit's End",
+     "why": "Magic resist stacks against his magic-damage Q/W/R while the on-hit magic damage keeps building Ionian Fervor stacks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Death's Dance",
+     "when": "you need more survivability against his magic burst and Devour"
+    },
+    {
+     "item": "Kraken Slayer",
+     "when": "you're ahead and want to snowball dueling pressure instead of sustain"
+    },
+    {
+     "item": "Terminus",
+     "when": "the game runs long and his health-scaling damage starts outpacing your resistances"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Conqueror",
+   "keystoneWhy": "Ramping adaptive damage and healing rewards exactly the extended-trade pattern this matchup calls for — stay on him through the stun-reset chain and Conqueror keeps scaling while his Q is down.",
+   "primary": [
+    "Triumph",
+    "Legend: Alacrity",
+    "Last Stand"
+   ],
+   "secondary": [
+    "Triple Tonic",
+    "Jack Of All Trades"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The dominant pick (48.4% WR at 81% pick rate) over Flash+Teleport (36.4% WR, 11.6%) — Ignite punishes his Devour all-in by denying the healing his kit relies on and secures kills before he can disengage."
+  },
+  "playing": [
+   {
+    "title": "Trade only when his Q is down",
+    "detail": "Tongue Lash is his only poke and sustain tool (7-5s cooldown by rank). Step into exchanges right after he throws and misses, or right after it lands and goes on cooldown."
+   },
+   {
+    "title": "Track his stacks on you, not just his HP",
+    "detail": "Every Q and auto he lands builds An Acquired Taste. At 3 stacks his next Q stuns you and unlocks Devour (R) at level 6+ — disengage before you hit that third stack."
+   },
+   {
+    "title": "Stun him before he can Abyssal Dive",
+    "detail": "His W lets him dive down and reappear elsewhere with a knockup, which doubles as an escape. Land E (Flawless Duet) on him before he commits to W so he can't just dive away from your all-in."
+   },
+   {
+    "title": "Chain Q resets off your own E mark",
+    "detail": "Flawless Duet damages, stuns, and Marks anyone caught between the blades. Bladesurge (Q) refreshes its own cooldown on a Marked target, so E into Q lets you keep dashing and resetting attack-speed stacks through the whole trade."
+   },
+   {
+    "title": "Don't force all-ins past level 6",
+    "detail": "Once he has R, three stacks of his passive means a free Devour for magic damage with zero cooldown. Fight him down from a poke lead instead of diving a full-health Tahm at three stacks."
+   },
+   {
+    "title": "Push your item-spike window",
+    "detail": "Your core path hits its stride once Blade of The Ruined King is online around levels 9-13 — use that spike to force skirmishes before his health stacking starts outscaling your current-HP damage."
+   },
+   {
+    "title": "Play for tempo, not a late-game 1v1",
+    "detail": "The 47.3% head-to-head despite a lane lead means he catches up by late game. Convert your early advantage into plates, drakes, or roams rather than waiting to out-duel a scaled Tahm Kench."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, summoner spells, and all win-rate/sample figures above are pulled from measured OP.GG games on the current patch; the matchup read — timings, trade windows, and the stack/Devour threat — is my own tactical judgment layered on top of the live ability data."
+ },
+ "generatedAt": 1791652388044,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791652281561,
+  "overall": {
+   "winRate": 50,
+   "play": 27393,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 131,
+   "wins": 62,
+   "winRate": 47.3
+  },
+  "laneAdvantage": "Irelia",
+  "soloKillAdvantage": "Irelia",
+  "playStyle": "even",
+  "opponentTip": "Be careful of being chased by Tahm Kench early game after his (Q) lands. Keep your Conqueror and [P] stacks up to engage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.4,
+    "play": 153,
+    "pickRate": 81
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 36.4,
+    "play": 22,
+    "pickRate": 11.6
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 6.4
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Triple Tonic",
+     "Jack Of All Trades"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health"
+    ],
+    "winRate": 54.5,
+    "play": 66,
+    "pickRate": 34.6
+   },
+   {
+    "primaryTree": "Precision",
+    "primary": [
+     "Conqueror",
+     "Triumph",
+     "Legend: Alacrity",
+     "Last Stand"
+    ],
+    "secondaryTree": "Resolve",
+    "secondary": [
+     "Unflinching",
+     "Bone Plating"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 41,
+    "play": 39,
+    "pickRate": 20.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 46.2,
+    "play": 158,
+    "pickRate": 89.8
+   },
+   {
+    "items": [
+     "Doran's Bow",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 57.1,
+    "play": 14,
+    "pickRate": 8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 47,
+    "play": 100,
+    "pickRate": 60.6
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.1,
+    "play": 57,
+    "pickRate": 34.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Wit's End"
+    ],
+    "winRate": 50,
+    "play": 32,
+    "pickRate": 24.1
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Hullbreaker",
+     "Death's Dance"
+    ],
+    "winRate": 47.1,
+    "play": 17,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Blade of The Ruined King",
+     "Kraken Slayer",
+     "Death's Dance"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 11.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Blade of The Ruined King"
+    ],
+    "winRate": 49.2,
+    "play": 183,
+    "pickRate": 99.5
+   },
+   {
+    "items": [
+     "Hullbreaker"
+    ],
+    "winRate": 50.5,
+    "play": 99,
+    "pickRate": 53.8
+   },
+   {
+    "items": [
+     "Wit's End"
+    ],
+    "winRate": 49.4,
+    "play": 79,
+    "pickRate": 42.9
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 52.4,
+    "play": 63,
+    "pickRate": 34.2
+   },
+   {
+    "items": [
+     "Kraken Slayer"
+    ],
+    "winRate": 47.5,
+    "play": 59,
+    "pickRate": 32.1
+   },
+   {
+    "items": [
+     "Terminus"
+    ],
+    "winRate": 45,
+    "play": 20,
+    "pickRate": 10.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 46.3,
+    "play": 41
+   }
+  ]
+ }
+}

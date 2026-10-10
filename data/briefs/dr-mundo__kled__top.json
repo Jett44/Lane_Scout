@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Kled",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early",
+   "line": "You lose if you let Kled's trap-yank chain you into Jousting burst before level 6; you win if you survive to Heartsteel and grind him down with sustain."
+  },
+  "thesis": "Kled's entire kit is built to lock you down and burst you in a single rotation — Q (Bear Trap on a Rope) hooks and yanks you, then E (Jousting) dashes through for physical damage, and if he lands both back to back he does it again before his mount dies. Dr. Mundo has no hard disengage and no way to avoid the hook once it lands, so this matchup is decided entirely by whether you dodge Q, not by whether you can out-trade him once caught.",
+  "tell": {
+   "watch": "Kled's Q (Bear Trap) cooldown",
+   "theirWindow": {
+    "when": "Q lands and yanks you in",
+    "what": "He will immediately follow with E (Jousting) for the dash damage and can recast E to dash back through you for a second hit. Burning Agony (W) alone won't save you here — expect to lose 15-25% health in under two seconds and just eat it rather than panic-flash."
+   },
+   "yourWindow": {
+    "when": "his Q is on cooldown (8-11s base)",
+    "what": "Walk up and force trades. Mundo's passive (Adrenaline Rush) and E (Masochism) scale your AD off missing health, so trading when he has no hook up is when you actually win exchanges — land Q (Infected Cleaver) first since it does max-health damage regardless of his mount."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q hook punishes any CS step-up"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "full combo online, mount still thick"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "R (Sadism) sustain starts closing the gap"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Heartsteel stacks, his damage falls off"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "max HP and regen outscale his burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "47.6% win rate over 82 games and the clear 65.1% pick — the passive damage block blunts his auto-poke while he's fishing for Q, which matters more than the Doran's Helm sustain since you're not winning early trades anyway."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "49.1% win rate over 57 games as the 50% pick — flat physical damage reduction directly cuts his auto-attack and Jousting burst, which is the actual source of your damage taken in this lane."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "53.8% win rate in the top core path over 13 games — stacks give you the max-health pool that makes his percent-health Q and your own Q both scale better, and it's the first item that starts outpacing his early lead."
+    },
+    {
+     "item": "Warmog's Armor",
+     "why": "Core second or first item across all three listed build paths (50-66.7% win rate) — the regen threshold pairs with Adrenaline Rush to let you shrug off Jousting pokes between his cooldowns."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Present in every top build path (53.8%, 50%, part of the 66.7% line) — the max-health-scaling bonus damage on autos and the knockup are what finally let you punish him once his trap is down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "he's building lifesteal or you're getting chunked by his rotation repeatedly (66.7% win rate over 9 games in that build order)"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he rushes attack speed items and his auto-reset W (Violent Tendencies) starts shredding you"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's fully ahead and building crit/lethality to one-rotation you"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "41% pick rate as the top page — the proc-per-trade health gain and max-health scaling directly counters the fact that you can't avoid his Q, so every forced trade at least heals you back.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "50.9% win rate as the top combo (41.4% pick) — Flash is your only way to dodge Q (Bear Trap) at point-blank range once he commits, and Teleport lets you reset after losing the trades you're going to lose levels 1-5."
+  },
+  "playing": [
+   {
+    "title": "Never stand still off cooldown",
+    "detail": "His Q is only dangerous when it's up (8-11s base cooldown) — bait it on minions or walk in unpredictable patterns so he whiffs it on CS instead of your face."
+   },
+   {
+    "title": "Trade only when his Q is down",
+    "detail": "After he whiffs or lands Q on a minion, that 8-11s window is when Masochism (E) and Infected Cleaver (Q) actually win the exchange — his Jousting alone without the hook setup is far less scary."
+   },
+   {
+    "title": "Watch for his dismount",
+    "detail": "Once Skaarl's health depletes he dismounts and deals less damage to champions, and his Q becomes Pocket Pistol — a knockback gun, not a hook. That's your signal to all-in since the yank threat is gone."
+   },
+   {
+    "title": "Don't burn Sadism defensively early",
+    "detail": "R (Sadism) costs a big health chunk for speed and regen — at levels 6-10 save it to close distance after he commits Jousting, not to escape a Q you should have dodged with Flash instead."
+   },
+   {
+    "title": "Respect the double-Joust",
+    "detail": "E (Jousting) can be recast to dash back through the same target — if you get hit once, expect the return pass and don't walk forward into his flight path."
+   },
+   {
+    "title": "Play for level 11+",
+    "detail": "Your win condition is purely scaling — Heartsteel stacks and Warmog's threshold make you a sustain wall he can't burst through anymore, so prioritize surviving lane over winning it."
+   },
+   {
+    "title": "Use Teleport to deny his lane snowball",
+    "detail": "If you fall behind from 1-5, recall and Teleport back rather than contesting waves — denying his gold lead matters more than fighting for CS you'll lose anyway."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win rates are measured from live games on the current patch via OP.GG (18,234 Mundo top games, 99 head-to-head vs Kled); the tactical reading of cooldown windows and trade timing is my own analysis layered on top."
+ },
+ "generatedAt": 1791651136652,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791651090024,
+  "overall": {
+   "winRate": 50.4,
+   "play": 18234,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 99,
+   "wins": 48,
+   "winRate": 48.5
+  },
+  "laneAdvantage": "Kled",
+  "soloKillAdvantage": "Kled",
+  "playStyle": "even",
+  "opponentTip": "Do not let Kled’s (Q) hit you! Use [Q] to retreat if hit with (Q). He is a difficult to lane against, so use [Q] to contest lane while waiting for a gank.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 39.7,
+    "play": 58,
+    "pickRate": 43.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50.9,
+    "play": 55,
+    "pickRate": 41.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 45.5,
+    "play": 11,
+    "pickRate": 8.3
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.5,
+    "play": 55,
+    "pickRate": 41
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 33.3,
+    "play": 18,
+    "pickRate": 13.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.6,
+    "play": 82,
+    "pickRate": 65.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 42,
+    "pickRate": 33.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.1,
+    "play": 57,
+    "pickRate": 50
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51,
+    "play": 51,
+    "pickRate": 44.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 18.8
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 50,
+    "play": 10,
+    "pickRate": 14.5
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 13
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 51.2,
+    "play": 121,
+    "pickRate": 93.1
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 48.5,
+    "play": 99,
+    "pickRate": 76.2
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 57.6,
+    "play": 33,
+    "pickRate": 25.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 63.6,
+    "play": 33,
+    "pickRate": 25.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 61.1,
+    "play": 18,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 60,
+    "play": 55
+   }
+  ]
+ }
+}

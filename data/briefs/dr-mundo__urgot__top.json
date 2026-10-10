@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive to scale",
+   "line": "You lose if you eat Corrosive Charge poke and get thrown by Disdain into a level 6+ execute; you win if you farm through it and reach your health-stacking power spike."
+  },
+  "thesis": "Urgot has a 10-8s cooldown skillshot (Q, Corrosive Charge) for free poke and, from level 6, an E (Disdain) dash that can throw you into R (Fear Beyond Death) range for an execute — Mundo has no dash and no ranged answer, only a point-blank AoE drain (W, Burning Agony) and a reactive AD buff (E, Masochism) that only gets strong once you're already hurt. The 48.5% win rate over 167 games and Urgot's lane/solo-kill edge both reflect that early exposure; Mundo's health-stacking core eventually outscales Urgot's burst kit in extended fights, but getting to that point safely is the entire lane.",
+  "tell": {
+   "watch": "Urgot's E (Disdain) status",
+   "theirWindow": {
+    "when": "Level 6+, you're near a wall or jungle entrance",
+    "what": "E (Disdain, 475 range, 16-14s cooldown) charges in a line and throws the first champion it hits; paired with R (100-70s cooldown, 2500 range execute) this is his kill window. Stay out of his E arc near terrain where the throw would fling you deeper into his zone."
+   },
+   "yourWindow": {
+    "when": "3+ items into Warmog's/Heartsteel, extended skirmish",
+    "what": "Once your health-stacking core is online, stand in melee range and let W (Burning Agony) drain continual damage while your regen outpaces his poke; Urgot has no sustain of his own, so long fights favor you."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Q poke range beats your melee trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "stacked Q/auto poke, you're still squishy"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "E-R execute combo comes online"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "health stacking starts offsetting his burst"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "your tankiness outlasts his skirmish kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Reduces the poke damage from his autos and Q (Corrosive Charge) that otherwise chips you down before you can stack health; the 45.4% win rate over 152 games and 68.5% pick rate confirm it's the standard answer to this specific harass pattern."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "51.7% win rate over 118 games and 58.7% pick rate; the extra movement speed helps you break line of sight on Q and stay just outside E (Disdain, 475 range) once he hits 6."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Highest-winning path (57.1% over 28 games); raw max-health scales both your Adrenaline Rush regen and the damage his execute threshold (R) needs to clear."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Second item in the 57.1% win rate line; converts stacked health into stickier damage for the extended fights you want to force."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Completes the 19.9%-picked, 57.1%-winning core; gives you wave-clear and bonus damage scaled off the same health stat you're already building."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "the enemy team adds sustained magic damage or sustain you need to counter"
+    },
+    {
+     "item": "Thornmail",
+     "when": "urgot or another enemy carry is building lifesteal or crit to shred your stacked health"
+    },
+    {
+     "item": "Randuin's Omen",
+     "when": "urgot is free-hitting you repeatedly with W (Purge) once its cooldown drops near 0s at higher ranks"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustains you through his poke phase and scales directly with the max-health build you're already running toward, matching the 49.8%-pick, 46.4%-win rune page.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "The 48% win rate, 55.7%-picked combo; Teleport lets you reset for potions without losing CS to his poke, and Ghost gives you the repositioning Mundo otherwise lacks to dodge Q or stay outside his level-6 E engage range."
+  },
+  "playing": [
+   {
+    "title": "Hug minions to block Q",
+    "detail": "Corrosive Charge (800 range, 10-8s cooldown) is a location skillshot; stand behind your caster minions so it has to clear them first, forcing him to waste the cooldown on your wave instead of you."
+   },
+   {
+    "title": "Trade only after his W fires",
+    "detail": "Purge slows Urgot while he unloads and starts at a 12s cooldown; once he's used it, step in with Q (Infected Cleaver, 4s cooldown, max-health damage) while he's locked down and recovering."
+   },
+   {
+    "title": "Respect the level 6 Disdain-execute combo",
+    "detail": "From level 6, a landed E (Disdain, 475 range) throws you out of position and sets up R (Fear Beyond Death) for the kill. Don't stand near walls or jungle entrances where the throw would be worse."
+   },
+   {
+    "title": "Spike E (Masochism) off low health",
+    "detail": "Masochism's AD scales with your missing health, so your hardest trades come when you're already hurt, not at full HP — commit to fights off that spike instead of before it."
+   },
+   {
+    "title": "Only toggle W in his face",
+    "detail": "Burning Agony is a 325-range AoE drain centered on you; it does nothing from range, so only run it during extended melee trades once you're already in contact."
+   },
+   {
+    "title": "Farm through the harass",
+    "detail": "Matches OP.GG's own read on the matchup — don't contest poke trades, just hold CS with Doran's Shield sustain and let the item-timer race play out."
+   },
+   {
+    "title": "Force fights after your core spikes",
+    "detail": "The 57.1%-winning Warmog's into Heartsteel into Titanic Hydra path is your power spike; look for skirmishes once that core is up rather than forcing anything earlier."
+   }
+  ],
+  "patchCaveat": "Build, runes, and win rates are measured from real games on the current patch (16.20.1) via OP.GG; the mechanical reasoning and trade timing are my own read on how those numbers play out."
+ },
+ "generatedAt": 1791650900448,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791650817654,
+  "overall": {
+   "winRate": 50.4,
+   "play": 18234,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 167,
+   "wins": 81,
+   "winRate": 48.5
+  },
+  "laneAdvantage": "Urgot",
+  "soloKillAdvantage": "Urgot",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Urgot’s (Q). Manage your distance well as Urgot will use (E) - (R) after reaching level 6 to kill you. Focus on farming lane!",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 123,
+    "pickRate": 55.7
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 47.9,
+    "play": 73,
+    "pickRate": 33
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 33.3,
+    "play": 15,
+    "pickRate": 6.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 46.4,
+    "play": 112,
+    "pickRate": 49.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 55.9,
+    "play": 34,
+    "pickRate": 15.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 45.4,
+    "play": 152,
+    "pickRate": 68.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.2,
+    "play": 67,
+    "pickRate": 30.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 51.7,
+    "play": 118,
+    "pickRate": 58.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 44.7,
+    "play": 76,
+    "pickRate": 37.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 57.1,
+    "play": 28,
+    "pickRate": 19.9
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 56.5,
+    "play": 23,
+    "pickRate": 16.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 72.2,
+    "play": 18,
+    "pickRate": 12.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 50,
+    "play": 212,
+    "pickRate": 93.8
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 49.7,
+    "play": 187,
+    "pickRate": 82.7
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 50.7,
+    "play": 69,
+    "pickRate": 30.5
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 61.5,
+    "play": 65,
+    "pickRate": 28.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 58.6,
+    "play": 29,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 46.2,
+    "play": 26,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 52.2,
+    "play": 92
+   }
+  ]
+ }
+}

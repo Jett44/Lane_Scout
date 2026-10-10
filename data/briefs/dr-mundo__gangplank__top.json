@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you eat early Parrrley poke on cooldown and let your Doran's Shield sustain get chipped away before level 6; you win every all-in from level 3 onward once Masochism and Burning Agony are both up."
+  },
+  "thesis": "Gangplank's whole early game is Q (Parrrley) poke at 625 range that you cannot return at level 1-2, but Dr. Mundo's Adrenaline Rush and E (Masochism) scale that poke damage directly into free attack damage for you. The matchup is a 54.2% win rate over 358 games because Gangplank wins the poke war if you let him, but loses the fight war once you're willing to walk up.",
+  "tell": {
+   "watch": "Gangplank's Parrrley (Q) cooldown",
+   "theirWindow": {
+    "when": "Q off cooldown, you're at range",
+    "what": "He will throw Parrrley (5s cooldown, 625 range) into you for free before you can close the gap. Don't stand still in minion range waiting for CS when his Q is up — back off a step or walk behind a minion to eat the poke on it instead."
+   },
+   "yourWindow": {
+    "when": "his Q just went on cooldown",
+    "what": "The instant Parrrley is spent, walk up and commit. Your trade is strongest when he has no poke answer and you're already missing health, since Masochism (E) scales your bonus AD off missing health."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Parrrley poke, no answer yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Masochism online, trades even out"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Sadism (R) sustain wins extended fights"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Warmog's/Heartsteel health pool overwhelms"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "Cannon Barrage (R) zones your splitpush"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "54.8% win rate over 332 games and 76.9% pick rate — the passive block and regen directly answer Gangplank's poke-heavy Parrrley (Q) starts and his Grog-Soaked Blade auto-poison."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "56.9% win rate over 239 games. The extra move speed lets you close the gap on Parrrley before he resets to max range, which Plated Steelcaps can't do."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Raw HP pool scales Infected Cleaver (Q) damage and fuels Masochism (E) bonus AD from missing health."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "Stacks onto the same max-HP scaling; 66.1% win rate over 62 games on this exact path."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Converts the bloated HP pool into wave clear and poke damage, completing the highest win-rate core (66.1%, 22.1% pick)."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Randuin's Omen",
+     "when": "he builds crit or you need the active slow to stick a Cannon Barrage dodge"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "his Grog-Soaked Blade poison and Cannon Barrage magic damage are adding up over the game"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "he rushes lifesteal or on-hit items to out-sustain your trades"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on your walk-up autos, converting to bonus max HP and healing — rewards the exact trade pattern of closing distance after his Q is spent.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Ghost",
+    "Teleport"
+   ],
+   "why": "Ghost+Teleport is the top spell pair at 52.8% win rate (48.3% pick) — Ghost directly counters your inability to close distance on Parrrley at range, and Teleport lets you reset off Warmog's sustain."
+  },
+  "playing": [
+   {
+    "title": "Eat poke on minions, not face",
+    "detail": "Position so a minion is between you and Gangplank whenever his Q (Parrrley, 5s cooldown) is up. Free Q procs stack up fast over a long lane."
+   },
+   {
+    "title": "All-in right after his Q lands",
+    "detail": "The moment Parrrley is on cooldown he has no ranged answer. Walk up and trade autos — Masochism (E) is giving you bonus AD scaled to your missing health from the poke he just landed."
+   },
+   {
+    "title": "Use Infected Cleaver to poke back",
+    "detail": "Q (Infected Cleaver, 4s cooldown, 975 range) deals max-health damage and outranges his auto attacks. Throw it on cooldown during waveclear to apply the pressure OP.GG's data calls for."
+   },
+   {
+    "title": "Burning Agony during extended trades",
+    "detail": "W drains your own health but deals continual damage to anything nearby — only toggle it on once you've committed to a fight, since it's a resource drain with no benefit at range."
+   },
+   {
+    "title": "Save Sadism for all-in confirmation",
+    "detail": "R (Sadism, 75s cooldown) trades HP for move speed and heavy regen. Pop it to close the gap for a kill or to disengage with the regen if the trade goes bad."
+   },
+   {
+    "title": "Respect Remove Scurvy resets",
+    "detail": "His W (22/21/20/19/18s cooldown) clears CC and heals him — don't commit your full combo expecting a kill right as his W comes off cooldown."
+   },
+   {
+    "title": "Track his ultimate charges for splitpush",
+    "detail": "Cannon Barrage (R, 120/115/110/120/120s cooldown) can zone you off a side lane from anywhere on the map. Push mid-wave before committing to a long split so you aren't caught standing in it."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and the 54.2% head-to-head win rate over 358 games are measured OP.GG data from the current patch; the trade-pattern and timing read is our own coaching judgment."
+ },
+ "generatedAt": 1791650941482,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791650907141,
+  "overall": {
+   "winRate": 50.4,
+   "play": 18234,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 358,
+   "wins": 194,
+   "winRate": 54.2
+  },
+  "laneAdvantage": "Gangplank",
+  "soloKillAdvantage": "Gangplank",
+  "playStyle": "even",
+  "opponentTip": "Avoid being hit with Grasp of the Undying - (Q) pokes too often during early game! Use [Q] to poke often to apply pressure.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 52.8,
+    "play": 218,
+    "pickRate": 48.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 52,
+    "play": 171,
+    "pickRate": 37.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 52.3,
+    "play": 44,
+    "pickRate": 9.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 51.9,
+    "play": 235,
+    "pickRate": 51.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.8,
+    "play": 52,
+    "pickRate": 11.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.8,
+    "play": 332,
+    "pickRate": 76.9
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52.1,
+    "play": 96,
+    "pickRate": 22.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 56.9,
+    "play": 239,
+    "pickRate": 59.3
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.3,
+    "play": 149,
+    "pickRate": 37
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 66.1,
+    "play": 62,
+    "pickRate": 22.1
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Randuin's Omen"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 11.4
+   },
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Spirit Visage"
+    ],
+    "winRate": 57.1,
+    "play": 28,
+    "pickRate": 10
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 56.7,
+    "play": 420,
+    "pickRate": 93.3
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 56.3,
+    "play": 359,
+    "pickRate": 79.8
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 66.7,
+    "play": 141,
+    "pickRate": 31.3
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 65.4,
+    "play": 130,
+    "pickRate": 28.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 60.2,
+    "play": 123,
+    "pickRate": 27.3
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 51,
+    "play": 49,
+    "pickRate": 10.9
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 55.4,
+    "play": 204
+   }
+  ]
+ }
+}

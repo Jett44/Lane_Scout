@@ -1,0 +1,384 @@
+{
+ "you": "Dr. Mundo",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade autos into an up Counter Strike; you win if you poke with Q and only close in once it's down."
+  },
+  "thesis": "Jax has zero ranged poke, so Dr. Mundo's Q (Infected Cleaver, 975 range, 4s cooldown, max-health damage) lets him chip Jax for free from outside auto range. The entire lane hinges on respecting the 300-range threat of Jax's E (Counter Strike) — walk into it and he dodges your autos then stuns and punishes; wait it out and you get a free window to all-in.",
+  "tell": {
+   "watch": "Jax's Counter Strike cooldown",
+   "theirWindow": {
+    "when": "Counter Strike (E) is off cooldown",
+    "what": "He will bait an auto, dodge it, then stun and follow with an Empowered (W) strike. Do not trade in melee here — throw Q from range instead."
+   },
+   "yourWindow": {
+    "when": "right after Jax uses Counter Strike",
+    "what": "It's down for 18/16/14/12/10s depending on rank — step in and chain Q, Burning Agony (W) ticks, and autos since he has no stun to punish you with."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Only one ability each; Q range lets you poke safely"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Jax's Q/E ranks up, all-in power spikes"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Sadism (R) online, sustain swings skirmishes back"
+   },
+   {
+    "levels": "9-13",
+    "edge": "them",
+    "note": "Shorter Counter Strike cooldown, R attack-speed stacking"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Health stacking from core build outtanks him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "Blunts Jax's auto-attack harass and Empowered pokes while you wait for Q poke windows to open up."
+   },
+   "boots": {
+    "item": "Boots of Swiftness",
+    "why": "The extra movement speed lets you stay just outside the 300-range Counter Strike threat while still landing Q."
+   },
+   "core": [
+    {
+     "item": "Warmog's Armor",
+     "why": "Max-health stacking directly scales your Q damage and buys time for Adrenaline Rush to heal you back up between trades."
+    },
+    {
+     "item": "Heartsteel",
+     "why": "More max health for the same reason, plus stacking damage that rewards surviving extended auto exchanges with Jax."
+    },
+    {
+     "item": "Titanic Hydra",
+     "why": "Adds flat damage and a max-health-scaling proc so your trades keep hurting even once you're a wall of health."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "jax is stacking attack speed and leaning on relentless assault (r) to win extended auto trades"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're getting outsustained or need the grievous wounds component early"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "the enemy team adds meaningful magic damage and you need the heal amp with warmog's"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the max-health stacking build and heals you every proc, letting you win the slow war of attrition against Jax's all-in windows.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Approach Velocity"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash gives you an out if Jax lands Leap Strike into Counter Strike; Teleport lets you keep poking and resetting without losing wave control, the highest win-rate combo at 56.7%."
+  },
+  "playing": [
+   {
+    "title": "Spam Q on cooldown",
+    "detail": "At a 4s cooldown and 975 range, Infected Cleaver should hit Jax almost every time it's up — he has nothing to answer it with at range."
+   },
+   {
+    "title": "Never auto-trade into an up E",
+    "detail": "If Jax's Counter Strike is available, he dodges your attacks and stuns you for free. Stay at Q range until it's spent."
+   },
+   {
+    "title": "Punish the Counter Strike cooldown window",
+    "detail": "Once he uses E, it's down for 18/16/14/12/10s by rank — close in immediately and chain Burning Agony (W) ticks plus autos."
+   },
+   {
+    "title": "Use W to cut the stun short",
+    "detail": "Burning Agony reduces disable duration, so if you do get caught by Counter Strike, the stun on you will be shorter than expected."
+   },
+   {
+    "title": "Save Sadism for skirmishes, not just all-ins",
+    "detail": "Sadism's movement speed and regen let you out-sustain or disengage from Jax's Relentless Assault stacking in a prolonged fight."
+   },
+   {
+    "title": "Watch for his third-hit R stacks",
+    "detail": "Relentless Assault has no cooldown and deals bonus damage on every third consecutive attack — don't stand in extended auto-exchanges and eat repeated procs."
+   },
+   {
+    "title": "Rush the health-stacking core",
+    "detail": "Warmog's into Heartsteel into Titanic Hydra scales your Q damage and turns you into a wall Jax can't burst through late."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/sample figures are pulled from measured OP.GG games on the current patch; the tactical reasoning around E timing and poke windows is my own read of the kit."
+ },
+ "generatedAt": 1791650604486,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791650537958,
+  "overall": {
+   "winRate": 50.4,
+   "play": 18234,
+   "tier": 2
+  },
+  "headToHead": {
+   "play": 412,
+   "wins": 228,
+   "winRate": 55.3
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Jax",
+  "playStyle": "even",
+  "opponentTip": "Do not stand in range of (Q) when Jax is using (E). Use [Q] to create some distance! Close in to fight when (E) is on cooldown.",
+  "spells": [
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 55.4,
+    "play": 260,
+    "pickRate": 48.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 56.7,
+    "play": 210,
+    "pickRate": 38.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 54.3,
+    "play": 46,
+    "pickRate": 8.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Approach Velocity"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 55.2,
+    "play": 239,
+    "pickRate": 43.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Last Stand",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 63,
+    "pickRate": 11.5
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 55.8,
+    "play": 294,
+    "pickRate": 55.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 58,
+    "play": 231,
+    "pickRate": 43.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 62.1,
+    "play": 256,
+    "pickRate": 51.7
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 56.7,
+    "play": 203,
+    "pickRate": 41
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Warmog's Armor",
+     "Heartsteel",
+     "Titanic Hydra"
+    ],
+    "winRate": 68.4,
+    "play": 57,
+    "pickRate": 16.7
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Spirit Visage"
+    ],
+    "winRate": 64.8,
+    "play": 54,
+    "pickRate": 15.8
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Warmog's Armor",
+     "Titanic Hydra"
+    ],
+    "winRate": 53.7,
+    "play": 41,
+    "pickRate": 12
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 57.9,
+    "play": 513,
+    "pickRate": 94.1
+   },
+   {
+    "items": [
+     "Warmog's Armor"
+    ],
+    "winRate": 57.9,
+    "play": 435,
+    "pickRate": 79.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 59.8,
+    "play": 179,
+    "pickRate": 32.8
+   },
+   {
+    "items": [
+     "Titanic Hydra"
+    ],
+    "winRate": 66.4,
+    "play": 146,
+    "pickRate": 26.8
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.5,
+    "play": 97,
+    "pickRate": 17.8
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50.7,
+    "play": 73,
+    "pickRate": 13.4
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "E",
+     "W",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 58.6,
+    "play": 227
+   }
+  ]
+ }
+}

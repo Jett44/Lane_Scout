@@ -1,0 +1,390 @@
+{
+ "you": "Camille",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even, passive lane",
+   "line": "You lose if you let Tahm stack An Acquired Taste for free and get stun-comboed on cooldown; you win if you track his Abyssal Dive cooldown and punish the window with Hookshot into Hextech Ultimatum."
+  },
+  "thesis": "Tahm Kench's Q (Tongue Lash) has 900 range and applies a stack of An Acquired Taste on hit; at 3 stacks the next Q or auto stuns you outright, and he can convert that stun into a full combo or a Devour. The matchup is measured even (48.1% win rate over 160 games) but solo-kill advantage sits with Tahm, meaning the fight is lost in exchanges you don't need to take. Your Hookshot and Ultimatum exist to force fights on your terms, not his.",
+  "tell": {
+   "watch": "Your An Acquired Taste stack count",
+   "theirWindow": {
+    "when": "you're sitting at 2 stacks of his passive",
+    "what": "Disengage now. The next Tongue Lash or auto stuns you, and Tahm Kench's E (Thick Skin) has been banking damage he's taken while out of combat, so he can shield through your follow-up punish."
+   },
+   "yourWindow": {
+    "when": "his Abyssal Dive (21/20/19/18/17s) is down",
+    "what": "Tahm has no way to dive away or reposition. Hookshot to a wall for the knock-up, then dash in with The Hextech Ultimatum to anchor him so he's locked in the fight for its duration."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Long Q poke wins free trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Hookshot opens trades once online"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Ultimate punishes his dive cooldown"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Stacks still risk the stun combo"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Sustain build out-scales his tankiness"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade + Health Potion",
+    "why": "Run with the 44.9% win rate, 74.9% pick-rate start. The extra sustain from the potion matters here because Tahm's Tongue Lash heals him on hit, so you need to match his lane sustain rather than get out-poked for free."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "58.2% pick, 44.3% win rate. Tahm Kench's full kit (Tongue Lash, Abyssal Dive, Devour) is magic damage, and the tenacity shortens how long you're slowed after eating a Q, which is exactly the window he uses to stack you further."
+   },
+   "core": [
+    {
+     "item": "Trinity Force",
+     "why": "First major spike in the most common and highest-sample build path (48.8% win rate, 40.2% pick). Until this completes you should be playing for farm and short trades, not extended duels."
+    },
+    {
+     "item": "Ravenous Hydra",
+     "why": "Sustained damage and healing to outlast his Thick Skin shield and An Acquired Taste lifesteal in extended fights once you commit."
+    },
+    {
+     "item": "Death's Dance",
+     "why": "The highest-sample finish on this path (43 games, 48.8% win rate). Damage mitigation and the heal-over-time cover the burst window right after his third-stack stun."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spear of Shojin",
+     "when": "you're ahead and want the cooldown reduction to chain Precision Protocol and Hookshot more often (61.9% win rate on this path)"
+    },
+    {
+     "item": "Sterak's Gage",
+     "when": "he's consistently landing stacks on you and you need raw survivability to outlast the poke (66.7% win rate on this path)"
+    },
+    {
+     "item": "Plated Steelcaps",
+     "when": "you'd rather trade flat damage reduction for the tenacity, such as against a physical-heavy enemy team"
+    },
+    {
+     "item": "Tiamat",
+     "when": "you want an earlier sustain and clear component before finishing Ravenous Hydra"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp converts your attacks into bonus max health and healing on a per-enemy timer, which directly counters a lane where Tahm's Q heals him and his E banks free sustain. The extra max health also scales your passive, Adaptive Defenses, into a larger shield.",
+   "primary": [
+    "Shield Bash",
+    "Bone Plating",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is the most played combo (60.8% pick) and the Ignite secures kills during the short all-in windows when his Abyssal Dive is down and he can't sustain through the burn. Teleport + Ignite posts the highest measured win rate (61.5%) if you'd rather skip early skirmishes entirely and play the scaling, split-push version of the lane instead."
+  },
+  "playing": [
+   {
+    "title": "Count stacks, not health",
+    "detail": "Track how many times Tongue Lash or his autos have landed on you. At 2 stacks, disengage immediately; the third stacks stuns you and opens a full combo."
+   },
+   {
+    "title": "Trade only when his dive is down",
+    "detail": "Abyssal Dive is his one reposition tool on a 21/20/19/18/17s cooldown. Once you've seen it used, that's your window to commit with Hookshot and Ultimatum."
+   },
+   {
+    "title": "Delay your Q recast",
+    "detail": "Precision Protocol's recast does significantly more bonus damage if you wait between the two attacks. Hold the second hit for the moment right after your Hookshot lands, not immediately."
+   },
+   {
+    "title": "Land Tactical Sweep on the outer rim",
+    "detail": "Tactical Sweep has a cast delay and only slows, deals extra damage, and heals you off the outer half of the cone. Step back slightly before casting so he walks into the rim instead of the dead-center inner cone."
+   },
+   {
+    "title": "Pre-position near a wall",
+    "detail": "Hookshot requires a wall to leap from and is your only gap-closer besides Precision Protocol's move speed. Know where the nearest usable wall is before you commit to any trade."
+   },
+   {
+    "title": "Respect Devour at 3 stacks",
+    "detail": "Once he has 3 stacks on you, Devour is live and deals magic damage on top of whatever combo he's running. Back off rather than continuing to trade autos at that point."
+   },
+   {
+    "title": "Play for the Trinity Force spike",
+    "detail": "Your first real power spike is completing Trinity Force. Prioritize farm and short pokes with Precision Protocol over forcing extended fights until it's done."
+   }
+  ],
+  "patchCaveat": "All win rates, build paths, runes, and summoner spells above are measured from current-patch OP.GG data (160 games for this matchup); the mechanical reasoning, timing windows, and trade patterns are my own tactical read, not measured stats."
+ },
+ "generatedAt": 1791652008966,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791651890021,
+  "overall": {
+   "winRate": 50.8,
+   "play": 24315,
+   "tier": 1
+  },
+  "headToHead": {
+   "play": 160,
+   "wins": 77,
+   "winRate": 48.1
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "Tahm Kench is a strong laner. Avoid gaining three stacks on his passive! Use (W) to manage your distance while waiting for a gank to kill him!",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 42.2,
+    "play": 135,
+    "pickRate": 60.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 40.4,
+    "play": 47,
+    "pickRate": 21.2
+   },
+   {
+    "names": [
+     "Teleport",
+     "Ignite"
+    ],
+    "winRate": 61.5,
+    "play": 39,
+    "pickRate": 17.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 38.7,
+    "play": 62,
+    "pickRate": 27.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Bone Plating",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 55.2,
+    "play": 29,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 44.9,
+    "play": 158,
+    "pickRate": 74.9
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 43.6,
+    "play": 39,
+    "pickRate": 18.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 44.3,
+    "play": 106,
+    "pickRate": 58.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 48.1,
+    "play": 54,
+    "pickRate": 29.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Death's Dance"
+    ],
+    "winRate": 48.8,
+    "play": 43,
+    "pickRate": 40.2
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Spear of Shojin"
+    ],
+    "winRate": 61.9,
+    "play": 21,
+    "pickRate": 19.6
+   },
+   {
+    "items": [
+     "Trinity Force",
+     "Ravenous Hydra",
+     "Sterak's Gage"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 11.2
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Trinity Force"
+    ],
+    "winRate": 45.5,
+    "play": 224,
+    "pickRate": 98.7
+   },
+   {
+    "items": [
+     "Ravenous Hydra"
+    ],
+    "winRate": 47.2,
+    "play": 180,
+    "pickRate": 79.3
+   },
+   {
+    "items": [
+     "Death's Dance"
+    ],
+    "winRate": 51.6,
+    "play": 64,
+    "pickRate": 28.2
+   },
+   {
+    "items": [
+     "Spear of Shojin"
+    ],
+    "winRate": 56.8,
+    "play": 37,
+    "pickRate": 16.3
+   },
+   {
+    "items": [
+     "Sterak's Gage"
+    ],
+    "winRate": 63.3,
+    "play": 30,
+    "pickRate": 13.2
+   },
+   {
+    "items": [
+     "Tiamat"
+    ],
+    "winRate": 47.6,
+    "play": 21,
+    "pickRate": 9.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "W",
+     "Q",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "E",
+     "Q",
+     "E",
+     "R",
+     "E",
+     "E",
+     "W",
+     "W"
+    ],
+    "winRate": 45.3,
+    "play": 64
+   }
+  ]
+ }
+}
