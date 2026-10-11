@@ -1,0 +1,388 @@
+{
+ "you": "Tahm Kench",
+ "them": "Gwen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Uphill lane",
+   "line": "You lose if you feed Q stacks into an empty Hallowed Mist and all-in blind; you win if you wait out her W and E cooldowns before committing."
+  },
+  "thesis": "Gwen's passive, A Thousand Cuts, adds bonus magic damage to her autos based on your health, which means the more max HP you stack for your own passive, An Acquired Taste, the harder every Gwen auto hits you and the more she heals. Her W, Hallowed Mist, also makes her untargetable to anything outside the cloud, so your Q (Tongue Lash) cannot land stacks or the stun unless you physically walk into the mist with her. That combination is why the measured head-to-head sits at 38.9% over 162 games against your 50.7% baseline in the role.",
+  "tell": {
+   "watch": "Gwen's Hallowed Mist cooldown",
+   "theirWindow": {
+    "when": "Whenever Hallowed Mist (W) is up",
+    "what": "She can pop it the instant you commit Q (Tongue Lash) or walk up, making her untargetable until you enter the mist. Do not throw Q at her from range here — farm Q onto minions for the slow-based wave control instead and let the cooldown burn."
+   },
+   "yourWindow": {
+    "when": "Her W (Hallowed Mist) and E on cooldown",
+    "what": "With no mist to hide in and no Skip 'n Slash dash to disengage, she has to trade autos in the open. This is when you land the 3-stack Q stun and commit, since she cannot reposition out of your follow-up."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Your Q range (900) outranges her kit pre-W"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Mist online, she farms immune to engage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "Needlework (R) adds slow and burst"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Thick Skin shield offsets her auto poke"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Devour peel wins teamfights, not duels"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Gwen's early trading is all autos and Q snips, and Doran's Shield's damage block directly reduces the poke you take while her passive is still weak."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Her entire kit is magic damage, so flat MR outvalues the tenacity-light alternative here; 38.6% win rate over 101 games is the clearest signal in the data."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacks the max HP your passive scales off, and is the first item in the highest-performing build path (78.6% over 14 games)."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in that same 78.6% line, keeps your power curve on track into mid game."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Closes out the best-performing core path and adds the magic penetration your HP-stacking build otherwise lacks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "she is already ahead and her passive lifesteal is keeping her topped off through your trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "her sustain off A Thousand Cuts is the reason you can't close out all-ins"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need an early answer to her poke and sustain before your core is online"
+    },
+    {
+     "item": "Dark Seal",
+     "when": "you get ahead early and want to snowball the lane into a kill lead"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Grasp's on-hit heal and permanent HP gain directly counter her poke-and-sustain pattern, and it's the keystone on the higher-sample page (36.2% over the larger pool).",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the most-run (55.5% pick) and best-performing (47.4%) spell pair in this matchup, and Ignite's grievous wounds cuts directly into the healing her passive, A Thousand Cuts, generates."
+  },
+  "playing": [
+   {
+    "title": "Don't Q an empty lane",
+    "detail": "If Hallowed Mist (W) is up, your Q (Tongue Lash) can't land stacks on her from outside it. Hold Q for wave control and wait for her W to go on cooldown before you commit it to her."
+   },
+   {
+    "title": "Count to three before all-in",
+    "detail": "You need 3 stacks of An Acquired Taste from Q hits before a 4th Q stuns her. Don't walk up to trade until you can see that stun is one hit away."
+   },
+   {
+    "title": "Shield before her auto strings",
+    "detail": "Thick Skin (E) only converts stored damage you've already banked into a shield, so pre-activate it as she starts stacking autos, not after she's already burst you."
+   },
+   {
+    "title": "Devour is peel, not a duel tool",
+    "detail": "Save Devour (R) for teamfights where it shields an ally or removes a carry from the fight; it costs you nothing on cooldown, so use it liberally once allies are nearby."
+   },
+   {
+    "title": "Itemize MR over raw HP",
+    "detail": "Her passive scales off your health total, so pure HP stacking without matching magic resist makes every auto she lands hit harder. Prioritize Riftmaker's resistances and consider Spirit Visage if she's snowballing."
+   },
+   {
+    "title": "Punish her dash cooldown",
+    "detail": "Skip 'n Slash (E) only refunds cooldown if she hits something during its attack speed window. If she whiffs it, her mobility is down for 11-13 seconds — that's your all-in window alongside her W."
+   },
+   {
+    "title": "Play for 14+, not for lane kills",
+    "detail": "The curve favors you after both ultimates matter in teamfights, not in a straight 1v1 lane. Play even in the midgame, scale your HP and MR, and let Devour and Thick Skin win fights later."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoner spells, and win rates above are measured from real games on the current patch via OP.GG; the mechanical reasoning and trade-pattern advice are this brief's own analysis, not measured data."
+ },
+ "generatedAt": 1791687483919,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791687398440,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 162,
+   "wins": 63,
+   "winRate": 38.9
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 47.4,
+    "play": 116,
+    "pickRate": 55.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 33.3,
+    "play": 39,
+    "pickRate": 18.7
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 46.7,
+    "play": 15,
+    "pickRate": 7.2
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 36.2,
+    "play": 94,
+    "pickRate": 44.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 65.6,
+    "play": 32,
+    "pickRate": 15.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 44.9,
+    "play": 138,
+    "pickRate": 68.3
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 45.8,
+    "play": 48,
+    "pickRate": 23.8
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 38.6,
+    "play": 101,
+    "pickRate": 54.9
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49,
+    "play": 51,
+    "pickRate": 27.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 78.6,
+    "play": 14,
+    "pickRate": 14.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 10.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 57.1,
+    "play": 7,
+    "pickRate": 7.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 46.6,
+    "play": 163,
+    "pickRate": 77.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 45.8,
+    "play": 131,
+    "pickRate": 62.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 54,
+    "play": 50,
+    "pickRate": 23.8
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 67.6,
+    "play": 34,
+    "pickRate": 16.2
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 35.3,
+    "play": 34,
+    "pickRate": 16.2
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 46.9,
+    "play": 32,
+    "pickRate": 15.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 38.6,
+    "play": 44
+   }
+  ]
+ }
+}

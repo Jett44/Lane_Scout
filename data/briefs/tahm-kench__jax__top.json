@@ -1,0 +1,375 @@
+{
+ "you": "Tahm Kench",
+ "them": "Jax",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Even matchup",
+   "line": "You lose if you feed autos into Counter Strike's dodge-stun before level 6; you win if you poke with Q from range and hold Devour for his all-in."
+  },
+  "thesis": "Jax's entire trade pattern hinges on E (Counter Strike), 18/16/14/12/10s cooldown, which dodges all basic attacks for its duration and then stuns and damages everyone around him when it ends — that stun is what turns a normal exchange into a kill. Tahm's Q (Tongue Lash) outranges that interaction by 600 units (900 vs Jax's 300 E range), so the lane is decided by whether you poke from distance or walk into auto range while his dodge window is live. At 49.7% over 187 games this is a genuine coinflip, not a losing lane — the deciding factor is who respects the other's cooldowns better.",
+  "tell": {
+   "watch": "Jax's Counter Strike cooldown",
+   "theirWindow": {
+    "when": "Counter Strike and Leap Strike both ready",
+    "what": "Do not auto-attack into him here — he'll dodge your hits with E then stun you when it ends, and Q (Leap Strike) lets him close the gap you just opened. Poke with Q (900 range, 7/6.5/6/5.5/5s cooldown) instead and back off."
+   },
+   "yourWindow": {
+    "when": "Jax's E is on cooldown",
+    "what": "OP.GG's own read holds: he's an easy target without E. Walk up and trade autos freely, land Q for the slow and the An Acquired Taste stack, and consider Devour if he's already at three stacks."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Jax's Q starts at 17s cooldown, low pressure"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W empower plus E baits trades you lose"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "both ultimates online, stacks decide fights"
+   },
+   {
+    "levels": "9-18",
+    "edge": "you",
+    "note": "Heartsteel health scaling outpaces his attack speed"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "51.9% win rate over 158 games and the higher pick rate (64.2%) over Doran's Helm — the flat damage reduction on the first attack from a champion blunts Jax's auto-reliant poke before level 6."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50.4% win rate over 137 games and the clear pick-rate favorite (59.1%) — directly reduces incoming basic attack damage, which is exactly how Jax deals damage via R (Relentless Assault) stacking."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacks bonus health from landing abilities, which directly scales Tahm's passive (extra damage based on total health) and his Thick Skin shield pool."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Follows Heartsteel in the highest win-rate path measured (77.3% over 22 games)."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Completes the top core path (77.3% win rate, 17.9% pick) — adds sustained magic damage that scales with the health you're already stacking."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "jax builds into attack speed and starts winning extended auto trades through your shield"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "the enemy team adds burst magic damage alongside jax's physical pressure"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you need the grievous wounds and early armor spike before heartsteel finishes stacking"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on your first hit per fight, healing you and growing your max health — that health growth directly increases both your passive damage and your Thick Skin shield cap, so it compounds with the build rather than just sustaining lane.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The top measured page (51% win rate, 59.8% pick) — Ignite punishes Jax's all-in the moment Counter Strike goes down and secures the solo kill in a lane that's otherwise a dead coinflip, while Flash covers Devour engages and E-dodge punishes."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't auto",
+    "detail": "Use Q at its full 900 range to build An Acquired Taste stacks and heal without ever feeding Counter Strike a target — Jax's E only reaches 300 range, so standing outside it denies him the dodge entirely."
+   },
+   {
+    "title": "Track Counter Strike's cooldown",
+    "detail": "It's 18/16/14/12/10s. Once he burns it baiting a stun or dodging your autos, that full window is yours to walk up and trade freely, exactly as OP.GG's own tip describes."
+   },
+   {
+    "title": "Hold R for a stacked Jax",
+    "detail": "Devour has no cooldown of its own but needs three stacks of An Acquired Taste from Q and autos landing — build those stacks first, then Devour him out of his all-in instead of trying to out-trade Relentless Assault."
+   },
+   {
+    "title": "Pop E's shield before he commits",
+    "detail": "Thick Skin passively stores a percent of damage taken while out of combat; activate it right as he leaps in with Q (Leap Strike) so his burst lands on a shield instead of your health bar."
+   },
+   {
+    "title": "Respect R once it's online at 6",
+    "detail": "Relentless Assault gives him attack speed per hit with bonus damage every third swing — he wins extended auto trades the moment it's up, so disengage with Q's slow rather than standing and trading autos."
+   },
+   {
+    "title": "Prioritize Heartsteel stacks 6-11",
+    "detail": "Your passive scales off total health, so farming camps and poke for Heartsteel stacks in this window is what flips the lane from even to favored by level 9."
+   }
+  ],
+  "patchCaveat": "Build paths, rune pages, and win rates are pulled directly from measured Tahm Kench vs Jax games on the current patch (16.20.1, 187 games); the cooldown numbers and the tactical reading of how those cooldowns interact are my own analysis."
+ },
+ "generatedAt": 1791686944946,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791686849485,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17747,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 187,
+   "wins": 93,
+   "winRate": 49.7
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "As his (E) blocks basic attacks, use [Q] to create some distance before reengaging when (E) is on cooldown. He is an easy target without (E).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51,
+    "play": 149,
+    "pickRate": 59.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 42,
+    "pickRate": 16.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 41.2,
+    "play": 17,
+    "pickRate": 6.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.8,
+    "play": 130,
+    "pickRate": 51.6
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 44.4,
+    "play": 18,
+    "pickRate": 7.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.9,
+    "play": 158,
+    "pickRate": 64.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 47.1,
+    "play": 70,
+    "pickRate": 28.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.4,
+    "play": 137,
+    "pickRate": 59.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 46.8,
+    "play": 62,
+    "pickRate": 26.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 77.3,
+    "play": 22,
+    "pickRate": 17.9
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 75,
+    "play": 16,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 7.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 54,
+    "play": 211,
+    "pickRate": 84.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 53.6,
+    "play": 151,
+    "pickRate": 60.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 58.6,
+    "play": 58,
+    "pickRate": 23.2
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 63,
+    "play": 54,
+    "pickRate": 21.6
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 41.7,
+    "play": 48,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 55.3,
+    "play": 38,
+    "pickRate": 15.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.2,
+    "play": 62
+   }
+  ]
+ }
+}

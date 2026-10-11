@@ -1,0 +1,387 @@
+{
+ "you": "Jayce",
+ "them": "Tahm Kench",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Hard early, winnable",
+   "line": "You lose if you trade poke damage into his Thick Skin sustain and eat a stacked Tongue Lash stun behind his level-6 Abyssal Dive/Devour; you win if you deny those resets and convert your Mercury Hammer burst combo into a lead once Tear and Youmuu's come online."
+  },
+  "thesis": "Tahm Kench's E (Thick Skin) passively banks a percentage of damage he takes and heals it back out of combat, so Jayce's ranged poke gets refunded unless he commits to a full trade. His Q (Tongue Lash) stacks An Acquired Taste toward a stun on the third hit, which is the setup for the W (Abyssal Dive) knockup into R (Devour) all-in that produces his solo-kill edge. That structural mismatch between Jayce's chip-damage kit and Tahm's damage-to-sustain conversion is why Jayce sits at 44.8% over 210 games despite having the longer-range tools.",
+  "tell": {
+   "watch": "Your Acquired Taste stack count",
+   "theirWindow": {
+    "when": "3 stacks on you + W up",
+    "what": "His next Tongue Lash stuns and consumes the stacks, and with Abyssal Dive available he can knock you up into a Devour. Disengage before the fourth Q lands rather than trading through it."
+   },
+   "yourWindow": {
+    "when": "He just used E to shield off a trade",
+    "what": "Thick Skin's stored damage resets once he converts it to a shield, so immediately follow up with Cannon Q (Shock Blast) through the Acceleration Gate for free poke he can't sustain back."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Tongue Lash poke outheals your early Shock Blast chip"
+   },
+   {
+    "levels": "4-6",
+    "edge": "them",
+    "note": "Abyssal Dive online, all-in threat spikes"
+   },
+   {
+    "levels": "7-9",
+    "edge": "even",
+    "note": "Mercury Hammer transform gives you a real punish"
+   },
+   {
+    "levels": "10-14",
+    "edge": "even",
+    "note": "Tear/Youmuu spike lets you dodge his dive-stun"
+   },
+   {
+    "levels": "15-18",
+    "edge": "you",
+    "note": "Full build siege damage outscales his peel kit"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Blade",
+    "why": "94.7% pick rate at 45.2% WR over 248 games; the sustained damage and lifesteal matter more here than Doran's Shield's block-chip since you're trying to win extended pokes, not tank his auto resets."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "45.3% WR over 64 games, better than Lucidity Boots' 41.1%. The tenacity shortens the stun window off his stacked Tongue Lash and the magic resist blunts Abyssal Dive and Devour, both magic damage."
+   },
+   "core": [
+    {
+     "item": "Tear of the Goddess",
+     "why": "First item on the highest-winrate core path (50% over 18 games) and lets you spam Shock Blast poke without running dry."
+    },
+    {
+     "item": "Youmuu's Ghostblade",
+     "why": "The active haste and burst let you dodge the Abyssal Dive knockup and close the gap for a Mercury Hammer leap-and-knock combo."
+    },
+    {
+     "item": "Muramana",
+     "why": "Converts your stacked mana into the burst damage that actually outpaces his Thick Skin regen instead of just chipping it."
+    },
+    {
+     "item": "Voltaic Cyclosword",
+     "why": "Completes the 50%-winrate path and adds the burst/mobility to punish him the moment his shield is down."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Black Cleaver",
+     "when": "he's stacking health and armor off his max-HP-scaling autos"
+    },
+    {
+     "item": "Serpent's Fang",
+     "when": "his team is layering shields on top of his Thick Skin to blunt your poke"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Highest-winrate page here (51.2% over Stormraider's 47.7%); the free sustain and max-HP scaling let you actually survive his Tongue Lash poke phase instead of losing the chip war to his Thick Skin regen.",
+   "primary": [
+    "Demolish",
+    "Second Wind",
+    "Overgrowth"
+   ],
+   "secondary": [
+    "Magical Footwear",
+    "Biscuit Delivery"
+   ],
+   "shards": [
+    "Adaptive Force",
+    "Adaptive Force",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Ignite's 48.9% WR beats Teleport's 44.3% here specifically because it cuts the healing from his Tongue Lash passive and Thick Skin's out-of-combat regen, turning your poke into damage that actually sticks instead of getting refunded."
+  },
+  "playing": [
+   {
+    "title": "Poke through the Acceleration Gate",
+    "detail": "Stay in Cannon stance and fire Q (Shock Blast) through your own E (Acceleration Gate) for the extended range, speed, and damage bonus, keeping you outside his 900-range Tongue Lash threat while he's unstacked."
+   },
+   {
+    "title": "Track your Acquired Taste stacks",
+    "detail": "The buff icon on your bar shows his stack count on you; at 3 stacks his next Tongue Lash stuns and consumes them, so disengage before that fourth hit rather than trading through it."
+   },
+   {
+    "title": "Don't chip without a follow-up",
+    "detail": "His E (Thick Skin) banks a percent of damage taken and heals it back out of combat, so poke you don't capitalize on gets refunded. Either commit to a full trade or hold the auto."
+   },
+   {
+    "title": "Punish his shield reset",
+    "detail": "Once he converts stored Thick Skin damage into a shield to survive a trade, his bank is empty. That's the window to immediately re-engage with free poke."
+   },
+   {
+    "title": "Respect level 6 all-ins",
+    "detail": "Once he has R (Devour) and W (Abyssal Dive) off cooldown, a knockup into a Devour can solo-kill you. Don't stand in minion-clear range when both are up."
+   },
+   {
+    "title": "Transform to Hammer for picks",
+    "detail": "After he's dumped his stacks or W on a missed engage, use R to become Mercury Hammer, leap with Q (To the Skies!), and knock him off position with E (Thundering Blow) before he can Devour you."
+   },
+   {
+    "title": "Rush Tear into Youmuu's",
+    "detail": "The 50%-winrate Tear-into-Youmuu's-into-Muramana path gives you the mana sustain to keep poking and the mobility to dodge his dive-stun combo once you hit that item spike."
+   }
+  ],
+  "patchCaveat": "Win rates, build paths, boots, runes, and summoner spells above are measured from live games on the current patch via OP.GG; the mechanical reasoning tying those numbers to Thick Skin's sustain conversion and the Tongue Lash stack-stun is my own tactical read."
+ },
+ "generatedAt": 1791686701980,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791686585452,
+  "overall": {
+   "winRate": 47.9,
+   "play": 38173,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 210,
+   "wins": 94,
+   "winRate": 44.8
+  },
+  "laneAdvantage": "Tahm Kench",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "defensive",
+  "opponentTip": "Be careful as Tahm Kench’s (Q) can be fatal. Use Phase Rush and focus your plays on farming and contesting lane. Use brushes to poke from afar.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 44.3,
+    "play": 167,
+    "pickRate": 63.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 48.9,
+    "play": 92,
+    "pickRate": 35
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 50,
+    "play": 2,
+    "pickRate": 0.8
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Sorcery",
+    "primary": [
+     "Stormraider's Surge",
+     "Manaflow Band",
+     "Absolute Focus",
+     "Gathering Storm"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 47.7,
+    "play": 44,
+    "pickRate": 16.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Demolish",
+     "Second Wind",
+     "Overgrowth"
+    ],
+    "secondaryTree": "Inspiration",
+    "secondary": [
+     "Magical Footwear",
+     "Biscuit Delivery"
+    ],
+    "shards": [
+     "Adaptive Force",
+     "Adaptive Force",
+     "Health Scaling"
+    ],
+    "winRate": 51.2,
+    "play": 43,
+    "pickRate": 16.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Blade",
+     "Health Potion"
+    ],
+    "winRate": 45.2,
+    "play": 248,
+    "pickRate": 94.7
+   },
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 2.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Ionian Boots of Lucidity"
+    ],
+    "winRate": 41.1,
+    "play": 95,
+    "pickRate": 39.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 45.3,
+    "play": 64,
+    "pickRate": 26.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Youmuu's Ghostblade",
+     "Muramana",
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 50,
+    "play": 18,
+    "pickRate": 10.2
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Serpent's Fang"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 5.1
+   },
+   {
+    "items": [
+     "Tear of the Goddess",
+     "Eclipse",
+     "Muramana",
+     "Serylda's Grudge"
+    ],
+    "winRate": 37.5,
+    "play": 8,
+    "pickRate": 4.6
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Muramana"
+    ],
+    "winRate": 46.9,
+    "play": 192,
+    "pickRate": 73.3
+   },
+   {
+    "items": [
+     "Eclipse"
+    ],
+    "winRate": 42.6,
+    "play": 115,
+    "pickRate": 43.9
+   },
+   {
+    "items": [
+     "Serpent's Fang"
+    ],
+    "winRate": 50,
+    "play": 90,
+    "pickRate": 34.4
+   },
+   {
+    "items": [
+     "Youmuu's Ghostblade"
+    ],
+    "winRate": 51.1,
+    "play": 90,
+    "pickRate": 34.4
+   },
+   {
+    "items": [
+     "Voltaic Cyclosword"
+    ],
+    "winRate": 52.3,
+    "play": 86,
+    "pickRate": 32.8
+   },
+   {
+    "items": [
+     "Black Cleaver"
+    ],
+    "winRate": 52.4,
+    "play": 63,
+    "pickRate": 24.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 40.7,
+    "play": 59
+   }
+  ]
+ }
+}

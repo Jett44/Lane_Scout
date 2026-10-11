@@ -1,0 +1,380 @@
+{
+ "you": "Tahm Kench",
+ "them": "Gangplank",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you eat early Parrrley poke without closing distance; you win if you land Q to stack and chain into Devour before he can Remove Scurvy the stun."
+  },
+  "thesis": "This is an even matchup at 50.5% over 210 games because both champions win lane through the same mechanic: landing a CC-into-burst combo versus poking from range and denying it. Gangplank's Q (Parrrley) has a 625 range and 5s cooldown, letting him pay you back any trade you start with autos or Q; your W (Abyssal Dive) and stacked Q stun are only threatening once you've closed to point-blank. Whoever controls the gap-close window controls the lane.",
+  "tell": {
+   "watch": "His Remove Scurvy (W) cooldown",
+   "theirWindow": {
+    "when": "Remove Scurvy is up, you're at range",
+    "what": "He can freely trade Parrrley into you and cleanse any slow from your Q, so don't walk into poke range without a plan to close the gap."
+   },
+   "yourWindow": {
+    "when": "He's used Remove Scurvy or you have 3 stacks",
+    "what": "Land Q to stun him immediately (stacks consumed at 3), then Devour (R) him on the spot — his Grog-Soaked Blade poison won't save him from a point-blank swallow."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-3",
+    "edge": "them",
+    "note": "Parrrley range outpokes your melee Q threat"
+   },
+   {
+    "levels": "4-6",
+    "edge": "even",
+    "note": "W (Abyssal Dive) unlocks your engage"
+   },
+   {
+    "levels": "7-10",
+    "edge": "you",
+    "note": "Stack-stun-Devour combo kills if he's caught"
+   },
+   {
+    "levels": "11-15",
+    "edge": "even",
+    "note": "His Cannon Barrage (R) pressures sieges, not duels"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Heartsteel health makes Devour nearly unanswerable"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "81.3% pick rate at 54.8% win over 221 games — the passive block absorbs his Grog-Soaked Blade poison ticks and Parrrley pokes while you close distance."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "67.4% pick rate at 52.8% win — his autos and Parrrley are both physical, and Steelcaps directly cuts that damage down while you walk him down."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacking health scales your passive (An Acquired Taste) bonus damage and makes your eventual Devour hit harder the longer lane goes."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Follows Heartsteel in 11.4-9.3% of winning builds, giving you sustained trading power once you've closed in."
+    },
+    {
+     "item": "Thornmail",
+     "why": "56.3% win over 16 games as the third item — punishes his auto-reliant Grog-Soaked Blade poking once you're on top of him."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Riftmaker",
+     "when": "the game goes long and you need omnivamp to outsustain his poke"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "he's building toward a heavier physical damage spike and you need the extra damage reduction"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "53.8% win rate, 45.8% pick rate — the proc-on-Q healing offsets his Parrrley poke damage over the course of a long lane.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "52.3% win at 53.6% pick rate — Ignite punishes his low-mobility recall timers and secures kills once you land your stun-into-Devour combo."
+  },
+  "playing": [
+   {
+    "title": "Count your Q stacks",
+    "detail": "Every Q (Tongue Lash) that hits him applies a stack of An Acquired Taste; at 3 stacks your next Q stuns and consumes them. Track this number — it's your kill window."
+   },
+   {
+    "title": "Don't trade at his Parrrley range",
+    "detail": "His Q has 625 range and a 5s cooldown, so standing still at range just feeds him free pokes. Close the gap with W (Abyssal Dive) before trading."
+   },
+   {
+    "title": "Bait Remove Scurvy before stunning",
+    "detail": "If he still has Remove Scurvy (22-18s cooldown) up, he'll cleanse your Q stun instantly. Force him to waste it on a slow or poke first, then land the real stun."
+   },
+   {
+    "title": "Devour on stun, not on cooldown timers",
+    "detail": "R (Devour) has no cooldown restriction tied to a timer — only the 3-stack requirement. The moment he's stunned and Remove Scurvy is down, swallow him immediately."
+   },
+   {
+    "title": "Use W to engage, not just to escape",
+    "detail": "Abyssal Dive knocks up and damages all enemies in the landing area on a 21-17s cooldown. Use it proactively to close distance and force the stun-Devour sequence, not just defensively."
+   },
+   {
+    "title": "Watch his E for all-in timing",
+    "detail": "Raise Morale buffs his damage and movement speed on a 20s cooldown. If he pops it before an engage, expect a harder trade — hold Thick Skin's shield for that window."
+   },
+   {
+    "title": "Respect his ultimate near objectives",
+    "detail": "Cannon Barrage has a 120-110s cooldown and global range, so it's a siege tool, not a dueling threat. Don't play passively in lane just because he has it up."
+   }
+  ],
+  "patchCaveat": "Build, runes, and summoner picks above come from measured games on the current patch (16.20.1); the trade timing, stack-stun-Devour sequencing, and cooldown reads are my own tactical judgment."
+ },
+ "generatedAt": 1791688522413,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791688483225,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 210,
+   "wins": 106,
+   "winRate": 50.5
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "aggressive",
+  "opponentTip": "Although his (W) makes him a difficult opponent, close in after using [Q] to continue to deal damage and stun him with [Q]. If he uses (W) on the stun, use your next [P] stacks to swallow him with [W] to kill him. Be careful of being harassed by his (E) and (Q) pokes by managing your distance well.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 52.3,
+    "play": 149,
+    "pickRate": 53.6
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 49.1,
+    "play": 55,
+    "pickRate": 19.8
+   },
+   {
+    "names": [
+     "Ghost",
+     "Teleport"
+    ],
+    "winRate": 64.3,
+    "play": 14,
+    "pickRate": 5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 53.8,
+    "play": 130,
+    "pickRate": 45.8
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 58.6,
+    "play": 29,
+    "pickRate": 10.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 54.8,
+    "play": 221,
+    "pickRate": 81.3
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 47.1,
+    "play": 34,
+    "pickRate": 12.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 52.8,
+    "play": 176,
+    "pickRate": 67.4
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 54.5,
+    "play": 55,
+    "pickRate": 21.1
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 56.3,
+    "play": 16,
+    "pickRate": 11.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 84.6,
+    "play": 13,
+    "pickRate": 9.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Unending Despair"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 7.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 56.6,
+    "play": 235,
+    "pickRate": 83
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 56.3,
+    "play": 176,
+    "pickRate": 62.2
+   },
+   {
+    "items": [
+     "Randuin's Omen"
+    ],
+    "winRate": 43.1,
+    "play": 58,
+    "pickRate": 20.5
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 40.9,
+    "play": 44,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 64.3,
+    "play": 42,
+    "pickRate": 14.8
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 58.5,
+    "play": 41,
+    "pickRate": 14.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 45.7,
+    "play": 81
+   }
+  ]
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "you": "Tahm Kench",
+ "them": "Malphite",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Favoured matchup",
+   "line": "You lose if you auto-attack into an up Ground Slam and eat the attack-speed shred; you win if you poke with Q while his E is down and chain the 3-stack stun into a Devour before he hits level 6."
+  },
+  "thesis": "Malphite's Ground Slam (E) and Granite Shield exist specifically to punish auto-attack-reliant champions, which is exactly how Tahm Kench's passive deals damage — but his engage tools are slow and telegraphed compared to Tahm's Q stun chain and E shield timing. The 53.5% win rate over 370 games reflects that Tahm out-scales Malphite's trade pattern once he learns to time around the E cooldown instead of fighting through it.",
+  "tell": {
+   "watch": "His E (Ground Slam) cooldown",
+   "theirWindow": {
+    "when": "His E (Ground Slam) is up",
+    "what": "Ground Slam shreds your attack speed for a short duration, which guts the auto-attack damage your passive depends on. Back off and throw Q instead of trading autos into it."
+   },
+   "yourWindow": {
+    "when": "His E is on cooldown (7s)",
+    "what": "Step in and auto-attack freely — this is the window OP.GG's own data flags, since every attack both deals passive bonus damage and builds An Acquired Taste toward a stun."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Granite Shield absorbs your early poke trades."
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Q stacks Acquired Taste faster than he recharges shield."
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Devour threatens a kill before his R matters."
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Heartsteel health stacking outscales his shrinking shield."
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "His R cooldown drops to 80s, engages come faster."
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "The 74.7% pick rate and 51.2% win rate reflect how well its harass-sustain passive absorbs Malphite's early auto and Seismic Shard trades."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "Tenacity cuts the Seismic Shard slow short and reduces how long Unstoppable Force's knockup locks you down once he hits 6."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacking health directly scales your passive's bonus magic damage on autos and raises Devour's damage ceiling."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Standard second item on the highest-pick-rate build path for this matchup."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Best-performing third item in the data (60% over 35 games); the damage ramp keeps pressuring through Granite Shield's recharge window."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "you're already ahead and want more healing to out-sustain his poke"
+    },
+    {
+     "item": "Thornmail",
+     "when": "he's snowballing off autos or building into an attack-speed-reliant teammate"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "you need more frontline durability for teamfights later than lane"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The sustain and bonus health from every proc compounds with Heartsteel stacking and directly scales your passive's attack damage, which is the engine of this matchup.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the dominant pick (62.1% pick rate, 53.3% win rate) and matches the aggressive, solo-kill-favoured shape of this lane — Ignite secures the kill once your Q stun lands."
+  },
+  "playing": [
+   {
+    "title": "Trade only when his E is down",
+    "detail": "Ground Slam (7s cooldown) reduces attack speed on hit, which is the direct counter to your auto-attack passive. Watch its cooldown and step in only once it's spent."
+   },
+   {
+    "title": "Poke with Q while his E is up",
+    "detail": "Tongue Lash (7-5s cooldown depending on rank, 900 range) slows and stacks An Acquired Taste without exposing you to the attack-speed shred."
+   },
+   {
+    "title": "Hold Thick Skin's shield for his R",
+    "detail": "E passively stores damage taken; pop the active shield right before he charges Unstoppable Force at level 6+ to blunt the knockup burst."
+   },
+   {
+    "title": "Stun before you Devour",
+    "detail": "At 3 stacks of An Acquired Taste, Q stuns and consumes them — land that stun, then use Devour (R, 0 cooldown) for a near-guaranteed kill window if he's isolated from minions."
+   },
+   {
+    "title": "Keep hitting him to deny shield regen",
+    "detail": "Granite Shield recharges if he hasn't been hit recently, so land a Q every cooldown to keep it down ahead of your all-in."
+   },
+   {
+    "title": "Use W to punish poke, not to open",
+    "detail": "Abyssal Dive (21-17s cooldown) knocks up on landing but telegraphs hard — save it to answer a Seismic Shard poke or escape a bad trade rather than starting the fight with it."
+   },
+   {
+    "title": "Farm safely between trades",
+    "detail": "Heartsteel's health stacking scales both your passive damage and Devour's magic damage, so there's no need to force early fights — scaling wins this on its own."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate figures are measured from live games on the current patch (16.20.1); the mechanical reasoning and trade timing are my own read of the ability kits."
+ },
+ "generatedAt": 1791687693227,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791687606785,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 370,
+   "wins": 198,
+   "winRate": 53.5
+  },
+  "laneAdvantage": "Tahm Kench",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "aggressive",
+  "opponentTip": "Malphite’s (E) poses a problem to Tahm Kench as he relies heavily on basic attacks. Use [Q] when his (E) is on cooldown to kill him. After reaching level 6, be ready to use [E] before he uses (R) when fighting him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 53.3,
+    "play": 332,
+    "pickRate": 62.1
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 53.8,
+    "play": 130,
+    "pickRate": 24.3
+   },
+   {
+    "names": [
+     "Flash",
+     "Ghost"
+    ],
+    "winRate": 50,
+    "play": 24,
+    "pickRate": 4.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 55,
+    "play": 320,
+    "pickRate": 58.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 56.9,
+    "play": 58,
+    "pickRate": 10.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.2,
+    "play": 387,
+    "pickRate": 74.7
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 60.3,
+    "play": 78,
+    "pickRate": 15.1
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 52,
+    "play": 244,
+    "pickRate": 50.2
+   },
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.3,
+    "play": 129,
+    "pickRate": 26.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 54,
+    "pickRate": 19.2
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 44,
+    "pickRate": 15.6
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 60,
+    "play": 35,
+    "pickRate": 12.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53.4,
+    "play": 487,
+    "pickRate": 90.5
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 55.4,
+    "play": 368,
+    "pickRate": 68.4
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 59.1,
+    "play": 127,
+    "pickRate": 23.6
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 48,
+    "play": 102,
+    "pickRate": 19
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 61.5,
+    "play": 65,
+    "pickRate": 12.1
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 58.1,
+    "play": 62,
+    "pickRate": 11.5
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.7,
+    "play": 179
+   }
+  ]
+ }
+}

@@ -1,0 +1,375 @@
+{
+ "you": "Tahm Kench",
+ "them": "Shen",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose if you trade into Shen's W (Feint) and feed him free absorbs; you win if you bait three landed Q hits and chain the stun before his E (Shadow Dash) cooldown resets."
+  },
+  "thesis": "Shen has no tool that punishes a patient Tahm — his only answer to your poke is timing W (Feint, 9/8/7/6/5s cooldown) to absorb it, and every Q you land while it's down stacks An Acquired Taste toward a free stun. At 193 games this reads as a genuinely even lane (51.8% win rate) where the kill lead sits with you, not him.",
+  "tell": {
+   "watch": "Shen's W (Feint) shield state",
+   "theirWindow": {
+    "when": "Shen's W (Feint) is up and glowing",
+    "what": "Your Q (Tongue Lash) damage and stack application get eaten by the shield for nothing. Hold your poke, don't burn Q's 7-5s cooldown into a block, and wait him out."
+   },
+   "yourWindow": {
+    "when": "W (Feint) is on cooldown (9 down to 5s at rank 5)",
+    "what": "Land Q freely — it slows, heals you off the hit, and stacks An Acquired Taste. Chain three landed Qs for the stun, then Devour (R, level 6+) for the kill or finish with autos."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "even",
+    "note": "Neither side has stun or ult online yet"
+   },
+   {
+    "levels": "3-5",
+    "edge": "you",
+    "note": "Stack-to-stun combo comes online, no counter"
+   },
+   {
+    "levels": "6-11",
+    "edge": "even",
+    "note": "Devour (R) live, but Feint cooldown shrinks fast"
+   },
+   {
+    "levels": "12-18",
+    "edge": "you",
+    "note": "Heartsteel health stacking outweighs his scaling"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield",
+    "why": "51.9% win rate over 156 games and the higher pick (66.1%) — the passive block absorbs Shen's Vorpal Blade pokes and pairs with Second Wind for lane sustain."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "60.3% win rate over 73 games beats Plated Steelcaps' 47.1%, and the tenacity directly cuts the taunt duration from Shen's E (Shadow Dash) when he dashes in."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Builds the health total your passive (An Acquired Taste) scales bonus damage off — part of the 66.7% win rate path over 18 games."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second step of the top-performing build order on current patch data."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Completes the highest-sample winning core (66.7%, 15.7% pick) and adds the damage your health stacking alone doesn't give you."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Spirit Visage",
+     "when": "the enemy team's damage profile turns heavily magic and you want more out of your health-stacking sustain"
+    },
+    {
+     "item": "Thornmail",
+     "when": "shen or another enemy laner leans on auto-attacks or healing you need to shut down with grievous wounds"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "you're behind on gold and need an early armor and anti-heal buffer before your core finishes"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the trade pattern this lane wants — poke, step out, let E (Thick Skin) and Grasp heal you back while Shen's Feint sits on cooldown.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "The 54.2% win rate, 58.9%-picked combo matches this matchup's actual shape: solo-kill advantage sits with you, and Ignite closes out the stun-chain all-in before Shen can Feint away."
+  },
+  "playing": [
+   {
+    "title": "Hold Q until W is down",
+    "detail": "Never throw Tongue Lash into an active Feint — you're just handing him a free absorb and wasting your 7-5s cooldown window."
+   },
+   {
+    "title": "Count his stacks, not yours",
+    "detail": "Track how many Qs have landed on Shen. On the third, his next tick of An Acquired Taste stuns him and consumes the stacks — that's your all-in signal."
+   },
+   {
+    "title": "Devour the moment you can",
+    "detail": "Once R (Devour) is live at level 6, a stunned or low Shen inside your range eats true follow-up magic damage with no cast time to dodge."
+   },
+   {
+    "title": "Pre-shield the dash-in",
+    "detail": "E (Thick Skin)'s 3s cooldown lets you convert stored damage into a shield right as Shen commits his E (Shadow Dash, 16-8s cooldown) — soak the taunt-chain damage for free."
+   },
+   {
+    "title": "Don't panic at level 6",
+    "detail": "Shen's R (Stand United) is a 200-160s cooldown teleport-shield for allies elsewhere on the map, not a lane tool — it doesn't change how you fight him 1v1."
+   },
+   {
+    "title": "Respect his Q sustain in extended trades",
+    "detail": "Vorpal Blade heals him and any ally attacking the same target (6-4s cooldown) — don't tunnel long trades expecting him to run out of sustain on his own."
+   }
+  ],
+  "patchCaveat": "Build, runes, summoners, and all win-rate/sample numbers are measured from live games on the current patch via OP.GG; the stack-stun timing, Feint-window read, and overall tactical plan are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791687938500,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791687846243,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 193,
+   "wins": 100,
+   "winRate": 51.8
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "aggressive",
+  "opponentTip": "Shen’s (W) makes him a difficult target. Retreat when (W) is active and close in again by using [Q] to kill him.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 54.2,
+    "play": 142,
+    "pickRate": 58.9
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 43.8,
+    "play": 48,
+    "pickRate": 19.9
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Ghost"
+    ],
+    "winRate": 62.5,
+    "play": 16,
+    "pickRate": 6.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 49.5,
+    "play": 111,
+    "pickRate": 45.1
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 40.7,
+    "play": 27,
+    "pickRate": 11
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 51.9,
+    "play": 156,
+    "pickRate": 66.1
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 56.4,
+    "play": 55,
+    "pickRate": 23.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 47.1,
+    "play": 87,
+    "pickRate": 41.4
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 60.3,
+    "play": 73,
+    "pickRate": 34.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 66.7,
+    "play": 18,
+    "pickRate": 15.7
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 15,
+    "pickRate": 13
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 53.8,
+    "play": 13,
+    "pickRate": 11.3
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53,
+    "play": 202,
+    "pickRate": 83.8
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 56,
+    "play": 166,
+    "pickRate": 68.9
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 59.6,
+    "play": 47,
+    "pickRate": 19.5
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 63.9,
+    "play": 36,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 63.9,
+    "play": 36,
+    "pickRate": 14.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 48.5,
+    "play": 33,
+    "pickRate": 13.7
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 55.6,
+    "play": 54
+   }
+  ]
+ }
+}

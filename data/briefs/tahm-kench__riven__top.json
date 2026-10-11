@@ -1,0 +1,382 @@
+{
+ "you": "Tahm Kench",
+ "them": "Riven",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Slight uphill",
+   "line": "You lose if she chains Q into Ki Burst while all three Broken Wings charges and Valor are both up; you win once she's burned those cooldowns and you can stack Acquired Taste for free."
+  },
+  "thesis": "Riven's kit is built around burst-then-escape: Q (Broken Wings) gives her three dash charges into you, W (Ki Burst) stuns on arrival, and E (Valor) both closes distance and blocks your return damage. Tahm has no dash to match that mobility, so he can't force trades on his terms early — he has to wait for her cooldowns to actually be down. That's the whole reason OP.GG measures a Riven lane/solo-kill edge here even though the full-game win rate (51% over 104 games) ends up roughly even.",
+  "tell": {
+   "watch": "Riven's Q charges and E (Valor) timer",
+   "theirWindow": {
+    "when": "all 3 Q charges and W both ready",
+    "what": "She can Q in, Ki Burst stun, Q again, and finish with the knockback Q — don't stand still to trade autos here, hold Thick Skin's shield (E) for the stun landing and back off if you're not already at 3 Acquired Taste stacks."
+   },
+   "yourWindow": {
+    "when": "her Q (13s CD) or E (10-6s CD) just went down",
+    "what": "Step in and freely land Tongue Lash (Q) and autos — each Q and auto builds An Acquired Taste, and once she's at 3 stacks your next Q stuns her instead of just slowing, which is the moment to commit Devour (R)."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Ki Burst stun wins her short trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "Full Q-W-Q combo threatens a solo kill"
+   },
+   {
+    "levels": "6-10",
+    "edge": "even",
+    "note": "Devour online, but Valor blocks one hit"
+   },
+   {
+    "levels": "11-15",
+    "edge": "you",
+    "note": "Heartsteel bulk absorbs her all-in damage"
+   },
+   {
+    "levels": "16-18",
+    "edge": "you",
+    "note": "Full build outlasts her falling-off burst"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "66.2% of Tahm players into this lane start it. The passive block on her auto-attack-leaning Q-into-autos poke pattern matters more than raw stats, since she wants to whittle you with Runic Blade-charged autos between dashes."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "68.6% pick rate and the higher measured win rate (49.4% vs 43.5% for Mercury's Treads). Riven's damage is almost entirely physical autos and Q hits, so flat auto mitigation outvalues magic resist here."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Scales your health, which directly scales An Acquired Taste's bonus damage — the stacking HP is also what lets you tank her all-in windows instead of dying to them."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Standard second item in the two measured build paths that hit 71-86% win rate; keeps your stat growth on pace without giving up the Heartsteel stacking plan."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "The Heartsteel into Dusk and Dawn into Riftmaker path measured 85.7% win rate (small sample, but the highest of the three recorded paths) — the omnivamp lets you win extended E-shielded trades."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Unending Despair",
+     "when": "she's leaning on lifesteal or healing to win extended trades"
+    },
+    {
+     "item": "Thornmail",
+     "when": "she's building crit or attack speed around her empowered autos"
+    },
+    {
+     "item": "Bramble Vest",
+     "when": "her early auto-reliant poke is outpacing your sustain before level 6"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "You can't out-dash her, so you win this lane by winning prolonged auto exchanges instead of burst exchanges — Grasp's periodic bonus health and heal rewards exactly that, and the extra max health also scales your passive's bonus damage.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite",
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Ignite is the top pick at 51.8% and the Ignite DOT is what actually closes out a Devour kill once she's trapped at 3 stacks, since her E (Valor) block can't stop damage-over-time. Flash + Teleport is the measured second option if you'd rather prioritize split-push and TP-ganks over securing early lane kills."
+  },
+  "playing": [
+   {
+    "title": "Don't trade on her Q-W window",
+    "detail": "If all three Broken Wings charges and Ki Burst are both up, you're in her kill window, not yours — hold Thick Skin's shield for the stun and disengage rather than trading autos."
+   },
+   {
+    "title": "Farm through levels 3-5 if behind",
+    "detail": "The data shows Riven has the solo-kill edge in this window. If you can't safely stack Acquired Taste, just take farm — OP.GG's own read on this matchup is to fall back on farming when her cooldowns are up."
+   },
+   {
+    "title": "Punish her dead cooldowns",
+    "detail": "The moment her Q (13s CD) or E (10-9-8-7-6s CD) goes down from an engage or escape, step in and land Tongue Lash plus autos — this is your actual damage window, not a neutral one."
+   },
+   {
+    "title": "Devour only at 3 stacks",
+    "detail": "Don't throw R (Devour) as a panic button — it's strongest once your Q has stunned her from 3 Acquired Taste stacks, since Devour then finishes a champion who can no longer Valor away."
+   },
+   {
+    "title": "Track her ult cooldown resetting to 10s",
+    "detail": "Blade of the Exile's cooldown drops to 10 seconds once she's already used it once in a fight (120/90/60/60/10s by rank), so don't assume she's out of ult mid-fight just because she used it already."
+   },
+   {
+    "title": "Save E for the stun, not the poke",
+    "detail": "Thick Skin's passive already banks damage from her autos automatically — pop the active shield specifically when Ki Burst lands so the stored damage covers her follow-up Q, not her opening poke."
+   }
+  ],
+  "patchCaveat": "The build, boots, starting items, runes, and summoner spells above are OP.GG's measured picks for Tahm Kench into Riven top on the current patch (104 head-to-head games); the win rates and pick rates are real recorded numbers. The cooldown windows, stack-and-stun sequencing, and trade timing are my own tactical reading of the ability kits, not measured data."
+ },
+ "generatedAt": 1791687391364,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791687288789,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 104,
+   "wins": 53,
+   "winRate": 51
+  },
+  "laneAdvantage": "Riven",
+  "soloKillAdvantage": "Riven",
+  "playStyle": "even",
+  "opponentTip": "Riven will close use (Q) and basic attacks to deal damage and retreat with (E) often. Use [Q] when her (Q) is on cooldown to attack her with basic attacks and swallow her with [W] to kill her. However, Riven will gain the upper hand if she uses (Q) to close in again so try to nuke her quickly. Otherwise, focus on farming lane.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 49.3,
+    "play": 71,
+    "pickRate": 51.8
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 48,
+    "play": 25,
+    "pickRate": 18.3
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 30.8,
+    "play": 13,
+    "pickRate": 9.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.1,
+    "play": 71,
+    "pickRate": 49.7
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 66.7,
+    "play": 12,
+    "pickRate": 8.4
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.7,
+    "play": 86,
+    "pickRate": 66.2
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 53.6,
+    "play": 28,
+    "pickRate": 21.5
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 49.4,
+    "play": 85,
+    "pickRate": 68.6
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 43.5,
+    "play": 23,
+    "pickRate": 18.6
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Unending Despair"
+    ],
+    "winRate": 71.4,
+    "play": 7,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 85.7,
+    "play": 7,
+    "pickRate": 11.5
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 50,
+    "play": 6,
+    "pickRate": 9.8
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 53,
+    "play": 117,
+    "pickRate": 83.6
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 56,
+    "play": 84,
+    "pickRate": 60
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 46.7,
+    "play": 30,
+    "pickRate": 21.4
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 48.1,
+    "play": 27,
+    "pickRate": 19.3
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 68.4,
+    "play": 19,
+    "pickRate": 13.6
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 60.9,
+    "play": 23
+   }
+  ]
+ }
+}

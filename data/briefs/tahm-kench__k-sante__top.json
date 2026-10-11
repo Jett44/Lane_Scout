@@ -1,0 +1,384 @@
+{
+ "you": "Tahm Kench",
+ "them": "K'Sante",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Survive early, scale late",
+   "line": "You lose if he lands W (Path Maker) into a 2-stack Q (Ntofo Strikes) pull before level 6; you win if the lane reaches 9+ minutes with you still on your Doran's Shield sustain."
+  },
+  "thesis": "K'Sante has the lane and solo-kill edge because his Q (Ntofo Strikes) builds a stack on every hit and fires a pulling shockwave at 2 stacks, and his W (Path Maker) adds a knockback-stun on top of that — he has hard engage, you don't, until you've stacked three hits of An Acquired Taste on him. Your counter isn't winning trades, it's surviving them: E (Thick Skin) banks damage into a shield, and R (Devour) is a 0-cooldown answer that either eats him for free magic damage once stacked or eats an ally out of his All Out burst.",
+  "tell": {
+   "watch": "K'Sante's E (Footwork) cooldown",
+   "theirWindow": {
+    "when": "His W (Path Maker) visibly charges up",
+    "what": "He's taking reduced damage during the charge and about to dash into a knockback-stun — don't trade into the charge, and assume a Q (Ntofo Strikes) pull is coming right after if he's already at 1 stack."
+   },
+   "yourWindow": {
+    "when": "You've landed 3 stacks of An Acquired Taste on him",
+    "what": "Either Q (Tongue Lash) him again to stun and consume the stacks for a free follow-up trade, or fire R (Devour) immediately — 0 cooldown, pure magic damage, and it removes him from the fight for a few seconds, which is devastating if he just activated R (All Out)."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Early Q+W combo threatens all-in before you have stacks"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "W stun plus Q pull punishes shallow trades"
+   },
+   {
+    "levels": "6-8",
+    "edge": "even",
+    "note": "R (Devour) and W (Abyssal Dive) come online"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Heartsteel HP stacks make Thick Skin shields real"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Devour threatens his All Out; HP overwhelms him"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "47.5% win rate over 122 games and the 73.9% pick for a reason — the passive block and sustain neutralize K'Sante's poke-heavy Q (Ntofo Strikes) trades before you have any stacks built."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "46.3% win rate over 80 games and the majority pick at 54.1% — K'Sante's entire kit is physical autos and Q (Ntofo Strikes) hits, so flat auto-attack reduction matters more here than magic resist boots."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "First item on the highest-win-rate core path (63.6% over 11 games) — stacks HP, which directly scales both your passive attack damage and your E (Thick Skin) shield size."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item on that same 63.6% path — more HP and sustain to out-scale K'Sante's all-in windows into the mid game."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Closes out the 63.6% win-rate path — adds magic penetration and omnivamp so your Q (Tongue Lash) poke and Devour (R) damage actually matter in extended fights."
+    }
+   ],
+   "situational": [
+    {
+     "item": "spirit visage",
+     "when": "the game is going long and you're leaning on Thick Skin (E) and Devour (R) sustain to out-heal his All Out damage"
+    },
+    {
+     "item": "unending despair",
+     "when": "K'Sante's All Out (R) healing is keeping him alive through fights you should be winning"
+    },
+    {
+     "item": "bramble vest",
+     "when": "he's auto-attacking you down in lane before you've stacked three hits of An Acquired Taste"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Procs on autos every 4 seconds for bonus damage and max-health scaling, which stacks the same way your passive and E (Thick Skin) shield do — every trade you take adds to your HP-based power instead of just being a loss.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is the highest win-rate combo at 51.7% and the majority pick at 51.5% — Ignite punishes his early all-in attempts and secures the kill once you've stunned him with a stacked Q (Tongue Lash)."
+  },
+  "playing": [
+   {
+    "title": "Hold Q (Tongue Lash) at max range",
+    "detail": "It's a 900-range poke that slows, heals you on champion hit, and guarantees a stack of An Acquired Taste — use it to build toward the 3-stack stun without walking into his Q (Ntofo Strikes) range."
+   },
+   {
+    "title": "Never trade into his W charge",
+    "detail": "K'Sante takes reduced damage while W (Path Maker) is charging, so any damage you throw in during that window is wasted — back off and wait for the dash to resolve before reengaging."
+   },
+   {
+    "title": "Pop E (Thick Skin) before the stun lands",
+    "detail": "If you see his W (Path Maker) finish charging or his Q (Ntofo Strikes) hit 2 stacks, convert your stored damage into a shield immediately — it's only a 3-second cooldown so you can afford to use it defensively and refresh it."
+   },
+   {
+    "title": "Save R (Devour) for his All Out",
+    "detail": "If you can stack 3 hits on him before he activates R (All Out), eating him with Devour right as he transforms cuts his damage window short entirely — his reduced defenses during All Out make the magic damage hit harder too."
+   },
+   {
+    "title": "Devour an ally to deny his All Out kill",
+    "detail": "R (Devour) also works on allies as a shield-and-hide — if K'Sante's All Out (R) is about to land on your carry, swallowing them removes the target entirely."
+   },
+   {
+    "title": "Don't force kills in lane",
+    "detail": "Solo-kill advantage is his, not yours — play for sustain and scaling with Doran's Shield and Grasp stacks rather than looking for an early all-in you don't have the burst for."
+   },
+   {
+    "title": "Track his E (Footwork) cooldown",
+    "detail": "10 to 8 seconds depending on rank — when it's down he has no dash and no shield, which is your safest window to commit to a full Q-auto trade."
+   }
+  ],
+  "patchCaveat": "The build, runes, summoners, and all win-rate figures above are measured from live games on the current patch (16.20.1) via OP.GG; the ability breakdowns, timing windows, and tactical reasoning are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791687065078,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791686952485,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 136,
+   "wins": 69,
+   "winRate": 50.7
+  },
+  "laneAdvantage": "K'Sante",
+  "soloKillAdvantage": "K'Sante",
+  "playStyle": "even",
+  "opponentTip": null,
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 51.7,
+    "play": 87,
+    "pickRate": 51.5
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 46.8,
+    "play": 47,
+    "pickRate": 27.8
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Flash"
+    ],
+    "winRate": 40,
+    "play": 10,
+    "pickRate": 5.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.6,
+    "play": 103,
+    "pickRate": 59.5
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 28.6,
+    "play": 14,
+    "pickRate": 8.1
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.5,
+    "play": 122,
+    "pickRate": 73.9
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 46.7,
+    "play": 30,
+    "pickRate": 18.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 46.3,
+    "play": 80,
+    "pickRate": 54.1
+   },
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 48.7,
+    "play": 39,
+    "pickRate": 26.4
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 63.6,
+    "play": 11,
+    "pickRate": 20
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 16.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Unending Despair"
+    ],
+    "winRate": 16.7,
+    "play": 6,
+    "pickRate": 10.9
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 50.7,
+    "play": 152,
+    "pickRate": 88.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 55.7,
+    "play": 97,
+    "pickRate": 56.4
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 50,
+    "play": 22,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 54.5,
+    "play": 22,
+    "pickRate": 12.8
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 52.4,
+    "play": 21,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 63.2,
+    "play": 19,
+    "pickRate": 11.1
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 54.5,
+    "play": 33
+   }
+  ]
+ }
+}

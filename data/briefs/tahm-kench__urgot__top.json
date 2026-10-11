@@ -1,0 +1,384 @@
+{
+ "you": "Tahm Kench",
+ "them": "Urgot",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose this lane walking into auto-attack range without three Q stacks built, and you win it by timing R (Devour) onto his all-in or his R (Fear Beyond Death) channel."
+  },
+  "thesis": "Urgot out-pokes you for free with autos, Q (Corrosive Charge, range 800), and W (Purge, range 490) thanks to Echoing Flames, so your only safe damage source before 6 is Q (Tongue Lash, range 900), which outranges all three and heals you on hit. The 48% win rate over 123 games reflects a lane that is decided by stack-and-stun timing, not raw stats — whoever lands the Acquired Taste stun or the Devour combo first wins the exchange, and that depends on tracking his E (Disdain) cooldown, his only escape.",
+  "tell": {
+   "watch": "Urgot's Disdain (E) cooldown",
+   "theirWindow": {
+    "when": "Disdain (E) is up",
+    "what": "He can tank your Q poke, trade autos, and if you commit W (Abyssal Dive) or go for the stun he can shield through and fling you out of his way to disengage clean."
+   },
+   "yourWindow": {
+    "when": "Disdain (E) is on cooldown (16/15.5/15/14.5/14s)",
+    "what": "This is when your all-in sticks. Land the fourth Q hit to consume his three Acquired Taste stacks for the stun, then immediately R (Devour) him — he has no tool left to escape or punish it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "ranged poke before you can close"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q heal offsets his chip damage"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Devour online, punishes his all-in"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "trades gated by Disdain cooldown"
+   },
+   {
+    "levels": "14-18",
+    "edge": "even",
+    "note": "his execute R vs your peel/Devour"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "74.5% pick at 47.5% win rate over 120 games — the passive damage reduction on autos directly answers Urgot's poke-heavy early kit."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "72.1% pick at 42.3% win rate over 111 games — Urgot's Echoing Flames triggers off basic attacks, so flat auto-damage reduction matters more than move speed here."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacks raw health, which scales An Acquired Taste's bonus damage on every hit and feeds Thick Skin's stored-damage shield."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Continues the health-stacking into the mid-game trade window, the strongest measured path (91.7% win rate over 12 games with Riftmaker)."
+    },
+    {
+     "item": "Riftmaker",
+     "why": "Converts the stacked health into sustained magic damage for extended Q/Devour trades, the top-performing third item in the sample."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "urgot is leaning on autos and Purge to win trades rather than Q poke"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "you need more healing amplification out of Thick Skin and Devour in longer fights"
+    },
+    {
+     "item": "Boots of Swiftness",
+     "when": "you need to dodge Corrosive Charge zones and close the gap before Disdain comes back up"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Rewards the sustained auto/Q poke trade this lane is built on, converting health and damage into permanent max-health growth that scales your passive back.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Highest pick rate at 61.4%; Ignite secures the kill the instant your Q-stack stun plus R Devour combo lands, since Urgot's Disdain makes him slippery once he's low."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't walk up",
+    "detail": "Lead every interaction with Q (Tongue Lash, range 900) — it outranges his W (Purge, range 490) and his Q (Corrosive Charge, range 800), slows the first thing it hits, and heals you if it's him."
+   },
+   {
+    "title": "Track Disdain before committing",
+    "detail": "Only go for your all-in — W (Abyssal Dive) engage into the Q-stack stun into R (Devour) — when his E (Disdain) is on cooldown. If it's up he can shield through it and fling you away."
+   },
+   {
+    "title": "Stack to the stun",
+    "detail": "Any damage you land builds Acquired Taste; the hit that brings him to three stacks stuns him and consumes them. Chain your next action straight into R (Devour) for a near-guaranteed burst."
+   },
+   {
+    "title": "Devour his ultimate",
+    "detail": "At level 6+, the moment he channels R (Fear Beyond Death) on you or an ally, Devour him immediately — it removes him from the fight for the duration and the impale never lands."
+   },
+   {
+    "title": "Bank E before his damage lands",
+    "detail": "Thick Skin (E, 3s cooldown) stores a percent of damage taken while out of combat passively. Pop it into a shield right before his Purge channel or Q explosion connects to turn stored damage into free EHP."
+   },
+   {
+    "title": "Respect maxed Purge",
+    "detail": "His W (Purge) drops to a 0s cooldown at rank 5, letting him unload repeatedly in long fights. Don't sit in auto range during extended trades once he's maxed it — disengage and let Q sustain you instead."
+   },
+   {
+    "title": "Prioritize health items over damage",
+    "detail": "Heartsteel and Dusk and Dawn's raw health directly scales your passive's bonus damage on every attack — finish them before detouring into pure damage items."
+   }
+  ],
+  "patchCaveat": "The build order, rune page, summoner spells, and all win-rate/pick-rate figures above come from measured Tahm Kench vs Urgot games on the current patch via OP.GG. The tactical reasoning — Q-range poke priority, tracking Disdain's cooldown, and Devour-the-ultimate timing — is our own read of the mechanics, not part of the sourced data."
+ },
+ "generatedAt": 1791688476519,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791688353447,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 123,
+   "wins": 59,
+   "winRate": 48
+  },
+  "laneAdvantage": "EVEN",
+  "soloKillAdvantage": "EVEN",
+  "playStyle": "even",
+  "opponentTip": "Do not close in often as he deals a lot of consistent damage. Try to use [Q] to poke from afar before closing in for the kill. After reaching level 6, swallow him with [W] when he uses (R) to prevent him from dealing damage or kill him before he activates (R).",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 45,
+    "play": 100,
+    "pickRate": 61.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 66.7,
+    "play": 30,
+    "pickRate": 18.4
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Ghost"
+    ],
+    "winRate": 44.4,
+    "play": 9,
+    "pickRate": 5.5
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 47.2,
+    "play": 89,
+    "pickRate": 54.3
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 50,
+    "play": 20,
+    "pickRate": 12.2
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.5,
+    "play": 120,
+    "pickRate": 74.5
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 47.8,
+    "play": 23,
+    "pickRate": 14.3
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 42.3,
+    "play": 111,
+    "pickRate": 72.1
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 59.3,
+    "play": 27,
+    "pickRate": 17.5
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 91.7,
+    "play": 12,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 58.3,
+    "play": 12,
+    "pickRate": 15.4
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 60,
+    "play": 5,
+    "pickRate": 6.4
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 48.6,
+    "play": 140,
+    "pickRate": 85.4
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 54,
+    "play": 100,
+    "pickRate": 61
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 47.9,
+    "play": 48,
+    "pickRate": 29.3
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 54.8,
+    "play": 31,
+    "pickRate": 18.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 43.5,
+    "play": 23,
+    "pickRate": 14
+   },
+   {
+    "items": [
+     "Riftmaker"
+    ],
+    "winRate": 80,
+    "play": 20,
+    "pickRate": 12.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 51.2,
+    "play": 41
+   }
+  ]
+ }
+}

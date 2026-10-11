@@ -1,0 +1,388 @@
+{
+ "you": "Tahm Kench",
+ "them": "Teemo",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You win the lane and most solo kills if you force trades with Q instead of autos, but you still only convert that edge into a win 48% of the time over 179 games once Teemo's mushrooms and splitpush show up late."
+  },
+  "thesis": "Tongue Lash out-ranges Blinding Dart (900 vs 680) and both slows and heals Tahm, so he can start fights Teemo's blind can't fully shut down. Teemo's whole kit — Q blind, E auto-poison, R mushrooms — is built to chip and deny, not to burst, which is why OP.GG calls the lane and solo-kill edge Tahm's. The catch is that none of that early pressure matters if it isn't spent before Teemo's trap control and kiting scale up, which is why the head-to-head win rate still sits under 50%.",
+  "tell": {
+   "watch": "Teemo's Blinding Dart cooldown",
+   "theirWindow": {
+    "when": "Blinding Dart (8s cd) is up and ready",
+    "what": "Don't lean on autos to close a trade here — blind cancels them outright. Lead with Q (Tongue Lash) for the slow, self-heal, and Acquired Taste stack instead, since blind has no effect on it."
+   },
+   "yourWindow": {
+    "when": "He just used Q, or steps up without it",
+    "what": "Autos land clean and stack Acquired Taste fast. If he's already at 3 stacks, your next Tongue Lash stuns and consumes them — chain straight into R (Devour) for the kill, since Teemo has no dash to escape it."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Blind plus poison autos chip faster than you heal"
+   },
+   {
+    "levels": "3-5",
+    "edge": "even",
+    "note": "Q cooldown drops, stacks build toward the stun"
+   },
+   {
+    "levels": "6-8",
+    "edge": "you",
+    "note": "Devour online, punishes any overextension instantly"
+   },
+   {
+    "levels": "9-13",
+    "edge": "you",
+    "note": "Stun into Devour forces fights he can't dodge"
+   },
+   {
+    "levels": "14-18",
+    "edge": "them",
+    "note": "Mushroom zones and kiting start catching up"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Taken in 77.6% of these games (47.3% win rate, 184-game sample) because the early poke pattern here is Teemo's Q and auto-poison, not burst — the flat damage reduction on autos and sustain outlast his chip."
+   },
+   "boots": {
+    "item": "Mercury's Treads",
+    "why": "63.6% pick rate at 51.7% win rate. Every point of damage Teemo deals — Q, E poison, R mushroom cloud — is magic, so the MR directly answers his entire kit."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Builds the raw health total that scales both your passive's bonus auto damage and your E's stored-damage shield."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Standard follow-up in the measured build path after Heartsteel; keeps your power curve on-track into the mid-game skirmish window where you have the edge."
+    },
+    {
+     "item": "Spirit Visage",
+     "why": "Largest sample size of the listed third items (14 games); the healing amp stacks with Thick Skin's passive regen against Teemo's constant poison ticks."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Thornmail",
+     "when": "their team has a real attack-speed carry you need to punish, not just Teemo himself"
+    },
+    {
+     "item": "Riftmaker",
+     "when": "the game runs long and you need omnivamp to keep winning extended skirmishes"
+    },
+    {
+     "item": "Unending Despair",
+     "when": "their comp has healing or sustain you need to cut with Grievous Wounds"
+    },
+    {
+     "item": "Hollow Radiance",
+     "when": "a second magic-damage threat joins and you need more AoE mitigation than Spirit Visage alone"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "Sustains you through Teemo's chip-damage trading pattern — his kit deals no burst, so passive healing from proc'd Grasp outlasts his poison and blind poke over a full lane phase.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Ignite"
+   ],
+   "why": "Flash+Ignite is both the highest win rate (50.8%) and most-picked (56.4%) combo here — Ignite seals kills on a target with no dash once you land the Q-stack stun or Devour."
+  },
+  "playing": [
+   {
+    "title": "Lead trades with Q, not autos",
+    "detail": "Blinding Dart (8s cd) blinds your basic attacks but can't touch Tongue Lash. Open every trade with Q for the slow, self-heal, and Acquired Taste stack even if he's holding the blind."
+   },
+   {
+    "title": "Stack toward the stun deliberately",
+    "detail": "Every Q hit and auto builds Acquired Taste. At 3 stacks, your next Tongue Lash stuns him and consumes them — hold that fourth stack-hit for when he's already out of position, not just on cooldown."
+   },
+   {
+    "title": "Hold Devour for overextensions",
+    "detail": "R (Devour) deals magic damage to an enemy champion with no cooldown once you're at 3 stacks. Teemo has zero dash or escape — punish every facecheck or greedy CS attempt with an instant Devour."
+   },
+   {
+    "title": "Bank Thick Skin before you commit",
+    "detail": "E passively stores a percent of damage taken while out of combat. Let his poison ticks fill that bank, then pop the active shield right before you engage or walk into a trap zone."
+   },
+   {
+    "title": "Chase the moment you tag him",
+    "detail": "Move Quick (17s cd) grants bonus speed until he's struck by a champion or turret. The instant your auto or Q connects, his passive speed resets — follow up immediately instead of letting him kite off."
+   },
+   {
+    "title": "Scan for mushrooms from level 6 on",
+    "detail": "Noxious Trap places 1s-cd mushrooms that slow and poison on trigger. Check brush and chokepoints before committing to an engage once he has R, since a trap can eat the dive window you're built around."
+   },
+   {
+    "title": "Spend the lead, don't bank it",
+    "detail": "The 48% head-to-head win rate over 179 games means your early lane and solo-kill edge doesn't win games by itself — roam off your stacks and Devour threat to convert pressure onto the map before his late-game trap control and kiting catch up."
+   }
+  ],
+  "patchCaveat": "Build paths, runes, summoners, and all win-rate/pick-rate figures are measured from live OP.GG games on the current patch; the mechanical reasoning and trade-pattern advice are my own read of the ability interactions."
+ },
+ "generatedAt": 1791688063516,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791687945667,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 179,
+   "wins": 86,
+   "winRate": 48
+  },
+  "laneAdvantage": "Tahm Kench",
+  "soloKillAdvantage": "Tahm Kench",
+  "playStyle": "aggressive",
+  "opponentTip": "Teemo’s ranged attacks deal a lot of damage, not to mention his (Q) prevents you from using basic attacks. Try to fight Teemo once you can tank his damage after purchasing tanky items. Try to fight him with [Q] when he is in range.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 50.8,
+    "play": 132,
+    "pickRate": 56.4
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 50,
+    "play": 48,
+    "pickRate": 20.5
+   },
+   {
+    "names": [
+     "Exhaust",
+     "Ghost"
+    ],
+    "winRate": 46.2,
+    "play": 13,
+    "pickRate": 5.6
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 46.3,
+    "play": 108,
+    "pickRate": 44.4
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.5,
+    "play": 33,
+    "pickRate": 13.6
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 47.3,
+    "play": 184,
+    "pickRate": 77.6
+   },
+   {
+    "items": [
+     "Doran's Helm",
+     "Health Potion"
+    ],
+    "winRate": 52.9,
+    "play": 34,
+    "pickRate": 14.4
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Mercury's Treads"
+    ],
+    "winRate": 51.7,
+    "play": 145,
+    "pickRate": 63.6
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 46.7,
+    "play": 45,
+    "pickRate": 19.7
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 50,
+    "play": 14,
+    "pickRate": 11
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 62.5,
+    "play": 8,
+    "pickRate": 6.3
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 100,
+    "play": 6,
+    "pickRate": 4.7
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 51.1,
+    "play": 174,
+    "pickRate": 71
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 48.7,
+    "play": 152,
+    "pickRate": 62
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 50.7,
+    "play": 67,
+    "pickRate": 27.4
+   },
+   {
+    "items": [
+     "Hollow Radiance"
+    ],
+    "winRate": 58.9,
+    "play": 56,
+    "pickRate": 22.9
+   },
+   {
+    "items": [
+     "Unending Despair"
+    ],
+    "winRate": 47.1,
+    "play": 34,
+    "pickRate": 13.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 56.7,
+    "play": 30,
+    "pickRate": 12.2
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 48.6,
+    "play": 74
+   }
+  ]
+ }
+}

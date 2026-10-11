@@ -1,0 +1,385 @@
+{
+ "you": "Tahm Kench",
+ "them": "Illaoi",
+ "lane": "Top",
+ "brief": {
+  "verdict": {
+   "difficulty": "Skill matchup",
+   "line": "You lose this lane the moment you trade inside her E (Test of Spirit) range and eat the level-6 E-into-R combo; you win it by poking at Q (Tongue Lash) range, refusing every spirit-rip, and letting your tank build take over after level 9."
+  },
+  "thesis": "This matchup is decided by one ability: Illaoi's E (Test of Spirit) rips a spirit from you at 900 range that echoes a percentage of damage back and turns you into a Vessel if you can't kill the spirit or stay close to it. Tahm Kench has the longer poke tool in Q (Tongue Lash, 900 range) and a passive stack economy that rewards patience, but every second you spend in extended melee lets her E turn the fight into a ranged execute she controls, and after level 6 that E can be followed by R (Leap of Faith) for a huge burst spike.",
+  "tell": {
+   "watch": "Her E (Test of Spirit) cooldown",
+   "theirWindow": {
+    "when": "Her E (Test of Spirit) is up",
+    "what": "Do not stand and trade. If she rips your spirit, either kill it immediately or disengage to deny the echo damage, and from level 6 on assume a landed E is a setup for R (Leap of Faith) — back off the instant it lands."
+   },
+   "yourWindow": {
+    "when": "Her E is on cooldown (12-16s)",
+    "what": "Step up and poke with Q (Tongue Lash) for the slow, heal, and An Acquired Taste stack. At 3 stacks, Q stuns and consumes them or you can Devour (R) her outright — pick whichever finishes the trade in your favor."
+   }
+  },
+  "powerCurve": [
+   {
+    "levels": "1-2",
+    "edge": "them",
+    "note": "Her early all-in outduels your trades"
+   },
+   {
+    "levels": "3-5",
+    "edge": "them",
+    "note": "E online, punishes any extended trade"
+   },
+   {
+    "levels": "6-8",
+    "edge": "them",
+    "note": "R+E combo spikes burst after six"
+   },
+   {
+    "levels": "9-13",
+    "edge": "even",
+    "note": "Heartsteel health and sustain catch up"
+   },
+   {
+    "levels": "14-18",
+    "edge": "you",
+    "note": "Brick-wall build out-scales her damage"
+   }
+  ],
+  "build": {
+   "start": {
+    "item": "Doran's Shield + Health Potion",
+    "why": "Measured at 53% win rate over 132 games and the overwhelming pick (73.7%). The flat damage block on consecutive autos directly answers her tentacle-swing poke while you heal off Q (Tongue Lash) hits."
+   },
+   "boots": {
+    "item": "Plated Steelcaps",
+    "why": "50.4% win rate over 113 games and 69.8% pick. Her entire kit — autos, tentacle swings, W (Harsh Lesson) follow-ups — is physical, so flat auto-attack reduction is the correct boot."
+   },
+   "core": [
+    {
+     "item": "Heartsteel",
+     "why": "Stacks raw health, which directly scales your passive (An Acquired Taste) bonus damage on autos — the build's first item in the 13.5%-pick, 60%-win Heartsteel line."
+    },
+    {
+     "item": "Dusk and Dawn",
+     "why": "Second item in every measured core path (13.5%-18.9% pick lines); keeps you ahead on stats while you decide which third item punishes her hardest."
+    },
+    {
+     "item": "Thornmail",
+     "why": "Measured at 66.7% win rate over 9 games as the third item. Thornmail's Grievous Wounds directly undercuts the healing her Tentacles give her off every champion hit."
+    }
+   ],
+   "situational": [
+    {
+     "item": "Bramble Vest",
+     "when": "she's leaning on tentacle procs and auto-healing early and you want Grievous Wounds online before Thornmail completes"
+    },
+    {
+     "item": "Spirit Visage",
+     "when": "their team starts layering magic damage on top of her physical poke and you need the extra healing and magic resist"
+    },
+    {
+     "item": "Dark Seal",
+     "when": "you're already ahead on kills/assists and want to snowball the stacking power into a bigger mid-game spike"
+    }
+   ]
+  },
+  "runes": {
+   "keystone": "Grasp of the Undying",
+   "keystoneWhy": "The most-played page (46% pick, 45.3% win rate). Grasp triggers on sustained melee contact, which is exactly what your Q-poke-and-hold pattern generates, and the bonus health it grants also scales your passive damage against her.",
+   "primary": [
+    "Shield Bash",
+    "Second Wind",
+    "Unflinching"
+   ],
+   "secondary": [
+    "Legend: Alacrity",
+    "Triumph"
+   ],
+   "shards": [
+    "Attack Speed",
+    "Health Scaling",
+    "Health Scaling"
+   ]
+  },
+  "summoners": {
+   "picks": [
+    "Flash",
+    "Teleport"
+   ],
+   "why": "Flash + Teleport is the highest-measured combo at 62.5% win rate (17.3% pick), ahead of the more common Flash + Ignite (46.8% win rate, 60% pick). Teleport fits Tahm's scaling, Devour-to-save-allies identity better than an early-kill Ignite line that this matchup's numbers don't actually support."
+  },
+  "playing": [
+   {
+    "title": "Poke, don't duel",
+    "detail": "Use Q (Tongue Lash) at its full 900 range to stack An Acquired Taste and heal yourself without ever walking into her W (Harsh Lesson, 400 range) or E (Test of Spirit, 900 range)."
+   },
+   {
+    "title": "Never fight through a spirit-rip",
+    "detail": "If E (Test of Spirit) lands on you, the spirit must die or you must stay near it to avoid becoming a Vessel — disengage instead of trading through the echo damage."
+   },
+   {
+    "title": "Play for the stun, not just the poke",
+    "detail": "Each Q application stacks An Acquired Taste; at 3 stacks Q stuns her and consumes the stacks, or you can Devour (R, 0 cooldown, 25000 range) her outright — use whichever wins the exchange on the spot."
+   },
+   {
+    "title": "Respect the level-6 E into R",
+    "detail": "Once she hits 6, a landed E (Test of Spirit) can be immediately followed by R (Leap of Faith) for a large burst spike — back off the instant E connects post-6, per the matchup's own measured tip."
+   },
+   {
+    "title": "Devour defensively, not just for damage",
+    "detail": "R (Devour) has no base cooldown and global range — use it to pull an ally out of a bad fight, not only to burst her once you've stacked 3 taste charges."
+   },
+   {
+    "title": "Bank Thick Skin before the burst window",
+    "detail": "E (Thick Skin) stores a percent of damage taken while out of combat; pop the shield right before her tentacle-plus-E burst lands, since the stored damage is wasted if you never convert it."
+   },
+   {
+    "title": "Fight off terrain, not next to walls",
+    "detail": "Her Tentacles spawn on nearby impassable terrain and add free poke damage in melee range; use W (Abyssal Dive) to reposition fights away from walls instead of standing and trading next to them."
+   }
+  ],
+  "patchCaveat": "The build, boots, runes, summoner spells, and all win-rate/pick-rate numbers above are measured from real games on the current patch via OP.GG; the ability mechanics, timing windows, and tactical reading (why the E-rip and the 6-level R combo matter) are my own analysis layered on top of that data."
+ },
+ "generatedAt": 1791687599187,
+ "patch": "16.20.1",
+ "generator": "on-demand",
+ "grounded": true,
+ "stats": {
+  "source": "op.gg",
+  "fetchedAt": 1791687490885,
+  "overall": {
+   "winRate": 50.7,
+   "play": 17962,
+   "tier": 3
+  },
+  "headToHead": {
+   "play": 141,
+   "wins": 73,
+   "winRate": 51.8
+  },
+  "laneAdvantage": "Illaoi",
+  "soloKillAdvantage": "Illaoi",
+  "playStyle": "even",
+  "opponentTip": "Avoid Illaoi’s (E) and retreat once hit with it. Try to fight her when (E) is on cooldown. After reaching level 6, be careful of her (E) as she can follow up with (R) to deal a lot of damage.",
+  "spells": [
+   {
+    "names": [
+     "Flash",
+     "Ignite"
+    ],
+    "winRate": 46.8,
+    "play": 111,
+    "pickRate": 60
+   },
+   {
+    "names": [
+     "Flash",
+     "Teleport"
+    ],
+    "winRate": 62.5,
+    "play": 32,
+    "pickRate": 17.3
+   },
+   {
+    "names": [
+     "Ghost",
+     "Ignite"
+    ],
+    "winRate": 55.6,
+    "play": 9,
+    "pickRate": 4.9
+   }
+  ],
+  "runes": [
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Unflinching"
+    ],
+    "secondaryTree": "Precision",
+    "secondary": [
+     "Legend: Alacrity",
+     "Triumph"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 45.3,
+    "play": 86,
+    "pickRate": 46
+   },
+   {
+    "primaryTree": "Resolve",
+    "primary": [
+     "Grasp of the Undying",
+     "Shield Bash",
+     "Second Wind",
+     "Revitalize"
+    ],
+    "secondaryTree": "Domination",
+    "secondary": [
+     "Ultimate Hunter",
+     "Cheap Shot"
+    ],
+    "shards": [
+     "Attack Speed",
+     "Health Scaling",
+     "Health Scaling"
+    ],
+    "winRate": 54.2,
+    "play": 24,
+    "pickRate": 12.8
+   }
+  ],
+  "starter": [
+   {
+    "items": [
+     "Doran's Shield",
+     "Health Potion"
+    ],
+    "winRate": 53,
+    "play": 132,
+    "pickRate": 73.7
+   },
+   {
+    "items": [
+     "Doran's Ring",
+     "Health Potion",
+     "Health Potion"
+    ],
+    "winRate": 48.3,
+    "play": 29,
+    "pickRate": 16.2
+   }
+  ],
+  "boots": [
+   {
+    "items": [
+     "Plated Steelcaps"
+    ],
+    "winRate": 50.4,
+    "play": 113,
+    "pickRate": 69.8
+   },
+   {
+    "items": [
+     "Boots of Swiftness"
+    ],
+    "winRate": 62.5,
+    "play": 24,
+    "pickRate": 14.8
+   }
+  ],
+  "core": [
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Riftmaker"
+    ],
+    "winRate": 60,
+    "play": 10,
+    "pickRate": 13.5
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Thornmail"
+    ],
+    "winRate": 66.7,
+    "play": 9,
+    "pickRate": 12.2
+   },
+   {
+    "items": [
+     "Heartsteel",
+     "Dusk and Dawn",
+     "Spirit Visage"
+    ],
+    "winRate": 66.7,
+    "play": 3,
+    "pickRate": 4.1
+   }
+  ],
+  "lateOptions": [
+   {
+    "items": [
+     "Heartsteel"
+    ],
+    "winRate": 51.8,
+    "play": 166,
+    "pickRate": 85.1
+   },
+   {
+    "items": [
+     "Dusk and Dawn"
+    ],
+    "winRate": 57.1,
+    "play": 105,
+    "pickRate": 53.9
+   },
+   {
+    "items": [
+     "Thornmail"
+    ],
+    "winRate": 51.5,
+    "play": 66,
+    "pickRate": 33.9
+   },
+   {
+    "items": [
+     "Bramble Vest"
+    ],
+    "winRate": 43.4,
+    "play": 53,
+    "pickRate": 27.2
+   },
+   {
+    "items": [
+     "Spirit Visage"
+    ],
+    "winRate": 43.5,
+    "play": 23,
+    "pickRate": 11.8
+   },
+   {
+    "items": [
+     "Dark Seal"
+    ],
+    "winRate": 45,
+    "play": 20,
+    "pickRate": 10.3
+   }
+  ],
+  "skillOrder": [
+   {
+    "order": [
+     "Q",
+     "W",
+     "E",
+     "Q",
+     "Q",
+     "R",
+     "Q",
+     "W",
+     "Q",
+     "W",
+     "R",
+     "W",
+     "W",
+     "E",
+     "E"
+    ],
+    "winRate": 53.6,
+    "play": 56
+   }
+  ]
+ }
+}
